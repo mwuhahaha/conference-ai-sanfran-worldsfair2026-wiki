@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed|Mousepower: agents that can’t be measured, can’t be managed.]]
 
 ### Media Signals
-- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
+- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.
-- Evidence links for `youtube-BZtD0yYAgCQ`: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
+- Evidence links for `youtube-BZtD0yYAgCQ` (supporting context only): [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]

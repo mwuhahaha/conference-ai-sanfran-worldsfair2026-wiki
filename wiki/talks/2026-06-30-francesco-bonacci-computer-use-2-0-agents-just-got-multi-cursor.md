@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-ZSQb5fzRFPw-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-ZSQb5fzRFPw`
+- Slide deck: [[youtube-ZSQb5fzRFPw-slides|Slides: ZSQb5fzRFPw]] — 17 visible slide image(s).
+![[assets/slides/ZSQb5fzRFPw/slide-001.jpg]]
+![[assets/slides/ZSQb5fzRFPw/slide-002.jpg]]
+![[assets/slides/ZSQb5fzRFPw/slide-003.jpg]]
+- Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
+- Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
+- Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -47,9 +57,6 @@ No official session recording transcript was found by exact title match on the A
 ## People
 - [[francesco-bonacci]]
 - [[dillon-dupont]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown

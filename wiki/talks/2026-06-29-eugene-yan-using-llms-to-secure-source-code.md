@@ -41,9 +41,9 @@ Models are now finding and fixing real vulnerabilities at scale. Drawing on Anth
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-2vlCqD6igVA` — 10 slide-derived text signals
+- `youtube-2vlCqD6igVA` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- Evidence links for `youtube-2vlCqD6igVA` (supporting context only): [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

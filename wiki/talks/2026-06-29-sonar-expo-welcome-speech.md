@@ -40,9 +40,8 @@ No official description published in the schedule data.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
-- Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
+- `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

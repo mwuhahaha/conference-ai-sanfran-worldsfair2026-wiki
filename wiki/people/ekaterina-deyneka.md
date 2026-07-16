@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
 
 ### Media Signals
-- `youtube-AheG9p_JXVw` — 1,340 transcript words
+- `youtube-AheG9p_JXVw` — 1,340 transcript words; role: supporting context only.
 - Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
-- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- Evidence links for `youtube-AheG9p_JXVw` (supporting context only): [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]

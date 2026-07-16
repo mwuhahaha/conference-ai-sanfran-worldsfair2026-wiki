@@ -28,4 +28,7 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]

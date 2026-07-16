@@ -31,3 +31,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/B9h9ovW5
 - [[youtube-B9h9ovW5H9U-dense-slides]]
 - [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
+
+## Transcript Markdown
+- [[youtube-B9h9ovW5H9U-transcript]] — full cached transcript markdown.

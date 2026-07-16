@@ -50,13 +50,13 @@ Every agent is a while loop. The model takes strings in and produces strings out
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-HT4l0DeP69I` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
-- Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-HT4l0DeP69I` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
+- Evidence links for `youtube-HT4l0DeP69I` (supporting context only): [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -77,11 +77,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-HT4l0DeP69I-reconstructed-slides]]
 - [[youtube-HT4l0DeP69I-slides]]
 - Slide-derived terms: `models`, `amazon`, `microsoft`, `bedrock`, `model`, `prompt`, `mike`, `system`, `master`, `roll`, `claude`, `chat`, `select`, `nova`, `learn`, `world`, `ate-wf-2025-demos`, `grand`
-
-## Livestream Segment
-- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Match basis: speaker and title; timed captions matched Mike Chambers, engineering, harness.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
@@ -116,3 +111,8 @@ Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

@@ -39,9 +39,9 @@ Everyone agrees agents need code execution. That agreement lasts right up until 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
-- Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- Evidence links for `youtube-bmWZk9vTze0` (supporting context only): [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

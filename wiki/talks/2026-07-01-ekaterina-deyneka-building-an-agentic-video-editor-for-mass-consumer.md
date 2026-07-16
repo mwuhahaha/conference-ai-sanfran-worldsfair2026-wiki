@@ -44,9 +44,9 @@ No related AI Engineer channel video found yet.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-AheG9p_JXVw` — 1,340 transcript words
+- `youtube-AheG9p_JXVw` — 1,340 transcript words; role: supporting context only.
 - Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
-- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- Evidence links for `youtube-AheG9p_JXVw` (supporting context only): [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

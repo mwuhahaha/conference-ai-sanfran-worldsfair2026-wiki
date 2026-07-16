@@ -42,9 +42,11 @@ At AI Engineer Europe, two of the best speakers gave directly opposite advice. Z
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-Lcqat4iP_lE` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
-- Evidence links for `youtube-Lcqat4iP_lE`: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
+- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
+- `youtube-Lcqat4iP_lE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Lcqat4iP_lE` (supporting context only): [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

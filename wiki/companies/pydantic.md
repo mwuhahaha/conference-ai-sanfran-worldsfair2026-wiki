@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
 
 ### Media Signals
-- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
-- Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- Evidence links for `youtube-bmWZk9vTze0` (supporting context only): [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

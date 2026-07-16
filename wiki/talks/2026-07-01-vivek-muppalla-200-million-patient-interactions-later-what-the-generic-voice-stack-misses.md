@@ -40,9 +40,8 @@ A healthcare voice agent can be right on the benchmark and still fail in product
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-u3NofYYstaY` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
-- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- `youtube-u3NofYYstaY` — source page linked; role: supporting context only.
+- Evidence links for `youtube-u3NofYYstaY` (supporting context only): [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

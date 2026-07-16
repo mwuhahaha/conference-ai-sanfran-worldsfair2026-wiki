@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
 
 ### Media Signals
-- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals
+- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
-- Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+- Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]

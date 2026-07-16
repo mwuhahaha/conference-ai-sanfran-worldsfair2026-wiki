@@ -36,9 +36,11 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
+- `youtube-uIiA6DquRiE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]]
+- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
-- Evidence links for `youtube-OkEGJ5G3foU`: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals
+- Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
-- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

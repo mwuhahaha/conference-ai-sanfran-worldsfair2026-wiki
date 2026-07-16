@@ -33,6 +33,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
 
 ### Media Signals
-- `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
-- Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
+- `youtube-wNH3q9pqn0U` — source page linked; role: supporting context only.
+- Evidence links for `youtube-wNH3q9pqn0U` (supporting context only): [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

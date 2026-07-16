@@ -30,13 +30,17 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
 
 ### Media Signals
-- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
-- Evidence links for `youtube-fL1iJHtl51Q`: [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+- Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 
 ## Livestream Appearances
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — [watch at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) in WF2026: Software Factories & Keynotes (Day 1).

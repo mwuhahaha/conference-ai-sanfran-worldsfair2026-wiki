@@ -28,6 +28,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases|Benchmarking Coding Agents on New vs Legacy Code bases]]
 
 ### Media Signals
-- `youtube-SbUxRluVRwk` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
-- Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
+- `youtube-SbUxRluVRwk` — source page linked; role: supporting context only.
+- Evidence links for `youtube-SbUxRluVRwk` (supporting context only): [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]

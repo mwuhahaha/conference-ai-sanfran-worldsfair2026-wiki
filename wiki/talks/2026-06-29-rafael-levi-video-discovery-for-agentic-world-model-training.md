@@ -40,8 +40,8 @@ Physical AI had its “Attention Is All You Need” moment with the rise of Visi
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-zTZ0qunQXnM` — source page linked
-- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
+- `youtube-zTZ0qunQXnM` — source page linked; role: supporting context only.
+- Evidence links for `youtube-zTZ0qunQXnM` (supporting context only): [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

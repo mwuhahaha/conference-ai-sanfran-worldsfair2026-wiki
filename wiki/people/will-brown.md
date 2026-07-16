@@ -35,9 +35,13 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards|Reinforcement Learning without Verifiable Rewards]]
 
 ### Media Signals
-- `youtube-PbHm2qKnu10` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
-- Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
-- `youtube-JIsgyk0Paic` — 8 slide-derived text signals
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-JIsgyk0Paic` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
-- Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+- Evidence links for `youtube-JIsgyk0Paic` (supporting context only): [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+- `youtube-PbHm2qKnu10` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
+- Evidence links for `youtube-PbHm2qKnu10` (supporting context only): [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]

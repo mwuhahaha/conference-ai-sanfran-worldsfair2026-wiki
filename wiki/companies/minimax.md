@@ -34,9 +34,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it|Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
-- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

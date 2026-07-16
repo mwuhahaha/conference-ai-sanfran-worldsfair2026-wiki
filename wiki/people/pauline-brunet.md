@@ -26,4 +26,7 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]

@@ -41,9 +41,9 @@ Human-agent collaboration is changing, becoming more visual. The agents most tea
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-WJjInLeaJjo` — 3 slide-derived text signals
+- `youtube-WJjInLeaJjo` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
-- Evidence links for `youtube-WJjInLeaJjo`: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
+- Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

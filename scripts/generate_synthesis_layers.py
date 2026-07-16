@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
-"""Generate Worldsfair synthesis layers and internal operator-scoring receipts."""
+"""Generate Worldsfair synthesis layers and private quality-gate receipts."""
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
-RAW = ROOT / "raw" / "sources"
-INTERNAL_SCORING_DIR = ROOT / ".ops" / "state" / "cache" / "operator-scoring"
-INTERNAL_SCORING_PROFILE = INTERNAL_SCORING_DIR / "credibility-scoring-profile.json"
+PRIVATE_QUALITY_DIR = ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-quality"
+PRIVATE_POLICY_PROFILE = ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-policy.json"
+INTERNAL_SYNTHESIS_DIR = ROOT / ".ops" / "state" / "cache" / "synthesis-layers"
 
 
 def slugify(value: str) -> str:
@@ -59,6 +61,26 @@ def upsert_section(text: str, heading: str, body: str) -> str:
     if pattern.search(text):
         return pattern.sub(section, text)
     return text.rstrip() + "\n" + section
+
+
+def without_sections(text: str, headings: tuple[str, ...]) -> str:
+    alternatives = "|".join(re.escape(heading) for heading in headings)
+    pattern = re.compile(
+        rf"\n## (?:{alternatives})\n.*?(?=\n## |\Z)",
+        re.S,
+    )
+    return pattern.sub("", text).rstrip() + "\n"
+
+
+def replace_owned_section(
+    text: str,
+    heading: str,
+    body: str,
+    *,
+    legacy_headings: tuple[str, ...] = (),
+) -> str:
+    cleaned = without_sections(text, (heading, *legacy_headings))
+    return upsert_section(cleaned, heading, body)
 
 
 HARNESS_PAGES = [
@@ -700,16 +722,16 @@ def render_index(title: str, category: str, intro: str, records: list[dict]) -> 
     return "\n".join(lines)
 
 
-def score_fixture(policy: dict, fixture: dict) -> float:
+def evaluate_private_fixture(policy: dict, fixture: dict) -> float:
     weights = policy["weights"]
     signals = fixture["signals"]
     return round(sum(weights[key] * float(signals.get(key, 0)) for key in weights), 2)
 
 
-def load_internal_scoring_profile() -> dict:
-    if not INTERNAL_SCORING_PROFILE.exists():
+def load_private_policy_profile() -> dict:
+    if not PRIVATE_POLICY_PROFILE.exists():
         return {"policies": [], "evalFixtures": []}
-    return json.loads(INTERNAL_SCORING_PROFILE.read_text(encoding="utf-8"))
+    return json.loads(PRIVATE_POLICY_PROFILE.read_text(encoding="utf-8"))
 
 
 def generate_harnesses() -> list[dict]:
@@ -811,14 +833,14 @@ def generate_evaluations() -> list[dict]:
     return records
 
 
-def generate_internal_scoring_receipts() -> tuple[list[dict], list[dict]]:
-    profile = load_internal_scoring_profile()
+def generate_private_quality_receipts() -> tuple[list[dict], list[dict]]:
+    profile = load_private_policy_profile()
     policies = {policy["slug"]: policy for policy in profile.get("policies", [])}
     fixtures_by_policy: dict[str, list[dict]] = {slug: [] for slug in policies}
     results = []
     for fixture in profile.get("evalFixtures", []):
         policy = policies[fixture["policy"]]
-        score = score_fixture(policy, fixture)
+        score = evaluate_private_fixture(policy, fixture)
         result = "pass" if score >= fixture["expectedMin"] else "fail"
         row = {
             "policy": fixture["policy"],
@@ -838,22 +860,22 @@ def generate_internal_scoring_receipts() -> tuple[list[dict], list[dict]]:
             "weightsTotal": sum(policy["weights"].values()),
             "evalFixtures": fixtures_by_policy[policy["slug"]],
         }
-        write(INTERNAL_SCORING_DIR / "policies" / f"{policy['slug']}.json", json.dumps(policy_doc, indent=2, ensure_ascii=False))
+        write(PRIVATE_QUALITY_DIR / "policies" / f"{policy['slug']}.json", json.dumps(policy_doc, indent=2, ensure_ascii=False))
         records.append(
             {
                 "id": policy["slug"],
                 "title": policy["title"],
-                "path": f".ops/state/cache/operator-scoring/policies/{policy['slug']}.json",
+                "path": f".ops/state/cache/wiki-maker/private-quality/policies/{policy['slug']}.json",
                 "topic": policy["topic"],
                 "version": policy["version"],
             }
         )
-    write(INTERNAL_SCORING_DIR / "operator-eval-results.json", json.dumps(results, indent=2, ensure_ascii=False))
-    write(INTERNAL_SCORING_DIR / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
+    write(PRIVATE_QUALITY_DIR / "check-results.json", json.dumps(results, indent=2, ensure_ascii=False))
+    write(PRIVATE_QUALITY_DIR / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
     failures = [row for row in results if row["result"] != "pass"]
     if failures:
         names = ", ".join(f"{row['policy']}:{row['name']}" for row in failures)
-        raise SystemExit(f"internal operator-scoring eval failures: {names}")
+        raise SystemExit(f"private quality-gate failures: {names}")
     return records, results
 
 
@@ -872,7 +894,10 @@ def topic_evidence_rows(topic_slug: str) -> list[dict]:
     path = WIKI / "topics" / f"{topic_slug}.md"
     if not path.exists():
         return []
-    text = path.read_text(encoding="utf-8", errors="ignore")
+    text = without_sections(
+        path.read_text(encoding="utf-8", errors="ignore"),
+        ("Source Coverage", "Evidence Table", "Representative Evidence Links"),
+    )
     refs = []
     for raw in re.findall(r"\[\[([^\]]+)\]\]", text):
         target = raw.split("|", 1)[0].split("#", 1)[0].strip()
@@ -918,7 +943,7 @@ def update_topic_evidence_tables() -> dict:
         }
         for category in sorted(counts):
             table.append(f"| {category} | {counts[category]} | {review_notes.get(category, review_notes['other'])} |")
-        table.extend(["", "## Representative Evidence Links"])
+        table.append("")
         for category in ["talks", "resources", "slides", "transcripts", "tools", "questions"]:
             samples = [row["ref"] for row in rows if row["category"] == category][:6]
             if samples:
@@ -926,9 +951,20 @@ def update_topic_evidence_tables() -> dict:
                 table.extend(f"- [[{ref}]]" for ref in samples)
                 table.append("")
         text = path.read_text(encoding="utf-8")
-        write(path, upsert_section(text, "Evidence Table", "\n".join(table)))
+        write(
+            path,
+            replace_owned_section(
+                text,
+                "Source Coverage",
+                "\n".join(table),
+                legacy_headings=("Evidence Table", "Representative Evidence Links"),
+            ),
+        )
         summary[topic] = counts
-    write(RAW / "topic-evidence-table-summary.json", json.dumps(summary, indent=2, ensure_ascii=False))
+    write(
+        INTERNAL_SYNTHESIS_DIR / "topic-evidence-table-summary.json",
+        json.dumps(summary, indent=2, ensure_ascii=False),
+    )
     return summary
 
 
@@ -1065,7 +1101,6 @@ def update_agent_source_index() -> None:
         [
             "- `python3 scripts/generate_synthesis_layers.py` - generate claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors.",
             "- The same generator also seeds evidence-backed claims and reusable patterns when the local evidence graph supports them.",
-            "- Internal operator-scoring artifacts, if present, are saved only under `.ops/state/cache/operator-scoring/` and must not be published to wiki pages, raw public sources, or the agent index.",
         ]
     )
     write(path, upsert_section(text, "Synthesis Layer", body))
@@ -1093,8 +1128,8 @@ def write_receipt(counts: dict) -> str:
         f"- Evaluation pages: {counts['evaluations']}",
         f"- Topic evidence tables updated: {counts['topic_tables']}",
         f"- Livestream thematic anchor pages: {counts['livestream_anchor_pages']}",
-        f"- Internal operator-scoring profiles checked: {counts['internal_scoring_profiles']}",
-        f"- Internal operator-scoring eval fixtures checked: {counts['internal_scoring_evals']}",
+        f"- Private quality policies checked: {counts['private_quality_policies']}",
+        f"- Private quality fixtures checked: {counts['private_quality_checks']}",
         "",
         "Key outputs:",
         "- `wiki/harnesses/`",
@@ -1102,23 +1137,31 @@ def write_receipt(counts: dict) -> str:
         "- `wiki/patterns/`",
         "- `wiki/playbooks/`",
         "- `wiki/evaluations/`",
-        "- `raw/sources/topic-evidence-table-summary.json`",
         "- `wiki/resources/livestream-thematic-anchors.md`",
-        "- `.ops/state/cache/operator-scoring/` (internal only; ignored)",
+        "- `.ops/state/cache/synthesis-layers/topic-evidence-table-summary.json` (internal; ignored)",
+        "- `.ops/state/cache/wiki-maker/private-quality/` (internal only; ignored)",
         "",
-        "Boundary: operator-scoring artifacts are internal-only and are not emitted to public wiki pages, raw public sources, the static site, or the agent index.",
+        "Boundary: private quality artifacts are not emitted to public wiki pages, raw public sources, the static site, or the agent index.",
     ]
     write(ROOT / rel, "\n".join(lines))
     return rel
 
 
-def main() -> int:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Regenerate evidence-backed synthesis layers and private receipts."
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    parse_args(argv)
     claims = generate_claims()
     patterns = generate_patterns()
     harnesses = generate_harnesses()
     evaluations = generate_evaluations()
     playbooks = generate_playbooks()
-    scoring_records, scoring_results = generate_internal_scoring_receipts()
+    private_policy_records, private_check_results = generate_private_quality_receipts()
     topic_summary = update_topic_evidence_tables()
     generate_livestream_thematic_anchors()
     generate_main_index()
@@ -1130,8 +1173,8 @@ def main() -> int:
             "patterns": len(patterns),
             "playbooks": len(playbooks),
             "evaluations": len(evaluations),
-            "internal_scoring_profiles": len(scoring_records),
-            "internal_scoring_evals": len(scoring_results),
+            "private_quality_policies": len(private_policy_records),
+            "private_quality_checks": len(private_check_results),
             "topic_tables": len(topic_summary),
             "livestream_anchor_pages": 1,
         }
@@ -1144,8 +1187,8 @@ def main() -> int:
                 "pattern_pages": len(patterns),
                 "playbook_pages": len(playbooks),
                 "evaluation_pages": len(evaluations),
-                "internal_scoring_profiles": len(scoring_records),
-                "internal_scoring_eval_fixtures": len(scoring_results),
+                "private_quality_policies": len(private_policy_records),
+                "private_quality_checks": len(private_check_results),
                 "topic_tables": len(topic_summary),
                 "livestream_anchor_pages": 1,
                 "receipt": receipt,
@@ -1157,4 +1200,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(sys.argv[1:]))

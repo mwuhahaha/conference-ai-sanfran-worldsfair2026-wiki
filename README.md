@@ -38,35 +38,57 @@ npm run build
 
 The build sanitizes public text, refreshes the agent index, normalizes article section shapes by page type, then writes the deployable static site to `dist/`. The export includes the complete wiki-link dataset at `dist/graph-data.json`, an evidence-bearing semantic dataset at `dist/relationship-data.json`, the relationship explorer at `dist/graph/index.html`, and the full advanced graph at `dist/graph/all/index.html`.
 
-## Wiki Toolkit
+## Unified Wiki Update
 
-Useful recurring tools:
+`.wiki-maker.json` is the project profile for ordered, trigger-aware wiki
+maintenance. From this repository, the authoritative official-media update is
+one pipeline command:
 
 ```bash
-python3 scripts/discover_external_event_videos.py --write-wiki --import-high-confidence --update-talk-pages
-python3 scripts/generate_transcript_markdown_pages.py
-python3 scripts/generate_talk_synthesis.py --speaker "Liad Yosef"
-python3 scripts/generate_highlights.py
-python3 scripts/generate_synthesis_layers.py
-python3 scripts/enrich_evolution_context.py --all
-python3 scripts/normalize_article_shapes.py
-python3 scripts/run_slide_ocr_pipeline.py
-python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log
-python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider codex-cli --internal-eval-log
-python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log
+wiki-from-topic-maker update . \
+  --change-type media \
+  --source raw/sources/official-wf26-video-manifest.json \
+  --json
 ```
 
-The external video discovery tool searches YouTube beyond the official AI Engineer channel, scores candidates against the official schedule, treats high-confidence matches as secondary sources only, and writes its audit report to `wiki/resources/external-video-discovery.md`.
+The maker computes a deterministic plan from the source change and profile,
+runs the configured adapters in a private candidate workspace, validates the
+public boundary, and promotes the validated wiki and static agent product
+locally. It does not deploy the site externally. The official YouTube monitor
+invokes this same update entry point once when it has admitted new event media;
+it does not maintain a separate generator chain.
 
-The talk synthesis tool adds transcript/source-backed sections to talk pages. The highlight generator publishes both the normal highlights index and the grouped `Highlighted Concepts, People, And Talks` map.
+The current admitted official-media corpus remains 22 items: 17 recordings, 2
+scheduled premieres, and 3 event livestreams. The generated transcript layer
+contains 114 pages, labeled as 18 primary-event transcripts and 96 supporting
+context transcripts. Final local run `update-20260716T215951Z-e366f7cbd6`
+completed and promoted snapshot
+`snapshot:2c83d7569c73047af50d86924ca8eaf7ca073fb6894af029cfc6450fda9e22bd`;
+no external deployment was performed. Repeating the same update is a no-op.
 
-The synthesis layer generator publishes claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors. It must not emit internal scoring artifacts into public wiki pages, public raw sources, or the agent index.
+Private review-policy bootstrap data lives only at the ignored local path
+`.ops/state/cache/wiki-maker/private-policy.json`, referenced through
+`.wiki-maker.json`. Never copy that file or its contents into `wiki/`,
+`raw/sources/`, `dist/`, the agent index, or another publishable artifact.
 
-The evolution-context enricher adds reviewed `How This Theme Evolved`, `Why This Matters Now`, and `Practical Lesson` sections to configured topic or synthesis pages. Its portable profile lives at `raw/sources/evolution-context-profile.json`. Earlier wikis are comparison context only; a section is emitted only when the target page already links to the profile's required local evidence. Preview with `python3 scripts/enrich_evolution_context.py --all --dry-run`, apply with `python3 scripts/enrich_evolution_context.py --all`, then normalize article shapes.
+## Diagnostic Toolkit
+
+Input acquisition and repair tools can still prepare source artifacts. Direct
+generator, enricher, normalizer, and exporter invocations are stage-level
+debugging tools only; they are not a completed production update and must not
+replace the maker command above.
+
+The external video discovery tool searches YouTube beyond the official AI Engineer channel, requires conservative corroboration against the official schedule, treats admitted matches as secondary sources only, and writes its audit report to `wiki/resources/external-video-discovery.md`.
+
+The talk synthesis tool adds transcript/source-backed sections to talk pages. The highlight generator publishes both the normal highlights index and the grouped `Highlighted Concepts, People, And Talks` map. Invoke either directly only to diagnose its stage in isolation.
+
+The synthesis layer generator publishes claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors. It must not emit private review-policy artifacts into public wiki pages, public raw sources, or the agent index.
+
+The evolution-context enricher adds reviewed `How This Theme Evolved`, `Why This Matters Now`, and `Practical Lesson` sections to configured topic or synthesis pages. Its portable profile lives at `raw/sources/evolution-context-profile.json`. Earlier wikis are comparison context only; a section is emitted only when the target page already links to the profile's required local evidence. The maker applies this stage. `python3 scripts/enrich_evolution_context.py --all --dry-run` is available only for a bounded diagnostic preview.
 
 The article shape normalizer keeps page types consistent without forcing every article into the same outline. Talks use a session-article shape, people use a profile shape, companies use an organization shape, topics use a concept-article shape, and question/harness/playbook/evaluation pages use synthesis shapes. It folds explicit "what/why/how" style headings into more agent-friendly sections such as `Overview`, `Conference Context`, `Significance`, `Technical Model`, `Applied Use`, `Connections`, and `Evidence Graph`. `npm run build` runs this normalizer before export.
 
-The slide OCR pipeline rereads weak or suspicious slide frames with local OCR engines, crop detection, OpenCV preprocessing, and high-contrast variants. It compares those outputs with existing Tesseract/RapidOCR/reconstructed/dense OCR artifacts, updates canonical slide OCR only when the score improves, refreshes slide markdown, regenerates dependent tool/topic indexes, and writes an audit report. For a narrow debug run, use `python3 scripts/run_slide_ocr_pipeline.py --limit 50 --no-build`.
+The slide OCR pipeline rereads weak or suspicious slide frames with local OCR engines, crop detection, OpenCV preprocessing, and high-contrast variants. It compares those outputs with existing Tesseract/RapidOCR/reconstructed/dense OCR artifacts, updates canonical slide OCR only when quality improves, refreshes slide markdown, regenerates dependent tool/topic indexes, and writes an audit report. For a narrow debug run, use `python3 scripts/run_slide_ocr_pipeline.py --limit 50 --no-build`.
 
 For a fuller quality pass, run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log`. The five free/local improvement paths now supported by the toolkit are: OpenCV crop/threshold preprocessing, RapidOCR live rereads, PaddleOCR rescue reads, EasyOCR/docTR adapter hooks for CPU/GPU installs that provide Torch cleanly, and Surya as an explicit opt-in after checking model-weight license terms. PaddleOCR is available as a targeted rescue engine, but it is too slow for default whole-corpus runs on this host. Operator-verified text belongs under `raw/sources/slide-ocr-operator-verified/`; run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log` to merge those corrections without rerunning live OCR. Internal eval logs are written under `.ops/state/cache/` and are intentionally ignored by git.
 

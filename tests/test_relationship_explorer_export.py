@@ -1,3 +1,4 @@
+import os
 import sys
 import tempfile
 import unittest
@@ -12,6 +13,51 @@ import export_static_site
 
 
 class RelationshipExplorerExportTests(unittest.TestCase):
+    def test_staged_export_clears_candidate_target_without_replacing_link(self):
+        with tempfile.TemporaryDirectory() as directory:
+            run_root = Path(directory)
+            workspace = run_root / "workspace"
+            target = run_root / "staging" / "site"
+            workspace.mkdir()
+            target.mkdir(parents=True)
+            (target / "old.html").write_text("old", encoding="utf-8")
+            dist = workspace / "dist"
+            dist.symlink_to(target, target_is_directory=True)
+
+            with (
+                patch.object(export_static_site, "ROOT", workspace),
+                patch.object(export_static_site, "DIST", dist),
+                patch.dict(os.environ, {"WIKI_MAKER_STAGED_UPDATE": "1"}),
+            ):
+                export_static_site.prepare_dist_root()
+
+            self.assertTrue(dist.is_symlink())
+            self.assertTrue(target.is_dir())
+            self.assertEqual(list(target.iterdir()), [])
+
+    def test_staged_export_refuses_unrelated_dist_symlink(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            run_root = root / "run"
+            workspace = run_root / "workspace"
+            outside = root / "outside"
+            workspace.mkdir(parents=True)
+            (run_root / "staging" / "site").mkdir(parents=True)
+            outside.mkdir()
+            dist = workspace / "dist"
+            dist.symlink_to(outside, target_is_directory=True)
+
+            with (
+                patch.object(export_static_site, "ROOT", workspace),
+                patch.object(export_static_site, "DIST", dist),
+                patch.dict(os.environ, {"WIKI_MAKER_STAGED_UPDATE": "1"}),
+                self.assertRaisesRegex(RuntimeError, "does not target"),
+            ):
+                export_static_site.prepare_dist_root()
+
+            self.assertTrue(dist.is_symlink())
+            self.assertTrue(outside.is_dir())
+
     def test_relationship_page_is_search_first_and_keeps_advanced_dataset(self):
         with tempfile.TemporaryDirectory() as directory:
             dist = Path(directory)

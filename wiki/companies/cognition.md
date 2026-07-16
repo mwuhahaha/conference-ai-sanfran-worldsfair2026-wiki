@@ -32,9 +32,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-nader-khalil-model-routing|Model Routing]]
 
 ### Media Signals
-- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
-- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
+- Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

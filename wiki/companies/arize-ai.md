@@ -51,16 +51,16 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it|How long can your skills be before your agent forgets what you told it?]]
 
 ### Media Signals
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
-- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
-- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
-- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
 - Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
-- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- Evidence links for `youtube-Xfl50508LZM` (supporting context only): [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
+- Evidence links for `youtube-SbcQYbrvAfI` (supporting context only): [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
+- Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

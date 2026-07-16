@@ -42,9 +42,9 @@ When an autonomous agent finishes a task successfully but costs ten times more t
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals
+- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
-- Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
+- Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

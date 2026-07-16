@@ -41,9 +41,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents|The Art of Building Verifiers for Computer Use Agents]]
 
 ### Media Signals
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals
+- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
-- Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

@@ -42,9 +42,9 @@ No official description published in the schedule data.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
 - Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

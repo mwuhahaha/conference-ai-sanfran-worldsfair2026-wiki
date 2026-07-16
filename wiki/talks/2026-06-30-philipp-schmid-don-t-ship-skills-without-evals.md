@@ -39,13 +39,24 @@ There are thousands agent skills. Almost none of them are tested. They get vibe-
 
 - [[youtube-0vphxNt4wyk-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-0vphxNt4wyk`
+- Slide deck: [[youtube-0vphxNt4wyk-slides|Slides: 0vphxNt4wyk]] — 11 visible slide image(s).
+![[assets/slides/0vphxNt4wyk/slide-001.jpg]]
+![[assets/slides/0vphxNt4wyk/slide-002.jpg]]
+![[assets/slides/0vphxNt4wyk/slide-003.jpg]]
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
-- Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+- Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

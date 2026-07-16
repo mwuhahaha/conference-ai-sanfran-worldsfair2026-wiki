@@ -28,6 +28,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-jack-morris-scaling-compute-on-context|Scaling Compute on Context]]
 
 ### Media Signals
-- `youtube-Jty4s9-Jb78` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
-- Evidence links for `youtube-Jty4s9-Jb78`: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+- `youtube-Jty4s9-Jb78` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Jty4s9-Jb78` (supporting context only): [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]

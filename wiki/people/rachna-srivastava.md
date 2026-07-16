@@ -28,6 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data|Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data]]
 
 ### Media Signals
-- `youtube-5_QWh4LGoxg` — 10 slide-derived text signals
+- `youtube-5_QWh4LGoxg` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
-- Evidence links for `youtube-5_QWh4LGoxg`: [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]
+- Evidence links for `youtube-5_QWh4LGoxg` (supporting context only): [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]

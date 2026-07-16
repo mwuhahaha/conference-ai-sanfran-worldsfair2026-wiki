@@ -42,9 +42,9 @@ Every enterprise slide deck talks about "data privacy," but at the California De
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-5_QWh4LGoxg` — 10 slide-derived text signals
+- `youtube-5_QWh4LGoxg` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
-- Evidence links for `youtube-5_QWh4LGoxg`: [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]
+- Evidence links for `youtube-5_QWh4LGoxg` (supporting context only): [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

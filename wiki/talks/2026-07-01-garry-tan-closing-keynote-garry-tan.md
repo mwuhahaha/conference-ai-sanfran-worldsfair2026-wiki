@@ -44,10 +44,10 @@ No related AI Engineer channel video found yet.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -57,11 +57,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[garry-tan]]
-
-## Livestream Segment
-- [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Match basis: speaker and title; timed captions matched Garry Tan, garry.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
@@ -92,3 +87,8 @@ Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

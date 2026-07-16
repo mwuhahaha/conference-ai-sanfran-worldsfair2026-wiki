@@ -45,12 +45,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
-- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
-- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

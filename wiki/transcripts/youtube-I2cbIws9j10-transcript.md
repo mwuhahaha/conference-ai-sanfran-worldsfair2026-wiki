@@ -1,12 +1,12 @@
 ---
-title: "Transcript: I2Cbiws9J10"
+title: "Transcript: WF26: Harness Engineering & Startup Battlefield"
 category: "transcripts"
 videoId: "I2cbIws9j10"
 sourceLabels: ["YouTube livestream transcript", "Cached transcript markdown"]
 wordCount: "91792"
 ---
 
-# Transcript: I2Cbiws9J10
+# Transcript: WF26: Harness Engineering & Startup Battlefield
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=I2cbIws9j10)

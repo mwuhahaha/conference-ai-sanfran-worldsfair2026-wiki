@@ -34,10 +34,9 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
-- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 
 ## Why Highlighted
 Liad is one of the strongest anchors for the conference's agentic-web thread. His scheduled talks connect ORA's research on how agents actually use websites, [[mcp-apps|MCP Apps]] as an interactive runtime, WebMCP/headful fallbacks, and the practical question of what makes a site visible or invisible to agents.

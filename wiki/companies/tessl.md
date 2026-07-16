@@ -35,8 +35,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers|Harness Engineering: The New Core Skill for Agentic Developers]]
 
 ### Media Signals
-- `youtube-bSG9wUYaHWU` — source page linked
-- Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+- `youtube-bSG9wUYaHWU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-bSG9wUYaHWU` (supporting context only): [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

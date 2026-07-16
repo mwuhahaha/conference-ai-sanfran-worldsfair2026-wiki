@@ -42,15 +42,13 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
 
 ### Media Signals
-- `youtube-so9l_MwS2yg` — 3 slide-derived text signals
+- `youtube-iUWwcG-C8OU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-iUWwcG-C8OU` (supporting context only): [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- `youtube-D4Dswf-__RM` — source page linked; role: supporting context only.
+- Evidence links for `youtube-D4Dswf-__RM` (supporting context only): [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+- `youtube-so9l_MwS2yg` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
-- Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
-- `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
-- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
-- `youtube-D4Dswf-__RM` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-D4Dswf-__RM`: grant, negotiation, authorization, protocol.
-- Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+- Evidence links for `youtube-so9l_MwS2yg` (supporting context only): [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

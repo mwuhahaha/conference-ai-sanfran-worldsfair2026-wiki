@@ -42,9 +42,9 @@ From autocomplete to chat to agents to agent orchestration...how do you build a 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
-- Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+- Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

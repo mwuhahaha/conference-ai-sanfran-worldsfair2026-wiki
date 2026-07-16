@@ -267,7 +267,11 @@ def dedupe_lines(body: str) -> str:
     for line in body.splitlines():
         key = ""
         stripped = line.strip()
-        if stripped.startswith("- ") or stripped.startswith("|"):
+        if (
+            stripped.startswith("- ")
+            or stripped.startswith("|")
+            or stripped.startswith("![[")
+        ):
             key = re.sub(r"\s+", " ", stripped.lower())
         if key and key in seen_bullets:
             continue
@@ -277,9 +281,26 @@ def dedupe_lines(body: str) -> str:
     return "\n".join(out).strip()
 
 
+def dedupe_prose_paragraphs(body: str) -> str:
+    out: list[str] = []
+    seen: set[str] = set()
+    for block in re.split(r"\n{2,}", body.strip()):
+        stripped = block.strip()
+        if not stripped:
+            continue
+        structural = stripped.startswith(("#", "- ", "|", "![[", "```", ">", "<"))
+        key = re.sub(r"\s+", " ", stripped).casefold()
+        if not structural and len(key.split()) >= 6:
+            if key in seen:
+                continue
+            seen.add(key)
+        out.append(stripped)
+    return "\n\n".join(out)
+
+
 def compact_join(parts: list[str]) -> str:
-    cleaned = [dedupe_lines(part) for part in parts if part.strip()]
-    return "\n\n".join(cleaned).strip()
+    joined = dedupe_lines("\n\n".join(part for part in parts if part.strip()))
+    return dedupe_prose_paragraphs(joined)
 
 
 def ordered_sections(kind: str, merged: OrderedDict[str, list[str]]) -> list[tuple[str, str]]:

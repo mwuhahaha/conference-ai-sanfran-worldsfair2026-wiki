@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens|FinOps for AI Agents: Who Spent All the Tokens?]]
 
 ### Media Signals
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals
+- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
-- Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
+- Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]

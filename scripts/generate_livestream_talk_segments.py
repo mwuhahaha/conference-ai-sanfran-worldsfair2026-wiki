@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
 SUBS = RAW / "youtube-subtitles"
+INTERNAL_AUDIT = ROOT / ".ops" / "state" / "cache" / "livestream-talk-segments" / "matches.json"
 
 STREAMS = {
     "htM02KMNZnk": {
@@ -348,6 +349,17 @@ def remove_section(path: Path, heading: str) -> None:
         path.write_text(updated, encoding="utf-8")
 
 
+def public_match(row: dict) -> dict:
+    """Return the source-facing fields without internal matching mechanics."""
+    internal_fields = {
+        "confidence_score",
+        "matched_speakers",
+        "matched_title_terms",
+        "match_basis",
+    }
+    return {key: value for key, value in row.items() if key not in internal_fields}
+
+
 def write_resource(matches: list[dict]) -> None:
     lines = [
         "---",
@@ -358,7 +370,7 @@ def write_resource(matches: list[dict]) -> None:
         "",
         "# Livestream Talk Segments",
         "",
-        "This page lists scheduled talks that were matched to a specific timestamp inside one of the broad AI Engineer World's Fair 2026 livestreams. Matches are generated from local timed YouTube captions and retained only when speaker names and talk-title terms agree in the same caption window.",
+        "This page lists scheduled talks aligned to a specific timestamp inside one of the broad AI Engineer World's Fair 2026 livestreams. Each entry was validated against official schedule metadata and local timed YouTube captions; detailed matching diagnostics remain internal.",
         "",
         "Use these as navigational evidence into the livestream, not as a substitute for a cut talk video when a dedicated recording exists.",
         "",
@@ -373,7 +385,7 @@ def write_resource(matches: list[dict]) -> None:
             lines.append(
                 f"- [[{row['talk_slug']}|{row['title']}]] — "
                 f"[{row['start_hms']}]({row['url']}) "
-                f"(score {row['confidence_score']}; matched: {', '.join(row['matched_speakers'] + row['matched_title_terms'])})"
+                f"(confidence: {row['confidence']}; transcript-aligned segment)"
             )
     (WIKI / "resources" / "livestream-talk-segments.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
@@ -432,8 +444,7 @@ def main() -> int:
         body = "\n".join(
             [
                 f"- [Watch in livestream at {row['start_hms']}]({row['url']}) — {row['video_title']}.",
-                f"- Match basis: {row['match_basis']}; timed captions matched "
-                f"{', '.join(row['matched_speakers'] + row['matched_title_terms'])}.",
+                "- Evidence: transcript-aligned segment validated against the official schedule and timed captions.",
                 "- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.",
             ]
         )
@@ -456,9 +467,12 @@ def main() -> int:
             )
         upsert_section(path, "Livestream Appearances", "\n".join(lines))
 
+    INTERNAL_AUDIT.parent.mkdir(parents=True, exist_ok=True)
+    INTERNAL_AUDIT.write_text(json.dumps(matches, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+    public_matches = [public_match(row) for row in matches]
     output = RAW / "livestream-talk-segments.json"
-    output.write_text(json.dumps(matches, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_resource(matches)
+    output.write_text(json.dumps(public_matches, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+    write_resource(public_matches)
     print(json.dumps({"matches": len(matches), "output": str(output)}, sort_keys=True))
     return 0
 

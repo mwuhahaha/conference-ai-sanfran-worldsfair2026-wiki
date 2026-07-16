@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]
 
 ### Media Signals
-- `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals
+- `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
-- Evidence links for `youtube-mQ7_Zje7WKE`: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
+- Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

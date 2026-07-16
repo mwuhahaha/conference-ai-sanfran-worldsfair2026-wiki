@@ -26,6 +26,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
-- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]

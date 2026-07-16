@@ -44,10 +44,10 @@ No related AI Engineer channel video found yet.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
-- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -57,11 +57,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[tim-sweeney]]
-
-## Livestream Segment
-- [Watch in livestream at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) — WF2026: Autoresearch & Keynotes (Day 2).
-- Match basis: speaker and title; timed captions matched Tim Sweeney, research.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -90,3 +85,8 @@ Heat. Heat. Heat. Hey, heat.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) — WF2026: Autoresearch & Keynotes (Day 2).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

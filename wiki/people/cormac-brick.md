@@ -28,6 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]
 
 ### Media Signals
-- `youtube--TiET_K-E_g` — 5 slide-derived text signals
+- `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
-- Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+- Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

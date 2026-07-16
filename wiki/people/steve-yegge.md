@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]]
 
 ### Media Signals
-- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals
+- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
-- Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- Evidence links for `youtube-7Dtu2bilcFs` (supporting context only): [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]

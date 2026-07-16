@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way|Get Out of the Model's Way]]
 
 ### Media Signals
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
-- Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+- Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]

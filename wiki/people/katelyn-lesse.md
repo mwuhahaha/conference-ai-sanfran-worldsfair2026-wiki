@@ -28,6 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-katelyn-lesse-tokens-should-have-jobs|Tokens Should Have Jobs]]
 
 ### Media Signals
-- `youtube-aqW68Is_Kj4` — 10 slide-derived text signals
+- `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
-- Evidence links for `youtube-aqW68Is_Kj4`: [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
+- Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]

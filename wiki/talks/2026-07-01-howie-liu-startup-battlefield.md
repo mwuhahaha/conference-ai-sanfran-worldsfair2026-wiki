@@ -46,9 +46,9 @@ No official description published in the schedule data.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
-- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

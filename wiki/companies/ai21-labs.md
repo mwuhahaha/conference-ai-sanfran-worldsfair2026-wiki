@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
 
 ### Media Signals
-- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals
+- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
-- Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
+- Evidence links for `youtube-Ywl4LsvHKzU` (supporting context only): [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

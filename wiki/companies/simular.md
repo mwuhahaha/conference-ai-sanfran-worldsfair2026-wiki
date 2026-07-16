@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents|'The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents']]
 
 ### Media Signals
-- `youtube-F_RyElT_gJk` — 9 slide-derived text signals
+- `youtube-F_RyElT_gJk` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
-- Evidence links for `youtube-F_RyElT_gJk`: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
+- Evidence links for `youtube-F_RyElT_gJk` (supporting context only): [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

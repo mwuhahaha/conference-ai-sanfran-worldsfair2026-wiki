@@ -35,9 +35,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results|Everyone talks about document search, but what about results?]]
 
 ### Media Signals
-- `youtube-jVGCulhBRZI` — 9 slide-derived text signals
+- `youtube-jVGCulhBRZI` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
-- Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+- Evidence links for `youtube-jVGCulhBRZI` (supporting context only): [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

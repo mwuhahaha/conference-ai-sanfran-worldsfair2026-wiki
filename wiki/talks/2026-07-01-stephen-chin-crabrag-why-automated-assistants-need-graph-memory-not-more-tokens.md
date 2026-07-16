@@ -40,9 +40,9 @@ Autonomous assistants are easy to demo and hard to make reliable. The problem is
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-eW_vxrjvERk` — 3 slide-derived text signals
+- `youtube-eW_vxrjvERk` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
-- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- Evidence links for `youtube-eW_vxrjvERk` (supporting context only): [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

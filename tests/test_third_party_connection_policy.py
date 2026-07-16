@@ -22,10 +22,101 @@ from audit_third_party_connections import (
 )
 from discover_external_event_videos import public_report
 import enrich_from_youtube_transcripts as youtube_enrichment
+import build_worldsfair_wiki as worldsfair_builder
+from build_worldsfair_wiki import public_speaker_video_map
 from fetch_company_profiles import Candidate, validate_company_candidate
+from generate_livestream_talk_segments import public_match
 
 
 class ThirdPartyConnectionPolicyTests(unittest.TestCase):
+    def test_livestream_public_match_omits_internal_ranking_mechanics(self):
+        result = public_match(
+            {
+                "talk_slug": "example-talk",
+                "confidence": "high",
+                "confidence_score": 141,
+                "matched_speakers": ["Example Speaker"],
+                "matched_title_terms": ["example"],
+                "match_basis": "speaker and title",
+                "evidence_excerpt": "Transcript evidence.",
+            }
+        )
+
+        self.assertEqual(
+            result,
+            {
+                "talk_slug": "example-talk",
+                "confidence": "high",
+                "evidence_excerpt": "Transcript evidence.",
+            },
+        )
+
+    def test_public_speaker_video_map_omits_candidate_ranking_inputs(self):
+        result = public_speaker_video_map(
+            [
+                {
+                    "title": "Example Talk",
+                    "related_video": {
+                        "score": 105,
+                        "speaker_hit": ["Example Speaker"],
+                        "topic_overlap": 5,
+                        "video_id": "abc123",
+                        "relationship": "supporting context",
+                    },
+                }
+            ]
+        )
+
+        self.assertEqual(
+            result,
+            [
+                {
+                    "title": "Example Talk",
+                    "related_video": {
+                        "video_id": "abc123",
+                        "relationship": "supporting context",
+                    },
+                }
+            ],
+        )
+
+    def test_speaker_video_map_writer_keeps_diagnostics_only_in_private_state(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / "input.json"
+            rows = [
+                {
+                    "title": "Example Talk",
+                    "related_video": {
+                        "score": 105,
+                        "speaker_hit": ["Example Speaker"],
+                        "topic_overlap": 5,
+                        "video_id": "abc123",
+                    },
+                }
+            ]
+            source.write_text(json.dumps(rows), encoding="utf-8")
+            with patch.object(worldsfair_builder, "ROOT", root):
+                worldsfair_builder.write_speaker_video_maps(source)
+
+            private_rows = json.loads(
+                (
+                    root
+                    / ".ops/state/cache/source-matching/speaker-video-map.json"
+                ).read_text(encoding="utf-8")
+            )
+            public_rows = json.loads(
+                (root / "raw/sources/speaker-video-map.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+
+        self.assertEqual(rows, private_rows)
+        self.assertEqual(
+            [{"title": "Example Talk", "related_video": {"video_id": "abc123"}}],
+            public_rows,
+        )
+
     def test_name_match_cannot_pass_identity_gate(self):
         result = assess_connection({"exact_name_only": True}, identity_required=True)
         self.assertEqual(result["identity_status"], "unverified")

@@ -21,36 +21,6 @@ Memory is useful in coding agents, customer support, research assistants, enterp
 
 Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
 
-Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
-
-Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
-
-Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
-
-Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
-
-Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
-
-Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
-
-Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
-
-Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
-
-Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
-
-Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
-
-Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
-
-Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
-
-Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
-
-Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
-
-Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
-
 ## Connections
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer; [[anders-swanson|Anders Swanson]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] — Memory Harnesses for Long-Running Research Agents; [[stefania-druga|Stefania Druga]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Memory & Continual Learning; official schedule)
@@ -121,16 +91,9 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[yugabyte|Yugabyte]]
 - [[roboflow|Roboflow]]
 
-
-
-
-
 - [[yoni-michael|Yoni Michael]]
 
 - [[llamaindex|LlamaIndex]]
-
-
-
 
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 
@@ -149,62 +112,6 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not.; [[karthik-ranganathan|Karthik Ranganathan]], [[heather-downing|Heather Downing]] (Day 4 — Session Day 3 · 3:20pm-3:40pm · Expo Stage 1 NE; official schedule)
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-8G_1-3IO4ZQ]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
-- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
-- [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
-- [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
-- [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
-- [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
-
-### Quote signals
-- “Uh quality of the agent often dependent uh on the quality of context engineering and that led to a lot of weird lost trust cases with our stakeholders.” — [[youtube-8G_1-3IO4ZQ]]
-- “Uh and so my goal today is to talk about like WTF is the context layer.” — [[youtube-8G_1-3IO4ZQ]]
-- “Uh the way I think about a context layer is it's a system that turns knowledge and expertise and norms that we talked about that Maya knows into a machine usable context for AI systems.” — [[youtube-8G_1-3IO4ZQ]]
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-- [[youtube-4kYl2_mqmnQ]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
-- [[youtube-EcqMYoIV57A]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
-- [[youtube-B9h9ovW5H9U]] — Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
-- [[youtube-TUnPNY4E2fw]] — Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI
-- [[youtube-UNzCG3lw6O0]] — Building Great Agent Skills: The Missing Manual
-- [[youtube-zKk7sDMGDEQ]] — Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
-- [[youtube-XovaGv4f39A]] — When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
-- [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
-- [[youtube-UPwGaM2MKHY]] — The Log Is The Agent - Ishaan Sehgal, Omnara
-- [[youtube-LrGCT7G_rU8]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
-- [[youtube-CLttOU7n6sI]] — Respect The Process - Andrew Dumit, Watershed Technology Inc.
-- [[youtube-Jx4ZFEAq6bY]] — User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch
-- [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
-- [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
-- [[youtube-IJXjTLPzvAU]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
-- [[youtube-sAOBXCDiDOs]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
-- [[youtube-YYH0DMQr30A]] — Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel
-- [[youtube-qlHaO6laBlM]] — Shipping Production AI Inside Government — William Tarr, Ministry of Justice
-
-### Quote signals
-- “And today, I'm going to tell you about our research project, which is called Road to 5 million sequence length, breaking memory barriers in context parallelism.” — [[youtube-TUnPNY4E2fw]]
-- “Um to do that all effectively, you need to make sure that the models are able to process that context and work with it correctly at the training time.” — [[youtube-TUnPNY4E2fw]]
-- “This approach would look something like "cache augmented generation" (CAG), where we use a model with a large context window, load the documents into the context, and cache the context by storing the model's KB matrix.” — [[youtube-XovaGv4f39A]]
-- “Uh as you continue scaling your context, your memory keeps growing linearly, which is not as bad, but still pretty difficult to deal with, unless you apply a range of specific techniques.” — [[youtube-TUnPNY4E2fw]]
-- “I'm on a mission to solve knowledge representation when all context matters.” — [[youtube-XovaGv4f39A]]
-- “And so, to kind of think actually about what a context graph is, we need to ask ourselves, "Would you agents really be accurate?" Right?” — [[youtube-B9h9ovW5H9U]]
-- “And then context, policies that are um in different reasoning by AI that records memory, but um by employees and and past humans that have made decisions.” — [[youtube-B9h9ovW5H9U]]
-- “Um But yeah, that's a good point and then in the create context graph, we're still working on how you would write um new decision traces.” — [[youtube-B9h9ovW5H9U]]
-
-### Transcript-backed resources
-
-### Quote signals
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
@@ -220,31 +127,68 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
 
 ### Media Signals
-- `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
-- Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
-- `youtube-eW_vxrjvERk` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
-- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-8G_1-3IO4ZQ` — 3,420 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
+- Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
+- Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-9fubhllmsBU` — 3,542 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-9fubhllmsBU`: claude, fable, code, give, models, prompt, model, little.
+- Slide-derived themes for `youtube-9fubhllmsBU`: opening, land, king, models, grown, designed, fetch, write.
+- Evidence links for `youtube-9fubhllmsBU` (primary event evidence): [[youtube-9fubhllmsBU]], [[youtube-9fubhllmsBU-transcript]], [[youtube-9fubhllmsBU-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-vljxQZfJ9wY` — 1,143 transcript words; 8 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-vljxQZfJ9wY`: evaluation, production, systems, most, model, tool, becomes, infrastructure.
+- Slide-derived themes for `youtube-vljxQZfJ9wY`: evaluation, reliability, accuracy, systems, behavior, measuring, beyond, autonomous.
+- Evidence links for `youtube-vljxQZfJ9wY` (supporting context only): [[youtube-vljxQZfJ9wY]], [[youtube-vljxQZfJ9wY-transcript]], [[youtube-vljxQZfJ9wY-slides]]
+- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
+- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
-- Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+- Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+- `youtube-Jty4s9-Jb78` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Jty4s9-Jb78` (supporting context only): [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+- `youtube-TUnPNY4E2fw` — 2,091 transcript words; 5 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-TUnPNY4E2fw`: context, memory, model, training, million, quite, attention, sequence.
+- Slide-derived themes for `youtube-TUnPNY4E2fw`: engineering, future, training, memory, usage.
+- Evidence links for `youtube-TUnPNY4E2fw` (supporting context only): [[youtube-TUnPNY4E2fw]], [[youtube-TUnPNY4E2fw-transcript]], [[youtube-TUnPNY4E2fw-slides]]
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
+- Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 53 | Related pages outside the main evidence categories. |
-| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 18 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+| other | 56 | Related pages outside the main evidence categories. |
+| resources | 14 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 35 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 26 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 10 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
@@ -255,12 +199,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
 
 ### Resources
-- [[youtube-4kYl2_mqmnQ]]
-- [[youtube-EcqMYoIV57A]]
-- [[youtube-B9h9ovW5H9U]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-UNzCG3lw6O0]]
-- [[youtube-zKk7sDMGDEQ]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-8G_1-3IO4ZQ]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-n97BCfyFIvw]]
+- [[youtube-0vphxNt4wyk]]
+- [[youtube-4sX_He5c4sI]]
 
 ### Slides
 - [[youtube-HEFSExa0xl0-slides]]
@@ -271,131 +215,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-2IxD9OB3XuQ-slides]]
 
 ### Transcripts
+- [[youtube-8G_1-3IO4ZQ-transcript]]
 - [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-o-zkvb0iFDQ-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-0vphxNt4wyk-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 
 ### Tools
 - [[neo4j]]
 - [[mcp-apps]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 54 | Related pages outside the main evidence categories. |
-| resources | 23 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-o-zkvb0iFDQ]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
-| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-
-### Talks
-
-### Resources
-- [[youtube-htM02KMNZnk]]
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-9fubhllmsBU]]
-- [[youtube-I2cbIws9j10]]
-
-### Slides
-
-### Transcripts
-
-### Tools
 - [[llamaindex]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 56 | Related pages outside the main evidence categories. |
-| resources | 28 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 19 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-
-### Talks
-
-### Resources
-- [[youtube-8G_1-3IO4ZQ]]
-- [[youtube-0vphxNt4wyk]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
 
 ## Active Use Cases
 - Remembering repository architecture and prior implementation decisions.

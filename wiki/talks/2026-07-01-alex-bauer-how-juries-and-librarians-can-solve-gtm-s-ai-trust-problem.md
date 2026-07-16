@@ -36,11 +36,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-YZQsWVeN3rE-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-YZQsWVeN3rE`
+- Slide deck: [[youtube-YZQsWVeN3rE-slides|Slides: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech]] — 4 visible slide image(s).
+![[assets/slides/YZQsWVeN3rE/slide-001.jpg]]
+![[assets/slides/YZQsWVeN3rE/slide-002.jpg]]
+![[assets/slides/YZQsWVeN3rE/slide-003.jpg]]
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -57,9 +67,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[alex-bauer]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown

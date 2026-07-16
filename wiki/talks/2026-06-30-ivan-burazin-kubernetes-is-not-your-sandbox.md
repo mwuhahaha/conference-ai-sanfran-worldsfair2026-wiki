@@ -42,9 +42,9 @@ Teams are reaching for Kubernetes to run agent sandboxes, and it's the wrong too
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-e9sLVMN76qU` — 8 slide-derived text signals
+- `youtube-e9sLVMN76qU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
-- Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
+- Evidence links for `youtube-e9sLVMN76qU` (supporting context only): [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -26,10 +26,12 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
 
 ### Media Signals
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 
 ## Livestream Appearances
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — [watch at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) in WF2026: Software Factories & Keynotes (Day 1).

@@ -42,9 +42,8 @@ AI agents are ready to act on users' behalf, but legacy auth flows were built fo
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-D4Dswf-__RM` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-D4Dswf-__RM`: grant, negotiation, authorization, protocol.
-- Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+- `youtube-D4Dswf-__RM` — source page linked; role: supporting context only.
+- Evidence links for `youtube-D4Dswf-__RM` (supporting context only): [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

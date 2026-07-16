@@ -42,9 +42,9 @@ Last year, an AI coding agent wiped a production database during a code freeze, 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-rcsliSIy_YU` — 8 slide-derived text signals
+- `youtube-rcsliSIy_YU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
-- Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- Evidence links for `youtube-rcsliSIy_YU` (supporting context only): [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

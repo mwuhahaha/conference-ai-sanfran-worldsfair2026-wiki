@@ -42,9 +42,8 @@ The November 2025 MCP spec release introduced tasks, a way to make tool calls in
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-k8cnVCMYmNc` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-k8cnVCMYmNc`: note, enough, quota, account, pending, event, types.
-- Evidence links for `youtube-k8cnVCMYmNc`: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
+- `youtube-k8cnVCMYmNc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-k8cnVCMYmNc` (supporting context only): [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

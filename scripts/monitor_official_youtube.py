@@ -4,8 +4,8 @@
 This is intentionally project-local. It uses the public YouTube RSS feed for
 date-gated discovery because that path exposes stable published dates without
 requiring fragile full video extraction. For new official videos, it creates
-wiki resource pages immediately, tries captions/transcript import, runs the
-existing enrichment/build pipeline where possible, and records pending failures
+wiki resource pages immediately, tries captions/transcript import, hands the
+result to the checked-in wiki-maker update profile, and records pending failures
 instead of treating YouTube 429/IP-blocking as fatal.
 """
 
@@ -45,6 +45,7 @@ CAPTION_FAILURE_STATUSES = {
     "empty_caption_file",
 }
 SLIDE_FAILURE_STATUSES = {"slide_extraction_failed"}
+WIKI_MAKER_ENV = "WIKI_FROM_TOPIC_MAKER"
 
 
 @dataclass
@@ -804,34 +805,50 @@ def update_channel_snapshot(entries: list[VideoEntry]) -> bool:
     return True
 
 
-def run_enrichment(imported_transcripts: int, video_ids: list[str]) -> list[dict[str, object]]:
-    commands: list[list[str]] = []
-    if imported_transcripts:
-        commands.extend(
-            [
-                [sys.executable, "scripts/generate_transcript_markdown_pages.py"],
-                [sys.executable, "scripts/generate_talk_synthesis.py", "--all"],
-            ]
-        )
-    commands.extend(
-        [
-            [
-                sys.executable,
-                "scripts/classify_video_resource_sources.py",
-                "--manifest-only",
-                *(flag for video_id in video_ids for flag in ("--video-id", video_id)),
-            ],
-            [sys.executable, "scripts/normalize_article_shapes.py"],
-            ["npm", "run", "build"],
-        ]
+def wiki_maker_executable() -> str:
+    override = os.environ.get(WIKI_MAKER_ENV, "").strip()
+    if override:
+        candidate = Path(override).expanduser()
+        if candidate.is_file() and os.access(candidate, os.X_OK):
+            return str(candidate.resolve())
+        resolved = shutil.which(override)
+        if resolved:
+            return resolved
+        raise RuntimeError(f"{WIKI_MAKER_ENV} does not name an executable: {override}")
+
+    sibling = ROOT.parent / "wiki-from-topic-maker" / ".venv" / "bin" / "wiki-from-topic-maker"
+    if sibling.is_file() and os.access(sibling, os.X_OK):
+        return str(sibling)
+    resolved = shutil.which("wiki-from-topic-maker")
+    if resolved:
+        return resolved
+    raise RuntimeError(
+        "wiki-from-topic-maker is unavailable; set "
+        f"{WIKI_MAKER_ENV} to the installed executable"
     )
-    results = []
-    for cmd in commands:
-        cp = run(cmd, timeout=1800)
-        results.append({"cmd": cmd, "returncode": cp.returncode})
-        if cp.returncode != 0:
-            break
-    return results
+
+
+def update_source_paths(video_ids: list[str]) -> list[Path]:
+    candidates = [OFFICIAL_VIDEO_MANIFEST]
+    for video_id in sorted(set(video_ids)):
+        candidates.append(transcript_path(video_id))
+        candidates.extend(sorted((RAW / "youtube-subtitles").glob(f"{video_id}*.vtt")))
+    return sorted({path for path in candidates if path.is_file()})
+
+
+def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dict[str, object]]:
+    cmd = [
+        wiki_maker_executable(),
+        "update",
+        str(ROOT),
+        "--change-type",
+        "media",
+    ]
+    for path in update_source_paths(video_ids):
+        cmd.extend(["--source", str(path.relative_to(ROOT))])
+    cmd.append("--json")
+    cp = run(cmd, timeout=7200)
+    return [{"cmd": cmd, "returncode": cp.returncode}]
 
 
 def maybe_commit_and_push(enabled: bool, message: str) -> dict[str, object]:

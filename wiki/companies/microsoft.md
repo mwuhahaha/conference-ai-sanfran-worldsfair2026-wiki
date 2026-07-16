@@ -75,19 +75,23 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
-- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
-- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
-- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
-- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
+- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

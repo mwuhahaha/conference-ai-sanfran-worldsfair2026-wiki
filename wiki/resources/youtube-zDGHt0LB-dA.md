@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/zDGHt0LB
 
 ## Extracted Slides
 - [[youtube-zDGHt0LB-dA-slides]]
+
+## Transcript Markdown
+- [[youtube-zDGHt0LB-dA-transcript]] — full cached transcript markdown.

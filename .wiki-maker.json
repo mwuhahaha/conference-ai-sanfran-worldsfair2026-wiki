@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "project_id": "aie-worldsfair-2026",
+  "wiki_root": "wiki",
+  "static_root": "dist",
+  "source_roots": [
+    "raw/sources"
+  ],
+  "private_inputs": [
+    ".ops/state/cache/wiki-maker/private-policy.json"
+  ],
+  "adapters": [
+    {
+      "key": "classify_media",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/classify_video_resource_sources.py",
+        "--manifest-only"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "transcript_pages",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/generate_transcript_markdown_pages.py",
+        "--manifest-only"
+      ],
+      "dependencies": [
+        "classify_media"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "talk_synthesis",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/generate_talk_synthesis.py",
+        "--all"
+      ],
+      "dependencies": [
+        "transcript_pages"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 1800
+    },
+    {
+      "key": "source_enrichment",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/enrich_all_articles_from_sources.py",
+        "--all"
+      ],
+      "optional_dependencies": [
+        "talk_synthesis"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 1800
+    },
+    {
+      "key": "synthesis_layers",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/generate_synthesis_layers.py"
+      ],
+      "dependencies": [
+        "source_enrichment"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 1800
+    },
+    {
+      "key": "evolution_context",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/enrich_evolution_context.py",
+        "--all"
+      ],
+      "dependencies": [
+        "synthesis_layers"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "normalize_articles",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/normalize_article_shapes.py"
+      ],
+      "optional_dependencies": [
+        "evolution_context"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "static_export",
+      "version": "v1",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "implementation_inputs": [
+        "scripts/sanitize_public_wiki_text.py",
+        "scripts/generate_agent_source_index.py",
+        "scripts/normalize_article_shapes.py",
+        "scripts/export_static_site.py",
+        "scripts/build_relationship_dataset.py",
+        "scripts/relationship_explorer.js"
+      ],
+      "dependencies": [
+        "normalize_articles"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki",
+        "static"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 3600
+    },
+    {
+      "key": "relationship_data",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/build_relationship_dataset.py"
+      ],
+      "dependencies": [
+        "static_export"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "static"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    }
+  ]
+}

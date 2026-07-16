@@ -42,17 +42,17 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked
-- Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
-- `youtube-5N33E9tC400` — source page linked
-- Evidence links for `youtube-5N33E9tC400`: [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
-- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: manual_url_unfetched.

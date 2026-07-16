@@ -21,36 +21,6 @@ MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser a
 
 Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
 
-Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
-
-MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
-
-Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
-
-Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
-
-MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
-
-Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
-
-Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
-
-MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
-
-Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
-
-Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
-
-MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
-
-Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
-
-Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
-
-MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
-
-Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
-
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
@@ -123,15 +93,9 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 
 - [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck; [[geoffrey-litt|Geoffrey Litt]] (Day 3 — Session Day 2 · 10:45am-11:05am · Design Engineering; verified event YouTube resource; via [[youtube-WkBPX-oDMnA]])
 
-
-
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — Rebuilding the web for agents; [[liad-yosef|Liad Yosef]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · Search & Retrieval; official schedule)
 
-
-
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans; [[corey-gallon|Corey Gallon]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Computer Use; official schedule)
-
-
 
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software; [[kwindla-kramer|Kwindla Kramer]] (Day 2 — Session Day 1 · 10:45am-11:05am · Voice & Realtime AI; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
@@ -159,267 +123,145 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
-- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
-- [[youtube-q4Tr-DknG2M]] — Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
-- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
-- [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
-- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
-
-### Quote signals
-- “In this case it decides to actually call the server tool but the control is in the hands of the host and everything stays in context.” — [[youtube-o-zkvb0iFDQ]]
-- “And just a few months back MCPUI we partnered with Anthropic and OpenAI to really put this into the MCP standard as the first official extension called MCP apps.” — [[youtube-o-zkvb0iFDQ]]
-- “Obviously shout out Postman and Goose and Claude the first one that released Claude apps that actually supported MCP apps.” — [[youtube-o-zkvb0iFDQ]]
-- “Um and to give people an option to not just use the open-source models that are getting quite good, but to take them and make them even better on their own use cases.” — [[youtube-V-EDrhIhHzQ]]
-- “People talk about environment in the context of RL and they think of like RL environments, but environments are more than just for RL.” — [[youtube-V-EDrhIhHzQ]]
-- “And our goal is to just make this a really flexible toolkit for all the kinds of evaluation things people want to do both for API models as well as for post training.” — [[youtube-V-EDrhIhHzQ]]
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-- [[youtube-sAOBXCDiDOs]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
-- [[youtube-vh2VGuQ3zhY]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
-- [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
-- [[youtube-ghJmWQCIHRM]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
-- [[youtube-_B4Pv9ttFgY]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
-- [[youtube-1IdzkRVmWAA]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
-- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
-- [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
-- [[youtube-HEFSExa0xl0]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs
-- [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
-- [[youtube-2e9ANoOEn28]] — What if the harness mattered more than the model? - Aditya Bhargava, Etsy
-- [[youtube-UcYoMg-8-L8]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
-- [[youtube-G6IlDzj8OjA]] — GTM Is You - Victoria Melnikova, Evil Martians
-- [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
-- [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
-- [[youtube-BqZrTdgBaPw]] — Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG
-- [[youtube-4uFVSLgD2Q4]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov
-
-### Quote signals
-- “I'm an engineer here at OpenGov and today we're going to be talking about agents in production, specifically how OpenGov built and scaled OG Assist.” — [[youtube-4uFVSLgD2Q4]]
-- “So, that's kind of how we handled long context and memory, and it's worked pretty well for us.” — [[youtube-4uFVSLgD2Q4]]
-- “Uh it's an open source inspector, again, uh something comparable to the official inspector from the model context protocol maintainers that allows you to test these MCP servers and apps specifically uh on your local machine.” — [[youtube-sAOBXCDiDOs]]
-- “MCP apps is now the official extension of the Model Context Protocol that allows to return UI elements within MCP servers.” — [[youtube-sAOBXCDiDOs]]
-- “[clears throat] And also Cursor allows you to submit their MCP server set uh The way you submit is different for all three, but basically what happens is that you need to make sure that your MCP app is compliant.” — [[youtube-sAOBXCDiDOs]]
-- “The let's say past few decades, we have been building the web for human actions and human eyes, and we've been trying to optimize for that, but these days, it's not just humans that are using the web.” — [[youtube-ghJmWQCIHRM]]
-- “Well, today I'm going to share four engineering lessons from the Chrome uh DevTools team on how we build Chrome DevTools for agents and how we deployed it for effect.” — [[youtube-_B4Pv9ttFgY]]
-- “In a world where you are delegating away work to agents and automating away agents, you need to think about trust boundaries.” — [[youtube-_B4Pv9ttFgY]]
-
-### Transcript-backed resources
-- [[youtube-btxGmN8RvNU]] — Your Agent's Biggest Lie: "I Searched the Web" — Rafael Levi, Bright Data
-
-### Quote signals
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
-- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software|The New Primitives: Building AI-Native Software]]
-- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli|How We Built the Airbyte Agent MCP Server and CLI]]
-- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies|Emulated: The data for fully autonomous software engineers and companies]]
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
 - [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer|Who Approved That MCP Server? Governing the Tool Layer]]
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
+- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|Agents That Forge Their Own Tools: Self-Modifying AI in the Wild]]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 
 ### Media Signals
-- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
-- Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
-- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
-- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
+- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
+- `youtube-8G_1-3IO4ZQ` — 3,420 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
+- Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
+- Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
+- `youtube-9fubhllmsBU` — 3,542 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-9fubhllmsBU`: claude, fable, code, give, models, prompt, model, little.
+- Slide-derived themes for `youtube-9fubhllmsBU`: opening, land, king, models, grown, designed, fetch, write.
+- Evidence links for `youtube-9fubhllmsBU` (primary event evidence): [[youtube-9fubhllmsBU]], [[youtube-9fubhllmsBU-transcript]], [[youtube-9fubhllmsBU-slides]]
+- `youtube-_xIwFcnHqp4` — 2,852 transcript words; 7 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-_xIwFcnHqp4`: server, code, chat, apps, github, maybe, data, host.
+- Slide-derived themes for `youtube-_xIwFcnHqp4`: apps, code, context, interactive, demo, open, protocol, standardizes.
+- Evidence links for `youtube-_xIwFcnHqp4` (supporting context only): [[youtube-_xIwFcnHqp4]], [[youtube-_xIwFcnHqp4-transcript]], [[youtube-_xIwFcnHqp4-slides]]
+- `youtube-sAOBXCDiDOs` — 4,772 transcript words; 6 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-sAOBXCDiDOs`: apps, model, tool, widget, server, cloud, clears, throat.
+- Slide-derived themes for `youtube-sAOBXCDiDOs`: apps, primitives, discovery, software, used, tools, inspector, test.
+- Evidence links for `youtube-sAOBXCDiDOs` (supporting context only): [[youtube-sAOBXCDiDOs]], [[youtube-sAOBXCDiDOs-transcript]], [[youtube-sAOBXCDiDOs-slides]]
+- `youtube-hCMrEfPG2Yg` — 2,621 transcript words; role: supporting context only.
+- Transcript signals for `youtube-hCMrEfPG2Yg`: today, components, still, static, apps, generative, code, call.
+- Evidence links for `youtube-hCMrEfPG2Yg` (supporting context only): [[youtube-hCMrEfPG2Yg]], [[youtube-hCMrEfPG2Yg-transcript]], [[youtube-hCMrEfPG2Yg-slides]]
+- `youtube-_B4Pv9ttFgY` — 3,311 transcript words; 7 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-_B4Pv9ttFgY`: chrome, tools, tool, performance, devtools, user, okay, tokens.
+- Slide-derived themes for `youtube-_B4Pv9ttFgY`: engineering, future, performance, insights, built, wrong, question, caching.
+- Evidence links for `youtube-_B4Pv9ttFgY` (supporting context only): [[youtube-_B4Pv9ttFgY]], [[youtube-_B4Pv9ttFgY-transcript]], [[youtube-_B4Pv9ttFgY-slides]]
+- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
+- Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
+- Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+- `youtube-c-2eEv2ou7Y` — 3,346 transcript words; 8 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-c-2eEv2ou7Y`: inside, iframe, content, chatgpt, origin, first, tool, application.
+- Slide-derived themes for `youtube-c-2eEv2ou7Y`: apps, html, stores, claude, interactive, inside, chats, experimenting.
+- Evidence links for `youtube-c-2eEv2ou7Y` (supporting context only): [[youtube-c-2eEv2ou7Y]], [[youtube-c-2eEv2ou7Y-transcript]], [[youtube-c-2eEv2ou7Y-slides]]
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
+- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 53 | Related pages outside the main evidence categories. |
+| other | 64 | Related pages outside the main evidence categories. |
 | resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 11 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| slides | 32 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 18 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
-- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
-- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
-- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
-
-### Resources
-- [[youtube-sAOBXCDiDOs]]
-- [[youtube-btxGmN8RvNU]]
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-_xIwFcnHqp4]]
-- [[youtube-ghJmWQCIHRM]]
-
-### Slides
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-blW-lSd5CYQ-slides]]
-- [[youtube-blW-lSd5CYQ-dense-slides]]
-- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- [[youtube-o-zkvb0iFDQ-slides]]
-
-### Transcripts
-- [[youtube-o-zkvb0iFDQ-transcript]]
-
-### Tools
-- [[docker]]
-- [[mcp-apps]]
-- [[neo4j]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 55 | Related pages outside the main evidence categories. |
-| resources | 23 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 27 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-pMggiOb18tc]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 61 | Related pages outside the main evidence categories. |
-| resources | 25 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]]
 - [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]]
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]]
 
 ### Resources
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-q4Tr-DknG2M]]
 - [[youtube-9fubhllmsBU]]
-- [[youtube-4sX_He5c4sI]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 62 | Related pages outside the main evidence categories. |
-| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
 - [[youtube-WkBPX-oDMnA]]
 
 ### Slides
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+- [[youtube-o-zkvb0iFDQ-dense-slides]]
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
 
 ### Transcripts
+- [[youtube-o-zkvb0iFDQ-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-WkBPX-oDMnA-transcript]]
 
 ### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 63 | Related pages outside the main evidence categories. |
-| resources | 27 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 31 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-V-EDrhIhHzQ]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 64 | Related pages outside the main evidence categories. |
-| resources | 28 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-q4Tr-DknG2M]]
-
-### Slides
-
-### Transcripts
-
-### Tools
+- [[docker]]
+- [[mcp-apps]]
+- [[neo4j]]
 
 ## Active Use Cases
 - Connecting agents to repositories, browsers, docs, databases, and SaaS tools.

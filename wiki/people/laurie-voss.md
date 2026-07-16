@@ -40,7 +40,7 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it|How long can your skills be before your agent forgets what you told it?]]
 
 ### Media Signals
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
 - Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
-- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- Evidence links for `youtube-Xfl50508LZM` (supporting context only): [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

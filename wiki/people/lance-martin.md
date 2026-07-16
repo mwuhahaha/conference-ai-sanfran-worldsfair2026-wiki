@@ -32,6 +32,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
 
 ### Media Signals
-- `youtube-ib-wTAvCZqg` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
-- Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
+- `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
+- Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

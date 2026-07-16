@@ -39,9 +39,9 @@ scheduleLabels: ["Workshops Day 1", "Track 1", "workshop", "confirmed"]
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-C_GG5g38vLU` — 8 slide-derived text signals
+- `youtube-C_GG5g38vLU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
-- Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+- Evidence links for `youtube-C_GG5g38vLU` (supporting context only): [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

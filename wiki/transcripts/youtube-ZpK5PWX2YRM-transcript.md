@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Zpk5Pwx2Yrm"
+title: "Transcript: Should AI Engineers Still Read Code in 2026?"
 category: "transcripts"
 videoId: "ZpK5PWX2YRM"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3931"
 ---
 
-# Transcript: Zpk5Pwx2Yrm
+# Transcript: Should AI Engineers Still Read Code in 2026?
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=ZpK5PWX2YRM)

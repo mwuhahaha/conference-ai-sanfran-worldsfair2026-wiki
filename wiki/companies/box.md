@@ -32,9 +32,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure|The Half Life of Agent Infrastructure]]
 
 ### Media Signals
-- `youtube-12v5S1n1eOY` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-12v5S1n1eOY`: fortune, fully, integrated, generative, starting.
-- Evidence links for `youtube-12v5S1n1eOY`: [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
+- `youtube-12v5S1n1eOY` — source page linked; role: supporting context only.
+- Evidence links for `youtube-12v5S1n1eOY` (supporting context only): [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

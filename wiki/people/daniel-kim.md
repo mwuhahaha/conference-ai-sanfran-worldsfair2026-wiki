@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
 
 ### Media Signals
-- `youtube-tzRvcTEapzo` — 5 slide-derived text signals
+- `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
-- Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

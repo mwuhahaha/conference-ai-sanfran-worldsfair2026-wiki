@@ -37,9 +37,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends|AI Engineering & Governance 2026 Trends]]
 
 ### Media Signals
-- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
-- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- Evidence links for `youtube-rgjF5o2Qjsc` (supporting context only): [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

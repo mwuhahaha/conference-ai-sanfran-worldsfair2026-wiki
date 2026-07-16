@@ -2,12 +2,48 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-16T04:45:42-04:00
+updated: 2026-07-16T22:14:28Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
 
 The completed AIE-specific conversion plan remains closed. Follow-up public navigation work now lives in `.ops/plans/worldsfair-static-navigation-followup.md`.
+
+## E11 Unified Maker Integration
+
+- `.wiki-maker.json` is now the project profile and orchestration contract for
+  incremental wiki maintenance.
+- The authoritative official-media update is:
+
+  ```bash
+  wiki-from-topic-maker update . \
+    --change-type media \
+    --source raw/sources/official-wf26-video-manifest.json \
+    --json
+  ```
+
+- The official YouTube monitor invokes that update once after admitting new
+  event media. Direct generator, enricher, normalizer, and exporter calls are
+  stage-level debugging tools only.
+- Run `update-20260716T215951Z-e366f7cbd6` completed validation and promoted
+  locally. Its machine receipt is
+  `.ops/state/runs/wiki-maker-update-20260716T215951Z-e366f7cbd6-attempt-001.json`;
+  the operator summary is
+  `.ops/state/runs/20260716T215951Z-e11-maker-integration.md`.
+- Its agent snapshot is
+  `snapshot:2c83d7569c73047af50d86924ca8eaf7ca073fb6894af029cfc6450fda9e22bd`.
+  Repeating the same update returns a no-op because its inputs, profile, and
+  promoted output digests are unchanged.
+- The run performed no external deployment. Publication remains a separate,
+  explicit operation.
+- The official-media manifest remains at 22 admitted WF26 items: 17 recordings,
+  2 scheduled premieres, and 3 event livestreams.
+- The transcript layer contains 114 pages: 18 primary-event transcripts and 96
+  supporting-context transcripts. Transcript, video, OCR, slide, and synthesis
+  roles remain labeled separately.
+- Private review-policy bootstrap data lives only at ignored
+  `.ops/state/cache/wiki-maker/private-policy.json`, as declared by the profile.
+  Its contents must never enter tracked or public outputs.
 
 ## Relationship Explorer Release
 
@@ -61,27 +97,8 @@ The AIE-specific conversion plan is complete. The active plan remains `.ops/plan
 
 ## Current Shape
 - The clean wiki is a publishable AIE conference intelligence vault, not only a generated schedule archive.
-- Official schedule, people, companies, talks, resources, transcripts, slides, reconstructed slides, dense slides, topic pages, tools, questions, harnesses, playbooks, evaluations, policies, and source-boundary resources are all linked from `wiki/index.md`.
+- Official schedule, people, companies, talks, resources, transcripts, slides, reconstructed slides, dense slides, topic pages, tools, questions, harnesses, playbooks, evaluations, and source-boundary resources are all linked from `wiki/index.md`.
 - Exhaustive generated listings remain reachable through category pages and registries instead of dominating the main index.
-
-## Latest Completed Run
-- Receipt: `.ops/state/runs/20260710T014441Z-synthesis-layers.md`
-- Generator: `scripts/generate_synthesis_layers.py`
-- Outputs:
-  - `wiki/harnesses/` with 5 seeded harness pages and `registry.json`
-  - `wiki/playbooks/` with 3 seeded playbooks and `registry.json`
-  - `wiki/evaluations/` with 6 comparative/policy evaluation pages and `registry.json`
-  - `wiki/policies/` with 5 topic-specific credibility policy pages and `registry.json`
-  - `raw/sources/credibility-policies/` with one JSON policy per topic
-  - `raw/sources/credibility-policy-evals.json` with 10 passing high-exemplar fixtures
-  - `wiki/resources/livestream-thematic-anchors.md`
-  - `raw/sources/topic-evidence-table-summary.json`
-
-## Credibility Policy Boundary
-- Credibility scoring is topic-specific. Do not use a single global credibility score across coding agents, evals, search, sandboxes, and inference.
-- Some topics give public attention or view count meaningful weight; others treat it as weak context. The policy file must explain which case applies.
-- Change one policy JSON at a time under `raw/sources/credibility-policies/`, add or adjust eval fixtures, then rerun `python3 scripts/generate_synthesis_layers.py`.
-- `wiki/evaluations/credibility-policy-evals.md` is the human-readable eval report; all 10 fixtures passed in the latest run.
 
 ## Automation Update
 Future native YouTube import receipts now include `slideScanMode` through:
@@ -99,7 +116,7 @@ The project-local official YouTube monitor was hardened in commit `324e0e2c`:
 
 The updated user unit was installed and verified at `2026-07-16T07:47:25Z`. The controlled systemd run exited successfully with `state: active`, six recent confirmed WF2026 event entries, zero new entries, and a clean `main` checkout synchronized with `origin/main`. The timer remains enabled on its six-hour cadence.
 
-The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to a bounded scan of the latest 100 official-channel uploads, with exact schedule/speaker evidence required before admission. The durable verified manifest now contains 22 WF26 media items: 19 talk recordings or scheduled premieres and 3 event livestreams. This run added six previously missing official items:
+The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to a bounded scan of the latest 100 official-channel uploads, with exact schedule/speaker evidence required before admission. The durable verified manifest now contains 22 WF26 media items: 17 recordings, 2 scheduled premieres, and 3 event livestreams. This run added six previously missing official items:
 - Four playable recordings with cached transcripts, transcript pages, slide/OCR pages, resource pages, and talk synthesis: Pauline Brunet, Addy Osmani, Erik Meijer, and Alex Bauer.
 - Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
 - Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.

@@ -10,11 +10,11 @@ last_enriched: "2026-07-16T08:28:12.385049+00:00"
 # "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
+An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel cut video.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
 - Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status

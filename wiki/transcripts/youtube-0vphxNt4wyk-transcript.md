@@ -1,12 +1,12 @@
 ---
-title: "Transcript: 0Vphxnt4Wyk"
+title: "Transcript: Don't Ship Skills Without Evals"
 category: "transcripts"
 videoId: "0vphxNt4wyk"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3965"
 ---
 
-# Transcript: 0Vphxnt4Wyk
+# Transcript: Don't Ship Skills Without Evals
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=0vphxNt4wyk)

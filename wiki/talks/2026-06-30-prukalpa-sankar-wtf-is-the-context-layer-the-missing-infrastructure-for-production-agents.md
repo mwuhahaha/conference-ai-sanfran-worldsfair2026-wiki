@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-8G_1-3IO4ZQ-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-8G_1-3IO4ZQ`
+- Slide deck: [[youtube-8G_1-3IO4ZQ-slides|Slides: 8G_1-3IO4ZQ]] — 10 visible slide image(s).
+![[assets/slides/8G_1-3IO4ZQ/slide-001.jpg]]
+![[assets/slides/8G_1-3IO4ZQ/slide-002.jpg]]
+![[assets/slides/8G_1-3IO4ZQ/slide-003.jpg]]
+- Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-8G_1-3IO4ZQ` — 3,420 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
+- Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
+- Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -46,9 +56,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[prukalpa-sankar]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown

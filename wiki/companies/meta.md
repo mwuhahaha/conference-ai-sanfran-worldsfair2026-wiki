@@ -47,12 +47,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2|Local LLMs and workstation agents: Part 2]]
 
 ### Media Signals
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
-- Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
+- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
-- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- Evidence links for `youtube-LxQsQ3vZDqo` (supporting context only): [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

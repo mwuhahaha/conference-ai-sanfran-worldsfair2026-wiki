@@ -28,6 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-martin-harrysson-the-agentic-product-development-organization|The Agentic Product Development Organization]]
 
 ### Media Signals
-- `youtube-SZStlIhyTCY` — 10 slide-derived text signals
+- `youtube-SZStlIhyTCY` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-SZStlIhyTCY`: agile, methodologies, software, tech, breakthrough, mainframes, mobile, cloud.
-- Evidence links for `youtube-SZStlIhyTCY`: [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]
+- Evidence links for `youtube-SZStlIhyTCY` (supporting context only): [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]

@@ -25,6 +25,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Media Signals
-- `youtube-liG97YXaTSA` — 6 slide-derived text signals
+- `youtube-liG97YXaTSA` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
-- Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+- Evidence links for `youtube-liG97YXaTSA` (supporting context only): [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

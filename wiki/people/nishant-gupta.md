@@ -34,6 +34,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
+- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
-- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]

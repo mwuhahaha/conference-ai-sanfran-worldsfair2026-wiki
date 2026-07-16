@@ -40,9 +40,9 @@ big models get a lot of press. small model scale much better. RAM is expensive. 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube--TiET_K-E_g` — 5 slide-derived text signals
+- `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
-- Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+- Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

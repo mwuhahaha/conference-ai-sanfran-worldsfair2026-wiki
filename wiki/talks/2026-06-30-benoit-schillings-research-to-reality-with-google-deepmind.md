@@ -42,9 +42,9 @@ TBD. Expected focus areas include generative AI for code, deep thinking algorith
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
-- Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

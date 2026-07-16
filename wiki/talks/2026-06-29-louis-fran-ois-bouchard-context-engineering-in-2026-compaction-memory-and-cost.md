@@ -51,13 +51,13 @@ Every long agent session eventually breaks: the assistant that swore it would "n
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
-- Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+- Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -80,11 +80,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
 - [[youtube-ZRM_TfEZcIo-slides]]
 - Slide-derived terms: `notes`, `obsidian`, `research`, `towards`, `index`, `every`, `database`, `files`, `engineer`, `handbook`, `content`, `courses`, `videos`, `starts`, `zero`, `codex`, `repos`, `course`
-
-## Livestream Segment
-- [Watch in livestream at 02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Match basis: speaker and title; timed captions matched Louis-François Bouchard, engineering.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
@@ -121,3 +116,8 @@ Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

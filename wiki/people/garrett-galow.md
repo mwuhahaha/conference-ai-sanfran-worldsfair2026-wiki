@@ -26,6 +26,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder|Building an Agent Harness for the Business, Not the Builder]]
 
 ### Media Signals
-- `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
-- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- `youtube-iUWwcG-C8OU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-iUWwcG-C8OU` (supporting context only): [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]

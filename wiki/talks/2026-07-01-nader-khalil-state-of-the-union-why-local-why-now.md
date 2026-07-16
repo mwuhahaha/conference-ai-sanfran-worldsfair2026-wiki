@@ -37,13 +37,22 @@ Local AI has crossed from interesting to useful, driven by stronger open models,
 
 - [[youtube-KB41dTlX1Uc-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-KB41dTlX1Uc`
+- Slide deck: [[youtube-KB41dTlX1Uc-slides|Slides: KB41dTlX1Uc]] — 32 visible slide image(s).
+![[assets/slides/KB41dTlX1Uc/slide-001.jpg]]
+![[assets/slides/KB41dTlX1Uc/slide-002.jpg]]
+![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
+- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
-- Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -26,7 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]]
 
 ### Media Signals
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 1 slide-derived text signals
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; role: supporting context only.
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
-- Evidence links for `youtube-B9h9ovW5H9U`: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
+- Evidence links for `youtube-B9h9ovW5H9U` (supporting context only): [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]

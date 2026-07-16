@@ -33,6 +33,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
 
 ### Media Signals
-- `youtube-so9l_MwS2yg` — 3 slide-derived text signals
+- `youtube-so9l_MwS2yg` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
-- Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
+- Evidence links for `youtube-so9l_MwS2yg` (supporting context only): [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]

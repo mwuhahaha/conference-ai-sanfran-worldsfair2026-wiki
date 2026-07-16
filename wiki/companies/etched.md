@@ -32,12 +32,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-qaJXBMwUkoE` — source page linked
-- Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

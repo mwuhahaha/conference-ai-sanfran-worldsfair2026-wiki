@@ -1,12 +1,12 @@
 ---
-title: "Transcript: V Edrhihhzq"
+title: "Transcript: The Prime Intellect Stack"
 category: "transcripts"
 videoId: "V-EDrhIhHzQ"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "10228"
 ---
 
-# Transcript: V Edrhihhzq
+# Transcript: The Prime Intellect Stack
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=V-EDrhIhHzQ)

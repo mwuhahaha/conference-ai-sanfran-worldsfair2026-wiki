@@ -28,6 +28,8 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 
 ### Media Signals
-- `youtube-yJHw33cVeHo` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-yJHw33cVeHo`: hello.
-- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]

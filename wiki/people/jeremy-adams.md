@@ -25,6 +25,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
 ### Media Signals
-- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals
+- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
-- Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+- Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]

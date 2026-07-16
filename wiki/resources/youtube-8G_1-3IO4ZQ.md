@@ -14,8 +14,8 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/8G_1-3IO4ZQ.txt` (3,420 words).
@@ -28,7 +28,10 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/8G_1-3IO
 [YouTube](https://www.youtube.com/watch?v=8G_1-3IO4ZQ)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents (match score 104)
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents
 
 ## Extracted Slides
 - [[youtube-8G_1-3IO4ZQ-slides]]
+
+## Transcript Markdown
+- [[youtube-8G_1-3IO4ZQ-transcript]] — full cached transcript markdown.

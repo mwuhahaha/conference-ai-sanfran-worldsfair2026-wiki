@@ -1,12 +1,12 @@
 ---
-title: "Transcript: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps"
+title: "Transcript: MCP UI: Extending the frontier"
 category: "transcripts"
 videoId: "o-zkvb0iFDQ"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3969"
 ---
 
-# Transcript: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+# Transcript: MCP UI: Extending the frontier
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)

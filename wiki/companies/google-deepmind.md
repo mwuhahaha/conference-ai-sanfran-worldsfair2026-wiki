@@ -62,18 +62,27 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
 
 ### Media Signals
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
-- Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
-- Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
-- `youtube-Bc6Ojl2XS1w` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
-- Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
+- `youtube-cVzf49yg0D8` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
+- Evidence links for `youtube-cVzf49yg0D8` (supporting context only): [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
+- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
-- Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+- Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- `youtube-xz0-brt56L8` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+- Evidence links for `youtube-xz0-brt56L8` (supporting context only): [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

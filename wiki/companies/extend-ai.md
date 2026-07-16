@@ -32,9 +32,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
 
 ### Media Signals
-- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
-- Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
+- `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 from collections import Counter, defaultdict
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -28,6 +29,10 @@ TRANSCRIPT_DIRS = [
     RAW / "external-youtube-transcripts",
     RAW / "youtube-livestream-transcripts",
 ]
+OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
+PRIVATE_POLICY_PROFILE = (
+    ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-policy.json"
+)
 
 STOPWORDS = {
     "about", "actually", "after", "again", "agent", "agents", "all", "also", "because", "basically",
@@ -38,6 +43,18 @@ STOPWORDS = {
     "things", "think", "this", "those", "through", "time", "using", "very", "video", "videos",
     "want", "were", "what", "when", "where", "which", "will", "with", "work", "would", "yeah",
     "you", "your",
+}
+RELEVANCE_STOPWORDS = STOPWORDS | {
+    "agentic", "and", "any", "are", "before", "better", "building",
+    "but", "can", "cannot", "category", "code", "conference", "context",
+    "data", "derived", "engineering", "for", "general", "has", "llm",
+    "made", "model", "models", "not", "one", "out", "over", "overview",
+    "production", "should", "significance", "sourcelabels", "support",
+    "supporting", "system", "systems", "the", "title", "tool", "tools",
+    "topics", "training", "use", "user", "useful", "without", "world",
+}
+TITLE_RELEVANCE_STOPWORDS = STOPWORDS | {
+    "agentic", "engineering", "general", "system", "systems",
 }
 
 
@@ -137,6 +154,33 @@ def has_video_evidence(video_id: str) -> bool:
     return any((WIKI / "slides" / f"youtube-{video_id}-{suffix}.md").exists() for suffix in ["slides", "dense-slides", "reconstructed-slides"])
 
 
+@lru_cache(maxsize=1)
+def official_event_video_ids() -> frozenset[str]:
+    if not OFFICIAL_VIDEO_MANIFEST.is_file():
+        return frozenset()
+    payload = json.loads(read(OFFICIAL_VIDEO_MANIFEST))
+    videos = payload.get("videos", [])
+    if not isinstance(videos, list):
+        raise ValueError("official WF26 video manifest must contain a videos array")
+    return frozenset(
+        str(item["id"])
+        for item in videos
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    )
+
+
+def prioritize_video_ids(
+    values: list[str],
+    *,
+    supporting_limit: int,
+) -> list[str]:
+    ordered = list(dict.fromkeys(values))
+    official_ids = official_event_video_ids()
+    primary = [video_id for video_id in ordered if video_id in official_ids]
+    supporting = [video_id for video_id in ordered if video_id not in official_ids]
+    return primary + supporting[:supporting_limit]
+
+
 def wikilinks(text: str) -> list[str]:
     links = []
     for raw in re.findall(r"\[\[([^\]]+)\]\]", text):
@@ -152,6 +196,272 @@ def transcript_text(video_id: str) -> tuple[Path | None, str]:
         if path.exists():
             return path, read(path)
     return None, ""
+
+
+def normalized_relevance_text(value: str) -> str:
+    return " ".join(re.findall(r"[a-z0-9]+", value.lower()))
+
+
+def relevance_token(value: str) -> str:
+    aliases = {
+        "benchmarking": "benchmark",
+        "benchmarks": "benchmark",
+        "coded": "code",
+        "coder": "code",
+        "coders": "code",
+        "coding": "code",
+        "eval": "eval",
+        "evals": "eval",
+        "evaluate": "eval",
+        "evaluated": "eval",
+        "evaluates": "eval",
+        "evaluating": "eval",
+        "evaluation": "eval",
+        "evaluations": "eval",
+        "indexes": "index",
+        "retrieval": "retrieve",
+        "retriever": "retrieve",
+        "retrievers": "retrieve",
+        "retrieving": "retrieve",
+        "sandboxes": "sandbox",
+        "searched": "search",
+        "searches": "search",
+        "searching": "search",
+    }
+    return aliases.get(value, value)
+
+
+def relevance_tokens(
+    value: str,
+    *,
+    stopwords: set[str] = RELEVANCE_STOPWORDS,
+) -> set[str]:
+    normalized = {
+        relevance_token(token)
+        for token in normalized_relevance_text(value).split()
+        if len(token) >= 3
+    }
+    return {token for token in normalized if token not in stopwords}
+
+
+def article_topic_vocabulary(value: str) -> set[str]:
+    owned_sections = re.split(
+        r"^## (?:Connections|Evidence Graph|Source Coverage)\s*$",
+        value,
+        maxsplit=1,
+        flags=re.M,
+    )[0]
+    return relevance_tokens(owned_sections)
+
+
+@lru_cache(maxsize=None)
+def private_source_selection_profile(
+    article_slug: str,
+) -> tuple[tuple[str, ...], frozenset[str], frozenset[str]]:
+    if not PRIVATE_POLICY_PROFILE.is_file():
+        return (), frozenset(), frozenset()
+    try:
+        payload = json.loads(read(PRIVATE_POLICY_PROFILE))
+    except json.JSONDecodeError:
+        return (), frozenset(), frozenset()
+    profiles = payload.get("sourceSelectionProfiles", [])
+    if not isinstance(profiles, list):
+        return (), frozenset(), frozenset()
+    for profile in profiles:
+        if not isinstance(profile, dict) or profile.get("topic") != article_slug:
+            continue
+        terms = profile.get("titleTerms", [])
+        if not isinstance(terms, list):
+            terms = []
+        approved = profile.get("approvedSupportingMediaIds", [])
+        blocked = profile.get("blockedSupportingMediaIds", [])
+        if not isinstance(approved, list):
+            approved = []
+        if not isinstance(blocked, list):
+            blocked = []
+        return (
+            tuple(
+                sorted(
+                    {
+                        normalized_relevance_text(term)
+                        for term in terms
+                        if isinstance(term, str) and normalized_relevance_text(term)
+                    }
+                )
+            ),
+            frozenset(value for value in approved if isinstance(value, str)),
+            frozenset(value for value in blocked if isinstance(value, str)),
+        )
+    return (), frozenset(), frozenset()
+
+
+def configured_title_matches(text: str, terms: tuple[str, ...]) -> int:
+    normalized = f" {normalized_relevance_text(text)} "
+    return sum(1 for term in terms if f" {term} " in normalized)
+
+
+def article_relevance_terms(slug: str, title: str) -> tuple[list[str], list[str]]:
+    phrases = list(
+        dict.fromkeys(
+            value
+            for value in (
+                normalized_relevance_text(title),
+                normalized_relevance_text(slug.replace("-", " ")),
+            )
+            if value
+        )
+    )
+    tokens = list(
+        dict.fromkeys(
+            relevance_token(token)
+            for phrase in phrases
+            for token in phrase.split()
+            if len(token) >= 3 and token not in TITLE_RELEVANCE_STOPWORDS
+        )
+    )
+    if not tokens:
+        tokens = list(
+            dict.fromkeys(
+                token
+                for phrase in phrases
+                for token in phrase.split()
+                if len(token) >= 3
+            )
+        )
+    return phrases, tokens
+
+
+def relevance_features(
+    text: str,
+    phrases: list[str],
+    tokens: list[str],
+) -> tuple[int, int]:
+    normalized = f" {normalized_relevance_text(text)} "
+    phrase_matches = sum(
+        1 for phrase in phrases if f" {phrase} " in normalized
+    )
+    token_matches = len(
+        set(tokens)
+        & relevance_tokens(text, stopwords=TITLE_RELEVANCE_STOPWORDS)
+    )
+    return phrase_matches, token_matches
+
+
+def select_relevant_video_ids(
+    values: list[str],
+    *,
+    article_slug: str,
+    article_title: str,
+    article_text: str,
+    association_pages: list[Path],
+    supporting_limit: int,
+) -> list[str]:
+    """Keep primary sources and choose bounded context using private evidence signals."""
+    ordered = list(dict.fromkeys(values))
+    official_ids = official_event_video_ids()
+    primary = [video_id for video_id in ordered if video_id in official_ids]
+    supporting = [video_id for video_id in ordered if video_id not in official_ids]
+    phrases, tokens = article_relevance_terms(article_slug, article_title)
+    configured_terms, approved_media_ids, blocked_media_ids = (
+        private_source_selection_profile(article_slug)
+    )
+    article_video_ids = set(video_ids(article_text))
+    article_positions = {
+        video_id: article_text.find(video_id)
+        for video_id in article_video_ids
+    }
+    topic_vocabulary = article_topic_vocabulary(article_text)
+    association_context: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    supporting_set = set(supporting)
+    for page in association_pages:
+        page_text = read(page)
+        page_title = title_of(page)
+        for video_id in video_ids(page_text):
+            if video_id in supporting_set:
+                association_context[video_id].append((page_title, page_text))
+
+    @lru_cache(maxsize=None)
+    def selection_key(video_id: str) -> tuple[int | str, ...]:
+        resource_path = WIKI / "resources" / f"youtube-{video_id}.md"
+        resource_text = read(resource_path)
+        resource_title = title_of(resource_path) if resource_path.exists() else ""
+        _transcript_path, transcript = transcript_text(video_id)
+        slide_signal = "\n".join(slide_text(video_id))
+        media_text = "\n".join([resource_text, transcript, slide_signal])
+        contexts = association_context.get(video_id, [])
+        context_titles = "\n".join(title for title, _text in contexts)
+
+        title_phrase, title_tokens = relevance_features(
+            resource_title, phrases, tokens
+        )
+        media_phrase, media_tokens = relevance_features(media_text, phrases, tokens)
+        context_title_phrase, context_title_tokens = relevance_features(
+            context_titles, phrases, tokens
+        )
+        resource_topic_tokens = len(relevance_tokens(resource_title) & topic_vocabulary)
+        context_topic_tokens = len(relevance_tokens(context_titles) & topic_vocabulary)
+        configured_matches = configured_title_matches(
+            resource_title, configured_terms
+        )
+        approved_media = int(video_id in approved_media_ids)
+        exact_article_link = int(
+            any(
+                re.search(
+                    rf"\[\[{re.escape(article_slug)}(?:\||\]\])",
+                    context,
+                    flags=re.I,
+                )
+                for _title, context in contexts
+            )
+        )
+        features = (
+            approved_media,
+            configured_matches,
+            title_phrase,
+            title_tokens,
+            resource_topic_tokens,
+            media_phrase,
+            media_tokens,
+            context_title_phrase,
+            context_title_tokens,
+            context_topic_tokens,
+            int(video_id in article_video_ids),
+            exact_article_link,
+            int(bool(transcript)),
+            int(bool(slide_signal)),
+        )
+        if video_id in blocked_media_ids:
+            has_article_relevance = False
+        elif approved_media:
+            has_article_relevance = True
+        elif configured_terms:
+            has_article_relevance = configured_matches > 0
+        else:
+            has_article_relevance = any(
+                (
+                    title_phrase,
+                    title_tokens,
+                    resource_topic_tokens,
+                    context_title_phrase,
+                    context_title_tokens,
+                    context_topic_tokens,
+                    exact_article_link,
+                )
+            )
+        article_position = article_positions.get(video_id, len(article_text) + 1)
+        return (
+            0 if has_article_relevance else 1,
+            *(-value for value in features),
+            article_position,
+            video_id,
+        )
+
+    selected_supporting = [
+        video_id
+        for video_id in sorted(supporting, key=selection_key)
+        if selection_key(video_id)[0] == 0
+    ][:supporting_limit]
+    return primary + selected_supporting
 
 
 def compact_line(value: str) -> str:
@@ -331,12 +641,21 @@ def evidence_for_video(video_id: str) -> dict:
         "slide_lines": slides[:10],
         "slide_keywords": slide_keyword_summary(slides, 8),
         "resource_exists": resource.exists(),
+        "source_role": (
+            "primary event evidence"
+            if video_id in official_event_video_ids()
+            else "supporting context only"
+        ),
         "slide_pages": [
             f"youtube-{video_id}-{suffix}"
             for suffix in ["slides", "dense-slides", "reconstructed-slides"]
             if (WIKI / "slides" / f"youtube-{video_id}-{suffix}.md").exists()
         ],
     }
+
+
+def has_synthesis_grade_slide_signal(evidence: dict) -> bool:
+    return len(evidence["slide_lines"]) >= 3 and len(evidence["slide_keywords"]) >= 3
 
 
 def slide_page_summary(page_id: str) -> dict:
@@ -398,11 +717,18 @@ def render_talk_slides_section(video_ids_: list[str]) -> str:
     return "\n".join(lines) if found else ""
 
 
-def render_evidence_section(video_ids_: list[str], *, include_title: bool = True) -> str:
+def render_evidence_section(
+    video_ids_: list[str],
+    *,
+    include_title: bool = True,
+    max_supporting: int = 8,
+) -> str:
     if not video_ids_:
         return "No linked video, transcript, or slide source has been attached yet."
     lines: list[str] = []
-    for video_id in video_ids_[:6]:
+    for video_id in prioritize_video_ids(
+        video_ids_, supporting_limit=max_supporting
+    ):
         ev = evidence_for_video(video_id)
         if not ev["transcript_words"] and not ev["slide_lines"] and not ev["resource_exists"] and not ev["slide_pages"]:
             continue
@@ -410,12 +736,15 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
             bits = []
             if ev["transcript_words"]:
                 bits.append(f"{ev['transcript_words']:,} transcript words")
-            if ev["slide_lines"]:
+            if has_synthesis_grade_slide_signal(ev):
                 bits.append(f"{len(ev['slide_lines'])} slide-derived text signals")
-            lines.append(f"- `youtube-{video_id}` — " + ("; ".join(bits) if bits else "source page linked"))
+            detail = "; ".join(bits) if bits else "source page linked"
+            lines.append(
+                f"- `youtube-{video_id}` — {detail}; role: {ev['source_role']}."
+            )
         if ev["keywords"]:
             lines.append(f"- Transcript signals for `youtube-{video_id}`: {', '.join(ev['keywords'])}.")
-        if ev["slide_keywords"]:
+        if has_synthesis_grade_slide_signal(ev):
             lines.append(f"- Slide-derived themes for `youtube-{video_id}`: {', '.join(ev['slide_keywords'])}.")
         links = []
         if ev["resource_exists"]:
@@ -424,7 +753,10 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
             links.append(f"[[youtube-{video_id}-transcript]]")
         links.extend(f"[[{page}]]" for page in ev["slide_pages"])
         if links:
-            lines.append(f"- Evidence links for `youtube-{video_id}`: {', '.join(links)}")
+            lines.append(
+                f"- Evidence links for `youtube-{video_id}` ({ev['source_role']}): "
+                f"{', '.join(links)}"
+            )
     return "\n".join(lines) if lines else "No linked video, transcript, or slide source has been attached yet."
 
 
@@ -450,7 +782,12 @@ def enrich_talk(path: Path) -> bool:
     return False
 
 
-def page_mentions_for(slug: str, title: str, folders: list[str], limit: int = 12) -> list[Path]:
+def page_mentions_for(
+    slug: str,
+    title: str,
+    folders: list[str],
+    limit: int | None = 12,
+) -> list[Path]:
     needles = {slug.lower(), title.lower()}
     parts = [part for part in re.split(r"[^a-z0-9]+", slug.lower()) if len(part) > 3]
     paths = []
@@ -459,25 +796,38 @@ def page_mentions_for(slug: str, title: str, folders: list[str], limit: int = 12
             hay = read(path).lower()
             if any(needle and needle in hay for needle in needles) or sum(part in hay for part in parts) >= 2:
                 paths.append(path)
-                if len(paths) >= limit:
+                if limit is not None and len(paths) >= limit:
                     return paths
     return paths
 
 
-def collect_video_ids_from_pages(paths: list[Path]) -> list[str]:
+def collect_video_ids_from_pages(
+    paths: list[Path],
+    *,
+    supporting_limit: int | None = None,
+) -> list[str]:
     ids: list[str] = []
     for path in paths:
         ids.extend(video_ids(read(path)))
-    return dedupe(ids, limit=8)
+    if supporting_limit is None:
+        return list(dict.fromkeys(ids))
+    return prioritize_video_ids(ids, supporting_limit=supporting_limit)
 
 
 def enrich_topic(path: Path) -> bool:
     text = read(path)
     title = title_of(path)
     related = [WIKI / "talks" / f"{target}.md" for target in wikilinks(text) if (WIKI / "talks" / f"{target}.md").exists()]
-    related.extend(page_mentions_for(path.stem, title, ["talks"], limit=8))
-    related = dedupe_paths(related, 10)
-    ids = collect_video_ids_from_pages(related)
+    related.extend(page_mentions_for(path.stem, title, ["talks"], limit=None))
+    related = dedupe_paths(related)
+    ids = select_relevant_video_ids(
+        [*collect_video_ids_from_pages(related), *video_ids(text)],
+        article_slug=path.stem,
+        article_title=title,
+        article_text=text,
+        association_pages=related,
+        supporting_limit=8,
+    )
     lines = [
         "This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.",
         "",
@@ -488,7 +838,9 @@ def enrich_topic(path: Path) -> bool:
             lines.append(f"- [[{talk.stem}|{title_of(talk)}]]")
     else:
         lines.append("- No related talks were found by link or text match in this pass.")
-    lines.extend(["", "### Media Signals", render_evidence_section(ids)])
+    lines.extend(
+        ["", "### Media Signals", render_evidence_section(ids, max_supporting=8)]
+    )
     new_text = upsert_section(text, "Evidence Graph", "\n".join(lines))
     if new_text != text:
         write(path, new_text)
@@ -496,7 +848,7 @@ def enrich_topic(path: Path) -> bool:
     return False
 
 
-def dedupe_paths(paths: list[Path], limit: int) -> list[Path]:
+def dedupe_paths(paths: list[Path], limit: int | None = None) -> list[Path]:
     seen = set()
     out = []
     for path in paths:
@@ -504,7 +856,7 @@ def dedupe_paths(paths: list[Path], limit: int) -> list[Path]:
             continue
         seen.add(path)
         out.append(path)
-        if len(out) >= limit:
+        if limit is not None and len(out) >= limit:
             break
     return out
 
@@ -514,9 +866,19 @@ def enrich_person_or_company(path: Path, kind: str) -> bool:
     links = [target for target in wikilinks(text) if (WIKI / "talks" / f"{target}.md").exists()]
     talk_paths = [WIKI / "talks" / f"{target}.md" for target in links]
     if not talk_paths:
-        talk_paths = page_mentions_for(path.stem, title_of(path), ["talks"], limit=8)
-    talk_paths = dedupe_paths(talk_paths, 10)
-    ids = collect_video_ids_from_pages(talk_paths)
+        talk_paths = page_mentions_for(path.stem, title_of(path), ["talks"], limit=None)
+    talk_paths = dedupe_paths(talk_paths)
+    ids = select_relevant_video_ids(
+        [
+            *collect_video_ids_from_pages(talk_paths),
+            *video_ids(text),
+        ],
+        article_slug=path.stem,
+        article_title=title_of(path),
+        article_text=text,
+        association_pages=talk_paths,
+        supporting_limit=6,
+    )
     label = "person" if kind == "people" else "organization"
     lines = [
         f"This section summarizes how this {label} appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.",
@@ -528,7 +890,9 @@ def enrich_person_or_company(path: Path, kind: str) -> bool:
             lines.append(f"- [[{talk.stem}|{title_of(talk)}]]")
     else:
         lines.append("- No related scheduled session was found in this pass.")
-    lines.extend(["", "### Media Signals", render_evidence_section(ids)])
+    lines.extend(
+        ["", "### Media Signals", render_evidence_section(ids, max_supporting=6)]
+    )
     new_text = upsert_section(text, "Evidence Graph", "\n".join(lines))
     if new_text != text:
         write(path, new_text)

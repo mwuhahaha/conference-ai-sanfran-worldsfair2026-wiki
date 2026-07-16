@@ -39,9 +39,9 @@ A ~40-person team ships VS Code weekly to millions of users. Models got good eno
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
-- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+- Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

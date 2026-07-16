@@ -42,9 +42,9 @@ Discussing recent breakthroughs in realtime generative video models, and the new
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals
+- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
-- Evidence links for `youtube-EY4O9M6AsWI`: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
+- Evidence links for `youtube-EY4O9M6AsWI` (supporting context only): [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -33,9 +33,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Media Signals
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
 - Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

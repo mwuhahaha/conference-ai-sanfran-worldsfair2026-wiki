@@ -65,21 +65,26 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Media Signals
-- `youtube-2vlCqD6igVA` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
-- `youtube-ib-wTAvCZqg` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
-- Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
-- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
-- Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
-- `youtube-5N33E9tC400` — source page linked
-- Evidence links for `youtube-5N33E9tC400`: [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
+- Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+- `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
+- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.
+- Evidence links for `youtube-MRM7oA3JsFs` (supporting context only): [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
+- `youtube-2vlCqD6igVA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
+- Evidence links for `youtube-2vlCqD6igVA` (supporting context only): [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
+- Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
+- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

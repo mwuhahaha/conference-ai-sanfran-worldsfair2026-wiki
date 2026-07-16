@@ -1885,9 +1885,7 @@ def export() -> None:
             + "; ".join(relationship_errors)
         )
 
-    if DIST.exists():
-        shutil.rmtree(DIST)
-    DIST.mkdir(parents=True)
+    prepare_dist_root()
     write_styles()
     write_sigma_graph_script()
     shutil.copyfile(ROOT / "scripts" / "relationship_explorer.js", DIST / "relationship.js")
@@ -1951,6 +1949,29 @@ def export() -> None:
         (DIST / "agent-source-index.md").write_text(raw_agent_index, encoding="utf-8")
 
     print(f"Exported {len(pages)} pages to {DIST}")
+
+
+def prepare_dist_root() -> None:
+    """Reset the output tree without replacing a maker-owned candidate link."""
+
+    if DIST.is_symlink():
+        if os.environ.get("WIKI_MAKER_STAGED_UPDATE") != "1":
+            raise RuntimeError("refusing to traverse a dist symlink outside a staged update")
+        target = DIST.resolve(strict=True)
+        expected = (ROOT.parent / "staging" / "site").resolve(strict=True)
+        if target != expected:
+            raise RuntimeError("staged dist symlink does not target this candidate release")
+        for child in target.iterdir():
+            if child.is_symlink() or child.is_file():
+                child.unlink()
+            elif child.is_dir():
+                shutil.rmtree(child)
+            else:
+                raise RuntimeError(f"unsupported entry in staged dist root: {child}")
+        return
+    if DIST.exists():
+        shutil.rmtree(DIST)
+    DIST.mkdir(parents=True)
 
 
 if __name__ == "__main__":

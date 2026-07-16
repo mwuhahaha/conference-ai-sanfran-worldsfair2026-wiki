@@ -40,9 +40,9 @@ There is nothing quite as demoralizing as finishing a feature and realizing you 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals
+- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
-- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

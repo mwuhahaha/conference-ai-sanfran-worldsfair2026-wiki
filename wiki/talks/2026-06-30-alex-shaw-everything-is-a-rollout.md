@@ -40,9 +40,9 @@ tba
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-liG97YXaTSA` — 6 slide-derived text signals
+- `youtube-liG97YXaTSA` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
-- Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+- Evidence links for `youtube-liG97YXaTSA` (supporting context only): [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

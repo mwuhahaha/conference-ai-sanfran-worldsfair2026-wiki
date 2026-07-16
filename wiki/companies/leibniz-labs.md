@@ -32,7 +32,10 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube--CnA2lGfymY` — 3,148 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube--CnA2lGfymY`: answer, lean, safe, model, type, look, llms, question.
+- Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
+- Evidence links for `youtube--CnA2lGfymY` (primary event evidence): [[youtube--CnA2lGfymY]], [[youtube--CnA2lGfymY-transcript]], [[youtube--CnA2lGfymY-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

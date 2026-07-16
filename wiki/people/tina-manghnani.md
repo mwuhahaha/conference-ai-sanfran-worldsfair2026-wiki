@@ -28,6 +28,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work|Design multi-agent systems that actually work]]
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
-- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

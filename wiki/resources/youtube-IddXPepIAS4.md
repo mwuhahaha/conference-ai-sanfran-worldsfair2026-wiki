@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/IddXPepI
 
 ## Extracted Slides
 - [[youtube-IddXPepIAS4-slides]]
+
+## Transcript Markdown
+- [[youtube-IddXPepIAS4-transcript]] — full cached transcript markdown.

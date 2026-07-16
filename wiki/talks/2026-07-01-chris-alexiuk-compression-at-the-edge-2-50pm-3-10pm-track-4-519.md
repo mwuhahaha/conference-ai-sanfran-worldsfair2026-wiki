@@ -42,9 +42,9 @@ Compression at the Edge examines how smaller weights, faster inference, and cons
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
-- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

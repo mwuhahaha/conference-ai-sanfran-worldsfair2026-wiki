@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different|'It’s Tokens All The Way Down: How RLMs are Different']]
 
 ### Media Signals
-- `youtube--cKUW6n8hBU` — 8 slide-derived text signals
+- `youtube--cKUW6n8hBU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
-- Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
+- Evidence links for `youtube--cKUW6n8hBU` (supporting context only): [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]

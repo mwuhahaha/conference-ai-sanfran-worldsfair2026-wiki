@@ -31,3 +31,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/wFTVEDYV
 - [[youtube-wFTVEDYVJT0-dense-slides]]
 - [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 - [[youtube-wFTVEDYVJT0-slides]]
+
+## Transcript Markdown
+- [[youtube-wFTVEDYVJT0-transcript]] — full cached transcript markdown.

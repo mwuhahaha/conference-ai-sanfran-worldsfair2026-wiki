@@ -38,24 +38,27 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide|LLM Knowledge Bases: a practical guide]]
+- [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn|Build a Platform, Unleash an Agent on it.... and Watch it Burn!]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more|I Monitored Crime Audio. Voice Agents Scare Me More.]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
-- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-jVGCulhBRZI` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
-- Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
-- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
-- `youtube-himhGiWJXjo` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
-- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals
+- Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
-- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 
 ## Evidence Boundary
 This is a synthesis concept derived from Liad Yosef's official talk description and related MCP UI/MCP Apps transcript evidence. Use it as a design pattern, not as a formal protocol claim.

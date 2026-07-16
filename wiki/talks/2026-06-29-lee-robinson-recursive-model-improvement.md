@@ -48,17 +48,28 @@ No official description published in the schedule data.
 
 - [[youtube-q4Tr-DknG2M-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-q4Tr-DknG2M`
+- Slide deck: [[youtube-q4Tr-DknG2M-slides|Slides: q4Tr-DknG2M]] — 12 visible slide image(s).
+![[assets/slides/q4Tr-DknG2M/slide-001.jpg]]
+![[assets/slides/q4Tr-DknG2M/slide-002.jpg]]
+![[assets/slides/q4Tr-DknG2M/slide-003.jpg]]
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
-- Evidence links for `youtube-fL1iJHtl51Q`: [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+- Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -79,11 +90,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 - [[youtube-fL1iJHtl51Q-slides]]
 - Slide-derived terms: `frontier`, `file`, `composer`, `fast`, `cursor`, `intelligence`, `speed`, `best`, `model`, `robinson`, `developer`, `education`, `read`, `edit`, `code`, `combines`, `coding`, `best-in-class`
-
-## Livestream Segment
-- [Watch in livestream at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) — WF2026: Software Factories & Keynotes (Day 1).
-- Match basis: speaker and title; timed captions matched Lee Robinson, improvement, model, recursive.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -126,3 +132,8 @@ This synthesis uses the official schedule plus cached video transcripts. Officia
 - [[youtube-q4Tr-DknG2M]] — official AI Engineer YouTube channel recording published 2026-07-15.
 - Evidence status: [[youtube-q4Tr-DknG2M-transcript]]; [[youtube-q4Tr-DknG2M-slides]].
 - Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Livestream Segment
+- [Watch in livestream at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) — WF2026: Software Factories & Keynotes (Day 1).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

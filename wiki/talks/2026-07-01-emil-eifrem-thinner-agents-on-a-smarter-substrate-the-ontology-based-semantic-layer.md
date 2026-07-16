@@ -51,13 +51,13 @@ No official description published in the schedule data.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-knDDGYHnnSI` — 3 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-knDDGYHnnSI` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
-- Evidence links for `youtube-knDDGYHnnSI`: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
+- Evidence links for `youtube-knDDGYHnnSI` (supporting context only): [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -78,11 +78,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-knDDGYHnnSI-reconstructed-slides]]
 - [[youtube-knDDGYHnnSI-slides]]
 - Slide-derived terms: `e-03`, `microsoft`, `smol`, `graphrag`, `search`, `google`, `graph`, `moscone`, `erved2024`, `knowledge`, `accuracy`, `e-04`, `lycos`, `text`, `world`, `users`, `center`, `initial`
-
-## Livestream Segment
-- [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Match basis: speaker and title; timed captions matched Emil Eifrem, based, ontology, semantic.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -114,3 +109,8 @@ Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

@@ -35,9 +35,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
-- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Zsqb5Fzrfpw"
+title: "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor"
 category: "transcripts"
 videoId: "ZSQb5fzRFPw"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2617"
 ---
 
-# Transcript: Zsqb5Fzrfpw
+# Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=ZSQb5fzRFPw)

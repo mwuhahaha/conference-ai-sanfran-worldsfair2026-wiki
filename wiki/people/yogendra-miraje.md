@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products|Skills are new features: Building Skill-Centric Harness for Agentic Products]]
 
 ### Media Signals
-- `youtube-sl3icG-IjHo` — 8 slide-derived text signals
+- `youtube-sl3icG-IjHo` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
-- Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
+- Evidence links for `youtube-sl3icG-IjHo` (supporting context only): [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]

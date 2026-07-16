@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
 
 ### Media Signals
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals
+- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
-- Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

@@ -42,9 +42,9 @@ Verifiable rewards are the gold standard for RL training, but real-world agent t
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-JIsgyk0Paic` — 8 slide-derived text signals
+- `youtube-JIsgyk0Paic` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
-- Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+- Evidence links for `youtube-JIsgyk0Paic` (supporting context only): [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

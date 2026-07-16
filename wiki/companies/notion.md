@@ -38,9 +38,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-flora-liu-ai-in-gtm-at-notion|AI in GTM at Notion]]
 
 ### Media Signals
-- `youtube-6YdPI9YbjbI` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-6YdPI9YbjbI`: create, project.
-- Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
+- `youtube-6YdPI9YbjbI` — source page linked; role: supporting context only.
+- Evidence links for `youtube-6YdPI9YbjbI` (supporting context only): [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

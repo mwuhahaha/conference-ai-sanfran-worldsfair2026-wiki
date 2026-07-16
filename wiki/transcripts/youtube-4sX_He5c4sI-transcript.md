@@ -1,12 +1,12 @@
 ---
-title: "Transcript: 4Sx He5C4Si"
+title: "Transcript: WF2026: Autoresearch & Keynotes"
 category: "transcripts"
 videoId: "4sX_He5c4sI"
 sourceLabels: ["YouTube livestream transcript", "Cached transcript markdown"]
 wordCount: "82600"
 ---
 
-# Transcript: 4Sx He5C4Si
+# Transcript: WF2026: Autoresearch & Keynotes
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=4sX_He5c4sI)

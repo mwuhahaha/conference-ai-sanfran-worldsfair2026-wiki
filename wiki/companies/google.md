@@ -45,9 +45,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable|Are LLM Performance Benchmarks Reliable?]]
 
 ### Media Signals
-- `youtube--TiET_K-E_g` — 5 slide-derived text signals
+- `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
-- Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+- Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

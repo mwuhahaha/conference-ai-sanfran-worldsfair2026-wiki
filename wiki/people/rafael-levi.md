@@ -27,5 +27,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training|Video Discovery for Agentic World-Model Training]]
 
 ### Media Signals
-- `youtube-zTZ0qunQXnM` — source page linked
-- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
+- `youtube-zTZ0qunQXnM` — source page linked; role: supporting context only.
+- Evidence links for `youtube-zTZ0qunQXnM` (supporting context only): [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]

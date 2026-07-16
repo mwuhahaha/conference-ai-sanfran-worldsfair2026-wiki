@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/pSto5YaN
 
 ## Extracted Slides
 - [[youtube-pSto5YaNGUo-slides]]
+
+## Transcript Markdown
+- [[youtube-pSto5YaNGUo-transcript]] — full cached transcript markdown.

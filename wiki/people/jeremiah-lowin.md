@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
 
 ### Media Signals
-- `youtube-96G7FLab8xc` — 10 slide-derived text signals
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
-- Evidence links for `youtube-96G7FLab8xc`: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+- Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]

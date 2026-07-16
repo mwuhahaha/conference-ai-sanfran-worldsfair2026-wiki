@@ -42,9 +42,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
 
 ### Media Signals
-- `youtube-WJjInLeaJjo` — 3 slide-derived text signals
+- `youtube-WJjInLeaJjo` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
-- Evidence links for `youtube-WJjInLeaJjo`: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
+- Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

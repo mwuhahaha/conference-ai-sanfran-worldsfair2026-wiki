@@ -28,7 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-charlie-guo-cooking-with-codex|Cooking with Codex]]
 
 ### Media Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
-- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]

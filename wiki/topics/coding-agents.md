@@ -21,36 +21,6 @@ They are useful in feature slices, bug fixes, test generation, refactors, migrat
 
 Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
 
-Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
-
-They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
-
-Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
-
-Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
-
-They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
-
-Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
-
-Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
-
-They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
-
-Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
-
-Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
-
-They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
-
-Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
-
-Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
-
-They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
-
-Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
-
 ## Connections
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — Give your coding agents the power of turbogrep!; [[owen-halpert|Owen Halpert]] (Day 2 — Session Day 1 · 11:10am-11:30am · Expo Stage 1 NE; official schedule)
@@ -121,15 +91,6 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[sonar|Sonar]]
 - [[uber|Uber]]
 
-
-
-
-
-
-
-
-
-
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?; [[alex-volkov|Alex Volkov]] (Day 3 — Session Day 2 · 10:45am-11:05am · AI Architects: Tokenmaxxing; related YouTube resource; via [[youtube-ZpK5PWX2YRM]])
@@ -158,130 +119,150 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust; [[erik-meijer|Erik Meijer]] (Day 2 — Session Day 1 · 4:50pm-5:10pm · Harness Engineering; official schedule)
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
-- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
-- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
-- [[youtube-q4Tr-DknG2M]] — Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
-- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
-- [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
-- [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
-- [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
-- [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
-- [[youtube-8G_1-3IO4ZQ]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
-- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
-- [[youtube-ZSQb5fzRFPw]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
-
-### Quote signals
-- “And so, uh, and we tried to give it context and not just constraints.” — [[youtube-9fubhllmsBU]]
-- “And so uh and we tried to give it con context and not just constraints.” — [[youtube-4sX_He5c4sI]]
-- “So, why can't you not just hand them more of your work and then literally just walk away and trust it to be completed?” — [[youtube-4sX_He5c4sI]]
-- “You need to have the trust that it actually can do the work successfully.” — [[youtube-4sX_He5c4sI]]
-- “We've also watched context windows and memory improve, allowing agents in loops to track work that's been done before.” — [[youtube-htM02KMNZnk]]
-- “the local retrieval, the inprocess tools, the memory and the parts that do not shred under streaming and async record at the boundary instead because you need to capture what enters each node and what leaves it.” — [[youtube-htM02KMNZnk]]
-- “Um memory and persistent context is one that I'm watching very carefully right now.” — [[youtube-I2cbIws9j10]]
-- “And then more advanced version is really trying to start thinking of it as a teammate that is actually sort of holds context, has memory and can be proactive and that's just really changed how we operate internally.” — [[youtube-I2cbIws9j10]]
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-
-### Quote signals
-
-### Transcript-backed resources
-- [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
-- [[youtube-CLttOU7n6sI]] — Respect The Process - Andrew Dumit, Watershed Technology Inc.
-- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
-- [[youtube-3hXJI2q0Jz8]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse
-- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
-- [[youtube-iRcX54EO5g8]] — Your agent is blindfolded — Johan Lajili, Poolside AI
-- [[youtube-HEFSExa0xl0]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs
-- [[youtube-zKk7sDMGDEQ]] — Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
-- [[youtube-1IdzkRVmWAA]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
-- [[youtube-UcYoMg-8-L8]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
-- [[youtube-EcqMYoIV57A]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
-- [[youtube-IQkVMvXQKLY]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
-- [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
-- [[youtube-CDqzWpwkSls]] — Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
-- [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
-- [[youtube-ij-AU9dpJjc]] — Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
-
-### Quote signals
-- “And then we have access to additional tools, memory, or we may need to talk to additional agents or LLMs like Amazon Nova ACT through something like MCP.” — [[youtube-wFTVEDYVJT0]]
-- “When you're building agents, not just using them to write code, you start getting into architecting agentic systems.” — [[youtube-ZD9-4fW2HhM]]
-- “So if you want to build this marketplace of app and have third-party UI rendered inside ChatGPT, why not use straight away source doc as the attribute for as the attribute for uh for injecting context into.” — [[youtube-c-2eEv2ou7Y]]
-- “And finally, how do you optimize for cost, not just for accuracy, but also for cost, latency, and reliability before you ship and or as you find gaps in production.” — [[youtube-T0HhO4YtTfE]]
-- “That context pointer literally just says if you need the template or if you need to update the context.md file, go to this file.” — [[youtube-UNzCG3lw6O0]]
-- “We need to think about the branches in our skill moving material out behind context pointers.” — [[youtube-UNzCG3lw6O0]]
-- “And this is this is pretty uh important because sometimes the problem is uh, uh so critical so we need to fix them as soon as possible and yeah, it works pretty well.” — [[youtube-kZsf_Sfm7RU]]
-- “Now when the context is provided it's always like these are my security concerns which I always have to look into.” — [[youtube-EcqMYoIV57A]]
-
-### Transcript-backed resources
-- [[youtube-MpZzWMdmQCE]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
-- [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
-
-### Quote signals
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine|Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine]]
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep|Give your coding agents the power of turbogrep!]]
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 - [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands|Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands]]
 - [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
 - [[2026-06-30-laurie-voss-the-death-of-the-code-review|The Death of the Code Review]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 - [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage|How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)]]
-- [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity|The Next Trillion Users of the Internet Still Don't Have an Identity]]
-- [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
 
 ### Media Signals
-- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
-- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
-- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
-- Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
-- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
-- `youtube-AheG9p_JXVw` — 1,340 transcript words
-- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
-- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
+- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
+- `youtube--CnA2lGfymY` — 3,148 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube--CnA2lGfymY`: answer, lean, safe, model, type, look, llms, question.
+- Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
+- Evidence links for `youtube--CnA2lGfymY` (primary event evidence): [[youtube--CnA2lGfymY]], [[youtube--CnA2lGfymY-transcript]], [[youtube--CnA2lGfymY-slides]]
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-uIiA6DquRiE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-OqM67QG_Ikk` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
+- Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
+- Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-8G_1-3IO4ZQ` — 3,420 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
+- Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
+- Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
+- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
+- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
+- `youtube-9fubhllmsBU` — 3,542 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-9fubhllmsBU`: claude, fable, code, give, models, prompt, model, little.
+- Slide-derived themes for `youtube-9fubhllmsBU`: opening, land, king, models, grown, designed, fetch, write.
+- Evidence links for `youtube-9fubhllmsBU` (primary event evidence): [[youtube-9fubhllmsBU]], [[youtube-9fubhllmsBU-transcript]], [[youtube-9fubhllmsBU-slides]]
+- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
+- Evidence links for `youtube-7Dtu2bilcFs` (supporting context only): [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+- `youtube-MpZzWMdmQCE` — 5,590 transcript words; role: supporting context only.
+- Transcript signals for `youtube-MpZzWMdmQCE`: claude, code, little, okay, give, cool, verification, well.
+- Evidence links for `youtube-MpZzWMdmQCE` (supporting context only): [[youtube-MpZzWMdmQCE]], [[youtube-MpZzWMdmQCE-transcript]], [[youtube-MpZzWMdmQCE-slides]]
+- `youtube-F_RyElT_gJk` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
+- Evidence links for `youtube-F_RyElT_gJk` (supporting context only): [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
+- `youtube-HEFSExa0xl0` — 9,009 transcript words; 6 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-HEFSExa0xl0`: repl, model, tools, spreadsheet, tool, code, many, ended.
+- Slide-derived themes for `youtube-HEFSExa0xl0`: interface, coding, engines, mattered, most, replacing, discrete, tools.
+- Evidence links for `youtube-HEFSExa0xl0` (supporting context only): [[youtube-HEFSExa0xl0]], [[youtube-HEFSExa0xl0-transcript]], [[youtube-HEFSExa0xl0-slides]]
+- `youtube-Rx8f05JI_WA` — 4,329 transcript words; 7 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-Rx8f05JI_WA`: tasks, verifier, task, full, marathon, hours, compiler, tests.
+- Slide-derived themes for `youtube-Rx8f05JI_WA`: tasks, task, coding, projects, tokens, stay, coherent, over.
+- Evidence links for `youtube-Rx8f05JI_WA` (supporting context only): [[youtube-Rx8f05JI_WA]], [[youtube-Rx8f05JI_WA-transcript]], [[youtube-Rx8f05JI_WA-slides]]
+- `youtube-3hXJI2q0Jz8` — 3,697 transcript words; 9 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-3hXJI2q0Jz8`: coding, code, recursive, rlms, reasoning, prose, open, models.
+- Slide-derived themes for `youtube-3hXJI2q0Jz8`: outcomes, behalf, reliable, while, hike, bottleneck, intelligence, reliability.
+- Evidence links for `youtube-3hXJI2q0Jz8` (supporting context only): [[youtube-3hXJI2q0Jz8]], [[youtube-3hXJI2q0Jz8-transcript]], [[youtube-3hXJI2q0Jz8-slides]]
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 65 | Related pages outside the main evidence categories. |
-| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 19 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 1 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
+| other | 70 | Related pages outside the main evidence categories. |
+| resources | 29 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 48 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 28 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 22 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
 - [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
 - [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
 
 ### Resources
-- [[youtube-jVjt-2g8NMY]]
-- [[youtube-CLttOU7n6sI]]
-- [[youtube-HsxQICTLF84]]
-- [[youtube-3hXJI2q0Jz8]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-iRcX54EO5g8]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-ZpK5PWX2YRM]]
+- [[youtube--CnA2lGfymY]]
+- [[youtube-n97BCfyFIvw]]
+- [[youtube-uIiA6DquRiE]]
 
 ### Slides
 - [[youtube-iRcX54EO5g8-slides]]
@@ -292,136 +273,16 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-2e9ANoOEn28-slides]]
 
 ### Transcripts
-- [[youtube-Xfl50508LZM-transcript]]
-- [[youtube-AheG9p_JXVw-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-o-zkvb0iFDQ-transcript]]
+- [[youtube-ZpK5PWX2YRM-transcript]]
+- [[youtube--CnA2lGfymY-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
 
 ### Tools
 - [[docker]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 69 | Related pages outside the main evidence categories. |
-| resources | 29 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 27 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-
-### Talks
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-ZpK5PWX2YRM]]
-
-### Slides
-
-### Transcripts
-
-### Tools
 - [[mcp-apps]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 70 | Related pages outside the main evidence categories. |
-| resources | 33 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-9fubhllmsBU]]
-- [[youtube-htM02KMNZnk]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 34 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 20 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-
-### Talks
-
-### Resources
-- [[youtube-WkBPX-oDMnA]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 37 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-0vphxNt4wyk]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 39 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-q4Tr-DknG2M]]
-
-### Slides
-
-### Transcripts
-
-### Tools
 
 ## Active Use Cases
 - Bug fixes with local tests and deploy verification.

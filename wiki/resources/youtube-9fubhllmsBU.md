@@ -14,8 +14,8 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/9fubhllmsBU.txt` (3,542 words).
@@ -28,7 +28,10 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/9fubhllm
 [YouTube](https://www.youtube.com/watch?v=9fubhllmsBU)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable (match score 89)
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable
 
 ## Extracted Slides
 - [[youtube-9fubhllmsBU-slides]]
+
+## Transcript Markdown
+- [[youtube-9fubhllmsBU-transcript]] — full cached transcript markdown.

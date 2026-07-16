@@ -42,9 +42,9 @@ Most of the Harness discussion is just a reprise of Context Engineering from las
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
+- `youtube-8SUJEqQNClw` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
-- Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
+- Evidence links for `youtube-8SUJEqQNClw` (supporting context only): [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -31,7 +31,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
 
 ### Media Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 2 slide-derived text signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
-- Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]

@@ -40,9 +40,8 @@ You have an old code base with 100,000s of lines of code, should you let an AI A
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-SbUxRluVRwk` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
-- Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
+- `youtube-SbUxRluVRwk` — source page linked; role: supporting context only.
+- Evidence links for `youtube-SbUxRluVRwk` (supporting context only): [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

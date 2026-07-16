@@ -12,25 +12,9 @@ last_auto_summarized: '2026-07-06T19:58:14.630Z'
 ## Overview
 AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
 
-AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
-
-AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
-
-AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
-
-AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
-
 AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
 
 ## Conference Context
-It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
-
-It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
-
-It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
-
-It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
-
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
 
 It grew from literature search, systematic review methods, research assistants, web search, RAG, benchmarking, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, compare evidence, and produce structured research artifacts. The connected WF2026 material places AutoResearch in a broader shift from one-off retrieval toward closed-loop systems: agents that gather evidence, run or propose tests, improve their own harnesses, and move research ideas toward production workflows.
@@ -38,41 +22,9 @@ It grew from literature search, systematic review methods, research assistants, 
 ## Significance
 Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
 
-Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
-
-Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
-
-Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
-
-Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
-
 Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
 
 ## Applied Use
-Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
-
-AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
-
-Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
-
-Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
-
-AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
-
-Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
-
-Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
-
-AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
-
-Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
-
-Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
-
-AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
-
-Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
-
 Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
 
 AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
@@ -159,14 +111,9 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 
 - [[thariq-shihipar|Thariq Shihipar]]
 
-
-
-
-
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale; [[nachiket-paranjape|Nachiket Paranjape]], [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · AI-Native Enterprises; official schedule)
 
 - [[antje-barth|Antje Barth]]
-
 
 - [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech; [[sonar|Sonar]], [[extend-ai|Extend AI]] (Day 1 — Workshop Day · 6:00pm-6:15pm · Expo Stage 3; related YouTube resource; via [[youtube-4sX_He5c4sI]])
 - [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex; [[charlie-guo|Charlie Guo]], [[gabriel-chua|Gabriel Chua]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
@@ -180,38 +127,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[poolside|poolside]]
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-q4Tr-DknG2M]] — Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
-- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-- [[youtube-OXMMN-XbxwA]] — Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
-- [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
-- [[youtube-UcYoMg-8-L8]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
-- [[youtube-zMiSRliEzv4]] — Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog
-- [[youtube-iNkFlCiij0U]] — The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI
-- [[youtube-2e9ANoOEn28]] — What if the harness mattered more than the model? - Aditya Bhargava, Etsy
-- [[youtube-IQkVMvXQKLY]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
-- [[youtube-fWXJM-J0ZB8]] — Frontier results, on device - RL Nabors, Arize
-- [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
-- [[youtube-IJXjTLPzvAU]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
-- [[youtube-0S8xe9ftGTM]] — 6 Things to Know about AIE World's Fair 2026
-- [[youtube-Iwe_RY-fYgI]] — AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent
-- [[youtube-akk6KRlcwW4]] — OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack
-- [[youtube-pSto5YaNGUo]] — The Agentic AI Engineer - Benedikt Sanftl, Mutagent
-- [[youtube-dvft0Gp9sEE]] — Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo
-- [[youtube-bk0TmxoZlUY]] — Evals 101 — Doug Guthrie, Braintrust
-- [[youtube-hqHC6Z_lXyo]] — 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna
-
-### Transcript-backed resources
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
@@ -227,25 +142,45 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
-- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
-- Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
+- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 51 | Related pages outside the main evidence categories. |
-| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 6 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| other | 61 | Related pages outside the main evidence categories. |
+| resources | 9 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 14 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
@@ -256,141 +191,32 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
 
 ### Resources
+- [[youtube-q4Tr-DknG2M]]
+- [[youtube-WkBPX-oDMnA]]
 - [[youtube-4sX_He5c4sI]]
 - [[youtube-dvft0Gp9sEE]]
 - [[youtube-bk0TmxoZlUY]]
-- [[youtube-OXMMN-XbxwA]]
-- [[youtube-aHhB3sjGjkI]]
-- [[youtube-UcYoMg-8-L8]]
+- [[youtube-htM02KMNZnk]]
 
 ### Slides
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-4sX_He5c4sI-dense-slides]]
 - [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-G_bHFmEAarM-slides]]
-- [[youtube-G_bHFmEAarM-dense-slides]]
-- [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-htM02KMNZnk-dense-slides]]
+- [[youtube-htM02KMNZnk-reconstructed-slides]]
 
 ### Transcripts
 - [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-WkBPX-oDMnA-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
 
 ### Tools
 - [[browserbase]]
 - [[prime-intellect]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 59 | Related pages outside the main evidence categories. |
-| talks | 28 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 60 | Related pages outside the main evidence categories. |
-| resources | 20 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-WkBPX-oDMnA]]
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 61 | Related pages outside the main evidence categories. |
-| resources | 21 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-q4Tr-DknG2M]]
-
-### Slides
-
-### Transcripts
-
-### Tools
 
 ## Active Use Cases
 - Evidence-grounded briefing docs and source maps.

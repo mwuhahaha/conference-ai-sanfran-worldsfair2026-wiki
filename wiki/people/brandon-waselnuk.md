@@ -30,6 +30,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
 
 ### Media Signals
-- `youtube-BiG2ssibKGc` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
-- Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
+- `youtube-BiG2ssibKGc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-BiG2ssibKGc` (supporting context only): [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]

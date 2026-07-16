@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis|The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs]]
 
 ### Media Signals
-- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
+- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
-- Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+- Evidence links for `youtube-gcseUQJ6Gbg` (supporting context only): [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]

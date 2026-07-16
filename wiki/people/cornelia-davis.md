@@ -28,6 +28,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
 
 ### Media Signals
-- `youtube-k8cnVCMYmNc` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-k8cnVCMYmNc`: note, enough, quota, account, pending, event, types.
-- Evidence links for `youtube-k8cnVCMYmNc`: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
+- `youtube-k8cnVCMYmNc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-k8cnVCMYmNc` (supporting context only): [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]

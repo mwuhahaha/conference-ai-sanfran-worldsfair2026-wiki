@@ -38,36 +38,6 @@ They fit engineering organizations, platform teams, internal tools groups, migra
 
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
 
-Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
-
-They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
-
-Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
-
-Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
-
-They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
-
-Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
-
-Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
-
-They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
-
-Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
-
-Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
-
-They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
-
-Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
-
-Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
-
-They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
-
-Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
-
 ## Practical Lesson
 Evaluate the complete agent loop: task definition, context assembly, tool permissions, sandbox execution, verification, review, and provenance. Model capability alone is not the system boundary.
 
@@ -110,15 +80,6 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[badass-dev-egghead-io|badass.dev / egghead.io]]
 - [[warp|Warp]]
 
-
-
-
-
-
-
-
-
-
 - [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents; [[mike-chambers|Mike Chambers]] (Day 4 — Session Day 3 · 12:05pm-12:25pm · Harness Engineering; related YouTube resource; via [[youtube-qdZzND79mcg]])
 - [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers]] — Harness Engineering: The New Core Skill for Agentic Developers; [[dru-knox|Dru Knox]] (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 1 NE; related YouTube resource; via [[youtube-qdZzND79mcg]])
 
@@ -129,38 +90,45 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[tessl|Tessl]]
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-qdZzND79mcg]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs
-- [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
-- [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
-
-### Transcript-backed resources
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories|'Warp: Building Self-Improving Agent Software Factories']]
 - [[2026-07-01-session-the-software-factory|The Software Factory]]
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
-- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]]
-- [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers|Harness Engineering: The New Core Skill for Agentic Developers]]
 - [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
-- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
-- `youtube-HT4l0DeP69I` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
-- Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
@@ -168,131 +136,41 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 29 | Related pages outside the main evidence categories. |
-| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 9 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| resources | 9 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 12 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
 | talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-07-01-session-the-software-factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
-- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
-
-### Resources
-- [[youtube-qdZzND79mcg]]
-- [[youtube-pmoDeA3RBZY]]
-- [[youtube-xUnRQ9vLXxo]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-ShuJ_CN6zr4]]
-- [[youtube-HT4l0DeP69I]]
-
-### Slides
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-ShuJ_CN6zr4-slides]]
-- [[youtube-ShuJ_CN6zr4-dense-slides]]
-- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
-- [[youtube-HT4l0DeP69I-slides]]
-- [[youtube-HT4l0DeP69I-dense-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-- [[youtube-I2cbIws9j10]]
-
-### Slides
-- [[youtube-HT4l0DeP69I-reconstructed-slides]]
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
+| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
 - [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
+- [[2026-07-01-session-the-software-factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
 
 ### Resources
 - [[aie-wiki-generation-delta]]
+- [[youtube-qdZzND79mcg]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-q4Tr-DknG2M]]
 
 ### Slides
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-htM02KMNZnk-dense-slides]]
+- [[youtube-htM02KMNZnk-reconstructed-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
 
 ### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 
 ## Active Use Cases
 - Agent-assisted feature delivery pipelines.

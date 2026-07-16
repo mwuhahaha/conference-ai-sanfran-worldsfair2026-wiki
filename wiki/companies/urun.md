@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
 
 ### Media Signals
-- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals
+- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
-- Evidence links for `youtube-EY4O9M6AsWI`: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
+- Evidence links for `youtube-EY4O9M6AsWI` (supporting context only): [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: manual_url_unfetched.

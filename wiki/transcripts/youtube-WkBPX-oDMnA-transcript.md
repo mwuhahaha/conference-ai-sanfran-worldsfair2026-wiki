@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Wkbpx Odmna"
+title: "Transcript: Understanding is the new bottleneck"
 category: "transcripts"
 videoId: "WkBPX-oDMnA"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3765"
 ---
 
-# Transcript: Wkbpx Odmna
+# Transcript: Understanding is the new bottleneck
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=WkBPX-oDMnA)

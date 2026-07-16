@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/XovaGv4f
 
 ## Extracted Slides
 - [[youtube-XovaGv4f39A-slides]]
+
+## Transcript Markdown
+- [[youtube-XovaGv4f39A-transcript]] — full cached transcript markdown.

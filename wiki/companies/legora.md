@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
 ### Media Signals
-- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals
+- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
-- Evidence links for `youtube-XNtkiQJ49Ps`: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
+- Evidence links for `youtube-XNtkiQJ49Ps` (supporting context only): [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

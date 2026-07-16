@@ -39,9 +39,11 @@ An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshop
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
+- `youtube-uIiA6DquRiE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]]
+- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
-- Evidence links for `youtube-OkEGJ5G3foU`: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
+- Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

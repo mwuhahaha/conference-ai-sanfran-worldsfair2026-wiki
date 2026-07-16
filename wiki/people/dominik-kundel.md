@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness|Codex, Behind the Harness]]
 
 ### Media Signals
-- `youtube-iXhba366fQc` — 9 slide-derived text signals
+- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
-- Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+- Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]

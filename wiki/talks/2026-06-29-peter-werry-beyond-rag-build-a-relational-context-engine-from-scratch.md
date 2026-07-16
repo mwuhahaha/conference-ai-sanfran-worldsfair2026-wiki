@@ -42,9 +42,9 @@ In this workshop we'll explore the importance of context engines in modern engin
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
-- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

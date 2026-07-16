@@ -3,8 +3,10 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
+import sys
 from pathlib import Path
 
 
@@ -69,14 +71,49 @@ def load_titles() -> dict[str, str]:
     return titles
 
 
-def transcript_paths() -> list[tuple[Path, str]]:
+def transcript_paths(video_ids: set[str] | None = None) -> list[tuple[Path, str]]:
     paths: list[tuple[Path, str]] = []
     for folder, label in TRANSCRIPT_DIRS:
         if not folder.exists():
             continue
         for path in sorted(folder.glob("*.txt")):
+            if video_ids is not None and path.stem not in video_ids:
+                continue
             paths.append((path, label))
     return paths
+
+
+def official_manifest_video_ids() -> set[str]:
+    if not OFFICIAL_VIDEO_MANIFEST.is_file():
+        return set()
+    value = json.loads(OFFICIAL_VIDEO_MANIFEST.read_text(encoding="utf-8"))
+    videos = value.get("videos", [])
+    if not isinstance(videos, list):
+        raise ValueError("official WF26 video manifest must contain a videos array")
+    return {
+        str(item["id"])
+        for item in videos
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    }
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate linkable markdown for cached video transcripts."
+    )
+    selection = parser.add_mutually_exclusive_group()
+    selection.add_argument(
+        "--manifest-only",
+        action="store_true",
+        help="Generate only transcripts admitted to the verified WF26 media manifest.",
+    )
+    selection.add_argument(
+        "--video-id",
+        action="append",
+        default=[],
+        help="Generate only the named video ID; repeat as needed.",
+    )
+    return parser.parse_args(argv)
 
 
 def render_transcript_page(video_id: str, title: str, text: str, source_path: Path, label: str) -> str:
@@ -134,30 +171,105 @@ def video_ids_in_text(text: str) -> set[str]:
     return ids
 
 
-def write_registry(records: list[dict[str, object]]) -> None:
+def existing_transcript_records(out_dir: Path) -> list[dict[str, object]]:
+    records_by_id: dict[str, dict[str, object]] = {}
+    registry = out_dir / "registry.json"
+    if registry.is_file():
+        loaded = json.loads(registry.read_text(encoding="utf-8"))
+        if not isinstance(loaded, list):
+            raise ValueError("transcript registry must contain an array")
+        for item in loaded:
+            if not isinstance(item, dict):
+                continue
+            record_id = item.get("id")
+            relative_path = item.get("path")
+            if not isinstance(record_id, str) or not isinstance(relative_path, str):
+                continue
+            page = (ROOT / relative_path).resolve()
+            if page.parent != out_dir.resolve() or not page.is_file():
+                continue
+            records_by_id[record_id] = dict(item)
+
+    for page in sorted(out_dir.glob("youtube-*-transcript.md")):
+        match = re.fullmatch(r"youtube-([A-Za-z0-9_-]{11})-transcript", page.stem)
+        if match is None or page.stem in records_by_id:
+            continue
+        text = page.read_text(encoding="utf-8", errors="ignore")
+        title_match = re.search(r"^#\s+(.+?)\s*$", text, re.M)
+        word_count_match = re.search(r"^wordCount:\s*[\"']?(\d+)", text, re.M)
+        records_by_id[page.stem] = {
+            "id": page.stem,
+            "title": title_match.group(1) if title_match else f"Transcript: {match.group(1)}",
+            "path": str(page.relative_to(ROOT)),
+            "videoId": match.group(1),
+            "wordCount": int(word_count_match.group(1)) if word_count_match else 0,
+            "sourceLabel": "Cached transcript markdown",
+        }
+    return list(records_by_id.values())
+
+
+def write_registry(
+    records: list[dict[str, object]],
+    *,
+    official_video_ids: set[str],
+) -> None:
     out_dir = WIKI / "transcripts"
+    records_by_id = {
+        str(record["id"]): record for record in existing_transcript_records(out_dir)
+    }
+    records_by_id.update({str(record["id"]): record for record in records})
+    catalog = []
+    for record in records_by_id.values():
+        official = record.get("videoId") in official_video_ids
+        catalog.append(
+            {
+                **record,
+                "manifestStatus": (
+                    "admitted_official_wf26"
+                    if official
+                    else "not_admitted_official_wf26"
+                ),
+                "sourceRole": "primary_event_evidence" if official else "context_only",
+            }
+        )
+
     lines = [
         frontmatter({"title": "Transcripts", "category": "transcripts", "sourceLabels": ["Cached transcript markdown"]}),
         "# Transcripts",
         "",
-        "These pages expose cached YouTube and livestream transcripts as linkable wiki markdown. They are generated from local transcript caches and should be regenerated whenever new transcripts are imported.",
+        "These pages expose cached YouTube and livestream transcripts as linkable wiki markdown. Official WF26 manifest entries are primary event evidence; every other retained transcript is supporting context only.",
         "",
-        "## Transcript Pages",
+        "## Official WF26 Event Transcripts",
     ]
-    for record in sorted(records, key=lambda item: str(item["title"]).lower()):
+    ordered = sorted(catalog, key=lambda item: str(item["title"]).lower())
+    for record in ordered:
+        if record["sourceRole"] != "primary_event_evidence":
+            continue
+        lines.append(f"- [[{record['id']}|{record['title']}]]")
+    lines.extend(["", "## Supporting Context Transcripts"])
+    for record in ordered:
+        if record["sourceRole"] != "context_only":
+            continue
         lines.append(f"- [[{record['id']}|{record['title']}]]")
     (out_dir / "index.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-    (out_dir / "registry.json").write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (out_dir / "registry.json").write_text(json.dumps(ordered, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
     titles = load_titles()
     out_dir = WIKI / "transcripts"
     out_dir.mkdir(parents=True, exist_ok=True)
     transcript_ids: set[str] = set()
     records: list[dict[str, object]] = []
 
-    for source_path, label in transcript_paths():
+    official_video_ids = official_manifest_video_ids()
+    selected_ids = (
+        official_video_ids
+        if args.manifest_only
+        else set(args.video_id) if args.video_id else None
+    )
+    for source_path, label in transcript_paths(selected_ids):
         video_id = source_path.stem
         title = titles.get(video_id) or titleize(video_id)
         text = source_path.read_text(encoding="utf-8", errors="ignore")
@@ -204,10 +316,10 @@ def main() -> int:
             path.write_text(updated, encoding="utf-8")
             talk_updates += 1
 
-    write_registry(records)
+    write_registry(records, official_video_ids=official_video_ids)
     print(json.dumps({"transcript_pages": len(records), "resource_pages_updated": resource_updates, "talk_pages_updated": talk_updates}, sort_keys=True))
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(sys.argv[1:]))

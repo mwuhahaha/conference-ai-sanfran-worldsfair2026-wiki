@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-WkBPX-oDMnA-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-WkBPX-oDMnA`
+- Slide deck: [[youtube-WkBPX-oDMnA-slides|Slides: WkBPX-oDMnA]] — 12 visible slide image(s).
+![[assets/slides/WkBPX-oDMnA/slide-001.jpg]]
+![[assets/slides/WkBPX-oDMnA/slide-002.jpg]]
+![[assets/slides/WkBPX-oDMnA/slide-003.jpg]]
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -46,9 +56,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[geoffrey-litt]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown

@@ -42,13 +42,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
-- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-kR64LOqBBCU` — 4 slide-derived text signals
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-kR64LOqBBCU` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-kR64LOqBBCU`: putting, orchestration, bottleneck, skills, along, channels, open.
-- Evidence links for `youtube-kR64LOqBBCU`: [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]
+- Evidence links for `youtube-kR64LOqBBCU` (supporting context only): [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]
 
 ## Evidence Boundary
 The official speaker roster is canonical for Liad Yosef's World's Fair participation. ORA's public site, ORA's research article, and public professional profiles are supporting sources used to explain the company and the agentic-web context.

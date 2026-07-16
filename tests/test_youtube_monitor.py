@@ -53,6 +53,49 @@ RSS_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
 
 
 class YoutubeMonitorTests(unittest.TestCase):
+    def test_enrichment_uses_one_targeted_wiki_maker_update(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / "raw" / "sources" / "official-wf26-video-manifest.json"
+            transcript = root / "raw" / "sources" / "youtube-transcripts" / "video-1.txt"
+            manifest.parent.mkdir(parents=True)
+            transcript.parent.mkdir(parents=True)
+            manifest.write_text("{}", encoding="utf-8")
+            transcript.write_text("transcript", encoding="utf-8")
+            completed = Mock(returncode=0)
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "RAW", root / "raw" / "sources"
+            ), patch.object(
+                monitor, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ), patch.object(
+                monitor, "wiki_maker_executable", return_value="/tools/wiki-from-topic-maker"
+            ), patch.object(monitor, "run", return_value=completed) as run:
+                result = monitor.run_enrichment(1, ["video-1", "video-1"])
+
+        run.assert_called_once_with(
+            [
+                "/tools/wiki-from-topic-maker",
+                "update",
+                str(root),
+                "--change-type",
+                "media",
+                "--source",
+                "raw/sources/official-wf26-video-manifest.json",
+                "--source",
+                "raw/sources/youtube-transcripts/video-1.txt",
+                "--json",
+            ],
+            timeout=7200,
+        )
+        self.assertEqual(1, len(result))
+        self.assertEqual(0, result[0]["returncode"])
+
+    def test_wiki_maker_override_fails_closed_when_missing(self):
+        with patch.dict(monitor.os.environ, {monitor.WIKI_MAKER_ENV: "/missing/maker"}), patch.object(
+            monitor.shutil, "which", return_value=None
+        ), self.assertRaisesRegex(RuntimeError, monitor.WIKI_MAKER_ENV):
+            monitor.wiki_maker_executable()
+
     def test_manifest_refresh_sets_distinguish_premieres_and_pending_captions(self):
         with tempfile.TemporaryDirectory() as directory:
             manifest = Path(directory) / "manifest.json"

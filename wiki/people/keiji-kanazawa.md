@@ -30,6 +30,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code|I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.]]
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
-- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

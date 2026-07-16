@@ -42,9 +42,8 @@ A case for when context is enough, and when updating weights may be the real mem
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-Jty4s9-Jb78` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
-- Evidence links for `youtube-Jty4s9-Jb78`: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+- `youtube-Jty4s9-Jb78` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Jty4s9-Jb78` (supporting context only): [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

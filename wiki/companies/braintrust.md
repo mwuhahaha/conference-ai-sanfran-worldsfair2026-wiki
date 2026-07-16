@@ -38,9 +38,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability|Advanced workshop: Mastering AI Observability]]
 
 ### Media Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words; role: supporting context only.
 - Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
-- Evidence links for `youtube-bk0TmxoZlUY`: [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
+- Evidence links for `youtube-bk0TmxoZlUY` (supporting context only): [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

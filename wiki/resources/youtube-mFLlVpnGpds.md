@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/mFLlVpnG
 
 ## Extracted Slides
 - [[youtube-mFLlVpnGpds-slides]]
+
+## Transcript Markdown
+- [[youtube-mFLlVpnGpds-transcript]] — full cached transcript markdown.

@@ -27,6 +27,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations|The state of AI in software development: Insights across 400+ organizations]]
 
 ### Media Signals
-- `youtube-PmZDupFP3UM` — 7 slide-derived text signals
+- `youtube-PmZDupFP3UM` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
-- Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
+- Evidence links for `youtube-PmZDupFP3UM` (supporting context only): [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]

@@ -35,9 +35,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
-- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

@@ -177,6 +177,33 @@ def copy_source(path: Path, dest_name: str) -> None:
         shutil.copyfile(path, dest)
 
 
+def public_speaker_video_map(rows: list[dict]) -> list[dict]:
+    """Remove internal candidate-ranking inputs from the publishable source map."""
+    public_rows = []
+    for row in rows:
+        public_row = dict(row)
+        video = public_row.get("related_video")
+        if isinstance(video, dict):
+            public_video = dict(video)
+            for key in ("score", "speaker_hit", "topic_overlap"):
+                public_video.pop(key, None)
+            public_row["related_video"] = public_video
+        public_rows.append(public_row)
+    return public_rows
+
+
+def write_speaker_video_maps(path: Path) -> None:
+    if not path.exists():
+        return
+    rows = load_json(path, [])
+    internal = ROOT / ".ops" / "state" / "cache" / "source-matching" / "speaker-video-map.json"
+    internal.parent.mkdir(parents=True, exist_ok=True)
+    internal.write_text(json.dumps(rows, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+    public = ROOT / "raw" / "sources" / "speaker-video-map.json"
+    public.parent.mkdir(parents=True, exist_ok=True)
+    public.write_text(json.dumps(public_speaker_video_map(rows), indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     sessions_blob = load_json(TMP / "aiewf2026-sessions.json", {})
     speakers_blob = load_json(TMP / "aiewf2026-speakers.json", {})
@@ -200,7 +227,7 @@ def main() -> int:
 
     copy_source(TMP / "aiewf2026-sessions.json", "official-sessions.json")
     copy_source(TMP / "aiewf2026-speakers.json", "official-speakers.json")
-    copy_source(TMP / "aiewf2026-speaker-video-map.json", "speaker-video-map.json")
+    write_speaker_video_maps(TMP / "aiewf2026-speaker-video-map.json")
     copy_source(TMP / "aiewf2026-related-video-caption-status.json", "related-video-caption-status.json")
 
     related_by_title = defaultdict(list)

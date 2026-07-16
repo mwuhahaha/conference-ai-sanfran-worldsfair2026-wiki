@@ -35,7 +35,10 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

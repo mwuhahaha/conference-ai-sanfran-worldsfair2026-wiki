@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead|Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead]]
 
 ### Media Signals
-- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals
+- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.
-- Evidence links for `youtube-MRM7oA3JsFs`: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
+- Evidence links for `youtube-MRM7oA3JsFs` (supporting context only): [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]

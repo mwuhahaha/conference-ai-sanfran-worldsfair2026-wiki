@@ -42,9 +42,9 @@ You know how smart your agent can be. You have no idea how dumb it gets until it
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
+- `youtube-5nOLb27hQ5w` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
-- Evidence links for `youtube-5nOLb27hQ5w`: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
+- Evidence links for `youtube-5nOLb27hQ5w` (supporting context only): [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

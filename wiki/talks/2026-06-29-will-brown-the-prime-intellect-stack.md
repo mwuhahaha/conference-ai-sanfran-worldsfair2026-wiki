@@ -44,13 +44,24 @@ Deep dive into Prime Intellect's open-source ecosystem of post-training tools, i
 
 - [[youtube-V-EDrhIhHzQ-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-V-EDrhIhHzQ`
+- Slide deck: [[youtube-V-EDrhIhHzQ-slides|Slides: V-EDrhIhHzQ]] — 5 visible slide image(s).
+![[assets/slides/V-EDrhIhHzQ/slide-001.jpg]]
+![[assets/slides/V-EDrhIhHzQ/slide-002.jpg]]
+![[assets/slides/V-EDrhIhHzQ/slide-003.jpg]]
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-PbHm2qKnu10` — 6 slide-derived text signals
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-PbHm2qKnu10` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
-- Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
+- Evidence links for `youtube-PbHm2qKnu10` (supporting context only): [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

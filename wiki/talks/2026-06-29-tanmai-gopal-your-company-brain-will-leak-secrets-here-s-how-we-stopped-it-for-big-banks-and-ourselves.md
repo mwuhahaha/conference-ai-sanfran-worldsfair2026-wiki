@@ -42,9 +42,9 @@ Everyone wants a shared "company brain", one single AI that knows everything the
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-himhGiWJXjo` — 6 slide-derived text signals
+- `youtube-himhGiWJXjo` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
-- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- Evidence links for `youtube-himhGiWJXjo` (supporting context only): [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

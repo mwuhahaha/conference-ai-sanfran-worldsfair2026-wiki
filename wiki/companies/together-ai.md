@@ -41,12 +41,12 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis|The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
-- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
-- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
+- Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
-- Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+- Evidence links for `youtube-gcseUQJ6Gbg` (supporting context only): [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

@@ -38,36 +38,6 @@ They are useful in coding assistants, data-analysis agents, browser agents, app 
 
 Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
-
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
-
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
-
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
-
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
-
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
-
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
-
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
-
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
-
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
-
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
-
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
-
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
-
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
-
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
-
 ## Practical Lesson
 Give each run the minimum tools, credentials, network reach, filesystem scope, and lifetime it needs; capture actions and outputs so approval and incident review use the same evidence trail.
 
@@ -143,20 +113,10 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[programma-labs|Programma Labs]]
 - [[openhands|OpenHands]]
 
-
-
-
-
 - [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]]
-
-
-
-
 
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
-
-
 
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-qdZzND79mcg-slides]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs (16 extracted slide frames)
@@ -173,50 +133,12 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[ang-li|Ang Li]]
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
-- [[youtube-ZSQb5fzRFPw]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
-- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
-- [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
-
-### Quote signals
-- “So there is a lot of like dark magic like happening behind the wood just to uh give you some context.” — [[youtube-ZSQb5fzRFPw]]
-- “And if you ask us how we trust that agent, the answer is that it's just evows all the way down.” — [[youtube-ZSQb5fzRFPw]]
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
-- [[youtube-2IxD9OB3XuQ]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
-- [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
-- [[youtube-JnubYCYunk8]] — Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK
-- [[youtube-wFTVEDYVJT0]] — Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
-- [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
-- [[youtube-TNwJ1LMiENk]] — Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel
-- [[youtube-grdoOC1BT1s]] — Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta
-- [[youtube-4uFVSLgD2Q4]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov
-- [[youtube-YYH0DMQr30A]] — Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel
-- [[youtube-UPwGaM2MKHY]] — The Log Is The Agent - Ishaan Sehgal, Omnara
-- [[youtube-bRnoEpoK5m4]] — The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing
-- [[youtube-ILdE7FaAjVA]] — Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod
-- [[youtube-_B4Pv9ttFgY]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
-- [[youtube-4kYl2_mqmnQ]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
-- [[youtube-qlHaO6laBlM]] — Shipping Production AI Inside Government — William Tarr, Ministry of Justice
-- [[youtube-ghJmWQCIHRM]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
-- [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
-
-### Transcript-backed resources
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
 - [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems|Unlock Agent Autonomy: The Runtime for AI-Native Systems]]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
@@ -226,45 +148,99 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
 
 ### Media Signals
-- `youtube-rcsliSIy_YU` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
-- Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
-- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
-- Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
-- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+- `youtube-OqM67QG_Ikk` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube--CnA2lGfymY` — 3,148 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube--CnA2lGfymY`: answer, lean, safe, model, type, look, llms, question.
+- Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
+- Evidence links for `youtube--CnA2lGfymY` (primary event evidence): [[youtube--CnA2lGfymY]], [[youtube--CnA2lGfymY-transcript]], [[youtube--CnA2lGfymY-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
+- Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
+- Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
+- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
+- `youtube-BM2JX9hqsVQ` — source page linked; role: supporting context only.
+- Evidence links for `youtube-BM2JX9hqsVQ` (supporting context only): [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
-- Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
-- `youtube-e9sLVMN76qU` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
-- Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
+- Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- `youtube-SKDJo2CopRs` — 4,757 transcript words; role: supporting context only.
+- Transcript signals for `youtube-SKDJo2CopRs`: code, well, cloudflare, workers, should, durable, okay, love.
+- Evidence links for `youtube-SKDJo2CopRs` (supporting context only): [[youtube-SKDJo2CopRs]], [[youtube-SKDJo2CopRs-transcript]], [[youtube-SKDJo2CopRs-slides]]
+- `youtube-Rx8f05JI_WA` — 4,329 transcript words; 7 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-Rx8f05JI_WA`: tasks, verifier, task, full, marathon, hours, compiler, tests.
+- Slide-derived themes for `youtube-Rx8f05JI_WA`: tasks, task, coding, projects, tokens, stay, coherent, over.
+- Evidence links for `youtube-Rx8f05JI_WA` (supporting context only): [[youtube-Rx8f05JI_WA]], [[youtube-Rx8f05JI_WA-transcript]], [[youtube-Rx8f05JI_WA-slides]]
+- `youtube-4kYl2_mqmnQ` — 4,930 transcript words; 9 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-4kYl2_mqmnQ`: machine, context, machines, linux, back, whole, point, each.
+- Slide-derived themes for `youtube-4kYl2_mqmnQ`: failure, coding, personal, projects, heavy, tasks, side, fleet.
+- Evidence links for `youtube-4kYl2_mqmnQ` (supporting context only): [[youtube-4kYl2_mqmnQ]], [[youtube-4kYl2_mqmnQ-transcript]], [[youtube-4kYl2_mqmnQ-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 40 | Related pages outside the main evidence categories. |
-| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| other | 45 | Related pages outside the main evidence categories. |
+| resources | 21 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 31 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 27 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 15 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
 - [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
 
 ### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-o-zkvb0iFDQ]]
 - [[youtube-wFTVEDYVJT0]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-2IxD9OB3XuQ]]
-- [[youtube-SKDJo2CopRs]]
-- [[youtube-JnubYCYunk8]]
-- [[youtube-c-2eEv2ou7Y]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube--CnA2lGfymY]]
 
 ### Slides
 - [[youtube-4kYl2_mqmnQ-slides]]
@@ -272,115 +248,22 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-2IxD9OB3XuQ-slides]]
 - [[youtube-sAOBXCDiDOs-slides]]
 - [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-rcsliSIy_YU-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+
+### Transcripts
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-o-zkvb0iFDQ-transcript]]
+- [[youtube--CnA2lGfymY-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
 
 ### Tools
 - [[docker]]
 - [[browserbase]]
-- [[mcp-apps]]
 - [[prime-intellect]]
+- [[mcp-apps]]
 - [[openhands]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 44 | Related pages outside the main evidence categories. |
-| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 26 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-o-zkvb0iFDQ]]
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 25 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[aie-wiki-generation-delta]]
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 45 | Related pages outside the main evidence categories. |
-| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 17 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-
-### Talks
-
-### Resources
-- [[youtube-V-EDrhIhHzQ]]
-
-### Slides
-
-### Tools
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 27 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-ZSQb5fzRFPw]]
-
-### Slides
-
-### Tools
 
 ## Active Use Cases
 - Running generated code and tests before suggesting a patch.

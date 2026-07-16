@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive|Evals in AI: A Deep Dive]]
 
 ### Media Signals
-- `youtube-C_GG5g38vLU` — 8 slide-derived text signals
+- `youtube-C_GG5g38vLU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
-- Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+- Evidence links for `youtube-C_GG5g38vLU` (supporting context only): [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]

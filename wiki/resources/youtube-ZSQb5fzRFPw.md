@@ -14,8 +14,8 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt` (2,617 words).
@@ -28,7 +28,10 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ZSQb5fzR
 [YouTube](https://www.youtube.com/watch?v=ZSQb5fzRFPw)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor (match score 95)
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
 
 ## Extracted Slides
 - [[youtube-ZSQb5fzRFPw-slides]]
+
+## Transcript Markdown
+- [[youtube-ZSQb5fzRFPw-transcript]] — full cached transcript markdown.

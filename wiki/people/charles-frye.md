@@ -30,5 +30,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway|What is an Inference Engine, Anyway?]]
 
 ### Media Signals
-- `youtube-DeFF3J8T5Pk` — source page linked
-- Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+- `youtube-DeFF3J8T5Pk` — source page linked; role: supporting context only.
+- Evidence links for `youtube-DeFF3J8T5Pk` (supporting context only): [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]

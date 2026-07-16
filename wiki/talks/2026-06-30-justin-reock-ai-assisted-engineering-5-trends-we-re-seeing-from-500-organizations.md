@@ -42,9 +42,9 @@ AI is reshaping how engineers work but what does that actually look like at scal
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-PmZDupFP3UM` — 7 slide-derived text signals
+- `youtube-PmZDupFP3UM` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
-- Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
+- Evidence links for `youtube-PmZDupFP3UM` (supporting context only): [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

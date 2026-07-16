@@ -38,8 +38,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter|Taking Reinforcement Learning Cross Datacenter]]
 
 ### Media Signals
-- `youtube-DeFF3J8T5Pk` — source page linked
-- Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+- `youtube-DeFF3J8T5Pk` — source page linked; role: supporting context only.
+- Evidence links for `youtube-DeFF3J8T5Pk` (supporting context only): [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

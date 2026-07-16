@@ -5,695 +5,9 @@
     "path": "wiki/transcripts/youtube--CnA2lGfymY-transcript.md",
     "videoId": "-CnA2lGfymY",
     "wordCount": 3148,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube--x5GEVnkuRw-transcript",
-    "title": "Transcript: Structuring the Unstructured - Cedric Clyburn, Red Hat",
-    "path": "wiki/transcripts/youtube--x5GEVnkuRw-transcript.md",
-    "videoId": "-x5GEVnkuRw",
-    "wordCount": 3937,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-0S8xe9ftGTM-transcript",
-    "title": "Transcript: 6 Things to Know about AIE World's Fair 2026",
-    "path": "wiki/transcripts/youtube-0S8xe9ftGTM-transcript.md",
-    "videoId": "0S8xe9ftGTM",
-    "wordCount": 3479,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-0vphxNt4wyk-transcript",
-    "title": "Transcript: Don't Ship Skills Without Evals",
-    "path": "wiki/transcripts/youtube-0vphxNt4wyk-transcript.md",
-    "videoId": "0vphxNt4wyk",
-    "wordCount": 3965,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-1IdzkRVmWAA-transcript",
-    "title": "Transcript: How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
-    "path": "wiki/transcripts/youtube-1IdzkRVmWAA-transcript.md",
-    "videoId": "1IdzkRVmWAA",
-    "wordCount": 6138,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-2IxD9OB3XuQ-transcript",
-    "title": "Transcript: Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
-    "path": "wiki/transcripts/youtube-2IxD9OB3XuQ-transcript.md",
-    "videoId": "2IxD9OB3XuQ",
-    "wordCount": 3230,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-2e9ANoOEn28-transcript",
-    "title": "Transcript: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
-    "path": "wiki/transcripts/youtube-2e9ANoOEn28-transcript.md",
-    "videoId": "2e9ANoOEn28",
-    "wordCount": 12846,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-3hXJI2q0Jz8-transcript",
-    "title": "Transcript: Recursive Coding Agents - Raymond Weitekamp, OpenProse",
-    "path": "wiki/transcripts/youtube-3hXJI2q0Jz8-transcript.md",
-    "videoId": "3hXJI2q0Jz8",
-    "wordCount": 3697,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-4kYl2_mqmnQ-transcript",
-    "title": "Transcript: I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
-    "path": "wiki/transcripts/youtube-4kYl2_mqmnQ-transcript.md",
-    "videoId": "4kYl2_mqmnQ",
-    "wordCount": 4930,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-4uFVSLgD2Q4-transcript",
-    "title": "Transcript: Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
-    "path": "wiki/transcripts/youtube-4uFVSLgD2Q4-transcript.md",
-    "videoId": "4uFVSLgD2Q4",
-    "wordCount": 3047,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-504PvfXou5Y-transcript",
-    "title": "Transcript: BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
-    "path": "wiki/transcripts/youtube-504PvfXou5Y-transcript.md",
-    "videoId": "504PvfXou5Y",
-    "wordCount": 1865,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-65X0pQ6Lmbg-transcript",
-    "title": "Transcript: Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
-    "path": "wiki/transcripts/youtube-65X0pQ6Lmbg-transcript.md",
-    "videoId": "65X0pQ6Lmbg",
-    "wordCount": 1935,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-6bmM45jkMDY-transcript",
-    "title": "Transcript: You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
-    "path": "wiki/transcripts/youtube-6bmM45jkMDY-transcript.md",
-    "videoId": "6bmM45jkMDY",
-    "wordCount": 2339,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-8G_1-3IO4ZQ-transcript",
-    "title": "Transcript: WTF Is the Context Layer?",
-    "path": "wiki/transcripts/youtube-8G_1-3IO4ZQ-transcript.md",
-    "videoId": "8G_1-3IO4ZQ",
-    "wordCount": 3420,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-9fubhllmsBU-transcript",
-    "title": "Transcript: Field Guide to Fable",
-    "path": "wiki/transcripts/youtube-9fubhllmsBU-transcript.md",
-    "videoId": "9fubhllmsBU",
-    "wordCount": 3542,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-APqXGyCoGW4-transcript",
-    "title": "Transcript: Forward Deployed Engineering at Cursor — Pauline Brunet",
-    "path": "wiki/transcripts/youtube-APqXGyCoGW4-transcript.md",
-    "videoId": "APqXGyCoGW4",
-    "wordCount": 3956,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-Akm1sqvWG4A-transcript",
-    "title": "Transcript: Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
-    "path": "wiki/transcripts/youtube-Akm1sqvWG4A-transcript.md",
-    "videoId": "Akm1sqvWG4A",
-    "wordCount": 6285,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-B9h9ovW5H9U-transcript",
-    "title": "Transcript: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
-    "path": "wiki/transcripts/youtube-B9h9ovW5H9U-transcript.md",
-    "videoId": "B9h9ovW5H9U",
-    "wordCount": 2859,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-BqZrTdgBaPw-transcript",
-    "title": "Transcript: Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
-    "path": "wiki/transcripts/youtube-BqZrTdgBaPw-transcript.md",
-    "videoId": "BqZrTdgBaPw",
-    "wordCount": 8024,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-CDqzWpwkSls-transcript",
-    "title": "Transcript: Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
-    "path": "wiki/transcripts/youtube-CDqzWpwkSls-transcript.md",
-    "videoId": "CDqzWpwkSls",
-    "wordCount": 12924,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-CLttOU7n6sI-transcript",
-    "title": "Transcript: Respect The Process - Andrew Dumit, Watershed Technology Inc.",
-    "path": "wiki/transcripts/youtube-CLttOU7n6sI-transcript.md",
-    "videoId": "CLttOU7n6sI",
-    "wordCount": 10070,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-DqtmZE6Hl0g-transcript",
-    "title": "Transcript: The Prompt is the Platform - Dominik Tornow, Resonate HQ",
-    "path": "wiki/transcripts/youtube-DqtmZE6Hl0g-transcript.md",
-    "videoId": "DqtmZE6Hl0g",
-    "wordCount": 2088,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-EcqMYoIV57A-transcript",
-    "title": "Transcript: Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
-    "path": "wiki/transcripts/youtube-EcqMYoIV57A-transcript.md",
-    "videoId": "EcqMYoIV57A",
-    "wordCount": 4289,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-G6IlDzj8OjA-transcript",
-    "title": "Transcript: GTM Is You - Victoria Melnikova, Evil Martians",
-    "path": "wiki/transcripts/youtube-G6IlDzj8OjA-transcript.md",
-    "videoId": "G6IlDzj8OjA",
-    "wordCount": 5917,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-HEFSExa0xl0-transcript",
-    "title": "Transcript: Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
-    "path": "wiki/transcripts/youtube-HEFSExa0xl0-transcript.md",
-    "videoId": "HEFSExa0xl0",
-    "wordCount": 9009,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-HsxQICTLF84-transcript",
-    "title": "Transcript: Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
-    "path": "wiki/transcripts/youtube-HsxQICTLF84-transcript.md",
-    "videoId": "HsxQICTLF84",
-    "wordCount": 8217,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-HvZXAOZ3iv8-transcript",
-    "title": "Transcript: What Lies Beneath the API — Benjamin Cowen, Modal",
-    "path": "wiki/transcripts/youtube-HvZXAOZ3iv8-transcript.md",
-    "videoId": "HvZXAOZ3iv8",
-    "wordCount": 1823,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-IJXjTLPzvAU-transcript",
-    "title": "Transcript: The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
-    "path": "wiki/transcripts/youtube-IJXjTLPzvAU-transcript.md",
-    "videoId": "IJXjTLPzvAU",
-    "wordCount": 7031,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ILdE7FaAjVA-transcript",
-    "title": "Transcript: Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
-    "path": "wiki/transcripts/youtube-ILdE7FaAjVA-transcript.md",
-    "videoId": "ILdE7FaAjVA",
-    "wordCount": 1823,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-IQkVMvXQKLY-transcript",
-    "title": "Transcript: Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
-    "path": "wiki/transcripts/youtube-IQkVMvXQKLY-transcript.md",
-    "videoId": "IQkVMvXQKLY",
-    "wordCount": 6377,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-IddXPepIAS4-transcript",
-    "title": "Transcript: Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
-    "path": "wiki/transcripts/youtube-IddXPepIAS4-transcript.md",
-    "videoId": "IddXPepIAS4",
-    "wordCount": 3287,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-Iwe_RY-fYgI-transcript",
-    "title": "Transcript: AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
-    "path": "wiki/transcripts/youtube-Iwe_RY-fYgI-transcript.md",
-    "videoId": "Iwe_RY-fYgI",
-    "wordCount": 2314,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-JRTAtZ5iBkU-transcript",
-    "title": "Transcript: HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
-    "path": "wiki/transcripts/youtube-JRTAtZ5iBkU-transcript.md",
-    "videoId": "JRTAtZ5iBkU",
-    "wordCount": 1152,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-JnubYCYunk8-transcript",
-    "title": "Transcript: Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
-    "path": "wiki/transcripts/youtube-JnubYCYunk8-transcript.md",
-    "videoId": "JnubYCYunk8",
-    "wordCount": 937,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-Jx4ZFEAq6bY-transcript",
-    "title": "Transcript: User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
-    "path": "wiki/transcripts/youtube-Jx4ZFEAq6bY-transcript.md",
-    "videoId": "Jx4ZFEAq6bY",
-    "wordCount": 1867,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-KA5kPbdkK2E-transcript",
-    "title": "Transcript: How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
-    "path": "wiki/transcripts/youtube-KA5kPbdkK2E-transcript.md",
-    "videoId": "KA5kPbdkK2E",
-    "wordCount": 3423,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-KB41dTlX1Uc-transcript",
-    "title": "Transcript: State of the Union: Why Local, Why Now",
-    "path": "wiki/transcripts/youtube-KB41dTlX1Uc-transcript.md",
-    "videoId": "KB41dTlX1Uc",
-    "wordCount": 9219,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-KLSuFPj2ld0-transcript",
-    "title": "Transcript: Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
-    "path": "wiki/transcripts/youtube-KLSuFPj2ld0-transcript.md",
-    "videoId": "KLSuFPj2ld0",
-    "wordCount": 3304,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-LrGCT7G_rU8-transcript",
-    "title": "Transcript: Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
-    "path": "wiki/transcripts/youtube-LrGCT7G_rU8-transcript.md",
-    "videoId": "LrGCT7G_rU8",
-    "wordCount": 1843,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-MpZzWMdmQCE-transcript",
-    "title": "Transcript: Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
-    "path": "wiki/transcripts/youtube-MpZzWMdmQCE-transcript.md",
-    "videoId": "MpZzWMdmQCE",
-    "wordCount": 5590,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-OXMMN-XbxwA-transcript",
-    "title": "Transcript: Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
-    "path": "wiki/transcripts/youtube-OXMMN-XbxwA-transcript.md",
-    "videoId": "OXMMN-XbxwA",
-    "wordCount": 2284,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ObTPqBGsEbA-transcript",
-    "title": "Transcript: £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
-    "path": "wiki/transcripts/youtube-ObTPqBGsEbA-transcript.md",
-    "videoId": "ObTPqBGsEbA",
-    "wordCount": 6544,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-QuuIywMG4s8-transcript",
-    "title": "Transcript: Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
-    "path": "wiki/transcripts/youtube-QuuIywMG4s8-transcript.md",
-    "videoId": "QuuIywMG4s8",
-    "wordCount": 4050,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-Rx8f05JI_WA-transcript",
-    "title": "Transcript: SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
-    "path": "wiki/transcripts/youtube-Rx8f05JI_WA-transcript.md",
-    "videoId": "Rx8f05JI_WA",
-    "wordCount": 4329,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-SKDJo2CopRs-transcript",
-    "title": "Transcript: Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
-    "path": "wiki/transcripts/youtube-SKDJo2CopRs-transcript.md",
-    "videoId": "SKDJo2CopRs",
-    "wordCount": 4757,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-SS-A8sE7hkw-transcript",
-    "title": "Transcript: Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
-    "path": "wiki/transcripts/youtube-SS-A8sE7hkw-transcript.md",
-    "videoId": "SS-A8sE7hkw",
-    "wordCount": 4033,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-T0HhO4YtTfE-transcript",
-    "title": "Transcript: AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
-    "path": "wiki/transcripts/youtube-T0HhO4YtTfE-transcript.md",
-    "videoId": "T0HhO4YtTfE",
-    "wordCount": 4200,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-TNwJ1LMiENk-transcript",
-    "title": "Transcript: Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
-    "path": "wiki/transcripts/youtube-TNwJ1LMiENk-transcript.md",
-    "videoId": "TNwJ1LMiENk",
-    "wordCount": 4032,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-TUnPNY4E2fw-transcript",
-    "title": "Transcript: Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
-    "path": "wiki/transcripts/youtube-TUnPNY4E2fw-transcript.md",
-    "videoId": "TUnPNY4E2fw",
-    "wordCount": 2091,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-UM6sFg_jdlE-transcript",
-    "title": "Transcript: RAG is dead, right?? — Kuba Rogut, Turbopuffer",
-    "path": "wiki/transcripts/youtube-UM6sFg_jdlE-transcript.md",
-    "videoId": "UM6sFg_jdlE",
-    "wordCount": 2187,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-UNzCG3lw6O0-transcript",
-    "title": "Transcript: Building Great Agent Skills: The Missing Manual",
-    "path": "wiki/transcripts/youtube-UNzCG3lw6O0-transcript.md",
-    "videoId": "UNzCG3lw6O0",
-    "wordCount": 4219,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-UPwGaM2MKHY-transcript",
-    "title": "Transcript: The Log Is The Agent - Ishaan Sehgal, Omnara",
-    "path": "wiki/transcripts/youtube-UPwGaM2MKHY-transcript.md",
-    "videoId": "UPwGaM2MKHY",
-    "wordCount": 2546,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-UcYoMg-8-L8-transcript",
-    "title": "Transcript: 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
-    "path": "wiki/transcripts/youtube-UcYoMg-8-L8-transcript.md",
-    "videoId": "UcYoMg-8-L8",
-    "wordCount": 7849,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-V-EDrhIhHzQ-transcript",
-    "title": "Transcript: The Prime Intellect Stack",
-    "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
-    "videoId": "V-EDrhIhHzQ",
-    "wordCount": 10228,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-WkBPX-oDMnA-transcript",
-    "title": "Transcript: Understanding is the new bottleneck",
-    "path": "wiki/transcripts/youtube-WkBPX-oDMnA-transcript.md",
-    "videoId": "WkBPX-oDMnA",
-    "wordCount": 3765,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-Xfl50508LZM-transcript",
-    "title": "Transcript: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
-    "path": "wiki/transcripts/youtube-Xfl50508LZM-transcript.md",
-    "videoId": "Xfl50508LZM",
-    "wordCount": 22591,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-XovaGv4f39A-transcript",
-    "title": "Transcript: When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
-    "path": "wiki/transcripts/youtube-XovaGv4f39A-transcript.md",
-    "videoId": "XovaGv4f39A",
-    "wordCount": 863,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-YYH0DMQr30A-transcript",
-    "title": "Transcript: Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
-    "path": "wiki/transcripts/youtube-YYH0DMQr30A-transcript.md",
-    "videoId": "YYH0DMQr30A",
-    "wordCount": 3665,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-YZQsWVeN3rE-transcript",
-    "title": "Transcript: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
-    "path": "wiki/transcripts/youtube-YZQsWVeN3rE-transcript.md",
-    "videoId": "YZQsWVeN3rE",
-    "wordCount": 2901,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ZD9-4fW2HhM-transcript",
-    "title": "Transcript: Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
-    "path": "wiki/transcripts/youtube-ZD9-4fW2HhM-transcript.md",
-    "videoId": "ZD9-4fW2HhM",
-    "wordCount": 3006,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ZSQb5fzRFPw-transcript",
-    "title": "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor",
-    "path": "wiki/transcripts/youtube-ZSQb5fzRFPw-transcript.md",
-    "videoId": "ZSQb5fzRFPw",
-    "wordCount": 2617,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ZpK5PWX2YRM-transcript",
-    "title": "Transcript: Should AI Engineers Still Read Code in 2026?",
-    "path": "wiki/transcripts/youtube-ZpK5PWX2YRM-transcript.md",
-    "videoId": "ZpK5PWX2YRM",
-    "wordCount": 3931,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-_B4Pv9ttFgY-transcript",
-    "title": "Transcript: Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
-    "path": "wiki/transcripts/youtube-_B4Pv9ttFgY-transcript.md",
-    "videoId": "_B4Pv9ttFgY",
-    "wordCount": 3311,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-_xIwFcnHqp4-transcript",
-    "title": "Transcript: Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
-    "path": "wiki/transcripts/youtube-_xIwFcnHqp4-transcript.md",
-    "videoId": "_xIwFcnHqp4",
-    "wordCount": 2852,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-aHhB3sjGjkI-transcript",
-    "title": "Transcript: Agents Building Agents - Alfonso Graziano, Nearform",
-    "path": "wiki/transcripts/youtube-aHhB3sjGjkI-transcript.md",
-    "videoId": "aHhB3sjGjkI",
-    "wordCount": 4742,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-akk6KRlcwW4-transcript",
-    "title": "Transcript: OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
-    "path": "wiki/transcripts/youtube-akk6KRlcwW4-transcript.md",
-    "videoId": "akk6KRlcwW4",
-    "wordCount": 2391,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-bRnoEpoK5m4-transcript",
-    "title": "Transcript: The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
-    "path": "wiki/transcripts/youtube-bRnoEpoK5m4-transcript.md",
-    "videoId": "bRnoEpoK5m4",
-    "wordCount": 8161,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-bk0TmxoZlUY-transcript",
-    "title": "Transcript: Evals 101 — Doug Guthrie, Braintrust",
-    "path": "wiki/transcripts/youtube-bk0TmxoZlUY-transcript.md",
-    "videoId": "bk0TmxoZlUY",
-    "wordCount": 9125,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-btxGmN8RvNU-transcript",
-    "title": "Transcript: Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
-    "path": "wiki/transcripts/youtube-btxGmN8RvNU-transcript.md",
-    "videoId": "btxGmN8RvNU",
-    "wordCount": 2716,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-c-2eEv2ou7Y-transcript",
-    "title": "Transcript: Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
-    "path": "wiki/transcripts/youtube-c-2eEv2ou7Y-transcript.md",
-    "videoId": "c-2eEv2ou7Y",
-    "wordCount": 3346,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-dRmWYHuIJxM-transcript",
-    "title": "Transcript: We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
-    "path": "wiki/transcripts/youtube-dRmWYHuIJxM-transcript.md",
-    "videoId": "dRmWYHuIJxM",
-    "wordCount": 1320,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-d_Ftrl3vfV0-transcript",
-    "title": "Transcript: Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
-    "path": "wiki/transcripts/youtube-d_Ftrl3vfV0-transcript.md",
-    "videoId": "d_Ftrl3vfV0",
-    "wordCount": 984,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-dvft0Gp9sEE-transcript",
-    "title": "Transcript: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
-    "path": "wiki/transcripts/youtube-dvft0Gp9sEE-transcript.md",
-    "videoId": "dvft0Gp9sEE",
-    "wordCount": 1508,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-fWXJM-J0ZB8-transcript",
-    "title": "Transcript: Frontier results, on device - RL Nabors, Arize",
-    "path": "wiki/transcripts/youtube-fWXJM-J0ZB8-transcript.md",
-    "videoId": "fWXJM-J0ZB8",
-    "wordCount": 4922,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-gHs5ZiY80PM-transcript",
-    "title": "Transcript: You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
-    "path": "wiki/transcripts/youtube-gHs5ZiY80PM-transcript.md",
-    "videoId": "gHs5ZiY80PM",
-    "wordCount": 3117,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-gUMwt4-5kn0-transcript",
-    "title": "Transcript: 2026 AI Engineer Vibe Reel",
-    "path": "wiki/transcripts/youtube-gUMwt4-5kn0-transcript.md",
-    "videoId": "gUMwt4-5kn0",
-    "wordCount": 7,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ghJmWQCIHRM-transcript",
-    "title": "Transcript: The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
-    "path": "wiki/transcripts/youtube-ghJmWQCIHRM-transcript.md",
-    "videoId": "ghJmWQCIHRM",
-    "wordCount": 3246,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-grdoOC1BT1s-transcript",
-    "title": "Transcript: Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
-    "path": "wiki/transcripts/youtube-grdoOC1BT1s-transcript.md",
-    "videoId": "grdoOC1BT1s",
-    "wordCount": 8993,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-hCMrEfPG2Yg-transcript",
-    "title": "Transcript: Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
-    "path": "wiki/transcripts/youtube-hCMrEfPG2Yg-transcript.md",
-    "videoId": "hCMrEfPG2Yg",
-    "wordCount": 2621,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-hVJOnuhFmTA-transcript",
-    "title": "Transcript: The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
-    "path": "wiki/transcripts/youtube-hVJOnuhFmTA-transcript.md",
-    "videoId": "hVJOnuhFmTA",
-    "wordCount": 3152,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-hqHC6Z_lXyo-transcript",
-    "title": "Transcript: 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
-    "path": "wiki/transcripts/youtube-hqHC6Z_lXyo-transcript.md",
-    "videoId": "hqHC6Z_lXyo",
-    "wordCount": 3313,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-iNkFlCiij0U-transcript",
-    "title": "Transcript: The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
-    "path": "wiki/transcripts/youtube-iNkFlCiij0U-transcript.md",
-    "videoId": "iNkFlCiij0U",
-    "wordCount": 4346,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-iRcX54EO5g8-transcript",
-    "title": "Transcript: Your agent is blindfolded — Johan Lajili, Poolside AI",
-    "path": "wiki/transcripts/youtube-iRcX54EO5g8-transcript.md",
-    "videoId": "iRcX54EO5g8",
-    "wordCount": 4701,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-ij-AU9dpJjc-transcript",
-    "title": "Transcript: Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
-    "path": "wiki/transcripts/youtube-ij-AU9dpJjc-transcript.md",
-    "videoId": "ij-AU9dpJjc",
-    "wordCount": 3716,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-jVjt-2g8NMY-transcript",
-    "title": "Transcript: A Genius With Amnesia - Victor Savkin, Nx",
-    "path": "wiki/transcripts/youtube-jVjt-2g8NMY-transcript.md",
-    "videoId": "jVjt-2g8NMY",
-    "wordCount": 3363,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-kZsf_Sfm7RU-transcript",
-    "title": "Transcript: The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
-    "path": "wiki/transcripts/youtube-kZsf_Sfm7RU-transcript.md",
-    "videoId": "kZsf_Sfm7RU",
-    "wordCount": 3369,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-mFLlVpnGpds-transcript",
-    "title": "Transcript: Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
-    "path": "wiki/transcripts/youtube-mFLlVpnGpds-transcript.md",
-    "videoId": "mFLlVpnGpds",
-    "wordCount": 4117,
-    "sourceLabel": "YouTube transcript"
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-n97BCfyFIvw-transcript",
@@ -701,199 +15,79 @@
     "path": "wiki/transcripts/youtube-n97BCfyFIvw-transcript.md",
     "videoId": "n97BCfyFIvw",
     "wordCount": 3068,
-    "sourceLabel": "YouTube transcript"
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
-    "id": "youtube-o-zkvb0iFDQ-transcript",
-    "title": "Transcript: MCP UI: Extending the frontier",
-    "path": "wiki/transcripts/youtube-o-zkvb0iFDQ-transcript.md",
-    "videoId": "o-zkvb0iFDQ",
-    "wordCount": 3969,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-hqHC6Z_lXyo-transcript",
+    "title": "Transcript: 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
+    "path": "wiki/transcripts/youtube-hqHC6Z_lXyo-transcript.md",
+    "videoId": "hqHC6Z_lXyo",
+    "wordCount": 3313,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-pMggiOb18tc-transcript",
-    "title": "Transcript: The Golden Age of AI Engineering",
-    "path": "wiki/transcripts/youtube-pMggiOb18tc-transcript.md",
-    "videoId": "pMggiOb18tc",
-    "wordCount": 4606,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-gUMwt4-5kn0-transcript",
+    "title": "Transcript: 2026 AI Engineer Vibe Reel",
+    "path": "wiki/transcripts/youtube-gUMwt4-5kn0-transcript.md",
+    "videoId": "gUMwt4-5kn0",
+    "wordCount": 7,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-pSto5YaNGUo-transcript",
-    "title": "Transcript: The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
-    "path": "wiki/transcripts/youtube-pSto5YaNGUo-transcript.md",
-    "videoId": "pSto5YaNGUo",
-    "wordCount": 4340,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-UcYoMg-8-L8-transcript",
+    "title": "Transcript: 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
+    "path": "wiki/transcripts/youtube-UcYoMg-8-L8-transcript.md",
+    "videoId": "UcYoMg-8-L8",
+    "wordCount": 7849,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-pmoDeA3RBZY-transcript",
-    "title": "Transcript: Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
-    "path": "wiki/transcripts/youtube-pmoDeA3RBZY-transcript.md",
-    "videoId": "pmoDeA3RBZY",
-    "wordCount": 3258,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-0S8xe9ftGTM-transcript",
+    "title": "Transcript: 6 Things to Know about AIE World's Fair 2026",
+    "path": "wiki/transcripts/youtube-0S8xe9ftGTM-transcript.md",
+    "videoId": "0S8xe9ftGTM",
+    "wordCount": 3479,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-q4Tr-DknG2M-transcript",
-    "title": "Transcript: Recursive Model Improvement",
-    "path": "wiki/transcripts/youtube-q4Tr-DknG2M-transcript.md",
-    "videoId": "q4Tr-DknG2M",
-    "wordCount": 4039,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-jVjt-2g8NMY-transcript",
+    "title": "Transcript: A Genius With Amnesia - Victor Savkin, Nx",
+    "path": "wiki/transcripts/youtube-jVjt-2g8NMY-transcript.md",
+    "videoId": "jVjt-2g8NMY",
+    "wordCount": 3363,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-qdZzND79mcg-transcript",
-    "title": "Transcript: Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
-    "path": "wiki/transcripts/youtube-qdZzND79mcg-transcript.md",
-    "videoId": "qdZzND79mcg",
-    "wordCount": 14765,
-    "sourceLabel": "YouTube transcript"
+    "id": "youtube-aHhB3sjGjkI-transcript",
+    "title": "Transcript: Agents Building Agents - Alfonso Graziano, Nearform",
+    "path": "wiki/transcripts/youtube-aHhB3sjGjkI-transcript.md",
+    "videoId": "aHhB3sjGjkI",
+    "wordCount": 4742,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
-    "id": "youtube-qlHaO6laBlM-transcript",
-    "title": "Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice",
-    "path": "wiki/transcripts/youtube-qlHaO6laBlM-transcript.md",
-    "videoId": "qlHaO6laBlM",
-    "wordCount": 11459,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-r305-aQTaU0-transcript",
-    "title": "Transcript: Text Diffusion — Brendan O’Donoghue, Google DeepMind",
-    "path": "wiki/transcripts/youtube-r305-aQTaU0-transcript.md",
-    "videoId": "r305-aQTaU0",
-    "wordCount": 5238,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-sAOBXCDiDOs-transcript",
-    "title": "Transcript: MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
-    "path": "wiki/transcripts/youtube-sAOBXCDiDOs-transcript.md",
-    "videoId": "sAOBXCDiDOs",
-    "wordCount": 4772,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-spNAUEgq_A8-transcript",
-    "title": "Transcript: The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
-    "path": "wiki/transcripts/youtube-spNAUEgq_A8-transcript.md",
-    "videoId": "spNAUEgq_A8",
-    "wordCount": 5175,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-u-rJwPPU3QA-transcript",
-    "title": "Transcript: How to talk to statues — Joe Reeve, ElevenLabs",
-    "path": "wiki/transcripts/youtube-u-rJwPPU3QA-transcript.md",
-    "videoId": "u-rJwPPU3QA",
-    "wordCount": 6781,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-uiP88SpCi1Q-transcript",
-    "title": "Transcript: Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
-    "path": "wiki/transcripts/youtube-uiP88SpCi1Q-transcript.md",
-    "videoId": "uiP88SpCi1Q",
-    "wordCount": 1000,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-vh2VGuQ3zhY-transcript",
-    "title": "Transcript: The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
-    "path": "wiki/transcripts/youtube-vh2VGuQ3zhY-transcript.md",
-    "videoId": "vh2VGuQ3zhY",
-    "wordCount": 3468,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-vljxQZfJ9wY-transcript",
-    "title": "Transcript: Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
-    "path": "wiki/transcripts/youtube-vljxQZfJ9wY-transcript.md",
-    "videoId": "vljxQZfJ9wY",
-    "wordCount": 1143,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-wFTVEDYVJT0-transcript",
-    "title": "Transcript: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
-    "path": "wiki/transcripts/youtube-wFTVEDYVJT0-transcript.md",
-    "videoId": "wFTVEDYVJT0",
-    "wordCount": 13586,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-wcUJWP6WpGM-transcript",
-    "title": "Transcript: SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
-    "path": "wiki/transcripts/youtube-wcUJWP6WpGM-transcript.md",
-    "videoId": "wcUJWP6WpGM",
-    "wordCount": 2642,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-whue9_YquGA-transcript",
-    "title": "Transcript: Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
-    "path": "wiki/transcripts/youtube-whue9_YquGA-transcript.md",
-    "videoId": "whue9_YquGA",
-    "wordCount": 2725,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-xUnRQ9vLXxo-transcript",
-    "title": "Transcript: What do we build now? — @t3dotgg",
-    "path": "wiki/transcripts/youtube-xUnRQ9vLXxo-transcript.md",
-    "videoId": "xUnRQ9vLXxo",
-    "wordCount": 9663,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-zDGHt0LB-dA-transcript",
-    "title": "Transcript: GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
-    "path": "wiki/transcripts/youtube-zDGHt0LB-dA-transcript.md",
-    "videoId": "zDGHt0LB-dA",
-    "wordCount": 2652,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-zKk7sDMGDEQ-transcript",
-    "title": "Transcript: Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
-    "path": "wiki/transcripts/youtube-zKk7sDMGDEQ-transcript.md",
-    "videoId": "zKk7sDMGDEQ",
-    "wordCount": 3298,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-zMiSRliEzv4-transcript",
-    "title": "Transcript: Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
-    "path": "wiki/transcripts/youtube-zMiSRliEzv4-transcript.md",
-    "videoId": "zMiSRliEzv4",
-    "wordCount": 2882,
-    "sourceLabel": "YouTube transcript"
-  },
-  {
-    "id": "youtube-4sX_He5c4sI-transcript",
-    "title": "Transcript: WF2026: Autoresearch & Keynotes",
-    "path": "wiki/transcripts/youtube-4sX_He5c4sI-transcript.md",
-    "videoId": "4sX_He5c4sI",
-    "wordCount": 82600,
-    "sourceLabel": "YouTube livestream transcript"
-  },
-  {
-    "id": "youtube-I2cbIws9j10-transcript",
-    "title": "Transcript: WF26: Harness Engineering & Startup Battlefield",
-    "path": "wiki/transcripts/youtube-I2cbIws9j10-transcript.md",
-    "videoId": "I2cbIws9j10",
-    "wordCount": 91792,
-    "sourceLabel": "YouTube livestream transcript"
-  },
-  {
-    "id": "youtube-htM02KMNZnk-transcript",
-    "title": "Transcript: WF2026: Software Factories & Keynotes",
-    "path": "wiki/transcripts/youtube-htM02KMNZnk-transcript.md",
-    "videoId": "htM02KMNZnk",
-    "wordCount": 89050,
-    "sourceLabel": "YouTube livestream transcript"
+    "id": "youtube-4uFVSLgD2Q4-transcript",
+    "title": "Transcript: Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+    "path": "wiki/transcripts/youtube-4uFVSLgD2Q4-transcript.md",
+    "videoId": "4uFVSLgD2Q4",
+    "wordCount": 3047,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
     "id": "youtube-AheG9p_JXVw-transcript",
@@ -901,7 +95,929 @@
     "path": "wiki/transcripts/youtube-AheG9p_JXVw-transcript.md",
     "videoId": "AheG9p_JXVw",
     "wordCount": 1340,
-    "sourceLabel": "External YouTube secondary-source transcript"
+    "sourceLabel": "External YouTube secondary-source transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-T0HhO4YtTfE-transcript",
+    "title": "Transcript: AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+    "path": "wiki/transcripts/youtube-T0HhO4YtTfE-transcript.md",
+    "videoId": "T0HhO4YtTfE",
+    "wordCount": 4200,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-Iwe_RY-fYgI-transcript",
+    "title": "Transcript: AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
+    "path": "wiki/transcripts/youtube-Iwe_RY-fYgI-transcript.md",
+    "videoId": "Iwe_RY-fYgI",
+    "wordCount": 2314,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-dvft0Gp9sEE-transcript",
+    "title": "Transcript: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
+    "path": "wiki/transcripts/youtube-dvft0Gp9sEE-transcript.md",
+    "videoId": "dvft0Gp9sEE",
+    "wordCount": 1508,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-504PvfXou5Y-transcript",
+    "title": "Transcript: BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+    "path": "wiki/transcripts/youtube-504PvfXou5Y-transcript.md",
+    "videoId": "504PvfXou5Y",
+    "wordCount": 1865,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-zKk7sDMGDEQ-transcript",
+    "title": "Transcript: Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+    "path": "wiki/transcripts/youtube-zKk7sDMGDEQ-transcript.md",
+    "videoId": "zKk7sDMGDEQ",
+    "wordCount": 3298,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-hCMrEfPG2Yg-transcript",
+    "title": "Transcript: Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+    "path": "wiki/transcripts/youtube-hCMrEfPG2Yg-transcript.md",
+    "videoId": "hCMrEfPG2Yg",
+    "wordCount": 2621,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-qdZzND79mcg-transcript",
+    "title": "Transcript: Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
+    "path": "wiki/transcripts/youtube-qdZzND79mcg-transcript.md",
+    "videoId": "qdZzND79mcg",
+    "wordCount": 14765,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-mFLlVpnGpds-transcript",
+    "title": "Transcript: Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
+    "path": "wiki/transcripts/youtube-mFLlVpnGpds-transcript.md",
+    "videoId": "mFLlVpnGpds",
+    "wordCount": 4117,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-JnubYCYunk8-transcript",
+    "title": "Transcript: Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
+    "path": "wiki/transcripts/youtube-JnubYCYunk8-transcript.md",
+    "videoId": "JnubYCYunk8",
+    "wordCount": 937,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-CDqzWpwkSls-transcript",
+    "title": "Transcript: Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
+    "path": "wiki/transcripts/youtube-CDqzWpwkSls-transcript.md",
+    "videoId": "CDqzWpwkSls",
+    "wordCount": 12924,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ZD9-4fW2HhM-transcript",
+    "title": "Transcript: Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
+    "path": "wiki/transcripts/youtube-ZD9-4fW2HhM-transcript.md",
+    "videoId": "ZD9-4fW2HhM",
+    "wordCount": 3006,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-_B4Pv9ttFgY-transcript",
+    "title": "Transcript: Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+    "path": "wiki/transcripts/youtube-_B4Pv9ttFgY-transcript.md",
+    "videoId": "_B4Pv9ttFgY",
+    "wordCount": 3311,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-wFTVEDYVJT0-transcript",
+    "title": "Transcript: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
+    "path": "wiki/transcripts/youtube-wFTVEDYVJT0-transcript.md",
+    "videoId": "wFTVEDYVJT0",
+    "wordCount": 13586,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-HsxQICTLF84-transcript",
+    "title": "Transcript: Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
+    "path": "wiki/transcripts/youtube-HsxQICTLF84-transcript.md",
+    "videoId": "HsxQICTLF84",
+    "wordCount": 8217,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-whue9_YquGA-transcript",
+    "title": "Transcript: Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
+    "path": "wiki/transcripts/youtube-whue9_YquGA-transcript.md",
+    "videoId": "whue9_YquGA",
+    "wordCount": 2725,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-UNzCG3lw6O0-transcript",
+    "title": "Transcript: Building Great Agent Skills: The Missing Manual",
+    "path": "wiki/transcripts/youtube-UNzCG3lw6O0-transcript.md",
+    "videoId": "UNzCG3lw6O0",
+    "wordCount": 4219,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-_xIwFcnHqp4-transcript",
+    "title": "Transcript: Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+    "path": "wiki/transcripts/youtube-_xIwFcnHqp4-transcript.md",
+    "videoId": "_xIwFcnHqp4",
+    "wordCount": 2852,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-KLSuFPj2ld0-transcript",
+    "title": "Transcript: Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+    "path": "wiki/transcripts/youtube-KLSuFPj2ld0-transcript.md",
+    "videoId": "KLSuFPj2ld0",
+    "wordCount": 3304,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-Akm1sqvWG4A-transcript",
+    "title": "Transcript: Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+    "path": "wiki/transcripts/youtube-Akm1sqvWG4A-transcript.md",
+    "videoId": "Akm1sqvWG4A",
+    "wordCount": 6285,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ZSQb5fzRFPw-transcript",
+    "title": "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor",
+    "path": "wiki/transcripts/youtube-ZSQb5fzRFPw-transcript.md",
+    "videoId": "ZSQb5fzRFPw",
+    "wordCount": 2617,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-2IxD9OB3XuQ-transcript",
+    "title": "Transcript: Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
+    "path": "wiki/transcripts/youtube-2IxD9OB3XuQ-transcript.md",
+    "videoId": "2IxD9OB3XuQ",
+    "wordCount": 3230,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-pmoDeA3RBZY-transcript",
+    "title": "Transcript: Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+    "path": "wiki/transcripts/youtube-pmoDeA3RBZY-transcript.md",
+    "videoId": "pmoDeA3RBZY",
+    "wordCount": 3258,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-YZQsWVeN3rE-transcript",
+    "title": "Transcript: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+    "path": "wiki/transcripts/youtube-YZQsWVeN3rE-transcript.md",
+    "videoId": "YZQsWVeN3rE",
+    "wordCount": 2901,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-0vphxNt4wyk-transcript",
+    "title": "Transcript: Don't Ship Skills Without Evals",
+    "path": "wiki/transcripts/youtube-0vphxNt4wyk-transcript.md",
+    "videoId": "0vphxNt4wyk",
+    "wordCount": 3965,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-bk0TmxoZlUY-transcript",
+    "title": "Transcript: Evals 101 — Doug Guthrie, Braintrust",
+    "path": "wiki/transcripts/youtube-bk0TmxoZlUY-transcript.md",
+    "videoId": "bk0TmxoZlUY",
+    "wordCount": 9125,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-QuuIywMG4s8-transcript",
+    "title": "Transcript: Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+    "path": "wiki/transcripts/youtube-QuuIywMG4s8-transcript.md",
+    "videoId": "QuuIywMG4s8",
+    "wordCount": 4050,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-9fubhllmsBU-transcript",
+    "title": "Transcript: Field Guide to Fable",
+    "path": "wiki/transcripts/youtube-9fubhllmsBU-transcript.md",
+    "videoId": "9fubhllmsBU",
+    "wordCount": 3542,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-APqXGyCoGW4-transcript",
+    "title": "Transcript: Forward Deployed Engineering at Cursor — Pauline Brunet",
+    "path": "wiki/transcripts/youtube-APqXGyCoGW4-transcript.md",
+    "videoId": "APqXGyCoGW4",
+    "wordCount": 3956,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-fWXJM-J0ZB8-transcript",
+    "title": "Transcript: Frontier results, on device - RL Nabors, Arize",
+    "path": "wiki/transcripts/youtube-fWXJM-J0ZB8-transcript.md",
+    "videoId": "fWXJM-J0ZB8",
+    "wordCount": 4922,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-zDGHt0LB-dA-transcript",
+    "title": "Transcript: GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+    "path": "wiki/transcripts/youtube-zDGHt0LB-dA-transcript.md",
+    "videoId": "zDGHt0LB-dA",
+    "wordCount": 2652,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-G6IlDzj8OjA-transcript",
+    "title": "Transcript: GTM Is You - Victoria Melnikova, Evil Martians",
+    "path": "wiki/transcripts/youtube-G6IlDzj8OjA-transcript.md",
+    "videoId": "G6IlDzj8OjA",
+    "wordCount": 5917,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-KA5kPbdkK2E-transcript",
+    "title": "Transcript: How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
+    "path": "wiki/transcripts/youtube-KA5kPbdkK2E-transcript.md",
+    "videoId": "KA5kPbdkK2E",
+    "wordCount": 3423,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-u-rJwPPU3QA-transcript",
+    "title": "Transcript: How to talk to statues — Joe Reeve, ElevenLabs",
+    "path": "wiki/transcripts/youtube-u-rJwPPU3QA-transcript.md",
+    "videoId": "u-rJwPPU3QA",
+    "wordCount": 6781,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-1IdzkRVmWAA-transcript",
+    "title": "Transcript: How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
+    "path": "wiki/transcripts/youtube-1IdzkRVmWAA-transcript.md",
+    "videoId": "1IdzkRVmWAA",
+    "wordCount": 6138,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-JRTAtZ5iBkU-transcript",
+    "title": "Transcript: HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
+    "path": "wiki/transcripts/youtube-JRTAtZ5iBkU-transcript.md",
+    "videoId": "JRTAtZ5iBkU",
+    "wordCount": 1152,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-4kYl2_mqmnQ-transcript",
+    "title": "Transcript: I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
+    "path": "wiki/transcripts/youtube-4kYl2_mqmnQ-transcript.md",
+    "videoId": "4kYl2_mqmnQ",
+    "wordCount": 4930,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-sAOBXCDiDOs-transcript",
+    "title": "Transcript: MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
+    "path": "wiki/transcripts/youtube-sAOBXCDiDOs-transcript.md",
+    "videoId": "sAOBXCDiDOs",
+    "wordCount": 4772,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-o-zkvb0iFDQ-transcript",
+    "title": "Transcript: MCP UI: Extending the frontier",
+    "path": "wiki/transcripts/youtube-o-zkvb0iFDQ-transcript.md",
+    "videoId": "o-zkvb0iFDQ",
+    "wordCount": 3969,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-akk6KRlcwW4-transcript",
+    "title": "Transcript: OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
+    "path": "wiki/transcripts/youtube-akk6KRlcwW4-transcript.md",
+    "videoId": "akk6KRlcwW4",
+    "wordCount": 2391,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-vljxQZfJ9wY-transcript",
+    "title": "Transcript: Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
+    "path": "wiki/transcripts/youtube-vljxQZfJ9wY-transcript.md",
+    "videoId": "vljxQZfJ9wY",
+    "wordCount": 1143,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-UM6sFg_jdlE-transcript",
+    "title": "Transcript: RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+    "path": "wiki/transcripts/youtube-UM6sFg_jdlE-transcript.md",
+    "videoId": "UM6sFg_jdlE",
+    "wordCount": 2187,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-3hXJI2q0Jz8-transcript",
+    "title": "Transcript: Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+    "path": "wiki/transcripts/youtube-3hXJI2q0Jz8-transcript.md",
+    "videoId": "3hXJI2q0Jz8",
+    "wordCount": 3697,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-q4Tr-DknG2M-transcript",
+    "title": "Transcript: Recursive Model Improvement",
+    "path": "wiki/transcripts/youtube-q4Tr-DknG2M-transcript.md",
+    "videoId": "q4Tr-DknG2M",
+    "wordCount": 4039,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-OXMMN-XbxwA-transcript",
+    "title": "Transcript: Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
+    "path": "wiki/transcripts/youtube-OXMMN-XbxwA-transcript.md",
+    "videoId": "OXMMN-XbxwA",
+    "wordCount": 2284,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-CLttOU7n6sI-transcript",
+    "title": "Transcript: Respect The Process - Andrew Dumit, Watershed Technology Inc.",
+    "path": "wiki/transcripts/youtube-CLttOU7n6sI-transcript.md",
+    "videoId": "CLttOU7n6sI",
+    "wordCount": 10070,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-TUnPNY4E2fw-transcript",
+    "title": "Transcript: Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
+    "path": "wiki/transcripts/youtube-TUnPNY4E2fw-transcript.md",
+    "videoId": "TUnPNY4E2fw",
+    "wordCount": 2091,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-BqZrTdgBaPw-transcript",
+    "title": "Transcript: Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
+    "path": "wiki/transcripts/youtube-BqZrTdgBaPw-transcript.md",
+    "videoId": "BqZrTdgBaPw",
+    "wordCount": 8024,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-zMiSRliEzv4-transcript",
+    "title": "Transcript: Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+    "path": "wiki/transcripts/youtube-zMiSRliEzv4-transcript.md",
+    "videoId": "zMiSRliEzv4",
+    "wordCount": 2882,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-Xfl50508LZM-transcript",
+    "title": "Transcript: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
+    "path": "wiki/transcripts/youtube-Xfl50508LZM-transcript.md",
+    "videoId": "Xfl50508LZM",
+    "wordCount": 22591,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-qlHaO6laBlM-transcript",
+    "title": "Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice",
+    "path": "wiki/transcripts/youtube-qlHaO6laBlM-transcript.md",
+    "videoId": "qlHaO6laBlM",
+    "wordCount": 11459,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ZpK5PWX2YRM-transcript",
+    "title": "Transcript: Should AI Engineers Still Read Code in 2026?",
+    "path": "wiki/transcripts/youtube-ZpK5PWX2YRM-transcript.md",
+    "videoId": "ZpK5PWX2YRM",
+    "wordCount": 3931,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-SS-A8sE7hkw-transcript",
+    "title": "Transcript: Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+    "path": "wiki/transcripts/youtube-SS-A8sE7hkw-transcript.md",
+    "videoId": "SS-A8sE7hkw",
+    "wordCount": 4033,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-KB41dTlX1Uc-transcript",
+    "title": "Transcript: State of the Union: Why Local, Why Now",
+    "path": "wiki/transcripts/youtube-KB41dTlX1Uc-transcript.md",
+    "videoId": "KB41dTlX1Uc",
+    "wordCount": 9219,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-TNwJ1LMiENk-transcript",
+    "title": "Transcript: Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
+    "path": "wiki/transcripts/youtube-TNwJ1LMiENk-transcript.md",
+    "videoId": "TNwJ1LMiENk",
+    "wordCount": 4032,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ij-AU9dpJjc-transcript",
+    "title": "Transcript: Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+    "path": "wiki/transcripts/youtube-ij-AU9dpJjc-transcript.md",
+    "videoId": "ij-AU9dpJjc",
+    "wordCount": 3716,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube--x5GEVnkuRw-transcript",
+    "title": "Transcript: Structuring the Unstructured - Cedric Clyburn, Red Hat",
+    "path": "wiki/transcripts/youtube--x5GEVnkuRw-transcript.md",
+    "videoId": "-x5GEVnkuRw",
+    "wordCount": 3937,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-Rx8f05JI_WA-transcript",
+    "title": "Transcript: SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
+    "path": "wiki/transcripts/youtube-Rx8f05JI_WA-transcript.md",
+    "videoId": "Rx8f05JI_WA",
+    "wordCount": 4329,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-wcUJWP6WpGM-transcript",
+    "title": "Transcript: SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+    "path": "wiki/transcripts/youtube-wcUJWP6WpGM-transcript.md",
+    "videoId": "wcUJWP6WpGM",
+    "wordCount": 2642,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-YYH0DMQr30A-transcript",
+    "title": "Transcript: Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
+    "path": "wiki/transcripts/youtube-YYH0DMQr30A-transcript.md",
+    "videoId": "YYH0DMQr30A",
+    "wordCount": 3665,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-HEFSExa0xl0-transcript",
+    "title": "Transcript: Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
+    "path": "wiki/transcripts/youtube-HEFSExa0xl0-transcript.md",
+    "videoId": "HEFSExa0xl0",
+    "wordCount": 9009,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-r305-aQTaU0-transcript",
+    "title": "Transcript: Text Diffusion — Brendan O’Donoghue, Google DeepMind",
+    "path": "wiki/transcripts/youtube-r305-aQTaU0-transcript.md",
+    "videoId": "r305-aQTaU0",
+    "wordCount": 5238,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-vh2VGuQ3zhY-transcript",
+    "title": "Transcript: The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
+    "path": "wiki/transcripts/youtube-vh2VGuQ3zhY-transcript.md",
+    "videoId": "vh2VGuQ3zhY",
+    "wordCount": 3468,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ghJmWQCIHRM-transcript",
+    "title": "Transcript: The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+    "path": "wiki/transcripts/youtube-ghJmWQCIHRM-transcript.md",
+    "videoId": "ghJmWQCIHRM",
+    "wordCount": 3246,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-pSto5YaNGUo-transcript",
+    "title": "Transcript: The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+    "path": "wiki/transcripts/youtube-pSto5YaNGUo-transcript.md",
+    "videoId": "pSto5YaNGUo",
+    "wordCount": 4340,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-iNkFlCiij0U-transcript",
+    "title": "Transcript: The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+    "path": "wiki/transcripts/youtube-iNkFlCiij0U-transcript.md",
+    "videoId": "iNkFlCiij0U",
+    "wordCount": 4346,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-spNAUEgq_A8-transcript",
+    "title": "Transcript: The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+    "path": "wiki/transcripts/youtube-spNAUEgq_A8-transcript.md",
+    "videoId": "spNAUEgq_A8",
+    "wordCount": 5175,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-pMggiOb18tc-transcript",
+    "title": "Transcript: The Golden Age of AI Engineering",
+    "path": "wiki/transcripts/youtube-pMggiOb18tc-transcript.md",
+    "videoId": "pMggiOb18tc",
+    "wordCount": 4606,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-UPwGaM2MKHY-transcript",
+    "title": "Transcript: The Log Is The Agent - Ishaan Sehgal, Omnara",
+    "path": "wiki/transcripts/youtube-UPwGaM2MKHY-transcript.md",
+    "videoId": "UPwGaM2MKHY",
+    "wordCount": 2546,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-IJXjTLPzvAU-transcript",
+    "title": "Transcript: The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+    "path": "wiki/transcripts/youtube-IJXjTLPzvAU-transcript.md",
+    "videoId": "IJXjTLPzvAU",
+    "wordCount": 7031,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-kZsf_Sfm7RU-transcript",
+    "title": "Transcript: The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
+    "path": "wiki/transcripts/youtube-kZsf_Sfm7RU-transcript.md",
+    "videoId": "kZsf_Sfm7RU",
+    "wordCount": 3369,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-bRnoEpoK5m4-transcript",
+    "title": "Transcript: The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
+    "path": "wiki/transcripts/youtube-bRnoEpoK5m4-transcript.md",
+    "videoId": "bRnoEpoK5m4",
+    "wordCount": 8161,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-V-EDrhIhHzQ-transcript",
+    "title": "Transcript: The Prime Intellect Stack",
+    "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
+    "videoId": "V-EDrhIhHzQ",
+    "wordCount": 10228,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-hVJOnuhFmTA-transcript",
+    "title": "Transcript: The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+    "path": "wiki/transcripts/youtube-hVJOnuhFmTA-transcript.md",
+    "videoId": "hVJOnuhFmTA",
+    "wordCount": 3152,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-DqtmZE6Hl0g-transcript",
+    "title": "Transcript: The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+    "path": "wiki/transcripts/youtube-DqtmZE6Hl0g-transcript.md",
+    "videoId": "DqtmZE6Hl0g",
+    "wordCount": 2088,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-grdoOC1BT1s-transcript",
+    "title": "Transcript: Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
+    "path": "wiki/transcripts/youtube-grdoOC1BT1s-transcript.md",
+    "videoId": "grdoOC1BT1s",
+    "wordCount": 8993,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ILdE7FaAjVA-transcript",
+    "title": "Transcript: Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+    "path": "wiki/transcripts/youtube-ILdE7FaAjVA-transcript.md",
+    "videoId": "ILdE7FaAjVA",
+    "wordCount": 1823,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-WkBPX-oDMnA-transcript",
+    "title": "Transcript: Understanding is the new bottleneck",
+    "path": "wiki/transcripts/youtube-WkBPX-oDMnA-transcript.md",
+    "videoId": "WkBPX-oDMnA",
+    "wordCount": 3765,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-Jx4ZFEAq6bY-transcript",
+    "title": "Transcript: User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
+    "path": "wiki/transcripts/youtube-Jx4ZFEAq6bY-transcript.md",
+    "videoId": "Jx4ZFEAq6bY",
+    "wordCount": 1867,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-LrGCT7G_rU8-transcript",
+    "title": "Transcript: Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
+    "path": "wiki/transcripts/youtube-LrGCT7G_rU8-transcript.md",
+    "videoId": "LrGCT7G_rU8",
+    "wordCount": 1843,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-IddXPepIAS4-transcript",
+    "title": "Transcript: Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
+    "path": "wiki/transcripts/youtube-IddXPepIAS4-transcript.md",
+    "videoId": "IddXPepIAS4",
+    "wordCount": 3287,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-65X0pQ6Lmbg-transcript",
+    "title": "Transcript: Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+    "path": "wiki/transcripts/youtube-65X0pQ6Lmbg-transcript.md",
+    "videoId": "65X0pQ6Lmbg",
+    "wordCount": 1935,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-dRmWYHuIJxM-transcript",
+    "title": "Transcript: We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
+    "path": "wiki/transcripts/youtube-dRmWYHuIJxM-transcript.md",
+    "videoId": "dRmWYHuIJxM",
+    "wordCount": 1320,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-4sX_He5c4sI-transcript",
+    "title": "Transcript: WF2026: Autoresearch & Keynotes",
+    "path": "wiki/transcripts/youtube-4sX_He5c4sI-transcript.md",
+    "videoId": "4sX_He5c4sI",
+    "wordCount": 82600,
+    "sourceLabel": "YouTube livestream transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-htM02KMNZnk-transcript",
+    "title": "Transcript: WF2026: Software Factories & Keynotes",
+    "path": "wiki/transcripts/youtube-htM02KMNZnk-transcript.md",
+    "videoId": "htM02KMNZnk",
+    "wordCount": 89050,
+    "sourceLabel": "YouTube livestream transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-I2cbIws9j10-transcript",
+    "title": "Transcript: WF26: Harness Engineering & Startup Battlefield",
+    "path": "wiki/transcripts/youtube-I2cbIws9j10-transcript.md",
+    "videoId": "I2cbIws9j10",
+    "wordCount": 91792,
+    "sourceLabel": "YouTube livestream transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-xUnRQ9vLXxo-transcript",
+    "title": "Transcript: What do we build now? — @t3dotgg",
+    "path": "wiki/transcripts/youtube-xUnRQ9vLXxo-transcript.md",
+    "videoId": "xUnRQ9vLXxo",
+    "wordCount": 9663,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-2e9ANoOEn28-transcript",
+    "title": "Transcript: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
+    "path": "wiki/transcripts/youtube-2e9ANoOEn28-transcript.md",
+    "videoId": "2e9ANoOEn28",
+    "wordCount": 12846,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-HvZXAOZ3iv8-transcript",
+    "title": "Transcript: What Lies Beneath the API — Benjamin Cowen, Modal",
+    "path": "wiki/transcripts/youtube-HvZXAOZ3iv8-transcript.md",
+    "videoId": "HvZXAOZ3iv8",
+    "wordCount": 1823,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-XovaGv4f39A-transcript",
+    "title": "Transcript: When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+    "path": "wiki/transcripts/youtube-XovaGv4f39A-transcript.md",
+    "videoId": "XovaGv4f39A",
+    "wordCount": 863,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-SKDJo2CopRs-transcript",
+    "title": "Transcript: Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
+    "path": "wiki/transcripts/youtube-SKDJo2CopRs-transcript.md",
+    "videoId": "SKDJo2CopRs",
+    "wordCount": 4757,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-c-2eEv2ou7Y-transcript",
+    "title": "Transcript: Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+    "path": "wiki/transcripts/youtube-c-2eEv2ou7Y-transcript.md",
+    "videoId": "c-2eEv2ou7Y",
+    "wordCount": 3346,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-EcqMYoIV57A-transcript",
+    "title": "Transcript: Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+    "path": "wiki/transcripts/youtube-EcqMYoIV57A-transcript.md",
+    "videoId": "EcqMYoIV57A",
+    "wordCount": 4289,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   },
   {
     "id": "youtube-qakTj_xI0gk-transcript",
@@ -909,6 +1025,118 @@
     "path": "wiki/transcripts/youtube-qakTj_xI0gk-transcript.md",
     "videoId": "qakTj_xI0gk",
     "wordCount": 2375,
-    "sourceLabel": "External YouTube secondary-source transcript"
+    "sourceLabel": "External YouTube secondary-source transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-B9h9ovW5H9U-transcript",
+    "title": "Transcript: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+    "path": "wiki/transcripts/youtube-B9h9ovW5H9U-transcript.md",
+    "videoId": "B9h9ovW5H9U",
+    "wordCount": 2859,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-8G_1-3IO4ZQ-transcript",
+    "title": "Transcript: WTF Is the Context Layer?",
+    "path": "wiki/transcripts/youtube-8G_1-3IO4ZQ-transcript.md",
+    "videoId": "8G_1-3IO4ZQ",
+    "wordCount": 3420,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-6bmM45jkMDY-transcript",
+    "title": "Transcript: You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+    "path": "wiki/transcripts/youtube-6bmM45jkMDY-transcript.md",
+    "videoId": "6bmM45jkMDY",
+    "wordCount": 2339,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-gHs5ZiY80PM-transcript",
+    "title": "Transcript: You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+    "path": "wiki/transcripts/youtube-gHs5ZiY80PM-transcript.md",
+    "videoId": "gHs5ZiY80PM",
+    "wordCount": 3117,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-iRcX54EO5g8-transcript",
+    "title": "Transcript: Your agent is blindfolded — Johan Lajili, Poolside AI",
+    "path": "wiki/transcripts/youtube-iRcX54EO5g8-transcript.md",
+    "videoId": "iRcX54EO5g8",
+    "wordCount": 4701,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-uiP88SpCi1Q-transcript",
+    "title": "Transcript: Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
+    "path": "wiki/transcripts/youtube-uiP88SpCi1Q-transcript.md",
+    "videoId": "uiP88SpCi1Q",
+    "wordCount": 1000,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-btxGmN8RvNU-transcript",
+    "title": "Transcript: Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+    "path": "wiki/transcripts/youtube-btxGmN8RvNU-transcript.md",
+    "videoId": "btxGmN8RvNU",
+    "wordCount": 2716,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-d_Ftrl3vfV0-transcript",
+    "title": "Transcript: Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
+    "path": "wiki/transcripts/youtube-d_Ftrl3vfV0-transcript.md",
+    "videoId": "d_Ftrl3vfV0",
+    "wordCount": 984,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-MpZzWMdmQCE-transcript",
+    "title": "Transcript: Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
+    "path": "wiki/transcripts/youtube-MpZzWMdmQCE-transcript.md",
+    "videoId": "MpZzWMdmQCE",
+    "wordCount": 5590,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-IQkVMvXQKLY-transcript",
+    "title": "Transcript: Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
+    "path": "wiki/transcripts/youtube-IQkVMvXQKLY-transcript.md",
+    "videoId": "IQkVMvXQKLY",
+    "wordCount": 6377,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-ObTPqBGsEbA-transcript",
+    "title": "Transcript: £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
+    "path": "wiki/transcripts/youtube-ObTPqBGsEbA-transcript.md",
+    "videoId": "ObTPqBGsEbA",
+    "wordCount": 6544,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
   }
 ]

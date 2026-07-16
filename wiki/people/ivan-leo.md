@@ -25,6 +25,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need|An Interaction Is All You Need]]
 
 ### Media Signals
-- `youtube-xz0-brt56L8` — 4 slide-derived text signals
+- `youtube-xz0-brt56L8` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
-- Evidence links for `youtube-xz0-brt56L8`: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
+- Evidence links for `youtube-xz0-brt56L8` (supporting context only): [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

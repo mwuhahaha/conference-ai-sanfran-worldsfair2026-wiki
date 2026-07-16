@@ -104,6 +104,33 @@ class EvolutionContextTest(unittest.TestCase):
             self.assertEqual("whole_page", NORMALIZER.WRITER_CONTRACT["scope"])
             self.assertFalse(NORMALIZER.WRITER_CONTRACT["incremental_safe"])
 
+    def test_normalizer_deduplicates_slide_alias_content_across_repeated_runs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            page = root / "wiki" / "talks" / "example.md"
+            page.parent.mkdir(parents=True)
+            page.write_text(
+                "# Example\n\n"
+                "## Media Evidence\n"
+                "- Source video: `youtube-AAAAAAAAAAA`\n"
+                "![[assets/slides/AAAAAAAAAAA/slide-001.jpg]]\n\n"
+                "## Slides\n"
+                "- Source video: `youtube-AAAAAAAAAAA`\n"
+                "![[assets/slides/AAAAAAAAAAA/slide-001.jpg]]\n",
+                encoding="utf-8",
+            )
+
+            self.assertTrue(NORMALIZER.normalize_page(page, "talks"))
+            normalized = page.read_text(encoding="utf-8")
+            self.assertEqual(1, normalized.count("## Media Evidence"))
+            self.assertNotIn("## Slides", normalized)
+            self.assertEqual(1, normalized.count("- Source video: `youtube-AAAAAAAAAAA`"))
+            self.assertEqual(
+                1,
+                normalized.count("![[assets/slides/AAAAAAAAAAA/slide-001.jpg]]"),
+            )
+            self.assertFalse(NORMALIZER.normalize_page(page, "talks"))
+
     def test_normalizer_rejects_help_and_unknown_arguments_before_generation(self):
         for argv in (["--help"], ["--unknown"], ["--chec"]):
             with self.subTest(argv=argv), patch.object(NORMALIZER, "normalize_page") as generator:

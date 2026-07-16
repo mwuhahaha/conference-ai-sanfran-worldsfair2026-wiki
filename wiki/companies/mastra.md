@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Media Signals
-- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
+- `youtube-8SUJEqQNClw` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
-- Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
+- Evidence links for `youtube-8SUJEqQNClw` (supporting context only): [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

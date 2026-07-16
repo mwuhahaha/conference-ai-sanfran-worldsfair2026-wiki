@@ -42,9 +42,9 @@ Agent behavior changes in production. Learn common failure modes and how to debu
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals
+- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
-- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -62,19 +62,24 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
 
 ### Media Signals
-- `youtube-jryZvCuA0Uc` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
-- Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
-- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
-- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
-- `youtube-yJHw33cVeHo` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-yJHw33cVeHo`: hello.
-- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
-- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-OqM67QG_Ikk` — source page linked; role: primary event evidence.
+- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]]
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
-- Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+- Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+- `youtube-jryZvCuA0Uc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-jryZvCuA0Uc` (supporting context only): [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
+- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: manual_url_unfetched.

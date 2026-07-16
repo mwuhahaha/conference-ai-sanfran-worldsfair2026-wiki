@@ -39,9 +39,8 @@ Most internal tooling dies in the gap between the people with problems and the p
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
-- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- `youtube-iUWwcG-C8OU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-iUWwcG-C8OU` (supporting context only): [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

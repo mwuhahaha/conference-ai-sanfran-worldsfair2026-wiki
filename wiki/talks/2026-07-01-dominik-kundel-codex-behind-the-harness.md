@@ -42,9 +42,9 @@ Agents have evolved a lot in the last year both in capabilities and in the overa
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-iXhba366fQc` — 9 slide-derived text signals
+- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
-- Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+- Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

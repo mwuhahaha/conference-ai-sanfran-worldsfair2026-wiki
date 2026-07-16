@@ -36,9 +36,11 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549|Model Routing]]
 
 ### Media Signals
-- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
+- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
-- Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
-- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
+- Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

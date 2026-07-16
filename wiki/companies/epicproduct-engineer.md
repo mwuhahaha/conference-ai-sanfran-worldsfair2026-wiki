@@ -34,9 +34,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2|Build the Right Thing: Product Engineering for Software Developers — Part 2]]
 
 ### Media Signals
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals
+- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
-- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

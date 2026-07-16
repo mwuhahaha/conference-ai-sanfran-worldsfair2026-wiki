@@ -42,12 +42,11 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
 
 ### Media Signals
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
-- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
-- `youtube-BiG2ssibKGc` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
-- Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
+- Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- `youtube-BiG2ssibKGc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-BiG2ssibKGc` (supporting context only): [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

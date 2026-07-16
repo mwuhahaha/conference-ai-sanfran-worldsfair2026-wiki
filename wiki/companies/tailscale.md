@@ -32,9 +32,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in|An AI Future Without the Lock-In]]
 
 ### Media Signals
-- `youtube-BM2JX9hqsVQ` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
-- Evidence links for `youtube-BM2JX9hqsVQ`: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+- `youtube-BM2JX9hqsVQ` — source page linked; role: supporting context only.
+- Evidence links for `youtube-BM2JX9hqsVQ` (supporting context only): [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

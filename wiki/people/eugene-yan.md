@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]]
 
 ### Media Signals
-- `youtube-2vlCqD6igVA` — 10 slide-derived text signals
+- `youtube-2vlCqD6igVA` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- Evidence links for `youtube-2vlCqD6igVA` (supporting context only): [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]

@@ -32,8 +32,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-philip-kiely-what-s-new-in-inference-engineering|What's New in Inference Engineering]]
 
 ### Media Signals
-- `youtube-gmTHs5T_YAE` — source page linked
-- Evidence links for `youtube-gmTHs5T_YAE`: [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
+- `youtube-gmTHs5T_YAE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-gmTHs5T_YAE` (supporting context only): [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

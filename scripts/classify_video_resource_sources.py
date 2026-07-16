@@ -137,16 +137,6 @@ def video_id_from_page(path: Path, text: str) -> str:
     return name.removeprefix("youtube-")
 
 
-def page_link_suffix(video_id: str) -> str:
-    if (RAW / "youtube-livestream-transcripts" / f"{video_id}.txt").exists():
-        return "livestream"
-    if (RAW / "youtube-transcripts" / f"{video_id}.txt").exists():
-        return "cut video"
-    if (RAW / "external-youtube-transcripts" / f"{video_id}.txt").exists():
-        return "external video"
-    return "video"
-
-
 def classification(video_id: str, official_streams: set[str], official_cuts: set[str], official_premieres: set[str], external: set[str]) -> tuple[str, list[str]]:
     if video_id in official_streams:
         return (
@@ -171,7 +161,7 @@ def classification(video_id: str, official_streams: set[str], official_cuts: set
             "primary event cut video",
             [
                 "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
-                "- Channel/source: official AI Engineer YouTube channel cut video.",
+                "- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.",
                 "- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.",
             ],
         )
@@ -210,7 +200,7 @@ def upsert_section(text: str, heading: str, body_lines: list[str]) -> str:
     return frontmatter + body
 
 
-def rewrite_what_it_is(text: str, role: str, video_kind: str) -> str:
+def rewrite_what_it_is(text: str, role: str) -> str:
     frontmatter, body = split_frontmatter(text)
     if role == "primary event scheduled premiere":
         replacement = (
@@ -218,11 +208,17 @@ def rewrite_what_it_is(text: str, role: str, video_kind: str) -> str:
             "A verified official AI Engineer YouTube premiere for AI Engineer World's Fair San Francisco 2026. "
             "The recording, transcript, and slide evidence remain pending until the premiere is playable; the official schedule remains canonical for schedule facts.\n"
         )
-    elif role.startswith("primary event"):
+    elif role == "primary event livestream":
         replacement = (
-            f"## What It Is\n"
-            f"An official AI Engineer YouTube {video_kind} for AI Engineer World's Fair San Francisco 2026. "
-            "This is an event video source for the wiki, while the official schedule remains the canonical schedule source.\n"
+            "## What It Is\n"
+            "An official AI Engineer YouTube livestream explicitly identified as AI Engineer World's Fair San Francisco 2026 event media. "
+            "This is a primary event video source for what the recording, transcript, and captured slides show; the official schedule remains canonical for schedule metadata.\n"
+        )
+    elif role == "primary event cut video":
+        replacement = (
+            "## What It Is\n"
+            "An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. "
+            "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.\n"
         )
     elif role == "supporting external video":
         replacement = (
@@ -264,7 +260,7 @@ def main() -> int:
             continue
         role, body = classification(video_id, official_streams, official_cuts, official_premieres, external)
         counts[role] = counts.get(role, 0) + 1
-        text = rewrite_what_it_is(text, role, page_link_suffix(video_id))
+        text = rewrite_what_it_is(text, role)
         text = upsert_section(text, "Source Classification", body)
         path.write_text(text.rstrip() + "\n", encoding="utf-8")
     print(json.dumps({"updated": sum(counts.values()), "counts": counts}, sort_keys=True))

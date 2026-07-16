@@ -31,7 +31,10 @@ This evidence graph summarizes how this organization appears across the conferen
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 
 ## Evidence Boundary
 Official Ministry of Justice and Justice AI Unit pages establish the public-sector context. The AI Engineer video and cached transcript provide the conference-source synthesis about AI product shipping in prisons, probation, and related justice workflows.

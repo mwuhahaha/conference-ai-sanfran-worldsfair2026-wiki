@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
 
 ### Media Signals
-- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals
+- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
-- Evidence links for `youtube-ZuiJjkbX0Og`: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
+- Evidence links for `youtube-ZuiJjkbX0Og` (supporting context only): [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]

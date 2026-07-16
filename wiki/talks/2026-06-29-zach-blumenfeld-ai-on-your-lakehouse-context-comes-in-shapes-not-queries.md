@@ -42,10 +42,9 @@ Your agent can reach your data but still can't use it reliably: vector search an
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 1 slide-derived text signals
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; role: supporting context only.
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
-- Evidence links for `youtube-B9h9ovW5H9U`: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
+- Evidence links for `youtube-B9h9ovW5H9U` (supporting context only): [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

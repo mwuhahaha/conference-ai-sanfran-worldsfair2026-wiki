@@ -27,6 +27,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine|How to generate mergeable code with a context engine]]
 
 ### Media Signals
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
-- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]

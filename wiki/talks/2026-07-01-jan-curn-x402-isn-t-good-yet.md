@@ -42,9 +42,9 @@ While everyone understands that agents will get more done with a budget, no one 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
+- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
-- Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- Evidence links for `youtube-blW-lSd5CYQ` (supporting context only): [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

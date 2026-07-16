@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Kb41Dtlx1Uc"
+title: "Transcript: State of the Union: Why Local, Why Now"
 category: "transcripts"
 videoId: "KB41dTlX1Uc"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "9219"
 ---
 
-# Transcript: Kb41Dtlx1Uc
+# Transcript: State of the Union: Why Local, Why Now
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=KB41dTlX1Uc)

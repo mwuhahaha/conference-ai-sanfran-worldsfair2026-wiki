@@ -34,9 +34,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
 
 ### Media Signals
-- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
+- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
-- Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- Evidence links for `youtube-blW-lSd5CYQ` (supporting context only): [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

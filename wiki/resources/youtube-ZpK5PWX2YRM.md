@@ -14,8 +14,8 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
@@ -28,7 +28,10 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2
 [YouTube](https://www.youtube.com/watch?v=ZpK5PWX2YRM)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code? (match score 98)
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?
 
 ## Extracted Slides
 - Slide extraction status: skipped_by_configuration.
+
+## Transcript Markdown
+- [[youtube-ZpK5PWX2YRM-transcript]] — full cached transcript markdown.

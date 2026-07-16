@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/uiP88SpC
 
 ## Extracted Slides
 - [[youtube-uiP88SpCi1Q-slides]]
+
+## Transcript Markdown
+- [[youtube-uiP88SpCi1Q-transcript]] — full cached transcript markdown.

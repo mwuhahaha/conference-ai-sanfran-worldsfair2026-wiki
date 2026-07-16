@@ -34,6 +34,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys|Open Q&A: LLM Recsys]]
 
 ### Media Signals
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals
+- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
-- Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
+- Evidence links for `youtube-LxQsQ3vZDqo` (supporting context only): [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]

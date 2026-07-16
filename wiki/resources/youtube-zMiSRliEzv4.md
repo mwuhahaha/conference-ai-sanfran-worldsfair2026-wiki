@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/zMiSRliE
 
 ## Extracted Slides
 - [[youtube-zMiSRliEzv4-slides]]
+
+## Transcript Markdown
+- [[youtube-zMiSRliEzv4-transcript]] — full cached transcript markdown.

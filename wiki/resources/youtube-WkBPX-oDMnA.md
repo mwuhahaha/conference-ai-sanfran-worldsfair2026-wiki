@@ -14,8 +14,8 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/WkBPX-oDMnA.txt` (3,765 words).
@@ -28,7 +28,10 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/WkBPX-oD
 [YouTube](https://www.youtube.com/watch?v=WkBPX-oDMnA)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck (match score 92)
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck
 
 ## Extracted Slides
 - [[youtube-WkBPX-oDMnA-slides]]
+
+## Transcript Markdown
+- [[youtube-WkBPX-oDMnA-transcript]] — full cached transcript markdown.

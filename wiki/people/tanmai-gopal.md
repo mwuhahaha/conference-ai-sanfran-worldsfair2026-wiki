@@ -25,6 +25,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
 
 ### Media Signals
-- `youtube-himhGiWJXjo` — 6 slide-derived text signals
+- `youtube-himhGiWJXjo` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
-- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- Evidence links for `youtube-himhGiWJXjo` (supporting context only): [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]

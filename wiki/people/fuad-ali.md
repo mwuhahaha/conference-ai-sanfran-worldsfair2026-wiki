@@ -27,6 +27,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Media Signals
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
-- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Evidence links for `youtube-SbcQYbrvAfI` (supporting context only): [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]

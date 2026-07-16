@@ -47,23 +47,22 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
 ### Media Signals
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 1 slide-derived text signals
-- Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
-- Evidence links for `youtube-B9h9ovW5H9U`: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-knDDGYHnnSI` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
-- Evidence links for `youtube-knDDGYHnnSI`: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
-- `youtube-eW_vxrjvERk` — 3 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-eW_vxrjvERk` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
-- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
-- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals
+- Evidence links for `youtube-eW_vxrjvERk` (supporting context only): [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; role: supporting context only.
+- Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
+- Evidence links for `youtube-B9h9ovW5H9U` (supporting context only): [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
+- `youtube-knDDGYHnnSI` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
+- Evidence links for `youtube-knDDGYHnnSI` (supporting context only): [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
+- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
-- Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+- Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

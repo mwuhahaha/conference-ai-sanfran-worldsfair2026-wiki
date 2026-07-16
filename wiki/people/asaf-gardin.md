@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story|Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story]]
 
 ### Media Signals
-- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals
+- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
-- Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
+- Evidence links for `youtube-Ywl4LsvHKzU` (supporting context only): [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
 
 ### Media Signals
-- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
-- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- Evidence links for `youtube-rgjF5o2Qjsc` (supporting context only): [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

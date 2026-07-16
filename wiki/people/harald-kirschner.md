@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people|Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People]]
 
 ### Media Signals
-- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
-- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+- Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]

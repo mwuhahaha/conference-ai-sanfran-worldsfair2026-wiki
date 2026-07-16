@@ -38,9 +38,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack|Knowledge Systems: The New GTM Stack]]
 
 ### Media Signals
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals
+- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
-- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

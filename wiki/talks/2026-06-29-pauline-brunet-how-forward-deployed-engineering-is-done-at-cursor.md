@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-APqXGyCoGW4-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-APqXGyCoGW4`
+- Slide deck: [[youtube-APqXGyCoGW4-slides|Slides: Forward Deployed Engineering at Cursor — Pauline Brunet]] — 7 visible slide image(s).
+![[assets/slides/APqXGyCoGW4/slide-001.jpg]]
+![[assets/slides/APqXGyCoGW4/slide-002.jpg]]
+![[assets/slides/APqXGyCoGW4/slide-003.jpg]]
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -46,9 +56,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[pauline-brunet]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -65,6 +72,7 @@ Hello everyone. Can you hear me okay? Fantastic. Are we having a great conferenc
 ### Derived Links And Source Material
 - [[youtube-APqXGyCoGW4-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
 - [[youtube-APqXGyCoGW4]] — related YouTube source page.
+- [[youtube-APqXGyCoGW4-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.

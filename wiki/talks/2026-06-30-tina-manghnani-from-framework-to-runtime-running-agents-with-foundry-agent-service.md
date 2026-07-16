@@ -42,9 +42,8 @@ See how agents move from frameworks into production systems. Learn how Foundry A
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
-- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

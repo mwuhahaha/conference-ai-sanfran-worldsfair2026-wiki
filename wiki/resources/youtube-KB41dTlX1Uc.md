@@ -10,11 +10,11 @@ last_enriched: "2026-07-15T23:40:57.541784+00:00"
 # State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
+An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel cut video.
+- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
 - Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/KB41dTlX
 
 ## Extracted Slides
 - [[youtube-KB41dTlX1Uc-slides]]
+
+## Transcript Markdown
+- [[youtube-KB41dTlX1Uc-transcript]] — full cached transcript markdown.

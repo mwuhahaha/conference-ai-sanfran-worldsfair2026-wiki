@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Htm02Kmnznk"
+title: "Transcript: WF2026: Software Factories & Keynotes"
 category: "transcripts"
 videoId: "htM02KMNZnk"
 sourceLabels: ["YouTube livestream transcript", "Cached transcript markdown"]
 wordCount: "89050"
 ---
 
-# Transcript: Htm02Kmnznk
+# Transcript: WF2026: Software Factories & Keynotes
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=htM02KMNZnk)

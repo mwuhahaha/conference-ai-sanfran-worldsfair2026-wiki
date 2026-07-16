@@ -40,9 +40,8 @@ Every organization navigating AI adoption faces the same trap: the market moves 
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-BM2JX9hqsVQ` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
-- Evidence links for `youtube-BM2JX9hqsVQ`: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+- `youtube-BM2JX9hqsVQ` — source page linked; role: supporting context only.
+- Evidence links for `youtube-BM2JX9hqsVQ` (supporting context only): [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

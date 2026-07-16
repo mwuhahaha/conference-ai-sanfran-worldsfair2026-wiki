@@ -1,12 +1,12 @@
 ---
-title: "Transcript: 8G 1 3Io4Zq"
+title: "Transcript: WTF Is the Context Layer?"
 category: "transcripts"
 videoId: "8G_1-3IO4ZQ"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3420"
 ---
 
-# Transcript: 8G 1 3Io4Zq
+# Transcript: WTF Is the Context Layer?
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=8G_1-3IO4ZQ)

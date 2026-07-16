@@ -42,9 +42,9 @@ Building an AI demo is easy. Knowing whether it actually works — and keeping i
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
-- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Evidence links for `youtube-SbcQYbrvAfI` (supporting context only): [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

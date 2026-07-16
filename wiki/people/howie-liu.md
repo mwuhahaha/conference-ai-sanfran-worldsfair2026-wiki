@@ -30,13 +30,13 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
-- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ## Livestream Appearances
 - [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent|$100,000 AIE Startup Battlefield — presented by Hyperagent]] — [watch at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

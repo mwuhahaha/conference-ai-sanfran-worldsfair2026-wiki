@@ -39,8 +39,8 @@ We celebrate the third birthday of the AI Engineer post.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked
-- Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

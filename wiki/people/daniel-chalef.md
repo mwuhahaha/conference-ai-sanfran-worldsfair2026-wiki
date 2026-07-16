@@ -28,6 +28,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
 
 ### Media Signals
-- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals
+- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
-- Evidence links for `youtube-T5IMo5ntyhA`: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
+- Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]

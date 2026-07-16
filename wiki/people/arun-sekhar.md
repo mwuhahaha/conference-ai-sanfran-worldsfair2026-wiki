@@ -30,6 +30,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud|Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud]]
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals
+- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
-- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

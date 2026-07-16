@@ -30,7 +30,10 @@ This evidence graph summarizes how this person appears across the conference sou
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 
 ## Evidence Boundary
 This page combines public YouTube metadata, transcript/slide evidence, No10 Fellowship pages, the [[justice-ai-unit|Justice AI Unit]] site, and Tergle/YC public pages. The exact AI Engineer schedule slot for this cut video has not been matched to an official scheduled session page in this wiki.

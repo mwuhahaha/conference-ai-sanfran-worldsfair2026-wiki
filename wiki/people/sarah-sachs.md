@@ -32,6 +32,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]]
 
 ### Media Signals
-- `youtube-6YdPI9YbjbI` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-6YdPI9YbjbI`: create, project.
-- Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
+- `youtube-6YdPI9YbjbI` — source page linked; role: supporting context only.
+- Evidence links for `youtube-6YdPI9YbjbI` (supporting context only): [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

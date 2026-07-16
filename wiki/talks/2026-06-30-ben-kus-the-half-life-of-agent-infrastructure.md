@@ -41,9 +41,8 @@ TBD — talk on search and retrieval, agentic AI, and enterprise AI over unstruc
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-12v5S1n1eOY` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-12v5S1n1eOY`: fortune, fully, integrated, generative, starting.
-- Evidence links for `youtube-12v5S1n1eOY`: [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
+- `youtube-12v5S1n1eOY` — source page linked; role: supporting context only.
+- Evidence links for `youtube-12v5S1n1eOY` (supporting context only): [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

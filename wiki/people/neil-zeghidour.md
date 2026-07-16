@@ -36,6 +36,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 
 ### Media Signals
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
+- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
-- Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]

@@ -49,12 +49,12 @@ No official description published in the schedule data.
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-5N33E9tC400` — source page linked
-- Evidence links for `youtube-5N33E9tC400`: [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -76,11 +76,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5N33E9tC400-reconstructed-slides]]
 - [[youtube-5N33E9tC400-slides]]
 - Slide-derived terms: `think`, `ai.engineer`, `https`, `year`, `they`, `david`, `better`, `evolution`, `latentspace`, `engineering`, `agentengineering`, `i/ai.engineer`, `people`, `look`, `million`, `maybe`, `good`, `swyx`
-
-## Livestream Segment
-- [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Match basis: speaker and title; timed captions matched Mike Krieger, anthropic, labs.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
@@ -116,3 +111,8 @@ Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Livestream Segment
+- [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

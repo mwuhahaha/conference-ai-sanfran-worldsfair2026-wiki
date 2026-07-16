@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/kZsf_Sfm
 
 ## Extracted Slides
 - [[youtube-kZsf_Sfm7RU-slides]]
+
+## Transcript Markdown
+- [[youtube-kZsf_Sfm7RU-transcript]] — full cached transcript markdown.

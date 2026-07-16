@@ -34,6 +34,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
 
 ### Media Signals
-- `youtube-u3NofYYstaY` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
-- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- `youtube-u3NofYYstaY` — source page linked; role: supporting context only.
+- Evidence links for `youtube-u3NofYYstaY` (supporting context only): [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]

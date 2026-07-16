@@ -41,9 +41,9 @@ Agents have a measurement problem, which makes them impossible to efficiently ma
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
+- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.
-- Evidence links for `youtube-BZtD0yYAgCQ`: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
+- Evidence links for `youtube-BZtD0yYAgCQ` (supporting context only): [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

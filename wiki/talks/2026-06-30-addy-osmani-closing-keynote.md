@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube-n97BCfyFIvw-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube-n97BCfyFIvw`
+- Slide deck: [[youtube-n97BCfyFIvw-slides|Slides: \"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani]] — 32 visible slide image(s).
+![[assets/slides/n97BCfyFIvw/slide-001.jpg]]
+![[assets/slides/n97BCfyFIvw/slide-002.jpg]]
+![[assets/slides/n97BCfyFIvw/slide-003.jpg]]
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -46,9 +56,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[addy-osmani]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown

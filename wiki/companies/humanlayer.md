@@ -35,9 +35,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
 
 ### Media Signals
-- `youtube-rmvDxxNubIg` — 5 slide-derived text signals
+- `youtube-rmvDxxNubIg` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
-- Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
+- Evidence links for `youtube-rmvDxxNubIg` (supporting context only): [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

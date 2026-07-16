@@ -32,11 +32,21 @@ No related AI Engineer channel video found yet.
 
 - [[youtube--CnA2lGfymY-transcript]] — full cached transcript markdown for the related YouTube source.
 
+- Source video: `youtube--CnA2lGfymY`
+- Slide deck: [[youtube--CnA2lGfymY-slides|Slides: \"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox]] — 32 visible slide image(s).
+![[assets/slides/-CnA2lGfymY/slide-001.jpg]]
+![[assets/slides/-CnA2lGfymY/slide-002.jpg]]
+![[assets/slides/-CnA2lGfymY/slide-003.jpg]]
+- Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube--CnA2lGfymY` — 3,148 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube--CnA2lGfymY`: answer, lean, safe, model, type, look, llms, question.
+- Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
+- Evidence links for `youtube--CnA2lGfymY` (primary event evidence): [[youtube--CnA2lGfymY]], [[youtube--CnA2lGfymY-transcript]], [[youtube--CnA2lGfymY-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
@@ -46,9 +56,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 - [[erik-meijer]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -66,6 +73,7 @@ Please welcome to the stage the research scholar at Linet's Labs, Eric Meyer. We
 ### Derived Links And Source Material
 - [[youtube--CnA2lGfymY-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/-CnA2lGfymY.txt` (3,148 words).
 - [[youtube--CnA2lGfymY]] — related YouTube source page.
+- [[youtube--CnA2lGfymY-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.

@@ -32,6 +32,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
-- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]

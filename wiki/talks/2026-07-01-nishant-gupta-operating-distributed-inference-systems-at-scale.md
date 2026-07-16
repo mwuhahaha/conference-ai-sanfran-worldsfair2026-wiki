@@ -42,9 +42,9 @@ Inference has rapidly become one of the most important infrastructure problems i
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
+- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
-- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

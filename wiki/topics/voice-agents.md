@@ -21,36 +21,6 @@ Voice agents are useful in customer support, healthcare intake, sales calls, mee
 
 Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
 
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
 ## Connections
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
@@ -121,43 +91,9 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[assemblyai|AssemblyAI]]
 - [[twilio|Twilio]]
 
-
-
-
-
-
-
-
-
-
-
-
-
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-mFLlVpnGpds]] — Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI
-- [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
-- [[youtube-ij-AU9dpJjc]] — Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
-- [[youtube-65X0pQ6Lmbg]] — Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs
-- [[youtube-hVJOnuhFmTA]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI
-- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
-- [[youtube-kZsf_Sfm7RU]] — The Missing Layer After Launch - Raphael Kalandadze, Wandero AI
-- [[youtube-G6IlDzj8OjA]] — GTM Is You - Victoria Melnikova, Evil Martians
-
-### Quote signals
-- “We can just switch to having voice in visuals out and then we benefit from the more forgiving visual response envelope that people have.” — [[youtube-65X0pQ6Lmbg]]
-- “And today I'm going to be sharing some of what we've learned building voice in visuals out experiences using AI.” — [[youtube-65X0pQ6Lmbg]]
-- “But there's some real breakthroughs over the last few months where both of this visuals in and audio or the audio in and visuals out experience is now um really feasible.” — [[youtube-65X0pQ6Lmbg]]
-- “So for that you need to know who's who who spoke when.” — [[youtube-mFLlVpnGpds]]
-- “And the question is now we need to assign a speaker to each word.” — [[youtube-mFLlVpnGpds]]
-- “So in there you you'll be able to to with Pianoteq open source toolkit for diarization with piano metrics for evaluation.” — [[youtube-mFLlVpnGpds]]
-
-### Transcript-backed resources
-
-### Quote signals
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
@@ -173,19 +109,26 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Media Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
-- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
-- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-mFLlVpnGpds` — 4,117 transcript words; 4 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-mFLlVpnGpds`: speaker, diarization, speech, word, said, model, might, conversation.
+- Slide-derived themes for `youtube-mFLlVpnGpds`: wrong, hopefully, answer, live, demo, state, conversational, telephone.
+- Evidence links for `youtube-mFLlVpnGpds` (supporting context only): [[youtube-mFLlVpnGpds]], [[youtube-mFLlVpnGpds-transcript]], [[youtube-mFLlVpnGpds-slides]]
+- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
-- Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-- `youtube-u3NofYYstaY` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
-- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
-- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
@@ -193,10 +136,10 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 44 | Related pages outside the main evidence categories. |
-| resources | 12 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 10 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
 | talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 4 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
@@ -207,111 +150,26 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
 
 ### Resources
+- [[youtube-pMggiOb18tc]]
+- [[youtube-YZQsWVeN3rE]]
+- [[youtube-I2cbIws9j10]]
 - [[youtube-mFLlVpnGpds]]
-- [[youtube-u-rJwPPU3QA]]
-- [[youtube-ij-AU9dpJjc]]
-- [[youtube-65X0pQ6Lmbg]]
-- [[youtube-hVJOnuhFmTA]]
-- [[youtube-HsxQICTLF84]]
+- [[youtube-P_RI1kCkRbo]]
+- [[youtube-Bc6Ojl2XS1w]]
 
 ### Slides
 - [[youtube-I2cbIws9j10-slides]]
-- [[youtube-dvft0Gp9sEE-slides]]
-- [[youtube-dvft0Gp9sEE-dense-slides]]
-- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- [[youtube-YZQsWVeN3rE-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-mFLlVpnGpds-slides]]
 - [[youtube-P_RI1kCkRbo-slides]]
 - [[youtube-P_RI1kCkRbo-dense-slides]]
 
 ### Transcripts
-- [[youtube-dvft0Gp9sEE-transcript]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-YZQsWVeN3rE-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-mFLlVpnGpds-transcript]]
 
 ## Active Use Cases
 - Realtime support and appointment workflows.

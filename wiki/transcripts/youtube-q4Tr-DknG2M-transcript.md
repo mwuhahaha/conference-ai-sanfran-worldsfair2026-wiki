@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Q4Tr Dkng2M"
+title: "Transcript: Recursive Model Improvement"
 category: "transcripts"
 videoId: "q4Tr-DknG2M"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "4039"
 ---
 
-# Transcript: Q4Tr Dkng2M
+# Transcript: Recursive Model Improvement
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=q4Tr-DknG2M)

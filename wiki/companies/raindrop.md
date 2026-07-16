@@ -32,9 +32,9 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier|Designing Agents (The Floor Is the Frontier)]]
 
 ### Media Signals
-- `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
+- `youtube-5nOLb27hQ5w` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
-- Evidence links for `youtube-5nOLb27hQ5w`: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
+- Evidence links for `youtube-5nOLb27hQ5w` (supporting context only): [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.

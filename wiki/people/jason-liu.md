@@ -36,6 +36,5 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3|Setting Yourself Up for Success — Part 3]]
 
 ### Media Signals
-- `youtube-jryZvCuA0Uc` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
-- Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+- `youtube-jryZvCuA0Uc` — source page linked; role: supporting context only.
+- Evidence links for `youtube-jryZvCuA0Uc` (supporting context only): [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]

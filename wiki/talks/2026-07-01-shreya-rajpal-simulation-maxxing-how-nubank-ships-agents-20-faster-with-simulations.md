@@ -42,9 +42,9 @@ You know how to build an agent - write a prompt, spec out some tools and call an
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals
+- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
-- Evidence links for `youtube-9-vGxMoUM9Y`: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
+- Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

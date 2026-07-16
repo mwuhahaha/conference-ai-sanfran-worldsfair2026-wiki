@@ -46,9 +46,9 @@ Even the world's best computer-use agents cannot repeat their successes at the m
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-F_RyElT_gJk` — 9 slide-derived text signals
+- `youtube-F_RyElT_gJk` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
-- Evidence links for `youtube-F_RyElT_gJk`: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
+- Evidence links for `youtube-F_RyElT_gJk` (supporting context only): [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

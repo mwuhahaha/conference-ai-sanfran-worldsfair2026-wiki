@@ -40,9 +40,9 @@ Every span is green, every tool call returned cleanly, and the agent still regen
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Media Signals
-- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
-- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

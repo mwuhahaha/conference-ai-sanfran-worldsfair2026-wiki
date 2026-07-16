@@ -21,36 +21,6 @@ It matters in chat products, coding agents, voice agents, search and RAG systems
 
 Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
 
-Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
-
-It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
-
-Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
-
-Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
-
-It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
-
-Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
-
-Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
-
-It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
-
-Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
-
-Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
-
-It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
-
-Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
-
-Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
-
-It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
-
-Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
-
 ## Connections
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production; [[bogdan-gaza|Bogdan Gaza]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 3 SW; official schedule)
@@ -121,15 +91,7 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[red-hat|Red Hat]]
 - [[mckinsey-and-company|McKinsey & Company]]
 
-
-
-
-
-
 - [[google|Google]]
-
-
-
 
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
 
@@ -146,49 +108,6 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference; [[sujee-maniyam|Sujee Maniyam]], [[dylan-bristot|Dylan Bristot]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Expo Stage 1 NE; official schedule)
 
 ## Evidence Graph
-### Transcript-backed resources
-- [[youtube-ZSQb5fzRFPw]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
-- [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
-- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
-- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
-- [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-
-### Transcript-backed resources
-- [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
-- [[youtube-vh2VGuQ3zhY]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
-- [[youtube-fWXJM-J0ZB8]] — Frontier results, on device - RL Nabors, Arize
-- [[youtube-TUnPNY4E2fw]] — Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI
-- [[youtube-_B4Pv9ttFgY]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
-- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
-- [[youtube-zDGHt0LB-dA]] — GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod
-- [[youtube-SS-A8sE7hkw]] — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind
-- [[youtube-KLSuFPj2ld0]] — Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe
-- [[youtube-65X0pQ6Lmbg]] — Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs
-- [[youtube-dRmWYHuIJxM]] — We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco
-- [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
-- [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
-- [[youtube-uiP88SpCi1Q]] — Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS
-- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
-- [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
-
-### Quote signals
-- “I'm talking today about text diffusion, which is kind of a more forward-looking research area at DeepMind.” — [[youtube-r305-aQTaU0]]
-- “Most small language models uh for mobile and web are deployed with quantization, that is to say, 8-bit, 4-bit, and that can have a quarter disk and memory requirements.” — [[youtube-fWXJM-J0ZB8]]
-- “Um you need to before you start doing anything, you need to know what it is that you're measuring.” — [[youtube-fWXJM-J0ZB8]]
-- “So it's not just one pass, it does multiple passes, but it gets to attend to the future tokens and so on.” — [[youtube-r305-aQTaU0]]
-- “All right, so So, when we're serving uh an auto regressive model, these these chips are memory bound.” — [[youtube-r305-aQTaU0]]
-
-### Transcript-backed resources
-- [[youtube-ILdE7FaAjVA]] — Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod
-
-### Quote signals
-
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
 ### Linked Sessions
@@ -204,27 +123,58 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
-- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 2 slide-derived text signals
-- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
-- Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
-- `youtube-tzRvcTEapzo` — 5 slide-derived text signals
+- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
+- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
+- `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
+- Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
+- Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
+- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
+- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
+- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-gmTHs5T_YAE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-gmTHs5T_YAE` (supporting context only): [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
+- `youtube-DeFF3J8T5Pk` — source page linked; role: supporting context only.
+- Evidence links for `youtube-DeFF3J8T5Pk` (supporting context only): [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+- `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
-- Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- `youtube-fWXJM-J0ZB8` — 4,922 transcript words; 8 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-fWXJM-J0ZB8`: model, models, claude, small, latency, prompt, little, look.
+- Slide-derived themes for `youtube-fWXJM-J0ZB8`: models, cost, inference, mitigating, response, delays, conversations, intelligent.
+- Evidence links for `youtube-fWXJM-J0ZB8` (supporting context only): [[youtube-fWXJM-J0ZB8]], [[youtube-fWXJM-J0ZB8-transcript]], [[youtube-fWXJM-J0ZB8-slides]]
+- `youtube-zDGHt0LB-dA` — 2,652 transcript words; 3 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-zDGHt0LB-dA`: okay, guys, flash, little, model, runpod, running, endpoint.
+- Slide-derived themes for `youtube-zDGHt0LB-dA`: platform, running, scaling, custom, systems, access, slow, opaque.
+- Evidence links for `youtube-zDGHt0LB-dA` (supporting context only): [[youtube-zDGHt0LB-dA]], [[youtube-zDGHt0LB-dA-transcript]], [[youtube-zDGHt0LB-dA-slides]]
 
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
-| other | 58 | Related pages outside the main evidence categories. |
-| resources | 21 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 11 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+| other | 63 | Related pages outside the main evidence categories. |
+| resources | 12 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 19 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
@@ -235,125 +185,28 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
 
 ### Resources
-- [[youtube-r305-aQTaU0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-fWXJM-J0ZB8]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-_B4Pv9ttFgY]]
-- [[youtube-Rx8f05JI_WA]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-0vphxNt4wyk]]
+- [[youtube-ZSQb5fzRFPw]]
+- [[youtube-ZpK5PWX2YRM]]
 
 ### Slides
 - [[youtube-2IxD9OB3XuQ-slides]]
 - [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-APh1Vx0oLmQ-slides]]
-- [[youtube-APh1Vx0oLmQ-dense-slides]]
-- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- [[youtube-wFTVEDYVJT0-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-0vphxNt4wyk-slides]]
 
 ### Transcripts
-- [[youtube-wFTVEDYVJT0-transcript]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 60 | Related pages outside the main evidence categories. |
-| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
-| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 62 | Related pages outside the main evidence categories. |
-| resources | 23 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-I2cbIws9j10]]
-- [[youtube-ZpK5PWX2YRM]]
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| other | 63 | Related pages outside the main evidence categories. |
-| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
-
-### Talks
-
-### Resources
-- [[youtube-0vphxNt4wyk]]
-
-### Slides
-
-### Transcripts
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| resources | 25 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 12 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-
-### Talks
-
-### Resources
-- [[youtube-ZSQb5fzRFPw]]
-
-### Slides
-
-### Transcripts
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-0vphxNt4wyk-transcript]]
+- [[youtube-ZSQb5fzRFPw-transcript]]
+- [[youtube-ZpK5PWX2YRM-transcript]]
 
 ## Active Use Cases
 - Reducing token and GPU cost for agent workflows.

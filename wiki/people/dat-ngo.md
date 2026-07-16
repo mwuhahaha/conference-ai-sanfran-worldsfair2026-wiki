@@ -26,6 +26,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]
 
 ### Media Signals
-- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
-- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
