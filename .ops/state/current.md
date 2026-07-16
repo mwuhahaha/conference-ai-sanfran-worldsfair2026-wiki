@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-15T11:05:04-04:00
+updated: 2026-07-16T03:47:25-04:00
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -89,6 +89,15 @@ Future native YouTube import receipts now include `slideScanMode` through:
 - `/garage/obsidian/plugins/agent-workbench/skills/youtube-url-import-orchestrator/scripts/run_youtube_import_orchestrator.py`
 
 The receipt payload records Tesseract primary OCR, RapidOCR fallback availability/usage, and explicit reconstructed-crop/dense-scene status.
+
+The project-local official YouTube monitor was hardened in commit `324e0e2c`:
+- RSS network and XML parse failures retry three times and now leave a durable degraded receipt if exhausted.
+- systemd retries failed runs after 10 minutes, bounded to three starts per hour.
+- unchanged RSS metadata no longer creates snapshot-only commits, and runs with no new event videos skip enrichment and static rebuilding.
+- `--dry-run` no longer mutates the tracked RSS snapshot.
+- the auto-push path refuses to run in a dirty worktree so it cannot commit unrelated operator changes.
+
+The updated user unit was installed and verified at `2026-07-16T07:47:25Z`. The controlled systemd run exited successfully with `state: active`, six recent confirmed WF2026 event entries, zero new entries, and a clean `main` checkout synchronized with `origin/main`. The timer remains enabled on its six-hour cadence.
 
 ## Next Step
 
