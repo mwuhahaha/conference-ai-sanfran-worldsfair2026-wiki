@@ -19,11 +19,13 @@ import re
 import shutil
 import subprocess
 import sys
+import time
+import traceback
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -100,9 +102,24 @@ def normalize_title(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def fetch_rss() -> list[VideoEntry]:
-    xml = urlopen(CHANNEL_RSS, timeout=30).read()
-    root = ET.fromstring(xml)
+def fetch_rss(attempts: int = 3) -> list[VideoEntry]:
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
+
+    errors: list[str] = []
+    for attempt in range(1, attempts + 1):
+        try:
+            request = Request(CHANNEL_RSS, headers={"User-Agent": "AIE-WF2026-Wiki-Monitor/1.0"})
+            xml = urlopen(request, timeout=30).read()
+            root = ET.fromstring(xml)
+            break
+        except Exception as exc:  # Network and feed errors are retried together.
+            errors.append(f"attempt {attempt}: {type(exc).__name__}: {exc}")
+            if attempt < attempts:
+                time.sleep(2 ** attempt)
+    else:
+        raise RuntimeError("official YouTube RSS fetch failed after retries: " + "; ".join(errors))
+
     ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
     entries: list[VideoEntry] = []
     for entry in root.findall("atom:entry", ns):
@@ -470,7 +487,7 @@ def try_extract_slides(video: VideoEntry, matched_talks: list[dict[str, str]], *
     return {"status": "slide_extraction_ran", "path": str(slides_path(video.video_id).relative_to(ROOT)) if slides_path(video.video_id).exists() else ""}
 
 
-def update_channel_snapshot(entries: list[VideoEntry]) -> None:
+def update_channel_snapshot(entries: list[VideoEntry]) -> bool:
     payload = {
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "channel_id": CHANNEL_ID,
@@ -489,7 +506,14 @@ def update_channel_snapshot(entries: list[VideoEntry]) -> None:
             for entry in entries
         ],
     }
+    existing = load_json(RSS_SNAPSHOT, {})
+    stable_keys = ("id", "title", "url", "published", "published_date", "channel", "source")
+    old_entries = [tuple(item.get(key) for key in stable_keys) for item in existing.get("entries", [])] if isinstance(existing, dict) else []
+    new_entries = [tuple(item.get(key) for key in stable_keys) for item in payload["entries"]]
+    if old_entries == new_entries:
+        return False
     write_json(RSS_SNAPSHOT, payload)
+    return True
 
 
 def run_enrichment(imported_transcripts: int) -> list[dict[str, object]]:
@@ -610,8 +634,31 @@ def main() -> int:
     args = parser.parse_args()
 
     checked_at = datetime.now(timezone.utc)
+    auto_push = args.auto_push or os.environ.get("AIE_WF2026_MONITOR_AUTO_PUSH") == "1"
+    if auto_push and not args.dry_run:
+        initial_status = subprocess.run(
+            ["git", "status", "--porcelain"],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            timeout=60,
+        )
+        if initial_status.returncode != 0 or initial_status.stdout.strip():
+            report = {
+                "checked_at": checked_at.isoformat(),
+                "channel_id": CHANNEL_ID,
+                "state": "blocked",
+                "message": "Monitor skipped because the publish worktree was not clean; no files were changed.",
+                "worktree_status": initial_status.stdout.splitlines(),
+                "git_status_returncode": initial_status.returncode,
+                "processed": [],
+                "dry_run": False,
+            }
+            write_status(report)
+            return 0
+
     entries = fetch_rss()
-    update_channel_snapshot(entries)
+    snapshot_changed = False if args.dry_run else update_channel_snapshot(entries)
     talks = read_talk_pages()
     event_rows = event_entries(entries, talks)
     today = checked_at.date()
@@ -674,10 +721,36 @@ def main() -> int:
 
     report["processed"] = processed
     if not args.dry_run:
-        enrichment = run_enrichment(transcript_imports)
+        enrichment = run_enrichment(transcript_imports) if new_rows else []
         report["enrichment"] = enrichment
-        auto_push = args.auto_push or os.environ.get("AIE_WF2026_MONITOR_AUTO_PUSH") == "1"
-        report["publish"] = maybe_commit_and_push(auto_push, "Import new official AI Engineer YouTube videos")
+        enrichment_failed = any(item.get("returncode") != 0 for item in enrichment)
+        if enrichment_failed:
+            report.update(
+                {
+                    "state": "degraded",
+                    "message": "A monitor enrichment command failed; changes were not published and the timer will retry.",
+                    "recent_entry_count": len(recent_rows),
+                    "new_entry_count": len(new_rows),
+                }
+            )
+            write_status(report)
+            return 1
+        report["publish"] = maybe_commit_and_push(
+            auto_push and (bool(new_rows) or snapshot_changed),
+            "Import new official AI Engineer YouTube videos",
+        )
+        publish = report["publish"]
+        if publish.get("commit_returncode", 0) != 0 or publish.get("push_returncode", 0) != 0:
+            report.update(
+                {
+                    "state": "degraded",
+                    "message": "Monitor publishing failed; generated changes remain local and the timer will retry.",
+                    "recent_entry_count": len(recent_rows),
+                    "new_entry_count": len(new_rows),
+                }
+            )
+            write_status(report)
+            return 1
 
     report.update(
         {
@@ -694,4 +767,20 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except Exception as exc:
+        previous = load_json(STATUS_JSON, {})
+        report = {
+            "checked_at": datetime.now(timezone.utc).isoformat(),
+            "channel_id": CHANNEL_ID,
+            "state": "degraded",
+            "message": "The monitor failed before completing. The systemd service will retry automatically.",
+            "error": {"type": type(exc).__name__, "message": str(exc)},
+            "previous_checked_at": previous.get("checked_at", "") if isinstance(previous, dict) else "",
+            "processed": [],
+            "dry_run": False,
+        }
+        write_status(report)
+        traceback.print_exc()
+        raise SystemExit(1)
