@@ -2,6 +2,10 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import subprocess
+import sys
+
+import pytest
 
 from scripts import generate_attendance_calibration as attendance
 
@@ -9,7 +13,9 @@ from scripts import generate_attendance_calibration as attendance
 def _configure_fixture(monkeypatch, tmp_path: Path) -> tuple[Path, Path]:
     wiki = tmp_path / "wiki"
     raw = tmp_path / "raw" / "sources"
+    out = raw / "attendance-calibration"
     (wiki / "talks").mkdir(parents=True)
+    (wiki / "resources").mkdir(parents=True)
     raw.mkdir(parents=True)
     monkeypatch.setattr(attendance, "ROOT", tmp_path)
     monkeypatch.setattr(attendance, "WIKI", wiki)
@@ -30,7 +36,93 @@ def _configure_fixture(monkeypatch, tmp_path: Path) -> tuple[Path, Path]:
         "LIVESTREAM_SEGMENTS",
         raw / "livestream-talk-segments.json",
     )
+    monkeypatch.setattr(attendance, "OUT", out)
+    monkeypatch.setattr(attendance, "FRAME_OUT", out / "frames")
+    monkeypatch.setattr(attendance, "SHEET_OUT", out / "contact-sheets")
+    monkeypatch.setattr(
+        attendance,
+        "ASSET_SHEET_OUT",
+        wiki / "assets" / attendance.PUBLIC_ASSET_DIR,
+    )
+    monkeypatch.setattr(attendance, "REPORT", out / "room-report.json")
+    monkeypatch.setattr(attendance, "VIDEO_REPORT", out / "video-report.json")
+    monkeypatch.setattr(attendance, "VIDEO_OVERRIDES", out / "overrides.json")
+    monkeypatch.setattr(
+        attendance,
+        "WIKI_PAGE",
+        wiki / "resources" / "room-attendance-calibration.md",
+    )
+    monkeypatch.setattr(
+        attendance,
+        "VIDEO_WIKI_PAGE",
+        wiki / "resources" / "video-attendance-visibility.md",
+    )
     return wiki, raw
+
+
+def test_module_import_does_not_require_image_dependencies() -> None:
+    script = """
+import builtins
+
+original_import = builtins.__import__
+
+def import_without_image_dependencies(name, *args, **kwargs):
+    if name == "cv2" or name.startswith("cv2.") or name == "PIL" or name.startswith("PIL."):
+        raise ModuleNotFoundError(f"{name} intentionally unavailable")
+    return original_import(name, *args, **kwargs)
+
+builtins.__import__ = import_without_image_dependencies
+from scripts import generate_attendance_calibration
+print(generate_attendance_calibration.__name__)
+"""
+    result = subprocess.run(
+        [sys.executable, "-c", script],
+        cwd=Path(__file__).resolve().parents[1],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+    assert result.returncode == 0, result.stderr
+    assert result.stdout.strip() == "scripts.generate_attendance_calibration"
+
+
+def test_image_detector_reports_actionable_missing_opencv(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    def unavailable(_name: str):
+        raise ModuleNotFoundError("cv2 intentionally unavailable")
+
+    monkeypatch.setattr(attendance, "import_module", unavailable)
+
+    with pytest.raises(
+        attendance.AttendanceImageDependencyError,
+        match=r"opencv-python-headless.*--sync-current/--check-current",
+    ):
+        attendance.local_people_detector_count(tmp_path / "frame.jpg")
+
+
+def test_contact_sheet_reports_actionable_missing_pillow(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    frame_path = tmp_path / "frame.jpg"
+    frame_path.write_bytes(b"not read before the dependency check")
+    monkeypatch.setattr(attendance, "ROOT", tmp_path)
+
+    def unavailable(name: str):
+        if name.startswith("PIL."):
+            raise ModuleNotFoundError("Pillow intentionally unavailable")
+        raise AssertionError(f"unexpected import: {name}")
+
+    monkeypatch.setattr(attendance, "import_module", unavailable)
+
+    with pytest.raises(
+        attendance.AttendanceImageDependencyError,
+        match=r"Pillow.*Install `Pillow`.*--sync-current/--check-current",
+    ):
+        attendance.make_sheet("Main Stage", [{"path": "frame.jpg"}])
 
 
 def test_collect_room_videos_admits_only_current_primary_media(
@@ -98,6 +190,163 @@ def test_collect_room_videos_admits_only_current_primary_media(
         ("htM02KMNZnk", "worldsfair-livestream-segment", 628),
         ("SUPPORT1234", "supporting-related-video", None),
     }
+
+
+def test_sync_current_reuses_image_receipts_without_dependencies(
+    monkeypatch,
+    tmp_path: Path,
+    capsys,
+) -> None:
+    wiki, raw = _configure_fixture(monkeypatch, tmp_path)
+    talk_slug = "2026-07-01-example-talk"
+    video_id = "eBUyTS7SzV4"
+    evidence_key = f"{video_id}-full"
+    talk_path = wiki / "talks" / f"{talk_slug}.md"
+    talk_path.write_text(
+        "---\n"
+        'title: "Example Talk"\n'
+        'scheduleRoom: "Main Stage"\n'
+        'scheduleTrack: "Keynote"\n'
+        "---\n"
+        "# Example Talk\n\n"
+        f"- [[youtube-{video_id}|Dedicated recording]]\n",
+        encoding="utf-8",
+    )
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": video_id,
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "available",
+                        "matchedTalks": [talk_slug],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text("[]\n", encoding="utf-8")
+
+    frame_path = attendance.FRAME_OUT / "main-stage" / evidence_key / "frame.jpg"
+    frame_path.parent.mkdir(parents=True)
+    frame_path.write_bytes(b"existing frame must not be read during sync")
+    contact_sheet = (
+        attendance.ASSET_SHEET_OUT / "main-stage.jpg"
+    )
+    contact_sheet.parent.mkdir(parents=True)
+    contact_sheet.write_bytes(b"existing contact sheet must be preserved")
+    stale_contact_sheet = attendance.ASSET_SHEET_OUT / "stale-room.jpg"
+    stale_contact_sheet.write_bytes(b"stale contact sheet must be removed")
+    video = {
+        "video_id": video_id,
+        "title": "Example Talk",
+        "track": "Keynote",
+        "talk_page": str(talk_path.relative_to(tmp_path)),
+        "source_kind": "candidate-session-video",
+        "segment_start_seconds": None,
+    }
+    evidence = {
+        "path": str(frame_path.relative_to(tmp_path)),
+        "source": "video-cache",
+        "frame_index": None,
+        "time_seconds": 10.0,
+        "segment_start_seconds": None,
+        "video_id": video_id,
+        "evidence_key": evidence_key,
+        "title": "Example Talk",
+        "track": "Keynote",
+        "source_kind": "candidate-session-video",
+    }
+    attendance.REPORT.parent.mkdir(parents=True, exist_ok=True)
+    attendance.REPORT.write_text(
+        json.dumps(
+            {
+                "rooms": {
+                    "Main Stage": {
+                        "selected_videos": [video],
+                        "used_videos": [video],
+                        "videos_used": 1,
+                        "primary_videos": 1,
+                        "supporting_videos": 0,
+                        "evidence_frames": 1,
+                        "evidence": [evidence],
+                        "contact_sheet": str(contact_sheet.relative_to(wiki)),
+                        "calibration": attendance.inferred_calibration(
+                            "Main Stage", 1, 1, 0
+                        ),
+                    },
+                    "Stale Room": {
+                        "selected_videos": [
+                            {
+                                **video,
+                                "video_id": "I2cbIws9j10",
+                            }
+                        ],
+                        "used_videos": [
+                            {
+                                **video,
+                                "video_id": "I2cbIws9j10",
+                            }
+                        ],
+                        "videos_used": 1,
+                        "primary_videos": 1,
+                        "supporting_videos": 0,
+                        "evidence_frames": 1,
+                        "evidence": [
+                            {
+                                **evidence,
+                                "video_id": "I2cbIws9j10",
+                                "evidence_key": "I2cbIws9j10-full",
+                            }
+                        ],
+                        "contact_sheet": str(
+                            stale_contact_sheet.relative_to(wiki)
+                        ),
+                        "calibration": attendance.inferred_calibration(
+                            "Stale Room", 1, 1, 0
+                        ),
+                    },
+                }
+            }
+        ),
+        encoding="utf-8",
+    )
+    attendance.VIDEO_REPORT.write_text(
+        json.dumps(
+            {
+                "videos": {
+                    evidence_key: {
+                        "detector_counts": [8, 6],
+                    }
+                }
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    def unavailable(_name: str):
+        raise ModuleNotFoundError("cv2 intentionally unavailable")
+
+    monkeypatch.setattr(attendance, "import_module", unavailable)
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        ["generate_attendance_calibration.py", "--sync-current"],
+    )
+
+    assert attendance.main() == 0
+
+    result = json.loads(capsys.readouterr().out)
+    updated_video_report = json.loads(attendance.VIDEO_REPORT.read_text())
+    assert result["allowed_evidence_keys"] == 1
+    assert result["pruned_frames"] == 1
+    assert updated_video_report["videos"][evidence_key]["detector_counts"] == [8, 6]
+    assert updated_video_report["videos"][evidence_key]["max_visible_signal"] == 8
+    assert contact_sheet.read_bytes() == b"existing contact sheet must be preserved"
+    assert not stale_contact_sheet.exists()
 
 
 def test_stale_evidence_keys_flags_removed_segment(monkeypatch, tmp_path: Path) -> None:

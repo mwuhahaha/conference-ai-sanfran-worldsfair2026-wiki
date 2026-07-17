@@ -9,6 +9,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Mapping
@@ -195,6 +196,220 @@ def count_files(path: Path, pattern: str) -> int:
     if not path.exists():
         return 0
     return len(list(path.glob(pattern)))
+
+
+def ignored_untracked_wiki_paths(wiki_root: Path) -> frozenset[Path]:
+    """Return logical wiki paths excluded by the canonical Git policy.
+
+    Staged maker files can physically live beneath an ignored cache directory,
+    so ignore matching is performed against logical ``wiki/<relative>`` paths
+    at ``WIKI_MAKER_SOURCE_POLICY_ROOT`` and its configured
+    ``WIKI_MAKER_SOURCE_POLICY_WIKI_ROOT``. Tracked paths remain public even
+    when a later ignore rule matches them, and nonignored generated files
+    remain eligible before they are committed.
+    """
+
+    if not wiki_root.is_dir():
+        return frozenset()
+    configured_policy_root = os.environ.get("WIKI_MAKER_SOURCE_POLICY_ROOT")
+    configured_policy_wiki_root = os.environ.get(
+        "WIKI_MAKER_SOURCE_POLICY_WIKI_ROOT"
+    )
+    if configured_policy_root:
+        policy_root = Path(configured_policy_root).expanduser().resolve()
+    else:
+        resolved_root = ROOT.resolve()
+        try:
+            wiki_root.resolve().relative_to(resolved_root)
+        except ValueError:
+            # Patched fixture roots should keep working without Git metadata.
+            policy_root = wiki_root.resolve().parent
+        else:
+            policy_root = resolved_root
+    explicit_policy = bool(
+        configured_policy_root or configured_policy_wiki_root
+    )
+    if configured_policy_wiki_root:
+        logical_wiki_root = Path(configured_policy_wiki_root).expanduser()
+        if not logical_wiki_root.is_absolute():
+            logical_wiki_root = policy_root / logical_wiki_root
+        logical_wiki_root = logical_wiki_root.resolve()
+    elif configured_policy_root:
+        logical_wiki_root = policy_root / "wiki"
+    else:
+        logical_wiki_root = wiki_root.resolve()
+
+    try:
+        logical_wiki_root.relative_to(policy_root)
+    except ValueError as exc:
+        if explicit_policy:
+            raise RuntimeError(
+                "WIKI_MAKER_SOURCE_POLICY_WIKI_ROOT escapes the policy root"
+            ) from exc
+        return frozenset()
+
+    try:
+        repository_probe = subprocess.run(
+            ["git", "-C", str(policy_root), "rev-parse", "--show-toplevel"],
+            capture_output=True,
+            check=False,
+            text=True,
+        )
+    except FileNotFoundError:
+        if explicit_policy:
+            raise RuntimeError("Git is required by WIKI_MAKER_SOURCE_POLICY_ROOT")
+        return frozenset()
+    if repository_probe.returncode != 0:
+        if explicit_policy:
+            raise RuntimeError(
+                "WIKI_MAKER_SOURCE_POLICY_ROOT is not inside a Git repository"
+            )
+        return frozenset()
+
+    repository_root = Path(repository_probe.stdout.strip()).resolve()
+    try:
+        policy_relative = policy_root.relative_to(repository_root)
+        logical_wiki_relative = logical_wiki_root.relative_to(repository_root)
+    except ValueError as exc:
+        if explicit_policy:
+            raise RuntimeError(
+                "WIKI_MAKER_SOURCE_POLICY_ROOT escapes its Git repository"
+            ) from exc
+        return frozenset()
+
+    if not explicit_policy and policy_relative != Path("."):
+        policy_probe = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(repository_root),
+                "check-ignore",
+                "--quiet",
+                "--",
+                policy_relative.as_posix(),
+            ],
+            capture_output=True,
+            check=False,
+        )
+        if policy_probe.returncode == 0:
+            # An implicit root under an ignored parent is a generated fixture,
+            # not a canonical source-policy tree.
+            return frozenset()
+        if policy_probe.returncode != 1:
+            raise RuntimeError(
+                "unable to determine whether the wiki source-policy root is ignored"
+            )
+
+    physical_paths = sorted(
+        path.relative_to(wiki_root)
+        for path in wiki_root.rglob("*")
+        if path.is_file() or path.is_symlink()
+    )
+    if not physical_paths:
+        return frozenset()
+    logical_paths = [logical_wiki_relative / path for path in physical_paths]
+    logical_input = b"\0".join(
+        os.fsencode(path.as_posix()) for path in logical_paths
+    ) + b"\0"
+
+    ignored = subprocess.run(
+        [
+            "git",
+            "-C",
+            str(repository_root),
+            "check-ignore",
+            "--no-index",
+            "-z",
+            "--stdin",
+        ],
+        input=logical_input,
+        capture_output=True,
+        check=False,
+    )
+    if ignored.returncode not in {0, 1}:
+        message = ignored.stderr.decode(errors="replace").strip()
+        raise RuntimeError(
+            "unable to evaluate ignored wiki paths"
+            + (f": {message}" if message else "")
+        )
+
+    tracked = subprocess.run(
+        [
+            "git",
+            "-C",
+            str(repository_root),
+            "ls-files",
+            "-z",
+            "--cached",
+            "--",
+            logical_wiki_relative.as_posix(),
+        ],
+        capture_output=True,
+        check=False,
+    )
+    if tracked.returncode != 0:
+        message = tracked.stderr.decode(errors="replace").strip()
+        raise RuntimeError(
+            "unable to enumerate tracked wiki paths"
+            + (f": {message}" if message else "")
+        )
+
+    ignored_paths: set[Path] = set()
+    for entry in ignored.stdout.split(b"\0"):
+        if not entry:
+            continue
+        repository_relative = Path(os.fsdecode(entry))
+        try:
+            ignored_paths.add(
+                repository_relative.relative_to(logical_wiki_relative)
+            )
+        except ValueError as exc:
+            raise RuntimeError(
+                f"Git returned a wiki path outside the requested tree: {repository_relative}"
+            ) from exc
+
+    tracked_paths: set[Path] = set()
+    for entry in tracked.stdout.split(b"\0"):
+        if not entry:
+            continue
+        repository_relative = Path(os.fsdecode(entry))
+        try:
+            tracked_paths.add(
+                repository_relative.relative_to(logical_wiki_relative)
+            )
+        except ValueError as exc:
+            raise RuntimeError(
+                f"Git returned a tracked path outside the wiki: {repository_relative}"
+            ) from exc
+    return frozenset(ignored_paths - tracked_paths)
+
+
+def public_wiki_markdown_paths(
+    wiki_root: Path, excluded_paths: frozenset[Path]
+) -> list[Path]:
+    return [
+        path
+        for path in sorted(wiki_root.rglob("*.md"))
+        if path.relative_to(wiki_root) not in excluded_paths
+    ]
+
+
+def copy_public_wiki_assets(
+    source: Path,
+    destination: Path,
+    *,
+    wiki_root: Path,
+    excluded_paths: frozenset[Path],
+) -> None:
+    def ignored_names(directory: str, names: list[str]) -> set[str]:
+        current = Path(directory)
+        return {
+            name
+            for name in names
+            if (current / name).relative_to(wiki_root) in excluded_paths
+        }
+
+    shutil.copytree(source, destination, ignore=ignored_names)
 
 
 def resolve_wikilink(target: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str | None:
@@ -1948,7 +2163,11 @@ const layout=new FA2Layout(graph,{settings:{gravity:1,scalingRatio:10,slowDown:5
 
 
 def export() -> None:
-    pages = [parse_page(path) for path in sorted(WIKI.rglob("*.md"))]
+    excluded_paths = ignored_untracked_wiki_paths(WIKI)
+    pages = [
+        parse_page(path)
+        for path in public_wiki_markdown_paths(WIKI, excluded_paths)
+    ]
     by_id, by_stem = build_link_maps(pages)
     graph = extract_graph(pages, by_id, by_stem)
     relationship_profile = load_json(RAW / "relationship-explorer-profile.json", {})
@@ -1975,7 +2194,12 @@ def export() -> None:
 
     assets = WIKI / "assets"
     if assets.exists():
-        shutil.copytree(assets, DIST / "assets")
+        copy_public_wiki_assets(
+            assets,
+            DIST / "assets",
+            wiki_root=WIKI,
+            excluded_paths=excluded_paths,
+        )
 
     for page in pages:
         out = page_output_path(page)

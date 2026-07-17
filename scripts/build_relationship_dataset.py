@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -18,6 +19,11 @@ from pathlib import Path
 from typing import Any, Iterable, Mapping
 
 import yaml
+
+from wiki_from_topic_maker.source_inventory import (
+    SourceInventoryError,
+    publishable_files,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -121,9 +127,37 @@ def _excerpt(body: str) -> str:
     return re.sub(r"\s+", " ", text).strip()[:220]
 
 
-def load_wiki_pages(wiki_root: Path = WIKI) -> list[PageRecord]:
+def configured_source_policy_wiki_root(wiki_root: Path) -> Path:
+    configured = os.environ.get("WIKI_MAKER_SOURCE_POLICY_WIKI_ROOT")
+    if not configured:
+        return wiki_root
+    policy_root = Path(configured).expanduser()
+    if policy_root.is_absolute():
+        return policy_root
+    project_root = Path(
+        os.environ.get("WIKI_MAKER_SOURCE_POLICY_ROOT", ROOT)
+    ).expanduser()
+    return project_root / policy_root
+
+
+def load_wiki_pages(
+    wiki_root: Path = WIKI,
+    *,
+    source_policy_root: Path | None = None,
+) -> list[PageRecord]:
+    """Load only pages admitted by the canonical wiki's Git policy."""
+
+    policy_root = source_policy_root or configured_source_policy_wiki_root(wiki_root)
+    try:
+        paths = publishable_files(
+            wiki_root,
+            source_policy_root=policy_root,
+            suffixes=(".md",),
+        )
+    except SourceInventoryError as exc:
+        raise RuntimeError(f"cannot inventory public relationship pages: {exc}") from exc
     pages: list[PageRecord] = []
-    for path in sorted(wiki_root.rglob("*.md")):
+    for path in paths:
         raw = path.read_text(encoding="utf-8")
         frontmatter, body = _frontmatter_and_body(raw)
         rel = path.relative_to(wiki_root).with_suffix("")

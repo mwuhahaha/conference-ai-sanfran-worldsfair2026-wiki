@@ -12,7 +12,7 @@ sourceAssessment:
   subjectId: company:ora
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T13:24:54.408152Z'
+  asOf: '2026-07-17T15:12:45.081803Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.

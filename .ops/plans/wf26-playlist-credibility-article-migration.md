@@ -95,34 +95,40 @@ operating state.
 
 ## Final Result
 
-- Run `update-20260717T051453Z-43aefe0a3d` completed all 16 stages and promoted
-  target snapshot
-  `snapshot:b00976ab3a3272e1f2532a9db296cb97c522bed892725c8b4258b63c54be5711`.
-- All 24 playable playlist recordings have cached primary-event transcripts.
-  Playlist slide outcomes are 23 cached, 1 `no_slides`, 3 pending, and 2
-  unavailable.
+- Run `update-20260717T151153Z-c726308cdf` completed all 18 adapters and both
+  maker runtime stages, then promoted target snapshot
+  `snapshot:7eb9e7909f90fe52706542953a7daa1d3b0009380f93b09f32361d5c868340de`.
+- The 34-item admitted union contains 29 playable recordings or livestreams,
+  3 scheduled premieres, and 2 unavailable items. Cached transcripts cover 25
+  of the 29 playable items; the four gaps remain explicit. Typed slide outcomes
+  exist for all 29 playable items.
 - The transcript registry contains 123 pages: 28 primary-event and 95
   comparison/supporting-context transcripts.
 - Category normalization reports zero changes and zero issues on its second
-  pass. All 2,438 wiki Markdown pages are byte-identical to `dist/md`.
+  pass. All 2,437 wiki Markdown pages are byte-identical to `dist/md`.
 - The relationship exporter and direct structured rebuild are exactly equal:
   1,280 nodes and 1,598 relationships, comprising 813 Person-Concept, 308
   Vendor-Concept, and 477 Concept-Concept records.
-- The agent product contains 2,438 pages, 1,540 entities, 3,658 evidence
-  records, 1,585 deduplicated relationships, and 418 resources.
+- The agent product is
+  `snapshot:62900940db784a1c6b68bb19a4a20c0bc14bcd87dae2ef27ee28cbbab0edd1ab`
+  and contains 2,437 pages, 1,540 entities, 3,634 evidence records, 1,585
+  relationships, 418 resources, 10 patterns, and 3 claims.
 - The identical maker request returned `status: no_op` without execution,
   validation, promotion, or a new receipt. No automatic push or deployment
   occurred during the run.
-- The final 18-adapter profile run,
-  `update-20260717T132348Z-4d6cb4d754`, promoted target snapshot
-  `snapshot:81f654182c28bd0eec179d4cf0c5a303c55b825b1366cdca8cf0292d78e7ce35`.
-  Its agent product contains 2,438 pages, 1,540 entities, 3,634 evidence
-  records, 1,585 relationships, 418 resources, 10 patterns, and 3 claims.
 - An earlier profile candidate failed at static export because it redundantly
   invoked agent-product construction through a candidate symlink. It did not
   promote. The build contract now performs static validation once and delegates
   the separately validated agent product to the maker runtime; a repeat of the
   corrected update returned a planning no-op.
+- A later candidate, `update-20260717T142712Z-55dddbfd18`, failed before
+  promotion because attendance sync imported unavailable image libraries.
+  Attendance sync now reuses stored detector counts without those optional
+  dependencies and clears stale output fail closed.
+- Publishable inventory now excludes ignored untracked local overlays from the
+  wiki, static, agent, graph, and relationship products while preserving the
+  operator's local file. Root/static pointers are reconciled from the promoted
+  canonical manifest and use the configured `dist/` root.
 - A live recurring monitor dry-run owner-validated all 29 playlist members and
   found no new playlist IDs. The 34-record union has 29 playable, 3 scheduled,
   and 2 unavailable items. Transcript coverage is 25/29 playable items and
@@ -178,8 +184,8 @@ operating state.
   wiki and site digests were unchanged.
 - Repeating the definitive request returned `status: no_op` with no execution,
   validation, promotion, or receipt. No external deployment occurred.
-- Final validation: 750 maker tests, 302 WF26 tests, Ruff, compile, and diff
-  checks pass; 7,384 publishable files plus 1,998 raw source files contain zero
+- Final validation: 757 maker tests, 310 WF26 tests, Ruff, compile, and diff
+  checks pass; 7,382 publishable files plus 1,998 raw source files contain zero
   private-ranking boundary findings. A
   real WF26 receipt replays successfully and has valid append-only provenance;
   its source bytes were intentionally not re-fetched by the local audit.

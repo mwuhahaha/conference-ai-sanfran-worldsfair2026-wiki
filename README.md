@@ -58,22 +58,25 @@ locally. It does not deploy the site externally. The official YouTube monitor
 invokes this same update entry point once when it has admitted new event media;
 it does not maintain a separate generator chain.
 
-The reconciled official-media union contains 34 items: 26 recordings, 3
-scheduled premieres, 2 unavailable playlist placeholders, and 3 event
-livestreams. All 29 official-playlist entries are represented. Of those, 24 are
-currently playable recordings with cached transcripts; 3 remain scheduled and
-2 unavailable. The generated transcript layer contains 123 pages, labeled as
-28 primary-event transcripts and 95 supporting-context transcripts. Playlist
-slide outcomes are 23 cached, 1 verified `no_slides`, 3 pending, and 2
-unavailable.
+The reconciled official-media union contains 34 items: 29 playable recordings
+or livestreams, 3 scheduled premieres, and 2 unavailable playlist
+placeholders. All 29 official-playlist entries are represented; five other
+official WF26 recordings or livestreams were admitted through the separately
+labeled official-event boundary. Cached transcripts cover 25 of the 29
+playable items, and the four gaps remain explicit. The generated transcript
+layer contains 123 pages, labeled as 28 primary-event transcripts and 95
+supporting-context transcripts. Typed slide outcomes exist for all 29 playable
+items.
 
-Final local run `update-20260717T051453Z-43aefe0a3d` completed all 16 stages
-and promoted snapshot
-`snapshot:b00976ab3a3272e1f2532a9db296cb97c522bed892725c8b4258b63c54be5711`.
-Its agent product is
-`snapshot:521c817de54118bbd2190c616edb5991f0355859040dcbcc9e663f10eb1c74c2`.
+Final local run `update-20260717T151153Z-c726308cdf` completed all 18 adapters
+and both maker runtime stages, then promoted target snapshot
+`snapshot:7eb9e7909f90fe52706542953a7daa1d3b0009380f93b09f32361d5c868340de`.
+Its 2,437-page agent product is
+`snapshot:62900940db784a1c6b68bb19a4a20c0bc14bcd87dae2ef27ee28cbbab0edd1ab`.
 The identical follow-up request returned a planning no-op. No external
-deployment was performed.
+deployment was performed. Publishable inventory follows Git visibility, so an
+ignored untracked local overlay is excluded from wiki, static, agent, graph,
+and relationship products without being deleted from the operator workspace.
 
 Private review-policy bootstrap data lives only at the ignored local path
 `.ops/state/cache/wiki-maker/private-policy.json`, referenced through

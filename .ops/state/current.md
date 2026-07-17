@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-17T13:47:04Z
+updated: 2026-07-17T15:28:37Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -29,18 +29,28 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   `sanitize_public_text` -> `agent_source_index` -> `normalize_articles` ->
   `page_assessments` -> `static_export`; the maker then builds and validates
   the agent product before promotion.
-- Definitive run `update-20260717T132348Z-4d6cb4d754` completed the 18 adapters
+- Definitive run `update-20260717T151153Z-c726308cdf` completed the 18 adapters
   plus maker runtime stages, validated, and promoted locally. Its target
   snapshot is
-  `snapshot:81f654182c28bd0eec179d4cf0c5a303c55b825b1366cdca8cf0292d78e7ce35`;
+  `snapshot:7eb9e7909f90fe52706542953a7daa1d3b0009380f93b09f32361d5c868340de`;
   the promoted agent snapshot is
-  `snapshot:c7e4ef0e07ffb79d4d158cf9e8664d8770e8c7ef546de4769b5742c41ab639bc`.
+  `snapshot:62900940db784a1c6b68bb19a4a20c0bc14bcd87dae2ef27ee28cbbab0edd1ab`.
 - An earlier candidate run, `update-20260717T131302Z-bb9a6a529d`, failed
   before promotion because the agent product was redundantly rebuilt from a
   candidate symlink outside its apparent root. The duplicate build was removed;
   no output from the failed candidate was promoted. Repeating the corrected
   update returns `status: no_op` without execution, validation, promotion, or
   a receipt.
+- Candidate run `update-20260717T142712Z-55dddbfd18` failed before promotion
+  when attendance sync imported unavailable image libraries. Attendance sync
+  now reuses stored detector counts without image dependencies, preserves an
+  unchanged contact sheet only when the file still exists, and clears stale
+  output fail closed.
+- The publishable inventory now follows Git visibility. Ignored untracked local
+  overlays are preserved in the operator workspace but excluded from wiki,
+  static, agent, graph, and relationship products. Promoted root/static agent
+  pointers are reconciled from the verified canonical manifest before every
+  mutating update and agree on the configured `dist/` root.
 - The run performed no external deployment. Publication remains a separate,
   explicit operation.
 - Auditable credibility-v2 closure is complete. Definitive run
@@ -52,8 +62,8 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   ruleset snapshots, replay before finalization, and distinguish arithmetic
   replay, append-only provenance, and live-source rehashing. Exact correction
   and remediation reversals are uncapped, unfactored, and globally single-use.
-- Final validation: 750 maker tests and 302 project tests pass; Ruff, compile,
-  and diff checks are clean. All 7,384 publishable files plus 1,998 raw source
+- Final validation: 757 maker tests and 310 project tests pass; Ruff, compile,
+  and diff checks are clean. All 7,382 publishable files plus 1,998 raw source
   files pass the private-ranking boundary. Numeric values, weights, thresholds,
   and ranking internals remain ignored private state.
 - Every held company-profile candidate now has an explicit `omit` decision.
@@ -135,7 +145,9 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - S2: conference-native home.
 - `/` now renders a static event/source dashboard instead of the long article-first overview.
 - The S2 design was refined after review: the home page now uses a clearer event brief, compact fact panel, start-here strip, source-boundary guidance, count summary, and row-based event/source lists instead of many equal-weight cards.
-- Latest local validation: 2,412 graph nodes, 10,971 graph links, 21 categories, zero broken link endpoints, and headless Chrome desktop/mobile home-page smoke coverage.
+- Latest local validation: 2,417 graph nodes, 9,703 graph links, 17 categories,
+  zero broken link endpoints, and headless Chrome desktop/mobile home-page
+  smoke coverage.
 
 The AIE-specific conversion plan is complete. The active plan remains `.ops/plans/worldsfair-aie-specific-conversion-plan.md`, but S1-S9 are now checked off and should not be reopened unless the user explicitly asks to revise that plan.
 
@@ -196,9 +208,9 @@ The earlier channel-scan slice had added or corrected:
 - Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
 - Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.
 
-Validation at `2026-07-17T13:42:36Z`: the live recurring dry-run found no new
+Validation at `2026-07-17T15:28:37Z`: the live recurring dry-run found no new
 playlist IDs and left the worktree unchanged. The union has typed outcomes for
-all 34 admitted items; the static and agent builds contain 2,438
+all 34 admitted items; the static and agent builds contain 2,437
 Markdown-identical pages, and article normalization is idempotent.
 
 ## Next Step

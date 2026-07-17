@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: person:sebastian-fox
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T13:24:54.408152Z'
+  asOf: '2026-07-17T15:12:45.081803Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.

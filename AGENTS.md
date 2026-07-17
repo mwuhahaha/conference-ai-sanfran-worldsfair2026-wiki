@@ -37,6 +37,13 @@ slide gate and static export; the maker runtime builds and validates the agent
 product separately before promotion. Do not add a second agent-product build to
 the candidate static-export command.
 
+Publishable source inventory follows Git visibility: exclude ignored untracked
+overlays, preserve tracked ignored files and new nonignored candidates, and use
+the filesystem fallback only outside a Git worktree. After promotion,
+`agent-index.json`, `dist/agent-index.json`, and `dist/agent/manifest.json` must
+name the same verified snapshot, and both legacy pointers must use the profile's
+configured static root.
+
 The official YouTube monitor invokes this maker update once after admitting new
 event media. Keep that single-call boundary intact; do not restore a second
 monitor-specific generator chain.
@@ -67,6 +74,11 @@ Slide AI cache hits must bind the exact source image, model, prompt,
 configuration, input, and output. Publish classifier/OCR outcomes atomically;
 stale or partial results must fail closed. Codex processing of untrusted web or
 media content defaults to read-only execution without local tools.
+
+Attendance `--sync-current` must remain usable without OpenCV or Pillow. Reuse
+stored detector counts, preserve an unchanged contact sheet only when the file
+still exists, and clear stale output fail closed; full image analysis may raise
+the typed optional-dependency error.
 
 ## Public Repo Structure
 

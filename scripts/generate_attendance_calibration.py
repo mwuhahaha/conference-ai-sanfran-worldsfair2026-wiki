@@ -10,6 +10,7 @@ attached to talks.
 from __future__ import annotations
 
 import argparse
+from importlib import import_module
 import json
 import math
 import re
@@ -18,10 +19,6 @@ import subprocess
 from statistics import median
 from collections import defaultdict
 from pathlib import Path
-
-import cv2
-from PIL import Image, ImageDraw
-
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -41,6 +38,33 @@ VIDEO_WIKI_PAGE = WIKI / "resources" / "video-attendance-visibility.md"
 MEDIA_MANIFEST = RAW / "official-wf26-video-manifest.json"
 LIVESTREAM_SEGMENTS = RAW / "livestream-talk-segments.json"
 VALID_YOUTUBE_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+
+class AttendanceImageDependencyError(RuntimeError):
+    """Raised when optional attendance image analysis cannot run."""
+
+
+def _load_opencv():
+    try:
+        return import_module("cv2")
+    except ImportError as exc:
+        raise AttendanceImageDependencyError(
+            "OpenCV is required for attendance image analysis. Install "
+            "`opencv-python-headless` in the Python environment running the full "
+            "calibration, or use --sync-current/--check-current for non-image "
+            "attendance maintenance."
+        ) from exc
+
+
+def _load_pillow():
+    try:
+        return import_module("PIL.Image"), import_module("PIL.ImageDraw")
+    except ImportError as exc:
+        raise AttendanceImageDependencyError(
+            "Pillow is required for attendance image processing. Install `Pillow` "
+            "in the Python environment running the full calibration, or use "
+            "--sync-current/--check-current for non-image attendance maintenance."
+        ) from exc
 
 
 def slugify(value: str) -> str:
@@ -298,6 +322,7 @@ def sample_frame_cache(video_id: str, frame_dir: Path, out_dir: Path, samples: i
     frames = sorted(frame_dir.glob("*.jpg"))
     if not frames:
         return []
+    Image, _ = _load_pillow()
     out_dir.mkdir(parents=True, exist_ok=True)
     rows = []
     if len(frames) <= samples:
@@ -314,10 +339,14 @@ def sample_frame_cache(video_id: str, frame_dir: Path, out_dir: Path, samples: i
 
 def make_sheet(room: str, evidence: list[dict]) -> str:
     images = []
+    Image = None
+    ImageDraw = None
     for item in evidence:
         path = ROOT / item["path"]
         if not path.exists():
             continue
+        if Image is None or ImageDraw is None:
+            Image, ImageDraw = _load_pillow()
         try:
             img = Image.open(path).convert("RGB")
         except Exception:
@@ -352,6 +381,7 @@ def make_sheet(room: str, evidence: list[dict]) -> str:
 
 def local_people_detector_count(path: Path) -> int:
     """Best-effort visible-person signal, not a publishable attendance count."""
+    cv2 = _load_opencv()
     image = cv2.imread(str(path))
     if image is None:
         return 0
@@ -392,7 +422,11 @@ def load_video_overrides() -> dict:
     return data.get("videos", {}) if isinstance(data, dict) else {}
 
 
-def build_video_attendance_report(room_report: dict) -> dict:
+def build_video_attendance_report(
+    room_report: dict,
+    *,
+    detector_counts_by_key: dict[str, list[int]] | None = None,
+) -> dict:
     videos: dict[str, dict] = {}
     overrides = load_video_overrides()
     for room, row in sorted(room_report["rooms"].items()):
@@ -403,11 +437,16 @@ def build_video_attendance_report(room_report: dict) -> dict:
         for video in row["used_videos"]:
             key = evidence_key(video)
             samples = evidence_by_key.get(key, [])
-            detector_counts = []
-            for sample in samples:
-                frame_path = ROOT / sample["path"]
-                if frame_path.exists():
-                    detector_counts.append(local_people_detector_count(frame_path))
+            if detector_counts_by_key is None:
+                detector_counts = []
+                for sample in samples:
+                    frame_path = ROOT / sample["path"]
+                    if frame_path.exists():
+                        detector_counts.append(
+                            local_people_detector_count(frame_path)
+                        )
+            else:
+                detector_counts = list(detector_counts_by_key.get(key, []))
             max_count = max(detector_counts or [0])
             median_count = int(median(detector_counts)) if detector_counts else 0
             primary = video.get("source_kind") in {"worldsfair-livestream-segment", "candidate-session-video"}
@@ -716,6 +755,16 @@ def sync_current_evidence() -> dict[str, int]:
     """Prune stored calibration evidence against current authoritative mappings."""
 
     room_report = _load_report(REPORT, key="rooms")
+    existing_video_report = _load_report(VIDEO_REPORT, key="videos")
+    detector_counts_by_key = {
+        str(key): [
+            int(count)
+            for count in row.get("detector_counts", [])
+            if isinstance(count, int) and count >= 0
+        ]
+        for key, row in existing_video_report["videos"].items()
+        if isinstance(row, dict)
+    }
     allowed = _current_evidence_keys()
     pruned_rows = 0
     pruned_frames = 0
@@ -736,7 +785,8 @@ def sync_current_evidence() -> dict[str, int]:
             for item in existing_evidence
             if str(item.get("evidence_key") or item.get("video_id") or "") in allowed
         ]
-        pruned_frames += len(existing_evidence) - len(kept_evidence)
+        room_pruned_frames = len(existing_evidence) - len(kept_evidence)
+        pruned_frames += room_pruned_frames
         row["evidence"] = kept_evidence
         used = row["used_videos"]
         primary_videos = sum(
@@ -760,9 +810,18 @@ def sync_current_evidence() -> dict[str, int]:
             primary_videos,
             supporting_videos,
         )
-        row["contact_sheet"] = make_sheet(room, kept_evidence)
-        if row["contact_sheet"]:
-            referenced_sheets.add(Path(row["contact_sheet"]).name)
+        existing_sheet = str(row.get("contact_sheet") or "")
+        sheet_path = WIKI / existing_sheet
+        if (
+            kept_evidence
+            and room_pruned_frames == 0
+            and existing_sheet
+            and sheet_path.is_file()
+        ):
+            row["contact_sheet"] = existing_sheet
+            referenced_sheets.add(Path(existing_sheet).name)
+        else:
+            row["contact_sheet"] = ""
 
     removed_directories = 0
     if FRAME_OUT.exists():
@@ -785,7 +844,10 @@ def sync_current_evidence() -> dict[str, int]:
         encoding="utf-8",
     )
     write_wiki(room_report)
-    video_report = build_video_attendance_report(room_report)
+    video_report = build_video_attendance_report(
+        room_report,
+        detector_counts_by_key=detector_counts_by_key,
+    )
     VIDEO_REPORT.write_text(
         json.dumps(video_report, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",

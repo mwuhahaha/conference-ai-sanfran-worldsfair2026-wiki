@@ -1,7 +1,7 @@
 name: Deploy to Cloudflare Pages
 
 env:
-  WIKI_MAKER_REF: f27b9f3bdcc3ee35fea83e32506e0bdc094c0c7b
+  WIKI_MAKER_REF: 441f285132210e37a97779266ffc8ea310b88553
 
 on:
   push:
