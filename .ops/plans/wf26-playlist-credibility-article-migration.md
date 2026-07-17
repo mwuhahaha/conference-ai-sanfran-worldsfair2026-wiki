@@ -111,3 +111,40 @@ restoring it before review/commit would create an unsafe operating state.
   records, 1,585 deduplicated relationships, and 418 resources.
 - The identical maker request returned `status: no_op` without execution,
   validation, promotion, or a new receipt. No push or deployment occurred.
+
+## Auditable Credibility Closure
+
+- The private scoring policy now emits exact signed line-item receipts for one
+  claim, subject, domain, use, time, jurisdiction, and assessment snapshot.
+  Rulesets, source versions, observations, evidence manifests, receipts, and
+  line items are content-addressed and append-only.
+- Receipt replay is mandatory before finalization. The operator audit reports
+  arithmetic replay, append-only store provenance, and live-source rehashing as
+  separate facts so a local verification cannot overclaim source authenticity.
+- Correction and remediation entries reverse a finalized prior line exactly,
+  without factors or caps. A prior line can be reversed only once globally.
+- Evidence kinds have fixed stance, source-role, procedural-status, polarity,
+  recency, independent-origin, and dimension contracts. Production values and
+  ranking internals remain ignored private state and never enter public output.
+- Initial run `update-20260717T090944Z-918c7703dc` failed before promotion
+  because rediscovery time was incorrectly compared with the authoritative
+  append-only observation time. The adapter now reuses the first stored
+  observation for a stable observation ID, and a regression test covers it.
+- Run `update-20260717T091359Z-64299f4e6a` then completed the migration. After
+  the final adversarial reversal and public-leak audit fixes, definitive run
+  `update-20260717T093151Z-67650b7fd3` completed all 14 selected stages.
+- A final fail-closed audit found one held non-HTTPS company candidate with no
+  explicit writing decision. The adapter now emits an auditable `omit` decision
+  with no public source projection for that path, and the third-party audit
+  treats any future held candidate without `omit` as a high-severity finding.
+  Run `update-20260717T094843Z-76cef8004f` completed all 14 stages with this
+  closure. Public validation passed and promotion was a no-op because canonical
+  wiki and site digests were unchanged.
+- Repeating the definitive request returned `status: no_op` with no execution,
+  validation, promotion, or receipt. No external deployment occurred.
+- Final validation: 668 maker tests, 234 WF26 tests, Ruff, and diff checks pass;
+  12,377 publishable files contain zero private-scoring boundary findings. A
+  real WF26 receipt replays successfully and has valid append-only provenance;
+  its source bytes were intentionally not re-fetched by the local audit.
+- All 300 held company-profile candidates have explicit `omit` decisions and
+  all 300 are verified absent from public artifacts.

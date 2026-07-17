@@ -284,8 +284,49 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
                 {row["kind"] for row in findings},
             )
 
+            policy_path.write_text(
+                json.dumps(
+                    {
+                        "companyProfileGateStates": {
+                            "apify": {"status": "held"}
+                        },
+                        "companyProfileWritingDecisions": {},
+                    }
+                ),
+                encoding="utf-8",
+            )
+            findings = []
+            counters = Counter()
+            connection_audit.audit_company_profiles(findings, counters, root)
+
+            self.assertIn(
+                "held_company_profile_without_omit_decision",
+                {row["kind"] for row in findings},
+            )
+            self.assertEqual(
+                counters["held_company_profiles_without_omit_decision"],
+                1,
+            )
+            self.assertEqual(
+                counters["held_company_profiles_absent_from_public_artifacts"],
+                1,
+            )
+
             wiki_page.write_text(
                 "---\ntitle: Apify\n---\n# Apify\n\nhttps://apify.ai/\n",
+                encoding="utf-8",
+            )
+            policy_path.write_text(
+                json.dumps(
+                    {
+                        "companyProfileGateStates": {
+                            "apify": {"status": "held"}
+                        },
+                        "companyProfileWritingDecisions": {
+                            "apify": {"writingDisposition": "omit"}
+                        },
+                    }
+                ),
                 encoding="utf-8",
             )
             findings = []

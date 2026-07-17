@@ -1,14 +1,63 @@
 import importlib.util
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+from wiki_from_topic_maker.credibility_v2 import DimensionName
+from wiki_from_topic_maker.credibility_v2.scoring import (
+    DimensionCap,
+    EvidenceKind,
+    ScoreRule,
+    ScoreRuleset,
+    SourceRole,
+)
 
 
 SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "build_private_credibility_v2.py"
 SPEC = importlib.util.spec_from_file_location("build_private_credibility_v2_test", SCRIPT)
 POLICY = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader
+sys.modules[SPEC.name] = POLICY
 SPEC.loader.exec_module(POLICY)
+
+
+def _write_test_scoring_policy(root: Path) -> Path:
+    ruleset = ScoreRuleset.create(
+        ruleset_version="test-v1",
+        policy_name="Synthetic test-only WF26 scoring policy",
+        policy_sources=("https://example.test/scoring-methodology",),
+        rules=(
+            ScoreRule(
+                rule_id="test-direct-primary",
+                rule_version="test-v1",
+                evidence_kind=EvidenceKind.DIRECT_PRIMARY_RECORD,
+                dimension=DimensionName.CLAIM_SUPPORT,
+                base_points=10,
+                description="Synthetic positive primary-record evidence.",
+                allowed_source_roles=(SourceRole.OFFICIAL_PRIMARY,),
+            ),
+            ScoreRule(
+                rule_id="test-owner-assertion",
+                rule_version="test-v1",
+                evidence_kind=EvidenceKind.OWNER_ASSERTION,
+                dimension=DimensionName.CLAIM_SUPPORT,
+                base_points=3,
+                description="Synthetic attributed owner evidence.",
+                allowed_source_roles=(SourceRole.FIRST_PARTY,),
+            ),
+        ),
+        dimension_caps=(
+            DimensionCap(DimensionName.CLAIM_SUPPORT, -100, 100),
+        ),
+    )
+    path = (
+        root
+        / ".ops/state/cache/wiki-maker/credibility-v2/scoring-policies/active.json"
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(ruleset.as_dict(), sort_keys=True), encoding="utf-8")
+    return path
 
 
 def _fixture(tmp_path: Path) -> Path:
@@ -103,6 +152,17 @@ def _fixture(tmp_path: Path) -> Path:
                     },
                     "sourceLabels": ["Public company site"],
                 },
+                "insecure-co": {
+                    "website": "http://insecure.example/",
+                    "fetchStatus": "fetched",
+                    "fetchedMetadata": {
+                        "title": "Insecure Co",
+                        "description": "A candidate that lacks an HTTPS source.",
+                        "site_name": "Insecure Co",
+                        "h1": "Insecure Co",
+                    },
+                    "sourceLabels": ["Unverified company site"],
+                },
             }
         ),
         encoding="utf-8",
@@ -112,6 +172,7 @@ def _fixture(tmp_path: Path) -> Path:
             "The speaker describes agent evaluations, evals, and a quality gate.",
             encoding="utf-8",
         )
+    _write_test_scoring_policy(root)
     return root
 
 
@@ -169,6 +230,19 @@ def test_builds_claim_scoped_decisions_for_people_companies_media_and_topics(
     )
     assert (
         policy["companyProfileGateStates"]["other-labs"]["status"] == "held"
+    )
+    assert policy["companyProfileGateStates"]["insecure-co"]["status"] == "held"
+    assert (
+        policy["companyProfileWritingDecisions"]["insecure-co"][
+            "writingDisposition"
+        ]
+        == "omit"
+    )
+    assert (
+        policy["companyProfileWritingDecisions"]["insecure-co"][
+            "publicSourceIds"
+        ]
+        == []
     )
     assert (
         policy["topicWritingDecisions"]["agent-evaluations"]["writingDisposition"]

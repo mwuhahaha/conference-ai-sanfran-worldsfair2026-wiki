@@ -124,7 +124,7 @@
     },
     {
       "key": "credibility_policy",
-      "version": "v2",
+      "version": "v3",
       "command": [
         "python3",
         "scripts/build_private_credibility_v2.py"

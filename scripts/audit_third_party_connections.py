@@ -910,7 +910,18 @@ def audit_company_profiles(
             ))
 
         public_hits: list[tuple[Path, list[str]]] = []
-        if writing_disposition == "omit":
+        if gate_status == "held":
+            if writing_disposition != "omit":
+                counters["held_company_profiles_without_omit_decision"] += 1
+                findings.append(finding(
+                    "high",
+                    "held_company_profile_without_omit_decision",
+                    path,
+                    "A held company-profile candidate lacks an explicit omit writing decision.",
+                    url=website,
+                    evidence=[f"writingDisposition={writing_disposition or 'missing'}"],
+                    project_root=project_root,
+                ))
             for public_path in (
                 path,
                 project_root / "dist" / "companies" / slug / "index.html",

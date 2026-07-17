@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-17T05:27:22Z
+updated: 2026-07-17T10:01:40Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -38,6 +38,22 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   validation, promotion, or receipt.
 - The run performed no external deployment. Publication remains a separate,
   explicit operation.
+- Auditable credibility-v2 closure is complete. Definitive run
+  `update-20260717T094843Z-76cef8004f` completed all 14 selected third-party
+  stages, passed public and article-shape validation, and produced a no-op
+  promotion because the public wiki/site digests were unchanged. The identical
+  follow-up request returned a planning no-op without a run or receipt.
+- Private receipts now bind exact signed line items to immutable evidence and
+  ruleset snapshots, replay before finalization, and distinguish arithmetic
+  replay, append-only provenance, and live-source rehashing. Exact correction
+  and remediation reversals are uncapped, unfactored, and globally single-use.
+- Final validation: 668 maker tests and 234 project tests pass; Ruff and diff
+  checks are clean; all 12,377 scanned public files pass the private-score
+  boundary. The scoring values and ranking internals remain ignored private
+  state and are not documented publicly.
+- Every held company-profile candidate now has an explicit `omit` decision.
+  The internal audit verifies all 300 held candidates are absent from public
+  artifacts and fails on any future held candidate lacking that decision.
 - The official-media union contains 34 WF26 items: 26 recordings, 3 scheduled
   premieres, 2 unavailable playlist placeholders, and 3 event livestreams.
   All 29 official-playlist entries are represented; its 24 playable recordings

@@ -13,12 +13,14 @@ import argparse
 import json
 import re
 from collections import defaultdict
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import parse_qs, unquote, urlsplit
 
+from wiki_from_topic_maker.atomic_files import atomic_write_json
 from wiki_from_topic_maker.credibility_v2 import (
     AssessmentSnapshot,
     ClaimRecord,
@@ -38,6 +40,20 @@ from wiki_from_topic_maker.credibility_v2 import (
     ReasonCode,
     SourceVersion,
     project_writing_decision,
+)
+from wiki_from_topic_maker.credibility_v2.private_paths import (
+    CredibilityPrivatePaths,
+)
+from wiki_from_topic_maker.credibility_v2.scoring import (
+    AssessmentScope,
+    AssessmentUse,
+    EvidenceKind,
+    ProceduralStatus,
+    ScoreEvidence,
+    ScoreReceipt,
+    ScoreRuleset,
+    SourceRole,
+    evaluate_score,
 )
 
 
@@ -75,6 +91,9 @@ PRIVATE_PROVIDER_CHECKS_RELATIVE = Path(
 PRIVATE_PROVIDER_RECEIPTS_RELATIVE = Path(
     ".ops/state/cache/wiki-maker/credibility-v2/receipts/provider-fetch"
 )
+PRIVATE_SCORING_POLICY_RELATIVE = Path(
+    ".ops/state/cache/wiki-maker/credibility-v2/scoring-policies/active.json"
+)
 
 PROVIDER_CLAIM_SCOPES: dict[str, frozenset[str]] = {
     "github_rest": frozenset({"repository_metadata"}),
@@ -93,7 +112,7 @@ PROVIDER_SEMANTIC_FIELDS: dict[str, frozenset[str]] = {
     "wikimedia": frozenset({"candidateIds", "resultCount", "state"}),
 }
 SUCCESSFUL_PROVIDER_OUTCOMES = frozenset({"success", "cached"})
-SOURCE_ADAPTER_VERSION = "wf26-source-adapter-v2"
+SOURCE_ADAPTER_VERSION = "wf26-source-adapter-v3"
 
 PARKED_PROFILE_MARKERS = (
     "buy this domain",
@@ -275,6 +294,441 @@ def stable_json(value: Any) -> str:
 
 def content_digest(value: Any) -> str:
     return sha256(stable_json(value).encode("utf-8")).hexdigest()
+
+
+def parse_source_datetime(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def media_published_at(item: dict[str, Any], *, as_of: datetime) -> datetime | None:
+    """Use only an observed publication date, never a future premiere date."""
+
+    pending = str(item.get("mediaType") or "") in {
+        "scheduled_premiere",
+        "unavailable_playlist_item",
+    }
+    keys = ("uploadDate",) if pending else ("releaseDate", "uploadDate")
+    for key in keys:
+        candidate = parse_source_datetime(item.get(key))
+        if candidate is not None and candidate <= as_of:
+            return candidate
+    return None
+
+
+def load_private_scoring_ruleset(
+    root: Path,
+    policy_path: Path | None = None,
+) -> ScoreRuleset:
+    """Load one required, versioned ruleset from the fixed private boundary."""
+
+    paths = CredibilityPrivatePaths.for_project(root)
+    candidate = policy_path or root / PRIVATE_SCORING_POLICY_RELATIVE
+    if not candidate.is_absolute():
+        candidate = root / candidate
+    candidate = paths.require(candidate)
+    if not candidate.is_file():
+        raise FileNotFoundError(f"private scoring ruleset is required: {candidate}")
+    try:
+        payload = json.loads(candidate.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"invalid private scoring ruleset {candidate}: {exc}") from exc
+    if not isinstance(payload, dict):
+        raise ValueError("private scoring ruleset must be a JSON object")
+    return ScoreRuleset.from_dict(payload)
+
+
+def score_evidence_kind(observation: EvidenceObservation) -> EvidenceKind | None:
+    reasons = set(observation.reason_codes)
+    precedence = (
+        (ReasonCode.MATERIAL_CORRECTION, EvidenceKind.MATERIAL_CORRECTION),
+        (ReasonCode.VERIFIED_REMEDIATION, EvidenceKind.VERIFIED_REMEDIATION),
+        (ReasonCode.ADVERSE_EVIDENCE_L4, EvidenceKind.ADVERSE_L4),
+        (ReasonCode.ADVERSE_EVIDENCE_L3, EvidenceKind.ADVERSE_L3),
+        (ReasonCode.ADVERSE_EVIDENCE_L2, EvidenceKind.ADVERSE_L2),
+        (ReasonCode.ADVERSE_EVIDENCE_L1, EvidenceKind.ADVERSE_L1),
+        (
+            ReasonCode.FINAL_ATTRIBUTED_MISCONDUCT,
+            EvidenceKind.FINAL_ATTRIBUTED_MISCONDUCT,
+        ),
+        (ReasonCode.FAILED_REPLICATION, EvidenceKind.FAILED_REPLICATION),
+        (
+            ReasonCode.HIGH_QUALITY_CONTRADICTION,
+            EvidenceKind.HIGH_QUALITY_CONTRADICTION,
+        ),
+        (ReasonCode.SYSTEMATIC_CONSENSUS, EvidenceKind.SYSTEMATIC_CONSENSUS),
+        (
+            ReasonCode.INDEPENDENT_REPLICATION,
+            EvidenceKind.INDEPENDENT_REPLICATION,
+        ),
+        (ReasonCode.REPRODUCIBLE_ARTIFACT, EvidenceKind.REPRODUCIBLE_ARTIFACT),
+        (ReasonCode.SCHOLARLY_CONTRIBUTION, EvidenceKind.SCHOLARLY_CONTRIBUTION),
+        (
+            ReasonCode.DOCUMENTED_INDEPENDENT_REPORT,
+            EvidenceKind.INDEPENDENT_DOCUMENTED_REPORT,
+        ),
+        (ReasonCode.SELF_INTERESTED_SOURCE, EvidenceKind.OWNER_ASSERTION),
+        (ReasonCode.DIRECT_PRIMARY_RECORD, EvidenceKind.DIRECT_PRIMARY_RECORD),
+        (ReasonCode.OFFICIAL_CANON_SCOPE_ONLY, EvidenceKind.DIRECT_PRIMARY_RECORD),
+    )
+    for reason, kind in precedence:
+        if reason in reasons:
+            return kind
+    if reasons and reasons <= {
+        ReasonCode.ID_NAME_ONLY,
+        ReasonCode.ENTITY_COLLISION,
+        ReasonCode.MISSING_EVIDENCE,
+        ReasonCode.POPULARITY_IGNORED,
+        ReasonCode.TIME_SCOPE_MISMATCH,
+        ReasonCode.JURISDICTION_SCOPE_MISMATCH,
+    }:
+        return None
+    raise ValueError(
+        f"observation has no standardized scoring evidence kind: {observation.observation_id}"
+    )
+
+
+def score_source_role(
+    source: SourceVersion,
+    observation: EvidenceObservation,
+) -> SourceRole:
+    source_id = source.source_id.casefold()
+    reasons = set(observation.reason_codes)
+    if source_id.startswith(("official-", "regulator-", "court-")):
+        return SourceRole.OFFICIAL_PRIMARY
+    if source_id.startswith(("company-profile:", "owner-", "first-party:")):
+        return SourceRole.FIRST_PARTY
+    if source_id.startswith(("scholarly-", "research-", "repository:")):
+        return SourceRole.INDEPENDENT_PRIMARY
+    if source_id.startswith(("independent-", "press-", "reporting:")):
+        return SourceRole.INDEPENDENT_SECONDARY
+    if ReasonCode.SELF_INTERESTED_SOURCE in reasons:
+        return SourceRole.FIRST_PARTY
+    if reasons.intersection(
+        {
+            ReasonCode.OFFICIAL_CANON_SCOPE_ONLY,
+            ReasonCode.DIRECT_PRIMARY_RECORD,
+            ReasonCode.FINAL_ATTRIBUTED_MISCONDUCT,
+        }
+    ):
+        return SourceRole.OFFICIAL_PRIMARY
+    if reasons.intersection(
+        {
+            ReasonCode.SCHOLARLY_CONTRIBUTION,
+            ReasonCode.REPRODUCIBLE_ARTIFACT,
+            ReasonCode.INDEPENDENT_REPLICATION,
+            ReasonCode.SYSTEMATIC_CONSENSUS,
+        }
+    ):
+        return SourceRole.INDEPENDENT_PRIMARY
+    if reasons.intersection(
+        {
+            ReasonCode.DOCUMENTED_INDEPENDENT_REPORT,
+            ReasonCode.HIGH_QUALITY_CONTRADICTION,
+            ReasonCode.FAILED_REPLICATION,
+            ReasonCode.ADVERSE_EVIDENCE_L1,
+            ReasonCode.ADVERSE_EVIDENCE_L2,
+        }
+    ):
+        return SourceRole.INDEPENDENT_SECONDARY
+    raise ValueError(f"source role is not established for {source.source_version_id}")
+
+
+def score_procedural_status(observation: EvidenceObservation) -> ProceduralStatus:
+    reasons = set(observation.reason_codes)
+    if ReasonCode.VERIFIED_REMEDIATION in reasons:
+        return ProceduralStatus.REMEDIATED
+    if ReasonCode.MATERIAL_CORRECTION in reasons:
+        return ProceduralStatus.CORRECTED
+    if ReasonCode.RETRACTION_OR_CORRECTION in reasons:
+        return ProceduralStatus.RETRACTED
+    if reasons.intersection(
+        {
+            ReasonCode.FINAL_ATTRIBUTED_MISCONDUCT,
+            ReasonCode.ADVERSE_EVIDENCE_L3,
+            ReasonCode.ADVERSE_EVIDENCE_L4,
+        }
+    ):
+        return ProceduralStatus.FINAL_FINDING
+    if ReasonCode.ADVERSE_EVIDENCE_L2 in reasons:
+        return ProceduralStatus.INVESTIGATION
+    if ReasonCode.ADVERSE_EVIDENCE_L1 in reasons:
+        return ProceduralStatus.ALLEGATION
+    return ProceduralStatus.NOT_APPLICABLE
+
+
+def score_factor_selections(
+    ruleset: ScoreRuleset,
+    *,
+    kind: EvidenceKind,
+    observation: EvidenceObservation,
+    source_role: SourceRole,
+    procedural_status: ProceduralStatus,
+) -> tuple[tuple[str, str], ...]:
+    """Resolve only explicit evidence categories; never infer numeric weights."""
+
+    rule = ruleset.rule_for(kind)
+    choices_by_factor: dict[str, set[str]] = defaultdict(set)
+    for choice in rule.factor_choices:
+        choices_by_factor[choice.factor_id].add(choice.choice_id)
+    if source_role is SourceRole.OFFICIAL_PRIMARY:
+        source_authority = "official_original"
+    elif source_role in {
+        SourceRole.INDEPENDENT_PRIMARY,
+        SourceRole.INDEPENDENT_SECONDARY,
+    }:
+        source_authority = "independent_documented"
+    else:
+        source_authority = "first_party_or_indirect"
+    if (
+        observation.extraction_certainty is EvidenceCertainty.HIGH
+        and observation.directness is EvidenceDirectness.DIRECT
+    ):
+        method_quality = "strong"
+    elif (
+        observation.extraction_certainty is EvidenceCertainty.LOW
+        or observation.directness is EvidenceDirectness.REPORTED
+    ):
+        method_quality = "weak"
+    else:
+        method_quality = "moderate"
+    evidence_values = {
+        "directness": observation.directness.value,
+        "evidence_directness": observation.directness.value,
+        "certainty": observation.extraction_certainty.value,
+        "extraction_certainty": observation.extraction_certainty.value,
+        "stance": observation.stance.value,
+        "source_role": source_role.value,
+        "procedural_status": procedural_status.value,
+        "evidence_kind": kind.value,
+        "source_authority": source_authority,
+        "claim_relevance": "exact",
+        "method_quality": method_quality,
+    }
+    selected: list[tuple[str, str]] = []
+    for factor_id, allowed in sorted(choices_by_factor.items()):
+        evidence_value = evidence_values.get(factor_id)
+        if evidence_value in allowed:
+            selected.append((factor_id, evidence_value))
+        elif len(allowed) == 1:
+            selected.append((factor_id, next(iter(allowed))))
+        else:
+            raise ValueError(
+                f"private ruleset factor {factor_id!r} has no exact evidence selection"
+            )
+    return tuple(selected)
+
+
+def scoring_domain(claim: ClaimRecord) -> str:
+    topic = str(claim.qualifiers.get("topic") or "").strip()
+    if topic:
+        return f"AI engineering topic: {topic}"
+    if claim.subject_id.startswith("video:"):
+        return "AI Engineer World's Fair 2026 event media"
+    if "owner-controlled organization context" in claim.predicate:
+        return "Organization owner-published context"
+    return "AI Engineer World's Fair 2026 event participation"
+
+
+def scoring_use(
+    snapshot: AssessmentSnapshot,
+    observations: Iterable[EvidenceObservation],
+) -> AssessmentUse:
+    if snapshot.comparison_only:
+        return AssessmentUse.COMPARISON_CONTEXT
+    if snapshot.publication_disposition in {
+        PublicationDisposition.HELD,
+        PublicationDisposition.REJECTED,
+    }:
+        return AssessmentUse.INTERNAL_RESEARCH
+    if any(
+        ReasonCode.SELF_INTERESTED_SOURCE in observation.reason_codes
+        for observation in observations
+    ):
+        return AssessmentUse.ATTRIBUTED_CONTEXT
+    return AssessmentUse.PUBLIC_ASSERTION
+
+
+def build_score_evidence(
+    store: CredibilityStore,
+    ruleset: ScoreRuleset,
+    observation: EvidenceObservation,
+) -> ScoreEvidence | None:
+    """Build score input only from the exact immutable records in the store."""
+
+    stored_observation = store.observation(observation.observation_id)
+    if stored_observation is None:
+        raise ValueError(f"missing stored observation: {observation.observation_id}")
+    source = store.source_version(stored_observation.source_version_id)
+    if source is None:
+        raise ValueError(
+            f"missing stored source version: {stored_observation.source_version_id}"
+        )
+    if not source.canonical_url.startswith("https://"):
+        raise ValueError("scored source URLs must use HTTPS")
+    kind = score_evidence_kind(stored_observation)
+    if kind is None:
+        return None
+    source_role = score_source_role(source, stored_observation)
+    procedural_status = score_procedural_status(stored_observation)
+    factor_selections = score_factor_selections(
+        ruleset,
+        kind=kind,
+        observation=stored_observation,
+        source_role=source_role,
+        procedural_status=procedural_status,
+    )
+    unresolved_adverse = procedural_status in {
+        ProceduralStatus.ALLEGATION,
+        ProceduralStatus.INVESTIGATION,
+    }
+    return ScoreEvidence.create(
+        claim_id=stored_observation.claim_id,
+        subject_id=stored_observation.subject_id,
+        kind=kind,
+        stance=stored_observation.stance,
+        source_id=source.source_id,
+        source_version_id=source.source_version_id,
+        observation_id=stored_observation.observation_id,
+        independence_cluster_id=stored_observation.independence_cluster_id,
+        source_url=source.canonical_url,
+        evidence_locator=stored_observation.evidence_span_id,
+        evidence_sha256=f"sha256:{source.content_sha256}",
+        source_role=source_role,
+        procedural_status=procedural_status,
+        evidence_at=source.corrected_at or source.published_at or source.retrieved_at,
+        observed_at=stored_observation.observed_at,
+        factor_selections=factor_selections,
+        explanation=(
+            f"{kind.value} from exact stored {source_role.value} evidence at "
+            f"{stored_observation.evidence_span_id}."
+        ),
+        human_review_required=unresolved_adverse,
+    )
+
+
+@dataclass
+class PrivateScoringRuntime:
+    store: CredibilityStore
+    ruleset: ScoreRuleset
+    receipt_digests: set[str] = field(default_factory=set)
+    ruleset_snapshot_digest: str = field(init=False)
+
+    def __post_init__(self) -> None:
+        self.store.append_score_ruleset(self.ruleset)
+        self.ruleset_snapshot_digest = self._write_content_addressed_ruleset()
+
+    def _write_content_addressed_ruleset(self) -> str:
+        paths = self.store.paths
+        paths.ensure_directories()
+        digest_name = self.ruleset.ruleset_id.rsplit(":", 1)[-1]
+        target = paths.require(paths.scoring_policies / f"{digest_name}.json")
+        rendered = json.dumps(
+            self.ruleset.as_dict(), indent=2, ensure_ascii=True, sort_keys=True
+        ) + "\n"
+        if target.is_file():
+            if target.read_text(encoding="utf-8") != rendered:
+                raise ValueError(f"score ruleset content-address collision: {target}")
+        else:
+            atomic_write_json(
+                target,
+                self.ruleset.as_dict(),
+                boundary=paths.scoring_policies,
+            )
+        return f"sha256:{content_digest(self.ruleset.as_dict())}"
+
+    def evaluate(
+        self,
+        *,
+        claim: ClaimRecord,
+        snapshot: AssessmentSnapshot,
+        observations: Iterable[EvidenceObservation],
+    ) -> ScoreReceipt:
+        stored_snapshot = self.store.assessment(snapshot.snapshot_id)
+        if stored_snapshot is None or stored_snapshot.as_dict() != snapshot.as_dict():
+            raise ValueError(f"missing exact stored assessment: {snapshot.snapshot_id}")
+        receipt, evidence = self._evaluate_receipt(
+            claim=claim,
+            snapshot=snapshot,
+            observations=observations,
+        )
+        self.store.append_score_receipt(receipt, evidence)
+        verified = self.store.verify_score_receipt(receipt.receipt_id)
+        if stable_json(verified.as_dict()) != stable_json(receipt.as_dict()):
+            raise ValueError("stored score receipt differs from deterministic replay")
+        self._write_content_addressed_receipt(receipt)
+        self.receipt_digests.add(f"sha256:{content_digest(receipt.as_dict())}")
+        return receipt
+
+    def preview(
+        self,
+        *,
+        claim: ClaimRecord,
+        snapshot: AssessmentSnapshot,
+        observations: Iterable[EvidenceObservation],
+    ) -> ScoreReceipt:
+        """Evaluate a temporary snapshot without persisting its provisional receipt."""
+
+        receipt, _evidence = self._evaluate_receipt(
+            claim=claim,
+            snapshot=snapshot,
+            observations=observations,
+        )
+        return receipt
+
+    def _evaluate_receipt(
+        self,
+        *,
+        claim: ClaimRecord,
+        snapshot: AssessmentSnapshot,
+        observations: Iterable[EvidenceObservation],
+    ) -> tuple[ScoreReceipt, tuple[ScoreEvidence, ...]]:
+        stored_claim = self.store.claim(claim.claim_id)
+        if stored_claim is None or stored_claim.as_dict() != claim.as_dict():
+            raise ValueError(f"missing exact stored claim: {claim.claim_id}")
+        observation_rows = tuple(observations)
+        evidence_rows: list[ScoreEvidence] = []
+        for item in observation_rows:
+            evidence_item = build_score_evidence(self.store, self.ruleset, item)
+            if evidence_item is not None:
+                evidence_rows.append(evidence_item)
+        evidence = tuple(evidence_rows)
+        scope = AssessmentScope.create(
+            claim_id=claim.claim_id,
+            subject_id=claim.subject_id,
+            assessment_snapshot_id=snapshot.snapshot_id,
+            domain=scoring_domain(claim),
+            use=scoring_use(snapshot, observation_rows),
+            as_of=snapshot.as_of,
+            jurisdiction=claim.jurisdiction,
+        )
+        receipt = evaluate_score(scope, self.ruleset, evidence)
+        return receipt, evidence
+
+    def _write_content_addressed_receipt(self, receipt: ScoreReceipt) -> None:
+        paths = self.store.paths
+        paths.ensure_directories()
+        digest_name = receipt.receipt_id.rsplit(":", 1)[-1]
+        target = paths.require(paths.scoring_receipts / f"{digest_name}.json")
+        rendered = json.dumps(
+            receipt.as_dict(), indent=2, ensure_ascii=True, sort_keys=True
+        ) + "\n"
+        if target.is_file():
+            if target.read_text(encoding="utf-8") != rendered:
+                raise ValueError(f"score receipt content-address collision: {target}")
+            return
+        atomic_write_json(
+            target,
+            receipt.as_dict(),
+            boundary=paths.scoring_receipts,
+        )
 
 
 def slugify(value: str) -> str:
@@ -766,29 +1220,18 @@ def source_as_of(
     candidates: list[datetime] = []
     for payload in (manifest, *observation_payloads):
         for key in ("checkedAt", "checked_at", "generatedAt", "generated_at"):
-            value = payload.get(key)
-            if isinstance(value, str) and value:
-                try:
-                    candidates.append(
-                        datetime.fromisoformat(value.replace("Z", "+00:00"))
-                    )
-                except ValueError:
-                    pass
+            parsed = parse_source_datetime(payload.get(key))
+            if parsed is not None:
+                candidates.append(parsed)
+    observation_ceiling = max(candidates) if candidates else datetime.max.replace(
+        tzinfo=timezone.utc
+    )
     for item in manifest.get("videos", []):
         if not isinstance(item, dict):
             continue
-        media_type = str(item.get("mediaType") or "")
-        date_keys = ("uploadDate",)
-        if media_type not in {"scheduled_premiere", "unavailable_playlist_item"}:
-            date_keys += ("releaseDate",)
-        for key in date_keys:
-            value = item.get(key)
-            if not isinstance(value, str) or not value:
-                continue
-            try:
-                candidates.append(datetime.fromisoformat(value).replace(tzinfo=timezone.utc))
-            except ValueError:
-                pass
+        published = media_published_at(item, as_of=observation_ceiling)
+        if published is not None:
+            candidates.append(published)
     if not candidates:
         return datetime(1970, 1, 1, tzinfo=timezone.utc)
     return max(value.astimezone(timezone.utc) for value in candidates)
@@ -843,10 +1286,12 @@ def supported_dimension(
 def insufficient_dimension(
     name: DimensionName,
     *reasons: ReasonCode,
+    observation_ids: Iterable[str] = (),
 ) -> DimensionAssessment:
     return DimensionAssessment.create(
         name,
         DimensionStatus.INSUFFICIENT,
+        observation_ids=observation_ids,
         reason_codes=reasons,
     )
 
@@ -864,9 +1309,48 @@ def contested_dimension(
     )
 
 
+def scored_claim_support_dimension(
+    receipt: ScoreReceipt,
+    observation_ids: Iterable[str],
+) -> DimensionAssessment:
+    balance = next(
+        (
+            item
+            for item in receipt.dimension_balances
+            if item.dimension is DimensionName.CLAIM_SUPPORT
+        ),
+        None,
+    )
+    positive = balance.positive_points if balance is not None else 0
+    negative = balance.negative_points if balance is not None else 0
+    if positive > 0 and negative < 0:
+        return contested_dimension(
+            DimensionName.CLAIM_SUPPORT,
+            observation_ids,
+            ReasonCode.MATERIAL_CONTRADICTION,
+            ReasonCode.HUMAN_REVIEW_REQUIRED,
+        )
+    if positive > 0:
+        return supported_dimension(
+            DimensionName.CLAIM_SUPPORT,
+            observation_ids,
+            ReasonCode.DIRECT_PRIMARY_RECORD,
+        )
+    return insufficient_dimension(
+        DimensionName.CLAIM_SUPPORT,
+        (
+            ReasonCode.MATERIAL_CONTRADICTION
+            if negative < 0
+            else ReasonCode.MISSING_EVIDENCE
+        ),
+        observation_ids=observation_ids,
+    )
+
+
 def append_assessment(
     store: CredibilityStore,
     *,
+    scoring: PrivateScoringRuntime,
     claim: ClaimRecord,
     observations: list[EvidenceObservation],
     as_of: datetime,
@@ -880,11 +1364,6 @@ def append_assessment(
 ) -> AssessmentSnapshot:
     observation_ids = [item.observation_id for item in observations]
     dimensions = [
-        supported_dimension(
-            DimensionName.CLAIM_SUPPORT,
-            observation_ids,
-            ReasonCode.DIRECT_PRIMARY_RECORD,
-        ),
         supported_dimension(
             DimensionName.INSTITUTIONAL_PROVENANCE,
             observation_ids,
@@ -928,6 +1407,35 @@ def append_assessment(
                 ReasonCode.ID_NAME_ONLY,
             )
         dimensions.append(identity_dimension)
+    preview_snapshot = AssessmentSnapshot.create(
+        claim_id=claim.claim_id,
+        subject_id=claim.subject_id,
+        as_of=as_of,
+        dimensions=(
+            *dimensions,
+            supported_dimension(
+                DimensionName.CLAIM_SUPPORT,
+                observation_ids,
+                ReasonCode.DIRECT_PRIMARY_RECORD,
+            ),
+        ),
+        identity_status=identity_status,
+        identity_required=identity_required,
+        event_status=event_status,
+        event_claimed=event_claimed,
+        comparison_only=False,
+        publication_disposition=publication,
+        endorsement_status=EndorsementStatus.NOT_ENDORSED,
+        model_version="wf26-claim-policy-v3-preview",
+    )
+    preview_receipt = scoring.preview(
+        claim=claim,
+        snapshot=preview_snapshot,
+        observations=observations,
+    )
+    dimensions.append(
+        scored_claim_support_dimension(preview_receipt, observation_ids)
+    )
     snapshot = AssessmentSnapshot.create(
         claim_id=claim.claim_id,
         subject_id=claim.subject_id,
@@ -940,9 +1448,14 @@ def append_assessment(
         comparison_only=False,
         publication_disposition=publication,
         endorsement_status=EndorsementStatus.NOT_ENDORSED,
-        model_version="wf26-claim-policy-v2",
+        model_version="wf26-claim-policy-v3",
     )
     store.append_assessment(snapshot)
+    scoring.evaluate(
+        claim=claim,
+        snapshot=snapshot,
+        observations=observations,
+    )
     return snapshot
 
 
@@ -953,12 +1466,16 @@ def append_source(
     canonical_url: str,
     value: Any,
     as_of: datetime,
+    published_at: datetime | None = None,
+    corrected_at: datetime | None = None,
 ) -> SourceVersion:
     source = SourceVersion.create(
         source_id=f"{source_id}:{SOURCE_ADAPTER_VERSION}",
         canonical_url=canonical_url,
         content_sha256=content_digest(value),
         retrieved_at=as_of,
+        published_at=published_at,
+        corrected_at=corrected_at,
     )
     store.append_source_version(source)
     return source
@@ -997,6 +1514,7 @@ def build_private_policy(
     root: Path = ROOT,
     *,
     company_profiles_path: Path | None = None,
+    scoring_policy_path: Path | None = None,
 ) -> dict[str, Any]:
     root = root.resolve()
     raw = root / "raw" / "sources"
@@ -1017,6 +1535,10 @@ def build_private_policy(
     )
     as_of = source_as_of(manifest, provider_index, browser_index)
     store = CredibilityStore.for_project(root)
+    scoring = PrivateScoringRuntime(
+        store=store,
+        ruleset=load_private_scoring_ruleset(root, scoring_policy_path),
+    )
     speaker_rows = tuple(
         person
         for person in speakers_payload.get("speakers", [])
@@ -1056,12 +1578,14 @@ def build_private_policy(
             },
         )
         store.append_claim(claim)
+        published_at = media_published_at(item, as_of=as_of)
         source = append_source(
             store,
             source_id=f"official-video:{video_id}",
             canonical_url=f"https://www.youtube.com/watch?v={video_id}",
             value=item,
             as_of=as_of,
+            published_at=published_at,
         )
         video_sources[video_id] = source
         observation = append_observation(
@@ -1075,6 +1599,7 @@ def build_private_policy(
         )
         snapshot = append_assessment(
             store,
+            scoring=scoring,
             claim=claim,
             observations=[observation],
             as_of=as_of,
@@ -1100,6 +1625,7 @@ def build_private_policy(
             canonical_url=f"https://www.youtube.com/watch?v={video_id}",
             value=transcript_value,
             as_of=as_of,
+            published_at=published_at,
         )
         for topic_slug, terms in TOPIC_TERMS.items():
             matches = topic_matches(source_text, terms)
@@ -1128,6 +1654,7 @@ def build_private_policy(
 
             pair_snapshot = append_assessment(
                 store,
+                scoring=scoring,
                 claim=topic_claim,
                 observations=[topic_observation],
                 as_of=as_of,
@@ -1187,6 +1714,7 @@ def build_private_policy(
         )
         snapshot = append_assessment(
             store,
+            scoring=scoring,
             claim=claim,
             observations=[observation],
             as_of=as_of,
@@ -1235,6 +1763,7 @@ def build_private_policy(
         )
         snapshot = append_assessment(
             store,
+            scoring=scoring,
             claim=claim,
             observations=[observation],
             as_of=as_of,
@@ -1306,8 +1835,6 @@ def build_private_policy(
                 "signals": gate_signals,
             }
             website = str(raw_profile.get("website") or "")
-            if not website.startswith("https://"):
-                continue
             claim = ClaimRecord.create(
                 subject_id=f"company:{company_slug}",
                 predicate="publishes owner-controlled organization context",
@@ -1320,6 +1847,48 @@ def build_private_policy(
                 qualifiers={"website": website},
             )
             store.append_claim(claim)
+            if not website.startswith("https://"):
+                snapshot = AssessmentSnapshot.create(
+                    claim_id=claim.claim_id,
+                    subject_id=claim.subject_id,
+                    as_of=as_of,
+                    dimensions=(
+                        insufficient_dimension(
+                            DimensionName.INSTITUTIONAL_PROVENANCE,
+                            ReasonCode.MISSING_EVIDENCE,
+                        ),
+                        insufficient_dimension(
+                            DimensionName.INDEPENDENCE,
+                            ReasonCode.MISSING_EVIDENCE,
+                        ),
+                        insufficient_dimension(
+                            DimensionName.IDENTITY,
+                            ReasonCode.ID_NAME_ONLY,
+                        ),
+                        insufficient_dimension(
+                            DimensionName.CLAIM_SUPPORT,
+                            ReasonCode.MISSING_EVIDENCE,
+                        ),
+                    ),
+                    identity_status=IdentityStatus.UNVERIFIED,
+                    identity_required=True,
+                    event_status=EventAssociationStatus.NOT_CLAIMED,
+                    event_claimed=False,
+                    comparison_only=False,
+                    publication_disposition=PublicationDisposition.HELD,
+                    endorsement_status=EndorsementStatus.NOT_ENDORSED,
+                    model_version="wf26-claim-policy-v3",
+                )
+                store.append_assessment(snapshot)
+                scoring.evaluate(
+                    claim=claim,
+                    snapshot=snapshot,
+                    observations=[],
+                )
+                company_profile_decisions[company_slug] = (
+                    project_writing_decision(snapshot).as_dict()
+                )
+                continue
             source = append_source(
                 store,
                 source_id=f"company-profile:{company_slug}",
@@ -1347,6 +1916,7 @@ def build_private_policy(
             )
             snapshot = append_assessment(
                 store,
+                scoring=scoring,
                 claim=claim,
                 observations=[observation],
                 as_of=as_of,
@@ -1380,6 +1950,7 @@ def build_private_policy(
         clusters = {item.independence_cluster_id for item in observations}
         snapshot = append_assessment(
             store,
+            scoring=scoring,
             claim=claim,
             observations=observations,
             as_of=as_of,
@@ -1407,6 +1978,11 @@ def build_private_policy(
             "companyProfiles": profiles_payload,
             "browserProfileMetadata": browser_profile_metadata,
             "providerEvidenceGateStates": provider_gate_states,
+            "privateScoringInputs": {
+                "rulesetDigest": scoring.ruleset.ruleset_digest,
+                "rulesetSnapshotDigest": scoring.ruleset_snapshot_digest,
+                "receiptDigests": sorted(scoring.receipt_digests),
+            },
         }
     )
     policy = {
@@ -1440,8 +2016,12 @@ def build_private_policy(
     return policy
 
 
-def write_private_policy(root: Path = ROOT) -> tuple[Path, dict[str, Any]]:
-    policy = build_private_policy(root)
+def write_private_policy(
+    root: Path = ROOT,
+    *,
+    scoring_policy_path: Path | None = None,
+) -> tuple[Path, dict[str, Any]]:
+    policy = build_private_policy(root, scoring_policy_path=scoring_policy_path)
     target = (
         root
         / ".ops"
@@ -1469,11 +2049,20 @@ def main(argv: list[str] | None = None) -> int:
             "state, with the legacy raw source retained as a read-only fallback."
         ),
     )
+    parser.add_argument(
+        "--scoring-policy",
+        type=Path,
+        help=(
+            "Explicit private versioned scoring ruleset. Defaults to the required "
+            "ignored credibility-v2 scoring-policies/active.json."
+        ),
+    )
     args = parser.parse_args(argv)
 
     policy = build_private_policy(
         ROOT,
         company_profiles_path=args.company_profiles,
+        scoring_policy_path=args.scoring_policy,
     )
     rendered = json.dumps(policy, indent=2, ensure_ascii=True, sort_keys=True) + "\n"
     changed = not POLICY_PATH.is_file() or POLICY_PATH.read_text(encoding="utf-8") != rendered
