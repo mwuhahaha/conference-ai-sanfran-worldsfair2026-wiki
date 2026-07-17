@@ -24,7 +24,9 @@ Co-founder & CEO, @perceptroninc; ex-RS FAIR/MSFT
 - [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents]] — From VLM/VLA's to Embodied Agents (2026-06-29, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents|From VLM/VLA's to Embodied Agents]]

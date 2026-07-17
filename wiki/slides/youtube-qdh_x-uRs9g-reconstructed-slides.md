@@ -183,7 +183,6 @@ Slide text:
 > Google DeepMind
 > AlEnginecr
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/qdh_x-uRs9g/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor logo wall
 - [`slide-002.jpg`](/assets/reconstructed-slides/qdh_x-uRs9g/slide-002.jpg) — `speaker_stage` confidence `0.98`; camera shot of speaker on stage with projected slide, not a clean presentation slide

@@ -39,5 +39,4 @@ Slide text:
 > 生
 > Al Engnoer Eurcpo 2020 Burding Al Engrecr wih Al
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/zepu8Kk6FBQ/audit.json`

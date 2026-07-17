@@ -30,7 +30,6 @@ Slide text:
 > implementation
 > implementation
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/DqtmZE6Hl0g/slide-001.jpg) — `title_card` confidence `0.98`; speaker intro card with headshot and webcam overlay
 

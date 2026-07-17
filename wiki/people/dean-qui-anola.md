@@ -19,7 +19,9 @@ Dean Quiñanola is a Staff Software Engineer and application engineering manager
 - [[2026-06-30-dean-qui-anola-ai-applications-in-a-flash-no-dev-ops-just-code]] — AI Applications in a flash! No Dev Ops. Just code. (2026-06-30, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-dean-qui-anola-ai-applications-in-a-flash-no-dev-ops-just-code|AI Applications in a flash! No Dev Ops. Just code.]]

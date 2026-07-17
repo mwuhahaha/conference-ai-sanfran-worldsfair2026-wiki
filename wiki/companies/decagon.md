@@ -2,19 +2,15 @@
 title: "Decagon"
 category: "companies"
 aliases: ["Decagon"]
-website: "https://decagon.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Decagon
 
 ## Overview
-Decagon is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build, optimize, and scale AI agents that treat every customer like the only one.
-
-## Background
-The official speaker roster connects Decagon to Sunny Rekhi. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Decagon is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Decagon matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: How Forward Deployed Engineering is done at Decagon.
+Decagon appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How Forward Deployed Engineering is done at Decagon.
 
 ## Conference Sessions
 - [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon]] - How Forward Deployed Engineering is done at Decagon (2026-06-29, 1:55pm-2:15pm)
@@ -23,19 +19,17 @@ Decagon matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[sunny-rekhi]] - FDE CTO
 
 ## Sources
-- [Decagon / The AI concierge for every customer](https://decagon.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon|How Forward Deployed Engineering is done at Decagon]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

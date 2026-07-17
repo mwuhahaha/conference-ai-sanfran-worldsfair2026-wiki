@@ -13,19 +13,18 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-jan-curn-x402-isn-t-good-yet]] — x402 isn’t good (yet)
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=blW-lSd5CYQ)
-
-## Related Scheduled Sessions
-- [[2026-07-01-jan-curn-x402-isn-t-good-yet]] — x402 isn’t good (yet)
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does
 ## Extracted Slides
 - [[youtube-blW-lSd5CYQ-dense-slides]]
 - [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 - [[youtube-blW-lSd5CYQ-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=blW-lSd5CYQ)

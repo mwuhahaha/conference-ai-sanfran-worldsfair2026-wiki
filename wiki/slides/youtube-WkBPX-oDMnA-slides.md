@@ -137,6 +137,5 @@ OCR text:
 > esl. TRACK 6 * JULY 1, 2026
 > Al Designers/Design Engineers
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

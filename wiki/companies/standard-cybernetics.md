@@ -2,19 +2,15 @@
 title: "Standard Cybernetics"
 category: "companies"
 aliases: ["Standard Cybernetics"]
-website: "https://standardcybernetics.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Standard Cybernetics
 
 ## Overview
-Standard Cybernetics is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Premium Services Delivery Partner.
-
-## Background
-The official speaker roster connects Standard Cybernetics to Matthew Jewkes. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Standard Cybernetics is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Standard Cybernetics matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Engineering Agency out of the Happy Path.
+Standard Cybernetics appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Engineering Agency out of the Happy Path.
 
 ## Conference Sessions
 - [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path]] - Engineering Agency out of the Happy Path (2026-06-30, 1:55pm-2:15pm)
@@ -23,19 +19,17 @@ Standard Cybernetics matters to this wiki through 1 official speaker(s) and 1 sc
 - [[matthew-jewkes]] - Cofounder & CTO
 
 ## Sources
-- [Standard Cybernetics](https://standardcybernetics.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path|Engineering Agency out of the Happy Path]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

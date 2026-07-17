@@ -195,7 +195,6 @@ Slide text:
 > local no data leaves your machine
 > MIT free, open source
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/dRmWYHuIJxM/audit.json`
 
 ## Slide-Derived Subjects To Review

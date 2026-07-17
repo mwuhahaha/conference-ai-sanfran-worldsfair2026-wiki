@@ -37,7 +37,10 @@ monitor-specific generator chain.
 The profile's private input is bootstrapped locally at the ignored path
 `.ops/state/cache/wiki-maker/private-policy.json`. Never publish that file or
 any of its contents to `wiki/`, `raw/sources/`, `dist/`, the agent index, or
-another tracked/public artifact.
+another tracked/public artifact. Provider/browser receipts, acquisition
+candidates, evidence assessments, and writing decisions likewise remain under
+ignored `.ops/state/cache/wiki-maker/credibility-v2/` state. Public adapters may
+project only reviewed, attributed context and categorical provenance.
 
 ## Public Repo Structure
 
@@ -93,6 +96,11 @@ It should preserve the official schedule/media evidence layer while adding Miami
 
 This clean directory excludes heavy regeneration caches such as downloaded videos and temporary frame samples. Use source artifacts under `raw/sources/`, wiki assets, and scripts first. If full media regeneration is needed, use the original non-clean project directory.
 
-For company-page enrichment, use `raw/sources/company-profiles.json` for curated public company-site/profile context and `scripts/enrich_company_pages.py` for conservative updates that avoid overwriting already curated pages.
+For company-page enrichment, acquisition candidates default to ignored
+`.ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json`.
+`scripts/enrich_company_pages.py` may project only the private policy's accepted,
+attributed subset and must not overwrite curated prose. The legacy
+`raw/sources/company-profiles.json` path is explicit-only compatibility input,
+not the default acquisition destination.
 
 `wiki/topics/agentic-web.md` is a generated schedule-specific topic page for talks about agent-facing web surfaces, browser/web automation, computer-use web navigation, agent-readable catalogs, and HTML/web substrates for agents. It should remain a topic, not a top-level standalone category.

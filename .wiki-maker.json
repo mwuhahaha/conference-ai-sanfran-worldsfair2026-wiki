@@ -7,7 +7,8 @@
     "raw/sources"
   ],
   "private_inputs": [
-    ".ops/state/cache/wiki-maker/private-policy.json"
+    ".ops/state/cache/wiki-maker/private-policy.json",
+    ".ops/state/cache/wiki-maker/credibility-v2"
   ],
   "adapters": [
     {
@@ -17,6 +18,9 @@
         "python3",
         "scripts/classify_video_resource_sources.py",
         "--manifest-only"
+      ],
+      "implementation_inputs": [
+        "scripts/classify_video_resource_sources.py"
       ],
       "triggers": [
         "media"
@@ -35,6 +39,9 @@
         "scripts/generate_transcript_markdown_pages.py",
         "--manifest-only"
       ],
+      "implementation_inputs": [
+        "scripts/generate_transcript_markdown_pages.py"
+      ],
       "dependencies": [
         "classify_media"
       ],
@@ -48,15 +55,139 @@
       "timeout_seconds": 900
     },
     {
-      "key": "talk_synthesis",
+      "key": "livestream_segments",
+      "version": "v2",
+      "command": [
+        "python3",
+        "scripts/generate_livestream_talk_segments.py"
+      ],
+      "implementation_inputs": [
+        "scripts/generate_livestream_talk_segments.py"
+      ],
+      "dependencies": [
+        "transcript_pages"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "talk_media_map",
       "version": "v1",
+      "command": [
+        "python3",
+        "scripts/generate_talk_video_transcript_map.py"
+      ],
+      "implementation_inputs": [
+        "scripts/generate_talk_video_transcript_map.py"
+      ],
+      "dependencies": [
+        "livestream_segments"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "credibility_provider_checks",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/run_credibility_provider_checks.py",
+        "--per-provider",
+        "1"
+      ],
+      "implementation_inputs": [
+        "scripts/run_credibility_provider_checks.py"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "private"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "credibility_policy",
+      "version": "v2",
+      "command": [
+        "python3",
+        "scripts/build_private_credibility_v2.py"
+      ],
+      "implementation_inputs": [
+        "scripts/build_private_credibility_v2.py"
+      ],
+      "dependencies": [
+        "transcript_pages",
+        "credibility_provider_checks"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "private"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "company_profiles",
+      "version": "v2",
+      "command": [
+        "python3",
+        "scripts/enrich_company_pages.py"
+      ],
+      "implementation_inputs": [
+        "scripts/enrich_company_pages.py"
+      ],
+      "dependencies": [
+        "credibility_policy"
+      ],
+      "triggers": [
+        "media",
+        "third_party",
+        "source",
+        "general"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "talk_synthesis",
+      "version": "v2",
       "command": [
         "python3",
         "scripts/generate_talk_synthesis.py",
         "--all"
       ],
+      "implementation_inputs": [
+        "scripts/generate_talk_synthesis.py"
+      ],
       "dependencies": [
-        "transcript_pages"
+        "transcript_pages",
+        "credibility_policy",
+        "livestream_segments"
       ],
       "triggers": [
         "media"
@@ -69,14 +200,22 @@
     },
     {
       "key": "source_enrichment",
-      "version": "v1",
+      "version": "v2",
       "command": [
         "python3",
         "scripts/enrich_all_articles_from_sources.py",
         "--all"
       ],
+      "implementation_inputs": [
+        "scripts/enrich_all_articles_from_sources.py"
+      ],
       "optional_dependencies": [
         "talk_synthesis"
+      ],
+      "dependencies": [
+        "credibility_policy",
+        "company_profiles",
+        "talk_media_map"
       ],
       "triggers": [
         "media",
@@ -91,14 +230,43 @@
       "timeout_seconds": 1800
     },
     {
+      "key": "attendance_evidence_sync",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/generate_attendance_calibration.py",
+        "--sync-current"
+      ],
+      "implementation_inputs": [
+        "scripts/generate_attendance_calibration.py"
+      ],
+      "dependencies": [
+        "source_enrichment"
+      ],
+      "triggers": [
+        "media"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
       "key": "synthesis_layers",
       "version": "v1",
       "command": [
         "python3",
         "scripts/generate_synthesis_layers.py"
       ],
+      "implementation_inputs": [
+        "scripts/generate_synthesis_layers.py"
+      ],
       "dependencies": [
         "source_enrichment"
+      ],
+      "optional_dependencies": [
+        "attendance_evidence_sync"
       ],
       "triggers": [
         "media",
@@ -120,6 +288,9 @@
         "scripts/enrich_evolution_context.py",
         "--all"
       ],
+      "implementation_inputs": [
+        "scripts/enrich_evolution_context.py"
+      ],
       "dependencies": [
         "synthesis_layers"
       ],
@@ -137,9 +308,12 @@
     },
     {
       "key": "normalize_articles",
-      "version": "v1",
+      "version": "v2",
       "command": [
         "python3",
+        "scripts/normalize_article_shapes.py"
+      ],
+      "implementation_inputs": [
         "scripts/normalize_article_shapes.py"
       ],
       "optional_dependencies": [
@@ -182,25 +356,6 @@
       ],
       "resource_pool": "candidate_writer",
       "timeout_seconds": 3600
-    },
-    {
-      "key": "relationship_data",
-      "version": "v1",
-      "command": [
-        "python3",
-        "scripts/build_relationship_dataset.py"
-      ],
-      "dependencies": [
-        "static_export"
-      ],
-      "triggers": [
-        "any"
-      ],
-      "mutates": [
-        "static"
-      ],
-      "resource_pool": "candidate_writer",
-      "timeout_seconds": 900
     }
   ]
 }

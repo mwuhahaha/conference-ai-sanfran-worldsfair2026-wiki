@@ -27,68 +27,55 @@ scheduleLabels: ["Main Stage", "Main Stage", "keynote", "confirmed"]
 ## Session Description
 No official description published in the schedule data.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
-![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
-- Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[garry-tan]]
-
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
 ## Synthesis
 ### Synthesized Breakdown
-Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
+The session argues that the leverage in AI-native organizations comes from how work is wired, not from model access alone. It maps skill files, resolver tables, filing rules, and trigger evaluations to organizational roles and controls, treating agents as a managed workforce rather than autocomplete. It separates judgment and interpretation in latent space from reliable state and calculation in deterministic systems, then defines a company brain as a curated library plus the librarian that selects the right context. The practical discipline is to preserve provenance, contradiction checks, and active pruning, and to turn successful one-off work into reusable skills so organizational knowledge compounds.
 
 ### Speaker And Company Context
 - [[garry-tan|Garry Tan]] — President & CEO at [[y-combinator|Y Combinator]].
 
 ### Topics Covered
+- [[agent-memory]]
 - [[agent-security]]
 - [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
 - [[coding-agents]]
-- [[mcp]]
 
 ### Derived Links And Source Material
-- [[youtube-I2cbIws9j10-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
-- [[youtube-I2cbIws9j10]] — related YouTube source page.
-- [[youtube-I2cbIws9j10-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10-dense-slides]] — slide evidence.
+- [[youtube-eBUyTS7SzV4-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/eBUyTS7SzV4.txt` (3,551 words).
+- [[youtube-eBUyTS7SzV4]] — related YouTube source page.
 
 ### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+- No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[garry-tan]]
 
-## Livestream Segment
-- [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+## Official YouTube Recording
+- [[youtube-eBUyTS7SzV4|Closing Keynote: Garry Tan, Y Combinator]] — official AI Engineer YouTube recording published 2026-07-17.
+- Evidence status: [[youtube-eBUyTS7SzV4-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Media Evidence
+- [[youtube-eBUyTS7SzV4]] - dedicated official event recording.
+- [[youtube-eBUyTS7SzV4-transcript]] - dedicated official recording transcript.
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/eBUyTS7SzV4.txt` (3,551 words).
+
+## Transcript Markdown
+- [[youtube-eBUyTS7SzV4-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/eBUyTS7SzV4.txt`.
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-eBUyTS7SzV4` — 3,551 transcript words; role: primary event evidence.
+- Interpretation rule for `youtube-eBUyTS7SzV4`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-eBUyTS7SzV4`: company, open, companies, brain, code, three, does, person.
+- Evidence links for `youtube-eBUyTS7SzV4` (primary event evidence): [[youtube-eBUyTS7SzV4]], [[youtube-eBUyTS7SzV4-transcript]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

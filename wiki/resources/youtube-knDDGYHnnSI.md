@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=knDDGYHnnSI)
-
-## Related Scheduled Sessions
-- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
 ## Extracted Slides
 - [[youtube-knDDGYHnnSI-dense-slides]]
 - [[youtube-knDDGYHnnSI-reconstructed-slides]]
 - [[youtube-knDDGYHnnSI-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=knDDGYHnnSI)

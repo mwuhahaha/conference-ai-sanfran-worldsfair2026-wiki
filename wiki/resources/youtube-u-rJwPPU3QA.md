@@ -17,18 +17,17 @@ An official AI Engineer YouTube channel video with a cached transcript. It is re
 - Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
 - Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/u-rJwPPU3QA.txt` (6,781 words).
-
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
 - Transcript keywords: `currently`, `vehicle`, `fine`, `woke`, `loud`, `simple`, `nudge`, `explodes`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=u-rJwPPU3QA)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-transcripts/u-rJwPPU3QA.txt` (6,781 words).
 
 ## Extracted Slides
 - [[youtube-u-rJwPPU3QA-slides]]
 
 ## Transcript Markdown
 - [[youtube-u-rJwPPU3QA-transcript]] — full cached transcript markdown.
+## Link
+[YouTube](https://www.youtube.com/watch?v=u-rJwPPU3QA)

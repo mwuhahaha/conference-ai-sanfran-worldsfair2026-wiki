@@ -2,19 +2,15 @@
 title: "GitHub"
 category: "companies"
 aliases: ["GitHub"]
-website: "https://github.com?ref=github.co"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # GitHub
 
 ## Overview
-GitHub is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
-
-## Background
-The official speaker roster connects GitHub to Idan Gazit, Salil Subbakrishna. The public company site was discovered by domain-guess and fetched for homepage metadata.
+GitHub is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-GitHub matters to this wiki through 2 official speaker(s) and 4 scheduled session(s), including: Build agents fast with GitHub Copilot (from idea to working app); Modernize CI/CD using agent-assisted workflows that reduce manual debugging; Build agents fast with GitHub Copilot (from idea to working app).
+GitHub appears through 2 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Build agents fast with GitHub Copilot (from idea to working app); Realtime multiplayer, automation, and you!; Modernize CI/CD using agent-assisted workflows that reduce manual debugging.
 
 ## Conference Sessions
 - [[2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging]] - Modernize CI/CD using agent-assisted workflows that reduce manual debugging (2026-06-29, 1:30pm-1:50pm)
@@ -26,10 +22,12 @@ GitHub matters to this wiki through 2 official speaker(s) and 4 scheduled sessio
 - [[salil-subbakrishna]] - role not listed
 
 ## Sources
-- [GitHub](https://github.com?ref=github.co)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging|Modernize CI/CD using agent-assisted workflows that reduce manual debugging]]
@@ -38,9 +36,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

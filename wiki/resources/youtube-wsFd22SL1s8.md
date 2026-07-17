@@ -13,19 +13,18 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=wsFd22SL1s8)
-
-## Related Scheduled Sessions
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 ## Extracted Slides
 - [[youtube-wsFd22SL1s8-dense-slides]]
 - [[youtube-wsFd22SL1s8-reconstructed-slides]]
 - [[youtube-wsFd22SL1s8-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=wsFd22SL1s8)

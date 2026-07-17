@@ -38,10 +38,26 @@ They fit engineering organizations, platform teams, internal tools groups, migra
 
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
 
+## Active Use Cases
+- Agent-assisted feature delivery pipelines.
+- Automated maintenance, migration, and dependency-update programs.
+- Multi-agent planning, coding, testing, and review workflows.
+- Internal developer platforms with AI-native task orchestration.
+
 ## Practical Lesson
 Evaluate the complete agent loop: task definition, context assembly, tool permissions, sandbox execution, verification, review, and provenance. Model capability alone is not the system boundary.
 
 **Confidence:** medium-high. Treat this as synthesis derived from the linked evidence graph, not as an official schedule claim.
+
+## Livestream Source
+- [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
+- [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
+
+## Neighboring Subjects
+- [[coding-agents]]
+- [[agent-security]]
+- [[agent-evaluations]]
+- [[ai-sandboxes]]
 
 ## Connections
 - [[2026-07-01-session-the-software-factory]] — The Software Factory; speaker TBD (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 4 SE; official schedule)
@@ -89,8 +105,51 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[amazon-web-services-aws|Amazon Web Services (AWS)]]
 - [[tessl|Tessl]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 29 | Related pages outside the main evidence categories. |
+| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
+- [[2026-07-01-session-the-software-factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-qdZzND79mcg]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-c35YoMdnI78]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-htM02KMNZnk-dense-slides]]
+- [[youtube-htM02KMNZnk-reconstructed-slides]]
+- [[youtube-4sX_He5c4sI-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-c35YoMdnI78-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
 ## Evidence Graph
-This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
 - [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
@@ -106,84 +165,30 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 
 ### Media Signals
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
-- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
-- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
-- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
-- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
-- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
+- Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
+- Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
+- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-n97BCfyFIvw`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
+- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
+- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
 - `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 29 | Related pages outside the main evidence categories. |
-| resources | 9 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 12 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
-- [[2026-07-01-session-the-software-factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-qdZzND79mcg]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-pMggiOb18tc]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-q4Tr-DknG2M]]
-
-### Slides
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-htM02KMNZnk-dense-slides]]
-- [[youtube-htM02KMNZnk-reconstructed-slides]]
-- [[youtube-q4Tr-DknG2M-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-pMggiOb18tc-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-q4Tr-DknG2M-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
-
-## Active Use Cases
-- Agent-assisted feature delivery pipelines.
-- Automated maintenance, migration, and dependency-update programs.
-- Multi-agent planning, coding, testing, and review workflows.
-- Internal developer platforms with AI-native task orchestration.
-
-## Livestream Source
-- [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
-- [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
-
-## Neighboring Subjects
-- [[coding-agents]]
-- [[agent-security]]
-- [[agent-evaluations]]
-- [[ai-sandboxes]]

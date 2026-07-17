@@ -278,7 +278,6 @@ Slide text:
 > AIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?
 > Google DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/SZStlIhyTCY/slide-001.jpg) — `speaker_stage` confidence `0.9`; Stage shot with presenters and conference signage, not a readable presentation slide.
 - [`slide-008.jpg`](/assets/reconstructed-slides/SZStlIhyTCY/slide-008.jpg) — `speaker_stage` confidence `0.99`; Stage camera shot with speakers on stage, not a presentation slide.

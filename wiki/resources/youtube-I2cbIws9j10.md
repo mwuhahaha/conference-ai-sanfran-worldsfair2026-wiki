@@ -17,15 +17,12 @@ An official AI Engineer YouTube livestream explicitly identified as AI Engineer 
 - Channel/source: official AI Engineer YouTube channel livestream.
 - Use: primary evidence for what the recording, transcript, and captured slides show; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
-
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
 - Transcript keywords: `scheduled`, `stallion`, `mortified`, `schema`, `distribution`, `precise`, `banks`, `probably`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=I2cbIws9j10)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
 
 ## Extracted Slides
 - [[youtube-I2cbIws9j10-dense-slides]]
@@ -33,3 +30,6 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Transcript Markdown
 - [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown.
+
+## Link
+[YouTube](https://www.youtube.com/watch?v=I2cbIws9j10)

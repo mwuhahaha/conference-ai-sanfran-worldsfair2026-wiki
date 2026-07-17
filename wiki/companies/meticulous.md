@@ -3,7 +3,7 @@ title: "Meticulous"
 category: "companies"
 aliases: ["Meticulous"]
 website: "https://www.meticulous.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Meticulous
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Meticulous is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Meticulous auto-generates and auto-maintains visual frontend browser tests, providing a level of coverage that is unattainable with manually written tests.
 
 ## Background
-The official speaker roster connects Meticulous to Gabriel Spencer-Harper. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Meticulous to Gabriel Spencer-Harper.
 
 ## Conference Relevance
 Meticulous matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Why AI Didn't Actually Make You Ship Faster.
@@ -26,16 +26,14 @@ Meticulous matters to this wiki through 1 official speaker(s) and 1 scheduled se
 - [Meticulous AI](https://www.meticulous.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster|Why AI Didn't Actually Make You Ship Faster]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

@@ -24,7 +24,9 @@ Lukas Petersson is co-founder of [[andon-labs|Andon Labs]], testing AIs in the r
 - [[2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business]] — Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business (2026-06-30, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business|Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business]]

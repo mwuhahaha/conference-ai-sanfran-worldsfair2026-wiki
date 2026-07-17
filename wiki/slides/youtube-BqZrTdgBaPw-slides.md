@@ -28,7 +28,6 @@ Slide text:
 
 > The Holy Grail
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/BqZrTdgBaPw/slide-001.jpg) — `speaker_stage` confidence `0.98`; Stage photo with presenter and audience; the projected slide is too blurry to read reliably.
 

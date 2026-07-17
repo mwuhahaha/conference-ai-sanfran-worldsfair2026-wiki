@@ -2,19 +2,15 @@
 title: "Postman"
 category: "companies"
 aliases: ["Postman"]
-website: "https://www.postman.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Postman
 
 ## Overview
-Postman is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Accelerate API development with Postman's all-in-one platform. Streamline collaboration and simplify the API lifecycle for faster, better results. Learn more.
-
-## Background
-The official speaker roster connects Postman to Kamalakannan Nandagopal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Postman is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Postman matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Beyond Code Generation: API Context for Agentic Engineering.
+Postman appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Beyond Code Generation: API Context for Agentic Engineering.
 
 ## Conference Sessions
 - [[2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering]] - Beyond Code Generation: API Context for Agentic Engineering (2026-06-30, 2:25pm-2:45pm)
@@ -23,19 +19,17 @@ Postman matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[kamalakannan-nandagopal]] - Staff Software Engineer
 
 ## Sources
-- [Postman: The World's Leading API Platform / Sign Up for Free](https://www.postman.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering|Beyond Code Generation: API Context for Agentic Engineering]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -2,19 +2,15 @@
 title: "Qdrant"
 category: "companies"
 aliases: ["Qdrant"]
-website: "https://qdrant.tech"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Qdrant
 
 ## Overview
-Qdrant is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Qdrant is an Open-Source Vector Search Engine written in Rust. It provides fast and scalable vector similarity search service with convenient API.
-
-## Background
-The official speaker roster connects Qdrant to Dylan Couzon. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Qdrant is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Qdrant matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Frontier Is Coming Home.
+Qdrant appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Frontier Is Coming Home.
 
 ## Conference Sessions
 - [[2026-06-30-dylan-couzon-the-frontier-is-coming-home]] - The Frontier Is Coming Home (2026-06-30, 2:50pm-3:10pm)
@@ -23,19 +19,17 @@ Qdrant matters to this wiki through 1 official speaker(s) and 1 scheduled sessio
 - [[dylan-couzon]] - DevRel Engineer
 
 ## Sources
-- [Qdrant - Vector Search Engine](https://qdrant.tech)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-dylan-couzon-the-frontier-is-coming-home|The Frontier Is Coming Home]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

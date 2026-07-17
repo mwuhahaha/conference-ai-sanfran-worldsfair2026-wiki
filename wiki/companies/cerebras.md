@@ -2,19 +2,15 @@
 title: "Cerebras"
 category: "companies"
 aliases: ["Cerebras"]
-website: "https://www.cerebras.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Cerebras
 
 ## Overview
-Cerebras is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Cerebras is the go-to platform for fast and effortless AI training. Learn more at cerebras.ai.
-
-## Background
-The official speaker roster connects Cerebras to Daniel Kim. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Cerebras is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Cerebras matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens.
+Cerebras appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens.
 
 ## Conference Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]] - All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens (2026-07-01, 11:40am-12:00pm)
@@ -23,10 +19,12 @@ Cerebras matters to this wiki through 1 official speaker(s) and 1 scheduled sess
 - [[daniel-kim]] - Head of Growth
 
 ## Sources
-- [Cerebras](https://www.cerebras.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

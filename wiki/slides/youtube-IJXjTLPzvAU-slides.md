@@ -95,7 +95,6 @@ Slide text:
 
 > After 2015, the Schuyler Mansion's visitors nearly tripled — and arrived already knowing "facts."
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/IJXjTLPzvAU/audit.json`
 
 ## Slide-Derived Subjects To Review

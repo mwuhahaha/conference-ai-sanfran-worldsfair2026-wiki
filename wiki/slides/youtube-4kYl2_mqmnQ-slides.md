@@ -144,7 +144,6 @@ Slide text:
 > Kubernetes
 > If you're running agents at any scale, let's compare notes.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/4kYl2_mqmnQ/audit.json`
 
 ## Slide-Derived Subjects To Review

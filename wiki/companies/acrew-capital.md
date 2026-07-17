@@ -3,7 +3,7 @@ title: "Acrew Capital"
 category: "companies"
 aliases: ["Acrew Capital"]
 website: "https://www.acrewcapital.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Acrew Capital
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Acrew Capital is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Defining the future of venture.
 
 ## Background
-The official speaker roster connects Acrew Capital to Aliisa Rosenthal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Acrew Capital to Aliisa Rosenthal.
 
 ## Conference Relevance
 Acrew Capital matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Reverse-Engineering the AI Buyer.
@@ -26,16 +26,14 @@ Acrew Capital matters to this wiki through 1 official speaker(s) and 1 scheduled
 - [Home](https://www.acrewcapital.com/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer|Reverse-Engineering the AI Buyer]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

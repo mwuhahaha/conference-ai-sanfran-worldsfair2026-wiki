@@ -24,7 +24,9 @@ Sarthak is the co-founder of [[decawork|Decawork]], building autonomous IT admin
 - [[2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department]] — IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department (2026-06-29, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department|IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department]]

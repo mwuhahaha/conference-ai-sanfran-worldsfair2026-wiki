@@ -39,5 +39,4 @@ Slide text:
 > 
 > AI Engineer EUROPE
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/-TiET_K-E_g/audit.json`

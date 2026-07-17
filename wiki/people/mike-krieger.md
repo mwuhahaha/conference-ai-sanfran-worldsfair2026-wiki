@@ -23,19 +23,16 @@ Mike Krieger leads [[anthropic|Anthropic]] Labs and previously served as [[anthr
 ## Conference Sessions
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs (2026-07-01, 10:00am-10:20am)
 
+## Livestream Appearances
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-5N33E9tC400` — source page linked; role: supporting context only.
 - Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-
-## Livestream Appearances
-- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

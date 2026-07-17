@@ -1,12 +1,12 @@
 ---
-title: "Transcript: The Golden Age of AI Engineering"
+title: "Transcript: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI"
 category: "transcripts"
 videoId: "pMggiOb18tc"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "4606"
 ---
 
-# Transcript: The Golden Age of AI Engineering
+# Transcript: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=pMggiOb18tc)

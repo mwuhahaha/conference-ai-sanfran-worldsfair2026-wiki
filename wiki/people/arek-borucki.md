@@ -26,7 +26,9 @@ Arek Borucki is a Machine Learning Platform & Database Engineer at [[hugging-fac
 - [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub]] — Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub|Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub]]

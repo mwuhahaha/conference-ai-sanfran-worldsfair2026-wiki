@@ -145,7 +145,6 @@ Slide text:
 
 > Simplified Loop
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-005.jpg`](/assets/dense-slides/I2cbIws9j10/slide-005.jpg) — `speaker_stage` confidence `0.99`; speaker intro card
 

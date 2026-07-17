@@ -24,7 +24,9 @@ Anna is a Developer Advocate at [[stripe|Stripe]] based in Portland, Oregon. Bef
 - [[2026-07-01-anna-spysz-teaching-agents-to-pay]] — Teaching agents to pay (2026-07-01, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-anna-spysz-teaching-agents-to-pay|Teaching agents to pay]]

@@ -2,19 +2,15 @@
 title: "Neo4j"
 category: "companies"
 aliases: ["Neo4j"]
-website: "https://neo4j.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Neo4j
 
 ## Overview
-Neo4j is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
-
-## Background
-The official speaker roster connects Neo4j to Emil Eifrem, Jeremy Adams, Nyah Macklin, Stephen Chin, Will Lyon, Zach Blumenfeld. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Neo4j is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Neo4j matters to this wiki through 6 official speaker(s) and 6 scheduled session(s), including: AI on Your Lakehouse: Context Comes in Shapes, Not Queries; RAG Needs a Map: Using GraphRAG to Retrieve Connected Context; Actionable Knowledge For Agents With Context Graphs.
+Neo4j appears through 6 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer; Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory; RAG Needs a Map: Using GraphRAG to Retrieve Connected Context.
 
 ## Conference Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] - RAG Needs a Map: Using GraphRAG to Retrieve Connected Context (2026-06-29, 11:05am-12:05pm)
@@ -33,10 +29,12 @@ Neo4j matters to this wiki through 6 official speaker(s) and 6 scheduled session
 - [[zach-blumenfeld]] - AI Research Engineer
 
 ## Sources
-- [Graph Database & Analytics](https://neo4j.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
@@ -47,10 +45,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-eW_vxrjvERk` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
 - Evidence links for `youtube-eW_vxrjvERk` (supporting context only): [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
@@ -63,9 +57,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
 - Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

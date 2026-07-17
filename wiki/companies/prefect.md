@@ -2,19 +2,15 @@
 title: "Prefect"
 category: "companies"
 aliases: ["Prefect"]
-website: "https://www.prefect.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Prefect
 
 ## Overview
-Prefect is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Orchestrate workflows with Prefect. Connect AI agents to your tools and data with Horizon. Open-source foundations, production-ready platforms.
-
-## Background
-The official speaker roster connects Prefect to Jeremiah Lowin. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Prefect is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Prefect matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Generative UI... in Python?.
+Prefect appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Generative UI... in Python?.
 
 ## Conference Sessions
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] - Generative UI... in Python? (2026-06-30, 3:20pm-3:40pm)
@@ -23,10 +19,12 @@ Prefect matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[jeremiah-lowin]] - Founder & CEO
 
 ## Sources
-- [Prefect](https://www.prefect.io/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
 - Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -127,7 +127,6 @@ Slide text:
 > Roboflow Universe community interence/models/yolovs AGPL-3.0
 > 14
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-006.jpg`](/assets/dense-slides/OimPoLxioYg/slide-006.jpg) — `demo_video` confidence `0.96`; Stage composite with live demo screen, presenter footage, and sponsor logos; not a readable presentation slide.
 - [`slide-007.jpg`](/assets/dense-slides/OimPoLxioYg/slide-007.jpg) — `speaker_stage` confidence `0.17`; camera shot of speaker on stage with projected screen and sponsor logos; not a clean slide

@@ -17,18 +17,17 @@ An official AI Engineer YouTube channel video with a cached transcript. It is re
 - Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
 - Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/pmoDeA3RBZY.txt` (3,258 words).
-
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[software-factories|Software Factories]], [[agent-evaluations|Agent Evaluations]]
 - Transcript keywords: `simple`, `night`, `flipping`, `worlds`, `used`, `plan`, `asked`, `probably`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=pmoDeA3RBZY)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-transcripts/pmoDeA3RBZY.txt` (3,258 words).
 
 ## Extracted Slides
 - [[youtube-pmoDeA3RBZY-slides]]
 
 ## Transcript Markdown
 - [[youtube-pmoDeA3RBZY-transcript]] — full cached transcript markdown.
+## Link
+[YouTube](https://www.youtube.com/watch?v=pmoDeA3RBZY)

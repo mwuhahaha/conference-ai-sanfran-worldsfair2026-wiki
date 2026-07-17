@@ -19,12 +19,12 @@ Tanmai is the CEO/cofounder of [[promptql|PromptQL]] (née Hasura). He loves pro
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves]] — Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves. (2026-06-29, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
 
 ### Media Signals
-- `youtube-himhGiWJXjo` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
-- Evidence links for `youtube-himhGiWJXjo` (supporting context only): [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

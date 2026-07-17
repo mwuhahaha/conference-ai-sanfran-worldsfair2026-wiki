@@ -69,7 +69,6 @@ Slide text:
 > LinkedIn: Erik Hanchett
 > X/Bluesky: Erikch
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/IddXPepIAS4/audit.json`
 
 ## Slide-Derived Subjects To Review

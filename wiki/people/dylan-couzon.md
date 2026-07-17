@@ -20,7 +20,9 @@ Dylan Couzon is a DevRel Engineer at [[qdrant|Qdrant]]. His WF26 talk, "The Fron
 - [[2026-06-30-dylan-couzon-the-frontier-is-coming-home]] — The Frontier Is Coming Home (2026-06-30, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-dylan-couzon-the-frontier-is-coming-home|The Frontier Is Coming Home]]

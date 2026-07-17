@@ -3,7 +3,7 @@ title: "Qodo"
 category: "companies"
 aliases: ["Qodo"]
 website: "https://www.qodo.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Qodo
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Qodo is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Qodo is an agentic code review and integrity platform for improving code quality at every stage.
 
 ## Background
-The official speaker roster connects Qodo to Itamar Friedman, Wallon Walusayi. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Qodo to Itamar Friedman, Wallon Walusayi.
 
 ## Conference Relevance
 Qodo matters to this wiki through 2 official speaker(s) and 3 scheduled session(s), including: The Last Human Code Review: Building Trust in AI-Generated Code; AI Engineering & Governance 2026 Trends; AI Engineering & Governance 2026 Trends.
@@ -29,7 +29,9 @@ Qodo matters to this wiki through 2 official speaker(s) and 3 scheduled session(
 - [Qodo](https://www.qodo.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
@@ -37,12 +39,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends|AI Engineering & Governance 2026 Trends]]
 
 ### Media Signals
-- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
-- Evidence links for `youtube-rgjF5o2Qjsc` (supporting context only): [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

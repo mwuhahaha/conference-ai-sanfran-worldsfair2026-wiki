@@ -20,7 +20,9 @@ Dan Bjornn is a Senior Data Scientist at [[lease-end|Lease End]], where he build
 - [[2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards]] — Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards (2026-06-29, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards|Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards]]

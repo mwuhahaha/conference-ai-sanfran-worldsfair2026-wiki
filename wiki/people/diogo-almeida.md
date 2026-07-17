@@ -24,7 +24,9 @@ Diogo Almeida is the Co-founder and CEO of [[typesafe-ai|TypeSafe AI]], a compan
 - [[2026-06-30-diogo-almeida-what-s-next-after-rlhf]] — What's next after RLHF? (2026-06-30, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-diogo-almeida-what-s-next-after-rlhf|What's next after RLHF?]]

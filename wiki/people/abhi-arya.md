@@ -19,7 +19,9 @@ Abhi Arya works on product, software, infrastructure, and applied AI at [[reduct
 - [[2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work]] — From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work (2026-06-29, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work|From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work]]

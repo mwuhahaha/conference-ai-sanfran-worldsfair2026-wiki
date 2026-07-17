@@ -24,7 +24,9 @@ Kevin leads product engineering for Antigravity, [[google-deepmind|Google DeepMi
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way]] — Get Out of the Model's Way (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way|Get Out of the Model's Way]]

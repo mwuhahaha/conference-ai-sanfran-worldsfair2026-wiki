@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier]] — Designing Agents (The Floor Is the Frontier)
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=5nOLb27hQ5w)
-
-## Related Scheduled Sessions
-- [[2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier]] — Designing Agents (The Floor Is the Frontier)
 ## Extracted Slides
 - [[youtube-5nOLb27hQ5w-dense-slides]]
 - [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 - [[youtube-5nOLb27hQ5w-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=5nOLb27hQ5w)

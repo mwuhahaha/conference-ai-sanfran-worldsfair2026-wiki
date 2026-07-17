@@ -19,7 +19,9 @@ No official bio included in the speaker JSON.
 - [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages]] — Agents Don't Have Coworkers, They Have Hostages (2026-06-29, 11:40am-12:00pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages|Agents Don't Have Coworkers, They Have Hostages]]

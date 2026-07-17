@@ -138,7 +138,6 @@ Slide text:
 > Designer → Design Engineer
 > Team level-up → Speed unlocked
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-002.jpg`](/assets/slides/UcYoMg-8-L8/slide-002.jpg) — `sponsor_logo` confidence `0.96`; logo wall
 - [`slide-003.jpg`](/assets/slides/UcYoMg-8-L8/slide-003.jpg) — `title_card` confidence `0.99`; speaker intro card

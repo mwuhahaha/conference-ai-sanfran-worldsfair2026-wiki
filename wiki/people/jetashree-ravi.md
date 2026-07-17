@@ -20,7 +20,9 @@ Jetashree Ravi is a Tech Lead Manager on [[fireworks-ai|Fireworks AI]]'s Applied
 - [[2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai]] — Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai|Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI]]

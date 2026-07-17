@@ -9,7 +9,7 @@ scheduleRooms: ["Expo Stage 2 NW"]
 
 # Twilio Agent Connect
 
-## Why It Belongs
+## Conference Context
 Twilio Agent Connect appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

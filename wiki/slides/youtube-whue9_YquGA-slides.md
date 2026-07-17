@@ -134,7 +134,6 @@ Slide text:
 
 > Block lays off nearly half its staff because of AI. Its CEO said most companies will do the same
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-011.jpg`](/assets/slides/whue9_YquGA/slide-011.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a presentation slide
 

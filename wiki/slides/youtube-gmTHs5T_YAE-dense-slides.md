@@ -44,7 +44,6 @@ Slide text:
 > vocab_stze:156939
 > TRL Microsoft smol?
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/dense-slides/gmTHs5T_YAE/slide-001.jpg) — `title_card` confidence `0.97`; speaker intro card
 

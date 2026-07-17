@@ -34,5 +34,4 @@ Slide text:
 > - The Collision: Forcing natural language intent into discrete booleans lobotomizes the context.
 > - The Fix: Preserve semantic meaning through raw strings so the agent can adapt intelligently downstream.
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/3_gYbhABcAE/audit.json`

@@ -26,7 +26,9 @@ Ben is a software engineer and content creator helping everyone make the world b
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide]] — LLM Knowledge Bases: a practical guide (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide|LLM Knowledge Bases: a practical guide]]

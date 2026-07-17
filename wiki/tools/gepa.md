@@ -10,19 +10,19 @@ scheduleRooms: ["Main Stage"]
 ---
 # GEPA
 
-## What It Is
+## Overview
 GEPA is a reflective prompt optimizer and open-source project. The official schedule describes it as using language-model reflection over trajectories, tool calls, and errors to diagnose failures and propose targeted improvements.
 
 ## Conference Context
 The official speaker roster lists [[lakshya-agrawal|Lakshya Agrawal]] as the creator and maintainer of GEPA. It preserves `GEPA` as his exact official roster affiliation while this wiki classifies the affiliation target as a tool/project rather than a company.
 
-## Official Schedule
+## Related Scheduled Sessions
 - [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization]] - Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization (Autoresearch / Main Stage)
 
 ## Maintainer
 - [[lakshya-agrawal]] - Creator and maintainer of GEPA
 
-## Public Sources
+## Sources
 - [GEPA repository](https://github.com/gepa-ai/gepa)
 
 ## Evidence Boundary

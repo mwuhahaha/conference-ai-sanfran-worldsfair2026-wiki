@@ -102,7 +102,6 @@ Slide text:
 > · Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm
 > # Braintrust WorkOs OpenAi
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/wcUJWP6WpGM/audit.json`
 
 ## Slide-Derived Subjects To Review

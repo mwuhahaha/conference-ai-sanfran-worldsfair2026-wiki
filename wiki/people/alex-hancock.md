@@ -22,7 +22,9 @@ Engineer at [[block|Block]] building goose. Maintainer of the Model Context Prot
 - [[2026-06-30-alex-hancock-the-universal-remote-control-for-ai]] — The Universal Remote Control for AI (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-alex-hancock-the-universal-remote-control-for-ai|The Universal Remote Control for AI]]

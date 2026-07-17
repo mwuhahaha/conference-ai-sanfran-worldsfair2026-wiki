@@ -97,7 +97,6 @@ Slide text:
 > AIEngineer
 > EUROPE
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/mFLlVpnGpds/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker at podium with projected slide; not a readable slide capture
 - [`slide-006.jpg`](/assets/slides/mFLlVpnGpds/slide-006.jpg) — `sponsor_logo` confidence `0.99`; logo/end card, not a content slide

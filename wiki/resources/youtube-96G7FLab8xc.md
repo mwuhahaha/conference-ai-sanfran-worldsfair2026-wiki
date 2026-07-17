@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] — Generative UI... in Python?
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=96G7FLab8xc)
-
-## Related Scheduled Sessions
-- [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] — Generative UI... in Python?
 ## Extracted Slides
 - [[youtube-96G7FLab8xc-dense-slides]]
 - [[youtube-96G7FLab8xc-reconstructed-slides]]
 - [[youtube-96G7FLab8xc-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=96G7FLab8xc)

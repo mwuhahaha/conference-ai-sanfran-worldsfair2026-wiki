@@ -96,5 +96,4 @@ Slide text:
 > ANTHROP\C
 > AlEngineer Engineering the future of Al
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/aqW68Is_Kj4/audit.json`

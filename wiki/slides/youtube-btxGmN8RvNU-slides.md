@@ -115,7 +115,6 @@ Slide text:
 
 > Google DeepMind
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/btxGmN8RvNU/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with projected slide in the background
 - [`slide-002.jpg`](/assets/slides/btxGmN8RvNU/slide-002.jpg) — `title_card` confidence `0.96`; session intro/title card

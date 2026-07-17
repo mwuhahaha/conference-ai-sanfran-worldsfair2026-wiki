@@ -27,30 +27,9 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ## Session Description
 Fraud detection has always been a race against time. In traditional event-sourced systems, every transaction, login, or transfer is captured as a sequence of immutable events. These events tell a clear story — but only after the fact. What if events could do more than just record history? What if they could talk back? In this talk, we’ll explore how agentic event-driven systems transform fraud detection. Imagine every PaymentInitiated, LoginAttempt, or DeviceChanged event not just being logged, but immediately consumed by an autonomous Fraud Detection Agent. This agent correlates events across accounts, reasons over historical event streams, and generates new events like SuspiciousActivityFlagged or TransactionHeldForReview. Through a real-world inspired use case in banking and digital payments, we’ll show: - How event sourcing provides the perfect memory layer for fraud detection agents - Patterns for agents to safely inject new domain events without violating invariants - How to avoid runaway feedback loops when multiple agents interact (e.g., fraud + compliance + customer service agents) - Governance, auditing, and explainability challenges when autonomous agents take part in mission-critical workflows By the end of this session, you’ll see how event-driven DDD systems evolve when agents stop being passive consumers and start actively shaping the event stream — turning fraud detection from a reactive process into a proactive, adaptive defense.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[divakar-kumar]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## Synthesis
 ### Synthesized Breakdown
-# Let's integrate AI Agents in Event-Sourced Systems ## Conference Context - Date/time: 2026-07-01 · 11:40am-12:00pm - Track/room: AI in Finance · Track 3 - Speaker(s): Divakar Kumar - Session type/status: session · confirmed - Track: AI in Finance - Room: Track 3 - Session type: session - Status: confirmed ## Session Description Fraud detection has always been a race against time. In traditional event-sourced systems, every transaction, login, or transfer is captured as a sequence of immutable events. These events tell a clear story — but only after the fact. What if events could do more than just record history?
+Fraud detection has always been a race against time. In traditional event-sourced systems, every transaction, login, or transfer is captured as a sequence of immutable events. These events tell a clear story — but only after the fact. What if events could do more than just record history?
 
 ### Speaker And Company Context
 - [[divakar-kumar|Divakar Kumar]] — Technical Architect at [[flyerssoft|FlyersSoft]].
@@ -65,3 +44,21 @@ No official session recording transcript was found by exact title match on the A
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+## People
+- [[divakar-kumar]]
+
+## Media Evidence
+No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

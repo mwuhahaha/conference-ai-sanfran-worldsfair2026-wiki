@@ -289,7 +289,6 @@ Slide text:
 > Can enforce strict limits on capabilities
 > Have excellent scaling characteristics
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-002.jpg`](/assets/slides/spNAUEgq_A8/slide-002.jpg) — `sponsor_logo` confidence `0.99`; speaker intro / logo wall, not a presentation content slide
 - [`slide-003.jpg`](/assets/slides/spNAUEgq_A8/slide-003.jpg) — `other` confidence `0.92`; decorative painted background with speaker inset and no readable slide text

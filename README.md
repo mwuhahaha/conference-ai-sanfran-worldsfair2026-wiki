@@ -58,18 +58,30 @@ locally. It does not deploy the site externally. The official YouTube monitor
 invokes this same update entry point once when it has admitted new event media;
 it does not maintain a separate generator chain.
 
-The current admitted official-media corpus remains 22 items: 17 recordings, 2
-scheduled premieres, and 3 event livestreams. The generated transcript layer
-contains 114 pages, labeled as 18 primary-event transcripts and 96 supporting
-context transcripts. Final local run `update-20260716T215951Z-e366f7cbd6`
-completed and promoted snapshot
-`snapshot:2c83d7569c73047af50d86924ca8eaf7ca073fb6894af029cfc6450fda9e22bd`;
-no external deployment was performed. Repeating the same update is a no-op.
+The reconciled official-media union contains 34 items: 26 recordings, 3
+scheduled premieres, 2 unavailable playlist placeholders, and 3 event
+livestreams. All 29 official-playlist entries are represented. Of those, 24 are
+currently playable recordings with cached transcripts; 3 remain scheduled and
+2 unavailable. The generated transcript layer contains 123 pages, labeled as
+28 primary-event transcripts and 95 supporting-context transcripts. Playlist
+slide outcomes are 23 cached, 1 verified `no_slides`, 3 pending, and 2
+unavailable.
+
+Final local run `update-20260717T051453Z-43aefe0a3d` completed all 16 stages
+and promoted snapshot
+`snapshot:b00976ab3a3272e1f2532a9db296cb97c522bed892725c8b4258b63c54be5711`.
+Its agent product is
+`snapshot:521c817de54118bbd2190c616edb5991f0355859040dcbcc9e663f10eb1c74c2`.
+The identical follow-up request returned a planning no-op. No external
+deployment was performed.
 
 Private review-policy bootstrap data lives only at the ignored local path
 `.ops/state/cache/wiki-maker/private-policy.json`, referenced through
 `.wiki-maker.json`. Never copy that file or its contents into `wiki/`,
 `raw/sources/`, `dist/`, the agent index, or another publishable artifact.
+The deeper provider, browser, evidence, and writing-policy state follows the
+same boundary under `.ops/state/cache/wiki-maker/credibility-v2/`; only
+reviewed, attributed source context may be projected into public articles.
 
 ## Diagnostic Toolkit
 

@@ -165,7 +165,6 @@ Slide text:
 
 > THANK YOU
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/EY4O9M6AsWI/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor logo wall, no presentation content
 - [`slide-002.jpg`](/assets/reconstructed-slides/EY4O9M6AsWI/slide-002.jpg) — `speaker_stage` confidence `0.98`; speaker on stage, not a slide

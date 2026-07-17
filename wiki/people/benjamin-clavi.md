@@ -24,7 +24,9 @@ MTS at Mixedbread working on building the future of Retrieval.
 - [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents]] — If we want them to do Knowledge Work, we need to design Knowledge Agents (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents|If we want them to do Knowledge Work, we need to design Knowledge Agents]]

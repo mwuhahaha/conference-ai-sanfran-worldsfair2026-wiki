@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Discover and cache public company profiles for company wiki pages.
+"""Discover and privately cache company-profile candidates for review.
 
 The script is intentionally conservative. It uses the official roster as the
 company list, tries several public discovery methods, fetches lightweight HTML
-metadata from likely official sites, and writes profile records that the
-company-page renderer can use.
+metadata from likely official sites, and writes candidate records under ignored
+project state. Publication requires the separate credibility-v2 identity gate.
 """
 
 from __future__ import annotations
@@ -23,12 +23,16 @@ from urllib.parse import parse_qs, quote_plus, unquote, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-from build_worldsfair_wiki import ROOT, assign_talk_slugs, day_to_date, slugify, talk_slug
+from build_worldsfair_wiki import ROOT, assign_talk_slugs, slugify, talk_slug
 from third_party_connection_policy import INTERNAL_DIR, assess_connection, write_internal_policy
 
 
 RAW = ROOT / "raw" / "sources"
-PROFILES = RAW / "company-profiles.json"
+PRIVATE_PROFILES_RELATIVE = Path(
+    ".ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json"
+)
+LEGACY_PUBLIC_PROFILES_RELATIVE = Path("raw/sources/company-profiles.json")
+PROFILES = ROOT / PRIVATE_PROFILES_RELATIVE
 REPORT = INTERNAL_DIR / "company-profile-fetch-report.json"
 
 USER_AGENT = "WorldsfairWikiCompanyEnricher/1.0 (+https://aie-worldsfair2026.plusrobot.ai/)"
@@ -153,6 +157,25 @@ def load_json(path: Path, fallback):
 def save_json(path: Path, data) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def resolve_profiles_path(value: Path) -> Path:
+    """Resolve an operator-selected path while keeping private state the default."""
+
+    return value if value.is_absolute() else ROOT / value
+
+
+def load_profiles_for_run(path: Path) -> tuple[dict, bool]:
+    """Bootstrap the private default from the legacy corpus without rewriting it."""
+
+    if path.is_file():
+        payload = load_json(path, {})
+        return (payload if isinstance(payload, dict) else {}), False
+    legacy = ROOT / LEGACY_PUBLIC_PROFILES_RELATIVE
+    if path.resolve() == PROFILES.resolve() and legacy.is_file():
+        payload = load_json(legacy, {})
+        return (payload if isinstance(payload, dict) else {}), True
+    return {}, False
 
 
 def company_name_from_slug(slug: str, speakers: list[dict]) -> str:
@@ -523,10 +546,20 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=1)
     parser.add_argument("--force", action="store_true", help="Refetch even when a profile summary already exists.")
     parser.add_argument("--slug", action="append", help="Only fetch this company slug. Repeatable.")
+    parser.add_argument(
+        "--profiles",
+        type=Path,
+        default=PROFILES,
+        help=(
+            "Candidate-state JSON path. Defaults to ignored credibility-v2 state. "
+            "Pass raw/sources/company-profiles.json only for explicit legacy compatibility."
+        ),
+    )
     args = parser.parse_args()
     write_internal_policy()
 
-    profiles = load_json(PROFILES, {})
+    profiles_path = resolve_profiles_path(args.profiles)
+    profiles, bootstrapped_from_legacy = load_profiles_for_run(profiles_path)
     slug_to_company, people_by_company, sessions_by_company = collect_company_context()
     targets = sorted(slug_to_company)
     if args.slug:
@@ -537,7 +570,12 @@ def main() -> int:
     if args.limit:
         targets = targets[: args.limit]
 
-    report = {"updated": [], "skipped_existing": [], "failures": []}
+    report = {
+        "updated": [],
+        "skipped_existing": [],
+        "failures": [],
+        "bootstrappedFromLegacy": bootstrapped_from_legacy,
+    }
     def process(index_slug: tuple[int, str]) -> tuple[str, dict | None, dict | None, str | None]:
         index, slug = index_slug
         company = slug_to_company[slug]
@@ -583,7 +621,7 @@ def main() -> int:
             profiles[slug] = merge_profile(existing, profile, args.force)
             report["updated"].append(entry)
             print(json.dumps({"index": entry["index"], "total": len(targets), "slug": slug, "status": entry["status"], "score": entry["score"]}, sort_keys=True))
-    save_json(PROFILES, profiles)
+    save_json(profiles_path, profiles)
     save_json(REPORT, report)
     print(json.dumps({"profiles": len(profiles), "updated": len(report["updated"]), "failures": len(report["failures"])}, sort_keys=True))
     return 0

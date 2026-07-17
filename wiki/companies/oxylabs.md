@@ -2,19 +2,15 @@
 title: "Oxylabs"
 category: "companies"
 aliases: ["Oxylabs"]
-website: "https://oxylabs.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Oxylabs
 
 ## Overview
-Oxylabs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The best proxy service platform with 175M+ Residential and 2M Datacenter IP proxies. Extract public data from any website with ease!
-
-## Background
-The official speaker roster connects Oxylabs to Giedrius Steimantas, Patricija Žemaitytė. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Oxylabs is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Oxylabs matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: How Web Data Infrastructure Powers the Next Generation of AI; The Missing Layer in Agentic AI.
+Oxylabs appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Missing Layer in Agentic AI; How Web Data Infrastructure Powers the Next Generation of AI.
 
 ## Conference Sessions
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]] - How Web Data Infrastructure Powers the Next Generation of AI (2026-06-30, 3:20pm-3:40pm)
@@ -25,10 +21,12 @@ Oxylabs matters to this wiki through 2 official speaker(s) and 2 scheduled sessi
 - [[patricija-emaityt]] - Product Manager
 
 ## Sources
-- [Oxylabs - High Quality Proxy Service to Gather Data at Scale](https://oxylabs.io/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]
@@ -36,9 +34,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

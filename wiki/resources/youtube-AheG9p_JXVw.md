@@ -6,12 +6,16 @@ sourceLabels: ["External YouTube secondary source", "YouTube transcript", "Slide
 ---
 # AI Engineer World's Fair: Building Reelful - Agentic Video Editor
 
-## Source
+## What It Is
 - [YouTube](https://www.youtube.com/watch?v=AheG9p_JXVw)
 - Uploader: Kate | AI Founder - Building Reelful
 - Upload date: 2026-07-03
 - Duration: 10:25
 
+## Source Classification
+- Source role: supporting external video source.
+- Channel/source: non-official YouTube upload or external event-related recording.
+- Use: supporting context only unless manually verified as an exact official event recording.
 ## Relationship To World's Fair 2026
 This is a high-confidence external secondary source for [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]. It is not from the official AI Engineer channel, so it should be treated as supporting evidence unless manually verified as the exact official session recording.
 
@@ -24,7 +28,3 @@ The match is strong because the title and description explicitly identify AI Eng
 
 ## Transcript Markdown
 - [[youtube-AheG9p_JXVw-transcript]] — full cached transcript markdown.
-## Source Classification
-- Source role: supporting external video source.
-- Channel/source: non-official YouTube upload or external event-related recording.
-- Use: supporting context only unless manually verified as an exact official event recording.

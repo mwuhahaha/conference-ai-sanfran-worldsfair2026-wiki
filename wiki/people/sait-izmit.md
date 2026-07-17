@@ -20,7 +20,9 @@ Sait Izmit is a Principal Product Manager at [[snowflake|Snowflake]] focused on 
 - [[2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users]] — Building GTM AI Agents: Lessons from Deploying to 6,000 Users (2026-07-01, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users|Building GTM AI Agents: Lessons from Deploying to 6,000 Users]]

@@ -301,7 +301,6 @@ Slide text:
 > The harness that watches itself is the moat.
 > The model is the part you swap. The loop is the part you own.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/kZsf_Sfm7RU/audit.json`
 
 ## Slide-Derived Subjects To Review

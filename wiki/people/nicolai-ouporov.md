@@ -19,7 +19,9 @@ Nicolai Ouporov is founder and CEO of [[fleet|Fleet]], an applied AI and product
 - [[2026-06-29-nicolai-ouporov-building-worlds-for-models]] — Building Worlds for Models (2026-06-29, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-nicolai-ouporov-building-worlds-for-models|Building Worlds for Models]]

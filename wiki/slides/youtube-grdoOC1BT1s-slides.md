@@ -53,7 +53,6 @@ Slide text:
 
 > Engineering the future of AI
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/grdoOC1BT1s/slide-001.jpg) — `speaker_stage` confidence `0.12`; camera shot of presenters and audience; projected slide is too small and unreadable
 

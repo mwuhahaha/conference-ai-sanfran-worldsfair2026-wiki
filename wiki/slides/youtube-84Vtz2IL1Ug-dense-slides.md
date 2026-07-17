@@ -36,7 +36,6 @@ Slide text:
 
 > Alpaca: A Strong, Replicable Instruction-Following Model
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-003.jpg`](/assets/dense-slides/84Vtz2IL1Ug/slide-003.jpg) — `speaker_stage` confidence `0.99`; Stage photo with speaker and projected slide; not a standalone readable slide.
 

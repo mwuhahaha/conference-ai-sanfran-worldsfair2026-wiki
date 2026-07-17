@@ -19,11 +19,10 @@ An official AI Engineer YouTube media item connected to AI Engineer World's Fair
 ## Transcript Status
 No article transcript is expected for this non-talk event reel; it is kept as supporting media rather than topic evidence.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=gUMwt4-5kn0)
-
 ## Extracted Slides
 - [[youtube-gUMwt4-5kn0-slides]]
 
 ## Transcript Markdown
 - [[youtube-gUMwt4-5kn0-transcript]] — full cached transcript markdown.
+## Link
+[YouTube](https://www.youtube.com/watch?v=gUMwt4-5kn0)

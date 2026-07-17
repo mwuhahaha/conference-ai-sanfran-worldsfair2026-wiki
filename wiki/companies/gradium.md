@@ -3,7 +3,7 @@ title: "Gradium"
 category: "companies"
 aliases: ["Gradium"]
 website: "https://gradium.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Gradium
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Gradium is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Gradium builds ultra low latency voice AI models for developers. Generate expressive text to speech, accurate speech to text, and high fidelity voice clones with a single API.
 
 ## Background
-The official speaker roster connects Gradium to Neil Zeghidour. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Gradium to Neil Zeghidour.
 
 ## Conference Relevance
 Gradium matters to this wiki through 1 official speaker(s) and 5 scheduled session(s), including: Your Voice Agent is Just a Walkie-Talkie; Everybody Gets a Digital Clone! (Part 1 of 3); Everybody Gets a Digital Clone! (Part 2 of 3).
@@ -30,7 +30,9 @@ Gradium matters to this wiki through 1 official speaker(s) and 5 scheduled sessi
 - [Gradium](https://gradium.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie|Your Voice Agent is Just a Walkie-Talkie]]
@@ -43,9 +45,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

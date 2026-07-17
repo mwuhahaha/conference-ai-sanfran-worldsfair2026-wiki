@@ -51,7 +51,7 @@ def official_wf_cut_ids() -> set[str]:
     ids.update(
         str(item.get("id"))
         for item in manifest.get("videos", [])
-        if isinstance(item, dict) and item.get("id") and item.get("mediaType") != "event_livestream"
+        if isinstance(item, dict) and item.get("id") and item.get("mediaType") == "talk_recording"
     )
     return ids
 
@@ -64,6 +64,39 @@ def official_wf_premiere_ids() -> set[str]:
         if isinstance(item, dict)
         and item.get("id")
         and item.get("mediaType") == "scheduled_premiere"
+    }
+
+
+def official_wf_playlist_ids() -> set[str]:
+    manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    return {
+        str(item.get("id"))
+        for item in manifest.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("associationEvidence") == "official_wf26_playlist_membership"
+    }
+
+
+def official_wf_unavailable_ids() -> set[str]:
+    manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    return {
+        str(item.get("id"))
+        for item in manifest.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("mediaType") == "unavailable_playlist_item"
+    }
+
+
+def official_wf_no_slides_ids() -> set[str]:
+    manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    return {
+        str(item.get("id"))
+        for item in manifest.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("slideStatus") == "no_slides"
     }
 
 
@@ -137,7 +170,28 @@ def video_id_from_page(path: Path, text: str) -> str:
     return name.removeprefix("youtube-")
 
 
-def classification(video_id: str, official_streams: set[str], official_cuts: set[str], official_premieres: set[str], external: set[str]) -> tuple[str, list[str]]:
+def classification(
+    video_id: str,
+    official_streams: set[str],
+    official_cuts: set[str],
+    official_premieres: set[str],
+    external: set[str],
+    official_playlist: set[str] | None = None,
+    official_unavailable: set[str] | None = None,
+    official_no_slides: set[str] | None = None,
+) -> tuple[str, list[str]]:
+    playlist_ids = official_playlist or set()
+    unavailable_ids = official_unavailable or set()
+    no_slides_ids = official_no_slides or set()
+    if video_id in unavailable_ids:
+        return (
+            "official event unavailable playlist item",
+            [
+                "- Source role: official WF26 playlist association metadata only.",
+                "- Channel/source: unavailable item retained from the official AI Engineer WF26 playlist.",
+                "- Use: do not use this placeholder as content, transcript, slide, or schedule evidence.",
+            ],
+        )
     if video_id in official_streams:
         return (
             "primary event livestream",
@@ -157,12 +211,30 @@ def classification(video_id: str, official_streams: set[str], official_cuts: set
             ],
         )
     if video_id in official_cuts:
+        use_line = (
+            "- Use: primary evidence for the published recording and transcript; "
+            "the recording explicitly has no slide deck, and official schedule pages "
+            "remain canonical for schedule metadata."
+            if video_id in no_slides_ids
+            else "- Use: primary evidence for published recording, transcript, and slide "
+            "content; official schedule pages remain canonical for titles, times, tracks, "
+            "rooms, speakers, and affiliations."
+        )
+        if video_id in playlist_ids:
+            return (
+                "primary event playlist recording",
+                [
+                    "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
+                    "- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.",
+                    use_line,
+                ],
+            )
         return (
             "primary event cut video",
             [
                 "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
                 "- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.",
-                "- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.",
+                use_line,
             ],
         )
     if video_id in external:
@@ -184,6 +256,29 @@ def classification(video_id: str, official_streams: set[str], official_cuts: set
     )
 
 
+def rebuild_slide_registry() -> int:
+    """Make the standard slide registry reflect the current Markdown corpus."""
+
+    slide_dir = WIKI / "slides"
+    rows = []
+    for page in sorted(slide_dir.glob("youtube-*.md")):
+        text = page.read_text(encoding="utf-8", errors="ignore")
+        title_match = re.search(r'^title: "?(.*?)"?$', text, re.M)
+        rows.append(
+            {
+                "id": page.stem,
+                "title": title_match.group(1) if title_match else page.stem,
+                "path": f"wiki/slides/{page.name}",
+                "slide_count": len(re.findall(r"!\[\[assets/slides/", text)),
+            }
+        )
+    (slide_dir / "registry.json").write_text(
+        json.dumps(rows, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    return len(rows)
+
+
 def upsert_section(text: str, heading: str, body_lines: list[str]) -> str:
     frontmatter, body = split_frontmatter(text)
     section = f"## {heading}\n" + "\n".join(body_lines).strip() + "\n\n"
@@ -202,7 +297,12 @@ def upsert_section(text: str, heading: str, body_lines: list[str]) -> str:
 
 def rewrite_what_it_is(text: str, role: str) -> str:
     frontmatter, body = split_frontmatter(text)
-    if role == "primary event scheduled premiere":
+    if role == "official event unavailable playlist item":
+        replacement = (
+            "## What It Is\n"
+            "An unavailable item retained from the official AI Engineer WF26 playlist. Playlist membership establishes event association only; no content or schedule claim is made.\n"
+        )
+    elif role == "primary event scheduled premiere":
         replacement = (
             "## What It Is\n"
             "A verified official AI Engineer YouTube premiere for AI Engineer World's Fair San Francisco 2026. "
@@ -219,6 +319,12 @@ def rewrite_what_it_is(text: str, role: str) -> str:
             "## What It Is\n"
             "An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. "
             "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.\n"
+        )
+    elif role == "primary event playlist recording":
+        replacement = (
+            "## What It Is\n"
+            "An official AI Engineer YouTube recording admitted through the official WF26 playlist. "
+            "Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.\n"
         )
     elif role == "supporting external video":
         replacement = (
@@ -244,6 +350,9 @@ def main() -> int:
     official_streams = official_wf_livestream_ids()
     official_cuts = official_wf_cut_ids()
     official_premieres = official_wf_premiere_ids()
+    official_playlist = official_wf_playlist_ids()
+    official_unavailable = official_wf_unavailable_ids()
+    official_no_slides = official_wf_no_slides_ids()
     external = external_video_ids()
     manifest_ids = official_streams | {
         str(item.get("id"))
@@ -258,12 +367,31 @@ def main() -> int:
             continue
         if args.video_id and video_id not in set(args.video_id):
             continue
-        role, body = classification(video_id, official_streams, official_cuts, official_premieres, external)
+        role, body = classification(
+            video_id,
+            official_streams,
+            official_cuts,
+            official_premieres,
+            external,
+            official_playlist,
+            official_unavailable,
+            official_no_slides,
+        )
         counts[role] = counts.get(role, 0) + 1
         text = rewrite_what_it_is(text, role)
         text = upsert_section(text, "Source Classification", body)
         path.write_text(text.rstrip() + "\n", encoding="utf-8")
-    print(json.dumps({"updated": sum(counts.values()), "counts": counts}, sort_keys=True))
+    slide_registry_count = rebuild_slide_registry()
+    print(
+        json.dumps(
+            {
+                "updated": sum(counts.values()),
+                "counts": counts,
+                "slide_registry_count": slide_registry_count,
+            },
+            sort_keys=True,
+        )
+    )
     return 0
 
 

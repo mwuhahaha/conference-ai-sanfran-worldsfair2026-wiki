@@ -26,7 +26,9 @@ Currently focused on UIUX for agentic AI as the Founding Designer at [[yutori|Yu
 - [[2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed]] — Mousepower: agents that can’t be measured, can’t be managed. (2026-06-30, 12:05pm-12:25pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed|Mousepower: agents that can’t be measured, can’t be managed.]]

@@ -22,7 +22,9 @@ Chaitanya leads agentic experiences & clinical decision support at [[abridge|Abr
 - [[2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence]] — From Ambient Documentation to Clinical Intelligence (2026-07-01, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence|From Ambient Documentation to Clinical Intelligence]]

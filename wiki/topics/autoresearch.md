@@ -37,6 +37,22 @@ AutoResearch is useful for technical due diligence, literature reviews, market m
 
 Use it when the answer depends on multiple sources, evolving evidence, or repeated comparison across papers, products, transcripts, benchmarks, or implementation patterns. It is especially relevant when a team needs a source-grounded briefing, a research map, or an experiment plan rather than a single answer. Avoid relying on it as a black-box oracle for high-stakes conclusions; the connected material repeatedly points toward closed-loop research systems, but those loops still need traceable evidence, evaluation, and human judgment.
 
+## Active Use Cases
+- Evidence-grounded briefing docs and source maps.
+- Research agents that compare papers, products, or implementation patterns.
+- Experiment-planning support for AI and data teams.
+- Conference or domain wiki synthesis from talks, transcripts, and slides.
+
+## Livestream Source
+- [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.
+- [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
+
+## Neighboring Subjects
+- [[agent-evaluations]]
+- [[agentic-search]]
+- [[agent-memory]]
+- [[inference-engineering]]
+
 ## Connections
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]] — Closing the Loop: An Autonomous AI Research Agent; [[tim-sweeney|Tim Sweeney]] (Day 3 — Session Day 2 · 1:30pm-1:50pm · Autoresearch; official schedule)
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf; [[zhengyao-jiang|Zhengyao Jiang]], [[dixing-xu|Dixing Xu]], [[vayum-arora|Vayum Arora]], [[dhruv-srikanth|Dhruv Srikanth]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Workshops Day 1; official schedule)
@@ -126,8 +142,50 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[openai|OpenAI]]
 - [[poolside|poolside]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 61 | Related pages outside the main evidence categories. |
+| resources | 5 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 4 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-q4Tr-DknG2M]]
+- [[youtube-WkBPX-oDMnA]]
+- [[youtube-dvft0Gp9sEE]]
+- [[youtube-bk0TmxoZlUY]]
+
+### Slides
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+
+### Tools
+- [[browserbase]]
+- [[prime-intellect]]
 ## Evidence Graph
-This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
@@ -143,93 +201,12 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 
 ### Media Signals
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
 - Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
-- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
-- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
-- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
-- `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
-- Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
-- Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 61 | Related pages outside the main evidence categories. |
-| resources | 9 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 14 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
-
-### Resources
-- [[youtube-q4Tr-DknG2M]]
-- [[youtube-WkBPX-oDMnA]]
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-dvft0Gp9sEE]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-htM02KMNZnk]]
-
-### Slides
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-htM02KMNZnk-dense-slides]]
-- [[youtube-htM02KMNZnk-reconstructed-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-q4Tr-DknG2M-transcript]]
-- [[youtube-WkBPX-oDMnA-transcript]]
-- [[youtube-n97BCfyFIvw-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-
-### Tools
-- [[browserbase]]
-- [[prime-intellect]]
-
-## Active Use Cases
-- Evidence-grounded briefing docs and source maps.
-- Research agents that compare papers, products, or implementation patterns.
-- Experiment-planning support for AI and data teams.
-- Conference or domain wiki synthesis from talks, transcripts, and slides.
-
-## Livestream Source
-- [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.
-- [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
-
-## Neighboring Subjects
-- [[agent-evaluations]]
-- [[agentic-search]]
-- [[agent-memory]]
-- [[inference-engineering]]

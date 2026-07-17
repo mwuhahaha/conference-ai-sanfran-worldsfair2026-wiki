@@ -3,7 +3,7 @@ title: "Weco AI"
 category: "companies"
 aliases: ["Weco AI"]
 website: "https://www.weco.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Weco AI
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Weco AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Weco is a research and product lab building recursively self-improving AI.
 
 ## Background
-The official speaker roster connects Weco AI to Dhruv Srikanth, Dixing Xu, Vayum Arora, Zhengyao Jiang. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Weco AI to Dhruv Srikanth, Dixing Xu, Vayum Arora, Zhengyao Jiang.
 
 ## Conference Relevance
 Weco AI matters to this wiki through 4 official speaker(s) and 2 scheduled session(s), including: Hands-on AutoResearch: Cracking OpenAI's Parameter Golf; An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge.
@@ -30,7 +30,9 @@ Weco AI matters to this wiki through 4 official speaker(s) and 2 scheduled sessi
 - [Weco AI](https://www.weco.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
@@ -38,9 +40,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

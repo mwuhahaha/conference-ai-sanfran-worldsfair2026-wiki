@@ -2,19 +2,15 @@
 title: "PromptQL"
 category: "companies"
 aliases: ["PromptQL"]
-website: "https://promptql.io"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # PromptQL
 
 ## Overview
-PromptQL is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Curating context is a second job nobody wants. PromptQL is the team brain that organizes itself. Work with your team in shared AI threads, and PromptQL turns the context you generate into suggested edits to your wiki - interconnected pages that span skills, knowledge, and the semantic layer. You just accept.
-
-## Background
-The official speaker roster connects PromptQL to Tanmai Gopal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+PromptQL is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-PromptQL matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves..
+PromptQL appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves..
 
 ## Conference Sessions
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves]] - Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves. (2026-06-29, 2:50pm-3:10pm)
@@ -23,21 +19,17 @@ PromptQL matters to this wiki through 1 official speaker(s) and 1 scheduled sess
 - [[tanmai-gopal]] - CEO/cofounder
 
 ## Sources
-- [PromptQL / Multiplayer AI with shared context.](https://promptql.io)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
 
 ### Media Signals
-- `youtube-himhGiWJXjo` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
-- Evidence links for `youtube-himhGiWJXjo` (supporting context only): [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

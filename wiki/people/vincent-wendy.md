@@ -20,7 +20,9 @@ Vincent Wendy is a Senior Creative Designer at [[ai-engineer|AI Engineer]], focu
 - [[2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables]] — One Designer + Al. Hundreds of Deliverables. (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables|One Designer + Al. Hundreds of Deliverables.]]

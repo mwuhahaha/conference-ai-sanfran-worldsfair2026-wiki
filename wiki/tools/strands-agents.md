@@ -9,7 +9,7 @@ scheduleRooms: ["Track 9", "Expo Stage 3 SW", "Leadership 1"]
 
 # Strands Agents
 
-## Why It Belongs
+## Conference Context
 Strands Agents appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

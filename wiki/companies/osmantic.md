@@ -2,19 +2,15 @@
 title: "Osmantic"
 category: "companies"
 aliases: ["Osmantic"]
-website: "https://osmantic.com/?utm_source=redirect_domain&utm_medium=domain_redirect&utm_campaign=osmantic_redirect_sources&utm_content=osmantic.ai&redirect_source=osmantic.ai"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Osmantic
 
 ## Overview
-Osmantic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Osmantic designs, deploys, and operates private AI infrastructure, GPU strategy, inference systems, governed agents, specialized models, and continuous evaluation.
-
-## Background
-The official speaker roster connects Osmantic to Ahmad Osman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Osmantic is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Osmantic matters to this wiki through 1 official speaker(s) and 5 scheduled session(s), including: Local LLMs and workstation agents: Part 1; Local LLMs and workstation agents: Part 2; State of the Union: Why Local, Why Now.
+Osmantic appears through 1 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Local LLMs and workstation agents: Part 1; Local LLMs and workstation agents: Part 2; State of the Union: Why Local, Why Now.
 
 ## Conference Sessions
 - [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1]] - Local LLMs and workstation agents: Part 1 (2026-06-29, 11:05am-12:05pm)
@@ -26,10 +22,12 @@ Osmantic matters to this wiki through 1 official speaker(s) and 5 scheduled sess
 - [[ahmad-osman]] - Founder & CEO
 
 ## Sources
-- [Osmantic](https://osmantic.com/?utm_source=redirect_domain&utm_medium=domain_redirect&utm_campaign=osmantic_redirect_sources&utm_content=osmantic.ai&redirect_source=osmantic.ai)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1|Local LLMs and workstation agents: Part 1]]
@@ -38,15 +36,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk|'Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk']]
 
 ### Media Signals
-- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
-- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

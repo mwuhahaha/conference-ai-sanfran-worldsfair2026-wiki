@@ -17,7 +17,9 @@ No official bio included in the speaker JSON.
 - [[2026-06-29-charlie-dickens-towards-reliable-financial-agents-how-a-4b-model-outsmarted-a-235b-giant]] — Towards Reliable Financial Agents: How a 4B Model Outsmarted a 235B Giant (2026-06-29, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-charlie-dickens-towards-reliable-financial-agents-how-a-4b-model-outsmarted-a-235b-giant|Towards Reliable Financial Agents: How a 4B Model Outsmarted a 235B Giant]]

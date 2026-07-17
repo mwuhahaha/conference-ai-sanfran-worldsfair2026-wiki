@@ -19,7 +19,9 @@ Kamalakannan Nandagopal is a Staff Software Engineer at [[postman|Postman]] work
 - [[2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering]] — Beyond Code Generation: API Context for Agentic Engineering (2026-06-30, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering|Beyond Code Generation: API Context for Agentic Engineering]]

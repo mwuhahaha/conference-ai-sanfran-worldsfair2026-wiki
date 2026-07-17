@@ -26,7 +26,9 @@ Co-founder and CEO at [[turbopuffer|turbopuffer]]. Formerly Principal Engineer a
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents]] — How to Connect AI to Billions of Legal Documents (2026-06-29, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]

@@ -32,5 +32,4 @@ Slide text:
 > AIEngineer
 > EUROPE
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/eW_vxrjvERk/audit.json`

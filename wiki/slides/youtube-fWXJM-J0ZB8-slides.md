@@ -333,7 +333,6 @@ Slide text:
 > -.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0
 > YtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response" son\nfin A"summaryA"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/fWXJM-J0ZB8/slide-001.jpg) — `title_card` confidence `0.84`; speaker intro card with logo collage
 

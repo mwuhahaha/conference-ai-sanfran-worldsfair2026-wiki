@@ -153,7 +153,6 @@ Slide text:
 > 
 > Claude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/4uFVSLgD2Q4/slide-001.jpg) — `title_card` confidence `0.97`; title card
 - [`slide-006.jpg`](/assets/slides/4uFVSLgD2Q4/slide-006.jpg) — `sponsor_logo` confidence `0.98`; logo-only partnership slide

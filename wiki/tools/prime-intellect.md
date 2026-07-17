@@ -9,7 +9,7 @@ scheduleRooms: ["Track 6", "Track 9", "Main Stage", "Track 5", "Expo Stage 1 NE"
 
 # Prime Intellect Stack
 
-## Why It Belongs
+## Conference Context
 Prime Intellect Stack appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

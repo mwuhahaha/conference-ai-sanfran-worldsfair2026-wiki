@@ -32,5 +32,4 @@ Slide text:
 > “…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”
 > Dario Amodei
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/BZtD0yYAgCQ/audit.json`

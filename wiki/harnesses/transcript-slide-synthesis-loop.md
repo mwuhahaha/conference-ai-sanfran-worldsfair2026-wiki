@@ -4,6 +4,7 @@ category: "harnesses"
 status: "seeded"
 sourceLabels: ["Livestream resource", "Slide evidence", "Source map", "Source rules"]
 ---
+
 # Transcript Slide Synthesis Loop
 
 ## Overview

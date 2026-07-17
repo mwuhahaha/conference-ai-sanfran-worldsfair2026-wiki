@@ -17,7 +17,7 @@ No official bio included in the speaker JSON.
 - [[2026-06-30-tbd-sonar-redesigning-how-software-gets-built]] — Redesigning how software gets built (2026-06-30, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Linked Sessions
 - [[2026-06-30-tbd-sonar-redesigning-how-software-gets-built|Redesigning how software gets built]]

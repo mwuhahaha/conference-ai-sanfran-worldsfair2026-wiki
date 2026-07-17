@@ -50,14 +50,14 @@
     "path": "wiki/topics/inference-engineering.md"
   },
   {
-    "id": "mcp",
-    "title": "Model Context Protocol",
-    "path": "wiki/topics/mcp.md"
-  },
-  {
     "id": "mcp-app-runtime",
     "title": "MCP Apps as Agentic App Runtime",
     "path": "wiki/topics/mcp-app-runtime.md"
+  },
+  {
+    "id": "mcp",
+    "title": "Model Context Protocol",
+    "path": "wiki/topics/mcp.md"
   },
   {
     "id": "nearly-headless-web",

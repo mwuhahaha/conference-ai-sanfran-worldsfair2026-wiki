@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-jack-morris-scaling-compute-on-context]] — Scaling Compute on Context
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=Jty4s9-Jb78)
-
-## Related Scheduled Sessions
-- [[2026-06-30-jack-morris-scaling-compute-on-context]] — Scaling Compute on Context
 ## Extracted Slides
 - [[youtube-Jty4s9-Jb78-dense-slides]]
 - [[youtube-Jty4s9-Jb78-reconstructed-slides]]
 - [[youtube-Jty4s9-Jb78-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=Jty4s9-Jb78)

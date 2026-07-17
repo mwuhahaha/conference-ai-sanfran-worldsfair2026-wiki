@@ -17,18 +17,17 @@ An official AI Engineer YouTube channel video with a cached transcript. It is re
 - Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
 - Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/G6IlDzj8OjA.txt` (5,917 words).
-
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[agent-memory|Agent Memory]]
 - Transcript keywords: `hate`, `night`, `simple`, `conferences`, `loud`, `proposition`, `warm`, `distribution`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=G6IlDzj8OjA)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-transcripts/G6IlDzj8OjA.txt` (5,917 words).
 
 ## Extracted Slides
 - [[youtube-G6IlDzj8OjA-slides]]
 
 ## Transcript Markdown
 - [[youtube-G6IlDzj8OjA-transcript]] — full cached transcript markdown.
+## Link
+[YouTube](https://www.youtube.com/watch?v=G6IlDzj8OjA)

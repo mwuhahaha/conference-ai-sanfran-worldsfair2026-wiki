@@ -76,7 +76,6 @@ Slide text:
 > Thank you
 > Questions welcome on LinkedIn.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-006.jpg`](/assets/slides/Akm1sqvWG4A/slide-006.jpg) — `demo_video` confidence `0.99`; File picker overlay from demo footage, not a readable presentation slide.
 - [`slide-007.jpg`](/assets/slides/Akm1sqvWG4A/slide-007.jpg) — `demo_video` confidence `0.99`; Trace-detail app screenshot from demo footage, not a presentation slide.

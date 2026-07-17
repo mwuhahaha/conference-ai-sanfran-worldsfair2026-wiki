@@ -23,7 +23,9 @@ Harald Kirschner is a Principal Product Manager at [[microsoft|Microsoft]] worki
 - [[2026-06-30-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people]] — Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People (2026-06-30, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people|Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People]]

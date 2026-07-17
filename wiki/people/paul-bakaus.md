@@ -29,7 +29,9 @@ His mission: move the human-AI interface past the chat box, and build AI tools f
 - [[2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives]] — Design at the Speed of Adjectives (2026-06-30, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering|The Dark Arts of Skill Engineering]]

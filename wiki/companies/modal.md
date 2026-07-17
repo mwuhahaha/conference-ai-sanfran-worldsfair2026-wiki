@@ -2,19 +2,15 @@
 title: "Modal"
 category: "companies"
 aliases: ["Modal"]
-website: "https://modal.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Modal
 
 ## Overview
-Modal is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Bring your own code, and run CPU, GPU, and data-intensive compute at scale. The serverless platform for AI and data teams.
-
-## Background
-The official speaker roster connects Modal to Adam Azzam, Charles Frye, Nan Jiang. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Modal is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Modal matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: What is an Inference Engine, Anyway?; Don’t build agents, build environments; Taking Reinforcement Learning Cross Datacenter.
+Modal appears through 3 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Don’t build agents, build environments; What is an Inference Engine, Anyway?; Taking Reinforcement Learning Cross Datacenter.
 
 ## Conference Sessions
 - [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway]] - What is an Inference Engine, Anyway? (2026-06-29, 11:05am-12:05pm)
@@ -27,10 +23,12 @@ Modal matters to this wiki through 3 official speaker(s) and 3 scheduled session
 - [[nan-jiang]] - MTS
 
 ## Sources
-- [Modal](https://modal.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway|What is an Inference Engine, Anyway?]]
@@ -40,9 +38,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-DeFF3J8T5Pk` — source page linked; role: supporting context only.
 - Evidence links for `youtube-DeFF3J8T5Pk` (supporting context only): [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

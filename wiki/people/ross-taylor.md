@@ -24,7 +24,9 @@ CEO at [[general-reasoning|General Reasoning]] Inc building long-horizon AI syst
 - [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute]] — Scaling to Long-Horizons: Algorithms, Environments, Compute (2026-06-29, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute|Scaling to Long-Horizons: Algorithms, Environments, Compute]]

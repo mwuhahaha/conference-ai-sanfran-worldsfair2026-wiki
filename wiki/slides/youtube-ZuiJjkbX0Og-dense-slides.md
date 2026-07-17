@@ -49,5 +49,4 @@ Slide text:
 > Available for AI consulting
 > • Training, Strategy & Implementation
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/ZuiJjkbX0Og/audit.json`

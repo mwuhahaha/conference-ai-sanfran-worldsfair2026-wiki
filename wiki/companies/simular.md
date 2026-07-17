@@ -2,19 +2,15 @@
 title: "Simular"
 category: "companies"
 aliases: ["Simular"]
-website: "https://www.simular.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Simular
 
 ## Overview
-Simular is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Simular AI delivers open-source, intelligent AI agents powered by leading research to automate computer tasks, streamline workflows, and enhance productivity. Transform your digital experience today!
-
-## Background
-The official speaker roster connects Simular to Ang Li. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Simular is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Simular matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents.
+Simular appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents.
 
 ## Conference Sessions
 - [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents]] - The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents (2026-06-29, 4:30pm-5:30pm)
@@ -23,21 +19,17 @@ Simular matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[ang-li]] - CEO
 
 ## Sources
-- [Simular - The Autonomous Computer Company](https://www.simular.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents|'The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents']]
 
 ### Media Signals
-- `youtube-F_RyElT_gJk` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
-- Evidence links for `youtube-F_RyElT_gJk` (supporting context only): [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

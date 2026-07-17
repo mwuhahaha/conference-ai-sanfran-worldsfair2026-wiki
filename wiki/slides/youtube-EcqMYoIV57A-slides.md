@@ -28,7 +28,6 @@ Slide text:
 
 > Failure Mode 1: The Context Trap
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/EcqMYoIV57A/slide-001.jpg) — `speaker_stage` confidence `0.97`; speaker on stage with projected slide in background
 - [`slide-002.jpg`](/assets/slides/EcqMYoIV57A/slide-002.jpg) — `title_card` confidence `0.98`; title/intro card, not substantive content

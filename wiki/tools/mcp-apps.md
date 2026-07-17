@@ -9,7 +9,7 @@ scheduleRooms: ["Expo Stage 3 SW", "Track 3", "Track 8", "Track 6"]
 
 # MCP Apps
 
-## Why It Belongs
+## Conference Context
 MCP Apps appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

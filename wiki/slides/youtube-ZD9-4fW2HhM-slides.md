@@ -313,7 +313,6 @@ Slide text:
 > share the skill '+ subogent dehauthe ourtvr thupr risky brls -- me "pyren! sct
 > Angt lorr D or Dx Qsrtr Aneurdstan crgdones tech
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/ZD9-4fW2HhM/audit.json`
 
 ## Slide-Derived Subjects To Review

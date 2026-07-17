@@ -19,7 +19,9 @@ Matt Gibiec is a Regional Director in [[dynatrace|Dynatrace]]’s Solutions Engi
 - [[2026-07-01-matt-gibiec-your-ai-agent-has-no-nervous-system]] — Your AI Agent Has No Nervous System (2026-07-01, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-matt-gibiec-your-ai-agent-has-no-nervous-system|Your AI Agent Has No Nervous System]]

@@ -27,36 +27,6 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ## Session Description
 Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement. And to guide your agents well, it's not enough to just verify correctness -- you actually need to understand the work they're doing. In this talk, I'll share some techniques for staying in the loop and efficiently developing understanding, combining old ideas from education and cognitive science with modern agent capabilities. You'll walk away with some practical tips for moving faster with agents by understanding more, not less.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-- [[youtube-WkBPX-oDMnA-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-WkBPX-oDMnA`
-- Slide deck: [[youtube-WkBPX-oDMnA-slides|Slides: WkBPX-oDMnA]] — 12 visible slide image(s).
-![[assets/slides/WkBPX-oDMnA/slide-001.jpg]]
-![[assets/slides/WkBPX-oDMnA/slide-002.jpg]]
-![[assets/slides/WkBPX-oDMnA/slide-003.jpg]]
-- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
-- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
-- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[geoffrey-litt]]
-
 ## Synthesis
 ### Synthesized Breakdown
 What's up? Yeah, thank you for coming to the design engineering track at AI. Is everyone having fun? Yeah, I think this is going to be a great track, so get excited.
@@ -70,7 +40,7 @@ What's up? Yeah, thank you for coming to the design engineering track at AI. Is 
 - [[coding-agents]]
 
 ### Derived Links And Source Material
-- [[youtube-WkBPX-oDMnA-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/WkBPX-oDMnA.txt` (3,765 words).
+- [[youtube-WkBPX-oDMnA-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/WkBPX-oDMnA.txt` (3,765 words).
 - [[youtube-WkBPX-oDMnA]] — related YouTube source page.
 - [[youtube-WkBPX-oDMnA-slides]] — slide evidence.
 
@@ -78,9 +48,40 @@ What's up? Yeah, thank you for coming to the design engineering track at AI. Is 
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[geoffrey-litt]]
 
 ## Official YouTube Recording
-- [[youtube-WkBPX-oDMnA]] — official AI Engineer YouTube channel recording published 2026-07-10.
-- Evidence status: [[youtube-WkBPX-oDMnA-transcript]]; [[youtube-WkBPX-oDMnA-slides]].
-- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+- [[youtube-WkBPX-oDMnA|Understanding is the new bottleneck — Geoffrey Litt, Notion]] — official AI Engineer YouTube recording published 2026-07-10.
+- Evidence status: [[youtube-WkBPX-oDMnA-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Media Evidence
+- [[youtube-WkBPX-oDMnA]] - dedicated official event recording.
+- [[youtube-WkBPX-oDMnA-transcript]] - dedicated official recording transcript.
+
+- Source video: `youtube-WkBPX-oDMnA`
+- Slide deck: [[youtube-WkBPX-oDMnA-slides|Slides: WkBPX-oDMnA]] — 12 visible slide image(s).
+![[assets/slides/WkBPX-oDMnA/slide-001.jpg]]
+![[assets/slides/WkBPX-oDMnA/slide-002.jpg]]
+![[assets/slides/WkBPX-oDMnA/slide-003.jpg]]
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/WkBPX-oDMnA.txt` (3,765 words).
+
+## Transcript Markdown
+- [[youtube-WkBPX-oDMnA-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/WkBPX-oDMnA.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-WkBPX-oDMnA` — 3,765 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-WkBPX-oDMnA`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-WkBPX-oDMnA`: code, understand, understanding, point, notion, okay, take, question.
+- Slide-derived themes for `youtube-WkBPX-oDMnA`: track, july, understand, important, humans, tools, better, than.
+- Evidence links for `youtube-WkBPX-oDMnA` (primary event evidence): [[youtube-WkBPX-oDMnA]], [[youtube-WkBPX-oDMnA-transcript]], [[youtube-WkBPX-oDMnA-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

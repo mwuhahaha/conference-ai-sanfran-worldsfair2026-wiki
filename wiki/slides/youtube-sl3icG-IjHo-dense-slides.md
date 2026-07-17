@@ -46,7 +46,6 @@ Slide text:
 > 3 LLM Compiler
 > Fast, Parallel and Multiple Dependencies
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-003.jpg`](/assets/dense-slides/sl3icG-IjHo/slide-003.jpg) — `title_card` confidence `0.99`; closing contact slide with QR codes and logos
 

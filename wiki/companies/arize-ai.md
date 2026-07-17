@@ -2,19 +2,15 @@
 title: "Arize AI"
 category: "companies"
 aliases: ["Arize AI"]
-website: "https://arize.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Arize AI
 
 ## Overview
-Arize AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Private inquiries for premium domains.
-
-## Background
-The official speaker roster connects Arize AI to Ankur Duggal, Dat Ngo, Fuad Ali, Laurie Voss. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Arize AI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Arize AI matters to this wiki through 4 official speaker(s) and 9 scheduled session(s), including: From Vibes to Production: Evaluating and Shipping AI Agents That Work 101; Building self-learning loops for your agent; Let your agent cook: using skills to evaluate and improve your app.
+Arize AI appears through 4 official speaker(s) connected to 9 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Let your agent cook: using skills to evaluate and improve your app; Your Agent Is Lying to You About Whether It Worked; Building self-learning loops for your agent.
 
 ## Conference Sessions
 - [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] - Building self-learning loops for your agent (2026-06-29, 11:05am-12:05pm)
@@ -34,10 +30,12 @@ Arize AI matters to this wiki through 4 official speaker(s) and 9 scheduled sess
 - [[laurie-voss]] - Head of Developer Relations
 
 ## Sources
-- [arize.ai](https://arize.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent|Building self-learning loops for your agent]]
@@ -61,9 +59,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
 - Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -64,5 +64,4 @@ Slide text:
 > 3 Get an Unblocked invite
 > 4 Wire up Unblocked MCP
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/5ID22ACI7IM/audit.json`

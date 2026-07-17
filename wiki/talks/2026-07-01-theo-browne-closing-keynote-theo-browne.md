@@ -27,41 +27,58 @@ scheduleLabels: ["Main Stage", "Main Stage", "keynote", "confirmed"]
 ## Session Description
 No official description published in the schedule data.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[theo-browne]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## Synthesis
 ### Synthesized Breakdown
-# Closing Keynote — Theo Browne ## Conference Context - Date/time: 2026-07-01 · 4:30pm-4:50pm - Track/room: Main Stage · Main Stage - Speaker(s): Theo Browne - Session type/status: keynote · confirmed - Track: Main Stage - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
+Hello, hello. Fantastic to see you guys  Hello, hello. Fantastic to see you guys here. I still can't believe they're here.
 
 ### Speaker And Company Context
 - [[theo-browne|Theo Browne]] — Founder/YouTuber at [[t3-tools-and-youtuber|T3 Tools & YouTuber]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agent-security]]
+- [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-xUnRQ9vLXxo-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt` (9,663 words).
+- [[youtube-xUnRQ9vLXxo]] — related YouTube source page.
+- [[youtube-xUnRQ9vLXxo-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[theo-browne]]
+
+## Official YouTube Recording
+- [[youtube-xUnRQ9vLXxo|Everything we knew about software has changed — Theo Browne, @t3dotgg ​]] — official AI Engineer YouTube recording published 2026-07-08.
+- Evidence status: [[youtube-xUnRQ9vLXxo-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Media Evidence
+- [[youtube-xUnRQ9vLXxo]] - dedicated official event recording.
+- [[youtube-xUnRQ9vLXxo-transcript]] - dedicated official recording transcript.
+
+- Source video: `youtube-xUnRQ9vLXxo`
+- Slide deck: [[youtube-xUnRQ9vLXxo-slides|Slides: What do we build now? — @t3dotgg]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/slides/xUnRQ9vLXxo/slide-003.jpg]]
+![[assets/slides/xUnRQ9vLXxo/slide-004.jpg]]
+- Slide-derived themes for `youtube-xUnRQ9vLXxo`: sonnet.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt` (9,663 words).
+
+## Transcript Markdown
+- [[youtube-xUnRQ9vLXxo-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-xUnRQ9vLXxo` — 9,663 transcript words; role: primary event evidence.
+- Interpretation rule for `youtube-xUnRQ9vLXxo`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-xUnRQ9vLXxo`: used, model, look, code, does, models, trying, even.
+- Evidence links for `youtube-xUnRQ9vLXxo` (primary event evidence): [[youtube-xUnRQ9vLXxo]], [[youtube-xUnRQ9vLXxo-transcript]], [[youtube-xUnRQ9vLXxo-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

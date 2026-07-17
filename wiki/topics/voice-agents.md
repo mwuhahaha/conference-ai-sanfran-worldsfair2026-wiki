@@ -21,6 +21,18 @@ Voice agents are useful in customer support, healthcare intake, sales calls, mee
 
 Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
 
+## Active Use Cases
+- Realtime support and appointment workflows.
+- Meeting and call understanding with speaker attribution.
+- Voice-in visual-out interfaces for richer task completion.
+- Hands-free operational assistants.
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering
+
+## Slide-Derived Supporting Decks
+- [[youtube-Z2Erdirpudo-slides]] — Imagination Engineering — Eve Bouffard, Y Combinator (9 extracted slide frames)
+
+These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 ## Connections
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
@@ -93,8 +105,37 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 44 | Related pages outside the main evidence categories. |
+| resources | 2 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 8 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+
+### Talks
+- [[2026-06-30-eve-bouffard-imagination-engineering]]
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
+
+### Resources
+- [[youtube-P_RI1kCkRbo]]
+- [[youtube-Bc6Ojl2XS1w]]
+
+### Slides
+- [[youtube-Z2Erdirpudo-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-P_RI1kCkRbo-slides]]
+- [[youtube-P_RI1kCkRbo-dense-slides]]
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- [[youtube-Bc6Ojl2XS1w-slides]]
 ## Evidence Graph
-This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
 ### Linked Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
@@ -109,70 +150,8 @@ This evidence graph consolidates scheduled talks, linked videos, transcripts, an
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Media Signals
-- `youtube-pMggiOb18tc` — 4,606 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
-- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]]
-- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
-- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
-- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-mFLlVpnGpds` — 4,117 transcript words; 4 slide-derived text signals; role: supporting context only.
-- Transcript signals for `youtube-mFLlVpnGpds`: speaker, diarization, speech, word, said, model, might, conversation.
-- Slide-derived themes for `youtube-mFLlVpnGpds`: wrong, hopefully, answer, live, demo, state, conversational, telephone.
-- Evidence links for `youtube-mFLlVpnGpds` (supporting context only): [[youtube-mFLlVpnGpds]], [[youtube-mFLlVpnGpds-transcript]], [[youtube-mFLlVpnGpds-slides]]
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 - `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 44 | Related pages outside the main evidence categories. |
-| resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 10 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 4 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
-- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
-- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
-- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
-- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-YZQsWVeN3rE]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-mFLlVpnGpds]]
-- [[youtube-P_RI1kCkRbo]]
-- [[youtube-Bc6Ojl2XS1w]]
-
-### Slides
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-YZQsWVeN3rE-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-- [[youtube-mFLlVpnGpds-slides]]
-- [[youtube-P_RI1kCkRbo-slides]]
-- [[youtube-P_RI1kCkRbo-dense-slides]]
-
-### Transcripts
-- [[youtube-pMggiOb18tc-transcript]]
-- [[youtube-YZQsWVeN3rE-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-mFLlVpnGpds-transcript]]
-
-## Active Use Cases
-- Realtime support and appointment workflows.
-- Meeting and call understanding with speaker attribution.
-- Voice-in visual-out interfaces for richer task completion.
-- Hands-free operational assistants.

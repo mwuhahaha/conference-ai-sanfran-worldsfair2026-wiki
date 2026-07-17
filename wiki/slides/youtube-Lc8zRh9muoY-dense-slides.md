@@ -85,7 +85,6 @@ Slide text:
 
 > code + writeup
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-004.jpg`](/assets/dense-slides/Lc8zRh9muoY/slide-004.jpg) — `demo_video` confidence `0.97`; Screen recording of a slide editor with presenter webcam; not a readable presentation slide.
 

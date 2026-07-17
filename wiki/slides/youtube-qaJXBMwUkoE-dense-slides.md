@@ -30,5 +30,4 @@ Slide text:
 > Sourte, NFX'BANt
 > increases In direct proportion to the The value of the network (M) sirc of the rctwork (n). to the square of the number ot Users in the network. The value of the network increases influence or interconnectedness). Networks may grov proportionally to the nelwork slze but there are forming groups that scale faster in value than others (becuse ot
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/qaJXBMwUkoE/audit.json`

@@ -2,19 +2,15 @@
 title: "Monday"
 category: "companies"
 aliases: ["Monday"]
-website: "https://www.monday.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Monday
 
 ## Overview
-Monday is represented at AI Engineer World's Fair 2026. Its public site describes it this way: We are a machine intelligence agency. We help you to create more intelligent products using machine learning and artificial intelligence to improve the retail customer experience. Turn your data into actionable insights: acquire, engage, retain customers and create a magical user experience for your customers.
-
-## Background
-The official speaker roster connects Monday to Omri Bruchim. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Monday is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Monday matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: From Systems of Record to Systems of Context.
+Monday appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From Systems of Record to Systems of Context.
 
 ## Conference Sessions
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context]] - From Systems of Record to Systems of Context (2026-07-01, 12:05pm-12:25pm)
@@ -23,19 +19,17 @@ Monday matters to this wiki through 1 official speaker(s) and 1 scheduled sessio
 - [[omri-bruchim]] - Engineering Group Manager
 
 ## Sources
-- [Monday.ai](https://www.monday.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

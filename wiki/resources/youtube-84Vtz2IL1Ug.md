@@ -13,19 +13,18 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-nader-khalil-model-routing]] — Model Routing
+- [[2026-07-01-nader-khalil-model-routing]] — Model Routing
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=84Vtz2IL1Ug)
-
-## Related Scheduled Sessions
-- [[2026-07-01-nader-khalil-model-routing]] — Model Routing
-- [[2026-07-01-nader-khalil-model-routing]] — Model Routing
 ## Extracted Slides
 - [[youtube-84Vtz2IL1Ug-dense-slides]]
 - [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=84Vtz2IL1Ug)

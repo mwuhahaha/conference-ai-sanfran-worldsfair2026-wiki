@@ -346,7 +346,6 @@ Slide text:
 
 > Useful resources
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-017.jpg`](/assets/dense-slides/TqC1qOfiVcQ/slide-017.jpg) — `speaker_stage` confidence `0.99`; speaker on stage at podium; not a presentation slide
 - [`slide-018.jpg`](/assets/dense-slides/TqC1qOfiVcQ/slide-018.jpg) — `speaker_stage` confidence `0.99`; speaker/audience stage shot; not a presentation slide

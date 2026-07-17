@@ -2,19 +2,15 @@
 title: "Unitree"
 category: "companies"
 aliases: ["Unitree"]
-website: "https://www.unitree.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Unitree
 
 ## Overview
-Unitree is represented at AI Engineer World's Fair 2026. Its public site describes it this way: å®æ ç§ææ¯å ¨çææ©å ¬å¼é¶å®é«æ§è½åè¶³æºå¨äººåææ©å®ç°åè¶³æºå¨äººè¡ä¸è½å°çä¸çç¥åæºå¨äººå ¬å¸ï¼ä¸æ³¨äºæ¶è´¹çº§ãè¡ä¸çº§é«æ§è½åè¶³æºå¨äººãçµå·§æºæ¢°èèªä¸»ç åãçäº§åéå®ï¼å¹¶ä¸å ¨çééåå¹´é¢å ãæ¾ç»è£ç»ãå¤®è§æ¥æããåäº¬å¬å¥¥ä¼å¼å¹å¼ããç¾å½è¶ çº§ç¢ãç­ã.
-
-## Background
-The official speaker roster connects Unitree to XiangMing Sun. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Unitree is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Unitree matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Unitree: Building Mass Produced Humanoids.
+Unitree appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Unitree: Building Mass Produced Humanoids.
 
 ## Conference Sessions
 - [[2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids]] - Unitree: Building Mass Produced Humanoids (2026-06-30, 1:30pm-1:50pm)
@@ -23,20 +19,17 @@ Unitree matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[xiangming-sun]] - role not listed
 
 ## Sources
-- [å®æ ç§æâå
-¨çåè¶³æºå¨äººè¡ä¸å¼åè](https://www.unitree.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids|Unitree: Building Mass Produced Humanoids]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -89,5 +89,4 @@ Slide text:
 > Small & Cost-effective to run long agentic tasks
 > MI MINIHAX MiniMax Agent Intelligcnco wlth Everyero
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/lY1iFbDPRlw/audit.json`

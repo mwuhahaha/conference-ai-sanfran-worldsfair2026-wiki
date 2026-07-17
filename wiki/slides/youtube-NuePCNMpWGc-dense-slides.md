@@ -28,5 +28,4 @@ Slide text:
 > c2oze, Sararsource Sart
 > GoogeDeepMind
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/NuePCNMpWGc/audit.json`

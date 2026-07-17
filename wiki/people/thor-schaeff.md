@@ -30,7 +30,9 @@ Thor Schaeff works in Developer Experience at [[google-deepmind|Google DeepMind]
 - [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4]] — Build realtime multimodal agents with Gemini Live (continued 4) (2026-06-30, 12:05pm-12:25pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-thor-schaeff-can-your-agent-hear-you-now|Can Your Agent Hear You Now?]]

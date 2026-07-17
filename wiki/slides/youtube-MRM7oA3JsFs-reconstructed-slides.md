@@ -204,7 +204,6 @@ Slide text:
 > This takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.
 > The result is a self-improving, data-driven process that can be managed by a domain expert PM.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/MRM7oA3JsFs/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor/logo wall, not a presentation slide
 - [`slide-014.jpg`](/assets/reconstructed-slides/MRM7oA3JsFs/slide-014.jpg) — `title_card` confidence `0.99`; Section divider / title-only slide with no substantive content.

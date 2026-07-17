@@ -3,7 +3,7 @@ title: "Anthropic"
 category: "companies"
 aliases: ["Anthropic"]
 website: "https://www.anthropic.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Anthropic
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Anthropic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
 ## Background
-The official speaker roster connects Anthropic to Angela Jiang, Christopher Lovejoy, Eugene Yan, Gabriel Cemaj, Gagan Bhat, Isabella Kai He. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Anthropic to Angela Jiang, Christopher Lovejoy, Eugene Yan, Gabriel Cemaj, Gagan Bhat, Isabella Kai He.
 
 ## Conference Relevance
 Anthropic matters to this wiki through 13 official speaker(s) and 13 scheduled session(s), including: Evolution of agentic surfaces; Claude Managed Agents Workshop (Part 1); Claude Managed Agents workshop (Part 2).
@@ -50,7 +50,9 @@ Anthropic matters to this wiki through 13 official speaker(s) and 13 scheduled s
 - [Home \ Anthropic](https://www.anthropic.com/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1|Claude Managed Agents Workshop (Part 1)]]
@@ -65,29 +67,15 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
 - Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
 - Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
-- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.
-- Evidence links for `youtube-MRM7oA3JsFs` (supporting context only): [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
-- `youtube-2vlCqD6igVA` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-- Evidence links for `youtube-2vlCqD6igVA` (supporting context only): [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
 - `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
 - `youtube-5N33E9tC400` — source page linked; role: supporting context only.
 - Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

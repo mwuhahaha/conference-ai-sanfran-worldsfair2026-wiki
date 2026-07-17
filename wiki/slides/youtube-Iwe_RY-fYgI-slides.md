@@ -158,7 +158,6 @@ Slide text:
 > linkedin.com/in/varsha-shah-7b5111247
 > varsha.shah.tech@gamil.com
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/Iwe_RY-fYgI/audit.json`
 
 ## Slide-Derived Subjects To Review

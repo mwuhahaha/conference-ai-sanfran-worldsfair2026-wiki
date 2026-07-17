@@ -2,19 +2,15 @@
 title: "YouTube"
 category: "companies"
 aliases: ["YouTube"]
-website: "https://www.youtube.com/?gl=CO"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # YouTube
 
 ## Overview
-YouTube is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-
-## Background
-The official speaker roster connects YouTube to Mihnea Munteanu. The public company site was discovered by domain-guess and fetched for homepage metadata.
+YouTube is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-YouTube matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Ask YouTube — Open Q&A.
+YouTube appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Ask YouTube — Open Q&A.
 
 ## Conference Sessions
 - [[2026-06-30-mihnea-munteanu-ask-youtube-open-q-and-a]] - Ask YouTube — Open Q&A (2026-06-30, 2:25pm-2:45pm)
@@ -23,19 +19,17 @@ YouTube matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[mihnea-munteanu]] - Senior Product Lead
 
 ## Sources
-- [YouTube](https://www.youtube.com/?gl=CO)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-mihnea-munteanu-ask-youtube-open-q-and-a|Ask YouTube — Open Q&A]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -184,7 +184,6 @@ Slide text:
 > DITAULT OOWNYY
 > GROMOSH
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/kR64LOqBBCU/slide-001.jpg) — `sponsor_logo` confidence `0.98`; sponsor logos only
 - [`slide-005.jpg`](/assets/reconstructed-slides/kR64LOqBBCU/slide-005.jpg) — `title_card` confidence `0.93`; logo/title card only

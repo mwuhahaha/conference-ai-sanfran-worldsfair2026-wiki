@@ -130,5 +130,4 @@ Slide text:
 > Includes forward-looking analysis, not just historical data
 > Provides context for *why* recommendations are made
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/Xfl50508LZM/audit.json`

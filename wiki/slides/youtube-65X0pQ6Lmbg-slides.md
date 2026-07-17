@@ -126,7 +126,6 @@ Slide text:
 > 2 Short intervals
 > 3 Stable cache
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-007.jpg`](/assets/slides/65X0pQ6Lmbg/slide-007.jpg) — `sponsor_logo` confidence `0.98`; logo-only branding frame with no substantive slide content
 

@@ -9,7 +9,7 @@ scheduleRooms: ["Track 7", "Track 8", "Track 3", "Expo Stage 3 SW", "Track 9", "
 
 # vLLM
 
-## Why It Belongs
+## Conference Context
 vLLM appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

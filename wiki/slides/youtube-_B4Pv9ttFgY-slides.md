@@ -126,7 +126,6 @@ Slide text:
 
 > Concern 4: Trust boundaries
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/_B4Pv9ttFgY/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage, no readable slide
 - [`slide-005.jpg`](/assets/slides/_B4Pv9ttFgY/slide-005.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with projected slide in background

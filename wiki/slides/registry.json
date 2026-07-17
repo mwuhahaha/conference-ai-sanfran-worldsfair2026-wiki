@@ -84,6 +84,12 @@
     "slide_count": 4
   },
   {
+    "id": "youtube-1P1hJ36rxM0-slides",
+    "title": "Slides: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
+    "path": "wiki/slides/youtube-1P1hJ36rxM0-slides.md",
+    "slide_count": 15
+  },
+  {
     "id": "youtube-1t-9-s1brcg-dense-slides",
     "title": "Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
     "path": "wiki/slides/youtube-1t-9-s1brcg-dense-slides.md",
@@ -544,6 +550,12 @@
     "title": "Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
     "path": "wiki/slides/youtube-C_GG5g38vLU-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-Cz4v1WHVyZc-slides",
+    "title": "Slides: HTML Is All Agents Need — James Russo, HeyGen",
+    "path": "wiki/slides/youtube-Cz4v1WHVyZc-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-D4Dswf-__RM-reconstructed-slides",
@@ -1056,6 +1068,12 @@
     "slide_count": 7
   },
   {
+    "id": "youtube-OqM67QG_Ikk-slides",
+    "title": "Slides: From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/slides/youtube-OqM67QG_Ikk-slides.md",
+    "slide_count": 15
+  },
+  {
     "id": "youtube-P_RI1kCkRbo-dense-slides",
     "title": "Dense Slides: Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
     "path": "wiki/slides/youtube-P_RI1kCkRbo-dense-slides.md",
@@ -1416,6 +1434,12 @@
     "slide_count": 11
   },
   {
+    "id": "youtube-Z2Erdirpudo-slides",
+    "title": "Slides: Imagination Engineering — Eve Bouffard, Y Combinator",
+    "path": "wiki/slides/youtube-Z2Erdirpudo-slides.md",
+    "slide_count": 9
+  },
+  {
     "id": "youtube-ZD9-4fW2HhM-slides",
     "title": "Slides: Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
     "path": "wiki/slides/youtube-ZD9-4fW2HhM-slides.md",
@@ -1446,6 +1470,12 @@
     "slide_count": 17
   },
   {
+    "id": "youtube-ZpK5PWX2YRM-slides",
+    "title": "Slides: Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
+    "path": "wiki/slides/youtube-ZpK5PWX2YRM-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-ZuiJjkbX0Og-dense-slides",
     "title": "Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
     "path": "wiki/slides/youtube-ZuiJjkbX0Og-dense-slides.md",
@@ -1462,6 +1492,12 @@
     "title": "Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
     "path": "wiki/slides/youtube-ZuiJjkbX0Og-slides.md",
     "slide_count": 11
+  },
+  {
+    "id": "youtube-ZyIoTOAbRfs-slides",
+    "title": "Slides: State of Data — Sean Cai, Independent / State of Data",
+    "path": "wiki/slides/youtube-ZyIoTOAbRfs-slides.md",
+    "slide_count": 10
   },
   {
     "id": "youtube-_B4Pv9ttFgY-slides",
@@ -1606,6 +1642,12 @@
     "title": "Slides: Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
     "path": "wiki/slides/youtube-c-2eEv2ou7Y-slides.md",
     "slide_count": 9
+  },
+  {
+    "id": "youtube-c35YoMdnI78-slides",
+    "title": "Slides: The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+    "path": "wiki/slides/youtube-c35YoMdnI78-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-cVzf49yg0D8-dense-slides",
@@ -1822,6 +1864,12 @@
     "title": "Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
     "path": "wiki/slides/youtube-htM02KMNZnk-slides.md",
     "slide_count": 120
+  },
+  {
+    "id": "youtube-iCj_ATyThvc-slides",
+    "title": "Slides: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco",
+    "path": "wiki/slides/youtube-iCj_ATyThvc-slides.md",
+    "slide_count": 3
   },
   {
     "id": "youtube-iNkFlCiij0U-slides",
@@ -2064,6 +2112,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-pMggiOb18tc-slides",
+    "title": "Slides: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+    "path": "wiki/slides/youtube-pMggiOb18tc-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-pSto5YaNGUo-slides",
     "title": "Slides: The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
     "path": "wiki/slides/youtube-pSto5YaNGUo-slides.md",
@@ -2278,6 +2332,12 @@
     "title": "Slides: Cohere for VPs of AI: Vivek Muppalla",
     "path": "wiki/slides/youtube-u3NofYYstaY-slides.md",
     "slide_count": 9
+  },
+  {
+    "id": "youtube-uU5Gv2h8-9g-slides",
+    "title": "Slides: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
+    "path": "wiki/slides/youtube-uU5Gv2h8-9g-slides.md",
+    "slide_count": 22
   },
   {
     "id": "youtube-uiP88SpCi1Q-slides",

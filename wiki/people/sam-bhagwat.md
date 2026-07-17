@@ -22,12 +22,12 @@ co-founder/ceo mastra the typescript agent framework. author principles of build
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] — Every Harness Will Become A Claw (2026-06-29, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Media Signals
-- `youtube-8SUJEqQNClw` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
-- Evidence links for `youtube-8SUJEqQNClw` (supporting context only): [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

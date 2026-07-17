@@ -5,14 +5,8 @@ status: "tentative"
 confidence: "medium-low"
 sourceLabels: ["Official schedule", "Question layer", "Tool inventory", "Topic synthesis"]
 ---
-# MCP Server Patterns
 
-## Evidence
-- [[mcp]] - Topic synthesis
-- [[mcp]] - Tool inventory
-- [[mcp-apps]] - Tool inventory
-- [[what-security-boundaries-should-agents-have]] - Question layer
-- [[2026-06-30-session-ai-agents-don-t-read-your-policy-docs-they-hit-your-apis]] - Official schedule
+# MCP Server Patterns
 
 ## Decision Question
 Evaluate MCP/server patterns by whether they expose useful actions, context, and policy boundaries to agents without becoming an ungoverned tool surface.
@@ -23,6 +17,13 @@ Evaluate MCP/server patterns by whether they expose useful actions, context, and
 - Permission, auth, and approval boundaries
 - Observability of tool use
 - Failure behavior when the model chooses poorly
+
+## Evidence
+- [[mcp]] - Topic synthesis
+- [[mcp]] - Tool inventory
+- [[mcp-apps]] - Tool inventory
+- [[what-security-boundaries-should-agents-have]] - Question layer
+- [[2026-06-30-session-ai-agents-don-t-read-your-policy-docs-they-hit-your-apis]] - Official schedule
 
 ## Tentative Recommendation
 Tentative: prefer narrow, policy-backed servers with explicit review paths before broad agent tool catalogs.

@@ -2,19 +2,15 @@
 title: "Token Factory"
 category: "companies"
 aliases: ["Token Factory"]
-website: "https://tokenfactory.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Token Factory
 
 ## Overview
-Token Factory is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Plasco The Token Factory, Plasco, TokenFactory.
-
-## Background
-The official speaker roster connects Token Factory to Dylan Bristot. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Token Factory is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Token Factory matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Optimizing Open Models for Production Grade Inference.
+Token Factory appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Optimizing Open Models for Production Grade Inference.
 
 ## Conference Sessions
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] - Optimizing Open Models for Production Grade Inference (2026-07-01, 2:25pm-2:45pm)
@@ -23,19 +19,17 @@ Token Factory matters to this wiki through 1 official speaker(s) and 1 scheduled
 - [[dylan-bristot]] - Product Marketing
 
 ## Sources
-- [Plasco The Token Factory, Tokenfactory, Plasco, plastic tokens, drink chips, drink tokens, plastic chips, trade tokens, tubees, plastic token accessories](https://tokenfactory.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference|Optimizing Open Models for Production Grade Inference]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

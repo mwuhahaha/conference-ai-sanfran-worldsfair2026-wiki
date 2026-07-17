@@ -3,7 +3,7 @@ title: "Introspection"
 category: "companies"
 aliases: ["Introspection"]
 website: "https://www.introspection.dev/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Introspection
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Introspection is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The managed cloud for vertical agents, powered by Pi. Define each agent as a recipe, deploy it to commit-pinned infrastructure, and keep it improving in production.
 
 ## Background
-The official speaker roster connects Introspection to Julian Bright, Roland Gavrilescu. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Introspection to Julian Bright, Roland Gavrilescu.
 
 ## Conference Relevance
 Introspection matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: Autoresearch in the wild.
@@ -27,16 +27,14 @@ Introspection matters to this wiki through 2 official speaker(s) and 1 scheduled
 - [Introspection](https://www.introspection.dev/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

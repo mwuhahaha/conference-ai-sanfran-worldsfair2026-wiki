@@ -125,7 +125,6 @@ Slide text:
 > Engineering the future of Al
 > AIEns
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/r305-aQTaU0/slide-001.jpg) — `title_card` confidence `0.95`; speaker intro/title card over stage shot
 

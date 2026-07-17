@@ -23,7 +23,9 @@ Previously trained SWE-1 at Windsurf, then gemini post-training at DeepMind afte
 - [[2026-06-30-ronak-malde-scaling-up-continual-learning]] — Scaling up Continual Learning (2026-06-30, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-ronak-malde-scaling-up-continual-learning|Scaling up Continual Learning]]

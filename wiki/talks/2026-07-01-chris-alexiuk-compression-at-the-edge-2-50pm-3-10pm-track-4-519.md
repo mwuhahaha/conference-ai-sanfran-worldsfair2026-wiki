@@ -27,31 +27,31 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ## Session Description
 Compression at the Edge examines how smaller weights, faster inference, and constrained-memory deployments are making capable local AI more practical. The panel explores where compressed models already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader adoption, and how open model tooling is shaping the edge AI stack. Moderator: Chris Alexiuk (NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael Chiang (Ollama).
 
-## Media Evidence
-[Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+Compression at the Edge examines how smaller weights, faster inference, and constrained-memory deployments are making capable local AI more practical. The panel explores where compressed models already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader adoption, and how open model tooling is shaping the edge AI stack. Moderator: Chris Alexiuk (NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael Chiang (Ollama).
 
-- Source video: `youtube-OV56RddyFuU`
-- Slide deck: [[youtube-OV56RddyFuU-dense-slides|Dense Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]] — 17 visible slide image(s); 17 HTML recreation(s).
-![[assets/dense-slides/OV56RddyFuU/slide-001.jpg]]
-![[assets/dense-slides/OV56RddyFuU/slide-002.jpg]]
-![[assets/dense-slides/OV56RddyFuU/slide-003.jpg]]
-- Additional slide evidence: [[youtube-OV56RddyFuU-slides|Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]], [[youtube-OV56RddyFuU-reconstructed-slides|Reconstructed Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]]
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+### Speaker And Company Context
+- [[chris-alexiuk|Chris Alexiuk]] — Sr. Product Research Engineer at [[nvidia|NVIDIA]].
+- [[daniel-han|Daniel Han]] — Co-founder at [[unsloth|Unsloth]].
+- [[asma-beevi|Asma Beevi]] — Senior Engineer at [[nvidia|NVIDIA]].
+- [[merve-noyan|Merve Noyan]] — MLE at [[hugging-face|Hugging Face]].
+- [[parth-sareen|Parth Sareen]] — role not listed at [[ollama|Ollama]].
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+### Topics Covered
+- [[agent-security]]
 
-### Media Signals
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
-- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+### Derived Links And Source Material
+- [[youtube-OV56RddyFuU]] — related YouTube source page.
+- [[youtube-OV56RddyFuU-slides]] — slide evidence.
+- [[youtube-OV56RddyFuU-reconstructed-slides]] — slide evidence.
+- [[youtube-OV56RddyFuU-dense-slides]] — slide evidence.
 
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[chris-alexiuk]]
 - [[daniel-han]]
@@ -67,30 +67,27 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OV56RddyFuU-slides]]
 - Slide-derived terms: `model`, `skills`, `models`, `gguf`, `hermes`, `community`, `datasets`, `text`, `local`, `llama.cpp`, `inference`, `image`, `search`, `spaces`, `jobs`, `setup`, `claude`, `some`
 
-## Synthesis
-### Synthesized Breakdown
-# Compression at the Edge ## Conference Context - Date/time: 2026-07-01 · 2:50pm-3:10pm - Track/room: Local AI · Track 4 - Speaker(s): Chris Alexiuk, Daniel Han, Asma Beevi, Merve Noyan, Parth Sareen - Session type/status: session · confirmed - Track: Local AI - Room: Track 4 - Session type: session - Status: confirmed ## Session Description Compression at the Edge examines how smaller weights, faster inference, and constrained-memory deployments are making capable local AI more practical. The panel explores where compressed models already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader adoption, and how open model tooling is shaping the edge AI stack. Moderator: Chris Alexiuk (NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael Chiang (Ollama).
+## Media Evidence
+- [[youtube-OV56RddyFuU]] - supporting context; not the exact session recording.
 
-### Speaker And Company Context
-- [[chris-alexiuk|Chris Alexiuk]] — Sr. Product Research Engineer at [[nvidia|NVIDIA]].
-- [[daniel-han|Daniel Han]] — Co-founder at [[unsloth|Unsloth]].
-- [[asma-beevi|Asma Beevi]] — Senior Engineer at [[nvidia|NVIDIA]].
-- [[merve-noyan|Merve Noyan]] — MLE at [[hugging-face|Hugging Face]].
-- [[parth-sareen|Parth Sareen]] — role not listed at [[ollama|Ollama]].
+- Source video: `youtube-OV56RddyFuU`
+- Slide deck: [[youtube-OV56RddyFuU-dense-slides|Dense Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]] — 17 visible slide image(s); 17 HTML recreation(s).
+![[assets/dense-slides/OV56RddyFuU/slide-001.jpg]]
+![[assets/dense-slides/OV56RddyFuU/slide-002.jpg]]
+![[assets/dense-slides/OV56RddyFuU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-OV56RddyFuU-slides|Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]], [[youtube-OV56RddyFuU-reconstructed-slides|Reconstructed Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]]
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
 
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[mcp]]
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
 
-### Derived Links And Source Material
-- [[youtube-OV56RddyFuU]] — related YouTube source page.
-- [[youtube-OV56RddyFuU-slides]] — slide evidence.
-- [[youtube-OV56RddyFuU-reconstructed-slides]] — slide evidence.
-- [[youtube-OV56RddyFuU-dense-slides]] — slide evidence.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+### Media Signals
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
 
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

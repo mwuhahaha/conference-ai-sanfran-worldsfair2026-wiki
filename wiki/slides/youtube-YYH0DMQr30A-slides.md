@@ -45,7 +45,6 @@ Slide text:
 > snorkel.ai/leaderboard/
 > Engineering the future of AI
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/YYH0DMQr30A/slide-001.jpg) — `speaker_stage` confidence `0.08`; Stage shot with speaker in front of a projected slide; not a clean presentation slide frame.
 - [`slide-002.jpg`](/assets/slides/YYH0DMQr30A/slide-002.jpg) — `speaker_stage` confidence `0.12`; Composite stage capture with slide plus camera shot and branding panels; not a clean slide-only frame.

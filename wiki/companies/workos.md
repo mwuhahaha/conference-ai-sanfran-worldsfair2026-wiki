@@ -2,19 +2,15 @@
 title: "WorkOS"
 category: "companies"
 aliases: ["WorkOS"]
-website: "https://workos.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # WorkOS
 
 ## Overview
-WorkOS is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Developer APIs/SDKs for Enterprise Ready features like Single Sign-On, Directory Sync, Audit Logging, and more. Get started for free.
-
-## Background
-The official speaker roster connects WorkOS to Garrett Galow, Michael Grinich, Nick Nisi, Ryan Cooke, Zack Proser. The public company site was discovered by domain-guess and fetched for homepage metadata.
+WorkOS is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-WorkOS matters to this wiki through 5 official speaker(s) and 4 scheduled session(s), including: Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks; Building an Agent Harness for the Business, Not the Builder; No, That's Not a Software Factory.
+WorkOS appears through 5 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Building an Agent Harness for the Business, Not the Builder; Auth for Agents: Unblock Autonomous AI with auth.md; Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks.
 
 ## Conference Sessions
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] - Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks (2026-06-29, 4:30pm-5:30pm)
@@ -30,10 +26,12 @@ WorkOS matters to this wiki through 5 official speaker(s) and 4 scheduled sessio
 - [[zack-proser]] - AI Engineer, Applied AI
 
 ## Sources
-- [WorkOS — Your app, Enterprise Ready.](https://workos.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
@@ -44,14 +42,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-iUWwcG-C8OU` — source page linked; role: supporting context only.
 - Evidence links for `youtube-iUWwcG-C8OU` (supporting context only): [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
-- `youtube-D4Dswf-__RM` — source page linked; role: supporting context only.
-- Evidence links for `youtube-D4Dswf-__RM` (supporting context only): [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
-- `youtube-so9l_MwS2yg` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
-- Evidence links for `youtube-so9l_MwS2yg` (supporting context only): [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases]] — Benchmarking Coding Agents on New vs Legacy Code bases
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=SbUxRluVRwk)
-
-## Related Scheduled Sessions
-- [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases]] — Benchmarking Coding Agents on New vs Legacy Code bases
 ## Extracted Slides
 - [[youtube-SbUxRluVRwk-dense-slides]]
 - [[youtube-SbUxRluVRwk-reconstructed-slides]]
 - [[youtube-SbUxRluVRwk-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=SbUxRluVRwk)

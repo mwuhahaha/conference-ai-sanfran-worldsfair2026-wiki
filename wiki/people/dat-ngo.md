@@ -20,7 +20,9 @@ Dat Ngo is an AI Architect at [[arize-ai|Arize AI]] focused on agent harnesses, 
 - [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] — Your Agent Is Lying to You About Whether It Worked (2026-06-29, 12:05pm-12:25pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]

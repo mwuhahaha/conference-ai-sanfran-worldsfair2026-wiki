@@ -27,61 +27,35 @@ scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ## Session Description
 No official description published in the schedule data.
 
-## Media Evidence
-[Building Cursor Composer – Lee Robinson, Cursor](https://www.youtube.com/watch?v=fL1iJHtl51Q) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+Please welcome to the stage the machine learning engineer model behavior at cursor Lee Robinson. All right. Hey everyone. Uh, I'm excited to be here.
 
-- [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.
+### Speaker And Company Context
+- [[lee-robinson|Lee Robinson]] — ML, Model Behavior at [[cursor|Cursor]].
 
-- Source video: `youtube-fL1iJHtl51Q`
-- Slide deck: [[youtube-fL1iJHtl51Q-dense-slides|Dense Slides: Building Cursor Composer – Lee Robinson, Cursor]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/fL1iJHtl51Q/slide-001.jpg]]
-![[assets/dense-slides/fL1iJHtl51Q/slide-002.jpg]]
-- Additional slide evidence: [[youtube-fL1iJHtl51Q-slides|Slides: Building Cursor Composer – Lee Robinson, Cursor]], [[youtube-fL1iJHtl51Q-reconstructed-slides|Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor]]
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
-- Source video: `youtube-htM02KMNZnk`
-- Slide deck: [[youtube-htM02KMNZnk-dense-slides|Dense Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]] — 18 visible slide image(s); 18 HTML recreation(s).
-![[assets/dense-slides/htM02KMNZnk/slide-001.jpg]]
-![[assets/dense-slides/htM02KMNZnk/slide-002.jpg]]
-![[assets/dense-slides/htM02KMNZnk/slide-003.jpg]]
-- Additional slide evidence: [[youtube-htM02KMNZnk-slides|Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]], [[youtube-htM02KMNZnk-reconstructed-slides|Reconstructed Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]]
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
 
-- [[youtube-q4Tr-DknG2M-transcript]] — full cached transcript markdown for the related YouTube source.
+### Derived Links And Source Material
+- [[youtube-q4Tr-DknG2M-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
+- [[youtube-q4Tr-DknG2M]] — related YouTube source page.
+- [[youtube-q4Tr-DknG2M-slides]] — slide evidence.
+- [[youtube-fL1iJHtl51Q]] — related YouTube source page.
+- [[youtube-fL1iJHtl51Q-slides]] — slide evidence.
+- [[youtube-fL1iJHtl51Q-reconstructed-slides]] — slide evidence.
+- [[youtube-fL1iJHtl51Q-dense-slides]] — slide evidence.
 
-- Source video: `youtube-q4Tr-DknG2M`
-- Slide deck: [[youtube-q4Tr-DknG2M-slides|Slides: q4Tr-DknG2M]] — 12 visible slide image(s).
-![[assets/slides/q4Tr-DknG2M/slide-001.jpg]]
-![[assets/slides/q4Tr-DknG2M/slide-002.jpg]]
-![[assets/slides/q4Tr-DknG2M/slide-003.jpg]]
-- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
-- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
-- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
-- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
-- Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[lee-robinson]]
-
-## Supporting Slides
-- [[youtube-fL1iJHtl51Q-slides]] — extracted from the related public AI Engineer video.
 
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-fL1iJHtl51Q-dense-slides]] (2 viable slide images).
@@ -91,49 +65,46 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-fL1iJHtl51Q-slides]]
 - Slide-derived terms: `frontier`, `file`, `composer`, `fast`, `cursor`, `intelligence`, `speed`, `best`, `model`, `robinson`, `developer`, `education`, `read`, `edit`, `code`, `combines`, `coding`, `best-in-class`
 
-## Synthesis
-### Synthesized Breakdown
-The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
-
-### Speaker And Company Context
-- [[lee-robinson|Lee Robinson]] — ML, Model Behavior at [[cursor|Cursor]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-- [[mcp]]
-- [[mcp-apps]]
-
-### Derived Links And Source Material
-- [[youtube-htM02KMNZnk-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt` (89,050 words).
-- [[youtube-q4Tr-DknG2M-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
-- [[youtube-fL1iJHtl51Q]] — related YouTube source page.
-- [[youtube-fL1iJHtl51Q-slides]] — slide evidence.
-- [[youtube-fL1iJHtl51Q-reconstructed-slides]] — slide evidence.
-- [[youtube-fL1iJHtl51Q-dense-slides]] — slide evidence.
-- [[youtube-htM02KMNZnk]] — related YouTube source page.
-- [[youtube-htM02KMNZnk-slides]] — slide evidence.
-- [[youtube-htM02KMNZnk-reconstructed-slides]] — slide evidence.
-- [[youtube-htM02KMNZnk-dense-slides]] — slide evidence.
-- [[youtube-q4Tr-DknG2M]] — related YouTube source page.
-- [[youtube-q4Tr-DknG2M-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
-
 ## Official YouTube Recording
-- [[youtube-q4Tr-DknG2M]] — official AI Engineer YouTube channel recording published 2026-07-15.
-- Evidence status: [[youtube-q4Tr-DknG2M-transcript]]; [[youtube-q4Tr-DknG2M-slides]].
-- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+- [[youtube-q4Tr-DknG2M|Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI]] — official AI Engineer YouTube recording published 2026-07-15.
+- Evidence status: [[youtube-q4Tr-DknG2M-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
-## Livestream Segment
-- [Watch in livestream at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) — WF2026: Software Factories & Keynotes (Day 1).
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+## Media Evidence
+- [[youtube-q4Tr-DknG2M]] - dedicated official event recording.
+- [[youtube-q4Tr-DknG2M-transcript]] - dedicated official recording transcript.
+- [[youtube-fL1iJHtl51Q]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-q4Tr-DknG2M`
+- Slide deck: [[youtube-q4Tr-DknG2M-slides|Slides: q4Tr-DknG2M]] — 12 visible slide image(s).
+![[assets/slides/q4Tr-DknG2M/slide-001.jpg]]
+![[assets/slides/q4Tr-DknG2M/slide-002.jpg]]
+![[assets/slides/q4Tr-DknG2M/slide-003.jpg]]
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Source video: `youtube-fL1iJHtl51Q`
+- Slide deck: [[youtube-fL1iJHtl51Q-dense-slides|Dense Slides: Building Cursor Composer – Lee Robinson, Cursor]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/fL1iJHtl51Q/slide-001.jpg]]
+![[assets/dense-slides/fL1iJHtl51Q/slide-002.jpg]]
+- Additional slide evidence: [[youtube-fL1iJHtl51Q-slides|Slides: Building Cursor Composer – Lee Robinson, Cursor]], [[youtube-fL1iJHtl51Q-reconstructed-slides|Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor]]
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
+
+## Transcript Markdown
+- [[youtube-q4Tr-DknG2M-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+- Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

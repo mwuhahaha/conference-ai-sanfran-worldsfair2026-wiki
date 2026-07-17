@@ -76,7 +76,6 @@ Slide text:
 
 > SLIDE DECKS → HTML
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/JRTAtZ5iBkU/audit.json`
 
 ## Slide-Derived Subjects To Review

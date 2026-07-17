@@ -24,7 +24,9 @@ Joseph is cofounder/CEO at [[roboflow|Roboflow]], the vision AI company. [[robof
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420]] — State of the Union: Why Local, Why Now (2026-07-01, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-joseph-nelson-the-state-of-vision|The State of Vision]]
@@ -32,9 +34,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]]
 
 ### Media Signals
-- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
-- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
 - `youtube-OimPoLxioYg` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
 - Evidence links for `youtube-OimPoLxioYg` (supporting context only): [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]

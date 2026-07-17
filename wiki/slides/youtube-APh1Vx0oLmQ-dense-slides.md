@@ -115,5 +115,4 @@ Slide text:
 
 > AI agents are distributed systems. Treat them accordingly.
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/APh1Vx0oLmQ/audit.json`

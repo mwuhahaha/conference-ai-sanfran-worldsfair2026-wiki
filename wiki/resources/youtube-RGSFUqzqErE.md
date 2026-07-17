@@ -16,7 +16,7 @@ A verified official AI Engineer YouTube premiere for AI Engineer World's Fair Sa
 - Channel/source: official AI Engineer YouTube channel scheduled premiere.
 - Use: event-video metadata until the recording becomes playable; transcript and slide evidence remain pending, and official schedule pages remain canonical for schedule metadata.
 
-## Matched Schedule Pages
+## Relationship To World's Fair 2026
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
 
 ## Transcript Status

@@ -2,19 +2,15 @@
 title: "Extend AI"
 category: "companies"
 aliases: ["Extend AI"]
-website: "https://www.extend.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Extend AI
 
 ## Overview
-Extend AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Parse, extract, and split your hardest documents with unmatched accuracy. Read any layout with specialized vision models, and ship reliable pipelines in minutes, not months.
-
-## Background
-The official speaker roster connects Extend AI to Extend AI. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Extend AI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Extend AI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Expo Welcome Speech.
+Extend AI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Expo Welcome Speech.
 
 ## Conference Sessions
 - [[2026-06-29-sonar-expo-welcome-speech]] - Expo Welcome Speech (2026-06-29, 6:00pm-6:15pm)
@@ -23,10 +19,12 @@ Extend AI matters to this wiki through 1 official speaker(s) and 1 scheduled ses
 - [[extend-ai]] - role not listed
 
 ## Sources
-- [Extend AI](https://www.extend.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
@@ -34,9 +32,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
 - Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -2,19 +2,15 @@
 title: "Uber"
 category: "companies"
 aliases: ["Uber"]
-website: "https://www.uber.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Uber
 
 ## Overview
-Uber is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Learn how you can leverage the Uber platform and apps to earn more, eat, commute, get a ride, simplify business travel, and more.
-
-## Background
-The official speaker roster connects Uber to Adam Huda, Jai Chopra, Soumya Gupta, Uday Kiran Medisetty, Will Bond. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Uber is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Uber matters to this wiki through 5 official speaker(s) and 3 scheduled session(s), including: Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; Building Closed-Loop Evals for a Multimodal Agent at Uber Scale.
+Uber appears through 5 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; Building Closed-Loop Evals for a Multimodal Agent at Uber Scale; Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine.
 
 ## Conference Sessions
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] - Agentic SDLC at Uber: Building Blocks for Uber's Software Factory (2026-06-29, 11:40am-12:00pm)
@@ -29,10 +25,12 @@ Uber matters to this wiki through 5 official speaker(s) and 3 scheduled session(
 - [[will-bond]] - Staff Software Engineer
 
 ## Sources
-- [Uber](https://www.uber.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
@@ -41,9 +39,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

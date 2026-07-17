@@ -22,6 +22,11 @@ VIDEO_CATALOG = RAW / "aidotengineer-channel-videos-latest.json"
 IMPORT_REPORT = RAW / "new-video-import-2026-07-09.json"
 EXTERNAL_DISCOVERY = RAW / "external-video-discovery-latest.json"
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
+STALE_NO_RELATED_VIDEO = "No related AI Engineer channel video found yet."
+STALE_NO_OFFICIAL_TRANSCRIPT = (
+    "No official session recording transcript was found by exact title match on the "
+    "AI Engineer YouTube channel during this run."
+)
 
 
 def yaml_value(value: object) -> str:
@@ -83,18 +88,52 @@ def transcript_paths(video_ids: set[str] | None = None) -> list[tuple[Path, str]
     return paths
 
 
-def official_manifest_video_ids() -> set[str]:
+def official_manifest_videos() -> list[dict[str, object]]:
     if not OFFICIAL_VIDEO_MANIFEST.is_file():
-        return set()
+        return []
     value = json.loads(OFFICIAL_VIDEO_MANIFEST.read_text(encoding="utf-8"))
     videos = value.get("videos", [])
     if not isinstance(videos, list):
         raise ValueError("official WF26 video manifest must contain a videos array")
-    return {
-        str(item["id"])
+    return [
+        dict(item)
         for item in videos
         if isinstance(item, dict) and isinstance(item.get("id"), str)
-    }
+    ]
+
+
+def official_manifest_video_ids(
+    videos: list[dict[str, object]] | None = None,
+) -> set[str]:
+    source = videos if videos is not None else official_manifest_videos()
+    return {str(item["id"]) for item in source}
+
+
+def official_recordings_by_talk(
+    videos: list[dict[str, object]],
+) -> dict[str, list[dict[str, object]]]:
+    recordings: dict[str, list[dict[str, object]]] = {}
+    ordered = sorted(
+        videos,
+        key=lambda item: (
+            int(item.get("playlistIndex") or 1_000_000),
+            str(item.get("id") or ""),
+        ),
+    )
+    for item in ordered:
+        if item.get("mediaType") != "talk_recording":
+            continue
+        if item.get("playlistAvailability") == "unavailable":
+            continue
+        if item.get("videoAvailability") in {"private", "unknown", "unavailable"}:
+            continue
+        matched_talks = item.get("matchedTalks")
+        if not isinstance(matched_talks, list):
+            continue
+        for talk_id in matched_talks:
+            if isinstance(talk_id, str) and talk_id:
+                recordings.setdefault(talk_id, []).append(item)
+    return recordings
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -157,7 +196,7 @@ def split_frontmatter(text: str) -> tuple[str, str]:
 def upsert_section(markdown: str, heading: str, section: str) -> str:
     fm, body = split_frontmatter(markdown)
     pattern = re.compile(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
-    replacement = f"## {heading}\n{section.strip()}\n"
+    replacement = f"## {heading}\n{section.strip()}\n\n"
     if pattern.search(body):
         body = pattern.sub(replacement, body).rstrip() + "\n"
     else:
@@ -169,6 +208,166 @@ def video_ids_in_text(text: str) -> set[str]:
     ids = set(re.findall(r"youtube-([A-Za-z0-9_-]{11})(?=[\]\)\s/#-]|$)", text))
     ids.update(re.findall(r"(?:watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})", text))
     return ids
+
+
+def cached_transcript(video_id: str) -> tuple[Path | None, str]:
+    for folder, label in TRANSCRIPT_DIRS:
+        path = folder / f"{video_id}.txt"
+        if path.is_file():
+            return path, label
+    return None, ""
+
+
+def relative_source_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def rewrite_existing_section(markdown: str, heading: str, transform) -> str:
+    fm, body = split_frontmatter(markdown)
+    pattern = re.compile(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
+    match = pattern.search(body)
+    if match is None:
+        return markdown
+    current = match.group(0).split("\n", 1)[1]
+    replacement = f"## {heading}\n{transform(current).strip()}\n\n"
+    body = body[: match.start()] + replacement + body[match.end() :]
+    return fm + body.rstrip() + "\n"
+
+
+def dedupe_media_source_blocks(section: str) -> str:
+    prefix: list[str] = []
+    order: list[str] = []
+    blocks: dict[str, list[str]] = {}
+    current_id: str | None = None
+    marker = re.compile(r"^- Source video: `youtube-([A-Za-z0-9_-]{11})`\s*$")
+
+    for line in section.strip().splitlines():
+        match = marker.match(line)
+        if match:
+            current_id = match.group(1)
+            if current_id not in blocks:
+                order.append(current_id)
+                blocks[current_id] = [line]
+            continue
+        if current_id is None:
+            prefix.append(line)
+            continue
+        if line.strip() and line not in blocks[current_id]:
+            blocks[current_id].append(line)
+
+    parts = []
+    if "\n".join(prefix).strip():
+        parts.append("\n".join(prefix).strip())
+    parts.extend("\n".join(blocks[video_id]).strip() for video_id in order)
+    return "\n\n".join(parts)
+
+
+def recording_section(
+    recordings: list[dict[str, object]],
+    cached_transcript_ids: set[str],
+) -> str:
+    lines: list[str] = []
+    seen: set[str] = set()
+    for item in recordings:
+        video_id = str(item["id"])
+        if video_id in seen:
+            continue
+        seen.add(video_id)
+        title = str(item.get("title") or item.get("playlistTitle") or video_id)
+        published = str(item.get("uploadDate") or item.get("releaseDate") or "")
+        published_note = f" published {published}" if published else ""
+        lines.append(
+            f"- [[youtube-{video_id}|{title}]] — official AI Engineer YouTube "
+            f"recording{published_note}."
+        )
+        if video_id in cached_transcript_ids:
+            lines.append(
+                f"- Evidence status: [[youtube-{video_id}-transcript]] — dedicated "
+                "official recording transcript."
+            )
+    lines.append(
+        "- Boundary: use these recordings as media evidence; keep date/time/room facts "
+        "tied to the official schedule."
+    )
+    return "\n".join(lines)
+
+
+def transcript_markdown_line(video_id: str, *, dedicated: bool) -> str:
+    path, label = cached_transcript(video_id)
+    if dedicated:
+        description = "dedicated official recording transcript"
+    elif path is not None and path.parent.name == "youtube-livestream-transcripts":
+        description = "official livestream context transcript"
+    elif path is not None and path.parent.name == "external-youtube-transcripts":
+        description = "secondary-source transcript"
+    else:
+        description = label.lower() if label else "cached transcript"
+    source = f"; source cache `{relative_source_path(path)}`" if path is not None else ""
+    return f"- [[youtube-{video_id}-transcript]] — {description}{source}."
+
+
+def project_official_media_to_talk(
+    markdown: str,
+    recordings: list[dict[str, object]],
+    available_transcript_ids: set[str],
+) -> str:
+    if not recordings:
+        return markdown
+
+    official_ids = list(dict.fromkeys(str(item["id"]) for item in recordings))
+    cached_official_ids = [
+        video_id for video_id in official_ids if video_id in available_transcript_ids
+    ]
+    updated = upsert_section(
+        markdown,
+        "Official YouTube Recording",
+        recording_section(recordings, set(cached_official_ids)),
+    )
+
+    def clean_media_evidence(section: str) -> str:
+        lines = [
+            line
+            for line in section.splitlines()
+            if line.strip() != STALE_NO_RELATED_VIDEO
+        ]
+        return dedupe_media_source_blocks("\n".join(lines))
+
+    updated = rewrite_existing_section(updated, "Media Evidence", clean_media_evidence)
+    linked_ids = list(cached_official_ids)
+    linked_ids.extend(
+        sorted(
+            video_id
+            for video_id in video_ids_in_text(updated)
+            if video_id in available_transcript_ids
+            and video_id not in cached_official_ids
+        )
+    )
+    if linked_ids:
+        lines = [
+            transcript_markdown_line(
+                video_id,
+                dedicated=video_id in cached_official_ids,
+            )
+            for video_id in linked_ids
+        ]
+        updated = upsert_section(updated, "Transcript Markdown", "\n".join(lines))
+    if cached_official_ids:
+        status_lines = []
+        for video_id in cached_official_ids:
+            path, _label = cached_transcript(video_id)
+            if path is None:
+                continue
+            words = len(path.read_text(encoding="utf-8", errors="ignore").split())
+            status_lines.append(
+                f"Cached dedicated-session transcript text is available at "
+                f"`{relative_source_path(path)}` ({words:,} words)."
+            )
+        if status_lines:
+            updated = upsert_section(updated, "Transcript Status", "\n".join(status_lines))
+    return updated
 
 
 def existing_transcript_records(out_dir: Path) -> list[dict[str, object]]:
@@ -263,12 +462,25 @@ def main(argv: list[str] | None = None) -> int:
     transcript_ids: set[str] = set()
     records: list[dict[str, object]] = []
 
-    official_video_ids = official_manifest_video_ids()
+    manifest_videos = official_manifest_videos()
+    official_video_ids = official_manifest_video_ids(manifest_videos)
+    recordings_by_talk = official_recordings_by_talk(manifest_videos)
     selected_ids = (
         official_video_ids
         if args.manifest_only
         else set(args.video_id) if args.video_id else None
     )
+    if args.video_id:
+        requested_ids = set(args.video_id)
+        recordings_by_talk = {
+            talk_id: [
+                item
+                for item in recordings
+                if str(item["id"]) in requested_ids
+            ]
+            for talk_id, recordings in recordings_by_talk.items()
+            if any(str(item["id"]) in requested_ids for item in recordings)
+        }
     for source_path, label in transcript_paths(selected_ids):
         video_id = source_path.stem
         title = titles.get(video_id) or titleize(video_id)
@@ -304,14 +516,36 @@ def main(argv: list[str] | None = None) -> int:
             path.write_text(updated, encoding="utf-8")
             resource_updates += 1
 
+    cached_official_transcript_ids = {
+        str(item["id"])
+        for recordings in recordings_by_talk.values()
+        for item in recordings
+        if cached_transcript(str(item["id"]))[0] is not None
+    }
+    available_transcript_ids = transcript_ids | cached_official_transcript_ids
     talk_updates = 0
     for path in sorted((WIKI / "talks").glob("*.md")):
         text = path.read_text(encoding="utf-8")
-        linked = sorted(video_id for video_id in video_ids_in_text(text) if video_id in transcript_ids)
-        if not linked:
-            continue
-        section = "\n".join(f"- [[youtube-{video_id}-transcript]] — full cached transcript markdown for the related YouTube source." for video_id in linked)
-        updated = upsert_section(text, "Transcript Markdown", section)
+        recordings = recordings_by_talk.get(path.stem, [])
+        if recordings:
+            updated = project_official_media_to_talk(
+                text,
+                recordings,
+                available_transcript_ids,
+            )
+        else:
+            linked = sorted(
+                video_id
+                for video_id in video_ids_in_text(text)
+                if video_id in transcript_ids
+            )
+            if not linked:
+                continue
+            section = "\n".join(
+                transcript_markdown_line(video_id, dedicated=False)
+                for video_id in linked
+            )
+            updated = upsert_section(text, "Transcript Markdown", section)
         if updated != text:
             path.write_text(updated, encoding="utf-8")
             talk_updates += 1

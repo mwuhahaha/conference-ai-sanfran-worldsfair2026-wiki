@@ -20,7 +20,9 @@ With over five years of experience in the IT industry, Patricija Žemaitytė has
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]] — How Web Data Infrastructure Powers the Next Generation of AI (2026-06-30, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]

@@ -2,19 +2,15 @@
 title: "Latent Space / AI Engineer"
 category: "companies"
 aliases: ["Latent Space / AI Engineer"]
-website: "https://www.latent.space/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Combined roster affiliation", "Constituent publication site", "Manual source URL override", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Latent Space / AI Engineer
 
 ## Overview
-Latent Space / AI Engineer is the canonical affiliation string in the official roster. The attached Latent Space publication site supplies constituent context only and does not show that the combined roster affiliation is one legal organization.
-
-## Background
-The official speaker roster lists swyx with Latent Space / AI Engineer. The attached URL represents the Latent Space constituent publication; the roster string remains canonical for the event relationship but does not establish one combined legal entity.
+Latent Space / AI Engineer is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Latent Space / AI Engineer matters to this wiki through 1 official speaker(s) and 6 scheduled session(s), including: The Highest Loop; How Anthropic Builds: Lessons from Labs; Latent Space Live: the Inference Inflection from First Principles.
+Latent Space / AI Engineer appears through 1 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Highest Loop; How Anthropic Builds: Lessons from Labs; Latent Space Live: the Inference Inflection from First Principles.
 
 ## Conference Sessions
 - [[2026-06-29-swyx-the-highest-loop]] - The Highest Loop (2026-06-29, 9:00am-9:05am)
@@ -28,10 +24,12 @@ Latent Space / AI Engineer matters to this wiki through 1 official speaker(s) an
 - [[swyx]] - Curator
 
 ## Sources
-- [Latent Space publication site](https://www.latent.space/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-swyx-the-highest-loop|The Highest Loop]]
@@ -42,10 +40,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 - `youtube-5N33E9tC400` — source page linked; role: supporting context only.
@@ -53,10 +47,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: manual_url_unfetched.
-- Publication validation: identity and event association verified; context only, not endorsed.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

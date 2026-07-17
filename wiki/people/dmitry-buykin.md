@@ -24,7 +24,9 @@ Dmitry Buykin builds production AI agent systems that turn frontline tribal know
 - [[2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale]] — Tribal Dungeons of Global Shipping: AI Agents at Global Scale (2026-07-01, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale|Tribal Dungeons of Global Shipping: AI Agents at Global Scale]]

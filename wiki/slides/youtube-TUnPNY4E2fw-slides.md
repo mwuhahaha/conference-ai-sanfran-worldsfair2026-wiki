@@ -180,7 +180,6 @@ Slide text:
 > UntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026
 > Engineering the future of Al
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/TUnPNY4E2fw/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker at podium with projected slide; not a clean slide frame
 - [`slide-012.jpg`](/assets/slides/TUnPNY4E2fw/slide-012.jpg) — `sponsor_logo` confidence `0.99`; Closing sponsor/logo card; no presentation content to retain.

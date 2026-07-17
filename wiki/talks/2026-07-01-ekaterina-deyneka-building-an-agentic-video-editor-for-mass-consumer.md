@@ -32,43 +32,7 @@ Most agentic systems today are built for developers — people comfortable setti
 
 This talk is for anyone building agents that need to work for non-technical users, or anyone curious about multimodal agentic pipelines beyond text and code.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-- [[youtube-AheG9p_JXVw-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-AheG9p_JXVw`
-- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-AheG9p_JXVw` — 1,340 transcript words; role: supporting context only.
-- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
-- Evidence links for `youtube-AheG9p_JXVw` (supporting context only): [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[ekaterina-deyneka]]
-
-## External Secondary Source Candidates
-These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
-
-- [AI Engineer World's Fair: Building Reelful - Agentic Video Editor](https://www.youtube.com/watch?v=AheG9p_JXVw)
-  - Uploader: Kate | AI Founder · Building Reelful
-  - Confidence label: high
-  - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt`
-
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Secondary Interview Context
+## Synthesis
 ### Interview Opening (Secondary Source)
 Hi, we're building real and we're trying to tackle agenda video editing problem from video editing problem from the agent standpoint. I'm K. I'm founder and co. But let's first talk about what's agentic video editing is.
 
@@ -90,3 +54,58 @@ Hi, we're building real and we're trying to tackle agenda video editing problem 
 
 ### Evidence Boundary
 This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.
+
+## Secondary Interview Context
+### Interview Opening (Secondary Source)
+Hi, we're building real and we're trying to tackle agenda video editing problem from video editing problem from the agent standpoint. I'm K. I'm founder and co. But let's first talk about what's agentic video editing is.
+
+### Official Schedule Identity
+- [[ekaterina-deyneka|Ekaterina Deyneka]] — Founder & CEO at [[reelful|Reelful]].
+
+### Topics Mentioned In The Interview
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Secondary Source Material
+- [[youtube-AheG9p_JXVw-transcript]] — secondary-source transcript; source cache `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt` (1,340 words).
+- [[youtube-AheG9p_JXVw]] — related YouTube source page.
+- [[youtube-AheG9p_JXVw-slides]] — slide evidence.
+
+### Interview Concepts / Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.
+## People
+- [[ekaterina-deyneka]]
+
+## External Secondary Source Candidates
+These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
+
+- [AI Engineer World's Fair: Building Reelful - Agentic Video Editor](https://www.youtube.com/watch?v=AheG9p_JXVw)
+  - Uploader: Kate | AI Founder · Building Reelful
+  - Confidence label: high
+  - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt`
+
+## Media Evidence
+- [[youtube-AheG9p_JXVw]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-AheG9p_JXVw`
+- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-AheG9p_JXVw` — 1,340 transcript words; role: supporting context only.
+- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
+- Evidence links for `youtube-AheG9p_JXVw` (supporting context only): [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

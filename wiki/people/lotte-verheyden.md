@@ -20,7 +20,9 @@ Lotte Verheyden guides both humans and agents through AI engineering at Langfuse
 - [[2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse]] — Continuously improving agents with Langfuse (2026-06-29, 1:15pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse|Continuously improving agents with Langfuse]]

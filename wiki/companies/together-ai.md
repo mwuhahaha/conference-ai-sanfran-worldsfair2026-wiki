@@ -3,7 +3,7 @@ title: "Together AI"
 category: "companies"
 aliases: ["Together AI"]
 website: "https://www.together.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Together AI
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Together AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build what's next on the AI Native Cloud. Full-stack AI platform for inference, fine-tuning, and GPU clusters — powered by cutting-edge research.
 
 ## Background
-The official speaker roster connects Together AI to Dan Fu, Hassan El Mghari, Jue Wang, Qingyang Wu, Yubo Wang, Zain Hasan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Together AI to Dan Fu, Hassan El Mghari, Jue Wang, Qingyang Wu, Yubo Wang, Zain Hasan.
 
 ## Conference Relevance
 Together AI matters to this wiki through 6 official speaker(s) and 3 scheduled session(s), including: Open-Source Inference Engineering for the Agentic Era; The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs; Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It.
@@ -33,7 +33,9 @@ Together AI matters to this wiki through 6 official speaker(s) and 3 scheduled s
 - [Together AI / The AI Native Cloud](https://www.together.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era|Open-Source Inference Engineering for the Agentic Era]]
@@ -44,12 +46,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
 - Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
-- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
-- Evidence links for `youtube-gcseUQJ6Gbg` (supporting context only): [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

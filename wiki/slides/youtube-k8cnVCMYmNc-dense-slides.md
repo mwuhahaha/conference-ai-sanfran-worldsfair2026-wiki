@@ -81,7 +81,6 @@ Slide text:
 > 23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C
 > 22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/dense-slides/k8cnVCMYmNc/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker-stage shot with only partial projected text visible
 - [`slide-002.jpg`](/assets/dense-slides/k8cnVCMYmNc/slide-002.jpg) — `speaker_stage` confidence `0.98`; speaker-stage shot with presenter and partial projection, not a standalone slide

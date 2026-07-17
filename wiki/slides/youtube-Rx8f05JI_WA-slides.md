@@ -198,7 +198,6 @@ Slide text:
 > std::process::Cormand::new( gcc) cargs([P, “ input, cstatus() “o% output]) The verifier runs'strace, sees gcc spawn, and rejects compilor wrappers. 0.989 partial: +. 0 reward
 > S++-+a?at h++.tf9 11./ 11
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/Rx8f05JI_WA/audit.json`
 
 ## Slide-Derived Subjects To Review

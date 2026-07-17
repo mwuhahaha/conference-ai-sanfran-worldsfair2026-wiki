@@ -12,6 +12,15 @@ highlightPriority: "high"
 ## Overview
 ORA is an agentic-web research and product effort focused on making websites and software usable by AI agents. In the World's Fair graph, ORA is connected through [[liad-yosef|Liad Yosef]], whose official speaker bio describes him as co-founder and CTO at ORA and as someone building the future of the agentic web.
 
+## Public Research Context
+ORA's state-of-agent-readiness report is useful supporting evidence for several recurring World's Fair ideas:
+
+- Agents are becoming customers and operators, not only readers.
+- Read access is easier than action-readiness.
+- Browser fallback works, but can be slower, more expensive, and more fragile than proper machine interfaces.
+- Agent-ready sites need usable auth flows, integration surfaces, typed tools, streaming where appropriate, and machine-readable context.
+- The web may become nearly headless, but not completely headless, because some moments still need human review or visual choice.
+
 ## Conference Relevance
 ORA gives concrete company context to [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]. The talk argues that the next customer may be an agent rather than a human, and that web products will compete on whether agents can discover, understand, authenticate, operate, and hand work back to people.
 
@@ -26,6 +35,11 @@ That framing lines up with ORA's public agent-readiness research. ORA's April 20
 - [[liad-yosef]] - Co-founder and CTO context from official bio
 - [[ido-salomon]] - Co-creator connected through MCP Apps and agentic UI work
 
+## Related Topics And Tools
+- [[agentic-web]]
+- [[mcp]]
+- [[mcp-apps]]
+- [[chrome-agent]]
 ## Sources
 - [ORA official site](https://ora.ai/)
 - [ORA state of agent readiness report](https://ora.ai/blog/state-of-agent-readiness-2026)
@@ -34,7 +48,7 @@ That framing lines up with ORA's public agent-readiness research. ORA's April 20
 - [Liad Yosef X profile](https://x.com/liadyosef)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Linked Sessions
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
@@ -42,27 +56,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-kR64LOqBBCU` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-kR64LOqBBCU`: putting, orchestration, bottleneck, skills, along, channels, open.
-- Evidence links for `youtube-kR64LOqBBCU` (supporting context only): [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
 The official speaker roster is canonical for Liad Yosef's World's Fair participation. ORA's public site, ORA's research article, and public professional profiles are supporting sources used to explain the company and the agentic-web context.
-
-## Public Research Context
-ORA's state-of-agent-readiness report is useful supporting evidence for several recurring World's Fair ideas:
-
-- Agents are becoming customers and operators, not only readers.
-- Read access is easier than action-readiness.
-- Browser fallback works, but can be slower, more expensive, and more fragile than proper machine interfaces.
-- Agent-ready sites need usable auth flows, integration surfaces, typed tools, streaming where appropriate, and machine-readable context.
-- The web may become nearly headless, but not completely headless, because some moments still need human review or visual choice.
-
-## Related Topics And Tools
-- [[agentic-web]]
-- [[mcp]]
-- [[mcp-apps]]
-- [[chrome-agent]]

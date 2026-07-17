@@ -38,5 +38,4 @@ Slide text:
 > Building Autonomous Engineering Systems
 > or, how do we make codebases that are agent ready?
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/ShuJ_CN6zr4/audit.json`

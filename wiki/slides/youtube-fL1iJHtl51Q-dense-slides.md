@@ -44,5 +44,4 @@ Slide text:
 
 > Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/fL1iJHtl51Q/audit.json`

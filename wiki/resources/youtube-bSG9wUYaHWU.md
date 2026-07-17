@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement]] — Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=bSG9wUYaHWU)
-
-## Related Scheduled Sessions
-- [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement]] — Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.
 ## Extracted Slides
 - [[youtube-bSG9wUYaHWU-dense-slides]]
 - [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 - [[youtube-bSG9wUYaHWU-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=bSG9wUYaHWU)

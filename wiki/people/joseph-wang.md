@@ -20,7 +20,9 @@ CEO of [[emulated|Emulated]], building the data for fully autonomous AI
 - [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]] — Emulated: The data for fully autonomous software engineers and companies (2026-06-30, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies|Emulated: The data for fully autonomous software engineers and companies]]

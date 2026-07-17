@@ -2,19 +2,15 @@
 title: "Dyna Robotics"
 category: "companies"
 aliases: ["Dyna Robotics"]
-website: "https://www.dyna.co/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Dyna Robotics
 
 ## Overview
-Dyna Robotics is represented at AI Engineer World's Fair 2026. Its public site describes it this way: DYNA-1 is our first commercial-grade robotic system running 24/7 in real environments with 99.4% success. Dual-arm robots for factories, restaurants, and laundromats - delivering continuous dexterity where reliability matters.
-
-## Background
-The official speaker roster connects Dyna Robotics to Jason Ma. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Dyna Robotics is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Dyna Robotics matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Commercial Grade-Robots for Real World Usage.
+Dyna Robotics appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Commercial Grade-Robots for Real World Usage.
 
 ## Conference Sessions
 - [[2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage]] - Commercial Grade-Robots for Real World Usage (2026-06-30, 11:40am-12:00pm)
@@ -23,19 +19,17 @@ Dyna Robotics matters to this wiki through 1 official speaker(s) and 1 scheduled
 - [[jason-ma]] - CTO and co-founder
 
 ## Sources
-- [DYNA Robotics - Commercial-Grade Robots for Real-World Automation](https://www.dyna.co/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage|Commercial Grade-Robots for Real World Usage]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

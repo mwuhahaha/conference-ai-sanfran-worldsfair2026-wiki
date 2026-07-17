@@ -24,7 +24,9 @@ Hursh Agrawal is the Co-founder and CTO of [[the-browser-company|The Browser Com
 - [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents]] — Prototyping as Leadership: How a CTO Ships with AI Agents (2026-06-29, 12:05pm-12:25pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents|Prototyping as Leadership: How a CTO Ships with AI Agents]]

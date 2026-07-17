@@ -20,11 +20,12 @@ Founder and CEO of [[workos|WorkOS]], a company focused on APIs and integrations
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md]] — Auth for Agents: Unblock Autonomous AI with auth.md (2026-07-01, 11:40am-12:00pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
 
 ### Media Signals
-- `youtube-D4Dswf-__RM` — source page linked; role: supporting context only.
-- Evidence links for `youtube-D4Dswf-__RM` (supporting context only): [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

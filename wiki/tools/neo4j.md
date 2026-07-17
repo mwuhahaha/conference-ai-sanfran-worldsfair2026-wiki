@@ -9,7 +9,7 @@ scheduleRooms: ["Track 2", "Track 5", "Track 3"]
 
 # Neo4j
 
-## Why It Belongs
+## Conference Context
 Neo4j appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

@@ -2,19 +2,15 @@
 title: "CoupleWork AI"
 category: "companies"
 aliases: ["CoupleWork AI"]
-website: "https://couplework.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # CoupleWork AI
 
 ## Overview
-CoupleWork AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Strengthen your bond with CoupleWork Use AI-powered sessions and evidence-based tools to improve communication, rebuild trust, and resolve conflict together.
-
-## Background
-The official speaker roster connects CoupleWork AI to Clay Cockrell, Tony Fabrikant. The public company site was discovered by domain-guess and fetched for homepage metadata.
+CoupleWork AI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-CoupleWork AI matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong..
+CoupleWork AI appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong..
 
 ## Conference Sessions
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong]] - Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong. (2026-07-01, 1:30pm-1:50pm)
@@ -24,19 +20,17 @@ CoupleWork AI matters to this wiki through 2 official speaker(s) and 1 scheduled
 - [[tony-fabrikant]] - Co-founder
 
 ## Sources
-- [CoupleWork AI](https://couplework.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong|Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

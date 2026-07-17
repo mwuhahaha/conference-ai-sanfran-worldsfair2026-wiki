@@ -24,12 +24,12 @@ Co-Founder at [[artificial-analysis|Artificial Analysis]], the leading independe
 - [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI (2026-06-30, 4:50pm-5:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Media Signals
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

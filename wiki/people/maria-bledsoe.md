@@ -19,7 +19,9 @@ Maria Bledsoe is General Manager of Product Marketing at [[microsoft|Microsoft]]
 - [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks]] — Using AI tools to teach old apps new tricks (2026-06-29, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks|Using AI tools to teach old apps new tricks]]

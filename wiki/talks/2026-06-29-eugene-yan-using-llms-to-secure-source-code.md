@@ -27,39 +27,9 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ## Session Description
 Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify, triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a copy-paste path to your first scan.
 
-## Media Evidence
-[Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon](https://www.youtube.com/watch?v=2vlCqD6igVA) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- Source video: `youtube-2vlCqD6igVA`
-- Slide deck: [[youtube-2vlCqD6igVA-reconstructed-slides|Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-003.jpg]]
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-004.jpg]]
-- Additional slide evidence: [[youtube-2vlCqD6igVA-slides|Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]]
-- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-2vlCqD6igVA` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
-- Evidence links for `youtube-2vlCqD6igVA` (supporting context only): [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
-## People
-- [[eugene-yan]]
-
-## Supporting Slides
-- [[youtube-2vlCqD6igVA-slides]] — extracted from the related public AI Engineer video.
-
 ## Synthesis
 ### Synthesized Breakdown
-# Using LLMs to Secure Source Code ## Conference Context - Date/time: 2026-06-29 · 1:30pm-1:50pm - Track/room: Security · Track 5 - Speaker(s): Eugene Yan - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify, triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a copy-paste path to your first scan. ## Media Evidence [Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon](https://www.youtube.com/watch?v=2vlCqD6igVA) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-2vlCqD6igVA` - Slide deck: [[youtube-2vlCqD6igVA-reconstructed-slides|Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]] — 2 visible slide image(s); 2 HTML recreation(s).
+Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify, triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a copy-paste path to your first scan.
 
 ### Speaker And Company Context
 - [[eugene-yan|Eugene Yan]] — Member of Technical Staff at [[anthropic|Anthropic]].
@@ -79,3 +49,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+## People
+- [[eugene-yan]]
+
+## Media Evidence
+No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

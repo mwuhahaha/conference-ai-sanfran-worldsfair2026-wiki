@@ -25,5 +25,4 @@ Slide text:
 
 > Engineering the future of AI
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/B9h9ovW5H9U/audit.json`

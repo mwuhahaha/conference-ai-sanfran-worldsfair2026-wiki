@@ -33,5 +33,4 @@ Slide text:
 > The ultimate goal of observability and evaluation is to know where to iterate
 > and know where to improve the system
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/JsCCrBF7F1g/audit.json`

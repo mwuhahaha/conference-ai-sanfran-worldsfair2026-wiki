@@ -517,7 +517,6 @@ Slide text:
 > 5. AI Verticals
 > 6. Side Events
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/0S8xe9ftGTM/audit.json`
 
 ## Slide-Derived Subjects To Review

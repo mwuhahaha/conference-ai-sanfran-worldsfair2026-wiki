@@ -2,19 +2,15 @@
 title: "Hippocratic AI"
 category: "companies"
 aliases: ["Hippocratic AI"]
-website: "https://hippocratic.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Hippocratic AI
 
 ## Overview
-Hippocratic AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Comprehensive Financial Care for Physicians.
-
-## Background
-The official speaker roster connects Hippocratic AI to Vivek Muppalla. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Hippocratic AI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Hippocratic AI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: 200 Million Patient Interactions Later: What the Generic Voice Stack Misses.
+Hippocratic AI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: 200 Million Patient Interactions Later: What the Generic Voice Stack Misses.
 
 ## Conference Sessions
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses]] - 200 Million Patient Interactions Later: What the Generic Voice Stack Misses (2026-07-01, 12:05pm-12:25pm)
@@ -23,10 +19,12 @@ Hippocratic AI matters to this wiki through 1 official speaker(s) and 1 schedule
 - [[vivek-muppalla]] - VP AI Engineering
 
 ## Sources
-- [Hippocratic Financial](https://hippocratic.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
@@ -34,9 +32,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-u3NofYYstaY` — source page linked; role: supporting context only.
 - Evidence links for `youtube-u3NofYYstaY` (supporting context only): [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

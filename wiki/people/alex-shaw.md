@@ -19,12 +19,12 @@ Alex Shaw is the creator of Harbor, a framework for evaluating and optimizing ag
 - [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Media Signals
-- `youtube-liG97YXaTSA` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
-- Evidence links for `youtube-liG97YXaTSA` (supporting context only): [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+No linked video, transcript, or slide source has been attached yet.

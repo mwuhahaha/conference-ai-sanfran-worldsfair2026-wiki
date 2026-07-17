@@ -27,35 +27,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ## Session Description
 Self-driving production is the next frontier of autonomous software development but getting there is a journey. In this session, we ll show how enterprises are progressing from manual operations and AI copilots toward closed-loop, autonomous production systems with Traversal.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-- [[youtube-qakTj_xI0gk-transcript]] — full cached transcript markdown for the related YouTube source.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-qakTj_xI0gk` — 2,375 transcript words; role: supporting context only.
-- Transcript signals for `youtube-qakTj_xI0gk`: models, traversal, customers, data, company, companies, great, might.
-- Evidence links for `youtube-qakTj_xI0gk` (supporting context only): [[youtube-qakTj_xI0gk-transcript]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## External Secondary Source Candidates
-These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
-
-- [Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026](https://www.youtube.com/watch?v=qakTj_xI0gk)
-  - Uploader: WorkOS
-  - Confidence label: high
-  - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt`
-  - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
-
-## Secondary Interview Context
+## Synthesis
 ### Interview Opening (Secondary Source)
 Hey everybody, we are back here at the AI Engineer World Fair 2026 in San Francisco and I'm thrilled to have Eric here from Traversal. Hey everybody, nice to meet you. All right, so Eric, uh to get started, tell us a little bit about you, the company, and what you guys do today. Yeah, so I'm a product manager at Traversal.
 
@@ -76,3 +48,49 @@ Hey everybody, we are back here at the AI Engineer World Fair 2026 in San Franci
 
 ### Evidence Boundary
 This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.
+
+## Secondary Interview Context
+### Interview Opening (Secondary Source)
+Hey everybody, we are back here at the AI Engineer World Fair 2026 in San Francisco and I'm thrilled to have Eric here from Traversal. Hey everybody, nice to meet you. All right, so Eric, uh to get started, tell us a little bit about you, the company, and what you guys do today. Yeah, so I'm a product manager at Traversal.
+
+### Official Schedule Identity
+- No speaker profile is attached in the official schedule data.
+
+### Topics Mentioned In The Interview
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Secondary Source Material
+- [[youtube-qakTj_xI0gk-transcript]] — secondary-source transcript; source cache `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt` (2,375 words).
+
+### Interview Concepts / Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.
+## External Secondary Source Candidates
+These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
+
+- [Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026](https://www.youtube.com/watch?v=qakTj_xI0gk)
+  - Uploader: WorkOS
+  - Confidence label: high
+  - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt`
+  - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
+
+## Media Evidence
+- [[youtube-qakTj_xI0gk]] - supporting context; not the exact session recording.
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-qakTj_xI0gk` — 2,375 transcript words; role: supporting context only.
+- Transcript signals for `youtube-qakTj_xI0gk`: models, traversal, customers, data, company, companies, great, might.
+- Evidence links for `youtube-qakTj_xI0gk` (supporting context only): [[youtube-qakTj_xI0gk-transcript]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

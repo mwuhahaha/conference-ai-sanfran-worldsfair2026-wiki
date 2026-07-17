@@ -25,7 +25,6 @@ Slide text:
 > Read the full report
 > research.trychroma.com
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/dense-slides/jryZvCuA0Uc/slide-001.jpg) — `title_card` confidence `0.98`; title card
 

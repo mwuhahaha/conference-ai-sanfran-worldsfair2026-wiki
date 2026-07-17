@@ -76,7 +76,6 @@ Slide text:
 > - What is a test seam?
 > - PRD Template
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/UNzCG3lw6O0/audit.json`
 
 ## Slide-Derived Subjects To Review

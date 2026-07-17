@@ -146,7 +146,6 @@ Slide text:
 > AlEngineer EUROPE
 > EUROP
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/zDGHt0LB-dA/slide-001.jpg) — `speaker_stage` confidence `0.96`; stage shot with presenter and audience; projected slide is secondary and not a clean slide capture
 - [`slide-002.jpg`](/assets/slides/zDGHt0LB-dA/slide-002.jpg) — `speaker_stage` confidence `0.96`; stage shot with presenter movement blocking the view; not a clean slide frame

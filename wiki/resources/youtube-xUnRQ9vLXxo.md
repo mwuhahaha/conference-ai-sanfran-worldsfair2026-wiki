@@ -1,34 +1,32 @@
 ---
-title: "What do we build now? — @t3dotgg"
+title: "Everything we knew about software has changed — Theo Browne, @t3dotgg ​"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "xUnRQ9vLXxo"
+publishedDate: "2026-07-08"
 last_enriched: "2026-07-15T23:40:59.189485+00:00"
 ---
-# What do we build now? — @t3dotgg
+# Everything we knew about software has changed — Theo Browne, @t3dotgg ​
 
 ## What It Is
-An official AI Engineer YouTube channel video with a cached transcript. It is retained as supporting context only because it has not been verified as an actual AI Engineer World's Fair San Francisco 2026 event recording.
+An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: supporting official-channel video context, not first-class event evidence.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
+
+## Relationship To World's Fair 2026
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt` (9,663 words).
-
-## Topic Signals
-- [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[software-factories|Software Factories]]
-- Transcript keywords: `currently`, `fine`, `pointing`, `used`, `getting`, `share`, `probably`, `companies`
-
-## Link
-[YouTube](https://www.youtube.com/watch?v=xUnRQ9vLXxo)
+Cached transcript text is available at `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt`.
 
 ## Extracted Slides
 - [[youtube-xUnRQ9vLXxo-slides]]
 
 ## Transcript Markdown
 - [[youtube-xUnRQ9vLXxo-transcript]] — full cached transcript markdown.
+
+## Link
+[YouTube](https://www.youtube.com/watch?v=xUnRQ9vLXxo)

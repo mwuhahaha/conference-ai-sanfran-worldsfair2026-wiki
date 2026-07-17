@@ -2,19 +2,15 @@
 title: "Sonar"
 category: "companies"
 aliases: ["Sonar"]
-website: "https://www.sonarsource.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Sonar
 
 ## Overview
-Sonar is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Trusted by 7M+ developers, SonarQube is the AI code review and code verification platform that catches quality and security issues before they reach production.
-
-## Background
-The official speaker roster connects Sonar to Anirban Chatterjee, Killian Carlsen-Phelan, Tariq Shaukat. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Sonar is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Sonar matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: SonarQube + OpenAI: Wiring Your Team for Agentic Development; In the Land of AI Agents, the Verifiers Are King; Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands.
+Sonar appears through 3 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands; SonarQube + OpenAI: Wiring Your Team for Agentic Development; In the Land of AI Agents, the Verifiers Are King.
 
 ## Conference Sessions
 - [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development]] - SonarQube + OpenAI: Wiring Your Team for Agentic Development (2026-06-29, 1:15pm-2:15pm)
@@ -27,10 +23,12 @@ Sonar matters to this wiki through 3 official speaker(s) and 3 scheduled session
 - [[tariq-shaukat]] - Chief Executive Officer
 
 ## Sources
-- [Code Verification for the AI Era / Sonar](https://www.sonarsource.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development|SonarQube + OpenAI: Wiring Your Team for Agentic Development]]
@@ -39,9 +37,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

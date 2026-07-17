@@ -2,19 +2,15 @@
 title: "FriendliAI"
 category: "companies"
 aliases: ["FriendliAI"]
-website: "https://friendli.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # FriendliAI
 
 ## Overview
-FriendliAI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: FriendliAI is The Frontier AI Inference Cloud. Built by the researchers who invented the continuous batching technique that is now industry standard, FriendliAI provides AI engineers with a highly optimized engine that constantly evolves to efficiently run state-of-the-art open-weight and custom models at production scale. By maximizing GPU utilization, FriendliAI delivers speeds up to 3x faster than vLLM, and 50% to 90% cost savings relative to closed model APIs. FriendliAI empowers engineers to deploy frontier AI with uncompromising speed, model ownership, and enterprise-grade reliability.
-
-## Background
-The official speaker roster connects FriendliAI to Alex Campos, Byung-Gon (Gon) Chun, Yunmo Koo. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+FriendliAI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-FriendliAI matters to this wiki through 3 official speaker(s) and 2 scheduled session(s), including: Inference performance as a competitive advantage; The Frontier AI Inference Cloud for Agents.
+FriendliAI appears through 3 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Inference performance as a competitive advantage; The Frontier AI Inference Cloud for Agents.
 
 ## Conference Sessions
 - [[2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage]] - Inference performance as a competitive advantage (2026-06-30, 2:50pm-3:10pm)
@@ -26,10 +22,12 @@ FriendliAI matters to this wiki through 3 official speaker(s) and 2 scheduled se
 - [[yunmo-koo]] - Founding Engineer
 
 ## Sources
-- [FriendliAI](https://friendli.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage|Inference performance as a competitive advantage]]
@@ -37,9 +35,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

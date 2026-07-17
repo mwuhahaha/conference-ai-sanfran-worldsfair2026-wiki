@@ -148,7 +148,6 @@ Slide text:
 > Host (VS Code)
 > iframe (Your React UI)
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-008.jpg`](/assets/slides/_xIwFcnHqp4/slide-008.jpg) — `demo_video` confidence `0.85`; PowerPoint editor UI and stage-camera inset; not a clean slide frame.
 

@@ -65,7 +65,6 @@ Slide text:
 > AlEngineer
 > EUROPE
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/UM6sFg_jdlE/slide-001.jpg) — `speaker_stage` confidence `0.98`; Speaker standing at podium with audience visible; this is a stage shot, not a clean presentation slide frame.
 

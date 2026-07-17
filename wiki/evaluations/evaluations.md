@@ -2,6 +2,7 @@
 title: "Evaluations"
 category: "evaluations"
 ---
+
 # Evaluations
 
 Comparative decision artifacts for tools, workflows, and infrastructure. Recommendations are tentative unless backed by a concrete trial.

@@ -22,7 +22,9 @@ Developer Advocate at [[snyk|Snyk]], a cybersecurity company focused on securing
 - [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate]] — AI Security Engineer Foundations + Certificate (2026-06-29, 9:00am-11:00am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate|AI Security Engineer Foundations + Certificate]]

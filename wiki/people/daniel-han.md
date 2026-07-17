@@ -28,7 +28,9 @@ Co-founder of [[unsloth|Unsloth]]. Making open source AI more accessible and loc
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519]] — Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]]
@@ -36,8 +38,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-uIiA6DquRiE` — source page linked; role: primary event evidence.
-- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]]
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
 - Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]

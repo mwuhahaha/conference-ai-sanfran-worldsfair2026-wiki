@@ -2,19 +2,15 @@
 title: "Mastra"
 category: "companies"
 aliases: ["Mastra"]
-website: "https://mastra.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Mastra
 
 ## Overview
-Mastra is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Ship AI agents that reason, remember, and act in TypeScript. Mastra provides memory, tools, MCP, and observability to go from prototype to production.
-
-## Background
-The official speaker roster connects Mastra to Sam Bhagwat. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Mastra is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Mastra matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Every Harness Will Become A Claw.
+Mastra appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Every Harness Will Become A Claw.
 
 ## Conference Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] - Every Harness Will Become A Claw (2026-06-29, 3:20pm-3:40pm)
@@ -23,21 +19,17 @@ Mastra matters to this wiki through 1 official speaker(s) and 1 scheduled sessio
 - [[sam-bhagwat]] - Founder/CEO
 
 ## Sources
-- [TypeScript AI Framework for Agents and Apps / Mastra](https://mastra.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Media Signals
-- `youtube-8SUJEqQNClw` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
-- Evidence links for `youtube-8SUJEqQNClw` (supporting context only): [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

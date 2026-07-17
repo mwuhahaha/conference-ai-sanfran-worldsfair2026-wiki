@@ -2,19 +2,15 @@
 title: "Roboflow"
 category: "companies"
 aliases: ["Roboflow"]
-website: "https://roboflow.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Roboflow
 
 ## Overview
-Roboflow is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Everything you need to build and deploy computer vision models, from automated annotation tools to high-performance deployment solutions.
-
-## Background
-The official speaker roster connects Roboflow to Joseph Nelson. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Roboflow is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Roboflow matters to this wiki through 1 official speaker(s) and 3 scheduled session(s), including: The State of Vision; State of the Union: Why Local, Why Now; State of the Union: Why Local, Why Now.
+Roboflow appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The State of Vision; State of the Union: Why Local, Why Now.
 
 ## Conference Sessions
 - [[2026-06-29-joseph-nelson-the-state-of-vision]] - The State of Vision (2026-06-29, 10:45am-11:05am)
@@ -24,28 +20,23 @@ Roboflow matters to this wiki through 1 official speaker(s) and 3 scheduled sess
 - [[joseph-nelson]] - Cofounder, CEO
 
 ## Sources
-- [Roboflow: Computer vision tools for developers and enterprises](https://roboflow.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-joseph-nelson-the-state-of-vision|The State of Vision]]
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
 
 ### Media Signals
-- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
-- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
 - `youtube-OimPoLxioYg` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
 - Evidence links for `youtube-OimPoLxioYg` (supporting context only): [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

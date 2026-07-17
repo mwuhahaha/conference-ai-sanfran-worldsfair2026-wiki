@@ -17,18 +17,17 @@ An official AI Engineer YouTube channel video with a cached transcript. It is re
 - Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
 - Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/ILdE7FaAjVA.txt` (1,823 words).
-
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
 - Transcript keywords: `pardeep`, `used`, `getting`, `engaged`, `probably`, `thanks`, `companies`, `figure`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=ILdE7FaAjVA)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-transcripts/ILdE7FaAjVA.txt` (1,823 words).
 
 ## Extracted Slides
 - [[youtube-ILdE7FaAjVA-slides]]
 
 ## Transcript Markdown
 - [[youtube-ILdE7FaAjVA-transcript]] — full cached transcript markdown.
+## Link
+[YouTube](https://www.youtube.com/watch?v=ILdE7FaAjVA)

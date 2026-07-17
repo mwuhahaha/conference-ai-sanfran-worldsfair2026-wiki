@@ -3,7 +3,7 @@ title: "AIDAChip"
 category: "companies"
 aliases: ["AIDAChip"]
 website: "https://aidachip.com"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # AIDAChip
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 AIDAChip is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The first AI platform built for chip design teams, not just individuals. Shared context across every role, every handoff.
 
 ## Background
-The official speaker roster connects AIDAChip to Abduallah Mohamed, Khaled Alashmouny. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects AIDAChip to Abduallah Mohamed, Khaled Alashmouny.
 
 ## Conference Relevance
 AIDAChip matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: What If Your Chip Design Team Moved Like a Single Body?.
@@ -27,16 +27,14 @@ AIDAChip matters to this wiki through 2 official speaker(s) and 1 scheduled sess
 - [AIDAChip](https://aidachip.com)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body|What If Your Chip Design Team Moved Like a Single Body?]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

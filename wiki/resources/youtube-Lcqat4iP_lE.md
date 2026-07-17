@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=Lcqat4iP_lE)
-
-## Related Scheduled Sessions
-- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?
 ## Extracted Slides
 - [[youtube-Lcqat4iP_lE-dense-slides]]
 - [[youtube-Lcqat4iP_lE-reconstructed-slides]]
 - [[youtube-Lcqat4iP_lE-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=Lcqat4iP_lE)

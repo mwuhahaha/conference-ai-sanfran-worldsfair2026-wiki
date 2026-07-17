@@ -3,7 +3,7 @@ title: "Reducto"
 category: "companies"
 aliases: ["Reducto"]
 website: "https://reducto.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Reducto
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Reducto is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Reducto is the agentic document platform for leading AI teams—a comprehensive toolkit for every document task, built for enterprise performance at scale.
 
 ## Background
-The official speaker roster connects Reducto to Abhi Arya, Adit Abraham, Palak Agarwal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Reducto to Abhi Arya, Adit Abraham, Palak Agarwal.
 
 ## Conference Relevance
 Reducto matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: How Reducto parsed the Epstein Files for the Viral JMail Project: The Secret Complexities of Document; From Ingestion to Agents: How Leading AI Teams Build on Document Intelligence; From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work.
@@ -30,7 +30,9 @@ Reducto matters to this wiki through 3 official speaker(s) and 3 scheduled sessi
 - [Reducto: The Agentic Document Platform for AI Teams](https://reducto.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-palak-agarwal-how-reducto-parsed-the-epstein-files-for-the-viral-jmail-project-the-secret-complexities-of-document|How Reducto parsed the Epstein Files for the Viral JMail Project: The Secret Complexities of Document]]
@@ -39,9 +41,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

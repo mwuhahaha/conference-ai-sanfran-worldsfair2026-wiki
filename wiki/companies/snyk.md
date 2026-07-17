@@ -2,19 +2,15 @@
 title: "Snyk"
 category: "companies"
 aliases: ["Snyk"]
-website: "https://snyk.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Snyk
 
 ## Overview
-Snyk is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Snyk is the AI Security Fabric — the independent validator that makes AI-generated code, AI agents, and AI-native applications trustworthy. Unleash AI innovation securely.
-
-## Background
-The official speaker roster connects Snyk to Eli Cohen, Ezra Tanzer, Javier Garza, Manoj Nair, Micah Silverman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Snyk is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Snyk matters to this wiki through 5 official speaker(s) and 6 scheduled session(s), including: AI Security Engineer Foundations + Certificate; AI Security Engineer Foundations + Certificate; Security Track intro.
+Snyk appears through 5 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Continuous Offensive Security the only approach in an agent-first world; Agentic Development Security; AI Security Engineer Foundations + Certificate.
 
 ## Conference Sessions
 - [[2026-06-29-manoj-nair-security-track-intro]] - Security Track intro (2026-06-29, 10:25am-10:30am)
@@ -32,10 +28,12 @@ Snyk matters to this wiki through 5 official speaker(s) and 6 scheduled session(
 - [[micah-silverman]] - Director of Developer Relations
 
 ## Sources
-- [Snyk](https://snyk.io/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-manoj-nair-security-track-intro|Security Track intro]]
@@ -47,9 +45,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

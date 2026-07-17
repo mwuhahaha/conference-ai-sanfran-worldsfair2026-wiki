@@ -27,61 +27,18 @@ scheduleLabels: ["Track 9", "session", "confirmed"]
 ## Session Description
 Your AI is in production, but is it actually good? In this hands-on workshop, you'll learn how to uncover patterns in your production traces using Braintrust Topics, build custom scorers to target real issues, and systematically improve your agent. By the end, you'll have a repeatable eval workflow and trace-backed evidence that your AI is actually doing what you think it is.
 
-## Media Evidence
-[Evals 101 — Doug Guthrie, Braintrust](https://www.youtube.com/watch?v=bk0TmxoZlUY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- [[youtube-bk0TmxoZlUY-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-bk0TmxoZlUY`
-- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
-- Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words; role: supporting context only.
-- Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
-- Evidence links for `youtube-bk0TmxoZlUY` (supporting context only): [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
-
-## People
-- [[doug-guthrie]]
-
-## Supporting Slides
-- [[youtube-bk0TmxoZlUY-slides]] — extracted from the related public AI Engineer video.
-
-## Slide Evidence
-- Slide-only cropped deck: [[youtube-bk0TmxoZlUY-dense-slides]] (1 viable slide images).
-- Related slide/OCR pages:
-- [[youtube-bk0TmxoZlUY-dense-slides]]
-- [[youtube-bk0TmxoZlUY-reconstructed-slides]]
-- [[youtube-bk0TmxoZlUY-slides]]
-- Slide-derived terms: `evals`, `microsoft`, `prompt`, `braintrust`, `scorer`, `improve`, `eval`, `scorers`, `smol`, `code`, `zapier`, `model`, `quality`, `test`, `dataset`, `input`, `rome`, `datasets`
-
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
 ## Synthesis
 ### Synthesized Breakdown
-Hey everybody, my name is Doug Guthrie. Uh, I'm a solutions engineer at Brain Trust. Um, as you can see here, we're an endto-end developer platform for building AI products. We do evals.
+Your AI is in production, but is it actually good? In this hands-on workshop, you'll learn how to uncover patterns in your production traces using Braintrust Topics, build custom scorers to target real issues, and systematically improve your agent. By the end, you'll have a repeatable eval workflow and trace-backed evidence that your AI is actually doing what you think it is.
 
 ### Speaker And Company Context
 - [[doug-guthrie|Doug Guthrie]] — Solutions Engineer at [[braintrust|Braintrust]].
 
 ### Topics Covered
 - [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
 
 ### Derived Links And Source Material
-- [[youtube-bk0TmxoZlUY-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
+- [[youtube-bk0TmxoZlUY-transcript]] — supporting official-channel transcript; source cache `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
 - [[youtube-bk0TmxoZlUY]] — related YouTube source page.
 - [[youtube-bk0TmxoZlUY-slides]] — slide evidence.
 - [[youtube-bk0TmxoZlUY-reconstructed-slides]] — slide evidence.
@@ -91,4 +48,39 @@ Hey everybody, my name is Doug Guthrie. Uh, I'm a solutions engineer at Brain Tr
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[doug-guthrie]]
+
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-bk0TmxoZlUY-dense-slides]] (1 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-bk0TmxoZlUY-dense-slides]]
+- [[youtube-bk0TmxoZlUY-reconstructed-slides]]
+- [[youtube-bk0TmxoZlUY-slides]]
+- Slide-derived terms: `evals`, `microsoft`, `prompt`, `braintrust`, `scorer`, `improve`, `eval`, `scorers`, `smol`, `code`, `zapier`, `model`, `quality`, `test`, `dataset`, `input`, `rome`, `datasets`
+
+## Media Evidence
+- [[youtube-bk0TmxoZlUY]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-bk0TmxoZlUY`
+- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s); 1 HTML recreation(s).
+![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
+- Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words; role: supporting context only.
+- Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
+- Evidence links for `youtube-bk0TmxoZlUY` (supporting context only): [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

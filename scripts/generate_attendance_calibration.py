@@ -9,16 +9,18 @@ attached to talks.
 
 from __future__ import annotations
 
+import argparse
 import json
 import math
 import re
+import shutil
 import subprocess
 from statistics import median
 from collections import defaultdict
 from pathlib import Path
 
 import cv2
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +38,8 @@ VIDEO_REPORT = OUT / "video-attendance-evidence.json"
 VIDEO_OVERRIDES = OUT / "video-attendance-overrides.json"
 WIKI_PAGE = WIKI / "resources" / "room-attendance-calibration.md"
 VIDEO_WIKI_PAGE = WIKI / "resources" / "video-attendance-visibility.md"
+MEDIA_MANIFEST = RAW / "official-wf26-video-manifest.json"
+LIVESTREAM_SEGMENTS = RAW / "livestream-talk-segments.json"
 VALID_YOUTUBE_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
 
 
@@ -60,7 +64,53 @@ def parse_frontmatter(text: str) -> dict[str, str]:
     return frontmatter
 
 
+def authoritative_talk_media() -> tuple[set[tuple[str, str]], set[tuple[str, str, int]]]:
+    """Return playable direct recordings and current public livestream segments."""
+
+    direct: set[tuple[str, str]] = set()
+    segments: set[tuple[str, str, int]] = set()
+    try:
+        manifest = json.loads(MEDIA_MANIFEST.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        manifest = {}
+    videos = manifest.get("videos", []) if isinstance(manifest, dict) else []
+    for video in videos if isinstance(videos, list) else []:
+        if not isinstance(video, dict) or video.get("mediaType") != "talk_recording":
+            continue
+        video_id = str(video.get("id") or "")
+        if not VALID_YOUTUBE_ID.fullmatch(video_id):
+            continue
+        if video.get("videoAvailability") not in {"public", "unlisted"}:
+            continue
+        if video.get("playlistAvailability") != "available":
+            continue
+        matched_talks = video.get("matchedTalks", [])
+        for talk_slug in matched_talks if isinstance(matched_talks, list) else []:
+            if isinstance(talk_slug, str) and talk_slug:
+                direct.add((talk_slug, video_id))
+
+    try:
+        segment_rows = json.loads(LIVESTREAM_SEGMENTS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        segment_rows = []
+    for segment in segment_rows if isinstance(segment_rows, list) else []:
+        if not isinstance(segment, dict):
+            continue
+        talk_slug = str(segment.get("talk_slug") or "")
+        video_id = str(segment.get("video_id") or "")
+        start_seconds = segment.get("start_seconds")
+        if (
+            talk_slug
+            and VALID_YOUTUBE_ID.fullmatch(video_id)
+            and isinstance(start_seconds, int)
+            and start_seconds >= 0
+        ):
+            segments.add((talk_slug, video_id, start_seconds))
+    return direct, segments
+
+
 def collect_room_videos() -> dict[str, list[dict]]:
+    direct_media, livestream_segments = authoritative_talk_media()
     videos: dict[str, dict[str, dict]] = defaultdict(dict)
     for path in sorted((WIKI / "talks").glob("*.md")):
         text = path.read_text(errors="ignore")
@@ -68,8 +118,12 @@ def collect_room_videos() -> dict[str, list[dict]]:
         room = fm.get("scheduleRoom") or fm.get("room") or "Unknown"
         track = fm.get("scheduleTrack") or fm.get("track") or ""
         title = fm.get("title") or path.stem
+        talk_slug = path.stem
         candidates: list[dict] = []
         for match in re.finditer(r"youtube\.com/watch\?v=([A-Za-z0-9_-]{11})&t=(\d+)s", text):
+            segment_key = (talk_slug, match.group(1), int(match.group(2)))
+            if segment_key not in livestream_segments:
+                continue
             candidates.append(
                 {
                     "video_id": match.group(1),
@@ -77,6 +131,19 @@ def collect_room_videos() -> dict[str, list[dict]]:
                     "segment_start_seconds": int(match.group(2)),
                 }
             )
+        for match in re.finditer(
+            r"\[\[youtube-([A-Za-z0-9_-]{11})(?:\||\]\])",
+            text,
+        ):
+            video_id = match.group(1)
+            if (talk_slug, video_id) in direct_media:
+                candidates.append(
+                    {
+                        "video_id": video_id,
+                        "source_kind": "candidate-session-video",
+                        "segment_start_seconds": None,
+                    }
+                )
         for line in text.splitlines():
             if "youtube.com/watch?v=" not in line:
                 continue
@@ -86,6 +153,8 @@ def collect_room_videos() -> dict[str, list[dict]]:
             if not match:
                 continue
             source_kind = "supporting-related-video" if "speaker-match related prior/adjacent" in line else "candidate-session-video"
+            if source_kind == "candidate-session-video" and (talk_slug, match.group(1)) not in direct_media:
+                continue
             candidates.append({"video_id": match.group(1), "source_kind": source_kind, "segment_start_seconds": None})
         seen = set()
         for candidate in candidates:
@@ -601,7 +670,138 @@ def write_wiki(report: dict) -> None:
     WIKI_PAGE.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def main() -> int:
+def _load_report(path: Path, *, key: str) -> dict:
+    try:
+        report = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"cannot load attendance report: {path}") from exc
+    if not isinstance(report, dict) or not isinstance(report.get(key), dict):
+        raise RuntimeError(f"attendance report has invalid {key!r} data: {path}")
+    return report
+
+
+def _current_evidence_keys() -> set[str]:
+    return {
+        evidence_key(row)
+        for rows in collect_room_videos().values()
+        for row in rows
+    }
+
+
+def stale_evidence_keys() -> set[str]:
+    allowed = _current_evidence_keys()
+    room_report = _load_report(REPORT, key="rooms")
+    video_report = _load_report(VIDEO_REPORT, key="videos")
+    stored = {
+        evidence_key(row)
+        for room in room_report["rooms"].values()
+        if isinstance(room, dict)
+        for field in ("selected_videos", "used_videos")
+        for row in room.get(field, [])
+        if isinstance(row, dict) and row.get("video_id")
+    }
+    stored.update(
+        str(item.get("evidence_key") or item.get("video_id") or "")
+        for room in room_report["rooms"].values()
+        if isinstance(room, dict)
+        for item in room.get("evidence", [])
+        if isinstance(item, dict)
+    )
+    stored.discard("")
+    stored.update(str(key) for key in video_report["videos"])
+    return stored - allowed
+
+
+def sync_current_evidence() -> dict[str, int]:
+    """Prune stored calibration evidence against current authoritative mappings."""
+
+    room_report = _load_report(REPORT, key="rooms")
+    allowed = _current_evidence_keys()
+    pruned_rows = 0
+    pruned_frames = 0
+    referenced_sheets: set[str] = set()
+    for room, row in room_report["rooms"].items():
+        if not isinstance(row, dict):
+            continue
+        for field in ("selected_videos", "used_videos"):
+            existing = [item for item in row.get(field, []) if isinstance(item, dict)]
+            kept = [item for item in existing if evidence_key(item) in allowed]
+            pruned_rows += len(existing) - len(kept)
+            row[field] = kept
+        existing_evidence = [
+            item for item in row.get("evidence", []) if isinstance(item, dict)
+        ]
+        kept_evidence = [
+            item
+            for item in existing_evidence
+            if str(item.get("evidence_key") or item.get("video_id") or "") in allowed
+        ]
+        pruned_frames += len(existing_evidence) - len(kept_evidence)
+        row["evidence"] = kept_evidence
+        used = row["used_videos"]
+        primary_videos = sum(
+            1
+            for item in used
+            if item.get("source_kind")
+            in {"worldsfair-livestream-segment", "candidate-session-video"}
+        )
+        supporting_videos = sum(
+            1
+            for item in used
+            if item.get("source_kind") == "supporting-related-video"
+        )
+        row["videos_used"] = len(used)
+        row["primary_videos"] = primary_videos
+        row["supporting_videos"] = supporting_videos
+        row["evidence_frames"] = len(kept_evidence)
+        row["calibration"] = inferred_calibration(
+            room,
+            len(kept_evidence),
+            primary_videos,
+            supporting_videos,
+        )
+        row["contact_sheet"] = make_sheet(room, kept_evidence)
+        if row["contact_sheet"]:
+            referenced_sheets.add(Path(row["contact_sheet"]).name)
+
+    removed_directories = 0
+    if FRAME_OUT.exists():
+        for path in sorted(FRAME_OUT.glob("*/*")):
+            if path.is_dir() and path.name not in allowed:
+                shutil.rmtree(path)
+                removed_directories += 1
+
+    removed_contact_sheets = 0
+    for directory in (SHEET_OUT, ASSET_SHEET_OUT):
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("*.jpg")):
+            if path.name not in referenced_sheets:
+                path.unlink()
+                removed_contact_sheets += 1
+
+    REPORT.write_text(
+        json.dumps(room_report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    write_wiki(room_report)
+    video_report = build_video_attendance_report(room_report)
+    VIDEO_REPORT.write_text(
+        json.dumps(video_report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    write_video_wiki(video_report)
+    apply_talk_attendance_sections(video_report)
+    return {
+        "allowed_evidence_keys": len(allowed),
+        "pruned_rows": pruned_rows,
+        "pruned_frames": pruned_frames,
+        "removed_directories": removed_directories,
+        "removed_contact_sheets": removed_contact_sheets,
+    }
+
+
+def generate_full_report() -> dict[str, object]:
     room_videos = collect_room_videos()
     report = {"rooms": {}}
     for room, rows in sorted(room_videos.items()):
@@ -633,8 +833,17 @@ def main() -> int:
                         }
                     )
                 evidence.extend(samples)
-        primary_videos = sum(1 for row in used if row.get("source_kind") in {"worldsfair-livestream-segment", "candidate-session-video"})
-        supporting_videos = sum(1 for row in used if row.get("source_kind") == "supporting-related-video")
+        primary_videos = sum(
+            1
+            for row in used
+            if row.get("source_kind")
+            in {"worldsfair-livestream-segment", "candidate-session-video"}
+        )
+        supporting_videos = sum(
+            1
+            for row in used
+            if row.get("source_kind") == "supporting-related-video"
+        )
         sheet = make_sheet(room, evidence)
         report["rooms"][room] = {
             "selected_videos": selected,
@@ -645,28 +854,62 @@ def main() -> int:
             "evidence_frames": len(evidence),
             "evidence": evidence,
             "contact_sheet": sheet,
-            "calibration": inferred_calibration(room, len(evidence), primary_videos, supporting_videos),
+            "calibration": inferred_calibration(
+                room,
+                len(evidence),
+                primary_videos,
+                supporting_videos,
+            ),
         }
     OUT.mkdir(parents=True, exist_ok=True)
-    REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    REPORT.write_text(
+        json.dumps(report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     write_wiki(report)
     video_report = build_video_attendance_report(report)
-    VIDEO_REPORT.write_text(json.dumps(video_report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    VIDEO_REPORT.write_text(
+        json.dumps(video_report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     write_video_wiki(video_report)
     apply_talk_attendance_sections(video_report)
-    print(
-        json.dumps(
-            {
-                "rooms": len(report["rooms"]),
-                "room_report": str(REPORT.relative_to(ROOT)),
-                "video_report": str(VIDEO_REPORT.relative_to(ROOT)),
-                "room_wiki": str(WIKI_PAGE.relative_to(ROOT)),
-                "video_wiki": str(VIDEO_WIKI_PAGE.relative_to(ROOT)),
-                "published_video_icons": sum(1 for row in video_report["videos"].values() if row["publishable"]),
-            },
-            sort_keys=True,
-        )
+    result = {
+        "rooms": len(report["rooms"]),
+        "room_report": str(REPORT.relative_to(ROOT)),
+        "video_report": str(VIDEO_REPORT.relative_to(ROOT)),
+        "room_wiki": str(WIKI_PAGE.relative_to(ROOT)),
+        "video_wiki": str(VIDEO_WIKI_PAGE.relative_to(ROOT)),
+        "published_video_icons": sum(
+            1 for row in video_report["videos"].values() if row["publishable"]
+        ),
+    }
+    print(json.dumps(result, sort_keys=True))
+    return result
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--sync-current",
+        action="store_true",
+        help="prune existing attendance evidence against current media mappings",
     )
+    mode.add_argument(
+        "--check-current",
+        action="store_true",
+        help="fail when stored attendance evidence has stale media mappings",
+    )
+    args = parser.parse_args()
+    if args.check_current:
+        stale = sorted(stale_evidence_keys())
+        print(json.dumps({"stale_evidence_keys": stale}, sort_keys=True))
+        return 1 if stale else 0
+    if args.sync_current:
+        print(json.dumps(sync_current_evidence(), sort_keys=True))
+        return 0
+    generate_full_report()
     return 0
 
 

@@ -26,6 +26,13 @@ from third_party_connection_policy import INTERNAL_DIR, assess_connection, norma
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
+PRIVATE_COMPANY_PROFILE_CANDIDATES_RELATIVE = Path(
+    ".ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json"
+)
+LEGACY_COMPANY_PROFILES_RELATIVE = Path("raw/sources/company-profiles.json")
+PRIVATE_CREDIBILITY_POLICY_RELATIVE = Path(
+    ".ops/state/cache/wiki-maker/credibility-v2/writing-policy.json"
+)
 REPORT_PATH = INTERNAL_DIR / "latest-audit.json"
 URL_RE = re.compile(r'https?://[^\s)\]>"\']+')
 PROFILE_HOSTS = {"linkedin.com", "x.com", "twitter.com"}
@@ -34,6 +41,9 @@ PARKED_SITE_MARKERS = {
     "domain is available for acquisition",
     "buy this domain",
     "for sale",
+    "parkingcrew",
+    "private inquiries for premium domains",
+    "sedo",
     "spaceship",
 }
 EXTERNAL_REPORT_FORBIDDEN_KEYS = {
@@ -742,51 +752,203 @@ def official_tool_maintainer_evidence(tool_name: str, official_descriptions: str
     return False
 
 
-def audit_company_profiles(findings: list[dict], counters: Counter) -> None:
-    profiles = load_json(RAW / "company-profiles.json", {})
+def _operator_path(project_root: Path, value: Path | None) -> Path | None:
+    if value is None:
+        return None
+    return value if value.is_absolute() else project_root / value
+
+
+def _display_path(project_root: Path, path: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(project_root.resolve()))
+    except ValueError:
+        return str(path.resolve())
+
+
+def company_profile_candidate_path(
+    project_root: Path,
+    explicit: Path | None = None,
+) -> Path:
+    selected = _operator_path(project_root, explicit)
+    if selected is not None:
+        return selected
+    private = project_root / PRIVATE_COMPANY_PROFILE_CANDIDATES_RELATIVE
+    if private.is_file():
+        return private
+    return project_root / LEGACY_COMPANY_PROFILES_RELATIVE
+
+
+def credibility_policy_path(
+    project_root: Path,
+    explicit: Path | None = None,
+) -> Path:
+    return _operator_path(project_root, explicit) or (
+        project_root / PRIVATE_CREDIBILITY_POLICY_RELATIVE
+    )
+
+
+def _profile_fragments(profile: Mapping[str, Any]) -> tuple[str, ...]:
+    fragments: set[str] = set()
+    website = profile.get("website")
+    if isinstance(website, str) and website.startswith("https://"):
+        fragments.add(website)
+    links = profile.get("sourceLinks")
+    if isinstance(links, list):
+        for link in links:
+            if not isinstance(link, Mapping):
+                continue
+            url = link.get("url")
+            if isinstance(url, str) and url.startswith("https://"):
+                fragments.add(url)
+    summary = profile.get("summary")
+    if isinstance(summary, str) and len(summary.strip()) >= 24:
+        fragments.add(summary.strip())
+    return tuple(sorted(fragments))
+
+
+def _is_public_source_path(project_root: Path, path: Path) -> bool:
+    try:
+        path.resolve().relative_to((project_root / "raw" / "sources").resolve())
+    except ValueError:
+        return False
+    return True
+
+
+def audit_company_profiles(
+    findings: list[dict],
+    counters: Counter,
+    project_root: Path = ROOT,
+    *,
+    profile_path: Path | None = None,
+    policy_path: Path | None = None,
+) -> None:
+    source_path = company_profile_candidate_path(project_root, profile_path)
+    profiles = load_json(source_path, {})
+    policy = load_json(credibility_policy_path(project_root, policy_path), {})
+    gates = policy.get("companyProfileGateStates", {})
+    decisions = policy.get("companyProfileWritingDecisions", {})
+    if not isinstance(gates, dict):
+        gates = {}
+    if not isinstance(decisions, dict):
+        decisions = {}
+    wiki = project_root / "wiki"
+    source_label = _display_path(project_root, source_path)
+    held_or_unassessed = 0
     for slug, profile in sorted(profiles.items()):
+        if not isinstance(profile, dict):
+            continue
+        counters["company_profile_candidate_records"] += 1
         website = profile.get("website") or ""
         if not website:
             continue
-        path = WIKI / "companies" / f"{slug}.md"
+        path = wiki / "companies" / f"{slug}.md"
         status = profile.get("fetchStatus") or "unknown"
-        confidence = profile.get("fetchConfidence")
         origin = profile.get("origin") or ""
         metadata = profile.get("fetchedMetadata") or {}
         title_blob = " ".join(str(metadata.get(key) or "") for key in ("title", "site_name", "description", "h1"))
         company = frontmatter(path.read_text(errors="ignore")).get("title", slug.replace("-", " ")) if path.exists() else slug.replace("-", " ")
         metadata_lower = title_blob.lower()
-        if status != "fetched":
-            findings.append(finding(
-                "medium",
-                "company_site_attached_without_successful_validation",
-                path,
-                f"The company site remains attached even though automated validation status is {status!r}; this is a validation gap, not proof the URL is false.",
-                url=website,
-                evidence=[origin],
-            ))
-        elif "domain-guess" in origin and any(marker in metadata_lower for marker in PARKED_SITE_MARKERS):
+        gate = gates.get(slug, {}) if isinstance(gates.get(slug), dict) else {}
+        decision = (
+            decisions.get(slug, {}) if isinstance(decisions.get(slug), dict) else {}
+        )
+        gate_status = gate.get("status")
+        writing_disposition = decision.get("writingDisposition")
+
+        if gate_status == "accepted_as_attributed_owner_context":
+            counters["company_profile_candidates_accepted_as_attributed_context"] += 1
+        else:
+            held_or_unassessed += 1
+            if gate_status == "held":
+                counters["company_profile_candidates_held"] += 1
+            else:
+                counters["company_profile_candidates_without_v2_gate"] += 1
+
+        if gate_status == "held" and any(
+            marker in metadata_lower for marker in PARKED_SITE_MARKERS
+        ):
             findings.append(finding(
                 "high",
                 "domain_guess_resolves_to_parked_site",
                 path,
-                "A guessed domain was accepted even though the fetched homepage identifies a parked or for-sale site.",
+                "A private company-profile candidate resolves to parked or for-sale owner metadata and remains held by the identity gate.",
                 url=website,
-                evidence=[title_blob[:240]],
+                evidence=[source_label],
+                project_root=project_root,
             ))
-        elif "domain-guess" in origin and not metadata_corroborates_company(company, title_blob):
+        elif gate_status == "held" and metadata_corroborates_company(
+            company, title_blob
+        ):
+            findings.append(finding(
+                "medium",
+                "same_name_company_candidate_held_by_v2_identity_gate",
+                path,
+                "Matching owner-page metadata is only a same-name discovery signal; no event-published owner identity path established this candidate.",
+                url=website,
+                evidence=[source_label],
+                project_root=project_root,
+            ))
+        elif status != "fetched":
+            findings.append(finding(
+                "medium",
+                "company_site_attached_without_successful_validation",
+                path,
+                f"The private company-profile candidate has validation status {status!r}; it is not publishable identity evidence.",
+                url=website,
+                evidence=[source_label, origin],
+                project_root=project_root,
+            ))
+        elif gate_status != "accepted_as_attributed_owner_context" and not metadata_corroborates_company(company, title_blob):
             findings.append(finding(
                 "medium",
                 "domain_guess_without_company_name_corroboration",
                 path,
-                "A guessed domain lacks owner-controlled homepage metadata corroborating the company name. It must be reviewed for a same-name-domain collision.",
+                "A private company-profile candidate lacks both name corroboration and an accepted identity gate.",
                 url=website,
-                evidence=[title_blob[:240]],
+                evidence=[source_label, title_blob[:240]],
+                project_root=project_root,
             ))
-        elif isinstance(confidence, (int, float)) and confidence < 70:
-            findings.append(finding("medium", "low_confidence_company_site", path, "The attached company site has a legacy discovery score below 70 and needs source-level review.", url=website, evidence=[str(confidence), origin]))
-        else:
-            counters["company_profiles_without_static_red_flags"] += 1
+
+        public_hits: list[tuple[Path, list[str]]] = []
+        if writing_disposition == "omit":
+            for public_path in (
+                path,
+                project_root / "dist" / "companies" / slug / "index.html",
+            ):
+                if not public_path.is_file():
+                    continue
+                text = public_path.read_text(encoding="utf-8", errors="ignore")
+                matched = [
+                    fragment for fragment in _profile_fragments(profile) if fragment in text
+                ]
+                if matched:
+                    public_hits.append((public_path, matched))
+            if public_hits:
+                counters["held_company_profile_public_enforcement_failures"] += 1
+                for public_path, matched in public_hits:
+                    findings.append(finding(
+                        "high",
+                        "held_company_profile_reached_public_artifact",
+                        public_path,
+                        "A company-profile candidate marked omit by credibility-v2 still appears in a public artifact.",
+                        url=website,
+                        evidence=[f"matchedFragments={len(matched)}"],
+                        project_root=project_root,
+                    ))
+            else:
+                counters["held_company_profiles_absent_from_public_artifacts"] += 1
+        elif writing_disposition in {"attribute_to_source", "assert_with_citations"}:
+            counters["company_profile_publication_decisions"] += 1
+
+    if held_or_unassessed and _is_public_source_path(project_root, source_path):
+        findings.append(finding(
+            "high",
+            "unvalidated_company_candidates_in_public_source",
+            source_path,
+            "Unvalidated or held company-profile candidates remain in a publishable raw source; future fetches default to private state and this legacy artifact requires migration or sanitization.",
+            evidence=[f"heldOrUnassessed={held_or_unassessed}"],
+            project_root=project_root,
+        ))
 
 
 def audit_malformed_urls(findings: list[dict]) -> None:
@@ -855,12 +1017,19 @@ def audit_tool_repositories(findings: list[dict], counters: Counter) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Run without writing the internal report and policy.")
+    parser.add_argument("--company-profiles", type=Path)
+    parser.add_argument("--credibility-policy", type=Path)
     args = parser.parse_args()
     findings: list[dict] = []
     counters: Counter = Counter()
     audit_people(findings, counters)
     audit_talk_sources(findings, counters)
-    audit_company_profiles(findings, counters)
+    audit_company_profiles(
+        findings,
+        counters,
+        profile_path=args.company_profiles,
+        policy_path=args.credibility_policy,
+    )
     audit_malformed_urls(findings)
     audit_tool_repositories(findings, counters)
     public_ranking_leaks = audit_public_ranking_artifacts(findings, counters)

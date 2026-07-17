@@ -27,7 +27,9 @@ ML Research Scientist at [[morgan-stanley|Morgan Stanley]] working on LLM post-t
 - [[2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality]] — Loophole - Adversarial Agents To Stress Test Your Morality (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]

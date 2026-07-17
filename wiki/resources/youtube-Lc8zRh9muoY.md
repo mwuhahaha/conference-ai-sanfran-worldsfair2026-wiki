@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens]] — FinOps for AI Agents: Who Spent All the Tokens?
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=Lc8zRh9muoY)
-
-## Related Scheduled Sessions
-- [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens]] — FinOps for AI Agents: Who Spent All the Tokens?
 ## Extracted Slides
 - [[youtube-Lc8zRh9muoY-dense-slides]]
 - [[youtube-Lc8zRh9muoY-reconstructed-slides]]
 - [[youtube-Lc8zRh9muoY-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=Lc8zRh9muoY)

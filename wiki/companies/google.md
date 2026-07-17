@@ -2,19 +2,15 @@
 title: "Google"
 category: "companies"
 aliases: ["Google"]
-website: "https://www.google.com/webhp?aep=11"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Google
 
 ## Overview
-Google is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.
-
-## Background
-The official speaker roster connects Google to Ashok Chandrasekar, Averi Kitsch, Chris Souza, Cormac Brick, Daniel Bump, Jason Kramberger. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Google is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Google matters to this wiki through 8 official speaker(s) and 4 scheduled session(s), including: Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; Model Whisperers: How Evals and Prompts Shape Agent Behavior; Why Large? Tiny LMs & Agents on Edge/Robotics.
+Google appears through 8 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Are LLM Performance Benchmarks Reliable?; Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; Model Whisperers: How Evals and Prompts Shape Agent Behavior.
 
 ## Conference Sessions
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]] - Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production (2026-06-30, 10:45am-11:05am)
@@ -33,10 +29,12 @@ Google matters to this wiki through 8 official speaker(s) and 4 scheduled sessio
 - [[prerna-kakkar]] - Senior Software Engineer
 
 ## Sources
-- [Google](https://www.google.com/webhp?aep=11)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
@@ -48,9 +46,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
 - Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

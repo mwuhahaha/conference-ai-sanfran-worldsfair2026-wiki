@@ -9,9 +9,9 @@ sourceLabels: ["Public YouTube video frames", "Local OCR"]
 This page summarizes extracted slide decks from speaker-matched AI Engineer YouTube videos. OCR is best-effort and should be checked against the embedded slide images.
 
 ## Coverage
-- Slide decks: 412
-- Extracted slide/frame images: 3048
-- OCR text files: 3001
+- Slide decks: 423
+- Extracted slide/frame images: 3282
+- OCR text files: 3235
 
 ## Decks
 - [[youtube--CnA2lGfymY-slides]] — 32 extracted frames
@@ -28,6 +28,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-12v5S1n1eOY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-12v5S1n1eOY-slides]] — 18 extracted frames
 - [[youtube-1IdzkRVmWAA-slides]] — 4 extracted frames
+- [[youtube-1P1hJ36rxM0-slides]] — 15 extracted frames
 - [[youtube-1t-9-s1brcg-dense-slides]] — 0 extracted frames
 - [[youtube-1t-9-s1brcg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-1t-9-s1brcg-slides]] — 24 extracted frames
@@ -105,6 +106,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-C_GG5g38vLU-dense-slides]] — 0 extracted frames
 - [[youtube-C_GG5g38vLU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-C_GG5g38vLU-slides]] — 10 extracted frames
+- [[youtube-Cz4v1WHVyZc-slides]] — 32 extracted frames
 - [[youtube-D4Dswf-__RM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-D4Dswf-__RM-slides]] — 20 extracted frames
 - [[youtube-DeFF3J8T5Pk-dense-slides]] — 0 extracted frames
@@ -190,6 +192,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-OkEGJ5G3foU-dense-slides]] — 0 extracted frames
 - [[youtube-OkEGJ5G3foU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-OkEGJ5G3foU-slides]] — 7 extracted frames
+- [[youtube-OqM67QG_Ikk-slides]] — 15 extracted frames
 - [[youtube-P_RI1kCkRbo-dense-slides]] — 0 extracted frames
 - [[youtube-P_RI1kCkRbo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-P_RI1kCkRbo-slides]] — 17 extracted frames
@@ -250,14 +253,17 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-Ywl4LsvHKzU-dense-slides]] — 0 extracted frames
 - [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Ywl4LsvHKzU-slides]] — 11 extracted frames
+- [[youtube-Z2Erdirpudo-slides]] — 9 extracted frames
 - [[youtube-ZD9-4fW2HhM-slides]] — 23 extracted frames
 - [[youtube-ZRM_TfEZcIo-dense-slides]] — 0 extracted frames
 - [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ZRM_TfEZcIo-slides]] — 24 extracted frames
 - [[youtube-ZSQb5fzRFPw-slides]] — 17 extracted frames
+- [[youtube-ZpK5PWX2YRM-slides]] — 32 extracted frames
 - [[youtube-ZuiJjkbX0Og-dense-slides]] — 0 extracted frames
 - [[youtube-ZuiJjkbX0Og-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ZuiJjkbX0Og-slides]] — 11 extracted frames
+- [[youtube-ZyIoTOAbRfs-slides]] — 10 extracted frames
 - [[youtube-_B4Pv9ttFgY-slides]] — 8 extracted frames
 - [[youtube-_xIwFcnHqp4-slides]] — 11 extracted frames
 - [[youtube-aHhB3sjGjkI-slides]] — 23 extracted frames
@@ -282,6 +288,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-bmWZk9vTze0-slides]] — 18 extracted frames
 - [[youtube-btxGmN8RvNU-slides]] — 5 extracted frames
 - [[youtube-c-2eEv2ou7Y-slides]] — 9 extracted frames
+- [[youtube-c35YoMdnI78-slides]] — 32 extracted frames
 - [[youtube-cVzf49yg0D8-dense-slides]] — 0 extracted frames
 - [[youtube-cVzf49yg0D8-reconstructed-slides]] — 0 extracted frames
 - [[youtube-cVzf49yg0D8-slides]] — 24 extracted frames
@@ -318,6 +325,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-htM02KMNZnk-dense-slides]] — 0 extracted frames
 - [[youtube-htM02KMNZnk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-htM02KMNZnk-slides]] — 120 extracted frames
+- [[youtube-iCj_ATyThvc-slides]] — 3 extracted frames
 - [[youtube-iNkFlCiij0U-slides]] — 4 extracted frames
 - [[youtube-iRcX54EO5g8-slides]] — 3 extracted frames
 - [[youtube-iUWwcG-C8OU-dense-slides]] — 0 extracted frames
@@ -358,6 +366,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-o-zkvb0iFDQ-dense-slides]] — 0 extracted frames
 - [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-o-zkvb0iFDQ-slides]] — 24 extracted frames
+- [[youtube-pMggiOb18tc-slides]] — 32 extracted frames
 - [[youtube-pSto5YaNGUo-slides]] — 19 extracted frames
 - [[youtube-pmoDeA3RBZY-slides]] — 8 extracted frames
 - [[youtube-q4Tr-DknG2M-slides]] — 12 extracted frames
@@ -394,6 +403,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-u3NofYYstaY-dense-slides]] — 0 extracted frames
 - [[youtube-u3NofYYstaY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-u3NofYYstaY-slides]] — 9 extracted frames
+- [[youtube-uU5Gv2h8-9g-slides]] — 22 extracted frames
 - [[youtube-uiP88SpCi1Q-slides]] — 5 extracted frames
 - [[youtube-vh2VGuQ3zhY-slides]] — 7 extracted frames
 - [[youtube-vljxQZfJ9wY-slides]] — 12 extracted frames
@@ -428,15 +438,15 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-zepu8Kk6FBQ-slides]] — 24 extracted frames
 
 ## OCR-Derived Subject Signals
-- [[coding-agents]] — OCR keyword signal in 496 slide frames
-- [[agentic-search]] — OCR keyword signal in 346 slide frames
-- [[agent-evaluations]] — OCR keyword signal in 346 slide frames
+- [[coding-agents]] — OCR keyword signal in 516 slide frames
+- [[agentic-search]] — OCR keyword signal in 361 slide frames
+- [[agent-evaluations]] — OCR keyword signal in 348 slide frames
 - [[agent-memory]] — OCR keyword signal in 282 slide frames
 - [[mcp]] — OCR keyword signal in 149 slide frames
 - [[inference-engineering]] — OCR keyword signal in 110 slide frames
-- [[agent-security]] — OCR keyword signal in 96 slide frames
-- [[ai-sandboxes]] — OCR keyword signal in 79 slide frames
-- [[voice-agents]] — OCR keyword signal in 75 slide frames
+- [[agent-security]] — OCR keyword signal in 99 slide frames
+- [[ai-sandboxes]] — OCR keyword signal in 91 slide frames
+- [[voice-agents]] — OCR keyword signal in 76 slide frames
 
 ## Unresolved Video Failures
 - `bRnoEpoK5m4` — The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing

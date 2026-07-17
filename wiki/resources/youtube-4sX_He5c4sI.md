@@ -17,15 +17,12 @@ An official AI Engineer YouTube livestream explicitly identified as AI Engineer 
 - Channel/source: official AI Engineer YouTube channel livestream.
 - Use: primary evidence for what the recording, transcript, and captured slides show; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt` (82,600 words).
-
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]], [[mcp|MCP]]
 - Transcript keywords: `schema`, `distribution`, `precise`, `banks`, `probably`, `figure`, `deal`, `proper`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=4sX_He5c4sI)
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt` (82,600 words).
 
 ## Extracted Slides
 - [[youtube-4sX_He5c4sI-dense-slides]]
@@ -34,3 +31,6 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Transcript Markdown
 - [[youtube-4sX_He5c4sI-transcript]] — full cached transcript markdown.
+
+## Link
+[YouTube](https://www.youtube.com/watch?v=4sX_He5c4sI)

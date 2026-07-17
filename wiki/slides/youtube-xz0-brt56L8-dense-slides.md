@@ -195,5 +195,4 @@ Slide text:
 > Specialized domains: legal document processing, medical data analysis, financial modeling
 > Performance tuning: optimizing latency, throughput, and token usage
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/xz0-brt56L8/audit.json`

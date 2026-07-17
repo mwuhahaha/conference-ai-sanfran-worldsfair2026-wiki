@@ -2,19 +2,15 @@
 title: "Accenture"
 category: "companies"
 aliases: ["Accenture"]
-website: "https://www.accenture.com/us-en"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Accenture
 
 ## Overview
-Accenture is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Across industries and around the world, we’re creating better experiences for people using emerging technologies and human ingenuity. Together, we can reinvent anything.
-
-## Background
-The official speaker roster connects Accenture to Michael Forrester. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Accenture is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Accenture matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Build a Platform, Unleash an Agent on it.... and Watch it Burn!.
+Accenture appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Build a Platform, Unleash an Agent on it.... and Watch it Burn!.
 
 ## Conference Sessions
 - [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn]] - Build a Platform, Unleash an Agent on it.... and Watch it Burn! (2026-06-29, 1:15pm-2:15pm)
@@ -23,19 +19,17 @@ Accenture matters to this wiki through 1 official speaker(s) and 1 scheduled ses
 - [[michael-forrester]] - AI Workforce Transformation
 
 ## Sources
-- [U.S. / Let There Be Change / Accenture](https://www.accenture.com/us-en)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn|Build a Platform, Unleash an Agent on it.... and Watch it Burn!]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -198,7 +198,6 @@ Slide text:
 > Nobody wants to look at your dashboard.
 > Ship an MCP App.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-009.jpg`](/assets/slides/sAOBXCDiDOs/slide-009.jpg) — `demo_video` confidence `0.98`; Full-screen app/demo footage, not a presentation slide.
 - [`slide-010.jpg`](/assets/slides/sAOBXCDiDOs/slide-010.jpg) — `demo_video` confidence `0.98`; Full-screen app/demo footage, not a presentation slide.

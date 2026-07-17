@@ -28,7 +28,6 @@ Slide text:
 > After:
 > Who made this bug report?
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/d_Ftrl3vfV0/slide-001.jpg) — `demo_video` confidence `0.98`; Handheld speaker shot with prop, not a presentation slide.
 - [`slide-002.jpg`](/assets/slides/d_Ftrl3vfV0/slide-002.jpg) — `speaker_stage` confidence `0.99`; Speaker hallway shot, no slide content.

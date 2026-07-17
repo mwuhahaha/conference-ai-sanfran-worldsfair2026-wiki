@@ -160,7 +160,6 @@ Slide text:
 > Goal: AI agent handles 60%+ user queries
 > We didn't pick a model until week 7.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/ObTPqBGsEbA/slide-001.jpg) — `speaker_stage` confidence `0.99`; camera shot of presenter on stage with audience and only a partial projected slide visible
 - [`slide-011.jpg`](/assets/slides/ObTPqBGsEbA/slide-011.jpg) — `speaker_stage` confidence `0.99`; Camera shot of the speaker on stage with a projected slide in the background, not a readable presentation slide.

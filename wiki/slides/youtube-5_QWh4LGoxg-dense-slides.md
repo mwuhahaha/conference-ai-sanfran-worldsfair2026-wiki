@@ -192,7 +192,6 @@ Slide text:
 > - $100B+ in fraud losses expected annually
 > Our Mission: Stop Fraud Before it Starts.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-017.jpg`](/assets/dense-slides/5_QWh4LGoxg/slide-017.jpg) — `demo_video` confidence `0.97`; Desktop screen capture with browser/app UI and macOS desktop, not a presentation slide.
 

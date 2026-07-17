@@ -108,7 +108,6 @@ Slide text:
 > My Factory
 > Many Codex Sessions
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-003.jpg`](/assets/slides/pmoDeA3RBZY/slide-003.jpg) — `speaker_stage` confidence `0.98`; speaker intro card
 - [`slide-004.jpg`](/assets/slides/pmoDeA3RBZY/slide-004.jpg) — `speaker_stage` confidence `0.98`; speaker intro card

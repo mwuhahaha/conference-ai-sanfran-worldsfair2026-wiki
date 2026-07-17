@@ -26,7 +26,9 @@ Founder of [[morph|Morph]]. Building specialized models and specialized inferenc
 - [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]] — Autoresearch for Kernels (2026-06-30, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-tejas-bhakta-autoresearch-for-kernels|Autoresearch for Kernels]]

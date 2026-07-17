@@ -2,19 +2,15 @@
 title: "Nubank"
 category: "companies"
 aliases: ["Nubank"]
-website: "https://nubank.com.br/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Nubank
 
 ## Overview
-Nubank is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Saiba mais sobre o Nubank - sua vida financeira sem complicações, asteriscos ou letras miúdas.
-
-## Background
-The official speaker roster connects Nubank to Aman Gupta, Lucas Palma. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+Nubank is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Nubank matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: We Vetted 2,000 AI Skills Before They Reached Developers; Simulation-Maxxing: How Nubank ships agents 20× faster with simulations.
+Nubank appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Simulation-Maxxing: How Nubank ships agents 20× faster with simulations; We Vetted 2,000 AI Skills Before They Reached Developers.
 
 ## Conference Sessions
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers]] - We Vetted 2,000 AI Skills Before They Reached Developers (2026-07-01, 1:55pm-2:15pm)
@@ -25,10 +21,12 @@ Nubank matters to this wiki through 2 official speaker(s) and 2 scheduled sessio
 - [[lucas-palma]] - Information Security Manager
 
 ## Sources
-- [Somos incansáveis pra você não precisar ser / Nubank](https://nubank.com.br/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers|We Vetted 2,000 AI Skills Before They Reached Developers]]
@@ -38,9 +36,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
 - Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

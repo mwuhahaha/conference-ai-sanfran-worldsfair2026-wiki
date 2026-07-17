@@ -52,7 +52,6 @@ Slide text:
 > Credita16z
 > Microsoft smol ai
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-003.jpg`](/assets/slides/liG97YXaTSA/slide-003.jpg) — `speaker_stage` confidence `0.99`; Camera shot of speakers on stage, not a presentation slide.
 - [`slide-004.jpg`](/assets/slides/liG97YXaTSA/slide-004.jpg) — `speaker_stage` confidence `0.99`; Camera shot of speaker on stage, not a presentation slide.

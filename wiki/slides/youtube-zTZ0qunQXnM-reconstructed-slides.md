@@ -62,7 +62,6 @@ Slide text:
 > ibi AI Engineer
 > EUROPE
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/zTZ0qunQXnM/slide-001.jpg) — `sponsor_logo` confidence `0.99`; Sponsor wall, not a presentation slide.
 - [`slide-002.jpg`](/assets/reconstructed-slides/zTZ0qunQXnM/slide-002.jpg) — `speaker_stage` confidence `0.97`; Presenter shot with projected demo UI and stage branding, not a standalone slide.

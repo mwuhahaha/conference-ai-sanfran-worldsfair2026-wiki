@@ -88,7 +88,6 @@ Slide text:
 > or what they're carrying.
 > ISADORAMARTIN-DYE STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/ij-AU9dpJjc/audit.json`
 
 ## Slide-Derived Subjects To Review

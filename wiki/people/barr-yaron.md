@@ -24,7 +24,9 @@ Barr Yaron is a Partner at [[amplify-partners|Amplify Partners]], where she back
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering]] — The 2026 State of AI Engineering (2026-07-01, 9:00am-9:20am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]

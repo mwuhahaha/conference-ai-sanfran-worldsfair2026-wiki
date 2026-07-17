@@ -13,21 +13,20 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — Getting the most out of Codex
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] — Setting Yourself Up for Success — Part 1
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2]] — Setting Yourself Up for Success — Part 2
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3]] — Setting Yourself Up for Success — Part 3
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=jryZvCuA0Uc)
-
-## Related Scheduled Sessions
-- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — Getting the most out of Codex
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] — Setting Yourself Up for Success — Part 1
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2]] — Setting Yourself Up for Success — Part 2
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3]] — Setting Yourself Up for Success — Part 3
 ## Extracted Slides
 - [[youtube-jryZvCuA0Uc-dense-slides]]
 - [[youtube-jryZvCuA0Uc-reconstructed-slides]]
 - [[youtube-jryZvCuA0Uc-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=jryZvCuA0Uc)

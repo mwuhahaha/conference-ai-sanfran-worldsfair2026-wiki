@@ -30,7 +30,6 @@ Slide text:
 > build AI systems for discernment, not approval
 > angel ortmann lee
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/CDqzWpwkSls/audit.json`
 
 ## Slide-Derived Subjects To Review

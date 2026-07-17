@@ -26,7 +26,9 @@ Sai Krishna Rallabandi is Director, Data Science at [[fidelity-investments|Fidel
 - [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses]] — Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses (2026-07-01, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses|Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses]]

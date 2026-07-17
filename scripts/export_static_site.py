@@ -12,7 +12,11 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-from build_relationship_dataset import build_relationship_dataset, validate_dataset
+from build_relationship_dataset import (
+    _frontmatter_and_body,
+    build_relationship_dataset,
+    validate_dataset,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -84,22 +88,17 @@ class Page:
 
 def parse_page(path: Path) -> Page:
     raw = path.read_text(encoding="utf-8")
-    frontmatter: dict[str, str] = {}
-    body = raw
-    if raw.startswith("---\n"):
-        end = raw.find("\n---\n", 4)
-        if end != -1:
-            for line in raw[4:end].splitlines():
-                if ":" not in line:
-                    continue
-                key, value = line.split(":", 1)
-                frontmatter[key.strip()] = value.strip().strip('"')
-            body = raw[end + 5 :]
+    frontmatter, body = _frontmatter_and_body(raw)
 
     rel = path.relative_to(WIKI).with_suffix("")
     page_id = rel.as_posix()
-    title = frontmatter.get("title") or first_heading(body) or titleize(path.stem)
-    category = frontmatter.get("category") or (rel.parts[0] if len(rel.parts) > 1 else "root")
+    title = str(
+        frontmatter.get("title") or first_heading(body) or titleize(path.stem)
+    )
+    category = str(
+        frontmatter.get("category")
+        or (rel.parts[0] if len(rel.parts) > 1 else "root")
+    )
     excerpt = build_excerpt(body)
     return Page(id=page_id, source=path, title=title, category=category, body=body.strip(), excerpt=excerpt)
 
@@ -1876,7 +1875,6 @@ def export() -> None:
     relationship_data = build_relationship_dataset(
         pages,
         relationship_profile,
-        company_profiles=load_json(RAW / "company-profiles.json", {}),
     )
     relationship_errors = validate_dataset(relationship_data, relationship_profile)
     if relationship_errors:

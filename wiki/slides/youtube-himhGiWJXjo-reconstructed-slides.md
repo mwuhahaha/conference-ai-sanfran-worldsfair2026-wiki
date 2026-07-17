@@ -123,7 +123,6 @@ Slide text:
 
 > Write a python program to figure out a plan to retrieve multiple pieces of data required.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/himhGiWJXjo/slide-001.jpg) — `sponsor_logo` confidence `0.99`; Sponsor/logo slide, not presentation content.
 - [`slide-003.jpg`](/assets/reconstructed-slides/himhGiWJXjo/slide-003.jpg) — `speaker_stage` confidence `0.99`; Speaker on stage with podium and backdrop, not a slide.

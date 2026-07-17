@@ -2,19 +2,15 @@
 title: "CoreWeave"
 category: "companies"
 aliases: ["CoreWeave", "Coreweave"]
-website: "https://coreweave.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # CoreWeave
 
 ## Overview
-Coreweave is represented at AI Engineer World's Fair 2026. Its public site describes it this way: CoreWeave is the force multiplier that empowers pioneers with momentum, magnitude, and mastery—enabling them to innovate with confidence. Explore the #1 AI Cloud.
-
-## Background
-The official speaker roster connects Coreweave to David Corbitt, Rita Zhang, Sitanshu Gupta. The public company site was discovered by domain-guess and fetched for homepage metadata.
+CoreWeave is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Coreweave matters to this wiki through 3 official speaker(s) and 2 scheduled session(s), including: Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems; Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads.
+CoreWeave appears through 3 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems; Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads.
 
 ## Conference Sessions
 - [[2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems]] - Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems (2026-06-30, 3:20pm-3:40pm)
@@ -26,21 +22,18 @@ Coreweave matters to this wiki through 3 official speaker(s) and 2 scheduled ses
 - [[sitanshu-gupta]] - role not listed
 
 ## Sources
-- [The Essential Cloud for AI / CoreWeave](https://coreweave.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems|Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems]]
 - [[2026-07-01-rita-zhang-vertical-mobility-building-an-ai-inference-platform-that-scales-from-mvp-to-trillion-parameter-workloads|Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads]]
-- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

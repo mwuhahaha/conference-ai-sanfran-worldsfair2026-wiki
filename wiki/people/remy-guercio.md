@@ -20,7 +20,9 @@ Remy Guercio works on Strategic Projects at [[tailscale|Tailscale]]. His recent 
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in]] — An AI Future Without the Lock-In (2026-07-01, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in|An AI Future Without the Lock-In]]

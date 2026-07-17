@@ -1,12 +1,12 @@
 ---
-title: "Transcript: What do we build now? — @t3dotgg"
+title: "Transcript: Everything we knew about software has changed — Theo Browne, @t3dotgg ​"
 category: "transcripts"
 videoId: "xUnRQ9vLXxo"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "9663"
 ---
 
-# Transcript: What do we build now? — @t3dotgg
+# Transcript: Everything we knew about software has changed — Theo Browne, @t3dotgg ​
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=xUnRQ9vLXxo)

@@ -17,8 +17,8 @@ from scripts.build_relationship_dataset import (
 )
 
 
-def page(page_id, title, category, body=""):
-    return {
+def page(page_id, title, category, body="", frontmatter=None):
+    record = {
         "id": page_id,
         "title": title,
         "category": category,
@@ -26,6 +26,9 @@ def page(page_id, title, category, body=""):
         "excerpt": title,
         "url": f"/{page_id}/",
     }
+    if frontmatter is not None:
+        record["frontmatter"] = frontmatter
+    return record
 
 
 class RelationshipDatasetTests(unittest.TestCase):
@@ -47,7 +50,10 @@ class RelationshipDatasetTests(unittest.TestCase):
                 "companies/acme": {
                     "role": "vendor",
                     "reason": "Commercial product vendor on the official roster.",
-                    "sourceRefs": ["wiki/companies/acme.md", "raw/sources/company-profiles.json#acme"],
+                    "sourceRefs": [
+                        "wiki/companies/acme.md",
+                        "raw/sources/official-speakers.json",
+                    ],
                 },
                 "companies/university": {
                     "role": "organization",
@@ -94,10 +100,8 @@ class RelationshipDatasetTests(unittest.TestCase):
         ambiguous = next(node for node in dataset["nodes"] if node["id"] == "companies/ambiguous")
         self.assertEqual("organization", ambiguous["role"])
 
-    def test_declared_company_profile_reference_must_exist_when_registry_is_supplied(self):
-        with self.assertRaisesRegex(ValueError, "missing company profile"):
-            build_relationship_dataset(self.pages, self.profile, company_profiles={})
-        dataset = build_relationship_dataset(self.pages, self.profile, company_profiles={"acme": {"website": "https://acme.example"}})
+    def test_vendor_classification_does_not_depend_on_private_profile_candidates(self):
+        dataset = build_relationship_dataset(self.pages, self.profile)
         self.assertEqual(["companies/acme"], dataset["roles"]["vendors"])
 
     def test_navigation_hubs_and_non_event_resources_cannot_create_semantics(self):
@@ -106,6 +110,149 @@ class RelationshipDatasetTests(unittest.TestCase):
         self.assertNotIn("resources/everything-map", evidence_ids)
         self.assertNotIn("resources/non-event-video", evidence_ids)
         self.assertNotIn("navigationLinks", dataset)
+
+    def test_structured_talk_ignores_backlinks_and_non_claim_sections(self):
+        pages = [
+            page("people/alice", "Alice", "people", "[[talk-one]]"),
+            page("people/bob", "Bob", "people", "[[talk-one]]"),
+            page(
+                "talks/talk-one",
+                "Secure Agents",
+                "talks",
+                "## Conference Context\n[[alice]]\n\n"
+                "## Synthesis\n[[security]]\n\n"
+                "## Connections\n[[evals]] [[bob]]\n",
+            ),
+            page("topics/security", "Agent Security", "topics", "[[talk-one]]"),
+            page("topics/evals", "Agent Evaluations", "topics", "[[talk-one]]"),
+        ]
+
+        dataset = build_relationship_dataset(pages, self.profile)
+        person_concepts = {
+            item["target"]
+            for item in dataset["relationships"]
+            if item["template"] == "person_concept"
+        }
+
+        self.assertEqual({"topics/security"}, person_concepts)
+        self.assertEqual(
+            {"people/alice"},
+            {
+                item["source"]
+                for item in dataset["relationships"]
+                if item["template"] == "person_concept"
+            },
+        )
+        self.assertFalse(
+            any(
+                item["template"] == "concept_concept"
+                for item in dataset["relationships"]
+            )
+        )
+
+    def test_schedule_speaker_and_reciprocal_affiliation_emit_reviewed_relationships(self):
+        pages = [
+            page("companies/acme", "Acme", "companies", "[[alice]]"),
+            page("people/alice", "Alice", "people", "[[acme]]"),
+            page(
+                "talks/talk-one",
+                "MCP in Production",
+                "talks",
+                "## Conference Context\n"
+                "- Speaker(s): Alice\n\n"
+                "## Synthesis\n"
+                "### Topics Covered\n"
+                "- [[mcp]]\n",
+                {"speakers": ["Alice"]},
+            ),
+            page("topics/mcp", "Model Context Protocol", "topics"),
+            page("tools/mcp", "Model Context Protocol", "tools"),
+        ]
+
+        dataset = build_relationship_dataset(pages, self.profile)
+        endpoints = {
+            (item["template"], item["source"], item["target"])
+            for item in dataset["relationships"]
+        }
+
+        self.assertIn(
+            ("person_concept", "people/alice", "topics/mcp"),
+            endpoints,
+        )
+        self.assertIn(
+            ("vendor_concept", "companies/acme", "topics/mcp"),
+            endpoints,
+        )
+        self.assertFalse(any(target == "tools/mcp" for _, _, target in endpoints))
+        vendor_relationship = next(
+            item
+            for item in dataset["relationships"]
+            if item["template"] == "vendor_concept"
+        )
+        self.assertEqual(
+            {
+                "companies/acme": "curated_public_source",
+                "people/alice": "curated_public_source",
+                "talks/talk-one": "official_schedule",
+            },
+            {
+                evidence["id"]: evidence["sourceLayer"]
+                for evidence in vendor_relationship["evidence"]
+            },
+        )
+
+    def test_conference_context_speaker_fallback_resolves_without_wikilink(self):
+        pages = [
+            page("people/alice", "Alice", "people"),
+            page(
+                "talks/talk-one",
+                "Secure Agents",
+                "talks",
+                "## Conference Context\n"
+                "- Speaker(s): Alice\n\n"
+                "## Synthesis\n"
+                "- [[security]]\n",
+            ),
+            page("topics/security", "Agent Security", "topics"),
+        ]
+
+        dataset = build_relationship_dataset(pages, self.profile)
+
+        self.assertTrue(
+            any(
+                item["template"] == "person_concept"
+                and item["source"] == "people/alice"
+                and item["target"] == "topics/security"
+                for item in dataset["relationships"]
+            )
+        )
+
+    def test_schedule_name_ambiguity_and_one_sided_affiliation_fail_closed(self):
+        pages = [
+            page("companies/acme", "Acme", "companies"),
+            page("people/alice-one", "Alice", "people", "[[acme]]"),
+            page("people/alice-two", "Alice", "people"),
+            page(
+                "talks/talk-one",
+                "Secure Agents",
+                "talks",
+                "## Conference Context\n"
+                "- Speaker(s): Alice\n\n"
+                "## Synthesis\n"
+                "- [[security]]\n",
+                {"speakers": ["Alice"]},
+            ),
+            page("topics/security", "Agent Security", "topics"),
+        ]
+
+        dataset = build_relationship_dataset(pages, self.profile)
+
+        self.assertFalse(
+            any(
+                item["template"] in {"person_concept", "vendor_concept"}
+                for item in dataset["relationships"]
+            )
+        )
 
     def test_unclassified_organization_is_review_only(self):
         dataset = self.build()

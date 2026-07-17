@@ -27,52 +27,6 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "conf
 ## Session Description
 At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the f*** down, read every line your model writes. Lopopolo: code is a liability, you don't even open the IDE anymore. Both got applause. The room walked out confused. On the train back I sketched the Z/L Continuum on a napkin — a five-stop spectrum from "read the clanker code" to "what IDE?" — and the whole week clicked into place. In this talk I'll walk through the Continuum, introduce FOMAT (Fear of Missing Agent Time — coined backstage by Michael Richman), and make four arguments: the Continuum is real, your stop is per-task not per-person, model capability bends everything toward L, and FOMAT is a filter problem, not an agent problem. You'll leave with a vocabulary for the argument every AI engineer is having right now. Audience takeaways A shared vocabulary (Z, L, the five stops) for the debate splitting AI engineering teams FOMAT — name the fear so you can manage it A per-task framework for choosing where on the Continuum to operate Why capability drift makes "I'll never let it cook" a losing position over time Speaker: Alex Volkov · ThursdAI · @altryne
 
-## Media Evidence
-[The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso](https://www.youtube.com/watch?v=Lcqat4iP_lE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- Source video: `youtube-Lcqat4iP_lE`
-- Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/Lcqat4iP_lE/slide-001.jpg]]
-- Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
-- Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
-
-- [[youtube-ZpK5PWX2YRM-transcript]] — full cached transcript markdown for the related YouTube source.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
-- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
-- `youtube-Lcqat4iP_lE` — source page linked; role: supporting context only.
-- Evidence links for `youtube-Lcqat4iP_lE` (supporting context only): [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
-## People
-- [[alex-volkov]]
-
-## Supporting Slides
-- [[youtube-Lcqat4iP_lE-slides]] — extracted from the related public AI Engineer video.
-
-## Slide Evidence
-- Slide-only cropped deck: [[youtube-Lcqat4iP_lE-dense-slides]] (1 viable slide images).
-- Related slide/OCR pages:
-- [[youtube-Lcqat4iP_lE-dense-slides]]
-- [[youtube-Lcqat4iP_lE-reconstructed-slides]]
-- [[youtube-Lcqat4iP_lE-slides]]
-- Slide-derived terms: `microsoft`, `observability`, `world`, `fair`, `otel`, `windsurf`, `support`, `work`, `observable`, `moment`, `graphite`, `mdaily`, `care`, `both`, `tools`, `openttelemetry`, `primitives`, `traces`
-
-## Official YouTube Recording
-- [[youtube-ZpK5PWX2YRM]] — official AI Engineer YouTube channel recording published 2026-07-10.
-- Evidence status: transcript/slide enrichment pending.
-- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
-
 ## Synthesis
 ### Synthesized Breakdown
 two talks at a engineer Europe. One guy is saying code is free and deleted his ID and the other one is saying read every effing line of code. So should AI engineers still recode their agents output in 2026? I named this the Zopo continue and you guys probably have argued about this in Slack.
@@ -84,18 +38,70 @@ two talks at a engineer Europe. One guy is saying code is free and deleted his I
 - [[agent-security]]
 - [[agentic-search]]
 - [[coding-agents]]
-- [[mcp]]
 
 ### Derived Links And Source Material
-- [[youtube-ZpK5PWX2YRM-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
+- [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
+- [[youtube-ZpK5PWX2YRM]] — related YouTube source page.
+- [[youtube-ZpK5PWX2YRM-slides]] — slide evidence.
 - [[youtube-Lcqat4iP_lE]] — related YouTube source page.
 - [[youtube-Lcqat4iP_lE-slides]] — slide evidence.
 - [[youtube-Lcqat4iP_lE-reconstructed-slides]] — slide evidence.
 - [[youtube-Lcqat4iP_lE-dense-slides]] — slide evidence.
-- [[youtube-ZpK5PWX2YRM]] — related YouTube source page.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[alex-volkov]]
+
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-Lcqat4iP_lE-dense-slides]] (1 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-Lcqat4iP_lE-dense-slides]]
+- [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+- [[youtube-Lcqat4iP_lE-slides]]
+- Slide-derived terms: `microsoft`, `observability`, `world`, `fair`, `otel`, `windsurf`, `support`, `work`, `observable`, `moment`, `graphite`, `mdaily`, `care`, `both`, `tools`, `openttelemetry`, `primitives`, `traces`
+
+## Official YouTube Recording
+- [[youtube-ZpK5PWX2YRM|Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI]] — official AI Engineer YouTube recording published 2026-07-10.
+- Evidence status: [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Media Evidence
+- [[youtube-ZpK5PWX2YRM]] - dedicated official event recording.
+- [[youtube-ZpK5PWX2YRM-transcript]] - dedicated official recording transcript.
+- [[youtube-Lcqat4iP_lE]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-ZpK5PWX2YRM`
+- Slide deck: [[youtube-ZpK5PWX2YRM-slides|Slides: Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI]] — 32 visible slide image(s).
+![[assets/slides/ZpK5PWX2YRM/slide-001.jpg]]
+![[assets/slides/ZpK5PWX2YRM/slide-002.jpg]]
+![[assets/slides/ZpK5PWX2YRM/slide-003.jpg]]
+- Slide-derived themes for `youtube-ZpK5PWX2YRM`: future, software, bigger, than, last, engineering, leadership, july.
+- Source video: `youtube-Lcqat4iP_lE`
+- Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — 1 visible slide image(s); 1 HTML recreation(s).
+![[assets/dense-slides/Lcqat4iP_lE/slide-001.jpg]]
+- Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
+
+## Transcript Markdown
+- [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-ZpK5PWX2YRM`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
+- Slide-derived themes for `youtube-ZpK5PWX2YRM`: future, software, bigger, than, last, engineering, leadership, july.
+- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]], [[youtube-ZpK5PWX2YRM-slides]]
+- `youtube-Lcqat4iP_lE` — source page linked; role: supporting context only.
+- Evidence links for `youtube-Lcqat4iP_lE` (supporting context only): [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

@@ -2,19 +2,15 @@
 title: "Paper Compute Co."
 category: "companies"
 aliases: ["Paper Compute Co."]
-website: "https://papercompute.com/about/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Paper Compute Co.
 
 ## Overview
-Paper Compute Co. is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Paper Compute builds infrastructure for AI agents: paper CLI, Paper Cloud, tapes, and stereOS. We help teams make agent work durable, understandable, and reusable.
-
-## Background
-The official speaker roster connects Paper Compute Co. to John McBride. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+Paper Compute Co. is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Paper Compute Co. matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Don't Write Skills, Train Models.
+Paper Compute Co. appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Don't Write Skills, Train Models.
 
 ## Conference Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models]] - Don't Write Skills, Train Models (2026-06-30, 2:50pm-3:10pm)
@@ -23,19 +19,17 @@ Paper Compute Co. matters to this wiki through 1 official speaker(s) and 1 sched
 - [[john-mcbride]] - Co-Founder, CTO
 
 ## Sources
-- [About — Paper Compute](https://papercompute.com/about/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models|Don't Write Skills, Train Models]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

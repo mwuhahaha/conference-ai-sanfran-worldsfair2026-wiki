@@ -13,17 +13,16 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer]] — Turning My Obsidian Vault Into a Local AI Engineer
+- [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards]] — Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=qdh_x-uRs9g)
-
-## Related Scheduled Sessions
-- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer]] — Turning My Obsidian Vault Into a Local AI Engineer
-- [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards]] — Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards
 ## Extracted Slides
 - [[youtube-qdh_x-uRs9g-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=qdh_x-uRs9g)

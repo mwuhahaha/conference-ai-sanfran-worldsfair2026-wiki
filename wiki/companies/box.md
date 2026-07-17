@@ -2,19 +2,15 @@
 title: "Box"
 category: "companies"
 aliases: ["Box"]
-website: "https://www.box.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Box
 
 ## Overview
-Box is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Intelligent Content Management makes it easy to automate workflows, collaborate internally and externally, and protect your sensitive data, all on one platform.
-
-## Background
-The official speaker roster connects Box to Ben Kus. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Box is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Box matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Half Life of Agent Infrastructure.
+Box appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Half Life of Agent Infrastructure.
 
 ## Conference Sessions
 - [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure]] - The Half Life of Agent Infrastructure (2026-06-30, 1:30pm-1:50pm)
@@ -23,10 +19,12 @@ Box matters to this wiki through 1 official speaker(s) and 1 scheduled session(s
 - [[ben-kus]] - CTO
 
 ## Sources
-- [Box](https://www.box.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure|The Half Life of Agent Infrastructure]]
@@ -34,9 +32,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-12v5S1n1eOY` — source page linked; role: supporting context only.
 - Evidence links for `youtube-12v5S1n1eOY` (supporting context only): [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

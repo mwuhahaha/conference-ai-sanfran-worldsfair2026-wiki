@@ -31,5 +31,4 @@ Slide text:
 > JXJLOLAI S32
 > Microsoft smol ai
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/u3NofYYstaY/audit.json`

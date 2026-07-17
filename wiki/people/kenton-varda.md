@@ -24,7 +24,9 @@ Lead engineer for the [[cloudflare|Cloudflare]] Workers serverless platform, a p
 - [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe]] — Gadgets: Personal app vibe coding that is actually safe (2026-06-29, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe|Gadgets: Personal app vibe coding that is actually safe]]

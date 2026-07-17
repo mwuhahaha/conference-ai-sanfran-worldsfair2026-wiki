@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor"
+title: "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua"
 category: "transcripts"
 videoId: "ZSQb5fzRFPw"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2617"
 ---
 
-# Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor
+# Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=ZSQb5fzRFPw)

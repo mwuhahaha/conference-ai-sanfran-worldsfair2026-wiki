@@ -63,7 +63,6 @@ Slide text:
 > EUROPE
 > +h.A!Engineer
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/iRcX54EO5g8/slide-001.jpg) — `speaker_stage` confidence `0.76`; Camera shot of speaker and audience with a projected opening slide; not a clean slide frame.
 - [`slide-005.jpg`](/assets/slides/iRcX54EO5g8/slide-005.jpg) — `sponsor_logo` confidence `0.99`; Logo splash / closing card, not a content slide.

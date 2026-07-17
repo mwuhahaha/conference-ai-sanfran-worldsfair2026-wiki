@@ -176,7 +176,7 @@ def test_media_signal_priority_preserves_official_ids_and_labels_sparse_context(
     monkeypatch.setattr(
         module,
         "evidence_for_video",
-        lambda _video_id: {
+        lambda _video_id, **_kwargs: {
             "transcript_words": 0,
             "slide_lines": ["hello"],
             "slide_keywords": ["hello"],
@@ -185,6 +185,7 @@ def test_media_signal_priority_preserves_official_ids_and_labels_sparse_context(
             "transcript_path": None,
             "slide_pages": ["youtube-support0001-slides"],
             "keywords": [],
+            "attribution": "",
         },
     )
     rendered = module.render_evidence_section(["support0001"])
@@ -195,7 +196,93 @@ def test_media_signal_priority_preserves_official_ids_and_labels_sparse_context(
     assert "slide-derived text signals" not in rendered
 
 
-def test_topic_enrichment_preserves_existing_official_media_ids(tmp_path, monkeypatch):
+def test_talk_evidence_excludes_unmatched_official_event_media_and_stale_blocks(
+    monkeypatch,
+):
+    module = load_script("enrich_all_articles_from_sources.py")
+    exact_id = "AAAAAAAAAAA"
+    broad_id = "BBBBBBBBBBB"
+    supporting_id = "CCCCCCCCCCC"
+    manifest = {
+        exact_id: {
+            "mediaType": "talk_recording",
+            "matchedTalks": ["example-talk"],
+        },
+        broad_id: {"mediaType": "event_livestream"},
+    }
+    monkeypatch.setattr(module, "official_video_manifest", lambda: manifest)
+    monkeypatch.setattr(
+        module,
+        "official_event_video_ids",
+        lambda: frozenset(manifest),
+    )
+    monkeypatch.setattr(module, "has_video_evidence", lambda _video_id: True)
+    markdown = (
+        "# Example Talk\n\n"
+        "## Media Evidence\n"
+        f"- [[youtube-{supporting_id}]] - related context.\n\n"
+        f"- [[youtube-{broad_id}]] - stale ordinary broad-stream link.\n\n"
+        f"- Source video: `youtube-{broad_id}`\n"
+        f"- Slide deck: [[youtube-{broad_id}-slides]].\n\n"
+        "## Transcript Markdown\n"
+        f"- [[youtube-{broad_id}-transcript]] - broad stream.\n\n"
+        "## Recording Search Status\n"
+        f"The broad stream [[youtube-{broad_id}]] was checked.\n"
+    )
+
+    cleaned = module.strip_unmatched_event_media(markdown, "example-talk")
+    selected = module.talk_evidence_video_ids("example-talk", cleaned)
+
+    assert selected == [exact_id, supporting_id]
+    assert f"Source video: `youtube-{broad_id}`" not in cleaned
+    assert f"youtube-{broad_id}-transcript" not in cleaned
+    assert f"The broad stream [[youtube-{broad_id}]] was checked." in cleaned
+
+    repaired = module.ensure_talk_media_evidence(
+        cleaned,
+        "example-talk",
+        selected,
+    )
+    assert "## Media Evidence" in repaired
+    assert f"[[youtube-{exact_id}]] - dedicated official event recording" in repaired
+    media_section = repaired.split("## Media Evidence\n", 1)[1].split(
+        "\n## ", 1
+    )[0]
+    assert f"youtube-{broad_id}" not in media_section
+    assert f"youtube-{supporting_id}" in media_section
+
+
+def test_generated_evidence_is_not_reingested_as_source_text() -> None:
+    module = load_script("enrich_all_articles_from_sources.py")
+    markdown = (
+        "---\ntitle: Example\n---\n# Example\n\n"
+        "## Connections\n- [[example-talk]]\n\n"
+        "## Evidence Graph\n"
+        "- `youtube-BBBBBBBBBBB` - stale generated source.\n\n"
+        "## Evidence Boundary\n- Keep layers labeled.\n"
+    )
+
+    source_text = module.source_text_for_enrichment(markdown)
+
+    assert "[[example-talk]]" in source_text
+    assert "youtube-BBBBBBBBBBB" not in source_text
+    assert "## Evidence Boundary" in source_text
+
+    talk_source_text = module.source_text_for_enrichment(
+        markdown
+        + "\n## Media Evidence\n- [[youtube-CCCCCCCCCCC]]\n"
+        + "\n## Transcript Markdown\n- [[youtube-BBBBBBBBBBB-transcript]]\n"
+        + "\n## Slides\n- [[youtube-BBBBBBBBBBB-slides]]\n"
+        + "\n## Synthesis\n- [[youtube-BBBBBBBBBBB]]\n",
+        module.TALK_GENERATED_SOURCE_HEADINGS,
+    )
+    assert "youtube-BBBBBBBBBBB" not in talk_source_text
+    assert "youtube-CCCCCCCCCCC" not in talk_source_text
+
+
+def test_topic_enrichment_preserves_privately_gated_official_media_ids(
+    tmp_path, monkeypatch
+):
     module = load_script("enrich_all_articles_from_sources.py")
     wiki = tmp_path / "wiki"
     topic = wiki / "topics" / "coding-agents.md"
@@ -207,16 +294,31 @@ def test_topic_enrichment_preserves_existing_official_media_ids(tmp_path, monkey
         (wiki / "resources" / f"youtube-{video_id}.md").write_text(
             f"# Resource {video_id}\n"
         )
+    stale = "EEEEEEEEEEE"
+    (wiki / "resources" / f"youtube-{stale}.md").write_text("# Stale Resource\n")
     topic.write_text(
-        "# Coding Agents\n\n## Evidence Graph\n"
+        "# Coding Agents\n\n## Primary Sources\n"
         + "\n".join(f"- [[youtube-{video_id}]]" for video_id in official)
-        + "\n"
+        + "\n\n## Evidence Graph\n"
+        + f"- [[youtube-{stale}]] - stale generated source.\n"
     )
     monkeypatch.setattr(module, "WIKI", wiki)
     monkeypatch.setattr(
         module,
         "official_event_video_ids",
         lambda: frozenset(official),
+    )
+    monkeypatch.setattr(
+        module,
+        "private_credibility_v2_policy",
+        lambda: {
+            "topicVideoWritingDecisions": {
+                "coding-agents": {
+                    video_id: {"writingDisposition": "attribute_to_source"}
+                    for video_id in official
+                }
+            }
+        },
     )
 
     assert module.enrich_topic(topic)
@@ -225,6 +327,77 @@ def test_topic_enrichment_preserves_existing_official_media_ids(tmp_path, monkey
     for video_id in official:
         assert f"[[youtube-{video_id}]]" in enriched
         assert f"`youtube-{video_id}`" in enriched
+    assert f"[[youtube-{stale}]]" not in enriched
+
+
+def test_topic_without_private_policy_does_not_admit_global_official_media(
+    tmp_path, monkeypatch
+):
+    module = load_script("enrich_all_articles_from_sources.py")
+    wiki = tmp_path / "wiki"
+    topic = wiki / "topics" / "voice-agents.md"
+    (wiki / "topics").mkdir(parents=True)
+    (wiki / "talks").mkdir()
+    (wiki / "resources").mkdir()
+    unrelated = "AAAAAAAAAAA"
+    (wiki / "resources" / f"youtube-{unrelated}.md").write_text(
+        "# Closing Keynote: Garry Tan\n"
+    )
+    (wiki / "talks" / "voice-overview.md").write_text(
+        "# Voice Agents Overview\n\n"
+        "## Media Evidence\n"
+        f"- [[youtube-{unrelated}]] - stale generated source.\n"
+    )
+    topic.write_text("# Voice Agents\n\n## Overview\nRealtime speech systems.\n")
+    monkeypatch.setattr(module, "WIKI", wiki)
+    monkeypatch.setattr(
+        module, "official_event_video_ids", lambda: frozenset({unrelated})
+    )
+    monkeypatch.setattr(module, "private_credibility_v2_policy", lambda: {})
+
+    assert module.enrich_topic(topic)
+    enriched = topic.read_text()
+
+    assert unrelated not in enriched
+    assert "No linked video, transcript, or slide source" in enriched
+
+
+def test_topic_generated_source_sections_cannot_bypass_private_gate(
+    tmp_path, monkeypatch
+):
+    module = load_script("enrich_all_articles_from_sources.py")
+    wiki = tmp_path / "wiki"
+    topic = wiki / "topics" / "voice-agents.md"
+    (wiki / "topics").mkdir(parents=True)
+    (wiki / "talks").mkdir()
+    (wiki / "resources").mkdir()
+    stale_official = "AAAAAAAAAAA"
+    stale_supporting = "BBBBBBBBBBB"
+    for video_id in (stale_official, stale_supporting):
+        (wiki / "resources" / f"youtube-{video_id}.md").write_text(
+            "# Voice-adjacent legacy source\n"
+        )
+    topic.write_text(
+        "# Voice Agents\n\n## Overview\nRealtime speech systems.\n\n"
+        "## Source Coverage\n"
+        f"- [[youtube-{stale_official}]]\n"
+        f"- [[youtube-{stale_supporting}]]\n\n"
+        "## Slide-Derived Supporting Decks\n"
+        f"- [[youtube-{stale_official}-slides]]\n"
+    )
+    monkeypatch.setattr(module, "WIKI", wiki)
+    monkeypatch.setattr(
+        module,
+        "official_event_video_ids",
+        lambda: frozenset({stale_official}),
+    )
+    monkeypatch.setattr(module, "private_credibility_v2_policy", lambda: {})
+
+    assert module.enrich_topic(topic)
+    evidence = topic.read_text().split("## Evidence Graph", 1)[1]
+
+    assert stale_official not in evidence
+    assert stale_supporting not in evidence
 
 
 @pytest.mark.parametrize(
@@ -297,7 +470,7 @@ def test_topic_media_budget_prefers_semantic_evidence_over_first_found_sources(
     assert "relevance score" not in enriched.lower()
 
 
-def test_relevant_video_selection_is_deterministic_and_keeps_all_official_ids(
+def test_relevant_video_selection_fails_closed_without_policy_or_direct_link(
     tmp_path, monkeypatch
 ):
     module = load_script("enrich_all_articles_from_sources.py")
@@ -315,6 +488,7 @@ def test_relevant_video_selection_is_deterministic_and_keeps_all_official_ids(
     monkeypatch.setattr(
         module, "official_event_video_ids", lambda: frozenset(official)
     )
+    monkeypatch.setattr(module, "private_credibility_v2_policy", lambda: {})
     monkeypatch.setattr(
         module,
         "private_source_selection_profile",
@@ -335,10 +509,7 @@ def test_relevant_video_selection_is_deterministic_and_keeps_all_official_ids(
         [*reversed(official), *reversed(candidates)], **kwargs
     )
 
-    assert set(forward[:2]) == set(official)
-    assert set(reverse[:2]) == set(official)
-    assert forward[-1] == reverse[-1] == "strongcode1"
-    assert len(forward) == len(official) + 1
+    assert forward == reverse == ["strongcode1"]
 
 
 def test_relevant_video_selection_does_not_fill_budget_with_unrelated_context(
@@ -433,3 +604,109 @@ def test_event_resource_classifier_preserves_specific_admission_provenance():
     assert "explicitly identified" in livestream
     assert "official schedule pages remain canonical" in cut
     assert any("verified against scheduled-session" in line for line in cut_lines)
+
+
+def test_event_resource_classifier_separates_playlist_recordings_and_unavailable_items():
+    module = load_script("classify_video_resource_sources.py")
+    page = "# Recording\n\n## What It Is\nOld text.\n\n## Link\nSource.\n"
+
+    playlist_role, playlist_lines = module.classification(
+        "AAAAAAAAAAA",
+        set(),
+        {"AAAAAAAAAAA"},
+        set(),
+        set(),
+        {"AAAAAAAAAAA"},
+        set(),
+    )
+    unavailable_role, unavailable_lines = module.classification(
+        "BBBBBBBBBBB",
+        set(),
+        set(),
+        set(),
+        set(),
+        {"BBBBBBBBBBB"},
+        {"BBBBBBBBBBB"},
+    )
+
+    assert playlist_role == "primary event playlist recording"
+    assert any("playlist membership" in line for line in playlist_lines)
+    assert "Playlist membership establishes event association" in module.rewrite_what_it_is(
+        page, playlist_role
+    )
+    assert unavailable_role == "official event unavailable playlist item"
+    assert any("do not use this placeholder" in line for line in unavailable_lines)
+    unavailable = module.rewrite_what_it_is(page, unavailable_role)
+    assert "no content or schedule claim" in unavailable
+    assert "primary event video source" not in "\n".join(unavailable_lines)
+
+
+def test_event_resource_classifier_honors_explicit_no_slides_status():
+    module = load_script("classify_video_resource_sources.py")
+
+    role, lines = module.classification(
+        "NOSLIDES001",
+        set(),
+        {"NOSLIDES001"},
+        set(),
+        set(),
+        {"NOSLIDES001"},
+        set(),
+        {"NOSLIDES001"},
+    )
+
+    assert role == "primary event playlist recording"
+    assert "no slide deck" in " ".join(lines).lower()
+    assert "slide content" not in " ".join(lines).lower()
+
+
+def test_event_resource_classifier_rebuilds_slide_registry_from_existing_pages(
+    tmp_path,
+    monkeypatch,
+):
+    module = load_script("classify_video_resource_sources.py")
+    wiki = tmp_path / "wiki"
+    slides = wiki / "slides"
+    slides.mkdir(parents=True)
+    (slides / "youtube-AAAAAAAAAAA-slides.md").write_text(
+        '---\ntitle: "Current Deck"\n---\n# Current Deck\n\n'
+        "![[assets/slides/AAAAAAAAAAA/slide-001.jpg]]\n"
+    )
+    (slides / "registry.json").write_text(
+        '[{"id":"youtube-BBBBBBBBBBB-slides","path":"missing"}]\n'
+    )
+    monkeypatch.setattr(module, "WIKI", wiki)
+
+    assert module.rebuild_slide_registry() == 1
+    registry = json.loads((slides / "registry.json").read_text())
+    assert registry == [
+        {
+            "id": "youtube-AAAAAAAAAAA-slides",
+            "title": "Current Deck",
+            "path": "wiki/slides/youtube-AAAAAAAAAAA-slides.md",
+            "slide_count": 1,
+        }
+    ]
+
+
+def test_manifest_media_type_sets_do_not_promote_private_or_premiere_as_cut(tmp_path, monkeypatch):
+    module = load_script("classify_video_resource_sources.py")
+    manifest = tmp_path / "official-wf26-video-manifest.json"
+    manifest.write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {"id": "recording01", "mediaType": "talk_recording"},
+                    {"id": "premiere001", "mediaType": "scheduled_premiere"},
+                    {"id": "private0001", "mediaType": "unavailable_playlist_item"},
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(module, "OFFICIAL_VIDEO_MANIFEST", manifest)
+    monkeypatch.setattr(module, "confirmed_event_cut_ids", lambda: set())
+
+    assert module.official_wf_cut_ids() == {"recording01"}
+    assert module.official_wf_premiere_ids() == {"premiere001"}
+    assert module.official_wf_unavailable_ids() == {"private0001"}

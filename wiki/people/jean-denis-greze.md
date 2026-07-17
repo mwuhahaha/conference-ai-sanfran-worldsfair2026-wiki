@@ -26,7 +26,9 @@ Jean-Denis Greze is co-founder and CEO of [[town|Town]], a personal AI assistant
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects]] — Agents' next frontier: agent-to-agent and network effects (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects|Agents' next frontier: agent-to-agent and network effects]]

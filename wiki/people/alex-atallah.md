@@ -25,7 +25,9 @@ Alex Atallah is Co-founder & CEO of [[openrouter|OpenRouter]]. [[openrouter|Open
 - [[2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549]] — Model Routing (2026-07-01, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-nader-khalil-model-routing|Model Routing]]

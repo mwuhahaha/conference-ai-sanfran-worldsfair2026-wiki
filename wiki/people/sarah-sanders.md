@@ -20,7 +20,9 @@ Context Engineer at [[posthog|PostHog]] building and securing AI agents
 - [[2026-07-01-sarah-sanders-we-let-an-ai-agent-execute-bash-and-lived-to-talk-about-it]] — We let an AI agent execute Bash and lived to talk about it (2026-07-01, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-sarah-sanders-we-let-an-ai-agent-execute-bash-and-lived-to-talk-about-it|We let an AI agent execute Bash and lived to talk about it]]

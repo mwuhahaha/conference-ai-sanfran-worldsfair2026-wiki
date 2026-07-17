@@ -2,19 +2,15 @@
 title: "Google DeepMind"
 category: "companies"
 aliases: ["Google DeepMind"]
-website: "https://deepmind.google/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Google DeepMind
 
 ## Overview
-Google DeepMind is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build AI responsibly to benefit humanity.
-
-## Background
-The official speaker roster connects Google DeepMind to Benoit Schillings, Ivan Leo, Kevin Hou, Nidhi Kaushik Vyas, Paige Bailey, Philipp Schmid. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+Google DeepMind is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Google DeepMind matters to this wiki through 9 official speaker(s) and 14 scheduled session(s), including: Research to Reality with Google DeepMind; Speech-to-Speech Model Research at Google DeepMind; Get Out of the Model's Way.
+Google DeepMind appears through 9 official speaker(s) connected to 14 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Research to Reality with Google DeepMind; An Interaction Is All You Need; Get Out of the Model's Way.
 
 ## Conference Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] - Speech-to-Speech Model Research at Google DeepMind (2026-06-29, 11:10am-11:30am)
@@ -44,10 +40,12 @@ Google DeepMind matters to this wiki through 9 official speaker(s) and 14 schedu
 - [[valeria-wu-fon]] - Product Manager
 
 ## Sources
-- [Google DeepMind](https://deepmind.google/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
@@ -62,10 +60,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
 
 ### Media Signals
-- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
-- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
-- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
 - `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - `youtube-cVzf49yg0D8` — 5 slide-derived text signals; role: supporting context only.
@@ -83,9 +77,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -22,7 +22,9 @@ Principal Engineer at [[google|Google]] working on edge AI.  Lead on the [[googl
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics (2026-06-30, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]

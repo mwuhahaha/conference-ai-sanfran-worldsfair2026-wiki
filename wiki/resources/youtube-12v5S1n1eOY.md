@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure]] — The Half Life of Agent Infrastructure
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=12v5S1n1eOY)
-
-## Related Scheduled Sessions
-- [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure]] — The Half Life of Agent Infrastructure
 ## Extracted Slides
 - [[youtube-12v5S1n1eOY-dense-slides]]
 - [[youtube-12v5S1n1eOY-reconstructed-slides]]
 - [[youtube-12v5S1n1eOY-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=12v5S1n1eOY)

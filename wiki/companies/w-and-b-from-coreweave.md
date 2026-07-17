@@ -2,19 +2,15 @@
 title: "W&B from CoreWeave"
 category: "companies"
 aliases: ["W&B from CoreWeave"]
-website: "https://wandb.ai/site"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # W&B from CoreWeave
 
 ## Overview
-W&B from CoreWeave is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Learn why thousands of companies rely on W&B as their system of record for training AI models and developing AI applications with confidence.
-
-## Background
-The official speaker roster connects W&B from CoreWeave to Alex Volkov. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+W&B from CoreWeave is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-W&B from CoreWeave matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Z/L Continuum: Should AI Engineers Still Read Code?.
+W&B from CoreWeave appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Z/L Continuum: Should AI Engineers Still Read Code?.
 
 ## Conference Sessions
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] - The Z/L Continuum: Should AI Engineers Still Read Code? (2026-06-30, 10:45am-11:05am)
@@ -23,23 +19,16 @@ W&B from CoreWeave matters to this wiki through 1 official speaker(s) and 1 sche
 - [[alex-volkov]] - AI Evangelist & Host of ThursdAI
 
 ## Sources
-- [Weights & Biases](https://wandb.ai/site)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Linked Sessions
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]]
 
 ### Media Signals
-- `youtube-ZpK5PWX2YRM` — 3,931 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
-- Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]]
 - `youtube-Lcqat4iP_lE` — source page linked; role: supporting context only.
 - Evidence links for `youtube-Lcqat4iP_lE` (supporting context only): [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

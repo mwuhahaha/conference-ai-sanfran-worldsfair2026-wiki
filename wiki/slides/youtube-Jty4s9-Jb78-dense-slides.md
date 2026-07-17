@@ -47,5 +47,4 @@ Slide text:
 > Cartridges
 > Memory Layers
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/Jty4s9-Jb78/audit.json`

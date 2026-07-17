@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-16T22:14:28Z
+updated: 2026-07-17T05:27:22Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -25,32 +25,41 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - The official YouTube monitor invokes that update once after admitting new
   event media. Direct generator, enricher, normalizer, and exporter calls are
   stage-level debugging tools only.
-- Run `update-20260716T215951Z-e366f7cbd6` completed validation and promoted
-  locally. Its machine receipt is
-  `.ops/state/runs/wiki-maker-update-20260716T215951Z-e366f7cbd6-attempt-001.json`;
+- Run `update-20260717T051453Z-43aefe0a3d` completed all 16 stages, validated,
+  and promoted locally. Its machine receipt is
+  `.ops/state/runs/wiki-maker-update-20260717T051453Z-43aefe0a3d-attempt-001.json`;
   the operator summary is
-  `.ops/state/runs/20260716T215951Z-e11-maker-integration.md`.
-- Its agent snapshot is
-  `snapshot:2c83d7569c73047af50d86924ca8eaf7ca073fb6894af029cfc6450fda9e22bd`.
-  Repeating the same update returns a no-op because its inputs, profile, and
-  promoted output digests are unchanged.
+  `.ops/state/runs/20260717T052722Z-playlist-credibility-article-migration.md`.
+- The promoted target snapshot is
+  `snapshot:b00976ab3a3272e1f2532a9db296cb97c522bed892725c8b4258b63c54be5711`;
+  its agent snapshot is
+  `snapshot:521c817de54118bbd2190c616edb5991f0355859040dcbcc9e663f10eb1c74c2`.
+  Repeating the identical update returns a planning no-op with no execution,
+  validation, promotion, or receipt.
 - The run performed no external deployment. Publication remains a separate,
   explicit operation.
-- The official-media manifest remains at 22 admitted WF26 items: 17 recordings,
-  2 scheduled premieres, and 3 event livestreams.
-- The transcript layer contains 114 pages: 18 primary-event transcripts and 96
+- The official-media union contains 34 WF26 items: 26 recordings, 3 scheduled
+  premieres, 2 unavailable playlist placeholders, and 3 event livestreams.
+  All 29 official-playlist entries are represented; its 24 playable recordings
+  have cached transcripts.
+- The transcript layer contains 123 pages: 28 primary-event transcripts and 95
   supporting-context transcripts. Transcript, video, OCR, slide, and synthesis
-  roles remain labeled separately.
+  roles remain labeled separately. Playlist slide outcomes are 23 cached, 1
+  `no_slides`, 3 pending, and 2 unavailable.
 - Private review-policy bootstrap data lives only at ignored
   `.ops/state/cache/wiki-maker/private-policy.json`, as declared by the profile.
-  Its contents must never enter tracked or public outputs.
+  Provider/browser receipts, claim assessments, candidate profiles, and writing
+  decisions remain under ignored `.ops/state/cache/wiki-maker/credibility-v2/`.
+  Their contents must never enter tracked or public outputs.
 
 ## Relationship Explorer Release
 
 - Canonical plan: `.ops/plans/worldsfair-relationship-explorer-plan.md`.
 - Status: implementation, deployment, and live verification complete.
 - Primary templates: Vendor-Concept, Person-Concept, and Concept-Concept.
-- Current corpus: 75 explicit vendors, 555 people, 16 concepts, and 3,063 exact evidence-path relationship records.
+- Current local corpus: 75 explicit vendors, 555 people, 16 concepts, and 1,598
+  exact evidence-path relationship records: 308 Vendor-Concept, 813
+  Person-Concept, and 477 Concept-Concept.
 - `/graph/` is the search-first explorer; `/graph/all/` preserves the complete wiki-link graph.
 - `relationship-data.json` is separate from `graph-data.json`; internal review candidates remain under ignored `.ops/state/cache/` only.
 - The reusable implementation and conservative Worldsfair profile producer live in `/garage/obsidian/wiki-from-topic-maker`.
@@ -114,15 +123,32 @@ The project-local official YouTube monitor was hardened in commit `324e0e2c`:
 - `--dry-run` no longer mutates the tracked RSS snapshot.
 - the auto-push path refuses to run in a dirty worktree so it cannot commit unrelated operator changes.
 
-The updated user unit was installed and verified at `2026-07-16T07:47:25Z`. The controlled systemd run exited successfully with `state: active`, six recent confirmed WF2026 event entries, zero new entries, and a clean `main` checkout synchronized with `origin/main`. The timer remains enabled on its six-hour cadence.
+The updated user unit was installed and verified at `2026-07-16T07:47:25Z`.
+For the bounded playlist/maker migration, the timer was disabled before source
+acquisition and remains disabled and inactive. This branch is intentionally
+dirty and the installed auto-push service requires a clean `main` checkout;
+restore the six-hour timer only after review/commit returns operations to that
+safe state.
 
-The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to a bounded scan of the latest 100 official-channel uploads, with exact schedule/speaker evidence required before admission. The durable verified manifest now contains 22 WF26 media items: 17 recordings, 2 scheduled premieres, and 3 event livestreams. This run added six previously missing official items:
+The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to
+a bounded official-channel scan, then on 2026-07-17 to complete reconciliation
+against the official WF26 playlist. Playlist membership now establishes event
+association while the schedule remains canonical for session facts. The final
+union contains 34 records and preserves separately admitted event livestreams
+and recordings outside the playlist.
+The earlier channel-scan slice had added or corrected:
 - Four playable recordings with cached transcripts, transcript pages, slide/OCR pages, resource pages, and talk synthesis: Pauline Brunet, Addy Osmani, Erik Meijer, and Alex Bauer.
 - Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
 - Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.
 
-Validation at `2026-07-16T08:44:32Z`: the live 100-video scan found no additional unprocessed verified WF26 uploads, all 43 tests passed, and the static export completed with 2,408 pages.
+Validation at `2026-07-17T05:27:22Z`: all 29 playlist items have typed outcomes,
+all 24 playable playlist recordings have primary-event transcript coverage,
+229 project tests pass, article normalization is idempotent, and the static
+export contains 2,438 Markdown-identical pages.
 
 ## Next Step
 
-Implement S3 in `.ops/plans/worldsfair-static-navigation-followup.md`: generate build-time backlinks, outgoing links, and nearby-page sections for rendered pages. Keep this separate from category landing-page improvements and talk/source-bundle panels.
+Review and commit the maker/WF26 changes before restoring the local six-hour
+monitor. Push/deployment remain separate explicit operations. The monitor will
+revisit the three scheduled premieres and run the same unified update when
+their media becomes playable.

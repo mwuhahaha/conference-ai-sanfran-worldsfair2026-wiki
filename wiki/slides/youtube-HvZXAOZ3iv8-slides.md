@@ -82,7 +82,6 @@ Slide text:
 
 > GRPO (RL) in 300 lines of code.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/HvZXAOZ3iv8/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with audience; no readable slide content
 - [`slide-004.jpg`](/assets/slides/HvZXAOZ3iv8/slide-004.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with a blank projected screen; no readable slide content

@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — How Forward Deployed Engineering is done at Factory
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=ShuJ_CN6zr4)
-
-## Related Scheduled Sessions
-- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — How Forward Deployed Engineering is done at Factory
 ## Extracted Slides
 - [[youtube-ShuJ_CN6zr4-dense-slides]]
 - [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - [[youtube-ShuJ_CN6zr4-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=ShuJ_CN6zr4)

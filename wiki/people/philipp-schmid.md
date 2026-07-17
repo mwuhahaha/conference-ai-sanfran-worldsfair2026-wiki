@@ -28,7 +28,9 @@ Philipp Schmid is a Staff Engineer at [[google-deepmind|Google DeepMind]] workin
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python]] — Agents Without Code: How Skills, YAML, and Filesystems Replaced Python (2026-07-01, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
@@ -36,10 +38,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python|Agents Without Code: How Skills, YAML, and Filesystems Replaced Python]]
 
 ### Media Signals
-- `youtube-0vphxNt4wyk` — 3,965 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
-- Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
-- Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
 - `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
 - Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]

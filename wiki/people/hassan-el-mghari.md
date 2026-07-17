@@ -26,12 +26,12 @@ Leading Developer Experience at [[together-ai|Together AI]]. Educating developer
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs (2026-06-30, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis|The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs]]
 
 ### Media Signals
-- `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
-- Evidence links for `youtube-gcseUQJ6Gbg` (supporting context only): [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+No linked video, transcript, or slide source has been attached yet.

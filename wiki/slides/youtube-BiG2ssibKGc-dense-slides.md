@@ -28,5 +28,4 @@ Slide text:
 > Unblocked | getunblocked.com
 > AIE Europe 2026
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/BiG2ssibKGc/audit.json`

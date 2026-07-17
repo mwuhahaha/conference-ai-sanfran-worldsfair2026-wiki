@@ -28,7 +28,6 @@ Slide text:
 
 > ADR: what it looks like
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/504PvfXou5Y/slide-001.jpg) — `speaker_stage` confidence `0.92`; speaker-on-stage shot with only a partial projected slide visible
 - [`slide-002.jpg`](/assets/slides/504PvfXou5Y/slide-002.jpg) — `title_card` confidence `0.98`; speaker intro card with booth branding and no substantive talk content

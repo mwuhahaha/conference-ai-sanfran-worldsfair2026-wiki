@@ -4,6 +4,7 @@ category: "harnesses"
 status: "seeded"
 sourceLabels: ["Official schedule", "Question layer", "Topic synthesis"]
 ---
+
 # Sandboxed Agent Execution
 
 ## Overview

@@ -159,5 +159,4 @@ Slide text:
 
 > Vibe Coding Workshop for Leaders
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/7Dtu2bilcFs/audit.json`

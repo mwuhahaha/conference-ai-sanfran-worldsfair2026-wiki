@@ -115,7 +115,6 @@ Slide text:
 
 > Gemma 4 demos
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/SS-A8sE7hkw/slide-001.jpg) — `speaker_stage` confidence `0.98`; Stage photo with audience and podium; not a readable presentation slide.
 - [`slide-002.jpg`](/assets/slides/SS-A8sE7hkw/slide-002.jpg) — `title_card` confidence `0.97`; Speaker intro card with headshots and names; not a content slide.

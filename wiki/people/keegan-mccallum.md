@@ -26,12 +26,12 @@ Founder of [[urun|uRun]], build the inference cloud for the interactive era of A
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light]] — Generative Video at the Speed of Light (2026-07-01, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
 
 ### Media Signals
-- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
-- Evidence links for `youtube-EY4O9M6AsWI` (supporting context only): [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

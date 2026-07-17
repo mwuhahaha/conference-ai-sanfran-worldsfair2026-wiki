@@ -289,7 +289,6 @@ Slide text:
 > World's In Code They Act, In Proof We Trust
 > Erik Meijer / Research Scholar Leibniz Labs
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-005.jpg`](/assets/dense-slides/htM02KMNZnk/slide-005.jpg) — `title_card` confidence `0.92`; Title card / speaker intro style frame with prominent headshots.
 

@@ -40,5 +40,4 @@ Slide text:
 > Data extraction
 > AI-powered workflows
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/12v5S1n1eOY/audit.json`

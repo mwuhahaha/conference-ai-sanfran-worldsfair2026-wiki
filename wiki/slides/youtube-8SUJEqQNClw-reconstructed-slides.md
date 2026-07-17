@@ -318,7 +318,6 @@ Slide text:
 >   memory,
 > });
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/8SUJEqQNClw/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor/logo wall only
 - [`slide-002.jpg`](/assets/reconstructed-slides/8SUJEqQNClw/slide-002.jpg) — `title_card` confidence `0.98`; speaker intro card

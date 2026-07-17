@@ -39,7 +39,6 @@ Slide text:
 > 9:56 PM · Jan 31, 2026 · 1.1M Views
 > Engineering the future of Al
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/zKk7sDMGDEQ/slide-001.jpg) — `speaker_stage` confidence `0.2`; speaker at podium; projected title slide is background, not a readable presentation frame
 

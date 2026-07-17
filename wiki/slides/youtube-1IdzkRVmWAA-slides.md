@@ -51,7 +51,6 @@ Slide text:
 
 > Agent trajectories - tool calls
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/1IdzkRVmWAA/slide-001.jpg) — `title_card` confidence `0.97`; speaker intro card with headshots and names
 

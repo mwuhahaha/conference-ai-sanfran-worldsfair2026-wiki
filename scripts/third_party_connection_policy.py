@@ -64,7 +64,9 @@ def assess_connection(
     else:
         event = "not_claimed"
 
-    endorsement = "approved" if signals.get("curator_approved") else "not_endorsed"
+    # Publication approval and endorsement are independent decisions. A curator
+    # can approve source-backed context without endorsing its subject.
+    endorsement = "endorsed" if signals.get("explicit_endorsement") else "not_endorsed"
     if identity == "conflict" or event == "conflict":
         disposition = "reject"
     elif identity_required and identity == "unverified":
@@ -100,6 +102,7 @@ def policy_document() -> dict:
             "A shared name, repository name, domain guess, or popularity signal never proves identity.",
             "A verified entity identity does not prove a World's Fair 2026 event association.",
             "Publication as supporting context does not imply endorsement.",
+            "Curator publication approval does not imply endorsement.",
             "Conflicting primary evidence forces rejection regardless of score.",
         ],
         "weights": WEIGHTS,

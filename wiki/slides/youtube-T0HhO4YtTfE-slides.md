@@ -214,7 +214,6 @@ Slide text:
 > Think deeply about your product requirements before having AI generate code.
 > Treat business and performance constraints as inputs to design, not afterthoughts.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/T0HhO4YtTfE/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on camera, not a presentation slide
 - [`slide-016.jpg`](/assets/slides/T0HhO4YtTfE/slide-016.jpg) — `speaker_stage` confidence `0.99`; Speaker camera shot, not a presentation slide.

@@ -26,5 +26,4 @@ Slide text:
 > Observable Tools
 > Let's make MCP tools transparent and observable!
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/Lcqat4iP_lE/audit.json`

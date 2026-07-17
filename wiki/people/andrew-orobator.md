@@ -26,7 +26,9 @@ Andrew Orobator is a senior Android engineer at [[reddit|Reddit]] and the author
 - [[2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases]] — Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases|Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases]]

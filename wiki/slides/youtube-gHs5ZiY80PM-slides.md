@@ -49,7 +49,6 @@ Slide text:
 > TUROK
 > 20
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/gHs5ZiY80PM/slide-001.jpg) — `speaker_stage` confidence `0.98`; Speaker on stage with only a partially visible slide; not a readable presentation slide.
 

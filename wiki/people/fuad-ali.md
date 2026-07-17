@@ -20,7 +20,9 @@ Fuad Ali is a Senior Product Manager at [[arize-ai|Arize AI]] focused on ML obse
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them]] — Voice Agents Are Mostly Invisible. Here's How to See Them. (2026-06-29, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent|Building self-learning loops for your agent]]

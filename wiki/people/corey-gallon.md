@@ -21,6 +21,9 @@ Managing Director at [[rexmore|Rexmore]].
 - [Website](https://gallon.me)
 - [Blog](https://gallon.me)
 
+## Biography
+Corey Gallon is Managing Director of [[rexmore|Rexmore]], an AI-native holding company that is building, buying and transforming businesses with AI. He's an experienced AI engineer focused on shipping real, maintainable software with coding agents. Previously he was: Chief Innovation Officer of PwC's Commercial Technology business; Adjunct Professor of Graduate AI & Machine Learning at Loyola University Chicago; and an agentic-coding OG, primary contributor to and board member of GPT-Engineer, the open source project that became Lovable. Corey is an artisan roaster and brewer of specialty coffee and a pickleball fanatic.
+
 ## Conference Relevance
 Corey Gallon matters because [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation]] is one of the clearest talks in the World's Fair corpus about turning browser agents into repeatable engineering leverage.
 
@@ -29,9 +32,6 @@ His profile connects three useful threads:
 - AI-native company operations through [[rexmore|Rexmore]].
 - Practical coding-agent experience through GPT-Engineer and production software work.
 - Browser automation as a way to turn messy web workflows into reusable, inspectable programs.
-
-## Biography
-Corey Gallon is Managing Director of [[rexmore|Rexmore]], an AI-native holding company that is building, buying and transforming businesses with AI. He's an experienced AI engineer focused on shipping real, maintainable software with coding agents. Previously he was: Chief Innovation Officer of PwC's Commercial Technology business; Adjunct Professor of Graduate AI & Machine Learning at Loyola University Chicago; and an agentic-coding OG, primary contributor to and board member of GPT-Engineer, the open source project that became Lovable. Corey is an artisan roaster and brewer of specialty coffee and a pickleball fanatic.
 
 ## Conference Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (2026-06-30, 12:05pm-12:25pm)
@@ -45,26 +45,15 @@ Corey Gallon is Managing Director of [[rexmore|Rexmore]], an AI-native holding c
 - [[agentic-web]] — topic context for agent-facing web surfaces, browser automation, and agent-readable interfaces.
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
-- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-JsKTQbT58BY` — source page linked; role: supporting context only.
 - Evidence links for `youtube-JsKTQbT58BY` (supporting context only): [[youtube-JsKTQbT58BY]]
-
 ## Evidence Boundary
 Official roster and schedule data establish Corey's role, company, and scheduled session. [[rexmore|Rexmore]]'s website and Corey's public profile links support the company and professional context. The exact Dark Arts recording has not been found yet.

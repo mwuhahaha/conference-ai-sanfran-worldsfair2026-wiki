@@ -74,7 +74,6 @@ Slide text:
 > MCP AlEngineer
 > EUROPE
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/so9l_MwS2yg/slide-001.jpg) — `sponsor_logo` confidence `0.98`; Sponsor/logo wall only.
 - [`slide-006.jpg`](/assets/reconstructed-slides/so9l_MwS2yg/slide-006.jpg) — `other` confidence `0.0`; missing batch classifier result

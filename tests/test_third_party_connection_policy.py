@@ -23,12 +23,54 @@ from audit_third_party_connections import (
 from discover_external_event_videos import public_report
 import enrich_from_youtube_transcripts as youtube_enrichment
 import build_worldsfair_wiki as worldsfair_builder
+import fetch_company_profiles as company_profile_fetch
 from build_worldsfair_wiki import public_speaker_video_map
 from fetch_company_profiles import Candidate, validate_company_candidate
 from generate_livestream_talk_segments import public_match
 
 
 class ThirdPartyConnectionPolicyTests(unittest.TestCase):
+    def test_company_profile_fetch_defaults_to_private_candidate_state(self):
+        self.assertEqual(
+            company_profile_fetch.PROFILES,
+            company_profile_fetch.ROOT
+            / ".ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json",
+        )
+        self.assertEqual(
+            company_profile_fetch.resolve_profiles_path(
+                Path("raw/sources/company-profiles.json")
+            ),
+            company_profile_fetch.ROOT / "raw/sources/company-profiles.json",
+        )
+
+    def test_private_profile_state_bootstraps_legacy_without_rewriting_public_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            private = (
+                root
+                / ".ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json"
+            )
+            legacy = root / "raw/sources/company-profiles.json"
+            legacy.parent.mkdir(parents=True)
+            legacy.write_text(
+                json.dumps({"example": {"website": "https://example.com/"}}),
+                encoding="utf-8",
+            )
+            before = legacy.read_bytes()
+
+            with (
+                patch.object(company_profile_fetch, "ROOT", root),
+                patch.object(company_profile_fetch, "PROFILES", private),
+            ):
+                profiles, bootstrapped = company_profile_fetch.load_profiles_for_run(
+                    private
+                )
+
+            self.assertTrue(bootstrapped)
+            self.assertIn("example", profiles)
+            self.assertEqual(legacy.read_bytes(), before)
+            self.assertFalse(private.exists())
+
     def test_livestream_public_match_omits_internal_ranking_mechanics(self):
         result = public_match(
             {
@@ -141,6 +183,22 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
         self.assertEqual(result["endorsement_status"], "not_endorsed")
         self.assertEqual(result["disposition"], "context_only")
 
+    def test_curator_publication_approval_does_not_imply_endorsement(self):
+        result = assess_connection(
+            {"official_exact_source": True, "curator_approved": True},
+            identity_required=True,
+        )
+        self.assertEqual(result["endorsement_status"], "not_endorsed")
+        self.assertEqual(result["disposition"], "approved_connection")
+
+    def test_explicit_endorsement_is_separate_from_publication(self):
+        result = assess_connection(
+            {"official_exact_source": True, "explicit_endorsement": True},
+            identity_required=True,
+        )
+        self.assertEqual(result["endorsement_status"], "endorsed")
+        self.assertEqual(result["disposition"], "context_only")
+
     def test_url_normalization_ignores_www_scheme_and_trailing_slash(self):
         self.assertEqual(
             normalize_url("http://www.linkedin.com/in/example/"),
@@ -151,6 +209,158 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
         self.assertTrue(metadata_corroborates_company("DatologyAI", "Datology AI | Data curation"))
         self.assertTrue(metadata_corroborates_company("TwelveLabs", "Twelve Labs video intelligence"))
         self.assertFalse(metadata_corroborates_company("Indeed", "Independent bookstore"))
+
+    def test_v2_company_audit_separates_candidate_risk_from_public_enforcement(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki_page = root / "wiki/companies/apify.md"
+            wiki_page.parent.mkdir(parents=True)
+            wiki_page.write_text(
+                "---\ntitle: Apify\n---\n# Apify\n\nOfficial roster context only.\n",
+                encoding="utf-8",
+            )
+            profiles_path = (
+                root
+                / ".ops/state/cache/wiki-maker/credibility-v2/company-profile-candidates.json"
+            )
+            profiles_path.parent.mkdir(parents=True)
+            profiles_path.write_text(
+                json.dumps(
+                    {
+                        "apify": {
+                            "website": "https://apify.ai/",
+                            "summary": "Apify.ai provides unrelated WhatsApp automation.",
+                            "fetchStatus": "fetched",
+                            "origin": "Discovered by domain-guess.",
+                            "fetchedMetadata": {
+                                "title": "Apify.ai",
+                                "description": "Apify.ai provides WhatsApp automation.",
+                            },
+                            "sourceLinks": [
+                                {"url": "https://apify.ai/", "label": "Apify.ai"}
+                            ],
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            policy_path = profiles_path.parent / "writing-policy.json"
+            policy_path.write_text(
+                json.dumps(
+                    {
+                        "companyProfileGateStates": {
+                            "apify": {"status": "held"}
+                        },
+                        "companyProfileWritingDecisions": {
+                            "apify": {"writingDisposition": "omit"}
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+            findings = []
+            counters = Counter()
+
+            connection_audit.audit_company_profiles(
+                findings,
+                counters,
+                root,
+            )
+
+            self.assertIn(
+                "same_name_company_candidate_held_by_v2_identity_gate",
+                {row["kind"] for row in findings},
+            )
+            self.assertNotIn(
+                "held_company_profile_reached_public_artifact",
+                {row["kind"] for row in findings},
+            )
+            self.assertEqual(
+                counters["held_company_profiles_absent_from_public_artifacts"],
+                1,
+            )
+            self.assertNotIn(
+                "unvalidated_company_candidates_in_public_source",
+                {row["kind"] for row in findings},
+            )
+
+            wiki_page.write_text(
+                "---\ntitle: Apify\n---\n# Apify\n\nhttps://apify.ai/\n",
+                encoding="utf-8",
+            )
+            findings = []
+            counters = Counter()
+            connection_audit.audit_company_profiles(findings, counters, root)
+
+            self.assertIn(
+                "held_company_profile_reached_public_artifact",
+                {row["kind"] for row in findings},
+            )
+            self.assertEqual(
+                counters["held_company_profile_public_enforcement_failures"],
+                1,
+            )
+
+    def test_company_audit_flags_legacy_public_candidate_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw/sources"
+            raw.mkdir(parents=True)
+            (raw / "company-profiles.json").write_text(
+                json.dumps(
+                    {
+                        "example": {
+                            "website": "https://example.invalid/",
+                            "fetchStatus": "unknown",
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            findings = []
+            counters = Counter()
+
+            connection_audit.audit_company_profiles(findings, counters, root)
+
+            self.assertIn(
+                "unvalidated_company_candidates_in_public_source",
+                {row["kind"] for row in findings},
+            )
+
+    def test_company_audit_accepts_explicit_candidate_path_outside_project(self):
+        with tempfile.TemporaryDirectory() as directory:
+            workspace = Path(directory)
+            root = workspace / "project"
+            (root / "wiki/companies").mkdir(parents=True)
+            profile_path = workspace / "company-profile-candidates.json"
+            profile_path.write_text(
+                json.dumps(
+                    {
+                        "example": {
+                            "website": "https://example.invalid/",
+                            "fetchStatus": "unknown",
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            policy_path = workspace / "writing-policy.json"
+            policy_path.write_text("{}", encoding="utf-8")
+            findings = []
+            counters = Counter()
+
+            connection_audit.audit_company_profiles(
+                findings,
+                counters,
+                root,
+                profile_path=profile_path,
+                policy_path=policy_path,
+            )
+
+            self.assertIn(
+                str(profile_path.resolve()),
+                findings[0]["evidence"],
+            )
 
     def test_public_video_report_hides_ranking_signals(self):
         report = {

@@ -2,19 +2,15 @@
 title: "NVIDIA"
 category: "companies"
 aliases: ["NVIDIA", "Nvidia"]
-website: "https://www.nvidia.com/en-us/solutions/ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # NVIDIA
 
 ## Overview
-NVIDIA is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Explore our AI solutions for enterprises.
-
-## Background
-The official speaker roster connects NVIDIA to Asma Beevi, Carter Abdallah, Chris Alexiuk, Dhruv Nathawani, Lovina Dmello, Nader Khalil. The public company site was discovered by domain-guess and fetched for homepage metadata.
+NVIDIA is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-NVIDIA matters to this wiki through 9 official speaker(s) and 12 scheduled session(s), including: Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer; Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; Your Agreements Are a Database You Can't Query. We're Fixing That.
+NVIDIA appears through 9 official speaker(s) connected to 8 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Compression at the Edge; Local Models: Trust, Control, Optimization; Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features.
 
 ## Conference Sessions
 - [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer]] - Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer (2026-06-29, 11:05am-12:05pm)
@@ -38,10 +34,12 @@ NVIDIA matters to this wiki through 9 official speaker(s) and 12 scheduled sessi
 - [[tanay-varshney]] - Principal Engineer
 
 ## Sources
-- [NVIDIA](https://www.nvidia.com/en-us/solutions/ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
@@ -54,9 +52,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-nader-khalil-model-routing|Model Routing]]
 
 ### Media Signals
-- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
-- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
@@ -65,9 +60,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
 - `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
 - Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

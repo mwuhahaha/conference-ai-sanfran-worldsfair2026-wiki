@@ -2,19 +2,15 @@
 title: "Bright Data"
 category: "companies"
 aliases: ["Bright Data"]
-website: "https://brightdata.com/ai"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Bright Data
 
 ## Overview
-Bright Data is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Power your AI with real-time web data. Access, search, and collect structured data at scale using Bright Data’s AI-driven web scraping and automation tools.
-
-## Background
-The official speaker roster connects Bright Data to Omer Primor, Rafael Levi, Yohan Raju. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Bright Data is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Bright Data matters to this wiki through 3 official speaker(s) and 4 scheduled session(s), including: Building AI Agents with Real-Time Web Data; Video Discovery for Agentic World-Model Training; The Rise of CaaS: Context-as-a-Service for Agentic AI.
+Bright Data appears through 3 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Rise of CaaS: Context-as-a-Service for Agentic AI; Video Discovery for Agentic World-Model Training; Video Discovery for Agentic World-Model Training.
 
 ## Conference Sessions
 - [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data]] - Building AI Agents with Real-Time Web Data (2026-06-29, 12:10pm-1:10pm)
@@ -28,10 +24,12 @@ Bright Data matters to this wiki through 3 official speaker(s) and 4 scheduled s
 - [[yohan-raju]] - Pre-Sales Expert
 
 ## Sources
-- [Bright Data](https://brightdata.com/ai)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data|Building AI Agents with Real-Time Web Data]]
@@ -40,11 +38,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training|Video Discovery for Agentic World-Model Training]]
 
 ### Media Signals
-- `youtube-zTZ0qunQXnM` — source page linked; role: supporting context only.
-- Evidence links for `youtube-zTZ0qunQXnM` (supporting context only): [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

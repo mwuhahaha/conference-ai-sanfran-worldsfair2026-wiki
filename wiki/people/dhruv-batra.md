@@ -30,7 +30,9 @@ He is a recipient of best paper awards/nominations in every area of AI (vision, 
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]] — Computer-use models will agentify the web, not APIs (2026-06-30, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]

@@ -27,7 +27,9 @@ Co-founder at [[daily|Daily]]. Contributor to Pipecat. ᓚᘏᗢ
 - [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface]] — Voice is the universal interface (2026-07-01, 11:40am-12:00pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software|The New Primitives: Building AI-Native Software]]

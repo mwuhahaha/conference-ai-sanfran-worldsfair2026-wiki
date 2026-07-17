@@ -82,5 +82,4 @@ Slide text:
 > Create your sound
 > Synthesis of professional music from narrative engineering.
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/G_bHFmEAarM/audit.json`

@@ -26,7 +26,9 @@ Head of Product & GTM @ [[reactor|Reactor]]. Previously was the first ever inter
 - [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers]] — The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers (2026-07-01, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers|The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers]]

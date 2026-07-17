@@ -78,7 +78,6 @@ Slide text:
 > The Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)
 > AmgtityN taginarg Sunn
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/dense-slides/mQ7_Zje7WKE/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with a partial slide visible, not a standalone presentation slide
 

@@ -108,5 +108,4 @@ Slide text:
 > AIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING
 > Google DeepMind Prtsfnred ey JUSTIN REOCK / Deputy CTO DX
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/PmZDupFP3UM/audit.json`

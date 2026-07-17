@@ -167,7 +167,6 @@ Slide text:
 > identity for AI agents
 > @grinich
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/D4Dswf-__RM/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor logo wall
 - [`slide-002.jpg`](/assets/reconstructed-slides/D4Dswf-__RM/slide-002.jpg) — `title_card` confidence `0.96`; title card / intro slide

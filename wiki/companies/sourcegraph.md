@@ -3,7 +3,7 @@ title: "Sourcegraph"
 category: "companies"
 aliases: ["Sourcegraph"]
 website: "https://sourcegraph.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Sourcegraph
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Sourcegraph is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Give humans and agents complete context to understand, oversee, and evolve the world's largest, most complex codebases.
 
 ## Background
-The official speaker roster connects Sourcegraph to Dan Adler, Stephanie Jarmak. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Sourcegraph to Dan Adler, Stephanie Jarmak.
 
 ## Conference Relevance
 Sourcegraph matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines; The Death of Developer Advocates.
@@ -28,7 +28,9 @@ Sourcegraph matters to this wiki through 2 official speaker(s) and 2 scheduled s
 - [Sourcegraph](https://sourcegraph.com/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
@@ -36,9 +38,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

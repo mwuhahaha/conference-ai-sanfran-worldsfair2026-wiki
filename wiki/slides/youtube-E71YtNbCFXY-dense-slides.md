@@ -24,5 +24,4 @@ Slide text:
 
 > 500 milliseconds is a typical voice-to-voice latency during a human conversation
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/E71YtNbCFXY/audit.json`

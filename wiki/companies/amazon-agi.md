@@ -2,19 +2,15 @@
 title: "Amazon AGI"
 category: "companies"
 aliases: ["Amazon AGI"]
-website: "https://www.amazon.science/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Amazon AGI
 
 ## Overview
-Amazon AGI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Amazon's approach to customer-obsessed science. Get the latest news about innovations in artificial intelligence and machine learning, including job opportunities, publications, conferences, events and more.
-
-## Background
-The official speaker roster connects Amazon AGI to Tarun Sunkaraneni. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+Amazon AGI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Amazon AGI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy.
+Amazon AGI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy.
 
 ## Conference Sessions
 - [[2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy]] - Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy (2026-06-30, 3:45pm-4:05pm)
@@ -23,19 +19,17 @@ Amazon AGI matters to this wiki through 1 official speaker(s) and 1 scheduled se
 - [[tarun-sunkaraneni]] - Browser Use
 
 ## Sources
-- [Amazon Science](https://www.amazon.science/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy|Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -178,7 +178,6 @@ Slide text:
 > 5. Evals are no longer tests; they are core infrastructure.
 > You can't improve what you don't continuously evaluate.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/vljxQZfJ9wY/audit.json`
 
 ## Slide-Derived Subjects To Review

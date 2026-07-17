@@ -1,3 +1,4 @@
+import json
 import os
 import sys
 import tempfile
@@ -9,10 +10,116 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-import export_static_site
+import export_static_site  # noqa: E402
+from build_relationship_dataset import (  # noqa: E402
+    build_relationship_dataset,
+    load_wiki_pages,
+)
 
 
 class RelationshipExplorerExportTests(unittest.TestCase):
+    def test_exported_relationship_data_matches_direct_yaml_aware_rebuild(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki = root / "wiki"
+            raw = root / "raw" / "sources"
+            dist = root / "dist"
+            (wiki / "people").mkdir(parents=True)
+            (wiki / "talks").mkdir()
+            (wiki / "topics").mkdir()
+            raw.mkdir(parents=True)
+
+            profile = {
+                "id": "export-parity",
+                "version": 1,
+                "roleCategories": {
+                    "people": ["people"],
+                    "concepts": ["topics"],
+                    "organizations": ["companies"],
+                },
+                "connectorCategories": ["talks"],
+                "sourceLayers": [
+                    "official_schedule",
+                    "curated_public_source",
+                    "synthesis",
+                ],
+                "navigationOnlyCategories": ["root"],
+                "navigationOnlyIds": [],
+                "navigationOnlyTitlePatterns": [],
+                "organizationRoles": {},
+            }
+            (raw / "relationship-explorer-profile.json").write_text(
+                json.dumps(profile), encoding="utf-8"
+            )
+            (wiki / "people" / "alice.md").write_text(
+                "---\ntitle: Alice\ncategory: people\n---\n# Alice\n",
+                encoding="utf-8",
+            )
+            (wiki / "topics" / "security.md").write_text(
+                "---\ntitle: Agent Security\ncategory: topics\n---\n# Agent Security\n",
+                encoding="utf-8",
+            )
+            (wiki / "talks" / "folded-title.md").write_text(
+                "---\n"
+                "title: >-\n"
+                "  Agents That Own Their Inference:\n"
+                "  Building Production AI Agents on Dedicated GPUs\n"
+                "category: talks\n"
+                "speakers: [Alice]\n"
+                "---\n"
+                "# Agents That Own Their Inference\n\n"
+                "## Conference Context\n- Speaker(s): Alice\n\n"
+                "## Synthesis\n- [[security]]\n",
+                encoding="utf-8",
+            )
+            (wiki / "talks" / "quoted-title.md").write_text(
+                "---\n"
+                "title: 'The Autonomous Computer: Full-stack Infrastructure'\n"
+                "category: talks\n"
+                "speakers: [Alice]\n"
+                "---\n"
+                "# The Autonomous Computer\n\n"
+                "## Conference Context\n- Speaker(s): Alice\n\n"
+                "## Synthesis\n- [[security]]\n",
+                encoding="utf-8",
+            )
+
+            with (
+                patch.object(export_static_site, "WIKI", wiki),
+                patch.object(export_static_site, "RAW", raw),
+                patch.object(export_static_site, "DIST", dist),
+            ):
+                export_static_site.export()
+
+            exported = json.loads(
+                (dist / "relationship-data.json").read_text(encoding="utf-8")
+            )
+            rebuilt = build_relationship_dataset(load_wiki_pages(wiki), profile)
+
+            self.assertEqual(exported, rebuilt)
+            titles = {node["title"] for node in exported["nodes"]}
+            self.assertIn(
+                "Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs",
+                titles,
+            )
+            self.assertIn(
+                "The Autonomous Computer: Full-stack Infrastructure", titles
+            )
+            person_concepts = [
+                relationship
+                for relationship in exported["relationships"]
+                if relationship["template"] == "person_concept"
+            ]
+            self.assertEqual(len(person_concepts), 2)
+            self.assertEqual(
+                {
+                    evidence["id"]
+                    for relationship in person_concepts
+                    for evidence in relationship["evidence"]
+                },
+                {"talks/folded-title", "talks/quoted-title"},
+            )
+
     def test_staged_export_clears_candidate_target_without_replacing_link(self):
         with tempfile.TemporaryDirectory() as directory:
             run_root = Path(directory)

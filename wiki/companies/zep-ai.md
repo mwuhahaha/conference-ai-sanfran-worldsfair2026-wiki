@@ -2,19 +2,15 @@
 title: "Zep AI"
 category: "companies"
 aliases: ["Zep AI"]
-website: "https://www.getzep.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Zep AI
 
 ## Overview
-Zep AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Zep gives AI agents enterprise-grade memory via context graphs — sub-200ms retrieval, SOC 2 compliant, validated by S&P Market Intelligence.
-
-## Background
-The official speaker roster connects Zep AI to Daniel Chalef. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Zep AI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Zep AI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Citation Needed: Provenance for LLM-Built Knowledge Graphs.
+Zep AI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Citation Needed: Provenance for LLM-Built Knowledge Graphs.
 
 ## Conference Sessions
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs]] - Citation Needed: Provenance for LLM-Built Knowledge Graphs (2026-07-01, 3:20pm-3:40pm)
@@ -23,10 +19,12 @@ Zep AI matters to this wiki through 1 official speaker(s) and 1 scheduled sessio
 - [[daniel-chalef]] - Founder and CEO
 
 ## Sources
-- [Agent memory at enterprise scale — Zep](https://www.getzep.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
 - Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

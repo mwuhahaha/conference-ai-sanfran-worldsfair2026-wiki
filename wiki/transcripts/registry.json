@@ -120,6 +120,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-iCj_ATyThvc-transcript",
+    "title": "Transcript: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco",
+    "path": "wiki/transcripts/youtube-iCj_ATyThvc-transcript.md",
+    "videoId": "iCj_ATyThvc",
+    "wordCount": 1795,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-dvft0Gp9sEE-transcript",
     "title": "Transcript: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
     "path": "wiki/transcripts/youtube-dvft0Gp9sEE-transcript.md",
@@ -290,8 +300,18 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-eBUyTS7SzV4-transcript",
+    "title": "Transcript: Closing Keynote: Garry Tan, Y Combinator",
+    "path": "wiki/transcripts/youtube-eBUyTS7SzV4-transcript.md",
+    "videoId": "eBUyTS7SzV4",
+    "wordCount": 3551,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-ZSQb5fzRFPw-transcript",
-    "title": "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor",
+    "title": "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
     "path": "wiki/transcripts/youtube-ZSQb5fzRFPw-transcript.md",
     "videoId": "ZSQb5fzRFPw",
     "wordCount": 2617,
@@ -331,7 +351,7 @@
   },
   {
     "id": "youtube-0vphxNt4wyk-transcript",
-    "title": "Transcript: Don't Ship Skills Without Evals",
+    "title": "Transcript: Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
     "path": "wiki/transcripts/youtube-0vphxNt4wyk-transcript.md",
     "videoId": "0vphxNt4wyk",
     "wordCount": 3965,
@@ -360,8 +380,18 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-xUnRQ9vLXxo-transcript",
+    "title": "Transcript: Everything we knew about software has changed — Theo Browne, @t3dotgg ​",
+    "path": "wiki/transcripts/youtube-xUnRQ9vLXxo-transcript.md",
+    "videoId": "xUnRQ9vLXxo",
+    "wordCount": 9663,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-9fubhllmsBU-transcript",
-    "title": "Transcript: Field Guide to Fable",
+    "title": "Transcript: Field Guide to Fable — Thariq Shihipar, Anthropic",
     "path": "wiki/transcripts/youtube-9fubhllmsBU-transcript.md",
     "videoId": "9fubhllmsBU",
     "wordCount": 3542,
@@ -375,6 +405,16 @@
     "path": "wiki/transcripts/youtube-APqXGyCoGW4-transcript.md",
     "videoId": "APqXGyCoGW4",
     "wordCount": 3956,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-OqM67QG_Ikk-transcript",
+    "title": "Transcript: From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/transcripts/youtube-OqM67QG_Ikk-transcript.md",
+    "videoId": "OqM67QG_Ikk",
+    "wordCount": 7738,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -440,6 +480,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-Cz4v1WHVyZc-transcript",
+    "title": "Transcript: HTML Is All Agents Need — James Russo, HeyGen",
+    "path": "wiki/transcripts/youtube-Cz4v1WHVyZc-transcript.md",
+    "videoId": "Cz4v1WHVyZc",
+    "wordCount": 2535,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-JRTAtZ5iBkU-transcript",
     "title": "Transcript: HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
     "path": "wiki/transcripts/youtube-JRTAtZ5iBkU-transcript.md",
@@ -458,6 +508,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-Z2Erdirpudo-transcript",
+    "title": "Transcript: Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator",
+    "path": "wiki/transcripts/youtube-Z2Erdirpudo-transcript.md",
+    "videoId": "Z2Erdirpudo",
+    "wordCount": 2710,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-sAOBXCDiDOs-transcript",
@@ -521,10 +581,20 @@
   },
   {
     "id": "youtube-q4Tr-DknG2M-transcript",
-    "title": "Transcript: Recursive Model Improvement",
+    "title": "Transcript: Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
     "path": "wiki/transcripts/youtube-q4Tr-DknG2M-transcript.md",
     "videoId": "q4Tr-DknG2M",
     "wordCount": 4039,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-1P1hJ36rxM0-transcript",
+    "title": "Transcript: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
+    "path": "wiki/transcripts/youtube-1P1hJ36rxM0-transcript.md",
+    "videoId": "1P1hJ36rxM0",
+    "wordCount": 3195,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -601,10 +671,20 @@
   },
   {
     "id": "youtube-ZpK5PWX2YRM-transcript",
-    "title": "Transcript: Should AI Engineers Still Read Code in 2026?",
+    "title": "Transcript: Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
     "path": "wiki/transcripts/youtube-ZpK5PWX2YRM-transcript.md",
     "videoId": "ZpK5PWX2YRM",
     "wordCount": 3931,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-uU5Gv2h8-9g-transcript",
+    "title": "Transcript: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
+    "path": "wiki/transcripts/youtube-uU5Gv2h8-9g-transcript.md",
+    "videoId": "uU5Gv2h8-9g",
+    "wordCount": 10417,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -620,8 +700,18 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-ZyIoTOAbRfs-transcript",
+    "title": "Transcript: State of Data — Sean Cai, Independent / State of Data",
+    "path": "wiki/transcripts/youtube-ZyIoTOAbRfs-transcript.md",
+    "videoId": "ZyIoTOAbRfs",
+    "wordCount": 3355,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-KB41dTlX1Uc-transcript",
-    "title": "Transcript: State of the Union: Why Local, Why Now",
+    "title": "Transcript: State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
     "path": "wiki/transcripts/youtube-KB41dTlX1Uc-transcript.md",
     "videoId": "KB41dTlX1Uc",
     "wordCount": 9219,
@@ -761,10 +851,20 @@
   },
   {
     "id": "youtube-pMggiOb18tc-transcript",
-    "title": "Transcript: The Golden Age of AI Engineering",
+    "title": "Transcript: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
     "path": "wiki/transcripts/youtube-pMggiOb18tc-transcript.md",
     "videoId": "pMggiOb18tc",
     "wordCount": 4606,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-c35YoMdnI78-transcript",
+    "title": "Transcript: The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+    "path": "wiki/transcripts/youtube-c35YoMdnI78-transcript.md",
+    "videoId": "c35YoMdnI78",
+    "wordCount": 11538,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -811,7 +911,7 @@
   },
   {
     "id": "youtube-V-EDrhIhHzQ-transcript",
-    "title": "Transcript: The Prime Intellect Stack",
+    "title": "Transcript: The Prime Intellect Stack — Will Brown, Prime Intellect",
     "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
     "videoId": "V-EDrhIhHzQ",
     "wordCount": 10228,
@@ -861,7 +961,7 @@
   },
   {
     "id": "youtube-WkBPX-oDMnA-transcript",
-    "title": "Transcript: Understanding is the new bottleneck",
+    "title": "Transcript: Understanding is the new bottleneck — Geoffrey Litt, Notion",
     "path": "wiki/transcripts/youtube-WkBPX-oDMnA-transcript.md",
     "videoId": "WkBPX-oDMnA",
     "wordCount": 3765,
@@ -950,16 +1050,6 @@
     "sourceRole": "primary_event_evidence"
   },
   {
-    "id": "youtube-xUnRQ9vLXxo-transcript",
-    "title": "Transcript: What do we build now? — @t3dotgg",
-    "path": "wiki/transcripts/youtube-xUnRQ9vLXxo-transcript.md",
-    "videoId": "xUnRQ9vLXxo",
-    "wordCount": 9663,
-    "sourceLabel": "YouTube transcript",
-    "manifestStatus": "not_admitted_official_wf26",
-    "sourceRole": "context_only"
-  },
-  {
     "id": "youtube-2e9ANoOEn28-transcript",
     "title": "Transcript: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
     "path": "wiki/transcripts/youtube-2e9ANoOEn28-transcript.md",
@@ -1041,7 +1131,7 @@
   },
   {
     "id": "youtube-8G_1-3IO4ZQ-transcript",
-    "title": "Transcript: WTF Is the Context Layer?",
+    "title": "Transcript: WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
     "path": "wiki/transcripts/youtube-8G_1-3IO4ZQ-transcript.md",
     "videoId": "8G_1-3IO4ZQ",
     "wordCount": 3420,

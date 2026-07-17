@@ -27,29 +27,30 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ## Session Description
 Model Routing explores how teams decide when to use local models, open-source models, or frontier cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel digs into routing architectures, model selection strategies, stack decisions, and what still needs to improve in local AI before more workloads can move closer to the user. Moderator: Nader Khalil (NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
 
-## Media Evidence
-[Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter](https://www.youtube.com/watch?v=84Vtz2IL1Ug) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+Model Routing explores how teams decide when to use local models, open-source models, or frontier cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel digs into routing architectures, model selection strategies, stack decisions, and what still needs to improve in local AI before more workloads can move closer to the user. Moderator: Nader Khalil (NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
 
-- Source video: `youtube-84Vtz2IL1Ug`
-- Slide deck: [[youtube-84Vtz2IL1Ug-dense-slides|Dense Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg]]
-![[assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg]]
-- Additional slide evidence: [[youtube-84Vtz2IL1Ug-slides|Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]], [[youtube-84Vtz2IL1Ug-reconstructed-slides|Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]]
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
+### Speaker And Company Context
+- [[nader-khalil|Nader Khalil]] — Director of Developer Technology at [[nvidia|NVIDIA]].
+- [[walden-yan|Walden Yan]] — Co-founder & CPO at [[cognition|Cognition]].
+- [[tanay-varshney|Tanay Varshney]] — Principal Engineer at [[nvidia|NVIDIA]].
+- [[alex-atallah|Alex Atallah]] — Co-founder & CEO at [[openrouter|OpenRouter]].
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+### Topics Covered
+- Topic links are pending transcript-backed classification.
 
-### Media Signals
-- `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
-- Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+### Derived Links And Source Material
+- [[youtube-84Vtz2IL1Ug]] — related YouTube source page.
+- [[youtube-84Vtz2IL1Ug-slides]] — slide evidence.
+- [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — slide evidence.
+- [[youtube-84Vtz2IL1Ug-dense-slides]] — slide evidence.
 
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[nader-khalil]]
 - [[walden-yan]]
@@ -64,27 +65,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-84Vtz2IL1Ug-slides]]
 - Slide-derived terms: `models`, `tokens`, `world`, `fair`, `model`, `llama`, `language`, `inference`, `train`, `openrouter`, `engineering`, `future`, `performance`, `openal`, `best`, `training`, `datasets`, `alengincer`
 
-## Synthesis
-### Synthesized Breakdown
-# Model Routing ## Conference Context - Date/time: 2026-07-01 · 3:45pm-4:05pm - Track/room: Local AI · Track 4 - Speaker(s): Nader Khalil, Walden Yan, Tanay Varshney, Alex Atallah - Session type/status: session · confirmed - Track: Local AI - Room: Track 4 - Session type: session - Status: confirmed ## Session Description Model Routing explores how teams decide when to use local models, open-source models, or frontier cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel digs into routing architectures, model selection strategies, stack decisions, and what still needs to improve in local AI before more workloads can move closer to the user. Moderator: Nader Khalil (NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
+## Media Evidence
+- [[youtube-84Vtz2IL1Ug]] - supporting context; not the exact session recording.
 
-### Speaker And Company Context
-- [[nader-khalil|Nader Khalil]] — Director of Developer Technology at [[nvidia|NVIDIA]].
-- [[walden-yan|Walden Yan]] — Co-founder & CPO at [[cognition|Cognition]].
-- [[tanay-varshney|Tanay Varshney]] — Principal Engineer at [[nvidia|NVIDIA]].
-- [[alex-atallah|Alex Atallah]] — Co-founder & CEO at [[openrouter|OpenRouter]].
+- Source video: `youtube-84Vtz2IL1Ug`
+- Slide deck: [[youtube-84Vtz2IL1Ug-dense-slides|Dense Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg]]
+![[assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg]]
+- Additional slide evidence: [[youtube-84Vtz2IL1Ug-slides|Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]], [[youtube-84Vtz2IL1Ug-reconstructed-slides|Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]]
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
 
-### Topics Covered
-- [[coding-agents]]
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
 
-### Derived Links And Source Material
-- [[youtube-84Vtz2IL1Ug]] — related YouTube source page.
-- [[youtube-84Vtz2IL1Ug-slides]] — slide evidence.
-- [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — slide evidence.
-- [[youtube-84Vtz2IL1Ug-dense-slides]] — slide evidence.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+### Media Signals
+- `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
+- Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

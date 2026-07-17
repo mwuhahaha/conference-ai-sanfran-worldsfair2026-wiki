@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-07-01-katelyn-lesse-tokens-should-have-jobs]] — Tokens Should Have Jobs
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=aqW68Is_Kj4)
-
-## Related Scheduled Sessions
-- [[2026-07-01-katelyn-lesse-tokens-should-have-jobs]] — Tokens Should Have Jobs
 ## Extracted Slides
 - [[youtube-aqW68Is_Kj4-dense-slides]]
 - [[youtube-aqW68Is_Kj4-reconstructed-slides]]
 - [[youtube-aqW68Is_Kj4-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=aqW68Is_Kj4)

@@ -2,19 +2,15 @@
 title: "MIT Media Lab"
 category: "companies"
 aliases: ["MIT Media Lab"]
-website: "https://www.media.mit.edu/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # MIT Media Lab
 
 ## Overview
-MIT Media Lab is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The MIT Media Lab is an interdisciplinary research lab that encourages the unconventional mixing and matching of seemingly disparate research areas.
-
-## Background
-The official speaker roster connects MIT Media Lab to Cyrus Clarke. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+MIT Media Lab is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-MIT Media Lab matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: I gave an AI a body.
+MIT Media Lab appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: I gave an AI a body.
 
 ## Conference Sessions
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body]] - I gave an AI a body (2026-06-30, 3:45pm-4:05pm)
@@ -23,19 +19,17 @@ MIT Media Lab matters to this wiki through 1 official speaker(s) and 1 scheduled
 - [[cyrus-clarke]] - Researcher
 
 ## Sources
-- [MIT Media Lab](https://www.media.mit.edu/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body|I gave an AI a body]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -75,7 +75,6 @@ Slide text:
 > Survey
 > https://pulse.aws/promotion/RPND9AFU?p=0
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-005.jpg`](/assets/dense-slides/wFTVEDYVJT0/slide-005.jpg) — `demo_video` confidence `0.99`; demo footage, not a presentation slide
 - [`slide-006.jpg`](/assets/dense-slides/wFTVEDYVJT0/slide-006.jpg) — `demo_video` confidence `0.99`; browser/app demo footage, not a presentation slide

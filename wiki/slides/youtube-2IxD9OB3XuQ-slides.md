@@ -544,7 +544,6 @@ Slide text:
 > 3 The frontier is regression-aware continual improvement.
 > Fix the new failure while verifying you did not forget the old ones.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/2IxD9OB3XuQ/audit.json`
 
 ## Slide-Derived Subjects To Review

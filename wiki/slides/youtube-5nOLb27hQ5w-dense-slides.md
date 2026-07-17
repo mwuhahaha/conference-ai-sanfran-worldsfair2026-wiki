@@ -105,5 +105,4 @@ Slide text:
 > Executive  Technical
 > Basic  Educational
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/5nOLb27hQ5w/audit.json`

@@ -78,5 +78,4 @@ Slide text:
 > "title':
 > Microsoft smol
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/xnXqpUW_Kp8/audit.json`

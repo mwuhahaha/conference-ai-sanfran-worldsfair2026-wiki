@@ -56,5 +56,4 @@ Slide text:
 > proaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google
 > to thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/WJjInLeaJjo/audit.json`

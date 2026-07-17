@@ -57,7 +57,6 @@ Slide text:
 
 > Do events in SF
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/G6IlDzj8OjA/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a slide
 - [`slide-002.jpg`](/assets/slides/G6IlDzj8OjA/slide-002.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a slide

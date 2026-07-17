@@ -37,5 +37,4 @@ Slide text:
 > Caveats to the Work You Are About to See
 > This is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/P_uhFGH4J9Y/audit.json`

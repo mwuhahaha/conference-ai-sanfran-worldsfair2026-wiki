@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Recursive Model Improvement"
+title: "Transcript: Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI"
 category: "transcripts"
 videoId: "q4Tr-DknG2M"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "4039"
 ---
 
-# Transcript: Recursive Model Improvement
+# Transcript: Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=q4Tr-DknG2M)

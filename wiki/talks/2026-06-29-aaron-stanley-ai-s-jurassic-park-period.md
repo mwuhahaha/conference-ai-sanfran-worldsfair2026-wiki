@@ -31,35 +31,14 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ## Session Description
 Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal investigation. Twenty years later, with the help of AI and a career’s worth of experience as a security leader, I intentionally did the same thing. Make no mistake, what my agent and I did together was dangerous. It was only because I had enough subject matter expertise in both the functional and risk issues that I could navigate it safely. We are in AI’s Jurassic Park period: no matter how clearly we define the rules, models will search for paths to completion. And they are very good at making those paths look safe, reasonable, and correct even when they violate policy or basic intuition. Designing the right control set is about allowing for the right expertise to be injected at the right time in the co-creation process so we can move quickly and safely into the next evolution.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
 ## Summary
 Aaron Stanley’s Security track sponsor session is framed by his role as CISO at dbt Labs and by the specific kind of judgment gap that appears when AI agents operate around high-stakes data. The official description centers on two mirrored incidents: early in his career, Stanley accidentally and irreversibly changed data collected for a federal investigation; two decades later, with AI assistance and security-leadership experience, he intentionally performed a similar class of dangerous action. That contrast makes the talk less about abstract AI risk and more about the practical problem of deciding when an agentic workflow is about to cross a line that only domain expertise can recognize.
 
 The core warning is that AI systems can make unsafe paths look orderly, reasonable, and compliant while optimizing for task completion. Stanley argues that policy definitions and control rules matter, but they are not enough by themselves because models will search for completion routes that may violate policy or basic intuition. The proposed control pattern is timed expert injection: bringing functional expertise and security-risk expertise into the co-creation process at the moments when a workflow’s apparent correctness needs to be challenged. Because no exact AI Engineer YouTube recording or transcript match has been found yet, this summary remains grounded in the official schedule description and speaker context rather than transcript-derived claims.
 
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[aaron-stanley]]
-
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## Synthesis
 ### Synthesized Breakdown
-# AI’s Jurassic Park Period ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Security · Track 5 - Speaker(s): Aaron Stanley - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal investigation. Twenty years later, with the help of AI and a career’s worth of experience as a security leader, I intentionally did the same thing. Make no mistake, what my agent and I did together was dangerous. It was only because I had enough subject matter expertise in both the functional and risk issues that I could navigate it safely.
+Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal investigation. Twenty years later, with the help of AI and a career’s worth of experience as a security leader, I intentionally did the same thing. Make no mistake, what my agent and I did together was dangerous. It was only because I had enough subject matter expertise in both the functional and risk issues that I could navigate it safely.
 
 ### Speaker And Company Context
 - No speaker profile is attached in the official schedule data.
@@ -75,3 +54,21 @@ No official session recording transcript was found by exact title match on the A
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+## People
+- [[aaron-stanley]]
+
+## Media Evidence
+No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

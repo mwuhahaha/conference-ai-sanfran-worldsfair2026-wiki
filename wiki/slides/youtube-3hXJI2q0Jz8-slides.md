@@ -101,7 +101,6 @@ Slide text:
 > A new paradigm of inference-time compute
 > Coding agents can be RLMs
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/3hXJI2q0Jz8/audit.json`
 
 ## Slide-Derived Subjects To Review

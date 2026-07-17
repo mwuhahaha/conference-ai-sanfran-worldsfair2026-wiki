@@ -21,12 +21,9 @@ Use these as navigational evidence into the livestream, not as a substitute for 
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) (confidence: high; transcript-aligned segment)
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — [01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) (confidence: high; transcript-aligned segment)
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) (confidence: high; transcript-aligned segment)
-- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]] — [02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) (confidence: high; transcript-aligned segment)
 - [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]] — [03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) (confidence: high; transcript-aligned segment)
-- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) (confidence: high; transcript-aligned segment)
 - [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent|$100,000 AIE Startup Battlefield — presented by Hyperagent]] — [08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) (confidence: high; transcript-aligned segment)
 
 ## WF2026: Software Factories & Keynotes (Day 1)
 
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — [00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) (confidence: high; transcript-aligned segment)
-- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — [08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) (confidence: high; transcript-aligned segment)

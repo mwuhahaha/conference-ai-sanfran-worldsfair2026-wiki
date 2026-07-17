@@ -226,5 +226,4 @@ Slide text:
 >   - Incorporating LLM judges for soft criteria?
 >   - Avoiding reward hacking?
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/JIsgyk0Paic/audit.json`

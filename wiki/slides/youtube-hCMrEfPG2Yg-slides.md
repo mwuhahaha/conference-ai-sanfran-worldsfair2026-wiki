@@ -90,7 +90,6 @@ Slide text:
 
 > https://json-render.dev/
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/hCMrEfPG2Yg/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with only a partial projected slide visible
 - [`slide-007.jpg`](/assets/slides/hCMrEfPG2Yg/slide-007.jpg) — `title_card` confidence `0.98`; Branded logo/title card with no presentation content; looks like an intro/splash frame.

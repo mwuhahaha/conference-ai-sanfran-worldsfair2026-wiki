@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] — Bringing agents onto the world wide web
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=YRGjll7uu5w)
-
-## Related Scheduled Sessions
-- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] — Bringing agents onto the world wide web
 ## Extracted Slides
 - [[youtube-YRGjll7uu5w-dense-slides]]
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=YRGjll7uu5w)

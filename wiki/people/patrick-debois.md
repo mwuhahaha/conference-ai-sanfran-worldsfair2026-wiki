@@ -26,7 +26,9 @@ Independent advisor, Product DevRel lead at [[tessl|Tessl]], and curator of aina
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement]] — Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement. (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement|Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.]]

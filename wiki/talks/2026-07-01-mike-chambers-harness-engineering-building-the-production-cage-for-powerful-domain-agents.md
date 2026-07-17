@@ -27,48 +27,29 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 ## Session Description
 Every agent is a while loop. The model takes strings in and produces strings out. We've all written it, debugged it, shipped it. And yet every team building agents is still re-inventing the same session management, truncation logic, tool wiring, and memory plumbing from scratch. The hard part is the harness: session isolation, context management, memory persistence, sandboxed execution, observability. The machinery that makes a model dependable in production. Most of the failures we see in deployed agents (context rot, premature completion, tool bloat) trace back to harness problems, not model problems. This talk covers what a harness actually does, why "harness engineering" suddenly showed up in engineering posts from everyone, and what changes when you stop building harnesses by hand. In live demos, we'll build the same agent three ways: hand-rolled Python, framework-generated, and fully managed through a single API call. Each level shifts the failure modes from infrastructure plumbing to engineering judgment, where the real questions are what context to preserve, when to verify, and how to keep an agent from finishing half the job and calling it done. The harness handles the machinery. You still have to engineer the behavior.
 
-## Media Evidence
-[Ship it! Building Production Ready Agents — Mike Chambers, AWS](https://www.youtube.com/watch?v=HT4l0DeP69I) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+Every agent is a while loop. The model takes strings in and produces strings out. We've all written it, debugged it, shipped it. And yet every team building agents is still re-inventing the same session management, truncation logic, tool wiring, and memory plumbing from scratch.
 
-- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
+### Speaker And Company Context
+- [[mike-chambers|Mike Chambers]] — Senior Developer Advocate for Generative AI at [[amazon-web-services-aws|Amazon Web Services (AWS)]].
 
-- Source video: `youtube-HT4l0DeP69I`
-- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/HT4l0DeP69I/slide-001.jpg]]
-![[assets/dense-slides/HT4l0DeP69I/slide-002.jpg]]
-- Additional slide evidence: [[youtube-HT4l0DeP69I-slides|Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]], [[youtube-HT4l0DeP69I-reconstructed-slides|Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]]
-- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
-- Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
-![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
-- Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+### Topics Covered
+- [[ai-sandboxes]]
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+### Derived Links And Source Material
+- [[youtube-HT4l0DeP69I]] — related YouTube source page.
+- [[youtube-HT4l0DeP69I-slides]] — slide evidence.
+- [[youtube-HT4l0DeP69I-reconstructed-slides]] — slide evidence.
+- [[youtube-HT4l0DeP69I-dense-slides]] — slide evidence.
 
-### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-HT4l0DeP69I` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
-- Evidence links for `youtube-HT4l0DeP69I` (supporting context only): [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[mike-chambers]]
-
-## Supporting Slides
-- [[youtube-HT4l0DeP69I-slides]] — extracted from the related public AI Engineer video.
 
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-HT4l0DeP69I-dense-slides]] (2 viable slide images).
@@ -78,41 +59,34 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-HT4l0DeP69I-slides]]
 - Slide-derived terms: `models`, `amazon`, `microsoft`, `bedrock`, `model`, `prompt`, `mike`, `system`, `master`, `roll`, `claude`, `chat`, `select`, `nova`, `learn`, `world`, `ate-wf-2025-demos`, `grand`
 
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
-
-### Speaker And Company Context
-- [[mike-chambers|Mike Chambers]] — Senior Developer Advocate for Generative AI at [[amazon-web-services-aws|Amazon Web Services (AWS)]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-I2cbIws9j10-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
-- [[youtube-HT4l0DeP69I]] — related YouTube source page.
-- [[youtube-HT4l0DeP69I-slides]] — slide evidence.
-- [[youtube-HT4l0DeP69I-reconstructed-slides]] — slide evidence.
-- [[youtube-HT4l0DeP69I-dense-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10]] — related YouTube source page.
-- [[youtube-I2cbIws9j10-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
-
 ## Livestream Segment
 - [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Media Evidence
+- [[youtube-HT4l0DeP69I]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-HT4l0DeP69I`
+- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/HT4l0DeP69I/slide-001.jpg]]
+![[assets/dense-slides/HT4l0DeP69I/slide-002.jpg]]
+- Additional slide evidence: [[youtube-HT4l0DeP69I-slides|Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]], [[youtube-HT4l0DeP69I-reconstructed-slides|Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]]
+- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-HT4l0DeP69I` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
+- Evidence links for `youtube-HT4l0DeP69I` (supporting context only): [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

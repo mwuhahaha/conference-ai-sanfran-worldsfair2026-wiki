@@ -24,7 +24,6 @@ Slide text:
 
 > Hello GPT-4o
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-002.jpg`](/assets/dense-slides/yJHw33cVeHo/slide-002.jpg) — `demo_video` confidence `0.16`; Embedded speaker video dominates the frame; no clearly readable presentation slide content.
 - [`slide-003.jpg`](/assets/dense-slides/yJHw33cVeHo/slide-003.jpg) — `demo_video` confidence `0.14`; Stage/demo footage with embedded video and sponsor branding; not a readable slide.

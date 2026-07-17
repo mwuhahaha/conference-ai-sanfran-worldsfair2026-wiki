@@ -2,19 +2,15 @@
 title: "Daytona"
 category: "companies"
 aliases: ["Daytona"]
-website: "https://www.daytona.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Daytona
 
 ## Overview
-Daytona is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Deploy Al code with confidence using Daytona's lightning-fast infrastructure. 90ms environment creation, stateful operations, and enterprise-grade security.
-
-## Background
-The official speaker roster connects Daytona to Ivan Burazin. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Daytona is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Daytona matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Kubernetes Is Not Your Sandbox.
+Daytona appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Kubernetes Is Not Your Sandbox.
 
 ## Conference Sessions
 - [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]] - Kubernetes Is Not Your Sandbox (2026-06-30, 11:40am-12:00pm)
@@ -23,21 +19,17 @@ Daytona matters to this wiki through 1 official speaker(s) and 1 scheduled sessi
 - [[ivan-burazin]] - CEO
 
 ## Sources
-- [Daytona - Secure Infrastructure for Running AI-Generated Code](https://www.daytona.io/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox|Kubernetes Is Not Your Sandbox]]
 
 ### Media Signals
-- `youtube-e9sLVMN76qU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
-- Evidence links for `youtube-e9sLVMN76qU` (supporting context only): [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

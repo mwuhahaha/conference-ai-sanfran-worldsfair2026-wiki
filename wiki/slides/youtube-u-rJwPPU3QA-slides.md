@@ -68,7 +68,6 @@ Slide text:
 
 > Build. Ship. Win.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/u-rJwPPU3QA/slide-001.jpg) — `speaker_stage` confidence `0.98`; Camera shot of speaker and audience with a projector screen; not a presentation slide frame.
 - [`slide-004.jpg`](/assets/slides/u-rJwPPU3QA/slide-004.jpg) — `speaker_stage` confidence `0.99`; Speaker photo/intro frame on a black background; no meaningful slide content.

@@ -159,7 +159,6 @@ Slide text:
 > linkedin.com/in/Balazshorvathd365
 > SCAN TO CONNECT
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/6bmM45jkMDY/audit.json`
 
 ## Slide-Derived Subjects To Review

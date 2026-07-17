@@ -2,19 +2,15 @@
 title: "DatologyAI"
 category: "companies"
 aliases: ["DatologyAI"]
-website: "https://www.datologyai.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # DatologyAI
 
 ## Overview
-DatologyAI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Datology automatically curates model training data. Train faster, achieve better performance, and reduce costs with enterprise-grade data curation.
-
-## Background
-The official speaker roster connects DatologyAI to Ari Morcos, Bogdan Gaza. The public company site was discovered by domain-guess and fetched for homepage metadata.
+DatologyAI is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-DatologyAI matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Data Quality is the Compute Multiplier; Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production.
+DatologyAI appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Data Quality is the Compute Multiplier; Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production.
 
 ## Conference Sessions
 - [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier]] - Data Quality is the Compute Multiplier (2026-06-29, 10:45am-11:05am)
@@ -25,10 +21,12 @@ DatologyAI matters to this wiki through 2 official speaker(s) and 2 scheduled se
 - [[bogdan-gaza]] - Co-Founder & CTO
 
 ## Sources
-- [Datology AI](https://www.datologyai.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier|Data Quality is the Compute Multiplier]]
@@ -36,9 +34,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

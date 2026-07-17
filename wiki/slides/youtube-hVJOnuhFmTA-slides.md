@@ -249,7 +249,6 @@ Slide text:
 > Agents: delegated tasks; still shaped by old affordances
 > Design for what is possible, not just what old interfaces allow.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/hVJOnuhFmTA/slide-001.jpg) — `speaker_stage` confidence `0.98`; Speaker closeup, no presentation slide content visible.
 - [`slide-002.jpg`](/assets/slides/hVJOnuhFmTA/slide-002.jpg) — `speaker_stage` confidence `0.95`; Speaker shot with overlay text, not a standalone slide.

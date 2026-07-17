@@ -119,5 +119,4 @@ Slide text:
 > Text2SQL over complex schemas
 > ONAIR
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/Ywl4LsvHKzU/audit.json`

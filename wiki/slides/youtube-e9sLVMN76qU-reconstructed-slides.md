@@ -151,7 +151,6 @@ Slide text:
 > If you want to learn more,
 > check out our booth in the expo hall #S17
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/reconstructed-slides/e9sLVMN76qU/slide-001.jpg) — `sponsor_logo` confidence `0.99`; Sponsor logo wall, not a presentation slide.
 - [`slide-009.jpg`](/assets/reconstructed-slides/e9sLVMN76qU/slide-009.jpg) — `title_card` confidence `0.96`; title card / branding only

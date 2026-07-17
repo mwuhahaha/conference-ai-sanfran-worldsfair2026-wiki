@@ -3,7 +3,7 @@ title: "egghead.io"
 category: "companies"
 aliases: ["egghead.io"]
 website: "https://egghead.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # egghead.io
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 egghead.io is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Master modern web development with expert-led courses and tutorials on React, TypeScript, Next.js, and AI-powered development tools.
 
 ## Background
-The official speaker roster connects egghead.io to John Lindquist. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+The official speaker roster connects egghead.io to John Lindquist.
 
 ## Conference Relevance
 egghead.io matters to this wiki through 1 official speaker(s) and 3 scheduled session(s), including: The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development; The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2); The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3).
@@ -28,7 +28,9 @@ egghead.io matters to this wiki through 1 official speaker(s) and 3 scheduled se
 - [egghead.io](https://egghead.io/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development|The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development]]
@@ -37,9 +39,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

@@ -70,7 +70,6 @@ Slide text:
 > ACCURACY SCORE Pass@1 line (59.7%)
 > Engineering the future ofAl
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/TNwJ1LMiENk/slide-001.jpg) — `speaker_stage` confidence `0.97`; stage photo with speaker and audience; projected slide is not a clean presentation frame
 - [`slide-006.jpg`](/assets/slides/TNwJ1LMiENk/slide-006.jpg) — `sponsor_logo` confidence `0.96`; closing logo/branding card, not a content slide

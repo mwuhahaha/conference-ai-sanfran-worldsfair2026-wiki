@@ -1,12 +1,12 @@
 ---
-title: "Transcript: WTF Is the Context Layer?"
+title: "Transcript: WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar"
 category: "transcripts"
 videoId: "8G_1-3IO4ZQ"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3420"
 ---
 
-# Transcript: WTF Is the Context Layer?
+# Transcript: WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=8G_1-3IO4ZQ)

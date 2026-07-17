@@ -29,5 +29,4 @@ Slide text:
 > AnatomyofanAl Team Evolutionofa Generalist A Question of hiring
 > WerdsFar aws
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/SbUxRluVRwk/audit.json`

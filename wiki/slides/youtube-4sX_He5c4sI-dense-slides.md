@@ -163,5 +163,4 @@ Slide text:
 > The agent is its data
 > Specifically: the log
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/4sX_He5c4sI/audit.json`

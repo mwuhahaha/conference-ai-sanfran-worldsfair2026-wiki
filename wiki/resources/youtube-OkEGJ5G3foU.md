@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=OkEGJ5G3foU)
-
-## Related Scheduled Sessions
-- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
 ## Extracted Slides
 - [[youtube-OkEGJ5G3foU-dense-slides]]
 - [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 - [[youtube-OkEGJ5G3foU-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=OkEGJ5G3foU)

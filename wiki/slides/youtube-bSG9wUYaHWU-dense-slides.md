@@ -28,5 +28,4 @@ Slide text:
 > Evaluate
 > Observe
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/bSG9wUYaHWU/audit.json`

@@ -166,7 +166,6 @@ Slide text:
 > - multi-agent systems & orchestration
 > - evals & production-grade agents
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-002.jpg`](/assets/dense-slides/ZRM_TfEZcIo/slide-002.jpg) — `title_card` confidence `0.97`; speaker intro card
 - [`slide-003.jpg`](/assets/dense-slides/ZRM_TfEZcIo/slide-003.jpg) — `title_card` confidence `0.97`; speaker intro card

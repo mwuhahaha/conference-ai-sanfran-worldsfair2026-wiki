@@ -20,7 +20,9 @@ Justin Reock is Deputy CTO at [[dx|DX]], where he works on engineering intellige
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations]] — The state of AI in software development: Insights across 400+ organizations (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations|AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations]]

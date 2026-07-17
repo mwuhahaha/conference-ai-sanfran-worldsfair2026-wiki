@@ -47,7 +47,6 @@ Slide text:
 > https://x.com/lurose15
 > https://lurose.dev/
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/XovaGv4f39A/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on camera, not a slide
 

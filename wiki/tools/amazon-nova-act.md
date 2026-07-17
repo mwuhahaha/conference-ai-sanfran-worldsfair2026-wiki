@@ -9,7 +9,7 @@ scheduleRooms: []
 
 # Amazon Nova Act
 
-## Why It Belongs
+## Conference Context
 Amazon Nova Act appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

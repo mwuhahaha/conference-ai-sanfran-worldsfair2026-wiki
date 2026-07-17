@@ -31,45 +31,14 @@ scheduleLabels: ["Workshops Day 1", "Track 1", "session", "confirmed"]
 ## Session Description
 Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that write code — emitting structured selector-based actions instead of clicking pixels — break through that ceiling. We'll share two years of experience from Simular's production agent platform, the architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If you're shipping agents to real users, this is the playbook.
 
-## Media Evidence
-[The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp](https://www.youtube.com/watch?v=F_RyElT_gJk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- Source video: `youtube-F_RyElT_gJk`
-- Slide deck: [[youtube-F_RyElT_gJk-reconstructed-slides|Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]] — 22 visible slide image(s); 22 HTML recreation(s).
-![[assets/reconstructed-slides/F_RyElT_gJk/slide-002.jpg]]
-![[assets/reconstructed-slides/F_RyElT_gJk/slide-003.jpg]]
-![[assets/reconstructed-slides/F_RyElT_gJk/slide-004.jpg]]
-- Additional slide evidence: [[youtube-F_RyElT_gJk-slides|Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]]
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-F_RyElT_gJk` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
-- Evidence links for `youtube-F_RyElT_gJk` (supporting context only): [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
 ## Summary
 Ang Li's workshop frames computer-use agents as an infrastructure problem, not just a model-capability problem. The session centers on Simular's approach to making autonomous computer workflows repeatable: agents should act through structured, selector-based code and a dedicated substrate such as Simulang rather than relying only on vision models clicking pixels. The official description points to a production-oriented playbook drawn from two years of Simular platform work, including architectural choices around references over pixels and a live comparison between a 30-step unattended Windows workflow and a vision-only baseline.
 
 The linked supporting material is not a confirmed recording of this exact session. It points instead to an adjacent AI Engineer video about wielding coding agents, with extracted slides available as context. Those materials are useful for the broader theme of coding agents as a new operational interface, while Ang Li's scheduled talk is specifically about full-stack infrastructure for computer-use agents and Simular's autonomous-computer platform.
 
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
-## People
-- [[ang-li]]
-
-## Supporting Slides
-- [[youtube-F_RyElT_gJk-slides]] — extracted from the related public AI Engineer video.
-
 ## Synthesis
 ### Synthesized Breakdown
-# The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents ## Conference Context - Date/time: 2026-06-29 · 4:30pm-5:30pm - Track/room: Workshops Day 1 · Track 1 - Speaker(s): Ang Li - Session type/status: session · confirmed - Track: Workshops Day 1 - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that write code — emitting structured selector-based actions instead of clicking pixels — break through that ceiling. We'll share two years of experience from Simular's production agent platform, the architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If you're shipping agents to real users, this is the playbook.
+Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that write code — emitting structured selector-based actions instead of clicking pixels — break through that ceiling. We'll share two years of experience from Simular's production agent platform, the architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If you're shipping agents to real users, this is the playbook.
 
 ### Speaker And Company Context
 - No speaker profile is attached in the official schedule data.
@@ -87,3 +56,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+## People
+- [[ang-li]]
+
+## Media Evidence
+No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

@@ -173,7 +173,6 @@ Slide text:
 > AIEngineer
 > EUROPE
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/c-2eEv2ou7Y/slide-001.jpg) — `speaker_stage` confidence `0.99`; camera shot of speaker on stage with only a partial projected slide visible
 - [`slide-007.jpg`](/assets/slides/c-2eEv2ou7Y/slide-007.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with partial projected slide; not a readable presentation slide

@@ -118,7 +118,6 @@ Slide text:
 > The past is a foreign country
 > 2019-2024 · a 30-person YC startup · 12 engineers
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/9fubhllmsBU/slide-001.jpg) — `title_card` confidence `0.03`; stage intro title screen, not a presentation content slide
 - [`slide-002.jpg`](/assets/slides/9fubhllmsBU/slide-002.jpg) — `speaker_stage` confidence `0.02`; speaker shot in front of sponsor wall, not a slide

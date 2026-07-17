@@ -22,7 +22,9 @@ Sandhya Subramani is a Sr. Developer Advocate at AWS with 8+ years of experience
 - [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want]] — Tell the Robot What You Want (2026-07-01, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship|Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship]]

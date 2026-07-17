@@ -3,7 +3,7 @@ title: "Salesforce"
 category: "companies"
 aliases: ["Salesforce"]
 website: "https://www.salesforce.com/artificial-intelligence/?bc=DB"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Salesforce
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Salesforce is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Salesforce Einstein is your end to end solution to becoming an AI-first company.
 
 ## Background
-The official speaker roster connects Salesforce to Nikita Kothari. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Salesforce to Nikita Kothari.
 
 ## Conference Relevance
 Salesforce matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development.
@@ -26,16 +26,14 @@ Salesforce matters to this wiki through 1 official speaker(s) and 1 scheduled se
 - [Salesforce](https://www.salesforce.com/artificial-intelligence/?bc=DB)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development|MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

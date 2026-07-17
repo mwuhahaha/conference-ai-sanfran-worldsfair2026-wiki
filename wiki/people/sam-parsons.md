@@ -22,7 +22,9 @@ Sam Parsons is a Senior Staff Software Engineer and Tech Lead at [[paypal-braint
 - [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode]] — How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode (2026-06-29, 10:45am-11:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode|How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode]]

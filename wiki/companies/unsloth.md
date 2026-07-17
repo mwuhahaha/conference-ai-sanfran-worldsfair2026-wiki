@@ -3,7 +3,7 @@ title: "Unsloth"
 category: "companies"
 aliases: ["Unsloth"]
 website: "https://unsloth.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Unsloth
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Unsloth is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Unsloth is an open-source, no-code web UI for training, running and exporting open models in one unified local interface.
 
 ## Background
-The official speaker roster connects Unsloth to Daniel Han. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Unsloth to Daniel Han.
 
 ## Conference Relevance
 Unsloth matters to this wiki through 1 official speaker(s) and 3 scheduled session(s), including: Special topics in Kernels, RL, Reward Hacking in Agents; Compression at the Edge; Compression at the Edge.
@@ -27,24 +27,20 @@ Unsloth matters to this wiki through 1 official speaker(s) and 3 scheduled sessi
 - [Unsloth - Train and Run Models Locally](https://unsloth.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]]
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-uIiA6DquRiE` — source page linked; role: primary event evidence.
-- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]]
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
 - Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 - `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

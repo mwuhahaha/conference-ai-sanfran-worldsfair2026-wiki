@@ -96,7 +96,6 @@ Slide text:
 > bLovable
 > Engineering the future of Al
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/KA5kPbdkK2E/slide-001.jpg) — `speaker_stage` confidence `0.99`; Stage photo with speaker and audience; not a readable presentation slide.
 

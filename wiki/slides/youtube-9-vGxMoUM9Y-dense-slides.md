@@ -240,5 +240,4 @@ Slide text:
 > Website: guardrailsai.com
 > Twitter: @ShreyaR or @guardrails_ai
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/9-vGxMoUM9Y/audit.json`

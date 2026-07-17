@@ -219,7 +219,6 @@ Slide text:
 > COROTACTOM
 > agentRTx The sgent shcud hse triedabeosde seych_groouctstooltofindreie.antitems.ratherthnghinguparee
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-013.jpg`](/assets/slides/Jx4ZFEAq6bY/slide-013.jpg) — `demo_video` confidence `0.98`; Code editor and terminal demo footage, not a presentation slide.
 - [`slide-014.jpg`](/assets/slides/Jx4ZFEAq6bY/slide-014.jpg) — `demo_video` confidence `0.98`; Browser product demo with webcam inset, not a slide.

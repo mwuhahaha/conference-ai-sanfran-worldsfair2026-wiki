@@ -28,7 +28,9 @@ Idan Gazit leads [[github|GitHub]] Next, the birthplace of [[github|GitHub]] Cop
 - [[2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you]] — Realtime multiplayer, automation, and you! (2026-07-01, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app|Build agents fast with GitHub Copilot (from idea to working app)]]

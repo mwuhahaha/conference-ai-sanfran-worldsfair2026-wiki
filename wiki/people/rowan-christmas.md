@@ -19,7 +19,9 @@ Rowan Christmas is a Staff Product Manager at [[docker|Docker]] with prior strat
 - [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent]] — YOLO Mode, Safely: microVM Sandboxes for Any Agent (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent|YOLO Mode, Safely: microVM Sandboxes for Any Agent]]

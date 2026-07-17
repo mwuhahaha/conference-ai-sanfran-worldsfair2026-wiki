@@ -22,7 +22,9 @@ Aliisa Rosenthal is a General Partner at [[acrew-capital|Acrew Capital]], where 
 - [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer]] — Reverse-Engineering the AI Buyer (2026-07-01, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer|Reverse-Engineering the AI Buyer]]

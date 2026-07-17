@@ -2,19 +2,15 @@
 title: "UCAL Berkeley"
 category: "companies"
 aliases: ["UCAL Berkeley"]
-website: "https://www.berkeley.edu/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # UCAL Berkeley
 
 ## Overview
-UCAL Berkeley is represented at AI Engineer World's Fair 2026. Its public site describes it this way: UC Berkeley pushes the boundaries of knowledge, challenges convention and expands opportunity to create the leaders of tomorrow.
-
-## Background
-The official speaker roster connects UCAL Berkeley to Frank Coyle. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+UCAL Berkeley is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-UCAL Berkeley matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Anthropic's CCA Exam as a Field-Guide for Agentic Engineering; Why Agentic Systems Need Ontologies.
+UCAL Berkeley appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Anthropic's CCA Exam as a Field-Guide for Agentic Engineering; Why Agentic Systems Need Ontologies.
 
 ## Conference Sessions
 - [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering]] - Anthropic's CCA Exam as a Field-Guide for Agentic Engineering (2026-07-01, 11:10am-11:30am)
@@ -24,10 +20,12 @@ UCAL Berkeley matters to this wiki through 1 official speaker(s) and 2 scheduled
 - [[frank-coyle]] - Lecturer, UCALBerkeley / Founder AI/Edge
 
 ## Sources
-- [University of California, Berkeley](https://www.berkeley.edu/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering|Anthropic's CCA Exam as a Field-Guide for Agentic Engineering]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

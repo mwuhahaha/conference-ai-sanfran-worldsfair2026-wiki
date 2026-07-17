@@ -27,57 +27,6 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ## Session Description
 Local AI has crossed from interesting to useful, driven by stronger open models, better hardware, and a maturing ecosystem for running intelligence outside the cloud. This panel explores what that shift unlocks for sovereignty, defense, regulated industries, privacy, cost, and resilience, and why open-source AI may be central to who benefits from the next wave of intelligence. Moderator: Nader Khalil (NVIDIA). Panelists: Joseph Nelson (Roboflow), Alex Cheema (Exo Labs), Ahmad Osman (r/LocalLLaMA).
 
-## Media Evidence
-[Run Frontier AI at Home — Alex Cheema, EXO Labs](https://www.youtube.com/watch?v=ESbWpPT_9-o) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- Source video: `youtube-ESbWpPT_9-o`
-- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — no readable content slides after AI classification.
-- Additional slide evidence: [[youtube-ESbWpPT_9-o-slides|Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]], [[youtube-ESbWpPT_9-o-reconstructed-slides|Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]]
-- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
-
-- [[youtube-KB41dTlX1Uc-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-KB41dTlX1Uc`
-- Slide deck: [[youtube-KB41dTlX1Uc-slides|Slides: KB41dTlX1Uc]] — 32 visible slide image(s).
-![[assets/slides/KB41dTlX1Uc/slide-001.jpg]]
-![[assets/slides/KB41dTlX1Uc/slide-002.jpg]]
-![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
-- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
-- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
-- Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
-## People
-- [[nader-khalil]]
-- [[joseph-nelson]]
-- [[alex-cheema]]
-- [[ahmad-osman]]
-- [[matthew-berman]]
-
-## Supporting Slides
-- [[youtube-ESbWpPT_9-o-slides]] — extracted from the related public AI Engineer video.
-
-## Slide Evidence
-- Slide-only cropped deck: [[youtube-ESbWpPT_9-o-dense-slides]] (4 viable slide images).
-- Related slide/OCR pages:
-- [[youtube-ESbWpPT_9-o-dense-slides]]
-- [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-- [[youtube-ESbWpPT_9-o-slides]]
-- Slide-derived terms: `info`, `research`, `tokens`, `delete`, `chat`, `conversations`, `decode`, `hardware`, `instances`, `testerdoy`, `tok/s`, `cache`, `sumnorise`, `sent`, `pasted-text.txt`, `pope`, `fece`, `summorise`
-
 ## Synthesis
 ### Synthesized Breakdown
 Can you guys hear us? Sound check. All right, give it up for local AI, everyone. I hope you guys are excited as we are.
@@ -92,26 +41,73 @@ Can you guys hear us? Sound check. All right, give it up for local AI, everyone.
 ### Topics Covered
 - [[agent-security]]
 - [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material
-- [[youtube-KB41dTlX1Uc-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt` (9,219 words).
+- [[youtube-KB41dTlX1Uc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt` (9,219 words).
+- [[youtube-KB41dTlX1Uc]] — related YouTube source page.
+- [[youtube-KB41dTlX1Uc-slides]] — slide evidence.
 - [[youtube-ESbWpPT_9-o]] — related YouTube source page.
 - [[youtube-ESbWpPT_9-o-slides]] — slide evidence.
 - [[youtube-ESbWpPT_9-o-reconstructed-slides]] — slide evidence.
 - [[youtube-ESbWpPT_9-o-dense-slides]] — slide evidence.
-- [[youtube-KB41dTlX1Uc]] — related YouTube source page.
-- [[youtube-KB41dTlX1Uc-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[nader-khalil]]
+- [[joseph-nelson]]
+- [[alex-cheema]]
+- [[ahmad-osman]]
+- [[matthew-berman]]
+
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-ESbWpPT_9-o-dense-slides]] (4 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-ESbWpPT_9-o-dense-slides]]
+- [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- [[youtube-ESbWpPT_9-o-slides]]
+- Slide-derived terms: `info`, `research`, `tokens`, `delete`, `chat`, `conversations`, `decode`, `hardware`, `instances`, `testerdoy`, `tok/s`, `cache`, `sumnorise`, `sent`, `pasted-text.txt`, `pope`, `fece`, `summorise`
 
 ## Official YouTube Recording
-- [[youtube-KB41dTlX1Uc]] — official AI Engineer YouTube channel recording published 2026-07-11.
-- Evidence status: [[youtube-KB41dTlX1Uc-transcript]]; [[youtube-KB41dTlX1Uc-slides]].
-- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+- [[youtube-KB41dTlX1Uc|State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman]] — official AI Engineer YouTube recording published 2026-07-11.
+- Evidence status: [[youtube-KB41dTlX1Uc-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Media Evidence
+- [[youtube-KB41dTlX1Uc]] - dedicated official event recording.
+- [[youtube-KB41dTlX1Uc-transcript]] - dedicated official recording transcript.
+- [[youtube-ESbWpPT_9-o]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-KB41dTlX1Uc`
+- Slide deck: [[youtube-KB41dTlX1Uc-slides|Slides: KB41dTlX1Uc]] — 32 visible slide image(s).
+![[assets/slides/KB41dTlX1Uc/slide-001.jpg]]
+![[assets/slides/KB41dTlX1Uc/slide-002.jpg]]
+![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
+- Source video: `youtube-ESbWpPT_9-o`
+- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — no readable content slides after AI classification.
+- Additional slide evidence: [[youtube-ESbWpPT_9-o-slides|Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]], [[youtube-ESbWpPT_9-o-reconstructed-slides|Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]]
+- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt` (9,219 words).
+
+## Transcript Markdown
+- [[youtube-KB41dTlX1Uc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-KB41dTlX1Uc` — 9,219 transcript words; role: primary event evidence.
+- Interpretation rule for `youtube-KB41dTlX1Uc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
+- Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
+- Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

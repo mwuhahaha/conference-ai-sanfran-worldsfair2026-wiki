@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Field Guide to Fable"
+title: "Transcript: Field Guide to Fable — Thariq Shihipar, Anthropic"
 category: "transcripts"
 videoId: "9fubhllmsBU"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3542"
 ---
 
-# Transcript: Field Guide to Fable
+# Transcript: Field Guide to Fable — Thariq Shihipar, Anthropic
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=9fubhllmsBU)

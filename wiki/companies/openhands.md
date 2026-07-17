@@ -2,19 +2,15 @@
 title: "OpenHands"
 category: "companies"
 aliases: ["OpenHands"]
-website: "https://www.openhands.dev/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # OpenHands
 
 ## Overview
-OpenHands is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Meet OpenHands, the open-source, model-agnostic platform for cloud coding agents. Automate real engineering work securely and transparently. Build faster with full control.
-
-## Background
-The official speaker roster connects OpenHands to Robert Brennan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+OpenHands is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-OpenHands matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale.
+OpenHands appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale.
 
 ## Conference Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] - Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale (2026-06-30, 3:20pm-3:40pm)
@@ -23,10 +19,12 @@ OpenHands matters to this wiki through 1 official speaker(s) and 1 scheduled ses
 - [[robert-brennan]] - CEO
 
 ## Sources
-- [OpenHands](https://www.openhands.dev/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-rcsliSIy_YU` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU` (supporting context only): [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

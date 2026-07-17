@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Don't Ship Skills Without Evals"
+title: "Transcript: Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind"
 category: "transcripts"
 videoId: "0vphxNt4wyk"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3965"
 ---
 
-# Transcript: Don't Ship Skills Without Evals
+# Transcript: Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=0vphxNt4wyk)

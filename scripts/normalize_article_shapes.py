@@ -1,174 +1,43 @@
 #!/usr/bin/env python3
-"""Normalize public wiki article shapes by page category.
+"""Normalize WF26 articles through reusable, fence-aware maker contracts.
 
-The goal is not to make every page identical. It is to give each page type a
-predictable, agent-friendly Wikipedia-like shape while avoiding explicit
-journalistic headings such as "what/why/how" on topic articles.
+This adapter defines the event-specific category and resource-subtype schemas.
+The parser and whole-section normalizer live in ``wiki-from-topic-maker`` so
+future event wikis can supply their own registry without copying Markdown
+rewriting logic.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import re
-from collections import OrderedDict, defaultdict
+from collections import Counter
 from pathlib import Path
+
+from wiki_from_topic_maker.article_shapes import (
+    ArticleContract,
+    ArticleContractCheck,
+    ArticleContractRegistry,
+    ArticleSection,
+    normalize_article_contract,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
-
-
-ALIASES: dict[str, dict[str, str]] = {
-    "talks": {
-        "Why This Talk Matters": "Significance",
-        "Why This Talk Is Important": "Significance",
-        "Official Schedule Context": "Conference Context",
-        "Schedule Labels": "Conference Context",
-        "Official Description": "Session Description",
-        "Technical Throughline": "Technical Pattern",
-        "Practical Pattern": "Applied Pattern",
-        "Related YouTube Video": "Media Evidence",
-        "Transcript Markdown": "Media Evidence",
-        "Additional Photo Slide Evidence": "Media Evidence",
-        "Slides": "Media Evidence",
-        "Related Public Sources": "Sources",
-        "Related Pages": "Connections",
-        "Source-Derived Enrichment": "Evidence Graph",
-    },
-    "people": {
-        "Official Role": "Profile",
-        "Profile Links": "Profile",
-        "Official Bio": "Biography",
-        "Why He Matters At World's Fair": "Conference Relevance",
-        "Why She Matters At World's Fair": "Conference Relevance",
-        "Why They Matter At World's Fair": "Conference Relevance",
-        "Why This Person Matters At World's Fair": "Conference Relevance",
-        "Scheduled Sessions": "Conference Sessions",
-        "Related AI Engineer Media": "Media Evidence",
-        "Related Company And Tool Context": "Connections",
-        "Related Pages": "Connections",
-        "Source-Derived Enrichment": "Evidence Graph",
-    },
-    "companies": {
-        "What It Is": "Overview",
-        "Origin And Context": "Background",
-        "Why It Matters At World's Fair": "Conference Relevance",
-        "Related People": "Connections",
-        "Related Scheduled Sessions": "Conference Sessions",
-        "Related Tools": "Connections",
-        "Public Sources": "Sources",
-        "Source-Derived Enrichment": "Evidence Graph",
-    },
-    "topics": {
-        "Synopsis": "Overview",
-        "What It Is": "Overview",
-        "Origin And Context": "Conference Context",
-        "Origins In This Conference": "Conference Context",
-        "Why It Matters": "Significance",
-        "How It Works": "Technical Model",
-        "How To Use It": "Applied Use",
-        "Where It Is Useful": "Applied Use",
-        "When To Use It": "Applied Use",
-        "Related Slide Decks": "Connections",
-        "Related Scheduled Sessions": "Connections",
-        "Related People": "Connections",
-        "Related Companies": "Connections",
-        "Related Companies And Tools": "Connections",
-        "Related Resources": "Connections",
-        "Related Topics": "Connections",
-        "Related Pages": "Connections",
-        "Highlighted Paths": "Connections",
-        "Transcript And Resource Support": "Evidence Graph",
-        "Source-Derived Enrichment": "Evidence Graph",
-        "Evidence Table": "Source Coverage",
-        "Representative Evidence Links": "Source Coverage",
-    },
-    "questions": {
-        "Why This Question Matters": "Context",
-        "Current Working Answer": "Working Answer",
-        "Source Evidence": "Evidence",
-        "Follow-Up": "Next Questions",
-    },
-    "harnesses": {
-        "Purpose": "Overview",
-        "Observed At AIE": "Conference Context",
-        "Recommended Implementation Steps": "Implementation Pattern",
-        "Source Evidence": "Evidence",
-    },
-    "playbooks": {
-        "Purpose": "Overview",
-        "Recommended Implementation Steps": "Implementation Pattern",
-        "Source Evidence": "Evidence",
-    },
-    "evaluations": {
-        "Purpose": "Overview",
-        "Recommended Implementation Steps": "Implementation Pattern",
-        "Source Evidence": "Evidence",
-    },
-}
-
-ORDER: dict[str, list[str]] = {
-    "talks": [
-        "Significance",
-        "Conference Context",
-        "Session Description",
-        "Recording Search Status",
-        "Technical Pattern",
-        "Applied Pattern",
-        "Conference Sessions",
-        "Media Evidence",
-        "Connections",
-        "Sources",
-        "Evidence Graph",
-        "Evidence Boundary",
-    ],
-    "people": [
-        "Profile",
-        "Conference Relevance",
-        "Biography",
-        "Conference Sessions",
-        "Media Evidence",
-        "Connections",
-        "Sources",
-        "Evidence Graph",
-        "Evidence Boundary",
-    ],
-    "companies": [
-        "Overview",
-        "Background",
-        "Conference Relevance",
-        "Conference Sessions",
-        "Connections",
-        "Sources",
-        "Evidence Graph",
-        "Notes",
-        "Evidence Boundary",
-    ],
-    "topics": [
-        "Overview",
-        "Conference Context",
-        "How This Theme Evolved",
-        "Significance",
-        "Why This Matters Now",
-        "Technical Model",
-        "Applied Use",
-        "Practical Lesson",
-        "Design Patterns",
-        "Risks And Failure Modes",
-        "Open Questions",
-        "Connections",
-        "Evidence Graph",
-        "Source Coverage",
-        "Evidence Boundary",
-    ],
-    "questions": ["Context", "How This Theme Evolved", "Why This Matters Now", "Working Answer", "Practical Lesson", "Evidence", "Next Questions", "Evidence Boundary"],
-    "harnesses": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
-    "playbooks": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
-    "evaluations": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
-}
-
-TARGET_DIRS = ["talks", "people", "companies", "topics", "questions", "harnesses", "playbooks", "evaluations"]
+TARGET_DIRS = [
+    "talks",
+    "people",
+    "companies",
+    "topics",
+    "tools",
+    "questions",
+    "patterns",
+    "harnesses",
+    "playbooks",
+    "evaluations",
+    "resources",
+]
 WRITER_CONTRACT = {
     "writer_id": "normalize-article-shapes",
     "scope": "whole_page",
@@ -177,167 +46,366 @@ WRITER_CONTRACT = {
 }
 
 
-def read(path: Path) -> str:
-    return path.read_text(encoding="utf-8", errors="ignore")
-
-
-def write(path: Path, text: str) -> None:
-    path.write_text(text.rstrip() + "\n", encoding="utf-8")
-
-
-def split_frontmatter(text: str) -> tuple[str, str]:
-    if not text.startswith("---\n"):
-        return "", text
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        return "", text
-    return text[: end + 5], text[end + 5 :].lstrip()
-
-
-def split_h1(content: str, fallback_title: str) -> tuple[str, str]:
-    match = re.match(r"(# .+?\n)(.*)\Z", content, flags=re.S)
-    if match:
-        return match.group(1).rstrip(), match.group(2).lstrip()
-    return f"# {fallback_title}", content
-
-
-def parse_sections(rest: str) -> tuple[str, list[tuple[str, str]]]:
-    matches = list(re.finditer(r"^##\s+(.+?)\s*$", rest, flags=re.M))
-    if not matches:
-        return rest.strip(), []
-    lead = rest[: matches[0].start()].strip()
-    sections: list[tuple[str, str]] = []
-    for idx, match in enumerate(matches):
-        start = match.end()
-        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(rest)
-        sections.append((match.group(1).strip(), rest[start:end].strip()))
-    return lead, sections
-
-
-def normalize_subheadings(body: str) -> str:
-    replacements = {
-        "Source Signals": "Media Signals",
-        "Slide And Transcript Signals": "Media Signals",
-        "Talk Evidence": "Linked Sessions",
-        "Related Sessions": "Linked Sessions",
-        "Article Use": "Agent Reading Notes",
-    }
-    for old, new in replacements.items():
-        body = re.sub(rf"^###\s+{re.escape(old)}\s*$", f"### {new}", body, flags=re.M)
-    body = body.replace(
-        "This section is generated from all currently linked source material for the article:",
-        "This evidence graph is generated from currently linked source material:",
+def section(
+    key: str,
+    heading: str,
+    *aliases: str,
+    required: bool = False,
+    terminal: bool = False,
+    duplicate_merge: str = "preserve",
+) -> ArticleSection:
+    return ArticleSection(
+        key=key,
+        heading=heading,
+        aliases=tuple(aliases),
+        min_count=1 if required else 0,
+        terminal=terminal,
+        duplicate_merge=duplicate_merge,
     )
-    body = body.replace(
-        "This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.",
-        "This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.",
+
+
+def contract(
+    category: str,
+    schema_id: str,
+    sections: list[ArticleSection],
+    *,
+    subtype: str | None = None,
+) -> ArticleContract:
+    return ArticleContract(
+        schema_id=schema_id,
+        category=category,
+        subtype=subtype,
+        sections=tuple(sections),
     )
-    body = body.replace(
-        "This section summarizes how this person appears across the conference source graph:",
-        "This evidence graph summarizes how this person appears across the conference source graph:",
+
+
+WF26_ARTICLE_CONTRACTS = ArticleContractRegistry(
+    (
+        contract(
+            "talks",
+            "wf26/talk-v2",
+            [
+                section("conference_context", "Conference Context", required=True),
+                section("session_description", "Session Description", required=True),
+                section("summary", "Summary"),
+                section("synthesis", "Synthesis"),
+                section(
+                    "secondary_interview",
+                    "Secondary Interview Context",
+                ),
+                section("significance", "Significance"),
+                section("recording_search", "Recording Search Status"),
+                section("technical_pattern", "Technical Pattern"),
+                section("applied_pattern", "Applied Pattern"),
+                section("people", "People"),
+                section("slide_evidence", "Slide Evidence"),
+                section("official_recording", "Official YouTube Recording"),
+                section("livestream_segment", "Livestream Segment"),
+                section(
+                    "external_media",
+                    "External Secondary Source Candidates",
+                ),
+                section(
+                    "media_evidence",
+                    "Media Evidence",
+                    "Supporting Slides",
+                    "Slides",
+                    required=True,
+                    duplicate_merge="append",
+                ),
+                section("transcript_status", "Transcript Status"),
+                section("transcript_markdown", "Transcript Markdown"),
+                section("attendance", "Attendance Visibility"),
+                section("connections", "Connections"),
+                section("sources", "Sources"),
+                section("evidence_graph", "Evidence Graph", required=True),
+                section("notes", "Notes"),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "people",
+            "wf26/person-v2",
+            [
+                section("profile", "Profile", required=True),
+                section("who", "Who They Are"),
+                section("biography", "Biography"),
+                section("background", "Background"),
+                section("relevance", "Conference Relevance", "Why Highlighted"),
+                section("thesis", "Agentic Web Thesis"),
+                section("ora_context", "ORA Context"),
+                section("sessions", "Conference Sessions"),
+                section("livestream", "Livestream Appearances"),
+                section("media", "Media Evidence"),
+                section("source_pages", "Related Source Pages"),
+                section("organizations", "Related Organizations"),
+                section("people", "Related People"),
+                section("source_material", "Related Source Material"),
+                section("connections", "Connections"),
+                section("evidence_graph", "Evidence Graph", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "companies",
+            "wf26/company-v2",
+            [
+                section("overview", "Overview", "What It Is", required=True),
+                section("background", "Background", "Origin And Context"),
+                section("public_company", "Public Company Context"),
+                section("operating_model", "Operating Model Signals"),
+                section("public_research", "Public Research Context"),
+                section(
+                    "relevance",
+                    "Conference Relevance",
+                    "Why It Matters At World's Fair",
+                    required=True,
+                ),
+                section(
+                    "sessions",
+                    "Conference Sessions",
+                    "Related Scheduled Sessions",
+                ),
+                section(
+                    "connections",
+                    "Connections",
+                    "Related People",
+                    required=True,
+                ),
+                section("source_pages", "Related Source Pages"),
+                section("topics_tools", "Related Topics And Tools"),
+                section("organizations", "Related Organizations"),
+                section("sources", "Sources", "Public Sources", required=True),
+                section("notes", "Notes"),
+                section("evidence_graph", "Evidence Graph", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    required=True,
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "topics",
+            "wf26/topic-v2",
+            [
+                section("overview", "Overview"),
+                section("conference_context", "Conference Context"),
+                section("evolution", "How This Theme Evolved"),
+                section("significance", "Significance", required=True),
+                section("why_now", "Why This Matters Now"),
+                section("technical_model", "Technical Model"),
+                section("applied_use", "Applied Use", required=True),
+                section("active_use_cases", "Active Use Cases"),
+                section("design_patterns", "Design Patterns"),
+                section("practical_lesson", "Practical Lesson"),
+                section("risks", "Risks And Failure Modes"),
+                section("open_questions", "Open Questions"),
+                section("livestream", "Livestream Source"),
+                section("scheduled_signals", "Slide-Derived Scheduled Session Signals"),
+                section("supporting_decks", "Slide-Derived Supporting Decks"),
+                section("neighboring", "Neighboring Subjects"),
+                section("connections", "Connections", required=True),
+                section("source_coverage", "Source Coverage"),
+                section("evidence_graph", "Evidence Graph", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "tools",
+            "wf26/tool-v2",
+            [
+                section("overview", "Overview", "What It Is"),
+                section(
+                    "conference_context",
+                    "Conference Context",
+                    "Why It Belongs",
+                    "Why It Matters At World's Fair",
+                    "Why It Appears In This Wiki",
+                ),
+                section("capabilities", "Capabilities", "Important Capabilities"),
+                section("applied_use", "Applied Use", "How To Use It"),
+                section("use_cases", "Effective Use Cases"),
+                section("guardrails", "Operating Tricks And Guardrails"),
+                section("alternative", "Alternative Implementation"),
+                section("schedule", "Related Scheduled Sessions", "Official Schedule"),
+                section("maintainer", "Maintainer"),
+                section("comparison", "Comparison Context"),
+                section("connections", "Connections", "Related Pages"),
+                section("evidence", "Confirmed Evidence"),
+                section("sources", "Sources", "Public Sources"),
+                section("confidence", "Confidence"),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    "Source Boundary",
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "questions",
+            "wf26/question-v2",
+            [
+                section("context", "Context", required=True),
+                section("working_answer", "Working Answer", required=True),
+                section("evidence", "Evidence", required=True),
+                section("confidence", "Confidence"),
+                section("next_questions", "Next Questions", required=True),
+                section("evidence_boundary", "Evidence Boundary", terminal=True),
+            ],
+        ),
+        contract(
+            "patterns",
+            "wf26/pattern-v2",
+            [
+                section("pattern", "Pattern", required=True),
+                section("when", "When To Use", required=True),
+                section("moves", "Implementation Moves", required=True),
+                section("evidence", "Source Evidence", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    required=True,
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "harnesses",
+            "wf26/harness-v2",
+            [
+                section("overview", "Overview", "Purpose", required=True),
+                section(
+                    "context",
+                    "Conference Context",
+                    "Observed At AIE",
+                    required=True,
+                ),
+                section(
+                    "implementation",
+                    "Implementation Pattern",
+                    "Recommended Implementation Steps",
+                    required=True,
+                ),
+                section("evidence", "Evidence", "Source Evidence", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    required=True,
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "playbooks",
+            "wf26/playbook-v2",
+            [
+                section("overview", "Overview", "Purpose", required=True),
+                section("when", "When To Use", required=True),
+                section("steps", "Steps", required=True),
+                section("evidence", "Evidence", "Source Evidence", required=True),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    required=True,
+                    terminal=True,
+                ),
+            ],
+        ),
+        contract(
+            "evaluations",
+            "wf26/evaluation-v2",
+            [
+                section("question", "Decision Question", required=True),
+                section("criteria", "Criteria", required=True),
+                section("evidence", "Evidence", "Source Evidence", required=True),
+                section("recommendation", "Tentative Recommendation", required=True),
+                section("confidence", "Confidence", required=True),
+                section("open_questions", "Open Questions", required=True),
+                section("evidence_boundary", "Evidence Boundary", terminal=True),
+            ],
+        ),
+        contract(
+            "resources",
+            "wf26/video-source-v2",
+            [
+                section("what", "What It Is", "Source"),
+                section("classification", "Source Classification"),
+                section(
+                    "event_relationship",
+                    "Relationship To World's Fair 2026",
+                    "Matched Schedule Pages",
+                    "Related Scheduled Sessions",
+                ),
+                section("related_pages", "Related Pages"),
+                section("topic_signals", "Topic Signals"),
+                section("transcript_status", "Transcript Status", "Transcript Availability"),
+                section("cached_transcript", "Cached Transcript"),
+                section("local_cache", "Local Cache"),
+                section("slides", "Extracted Slides"),
+                section("transcript_markdown", "Transcript Markdown"),
+                section("link", "Link"),
+                section(
+                    "evidence_boundary",
+                    "Evidence Boundary",
+                    terminal=True,
+                ),
+            ],
+            subtype="video-source",
+        ),
     )
-    body = body.replace(
-        "This section summarizes how this organization appears across the conference source graph:",
-        "This evidence graph summarizes how this organization appears across the conference source graph:",
-    )
-    body = body.replace(
-        "Use these source signals to refine the synopsis, topic links, people/company context, and method notes.",
-        "Use these signals to refine the synopsis, topic links, people/company context, and method notes.",
-    )
-    return body.strip()
+)
 
 
-def merge_sections(kind: str, sections: list[tuple[str, str]]) -> OrderedDict[str, list[str]]:
-    aliases = ALIASES.get(kind, {})
-    merged: OrderedDict[str, list[str]] = OrderedDict()
-    for heading, body in sections:
-        canonical = aliases.get(heading, heading)
-        body = normalize_subheadings(body)
-        if not body:
-            continue
-        merged.setdefault(canonical, [])
-        if body not in merged[canonical]:
-            merged[canonical].append(body)
-    return merged
+def contract_for(path: Path, kind: str) -> ArticleContract | None:
+    if kind == "resources":
+        if not path.name.startswith("youtube-"):
+            return None
+        return WF26_ARTICLE_CONTRACTS.resolve(kind, "video-source")
+    return WF26_ARTICLE_CONTRACTS.resolve(kind)
 
 
-def dedupe_lines(body: str) -> str:
-    out: list[str] = []
-    seen_bullets: set[str] = set()
-    for line in body.splitlines():
-        key = ""
-        stripped = line.strip()
-        if (
-            stripped.startswith("- ")
-            or stripped.startswith("|")
-            or stripped.startswith("![[")
-        ):
-            key = re.sub(r"\s+", " ", stripped.lower())
-        if key and key in seen_bullets:
-            continue
-        if key:
-            seen_bullets.add(key)
-        out.append(line.rstrip())
-    return "\n".join(out).strip()
+def is_index_page(path: Path, kind: str) -> bool:
+    return path.stem.casefold() in {"index", kind.casefold()}
 
 
-def dedupe_prose_paragraphs(body: str) -> str:
-    out: list[str] = []
-    seen: set[str] = set()
-    for block in re.split(r"\n{2,}", body.strip()):
-        stripped = block.strip()
-        if not stripped:
-            continue
-        structural = stripped.startswith(("#", "- ", "|", "![[", "```", ">", "<"))
-        key = re.sub(r"\s+", " ", stripped).casefold()
-        if not structural and len(key.split()) >= 6:
-            if key in seen:
-                continue
-            seen.add(key)
-        out.append(stripped)
-    return "\n\n".join(out)
-
-
-def compact_join(parts: list[str]) -> str:
-    joined = dedupe_lines("\n\n".join(part for part in parts if part.strip()))
-    return dedupe_prose_paragraphs(joined)
-
-
-def ordered_sections(kind: str, merged: OrderedDict[str, list[str]]) -> list[tuple[str, str]]:
-    emitted: set[str] = set()
-    output: list[tuple[str, str]] = []
-    for heading in ORDER.get(kind, []):
-        if heading in merged:
-            output.append((heading, compact_join(merged[heading])))
-            emitted.add(heading)
-    for heading, bodies in merged.items():
-        if heading not in emitted:
-            output.append((heading, compact_join(bodies)))
-    return output
-
-
-def normalize_page(path: Path, kind: str, *, write_changes: bool = True) -> bool:
-    original = read(path)
-    fm, content = split_frontmatter(original)
-    h1, rest = split_h1(content, path.stem.replace("-", " ").title())
-    lead, sections = parse_sections(rest)
-    if not sections:
+def normalize_page(
+    path: Path,
+    kind: str,
+    *,
+    write_changes: bool = True,
+) -> bool:
+    selected = contract_for(path, kind)
+    if selected is None or is_index_page(path, kind):
         return False
-    merged = merge_sections(kind, sections)
-    ordered = ordered_sections(kind, merged)
-    blocks = [h1]
-    if lead:
-        blocks.append(lead)
-    for heading, body in ordered:
-        if not body:
-            continue
-        blocks.append(f"## {heading}\n{body}")
-    normalized = fm + "\n\n".join(blocks).rstrip() + "\n"
-    if normalized != original:
-        if write_changes:
-            write(path, normalized)
-        return True
-    return False
+    original = path.read_text(encoding="utf-8", errors="ignore")
+    normalized = normalize_article_contract(original, selected)
+    if normalized.changed and write_changes:
+        path.write_text(normalized.text, encoding="utf-8")
+    return normalized.changed
+
+
+def inspect_page(path: Path, kind: str) -> tuple[bool, ArticleContractCheck | None]:
+    selected = contract_for(path, kind)
+    if selected is None or is_index_page(path, kind):
+        return False, None
+    original = path.read_text(encoding="utf-8", errors="ignore")
+    normalized = normalize_article_contract(original, selected)
+    return normalized.changed, normalized.check_after
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -347,19 +415,47 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     kinds = args.kind or TARGET_DIRS
-    counts = defaultdict(int)
+    changed_counts: Counter[str] = Counter()
     changed_paths: list[str] = []
+    issue_counts: Counter[str] = Counter()
+    issues: list[dict[str, object]] = []
+
     for kind in kinds:
         for path in sorted((WIKI / kind).glob("*.md")):
-            if path.name in {"index.md"}:
+            selected = contract_for(path, kind)
+            if selected is None or is_index_page(path, kind):
                 continue
-            changed = normalize_page(path, kind, write_changes=not args.check)
-            if changed:
-                counts[kind] += 1
+            original = path.read_text(encoding="utf-8", errors="ignore")
+            normalized = normalize_article_contract(original, selected)
+            if normalized.changed:
+                changed_counts[kind] += 1
                 changed_paths.append(str(path.relative_to(ROOT)))
-    result = {"changed": dict(counts), "changed_paths": changed_paths[:50], "total_changed": len(changed_paths)}
+                if not args.check:
+                    path.write_text(normalized.text, encoding="utf-8")
+            for issue in normalized.check_after.issues:
+                issue_counts[issue.code] += 1
+                issues.append(
+                    {
+                        "path": str(path.relative_to(ROOT)),
+                        "schema": selected.schema_id,
+                        "code": issue.code,
+                        "severity": issue.severity,
+                        "heading": issue.heading,
+                        "line": issue.line,
+                    }
+                )
+
+    result = {
+        "changed": dict(sorted(changed_counts.items())),
+        "changed_paths": changed_paths[:100],
+        "total_changed": len(changed_paths),
+        "issue_counts": dict(sorted(issue_counts.items())),
+        "issues": issues[:100],
+        "total_issues": len(issues),
+    }
     print(json.dumps(result, indent=2, sort_keys=True))
-    if args.check and changed_paths:
+    has_errors = any(item["severity"] == "error" for item in issues)
+    if has_errors or (args.check and (changed_paths or issues)):
         return 1
     return 0
 

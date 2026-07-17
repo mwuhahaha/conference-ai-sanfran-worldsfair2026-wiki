@@ -275,7 +275,6 @@ Slide text:
 > + Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353
 > Tthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-009.jpg`](/assets/dense-slides/OV56RddyFuU/slide-009.jpg) — `speaker_stage` confidence `0.96`; Camera shot of speaker on stage with the slide only partially visible behind.
 - [`slide-017.jpg`](/assets/dense-slides/OV56RddyFuU/slide-017.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with partial slide and sponsor logos

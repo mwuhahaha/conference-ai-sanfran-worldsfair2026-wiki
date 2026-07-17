@@ -13,9 +13,11 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Iterable, Mapping
+
+import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +49,7 @@ class PageRecord:
     excerpt: str
     url: str
     source: str = ""
+    frontmatter: Mapping[str, Any] = field(default_factory=dict)
 
 
 def _value(page: object, key: str, default: Any = "") -> Any:
@@ -66,6 +69,14 @@ def normalize_pages(pages: Iterable[object]) -> list[PageRecord]:
         if callable(url):
             url = url()
         source = _value(page, "source", "")
+        frontmatter = _value(page, "frontmatter", {})
+        if not isinstance(frontmatter, Mapping):
+            frontmatter = {}
+        source_path = Path(source) if source else None
+        if not frontmatter and source_path and source_path.is_file():
+            frontmatter, _ = _frontmatter_and_body(
+                source_path.read_text(encoding="utf-8")
+            )
         records.append(
             PageRecord(
                 id=page_id,
@@ -75,6 +86,7 @@ def normalize_pages(pages: Iterable[object]) -> list[PageRecord]:
                 excerpt=str(_value(page, "excerpt", "")),
                 url=str(url),
                 source=str(source),
+                frontmatter=dict(frontmatter),
             )
         )
     ids = [record.id for record in records]
@@ -83,16 +95,16 @@ def normalize_pages(pages: Iterable[object]) -> list[PageRecord]:
     return sorted(records, key=lambda item: item.id)
 
 
-def _frontmatter_and_body(raw: str) -> tuple[dict[str, str], str]:
-    frontmatter: dict[str, str] = {}
+def _frontmatter_and_body(raw: str) -> tuple[dict[str, Any], str]:
+    frontmatter: dict[str, Any] = {}
     body = raw
     if raw.startswith("---\n"):
         end = raw.find("\n---\n", 4)
         if end >= 0:
-            for line in raw[4:end].splitlines():
-                if ":" in line:
-                    key, value = line.split(":", 1)
-                    frontmatter[key.strip()] = value.strip().strip('"')
+            parsed = yaml.safe_load(raw[4:end]) or {}
+            if not isinstance(parsed, Mapping):
+                raise ValueError("Wiki frontmatter must be a mapping")
+            frontmatter = dict(parsed)
             body = raw[end + 5 :]
     return frontmatter, body.strip()
 
@@ -116,9 +128,27 @@ def load_wiki_pages(wiki_root: Path = WIKI) -> list[PageRecord]:
         frontmatter, body = _frontmatter_and_body(raw)
         rel = path.relative_to(wiki_root).with_suffix("")
         page_id = rel.as_posix()
-        category = frontmatter.get("category") or (rel.parts[0] if len(rel.parts) > 1 else "root")
-        title = frontmatter.get("title") or _first_heading(body) or path.stem.replace("-", " ").title()
-        pages.append(PageRecord(page_id, title, category, body, _excerpt(body), "/" if page_id == "overview" else f"/{page_id}/", str(path)))
+        category = str(
+            frontmatter.get("category")
+            or (rel.parts[0] if len(rel.parts) > 1 else "root")
+        )
+        title = str(
+            frontmatter.get("title")
+            or _first_heading(body)
+            or path.stem.replace("-", " ").title()
+        )
+        pages.append(
+            PageRecord(
+                page_id,
+                title,
+                category,
+                body,
+                _excerpt(body),
+                "/" if page_id == "overview" else f"/{page_id}/",
+                str(path),
+                frontmatter,
+            )
+        )
     return pages
 
 
@@ -131,9 +161,116 @@ def load_profile(path: Path = DEFAULT_PROFILE) -> dict[str, Any]:
     return profile
 
 
-def _resolve_target(target: str, by_id: Mapping[str, PageRecord], by_stem: Mapping[str, PageRecord]) -> PageRecord | None:
+def _resolve_target(
+    target: str,
+    by_id: Mapping[str, PageRecord],
+    by_stem: Mapping[str, tuple[PageRecord, ...]],
+    preferred_categories: Iterable[str] = (),
+) -> PageRecord | None:
     cleaned = target.split("|", 1)[0].split("#", 1)[0].strip().strip("/")
-    return by_id.get(cleaned) or by_stem.get(Path(cleaned).name)
+    direct = by_id.get(cleaned)
+    if direct:
+        return direct
+    matches = by_stem.get(Path(cleaned).name, ())
+    for category in preferred_categories:
+        preferred = [page for page in matches if page.category == category]
+        if len(preferred) == 1:
+            return preferred[0]
+    return matches[0] if matches else None
+
+
+def _talk_section_targets(
+    page: PageRecord,
+    by_id: Mapping[str, PageRecord],
+    by_stem: Mapping[str, tuple[PageRecord, ...]],
+    headings: tuple[str, ...],
+    preferred_categories: Iterable[str] = (),
+) -> set[str] | None:
+    """Resolve links from claim-bearing talk sections, if the page is structured."""
+
+    bodies: list[str] = []
+    for heading in headings:
+        match = re.search(
+            rf"^## {re.escape(heading)}\n(.*?)(?=^## |\Z)",
+            page.body,
+            flags=re.M | re.S,
+        )
+        if match:
+            bodies.append(match.group(1))
+    if not bodies:
+        return None
+    targets: set[str] = set()
+    for body in bodies:
+        for match in WIKILINK_RE.finditer(body):
+            linked = _resolve_target(
+                match.group(1),
+                by_id,
+                by_stem,
+                preferred_categories,
+            )
+            if linked and linked.id != page.id:
+                targets.add(linked.id)
+    return targets
+
+
+def _metadata_strings(value: Any) -> list[str]:
+    if isinstance(value, str):
+        return [value.strip()] if value.strip() else []
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    return []
+
+
+def _normalized_entity_name(value: str) -> str:
+    return re.sub(r"[^\w]+", " ", value.casefold()).strip()
+
+
+def _named_entity_index(
+    records: Iterable[PageRecord],
+    categories: Iterable[str],
+) -> dict[str, tuple[PageRecord, ...]]:
+    allowed = set(categories)
+    indexed: dict[str, dict[str, PageRecord]] = defaultdict(dict)
+    for page in records:
+        if page.category not in allowed:
+            continue
+        names = [page.title, *_metadata_strings(page.frontmatter.get("aliases"))]
+        for name in names:
+            normalized = _normalized_entity_name(name)
+            if normalized:
+                indexed[normalized][page.id] = page
+    return {
+        name: tuple(matches[page_id] for page_id in sorted(matches))
+        for name, matches in indexed.items()
+    }
+
+
+def _resolve_named_entity(
+    name: str,
+    index: Mapping[str, tuple[PageRecord, ...]],
+) -> PageRecord | None:
+    """Resolve an exact normalized name only when it identifies one entity."""
+
+    matches = index.get(_normalized_entity_name(name), ())
+    return matches[0] if len(matches) == 1 else None
+
+
+def _talk_speaker_names(page: PageRecord) -> list[str]:
+    speakers = _metadata_strings(page.frontmatter.get("speakers"))
+    if speakers:
+        return speakers
+    context = re.search(
+        r"^## Conference Context\n(.*?)(?=^## |\Z)",
+        page.body,
+        flags=re.M | re.S,
+    )
+    if not context:
+        return []
+    line = re.search(r"^- Speaker\(s\):\s*(.+)$", context.group(1), flags=re.M)
+    if not line:
+        return []
+    names = [name.strip() for name in line.group(1).split(",")]
+    return [name for name in names if name and name.casefold() not in {"tba", "none"}]
 
 
 def _navigation_only(page: PageRecord, profile: Mapping[str, Any]) -> bool:
@@ -342,39 +479,50 @@ def audit_dataset(dataset: Mapping[str, Any], profile: Mapping[str, Any] | None 
 def build_relationship_dataset(
     pages: Iterable[object],
     profile: Mapping[str, Any],
-    *,
-    company_profiles: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
     """Build a deterministic public relationship dataset.
 
-    ``company_profiles`` may confirm references declared by the adapter, but it
-    never classifies a vendor. Only ``profile.organizationRoles`` can do so.
+    Only the reviewed ``profile.organizationRoles`` map classifies vendors.
+    Private company-profile candidates are intentionally not graph inputs.
     """
     records = normalize_pages(pages)
     by_id = {page.id: page for page in records}
-    if company_profiles is not None:
-        for page_id, classification in profile.get("organizationRoles", {}).items():
-            if classification.get("role") != "vendor":
-                continue
-            slug = page_id.partition("/")[2]
-            if any("company-profiles.json#" in ref for ref in classification.get("sourceRefs", [])) and slug not in company_profiles:
-                raise ValueError(f"Vendor classification references a missing company profile: {page_id}")
-    by_stem: dict[str, PageRecord] = {}
+    stem_matches: dict[str, list[PageRecord]] = defaultdict(list)
     for page in records:
-        by_stem.setdefault(Path(page.id).name, page)
+        stem_matches[Path(page.id).name].append(page)
+    by_stem = {
+        stem: tuple(sorted(matches, key=lambda page: page.id))
+        for stem, matches in stem_matches.items()
+    }
+
+    role_categories = profile["roleCategories"]
+    people_categories = tuple(role_categories.get("people", []))
+    concept_categories = tuple(role_categories.get("concepts", []))
+    organization_categories = tuple(role_categories.get("organizations", []))
+    connector_categories = tuple(profile.get("connectorCategories", ["talks"]))
 
     outgoing: dict[str, set[str]] = {page.id: set() for page in records}
     for page in records:
+        preferred_categories: tuple[str, ...] = ()
+        if page.category in people_categories:
+            preferred_categories = organization_categories
+        elif page.category in organization_categories:
+            preferred_categories = people_categories
+        elif page.category in connector_categories:
+            preferred_categories = (
+                *people_categories,
+                *organization_categories,
+                *concept_categories,
+            )
         for match in WIKILINK_RE.finditer(page.body):
-            linked = _resolve_target(match.group(1), by_id, by_stem)
+            linked = _resolve_target(
+                match.group(1),
+                by_id,
+                by_stem,
+                preferred_categories,
+            )
             if linked and linked.id != page.id:
                 outgoing[page.id].add(linked.id)
-    adjacency: dict[str, set[str]] = {page.id: set() for page in records}
-    for source, targets in outgoing.items():
-        for target in targets:
-            adjacency[source].add(target)
-            adjacency[target].add(source)
-
     navigation_only = {page.id for page in records if _navigation_only(page, profile)}
     nodes: list[dict[str, Any]] = []
     roles: dict[str, list[str]] = {"vendors": [], "people": [], "concepts": []}
@@ -405,11 +553,55 @@ def build_relationship_dataset(
         values.sort()
 
     talks = sorted(
-        page.id for page in records if page.category in set(profile.get("connectorCategories", ["talks"])) and page.id not in navigation_only
+        page.id
+        for page in records
+        if page.category in set(connector_categories)
+        and page.id not in navigation_only
     )
-    talk_people = {talk: sorted(adjacency[talk] & set(roles["people"])) for talk in talks}
-    talk_concepts = {talk: sorted(adjacency[talk] & set(roles["concepts"])) for talk in talks}
-    talk_vendors = {talk: sorted(adjacency[talk] & set(roles["vendors"])) for talk in talks}
+    person_name_index = _named_entity_index(records, people_categories)
+    talk_context_targets: dict[str, set[str]] = {}
+    talk_claim_targets: dict[str, set[str]] = {}
+    for talk in talks:
+        context_targets = _talk_section_targets(
+            by_id[talk],
+            by_id,
+            by_stem,
+            ("Conference Context",),
+            (*people_categories, *organization_categories),
+        )
+        claim_targets = _talk_section_targets(
+            by_id[talk],
+            by_id,
+            by_stem,
+            ("Conference Context", "Synthesis"),
+            (*concept_categories, *people_categories, *organization_categories),
+        )
+        talk_context_targets[talk] = (
+            context_targets if context_targets is not None else outgoing[talk]
+        )
+        talk_claim_targets[talk] = (
+            claim_targets if claim_targets is not None else outgoing[talk]
+        )
+    talk_people: dict[str, list[str]] = {}
+    for talk in talks:
+        scheduled_people = {
+            person.id
+            for speaker in _talk_speaker_names(by_id[talk])
+            if (person := _resolve_named_entity(speaker, person_name_index))
+        }
+        talk_people[talk] = sorted(
+            (talk_context_targets[talk] & set(roles["people"]))
+            | scheduled_people
+        )
+    talk_concepts: dict[str, list[str]] = {}
+    for talk in talks:
+        talk_concepts[talk] = sorted(
+            talk_claim_targets[talk] & set(roles["concepts"])
+        )
+    talk_vendors = {
+        talk: sorted(talk_context_targets[talk] & set(roles["vendors"]))
+        for talk in talks
+    }
 
     # Affiliation uses reciprocal wiki links. This avoids treating a one-sided
     # mention or a third-party URL as proof of employment/event association.
@@ -477,7 +669,11 @@ def build_relationship_dataset(
                         target=concept,
                         direction="directed",
                         reason=f"{title[vendor]} is represented by {title[person]} in the scheduled talk {title[talk]}, which is connected to {title[concept]}.",
-                        evidence=[(person, "official_schedule"), (talk, "official_schedule"), (vendor, "curated_public_source")],
+                        evidence=[
+                            (person, "curated_public_source"),
+                            (talk, "official_schedule"),
+                            (vendor, "curated_public_source"),
+                        ],
                         source_layers=["official_schedule", "curated_public_source", "synthesis"],
                         boundary="Derived from explicit vendor classification, reciprocal affiliation links, the official schedule, and labeled topic synthesis.",
                     )
@@ -577,9 +773,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.validate:
         dataset = json.loads(args.validate.read_text(encoding="utf-8"))
     else:
-        company_profiles_path = ROOT / "raw" / "sources" / "company-profiles.json"
-        company_profiles = json.loads(company_profiles_path.read_text(encoding="utf-8")) if company_profiles_path.exists() else None
-        dataset = build_relationship_dataset(load_wiki_pages(), profile, company_profiles=company_profiles)
+        dataset = build_relationship_dataset(load_wiki_pages(), profile)
 
     errors = validate_dataset(dataset, profile)
     if args.write_internal_audit:

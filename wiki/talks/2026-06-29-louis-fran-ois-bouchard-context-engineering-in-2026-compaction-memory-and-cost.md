@@ -27,51 +27,34 @@ scheduleLabels: ["Track 6", "sponsor", "confirmed"]
 ## Session Description
 Every long agent session eventually breaks: the assistant that swore it would "never push to main" does exactly that forty turns later. The model didn't get dumber — its context did. This workshop is about engineering the context window so that stops happening, shown with Towards AI's open-source AI tutor, which answers questions for students of our AI-engineering courses. Context engineering is deciding what the model sees on every single call — instructions, history, retrieved course content, memory, and tool outputs — and it's the line between a tutor that holds a coherent session and one that forgets the student's setup halfway through. We'll move in three stages, mirroring how the project actually went. The concepts: the two root problems (a finite window, a stateless model), the full compaction toolkit (truncation, trimming, tool-result clearing, summarization, and offloading to files — and when each actually helps), memory that survives across sessions, skills loaded on demand, and production-grade retrieval (chunking, metadata, course scoping, hybrid search, reranking, and evaluating). We'll cover the tutor's architecture, and the evaluation harness we used to measure every run on Gemini — tokens, cost, latency, and memory probes instead of vibe-checks. At real volume, even Gemini Flash got expensive, so we tested whether open and local models could match the quality for a fraction of the cost and match result quality. Everything is open-source and will be shared during the workshop.
 
-## Media Evidence
-[Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI](https://www.youtube.com/watch?v=ZRM_TfEZcIo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+Every long agent session eventually breaks: the assistant that swore it would "never push to main" does exactly that forty turns later. The model didn't get dumber — its context did. This workshop is about engineering the context window so that stops happening, shown with Towards AI's open-source AI tutor, which answers questions for students of our AI-engineering courses. Context engineering is deciding what the model sees on every single call — instructions, history, retrieved course content, memory, and tool outputs — and it's the line between a tutor that holds a coherent session and one that forgets the student's setup halfway through.
 
-- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
+### Speaker And Company Context
+- [[louis-fran-ois-bouchard|Louis-François Bouchard]] — CTO & Co-Founder at [[towards-ai|Towards AI]].
+- [[samridhi-vaid|Samridhi Vaid]] — Senior Machine Learning Engineer at [[towards-ai|Towards AI]].
+- [[omar-solano|Omar Solano]] — AI Engineer at [[towards-ai|Towards AI]].
 
-- Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
-![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
-- Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Source video: `youtube-ZRM_TfEZcIo`
-- Slide deck: [[youtube-ZRM_TfEZcIo-dense-slides|Dense Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]] — 10 visible slide image(s); 10 HTML recreation(s).
-![[assets/dense-slides/ZRM_TfEZcIo/slide-001.jpg]]
-![[assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg]]
-![[assets/dense-slides/ZRM_TfEZcIo/slide-005.jpg]]
-- Additional slide evidence: [[youtube-ZRM_TfEZcIo-slides|Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]], [[youtube-ZRM_TfEZcIo-reconstructed-slides|Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]]
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+### Topics Covered
+- [[agent-memory]]
+- [[agentic-search]]
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+### Derived Links And Source Material
+- [[youtube-ZRM_TfEZcIo]] — related YouTube source page.
+- [[youtube-ZRM_TfEZcIo-slides]] — slide evidence.
+- [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — slide evidence.
+- [[youtube-ZRM_TfEZcIo-dense-slides]] — slide evidence.
 
-### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
-- Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[louis-fran-ois-bouchard]]
 - [[samridhi-vaid]]
 - [[omar-solano]]
-
-## Supporting Slides
-- [[youtube-ZRM_TfEZcIo-slides]] — extracted from the related public AI Engineer video.
 
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-ZRM_TfEZcIo-dense-slides]] (12 viable slide images).
@@ -81,43 +64,30 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ZRM_TfEZcIo-slides]]
 - Slide-derived terms: `notes`, `obsidian`, `research`, `towards`, `index`, `every`, `database`, `files`, `engineer`, `handbook`, `content`, `courses`, `videos`, `starts`, `zero`, `codex`, `repos`, `course`
 
+## Media Evidence
+- [[youtube-ZRM_TfEZcIo]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-ZRM_TfEZcIo`
+- Slide deck: [[youtube-ZRM_TfEZcIo-dense-slides|Dense Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]] — 10 visible slide image(s); 10 HTML recreation(s).
+![[assets/dense-slides/ZRM_TfEZcIo/slide-001.jpg]]
+![[assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg]]
+![[assets/dense-slides/ZRM_TfEZcIo/slide-005.jpg]]
+- Additional slide evidence: [[youtube-ZRM_TfEZcIo-slides|Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]], [[youtube-ZRM_TfEZcIo-reconstructed-slides|Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]]
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
 
-## Synthesis
-### Synthesized Breakdown
-Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
-### Speaker And Company Context
-- [[louis-fran-ois-bouchard|Louis-François Bouchard]] — CTO & Co-Founder at [[towards-ai|Towards AI]].
-- [[samridhi-vaid|Samridhi Vaid]] — Senior Machine Learning Engineer at [[towards-ai|Towards AI]].
-- [[omar-solano|Omar Solano]] — AI Engineer at [[towards-ai|Towards AI]].
+### Media Signals
+- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+- Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
 
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-I2cbIws9j10-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
-- [[youtube-I2cbIws9j10]] — related YouTube source page.
-- [[youtube-I2cbIws9j10-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10-dense-slides]] — slide evidence.
-- [[youtube-ZRM_TfEZcIo]] — related YouTube source page.
-- [[youtube-ZRM_TfEZcIo-slides]] — slide evidence.
-- [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — slide evidence.
-- [[youtube-ZRM_TfEZcIo-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
-
-## Livestream Segment
-- [Watch in livestream at 02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

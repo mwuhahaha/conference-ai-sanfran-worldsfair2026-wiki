@@ -22,7 +22,9 @@ Ajay is a software engineer at LinkedIn with 14 years of experience in software,
 - [[2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase]] — 500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase (2026-06-30, 11:40am-12:00pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase|500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase]]

@@ -2,19 +2,15 @@
 title: "Cursor"
 category: "companies"
 aliases: ["Cursor"]
-website: "https://www.cursor.de/software/erweiterungen/ki-assistent"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Cursor
 
 ## Overview
-Cursor is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Erweitern Sie Ihr CRM KI-Assistent Bringen sie ihr CRM auf das nächste Level Durch die Integration von KI in das CURSOR-CRM können Unternehmen die Art u.
-
-## Background
-The official speaker roster connects Cursor to Lee Robinson, Pauline Brunet. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Cursor is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Cursor matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: How Forward Deployed Engineering is done at Cursor; Recursive Model Improvement.
+Cursor appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Recursive Model Improvement; How Forward Deployed Engineering is done at Cursor.
 
 ## Conference Sessions
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] - How Forward Deployed Engineering is done at Cursor (2026-06-29, 11:10am-11:30am)
@@ -25,34 +21,20 @@ Cursor matters to this wiki through 2 official speaker(s) and 2 scheduled sessio
 - [[pauline-brunet]] - VP, Forward Deployed Engineering
 
 ## Sources
-- [KI-Assistent](https://www.cursor.de/software/erweiterungen/ki-assistent)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
 
 ### Media Signals
-- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
-- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
-- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
-- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
-- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
 - `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
 - Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

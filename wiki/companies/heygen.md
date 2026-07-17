@@ -2,19 +2,15 @@
 title: "HeyGen"
 category: "companies"
 aliases: ["HeyGen"]
-website: "https://www.heygen.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # HeyGen
 
 ## Overview
-HeyGen is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Generate AI videos from your ideas using HeyGen. Input text, image, or audio to create complete videos with narration, captions, visuals, and animations.
-
-## Background
-The official speaker roster connects HeyGen to James Russo, Joshua Xu. The public company site was discovered by domain-guess and fetched for homepage metadata.
+HeyGen is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-HeyGen matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: HTML Is All Agents Need; Startup Battlefield.
+HeyGen appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: HTML Is All Agents Need; Startup Battlefield.
 
 ## Conference Sessions
 - [[2026-07-01-james-russo-html-is-all-agents-need]] - HTML Is All Agents Need (2026-07-01, 11:10am-11:30am)
@@ -25,10 +21,12 @@ HeyGen matters to this wiki through 2 official speaker(s) and 2 scheduled sessio
 - [[joshua-xu]] - CEO
 
 ## Sources
-- [HeyGen](https://www.heygen.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
@@ -38,9 +36,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

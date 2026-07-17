@@ -85,5 +85,4 @@ Slide text:
 > Google Yolibe
 > Microsoft smol?
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/LxQsQ3vZDqo/audit.json`

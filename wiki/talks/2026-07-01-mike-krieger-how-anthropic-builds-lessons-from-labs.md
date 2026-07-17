@@ -27,47 +27,31 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "keynote", "confirmed"]
 ## Session Description
 No official description published in the schedule data.
 
-## Media Evidence
-[Why Agent Engineering — swyx](https://www.youtube.com/watch?v=5N33E9tC400) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+## Synthesis
+### Synthesized Breakdown
+No official description published in the schedule data.
 
-- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
+### Speaker And Company Context
+- [[mike-krieger|Mike Krieger]] — Head of Labs at [[anthropic|Anthropic]].
+- [[swyx|swyx]] — Curator at [[latent-space-ai-engineer|Latent Space / AI Engineer]].
 
-- Source video: `youtube-5N33E9tC400`
-- Slide deck: [[youtube-5N33E9tC400-dense-slides|Dense Slides: Why Agent Engineering — swyx]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/5N33E9tC400/slide-001.jpg]]
-![[assets/dense-slides/5N33E9tC400/slide-002.jpg]]
-- Additional slide evidence: [[youtube-5N33E9tC400-slides|Slides: Why Agent Engineering — swyx]], [[youtube-5N33E9tC400-reconstructed-slides|Reconstructed Slides: Why Agent Engineering — swyx]]
-- Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
-![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
-![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
-- Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+### Topics Covered
+- Topic links are pending transcript-backed classification.
 
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+### Derived Links And Source Material
+- [[youtube-5N33E9tC400]] — related YouTube source page.
+- [[youtube-5N33E9tC400-slides]] — slide evidence.
+- [[youtube-5N33E9tC400-reconstructed-slides]] — slide evidence.
+- [[youtube-5N33E9tC400-dense-slides]] — slide evidence.
 
-### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
-- Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
 
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[mike-krieger]]
 - [[swyx]]
-
-## Supporting Slides
-- [[youtube-5N33E9tC400-slides]] — extracted from the related public AI Engineer video.
 
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-5N33E9tC400-dense-slides]] (2 viable slide images).
@@ -77,42 +61,32 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5N33E9tC400-slides]]
 - Slide-derived terms: `think`, `ai.engineer`, `https`, `year`, `they`, `david`, `better`, `evolution`, `latentspace`, `engineering`, `agentengineering`, `i/ai.engineer`, `people`, `look`, `million`, `maybe`, `good`, `swyx`
 
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
-
-### Speaker And Company Context
-- [[mike-krieger|Mike Krieger]] — Head of Labs at [[anthropic|Anthropic]].
-- [[swyx|swyx]] — Curator at [[latent-space-ai-engineer|Latent Space / AI Engineer]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-I2cbIws9j10-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
-- [[youtube-5N33E9tC400]] — related YouTube source page.
-- [[youtube-5N33E9tC400-slides]] — slide evidence.
-- [[youtube-5N33E9tC400-reconstructed-slides]] — slide evidence.
-- [[youtube-5N33E9tC400-dense-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10]] — related YouTube source page.
-- [[youtube-I2cbIws9j10-slides]] — slide evidence.
-- [[youtube-I2cbIws9j10-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
-
 ## Livestream Segment
 - [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Media Evidence
+- [[youtube-5N33E9tC400]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-5N33E9tC400`
+- Slide deck: [[youtube-5N33E9tC400-dense-slides|Dense Slides: Why Agent Engineering — swyx]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/5N33E9tC400/slide-001.jpg]]
+![[assets/dense-slides/5N33E9tC400/slide-002.jpg]]
+- Additional slide evidence: [[youtube-5N33E9tC400-slides|Slides: Why Agent Engineering — swyx]], [[youtube-5N33E9tC400-reconstructed-slides|Reconstructed Slides: Why Agent Engineering — swyx]]
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

@@ -32,5 +32,4 @@ Slide text:
 
 > LLM Engine Advisor
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/DeFF3J8T5Pk/audit.json`

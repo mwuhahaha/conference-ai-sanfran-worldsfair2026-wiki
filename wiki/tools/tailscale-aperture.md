@@ -9,7 +9,7 @@ scheduleRooms: ["Expo Stage 4 SE"]
 
 # Tailscale Aperture
 
-## Why It Belongs
+## Conference Context
 Tailscale Aperture appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

@@ -68,5 +68,4 @@ Slide text:
 > Replay audio
 > Inspect tool calls
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/iXhba366fQc/audit.json`

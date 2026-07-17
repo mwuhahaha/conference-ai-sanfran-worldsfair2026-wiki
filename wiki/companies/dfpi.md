@@ -3,7 +3,7 @@ title: "DFPI"
 category: "companies"
 aliases: ["DFPI"]
 website: "https://dfpi.ca.gov/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # DFPI
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 DFPI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: State of California | The Department of Financial Protection and Innovation.
 
 ## Background
-The official speaker roster connects DFPI to Rachna Srivastava. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+The official speaker roster connects DFPI to Rachna Srivastava.
 
 ## Conference Relevance
 DFPI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data.
@@ -26,7 +26,9 @@ DFPI matters to this wiki through 1 official speaker(s) and 1 scheduled session(
 - [DFPI](https://dfpi.ca.gov/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data|Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data]]
@@ -35,9 +37,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-5_QWh4LGoxg` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
 - Evidence links for `youtube-5_QWh4LGoxg` (supporting context only): [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

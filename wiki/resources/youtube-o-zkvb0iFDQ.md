@@ -15,20 +15,17 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
 - Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
-- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
-## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt` (3,969 words).
+## Relationship To World's Fair 2026
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
 - Transcript keywords: `simple`, `pointing`, `liad`, `used`, `getting`, `share`, `asked`, `probably`
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)
-
-## Related Scheduled Sessions
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt` (3,969 words).
 
 ## Extracted Slides
 - [[youtube-o-zkvb0iFDQ-dense-slides]]
@@ -37,3 +34,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/o-zkvb0i
 
 ## Transcript Markdown
 - [[youtube-o-zkvb0iFDQ-transcript]] — full cached transcript markdown.
+
+## Link
+[YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)

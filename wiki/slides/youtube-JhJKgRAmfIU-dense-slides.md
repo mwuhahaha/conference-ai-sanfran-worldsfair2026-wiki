@@ -56,5 +56,4 @@ Slide text:
 
 > RAG on database
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/JhJKgRAmfIU/audit.json`

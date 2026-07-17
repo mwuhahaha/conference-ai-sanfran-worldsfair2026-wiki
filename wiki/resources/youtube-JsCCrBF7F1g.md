@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] — Your Agent Is Lying to You About Whether It Worked
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=JsCCrBF7F1g)
-
-## Related Scheduled Sessions
-- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] — Your Agent Is Lying to You About Whether It Worked
 ## Extracted Slides
 - [[youtube-JsCCrBF7F1g-dense-slides]]
 - [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 - [[youtube-JsCCrBF7F1g-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=JsCCrBF7F1g)

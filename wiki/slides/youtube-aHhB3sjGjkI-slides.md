@@ -374,7 +374,6 @@ Slide text:
 > 12 13 14 15 16 17 18 19 20 21 11 "annotations":[] "latency":4.12, "comments": [], "answen":"To find the specific torque requirements for the Cx-Seo engine components,please re "userFeedback":{ "mode1":"us.anthropic.claude-sonnet-4-5-2025e929-v1:e", "question":"What is the recomended torque specification for the titanium alloy bolts on the（ "comment":“Solid guidance,but could be more precise.7/1o.\ni) You should have linked dir "score":1,
 > 35
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/aHhB3sjGjkI/slide-001.jpg) — `title_card` confidence `0.98`; speaker intro card
 

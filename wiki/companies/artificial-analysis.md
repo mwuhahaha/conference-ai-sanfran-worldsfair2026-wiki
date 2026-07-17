@@ -3,7 +3,7 @@ title: "Artificial Analysis"
 category: "companies"
 aliases: ["Artificial Analysis"]
 website: "https://artificialanalysis.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # Artificial Analysis
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 Artificial Analysis is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency.
 
 ## Background
-The official speaker roster connects Artificial Analysis to George Cameron, Micah Hill-Smith. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Artificial Analysis to George Cameron, Micah Hill-Smith.
 
 ## Conference Relevance
 Artificial Analysis matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: Trends in AI.
@@ -27,18 +27,14 @@ Artificial Analysis matters to this wiki through 2 official speaker(s) and 1 sch
 - [AI Model & API Providers Analysis / Artificial Analysis](https://artificialanalysis.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Media Signals
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals; role: primary event evidence.
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk` (primary event evidence): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

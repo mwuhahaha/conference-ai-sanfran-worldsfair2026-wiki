@@ -108,7 +108,6 @@ Slide text:
 
 > Machine Payments Protocol
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/KLSuFPj2ld0/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with cropped slide, not a full presentation slide
 - [`slide-003.jpg`](/assets/slides/KLSuFPj2ld0/slide-003.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with cropped slide, not a full presentation slide

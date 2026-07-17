@@ -22,7 +22,9 @@ Giselle is a Developer Advocate and Engineer at [[restate|Restate]]. She works o
 - [[2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack]] — 🎵 Every step you take, every call you make - the reliable agent stack (2026-07-01, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack|🎵 Every step you take, every call you make - the reliable agent stack]]

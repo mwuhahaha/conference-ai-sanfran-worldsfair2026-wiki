@@ -24,7 +24,9 @@ Heather Downing is a developer advocate and 7x Microsoft MVP focused on AI, data
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not. (2026-07-01, 3:20pm-3:40pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not|Agent Memory Is a Solved Problem. Agent Learning Is Not.]]

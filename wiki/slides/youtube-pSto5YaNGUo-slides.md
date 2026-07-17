@@ -312,7 +312,6 @@ Slide text:
 > Stop debugging. Start evolving.
 > Reliable agents come from one thing — a loop that never stops, run fast enough to compound.
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/pSto5YaNGUo/slide-001.jpg) — `title_card` confidence `0.97`; not a content slide
 - [`slide-009.jpg`](/assets/slides/pSto5YaNGUo/slide-009.jpg) — `demo_video` confidence `0.99`; Screen-recorded demo with webcam overlays, not a standalone presentation slide.

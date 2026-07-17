@@ -26,7 +26,9 @@ Udi Menkes is a Principal AI Product Manager at [[intuit|Intuit]], where he lead
 - [[2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money]] — Why Off-the-Shelf AI Doesn't Understand Money (2026-07-01, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money|Why Off-the-Shelf AI Doesn't Understand Money]]

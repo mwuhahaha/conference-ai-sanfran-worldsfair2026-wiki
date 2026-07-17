@@ -25,16 +25,13 @@ Ido Salomon is a seasoned AI lead and software architect. He is the creator of A
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier (2026-06-30, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; role: primary event evidence.
-- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-kR64LOqBBCU` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-kR64LOqBBCU`: putting, orchestration, bottleneck, skills, along, channels, open.
-- Evidence links for `youtube-kR64LOqBBCU` (supporting context only): [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

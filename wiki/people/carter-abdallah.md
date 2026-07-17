@@ -25,7 +25,9 @@ Founding Engineer at the [[nvidia|NVIDIA]] aquired GPU dev tool Brev.dev. Now le
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489]] — Local Models: Trust, Control, Optimization (2026-07-01, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization|Local Models: Trust, Control, Optimization]]

@@ -22,7 +22,9 @@ Ritvik Pandya is an engineering leader with over seventeen years building distri
 - [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis]] — AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis|AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs]]

@@ -9,7 +9,7 @@ scheduleRooms: ["Leadership 2", "Track 4"]
 
 # Hugging Face Hub
 
-## Why It Belongs
+## Conference Context
 Hugging Face Hub appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

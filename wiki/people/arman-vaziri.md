@@ -20,7 +20,9 @@ Software engineer building the agents and data platform powering [[ramp|Ramp]]â€
 - [[2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration]] â€” The Building Blocks of GTM Orchestration (2026-07-01, 12:05pm-12:25pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration|The Building Blocks of GTM Orchestration]]

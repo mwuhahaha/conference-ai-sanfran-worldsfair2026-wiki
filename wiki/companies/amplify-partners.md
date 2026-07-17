@@ -2,19 +2,15 @@
 title: "Amplify Partners"
 category: "companies"
 aliases: ["Amplify Partners"]
-website: "https://www.amplifypartners.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Amplify Partners
 
 ## Overview
-Amplify Partners is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Amplify is the first investor for technical founders building the next generation of technical applications, tools, and platforms.
-
-## Background
-The official speaker roster connects Amplify Partners to Barr Yaron. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Amplify Partners is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Amplify Partners matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The 2026 State of AI Engineering.
+Amplify Partners appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The 2026 State of AI Engineering.
 
 ## Conference Sessions
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering]] - The 2026 State of AI Engineering (2026-07-01, 9:00am-9:20am)
@@ -23,10 +19,12 @@ Amplify Partners matters to this wiki through 1 official speaker(s) and 1 schedu
 - [[barr-yaron]] - Partner
 
 ## Sources
-- [Amplify Partners](https://www.amplifypartners.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
 - Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

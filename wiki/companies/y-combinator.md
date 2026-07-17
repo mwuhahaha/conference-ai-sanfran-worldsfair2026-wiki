@@ -2,19 +2,15 @@
 title: "Y Combinator"
 category: "companies"
 aliases: ["Y Combinator"]
-website: "https://www.ycombinator.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Y Combinator
 
 ## Overview
-Y Combinator is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Y Combinator created a new model for funding early stage startups. Four times a year we invest in a large number of startups.
-
-## Background
-The official speaker roster connects Y Combinator to Eve Bouffard, Garry Tan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Y Combinator is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Y Combinator matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Imagination Engineering; Closing Keynote: Garry Tan.
+Y Combinator appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Imagination Engineering; Closing Keynote: Garry Tan.
 
 ## Conference Sessions
 - [[2026-06-30-eve-bouffard-imagination-engineering]] - Imagination Engineering (2026-06-30, 2:25pm-2:45pm)
@@ -25,23 +21,18 @@ Y Combinator matters to this wiki through 2 official speaker(s) and 2 scheduled 
 - [[garry-tan]] - President & CEO
 
 ## Sources
-- [Y Combinator](https://www.ycombinator.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]]
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

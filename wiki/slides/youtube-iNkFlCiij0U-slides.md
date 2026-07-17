@@ -81,7 +81,6 @@ Slide text:
 
 > Lasting benchmarks push the frontier
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/iNkFlCiij0U/slide-001.jpg) — `speaker_stage` confidence `0.96`; camera shot of speaker and audience with projected slide; not a clean presentation slide frame
 - [`slide-006.jpg`](/assets/slides/iNkFlCiij0U/slide-006.jpg) — `speaker_stage` confidence `0.95`; camera shot of speaker and audience with projected slide; not a clean presentation slide frame

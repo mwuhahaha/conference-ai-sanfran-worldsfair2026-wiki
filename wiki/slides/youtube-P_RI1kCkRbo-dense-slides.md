@@ -25,7 +25,6 @@ Slide text:
 
 > Gradient Booking
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-002.jpg`](/assets/dense-slides/P_RI1kCkRbo/slide-002.jpg) — `demo_video` confidence `0.93`; Demo screen with speaker camera inset and no readable presentation slide content.
 

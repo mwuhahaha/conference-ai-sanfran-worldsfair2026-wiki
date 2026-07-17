@@ -9,7 +9,7 @@ scheduleRooms: ["Track 3", "Track 6", "Track 8", "Main Stage", "Expo Stage 1 NE"
 
 # Codex
 
-## Why It Belongs
+## Conference Context
 Codex appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.

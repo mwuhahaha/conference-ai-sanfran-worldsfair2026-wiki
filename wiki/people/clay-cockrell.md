@@ -24,7 +24,9 @@ As the co-founder of CoupleWork, Clay is at the forefront of integrating artific
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong]] — Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong. (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong|Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.]]

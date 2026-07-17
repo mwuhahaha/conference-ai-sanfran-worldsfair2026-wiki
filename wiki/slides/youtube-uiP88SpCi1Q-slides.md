@@ -84,7 +84,6 @@ Slide text:
 > Site
 > programwitherik.com
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/uiP88SpCi1Q/audit.json`
 
 ## Slide-Derived Subjects To Review

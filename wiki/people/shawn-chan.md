@@ -19,7 +19,9 @@ Shawn Chan is Vice President at [[china-resources-holdings|China Resources Holdi
 - [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees]] — Build for the Memo, Not the Demo — Notes from 200 Investment Committees (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees|Build for the Memo, Not the Demo — Notes from 200 Investment Committees]]

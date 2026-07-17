@@ -72,5 +72,4 @@ Slide text:
 > Invoice Reconciliation
 > https://github.com/run-llama/invoice-reconciler
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/jVGCulhBRZI/audit.json`

@@ -269,7 +269,6 @@ Slide text:
 > - Safety-constrained escalation
 > - Minutes-scale recovery
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/LrGCT7G_rU8/audit.json`
 
 ## Slide-Derived Subjects To Review

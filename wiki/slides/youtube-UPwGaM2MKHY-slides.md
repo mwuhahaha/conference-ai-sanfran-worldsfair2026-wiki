@@ -106,7 +106,6 @@ Slide text:
 > Log remains the agent Daemon Launches Tasks
 > omnara.com/managed
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/UPwGaM2MKHY/slide-001.jpg) — `title_card` confidence `0.98`; speaker intro/title card
 

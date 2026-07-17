@@ -26,7 +26,9 @@ Cyrus Clarke is an award-winning designer and technologist at MIT Media, explori
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body]] — I gave an AI a body (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body|I gave an AI a body]]

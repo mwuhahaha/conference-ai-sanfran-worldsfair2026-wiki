@@ -22,7 +22,9 @@ Twice exited founder & CTO. Previously SVP AI Transformation at NYSE:CLVT with a
 - [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path]] — Engineering Agency out of the Happy Path (2026-06-30, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path|Engineering Agency out of the Happy Path]]

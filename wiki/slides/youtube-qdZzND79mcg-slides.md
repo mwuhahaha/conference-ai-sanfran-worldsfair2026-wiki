@@ -270,7 +270,6 @@ Slide text:
 > The limiting factor is not the strength of the model - it will be the adaptability of the harness.
 > Adaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/qdZzND79mcg/audit.json`
 
 ## Slide-Derived Subjects To Review

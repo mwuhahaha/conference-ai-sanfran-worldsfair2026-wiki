@@ -26,7 +26,9 @@ Lucas is passionate about making security practical for engineers by turning rea
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers]] — We Vetted 2,000 AI Skills Before They Reached Developers (2026-07-01, 1:55pm-2:15pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers|We Vetted 2,000 AI Skills Before They Reached Developers]]

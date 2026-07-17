@@ -26,7 +26,9 @@ Niels works as a Machine Learning Engineer at [[hugging-face|Hugging Face]] as p
 - [[2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents]] — How I automate my own job at Hugging Face using agents (2026-06-29, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents|How I automate my own job at Hugging Face using agents]]

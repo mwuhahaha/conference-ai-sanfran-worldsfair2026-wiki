@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Should AI Engineers Still Read Code in 2026?"
+title: "Transcript: Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI"
 category: "transcripts"
 videoId: "ZpK5PWX2YRM"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3931"
 ---
 
-# Transcript: Should AI Engineers Still Read Code in 2026?
+# Transcript: Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=ZpK5PWX2YRM)

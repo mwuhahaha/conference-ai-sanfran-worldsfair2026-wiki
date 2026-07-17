@@ -24,7 +24,9 @@ In this session, Kanish will share practical lessons from designing and operatin
 - [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches]] — Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches (2026-06-29, 2:25pm-2:45pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches|Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches]]

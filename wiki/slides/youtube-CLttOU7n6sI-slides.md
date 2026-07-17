@@ -186,7 +186,6 @@ Slide text:
 > valid · traceable · replayable
 > reject → retry
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/CLttOU7n6sI/audit.json`
 
 ## Slide-Derived Subjects To Review

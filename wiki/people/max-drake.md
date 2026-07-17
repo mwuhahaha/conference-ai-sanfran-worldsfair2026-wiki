@@ -26,7 +26,9 @@ Product engineer at [[tldraw|tldraw]] building a very good infinite canvas sdk, 
 - [[2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas]] — The Spatial Harness: Bringing Agents to the Canvas (2026-06-30, 11:10am-11:30am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas|The Spatial Harness: Bringing Agents to the Canvas]]

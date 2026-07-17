@@ -25,7 +25,9 @@ Dominik Kundel works on Developer Experience at [[openai|OpenAI]], where he help
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness]] — Codex, Behind the Harness (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-dominik-kundel-building-on-the-codex-harness|Building on the Codex Harness]]

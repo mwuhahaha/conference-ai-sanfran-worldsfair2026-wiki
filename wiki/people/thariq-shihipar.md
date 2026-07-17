@@ -20,7 +20,9 @@ Engineer and serial entrepreneur currently working on Claude Code at [[anthropic
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable (2026-06-30, 9:05am-9:25am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]

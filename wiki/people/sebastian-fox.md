@@ -20,7 +20,9 @@ CEO of [[composo|Composo]]. Former MD. Led AI teams at McKinsey & QuantumBlack. 
 - [[2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes]] — Inside 847 Production Clinical AI Notes (2026-07-01, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes|Inside 847 Production Clinical AI Notes]]

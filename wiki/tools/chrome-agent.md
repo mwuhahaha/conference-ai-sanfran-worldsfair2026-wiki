@@ -11,20 +11,20 @@ highlightPriority: "high"
 
 # chrome-agent
 
-## What It Is
+## Overview
 chrome-agent is Corey Gallon's open source Python CLI for letting AI agents observe and interact with Chrome through the Chrome DevTools Protocol (CDP). It connects directly to a running browser rather than presenting a separate browser abstraction layer.
 
-## Why It Matters At World's Fair
+## Conference Context
 chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation]] as the tool Corey Gallon uses to make browser work programmatic. In the context of the talk, it represents a broader pattern: use CDP-level browser control to turn repeated web workflows into scripts instead of prompting an agent through every click.
 
-## Important Capabilities
+## Capabilities
 - Direct CDP commands and event subscriptions against a running Chrome or Chromium instance.
 - Browser launch, status, navigation, JavaScript evaluation, screenshots, and live protocol help.
 - Multiple human and agent participants with isolated event subscriptions.
 - One-shot commands for scripts and persistent event streams for longer-running observation.
 - Access to the running browser's available CDP domains rather than a fixed curated browser-tool subset.
 
-## How To Use It
+## Applied Use
 Install the Python CLI with `uv tool install chrome-agent`, then launch an isolated Chrome instance. The instance name is the address used for all later CDP commands.
 
 ```bash
@@ -80,7 +80,7 @@ chrome-agent myproject-01 Page.navigate '{"url":"https://example.com"}'
 ## Related Scheduled Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (Computer Use / Track 7)
 
-## Related Pages
+## Connections
 - [[corey-gallon]]
 - [[rexmore]]
 - [[agentic-web]]
@@ -88,7 +88,7 @@ chrome-agent myproject-01 Page.navigate '{"url":"https://example.com"}'
 - [[sderosiaux-chrome-agent]]
 - [[chrome-agent-implementation-delta]]
 
-## Public Sources
+## Sources
 - [Corey Gallon's chrome-agent repository](https://github.com/captivus/chrome-agent)
 - [chrome-agent PyPI package](https://pypi.org/project/chrome-agent/)
 

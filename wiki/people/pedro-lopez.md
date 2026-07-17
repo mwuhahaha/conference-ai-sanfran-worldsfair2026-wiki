@@ -19,7 +19,9 @@ Pedro S. Lopez is a Senior Software Engineer at [[airbyte|Airbyte]]. His WF26 ta
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI (2026-06-29, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli|How We Built the Airbyte Agent MCP Server and CLI]]

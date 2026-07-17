@@ -22,7 +22,9 @@ Joshua Mo is a Lead DevRel Engineer at Venice.ai focused on private AI infrastru
 - [[2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t]] — Your Model is Private. Your System Isn't. (2026-07-01, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t|Your Model is Private. Your System Isn't.]]

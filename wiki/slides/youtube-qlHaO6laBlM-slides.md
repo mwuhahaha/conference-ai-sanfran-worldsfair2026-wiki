@@ -34,7 +34,6 @@ Slide text:
 > • Co-Founder @ Tergle (YC W25) – AI for audit automation
 > • CS + Math @ Harvard
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/qlHaO6laBlM/slide-001.jpg) — `speaker_stage` confidence `0.99`; Stage shot with presenters at podium; projected slide is only partially visible and not readable as a standalone slide.
 - [`slide-003.jpg`](/assets/slides/qlHaO6laBlM/slide-003.jpg) — `speaker_stage` confidence `0.98`; Stage shot with people walking in front of the screen; projected slide is cropped and not readable as a standalone presentation slide.

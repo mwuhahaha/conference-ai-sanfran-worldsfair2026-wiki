@@ -13,18 +13,17 @@ A public YouTube video used as supporting context for the AI Engineer World's Fa
 - Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
 - Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-29-will-brown-the-prime-intellect-stack]] — The Prime Intellect Stack
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=PbHm2qKnu10)
-
-## Related Scheduled Sessions
-- [[2026-06-29-will-brown-the-prime-intellect-stack]] — The Prime Intellect Stack
 ## Extracted Slides
 - [[youtube-PbHm2qKnu10-dense-slides]]
 - [[youtube-PbHm2qKnu10-reconstructed-slides]]
 - [[youtube-PbHm2qKnu10-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=PbHm2qKnu10)

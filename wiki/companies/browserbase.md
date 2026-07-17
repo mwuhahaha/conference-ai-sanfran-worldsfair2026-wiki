@@ -2,19 +2,15 @@
 title: "Browserbase"
 category: "companies"
 aliases: ["Browserbase"]
-website: "https://www.browserbase.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Browserbase
 
 ## Overview
-Browserbase is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Give your agents access to the whole web.
-
-## Background
-The official speaker roster connects Browserbase to Derek Meegan, Miguel González Fernández, Paul Klein IV, Shubhankar Srivastava. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Browserbase is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Browserbase matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Hill-climbing Skills: How to Improve Agents Without Touching the Model; Deploying browser agents at scale; Bringing agents onto the world wide web.
+Browserbase appears through 4 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Deploying browser agents at scale; The Art of Building Verifiers for Computer Use Agents; Bringing agents onto the world wide web.
 
 ## Conference Sessions
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] - Deploying browser agents at scale (2026-06-29, 1:55pm-2:15pm)
@@ -29,10 +25,12 @@ Browserbase matters to this wiki through 4 official speaker(s) and 4 scheduled s
 - [[shubhankar-srivastava]] - Founding Sales Engineer
 
 ## Sources
-- [Browserbase](https://www.browserbase.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale|Deploying browser agents at scale]]
@@ -44,9 +42,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

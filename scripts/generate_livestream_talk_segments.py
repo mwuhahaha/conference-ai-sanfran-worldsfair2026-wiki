@@ -20,21 +20,25 @@ WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
 SUBS = RAW / "youtube-subtitles"
 INTERNAL_AUDIT = ROOT / ".ops" / "state" / "cache" / "livestream-talk-segments" / "matches.json"
+OFFICIAL_MEDIA_MANIFEST = RAW / "official-wf26-video-manifest.json"
 
 STREAMS = {
     "htM02KMNZnk": {
         "video_id": "htM02KMNZnk",
         "title": "WF2026: Software Factories & Keynotes (Day 1)",
+        "date": "2026-06-29",
         "vtt": SUBS / "htM02KMNZnk.en-orig.vtt",
     },
     "4sX_He5c4sI": {
         "video_id": "4sX_He5c4sI",
         "title": "WF2026: Autoresearch & Keynotes (Day 2)",
+        "date": "2026-06-30",
         "vtt": SUBS / "4sX_He5c4sI.en-orig.vtt",
     },
     "I2cbIws9j10": {
         "video_id": "I2cbIws9j10",
         "title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+        "date": "2026-07-01",
         "vtt": SUBS / "I2cbIws9j10.en-orig.vtt",
     },
 }
@@ -190,6 +194,34 @@ def load_talks() -> list[dict]:
             }
         )
     return talks
+
+
+def dedicated_talk_slugs(path: Path = OFFICIAL_MEDIA_MANIFEST) -> set[str]:
+    """Return talks with playable exact recordings that supersede broad streams."""
+
+    if not path.exists():
+        raise FileNotFoundError(f"official media manifest is required: {path}")
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"invalid official media manifest: {path}") from exc
+    if not isinstance(payload, dict) or not isinstance(payload.get("videos"), list):
+        raise ValueError(f"official media manifest must contain a videos array: {path}")
+    videos = payload["videos"]
+    slugs: set[str] = set()
+    for video in videos:
+        if not isinstance(video, dict) or video.get("mediaType") != "talk_recording":
+            continue
+        if video.get("videoAvailability", "public") not in {
+            "public",
+            "unlisted",
+        }:
+            continue
+        matched = video.get("matchedTalks", [])
+        if not isinstance(matched, list):
+            continue
+        slugs.update(str(value) for value in matched if value)
+    return slugs
 
 
 def title_terms(title: str) -> set[str]:
@@ -392,6 +424,7 @@ def write_resource(matches: list[dict]) -> None:
 
 def main() -> int:
     talks = load_talks()
+    talks_with_dedicated_recordings = dedicated_talk_slugs()
     for path in (WIKI / "talks").glob("*.md"):
         remove_section(path, "Livestream Segment")
     for path in (WIKI / "people").glob("*.md"):
@@ -404,9 +437,13 @@ def main() -> int:
     }
     matches = []
     for talk in talks:
+        if talk["slug"] in talks_with_dedicated_recordings:
+            continue
         best_stream_id = ""
         best_match = None
         for video_id, stream in STREAMS.items():
+            if stream["date"] != talk["date"]:
+                continue
             match = best_match_for_talk(talk, speaker_indexes[video_id], windows_by_stream[video_id])
             if not match:
                 continue

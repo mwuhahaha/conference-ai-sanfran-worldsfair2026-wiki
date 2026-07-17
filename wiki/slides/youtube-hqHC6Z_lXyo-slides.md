@@ -167,7 +167,6 @@ Slide text:
 > AI Engineer
 > JUUU
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/hqHC6Z_lXyo/slide-001.jpg) — `speaker_stage` confidence `0.98`; camera shot of speaker on stage with projected slide; not a clean slide frame
 - [`slide-002.jpg`](/assets/slides/hqHC6Z_lXyo/slide-002.jpg) — `title_card` confidence `0.96`; title slide only; no substantive content

@@ -142,7 +142,6 @@ Slide text:
 > Ankush Rastogi
 > Sohail Shaikh
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/vh2VGuQ3zhY/slide-001.jpg) — `other` confidence `0.0`; missing batch classifier result
 - [`slide-002.jpg`](/assets/slides/vh2VGuQ3zhY/slide-002.jpg) — `other` confidence `0.0`; missing batch classifier result

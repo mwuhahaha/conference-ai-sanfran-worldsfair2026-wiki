@@ -1,43 +1,5 @@
 [
   {
-    "talk_slug": "2026-06-29-lee-robinson-recursive-model-improvement",
-    "title": "Recursive Model Improvement",
-    "date": "2026-06-29",
-    "time": "5:10pm-5:30pm",
-    "track": "Software Factories",
-    "room": "Main Stage",
-    "speakers": [
-      "Lee Robinson"
-    ],
-    "video_id": "htM02KMNZnk",
-    "video_title": "WF2026: Software Factories & Keynotes (Day 1)",
-    "start_seconds": 29533,
-    "start_hms": "08:12:13",
-    "url": "https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s",
-    "confidence": "high",
-    "evidence_excerpt": "slightly different language than free monet but the idea is the same. The monet but the idea is the same. The monet but the idea is the same. The language doesn't matter. It's it's the language doesn't matter. It's it's the language doesn't matter. It's it's the um the principle that matters. So um the principle that matters. So um the principle that matters"
-  },
-  {
-    "talk_slug": "2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost",
-    "title": "Context Engineering in 2026: Compaction, Memory & Cost",
-    "date": "2026-06-29",
-    "time": "2:20pm-4:20pm",
-    "track": "Track 6",
-    "room": "Track 6",
-    "speakers": [
-      "Louis-Fran\u00e7ois Bouchard",
-      "Samridhi Vaid",
-      "Omar Solano"
-    ],
-    "video_id": "I2cbIws9j10",
-    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
-    "start_seconds": 7876,
-    "start_hms": "02:11:16",
-    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s",
-    "confidence": "high",
-    "evidence_excerpt": "Louis Fran\u00e7ois and I will teach you how Louis Fran\u00e7ois and I will teach you how to build your own AI research OS. This to build your own AI research OS. This to build your own AI research OS. This also comes with code, so you can also also comes with code, so you can also also comes with code, so you can also try it out yourself. try it out yourself. try it "
-  },
-  {
     "talk_slug": "2026-06-29-pablo-castro-on-ai-and-knowledge",
     "title": "On AI and Knowledge",
     "date": "2026-06-29",
@@ -90,24 +52,6 @@
     "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s",
     "confidence": "high",
     "evidence_excerpt": "should be more like functions and we learned that the real problem with learned that the real problem with learned that the real problem with building with agents is not the model, building with agents is not the model, building with agents is not the model, but it's about everything around it. but it's about everything around it. but it's about everything a"
-  },
-  {
-    "talk_slug": "2026-07-01-garry-tan-closing-keynote-garry-tan",
-    "title": "Closing Keynote: Garry Tan",
-    "date": "2026-07-01",
-    "time": "4:50pm-5:10pm",
-    "track": "Main Stage",
-    "room": "Main Stage",
-    "speakers": [
-      "Garry Tan"
-    ],
-    "video_id": "I2cbIws9j10",
-    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
-    "start_seconds": 28640,
-    "start_hms": "07:57:20",
-    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s",
-    "confidence": "high",
-    "evidence_excerpt": "their agents in half the time, which is their agents in half the time, which is crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good product, but it's the right shape for product, but it's the right shape for product, but it's the right shape for people to build the features they want people to build the"
   },
   {
     "talk_slug": "2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent",

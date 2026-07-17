@@ -28,7 +28,9 @@ Brian previously founded Open Sauced where he woreds on increasing the knowledge
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-3-3]] — Don't Write Skills, Train Models (cont. 3/3) (2026-06-30, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models|Don't Write Skills, Train Models]]

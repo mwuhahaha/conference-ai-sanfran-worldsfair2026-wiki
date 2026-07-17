@@ -2,19 +2,15 @@
 title: "Stripe"
 category: "companies"
 aliases: ["Stripe"]
-website: "https://stripe.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Stripe
 
 ## Overview
-Stripe is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "stripe.ai", but the page did not expose a concise public description in metadata.
-
-## Background
-The official speaker roster connects Stripe to Andrew Garvin, Anna Spysz, Jennifer Lee, Nilofer Rajpurkar. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+Stripe is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Stripe matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Inside the AI economy: What Stripe’s data reveals; How to avoid disaster when vibe-coding a billing engine; Building safe payment infrastructure for machine-to-machine commerce.
+Stripe appears through 4 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How to avoid disaster when vibe-coding a billing engine; Teaching agents to pay; Building safe payment infrastructure for machine-to-machine commerce.
 
 ## Conference Sessions
 - [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals]] - Inside the AI economy: What Stripe’s data reveals (2026-06-29, 10:45am-11:05am)
@@ -29,10 +25,12 @@ Stripe matters to this wiki through 4 official speaker(s) and 4 scheduled sessio
 - [[nilofer-rajpurkar]] - Product Lead, Agent and Developer Experience
 
 ## Sources
-- [stripe.ai](https://stripe.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals|Inside the AI economy: What Stripe’s data reveals]]
@@ -42,9 +40,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

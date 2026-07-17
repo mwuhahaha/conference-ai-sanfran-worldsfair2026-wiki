@@ -119,7 +119,6 @@ Slide text:
 > LO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?
 > (nnk) -
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/OXMMN-XbxwA/audit.json`
 
 ## Slide-Derived Subjects To Review

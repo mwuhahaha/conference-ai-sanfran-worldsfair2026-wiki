@@ -22,7 +22,9 @@ Paula Dozsa is an iOS engineer creating whimsical AI companions at [[tolan|Tolan
 - [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion]] — Tolan: Voice-First AI Companion (2026-06-29, 1:30pm-1:50pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion|Tolan: Voice-First AI Companion]]

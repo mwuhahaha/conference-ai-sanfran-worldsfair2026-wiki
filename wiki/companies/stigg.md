@@ -2,19 +2,15 @@
 title: "Stigg"
 category: "companies"
 aliases: ["Stigg"]
-website: "https://www.stigg.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Stigg
 
 ## Overview
-Stigg is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Meter usage, manage entitlements, and monetize AI features in real time, without building the billing infrastructure yourself.
-
-## Background
-The official speaker roster connects Stigg to Dor Sasson. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Stigg is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Stigg matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Every AI company is accidentally building a bank..
+Stigg appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Every AI company is accidentally building a bank..
 
 ## Conference Sessions
 - [[2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank]] - Every AI company is accidentally building a bank. (2026-06-29, 10:45am-11:05am)
@@ -23,19 +19,17 @@ Stigg matters to this wiki through 1 official speaker(s) and 1 scheduled session
 - [[dor-sasson]] - role not listed
 
 ## Sources
-- [Stigg - The Usage Runtime for AI Products](https://www.stigg.io/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank|Every AI company is accidentally building a bank.]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

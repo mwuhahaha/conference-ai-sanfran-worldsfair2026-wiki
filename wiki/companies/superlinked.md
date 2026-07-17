@@ -2,19 +2,15 @@
 title: "Superlinked"
 category: "companies"
 aliases: ["Superlinked"]
-website: "https://superlinked.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Superlinked
 
 ## Overview
-Superlinked is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Every model your agents call, served from one open-source cluster in your cloud. Open models end to end; 50x cheaper than per-token APIs.
-
-## Background
-The official speaker roster connects Superlinked to Daniel Svonava, Filip Makraduli. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Superlinked is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Superlinked matters to this wiki through 2 official speaker(s) and 3 scheduled session(s), including: Turning My Obsidian Vault Into a Local AI Engineer; Large clusters for small models; Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards.
+Superlinked appears through 2 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Large clusters for small models; Turning My Obsidian Vault Into a Local AI Engineer; Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards.
 
 ## Conference Sessions
 - [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer]] - Turning My Obsidian Vault Into a Local AI Engineer (2026-06-29, 1:15pm-2:15pm)
@@ -26,10 +22,12 @@ Superlinked matters to this wiki through 2 official speaker(s) and 3 scheduled s
 - [[filip-makraduli]] - Founding Member of Technical Staff
 
 ## Sources
-- [Open Source Inference for Agents / Superlinked](https://superlinked.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer|Turning My Obsidian Vault Into a Local AI Engineer]]
@@ -37,12 +35,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards|Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards]]
 
 ### Media Signals
-- `youtube-qdh_x-uRs9g` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: makes, embedding, learning, first, principles, models, production, best.
-- Evidence links for `youtube-qdh_x-uRs9g` (supporting context only): [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -36,5 +36,4 @@ Slide text:
 
 > Yes, but...
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/96G7FLab8xc/audit.json`

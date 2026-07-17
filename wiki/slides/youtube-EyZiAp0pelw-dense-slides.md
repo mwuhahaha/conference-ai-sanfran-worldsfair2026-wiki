@@ -32,5 +32,4 @@ Slide text:
 > Created a flight plan for Tennessee
 > Door bell
 
-
 Classification audit: `raw/sources/slide-ai-classification/dense/EyZiAp0pelw/audit.json`

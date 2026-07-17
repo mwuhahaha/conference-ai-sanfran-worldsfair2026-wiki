@@ -208,7 +208,6 @@ Slide text:
 > ATE OF AI CODE QUALITY: HYPE VS. REALI
 > AMARFRIEDMAN/ Co-Founder&CEO opob
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-007.jpg`](/assets/reconstructed-slides/rgjF5o2Qjsc/slide-007.jpg) — `speaker_stage` confidence `0.99`; speaker on stage, not a readable slide
 - [`slide-010.jpg`](/assets/reconstructed-slides/rgjF5o2Qjsc/slide-010.jpg) — `speaker_stage` confidence `0.99`; speaker stage shot, no readable slide content

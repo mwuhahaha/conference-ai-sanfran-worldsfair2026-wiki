@@ -3,7 +3,7 @@ title: "OpenRouter"
 category: "companies"
 aliases: ["OpenRouter"]
 website: "https://openrouter.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
 ---
 # OpenRouter
 
@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 OpenRouter is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The unified interface for LLMs. Find the best models & prices for your prompts.
 
 ## Background
-The official speaker roster connects OpenRouter to Alex Atallah, Shashank Goyal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects OpenRouter to Alex Atallah, Shashank Goyal.
 
 ## Conference Relevance
 OpenRouter matters to this wiki through 2 official speaker(s) and 3 scheduled session(s), including: Letting the Interns Loose — How We Accelerated AI Adoption.; Model Routing; Model Routing.
@@ -28,7 +28,9 @@ OpenRouter matters to this wiki through 2 official speaker(s) and 3 scheduled se
 - [OpenRouter](https://openrouter.ai/)
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption|Letting the Interns Loose — How We Accelerated AI Adoption.]]
@@ -37,9 +39,5 @@ This evidence graph summarizes how this organization appears across the conferen
 ### Media Signals
 - `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
 - Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

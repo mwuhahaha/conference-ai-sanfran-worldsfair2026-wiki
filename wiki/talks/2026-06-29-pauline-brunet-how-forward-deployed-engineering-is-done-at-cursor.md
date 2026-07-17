@@ -27,36 +27,6 @@ scheduleLabels: ["Forward Deployed Engineering", "Track 8", "session", "confirme
 ## Session Description
 No official description published in the schedule data.
 
-## Media Evidence
-No related AI Engineer channel video found yet.
-
-- [[youtube-APqXGyCoGW4-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-APqXGyCoGW4`
-- Slide deck: [[youtube-APqXGyCoGW4-slides|Slides: Forward Deployed Engineering at Cursor — Pauline Brunet]] — 7 visible slide image(s).
-![[assets/slides/APqXGyCoGW4/slide-001.jpg]]
-![[assets/slides/APqXGyCoGW4/slide-002.jpg]]
-![[assets/slides/APqXGyCoGW4/slide-003.jpg]]
-- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
-- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
-- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
-## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
-- [[pauline-brunet]]
-
 ## Synthesis
 ### Synthesized Breakdown
 Hello everyone. Can you hear me okay? Fantastic. Are we having a great conference?
@@ -70,7 +40,7 @@ Hello everyone. Can you hear me okay? Fantastic. Are we having a great conferenc
 - [[coding-agents]]
 
 ### Derived Links And Source Material
-- [[youtube-APqXGyCoGW4-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
+- [[youtube-APqXGyCoGW4-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
 - [[youtube-APqXGyCoGW4]] — related YouTube source page.
 - [[youtube-APqXGyCoGW4-slides]] — slide evidence.
 
@@ -78,12 +48,40 @@ Hello everyone. Can you hear me okay? Fantastic. Are we having a great conferenc
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[pauline-brunet]]
 
 ## Official YouTube Recording
-- [[youtube-APqXGyCoGW4]] — official AI Engineer YouTube channel recording published 2026-07-14.
-- Evidence status: [[youtube-APqXGyCoGW4-transcript]]; [[youtube-APqXGyCoGW4-slides]].
-- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+- [[youtube-APqXGyCoGW4|Forward Deployed Engineering at Cursor — Pauline Brunet]] — official AI Engineer YouTube recording published 2026-07-14.
+- Evidence status: [[youtube-APqXGyCoGW4-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
-## Supporting Slides
-- [[youtube-APqXGyCoGW4-slides]] — extracted from the related public AI Engineer video.
+## Media Evidence
+- [[youtube-APqXGyCoGW4]] - dedicated official event recording.
+- [[youtube-APqXGyCoGW4-transcript]] - dedicated official recording transcript.
+
+- Source video: `youtube-APqXGyCoGW4`
+- Slide deck: [[youtube-APqXGyCoGW4-slides|Slides: Forward Deployed Engineering at Cursor — Pauline Brunet]] — 7 visible slide image(s).
+![[assets/slides/APqXGyCoGW4/slide-001.jpg]]
+![[assets/slides/APqXGyCoGW4/slide-002.jpg]]
+![[assets/slides/APqXGyCoGW4/slide-003.jpg]]
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+
+## Transcript Status
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
+
+## Transcript Markdown
+- [[youtube-APqXGyCoGW4-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/APqXGyCoGW4.txt`.
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-APqXGyCoGW4` — 3,956 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-APqXGyCoGW4`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-APqXGyCoGW4`: team, customers, doing, hire, cursor, product, folks, help.
+- Slide-derived themes for `youtube-APqXGyCoGW4`: engineering, team, forward, deployed, microsoft, future, does, mean.
+- Evidence links for `youtube-APqXGyCoGW4` (primary event evidence): [[youtube-APqXGyCoGW4]], [[youtube-APqXGyCoGW4-transcript]], [[youtube-APqXGyCoGW4-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

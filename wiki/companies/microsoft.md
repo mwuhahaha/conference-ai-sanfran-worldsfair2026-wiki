@@ -2,19 +2,15 @@
 title: "Microsoft"
 category: "companies"
 aliases: ["Microsoft"]
-website: "https://microsoft.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Microsoft
 
 ## Overview
-Microsoft is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Home | Microsoft AI", but the page did not expose a concise public description in metadata.
-
-## Background
-The official speaker roster connects Microsoft to Arun Sekhar, Ashu Joshi, Chang Liu, Gustavo Cordido, Harald Kirschner, Keiji Kanazawa. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+Microsoft is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Microsoft matters to this wiki through 14 official speaker(s) and 22 scheduled session(s), including: Get Started with Models in Microsoft Foundry to Build AI Apps; The model swap workshop; From zero to deployed on Azure with AI agents.
+Microsoft appears through 14 official speaker(s) connected to 22 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The model swap workshop; OpenAI, Anthropic, or agent frameworks: choose the right AI stack; Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud.
 
 ## Conference Sessions
 - [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents]] - From zero to deployed on Azure with AI agents (2026-06-29, 11:05am-12:05pm)
@@ -57,10 +53,12 @@ Microsoft matters to this wiki through 14 official speaker(s) and 22 scheduled s
 - [[tisha-chawla]] - Software Engineer
 
 ## Sources
-- [Home / Microsoft AI](https://microsoft.ai/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents|From zero to deployed on Azure with AI agents]]
@@ -75,12 +73,6 @@ This evidence graph summarizes how this organization appears across the conferen
 - [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
 
 ### Media Signals
-- `youtube-RGSFUqzqErE` — source page linked; role: primary event evidence.
-- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
 - Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
 - `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
@@ -92,9 +84,5 @@ This evidence graph summarizes how this organization appears across the conferen
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
 - Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

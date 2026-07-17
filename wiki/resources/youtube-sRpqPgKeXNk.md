@@ -11,20 +11,19 @@ An official AI Engineer YouTube cut video verified against an AI Engineer World'
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
 - Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
-- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
-## Transcript Availability
+## Relationship To World's Fair 2026
+- [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI
+## Transcript Status
 English auto-captions
 
 ## Cached Transcript
 Not fetched yet.
 
-## Link
-[YouTube](https://www.youtube.com/watch?v=sRpqPgKeXNk)
-
-## Related Scheduled Sessions
-- [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI
 ## Extracted Slides
 - [[youtube-sRpqPgKeXNk-dense-slides]]
 - [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 - [[youtube-sRpqPgKeXNk-slides]]
+## Link
+[YouTube](https://www.youtube.com/watch?v=sRpqPgKeXNk)

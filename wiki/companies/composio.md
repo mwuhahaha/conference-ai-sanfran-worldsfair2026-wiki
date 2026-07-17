@@ -2,19 +2,15 @@
 title: "Composio"
 category: "companies"
 aliases: ["Composio"]
-website: "https://composio.dev/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Composio
 
 ## Overview
-Composio is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Just-in-time tool calls, secure delegated auth, sandboxed environments, and parallel execution across 1,000+ apps.
-
-## Background
-The official speaker roster connects Composio to Karan Vaidya, Sarah Simionescu. The public company site was discovered by domain-guess and fetched for homepage metadata.
+Composio is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Composio matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: From coding to Knowledge work agents; Dashboards are Dead.
+Composio appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From coding to Knowledge work agents; Dashboards are Dead.
 
 ## Conference Sessions
 - [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents]] - From coding to Knowledge work agents (2026-06-29, 2:25pm-2:45pm)
@@ -25,10 +21,12 @@ Composio matters to this wiki through 2 official speaker(s) and 2 scheduled sess
 - [[sarah-simionescu]] - role not listed
 
 ## Sources
-- [Composio](https://composio.dev/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents|From coding to Knowledge work agents]]
@@ -36,9 +34,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: fetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

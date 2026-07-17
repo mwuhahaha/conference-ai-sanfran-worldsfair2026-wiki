@@ -28,7 +28,9 @@ Works at [[hugging-face|Hugging Face]] open-source team, author of the book Visi
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519]] — Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge|Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge]]

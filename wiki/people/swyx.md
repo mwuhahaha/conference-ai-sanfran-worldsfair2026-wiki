@@ -24,8 +24,13 @@ Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an 
 - [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat]] — Improving AIE: Q&A and Feedback Session (repeat) (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
+## Livestream Appearances
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-swyx-the-highest-loop|The Highest Loop]]
@@ -36,10 +41,6 @@ This evidence graph summarizes how this person appears across the conference sou
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 - `youtube-5N33E9tC400` — source page linked; role: supporting context only.
@@ -47,7 +48,3 @@ This evidence graph summarizes how this person appears across the conference sou
 - `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
-
-## Livestream Appearances
-- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
-- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

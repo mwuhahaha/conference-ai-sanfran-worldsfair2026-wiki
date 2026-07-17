@@ -279,7 +279,6 @@ Slide text:
 > 1 layer is enough
 > cheap 4× SAE
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/IQkVMvXQKLY/audit.json`
 
 ## Slide-Derived Subjects To Review

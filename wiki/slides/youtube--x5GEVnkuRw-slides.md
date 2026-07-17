@@ -506,7 +506,6 @@ Slide text:
 > 
 > We'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/-x5GEVnkuRw/slide-001.jpg) — `title_card` confidence `0.98`; title-only intro card; not content-heavy.
 

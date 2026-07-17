@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Understanding is the new bottleneck"
+title: "Transcript: Understanding is the new bottleneck — Geoffrey Litt, Notion"
 category: "transcripts"
 videoId: "WkBPX-oDMnA"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3765"
 ---
 
-# Transcript: Understanding is the new bottleneck
+# Transcript: Understanding is the new bottleneck — Geoffrey Litt, Notion
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=WkBPX-oDMnA)

@@ -32,30 +32,6 @@ scheduleLabels: ["Track 7", "sponsor", "confirmed"]
 ## Session Description
 Every production agent today is renting its intelligence. You're paying per token, sending your customer's data to someone else's servers, and hoping the provider doesn't rate-limit you during your launch. For most teams, that's fine. But for a growing number of teams in regulated industries, with high-volume products, latency-sensitive workloads, or rising token bills, it's starting to look like a liability. In this 120-minute hands-on workshop you'll get a dedicated GPU and build an agent that runs on infrastructure you control. You'll stand up vLLM, point your agent at it, and drive concurrent load through the stack until you can see batching, KV cache pressure, and throughput limits in the metrics. Then you'll optimize the deployment to improve throughput while keeping per-request latency in line. The focus isn't agent frameworks. It's the inference layer underneath them. You'll leave with working code and a real understanding of continuous batching under real concurrency, KV cache tradeoffs, vLLM's metrics, and the bottlenecks that only show up when you operate the inference server yourself.
 
-## Media Evidence
-[Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)](https://www.youtube.com/watch?v=wFTVEDYVJT0) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-- [[youtube-wFTVEDYVJT0-transcript]] — full cached transcript markdown for the related YouTube source.
-
-- Source video: `youtube-wFTVEDYVJT0`
-- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/wFTVEDYVJT0/slide-001.jpg]]
-![[assets/dense-slides/wFTVEDYVJT0/slide-002.jpg]]
-![[assets/dense-slides/wFTVEDYVJT0/slide-003.jpg]]
-- Additional slide evidence: [[youtube-wFTVEDYVJT0-slides|Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]], [[youtube-wFTVEDYVJT0-reconstructed-slides|Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]]
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
-
-## Evidence Graph
-This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Media Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
-- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
-
-### Agent Reading Notes
-Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-
 ## Summary
 Du'an Lightfoot's World's Fair workshop is a production-inference lab for agent teams that want the model endpoint to become infrastructure they own rather than an external token API they rent. The official session description names the operational pressure points directly: customer data leaving the team's boundary, provider rate limits during launches, high-volume products, latency-sensitive workloads, regulated-industry constraints, and token bills that turn inference into a scaling risk. The hands-on shape is concrete: participants get a dedicated GPU, stand up vLLM, connect an agent to that endpoint, and then push concurrent traffic through the system until batching, KV-cache pressure, throughput limits, and latency tradeoffs become visible in metrics.
 
@@ -65,40 +41,19 @@ The related AI Engineer video, "Building Agents with Amazon Nova Act and MCP," s
 
 The key synthesis is that "owning inference" expands the reliability boundary of an agent product. Once the team runs vLLM on a dedicated GPU, product behavior is shaped by continuous batching efficiency, KV-cache capacity, request concurrency, per-request latency targets, GPU utilization, and the quality of metrics available during tuning. The workshop's likely value is not just that attendees leave with working code; it is that they see the hidden coupling between agent design and inference operations. Tool-calling agents, autonomous workflows, and MCP-connected systems all become more operationally serious when their model-serving endpoint is a component the team must capacity-plan, observe, and optimize itself.
 
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
-
-## People
-- [[du-an-lightfoot]]
-
-## Supporting Slides
-- [[youtube-wFTVEDYVJT0-slides]] — extracted from the related public AI Engineer video.
-
-## Slide Evidence
-- Slide-only cropped deck: [[youtube-wFTVEDYVJT0-dense-slides]] (6 viable slide images).
-- Related slide/OCR pages:
-- [[youtube-wFTVEDYVJT0-dense-slides]]
-- [[youtube-wFTVEDYVJT0-reconstructed-slides]]
-- [[youtube-wFTVEDYVJT0-slides]]
-- Slide-derived terms: `tools`, `microsoft`, `agentic`, `model`, `actions`, `https`, `world`, `amazon`, `execute`, `system`, `look`, `tere`, `nova`, `memory`, `environment`, `brain`, `autonomous`, `systems`
-
 ## Synthesis
 ### Synthesized Breakdown
-Building agents with Amazon Nova ACT and MCP. I'm excited today because we're going to build intelligent autonomous AI systems that can help you build, scale, and improve your applications and business. My name is Dewan Lightoot and I'm joined by swap. Swap.
+Every production agent today is renting its intelligence. You're paying per token, sending your customer's data to someone else's servers, and hoping the provider doesn't rate-limit you during your launch. For most teams, that's fine. But for a growing number of teams in regulated industries, with high-volume products, latency-sensitive workloads, or rising token bills, it's starting to look like a liability.
 
 ### Speaker And Company Context
 - No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
 - [[coding-agents]]
-- [[mcp]]
 
 ### Derived Links And Source Material
-- [[youtube-wFTVEDYVJT0-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
+- [[youtube-wFTVEDYVJT0-transcript]] — supporting official-channel transcript; source cache `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
 - [[youtube-wFTVEDYVJT0]] — related YouTube source page.
 - [[youtube-wFTVEDYVJT0-slides]] — slide evidence.
 - [[youtube-wFTVEDYVJT0-reconstructed-slides]] — slide evidence.
@@ -108,4 +63,39 @@ Building agents with Amazon Nova ACT and MCP. I'm excited today because we're go
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+## People
+- [[du-an-lightfoot]]
+
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-wFTVEDYVJT0-dense-slides]] (6 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-wFTVEDYVJT0-dense-slides]]
+- [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- [[youtube-wFTVEDYVJT0-slides]]
+- Slide-derived terms: `tools`, `microsoft`, `agentic`, `model`, `actions`, `https`, `world`, `amazon`, `execute`, `system`, `look`, `tere`, `nova`, `memory`, `environment`, `brain`, `autonomous`, `systems`
+
+## Media Evidence
+- [[youtube-wFTVEDYVJT0]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-wFTVEDYVJT0`
+- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — 4 visible slide image(s); 4 HTML recreation(s).
+![[assets/dense-slides/wFTVEDYVJT0/slide-001.jpg]]
+![[assets/dense-slides/wFTVEDYVJT0/slide-002.jpg]]
+![[assets/dense-slides/wFTVEDYVJT0/slide-003.jpg]]
+- Additional slide evidence: [[youtube-wFTVEDYVJT0-slides|Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]], [[youtube-wFTVEDYVJT0-reconstructed-slides|Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]]
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
+
+## Evidence Graph
+This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
+
+### Media Signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
+- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+
+### Agent Reading Notes
+Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

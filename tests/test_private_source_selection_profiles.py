@@ -113,3 +113,97 @@ def test_private_profile_metadata_does_not_leak_into_public_evidence_text(
     assert "blockedSupportingMediaIds" not in rendered
     assert "BLOCKED0001" not in rendered
     assert "LEXICAL0002" not in rendered
+
+
+def test_topic_policy_requires_an_exact_topic_video_decision(
+    tmp_path,
+    monkeypatch,
+):
+    module = load_enrichment_script()
+    policy_path = tmp_path / "writing-policy.json"
+    policy_path.write_text(
+        json.dumps(
+            {
+                "topicVideoWritingDecisions": {
+                    "coding-agents": {
+                        "MATCHED0001": {
+                            "writingDisposition": "attribute_to_source",
+                            "attribution": "source_attributed",
+                        }
+                    }
+                },
+                "videoWritingDecisions": {
+                    "MATCHED0001": {
+                        "writingDisposition": "attribute_to_source",
+                        "attribution": "source_attributed",
+                    },
+                    "OTHER000001": {
+                        "writingDisposition": "attribute_to_source",
+                        "attribution": "source_attributed",
+                    },
+                },
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(module, "PRIVATE_CREDIBILITY_V2_POLICY", policy_path)
+    module.private_credibility_v2_policy.cache_clear()
+    monkeypatch.setattr(
+        module,
+        "official_event_video_ids",
+        lambda: frozenset({"MATCHED0001", "OTHER000001"}),
+    )
+    monkeypatch.setattr(
+        module,
+        "private_source_selection_profile",
+        lambda _slug: ((), frozenset(), frozenset()),
+    )
+
+    selected = module.select_relevant_video_ids(
+        ["OTHER000001", "MATCHED0001"],
+        article_slug="coding-agents",
+        article_title="Coding Agents",
+        article_text="# Coding Agents\n",
+        association_pages=[],
+        supporting_limit=0,
+    )
+
+    assert selected == ["MATCHED0001"]
+    assert module.private_writing_decision("coding-agents", "OTHER000001")
+    assert not module.private_topic_video_writing_decision(
+        "coding-agents", "OTHER000001"
+    )
+
+
+def test_entity_policy_changes_attribution_without_exposing_private_metadata(
+    tmp_path,
+    monkeypatch,
+):
+    module = load_enrichment_script()
+    wiki = tmp_path / "wiki"
+    company = wiki / "companies" / "example-co.md"
+    (wiki / "companies").mkdir(parents=True)
+    (wiki / "talks").mkdir()
+    company.write_text("# Example Co\n", encoding="utf-8")
+    monkeypatch.setattr(module, "WIKI", wiki)
+    monkeypatch.setattr(
+        module,
+        "private_credibility_v2_policy",
+        lambda: {
+            "companyWritingDecisions": {
+                "example-co": {
+                    "writingDisposition": "attribute_to_source",
+                    "attribution": "source_attributed",
+                }
+            }
+        },
+    )
+
+    assert module.enrich_person_or_company(company, "companies")
+    rendered = company.read_text(encoding="utf-8")
+
+    assert "attributed to the official event program" in rendered
+    assert "not an endorsement" in rendered
+    assert "score" not in rendered.lower()
+    assert "weight" not in rendered.lower()
+    assert "rank" not in rendered.lower()

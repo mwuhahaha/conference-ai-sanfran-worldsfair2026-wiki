@@ -27,13 +27,13 @@ Filip Makraduli is an applied AI researcher and founding ML Developer Relations 
 - [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards]] — Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards (2026-07-01, 3:45pm-4:05pm)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer|Turning My Obsidian Vault Into a Local AI Engineer]]
 - [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards|Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards]]
 
 ### Media Signals
-- `youtube-qdh_x-uRs9g` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: makes, embedding, learning, first, principles, models, production, best.
-- Evidence links for `youtube-qdh_x-uRs9g` (supporting context only): [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
+No linked video, transcript, or slide source has been attached yet.

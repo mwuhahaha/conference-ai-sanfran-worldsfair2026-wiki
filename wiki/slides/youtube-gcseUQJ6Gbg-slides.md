@@ -38,7 +38,6 @@ Slide text:
 > Thanks for coming
 > aws
 
-
 ### Hidden Non-Slide Evidence
 - [`slide-001.jpg`](/assets/slides/gcseUQJ6Gbg/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage; not a readable slide
 - [`slide-003.jpg`](/assets/slides/gcseUQJ6Gbg/slide-003.jpg) — `title_card` confidence `0.96`; closing thanks card; not substantive content

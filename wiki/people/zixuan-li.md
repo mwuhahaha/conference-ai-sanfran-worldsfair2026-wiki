@@ -19,7 +19,9 @@ Head of [[z-ai|Z.ai]], involved with [[z-ai|Z.ai]]'s AI products and GLM model s
 - [[2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights]] — GLM-5.2: Frontier Intelligence, Open Weights. (2026-06-29, 9:45am-10:05am)
 
 ## Evidence Graph
-This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights|GLM-5.2: Frontier Intelligence, Open Weights.]]

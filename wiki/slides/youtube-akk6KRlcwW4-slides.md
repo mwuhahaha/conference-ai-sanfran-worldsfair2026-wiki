@@ -112,7 +112,6 @@ Slide text:
 
 > Vault, running
 
-
 Classification audit: `raw/sources/slide-ai-classification/slides/akk6KRlcwW4/audit.json`
 
 ## Slide-Derived Subjects To Review

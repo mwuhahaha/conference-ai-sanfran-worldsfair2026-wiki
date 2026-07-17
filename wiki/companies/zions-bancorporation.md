@@ -2,19 +2,15 @@
 title: "Zions Bancorporation"
 category: "companies"
 aliases: ["Zions Bancorporation"]
-website: "https://www.zionsbancorporation.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Zions Bancorporation
 
 ## Overview
-Zions Bancorporation is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
-
-## Background
-The official speaker roster connects Zions Bancorporation to Tanmay Sah. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+Zions Bancorporation is represented in the official AI Engineer World's Fair 2026 roster. The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed.
 
 ## Conference Relevance
-Zions Bancorporation matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: 2 hr deep dive on LLM Inference at Scale — Part 1 of 2; 2 hr deep dive on LLM Inference at Scale — Part 2 of 2.
+Zions Bancorporation appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: 2 hr deep dive on LLM Inference at Scale — Part 1 of 2; 2 hr deep dive on LLM Inference at Scale — Part 2 of 2.
 
 ## Conference Sessions
 - [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2]] - 2 hr deep dive on LLM Inference at Scale — Part 1 of 2 (2026-06-29, 12:10pm-1:10pm)
@@ -24,10 +20,12 @@ Zions Bancorporation matters to this wiki through 1 official speaker(s) and 2 sc
 - [[tanmay-sah]] - Senior Quantitative Modeler
 
 ## Sources
-- [Zions Bancorporation public site](https://www.zionsbancorporation.com/)
+- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.
 
 ## Evidence Graph
-This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
 - [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
@@ -35,9 +33,5 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-
-## Notes
-- Automated company profile fetch status: manual_url_unfetched.
-
 ## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.
