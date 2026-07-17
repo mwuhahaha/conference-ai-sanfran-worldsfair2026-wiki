@@ -3,6 +3,19 @@ title: "Wisedocs"
 category: "companies"
 aliases: ["Wisedocs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d3bd9aa682a5ad73865e8d81baef608a93266d80e4218fe3dfbbf311a434ea77
+  subjectId: company:wisedocs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0ac4343b5d0c110d95f9329e26c0464999e32c1bdaddce0f0b19b307c49e6850
 ---
 # Wisedocs
 

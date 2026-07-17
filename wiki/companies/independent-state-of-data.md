@@ -3,6 +3,19 @@ title: "Independent / State of Data"
 category: "companies"
 aliases: ["Independent / State of Data"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b4ef8f551375553389d6881050780792eea56fd2d2ac09efebf7116305577bd
+  subjectId: company:independent-state-of-data
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:27a19d004480e0f7d5ce8f306437d7d0753e6df816964b0b1f6d376b2cfdd364
 ---
 # Independent / State of Data
 

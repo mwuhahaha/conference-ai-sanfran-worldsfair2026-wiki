@@ -17,54 +17,120 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/G6IlDzj8OjA/slide-001.jpg]]
+
+OCR text:
+
+> ’ 7 3
+> e
+> ide -_
+> ~ a) ,
+> \ . ° “6
+> is 1 oe) °
+> Ve ra
+> un ai 5
+> r ,
+> . ead
+> —
+
+![[assets/slides/G6IlDzj8OjA/slide-002.jpg]]
+
+OCR text:
+
+> \ - -: s
+> ide Ar
+> \) ae ere
+> | a bis aN 7
+> Ft Mav] ie
+
 ![[assets/slides/G6IlDzj8OjA/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/G6IlDzj8OjA/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The PMF compass We analyzed 37 successful devtools: Cursor, Vercel, Supabase, Linear and others
+> The PMF compass
+> a
+> We analyzed 37 successful j
+> devtools: Cursor, Vercel, . ij
+> 5 }
+> Supabase, Linear and others A
+> a
 
 ![[assets/slides/G6IlDzj8OjA/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/G6IlDzj8OjA/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> For early-stage devtools 9 out of 10 startups Signal > Revenue
+> For early-stage devtools
+> 9 out of 10 startups
 
 ![[assets/slides/G6IlDzj8OjA/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/G6IlDzj8OjA/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Come to SF
+> &
+> ————
+> 4
+> hee nS
+> re
+
+![[assets/slides/G6IlDzj8OjA/slide-006.jpg]]
+
+OCR text:
+
+> =) Sam Lambert, CEO of PlanetScale: databases that never go down | Evil Martian
+> 7
+> 4 LT o—
+> - - "Ee ™~,
+>
+> Le a ~
+>
+> a a : Pi : :
+>
+> ae es ;
+> eo fa an
+> oY
+
+![[assets/slides/G6IlDzj8OjA/slide-007.jpg]]
+
+OCR text:
+
+> ; ]
+>
+> §
+>
+> J
+>
+> bY J
+>
+> ea ‘
+> ) Me
 
 ![[assets/slides/G6IlDzj8OjA/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/G6IlDzj8OjA/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Do events in SF
+>
+> ar a oe 0 oe
+>
+> a i en Can Og ans :
+>
+> 7 eZ ; 4 ee Bay ae
+>
+> Cn on sen iY Pe es cn
+> a ———— oe oe aa
+>
+> rr eg ; | endl rn ae
+>
+> re
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/G6IlDzj8OjA/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a slide
-- [`slide-002.jpg`](/assets/slides/G6IlDzj8OjA/slide-002.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a slide
-- [`slide-006.jpg`](/assets/slides/G6IlDzj8OjA/slide-006.jpg) — `demo_video` confidence `0.96`; embedded video player, not a readable slide
-- [`slide-007.jpg`](/assets/slides/G6IlDzj8OjA/slide-007.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a slide
-- [`slide-009.jpg`](/assets/slides/G6IlDzj8OjA/slide-009.jpg) — `demo_video` confidence `0.97`; YouTube/demo-video frame with people on camera, not a presentation slide.
+![[assets/slides/G6IlDzj8OjA/slide-009.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/G6IlDzj8OjA/audit.json`
+OCR text:
+
+> rs) lvan Burazin, CEO of Daytona: walking from $300K ARR to build for agents | Evi
+> nr |
+> om © ’ : Ba Perec nels Co) GB Youlube
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

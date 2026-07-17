@@ -8,6 +8,19 @@ twitter: "https://x.com/adisingh"
 website: "https://www.agentmail.to/"
 blog: "https://www.agentmail.to/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:99d8c1d5b08407e062306cb07bac45aff97ef4d83be3eba28a11aa6c6a5c1678
+  subjectId: person:adi-singh
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c2a2fb04679b78cbb899ec85b6ec52c1858a0816c8c0aeb526cfdb0cad07929b
 ---
 # Adi Singh
 

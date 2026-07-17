@@ -3,6 +3,19 @@ title: "Monday"
 category: "companies"
 aliases: ["Monday"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:254b4033066d0df9d0444a043ce882a3e3d217cb0da339b88babcdeff8527180
+  subjectId: company:monday
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a7e1f6a579dd3b670ccdff86051c43c8b0c26480c734f651c9cf5c5082178cd4
 ---
 # Monday
 

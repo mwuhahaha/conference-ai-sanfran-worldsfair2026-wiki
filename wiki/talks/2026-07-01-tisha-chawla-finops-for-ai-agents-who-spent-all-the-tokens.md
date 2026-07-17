@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-Lc8zRh9muoY]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-Lc8zRh9muoY`
-- Slide deck: [[youtube-Lc8zRh9muoY-dense-slides|Dense Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/Lc8zRh9muoY/slide-001.jpg]]
-![[assets/dense-slides/Lc8zRh9muoY/slide-002.jpg]]
-![[assets/dense-slides/Lc8zRh9muoY/slide-003.jpg]]
+- Slide deck: [[youtube-Lc8zRh9muoY-dense-slides|Dense Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]] — slide evidence page.
 - Additional slide evidence: [[youtube-Lc8zRh9muoY-slides|Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]], [[youtube-Lc8zRh9muoY-reconstructed-slides|Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]]
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, asked, sell, identical, determinism, never, failed.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -82,8 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- `youtube-Lc8zRh9muoY` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, asked, sell, identical, determinism, never, failed.
 - Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -5,6 +5,19 @@ role: "Senior Partner"
 company: "McKinsey & Company"
 linkedin: "https://www.linkedin.com/in/martinharrysson/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b6929843dde78d0d834aad645aeb64fc5f28b7da76edb20ef24be7e5792ac3d3
+  subjectId: person:martin-harrysson
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9166a382f649eb45f5ee38c443935b70a3741a0ff080b089b6a15f90159f0e85
 ---
 # Martin Harrysson
 

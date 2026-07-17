@@ -3,6 +3,19 @@ title: "Reelful"
 category: "companies"
 aliases: ["Reelful"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4fad559e8394f15836496b4766972bcff12bb782bb1c73c1ad29d806c4b021d6
+  subjectId: company:reelful
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:83aabbe35b653cc4a70607592541c8724b793aa2873cc02ea207b5e74350926b
 ---
 # Reelful
 

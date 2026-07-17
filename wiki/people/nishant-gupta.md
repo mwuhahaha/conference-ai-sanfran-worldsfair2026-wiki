@@ -6,6 +6,19 @@ company: "Meta"
 linkedin: "https://www.linkedin.com/in/nishantgupta-ai/"
 blog: "https://buzzingtech.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:04c4aba1816505bfd1540b9fc0a467df1a197cbda23ccb6ddb1e80d09904e19d
+  subjectId: person:nishant-gupta
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d5354d65e03718dc0a0d3fbdd149ba47df8a4107e49e0a2341bef304f62c114d
 ---
 # Nishant Gupta
 
@@ -36,6 +49,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
+- `youtube-APh1Vx0oLmQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: step, infrastructure, state, model, hallucinates, error, built, traditional.
 - Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]

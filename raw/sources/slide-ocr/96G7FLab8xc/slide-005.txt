@@ -1,2 +1,1 @@
-“If a human can use an API,
-why can’t an AI?”
+“Ifa human can use an API.

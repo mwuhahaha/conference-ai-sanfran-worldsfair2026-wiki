@@ -5,6 +5,19 @@ role: "CEO"
 company: "Deno"
 twitter: "https://x.com/rough__sea"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fd90f2ab4ff0f5bc933a53caad111c1c5aaa50753d69804fe9e07eb3e7ca603e
+  subjectId: person:ryan-dahl
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:66207d5cef14bfb893be1730de8a880712990d7c635966f9cbad703cd4dce761
 ---
 # Ryan Dahl
 

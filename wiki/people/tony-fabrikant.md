@@ -5,6 +5,19 @@ role: "Co-founder"
 company: "CoupleWork AI"
 linkedin: "https://www.linkedin.com/in/tony-fabrikant"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4bd87d2de6024cf99ee0c2b7370ce8f376c1b1d3aa3113455c4876713f23bb37
+  subjectId: person:tony-fabrikant
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:70b0e7bb69cbce7b5d79c579b30a62e9cdaceb8347abd7fae50144c5c0f4b671
 ---
 # Tony Fabrikant
 

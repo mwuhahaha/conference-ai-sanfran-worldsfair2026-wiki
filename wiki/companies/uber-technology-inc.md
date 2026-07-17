@@ -3,6 +3,19 @@ title: "Uber Technology Inc."
 category: "companies"
 aliases: ["Uber Technology Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:326b001e27261c9580e0b2fba1e8ec1636579ee8f0984ea967f9550d1ab5ef97
+  subjectId: company:uber-technology-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:725a3945e9c96f2858cf305fe194c7563cb3ff53374296cacf613046964ca4a9
 ---
 # Uber Technology Inc.
 

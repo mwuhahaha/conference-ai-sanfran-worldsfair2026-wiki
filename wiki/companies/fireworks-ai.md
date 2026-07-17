@@ -3,6 +3,19 @@ title: "Fireworks AI"
 category: "companies"
 aliases: ["Fireworks AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:71069898dcbf27baf85043553ef3c6ef6026f4ab51db2ee7e61d1d90056f5d49
+  subjectId: company:fireworks-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4c61f99f1d9439b539f9f7c1b37e7a921333d4f45994d019a44204174338c8b8
 ---
 # Fireworks AI
 

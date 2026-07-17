@@ -3,6 +3,19 @@ title: "Skydio"
 category: "companies"
 aliases: ["Skydio"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b3e96a0f304cc2a1dc76c079e99fa821ff353b377b175b4fbc3a521c718e9a87
+  subjectId: company:skydio
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cc8749924fe075f461616ef28272867a843aed56e8c44392fb4fecb9a7ae9142
 ---
 # Skydio
 

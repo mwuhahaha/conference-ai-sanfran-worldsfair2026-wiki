@@ -3,6 +3,19 @@ title: "Allos AI"
 category: "companies"
 aliases: ["Allos AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3935bc79091753e2e7ef6f075008b42743fd93b349688867e3a5445ec0223281
+  subjectId: company:allos-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c9e28b64d53e165eff3f630e4fc3a33b5a9dabc98c2f9b493d287741e8b77934
 ---
 # Allos AI
 

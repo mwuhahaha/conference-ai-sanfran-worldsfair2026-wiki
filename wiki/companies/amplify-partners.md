@@ -3,6 +3,19 @@ title: "Amplify Partners"
 category: "companies"
 aliases: ["Amplify Partners"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:385c2d24b6ffeb541267cd85892ca3b42159a6419a4d03bdd6e0fa1d41ecde16
+  subjectId: company:amplify-partners
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dae92e28e1c24326acc67456697b48ade298947e999ae157d92e4b8197ab68ef
 ---
 # Amplify Partners
 
@@ -30,8 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]
 
 ### Media Signals
-- `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
+- `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 - Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -4,6 +4,19 @@ category: "people"
 role: "Head of Product"
 company: "Tessl"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b965bb912ef3d9f919d916890b79b175c480f57c1709fbbba249271ab19e8e6
+  subjectId: person:dru-knox
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bd6fd6d24374502ad3f2090ae6942ded7276341eca56f244cc14092fe9aca1be
 ---
 # Dru Knox
 

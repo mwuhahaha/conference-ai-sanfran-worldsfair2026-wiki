@@ -5,6 +5,18 @@ aliases: ["Sourcegraph", "Amp"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Agentic Commerce", "Agentic Engineering"]
 scheduleRooms: ["Expo Stage 2 NW", "Track 2", "Track 8"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9a5dea230bac6cb4ba1e16b267fd74cb759b7a28e777c7b5115ca3e012817d7b
+  subjectId: tool:sourcegraph-amp
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:ebe41a84570f36e977a8831ca27d06bb565b0553fb79cb9982def0613b2aff15
 ---
 
 # Sourcegraph Amp

@@ -106,16 +106,16 @@ OCR text:
 
 OCR text:
 
-> AIE
-> OpenTelemetry - primitives
+> OpentTelemetry - primitives
 > Traces
-> POST /api/checkout
-> getCart()
-> calculateFraudScore()
-> performCheckout()
-> renderJson()
-> db - select cart...
-> db - update cart...
+> a Parente! 7 | | ear along | eager Stee , ee
+> [ee | i
+> _ ; , Si pehoaden
+> a 7 NM iCecekse) ae
+> | my aws 0
+> . = Microsoft Simol
+>
+> wd [ae | al <a ee ‘
 
 ![[assets/slides/Lcqat4iP_lE/slide-009.jpg]]
 

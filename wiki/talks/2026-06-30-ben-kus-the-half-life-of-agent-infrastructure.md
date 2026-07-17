@@ -63,11 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-12v5S1n1eOY]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-12v5S1n1eOY`
-- Slide deck: [[youtube-12v5S1n1eOY-dense-slides|Dense Slides: Building an Agentic Platform — Ben Kus, CTO Box]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/12v5S1n1eOY/slide-001.jpg]]
-![[assets/dense-slides/12v5S1n1eOY/slide-002.jpg]]
+- Slide deck: [[youtube-12v5S1n1eOY-dense-slides|Dense Slides: Building an Agentic Platform — Ben Kus, CTO Box]] — slide evidence page.
 - Additional slide evidence: [[youtube-12v5S1n1eOY-slides|Slides: Building an Agentic Platform — Ben Kus, CTO Box]], [[youtube-12v5S1n1eOY-reconstructed-slides|Reconstructed Slides: Building an Agentic Platform — Ben Kus, CTO Box]]
-- Slide-derived themes for `youtube-12v5S1n1eOY`: fortune, fully, integrated, generative, starting.
+- Slide-derived themes for `youtube-12v5S1n1eOY`: high, fortune, hereof, platform, transparency, user, workflow, apps.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-12v5S1n1eOY` — source page linked; role: supporting context only.
+- `youtube-12v5S1n1eOY` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-12v5S1n1eOY`: high, fortune, hereof, platform, transparency, user, workflow, apps.
 - Evidence links for `youtube-12v5S1n1eOY` (supporting context only): [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
 
 ### Agent Reading Notes

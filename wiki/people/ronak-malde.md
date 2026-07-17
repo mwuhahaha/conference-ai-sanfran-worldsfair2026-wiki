@@ -6,6 +6,19 @@ company: "Trajectory"
 linkedin: "https://www.linkedin.com/in/ronak-malde"
 twitter: "https://x.com/rronak_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2c8d6d7db68337b9f274b465dc24717444997728901c1a77aaa25704b57a1ff8
+  subjectId: person:ronak-malde
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3c37a64571662cf281df1ec7b3c36d5f8b315e26adb82efc0effd63be5baddc5
 ---
 # Ronak Malde
 

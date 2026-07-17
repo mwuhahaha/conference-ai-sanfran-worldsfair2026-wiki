@@ -82,11 +82,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/q4Tr-DknG2M/slide-003.jpg]]
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
 - Source video: `youtube-fL1iJHtl51Q`
-- Slide deck: [[youtube-fL1iJHtl51Q-dense-slides|Dense Slides: Building Cursor Composer – Lee Robinson, Cursor]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/fL1iJHtl51Q/slide-001.jpg]]
-![[assets/dense-slides/fL1iJHtl51Q/slide-002.jpg]]
+- Slide deck: [[youtube-fL1iJHtl51Q-dense-slides|Dense Slides: Building Cursor Composer – Lee Robinson, Cursor]] — slide evidence page.
 - Additional slide evidence: [[youtube-fL1iJHtl51Q-slides|Slides: Building Cursor Composer – Lee Robinson, Cursor]], [[youtube-fL1iJHtl51Q-reconstructed-slides|Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor]]
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: composer, frontier, read, edit, code, sync, instead, quickly.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
@@ -102,8 +100,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
 - Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
-- `youtube-fL1iJHtl51Q` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
+- `youtube-fL1iJHtl51Q` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: composer, frontier, read, edit, code, sync, instead, quickly.
 - Evidence links for `youtube-fL1iJHtl51Q` (supporting context only): [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -3,6 +3,19 @@ title: "UCAL Berkeley"
 category: "companies"
 aliases: ["UCAL Berkeley"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4a8792ee74e4511fb22b9d020da06ccb9a23b29f5091dc99446e0a2067c06781
+  subjectId: company:ucal-berkeley
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6f68f1b0126067b35e4c80b3649e8473cbf8c8cc58352d460be29e8c94e8a05a
 ---
 # UCAL Berkeley
 

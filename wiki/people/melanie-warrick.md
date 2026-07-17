@@ -6,6 +6,19 @@ company: "Temporal Technologies"
 twitter: "https://x.com/nyghtowlYT"
 website: "https://nyghtowl.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fbc558e2ca5d9dad344d6556831de6fff43da1742a8e2dea5f382600f4bb5b29
+  subjectId: person:melanie-warrick
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4ef78505503f781248d0d0ec3b1a9edf3384c64d9dcb441eec46d06da4370df1
 ---
 # Melanie Warrick
 

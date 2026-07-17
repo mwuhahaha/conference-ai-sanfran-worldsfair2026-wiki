@@ -8,6 +8,19 @@ twitter: "https://x.com/sumanyu"
 website: "https://hamming.ai"
 blog: "https://hamming.ai/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:729d51e3c7703016cb0fa0a10d453bb22002a8d14fbb6f5d62179a7ab300662c
+  subjectId: person:sumanyu-sharma
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:81529e080a773f3744f39f21241606921daf9bd0ab030876cb75f00c86823922
 ---
 # Sumanyu Sharma
 

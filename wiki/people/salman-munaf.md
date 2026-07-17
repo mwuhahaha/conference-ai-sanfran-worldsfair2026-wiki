@@ -5,6 +5,19 @@ role: "Lead Site Reliability Engineer"
 company: "TikTok"
 linkedin: "https://www.linkedin.com/in/salman96/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1a9d8ac56a0b7048fd086b3c9e092ad9c3399291cbfd91c06ceff82d34825ec8
+  subjectId: person:salman-munaf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:62689da53b5cc1d48df55a47f03988a551b742aee94528236cf4fae09f310b54
 ---
 # Salman Munaf
 

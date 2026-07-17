@@ -3,6 +3,19 @@ title: "Vercel"
 category: "companies"
 aliases: ["Vercel"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eb7ed1a224772bd557cc142fd62197503977614d8d8b1e76f2d83961b715b310
+  subjectId: company:vercel
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:79c3d4ef9ca264016008497ffab665fed23de811a6650f678a6b8779775a1ba1
 ---
 # Vercel
 

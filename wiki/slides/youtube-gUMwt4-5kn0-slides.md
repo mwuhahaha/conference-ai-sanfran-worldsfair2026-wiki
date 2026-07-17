@@ -17,13 +17,24 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-No slide-like frames are visible after AI slide classification. Rejected frames remain stored as evidence and are listed below.
+![[assets/slides/gUMwt4-5kn0/slide-001.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/gUMwt4-5kn0/slide-001.jpg) — `speaker_stage` confidence `0.98`; Person on stage/booth shot with a logo backdrop; no readable presentation slide content.
-- [`slide-002.jpg`](/assets/slides/gUMwt4-5kn0/slide-002.jpg) — `other` confidence `0.97`; Booth/demo conversation shot with people and signage; no readable slide content.
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/gUMwt4-5kn0/audit.json`
+> 3
+
+![[assets/slides/gUMwt4-5kn0/slide-002.jpg]]
+
+OCR text:
+
+> i..."
+> ce ie _|
+>
+> 4 - wma we. wy ts
+>
+> 3 7
+>
+> l
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

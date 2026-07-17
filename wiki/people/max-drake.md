@@ -8,6 +8,19 @@ twitter: "https://x.com/max__drake"
 website: "https://maxdrake.md"
 blog: "https://maxdrake.md"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4dcc65a77f7b692af9c9c1545ab008f317cceaecf80ef7f7c416453b03d705df
+  subjectId: person:max-drake
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7bf36ac47688ccf7270ffc0e4b47ec1379d2861838c82f5af4ff97c19ba28545
 ---
 # Max Drake
 

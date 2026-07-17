@@ -6,7 +6,9 @@ from __future__ import annotations
 import argparse
 import base64
 import concurrent.futures
+import hashlib
 import json
+import math
 import os
 import re
 import shutil
@@ -16,7 +18,36 @@ from pathlib import Path
 
 import requests
 
-from improve_slide_ocr_rapidmerge import AUDIT_PATH, Candidate, is_weak, text_path, write_text
+try:
+    from slide_codex_safety import CODEX_NO_TOOL_ARGS
+except ModuleNotFoundError:  # Imported as scripts.interpret_slide_text_with_vision.
+    from scripts.slide_codex_safety import CODEX_NO_TOOL_ARGS
+
+from improve_slide_ocr_rapidmerge import (
+    AUDIT_PATH,
+    PROVENANCE_REPAIR_SUMMARY,
+    is_weak,
+    text_path,
+    write_text,
+)
+try:
+    from slide_vision_cache_contract import (
+        CACHE_SCHEMA_VERSION,
+        CODEX_PROMPT_PREFIX,
+        MIN_ACCEPTED_CONFIDENCE,
+        PROMPT_CONTRACT_SHA256,
+        PROMPT_CONTRACT_VERSION,
+        VISION_PROMPT as PROMPT,
+    )
+except ModuleNotFoundError:  # Imported as scripts.interpret_slide_text_with_vision.
+    from scripts.slide_vision_cache_contract import (
+        CACHE_SCHEMA_VERSION,
+        CODEX_PROMPT_PREFIX,
+        MIN_ACCEPTED_CONFIDENCE,
+        PROMPT_CONTRACT_SHA256,
+        PROMPT_CONTRACT_VERSION,
+        VISION_PROMPT as PROMPT,
+    )
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,22 +60,6 @@ AI_VISION_PAGE = ROOT / "wiki" / "resources" / "slide-ocr-ai-vision-audit.md"
 JSON_RE = re.compile(r"\{.*\}", re.S)
 DEFAULT_CODEX_VISION_MODEL = "gpt-5.4-mini"
 MAX_JOBS = 8
-
-
-PROMPT = """Read the visible text on this conference slide or video frame.
-
-Return only JSON with this shape:
-{"text":"line 1\\nline 2","confidence":0.0,"notes":"brief reason"}
-
-Rules:
-- Preserve exact visible wording, capitalization, punctuation, product names, and dates.
-- Put each distinct visual line on its own newline.
-- Do not infer hidden text.
-- If the frame is mostly a person/stage/photo with no useful slide text, return an empty text string and low confidence.
-- If existing OCR is close but has obvious character errors, correct it from the image.
-
-Existing OCR to compare:
-"""
 
 
 def encode_image(path: Path) -> str:
@@ -60,9 +75,18 @@ def parse_json(text: str) -> dict:
         raise ValueError(f"model returned malformed JSON: {text[:180]}") from exc
     if not isinstance(data, dict):
         raise ValueError("model returned malformed JSON: expected an object")
+    confidence_value = data.get("confidence")
+    if type(confidence_value) not in {int, float}:
+        raise ValueError("model returned a non-numeric confidence")
+    try:
+        confidence = float(confidence_value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError("model returned a non-numeric confidence") from exc
+    if not math.isfinite(confidence) or not 0 <= confidence <= 1:
+        raise ValueError("model returned confidence outside 0..1")
     return {
         "text": str(data.get("text") or "").strip(),
-        "confidence": float(data.get("confidence") or 0),
+        "confidence": confidence,
         "notes": str(data.get("notes") or "").strip(),
     }
 
@@ -105,21 +129,19 @@ def codex_cli(image: Path, ocr_text: str, model: str, timeout: int) -> dict:
     out_dir = ROOT / ".ops" / "state" / "cache" / "codex-vision-samples"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / f"{image.parent.name}-{image.stem}-{int(time.time() * 1000)}.json"
-    prompt = (
-        "Inspect only the attached image. Return only compact JSON with keys text, confidence, notes. "
-        "text must be the exact visible slide/frame text with line breaks. Prefer meaningful slide text "
-        "over background sponsor-wall fragments. If no useful visible text, use empty string. Do not use tools.\n\n"
-        "Existing OCR to compare:\n"
-        + (ocr_text or "(none)")
-    )
+    prompt = CODEX_PROMPT_PREFIX + (ocr_text or "(none)")
     cmd = [
         command,
         "exec",
         "--ephemeral",
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--skip-git-repo-check",
+        *CODEX_NO_TOOL_ARGS,
         "-s",
         "read-only",
         "-C",
-        str(ROOT),
+        str(out_dir),
         "-i",
         str(image),
         "-o",
@@ -132,7 +154,7 @@ def codex_cli(image: Path, ocr_text: str, model: str, timeout: int) -> dict:
     env.pop("OPENAI_API_KEY", None)
     cp = subprocess.run(
         cmd,
-        cwd=ROOT,
+        cwd=out_dir,
         input="",
         text=True,
         capture_output=True,
@@ -197,6 +219,97 @@ def existing_vision_text(slide: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore").strip() if path.exists() else ""
 
 
+def cache_receipt_path(slide: Path) -> Path:
+    return text_path(AI_VISION_OCR, slide).with_suffix(".receipt.json")
+
+
+def _sha256_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def _model_for_provider(provider: str, args: argparse.Namespace) -> str:
+    return str(
+        {
+            "ollama": args.ollama_model,
+            "codex-cli": args.codex_model,
+            "openai": args.openai_model,
+        }.get(provider, "")
+    )
+
+
+def _cache_identity(
+    provider: str, slide: Path, ocr_text: str, args: argparse.Namespace
+) -> dict[str, object]:
+    return {
+        "schemaVersion": CACHE_SCHEMA_VERSION,
+        "status": "accepted",
+        "imageSha256": _sha256_bytes(slide.read_bytes()),
+        "ocrSha256": _sha256_bytes(ocr_text.encode("utf-8")),
+        "provider": provider,
+        "model": _model_for_provider(provider, args),
+        "promptContractVersion": PROMPT_CONTRACT_VERSION,
+        "promptContractSha256": PROMPT_CONTRACT_SHA256,
+        "minimumAcceptedConfidence": float(args.min_confidence),
+    }
+
+
+def _load_valid_cache(
+    provider: str, slide: Path, ocr_text: str, args: argparse.Namespace
+) -> tuple[str, dict[str, object]] | None:
+    output = text_path(AI_VISION_OCR, slide)
+    receipt_path = cache_receipt_path(slide)
+    if not output.is_file() or not receipt_path.is_file():
+        return None
+    try:
+        text = output.read_text(encoding="utf-8").strip()
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+        confidence = float(receipt.get("confidence"))
+    except (OSError, TypeError, ValueError, json.JSONDecodeError):
+        return None
+    expected = _cache_identity(provider, slide, ocr_text, args)
+    if not text or any(receipt.get(key) != value for key, value in expected.items()):
+        return None
+    if not 0 <= confidence <= 1 or confidence < args.min_confidence:
+        return None
+    if receipt.get("textSha256") != _sha256_bytes(text.encode("utf-8")):
+        return None
+    return text, receipt
+
+
+def _clear_cache(slide: Path) -> None:
+    text_path(AI_VISION_OCR, slide).unlink(missing_ok=True)
+    cache_receipt_path(slide).unlink(missing_ok=True)
+
+
+def _write_accepted_cache(
+    provider: str,
+    slide: Path,
+    ocr_text: str,
+    result: dict[str, object],
+    args: argparse.Namespace,
+) -> tuple[Path, Path]:
+    output = text_path(AI_VISION_OCR, slide)
+    receipt_path = cache_receipt_path(slide)
+    text = str(result["text"]).strip()
+    receipt = {
+        **_cache_identity(provider, slide, ocr_text, args),
+        "confidence": float(result["confidence"]),
+        "textSha256": _sha256_bytes(text.encode("utf-8")),
+        "writtenAtEpoch": time.time(),
+    }
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output_tmp = output.with_suffix(output.suffix + ".tmp")
+    receipt_tmp = receipt_path.with_suffix(receipt_path.suffix + ".tmp")
+    output_tmp.write_text(text + "\n", encoding="utf-8")
+    receipt_tmp.write_text(
+        json.dumps(receipt, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    output_tmp.replace(output)
+    receipt_tmp.replace(receipt_path)
+    return output, receipt_path
+
+
 def candidate_slides(args: argparse.Namespace) -> list[Path]:
     if args.video_id or args.slide:
         slides = []
@@ -229,18 +342,21 @@ def process_slide(provider: str, slide: Path, args: argparse.Namespace) -> dict:
     ocr_text = current_ocr(slide)
     record = {"image": str(slide.relative_to(ROOT)), "oldPreview": ocr_text[:220]}
     if args.skip_existing:
-        existing = existing_vision_text(slide)
-        if existing:
+        cached = _load_valid_cache(provider, slide, ocr_text, args)
+        if cached:
+            existing, receipt = cached
             record.update(
                 {
                     "text": existing,
-                    "confidence": 1.0,
-                    "notes": "existing AI vision text reused",
+                    "confidence": receipt["confidence"],
+                    "notes": "validated AI vision cache reused",
                     "skippedExisting": True,
                     "written": str(text_path(AI_VISION_OCR, slide).relative_to(ROOT)),
+                    "cacheReceipt": str(cache_receipt_path(slide).relative_to(ROOT)),
                 }
             )
             return record
+    _clear_cache(slide)
     record["attempted"] = True
     try:
         result = interpret(provider, slide, ocr_text, args)
@@ -249,13 +365,39 @@ def process_slide(provider: str, slide: Path, args: argparse.Namespace) -> dict:
         return record
     record.update(result)
     if result["text"] and result["confidence"] >= args.min_confidence:
-        out = text_path(AI_VISION_OCR, slide)
-        write_text(out, result["text"])
+        out, receipt_path = _write_accepted_cache(
+            provider, slide, ocr_text, result, args
+        )
         record["written"] = str(out.relative_to(ROOT))
+        record["cacheReceipt"] = str(receipt_path.relative_to(ROOT))
+        record["cacheStatus"] = "accepted"
+    else:
+        record["cacheStatus"] = "not_accepted"
     return record
 
 
 def write_audit_page(audit: dict) -> None:
+    repair = {}
+    if PROVENANCE_REPAIR_SUMMARY.is_file() and AUDIT_PATH.is_file():
+        try:
+            candidate = json.loads(
+                PROVENANCE_REPAIR_SUMMARY.read_text(encoding="utf-8")
+            )
+            if (
+                isinstance(candidate, dict)
+                and candidate.get("historicalAuditSuperseded") is True
+                and candidate.get("sourceAuditSha256")
+                == hashlib.sha256(AUDIT_PATH.read_bytes()).hexdigest()
+            ):
+                repair = candidate
+        except (OSError, json.JSONDecodeError):
+            repair = {}
+    receipt_count = sum(
+        bool(record.get("cacheReceipt"))
+        for record in audit.get("records", [])
+        if isinstance(record, dict)
+    )
+    historical_only = bool(repair) and receipt_count == 0
     lines = [
         "---",
         'title: "Slide AI Vision Rescue Audit"',
@@ -265,7 +407,33 @@ def write_audit_page(audit: dict) -> None:
         "",
         "# Slide AI Vision Rescue Audit",
         "",
-        "## Latest Run",
+    ]
+    if historical_only:
+        lines.extend(
+            [
+                "## Current Trust Status",
+                "The AI-vision cache and audit below are from a superseded historical run and are not trusted current evidence. That run recorded no current cache receipts, so the current RapidMerge policy accepts 0 of its AI-vision results.",
+                "",
+                f"- Historical unreceipted canonical updates affected: {int(repair.get('historicalUnreceiptedAiVisionUpdates', 0)):,}",
+                f"- Canonical files restored from byte-exact pre-merge backups: {int(repair.get('restoredCanonicalFiles', 0)):,}",
+                f"- Files already matching their pre-merge backups: {int(repair.get('alreadyMatchedBackupFiles', 0)):,}",
+                f"- Current provenance receipts recorded by the historical run: {int(repair.get('historicalAiVisionAuditRecordedReceipts', 0)):,}",
+                f"- Historical AI-vision results accepted by current RapidMerge policy: {int(repair.get('historicalAiVisionUpdatesAcceptedByCurrentPolicy', 0)):,}",
+                "",
+                "The cached text remains only as historical review material. It must not be reused or merged unless a new image-, prompt-, model-, policy-, and output-bound receipt passes the current validator.",
+                "",
+                "## Historical AI Vision Run (Superseded)",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "## Latest Run",
+                f"- Current validated cache receipts: {receipt_count:,}",
+            ]
+        )
+    lines.extend(
+        [
         f"- Provider: {audit.get('provider') or 'none available'}",
         f"- Model: {audit.get('model') or 'default'}",
         f"- Slides queued: {audit.get('slidesQueued', 0):,}",
@@ -273,14 +441,15 @@ def write_audit_page(audit: dict) -> None:
         f"- Existing AI vision files reused: {audit.get('slidesSkippedExisting', 0):,}",
         f"- AI vision text files written: {audit.get('visionFilesWritten', 0):,}",
         f"- AI vision text files available: {audit.get('visionFilesAvailable', audit.get('visionFilesWritten', 0)):,}",
-        f"- Minimum confidence: {audit.get('minConfidence')}",
         "- Output directory: `raw/sources/slide-ocr-ai-vision/`",
         "",
         "## Notes",
-        "- This step is intentionally after OCR. OCR creates candidates and identifies weak frames; vision interpretation reads the actual image only for low-confidence cases.",
+        "- The historical counts above are retained for auditability; they do not represent accepted current OCR evidence." if historical_only else "- This step is intentionally after OCR. OCR creates candidates and identifies weak frames; vision interpretation reads the actual image only for low-confidence cases.",
         "- Free local vision is preferred through Ollama when available. Codex CLI uses `gpt-5.4-mini` by default through its existing login without reading `OPENAI_API_KEY`. OpenAI Responses API is used only when `OPENAI_API_KEY` is set and the provider is selected or auto-detected.",
-        "- Generated text is merged by `scripts/improve_slide_ocr_rapidmerge.py` as `ai-vision`, below operator-verified text but above raw OCR.",
-    ]
+        "- Current AI-vision text is eligible for comparison only when its cache receipt validates against the exact image bytes, OCR input, prompt, model, policy, and output. Unreceipted files are rejected.",
+        "- A newly validated AI-vision candidate may be considered by `scripts/improve_slide_ocr_rapidmerge.py`; superseded cache entries are not eligible.",
+        ]
+    )
     write_text(AI_VISION_PAGE, "\n".join(lines))
 
 
@@ -303,6 +472,10 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     if args.jobs < 1 or args.jobs > MAX_JOBS:
         raise SystemExit(f"--jobs must be between 1 and {MAX_JOBS}")
+    if not MIN_ACCEPTED_CONFIDENCE <= args.min_confidence <= 1:
+        raise SystemExit(
+            f"--min-confidence must be between {MIN_ACCEPTED_CONFIDENCE} and 1"
+        )
 
     provider = None if args.dry_run else choose_provider(args.provider)
     slides = candidate_slides(args)

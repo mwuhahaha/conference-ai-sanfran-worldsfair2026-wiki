@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Meticulous"]
 website: "https://www.meticulous.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:07fc349cf0d5f3b303f59d98d7902c0a5bae1ba1333aef8ff319d63b69a78d1f
+  subjectId: company:meticulous
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4d292fa51811375defe1a68c717a73d187e80d917282f48566e4ea9bed4558df
 ---
 # Meticulous
 

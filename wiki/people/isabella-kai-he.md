@@ -6,6 +6,19 @@ company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/isabella-kai-he/"
 twitter: "https://x.com/IsabellaKHe"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:37f52cc26ea9663f63cb35c43704ba483ebe1bdaaf4027e45b994df67481decb
+  subjectId: person:isabella-kai-he
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a140e2c36fa6b2e9244bf2f0f3521dec6eabf227a4a26a109383f935c9f3ee00
 ---
 # Isabella Kai He
 

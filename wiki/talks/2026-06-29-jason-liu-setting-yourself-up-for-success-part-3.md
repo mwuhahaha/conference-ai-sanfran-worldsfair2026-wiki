@@ -64,10 +64,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-jryZvCuA0Uc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-jryZvCuA0Uc`
-- Slide deck: [[youtube-jryZvCuA0Uc-dense-slides|Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/jryZvCuA0Uc/slide-002.jpg]]
+- Slide deck: [[youtube-jryZvCuA0Uc-dense-slides|Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — slide evidence page.
 - Additional slide evidence: [[youtube-jryZvCuA0Uc-slides|Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]], [[youtube-jryZvCuA0Uc-reconstructed-slides|Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]]
-- Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,7 +75,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-jryZvCuA0Uc` — source page linked; role: supporting context only.
+- `youtube-jryZvCuA0Uc` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 - Evidence links for `youtube-jryZvCuA0Uc` (supporting context only): [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
 
 ### Agent Reading Notes

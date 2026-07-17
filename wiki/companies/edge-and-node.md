@@ -3,6 +3,19 @@ title: "Edge & Node"
 category: "companies"
 aliases: ["Edge & Node", "Edge And Node"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d8e262b0ab4830efeb5690f83b38b946593a955bf9b87870c71e2d65a60ab6bf
+  subjectId: company:edge-and-node
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:32fe0a5313c9dc323cf17c44dbbcec95106a4c46ae16563f5eb53b02b20f7450
 ---
 # Edge & Node
 

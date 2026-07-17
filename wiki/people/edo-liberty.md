@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/edoliberty/"
 twitter: "https://x.com/edoliberty"
 website: "https://edoliberty.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:52a1ebe8b81e94c5c41588b9081607b0e3c2d0397ab47190eb404c18b72b2b9e
+  subjectId: person:edo-liberty
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a1abde9a4fc35b48ddb7720ed7deaf5728d49fff180a8bd87f96f391b9c39e87
 ---
 # Edo Liberty
 

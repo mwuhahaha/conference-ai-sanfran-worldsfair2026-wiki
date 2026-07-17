@@ -19,125 +19,152 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/whue9_YquGA/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Building an Autonomous Engineering Org
+> md
+> Building an
+> Autonomous
+> Engineering Org
 
 ![[assets/slides/whue9_YquGA/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-002.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Code is not the bottleneck.
+> oe
+> Code is not the
+> bottleneck.
 
 ![[assets/slides/whue9_YquGA/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Where We Are
+> WhereWe Are
 > Experimentation
 > Adoption
 > Impact
+> explore and normalizeAl
+> scale usage through
+> drivemeasurableoutcomes
+> usage
+> structureandconsistency
+> andproductivitygains
 
 ![[assets/slides/whue9_YquGA/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> AI Maturity Model
-> Stage 0
-> Stage 1
-> Stage 2
-> Stage 3
-> Stage 4
-> Stage 5
+> AGENTICENGINEER
+> Al MaturityModel
+> Stage0
+> Stage1
+> Stage2
+> Stage3
+> Stage4
+> Stage5
+> adapted from SteveYegge'sGasTown article
 
 ![[assets/slides/whue9_YquGA/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> 1/9/90 Rule
-> 1%
-> 9%
-> 90%
-> Power Users
-> Tinkerers
+> ns
+> noe
+> 1% Power Users .
+> 1/9/90 Bel Q% Ace
 > Consumers
+> 90%
 
 ![[assets/slides/whue9_YquGA/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> AI Friendly Repo
-> Agent Context
-> 25
+> oe |
+> aes
+> Al Friendly Repo
+> Ls
 
 ![[assets/slides/whue9_YquGA/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> AI Maturity Model Stage 0 Unengaged Stage 1 Assisted Stage 2 Conversational Stage 3 Directed Stage 4 Parallel Stage 5 Autonomous
+> STAGE3
+> Al MaturityModel
+> Stage0
+> Stage1
+> Stage2
+> Stage3
+> Stage4
+> Stage5
+> Unengaged
+> Assisted
+> Conversational
+> Directed
+> Parallel
+> Autonomous
 
 ![[assets/slides/whue9_YquGA/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> 69% AI-authored code 37% Reported time savings 21x Automated PRs
+> a vi
+> ran
+> 3 as a
+> Al-authored code Reported time savings Automated PRs
 
 ![[assets/slides/whue9_YquGA/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> AI Maturity Model Stage 0 Unengaged Stage 1 Assisted Stage 2 Conversational Stage 3 Directed Stage 4 Parallel Stage 5 Autonomous
+> STAGES
+> Al MaturityModel
+> Stage0
+> Stage1
+> Stage2
+> Stage3
+> Stage4
+> Stage5
+> Unengaged
+> Assisted
+> Conversational
+> Directed
+> Parallel
+> Autonomous
 
 ![[assets/slides/whue9_YquGA/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/whue9_YquGA/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> = NA Business
+> Block lays off nearly half its staff because of Al.
+> Its CEO said most companies will do the same
+> Or 6 es ——w~ ay }
+> Pa
+> rae 7
+> ) a * 4 a
+> ade }
+> a eeN
+> ot a '
+> ae” » 7
 
-> Block lays off nearly half its staff because of AI. Its CEO said most companies will do the same
+![[assets/slides/whue9_YquGA/slide-011.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-011.jpg`](/assets/slides/whue9_YquGA/slide-011.jpg) — `speaker_stage` confidence `0.99`; speaker camera shot, not a presentation slide
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/whue9_YquGA/audit.json`
+> wa yo. Pk aia a | , i Barre oa os | ne
+> a Sie oS me “ tm a F 7 : n = ~ a a ; : :
+> ji , a Jeo ;
+> | | [\ ae
+> ogi yf nape oe (dk “:
+> bs, fe 7.
+> ass. ay ‘ y
+>
+> eos eae
+>
+> mera
+>
+> rear ae
+>
+> rere Le i 7 —
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

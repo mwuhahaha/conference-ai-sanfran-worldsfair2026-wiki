@@ -5,6 +5,19 @@ role: "Chief Executive Officer"
 company: "Sonar"
 twitter: "https://x.com/tariqshaukat"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a1de0b69c56eea0e823306efd61c460640af67534c73a4f4054e887ca0bc67cd
+  subjectId: person:tariq-shaukat
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fc6309330ca085b54d31aebd475706892b9efa5a4b22ac799aad52b3027a51d5
 ---
 # Tariq Shaukat
 

@@ -4,6 +4,19 @@ category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 linkedin: "https://www.linkedin.com/in/emdashcodes"
 website: "https://emdash.codes"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9f1a079a4faadbedc3c57234cfa03d4251a3caf784f9f2b5031f2a925d63c70c
+  subjectId: person:em-shreve
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:07e4a1f76ba2cf409abc2dcf636a1c35c4adb1b454c26ef22299359e2496d268
 ---
 # Em Shreve
 

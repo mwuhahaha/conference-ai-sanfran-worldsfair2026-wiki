@@ -3,6 +3,19 @@ title: "Retool"
 category: "companies"
 aliases: ["Retool"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:04118d844e1d988d0fe0efb01e6705103ca500e70029bbf69cefeea9c6bcb2cb
+  subjectId: company:retool
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a61fc49f688718648648e63d2ed4a75b710e5037188904e7325b8b130eb5b870
 ---
 # Retool
 

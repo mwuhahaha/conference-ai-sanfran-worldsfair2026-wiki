@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/adam-azzam"
 twitter: "https://x.com/aaazzam"
 website: "https://adamazzam.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:82ef9d8699d3cd0701fd28a988db5d2e47ab901428e6da2bddd2edf376528043
+  subjectId: person:adam-azzam
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:45b327a3f214d42705fbd9077bc4953885c4024f0175a6aa8eb107b5ceac9e12
 ---
 # Adam Azzam
 

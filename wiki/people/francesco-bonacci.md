@@ -8,6 +8,19 @@ twitter: "https://x.com/francedot"
 website: "https://cua.ai"
 blog: "https://cua.ai/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fe884aa81d29397b47c114616ebbcef371d7e1ddb7d26ddc7ddfda7af71efce5
+  subjectId: person:francesco-bonacci
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6c8e014acc75aff510a23af920dab09885d3f9488d946f6d2707b3729a817255
 ---
 # Francesco Bonacci
 

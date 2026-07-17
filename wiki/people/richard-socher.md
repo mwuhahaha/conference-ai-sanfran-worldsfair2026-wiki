@@ -5,6 +5,19 @@ role: "CEO & Co-Founder"
 company: "You.com / Recursive Superintelligence"
 twitter: "https://x.com/RichardSocher"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4af78b477ded82532ce24f5b6782223a4f28aafdc125421a49547c41c1582f45
+  subjectId: person:richard-socher
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9e48c3143c0e30d5d29208fc60612654e89f1af54a5c43366ecc8af136b33436
 ---
 # Richard Socher
 

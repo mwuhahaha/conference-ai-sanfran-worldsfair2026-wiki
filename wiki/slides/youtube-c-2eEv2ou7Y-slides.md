@@ -17,167 +17,188 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/c-2eEv2ou7Y/slide-001.jpg]]
+
+OCR text:
+
+> AlEngineer EUROPE WhyMCP&ChatGF DoubleIframes
+> And What That Meansfor YourApp
+> EU/ACO frediric larthelet
+> 2026 AIEngineer
+
 ![[assets/slides/c-2eEv2ou7Y/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> What are MCP & ChatGPT Apps?
-> Discoverability in-chat and in stores on ChatGPT and Claude
-> Interactive UI inside AI chats
-> Liad and Ido experimenting with MCP-UI
-> Initially released on ChatGPT as OpenAI's Apps SDK
-> Standardized as MCP first official extension
+> N
+> a
+> Mae alg ?
+> Pee G Pe are
+> * a a anne
+> Sg a Tere lalM eel CMO mOUr ICCA mile Rael eels ae
+> * red * inside Al chats FO
+> Se
+> Liad and Ido experimenting with MCP-UI a
+> Initially released on ChatGPT as OpenAl's Apps SDK & aa
+> Standardized as MCP first official extension or ae :
+> nos Ea
+> ry coed ar
+> : |
+> Engineering the future of Al
 
 ![[assets/slides/c-2eEv2ou7Y/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
-- OCR decision: ready — diagram slide with small text and schematic labels
+OCR text:
 
-Slide text:
-
-> 1 Howitworks
-> Host MCP Server
-> tools'lt
-> Hhhonoatuw' pm soos
-> AIE Views render in response to tool calls resouroes'reud toolsiall
-> HTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors
-> Views can be cached ahead of time Createve nth frme? Yew'h the chat
-> Feadt ( content + meta.ul.url
-> O Hast. MCP Server
-> Al Engineer
-> EUROPE
+> N
+> . arenas
+> Sein Cents
+> i CUs Sana cd
+> a
+> bf * eee ras Oe
+> bd bf <
+> * * ip
+> oe “a iz beter ti
+> ry FY Views render in response to tool calls 7 *
+> * Roe at ar)
+> , c
+> HTML documents live in resources Sa ee eee err
+> Py
+> Views can be cached ahead of time sr te
+> rene Ae oe rer ee
+> «
+> a Or ee ae
+> | teil ee aooat
+> a)
+> . AIEngi
+> SUL se) a
 
 ![[assets/slides/c-2eEv2ou7Y/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — dense code and CSP table text are better suited to OCR
+OCR text:
 
-Slide text:
-
-> Before AI Apps - the host page
-> ohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv
-> AIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe
-> style-src self unsaie-inline nonce-
-> src connect- sel! nt:ps:?55:
-> img-src selt' data::0010
-> frame-src self' none blob:
-> ginetr Engineering the future of Al
+> NJ
+> NY
+> Before AI Apps —
+> lus tent Sevurtty Solis tte rated Em aY
+> defaglt-sre
+> i ee eefauit-
+> * bf Peer ereas [ none’ J ‘sett’ Frets: |
+> * * re wc
+> aa es oa
+> bak ae
+> bd
+> RSC “sett T cunsate-intine: J ‘nonce ]
+> UM 31! nttos: Puss:
+> SMM ‘sett’ J data: | plod:
+> fone ED I OS
+> a |
+> Engineering the future of Al
 
 ![[assets/slides/c-2eEv2ou7Y/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> N ;
 > Rendering external HTML?
-> Use iframes
-> The <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.
+> Pe
+> 5d od
+> ‘ ,
+> * Ld
+> ae ur HTML etement represents a nested browsing context,
+> embedding another HTML page into the current one.
+> . | PNP sare ass |
+> Svea
 
 ![[assets/slides/c-2eEv2ou7Y/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — code/diagram slide with small text and snippet details
-
-Slide text:
+OCR text:
 
 > Whatif-srcdoc?
-> chatgpt.com Content-Security-Policy
-> script-arenonce--1httpa://*.chatgpt.com
-> fre-arcseif*.stripe.con..youtube.coo
+> script-srenonce--httpa://*.chatgpt.com freme-arc'self*.stripe.con*.youtube.con chatgpt.com Content-Security-Policy
 > AIE
-> <body> itroo srcdoc-".>
-> cdiv>Your App /div>
-> </body"
-> × inherits parent csP without script nonce, all view scripts blocked
-> ginoer Engineering the future of Al
+> <body> <ATP/>doYJno<ATp> srcdoc-"_'>
+> </body>
+> inheritsparentcspwithoutscriptnonce, allviewscriptsblockec
+> Engineering the future of Al
+
+![[assets/slides/c-2eEv2ou7Y/slide-007.jpg]]
+
+OCR text:
+
+> . oo 4
+> oy
+> roar ee ee ome Al Engineer
+> oo me i ell
+> CL eee) Ce
+> ‘| Wa inherits parent CSP without script n
+> J
+> an
 
 ![[assets/slides/c-2eEv2ou7Y/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — Dense code-like slide with small text and cropped elements; OCR will be more reliable.
+OCR text:
 
-Slide text:
-
-> pp- specific subdomain with cs The solution - double iframe
-> chatgpt.con Content-Security-Policy
-> scriot-src.nonce--https://*,chsrgpt.com
-> AIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot
-> body>
-> aroshttps://sbo123.web-sundbox.ooiusercontent.con
-> neta http-equiva'Content-Security-Policy'content-'connect-src'ey-service
-> <scripr>initieiizeipp()s/acript>
-> srcdoc*"'sandboxe'ellok-scriptsellom-snne-origin'>
-> <AID/>.dOY.JnOX<ATp>
-> </body>
-> gineer AI Engineer EUROPE
+> pp-
+> Thesolution-doubleiframe
+> specific subdomain with Cs
+> chatgpt.com Content-Security-Policy
+> script-srcnonce--https://*,chatgpt.com
+> AIE
+> frae-aroself·.stripe.com*-youtube.com
+> cbody>
+> srca*https://abo123.web-sandbox.oalusercontent.com>
+> <meta http-equiv='Content-Security-Policy'content=connect-src'sy-servic
+> <script>initializeApp(）</scriptx
+> ATp/>ddyJno<ATp
+> /body
+> AlEngineer
+> EUROPE
 
 ![[assets/slides/c-2eEv2ou7Y/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — Dense table slide with small text; OCR is appropriate.
+OCR text:
 
-Slide text:
-
-> app depends on You must declare all domains your
-> AIE _metaui.csp feld CSP directive(s) Unlocks
-> connectDorains conneci-src fetch, XHR, WebSocket
-> resourcedonains script-src <tvlc-src font-src 1ng-src ncdia-src External scripts,styles,fonts,images
-> fracDonains frane-src Nested iframes(maps,video)
-> baseUriDorains basc-ur1 Custom base URIs
-> gineer Engineering the future of Al
+> You must declare all domainsyour
+> app dependson
+> AIE _meta.ui.csp feld CSPdirective(s) Unlocks
+> connectDomains connect-src fetch,XHR,WebSocket
+> resourceDomains script-src style-src font-src img-src nedia-src External scripts,styles,fonts,images
+> frameDonains frane-src Nested iframes(maps,video)
+> baseUriDomains base-uri CustombaseURls
+> Engineering the future of Al
 
 ![[assets/slides/c-2eEv2ou7Y/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Build MCP Apps with Skybridge
-> Open-source framework for building MCP Apps
-> End-to-end typesafety
-> Modern development environment
-> Unified APIs for host cross-compatibility
+> Build MCP Apps with
+> ae i
+> = Ore @ SKYBRIDGE
+> * * bal wy 7 mu Open-source framework for building MCP Apps
+> 7 Parad * hi Le rae Tt
+> eee
+> Or ar a
+> & Star the repo mur ela aeRO man EL
+> Al Engineer
+> aU cela
 
 ![[assets/slides/c-2eEv2ou7Y/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-- Text source: advanced OCR `rapidocr-live/full`.
-- OCR decision: ready — UI screenshot with small embedded text; OCR is likely the best extraction path.
+OCR text:
 
-Slide text:
-
-> Skybridge alale-l-aov0.0.1 Leare reast eree
-> Toots 1-teet magic-s-ball ette DcatL Tost
-> magic-8-bat1 Fer rerte-ttLing ee seeking 335434
-> question
-> AIE
-> AIEngineer
-> EUROPE
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/c-2eEv2ou7Y/slide-001.jpg) — `speaker_stage` confidence `0.99`; camera shot of speaker on stage with only a partial projected slide visible
-- [`slide-007.jpg`](/assets/slides/c-2eEv2ou7Y/slide-007.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with partial projected slide; not a readable presentation slide
-
-Classification audit: `raw/sources/slide-ai-classification/slides/c-2eEv2ou7Y/audit.json`
+> Staybridge wg wae GEE Lena eae ames Serdeioes *
+> tans magic 3.0011 cc meocore, (EEE
+> magic ¥ batt . WES. %
+> x * &
+> bd *
+> ace
+> bd *
+> aan
+> ia
+> a |
+> | Al Engineer |
+> au) cela
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

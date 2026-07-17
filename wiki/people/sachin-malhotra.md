@@ -8,6 +8,19 @@ twitter: "https://x.com/edorado93"
 website: "http://anthropic.com/"
 blog: "https://bruteforced.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:359caee7dacb5f91a096ba3251759bc649aaecac6499026ac490b2949e64f6c6
+  subjectId: person:sachin-malhotra
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:368f46d5799ea4e4095df02add40e5c6969d5f005d1959ce0bc6a0f96a59d7c2
 ---
 # Sachin Malhotra
 

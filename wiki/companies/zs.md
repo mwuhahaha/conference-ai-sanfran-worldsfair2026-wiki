@@ -3,6 +3,19 @@ title: "ZS"
 category: "companies"
 aliases: ["ZS"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7fff2b4b624a9be95f541a808a092b3515ee8a2beed7eaf26f6b6a7f8cafe411
+  subjectId: company:zs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:337a83dc4a28fb0d6fb00e10d1d8db5a97cb87e3e65ba410116b79e9026dab11
 ---
 # ZS
 

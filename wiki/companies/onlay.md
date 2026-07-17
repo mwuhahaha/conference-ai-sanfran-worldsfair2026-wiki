@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Onlay"]
 website: "https://onlay.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3393b202f6a1b55a6605296f76de6aef0ee8f0b8de7e2aa7cf2d606cbc70cd7b
+  subjectId: company:onlay
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1be39f7cb7b0e228a0aeff539d42479f5bdd69ec60b395e014b2d21158017027
 ---
 # Onlay
 

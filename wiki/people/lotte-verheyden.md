@@ -5,6 +5,19 @@ role: "AI engineer and developer educator, Langfuse"
 company: "Clickhouse"
 twitter: "https://x.com/lotte_verheyden"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:74558464f70fcd80b581cb7d99ff19965c965130064f6233c978d9259cb2f4f2
+  subjectId: person:lotte-verheyden
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3f51ba6bb2daec526c3419542a45c7af2da00843917abb5f65948fc3afbb7f7d
 ---
 # Lotte Verheyden
 

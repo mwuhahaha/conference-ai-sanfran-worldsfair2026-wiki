@@ -64,9 +64,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-bk0TmxoZlUY]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-bk0TmxoZlUY`
-- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
+- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — slide evidence page.
 - Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
+- Slide-derived themes for `youtube-bk0TmxoZlUY`: support, leading, teams, netflix, nite, become, core, skill.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
@@ -78,8 +78,9 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words; role: supporting context only.
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words; 9 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
+- Slide-derived themes for `youtube-bk0TmxoZlUY`: support, leading, teams, netflix, nite, become, core, skill.
 - Evidence links for `youtube-bk0TmxoZlUY` (supporting context only): [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -3,6 +3,19 @@ title: "Figma"
 category: "companies"
 aliases: ["Figma"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f8fd0a5bef43e1b0b29b8dc0d5a0e15c5ca5ffdee5288a2ff2995fd560502eb9
+  subjectId: company:figma
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f2775a4834f73c66db0db7a4ed104277258be07798566249e9984a820635f043
 ---
 # Figma
 

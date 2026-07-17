@@ -66,12 +66,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-jVGCulhBRZI]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-jVGCulhBRZI`
-- Slide deck: [[youtube-jVGCulhBRZI-dense-slides|Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/jVGCulhBRZI/slide-001.jpg]]
-![[assets/dense-slides/jVGCulhBRZI/slide-002.jpg]]
-![[assets/dense-slides/jVGCulhBRZI/slide-003.jpg]]
+- Slide deck: [[youtube-jVGCulhBRZI-dense-slides|Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]] — slide evidence page.
 - Additional slide evidence: [[youtube-jVGCulhBRZI-slides|Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]], [[youtube-jVGCulhBRZI-reconstructed-slides|Reconstructed Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]]
-- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,8 +77,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-jVGCulhBRZI` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
+- `youtube-jVGCulhBRZI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
 - Evidence links for `youtube-jVGCulhBRZI` (supporting context only): [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 
 ### Agent Reading Notes

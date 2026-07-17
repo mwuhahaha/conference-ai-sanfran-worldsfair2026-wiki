@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Anthropic"]
 website: "https://www.anthropic.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:32469e85e4724450d53f126710806b8c1f2d98a85978ef6e18aa62e623f1f30c
+  subjectId: company:anthropic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:441c12a6fb37a64cd2d79cea7e19e78f77ee3b9927f30233dc4959ae6a6d307d
 ---
 # Anthropic
 
@@ -67,15 +80,17 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Media Signals
-- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
+- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
 - Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
 - Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
-- `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
+- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
-- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- `youtube-5N33E9tC400` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5N33E9tC400`: look, maybe, fare, seat, evolution, engineer, ideal, year.
 - Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

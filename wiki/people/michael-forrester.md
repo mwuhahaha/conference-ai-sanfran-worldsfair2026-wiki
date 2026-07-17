@@ -7,6 +7,19 @@ twitter: "https://x.com/peopleforrester"
 website: "https://www.michaelrishiforrester.com"
 blog: "https://www.michaelrishiforrester.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:66872f801effd89c951630302659180d5839b054a56a428ab438a9267e5fef82
+  subjectId: person:michael-forrester
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cf0f087eb02c36a454d5a336bb3d6860da7ef79999100f93e4db541f236ba4db
 ---
 # Michael Forrester
 

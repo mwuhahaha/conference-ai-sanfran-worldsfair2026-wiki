@@ -3,6 +3,19 @@ title: "Kepler"
 category: "companies"
 aliases: ["Kepler"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8eba32f4cc8f2769325bc34d9b4c0e3efed1f149d945b13d4ace79a5977d0bdc
+  subjectId: company:kepler
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e1394475a9f59ae58639ad91c1caf97219856d36a6c627544754bce84d6d40a1
 ---
 # Kepler
 

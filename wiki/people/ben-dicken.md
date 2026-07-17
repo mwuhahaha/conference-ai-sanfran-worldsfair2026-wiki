@@ -2,6 +2,19 @@
 title: "Ben Dicken"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:419008d0ee4a68f9030e74cf1c076991d476762cb5e4863e565f6b4d643e53b0
+  subjectId: person:ben-dicken
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ec6e3e80c50d7bfb6573e2ccfc5fee6d1de0dce3eebd94341f78464240608ecf
 ---
 # Ben Dicken
 

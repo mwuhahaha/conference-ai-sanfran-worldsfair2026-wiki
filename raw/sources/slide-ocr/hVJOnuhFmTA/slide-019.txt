@@ -1,58 +1,7 @@
-Product requirements review · live
-Pause Replay
-Dana
-Stakeholder
-Sam
-Product · Lead
-Jordan
-Engineering
-CHAT
-Sam
-what's our current median approval time?
-AI
-2.3 days median right now; the target is same-day.
-Sam
-right, that's fine.
-Sam
-Right — over the limit it routes to a second approver.
-Dana
-Agreed. Under five, one tap's fine.
-Jordan
-Works for me.
-Sam
-Okay — agreed. Expense approvals, five-thousand threshold.
-Sam
-AI, capture that for us.
-Dana
-Actually — make the threshold ten thousand, not five.
-AI
-Want me to update the requirement to a ten-thousand threshold?
-Sam
-Yes.
-Jordan
-AI — is this room free after the meeting?
-AI
-Let me check — the room looks free after this, but—
-Sam
-Until three?
-It updates the spec — live.
-GOALS
-Which requirement is this?
-REQ-142 — expense approvals
-Resolve approval scope
-Expense approvals — first release
-Apply $10,000 second-level threshold
-Access requests — future scope
-Q: Is the $5,000 threshold still current?
-Answered — raised to $10,000 (Sam confirmed)
-REQ-142
-Approve / reject expense requests from a notification
-First release, managers can approve or reject pending expense requests directly from a notification. Expenses over $10,000 route to second-level approval per Finance Controls Policy v3.4.2. Decision is written to audit history. Access requests are explicitly out of scope.
-ACCEPTANCE CRITERIA
-Manager receives a notification for a pending expense
-Manager can approve or reject from the notification
-Expenses over $10,000 require second-level approval (manager + Finance)
-Employee is notified of the decision
-Decision is recorded in audit history
-expense approvals first release compliance
-5 pts
+Product requ:rements review a
+oa
+Bo Fo x
+a as *
+ferred Sai alt E ra)
+lett San sate era eee a eee)
+: It updates the spec — live.

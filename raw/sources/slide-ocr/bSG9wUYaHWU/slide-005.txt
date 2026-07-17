@@ -1,10 +1,8 @@
 Context Development Lifecycle
-Generate
-Making implicit knowledge explicit
-Distribute
-Context as a package
-Evaluate
-TDD for context
-Observe
-Learn from use in the wild
-Engineering the future of AI
+Generate Distribute
+(XD)
+Evaluate Observe
+|
+a
+Engineering the future of Al
+wmPuses

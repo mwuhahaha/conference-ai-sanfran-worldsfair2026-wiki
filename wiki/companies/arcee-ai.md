@@ -3,6 +3,19 @@ title: "Arcee AI"
 category: "companies"
 aliases: ["Arcee AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:35f6dfe5a1154669d3635c22e14825de40135d966a79e7189bc4567161c589df
+  subjectId: company:arcee-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9f2824df1bb256f4e841702da2df5248c3599f6a2079566f79e04c2a44ab2782
 ---
 # Arcee AI
 

@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-Fzb1a24hF-o]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-Fzb1a24hF-o`
-- Slide deck: [[youtube-Fzb1a24hF-o-dense-slides|Dense Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/Fzb1a24hF-o/slide-001.jpg]]
-![[assets/dense-slides/Fzb1a24hF-o/slide-002.jpg]]
-![[assets/dense-slides/Fzb1a24hF-o/slide-003.jpg]]
+- Slide deck: [[youtube-Fzb1a24hF-o-dense-slides|Dense Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]] — slide evidence page.
 - Additional slide evidence: [[youtube-Fzb1a24hF-o-slides|Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]], [[youtube-Fzb1a24hF-o-reconstructed-slides|Reconstructed Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]]
-- Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
+- `youtube-Fzb1a24hF-o` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
 - Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 
 ### Agent Reading Notes

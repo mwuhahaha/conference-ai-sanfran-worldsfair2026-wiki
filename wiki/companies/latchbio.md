@@ -3,6 +3,19 @@ title: "LatchBio"
 category: "companies"
 aliases: ["LatchBio"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6566f601d81e368d811657385a0e4e3fa4be08640c933c61276b2b55c700b8c0
+  subjectId: company:latchbio
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7544f762ea2f07d45e686cc3d9436abf80716da6802a8f5609e310964706c6bb
 ---
 # LatchBio
 

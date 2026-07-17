@@ -5,6 +5,19 @@ aliases: ["Modal"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Workshops Day 1", "AI Architects: Show my Workflow"]
 scheduleRooms: ["Track 9", "Leadership 2"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:001f787dbbbc73be88afe80644b18e7de4da86bf42f0a62040e488028bc58572
+  subjectId: tool:modal
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:040fb0399f3cd379114259d12bb4f1decf1c7ce71674db224ba0802eb64fd5f8
 ---
 
 # Modal

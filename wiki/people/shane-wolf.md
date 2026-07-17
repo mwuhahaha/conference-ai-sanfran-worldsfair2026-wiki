@@ -4,6 +4,19 @@ category: "people"
 company: "Atlassian"
 linkedin: "https://www.linkedin.com/in/shane-wolf"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:69003984a3dbda29205b2669d36db37120f1f3fae5074d22543b34b5fed3ffe5
+  subjectId: person:shane-wolf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:85b60b53e01c98b40df2993edc1cb1ebcf845a226082299851ab09e185dd95dd
 ---
 # Shane Wolf
 

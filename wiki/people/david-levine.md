@@ -8,6 +8,19 @@ twitter: "https://x.com/bigkiduna"
 website: "https://motodave.com"
 blog: "https://motodave.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5428014c4045a26b13f3b2a3192ac6fff91bdaaf6f9201c85d9d462f90c2d35e
+  subjectId: person:david-levine
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:36ca032814d8a0dc3e868ae9cda83a82adcc4d7d459ecddce46cca4bbbab995c
 ---
 # David Levine
 

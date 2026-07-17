@@ -5,6 +5,19 @@ aliases: ["SonarQube"]
 sourceLabels: ["Official schedule", "Public YouTube metadata"]
 scheduleTracks: ["Track 6"]
 scheduleRooms: ["Track 6"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c862f90bda8516227a2aadb089c779dbaa76927de77297cb5aaad8d846e959df
+  subjectId: tool:sonarqube
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:6e5fa748c9b0403dd47c8970b0646b67fa29667b7109041232397c61a81de32e
 ---
 
 # SonarQube

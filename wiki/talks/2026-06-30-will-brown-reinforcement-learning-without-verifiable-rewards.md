@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-JIsgyk0Paic]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-JIsgyk0Paic`
-- Slide deck: [[youtube-JIsgyk0Paic-dense-slides|Dense Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]] — 11 visible slide image(s); 11 HTML recreation(s).
-![[assets/dense-slides/JIsgyk0Paic/slide-001.jpg]]
-![[assets/dense-slides/JIsgyk0Paic/slide-002.jpg]]
-![[assets/dense-slides/JIsgyk0Paic/slide-003.jpg]]
+- Slide deck: [[youtube-JIsgyk0Paic-dense-slides|Dense Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]] — slide evidence page.
 - Additional slide evidence: [[youtube-JIsgyk0Paic-slides|Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]], [[youtube-JIsgyk0Paic-reconstructed-slides|Reconstructed Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]]
-- Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-JIsgyk0Paic` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
+- `youtube-JIsgyk0Paic` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
 - Evidence links for `youtube-JIsgyk0Paic` (supporting context only): [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
 
 ### Agent Reading Notes

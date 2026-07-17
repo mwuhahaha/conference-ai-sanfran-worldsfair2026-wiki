@@ -3,6 +3,19 @@ title: "Restate"
 category: "companies"
 aliases: ["Restate"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:df61fbff8ed75ecd3e7021f92858a152d6e90770534ae6b2b8e25ef85758da25
+  subjectId: company:restate
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2394e1c69b595e23d154219b158868a2346335abebb437c0f8cb98980905b2f1
 ---
 # Restate
 

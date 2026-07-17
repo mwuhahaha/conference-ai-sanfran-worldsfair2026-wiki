@@ -52,17 +52,17 @@ OCR text:
 OCR text:
 
 > Why Do We Need Al Sandboxes?
-> 
+>
 > Smarter Models
-> 
+>
 > 1 * Ability to call tools during inference
 > ¢ Used in RL training
 > Smarter Agents \
-> 
+>
 > 2 « Can debug actions by running Linux commands “ps", *Isof”
 > * Backtrack, replan and work towards the goal with a Sandbox at their disposal
 > Security
-> 
+>
 > 3 Agent code is no different that Github or StackOverflow code running on your host or
 > production server
 
@@ -84,19 +84,19 @@ OCR text:
 > as tthe mosi web ccaition i te for a ChatGPT a nian Name of the Flask application to create
 > * Connected to datasource{i) v Creste_flask_app ay_app
 > bop tutsandtaa rs omatgpt clore ¢
-> 
+>
 > & manus
 > l'll be creating a ChatGPT clone using Flask, which is the appropriate choice
 > sance we need both a frontend interface and backend processing for the chat
 > functionality. Let me set up the project structure and implement the necessary
 > components.
-> 
+>
 > Create the ChatGPT clone project using the Flask template «
-> 
+>
 > Creating the ChatGPT clone project using the Flask template
-> 
+>
 > Creating the ChatGPT clone Flask project.
-> 
+>
 > @ Usng terminal
 
 ![[assets/slides/wsFd22SL1s8/slide-005.jpg]]
@@ -105,18 +105,18 @@ OCR text:
 
 > Arrakis
 > e Arrakis provides a secure, fully customizable, and self-
-> 
+>
 > hosted solution to spawn and manage Sandboxes for ae, 7
-> 
+>
 > < _ ex ~ /.-
 > code execution and computer use. : th wv
 > t allt a /
-> 
+>
 > ¢ It has out-of-the box support for backtracking via - Ae ls
-> 
+>
 > snapshot-and-restore. ae et
 > ¢ Qpen Source tne 4
-> 
+>
 > a a. Oo
 
 ![[assets/slides/wsFd22SL1s8/slide-006.jpg]]
@@ -140,15 +140,15 @@ OCR text:
 OCR text:
 
 > * Boots in less than 7 seconds vs 40 seconds for VirtualBox VMs on MacOS.
-> 
+>
 > * PR to bring this 1 second ongoing.
-> 
+>
 > * Fast snapshot tme - single digit seconds
-> 
+>
 > Auto Port Forwarding o? Expand
-> 
+>
 > s
-> 
+>
 > ACCESS Wen ARES WNC SSH nnn ire Sineasa
 > Easy CUA :
 > Backtracking ¢
@@ -179,12 +179,12 @@ OCR text:
 > a
 > Backtracking
 > Ly
-> 
+>
 > * Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner
 > « Agent should be able to snapshot progress and restart from last good snapshot versus starting from scratch
-> 
+>
 > Simple API -
-> 
+>
 > Configurable With Docker tooling ©
 
 ![[assets/slides/wsFd22SL1s8/slide-010.jpg]]
@@ -207,23 +207,23 @@ OCR text:
 OCR text:
 
 > Backtracking
-> 
+>
 > « Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner
-> 
+>
 > ¢ Agent should be able to snapshot progress and restart from last good snapshot versus starting from scratch
-> 
+>
 > Simple API
-> 
+>
 > « Python API
-> 
+>
 > * Golang CLI
-> 
+>
 > « MCP Server
-> 
+>
 > * oOpeanapi compatible ~ generate clients in any language
-> 
+>
 > Configurable With Docker tooling
-> 
+>
 > Dockerfile to configure what runs inside the Sandbox ©
 
 ![[assets/slides/wsFd22SL1s8/slide-012.jpg]]
@@ -461,13 +461,9 @@ OCR text:
 OCR text:
 
 > Arrakis: A Quick Tour Of Linux Sandboxing
-> Linux Execution Model
-> Containers: Why? And What?
-> Containers: Security Story
-> Containers: Sandboxing
-> Containers → Virtualization
-> Linux Virtualization
-> MicroVMs vs Traditional VMs
+> comnenyl sae °
+> Containers: Sandboxing . os
+> Containers ~ Vietusszation | .
 
 ![[assets/slides/wsFd22SL1s8/slide-024.jpg]]
 

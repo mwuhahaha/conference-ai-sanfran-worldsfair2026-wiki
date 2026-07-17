@@ -21,7 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> / ANTHROPIC
+> / ANTHROP\C
 > Claude Agent SDK
 
 ![[assets/slides/TqC1qOfiVcQ/slide-002.jpg]]
@@ -154,16 +154,16 @@ OCR text:
 OCR text:
 
 > Why use the Claude Agent SDK?
-> 
+>
 > - We realized people were using Claude Code for non-coding tasks.
-> 
+>
 > - We build our agents on top of our Agent SDK.
-> 
+>
 > - Itis built on top of lessons we've learned deploying Claude Code to
 > millions of users.
-> 
+>
 > - We have strong opinions on the best way to build agents.
-> 
+>
 > - One of our biggest learnings: the Bash tool is the most powerful agent
 > tool.
 
@@ -190,13 +190,13 @@ OCR text:
 > Bash is what makes Claude Code so good.
 > Bash is a generic version for “code mode” or programmatic tool calling.
 > The bash tool allows you to:
-> 
+>
 > - Store the results of tool calls to files, so you can search them.
-> 
+>
 > - Store memory in files.
-> 
+>
 > - Dynamically generate scripts and call them.
-> 
+>
 > - Compose functionality, use unix primitives like tail, grep, cat, etc.
 > antundSe existing powerful software like ffmpeg, libreoffice, etc.
 
@@ -267,11 +267,11 @@ OCR text:
 OCR text:
 
 > Workflows & Agents
-> 
+>
 > We build both agents and workflows on the Claude agent SDK.
 > Agents are like Claude Code - You talk to them in natural language
 > and they take action.
-> 
+>
 > Workflows are like our Github action - You define inputs and
 > outputs, e.g. take in a PR and give a code review.
 
@@ -281,7 +281,7 @@ OCR text:
 
 > Workflows & Agents
 > When building workflows, use our structured outputs:
-> 
+>
 > https: //platform.claude.com/docs /en /agent-sdk/structured-o
 > utputs
 
@@ -289,9 +289,18 @@ OCR text:
 
 OCR text:
 
-> Verify
-> work
-> CONFIDENTIAL
+> lay
+>
+> i :
+> A '
+>
+> ‘ ‘
+>
+> x ; : MW
+> n 2
+> Pn -
+> oe
+> ma]
 
 ![[assets/slides/TqC1qOfiVcQ/slide-020.jpg]]
 
@@ -357,13 +366,13 @@ OCR text:
 > executable code, assets) containing everything docs.nd
 > Claude needs for a specific task. L apply..template. py
 > Skills give an agent:
-> 
+>
 > General capabilities Claude isn’t good at out of the box (yet)
-> 
+>
 > e.g. creating PDFs, Excel, & Powerpoint files
-> 
+>
 > Knowledge of an organization’s workflows and best practices
-> 
+>
 > e.g. Anthropic’s Brand Styling
 
 ## Slide-Derived Subjects To Review

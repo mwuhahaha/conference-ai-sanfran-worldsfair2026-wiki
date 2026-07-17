@@ -1,4 +1,5 @@
-Build Systems,
+Build
+Systems,
 not Code
-Angie Jones · VP of DX, Agentic AI Foundation
+AngieJones·VPofDX,AgenticAIFoundatin
 angiejones.tech

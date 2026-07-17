@@ -4,6 +4,19 @@ category: "people"
 role: "Director, Product and Solutions Marketing"
 company: "Sonar"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:40624c91ca97b7f67c087e1bd31edd461e1342690b3609885c0c0c6d3a3fd037
+  subjectId: person:anirban-chatterjee
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5335c24280a36723c5664a372d3fd35fad78b1e218b8e35f024407cdce9ebfd5
 ---
 # Anirban Chatterjee
 

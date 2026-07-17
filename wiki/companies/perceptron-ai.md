@@ -3,6 +3,19 @@ title: "Perceptron AI"
 category: "companies"
 aliases: ["Perceptron AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c76113fdc66936aea0fc5b3b2b384ab4eebbf17674f315e207aa98bed838e311
+  subjectId: company:perceptron-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ff9957eb7c4cb85dfcffefe09bf38838846b036393036429bb5ee882e4f66cd1
 ---
 # Perceptron AI
 

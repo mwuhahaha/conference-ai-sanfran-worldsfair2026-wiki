@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Hamming AI"]
 website: "https://hamming.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5afcf2f2a0398a52fb89a2b1b7897cb5af803687a270989e66475cd12f9b49ce
+  subjectId: company:hamming-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1d548cd18c54dda798ad5d59080b6bb5df5cde5206a8bbf0a68763288fb6e959
 ---
 # Hamming AI
 

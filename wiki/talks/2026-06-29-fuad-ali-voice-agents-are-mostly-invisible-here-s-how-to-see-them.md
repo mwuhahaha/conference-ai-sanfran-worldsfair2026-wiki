@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-SbcQYbrvAfI]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-SbcQYbrvAfI`
-- Slide deck: [[youtube-SbcQYbrvAfI-dense-slides|Dense Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]] — 32 visible slide image(s); 32 HTML recreation(s).
-![[assets/dense-slides/SbcQYbrvAfI/slide-001.jpg]]
-![[assets/dense-slides/SbcQYbrvAfI/slide-002.jpg]]
-![[assets/dense-slides/SbcQYbrvAfI/slide-003.jpg]]
+- Slide deck: [[youtube-SbcQYbrvAfI-dense-slides|Dense Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]] — slide evidence page.
 - Additional slide evidence: [[youtube-SbcQYbrvAfI-slides|Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]], [[youtube-SbcQYbrvAfI-reconstructed-slides|Reconstructed Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]]
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
+- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
 - Evidence links for `youtube-SbcQYbrvAfI` (supporting context only): [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 
 ### Agent Reading Notes

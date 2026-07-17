@@ -5,6 +5,19 @@ role: "CTO & Co-Founder"
 company: "Factory"
 twitter: "https://x.com/EnoReyes"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c7c3e89705dc2da66fcf1327cf7bb0327e725c075c10f2b4580d3d4aabb6cad9
+  subjectId: person:eno-reyes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:56fd01fb4b3247812704bd72913098bb70db58375a4cf89004ea2419963d0034
 ---
 # Eno Reyes
 
@@ -28,5 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
 - Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]

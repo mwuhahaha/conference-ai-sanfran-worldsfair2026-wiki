@@ -1,48 +1,51 @@
+amp
+ectors-section.svelte
+Card>
+cCardContent>
+teecnexternatuonnectors asconnectaon（connectaon.io)
+<div class"py-3flex justify-between iteas-center>
+cdiv classe"flex itens-center gop-3")
+<divclassflex iteas-center justify-center p-1.5r
+{#if connection.typegithub_oauth}
+<Githubclass=h-5-5°/>
+Qtype.*Connector.*Omatches
 AIE
-external-connectors-section.svelte
-<Card>
-<CardContent>
-<div class="py-3 flex justify-between items-center">
-<div class="flex items-center gap-3">
-<div class="flex items-center justify-center p-1.5">
-{#if connection.type == 'github_oauth'}
-<Github class="h-5 w-5" />
-{:else if connection.type == 'slack'}
-<Slack class="h-5 w-5" />
-{:else if connection.type == 'notion'}
-<FileText class="h-5 w-5" />
-{:else if connection.type == 'google'}
-<Cloud class="h-5 w-5" />
-{:else if connection.type == 'mcp'}
-<Network class="h-5 w-5" />
-{:else}
-<Link class="h-5 w-5" />
-{/if}
-</div>
-<h3 class="font-medium">{connection.display_name}</h3>
-</div>
-<div class="flex items-center gap-2">
-{#if isConnected(connection.id)}
-const installUrl = getGithubAppInstallationUrl(
-{#if installUrl}
-<Button
-href={installUrl}
-variant="outline"
-target="_blank">
-<Github class="h-4 w-4" />
-Install App to GitHub Organizations
-</Button>
-{/if}
-AMP
-Investigate and implement Linear connector icon
-core/ai/connectors/types.ts L5-60
-Let me also check the complete connector structure to see how connectors are represented:
-type.*Connector.*? 0 matches
-interface.*Connector 0 matches
-Let me search for the connector data structure more broadly:
-Find the data structure definition for connectors, which fields are available like display_name, type, config etc
-Now I need to understand how to check if an MCP connector is for Linear. Let me check if the endpoint_url is available in the UI components:
-Find how MCP connector config like endpoint_url is accessed in the settings and admin pages where icons are displayed
+{:else if conmection.type 'stack}
+Slackclasse²h-5-5”/>
+(else if conectlon.type notion)
+Qinterface.*ConnectorOmatches
+<F1leTextclassa"h-5v-5"/>
+(:elseifconection.type-'google')
+Let me search for the connector data structure more
+<Cloudclasse²h-5v-5°/>
+(ielse if conmection.type-ncp'}
+Networkclasseh-5v-5”/>
+QFind the data structure definition for connector
+(:else)
+type,config etc
+<Linkclassah-5v-5°/>
+(it)
+ndpoint_url is
+/div
+avalable in the Ui components:
+<h3classe"font-mediua>(connection.display_nane)
+</divs
+/h
+QFindhowMCP connector cor
+icons are displayed
+div class="flex itens-center gap-2">
+(#if isConected（connection.1d))
+<const Installurl-getGitHubAppInstallationurl
+(#ifinstalturl)
 TODOs
-Find Linear icon in other existing linear connector code
-Implement the Linear connector icon customization feature
+Button
+href=(instalturl)
+classflex stens-center gap-2
+varianta"outline"
+targete"_blank"
+Githubclassh-4-4²>
+Install App to Gitub Organizations
+Button
+(/if)
+aws
+d'sFair

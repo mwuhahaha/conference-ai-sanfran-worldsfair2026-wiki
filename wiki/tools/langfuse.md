@@ -5,6 +5,19 @@ aliases: ["Langfuse"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence"]
 scheduleTracks: ["Workshops Day 1"]
 scheduleRooms: ["Track 9", "Expo Stage 1 NE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f8c8119b517e7aadef95c0f8c0f93d37ba6d9e7c2309c5e9a93862a946ef57c6
+  subjectId: tool:langfuse
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:6906e4f3de7cb444e630147937f2523198a88b21e166c15b545cca9d9c5d9c26
 ---
 
 # Langfuse

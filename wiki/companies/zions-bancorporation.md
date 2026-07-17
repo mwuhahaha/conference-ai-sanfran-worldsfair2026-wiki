@@ -3,6 +3,19 @@ title: "Zions Bancorporation"
 category: "companies"
 aliases: ["Zions Bancorporation"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1528eb2cc9383c5a12d0ae84b278c87de3c55ab2f27867c01608fe93161a4f16
+  subjectId: company:zions-bancorporation
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:89b28acbba39170f9e87a8fcdef51c225fe097bb6b82596ffd6ad393f09ed0a3
 ---
 # Zions Bancorporation
 

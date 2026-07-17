@@ -5,6 +5,19 @@ role: "Lead AI Engineer"
 company: "Gates Foundation"
 linkedin: "https://www.linkedin.com/in/mike-phipps-79339a38"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dd768cc8075a65786b529b4493b4253e783030f46a7220b55372160399de75f3
+  subjectId: person:mike-phipps
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a17dc54ba5c93b70d59463c860046c57f706ea772a8076a1b29927e59e78072e
 ---
 # Mike Phipps
 

@@ -22,8 +22,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > 16 calls per shift
-> 32 calls per day
-> 244 calls per week
+> 32 calls per day re
+> 244 calls per week , { ue
+> . i
+> Vu s
 
 ![[assets/slides/dvft0Gp9sEE/slide-002.jpg]]
 
@@ -68,7 +70,7 @@ OCR text:
 
 > iy
 > | a:
-> 
+>
 > mi Par Ph oN
 > eT agN an
 
@@ -76,34 +78,43 @@ OCR text:
 
 OCR text:
 
-> Cross-
-> Organizational
-> Impact
-> Leadership
-> Marketing
-> Sales
+> Cross- Leadership
+> 9 Organizational Marketing
+> ‘ Impact pate
+> e releacy
+> ae
+> aa 4
+> or ae a
+> Ba
 
 ![[assets/slides/dvft0Gp9sEE/slide-007.jpg]]
 
 OCR text:
 
-> Models Matter
+> = Models Matter
+> *| : ry
+>
+> q in ‘ 4
+>
+> Ma
 
 ![[assets/slides/dvft0Gp9sEE/slide-008.jpg]]
 
 OCR text:
 
-> Your Data Goldmine
-> GONG Trustpilot
-> salesforce X
-> USERVOICE INTERCOM
+> Your Data Goldmine eee:
+> yx GONG ¥* Trustpilot
+> xX
+> ijJ) USERVOICE INTERCOM
 
 ![[assets/slides/dvft0Gp9sEE/slide-009.jpg]]
 
 OCR text:
 
-> Charlie Guo
-> www.ignorance.ai
+> Charlie Guo j 7 ore
+> www.ignorance.al | [~) ae
+> i
+> a _ |
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

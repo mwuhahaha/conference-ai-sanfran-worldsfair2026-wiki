@@ -1,12 +1,4 @@
-WHAT WE GOT WRONG
 We optimized the model. We should have optimized the
-context.
-Better prompts
-“Be concise.” “Only return relevant code.” The model still received 45k tokens of input.
-Model settings
-Temperature, top-p, max_tokens control output shape. The 45k input was already sent and billed.
-Output compression
-“Talk like a caveman.” Saves 75% of output (10% of bill). Net impact: ~8%. Wrong 10%.
-A retrieval layer between codebase and agent
-Search an index, return only relevant chunks. 94% fewer tokens.
-elara-labs/code-context-engine
+eet a> 4
+@ A retrieval layer between codebase and agent 4»
+t

@@ -5,6 +5,19 @@ role: "Machine Learning Lead"
 company: "Meta"
 linkedin: "https://www.linkedin.com/in/aditya-gautam-68233a30/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:206806ead752b64954b5f5ad1e47d3cdbcf8dd9523ba65bac56a0475038b0954
+  subjectId: person:aditya-gautam
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c5e1ba10d3047432e46738b3e4e971799baf50ab4f278dad6b6b033cec4d8036
 ---
 # Aditya Gautam
 

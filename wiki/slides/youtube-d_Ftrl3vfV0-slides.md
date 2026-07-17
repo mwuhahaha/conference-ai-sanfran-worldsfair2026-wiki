@@ -17,29 +17,63 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/d_Ftrl3vfV0/slide-001.jpg]]
+
+OCR text:
+
+> A
+>
+> is ee
+>
+> = a
+>
+> \ nae
+>
+> &
+
+![[assets/slides/d_Ftrl3vfV0/slide-002.jpg]]
+![[assets/slides/d_Ftrl3vfV0/slide-003.jpg]]
+![[assets/slides/d_Ftrl3vfV0/slide-004.jpg]]
+
+OCR text:
+
+> Cool, IDC
+
+![[assets/slides/d_Ftrl3vfV0/slide-005.jpg]]
+![[assets/slides/d_Ftrl3vfV0/slide-006.jpg]]
+
+OCR text:
+
+> The Click Test: |
+> Could a 17-year old
+> understand what you do?
+>
+> A
+
+![[assets/slides/d_Ftrl3vfV0/slide-007.jpg]]
+
+OCR text:
+
+> SPW iia
+> The Al Software Engineer
+
+![[assets/slides/d_Ftrl3vfV0/slide-008.jpg]]
 ![[assets/slides/d_Ftrl3vfV0/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/d_Ftrl3vfV0/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> Pitch Timer: 13:78
 > After:
-> Who made this bug report?
+> e
+> Support Team
+> Who made this bug report?|
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/d_Ftrl3vfV0/slide-001.jpg) — `demo_video` confidence `0.98`; Handheld speaker shot with prop, not a presentation slide.
-- [`slide-002.jpg`](/assets/slides/d_Ftrl3vfV0/slide-002.jpg) — `speaker_stage` confidence `0.99`; Speaker hallway shot, no slide content.
-- [`slide-003.jpg`](/assets/slides/d_Ftrl3vfV0/slide-003.jpg) — `speaker_stage` confidence `0.99`; Speaker close-up, no slide content.
-- [`slide-004.jpg`](/assets/slides/d_Ftrl3vfV0/slide-004.jpg) — `demo_video` confidence `0.96`; Split-screen speaker/demo video, not a standalone slide.
-- [`slide-005.jpg`](/assets/slides/d_Ftrl3vfV0/slide-005.jpg) — `demo_video` confidence `0.98`; Cinematic B-roll/demo shot, not a slide.
-- [`slide-006.jpg`](/assets/slides/d_Ftrl3vfV0/slide-006.jpg) — `demo_video` confidence `0.97`; Speaker shot with overlay card, not a standalone slide.
-- [`slide-007.jpg`](/assets/slides/d_Ftrl3vfV0/slide-007.jpg) — `title_card` confidence `0.96`; branding/title card, no substantive slide content
-- [`slide-008.jpg`](/assets/slides/d_Ftrl3vfV0/slide-008.jpg) — `speaker_stage` confidence `0.99`; speaker on stage, no readable slide content
-- [`slide-010.jpg`](/assets/slides/d_Ftrl3vfV0/slide-010.jpg) — `demo_video` confidence `0.98`; non-slide video still / costume frame
+![[assets/slides/d_Ftrl3vfV0/slide-010.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/d_Ftrl3vfV0/audit.json`
+OCR text:
+
+> STILL DONT
+> GET IT.
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Monitor the official AI Engineer YouTube channel for WF2026 videos.
 
-This is intentionally project-local. It uses the public YouTube RSS feed for
-date-gated discovery because that path exposes stable published dates without
-requiring fragile full video extraction. For new official videos, it creates
-wiki resource pages immediately, tries captions/transcript import, hands the
-result to the checked-in wiki-maker update profile, and records pending failures
-instead of treating YouTube 429/IP-blocking as fatal.
+This is intentionally project-local. Recurring discovery reconciles the
+owner-validated official WF26 playlist with date-gated RSS/channel candidates.
+For new official videos, it creates wiki resource pages immediately, tries
+captions/transcript import, hands the result to the checked-in wiki-maker update
+profile, and records pending failures instead of treating YouTube 429/IP-blocking
+as fatal.
 """
 
 from __future__ import annotations
@@ -23,9 +23,11 @@ import time
 import traceback
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import date, datetime, timezone, timedelta
+from datetime import date, datetime, timezone
+from hashlib import sha256
 from pathlib import Path
 from urllib.request import Request, urlopen
+from uuid import uuid4
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +36,9 @@ WIKI = ROOT / "wiki"
 STATE_DIR = ROOT / ".ops" / "state" / "youtube-monitor"
 STATUS_JSON = STATE_DIR / "status.json"
 STATUS_HTML = STATE_DIR / "status.html"
+TRANSACTION_JOURNAL = STATE_DIR / "mutation-transaction.json"
+TRANSACTION_BACKUPS = STATE_DIR / "mutation-transaction"
+PUBLISH_SYNC_JOURNAL = STATE_DIR / "publish-sync.json"
 RSS_SNAPSHOT = RAW / "official-youtube-rss-latest.json"
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 CHANNEL_ID = "UCLKPca3kwwd-B59HNr-_lvA"
@@ -41,6 +46,8 @@ CHANNEL_RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}
 OFFICIAL_CHANNEL = "AI Engineer"
 OFFICIAL_PLAYLIST_ID = "PLDyBmFH9HlVc"
 OFFICIAL_PLAYLIST_URL = f"https://www.youtube.com/playlist?list={OFFICIAL_PLAYLIST_ID}"
+WF26_EVENT_START_DATE = date(2026, 6, 29)
+WF26_NON_PLAYLIST_MEDIA_END_DATE = date(2026, 12, 31)
 OFFICIAL_PLAYLIST_BASELINE_IDS = (
     "iCj_ATyThvc",
     "ZSQb5fzRFPw",
@@ -121,9 +128,22 @@ class PlaylistEntry:
     metadata_error: str = ""
 
 
-def run(cmd: list[str], *, timeout: int = 600, check: bool = False) -> subprocess.CompletedProcess[str]:
+def run(
+    cmd: list[str],
+    *,
+    timeout: int = 600,
+    check: bool = False,
+    env: dict[str, str] | None = None,
+) -> subprocess.CompletedProcess[str]:
     print("+", " ".join(cmd), flush=True)
-    cp = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, timeout=timeout)
+    cp = subprocess.run(
+        cmd,
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        timeout=timeout,
+        env=env,
+    )
     if cp.stdout:
         print(cp.stdout[-4000:], flush=True)
     if cp.stderr:
@@ -160,6 +180,52 @@ def upsert_section(text: str, heading: str, body: str) -> str:
     if pattern.search(text):
         return pattern.sub(block, text).rstrip() + "\n"
     return text.rstrip() + block
+
+
+def generated_recording_block_pattern(video_id: str) -> re.Pattern[str]:
+    """Match only the three lines emitted by ``update_talk_pages`` for a video."""
+
+    return re.compile(
+        rf"(?m)^- \[\[youtube-{re.escape(video_id)}\]\][^\n]*\n"
+        r"^- Evidence status:[^\n]*\n"
+        r"^- Boundary:[^\n]*(?:\n|\Z)"
+    )
+
+
+def reconcile_official_recording_section(
+    text: str, video_id: str, generated_body: str | None
+) -> str:
+    """Reconcile one generated video block without overwriting manual section content."""
+
+    section_pattern = re.compile(
+        r"(?m)(?P<prefix>^|\n)## Official YouTube Recording\n"
+        r"(?P<body>.*?)(?=\n## |\Z)",
+        re.S,
+    )
+    section = section_pattern.search(text)
+    if not section:
+        if generated_body is None:
+            return text
+        return text.rstrip() + f"\n\n## Official YouTube Recording\n{generated_body.rstrip()}\n"
+
+    existing_body = section.group("body")
+    remaining_body = generated_recording_block_pattern(video_id).sub("", existing_body)
+    if generated_body is not None:
+        remaining_body = remaining_body.rstrip()
+        separator = "\n\n" if remaining_body else ""
+        replacement_body = f"{remaining_body}{separator}{generated_body.rstrip()}\n"
+    elif remaining_body.strip():
+        replacement_body = remaining_body
+    else:
+        replacement_body = ""
+
+    if replacement_body:
+        replacement = (
+            f"{section.group('prefix')}## Official YouTube Recording\n{replacement_body}"
+        )
+    else:
+        replacement = "" if section.group("prefix") == "" else "\n"
+    return text[: section.start()] + replacement + text[section.end() :]
 
 
 def normalize_title(value: str) -> str:
@@ -215,9 +281,293 @@ def load_json(path: Path, default: object) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def write_json(path: Path, payload: object) -> None:
+def _atomic_write_bytes(path: Path, value: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+    temporary = path.with_name(f".{path.name}.tmp-{uuid4().hex}")
+    try:
+        temporary.write_bytes(value)
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists() or temporary.is_symlink():
+            temporary.unlink()
+
+
+def _remove_path(path: Path) -> None:
+    if path.is_symlink() or path.is_file():
+        path.unlink()
+    elif path.is_dir():
+        shutil.rmtree(path)
+
+
+class MonitorMutationTransaction:
+    """Durably restore monitor-owned canonical mutations after a failed run."""
+
+    SCHEMA_VERSION = 1
+
+    def __init__(self, root: Path, state_dir: Path, payload: dict[str, object] | None = None):
+        self.root = Path(os.path.abspath(root))
+        self.state_dir = Path(os.path.abspath(state_dir))
+        self.journal_path = self.state_dir / TRANSACTION_JOURNAL.name
+        self.backup_root = self.state_dir / TRANSACTION_BACKUPS.name
+        self.payload = payload or {
+            "schemaVersion": self.SCHEMA_VERSION,
+            "status": "active",
+            "root": str(self.root),
+            "startedAt": datetime.now(timezone.utc).isoformat(),
+            "pathSnapshots": {},
+            "rootSnapshots": {},
+            "globSnapshots": {},
+        }
+
+    @classmethod
+    def load(cls, root: Path, state_dir: Path) -> "MonitorMutationTransaction | None":
+        journal = Path(state_dir) / TRANSACTION_JOURNAL.name
+        if not journal.is_file():
+            return None
+        payload = json.loads(journal.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict) or payload.get("schemaVersion") != cls.SCHEMA_VERSION:
+            raise RuntimeError("unsupported monitor mutation transaction journal")
+        transaction = cls(root, state_dir, payload)
+        if payload.get("root") != str(transaction.root):
+            raise RuntimeError("monitor mutation transaction root does not match this checkout")
+        return transaction
+
+    def _relative(self, path: Path) -> str:
+        absolute = Path(os.path.abspath(path))
+        try:
+            relative = absolute.relative_to(self.root)
+        except ValueError as exc:
+            raise ValueError(f"transaction path escapes the project root: {path}") from exc
+        return relative.as_posix()
+
+    def _persist(self) -> None:
+        self.state_dir.mkdir(parents=True, exist_ok=True)
+        _atomic_write_bytes(
+            self.journal_path,
+            (json.dumps(self.payload, indent=2, sort_keys=True) + "\n").encode("utf-8"),
+        )
+
+    def _backup_path(self, namespace: str, relative: str) -> Path:
+        digest = sha256(relative.encode("utf-8")).hexdigest()
+        return self.backup_root / namespace / digest
+
+    def _snapshot(self, path: Path, backup: Path) -> dict[str, object]:
+        if path.is_symlink():
+            return {"kind": "symlink", "target": os.readlink(path)}
+        if path.is_file():
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(path, backup)
+            return {"kind": "file", "backup": str(backup.relative_to(self.state_dir))}
+        if path.is_dir():
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copytree(path, backup, symlinks=True)
+            return {"kind": "directory", "backup": str(backup.relative_to(self.state_dir))}
+        return {"kind": "missing"}
+
+    def track_path(self, path: Path) -> None:
+        absolute = Path(os.path.abspath(path))
+        if absolute == self.state_dir or self.state_dir in absolute.parents:
+            return
+        relative = self._relative(absolute)
+        snapshots = self.payload["pathSnapshots"]
+        assert isinstance(snapshots, dict)
+        if relative in snapshots:
+            return
+        snapshots[relative] = {"status": "preparing"}
+        self._persist()
+        snapshot = self._snapshot(
+            absolute, self._backup_path("paths", relative)
+        )
+        snapshots[relative] = {"status": "ready", **snapshot}
+        self._persist()
+
+    def track_glob(self, parent: Path, pattern: str) -> None:
+        relative_parent = self._relative(parent)
+        key = f"{relative_parent}\0{pattern}"
+        globs = self.payload["globSnapshots"]
+        assert isinstance(globs, dict)
+        if key in globs:
+            return
+        baseline = []
+        for path in sorted(parent.glob(pattern)) if parent.is_dir() else []:
+            self.track_path(path)
+            baseline.append(self._relative(path))
+        globs[key] = {
+            "parent": relative_parent,
+            "pattern": pattern,
+            "baseline": baseline,
+        }
+        self._persist()
+
+    def backup_canonical_root(self, path: Path) -> None:
+        relative = self._relative(path)
+        snapshots = self.payload["rootSnapshots"]
+        assert isinstance(snapshots, dict)
+        if relative in snapshots:
+            return
+        snapshots[relative] = {"status": "preparing"}
+        self._persist()
+        snapshot = self._snapshot(path, self._backup_path("roots", relative))
+        snapshots[relative] = {"status": "ready", **snapshot}
+        self._persist()
+
+    def _restore_snapshot(self, path: Path, snapshot: dict[str, object]) -> None:
+        kind = snapshot.get("kind")
+        if kind == "missing":
+            _remove_path(path)
+            return
+        if kind == "symlink":
+            _remove_path(path)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.symlink_to(str(snapshot["target"]))
+            return
+        backup = self.state_dir / str(snapshot["backup"])
+        if kind == "file":
+            _atomic_write_bytes(path, backup.read_bytes())
+            shutil.copystat(backup, path, follow_symlinks=False)
+            return
+        if kind != "directory":
+            raise RuntimeError(f"unsupported transaction snapshot kind: {kind}")
+        replacement = path.with_name(f".{path.name}.rollback-{uuid4().hex}")
+        displaced = path.with_name(f".{path.name}.displaced-{uuid4().hex}")
+        shutil.copytree(backup, replacement, symlinks=True)
+        try:
+            if path.exists() or path.is_symlink():
+                os.replace(path, displaced)
+            os.replace(replacement, path)
+            _remove_path(displaced)
+        except Exception:
+            if not (path.exists() or path.is_symlink()) and (
+                displaced.exists() or displaced.is_symlink()
+            ):
+                os.replace(displaced, path)
+            raise
+        finally:
+            _remove_path(replacement)
+
+    def rollback(self) -> dict[str, object]:
+        errors: list[str] = []
+        restored: list[str] = []
+        root_snapshots = self.payload.get("rootSnapshots", {})
+        if isinstance(root_snapshots, dict):
+            for relative, snapshot in sorted(root_snapshots.items()):
+                if not isinstance(snapshot, dict) or snapshot.get("status") != "ready":
+                    continue
+                try:
+                    self._restore_snapshot(self.root / relative, snapshot)
+                    restored.append(relative)
+                except Exception as exc:
+                    errors.append(f"{relative}: {exc}")
+
+        glob_snapshots = self.payload.get("globSnapshots", {})
+        if isinstance(glob_snapshots, dict):
+            for snapshot in glob_snapshots.values():
+                if not isinstance(snapshot, dict):
+                    continue
+                parent = self.root / str(snapshot.get("parent") or "")
+                pattern = str(snapshot.get("pattern") or "")
+                baseline = set(snapshot.get("baseline") or [])
+                try:
+                    for path in sorted(parent.glob(pattern)) if parent.is_dir() else []:
+                        if self._relative(path) not in baseline:
+                            _remove_path(path)
+                except Exception as exc:
+                    errors.append(f"glob {parent}/{pattern}: {exc}")
+
+        path_snapshots = self.payload.get("pathSnapshots", {})
+        if isinstance(path_snapshots, dict):
+            for relative, snapshot in sorted(path_snapshots.items()):
+                if not isinstance(snapshot, dict) or snapshot.get("status") != "ready":
+                    continue
+                try:
+                    self._restore_snapshot(self.root / relative, snapshot)
+                    restored.append(relative)
+                except Exception as exc:
+                    errors.append(f"{relative}: {exc}")
+
+        self.payload["status"] = "rollback_failed" if errors else "rolled_back"
+        self.payload["rolledBackAt"] = datetime.now(timezone.utc).isoformat()
+        self.payload["rollbackErrors"] = errors
+        if errors:
+            self._persist()
+        else:
+            self._cleanup()
+        return {
+            "status": self.payload["status"],
+            "restoredPathCount": len(set(restored)),
+            "errors": errors,
+        }
+
+    def commit(self) -> None:
+        self._cleanup()
+
+    def _cleanup(self) -> None:
+        if self.journal_path.exists():
+            self.journal_path.unlink()
+        if self.backup_root.exists():
+            shutil.rmtree(self.backup_root)
+
+
+_ACTIVE_TRANSACTION: MonitorMutationTransaction | None = None
+
+
+def begin_monitor_transaction() -> MonitorMutationTransaction:
+    global _ACTIVE_TRANSACTION
+    if _ACTIVE_TRANSACTION is not None:
+        raise RuntimeError("a monitor mutation transaction is already active")
+    _ACTIVE_TRANSACTION = MonitorMutationTransaction(ROOT, STATE_DIR)
+    return _ACTIVE_TRANSACTION
+
+
+def recover_monitor_transaction() -> dict[str, object] | None:
+    transaction = MonitorMutationTransaction.load(ROOT, STATE_DIR)
+    if transaction is None:
+        return None
+    return transaction.rollback()
+
+
+def commit_recovered_monitor_transaction() -> dict[str, object] | None:
+    transaction = MonitorMutationTransaction.load(ROOT, STATE_DIR)
+    if transaction is None:
+        return None
+    transaction.commit()
+    return {"status": "committed_after_verified_publish"}
+
+
+def finish_monitor_transaction(transaction: MonitorMutationTransaction) -> None:
+    global _ACTIVE_TRANSACTION
+    transaction.commit()
+    if _ACTIVE_TRANSACTION is transaction:
+        _ACTIVE_TRANSACTION = None
+
+
+def rollback_monitor_transaction(
+    transaction: MonitorMutationTransaction,
+) -> dict[str, object]:
+    global _ACTIVE_TRANSACTION
+    result = transaction.rollback()
+    if _ACTIVE_TRANSACTION is transaction:
+        _ACTIVE_TRANSACTION = None
+    return result
+
+
+def write_text(path: Path, value: str, *, encoding: str = "utf-8") -> None:
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.track_path(path)
+    _atomic_write_bytes(path, value.encode(encoding))
+
+
+def remove_path(path: Path) -> None:
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.track_path(path)
+    _remove_path(path)
+
+
+def write_json(path: Path, payload: object) -> None:
+    write_text(
+        path,
+        json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
+    )
 
 
 def resource_path(video_id: str) -> Path:
@@ -236,10 +586,38 @@ def resource_schedule_projection_needed(
     video_id: str, matched_talks: list[dict[str, str]]
 ) -> bool:
     path = resource_path(video_id)
-    if not path.exists() or not matched_talks:
+    if not path.exists():
         return False
     text = path.read_text(encoding="utf-8", errors="ignore")
-    return any(f"[[{talk['id']}" not in text for talk in matched_talks)
+    if matched_talks:
+        return any(f"[[{talk['id']}" not in text for talk in matched_talks)
+    section = re.search(r"^## Matched Schedule Pages\n(.*?)(?=^## |\Z)", text, re.M | re.S)
+    return bool(section and re.search(r"^- \[\[[^\]]+\]\]", section.group(1), re.M))
+
+
+def resource_playlist_projection_needed(video_id: str) -> bool:
+    """Return whether an existing resource omits its canonical playlist boundary."""
+
+    path = resource_path(video_id)
+    if not path.exists():
+        return False
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    return "Official WF26 playlist membership" not in text
+
+
+def talk_page_projection_needed(
+    video_id: str, matched_talks: list[dict[str, str]]
+) -> bool:
+    desired_paths = {Path(talk["path"]) for talk in matched_talks}
+    candidate_paths = desired_paths | set((WIKI / "talks").glob("*.md"))
+    pattern = generated_recording_block_pattern(video_id)
+    for path in candidate_paths:
+        if not path.exists():
+            continue
+        has_generated_block = bool(pattern.search(path.read_text(encoding="utf-8", errors="ignore")))
+        if has_generated_block != (path in desired_paths):
+            return True
+    return False
 
 
 def frontmatter_speaker_names(text: str) -> list[str]:
@@ -320,6 +698,22 @@ def explicit_wf26_event_title(video: VideoEntry) -> bool:
     if ("world" in title and "fair" in title and "2026" in title) or ("worldsfair" in title and "2026" in title):
         return any(marker in title for marker in ("livestream", "keynote", "talk", "session", "workshop", "recording"))
     return False
+
+
+def non_playlist_media_date_allowed(video: VideoEntry) -> bool:
+    """Bound heuristic channel matching to the WF26 recording year.
+
+    Canonical playlist membership is handled by ``fetch_official_playlist`` and
+    deliberately bypasses this heuristic gate. This gate applies only when text
+    matching is being used to infer event association for a channel upload.
+    """
+
+    if excluded_non_wf26_event_title(video):
+        return False
+    published = video.published_date
+    if explicit_wf26_event_title(video):
+        return published >= WF26_EVENT_START_DATE
+    return WF26_EVENT_START_DATE <= published <= WF26_NON_PLAYLIST_MEDIA_END_DATE
 
 
 def parse_speaker_names(value: str) -> list[str]:
@@ -538,7 +932,7 @@ def fetch_official_playlist(
                 )
             )
             continue
-        if video.channel_id and video.channel_id != CHANNEL_ID:
+        if video.channel_id != CHANNEL_ID:
             raise RuntimeError(
                 f"official WF26 playlist video owner mismatch for {video_id}"
             )
@@ -646,6 +1040,7 @@ def discover_recent_channel_event_rows(
     }
     rows: list[tuple[VideoEntry, list[dict[str, str]]]] = []
     metadata_errors: list[dict[str, str]] = []
+    date_rejected_ids: list[str] = []
     candidates = 0
     for item in payload.get("entries", []):
         if not isinstance(item, dict) or not item.get("id"):
@@ -661,7 +1056,11 @@ def discover_recent_channel_event_rows(
         )
         title_blob = normalize_evidence_text(lightweight.title)
         roster_candidate = any(phrase_present(phrase, title_blob) for phrase in speaker_phrases)
-        if not roster_candidate and not strict_schedule_matches(lightweight, talks):
+        if (
+            not roster_candidate
+            and not strict_schedule_matches(lightweight, talks)
+            and not explicit_wf26_event_title(lightweight)
+        ):
             continue
         candidates += 1
         try:
@@ -669,14 +1068,21 @@ def discover_recent_channel_event_rows(
         except Exception as exc:
             metadata_errors.append({"id": lightweight.video_id, "error": str(exc)})
             continue
+        if excluded_non_wf26_event_title(video):
+            date_rejected_ids.append(video.video_id)
+            continue
+        if not non_playlist_media_date_allowed(video):
+            date_rejected_ids.append(video.video_id)
+            continue
         matched = verified_schedule_matches(video, talks)
-        if matched:
+        if matched or explicit_wf26_event_title(video):
             rows.append((video, matched))
     return rows, {
         "status": "ok",
         "scanned": min(limit, len(payload.get("entries", []))),
         "metadata_candidates": candidates,
         "verified_event_videos": len(rows),
+        "date_rejected_ids": sorted(date_rejected_ids),
         "metadata_errors": metadata_errors,
     }
 
@@ -695,6 +1101,10 @@ def update_official_video_manifest(
         for item in payload.get("videos", [])
         if isinstance(item, dict) and item.get("id")
     }
+    row_matches = {
+        video.video_id: matched
+        for video, matched in rows
+    }
     changed = False
     for video, matched in rows:
         existing = dict(videos.get(video.video_id) or {})
@@ -706,13 +1116,13 @@ def update_official_video_manifest(
             "associationEvidence": (
                 "official_wf26_playlist_membership"
                 if existing.get("playlistId") == OFFICIAL_PLAYLIST_ID
-                else "official_channel_plus_schedule_text"
+                else (
+                    "official_channel_plus_schedule_text"
+                    if matched
+                    else "official_channel_explicit_wf26_title"
+                )
             ),
-            "matchedTalks": (
-                [talk["id"] for talk in matched]
-                if matched
-                else list(existing.get("matchedTalks") or [])
-            ),
+            "matchedTalks": [talk["id"] for talk in matched],
             "uploadDate": video.published_date.isoformat(),
             "releaseDate": video.release_date,
             "transcriptStatus": (
@@ -729,12 +1139,12 @@ def update_official_video_manifest(
 
     for item in playlist_entries or []:
         existing = dict(videos.get(item.video_id) or {})
-        matched_talks = (
-            [talk["id"] for talk in item.matched_talks]
-            if item.matched_talks
-            else list(existing.get("matchedTalks") or [])
-        )
+        matched_talks = [
+            talk["id"]
+            for talk in row_matches.get(item.video_id, list(item.matched_talks))
+        ]
         if item.video is None:
+            matched_talks = list(existing.get("matchedTalks") or [])
             entry = {
                 **existing,
                 "id": item.video_id,
@@ -947,12 +1357,36 @@ def strict_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) -> l
 def event_entries(entries: list[VideoEntry], talks: list[dict[str, str]]) -> list[tuple[VideoEntry, list[dict[str, str]]]]:
     rows = []
     for entry in entries:
+        if not non_playlist_media_date_allowed(entry):
+            continue
         if excluded_non_wf26_event_title(entry):
             continue
         matched = strict_schedule_matches(entry, talks)
         if explicit_wf26_event_title(entry) or matched:
             rows.append((entry, matched))
     return rows
+
+
+def deduplicate_event_rows(
+    *row_groups: list[tuple[VideoEntry, list[dict[str, str]]]],
+) -> list[tuple[VideoEntry, list[dict[str, str]]]]:
+    """Prefer later metadata while retaining every independently verified talk match."""
+
+    combined: dict[str, tuple[VideoEntry, list[dict[str, str]]]] = {}
+    first_seen_ids: list[str] = []
+    for rows in row_groups:
+        for entry, matched in rows:
+            previous = combined.get(entry.video_id)
+            if previous is None:
+                first_seen_ids.append(entry.video_id)
+            previous_matches = previous[1] if previous else []
+            matches_by_id = {
+                str(talk["id"]): talk
+                for talk in [*previous_matches, *matched]
+                if talk.get("id")
+            }
+            combined[entry.video_id] = (entry, list(matches_by_id.values()))
+    return [combined[video_id] for video_id in first_seen_ids]
 
 
 def write_resource_page(
@@ -968,6 +1402,7 @@ def write_resource_page(
     old_enriched = re.search(r'^last_enriched:\s*"?([^"\n]+)', old, re.M)
     enriched_at = old_enriched.group(1) if old_enriched else datetime.now(timezone.utc).isoformat()
     playlist_admitted = association_evidence == "official_wf26_playlist_membership"
+    explicit_title_admitted = association_evidence == "official_channel_explicit_wf26_title"
     talk_lines = []
     if matched_talks:
         for talk in matched_talks:
@@ -1000,7 +1435,11 @@ def write_resource_page(
             "WF26 playlist. The page records association metadata only until the premiere is "
             "playable; transcript and slide evidence remain pending."
             if playlist_admitted
-            else "A scheduled official AI Engineer YouTube premiere independently matched to an AI Engineer World's Fair San Francisco 2026 session. The page records the pending media source now; transcript and slide evidence remain unavailable until the premiere is playable."
+            else (
+                "A scheduled official AI Engineer YouTube premiere whose official-channel title explicitly identifies it as AI Engineer World's Fair 2026 media. No exact schedule-page match is inferred; transcript and slide evidence remain unavailable until the premiere is playable."
+                if explicit_title_admitted
+                else "A scheduled official AI Engineer YouTube premiere independently matched to an AI Engineer World's Fair San Francisco 2026 session. The page records the pending media source now; transcript and slide evidence remain unavailable until the premiere is playable."
+            )
         )
     else:
         media_description = (
@@ -1008,7 +1447,11 @@ def write_resource_page(
             "playlist. Playlist membership establishes event association; official schedule "
             "pages remain canonical for schedule metadata."
             if playlist_admitted
-            else "An official AI Engineer YouTube recording independently matched to an AI Engineer World's Fair San Francisco 2026 session. Official schedule pages remain canonical for schedule metadata."
+            else (
+                "An official AI Engineer YouTube recording whose official-channel title explicitly identifies it as AI Engineer World's Fair 2026 media. No exact schedule-page match is inferred; official schedule pages remain canonical for schedule metadata."
+                if explicit_title_admitted
+                else "An official AI Engineer YouTube recording independently matched to an AI Engineer World's Fair San Francisco 2026 session. Official schedule pages remain canonical for schedule metadata."
+            )
         )
     release_line = f"- Scheduled premiere date: {video.release_date}." if upcoming and video.release_date else ""
     if upcoming:
@@ -1035,7 +1478,11 @@ def write_resource_page(
                     "sourceLabels": (
                         ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
                         if playlist_admitted
-                        else ["Official AI Engineer YouTube channel", "Official-channel video metadata"]
+                        else (
+                            ["Official AI Engineer YouTube channel", "Explicit WF26 title metadata"]
+                            if explicit_title_admitted
+                            else ["Official AI Engineer YouTube channel", "Official-channel video metadata"]
+                        )
                     ),
                     "videoId": video.video_id,
                     "publishedDate": video.published_date.isoformat(),
@@ -1052,7 +1499,11 @@ def write_resource_page(
             (
                 f"- Admission: official playlist `{OFFICIAL_PLAYLIST_ID}` membership."
                 if playlist_admitted
-                else "- Admission: official-channel metadata independently matched to schedule evidence."
+                else (
+                    "- Admission: official-channel title explicitly identifies WF26 / World's Fair 2026 event media; no exact schedule match is inferred."
+                    if explicit_title_admitted
+                    else "- Admission: official-channel metadata independently matched to schedule evidence."
+                )
             ),
             f"- Published date: {video.published_date.isoformat()}",
             release_line,
@@ -1075,7 +1526,7 @@ def write_resource_page(
     if old == text + "\n":
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text + "\n", encoding="utf-8")
+    write_text(path, text + "\n")
     return True
 
 
@@ -1119,7 +1570,7 @@ def write_unavailable_resource_page(item: PlaylistEntry) -> bool:
     if old == text:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    write_text(path, text)
     return True
 
 
@@ -1149,12 +1600,19 @@ def update_talk_pages(video: VideoEntry, matched_talks: list[dict[str, str]]) ->
             boundary_line,
         ]
     )
-    for talk in matched_talks:
-        path = Path(talk["path"])
+    desired_paths = {Path(talk["path"]) for talk in matched_talks}
+    candidate_paths = desired_paths | set((WIKI / "talks").glob("*.md"))
+    for path in sorted(candidate_paths):
+        if not path.exists():
+            continue
         text = path.read_text(encoding="utf-8")
-        new_text = upsert_section(text, "Official YouTube Recording", body)
+        new_text = reconcile_official_recording_section(
+            text,
+            video.video_id,
+            body if path in desired_paths else None,
+        )
         if new_text != text:
-            path.write_text(new_text, encoding="utf-8")
+            write_text(path, new_text)
             updated += 1
     return updated
 
@@ -1193,6 +1651,9 @@ def try_import_captions(
         return {"status": "pending_premiere", "release_date": video.release_date}
     subtitle_dir = RAW / "youtube-subtitles"
     subtitle_dir.mkdir(parents=True, exist_ok=True)
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.track_path(transcript_path(video.video_id))
+        _ACTIVE_TRANSACTION.track_glob(subtitle_dir, f"{video.video_id}*.vtt")
     before = set(subtitle_dir.glob(f"{video.video_id}*.vtt"))
     cp = run(
         [
@@ -1239,7 +1700,7 @@ def try_import_captions(
         return {"status": "empty_caption_file", "caption_path": str(candidates[0].relative_to(ROOT))}
     target = transcript_path(video.video_id)
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(text + "\n", encoding="utf-8")
+    write_text(target, text + "\n")
     return {
         "status": "captions_imported",
         "path": str(target.relative_to(ROOT)),
@@ -1254,6 +1715,8 @@ def try_import_captions_with_chrome_agent(video: VideoEntry) -> dict[str, object
     if not chrome_project.exists() or not helper.exists():
         return {"status": "chrome_agent_unavailable"}
     target = transcript_path(video.video_id)
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.track_path(target)
     cp = subprocess.run(
         [
             "uv",
@@ -1348,7 +1811,7 @@ def retire_standard_slide_references(video_id: str) -> list[str]:
         updated = strip_standard_slide_references(text, video_id)
         if updated == text:
             continue
-        path.write_text(updated, encoding="utf-8")
+        write_text(path, updated)
         changed.append(str(path.relative_to(ROOT)))
     return changed
 
@@ -1364,9 +1827,9 @@ def retire_standard_slide_artifacts(video_id: str) -> list[str]:
     removed: list[str] = []
     for path in paths:
         if path.is_symlink() or path.is_file():
-            path.unlink()
+            remove_path(path)
         elif path.is_dir():
-            shutil.rmtree(path)
+            remove_path(path)
         else:
             continue
         try:
@@ -1392,6 +1855,10 @@ def try_extract_slides(video: VideoEntry, matched_talks: list[dict[str, str]], *
         return {"status": "skipped_by_configuration"}
     if video.live_status == "is_upcoming":
         return {"status": "pending_premiere", "release_date": video.release_date}
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.backup_canonical_root(WIKI)
+        _ACTIVE_TRANSACTION.track_path(RAW / "slide-ocr" / video.video_id)
+        _ACTIVE_TRANSACTION.track_path(RAW / "slide-extraction-failures.json")
     cmd = [sys.executable, "scripts/extract_video_slides.py", "--scene-detect", f"--video-id={video.video_id}", "--max-slides", "32"]
     outputs: list[str] = []
     for _attempt in range(2):
@@ -1474,7 +1941,161 @@ def playable_manifest_projection(payload: object) -> dict[str, dict[str, object]
     }
 
 
+def content_completion_summary(payload: object) -> dict[str, object]:
+    """Summarize association and local content coverage for the current manifest."""
+
+    raw_videos = payload.get("videos", []) if isinstance(payload, dict) else []
+    if not isinstance(raw_videos, list):
+        raw_videos = []
+    videos = [
+        item
+        for item in raw_videos
+        if isinstance(item, dict) and item.get("id")
+    ]
+    video_ids = {str(item["id"]) for item in videos}
+    associated = [item for item in videos if item.get("associationEvidence")]
+    playable = [item for item in videos if item.get("mediaType") in PLAYABLE_MEDIA_TYPES]
+    scheduled = [item for item in videos if item.get("mediaType") == "scheduled_premiere"]
+    unavailable = [
+        item for item in videos if item.get("mediaType") == "unavailable_playlist_item"
+    ]
+
+    transcript_complete_ids = {
+        str(item["id"])
+        for item in playable
+        if transcript_path(str(item["id"])).exists()
+    }
+    transcript_unavailable_ids = {
+        str(item["id"])
+        for item in playable
+        if str(item.get("transcriptStatus") or "") == "unavailable"
+        and str(item["id"]) not in transcript_complete_ids
+    }
+    slide_complete_ids = {
+        str(item["id"])
+        for item in playable
+        if slides_path(str(item["id"])).exists()
+        or str(item.get("slideStatus") or "") == NO_SLIDES_STATUS
+    }
+    slide_unavailable_ids = {
+        str(item["id"])
+        for item in playable
+        if str(item.get("slideStatus") or "") == "unavailable"
+        and str(item["id"]) not in slide_complete_ids
+    }
+    playable_ids = {str(item["id"]) for item in playable}
+    fully_enriched_ids = transcript_complete_ids & slide_complete_ids
+    baseline_ids = set(OFFICIAL_PLAYLIST_BASELINE_IDS)
+    represented_baseline_ids = video_ids & baseline_ids
+    missing_baseline_ids = baseline_ids - represented_baseline_ids
+    unassociated_count = len(videos) - len(associated)
+
+    if not videos:
+        association_state = "empty"
+    elif unassociated_count or missing_baseline_ids:
+        association_state = "partial"
+    else:
+        association_state = "complete"
+
+    transcript_pending_count = len(
+        playable_ids - transcript_complete_ids - transcript_unavailable_ids
+    )
+    slide_pending_count = len(playable_ids - slide_complete_ids - slide_unavailable_ids)
+    if not playable:
+        transcript_state = "not_applicable"
+        slide_state = "not_applicable"
+    else:
+        transcript_state = (
+            "complete"
+            if len(transcript_complete_ids) == len(playable_ids)
+            else "partial"
+        )
+        slide_state = (
+            "complete" if len(slide_complete_ids) == len(playable_ids) else "partial"
+        )
+
+    content_is_complete = bool(videos) and all(
+        (
+            association_state == "complete",
+            len(fully_enriched_ids) == len(playable_ids),
+            not scheduled,
+            not unavailable,
+        )
+    )
+    return {
+        "state": "complete" if content_is_complete else "partial" if videos else "empty",
+        "scope": "current_manifest_and_local_artifacts",
+        "media_association": {
+            "state": association_state,
+            "manifest_count": len(videos),
+            "associated_count": len(associated),
+            "unassociated_count": unassociated_count,
+            "playable_count": len(playable),
+            "scheduled_premiere_count": len(scheduled),
+            "unavailable_count": len(unavailable),
+            "playlist_baseline_count": len(baseline_ids),
+            "playlist_baseline_represented_count": len(represented_baseline_ids),
+            "playlist_baseline_missing_count": len(missing_baseline_ids),
+        },
+        "transcripts": {
+            "state": transcript_state,
+            "eligible_count": len(playable),
+            "complete_count": len(transcript_complete_ids),
+            "pending_count": transcript_pending_count,
+            "unavailable_count": len(transcript_unavailable_ids),
+        },
+        "slides": {
+            "state": slide_state,
+            "eligible_count": len(playable),
+            "complete_count": len(slide_complete_ids),
+            "pending_count": slide_pending_count,
+            "unavailable_count": len(slide_unavailable_ids),
+        },
+        "fully_enriched_playable_count": len(fully_enriched_ids),
+        "partial_playable_count": len(playable_ids - fully_enriched_ids),
+    }
+
+
+def content_completion_message(summary: dict[str, object]) -> str:
+    transcripts = summary.get("transcripts")
+    slides = summary.get("slides")
+    media = summary.get("media_association")
+    transcripts = transcripts if isinstance(transcripts, dict) else {}
+    slides = slides if isinstance(slides, dict) else {}
+    media = media if isinstance(media, dict) else {}
+    return (
+        f"Content acquisition is {summary.get('state', 'unknown')}: "
+        f"{transcripts.get('complete_count', 0)}/{transcripts.get('eligible_count', 0)} "
+        "playable transcripts and "
+        f"{slides.get('complete_count', 0)}/{slides.get('eligible_count', 0)} "
+        "playable slide outcomes are resolved; "
+        f"{media.get('scheduled_premiere_count', 0)} premieres and "
+        f"{media.get('unavailable_count', 0)} unavailable media items remain."
+    )
+
+
+def rollback_failed_monitor_run(
+    report: dict[str, object], transaction: MonitorMutationTransaction | None
+) -> None:
+    if transaction is None:
+        return
+    rollback = rollback_monitor_transaction(transaction)
+    report["mutation_rollback"] = rollback
+    if rollback.get("errors"):
+        report["state"] = "failed"
+        report["status"] = "failed"
+        report["message"] = (
+            f"{report.get('message', '')} Canonical rollback is incomplete; "
+            "the next monitor start will retry recovery before acquisition."
+        ).strip()
+
+
 def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dict[str, object]]:
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.backup_canonical_root(WIKI)
+        _ACTIVE_TRANSACTION.backup_canonical_root(ROOT / "dist")
+        _ACTIVE_TRANSACTION.track_path(ROOT / "agent-index.json")
+        _ACTIVE_TRANSACTION.track_path(ROOT / "agent-index.md")
     cmd = [
         wiki_maker_executable(),
         "update",
@@ -1487,6 +2108,117 @@ def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dic
     cmd.append("--json")
     cp = run(cmd, timeout=7200)
     return [{"cmd": cmd, "returncode": cp.returncode}]
+
+
+def publish_sync_journal_path() -> Path:
+    return STATE_DIR / PUBLISH_SYNC_JOURNAL.name
+
+
+def _write_publish_sync(payload: dict[str, object]) -> None:
+    write_json(publish_sync_journal_path(), payload)
+
+
+def _clear_publish_sync() -> None:
+    publish_sync_journal_path().unlink(missing_ok=True)
+
+
+def _retry_git(
+    command: list[str], *, attempts: int = 3, timeout: int = 60
+) -> subprocess.CompletedProcess[str]:
+    result: subprocess.CompletedProcess[str] | None = None
+    for attempt in range(attempts):
+        result = run(command, timeout=timeout)
+        if result.returncode == 0:
+            return result
+        if attempt + 1 < attempts:
+            time.sleep(0.2 * (attempt + 1))
+    assert result is not None
+    return result
+
+
+def _finalize_local_publish_sync(
+    payload: dict[str, object], *, verify_remote: bool
+) -> dict[str, object]:
+    base_commit = str(payload.get("baseCommit") or "")
+    candidate_commit = str(payload.get("candidateCommit") or "")
+    if not re.fullmatch(r"[0-9a-f]{40,64}", base_commit) or not re.fullmatch(
+        r"[0-9a-f]{40,64}", candidate_commit
+    ):
+        raise RuntimeError("publish sync journal contains invalid commit IDs")
+    branch = run(["git", "branch", "--show-current"], timeout=60)
+    if branch.returncode != 0 or branch.stdout.strip() != "main":
+        raise RuntimeError("publish sync recovery requires the checked-out main branch")
+    head = run(["git", "rev-parse", "HEAD"], timeout=60)
+    current_head = head.stdout.strip()
+    if head.returncode != 0 or current_head not in {base_commit, candidate_commit}:
+        raise RuntimeError(
+            "local main moved outside the monitor publish transaction; refusing to overwrite it"
+        )
+
+    if verify_remote:
+        remote = run(["git", "ls-remote", "origin", "refs/heads/main"], timeout=120)
+        remote_head = remote.stdout.split(maxsplit=1)[0] if remote.stdout.strip() else ""
+        if remote.returncode != 0:
+            raise RuntimeError("cannot verify the remote main commit for publish recovery")
+        if remote_head != candidate_commit:
+            if payload.get("phase") == "candidate_prepared":
+                _clear_publish_sync()
+                return {
+                    "status": "candidate_not_published",
+                    "candidateCommit": candidate_commit,
+                }
+            raise RuntimeError("remote main does not match the published monitor candidate")
+
+    if current_head == base_commit:
+        update_ref = _retry_git(
+            [
+                "git",
+                "update-ref",
+                "refs/heads/main",
+                candidate_commit,
+                base_commit,
+            ]
+        )
+        if update_ref.returncode != 0:
+            return {
+                "status": "local_sync_pending",
+                "candidateCommit": candidate_commit,
+                "localRefReturncode": update_ref.returncode,
+            }
+
+    index_tree = run(["git", "write-tree"], timeout=60)
+    base_tree = run(["git", "rev-parse", f"{base_commit}^{{tree}}"], timeout=60)
+    candidate_tree = run(
+        ["git", "rev-parse", f"{candidate_commit}^{{tree}}"], timeout=60
+    )
+    if any(item.returncode != 0 for item in (index_tree, base_tree, candidate_tree)):
+        raise RuntimeError("cannot inspect the local index during publish recovery")
+    if index_tree.stdout.strip() not in {
+        base_tree.stdout.strip(),
+        candidate_tree.stdout.strip(),
+    }:
+        raise RuntimeError(
+            "the local index contains user-staged changes; refusing to replace it"
+        )
+    refresh_index = _retry_git(["git", "read-tree", candidate_commit])
+    if refresh_index.returncode != 0:
+        return {
+            "status": "local_sync_pending",
+            "candidateCommit": candidate_commit,
+            "localIndexReturncode": refresh_index.returncode,
+        }
+    _clear_publish_sync()
+    return {"status": "synchronized", "candidateCommit": candidate_commit}
+
+
+def recover_monitor_publish_sync() -> dict[str, object] | None:
+    path = publish_sync_journal_path()
+    if not path.is_file():
+        return None
+    payload = load_json(path, {})
+    if not isinstance(payload, dict) or payload.get("schemaVersion") != 1:
+        raise RuntimeError("invalid monitor publish sync journal")
+    return _finalize_local_publish_sync(payload, verify_remote=True)
 
 
 def maybe_commit_and_push(enabled: bool, message: str) -> dict[str, object]:
@@ -1504,16 +2236,135 @@ def maybe_commit_and_push(enabled: bool, message: str) -> dict[str, object]:
     status = run(["git", "status", "--porcelain"], timeout=60)
     if not status.stdout.strip():
         return {"enabled": True, "changed": False}
-    add_paths = [path for path in ["raw", "wiki", "scripts", "package.json", "package-lock.json"] if (ROOT / path).exists()]
-    run(["git", "add", *add_paths], timeout=120)
-    staged = run(["git", "diff", "--cached", "--quiet"], timeout=60)
-    if staged.returncode == 0:
-        return {"enabled": True, "changed": False, "note": "no publishable staged changes"}
-    commit = run(["git", "commit", "-m", message], timeout=120)
-    if commit.returncode != 0:
-        return {"enabled": True, "changed": True, "commit_returncode": commit.returncode, "error": commit.stderr[-1000:]}
-    push = run(["git", "push", "origin", "HEAD:main"], timeout=300)
-    return {"enabled": True, "changed": True, "commit_returncode": commit.returncode, "push_returncode": push.returncode}
+    add_paths = [
+        path
+        for path in [
+            "raw",
+            "wiki",
+            "scripts",
+            "package.json",
+            "package-lock.json",
+            "agent-index.json",
+            "agent-index.md",
+        ]
+        if (ROOT / path).exists()
+    ]
+    base = run(["git", "rev-parse", "HEAD"], timeout=60)
+    if base.returncode != 0:
+        return {
+            "enabled": True,
+            "changed": True,
+            "commit_returncode": base.returncode,
+            "error": base.stderr[-1000:],
+        }
+
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    temporary_index = STATE_DIR / f"publish-index-{uuid4().hex}.index"
+    git_env = os.environ.copy()
+    git_env["GIT_INDEX_FILE"] = str(temporary_index)
+    try:
+        read_tree = run(["git", "read-tree", base.stdout.strip()], timeout=60, env=git_env)
+        if read_tree.returncode != 0:
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": read_tree.returncode,
+                "error": read_tree.stderr[-1000:],
+            }
+        added = run(["git", "add", "--all", "--", *add_paths], timeout=120, env=git_env)
+        if added.returncode != 0:
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": added.returncode,
+                "error": added.stderr[-1000:],
+            }
+        staged = run(
+            ["git", "diff", "--cached", "--quiet", "--", *add_paths],
+            timeout=60,
+            env=git_env,
+        )
+        if staged.returncode == 0:
+            return {
+                "enabled": True,
+                "changed": False,
+                "note": "no publishable staged changes",
+            }
+        if staged.returncode != 1:
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": staged.returncode,
+                "error": staged.stderr[-1000:],
+            }
+        tree = run(["git", "write-tree"], timeout=60, env=git_env)
+        if tree.returncode != 0:
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": tree.returncode,
+                "error": tree.stderr[-1000:],
+            }
+        commit = run(
+            [
+                "git",
+                "commit-tree",
+                tree.stdout.strip(),
+                "-p",
+                base.stdout.strip(),
+                "-m",
+                message,
+            ],
+            timeout=120,
+        )
+        if commit.returncode != 0:
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": commit.returncode,
+                "error": commit.stderr[-1000:],
+            }
+        commit_id = commit.stdout.strip()
+        publish_sync = {
+            "schemaVersion": 1,
+            "phase": "candidate_prepared",
+            "baseCommit": base.stdout.strip(),
+            "candidateCommit": commit_id,
+            "createdAt": datetime.now(timezone.utc).isoformat(),
+        }
+        _write_publish_sync(publish_sync)
+        push = run(
+            ["git", "push", "origin", f"{commit_id}:refs/heads/main"], timeout=300
+        )
+        if push.returncode != 0:
+            _clear_publish_sync()
+            return {
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": 0,
+                "push_returncode": push.returncode,
+                "base_commit": base.stdout.strip(),
+                "candidate_commit": commit_id,
+                "error": push.stderr[-1000:],
+            }
+        publish_sync["phase"] = "remote_published"
+        publish_sync["publishedAt"] = datetime.now(timezone.utc).isoformat()
+        _write_publish_sync(publish_sync)
+        if _ACTIVE_TRANSACTION is not None:
+            finish_monitor_transaction(_ACTIVE_TRANSACTION)
+        local_sync = _finalize_local_publish_sync(publish_sync, verify_remote=False)
+        return {
+            "enabled": True,
+            "changed": True,
+            "commit_returncode": 0,
+            "push_returncode": 0,
+            "local_sync": local_sync,
+            "base_commit": base.stdout.strip(),
+            "commit": commit_id,
+        }
+    finally:
+        if temporary_index.exists():
+            temporary_index.unlink()
 
 
 def auto_push_preflight() -> dict[str, object]:
@@ -1559,6 +2410,14 @@ def auto_push_preflight() -> dict[str, object]:
 def write_status(report: dict[str, object]) -> None:
     write_json(STATUS_JSON, report)
     STATE_DIR.mkdir(parents=True, exist_ok=True)
+    completion = report.get("content_completion")
+    completion = completion if isinstance(completion, dict) else {}
+    media = completion.get("media_association")
+    media = media if isinstance(media, dict) else {}
+    transcripts = completion.get("transcripts")
+    transcripts = transcripts if isinstance(transcripts, dict) else {}
+    slides = completion.get("slides")
+    slides = slides if isinstance(slides, dict) else {}
     rows = []
     for item in report.get("processed", []) or []:
         rows.append(
@@ -1571,7 +2430,8 @@ def write_status(report: dict[str, object]) -> None:
             f"<td>{html.escape(str((item.get('slides') or {}).get('status', '')))}</td>"
             "</tr>"
         )
-    STATUS_HTML.write_text(
+    write_text(
+        STATUS_HTML,
         f"""<!doctype html>
 <html lang="en">
 <head>
@@ -1591,7 +2451,9 @@ th, td {{ text-align: left; border-bottom: 1px solid #d9ded6; padding: 8px; vert
 <p class="state">{html.escape(str(report.get('state')))}</p>
 <h1>AIE WF2026 YouTube monitor</h1>
 <p>Checked at: <code>{html.escape(str(report.get('checked_at')))}</code></p>
-<p>Latest official video date: <code>{html.escape(str(report.get('latest_published_date')))}</code>; active cutoff date: <code>{html.escape(str(report.get('active_cutoff_date')))}</code>.</p>
+<p>Latest official video date: <code>{html.escape(str(report.get('latest_published_date')))}</code>. Reconciliation has no age-based auto-expiry.</p>
+<p>Content completion: <code>{html.escape(str(completion.get('state', 'unknown')))}</code>. Associated media: {html.escape(str(media.get('associated_count', 0)))}/{html.escape(str(media.get('manifest_count', 0)))}; playable media: {html.escape(str(media.get('playable_count', 0)))}; premieres: {html.escape(str(media.get('scheduled_premiere_count', 0)))}; unavailable: {html.escape(str(media.get('unavailable_count', 0)))}.</p>
+<p>Transcripts: {html.escape(str(transcripts.get('complete_count', 0)))}/{html.escape(str(transcripts.get('eligible_count', 0)))} complete. Slide outcomes: {html.escape(str(slides.get('complete_count', 0)))}/{html.escape(str(slides.get('eligible_count', 0)))} complete.</p>
 <p>{html.escape(str(report.get('message', '')))}</p>
 <table>
 <thead><tr><th>Date</th><th>ID</th><th>Title</th><th>Resource</th><th>Transcript</th><th>Slides</th></tr></thead>
@@ -1601,7 +2463,6 @@ th, td {{ text-align: left; border-bottom: 1px solid #d9ded6; padding: 8px; vert
 </body>
 </html>
 """,
-        encoding="utf-8",
     )
 
 
@@ -1613,18 +2474,13 @@ def open_status_page() -> None:
         subprocess.Popen([opener, str(STATUS_HTML)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
-def stop_timer_if_present() -> None:
-    if shutil.which("systemctl"):
-        subprocess.run(["systemctl", "--user", "disable", "--now", "aie-wf2026-youtube-monitor.timer"], text=True, capture_output=True)
-
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--playlist-only",
         action="store_true",
-        help="Manually synchronize every official WF26 playlist item, bypassing RSS and the timer cutoff.",
+        help="Use only official WF26 playlist discovery and playlist-specific acquisition behavior.",
     )
     parser.add_argument("--no-slides", action="store_true", help="Skip slide extraction attempts for new videos.")
     push = parser.add_mutually_exclusive_group()
@@ -1645,6 +2501,54 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     checked_at = datetime.now(timezone.utc)
+    recovery: dict[str, object] | None = None
+    publish_recovery: dict[str, object] | None = None
+    if not args.dry_run:
+        try:
+            publish_recovery = recover_monitor_publish_sync()
+            if publish_recovery and publish_recovery.get("status") == "local_sync_pending":
+                report = {
+                    "checked_at": checked_at.isoformat(),
+                    "channel_id": CHANNEL_ID,
+                    "state": "blocked",
+                    "status": "blocked",
+                    "message": "A previously published monitor commit is still pending local checkout synchronization; no acquisition work started.",
+                    "publish_recovery": publish_recovery,
+                    "processed": [],
+                    "dry_run": False,
+                }
+                print(json.dumps(report, sort_keys=True))
+                return 2
+            if publish_recovery and publish_recovery.get("status") == "synchronized":
+                recovery = commit_recovered_monitor_transaction()
+            else:
+                recovery = recover_monitor_transaction()
+        except Exception as exc:
+            report = {
+                "checked_at": checked_at.isoformat(),
+                "channel_id": CHANNEL_ID,
+                "state": "blocked",
+                "status": "blocked",
+                "message": "Monitor transaction recovery failed; no acquisition work started.",
+                "error": {"type": type(exc).__name__, "message": str(exc)},
+                "processed": [],
+                "dry_run": False,
+            }
+            print(json.dumps(report, sort_keys=True))
+            return 2
+        if recovery and recovery.get("errors"):
+            report = {
+                "checked_at": checked_at.isoformat(),
+                "channel_id": CHANNEL_ID,
+                "state": "blocked",
+                "status": "blocked",
+                "message": "Monitor transaction recovery is incomplete; no acquisition work started.",
+                "transaction_recovery": recovery,
+                "processed": [],
+                "dry_run": False,
+            }
+            print(json.dumps(report, sort_keys=True))
+            return 2
     auto_push = (
         args.auto_push
         if args.auto_push is not None
@@ -1667,30 +2571,35 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps(report, sort_keys=True))
             return 2
 
+    transaction = None if args.dry_run else begin_monitor_transaction()
+
     talks = read_talk_pages()
-    playlist_entries: list[PlaylistEntry] = []
+    playlist_entries, playlist_discovery = fetch_official_playlist(talks)
+    playlist_event_rows = [
+        (item.video, list(item.matched_talks))
+        for item in playlist_entries
+        if item.video is not None
+    ]
     if args.playlist_only:
         snapshot_changed = False
-        playlist_entries, discovery = fetch_official_playlist(talks)
-        discovered_rows = []
-        event_rows = [
-            (item.video, list(item.matched_talks))
-            for item in playlist_entries
-            if item.video is not None
-        ]
+        channel_discovery: dict[str, object] = {"status": "not_run_playlist_only"}
+        event_rows = playlist_event_rows
     else:
         entries = fetch_rss()
         snapshot_changed = False if args.dry_run else update_channel_snapshot(entries)
         rss_event_rows = event_entries(entries, talks)
-        discovered_rows, discovery = discover_recent_channel_event_rows(talks)
-        combined_rows = {entry.video_id: (entry, matched) for entry, matched in rss_event_rows}
-        combined_rows.update({entry.video_id: (entry, matched) for entry, matched in discovered_rows})
-        event_rows = list(combined_rows.values())
+        discovered_rows, channel_discovery = discover_recent_channel_event_rows(talks)
+        event_rows = deduplicate_event_rows(
+            rss_event_rows,
+            discovered_rows,
+            playlist_event_rows,
+        )
+    playlist_video_ids = {item.video_id for item in playlist_entries}
     scheduled_manifest_ids = scheduled_manifest_video_ids()
     pending_manifest_ids = pending_manifest_video_ids()
     manifest_before = load_json(OFFICIAL_VIDEO_MANIFEST, {})
     manifest_changed = update_official_video_manifest(
-        discovered_rows,
+        event_rows,
         playlist_entries=playlist_entries,
         write=not args.dry_run,
     )
@@ -1703,48 +2612,46 @@ def main(argv: list[str] | None = None) -> int:
         and playable_manifest_projection(manifest_before)
         != playable_manifest_projection(manifest_after)
     )
-    today = checked_at.date()
-    cutoff = today - timedelta(days=6)
     latest_date = max((entry.published_date for entry, _matched in event_rows), default=None)
 
     report: dict[str, object] = {
         "checked_at": checked_at.isoformat(),
         "channel_id": CHANNEL_ID,
-        "active_cutoff_date": cutoff.isoformat(),
+        "active_cutoff_date": None,
         "latest_published_date": latest_date.isoformat() if latest_date else "",
         "processed": [],
         "dry_run": args.dry_run,
         "mode": "playlist_only" if args.playlist_only else "scheduled_monitor",
         "auto_push": auto_push,
         "manifest_changed": manifest_changed,
-        "channel_discovery": discovery,
+        "channel_discovery": channel_discovery,
+        "playlist_discovery": playlist_discovery,
+        "reconciliation_policy": {
+            "auto_expiry": False,
+            "date_cutoff": None,
+            "scope": (
+                "owner-validated official WF26 playlist media plus eligible "
+                "date/title-gated official-channel media"
+            ),
+        },
+        "content_completion": content_completion_summary(manifest_after),
     }
+    if recovery is not None:
+        report["transaction_recovery"] = recovery
+    if publish_recovery is not None:
+        report["publish_recovery"] = publish_recovery
 
-    if not args.playlist_only and (latest_date is None or latest_date < cutoff):
-        report.update(
-            {
-                "state": "stopped",
-                "message": "No confirmed AI Engineer World's Fair 2026 event video was published within the last seven calendar dates; monitor disabled.",
-            }
-        )
-        if args.dry_run:
-            print(json.dumps(report, sort_keys=True))
-        else:
-            write_status(report)
-            stop_timer_if_present()
-            open_status_page()
-        return 0
-
-    recent_rows = (
-        event_rows
-        if args.playlist_only
-        else [(entry, matched) for entry, matched in event_rows if entry.published_date >= cutoff]
-    )
+    reconciliation_rows = event_rows
     process_rows = [
         (entry, matched)
-        for entry, matched in recent_rows
+        for entry, matched in reconciliation_rows
         if not resource_path(entry.video_id).exists()
         or resource_schedule_projection_needed(entry.video_id, matched)
+        or (
+            entry.video_id in playlist_video_ids
+            and resource_playlist_projection_needed(entry.video_id)
+        )
+        or talk_page_projection_needed(entry.video_id, matched)
         or (
             entry.video_id in scheduled_manifest_ids
             and entry.live_status != "is_upcoming"
@@ -1811,8 +2718,12 @@ def main(argv: list[str] | None = None) -> int:
                 str(slides.get("status")),
                 association_evidence=(
                     "official_wf26_playlist_membership"
-                    if args.playlist_only
-                    else "official_channel_plus_schedule_text"
+                    if entry.video_id in playlist_video_ids
+                    else (
+                        "official_channel_plus_schedule_text"
+                        if matched
+                        else "official_channel_explicit_wf26_title"
+                    )
                 ),
             )
             talk_updates = update_talk_pages(entry, matched)
@@ -1880,6 +2791,9 @@ def main(argv: list[str] | None = None) -> int:
                 != playable_manifest_projection(manifest_after_artifact_refresh)
             )
             report["manifest_changed"] = True
+        report["content_completion"] = content_completion_summary(
+            load_json(OFFICIAL_VIDEO_MANIFEST, {})
+        )
         item_failures = media_item_failures(processed)
         report["item_failures"] = item_failures
         report["failure_count"] = len(item_failures)
@@ -1895,10 +2809,12 @@ def main(argv: list[str] | None = None) -> int:
                     "state": failure_state,
                     "status": failure_state,
                     "message": "One or more monitor media-import items failed; changes were not published and the timer will retry.",
-                    "recent_entry_count": len(recent_rows),
+                    "recent_entry_count": len(reconciliation_rows),
+                    "reconciled_entry_count": len(reconciliation_rows),
                     "new_entry_count": len(process_rows),
                 }
             )
+            rollback_failed_monitor_run(report, transaction)
             write_status(report)
             return 1
         report["playable_evidence_changed"] = playable_evidence_changed
@@ -1929,10 +2845,12 @@ def main(argv: list[str] | None = None) -> int:
                 {
                     "state": "degraded",
                     "message": "A monitor enrichment command failed; changes were not published and the timer will retry.",
-                    "recent_entry_count": len(recent_rows),
+                    "recent_entry_count": len(reconciliation_rows),
+                    "reconciled_entry_count": len(reconciliation_rows),
                     "new_entry_count": len(process_rows),
                 }
             )
+            rollback_failed_monitor_run(report, transaction)
             write_status(report)
             return 1
         report["publish"] = maybe_commit_and_push(
@@ -1944,23 +2862,51 @@ def main(argv: list[str] | None = None) -> int:
             report.update(
                 {
                     "state": "degraded",
-                    "message": "Monitor publishing failed; generated changes remain local and the timer will retry.",
-                    "recent_entry_count": len(recent_rows),
+                    "message": "Monitor publishing failed; canonical changes will be rolled back and the timer will retry.",
+                    "recent_entry_count": len(reconciliation_rows),
+                    "reconciled_entry_count": len(reconciliation_rows),
                     "new_entry_count": len(process_rows),
                 }
             )
+            rollback_failed_monitor_run(report, transaction)
             write_status(report)
             return 1
+
+        local_sync = publish.get("local_sync")
+        if (
+            isinstance(local_sync, dict)
+            and local_sync.get("status") != "synchronized"
+        ):
+            report.update(
+                {
+                    "state": "degraded",
+                    "status": "degraded",
+                    "message": "The monitor commit was published, but local checkout synchronization is pending; startup recovery will retry before new acquisition.",
+                    "recent_entry_count": len(reconciliation_rows),
+                    "reconciled_entry_count": len(reconciliation_rows),
+                    "new_entry_count": len(process_rows),
+                }
+            )
+            if transaction is not None:
+                finish_monitor_transaction(transaction)
+            write_status(report)
+            return 1
+
+        if transaction is not None:
+            finish_monitor_transaction(transaction)
 
     report.update(
         {
             "state": "active",
             "message": (
-                f"Synchronized the official WF26 playlist and processed {len(processed)} items."
+                f"Synchronized the official WF26 playlist and processed {len(processed)} items. "
                 if args.playlist_only
-                else f"Confirmed AI Engineer World's Fair 2026 event videos are still being published within the last seven calendar dates. Processed {len(processed)} new RSS entries; monitor remains active."
-            ),
-            "recent_entry_count": len(recent_rows) + len(unavailable_entries),
+                else f"Recurring official WF26 reconciliation processed {len(processed)} items and remains eligible for late releases. "
+            )
+            + content_completion_message(report["content_completion"]),
+            "recent_entry_count": len(reconciliation_rows) + len(unavailable_entries),
+            "reconciled_entry_count": len(reconciliation_rows)
+            + len(unavailable_entries),
             "new_entry_count": len(process_rows),
             "acquisition_changed": acquisition_changed,
             "playable_evidence_changed": playable_evidence_changed,
@@ -2000,10 +2946,27 @@ def media_item_failures(processed: list[dict[str, object]]) -> list[dict[str, st
 
 
 def run_entrypoint(argv: list[str] | None = None) -> int:
+    global _ACTIVE_TRANSACTION
     arguments = list(sys.argv[1:] if argv is None else argv)
     try:
         return main(arguments)
     except Exception as exc:
+        rollback = None
+        if _ACTIVE_TRANSACTION is not None:
+            if publish_sync_journal_path().is_file():
+                rollback = {
+                    "status": "deferred_to_publish_recovery",
+                    "errors": [],
+                }
+                _ACTIVE_TRANSACTION = None
+            else:
+                try:
+                    rollback = rollback_monitor_transaction(_ACTIVE_TRANSACTION)
+                except Exception as rollback_exc:
+                    rollback = {
+                        "status": "rollback_failed",
+                        "errors": [str(rollback_exc)],
+                    }
         previous = load_json(STATUS_JSON, {})
         report = {
             "checked_at": datetime.now(timezone.utc).isoformat(),
@@ -2016,6 +2979,8 @@ def run_entrypoint(argv: list[str] | None = None) -> int:
             "processed": [],
             "dry_run": "--dry-run" in arguments,
         }
+        if rollback is not None:
+            report["mutation_rollback"] = rollback
         if report["dry_run"]:
             print(json.dumps(report, sort_keys=True))
         else:

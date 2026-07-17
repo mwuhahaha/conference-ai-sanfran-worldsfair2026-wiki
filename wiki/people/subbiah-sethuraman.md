@@ -6,6 +6,19 @@ company: "ZS Associates"
 linkedin: "https://www.linkedin.com/in/subbiahsethuraman/"
 website: "https://subbiah-sethuraman.medium.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:39b130dc880289150927443fbf49401c9f666e0ccbc9b7f02b138826f0dcc2f9
+  subjectId: person:subbiah-sethuraman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a160d0b2314eb22fef11200df1b42b99209c7bae0b418d4b3492555a75c22e88
 ---
 # Subbiah Sethuraman
 

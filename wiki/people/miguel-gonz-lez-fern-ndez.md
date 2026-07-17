@@ -5,6 +5,19 @@ role: "Tech Lead"
 company: "Browserbase"
 linkedin: "https://www.linkedin.com/in/miguelgfz"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f5e20c23576707b48dbc52c793f5baa932980e1813569ecf58025f61d7dd3fd9
+  subjectId: person:miguel-gonz-lez-fern-ndez
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b0c2d525e0237443b45c509a6559d8a459ff51d82e39cfa67cf91a1849e08345
 ---
 # Miguel González Fernández
 

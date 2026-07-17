@@ -6,6 +6,19 @@ company: "Uber"
 linkedin: "http://linkedin.com/in/wbond"
 twitter: "https://x.com/wbond"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:86505fed870e9920df9877e579529de842670d15e2e4ee233df10b107b031260
+  subjectId: person:will-bond
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4d5a664b60628adb3d5d207a58e29f8b492febff9ad679fd1531f472a2cd240a
 ---
 # Will Bond
 

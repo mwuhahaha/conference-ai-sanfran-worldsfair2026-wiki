@@ -6,6 +6,19 @@ company: "Clickhouse"
 linkedin: "https://de.linkedin.com/in/annabell-schaefer"
 twitter: "https://x.com/annabellschfr"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a6a24f0ba565c0c8f5fe93fffb7bb584a0eb56c67468ce33c9654060c9f76866
+  subjectId: person:annabell-sch-fer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1cb91501d0dbe56ff6975d6a2f1c8ad435eeb3cfaaffca568770f6a553a6f56c
 ---
 # Annabell Schäfer
 

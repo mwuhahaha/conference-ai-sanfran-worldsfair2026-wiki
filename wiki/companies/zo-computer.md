@@ -3,6 +3,19 @@ title: "Zo Computer"
 category: "companies"
 aliases: ["Zo Computer"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:61738ae23c066e378d7ca7b80b88f2aa48e3f6ca7efaf567b575322620dc6c7c
+  subjectId: company:zo-computer
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6bdc83f5b40195cc72007fd9f6b16b4cc340ca4cd90871a7a125cc64fc4574d8
 ---
 # Zo Computer
 

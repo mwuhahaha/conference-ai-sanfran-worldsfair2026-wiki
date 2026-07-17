@@ -8,6 +8,19 @@ twitter: "https://twitter.com/idangazit"
 website: "https://gazit.me"
 blog: "https://gazit.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:386b27c64bc84d8a20236a6f6d21492c3a8357f7726a1c013171b94ec309c216
+  subjectId: person:idan-gazit
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4246511a4969efe7902afe04b01cf0daa2896ab4b5e4c97fb9eb4e324d94d7c4
 ---
 # Idan Gazit
 

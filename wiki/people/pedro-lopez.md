@@ -4,6 +4,19 @@ category: "people"
 role: "Senior Software Engineer"
 company: "Airbyte"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5f6ada33564037aed9e79656f35b05bc8e7a3f708f1531e567bfbb0b9f2e3181
+  subjectId: person:pedro-lopez
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ee571d2b34343fa58fbd1032b40d13e9eb00d278719b33614637d310fee3f772
 ---
 # Pedro Lopez
 

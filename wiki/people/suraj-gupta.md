@@ -4,6 +4,19 @@ category: "people"
 role: "Software Engineer"
 company: "Warp"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2fd317e4fdba782e9601417e3a0c372199970f3c36adde658cfa07a33cea8752
+  subjectId: person:suraj-gupta
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cef3a9a773d592aba8933a064edce03372006b25918d683264e78f27022cebf8
 ---
 # Suraj Gupta
 

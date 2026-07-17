@@ -5,6 +5,19 @@ role: "Co-founder and CEO"
 company: "Superconductor"
 twitter: "https://x.com/singharjun51293"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e2ce5ee3d766e1cbd8fe4cb3bfd2afe95238f2fe0a694994432191c4d408c274
+  subjectId: person:arjun-singh
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:06ab83ffd6a0b4569cecb8873e52b52d9ad41ebc7bae0a2ab332db7ca607f434
 ---
 # Arjun Singh
 

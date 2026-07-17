@@ -3,6 +3,19 @@ title: "Stripe"
 category: "companies"
 aliases: ["Stripe"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f9da15dcaf0326c4adcc41b7af3d5865fdf378bbcda4648ec74187b3f3399c15
+  subjectId: company:stripe
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8036e4004bc52e1946e60942fc15f89746edd2edde813100fb1447937597950e
 ---
 # Stripe
 

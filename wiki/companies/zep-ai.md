@@ -3,6 +3,19 @@ title: "Zep AI"
 category: "companies"
 aliases: ["Zep AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:19101e52b1f7c4c2f586b5c94acec7750d160e7fdc83c544e5ebe2c13033c34f
+  subjectId: company:zep-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:75b7281b8aba9332ee0e6aa88c0d1c83366d0ec69a46d5aab01fee6d7aeb0c3d
 ---
 # Zep AI
 
@@ -30,8 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
 
 ### Media Signals
-- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
 - Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

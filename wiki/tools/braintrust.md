@@ -5,6 +5,21 @@ aliases: ["Braintrust"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: []
 scheduleRooms: ["Track 9"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:96bba5b46145f2bb6fefe9b06eed34942d5edce797e9a6f2b4653b23432ab4c9
+  subjectId: tool:braintrust
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-0vphxNt4wyk
+  - source:official-wf26-youtube-8G_1-3IO4ZQ
+sourceAssessmentBodySha256: sha256:712daca19139661566c2117439deb5e862c055fd8e2313093451659fb01ba042
 ---
 
 # Braintrust

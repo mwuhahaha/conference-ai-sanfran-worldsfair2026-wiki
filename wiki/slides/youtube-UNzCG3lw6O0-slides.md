@@ -19,64 +19,47 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/UNzCG3lw6O0/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > The Missing Manual
-> How To Write Great Skills
-> Matt Pocock
+> Hlow To apiio Great Skills | OC
+> ~
 
 ![[assets/slides/UNzCG3lw6O0/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-002.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> A Skill Checklist
+> Na) cme Re t4 a6 He)
+> aS
+> |
 
 ![[assets/slides/UNzCG3lw6O0/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > 1. Trigger
-> 2. Structure
-> 3. Steering
-> 4. Pruning
+>
+> 2. Structure &
+> 3. Steering v
+> 4. Pruning in | |
 
 ![[assets/slides/UNzCG3lw6O0/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > mattpocock/skills
-> vs
-> obra/superpowers
+> - i)
+> obra/superpowers : ‘
 
 ![[assets/slides/UNzCG3lw6O0/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> /to-prd
-> - What is a test seam?
-> - PRD Template
-
-Classification audit: `raw/sources/slide-ai-classification/slides/UNzCG3lw6O0/audit.json`
+> /to-prd ~~
+> aha test ? | ww,
+>
+> re 1S a Tes seam NY 3g
+> - PRD Template ; “4
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

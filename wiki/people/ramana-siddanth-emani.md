@@ -8,6 +8,19 @@ twitter: "https://x.com/siddanth2486"
 website: "https://www.auditoria.ai/"
 blog: "https://siddanthemani.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:516269f3353d8741e4519838bf3ed1530ae744d0dc72194d47a65f3b11931ce1
+  subjectId: person:ramana-siddanth-emani
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3ee513cfa933ce990697136d212c1a2641edc1440bb62d10e0e3959cf8dafbb6
 ---
 # Ramana Siddanth Emani
 

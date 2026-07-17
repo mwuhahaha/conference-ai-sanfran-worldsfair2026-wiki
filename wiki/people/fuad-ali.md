@@ -4,6 +4,19 @@ category: "people"
 role: "Senior Product Manager"
 company: "Arize AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7418a8fbdc41919cfe3c0adb149ca6cfa9cab79ef7bf933fac118b6c5ad7c6d2
+  subjectId: person:fuad-ali
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cc9da289b41d01acf66fadf6fee4085175b3d028ad16ee7dacbf021843600764
 ---
 # Fuad Ali
 
@@ -29,6 +42,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Media Signals
-- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
+- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
 - Evidence links for `youtube-SbcQYbrvAfI` (supporting context only): [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]

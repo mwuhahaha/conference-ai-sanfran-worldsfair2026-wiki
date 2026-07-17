@@ -8,6 +8,19 @@ twitter: "https://x.com/burnedchris"
 website: "https://burnedchris.com"
 blog: "https://burnedchris.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:edf8c4b919302acb629125662d37efc30c6089def9abdc0053f428ae4ac05c31
+  subjectId: person:christopher-burns
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b60fec80b6c3ab97ae98bea4917a201f8e7d58f05870c12054bade8e8cd37442
 ---
 # Christopher Burns
 

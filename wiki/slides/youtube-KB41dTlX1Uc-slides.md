@@ -32,9 +32,9 @@ OCR text:
 OCR text:
 
 > ae,
-> 
+>
 > ,
-> 
+>
 > rN
 
 ![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
@@ -80,7 +80,7 @@ OCR text:
 OCR text:
 
 > Read
-> 
+>
 > <=
 
 ![[assets/slides/KB41dTlX1Uc/slide-009.jpg]]
@@ -121,9 +121,9 @@ OCR text:
 OCR text:
 
 > Pa
-> 
+>
 > heated
-> 
+>
 > Pend
 
 ![[assets/slides/KB41dTlX1Uc/slide-015.jpg]]
@@ -138,7 +138,7 @@ OCR text:
 OCR text:
 
 > a
-> 
+>
 > <8]
 
 ![[assets/slides/KB41dTlX1Uc/slide-017.jpg]]
@@ -171,11 +171,11 @@ OCR text:
 OCR text:
 
 > ra)
-> 
+>
 > ar
-> 
+>
 > Pied
-> 
+>
 > -
 
 ![[assets/slides/KB41dTlX1Uc/slide-022.jpg]]
@@ -199,14 +199,14 @@ OCR text:
 OCR text:
 
 > «4
-> 
+>
 > -
 > 4
 > a
 > an
-> 
+>
 > 4
-> 
+>
 > .
 > cs
 > .
@@ -230,7 +230,7 @@ OCR text:
 OCR text:
 
 > fel sect ie
-> 
+>
 > ~ ge
 
 ![[assets/slides/KB41dTlX1Uc/slide-027.jpg]]
@@ -238,7 +238,7 @@ OCR text:
 OCR text:
 
 > aie ad
-> 
+>
 > \ > om
 
 ![[assets/slides/KB41dTlX1Uc/slide-028.jpg]]
@@ -254,7 +254,7 @@ OCR text:
 OCR text:
 
 > »
-> 
+>
 > a
 
 ![[assets/slides/KB41dTlX1Uc/slide-030.jpg]]
@@ -271,7 +271,7 @@ OCR text:
 OCR text:
 
 > a ena
-> 
+>
 > Ww,
 
 ![[assets/slides/KB41dTlX1Uc/slide-032.jpg]]

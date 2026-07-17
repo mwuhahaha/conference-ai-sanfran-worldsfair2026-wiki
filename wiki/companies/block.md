@@ -3,6 +3,19 @@ title: "Block"
 category: "companies"
 aliases: ["Block"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a0f9fe10f5dd33df5fcd1317d68801d63dfdc7155869dcb4f5cf15dca05df0d6
+  subjectId: company:block
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:22297a9fcacf3ac502079d3d389263903b168ccaad164b9bb4e5fa7cddef750e
 ---
 # Block
 

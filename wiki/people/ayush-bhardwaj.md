@@ -8,6 +8,19 @@ twitter: "https://x.com/aybh08"
 website: "https://ayushb.me/"
 blog: "https://ayushb.me/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:753d13536bbff3c3ab0a307b02e0d20b07f9cc3998c605856989122eefc24c1e
+  subjectId: person:ayush-bhardwaj
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a07e9c8e2f4fe09ab1d38c31da1577f45a49556c8e4f68a2078986a59b8cacca
 ---
 # Ayush Bhardwaj
 

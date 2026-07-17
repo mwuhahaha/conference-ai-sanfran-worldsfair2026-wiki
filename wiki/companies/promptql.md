@@ -3,6 +3,19 @@ title: "PromptQL"
 category: "companies"
 aliases: ["PromptQL"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:87244768463079d487713b6f73fa3d3b7e3a568e2d50b371335734cf6bfce1f7
+  subjectId: company:promptql
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65910694084407e973cd07415b23a4a2bfe73e76c3bba51571eea9546209a621
 ---
 # PromptQL
 

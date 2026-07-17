@@ -3,6 +3,19 @@ title: "Amazon AGI Lab"
 category: "companies"
 aliases: ["Amazon AGI Lab"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4e52dfd4eeb2d65fa1bb6771385853d1f59518ba6e26390d3171b9e0897077d3
+  subjectId: company:amazon-agi-lab
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:39684563679733c57f0647f2edebc144ca8083e29ab11eecfdad512fa54ed70a
 ---
 # Amazon AGI Lab
 
@@ -40,8 +53,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
 
 ### Media Signals
-- `youtube-WJjInLeaJjo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
 - Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

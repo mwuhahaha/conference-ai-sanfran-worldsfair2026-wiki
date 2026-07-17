@@ -3,6 +3,19 @@ title: "Cleric"
 category: "companies"
 aliases: ["Cleric"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b4312ce9d447c1aa75d5f6072909c36a2a8a9cdabff134351dd51dbdbbd50b86
+  subjectId: company:cleric
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b220e44e791a1acdb3cbec0aa81d756a6198901ea41d27a2c722ba69fb88d4de
 ---
 # Cleric
 

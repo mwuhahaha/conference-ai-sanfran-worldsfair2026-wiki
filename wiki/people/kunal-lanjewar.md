@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/kunallanjewar/"
 twitter: "https://x.com/kunallanjewar"
 website: "https://www.kunall.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ce00295eea5659b82f357ea62d816e71728008e0cab0f5165601e4fbefc9d7c1
+  subjectId: person:kunal-lanjewar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:494deaf7aea824f469d704e5a7caf61077c8c863ed68b97dbc37e8f3a3507941
 ---
 # Kunal Lanjewar
 

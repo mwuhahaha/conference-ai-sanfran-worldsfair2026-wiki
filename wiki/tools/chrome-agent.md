@@ -7,6 +7,20 @@ scheduleTracks: ["Computer Use"]
 scheduleRooms: ["Track 7"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:90852e85c17079e15bc107daf1afc92ca765f0f670dbc422828676ee785ab6f5
+  subjectId: tool:chrome-agent
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:github_rest-github.com
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:77f39b9ac85366a03bb8d674ad41f617f40b812c1e63452fca23f1445a585167
 ---
 
 # chrome-agent

@@ -79,12 +79,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-wFTVEDYVJT0]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-wFTVEDYVJT0`
-- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/wFTVEDYVJT0/slide-001.jpg]]
-![[assets/dense-slides/wFTVEDYVJT0/slide-002.jpg]]
-![[assets/dense-slides/wFTVEDYVJT0/slide-003.jpg]]
+- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — slide evidence page.
 - Additional slide evidence: [[youtube-wFTVEDYVJT0-slides|Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]], [[youtube-wFTVEDYVJT0-reconstructed-slides|Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]]
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
@@ -93,8 +90,9 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
 - Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 
 ### Agent Reading Notes

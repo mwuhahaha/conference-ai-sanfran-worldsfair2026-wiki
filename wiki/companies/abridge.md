@@ -3,6 +3,19 @@ title: "Abridge"
 category: "companies"
 aliases: ["Abridge"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3c8c67bdce6522686a1e33dce6c03d90d735484ef5895c212e1b9b8060137106
+  subjectId: company:abridge
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:55aa9a3103162d6f99b5632fb5b71fc358291d7be8fd41afc43dbc4fd6922980
 ---
 # Abridge
 

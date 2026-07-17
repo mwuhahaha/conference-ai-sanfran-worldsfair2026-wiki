@@ -6,6 +6,19 @@ company: "Stanford University"
 twitter: "https://x.com/johnousterhout"
 website: "https://web.stanford.edu/~ouster/cgi-bin/home.php"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4d78a815a7079285b2f537c2e8596e815805480a75e5fc9e7c23b97b1bfd11ab
+  subjectId: person:john-ousterhout
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e6f34dd5c81b09cc915689c2cd9f960edcb0ae81244750f6a28f987d9f37f924
 ---
 # John Ousterhout
 

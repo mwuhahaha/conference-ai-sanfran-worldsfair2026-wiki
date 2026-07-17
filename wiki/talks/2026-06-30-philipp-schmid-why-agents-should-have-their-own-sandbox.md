@@ -63,11 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-3_gYbhABcAE]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-3_gYbhABcAE`
-- Slide deck: [[youtube-3_gYbhABcAE-dense-slides|Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/3_gYbhABcAE/slide-001.jpg]]
-![[assets/dense-slides/3_gYbhABcAE/slide-002.jpg]]
+- Slide deck: [[youtube-3_gYbhABcAE-dense-slides|Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-3_gYbhABcAE-slides|Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]], [[youtube-3_gYbhABcAE-reconstructed-slides|Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]]
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- `youtube-3_gYbhABcAE` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 - Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -3,6 +3,19 @@ title: "Circle"
 category: "companies"
 aliases: ["Circle"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f4fff04b256a7754977c8ec5d03a990cbe4cbca69c00ac745f1074540d5d7e41
+  subjectId: company:circle
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6a6f4564c58318d6c9d34ab49eea458935b777d93cd61274dce39417c90d168d
 ---
 # Circle
 

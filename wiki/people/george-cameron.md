@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/georgecameron/"
 twitter: "https://x.com/grmcameron"
 website: "https://artificialanalysis.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3d251d18c0a389e5b103b91bca7778e52d70e775a9c3ea62b923e4e81c574a69
+  subjectId: person:george-cameron
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a4e23719e11dde542378ff469904d5a45697616ffa442c0dd88d55f760130e94
 ---
 # George Cameron
 

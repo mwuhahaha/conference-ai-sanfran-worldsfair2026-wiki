@@ -5,6 +5,19 @@ aliases: ["GitHub Copilot"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Track M", "Expo Stage 2"]
 scheduleRooms: ["Track M", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:be9cd1b927c13dfd118b79506a5dd8f00662b67ce2522aa126f17a26f726e01a
+  subjectId: tool:github-copilot
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:477e3a5ca14daa8ddd3980976cce0d72da221f5eee7a028512ba709e89fb58fa
 ---
 
 # GitHub Copilot

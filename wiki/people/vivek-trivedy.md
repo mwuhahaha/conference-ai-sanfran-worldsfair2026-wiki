@@ -8,6 +8,19 @@ twitter: "https://x.com/Vtrivedy10"
 website: "https://www.vtrivedy.com/"
 blog: "https://www.vtrivedy.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7443e969a8075c1603ab3641776170b7789a7474a4e97021e6da9f3b7844834f
+  subjectId: person:vivek-trivedy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8d12ccf6d553f32a03165dc6576b90e24c425f6e28fa58baf90408f987141bb7
 ---
 # Vivek Trivedy
 

@@ -8,6 +8,19 @@ twitter: "https://x.com/jobergum"
 website: "https://hornet.dev/"
 blog: "https://hornet.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:93339968774abb02e43b2a179a584e87a5e356b76ac1a027b60bb593b56120fb
+  subjectId: person:jo-kristian-bergum
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e8b32a5de68496e4941fcc3cf477ca31358a8b2850ae75990e1a485749733119
 ---
 # Jo Kristian Bergum
 

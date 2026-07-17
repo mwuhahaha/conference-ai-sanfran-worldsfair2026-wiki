@@ -17,105 +17,237 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/KLSuFPj2ld0/slide-001.jpg]]
+
+OCR text:
+
+> i |
+> o , ; -
+> - — —=| | No | 4
+> SG ee Peat mae ithe |
+> CT ) —_ Ce
+> Ce rT )
+> J r |
+> ee . e-, ‘
+> i} i
+> | of
+> «| cee
+> ; Ree een Reems es
+> —
+> a a
+
 ![[assets/slides/KLSuFPj2ld0/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KLSuFPj2ld0/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> Software Engineer @ Stripe “ue
+> Spent 4 years leading our Issuing
+> - Spent last 2 years helping robots
+> spend
+> a)
+> | = Engineering the future of Al
 
-> Software Engineer @ Stripe
-> Spent 4 years leading our Issuing team
-> Spent last 2 years helping robots spend
+![[assets/slides/KLSuFPj2ld0/slide-003.jpg]]
+
+OCR text:
+
+> a oe) ENG
+> . . DY RYeAU AYA). *)(e1e-10e)
+> " —_ aa | AlEngineer ne
+> eo oleae ame) MAL
+> a Ce _
+> a : es One WUC)
+> ae BE ae
+> aaa ae
+> BE F
+> ce .
+> — i
+> —
 
 ![[assets/slides/KLSuFPj2ld0/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KLSuFPj2ld0/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Problems
+> Problems mee
 > 01 Wrong place
-> 02 Wrong thing
-> 03 Wrong amount
+> ae 02 Wrong thing
+> ors 03 Wrong amount
 > 04 Wrong credential
+> = | ¥ | Engineering the future of Al
 
 ![[assets/slides/KLSuFPj2ld0/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KLSuFPj2ld0/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/left-72/contrast` reconciled by agent.
-- OCR decision: ready — dense code-like token object is better handled by OCR
+OCR text:
 
-Slide text:
-
-> Shared Payment Tokens
-> 
-> {
->   "id": "spt_1RgaZcFPC5QU06ZCDVZuVA8g",
->   "created": 1751580820,
->   "deactivated_at": null,
->   "deactivated_reason": null,
->   "usage_limits": {
->     "currency": "usd",
->     "expires_at": 1751587220,
->     "max_amount": 1000
->   },
->   "seller_details": {
->     "network_id": "merchant_name"
->   }
-> }
+> SharedPaymentTokens
+> stripe
+> "id":"spt_1RgaZcFPC5QU06ZCOVZuVA8q"
+> "created":1751500820,
+> AIE
+> "deactivated_at":null,
+> "deactivated_reason":null,
+> "usage_linits":{
+> "currency":"usd"
+> "expires_at":1751587220
+> "nax_anount":1000
+> "seller_details"
+> "network_id":
+> "nerchant_nane"
+> AlEngneer
+> Engineering the future of Al
 
 ![[assets/slides/KLSuFPj2ld0/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KLSuFPj2ld0/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
-- OCR decision: ready — dense code editor screenshot is OCR-suitable
+OCR text:
 
-Slide text:
+> 97R
+> 1index.ts×
+> AI-DEMO
+> .claude
+> spt)Ts(ndex.ts)
+> dse
+> mep
+> spt
+> claude
+> try
+> vscode
+> const paymentIntent-soit sellerStripe.paymentIntents.create（{
+> node_modules
+> currency:"usd",
+> amount:5oe0,
+> NUWO
+> Tsnde.ts
+> MtGrantedToken.id
+> AIE
+> (1paciage-lock.json
+> confirm:troe,
+> payment_method:"pn_card_visa",
+> (1packagejson
+> !pepm-lock.yaml
+> autoeatic_payment_methods:(
+> Fstcho
+> enabled:true,
+> tsconfigjon
+> allow_redirects:“never",
+> console.log（"Payment intent created:",paymentIntent))
+> )catch（error）（
+> console.error("Error creating payment intent:",error):
+> throwerror:
+> OUTLINE
+> TIMELINE
+> VmanO
+> Ln5,Col15ps:2UTF-5
+> AlEnginoer
+> AlEngineer
+> 2O28
+> EUROPE
 
-> try {
->   const paymentIntent = await sellerStripe.paymentIntents.create({
->     amount: 5000,
->     currency: "usd",
->     // shared_payment_grant: sharedPaymentGrantFromToken.id,
->     payment_method: "pm_card_visa",
->     confirm: true,
->     automatic_payment_methods: {
->       enabled: true,
->       allow_redirects: "never",
->     },
->   });
-> 
->   console.log("Payment intent created!", paymentIntent);
-> } catch (error) {
->   console.error("Error creating payment intent:", error);
->   throw error;
+![[assets/slides/KLSuFPj2ld0/slide-007.jpg]]
+
+OCR text:
+
+> spt npx tsxindex.ts
+> AIE
+> AlEnginoer
+> Engineering the future of Al
+
+![[assets/slides/KLSuFPj2ld0/slide-008.jpg]]
+
+OCR text:
+
+> , a a en Ce | Ce © cr red ra’ my i a aR
+> ; Te Erie
+> ee ee
+> as aa
+> Pela paynent_eethod. details: {
+> * ad cord: (
+> brand: ‘vise’,
+> * 5d country: ‘US’,
+> * * display.beand: ‘visa’,
+> * va epszomh: 4,
+> cad exp_yeor: 2027,
+> fingerprint: ‘thfEL TcD4sZV6Gpe',
+> funding: ‘credit’,
+> generated from: mull,
+> lasta: '4242*,
+> netaork_tokendetotls: rutt,
+> networks: (Object),
+> regulated status: ‘unregulated’,
+> three_d_secure_usage: null,
+> wollet: null
 > }
+> type: ‘card
+> ,
+> Te]. a |
+> ae
+> PRS q
+> ae Engineering the future of Al
+> en ‘
 
 ![[assets/slides/KLSuFPj2ld0/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KLSuFPj2ld0/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Diagram slide with small embedded protocol text that OCR is likely to read better than manual transcription.
+OCR text:
 
-Slide text:
+> Machine Payments Protocol a
+> _
+> ay a
+> | - | | AlEngineer |
+> aa aad
 
-> Machine Payments Protocol
+![[assets/slides/KLSuFPj2ld0/slide-010.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/KLSuFPj2ld0/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with cropped slide, not a full presentation slide
-- [`slide-003.jpg`](/assets/slides/KLSuFPj2ld0/slide-003.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with cropped slide, not a full presentation slide
-- [`slide-007.jpg`](/assets/slides/KLSuFPj2ld0/slide-007.jpg) — `demo_video` confidence `0.14`; Stage/demo footage with terminal and presenter overlay; not a readable presentation slide.
-- [`slide-008.jpg`](/assets/slides/KLSuFPj2ld0/slide-008.jpg) — `demo_video` confidence `0.16`; Stage/demo footage with code output and presenter overlay; not a readable presentation slide.
-- [`slide-010.jpg`](/assets/slides/KLSuFPj2ld0/slide-010.jpg) — `demo_video` confidence `0.99`; Demo/video footage with stage context, not a readable presentation slide.
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/KLSuFPj2ld0/audit.json`
+> IPV6::1
+> Host localhost:4242was resolved.
+> mpp pnpn run dev
+> IPv4:127.0.0.1
+> >mpp-rest-node-typescripte dev/Users/stevekoliski/stripe/ai-demo/mpp
+> Connected tolocalhost（:1）port 4242
+> Trying[::1]:4242...
+> >tsxmain.ts
+> >GET/paidHTTP/1.1
+> injectingerv（1)from.env
+> >Host:localhost:4242
+> >User-Agent:curl/8.7.1
+> Server1istening athttp://Localhost:4242
+> >Accept：/*
+> CreatedPaymentIntentpi_3TKJkuA4XFULvrcoe0JBLo21 forSe.e1->ex8a39b0e
+> d41Fd88337b634659C71EB10aff696806
+> Request completely sent off
+> CreatedPaymentIntent pi_3TKJkeA4XFULvrc@BoRDapmU for S0.01->Bx8a39bDe
+> AIE
+> <HTTP/1.1402Payment Requiredl
+> d41Fd88337b634659C71EB18aff696806
+> <mW-Authenticate：:Paymentid=15nJQCyoaXueKpcrUtZo1LSa32bnN1wpGg33kz19CFA
+> 8",realn="localhost°，method="tempo"，intent="charge”，request="eyJhbw91b
+> mppclear\
+> nQi0iIxMDAwMCIsImN1.cnJ1bmNSIjoiMHgyMGMMDAwMDAwMDAMDAwMDAwMDAMDAwMDAwMDA|>
+> DAwMDAMDAwIwibVeaG9kRGVemWscyI6ey]jaGFpbkLkIjoMjQzMXesInJ1Y21mVud
+> CI6Ij840GEzORJEZWQeMUZk0OAzMzdiNjMENjUSQzCxRUIxMGFmZjY5NjhENi39°,expires=
+> mpppnpn run de
+> mppcurlhttp://Localhost:4242/free-v
+> mppclear
+> *2026-04-09T15:26:28.089Z"
+> <Cache-Control:no-store
+> mpp pnpe run dev
+> <Content-Type:application/problem+json
+> <Content-Length：192
+> >mpp-rest-node-typescripte dev/Users/stevekaliski/stripe/ai-demo/mpp
+> <Date:Thu,09Apr 202615:21:28 GMT
+> >tsxmain.ts
+> <Connection:keep-alive
+> <Keep-Alive:timeout=5
+> injectingenv（1)fromenv//tip:-auth forogents
+> Connection# to hostlocalhostleftintact
+> Serverlisteningathttp://localhost:4242
+> CreatedPaymentIntent pi_3TKKOZA4XFULvrc@1WqwnFxl for S0.01->ex8a39bDe
+> nt Required",status":402,"detail":“Payment is required.
+> d41Fd88337b634659C71E818aff696806
+> 5nJQCyoaXueKpcrUtZo1LSa3ZbrN1wpGg33kz19CF8}
+> mpp
+> AEnginoer
+> Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

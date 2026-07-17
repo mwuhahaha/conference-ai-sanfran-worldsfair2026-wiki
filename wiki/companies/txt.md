@@ -3,6 +3,19 @@ title: ".txt"
 category: "companies"
 aliases: [".txt"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:789136a6b06078a886376df72b716b0910bc371e987f267aaab4fbe66dd5952f
+  subjectId: company:txt
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d3eac5b4fb4643ca6c714d88dc42b5dd50c5d447686d380d4b456f8b5d3fb3e0
 ---
 # .txt
 

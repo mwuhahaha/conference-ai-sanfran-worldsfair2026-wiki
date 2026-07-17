@@ -38,11 +38,11 @@ OCR text:
 > et
 > re wx 7 ;
 > ; ae
-> 
+>
 > | ‘ ~~>
-> 
+>
 > M 3 2 Lo )
-> 
+>
 > an” \ ¢
 > a — 4
 > : Ae ~ we
@@ -116,13 +116,13 @@ OCR text:
 OCR text:
 
 > > Fd
-> 
+>
 > .
-> 
+>
 > &*
-> 
+>
 > Fe |
-> 
+>
 > mi
 
 ![[assets/slides/E71YtNbCFXY/slide-009.jpg]]
@@ -130,11 +130,11 @@ OCR text:
 OCR text:
 
 > rf
-> 
+>
 > wd
-> 
+>
 > ow.
-> 
+>
 > ‘a
 
 ![[assets/slides/E71YtNbCFXY/slide-010.jpg]]
@@ -142,7 +142,7 @@ OCR text:
 OCR text:
 
 > ~- _ A cs pan ;
-> 
+>
 > | f. <a
 > 4
 > i aI ,
@@ -151,14 +151,23 @@ OCR text:
 
 OCR text:
 
-> AIE
+> Mir
+>
+> Y
+>
+> ze
+>
+> re
+>
+> b i
+>
 > aws
 
 ![[assets/slides/E71YtNbCFXY/slide-012.jpg]]
 
 OCR text:
 
-> AI Engineer
+> Al Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

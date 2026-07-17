@@ -4,6 +4,19 @@ category: "people"
 role: "Member of Technical Staff"
 company: "Anthropic"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6e42b0fbad3c291b1dcbc458d8f8225c7446b605d5151309d4586e290b7de9a0
+  subjectId: person:kevin-bai
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2ef9dabe337865d9ea692e9976101ae7015b4c0b9da70a76b0ef722e5252f48a
 ---
 # Kevin Bai
 

@@ -5,6 +5,19 @@ role: "Senior Product Manager"
 company: "NVIDIA"
 linkedin: "https://www.linkedin.com/in/sean-sodha/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9cfc3f3a16482c6d24c72acc872356931fcc4f30b26a90e3b7dba3db5e7b0ff2
+  subjectId: person:sean-sodha
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:943836c86400fa27f580aea6cf7c262aaeb1eb5ea3f4aa45408d98ce6581d5ac
 ---
 # Sean Sodha
 

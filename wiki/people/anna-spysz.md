@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/annaspysz"
 twitter: "https://x.com/annaspies"
 website: "https://annaspysz.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:849a86f0cbef004ddf68f3d2431a68d4751a04e1d4d51f211f7bb116fca9402f
+  subjectId: person:anna-spysz
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:087306a16530ca2f0471568b049b12b5a0db0b9a3f5957f29076c47b5450c858
 ---
 # Anna Spysz
 

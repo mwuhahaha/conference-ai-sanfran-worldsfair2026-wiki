@@ -3,6 +3,19 @@ title: "DoorDash"
 category: "companies"
 aliases: ["DoorDash"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0233f5199ccfae8c781612fba8fca64673e8d7d15e84c82dfb6e89a8b7aac2d5
+  subjectId: company:doordash
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0a6d8df86edea9d66bc2dd173ccc0214469dd5836497754dd7b960501e0099ec
 ---
 # DoorDash
 

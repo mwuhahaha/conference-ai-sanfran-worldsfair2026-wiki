@@ -5,6 +5,19 @@ role: "Senior Director of Product, AI Applications"
 company: "Docusign"
 linkedin: "https://www.linkedin.com/in/shahhiral/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9629e08deca0143a2fd14df62aca210b4f6dad291c0f552411ddd1be6a8f2434
+  subjectId: person:hiral-shah
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4eb4f8d6b2079be6a1e92f95da9c4e23af1f2a5485c78effca87e82ef637bff8
 ---
 # Hiral Shah
 

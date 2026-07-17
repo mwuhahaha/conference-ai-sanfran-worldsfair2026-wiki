@@ -6,6 +6,19 @@ company: "Plivo"
 linkedin: "https://www.linkedin.com/in/narayanvyas/"
 twitter: "https://x.com/not_ryan_vy45"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fb58dca715a2b9432215e91f5525d6b21c7f5bc54eed7a7bcf541be22f04ee58
+  subjectId: person:vyas-a
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:873901334b2bf3e26549230101fbceec5bc3e7f3647a3f76fc7113c289e2dfae
 ---
 # Vyas A
 

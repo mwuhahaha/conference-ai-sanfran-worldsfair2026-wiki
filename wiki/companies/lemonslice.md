@@ -3,6 +3,19 @@ title: "LemonSlice"
 category: "companies"
 aliases: ["LemonSlice"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d712da6b770e3901de480e4b1a4d719b9ad745447a02a2a14bb448ed1e5ff9fb
+  subjectId: company:lemonslice
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7e59dab0dd42e6a15ca9f5c0d9b206acc1fe191a8b37c8a2a901bf2f03f25ccb
 ---
 # LemonSlice
 

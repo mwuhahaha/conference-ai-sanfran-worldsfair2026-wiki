@@ -3,6 +3,19 @@ title: "LangChain"
 category: "companies"
 aliases: ["LangChain"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f8dcc176aa4d25e60dd16c9e0b8682e7d7473e3da35cb556e40a22fd15af9437
+  subjectId: company:langchain
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c24ca4c12459577cda588b32182b8d9b68077a0d56cad715280802c811c98d6e
 ---
 # LangChain
 

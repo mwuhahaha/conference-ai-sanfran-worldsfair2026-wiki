@@ -81,10 +81,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/ZpK5PWX2YRM/slide-003.jpg]]
 - Slide-derived themes for `youtube-ZpK5PWX2YRM`: future, software, bigger, than, last, engineering, leadership, july.
 - Source video: `youtube-Lcqat4iP_lE`
-- Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/Lcqat4iP_lE/slide-001.jpg]]
+- Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — slide evidence page.
 - Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
-- Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
@@ -100,7 +99,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-ZpK5PWX2YRM`: code, okay, read, line, guys, still, loops, engineer.
 - Slide-derived themes for `youtube-ZpK5PWX2YRM`: future, software, bigger, than, last, engineering, leadership, july.
 - Evidence links for `youtube-ZpK5PWX2YRM` (primary event evidence): [[youtube-ZpK5PWX2YRM]], [[youtube-ZpK5PWX2YRM-transcript]], [[youtube-ZpK5PWX2YRM-slides]]
-- `youtube-Lcqat4iP_lE` — source page linked; role: supporting context only.
+- `youtube-Lcqat4iP_lE` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.
 - Evidence links for `youtube-Lcqat4iP_lE` (supporting context only): [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
 
 ### Agent Reading Notes

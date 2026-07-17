@@ -4,6 +4,19 @@ category: "people"
 role: "Principal Software Engineer"
 company: "Docker"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6b45c48c5cf5340d0cb154728cf5e488d5acee00e8aaf6130f3bfe95af986201
+  subjectId: person:jim-clark
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:44643f0eb9df573839845375275c45325013d8f3148d673e53029018b9101dc7
 ---
 # Jim Clark
 

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/gabrielsharper"
 twitter: "https://x.com/meticulousgabe"
 website: "https://www.meticulous.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c742eb940ac820450542b16753ec9bfb34f2fbcc849d0912b6999f182eb8bbf2
+  subjectId: person:gabriel-spencer-harper
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d4af28e3a4953575edb75c85ae1ae38069a3ac02fa374ce6047e81d54b0bc146
 ---
 # Gabriel Spencer-Harper
 

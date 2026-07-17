@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-7Dtu2bilcFs]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-7Dtu2bilcFs`
-- Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — 13 visible slide image(s); 13 HTML recreation(s).
-![[assets/dense-slides/7Dtu2bilcFs/slide-001.jpg]]
-![[assets/dense-slides/7Dtu2bilcFs/slide-002.jpg]]
-![[assets/dense-slides/7Dtu2bilcFs/slide-003.jpg]]
+- Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — slide evidence page.
 - Additional slide evidence: [[youtube-7Dtu2bilcFs-slides|Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]], [[youtube-7Dtu2bilcFs-reconstructed-slides|Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]]
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -82,8 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
+- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
 - Evidence links for `youtube-7Dtu2bilcFs` (supporting context only): [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 
 ### Agent Reading Notes

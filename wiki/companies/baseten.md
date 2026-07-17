@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Baseten"]
 website: "https://www.baseten.co/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8705657f42fd02723cacbf3d05091b8a976108a20521701ae5c0177f91ebe253
+  subjectId: company:baseten
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fff67841bad4644c49cc263a82a2fb07078d84a868b1c82242fdf20730e709e5
 ---
 # Baseten
 

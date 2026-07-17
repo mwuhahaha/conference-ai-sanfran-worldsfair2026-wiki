@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/ido-salomon/"
 twitter: "https://x.com/idosal1"
 website: "https://mcp-ui.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3468558177d1cb8a3ce1df42fea2a9b8caf83dc56928cb424917e6da9cab789c
+  subjectId: person:ido-salomon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:25002f51c83a350875f11929f9c4fed114921ef3e72db15f23d55ba6f3361b76
 ---
 # Ido Salomon
 

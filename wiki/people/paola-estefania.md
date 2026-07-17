@@ -5,6 +5,19 @@ role: "Staff Engineer"
 company: "Better Auth"
 linkedin: "https://uy.linkedin.com/in/paolaestefaniadecamposdefranco"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f416a031a8f928b9a5192ac25b35307cbd1567e6a94ebaa730b845fc80a44621
+  subjectId: person:paola-estefania
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9a10cf5f72f15651a00a7dd3b25ca378a43c59836184d4b65230b210428b46c7
 ---
 # Paola Estefania
 

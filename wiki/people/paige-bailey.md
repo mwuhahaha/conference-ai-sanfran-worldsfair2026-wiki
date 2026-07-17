@@ -5,6 +5,19 @@ role: "AI Developer Relations Engineering Lead"
 company: "Google DeepMind"
 twitter: "https://x.com/DynamicWebPaige"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8cf1f350cded6b980e902234c18f0c479fd5a753eb87dbc574d35b04c851d26e
+  subjectId: person:paige-bailey
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fbc65d3c43a0a0ea375dee3eeb4b82e36da82a251db4a22b4cd97e6f352707f8
 ---
 # Paige Bailey
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-paige-bailey-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
 
 ### Media Signals
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

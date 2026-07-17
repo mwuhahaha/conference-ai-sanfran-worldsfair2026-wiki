@@ -5,6 +5,19 @@ role: "Staff Research Scientist"
 company: "Together AI"
 twitter: "https://x.com/QingyangWu1"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6126d75b52ca67cd676018816ed61022dde9973b81c968ff883e4decdaac63ea
+  subjectId: person:qingyang-wu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6383345cd3c5f2e75e7bc233b743cb232a43626562a8c7f40ae1657eda288696
 ---
 # Qingyang Wu
 

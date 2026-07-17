@@ -3,6 +3,19 @@ title: "Theta Software"
 category: "companies"
 aliases: ["Theta Software"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5d7174eb1225f35876fb6168e70613fc9b3a450def0bfba962c766ec8bde5c90
+  subjectId: company:theta-software
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a2847074ffe737615e8f38b688a43ffb48dc35680081e1103dc9650a018b88c5
 ---
 # Theta Software
 

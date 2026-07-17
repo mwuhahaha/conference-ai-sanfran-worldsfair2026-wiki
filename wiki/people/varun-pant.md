@@ -6,6 +6,19 @@ company: "AWS"
 linkedin: "https://www.linkedin.com/in/varunp1/"
 twitter: "https://x.com/varun_pant_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:09600b228e0a1f1051d5b02bc542c6eb318778ee962652e943f1e1ae0641cf2f
+  subjectId: person:varun-pant
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ab4cb17c4a365a347285e964aca645ef35e9876b62ee576c8bb31ebf0ffccba2
 ---
 # Varun Pant
 

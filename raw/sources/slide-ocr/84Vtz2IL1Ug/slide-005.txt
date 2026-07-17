@@ -1,13 +1,7 @@
-February, 2023: Open Source race begins...
+i February, 2023: Open Source race begins...
+World's Fair
 [D] List of Large Language Models to play with.
-Discussion
-Hello! I'm trying to understand what available LLMs one can "relatively easily" play with. My goal is to understand the landscape since I haven't worked in this field before. I'm trying to run them "from the largest to the smallest"
-By "relatively easy", I mean doesn't require to setup a GPU cluster or costs more than $20:)
-Here are some examples I have found so far:
-1. ChatGPT (obviously) - 175B params
-2. OpenAI API to access GPT-3s (from ada (0.5B) to davinci (175B)). Also CodeX
-3. Bloom (176B) - text window on that page seems to work reliably, you just need to keep pressing "generate"
-4. OPT-175B (Facebook LLM), the hosting works surprisingly fast, but slower than ChatGPT
-5. Several models on HuggingFace that I made to run with Colab Pro subscription: GPT-NeoX 20B, Flan-t5-xxl 11B, Xlm-roberta-xxl 10.7B, GPT-j 6B. I spent about $20 total on running the models below. None of the Hugging Face API interfaces/spaces didn't work for me:(. Here is an example notebook I made for NeoX.
-Does anyone know more models that are easily accessible?
-Engineering the future of AI
+orororm a a
+; i< |
+ore WE . a
+World's Fair Engineering the future of Al

@@ -5,6 +5,19 @@ aliases: ["GraphRAG", "CrabRAG"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Track 2", "Graphs"]
 scheduleRooms: ["Track 2", "Track 5"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:691dfcb62e292fb8cf21099f4ff16321ee67f225e6bad44130c36ac48aac1d50
+  subjectId: tool:graphrag
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:e377053dc84c6b23c7ac52c920937f591b613e0e1c0259a5feba02ec0546ae1f
 ---
 
 # GraphRAG

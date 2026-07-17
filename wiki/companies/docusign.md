@@ -3,6 +3,19 @@ title: "Docusign"
 category: "companies"
 aliases: ["Docusign"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:82dffed4072095a8ba58e2d11d4d9695955e6c722a3268f0448d84952ffacfbf
+  subjectId: company:docusign
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f6da60f43653e3c5f6b33faca5b035ac73a4eeb57c182b45051c1ef8a5c8bac1
 ---
 # Docusign
 

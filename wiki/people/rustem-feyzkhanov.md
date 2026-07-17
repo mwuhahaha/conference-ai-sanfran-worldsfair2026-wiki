@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/ryfeus"
 twitter: "https://x.com/ryfeus"
 website: "https://ryfeus.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f7abc88721ab2f93c745758d7adfd0c3e860243830a0f33bcab203830e66a312
+  subjectId: person:rustem-feyzkhanov
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1935dc421fac5a2e53dd28c31705d2c53b4df281a6acd2709c71ab07ec4dee4e
 ---
 # Rustem Feyzkhanov
 

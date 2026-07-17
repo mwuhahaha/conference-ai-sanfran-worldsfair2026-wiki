@@ -5,6 +5,19 @@ role: "AI Lead"
 company: "Krea.ai"
 website: "https://re-n-y.github.io/devlog/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a89e05917d2d8e138b96d2bc0b987430971739ed472cc5e8a855c3ae06cda84a
+  subjectId: person:sangwu-lee
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1e80c6f3ec48680ffa09a78b29ca13b94249d63f34c4f161d6c6e204af0e1fd3
 ---
 # Sangwu Lee
 

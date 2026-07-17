@@ -6,6 +6,19 @@ company: "typedef"
 linkedin: "https://www.linkedin.com/in/yonimichael"
 twitter: "https://x.com/yoni_michael"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:df96e7e0b5c8d4b94ed348f8730bcedf3f588347727ab1aca2ae5940dddc6815
+  subjectId: person:yoni-michael
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d937e061c21dc866d6b4f92001224438134133eeef8585249a49cb66db279185
 ---
 # Yoni Michael
 

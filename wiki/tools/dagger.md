@@ -5,6 +5,18 @@ aliases: ["Dagger"]
 sourceLabels: ["Public YouTube metadata", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8b02220aff496755e4a09c96f9dd5741e9c3b711bba707e65f5798ae1968e5ff
+  subjectId: tool:dagger
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:f2ba5fc58099a9ea059ccfbbf790814a229a98ee4c18e98059f1acc840b86210
 ---
 
 # Dagger

@@ -4,6 +4,19 @@ category: "people"
 role: "Tech Translator"
 company: "Neo4j"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:304b3f974fc28ab9873a442c2f2619014a0130f221bfc5257fbfdb4a778307f9
+  subjectId: person:jeremy-adams
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f950afb65f0deaebdadf2cbb66411e5760ef75e56d0ebc68e4d53121fe062e0d
 ---
 # Jeremy Adams
 
@@ -27,6 +40,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
 ### Media Signals
-- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
+- `youtube-Fzb1a24hF-o` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
 - Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Microsoft Research"
 twitter: "https://x.com/corby_rosset"
 website: "https://corbyrosset.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aa9b8f97b67cc86c693fa95824245ae379396f01d3685ff1a89005b4790b2d77
+  subjectId: person:corby-rosset
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cf7160f9294ba346307d2a0fb1bf677d04d919ea60c2698ac0866d2c10d83c25
 ---
 # Corby Rosset
 

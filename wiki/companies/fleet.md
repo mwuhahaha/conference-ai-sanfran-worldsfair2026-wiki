@@ -3,6 +3,19 @@ title: "Fleet"
 category: "companies"
 aliases: ["Fleet"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2191fe0bf8d6b9b742286480c72b7508276f095fce15689420dbe0599ec10b19
+  subjectId: company:fleet
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a8ccdb3640333e8151d6868e36d0317de47268457578ae27957663746916eade
 ---
 # Fleet
 

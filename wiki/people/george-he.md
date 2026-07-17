@@ -4,6 +4,19 @@ category: "people"
 role: "Head of Platform Engineering"
 company: "LlamaIndex"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:60e2a26a0f6528b2892f7048233479ff5eda522d2f40a75647ebe605a8abb96d
+  subjectId: person:george-he
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1fd51a85ee088bc48a367737945d2220dbc7775af04c6f1f3d9ce6dc4342956e
 ---
 # George He
 

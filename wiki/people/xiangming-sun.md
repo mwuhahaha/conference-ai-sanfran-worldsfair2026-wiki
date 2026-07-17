@@ -3,6 +3,19 @@ title: "XiangMing Sun"
 category: "people"
 company: "Unitree"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0da41af69320b33eec2c84a3b10b230e96b3e83d0fc37d0e367d528de9300003
+  subjectId: person:xiangming-sun
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bed5e772a84ac0dae8bbdde5dc4509b8da29f0fbf5edd2b501b46fe334e6cec0
 ---
 # XiangMing Sun
 

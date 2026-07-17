@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/dex-xu"
 twitter: "https://x.com/dexhunt3r"
 website: "https://dex.moe"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cfafc506d654b0227953a0f787a727a7893c5ca633fc5db3a2c6e54808a11d47
+  subjectId: person:dixing-xu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d2ce884bff6e0097f367b00f9afac46cc23897c8f21e237d38bd19d74b90d5b9
 ---
 # Dixing Xu
 

@@ -207,7 +207,9 @@ OCR text:
 > BRAINTRUST.DEV
 > AIE
 > Q&A
-> CONFIDENTIAL
+> Microsoft
+> smolo
+> Wo
 
 ![[assets/slides/6YdPI9YbjbI/slide-013.jpg]]
 
@@ -218,20 +220,20 @@ OCR text:
 > Cy Scares Agtorsals OOM adiges Coe pudaes
 > e «(Off ne BOn re bvas
 > . Playground ys Peper mats
-> 
+>
 > {Intro to Evalsin UL Actuity]
 > oy Sots ae Soe OS |
 > e deploy Unreerased ALApA (2 mi nutes)
-> 
+>
 > Liner om com er nS] 01 Geer Cok hated
 > ° (ene pea ra a no
 > ° Oeste Catal Chaco le Marr aea a ETL LES
-> 
+>
 > {Logaqing & Online Scormnyg » Activity)
 > O LATOR CordL er aod Ob toa ted hss | Ove oC nae OC ta)
-> 
+>
 > ome a q& Human Reviesy - Actuty]
-> 
+>
 > = ne SS
 
 ![[assets/slides/6YdPI9YbjbI/slide-014.jpg]]
@@ -271,14 +273,14 @@ OCR text:
 > How evals can help your business
 > Orel dev time Rapid iteration cycies & local testing an multiple LLMs seamlessly
 > Sqs1o1ULer> (ore kci as) Automated evais replace manual review alowing faster tteration / release
-> 
+>
 > E alate alele q Ua na, Real time monitoring & compliance to reduce risk and improve Cx
 > Sca le team S Enabie non-technical collaboration to build tne best Al elon
-> 
+>
 > Ive never seen a workfiow transformation like the one that incorporates
-> 
+>
 > evals into ‘mainstream engineering’ processes before. It’s astonishing.
-> 
+>
 > fone
 > ¥
 > “a
@@ -289,18 +291,18 @@ OCR text:
 OCR text:
 
 > ce, e
-> 
+>
 > What is an Eval?
 > Definition: An Eval (short for evaluation) is a
-> 
+>
 > structured test that checks how well your Al
-> 
+>
 > system performs. It helps you measure
 > quality, reliability, and correctness across
 > scenarios.
-> 
+>
 > M1 :
-> 
+>
 > - a oy a Microsoft ary?
 
 ![[assets/slides/6YdPI9YbjbI/slide-018.jpg]]
@@ -362,24 +364,24 @@ OCR text:
 > Fear ys Peay Sree CO UROET Ta TORS gy RO Co Se e. Loe Le . °
 > PoC to pirate pepo se
 > i arery
-> 
+>
 > Dee ra es ocean ia oa Oy a —
 > ed cee ie ae a ar
 > fi or ay eae arn er mac eer Cine bo ee
 > ar a ee ae ns le were
 > Coesah te ee ee
-> 
+>
 > ° Sees
-> 
+>
 > . ce aves ER
-> 
+>
 > Pe On oer tee ;
 > (ed we mt as ee Oa or (once med Lea er
 > hres Perea ey | ee Coes eee
 > Tee esas eae ec Re en
 > CCSa Ens Re Oare NS [ESM SCE cS
 > Partai
-> 
+>
 > ~ —,
 
 ![[assets/slides/6YdPI9YbjbI/slide-022.jpg]]
@@ -388,19 +390,19 @@ OCR text:
 
 > a , ®
 > Datasets - Tips
-> 
+>
 > Cero) ©: 18 ecvn irs] mene | Con
 > focus on building a feedback loop rather than
 > a perfect dataset
-> 
+>
 > e = =Never Stop Iterating:
 > Use Logs to capture more edge cases and
 > create more holistic Evals
-> 
+>
 > e Implement Human Reviews:
 > use human review to establish ground truth
 > Especially when using expected column
-> 
+>
 > ° 4
 > loro
 
@@ -408,17 +410,11 @@ OCR text:
 
 OCR text:
 
-> BRAINTRUST.DEV
+> oe r
 > Scorer Types
-> AIE
-> Code-based scorers
-> - Exact or binary conditions
-> - Numeric comparisons
-> - Structured or factual checks
-> LLM-as-a-judge scorers
-> - Subjective or contextual feedback
-> - Human-like interpretation
-> - Improvement across multiple drafts
+> Code-based scorers LLM-as-a-Judge scorers
+> “ 7 M fi]
+> nS m Microsoft = SOCU
 
 ![[assets/slides/6YdPI9YbjbI/slide-024.jpg]]
 

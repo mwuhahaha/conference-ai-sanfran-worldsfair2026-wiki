@@ -17,25 +17,75 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/HsxQICTLF84/slide-001.jpg]]
+
+OCR text:
+
+> Building an ACP
+> a. | ‘compatible agent
+
+![[assets/slides/HsxQICTLF84/slide-002.jpg]]
+
+OCR text:
+
+> /eyunuKenbereur- ela \@s a
+> compatible agent
+>
+> id
+> py J Google DeepMind
+
 ![[assets/slides/HsxQICTLF84/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HsxQICTLF84/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: none.
-- OCR decision: ready — Dense multi-column agent catalog with many small labels; OCR is the better extraction path.
+OCR text:
+
+> AegeCu Asgs t t,p k hte sl yotd ( agKoogoej ed by faisry A Vareftoey anoistart pg NNI engine atrarcooenand
+> $.98,5
+> Antobupd Code Code mno boild xgevigs wit) C dtfoid OU OpeeCele
+> g eger1
+> AIE codirg ganr () Tescert Clsaf QerL
+> Rg tle
+> Ce
+> (c Ele Mein tueude As oee med A/ todh meitent thiclt mt ssele rl h 30+ Agents
+> B.8 E.L.P
+> Braintrust WorkOS OpenAl
+
 ![[assets/slides/HsxQICTLF84/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HsxQICTLF84/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.93`
-- Text source: none.
-- OCR decision: ready — Code editor screenshot with small source text; OCR will capture the code more reliably than vision transcription.
+OCR text:
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/HsxQICTLF84/slide-001.jpg) — `speaker_stage` confidence `0.95`; Speaker-on-stage shot with a projected title; not a standalone content slide.
-- [`slide-002.jpg`](/assets/slides/HsxQICTLF84/slide-002.jpg) — `title_card` confidence `0.98`; Intro/title card with branding and speaker inset, not a content slide.
-- [`slide-005.jpg`](/assets/slides/HsxQICTLF84/slide-005.jpg) — `sponsor_logo` confidence `0.99`; Branding/closing card only; no presentation content to extract.
+> ee o
+> amgort Amthropic from cfs tetcp a sted, .
+> coast 7 os. Anthrepie Tool!) ‘
+> i
+> rare oo tend tale,
+> Hexceigtaes Mead the naete teat oy fale 1
+> ov Lg ova raat sete
+> * * byoe st GEST aS Bbirer,
+> * * path fo tyre. ‘stascyt, Gescraptioe: Arsetate pate te the titel by
+> * ra bd . :
+> ,
+> {
+> rane eb fake 5 J
+> ese cae
+> Ti lat ar ceustiry @:te ty regharary an eragt stiaryg mate cae rechrrie first ta]
+> aww satel |
+> bye Teh eee Tas const,
+> properties
+> —_ tee gath Potyse Cet, desereutioe: CArsel ite path te the filet by
+> wee old terts {
+> Owes Pepatan®
+> ,
+> i
+> AlEngineer
+> SHO)
 
-Classification audit: `raw/sources/slide-ai-classification/slides/HsxQICTLF84/audit.json`
+![[assets/slides/HsxQICTLF84/slide-005.jpg]]
+
+OCR text:
+
+> | Al Engineer |
+> ae Olas
+> AIl-ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

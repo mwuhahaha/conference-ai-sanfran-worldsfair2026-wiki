@@ -36,16 +36,16 @@ OCR text:
 OCR text:
 
 > renee er) Lg eroae
-> 
+>
 > Building Agents at
-> 
+>
 > Coes Cloud-Scale
-> 
+>
 > Ea , /
 > Antje Barth (she/her)
-> 
+>
 > [Wwe \ Principal Developer Advocate, Al Engineering @ AWS aws
-> 
+>
 > _ ed
 > Ve ANTJE BARTH awWS
 
@@ -83,7 +83,11 @@ OCR text:
 
 OCR text:
 
-> Some features will be released in future updates
+> _ oa : an
+> aa fi 7
+> = a _ yb
+> a |
+> ae he
 
 ![[assets/slides/WJjInLeaJjo/slide-006.jpg]]
 
@@ -186,21 +190,29 @@ OCR text:
 
 OCR text:
 
-> /help all commands • ctrl + j new lines • ctrl + k fuzzy search
-> > What does the AWS docs say about Amazon Bedrock?
-> I'll search the AWS documentation for information about Amazon Bedrock and provide you
+> AIEngineer
+> World'sFair
+> /helpallcommands
+> ctrl+jnewlines
+> ctrl+kfuzzysearch
+> WhatdoestheAwSdocssayaboutAmazonBedrock?
+> I'llsearch the Aws documentation for informationaboutAmazonBedrockand provide you
 > with a summary.
-> Using tool: search_documentation from mcp server awslabsaws_documentation_mcp_server
-> Running search_documentation with the param:
-> {
-> "arguments": {
-> "limit": 5,
-> "search_phrase": "Amazon Bedrock"
-> },
-> "name": "search_documentation"
-> }
-> Allow this action? Use 't' to trust (always allow) this tool for the session. [y/n/t]:
-> Engineering the future of AI
+> AEng
+> orld'sFa
+> Using tool:search_documentation from mcp server awslabsaws_documentation_mcp_server
+> Runningsearch_documentation withtheparam:
+> arguments"
+> "1imit":5
+> "search_phrase":"Amazon Bedrock"
+> name":"search_documentation"
+> Allowthis action?Use't'to trust (always allow)this toolforthe session.
+> [y/n/t]:
+> AlEngiv
+> orld!
+> AIEngi
+> World'sFair
+> Engineering the future of Al
 
 ![[assets/slides/WJjInLeaJjo/slide-012.jpg]]
 
@@ -257,9 +269,9 @@ OCR text:
 > | Promo A Get response, reasoning, tool selection
 > = B\Y-)
 > response ( Return result i
-> 
+>
 > ae
-> 
+>
 > Te ee Engineering the future of Al
 
 ![[assets/slides/WJjInLeaJjo/slide-016.jpg]]

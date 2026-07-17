@@ -3,6 +3,19 @@ title: "turbopuffer"
 category: "companies"
 aliases: ["turbopuffer"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:93b9f8136510236f50092066bbe3d76fdd5b4e9f7e0c8a0af1365e9cc9fce6a8
+  subjectId: company:turbopuffer
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0ea1d9803026408fb6c9979743c89aaa532669c1f56b3156cb8f0f384589fe10
 ---
 # turbopuffer
 
@@ -33,8 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
 ### Media Signals
-- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, review, jacob, searching, reading, file, shareholders, terms.
 - Evidence links for `youtube-XNtkiQJ49Ps` (supporting context only): [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

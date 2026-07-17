@@ -1,14 +1,14 @@
 Principle
-02
 Meta-Learning
-The best agents don't just assist-they learn.
-Windsurf adapts to your workflows,
-remembers past interactions, and evolves
-with every use. From recalling preferred
-tools to understanding project-specific
-patterns, it gets smarter the more you use it.
-Related features
-Memories
-Custom tools via MCP servers
-Reading your docs
-Whisps / basic commands
+The bestagenis dontjust assst-they lean
+Related festures
+Windsurfadaptstoyourworkows
+.Menores
+IGENTSATWORK
+rememberspastinteractionsandevoes
+witheveryuse.Fromrecalling prefed
+Cuelomxols vaMCPsero
+tools to understandng project-specilc
+Redngyourfaedocs
+pattes.it getssartrthe more youusei
+Whiis/boodstconmnds

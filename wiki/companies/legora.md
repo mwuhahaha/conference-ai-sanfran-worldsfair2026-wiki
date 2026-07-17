@@ -3,6 +3,19 @@ title: "Legora"
 category: "companies"
 aliases: ["Legora"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8900813e9d8c0f9b1d76dd6328a41aebedfae2f5c87b156d3c2a2bb128775a1a
+  subjectId: company:legora
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a9d045adf6def147bddb38e69bf9f31de1f82f981c8f81a6854c4def021e6b1c
 ---
 # Legora
 
@@ -30,8 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
 ### Media Signals
-- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, review, jacob, searching, reading, file, shareholders, terms.
 - Evidence links for `youtube-XNtkiQJ49Ps` (supporting context only): [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

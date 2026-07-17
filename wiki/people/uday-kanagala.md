@@ -5,6 +5,19 @@ role: "Software Architect"
 company: "Navan"
 linkedin: "https://www.linkedin.com/in/udaybhanuprasad"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dcd5f70c2efa1baddad48b3096638a4789c32819c32baf6c5ce0afb7012c6fbe
+  subjectId: person:uday-kanagala
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:af1f02b1ced22aa2d97cd0a0510d4b02353d40e368960cbe18fb961ffc247eba
 ---
 # Uday Kanagala
 

@@ -3,6 +3,19 @@ title: "Rexmore"
 category: "companies"
 aliases: ["Rexmore"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b5550c3972249cf158afa560e7bf525c3c9e847ac264f0d63d28cb42391d04d
+  subjectId: company:rexmore
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bcf6e4f5911ad9430bad42226de0b177eb34ff2b75c5124fdb874c71a8f19755
 ---
 # Rexmore
 

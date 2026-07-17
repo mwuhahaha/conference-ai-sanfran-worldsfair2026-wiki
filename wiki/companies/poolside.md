@@ -3,6 +3,19 @@ title: "poolside"
 category: "companies"
 aliases: ["poolside"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0398f47a78b7ee36f51f81c84fd0a3ace7ee8f6c2b56f7025a264664aca106b0
+  subjectId: company:poolside
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a1fefe52595575516ac17cf4e90ffa5003de5add8ea3967651b61c76bf6e6aae
 ---
 # poolside
 

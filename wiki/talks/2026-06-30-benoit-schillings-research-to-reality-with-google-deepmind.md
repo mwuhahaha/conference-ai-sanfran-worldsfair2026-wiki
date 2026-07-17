@@ -81,12 +81,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/1P1hJ36rxM0/slide-003.jpg]]
 - Slide-derived themes for `youtube-1P1hJ36rxM0`: google, research, reality, vice, assembly, vibe, coding, poll.
 - Source video: `youtube-G_bHFmEAarM`
-- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]]
-![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]]
-![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]]
+- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-G_bHFmEAarM-slides|Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]], [[youtube-G_bHFmEAarM-reconstructed-slides|Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]]
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/1P1hJ36rxM0.txt` (3,195 words).
@@ -102,8 +99,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-1P1hJ36rxM0`: code, writing, write, software, today, model, models, problem.
 - Slide-derived themes for `youtube-1P1hJ36rxM0`: google, research, reality, vice, assembly, vibe, coding, poll.
 - Evidence links for `youtube-1P1hJ36rxM0` (primary event evidence): [[youtube-1P1hJ36rxM0]], [[youtube-1P1hJ36rxM0-transcript]], [[youtube-1P1hJ36rxM0-slides]]
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
 
 ### Agent Reading Notes

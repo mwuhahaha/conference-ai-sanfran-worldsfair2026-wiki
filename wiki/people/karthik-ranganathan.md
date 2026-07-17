@@ -5,6 +5,19 @@ role: "Co-founder and Co-CEO"
 company: "Yugabyte"
 twitter: "https://x.com/karthikr"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ecf78522b2ca1f73e96a93674cfde884cd7573dc750a7f3c368af713707f725a
+  subjectId: person:karthik-ranganathan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a2fdd4b41ea8d7d19626ca04865b141fa05dbfdf096d26d14ecc81dd02590598
 ---
 # Karthik Ranganathan
 

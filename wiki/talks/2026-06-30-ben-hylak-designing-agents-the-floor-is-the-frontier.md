@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-5nOLb27hQ5w]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-5nOLb27hQ5w`
-- Slide deck: [[youtube-5nOLb27hQ5w-dense-slides|Dense Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/5nOLb27hQ5w/slide-001.jpg]]
-![[assets/dense-slides/5nOLb27hQ5w/slide-002.jpg]]
-![[assets/dense-slides/5nOLb27hQ5w/slide-003.jpg]]
+- Slide deck: [[youtube-5nOLb27hQ5w-dense-slides|Dense Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]] — slide evidence page.
 - Additional slide evidence: [[youtube-5nOLb27hQ5w-slides|Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]], [[youtube-5nOLb27hQ5w-reconstructed-slides|Reconstructed Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]]
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -78,7 +75,7 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Media Signals
 - `youtube-5nOLb27hQ5w` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
 - Evidence links for `youtube-5nOLb27hQ5w` (supporting context only): [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 
 ### Agent Reading Notes

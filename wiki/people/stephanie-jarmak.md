@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/stephanie-jarmak"
 twitter: "https://x.com/sgjarmak"
 website: "https://www.sjarmak.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9bae7facc5e1a80c997059a6b302bc1243220a7d0f3d20aa494c35e9dd63a9fe
+  subjectId: person:stephanie-jarmak
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:09047070c42144b55877a38edf48661d918bfab66096dc6f887849bffebb0ac0
 ---
 # Stephanie Jarmak
 

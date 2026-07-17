@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-OimPoLxioYg]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-OimPoLxioYg`
-- Slide deck: [[youtube-OimPoLxioYg-dense-slides|Dense Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]] — 9 visible slide image(s); 9 HTML recreation(s).
-![[assets/dense-slides/OimPoLxioYg/slide-001.jpg]]
-![[assets/dense-slides/OimPoLxioYg/slide-002.jpg]]
-![[assets/dense-slides/OimPoLxioYg/slide-003.jpg]]
+- Slide deck: [[youtube-OimPoLxioYg-dense-slides|Dense Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]] — slide evidence page.
 - Additional slide evidence: [[youtube-OimPoLxioYg-slides|Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]], [[youtube-OimPoLxioYg-reconstructed-slides|Reconstructed Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]]
-- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
+- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-OimPoLxioYg` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
+- `youtube-OimPoLxioYg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
 - Evidence links for `youtube-OimPoLxioYg` (supporting context only): [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 
 ### Agent Reading Notes

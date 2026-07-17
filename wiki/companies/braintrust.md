@@ -3,6 +3,19 @@ title: "Braintrust"
 category: "companies"
 aliases: ["Braintrust"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b42695b224bac8a3b723a1ba7d2de58a9a53818448e39d7d2c7d4a35e446413e
+  subjectId: company:braintrust
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:afc1fba3cf6ace30478fcf2428c37fafd03c78c1e93b25ee0d2ad60d03349401
 ---
 # Braintrust
 
@@ -36,8 +49,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability|Advanced workshop: Mastering AI Observability]]
 
 ### Media Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words; role: supporting context only.
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words; 9 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
+- Slide-derived themes for `youtube-bk0TmxoZlUY`: support, leading, teams, netflix, nite, become, core, skill.
 - Evidence links for `youtube-bk0TmxoZlUY` (supporting context only): [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

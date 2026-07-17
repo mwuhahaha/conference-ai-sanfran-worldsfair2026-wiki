@@ -3,6 +3,19 @@ title: "Linkedin"
 category: "companies"
 aliases: ["Linkedin"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dffc3c46996e3dcad06082551808be3fbdd4ebc5a870c3dc16a0fa1ee98b3170
+  subjectId: company:linkedin
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:099ab3eb622818802509e520b8bbcc8aa8703b0dfa1fc15fd4aa80ace1d8abb8
 ---
 # Linkedin
 

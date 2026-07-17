@@ -6,6 +6,19 @@ company: "Philo Ventures"
 linkedin: "https://www.linkedin.com/in/todd-b-fisher/"
 website: "https://www.linkedin.com/in/todd-b-fisher"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a419c33b1f47cda862f16ad71c9d34cf67130e02bea4ef97357ca17d0628c9a4
+  subjectId: person:todd-fisher
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6874662e738b3e7355338bdf696132b6b7849fd022f7ffbc328893e5c013de9e
 ---
 # Todd Fisher
 

@@ -3,6 +3,19 @@ title: "Hinge Health"
 category: "companies"
 aliases: ["Hinge Health"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c3ec645af1ede6a50dfb22180506d3059cf879ce64a0685689dac33e50483ac5
+  subjectId: company:hinge-health
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:79abcec0fa1efe2c676bd32401bc25508f554da949ee472f8cf092d0ce019fa0
 ---
 # Hinge Health
 

@@ -4,6 +4,19 @@ category: "people"
 role: "Engineering Manager"
 company: "G2i"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c85713359e7ec0cfe7bfba2154d58e7e898bfb789193343d9fbc41c99834b9e1
+  subjectId: person:gabriel-martinez
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:66cbc11b5ef205a6850a54a61b04c774eb1392d5e953033f5e9c0310622b60d2
 ---
 # Gabriel Martinez
 

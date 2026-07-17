@@ -3,6 +3,19 @@ title: "badass.dev / egghead.io"
 category: "companies"
 aliases: ["badass.dev / egghead.io"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1280439b88d7333be4b92054cf4f15804b7b167b2bc692a52a95e38efa80d13e
+  subjectId: company:badass-dev-egghead-io
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d6a5cb33b589899878215b09f72c865ef3586342618a4ba5d0ea4b0c7a2d7ddf
 ---
 # badass.dev / egghead.io
 

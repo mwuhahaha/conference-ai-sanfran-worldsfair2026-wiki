@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Artificial Analysis"]
 website: "https://artificialanalysis.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:af5ff62039eabba318caef2d11703d535b770d2debfca2ca4d7c75e096ba3f03
+  subjectId: company:artificial-analysis
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d8a10a64f0dae7fa218b7578f27550a457845e34447489940f8a660ff80f0182
 ---
 # Artificial Analysis
 

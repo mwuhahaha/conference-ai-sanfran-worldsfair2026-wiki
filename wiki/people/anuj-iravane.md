@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/anujiravane/"
 twitter: "https://x.com/anujiravane"
 website: "https://www.anterior.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c899b118566259874555fc1c744b3b7422f01f023e2cc0f07b4ff96f4f7891e3
+  subjectId: person:anuj-iravane
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:29ed1c605dc3e0a9dc0f2fde84e25a6822c9bd83416fce8710793ccfb4f89ee6
 ---
 # Anuj Iravane
 

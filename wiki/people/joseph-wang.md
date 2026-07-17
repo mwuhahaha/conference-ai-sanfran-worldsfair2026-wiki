@@ -5,6 +5,19 @@ role: "CEO"
 company: "Emulated"
 website: "https://emulated.so/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6f2222af35047bae3249e70d413ddef88a5f736cf4b1ab6a316b87ebda9203f1
+  subjectId: person:joseph-wang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d59e09d0736b49ecf9c5696f238cc37d430097aebff55bf3bc99e51f004dee59
 ---
 # Joseph Wang
 

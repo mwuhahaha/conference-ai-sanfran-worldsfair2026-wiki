@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-03T05:05:08.328Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5d6ad0bb30d0dbb6b517608d5b9ba8b6f8b3dd501c76b79f1a5c5e397a4449ed
+  subjectId: person:will-brown
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:51fa21a98a06bdaf0652e5ce925af823a907d2e5df69967ce9facde15ef0818e
 ---
 # Will Brown
 
@@ -37,9 +50,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards|Reinforcement Learning without Verifiable Rewards]]
 
 ### Media Signals
-- `youtube-JIsgyk0Paic` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
+- `youtube-JIsgyk0Paic` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
 - Evidence links for `youtube-JIsgyk0Paic` (supporting context only): [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
-- `youtube-PbHm2qKnu10` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
+- `youtube-PbHm2qKnu10` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
 - Evidence links for `youtube-PbHm2qKnu10` (supporting context only): [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]

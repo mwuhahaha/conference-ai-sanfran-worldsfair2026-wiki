@@ -3,6 +3,19 @@ title: "CoreWeave"
 category: "companies"
 aliases: ["CoreWeave", "Coreweave"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9d0d5702e2a907d495760be0b5c1a4cc077731f5d16f8cab50df6753b60ef148
+  subjectId: company:coreweave
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2d1970daf05415b15a9419f259c334676458349be507ec232278d504980161fe
 ---
 # CoreWeave
 

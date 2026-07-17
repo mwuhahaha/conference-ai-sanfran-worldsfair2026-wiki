@@ -3,6 +3,19 @@ title: "Nubank"
 category: "companies"
 aliases: ["Nubank"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ee3918ac5de8a7a31c0d518b9e2035fa9546e74c4c45d87fba17ecfc3c133375
+  subjectId: company:nubank
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4d9505b7abc86073b85e3b61823a2820c78e20db1e9dd84daf84198b0b4accd1
 ---
 # Nubank
 
@@ -33,8 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
 
 ### Media Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
 - Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

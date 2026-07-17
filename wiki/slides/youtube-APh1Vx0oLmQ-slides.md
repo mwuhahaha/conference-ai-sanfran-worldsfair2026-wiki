@@ -21,27 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> BUILDING DETERMINISTIC
-> INFRASTRUCTURE FOR
-> NON-DETERMINISTIC
-> AI AGENTS
-> THE EMERGING CONTROL PLANE
-> FOR AUTONOMOUS AI SYSTEMS
-> DETERMINISTIC BOUNDARY [DB-SOO]
-> ENTROPY REDUCTION: 99.9%
-> PREDICTABILITY INDEX: 1.0
-> SYSTEM VARIANCE: <0.01%
-> CONTROL ENCLOSURE [CE-99.99%]
-> SIGNAL
-> SYNCHRONIZATION
-> SIGNAL
-> RECTIFICATION
-> STATE
-> SYNCHRONIZATION
-> RIGID FRAMEWORK [RF-AIZ]
-> CONTROL ENCLOSURE [CE-99.99%]
-> Nishant Gupta
-> Tech Lead @ Meta
+> BUILDING DETERMINISTIC |
+> INFRASTRUCTURE FOR . setmennne ennoase oso
+> NON-DETERMINISTIC — .. eaent
+> Al AGENTS Seen
+> | | We SKE /
+> : \ . “eX + RecrificaTion z
+> SSS 17...
+> Nishant Gupta wea) reeaeeen
+> Tech Lead @ Meta _
 
 ![[assets/slides/APh1Vx0oLmQ/slide-002.jpg]]
 
@@ -175,7 +163,7 @@ OCR text:
 > a ae i a —
 > =. 7 a Vou
 > Human Approval Node ~t
-> 
+>
 > (ANALYSIS: ESCALATION PATHWAYS]
 
 ![[assets/slides/APh1Vx0oLmQ/slide-010.jpg]]

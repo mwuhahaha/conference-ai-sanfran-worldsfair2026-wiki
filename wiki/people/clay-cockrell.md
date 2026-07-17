@@ -6,6 +6,19 @@ company: "CoupleWork AI"
 linkedin: "https://www.linkedin.com/in/clay-cockrell-906b0b4/"
 website: "https://www.walkandtalk.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ab8d315ec8ebb8864a1360e09107588eed8bd58e31910357db7276b76175d474
+  subjectId: person:clay-cockrell
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6d85960eb9408e62392fdf6e129b15ef9f84b3d982a7b56937843d6f28907c86
 ---
 # Clay Cockrell
 

@@ -3,6 +3,19 @@ title: "PostHog"
 category: "companies"
 aliases: ["PostHog"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:df36718834d506e0cc440ddc4bca0e31899b8ce9b5a3cffdcc2354922a9f9fd7
+  subjectId: company:posthog
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ea48c4eea5f726edb1e78a89c8630c05cf62f4424b2c03a6b43a51b04ecdd801
 ---
 # PostHog
 

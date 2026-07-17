@@ -3,6 +3,19 @@ title: "Character.ai"
 category: "companies"
 aliases: ["Character.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b8f05b365e5a3a7b80bb14c5687bfbcd4a77cd2c37afe2fe741c2b95e0b33f38
+  subjectId: company:character-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4dcd1c468e7a7c394f33c3361130078136fd579e22af37d890229d33e5c359d7
 ---
 # Character.ai
 

@@ -17,249 +17,397 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/hVJOnuhFmTA/slide-001.jpg]]
+
+OCR text:
+
+> oe
+> | at sf |
+> rs
+> e |
+> | \
+
+![[assets/slides/hVJOnuhFmTA/slide-002.jpg]]
+
+OCR text:
+
+> ,
+> ean, oe ea
+> A Re i oo
+> ib RY | clr
+> PY N css: fo
+> J 'SQO@
+> wes — F
+> a @
+
 ![[assets/slides/hVJOnuhFmTA/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/full`.
-- OCR decision: ready — Dense multi-column code/UI slide; OCR will read it more reliably than direct transcription.
+OCR text:
 
-Slide text:
-
-> 8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （"id:2.name²:Linus}. （p.PT.） （"id":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: "role":'adnin" "16°:123, "email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten["active"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, "iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring
-> Opcodes Shell Primitives Fields Open Language
+> :bytes
+> sFind Python files>18
+> Variables
+> Endpoint
+> timit100
+> What would you like to build?
+> sfind.-typef-name*py-size·k
+> 554889E54883
+> itens-[]
+> https://api.example.com/v1/users
+> EC20488B7DF8
+> sCount Tooos in those files
+> Functions
+> Method
+> Write aPythonfunction
+> 488B75F05DC3
+> $grep-RInTO0O1wc-1
+> def fetch（url,timeout-5):
+> GET
+> that parses a CSVfile,
+> resp·http.get（url,tineouttineout）
+> deduplicatesrowsby
+> return resp.json()
+> Auth
+> email (case-insensitive),
+> sSho top5by size
+> Conditionals
+> Bearer Token
+> keeps themostrecent
+> ；x86-64
+> s1s-Uhs（find.-name'.py）
+> ifresp.status_code200:
+> record byupdated_at,
+> push
+> rbp
+> sort-kS-hr|head-n5
+> Token
+> and returns theresult
+> mov
+> rbp,rsp
+> -re-r--r-.
+> else:
+> 18k Lib/parser.py
+> raise Error(resp.text)
+> asaJSONarray.
+> sub
+> rsp,8x26
+> -W-F--r--
+> -r-r----
+> 12xapi/elient.py
+> mov
+> rdi,[rbp-0x8]
+> 8.0Kutils/i0.py
+> Loops
+> (NOsr） son
+> Requirements:
+> rsi,[rbp-0x10]
+> -rw-r--r-.
+> 000c
+> mov
+> 6.1K tests/test_api.py
+> for Item in data:
+> Use csv.DictReader
+> -r--r-
+> ifiten["active"]:
+> rbp
+> .Stream large files
+> pop
+> sFetch API andpretty-print
+> itens.append（iten)
+> 'actiw':trve,
+> "iit:100,
+> .Validate emails
+> ret
+> 5curl-shttps://api.exanple.com/\
+> upe,:olo,
+> Sort by updated_at desc
+> users?linit-31j0.
+> Include a count summary
+> Add type hints and
+> （p.PT.）
+> Data (JSoN）Primitive
+> Timeout(s)
+> docstring
+> （"id:2.name²:Linus}.
+> user.
+> （"id":3.name²:Grace°）
+> "email:*adaexanple.con*
+> "role":'adnin"
+> Response Format
+> JSON
+> 0x01
+> Opcodes
+> Shell
+> Primitives
+> Fields
+> Open Language
 
 ![[assets/slides/hVJOnuhFmTA/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-004.html)
-- AI slide classifier: `diagram` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> PROMPT
+> Tellmewhatmatters.
+> JUSTASTRAWINTOTHEOCEAN.
 
-> Tell me what matters.
-> JUST A STRAW INTO THE OCEAN.
+![[assets/slides/hVJOnuhFmTA/slide-005.jpg]]
+
+OCR text:
+
+> . FF oaern
+> i. | A
+> Protocol
+
+![[assets/slides/hVJOnuhFmTA/slide-006.jpg]]
+
+OCR text:
+
+> Koon1
+> ttbacgu dang
+> Gevarate
 
 ![[assets/slides/hVJOnuhFmTA/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Because it shouldn't need us to anymore.
+> | |
+> sioer>1U\om iG) g(0 16] (01 an malci=1e MU lcm COm=1 a 0nl0) Kes
 > It can ask a follow-up. It can clarify mid-thought.
 > It can notice it's missing something and say so.
 > It should be human conversational
 
 ![[assets/slides/hVJOnuhFmTA/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Dense diagram with small labels and multiple panels; OCR will be more reliable than manual transcription.
+OCR text:
 
-Slide text:
-
-> Batch Carried Forward
-> Loom PunchCard Terminal Prompt
-> LOOm 2 PUNCH CARD TERMINAL 4PROMPT
-> 2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst
-> encode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!
-> ENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.
-> New intelligence, old protocol.
+> Batch Car:
+> 1 LOOM ? PUNCH CARD Omens ast rs 4 PROMPT
+> > > > SO,
+> / °o
+> ean ce area Oe Cemeeee Cc PRIC OLE as cee ees ener ee aR
+> aera Sore aoe eee iaal® Pa cae
+>
+> ex en eran STO ers rea: gee” PRESS 4 eared | coe. eee
+> NCR ene @-2 Ee 8-2 ak ok - ea Gaee cee °
 
 ![[assets/slides/hVJOnuhFmTA/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Chart labels and legend are small; OCR should recover them better than manual transcription.
+OCR text:
 
-Slide text:
+> Expressivegrowth
+> thegap
+> OW
+> Punchicards
+> Command ine
+> asnou+no
+> Touch
+> SWTT
+> esopgaobasd
+> Channel-how he bits physically move
+> Inleraction protocol -whoholdsthe floor
 
-> Expressive growth
-> hgh
-> the gap the thoss
-> Punoh:cirds low Cormmandline GuImouse Touch LUMS
-> Expressree ceding what you are nlowed to say
-> Channelhowhebitspbysicalymove
-> Inletaction protocol Who holds the tloor
+![[assets/slides/hVJOnuhFmTA/slide-010.jpg]]
+
+OCR text:
+
+> LI : | iv ‘
+> 7 ‘| ry 7 ;
+> h an
+
+![[assets/slides/hVJOnuhFmTA/slide-011.jpg]]
+
+OCR text:
+
+> ne © Frontier Voice
+> @rse
 
 ![[assets/slides/hVJOnuhFmTA/slide-012.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/left-72/opencv-adaptive`.
-- OCR decision: ready — Product UI screenshot with small interface text; OCR is the safer capture path.
+OCR text:
 
-Slide text:
-
-> Frontier Voice
-> :tuguo 鲁
-> You 2:18 PM:
-> 8 When's the next Timberwolves game?
-> : Fromtier Voice 2:18 PMi
-> The next Minnesota Tmberwolves game bs
-> I (Eabanos-
-> rdoez: no,
-> Hey. Ted, cane on'rt.
-> Frontlor Yoico 2ig pM
-> Sure, I'm here! Whet's on youu mnd?
-> Mossoge Frontier Voico-.
+> atl © Frontier Voice * ©
+> oO You v1ePM
+> When's the next 3
+> & Timberwolves game?
+> g Frontier Voice 2 12 1"
+> 3 hep ruet Mt co dte Teta ater dummies Nat
+> ry ee at
+> fas! e € we gu D
+> ou UB
+> asy Ted centone 3
+> diy Frontest Voiced .
+> Sue Cr hee WEhans on pa fend?
+> 3. Mes age Frente voce d +]
 
 ![[assets/slides/hVJOnuhFmTA/slide-013.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-013.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> TL;DR
-> - OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”
-> - Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.
-> - The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.
+> agGie) 4
+>
+> » OpenAl is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-
+> Me
+>
+> » Code references and early user tests show that the model can speak, hear, and listen
+> simultaneously, handling mid-sentence interruptions naturally.
+>
+> = The unannounced model has already started rolling out to a select group of app users,
+> hinting at an official release window this week.
 
 ![[assets/slides/hVJOnuhFmTA/slide-014.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-014.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
-- OCR decision: ready — Dense paragraph text and small embedded examples are better suited to OCR than manual transcription in this pass.
+OCR text:
 
-Slide text:
-
-> Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative
+> Enriching PersonaPlex’s output with non-verbal aspects creates an important qualitative
 > difference relative to systems without this dimension: PersonaPlex now recreates some of
-> NVIDIA. the same cues humans use to read Intent, emotions, or comprehension.
-> A Examples
-> NVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in
+> the same cues humans use to read intent, emotions, or comprehension.
+> Examples
+> NVIDIA ADLR The following examples showcase PersonaPlex’s behavior across different scenarios. In
 > all audio files, you can hear the user speaking in the left channel and PersonaPlex in the
 > right channel (shown in green).
-> Assistant
-> 11 0:01 0:26
-> engaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and
-> In this example from FullDuplexBench's Interruption evaluation, PersonaPlex
+> 1 Assistant
+> 1 I . i vt
+> Prompt: You are a wise and fnendly teacher. Answer questions of provide advice in a clear and
+> engaging way.
+> In this example from FullDuplexBenct’s interruption evaluation, PersonaPlex
 > demonstrates general knowledge, interrupterability, and natural turn taking.
-> Customer Service - Banking
-> 0:00 stilif- 0:55
-> Information: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.
-> customer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).
+> 2 Customer Service - Banking
+> Prompt: You work for First Neuron Bank which is a bank and your name is Sanni Virtanen
+> Information: The customer's transaction for $1,200 at Home Depot was declined. Verify
+> customer identity. The transaction was flagged due to an unusual location (transaction
+> attempted in Miami, FL; customer normally transacts in Seattle, WA)
 
 ![[assets/slides/hVJOnuhFmTA/slide-015.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-015.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/full`.
-- OCR decision: ready — Diagram slide with many small labels and multi-panel structure is OCR-suitable.
-
-Slide text:
+OCR text:
 
 > Conversation is more than turn-taking
 > Whatreal-time conversational Al has to understand
-> 1.PARTICIPANTS 2.FLOW
+> 1.PARTICIPANTS
+> 2.FLOW
 > mm-hm
-> Whoishere Who isspeaking Turn-taking Backchannels
-> Whoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing
-> 口
-> Attention Thread tracking
-> Grounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait
+> Turn-taking
+> Backchannels
+> Whoishere
+> Who isspeaking
+> Interruptions&repair
+> Timing
+> Whoislistening
+> Who isbeing
+> addressed
+> Natural conversation=
+> timing+context+
+> Overlap
+> repair+social understanding
+> 3.MEANING
+> 4.ACTION
+> Attention
+> Thread tracking
+> Decisions/
+> Whento speak
+> Grounding
+> Shared context
+> Beliefs/
+> commitments
+> vswait
+> intentions
 
 ![[assets/slides/hVJOnuhFmTA/slide-016.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-016.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
-- OCR decision: ready — Dense product UI screenshot with many small labels is OCR-suitable.
+OCR text:
 
-Slide text:
-
-> O Produet roqurements revlew 1 Pauta (URaply)
-> Listening
-> Szhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp
-> FT
-> TAternoon, Sam. H Jorden.
-> It joins like a teammate - and starts by listening.
+> Productrequirementsreview IPause Replay
+> Stakeholder Dana Product-Lead Sam Engineering Jordan Listening
+> Good afernoon,everyone.
+> Dana Afternoon,Sam.Hi Jordan.
+> It joins likeateammate-and startsby listening.
 
 ![[assets/slides/hVJOnuhFmTA/slide-017.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-017.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Dense product UI screenshot with small embedded text is OCR-suitable.
+OCR text:
 
-Slide text:
-
-> Productrequlrementsrevlewe IPsuse UReplzy
-> AI
-> Presenting
-> Sskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification
-> QSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod
-> O-wnichrequirement is this? REQ-142-expensacrvls
-> What kind of requests, though? Resove approval scope
-> Dara Expense approvalsfirst.Accessrequests eventually. asdwey
+> Productrequirementsreview IPause ladagQ
+> SHAREDBYAI Finance Controls Policyv3 oddy.5 Expense approvalsexceed Dana Product-Lead Sam Jordan odx Bupqeugep om Suggested clarification OOALS Hold Presenting sharingthe source itoD nse approvals,orageneralapproval workfiow？
+> What kind of requests,though? dosdde REQ-142-xpensapprvas
+> CURO Expense approvals first.Accessrequests eventually.
 > Al,hold that. Sam
-> Sam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?
-> Dana Expense approvals.Flrstrelease.
-> Sam Access requests are future scope.
-> Jordin That changos the data model.Good toknow.
-> Al,pull that up for everyone. Sam
-> Oh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.
+> Actually-let'spause.Expense approvals,orageneral approval workflow?
+> Dana Expense approvals.Firstrelease.
+> Access requests are future scope. Sam
+> Thatchanges the data model.Good toknow.
+> Al,pullthat up for everyone.
+> Oh-I'dforgotten that wasarule. Pullingup the source-so theroomseesit too.
 
 ![[assets/slides/hVJOnuhFmTA/slide-018.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-018.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: none.
-- OCR decision: ready — Dense product UI screenshot with multiple small text regions is OCR-suitable.
+OCR text:
+
+> Product requirements review u
+> a Speaking
+> rn
+> 3 o @)
+> 3 A
+> _»
+> Oana on STE . ,
+> (er ees ee
+> . A decision — nota transcript.
+
 ![[assets/slides/hVJOnuhFmTA/slide-019.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-019.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Dense product UI screenshot with small multi-column text.
+OCR text:
 
-Slide text:
-
-> Product requlrements revlew Il Pause UReply
-> CHAT
-> Suskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A
-> Right-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV
-> Agreed.Under five,one tap's fine. Dana GOALS
-> Sam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp
-> Sam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000
-> Sam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification
-> Al-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA
-> Sam Until three? It updates the spec -- live. Spts
+> Product requ:rements review a
+> oa
+> Bo Fo x
+> a as *
+> ferred Sai alt E ra)
+> lett San sate era eee a eee)
+> : It updates the spec — live.
 
 ![[assets/slides/hVJOnuhFmTA/slide-020.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hVJOnuhFmTA/slide-020.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> y weg :
+> ‘a en:
+> Loops, Prom:
+> useful patterns but st comstraming (oe nertact
+> BEYOND THE CONSTRAINT
+> en ae1@] <2.) 2? PROMPTS caer Ne] a) BES) _ ae
+> | ar
+> 7 7 a mao y an
+> a | am n a
+> aa ,) conversation multimodal context-aware
+> - arn a
+> preted pad flay eae a ers Carentan Sie Caer eem St os —* l
+> SS Oar ary submit + repay Pee ee aiense or :
+> Si ace rghtaffordance timing silence
+> when useful
+> Design for what is possibic, not just what old interfaces .
 
-> Loops, Prompts, Agents...
-> useful patterns — but still constraining the interface
-> Loops: predefined flow; hard-coded steps
-> Prompts: manual context; submit + repair
-> Agents: delegated tasks; still shaped by old affordances
-> Design for what is possible, not just what old interfaces allow.
+![[assets/slides/hVJOnuhFmTA/slide-021.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/hVJOnuhFmTA/slide-001.jpg) — `speaker_stage` confidence `0.98`; Speaker closeup, no presentation slide content visible.
-- [`slide-002.jpg`](/assets/slides/hVJOnuhFmTA/slide-002.jpg) — `speaker_stage` confidence `0.95`; Speaker shot with overlay text, not a standalone slide.
-- [`slide-005.jpg`](/assets/slides/hVJOnuhFmTA/slide-005.jpg) — `speaker_stage` confidence `0.97`; Speaker closeup with one-word overlay, not a standalone slide.
-- [`slide-006.jpg`](/assets/slides/hVJOnuhFmTA/slide-006.jpg) — `demo_video` confidence `0.94`; Camera shot of a monitor during a demo, not a presentation slide.
-- [`slide-010.jpg`](/assets/slides/hVJOnuhFmTA/slide-010.jpg) — `demo_video` confidence `0.99`; Video footage of a person at a desk, not a presentation slide.
-- [`slide-011.jpg`](/assets/slides/hVJOnuhFmTA/slide-011.jpg) — `demo_video` confidence `0.96`; Blurred app/demo footage with only a tiny header, not a readable slide.
-- [`slide-021.jpg`](/assets/slides/hVJOnuhFmTA/slide-021.jpg) — `speaker_stage` confidence `0.99`; speaker close-up, not a slide
-- [`slide-022.jpg`](/assets/slides/hVJOnuhFmTA/slide-022.jpg) — `speaker_stage` confidence `0.99`; speaker close-up, not a slide
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/hVJOnuhFmTA/audit.json`
+> a. see
+> a 4
+> “ie
+> seca » y
+> " @
+
+![[assets/slides/hVJOnuhFmTA/slide-022.jpg]]
+
+OCR text:
+
+> <_< + |
+> Gap -* —
+> F Ne
+> iy
+> 7 a,
+> ie
+> b = ‘
+> rf a :
+> CA@e sty
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

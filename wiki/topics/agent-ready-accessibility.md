@@ -4,6 +4,20 @@ category: "topics"
 sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:02fb7d723d6b624926aaf9c6fba0b4f856762edc8db789950b718eb967c5dd2b
+  subjectId: concept:agent-ready-accessibility
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-youtube-KB41dTlX1Uc
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+sourceAssessmentBodySha256: sha256:5517feec2ab58d07d46560880204a7fd43d0fa763f3e242c94818df2bb7a864d
 ---
 # Agent-Ready Accessibility
 
@@ -53,12 +67,13 @@ The theme recurs across independently attributed official event recordings. Spec
 - Interpretation rule for `youtube-KB41dTlX1Uc`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
 - Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
 - Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 ## Evidence Boundary
 This is a synthesis concept grounded in official schedule text and related source evidence. It is not a formal accessibility standard.

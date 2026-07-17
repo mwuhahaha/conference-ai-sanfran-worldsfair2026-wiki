@@ -3,6 +3,19 @@ title: "Adobe"
 category: "companies"
 aliases: ["Adobe"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4f20ca35c993eefcbbf613ee2acc8a87c040e8f575b40b922a192da2921dac93
+  subjectId: company:adobe
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7c557b6fe38cf61f10d8ddc76925a71e18294e0deaedcc18755af1a23deb24e1
 ---
 # Adobe
 

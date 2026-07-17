@@ -5,6 +5,19 @@ aliases: ["Pydantic"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Harness Engineering"]
 scheduleRooms: ["Main Stage"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cb5b00d5cab87781098240b5d43d180e52d1c514cb175840c0ca61466d749476
+  subjectId: tool:pydantic
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:2b30bf316e9fdda4793829df619ab598dc8d81763f5736d66fdb8ab320ef9941
 ---
 
 # Pydantic

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/lakshyaaagrawal/"
 twitter: "https://x.com/LakshyAAAgrawal"
 website: "https://lakshyaaagrawal.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2038f8bc2c98ef4399ecca61e7a9f531d35ac051d92a27afffb5711d5bd6f979
+  subjectId: person:lakshya-agrawal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c4794b09423944646b5ed209bfb9f8fb160627b28c6714bd0ab224db2fb6eda2
 ---
 # Lakshya Agrawal
 

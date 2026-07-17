@@ -5,6 +5,19 @@ role: "Director, Voice & Assistant AI"
 company: "Roku"
 linkedin: "https://www.linkedin.com/in/amit-v-desai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e18e83a07c7ca296ad1a02e87ff5517f3d2e4654f1e26ca8cf62c2ddd538a793
+  subjectId: person:amit-desai
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8b229c5ccfa3f319272d80c673ac3e0cbc510d413a33c5a34516153163a7c41c
 ---
 # Amit Desai
 

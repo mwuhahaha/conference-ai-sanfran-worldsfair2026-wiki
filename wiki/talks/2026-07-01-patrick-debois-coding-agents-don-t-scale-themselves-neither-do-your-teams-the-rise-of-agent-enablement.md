@@ -63,9 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-bSG9wUYaHWU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-bSG9wUYaHWU`
-- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
+- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — slide evidence page.
 - Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
+- Slide-derived themes for `youtube-bSG9wUYaHWU`: context, code, fetch, best, practices, retry, transient, errors.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,7 +77,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-bSG9wUYaHWU` — source page linked; role: supporting context only.
+- `youtube-bSG9wUYaHWU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bSG9wUYaHWU`: context, code, fetch, best, practices, retry, transient, errors.
 - Evidence links for `youtube-bSG9wUYaHWU` (supporting context only): [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 
 ### Agent Reading Notes

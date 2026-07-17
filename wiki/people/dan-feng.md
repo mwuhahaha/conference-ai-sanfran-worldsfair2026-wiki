@@ -5,6 +5,19 @@ role: "Senior Director of Engineering"
 company: "Maven Clinic"
 linkedin: "https://www.linkedin.com/in/dan-feng-2bb5703/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:316525b1fa2d0dc1f65acb346670d5bcfde850a57499311d62cf1b7b90083ef5
+  subjectId: person:dan-feng
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4edd0ab89228bd17646bee8098381edfb54631f50836492830e773c2e8b156ba
 ---
 # Dan Feng
 

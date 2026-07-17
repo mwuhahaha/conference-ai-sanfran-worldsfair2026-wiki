@@ -3,6 +3,19 @@ title: "Ramp"
 category: "companies"
 aliases: ["Ramp"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fda6d207106881dc242a5c9ebc7ece602c0a8ddac8e4ab1ae11050482388e15d
+  subjectId: company:ramp
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f5145eb5e98d6784a4bd2c8fb0fd300b8a72943884eab17966f839d5c573c1b7
 ---
 # Ramp
 

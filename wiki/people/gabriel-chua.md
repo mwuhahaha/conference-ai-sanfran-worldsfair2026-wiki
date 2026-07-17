@@ -6,6 +6,19 @@ company: "OpenAI"
 linkedin: "http://linkedin.com/in/gabriel-chua"
 twitter: "https://x.com/gabrielchua"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4c80f30b5531ca91a266b35e1de98a731744d07acc671d053af69c105c341adc
+  subjectId: person:gabriel-chua
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4dd9afb86a5dd8120efdc97649b563e7756f018d64c30426f276e639d22207d9
 ---
 # Gabriel Chua
 
@@ -30,6 +43,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-charlie-guo-cooking-with-codex|Cooking with Codex]]
 
 ### Media Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 5 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week, charlie, ignorance.
 - Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]

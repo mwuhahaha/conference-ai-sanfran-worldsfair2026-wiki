@@ -5,6 +5,19 @@ role: "Research Scientist"
 company: "Nvidia"
 linkedin: "https://www.linkedin.com/in/dhruvnathawani/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f21923779000364497d0cce69f7fd672de08b70c4ae7d0e575462363e9f03a19
+  subjectId: person:dhruv-nathawani
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5cece457206d43b14725b75852debf3aef82c5640991216170d27431b980b991
 ---
 # Dhruv Nathawani
 

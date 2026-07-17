@@ -4,6 +4,19 @@ category: "people"
 role: "CEO and cofounder"
 company: "Reducto"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0055d41962c7af7fa343821f3bdb360d0087d8b24d5866ab3e1a6d0599c6a245
+  subjectId: person:adit-abraham
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4efe29c90c2dfb2b2539b92ac054c22c08793ea040de17f26b5179da88885903
 ---
 # Adit Abraham
 

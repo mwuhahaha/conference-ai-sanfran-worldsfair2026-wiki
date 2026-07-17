@@ -3,6 +3,19 @@ title: "Millennium"
 category: "companies"
 aliases: ["Millennium"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3f7680d575bdf3a520799c947f13d9a8c739097d806f396440e652a727e06016
+  subjectId: company:millennium
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9a21f4b3fb14f4962fe2962d1d949735b8c616c9d3707b0d82b1c55317e12d55
 ---
 # Millennium
 

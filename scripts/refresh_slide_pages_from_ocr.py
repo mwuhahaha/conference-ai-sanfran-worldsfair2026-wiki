@@ -6,6 +6,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+from markdown_blocks import blockquote
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SLIDE_PAGES = ROOT / "wiki" / "slides"
@@ -42,8 +44,7 @@ def refresh_page(page: Path) -> bool:
         ocr_path = SLIDE_OCR / video_id / f"{slide.stem}.txt"
         text = ocr_path.read_text(errors="ignore").strip() if ocr_path.exists() else ""
         if text:
-            compact = re.sub(r"\n{3,}", "\n\n", text)
-            lines.extend(["", "OCR text:", "", "> " + compact.replace("\n", "\n> "), ""])
+            lines.extend(["", "OCR text:", "", blockquote(text), ""])
     upsert_section(page, "Extracted Slides", "\n".join(lines))
     return True
 

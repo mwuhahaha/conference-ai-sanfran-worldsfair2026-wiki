@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-APh1Vx0oLmQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-APh1Vx0oLmQ`
-- Slide deck: [[youtube-APh1Vx0oLmQ-dense-slides|Dense Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]] — 14 visible slide image(s); 14 HTML recreation(s).
-![[assets/dense-slides/APh1Vx0oLmQ/slide-001.jpg]]
-![[assets/dense-slides/APh1Vx0oLmQ/slide-002.jpg]]
-![[assets/dense-slides/APh1Vx0oLmQ/slide-003.jpg]]
+- Slide deck: [[youtube-APh1Vx0oLmQ-dense-slides|Dense Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]] — slide evidence page.
 - Additional slide evidence: [[youtube-APh1Vx0oLmQ-slides|Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]], [[youtube-APh1Vx0oLmQ-reconstructed-slides|Reconstructed Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]]
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: step, infrastructure, state, model, hallucinates, error, built, traditional.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
+- `youtube-APh1Vx0oLmQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: step, infrastructure, state, model, hallucinates, error, built, traditional.
 - Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
 
 ### Agent Reading Notes

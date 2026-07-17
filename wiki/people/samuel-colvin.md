@@ -5,6 +5,19 @@ role: "Founder & CEO"
 company: "Pydantic"
 twitter: "https://x.com/samuelcolvin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6670e018ab0b902b966a7b2e654886b8a373d4c558b8b44d8b1070c56a53aa14
+  subjectId: person:samuel-colvin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8c653a5a968a8e488c8b046cb8e25cce8d2957f254daee3f2d4c159a9edc85a7
 ---
 # Samuel Colvin
 

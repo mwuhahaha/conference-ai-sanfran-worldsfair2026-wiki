@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/buykin/"
 twitter: "https://x.com/tzakus"
 website: "https://www.maersk.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f9372893b222c07e0adc6a7a9604c19b1d4713694e703c10115dc44ec39c0a20
+  subjectId: person:dmitry-buykin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:22c4dc63a3de273427e3d27a1d1e7dff3e52c33d7d59ae5b6eb9ac9ca158df02
 ---
 # Dmitry Buykin
 

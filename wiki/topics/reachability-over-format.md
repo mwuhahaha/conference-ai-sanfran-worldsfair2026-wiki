@@ -4,6 +4,18 @@ category: "topics"
 sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "critical"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2813f6ea0c9fdc17637e3e46f0b7f55b5ce384b8bb515ea4aac3d3bdf5215716
+  subjectId: concept:reachability-over-format
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:29c1c3c84adb09e77c49e2d44c6c586ac082440ae777b711b49854e8a6224332
 ---
 # Reachability Over Format
 
@@ -42,11 +54,10 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement|Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.]]
 
 ### Media Signals
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
+- `youtube-EyZiAp0pelw` — source page linked; role: supporting context only.
 - Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 ## Evidence Boundary
 This is a synthesis concept derived from Liad Yosef's official talk description and related MCP UI/MCP Apps transcript evidence. Use it as a design pattern, not as a formal protocol claim.

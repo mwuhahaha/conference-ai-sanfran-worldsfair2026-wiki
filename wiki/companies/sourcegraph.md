@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Sourcegraph"]
 website: "https://sourcegraph.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:165da9715151828c409a986d1d54f8e2cc67f3776d858e8e160f93477ec7a9be
+  subjectId: company:sourcegraph
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2e37b44a24b7d26cfeeace76dff03017029fa61ec69137090ea3013ace6647e7
 ---
 # Sourcegraph
 

@@ -58,9 +58,9 @@ OCR text:
 > For example, the neural network architecture of Meta‘s Llama 2 model series only adopts a few
 > changes that differentiate it from the original Transformer in 2017, or the Transformer as used in
 > GPT-2 or GPT-3. These are the following:
-> 
+>
 > 4)
-> 
+>
 > RUC aes MCLs eleliCte
 
 ![[assets/slides/ZuiJjkbX0Og/slide-004.jpg]]
@@ -68,17 +68,17 @@ OCR text:
 OCR text:
 
 > + = Thread ao
-> 
+>
 > fo) .
 > 5 Rey 6 ° on
-> 
+>
 > 3 igsaad ete
-> 
+>
 > a “I don't even see the R's. All! soe 15302, ‘618, 19777. 198, 3504, 1134,
 > ‘ , 19772. 198, 1018.30, 198, 138322. 198, 1100, 302. 1658, 19772, 256-44,
-> 
+>
 > 1100, 3504, 1134, 19772, 13007
-> 
+>
 > [eo] pi
 > < 7 s strawberry -
 > ai f Strawberry JY
@@ -146,23 +146,23 @@ OCR text:
 OCR text:
 
 > SoYgaop ce
-> 
+>
 > SOURNL I Tn a re eee eee cree So
-> 
+>
 > ei
-> 
+>
 > , v
-> 
+>
 > . 8
-> 
+>
 > ' 6
-> 
+>
 > eo . s
-> 
+>
 > ° @
-> 
+>
 > °
-> 
+>
 > ‘¢ ATTENTION .
 > fl aWws
 > oe ~~ |
@@ -172,7 +172,9 @@ OCR text:
 OCR text:
 
 > Multi-head Attention
+> j
 > Multilayer Perceptron
+> fl a Microsoft ary?
 
 ![[assets/slides/ZuiJjkbX0Og/slide-008.jpg]]
 
@@ -206,7 +208,7 @@ OCR text:
 > cs) ease dey a eee co eT @
 > | ; © ©. © 0. ©) @O27°0 ~
 > Woes te ae ae Ok ChatGPT =
-> 
+>
 > | a Microsoft ary?
 
 ![[assets/slides/ZuiJjkbX0Og/slide-010.jpg]]
@@ -214,53 +216,10 @@ OCR text:
 OCR text:
 
 > Similar Architecture, Different Training
-> GPT Assistant training pipeline
-> Stage Pretraining Supervised Finetuning Reward Modeling Reinforcement Learning
-> Dataset
-> Raw internet
-> billions of words
-> low quality, large quantity
-> Demonstrations
-> Ideal Assistant responses
-> ~10-100K prompt, response
-> written by contractors
-> low quantity, high quality
-> Comparisons
-> 100K-1M comparisons
-> written by contractors
-> low quantity, high quality
-> Prompts
-> 10K-100K prompts
-> written by contractors
-> low quantity, high quality
-> Algorithm
-> Language modeling
-> predict the next token
-> Language modeling
-> predict the next token
-> Binary classification
-> predict rewards consistent w preferences
-> Reinforcement Learning
-> generate tokens that maximize the reward
-> Model
-> GPT-3
-> Base model
-> SFT model
-> RM model
-> RL model
-> Notes
-> 1000s of GPUs
-> months of training
-> e.g. GPT, LLaMA, PaLM
-> can deploy this model
-> 1-100 GPUs
-> days of training
-> e.g. Vicuna-13B
-> can deploy this model
-> 1-100 GPUs
-> days of training
-> e.g. ChatGPT, Claude
-> can deploy this model
+> | GPT eer training pipeline
+> ry) ) ° s)
+> i - - eee)
+> | ; a Microsoft ary?
 
 ![[assets/slides/ZuiJjkbX0Og/slide-011.jpg]]
 

@@ -3,6 +3,19 @@ title: "Oracle"
 category: "companies"
 aliases: ["Oracle"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:37a057b01eb123616af086a184822656f7112977fc6d2b200fd9024ef2d1f244
+  subjectId: company:oracle
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d9a5d18b83a46cc3cf3a0d1ff84e1874590c9f5a9c6b105ad168261e89e85883
 ---
 # Oracle
 

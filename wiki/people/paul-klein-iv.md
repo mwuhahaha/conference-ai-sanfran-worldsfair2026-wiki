@@ -5,6 +5,19 @@ role: "Founder & CEO"
 company: "Browserbase"
 twitter: "https://x.com/pk_iv"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ebca3bf36e355f392725b9d24c7e7da6b9707fd572d5528f5054d65fc290f5df
+  subjectId: person:paul-klein-iv
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:92f21d4c2e6d7f70a2e7c7e2e35d71bdd47649d88d012162c570fd80487ea5fd
 ---
 # Paul Klein IV
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
 
 ### Media Signals
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

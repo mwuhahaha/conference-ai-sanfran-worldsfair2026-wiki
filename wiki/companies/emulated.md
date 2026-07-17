@@ -3,6 +3,19 @@ title: "Emulated"
 category: "companies"
 aliases: ["Emulated"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:827c703c240b4453806dfc7d54982372d20993bdd87b6a049b385b5799332c63
+  subjectId: company:emulated
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9ebc18f6e2812d7083db3b56e92d591c1d9e0835b3f71d5a2a568f35214e0a87
 ---
 # Emulated
 

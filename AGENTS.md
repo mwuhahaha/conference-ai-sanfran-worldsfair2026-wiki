@@ -30,9 +30,23 @@ stage-level debugging only and do not constitute a completed update. Source
 acquisition and audit tools may prepare inputs, but the resulting change must
 still pass through the maker.
 
+The media profile has 18 ordered adapters. Preserve its fail-closed tail:
+`sanitize_public_text` -> `agent_source_index` -> `normalize_articles` ->
+`page_assessments` -> `static_export`. `build:validated` performs the candidate
+slide gate and static export; the maker runtime builds and validates the agent
+product separately before promotion. Do not add a second agent-product build to
+the candidate static-export command.
+
 The official YouTube monitor invokes this maker update once after admitting new
 event media. Keep that single-call boundary intact; do not restore a second
 monitor-specific generator chain.
+
+Recurring monitor runs must owner-validate and reconcile the complete official
+WF26 playlist before unioning strictly year/date-gated official-channel
+discovery. Preserve scheduled and unavailable playlist members. The monitor's
+mutation journal and post-push local-sync journal are distinct crash-recovery
+contracts: roll back failed local/publication mutations, but never roll back a
+remote commit after its publication has been verified.
 
 The profile's private input is bootstrapped locally at the ignored path
 `.ops/state/cache/wiki-maker/private-policy.json`. Never publish that file or
@@ -41,6 +55,18 @@ another tracked/public artifact. Provider/browser receipts, acquisition
 candidates, evidence assessments, and writing decisions likewise remain under
 ignored `.ops/state/cache/wiki-maker/credibility-v2/` state. Public adapters may
 project only reviewed, attributed context and categorical provenance.
+
+Assess every canonical entity/article page, including official primary-source
+pages. Assessment never excludes official event evidence. Public Markdown and
+agent records may carry categorical evidence-coverage capsules; human HTML may
+show fixed friendly notices only for configured edge states. Never publish
+numeric scores, signed line items, weights, thresholds, calibration, ranking
+order, or the construction of the private receipt.
+
+Slide AI cache hits must bind the exact source image, model, prompt,
+configuration, input, and output. Publish classifier/OCR outcomes atomically;
+stale or partial results must fail closed. Codex processing of untrusted web or
+media content defaults to read-only execution without local tools.
 
 ## Public Repo Structure
 

@@ -4,6 +4,19 @@ category: "people"
 role: "Member of Technical Staff"
 company: "Laude Institute"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:88c43c8f45b77a44b3958c06926c1728d418de77f57c04b41b81ba432b925453
+  subjectId: person:alex-shaw
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:528d112cdfc62925e3455f928711b4527e0b7c4fccf0ccd299a349761d1db512
 ---
 # Alex Shaw
 

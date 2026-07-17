@@ -8,6 +8,19 @@ twitter: "https://x.com/csanchez"
 website: "https://csanchez.org/"
 blog: "https://csanchez.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2c0e2034bd18faae171fa55e210927f1da9f0cdc820cc181fb02226c2d5f6c28
+  subjectId: person:carlos-sanchez
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:216e08ee2efcafd2159040998ad266b452b9c6204aac0fe8e0e6943bd1f095bc
 ---
 # Carlos Sanchez
 

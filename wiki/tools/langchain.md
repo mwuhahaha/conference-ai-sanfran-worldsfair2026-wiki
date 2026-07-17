@@ -5,6 +5,19 @@ aliases: ["LangChain"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Workshops Day 1", "Agentic Commerce"]
 scheduleRooms: ["Track 6", "Track 2"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7c18b235055a60ad30c3f6655d29fb39768f60782c4e8ae85c399b0d6b4972c6
+  subjectId: tool:langchain
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:87f059bea656349d2872300ef9d03790e0d1202232bc0bdfd573c125bd300840
 ---
 
 # LangChain

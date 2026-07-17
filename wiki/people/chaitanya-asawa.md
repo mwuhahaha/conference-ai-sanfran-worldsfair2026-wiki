@@ -6,6 +6,19 @@ company: "Abridge"
 linkedin: "https://www.linkedin.com/in/casawa"
 twitter: "https://x.com/c_asawa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3126833bdae32a5d751e58d354311e5bc4476145b4f9e4d26a6a770d0d4eb11f
+  subjectId: person:chaitanya-asawa
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ced4b5862408eeda8f1faa8d7a24129e87f3b176fe69f36e2a983286a518cc5d
 ---
 # Chaitanya Asawa
 

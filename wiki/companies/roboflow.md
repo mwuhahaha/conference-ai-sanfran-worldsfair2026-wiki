@@ -3,6 +3,19 @@ title: "Roboflow"
 category: "companies"
 aliases: ["Roboflow"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9702a998a10767b6970f0cc5e3d90fb65047bb601e5700ff61aef484710aa8d0
+  subjectId: company:roboflow
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d219d28de05cd2cbfe81096f68785cd1998f78a6c5b4ced1fbe3733466376f64
 ---
 # Roboflow
 
@@ -32,8 +45,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
 
 ### Media Signals
-- `youtube-OimPoLxioYg` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
+- `youtube-OimPoLxioYg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
 - Evidence links for `youtube-OimPoLxioYg` (supporting context only): [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.

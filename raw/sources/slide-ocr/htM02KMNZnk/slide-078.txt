@@ -1,25 +1,28 @@
-Google Antigravity
-2022
-Autocomplete + Chat
-Embedding search
-Rules files
-Code snippets around cursor
-Tree sitter AST parsing
-Deterministic context retrieval
-2024
+AIEngineer
+AGoogle Antigravity
+World'sFair
+PRESENTED BY
+Microsoft
+Autocomplete-Chat
 Agents
-Chat → Agents only
-Custom tools
-MCP server integrations
-Permissions
-Agentic research for context
-2025
 Agent Manager
+Embeddingsearch
+Chet-Agents only
 Multiple agents in parallel
-Skills & plugins
+Rulesfiles
+Customtools
+Skills &plugins
+Code snippets around cursor
+MCPserverintegrations
+2026era?
+Tree sitter ASTparsing
 Hooks
-Artifacts (ie. plan & walkthrough docs)
-Agent-first management UIs
-2026
-2026 era?
-Engineering the future of AI
+Permissions
+Artifacts (ie.plan& walkthrough docs)
+nAI
+Deterministiccontextretrieval
+Agenticresearchforcontext
+Agent-first management Uls
+f
+Fair
+Engineering the future of Al

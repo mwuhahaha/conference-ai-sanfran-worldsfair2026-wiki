@@ -65,7 +65,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-bmWZk9vTze0]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-bmWZk9vTze0`
-- Slide deck: [[youtube-bmWZk9vTze0-dense-slides|Dense Slides: MCP is all you need — Samuel Colvin, Pydantic]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-bmWZk9vTze0-dense-slides|Dense Slides: MCP is all you need — Samuel Colvin, Pydantic]] — slide evidence page.
 - Additional slide evidence: [[youtube-bmWZk9vTze0-slides|Slides: MCP is all you need — Samuel Colvin, Pydantic]], [[youtube-bmWZk9vTze0-reconstructed-slides|Reconstructed Slides: MCP is all you need — Samuel Colvin, Pydantic]]
 - Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
 

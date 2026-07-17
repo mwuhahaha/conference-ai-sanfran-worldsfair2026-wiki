@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Leaders in Tech"]
 website: "https://www.leadersintech.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9434db1f8e8045a4f41f252ed1c5e3374b762f352cd1ef22129c862e0c20b712
+  subjectId: company:leaders-in-tech
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7470296d8c809df3b4832ab1305fc9e56b4f4fcedf042d25a868020202f13524
 ---
 # Leaders in Tech
 

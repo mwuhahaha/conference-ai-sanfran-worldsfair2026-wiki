@@ -3,6 +3,19 @@ title: "Meta"
 category: "companies"
 aliases: ["Meta"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bd22e5644d7ed03035b3f25bba6737751f4b0561f9a4415bd2f2610c36859503
+  subjectId: company:meta
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f30889119804320b0da82687f1752e448c8e710064b636a94761a7af9aa28e53
 ---
 # Meta
 
@@ -39,11 +52,11 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
+- `youtube-APh1Vx0oLmQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: step, infrastructure, state, model, hallucinates, error, built, traditional.
 - Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
 - Evidence links for `youtube-LxQsQ3vZDqo` (supporting context only): [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -77,15 +77,18 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
-> Livestream
-> July 2, 2026
-> EVENT STARTS IN 03:05
-> GRAPHS
-> BROUGHT TO YOU BY
-> neo4j
-> View Full Schedule ai.engineer/worldsfair/2026/schedule
+> World's Fair July 2, 2026 EVENT STARTS IN 03:05
+> ; 4
+> , ey an a
+> | et ciel S:.
+> - _ | BROUGHT TO YOU BY a
+> i 7
+> WS Neod 4
+> LL a i
+> A
+> fo . ' a .
+> ~ 3 ~ a
+> al.engineer/wordsfait/2026/schedule
 
 ![[assets/slides/I2cbIws9j10/slide-004.jpg]]
 
@@ -274,7 +277,7 @@ OCR text:
 > a A signature alone doesn't
 > a Microsoft ‘
 > specify the task.
-> 
+>
 > Atel d 4 Ose) a Viovale!
 > eT ar
 > aa m The Unreasonable Effectiveness of Separating the Task from the Model
@@ -291,9 +294,9 @@ OCR text:
 > ‘icrosoft World's Pas ~ ' eee : a
 > d's Fo" bees
 > vere The Unreasonable Effectiveness of Separating the Task from the Model
-> 
+>
 > 7 Maxime Rivest Isaac Miller nyt)
-> 
+>
 > aera! da
 
 ![[assets/slides/I2cbIws9j10/slide-015.jpg]]
@@ -310,24 +313,12 @@ OCR text:
 
 OCR text:
 
-> AI Engineer World’s Fair
-> The implementation is fully learned.
-> YOU WRITE
-> extract = dspy.Flex(ExtractTaxes, tools=...)
-> THE MODEL WRITES
-> class TaxExtractor(dspy.Module):
-> def __init__(self):
-> self.parse = dspy.Predict(...)
-> self.check = dspy.ReAct(
-> Validate, tools=[...])
-> def forward(self, invoice):
-> lines = self.parse(invoice)
-> lines = dedupe(lines)
-> return self.check(lines)
-> The Unreasonable Effectiveness of Separating the Task from the Model
-> Maxime Rivest | Isaac Miller
-> Core Contributor | Lead Maintainer
-> DSPy
+> eae
+> World's Fair ; .
+> The implementation Is fully ,
+> F “S, ai. ee Wik
+> a ed is The Unreasonable Effectiveness of Separating the Task from the Model
+> a | ee eee DsPy
 
 ![[assets/slides/I2cbIws9j10/slide-017.jpg]]
 
@@ -387,8 +378,12 @@ OCR text:
 
 OCR text:
 
-> World's Fair
-> Resolve.
+> PO al - ‘World's Fai
+>
+> | Resolve.
+> ingineer ———
+>
+> NV Raver, AM are]
 
 ![[assets/slides/I2cbIws9j10/slide-021.jpg]]
 
@@ -418,16 +413,16 @@ OCR text:
 
 > he he Wworte's Fal aa oy
 > iil
-> 
+>
 > mes NS a — ise - ae
 > / b an oa oe _ s |
-> 
+>
 > RE] SV are Ves ga
-> 
+>
 > escsipe ra Co enna)
-> 
+>
 > — AlEngineer ; AlEngineer
-> 
+>
 > Py) Pe 7 | REF 8 8 ew |
 
 ![[assets/slides/I2cbIws9j10/slide-024.jpg]]
@@ -435,17 +430,17 @@ OCR text:
 OCR text:
 
 > ie me 91 0 o8
-> 
+>
 > oe eS ' VWWORIQSE
-> 
+>
 > / ok ls
-> 
+>
 > \",! aan Se . . | eye.
-> 
+>
 > ngineer -
-> 
+>
 > Cc Ce ee el te oe oe -— |
-> 
+>
 > Al Engincer How Anthropic Builds: Lessons from Labs
 > World's Fair
 > Mike Krieger ANTHROP\AC
@@ -468,20 +463,21 @@ OCR text:
 OCR text:
 
 > re en ee ' WOorasr
-> 
+>
 > 17s) aa a . me ; ; | baz
 > ~ ingincer -
-> 
+>
 > Superconzuct SN
 
 ![[assets/slides/I2cbIws9j10/slide-027.jpg]]
 
 OCR text:
 
-> AI Engineer
+> AlEngineer
 > World's Fair
 > Harness
 > Engineering
+> World'sFair
 
 ![[assets/slides/I2cbIws9j10/slide-028.jpg]]
 
@@ -538,15 +534,15 @@ OCR text:
 
 > EET ena wd de
 > World's Fair
-> 
+>
 > a Microsoft BN a> fe
 > i.e ale kan Al
 > ae
-> 
+>
 > ee Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
-> 
+>
 > - ji
-> 
+>
 > of | Emil Eifrem aor
 
 ![[assets/slides/I2cbIws9j10/slide-032.jpg]]
@@ -638,17 +634,17 @@ OCR text:
 OCR text:
 
 > ones Tg
-> 
+>
 > VSINNY KRLTVUSECU AYCIIL LY
-> 
+>
 > Detect and Remediate i
-> 
+>
 > ETL Pipeline Failures
-> 
+>
 > ih acta lg
-> 
+>
 > ‘ Anna Marie Benzon
-> 
+>
 > . University of the Philippines, Diliman
 > github.com/ambenzon27/rl-etl-remediation-agent
 
@@ -691,13 +687,13 @@ OCR text:
 > N elects tne Kesponse, No e Facts
 > Action:
 > State:
-> 
+>
 > 1.Failure category
 > 2.Risk level 1. Tabular Q-learning
 > 3.Retry count 2.Small, interpretable state space
 > 4.Drift severity 3.Low-memory inference
 > 5.Data-quality condition 4.Inspectable Q-values for every decision
-> 
+>
 > “TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR O-LEARNING.
 
 ![[assets/slides/I2cbIws9j10/slide-040.jpg]]
@@ -720,7 +716,7 @@ OCR text:
 > 0.76
 > aa Bobrowsrpbas
 > om ge Fixed budget Open budget
-> 
+>
 > eld’s Fai
 > 7 oe ° Cy
 > f rN Engineering the future of Al
@@ -729,31 +725,35 @@ OCR text:
 
 OCR text:
 
-> AI Engineer World's Fair
-> Perfect answers and what they cost
-> Tokens to get to a perfect answer
-> 1.2M
-> 2 runs
-> Advise
-> 1.3M
-> 2 runs
-> Grade
+> AlEngineer
+> Perfectanswersandwhattheycost
+> World'sFair
+> Tokenstogettoaperfect answer
+> Percentofrunspassedunderfixed budget
 > 1.7M
-> 2 runs
-> Dream
 > 1.8M
-> 3 runs
-> Execute
-> Percent of runs passed under fixed budget
-> 42%
-> Execute
-> 67%
+> 3runs
+> 1.2M
+> 1.3M
+> 2runs
+> 2runs
+> 2runs
 > Advise
-> 75%
 > Grade
-> 75%
 > Dream
-> Engineering the future of AI
+> Execute
+> Execute
+> Advise
+> Grade
+> Dream
+> d'sFair
+> AlEn
+> iver
+> Worle
+> Engineering the future of Al
+> d's
+> d
+> HE
 
 ![[assets/slides/I2cbIws9j10/slide-043.jpg]]
 
@@ -829,11 +829,11 @@ OCR text:
 
 > a The Bottom Line: Three Architectural
 > World's Fair Ta keaways
-> 
+>
 > 1. Context is Your 2. Portability Has a 3, Don't Be
-> 
+>
 > ; Scarcest Resource corer Embarrassed by CLIs
-> 
+>
 > 7 Microsoft Every token eae LY Oe add latency and git, 1 and curl have
 > unused schemas is stolen complexity. Pay that cost survived 50 years because
 > directly from reasoning. deliberately—for indexing, they are composable,
@@ -966,12 +966,12 @@ OCR text:
 > 7 SES I ee
 > Word'sFair] & \O4 a i ae
 > j i ;
-> 
+>
 > : a / Ot
 > MEV coro ae | — ~
 > Ow 0s We L
 > \ Fa
-> 
+>
 > m Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-060.jpg]]
@@ -1001,56 +1001,42 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World’s Fair
-> Human
-> Agent
-> Today’s signup flow assumes:
-> A human can read a landing page
-> A human can fill a form
-> A human can solve a CAPTCHA
-> A human can verify email
-> (agents might not have an email address)
-> A human can choose a plan
-> A human can copy an API key
-> A human can paste it somewhere
-> A human can understand the dashboard
-> Agent-native registration needs:
-> Discovery
-> Capability declaration
-> Registration intent
-> Risk assessment
-> Agent identity verification (source agent, like Claude)
-> Human or organizational delegation (my company)
-> Entitlement grant
-> Credential issuance
-> Claiming / later ownership transfer
-> Audibility
-> Engineering the future of AI
+> Ea Ted . :
+> World's Fair
+> Today’s signup flow assumes: Agent-native registration needs:
+>
+> a Le .
+> Microsoft Meet
+> a So
+> pla eaaly sent
+>
+> ask Engineering the future of Al
+>
+> na at
 
 ![[assets/slides/I2cbIws9j10/slide-063.jpg]]
 
 OCR text:
 
 > [ World's Fair auth.md can answer:
-> 
+>
 > What does this service do?
-> 
+>
 > aro Re lot eT eC ueets I Cltg
-> 
+>
 > What identity proofs are accepted?
-> 
+>
 > What auth flows are supported?
-> 
+>
 > What scopes and entitlements exist?
-> 
+>
 > What free-tier constraints apply?
 > cee ee How does a human or organization later claim the account?
 > ~ig Microsoft “ vent
 > ae
-> 
+>
 > Fe ° .
-> 
+>
 > Optiver ha Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-064.jpg]]

@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T18:00:10.159Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ff39f324328609a78a22f9366588ba5aa5a84f335340fd1ef4b50cd2b2824546
+  subjectId: person:abduallah-mohamed
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:544ca8db27124c691c60aaa6f3f201b52ac964d1fd36a412460d6e2b015635f7
 ---
 # Abduallah Mohamed
 

@@ -5,6 +5,19 @@ role: "Co-Founder & CTO"
 company: "DatologyAI"
 linkedin: "https://www.linkedin.com/in/bogdangaza"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3774ce098c9c3ed3315c507ceaf68b21d58017ae9e1a488cdc12056a6344fc72
+  subjectId: person:bogdan-gaza
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:df54537692671e1f48717d20227db86adae1feb617de64307a500299c50c44c4
 ---
 # Bogdan Gaza
 

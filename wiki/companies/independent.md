@@ -3,6 +3,19 @@ title: "Independent"
 category: "companies"
 aliases: ["Independent"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ab77d3445272dd319d9bb845ab2a2cbaa666d94b80cabb8f412b70869d3b2f9d
+  subjectId: company:independent
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7412523e49b8ad54f93bfefc9df2b2fb8bdb99d8a6f99282596d84003eda63ce
 ---
 # Independent
 

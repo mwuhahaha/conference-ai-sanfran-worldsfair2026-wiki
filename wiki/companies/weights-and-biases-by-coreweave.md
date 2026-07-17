@@ -3,6 +3,19 @@ title: "Weights & Biases by CoreWeave"
 category: "companies"
 aliases: ["Weights & Biases by CoreWeave"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:142b6d574ef87532655e560415cb937605c18cc8c7009de76421b3e52620b064
+  subjectId: company:weights-and-biases-by-coreweave
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bf15001697165caa7f64a9ecd18423aa7898b09f97ad8249b0b8e12da54d79f3
 ---
 # Weights & Biases by CoreWeave
 

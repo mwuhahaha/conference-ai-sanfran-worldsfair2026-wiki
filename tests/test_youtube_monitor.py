@@ -1,6 +1,7 @@
 import importlib.util
 import io
 import json
+import subprocess
 import sys
 import tempfile
 import types
@@ -22,6 +23,9 @@ PROCESS_SPEC.loader.exec_module(PROCESS)
 VISION_SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "interpret_slide_text_with_vision.py"
 VISION_DEPENDENCY = types.ModuleType("improve_slide_ocr_rapidmerge")
 VISION_DEPENDENCY.AUDIT_PATH = Path("/nonexistent-rapidmerge-audit.json")
+VISION_DEPENDENCY.PROVENANCE_REPAIR_SUMMARY = Path(
+    "/nonexistent-provenance-repair-summary.json"
+)
 VISION_DEPENDENCY.Candidate = object
 VISION_DEPENDENCY.is_weak = lambda _text: True
 VISION_DEPENDENCY.text_path = lambda base, slide: base / slide.parent.name / f"{slide.stem}.txt"
@@ -108,6 +112,24 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertEqual(1, expanded_report["new_since_baseline_count"])
         self.assertEqual(["extra000001"], expanded_report["new_since_baseline_ids"])
         payload["entries"].pop()
+
+        def metadata_without_channel(video_id):
+            item = metadata(video_id)
+            return monitor.VideoEntry(
+                item.video_id,
+                item.title,
+                item.published,
+                item.updated,
+                item.url,
+                channel_id="",
+                availability=item.availability,
+            )
+
+        completed = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
+        with patch.object(monitor.subprocess, "run", return_value=completed), patch.object(
+            monitor, "fetch_video_metadata", side_effect=metadata_without_channel
+        ), self.assertRaisesRegex(RuntimeError, "video owner mismatch"):
+            monitor.fetch_official_playlist([])
 
         payload["channel_id"] = "wrong-channel"
         completed = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
@@ -196,6 +218,57 @@ class YoutubeMonitorTests(unittest.TestCase):
             all(item["associationEvidence"] == "official_wf26_playlist_membership" for item in playlist)
         )
 
+    def test_playlist_manifest_keeps_reconciled_talk_matches(self):
+        video = monitor.VideoEntry(
+            "merge000001",
+            "Owner-validated playlist video",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=merge000001",
+            channel_id=monitor.CHANNEL_ID,
+        )
+        merged_matches = [
+            {"id": "rss-talk", "title": "RSS Talk"},
+            {"id": "playlist-talk", "title": "Playlist Talk"},
+        ]
+        playlist_item = monitor.PlaylistEntry(
+            video.video_id,
+            30,
+            video.title,
+            "public",
+            video,
+            matched_talks=(merged_matches[1],),
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw/sources"
+            wiki = root / "wiki"
+            manifest = raw / "official-wf26-video-manifest.json"
+            manifest.parent.mkdir(parents=True)
+            manifest.write_text('{"schemaVersion": 1, "videos": []}\n', encoding="utf-8")
+            with (
+                patch.object(monitor, "ROOT", root),
+                patch.object(monitor, "RAW", raw),
+                patch.object(monitor, "WIKI", wiki),
+                patch.object(monitor, "OFFICIAL_VIDEO_MANIFEST", manifest),
+            ):
+                self.assertTrue(
+                    monitor.update_official_video_manifest(
+                        [(video, merged_matches)],
+                        playlist_entries=[playlist_item],
+                    )
+                )
+
+            result = json.loads(manifest.read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            ["rss-talk", "playlist-talk"], result["videos"][0]["matchedTalks"]
+        )
+        self.assertEqual(
+            "official_wf26_playlist_membership",
+            result["videos"][0]["associationEvidence"],
+        )
+
     def test_enrichment_uses_one_targeted_wiki_maker_update(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -266,6 +339,59 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertNotEqual(
             monitor.playable_manifest_projection(before),
             monitor.playable_manifest_projection(playable_changed),
+        )
+
+    def test_content_completion_separates_association_transcripts_and_slides(self):
+        payload = {
+            "videos": [
+                {
+                    "id": "complete-video",
+                    "mediaType": "talk_recording",
+                    "associationEvidence": "official_channel_plus_schedule_text",
+                },
+                {
+                    "id": "transcript-pending",
+                    "mediaType": "talk_recording",
+                    "associationEvidence": "official_channel_plus_schedule_text",
+                    "slideStatus": monitor.NO_SLIDES_STATUS,
+                },
+                {
+                    "id": "scheduled-video",
+                    "mediaType": "scheduled_premiere",
+                    "associationEvidence": "official_wf26_playlist_membership",
+                },
+                {
+                    "id": "unavailable-video",
+                    "mediaType": "unavailable_playlist_item",
+                    "associationEvidence": "official_wf26_playlist_membership",
+                },
+            ]
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw" / "sources"
+            wiki = root / "wiki"
+            transcript = raw / "youtube-transcripts" / "complete-video.txt"
+            transcript.parent.mkdir(parents=True)
+            transcript.write_text("cached transcript\n", encoding="utf-8")
+            slides = wiki / "slides" / "youtube-complete-video-slides.md"
+            slides.parent.mkdir(parents=True)
+            slides.write_text("# Slides\n", encoding="utf-8")
+            with patch.object(monitor, "RAW", raw), patch.object(monitor, "WIKI", wiki):
+                summary = monitor.content_completion_summary(payload)
+
+        self.assertEqual("partial", summary["state"])
+        self.assertEqual(4, summary["media_association"]["associated_count"])
+        self.assertEqual(2, summary["media_association"]["playable_count"])
+        self.assertEqual(1, summary["media_association"]["scheduled_premiere_count"])
+        self.assertEqual(1, summary["media_association"]["unavailable_count"])
+        self.assertEqual(
+            {"state": "partial", "eligible_count": 2, "complete_count": 1, "pending_count": 1, "unavailable_count": 0},
+            summary["transcripts"],
+        )
+        self.assertEqual(
+            {"state": "complete", "eligible_count": 2, "complete_count": 2, "pending_count": 0, "unavailable_count": 0},
+            summary["slides"],
         )
 
     def test_wiki_maker_override_fails_closed_when_missing(self):
@@ -395,6 +521,66 @@ class YoutubeMonitorTests(unittest.TestCase):
 
             row = json.loads(manifest.read_text(encoding="utf-8"))["videos"][0]
         self.assertEqual(monitor.NO_SLIDES_STATUS, row["slideStatus"])
+
+    def test_available_video_manifest_refresh_clears_stale_strict_matches(self):
+        video = monitor.VideoEntry(
+            "video-1",
+            "Official playlist talk",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=video-1",
+            channel_id=monitor.CHANNEL_ID,
+            availability="public",
+        )
+        channel_video = monitor.VideoEntry(
+            "channel-video",
+            "Explicit WF26 recording",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=channel-video",
+            channel_id=monitor.CHANNEL_ID,
+            availability="public",
+        )
+        available = monitor.PlaylistEntry(
+            video.video_id, 1, video.title, "public", video, matched_talks=()
+        )
+        unavailable = monitor.PlaylistEntry("private-1", 2, "", "private", None)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw" / "sources"
+            wiki = root / "wiki"
+            manifest = raw / "official-wf26-video-manifest.json"
+            manifest.parent.mkdir(parents=True)
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "videos": [
+                            {"id": video.video_id, "matchedTalks": ["stale-talk"]},
+                            {"id": channel_video.video_id, "matchedTalks": ["stale-talk"]},
+                            {"id": "private-1", "matchedTalks": ["last-known-talk"]},
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "RAW", raw
+            ), patch.object(monitor, "WIKI", wiki), patch.object(
+                monitor, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ):
+                self.assertTrue(
+                    monitor.update_official_video_manifest(
+                        [(channel_video, [])], playlist_entries=[available, unavailable]
+                    )
+                )
+
+            rows = {
+                item["id"]: item
+                for item in json.loads(manifest.read_text(encoding="utf-8"))["videos"]
+            }
+        self.assertEqual([], rows[video.video_id]["matchedTalks"])
+        self.assertEqual([], rows[channel_video.video_id]["matchedTalks"])
+        self.assertEqual(["last-known-talk"], rows["private-1"]["matchedTalks"])
 
     def test_multiline_frontmatter_speakers_are_parsed(self):
         text = '---\ntitle: "Talk"\nspeakers:\n  - Alex Bauer\n  - "Second Speaker"\ncategory: talks\n---\n'
@@ -578,6 +764,75 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertIn("event-association and premiere-state metadata only", text)
         self.assertIn("do not use it as recording, transcript, or slide-content evidence", text)
         self.assertNotIn("use this recording as media evidence", text)
+
+    def test_talk_page_reconciliation_moves_and_removes_only_generated_video_block(self):
+        video = monitor.VideoEntry(
+            "video-1",
+            "Official recording",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=video-1",
+        )
+        generated = "\n".join(
+            [
+                "- [[youtube-video-1]] — official AI Engineer YouTube channel recording published 2026-07-16.",
+                "- Evidence status: transcript/slide enrichment pending.",
+                "- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.",
+            ]
+        )
+        other_generated = generated.replace("video-1", "other-video")
+        with tempfile.TemporaryDirectory() as directory:
+            wiki = Path(directory) / "wiki"
+            talks = wiki / "talks"
+            talks.mkdir(parents=True)
+            old_talk = talks / "old-talk.md"
+            new_talk = talks / "new-talk.md"
+            unrelated_talk = talks / "unrelated-talk.md"
+            old_talk.write_text(
+                f"# Old\n\n## Official YouTube Recording\n{generated}\n\nManual verification note.\n\n## Sources\n- Keep me.\n",
+                encoding="utf-8",
+            )
+            new_talk.write_text("# New\n\n## Sources\n- Keep me.\n", encoding="utf-8")
+            unrelated_talk.write_text(
+                f"# Other\n\n## Official YouTube Recording\n{other_generated}\n",
+                encoding="utf-8",
+            )
+            match = {"path": str(new_talk), "id": "new-talk", "title": "New Talk"}
+            with patch.object(monitor, "WIKI", wiki):
+                self.assertTrue(monitor.talk_page_projection_needed(video.video_id, [match]))
+                self.assertEqual(2, monitor.update_talk_pages(video, [match]))
+                self.assertFalse(monitor.talk_page_projection_needed(video.video_id, [match]))
+
+                old_text = old_talk.read_text(encoding="utf-8")
+                new_text = new_talk.read_text(encoding="utf-8")
+                unrelated_text = unrelated_talk.read_text(encoding="utf-8")
+                self.assertNotIn("[[youtube-video-1]]", old_text)
+                self.assertIn("Manual verification note.", old_text)
+                self.assertIn("## Sources\n- Keep me.", old_text)
+                self.assertIn("[[youtube-video-1]]", new_text)
+                self.assertIn("[[youtube-other-video]]", unrelated_text)
+
+                self.assertTrue(monitor.talk_page_projection_needed(video.video_id, []))
+                self.assertEqual(1, monitor.update_talk_pages(video, []))
+                self.assertFalse(monitor.talk_page_projection_needed(video.video_id, []))
+
+            new_text = new_talk.read_text(encoding="utf-8")
+            unrelated_text = unrelated_talk.read_text(encoding="utf-8")
+        self.assertNotIn("## Official YouTube Recording", new_text)
+        self.assertIn("## Sources\n- Keep me.", new_text)
+        self.assertIn("[[youtube-other-video]]", unrelated_text)
+
+    def test_empty_schedule_projection_detects_stale_resource_link(self):
+        with tempfile.TemporaryDirectory() as directory:
+            wiki = Path(directory) / "wiki"
+            resource = wiki / "resources" / "youtube-video-1.md"
+            resource.parent.mkdir(parents=True)
+            resource.write_text(
+                "# Video\n\n## Matched Schedule Pages\n- [[stale-talk|Stale Talk]]\n\n## Link\n",
+                encoding="utf-8",
+            )
+            with patch.object(monitor, "WIKI", wiki):
+                self.assertTrue(monitor.resource_schedule_projection_needed("video-1", []))
 
     def test_manual_caption_acquisition_never_uses_browser_fallback(self):
         video = monitor.VideoEntry(
@@ -790,7 +1045,6 @@ class YoutubeMonitorTests(unittest.TestCase):
             publish = stack.enter_context(
                 patch.object(monitor, "maybe_commit_and_push", return_value={"enabled": False})
             )
-            stop_timer = stack.enter_context(patch.object(monitor, "stop_timer_if_present"))
             stack.enter_context(patch.object(monitor, "write_status"))
 
             self.assertEqual(
@@ -799,7 +1053,6 @@ class YoutubeMonitorTests(unittest.TestCase):
             )
 
         fetch_rss.assert_not_called()
-        stop_timer.assert_not_called()
         captions.assert_called_once_with(old, allow_browser_fallback=False)
         manifest_refresh.assert_called_once()
         maker.assert_called_once()
@@ -1055,7 +1308,7 @@ class YoutubeMonitorTests(unittest.TestCase):
             self.assertTrue(changed)
             self.assertEqual("video-2", json.loads(snapshot.read_text(encoding="utf-8"))["entries"][0]["id"])
 
-    def test_monitor_dry_run_does_not_write_status_stop_timer_or_open_browser(self):
+    def test_monitor_dry_run_does_not_write_status_or_open_browser(self):
         published = datetime.now(timezone.utc).isoformat()
         entry = monitor.VideoEntry("video-1", "World's Fair 2026 Test", published, published, "https://example.test/video")
         with tempfile.TemporaryDirectory() as directory:
@@ -1063,23 +1316,197 @@ class YoutubeMonitorTests(unittest.TestCase):
             patches = (
                 patch.object(monitor, "fetch_rss", return_value=[entry]),
                 patch.object(monitor, "read_talk_pages", return_value=[]),
+                patch.object(
+                    monitor,
+                    "fetch_official_playlist",
+                    return_value=([], {"status": "fixture"}),
+                ),
                 patch.object(monitor, "event_entries", return_value=[(entry, [])]),
                 patch.object(monitor, "discover_recent_channel_event_rows", return_value=([], {"status": "fixture"})),
                 patch.object(monitor, "scheduled_manifest_video_ids", return_value=set()),
                 patch.object(monitor, "pending_manifest_video_ids", return_value=set()),
                 patch.object(monitor, "resource_path", return_value=missing_resource),
                 patch.object(monitor, "write_status"),
-                patch.object(monitor, "stop_timer_if_present"),
                 patch.object(monitor, "open_status_page"),
             )
-            with patches[0], patches[1], patches[2], patches[3], patches[4], patches[5], patches[6], patches[7] as write_status, patches[8] as stop_timer, patches[9] as open_status:
+            with (
+                patches[0],
+                patches[1],
+                patches[2],
+                patches[3],
+                patches[4],
+                patches[5],
+                patches[6],
+                patches[7],
+                patches[8] as write_status,
+                patches[9] as open_status,
+            ):
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(0, monitor.main(["--dry-run", "--open-status"]))
 
             write_status.assert_not_called()
-            stop_timer.assert_not_called()
             open_status.assert_not_called()
             self.assertFalse(missing_resource.exists())
+
+    def test_rss_only_event_row_is_reconciled_into_manifest(self):
+        published = "2026-07-01T12:00:00+00:00"
+        entry = monitor.VideoEntry(
+            "rss-only-video",
+            "World's Fair 2026 RSS-only recording",
+            published,
+            published,
+            "https://www.youtube.com/watch?v=rss-only-video",
+        )
+        matched = [{"id": "rss-talk", "title": "RSS Talk"}]
+
+        report, manifest_update = self._run_dry_monitor_rows(
+            [(entry, matched)],
+            [],
+        )
+
+        reconciled_rows = manifest_update.call_args.args[0]
+        self.assertEqual(["rss-only-video"], [video.video_id for video, _ in reconciled_rows])
+        self.assertEqual(matched, reconciled_rows[0][1])
+        self.assertEqual(["rss-only-video"], [item["id"] for item in report["processed"]])
+
+    def test_recurring_union_includes_opaque_scheduled_and_unavailable_playlist_items(self):
+        opaque = monitor.VideoEntry(
+            "opaque00001",
+            "A title with no event keywords",
+            "2025-01-01T12:00:00+00:00",
+            "2025-01-01T12:00:00+00:00",
+            "https://www.youtube.com/watch?v=opaque00001",
+            live_status="is_upcoming",
+            release_date="2026-07-20",
+            channel_id=monitor.CHANNEL_ID,
+        )
+        scheduled = monitor.PlaylistEntry(
+            opaque.video_id,
+            30,
+            opaque.title,
+            "public",
+            opaque,
+        )
+        unavailable = monitor.PlaylistEntry(
+            "private0001",
+            31,
+            "Private video",
+            "private",
+            None,
+        )
+
+        report, manifest_update = self._run_dry_monitor_rows(
+            [],
+            [],
+            playlist_entries=[scheduled, unavailable],
+        )
+
+        reconciled_rows = manifest_update.call_args.args[0]
+        self.assertEqual([opaque.video_id], [video.video_id for video, _ in reconciled_rows])
+        self.assertEqual(
+            [scheduled, unavailable],
+            manifest_update.call_args.kwargs["playlist_entries"],
+        )
+        self.assertEqual(
+            [opaque.video_id, unavailable.video_id],
+            [item["id"] for item in report["processed"]],
+        )
+        self.assertEqual("scheduled_monitor", report["mode"])
+
+    def test_duplicate_rss_channel_and_playlist_rows_are_reconciled_once(self):
+        published = "2026-07-01T12:00:00+00:00"
+        rss_entry = monitor.VideoEntry(
+            "duplicate-video",
+            "RSS title",
+            published,
+            published,
+            "https://www.youtube.com/watch?v=duplicate-video",
+        )
+        channel_entry = monitor.VideoEntry(
+            "duplicate-video",
+            "Detailed channel title",
+            published,
+            published,
+            "https://www.youtube.com/watch?v=duplicate-video",
+            channel_id=monitor.CHANNEL_ID,
+            has_english_captions=True,
+        )
+        channel_match = [{"id": "channel-talk", "title": "Channel Talk"}]
+        playlist_entry = monitor.VideoEntry(
+            "duplicate-video",
+            "Owner-validated playlist metadata",
+            published,
+            published,
+            "https://www.youtube.com/watch?v=duplicate-video",
+            channel_id=monitor.CHANNEL_ID,
+            has_english_captions=True,
+        )
+        playlist_item = monitor.PlaylistEntry(
+            playlist_entry.video_id,
+            7,
+            playlist_entry.title,
+            "public",
+            playlist_entry,
+            matched_talks=({"id": "playlist-talk", "title": "Playlist Talk"},),
+        )
+
+        report, manifest_update = self._run_dry_monitor_rows(
+            [(rss_entry, [{"id": "rss-talk", "title": "RSS Talk"}])],
+            [(channel_entry, channel_match)],
+            playlist_entries=[playlist_item],
+        )
+
+        reconciled_rows = manifest_update.call_args.args[0]
+        self.assertEqual(1, len(reconciled_rows))
+        self.assertIs(playlist_entry, reconciled_rows[0][0])
+        self.assertEqual(
+            ["rss-talk", "channel-talk", "playlist-talk"],
+            [talk["id"] for talk in reconciled_rows[0][1]],
+        )
+        self.assertEqual(
+            [playlist_item], manifest_update.call_args.kwargs["playlist_entries"]
+        )
+        self.assertEqual(["duplicate-video"], [item["id"] for item in report["processed"]])
+
+    def test_recurring_playlist_owner_failure_fails_closed_before_other_discovery(self):
+        stdout = io.StringIO()
+        with (
+            patch.object(monitor, "read_talk_pages", return_value=[]),
+            patch.object(
+                monitor,
+                "fetch_official_playlist",
+                side_effect=RuntimeError("official WF26 playlist owner channel mismatch"),
+            ),
+            patch.object(monitor, "fetch_rss") as fetch_rss,
+            patch.object(monitor, "discover_recent_channel_event_rows") as channel_scan,
+            patch.object(monitor, "update_official_video_manifest") as manifest_update,
+            patch.object(monitor, "write_status") as write_status,
+            redirect_stdout(stdout),
+            redirect_stderr(io.StringIO()),
+        ):
+            self.assertEqual(
+                1,
+                monitor.run_entrypoint(["--dry-run", "--no-auto-push"]),
+            )
+
+        report = json.loads(stdout.getvalue())
+        self.assertEqual("degraded", report["state"])
+        self.assertIn("owner channel mismatch", report["error"]["message"])
+        fetch_rss.assert_not_called()
+        channel_scan.assert_not_called()
+        manifest_update.assert_not_called()
+        write_status.assert_not_called()
+
+    def test_empty_discovery_keeps_durable_reconciliation_active(self):
+        report, manifest_update = self._run_dry_monitor_rows([], [])
+
+        manifest_update.assert_called_once()
+        self.assertEqual([], manifest_update.call_args.args[0])
+        self.assertEqual("active", report["state"])
+        self.assertIsNone(report["active_cutoff_date"])
+        self.assertFalse(report["reconciliation_policy"]["auto_expiry"])
+        self.assertIsNone(report["reconciliation_policy"]["date_cutoff"])
+        self.assertIn("remains eligible for late releases", report["message"])
 
     def test_monitor_dry_run_failure_reports_mode_without_writing_status(self):
         stdout = io.StringIO()
@@ -1119,6 +1546,7 @@ class YoutubeMonitorTests(unittest.TestCase):
             [{"id": "video-1", "component": "transcript", "status": "chrome_caption_import_failed", "error": "caption boom"}],
             report["item_failures"],
         )
+        self.assertEqual("rolled_back", report["mutation_rollback"]["status"])
         enrichment.assert_not_called()
         publish.assert_not_called()
 
@@ -1148,6 +1576,28 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertEqual("failed", report["state"])
         self.assertEqual("failed", report["status"])
         self.assertEqual(2, report["failure_count"])
+
+    def test_remote_publish_with_pending_local_sync_is_truthful_and_not_rolled_back(self):
+        returncode, report, _enrichment, _publish = self._run_monitor_item(
+            {"status": "captions_imported"},
+            {"status": "already_extracted"},
+            publish_result={
+                "enabled": True,
+                "changed": True,
+                "commit_returncode": 0,
+                "push_returncode": 0,
+                "local_sync": {
+                    "status": "local_sync_pending",
+                    "candidateCommit": "a" * 40,
+                },
+            },
+        )
+
+        self.assertEqual(1, returncode)
+        self.assertEqual("degraded", report["state"])
+        self.assertEqual("degraded", report["status"])
+        self.assertIn("published", report["message"])
+        self.assertNotIn("mutation_rollback", report)
 
     def test_slide_corpus_dry_run_does_not_create_receipt(self):
         item = {"video_id": "video-1", "deck_kind": "slides", "images": 2}
@@ -1252,12 +1702,548 @@ class YoutubeMonitorTests(unittest.TestCase):
             self.assertEqual(1, audit["slidesAttempted"])
             self.assertIn("malformed JSON", audit["records"][0]["error"])
 
-    def _run_monitor_item(self, transcript_result, slide_result):
+    def test_mutation_transaction_restores_layered_roots_and_direct_writes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            wiki = root / "wiki"
+            existing = wiki / "topics/existing.md"
+            existing.parent.mkdir(parents=True)
+            existing.write_text("user baseline\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            with patch.object(monitor, "_ACTIVE_TRANSACTION", transaction):
+                monitor.write_text(existing, "monitor direct change\n")
+                transaction.backup_canonical_root(wiki)
+                existing.write_text("external maker change\n", encoding="utf-8")
+                generated = wiki / "topics/generated.md"
+                generated.write_text("external generated page\n", encoding="utf-8")
+                durable_status = state / "status.json"
+                monitor.write_text(durable_status, '{"state":"degraded"}\n')
+                result = transaction.rollback()
+
+            self.assertEqual("rolled_back", result["status"])
+            self.assertEqual("user baseline\n", existing.read_text(encoding="utf-8"))
+            self.assertFalse(generated.exists())
+            self.assertEqual(
+                '{"state":"degraded"}\n', durable_status.read_text(encoding="utf-8")
+            )
+            self.assertFalse(transaction.journal_path.exists())
+            self.assertFalse(transaction.backup_root.exists())
+
+    def test_successful_transaction_keeps_changes_and_clears_private_journal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            page = root / "wiki/index.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("before\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            with patch.object(monitor, "_ACTIVE_TRANSACTION", transaction):
+                monitor.write_text(page, "after\n")
+                transaction.commit()
+
+            self.assertEqual("after\n", page.read_text(encoding="utf-8"))
+            self.assertFalse(transaction.journal_path.exists())
+            self.assertFalse(transaction.backup_root.exists())
+
+    def test_enrichment_failure_restores_wiki_static_and_agent_outputs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            wiki_page = root / "wiki/index.md"
+            static_page = root / "dist/index.html"
+            agent_index = root / "agent-index.json"
+            for path, value in (
+                (wiki_page, "wiki before\n"),
+                (static_page, "static before\n"),
+                (agent_index, '{"before":true}\n'),
+            ):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(value, encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+
+            def fail_enrichment(_cmd, **_kwargs):
+                wiki_page.write_text("wiki after\n", encoding="utf-8")
+                static_page.write_text("static after\n", encoding="utf-8")
+                agent_index.write_text('{"after":true}\n', encoding="utf-8")
+                (root / "wiki/generated.md").write_text("generated\n", encoding="utf-8")
+                return Mock(returncode=1, stdout="", stderr="failed")
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "WIKI", root / "wiki"
+            ), patch.object(monitor, "STATE_DIR", state), patch.object(
+                monitor, "_ACTIVE_TRANSACTION", transaction
+            ), patch.object(
+                monitor, "wiki_maker_executable", return_value="wiki-from-topic-maker"
+            ), patch.object(
+                monitor, "update_source_paths", return_value=[]
+            ), patch.object(
+                monitor, "run", side_effect=fail_enrichment
+            ):
+                result = monitor.run_enrichment(0, [])
+                report: dict[str, object] = {"message": "enrichment failed"}
+                monitor.rollback_failed_monitor_run(report, transaction)
+
+            self.assertEqual(1, result[0]["returncode"])
+            self.assertEqual("wiki before\n", wiki_page.read_text(encoding="utf-8"))
+            self.assertEqual("static before\n", static_page.read_text(encoding="utf-8"))
+            self.assertEqual(
+                '{"before":true}\n', agent_index.read_text(encoding="utf-8")
+            )
+            self.assertFalse((root / "wiki/generated.md").exists())
+            self.assertEqual("rolled_back", report["mutation_rollback"]["status"])
+
+    def test_uncaught_monitor_exception_rolls_back_before_durable_status(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            page = root / "wiki/index.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("before\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            transaction.track_path(page)
+            page.write_text("interrupted\n", encoding="utf-8")
+
+            with patch.object(monitor, "_ACTIVE_TRANSACTION", transaction), patch.object(
+                monitor, "STATUS_JSON", state / "status.json"
+            ), patch.object(
+                monitor, "STATUS_HTML", state / "status.html"
+            ), patch.object(
+                monitor, "main", side_effect=RuntimeError("synthetic crash")
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                self.assertEqual(1, monitor.run_entrypoint([]))
+
+            report = json.loads((state / "status.json").read_text(encoding="utf-8"))
+            self.assertEqual("before\n", page.read_text(encoding="utf-8"))
+            self.assertEqual("rolled_back", report["mutation_rollback"]["status"])
+            self.assertFalse(transaction.journal_path.exists())
+
+    def test_uncertain_publish_exception_defers_rollback_to_startup_recovery(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            page = root / "wiki/index.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("before\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            transaction.track_path(page)
+            page.write_text("candidate\n", encoding="utf-8")
+            (state / "publish-sync.json").write_text(
+                json.dumps(
+                    {
+                        "schemaVersion": 1,
+                        "phase": "candidate_prepared",
+                        "baseCommit": "a" * 40,
+                        "candidateCommit": "b" * 40,
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", state
+            ), patch.object(monitor, "_ACTIVE_TRANSACTION", transaction), patch.object(
+                monitor, "STATUS_JSON", state / "status.json"
+            ), patch.object(
+                monitor, "STATUS_HTML", state / "status.html"
+            ), patch.object(
+                monitor, "main", side_effect=RuntimeError("post-push uncertainty")
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                self.assertEqual(1, monitor.run_entrypoint([]))
+
+            report = json.loads((state / "status.json").read_text(encoding="utf-8"))
+            self.assertEqual("candidate\n", page.read_text(encoding="utf-8"))
+            self.assertEqual(
+                "deferred_to_publish_recovery",
+                report["mutation_rollback"]["status"],
+            )
+            self.assertTrue(transaction.journal_path.exists())
+
+    def test_startup_recovers_interrupted_transaction_before_clean_preflight(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            page = root / "wiki/index.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("before\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            transaction.track_path(page)
+            page.write_text("interrupted mutation\n", encoding="utf-8")
+            observed: list[str] = []
+
+            def preflight():
+                observed.append(page.read_text(encoding="utf-8"))
+                self.assertFalse(transaction.journal_path.exists())
+                return {"ok": False, "reason": "fixture stop after recovery"}
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", state
+            ), patch.object(
+                monitor, "auto_push_preflight", side_effect=preflight
+            ), redirect_stdout(io.StringIO()):
+                self.assertEqual(2, monitor.main(["--auto-push"]))
+
+            self.assertEqual(["before\n"], observed)
+            self.assertEqual("before\n", page.read_text(encoding="utf-8"))
+
+    def test_verified_remote_publish_commits_surviving_mutation_journal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            page = root / "wiki/index.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("before publish\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+            transaction.track_path(page)
+            page.write_text("published candidate\n", encoding="utf-8")
+            sync = state / "publish-sync.json"
+            sync.write_text(
+                json.dumps(
+                    {
+                        "schemaVersion": 1,
+                        "phase": "remote_published",
+                        "baseCommit": "a" * 40,
+                        "candidateCommit": "b" * 40,
+                    }
+                ),
+                encoding="utf-8",
+            )
+            observed: list[str] = []
+
+            def recover_publish():
+                sync.unlink()
+                return {"status": "synchronized", "candidateCommit": "b" * 40}
+
+            def preflight():
+                observed.append(page.read_text(encoding="utf-8"))
+                self.assertFalse(transaction.journal_path.exists())
+                return {"ok": False, "reason": "fixture stop after recovery"}
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", state
+            ), patch.object(
+                monitor, "recover_monitor_publish_sync", side_effect=recover_publish
+            ), patch.object(
+                monitor, "auto_push_preflight", side_effect=preflight
+            ), redirect_stdout(io.StringIO()):
+                self.assertEqual(2, monitor.main(["--auto-push"]))
+
+            self.assertEqual(["published candidate\n"], observed)
+            self.assertEqual(
+                "published candidate\n", page.read_text(encoding="utf-8")
+            )
+            self.assertFalse(transaction.backup_root.exists())
+
+    def test_publish_failure_rolls_back_manifest_and_generated_resource(self):
+        published = "2026-07-17T12:00:00+00:00"
+        entry = monitor.VideoEntry(
+            "video-rollback",
+            "World's Fair 2026 Transaction Test",
+            published,
+            published,
+            "https://www.youtube.com/watch?v=video-rollback",
+        )
+        with tempfile.TemporaryDirectory() as directory, ExitStack() as stack:
+            root = Path(directory) / "project"
+            raw = root / "raw/sources"
+            wiki = root / "wiki"
+            state = root / ".ops/state/youtube-monitor"
+            manifest = raw / "official-wf26-video-manifest.json"
+            manifest.parent.mkdir(parents=True)
+            baseline = {"schemaVersion": 1, "videos": []}
+            manifest.write_text(json.dumps(baseline) + "\n", encoding="utf-8")
+            (wiki / "talks").mkdir(parents=True)
+            resource = wiki / "resources/youtube-video-rollback.md"
+
+            stack.enter_context(patch.object(monitor, "ROOT", root))
+            stack.enter_context(patch.object(monitor, "RAW", raw))
+            stack.enter_context(patch.object(monitor, "WIKI", wiki))
+            stack.enter_context(patch.object(monitor, "STATE_DIR", state))
+            stack.enter_context(
+                patch.object(monitor, "STATUS_JSON", state / "status.json")
+            )
+            stack.enter_context(
+                patch.object(monitor, "STATUS_HTML", state / "status.html")
+            )
+            stack.enter_context(
+                patch.object(monitor, "RSS_SNAPSHOT", raw / "rss.json")
+            )
+            stack.enter_context(
+                patch.object(monitor, "OFFICIAL_VIDEO_MANIFEST", manifest)
+            )
+            stack.enter_context(
+                patch.dict(monitor.os.environ, {"AIE_WF2026_MONITOR_AUTO_PUSH": "0"})
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "fetch_official_playlist",
+                    return_value=([], {"status": "fixture"}),
+                )
+            )
+            stack.enter_context(patch.object(monitor, "fetch_rss", return_value=[entry]))
+            stack.enter_context(
+                patch.object(monitor, "update_channel_snapshot", return_value=False)
+            )
+            stack.enter_context(patch.object(monitor, "read_talk_pages", return_value=[]))
+            stack.enter_context(
+                patch.object(monitor, "event_entries", return_value=[(entry, [])])
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "discover_recent_channel_event_rows",
+                    return_value=([], {"status": "fixture"}),
+                )
+            )
+            stack.enter_context(
+                patch.object(monitor, "scheduled_manifest_video_ids", return_value=set())
+            )
+            stack.enter_context(
+                patch.object(monitor, "pending_manifest_video_ids", return_value=set())
+            )
+            stack.enter_context(
+                patch.object(monitor, "no_slides_manifest_video_ids", return_value=set())
+            )
+
+            def update_manifest(*_args, **_kwargs):
+                monitor.write_json(
+                    manifest,
+                    {
+                        "schemaVersion": 1,
+                        "videos": [
+                            {
+                                "id": entry.video_id,
+                                "mediaType": "talk_recording",
+                                "associationEvidence": "official_channel_explicit_wf26_title",
+                            }
+                        ],
+                    },
+                )
+                return True
+
+            def write_resource(*_args, **_kwargs):
+                monitor.write_text(resource, "generated resource\n")
+                return True
+
+            stack.enter_context(
+                patch.object(
+                    monitor, "update_official_video_manifest", side_effect=update_manifest
+                )
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "try_import_captions",
+                    return_value={"status": "already_cached"},
+                )
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "try_extract_slides",
+                    return_value={"status": "already_extracted"},
+                )
+            )
+            stack.enter_context(
+                patch.object(monitor, "write_resource_page", side_effect=write_resource)
+            )
+            stack.enter_context(patch.object(monitor, "update_talk_pages", return_value=0))
+            stack.enter_context(
+                patch.object(
+                    monitor, "refresh_manifest_artifact_statuses", return_value=False
+                )
+            )
+            stack.enter_context(patch.object(monitor, "run_enrichment", return_value=[]))
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "maybe_commit_and_push",
+                    return_value={
+                        "enabled": True,
+                        "changed": True,
+                        "commit_returncode": 0,
+                        "push_returncode": 1,
+                    },
+                )
+            )
+
+            self.assertEqual(1, monitor.main(["--no-auto-push"]))
+            report = json.loads((state / "status.json").read_text(encoding="utf-8"))
+
+            self.assertEqual(baseline, json.loads(manifest.read_text(encoding="utf-8")))
+            self.assertFalse(resource.exists())
+            self.assertEqual("rolled_back", report["mutation_rollback"]["status"])
+            self.assertFalse((state / monitor.TRANSACTION_JOURNAL.name).exists())
+
+    def test_publish_candidate_advances_local_main_only_after_successful_push(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            remote = Path(directory) / "remote.git"
+            root.mkdir()
+            subprocess.run(["git", "init", "-b", "main"], cwd=root, check=True, capture_output=True)
+            subprocess.run(
+                ["git", "config", "user.email", "monitor@example.test"],
+                cwd=root,
+                check=True,
+            )
+            subprocess.run(
+                ["git", "config", "user.name", "Monitor Test"], cwd=root, check=True
+            )
+            for path, value in (
+                (root / "wiki/index.md", "before\n"),
+                (root / "raw/input.json", "{}\n"),
+                (root / "scripts/keep.py", "# fixture\n"),
+                (root / "package.json", "{}\n"),
+                (root / "agent-index.json", '{"version":1}\n'),
+                (root / "agent-index.md", "# Agent index v1\n"),
+            ):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(value, encoding="utf-8")
+            subprocess.run(["git", "add", "."], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-m", "baseline"], cwd=root, check=True, capture_output=True)
+            subprocess.run(["git", "init", "--bare", str(remote)], check=True, capture_output=True)
+            subprocess.run(["git", "remote", "add", "origin", str(remote)], cwd=root, check=True)
+            subprocess.run(["git", "push", "-u", "origin", "main"], cwd=root, check=True, capture_output=True)
+            baseline_head = subprocess.run(
+                ["git", "rev-parse", "HEAD"], cwd=root, check=True, text=True, capture_output=True
+            ).stdout.strip()
+            (root / "wiki/index.md").write_text("published\n", encoding="utf-8")
+            (root / "agent-index.json").write_text(
+                '{"version":2}\n', encoding="utf-8"
+            )
+            (root / "agent-index.md").write_text(
+                "# Agent index v2\n", encoding="utf-8"
+            )
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", root / ".ops/state/youtube-monitor"
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                published = monitor.maybe_commit_and_push(True, "published candidate")
+
+            published_head = subprocess.run(
+                ["git", "rev-parse", "HEAD"], cwd=root, check=True, text=True, capture_output=True
+            ).stdout.strip()
+            remote_head = subprocess.run(
+                ["git", "--git-dir", str(remote), "rev-parse", "refs/heads/main"],
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout.strip()
+            self.assertEqual(0, published["push_returncode"])
+            self.assertNotEqual(baseline_head, published_head)
+            self.assertEqual(published_head, remote_head)
+            self.assertEqual(
+                '{"version":2}\n',
+                subprocess.run(
+                    ["git", "--git-dir", str(remote), "show", "main:agent-index.json"],
+                    check=True,
+                    text=True,
+                    capture_output=True,
+                ).stdout,
+            )
+            self.assertEqual(
+                "",
+                subprocess.run(
+                    ["git", "status", "--porcelain"],
+                    cwd=root,
+                    check=True,
+                    text=True,
+                    capture_output=True,
+                ).stdout,
+            )
+
+            (root / "wiki/index.md").write_text(
+                "published but local sync pending\n", encoding="utf-8"
+            )
+            real_run = monitor.run
+
+            def fail_local_ref(command, **kwargs):
+                if command[:2] == ["git", "update-ref"]:
+                    return Mock(returncode=1, stdout="", stderr="locked")
+                return real_run(command, **kwargs)
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", root / ".ops/state/youtube-monitor"
+            ), patch.object(monitor, "run", side_effect=fail_local_ref), patch.object(
+                monitor.time, "sleep"
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                pending = monitor.maybe_commit_and_push(True, "pending local sync")
+
+            self.assertEqual("local_sync_pending", pending["local_sync"]["status"])
+            self.assertEqual(
+                published_head,
+                subprocess.run(
+                    ["git", "rev-parse", "HEAD"],
+                    cwd=root,
+                    check=True,
+                    text=True,
+                    capture_output=True,
+                ).stdout.strip(),
+            )
+            self.assertTrue(
+                (root / ".ops/state/youtube-monitor/publish-sync.json").is_file()
+            )
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", root / ".ops/state/youtube-monitor"
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                recovered = monitor.recover_monitor_publish_sync()
+            self.assertEqual("synchronized", recovered["status"])
+            published_head = subprocess.run(
+                ["git", "rev-parse", "HEAD"],
+                cwd=root,
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout.strip()
+            self.assertEqual(pending["commit"], published_head)
+            self.assertFalse(
+                (root / ".ops/state/youtube-monitor/publish-sync.json").exists()
+            )
+            self.assertEqual(
+                "",
+                subprocess.run(
+                    ["git", "status", "--porcelain"],
+                    cwd=root,
+                    check=True,
+                    text=True,
+                    capture_output=True,
+                ).stdout,
+            )
+
+            (root / "wiki/index.md").write_text("after\n", encoding="utf-8")
+            subprocess.run(
+                ["git", "remote", "set-url", "origin", str(root / "missing-remote")],
+                cwd=root,
+                check=True,
+            )
+
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "STATE_DIR", root / ".ops/state/youtube-monitor"
+            ), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                result = monitor.maybe_commit_and_push(True, "candidate")
+
+            current_head = subprocess.run(
+                ["git", "rev-parse", "HEAD"], cwd=root, check=True, text=True, capture_output=True
+            ).stdout.strip()
+            self.assertNotEqual(0, result["push_returncode"])
+            self.assertEqual(published_head, current_head)
+            self.assertEqual("after\n", (root / "wiki/index.md").read_text(encoding="utf-8"))
+
+    def _run_monitor_item(
+        self, transcript_result, slide_result, *, publish_result=None
+    ):
         published = datetime.now(timezone.utc).isoformat()
         entry = monitor.VideoEntry("video-1", "World's Fair 2026 Test", published, published, "https://example.test/video")
         with tempfile.TemporaryDirectory() as directory, ExitStack() as stack:
             missing_resource = Path(directory) / "missing.md"
             stack.enter_context(patch.dict(monitor.os.environ, {"AIE_WF2026_MONITOR_AUTO_PUSH": "0"}))
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "fetch_official_playlist",
+                    return_value=([], {"status": "fixture"}),
+                )
+            )
             stack.enter_context(patch.object(monitor, "fetch_rss", return_value=[entry]))
             stack.enter_context(patch.object(monitor, "update_channel_snapshot", return_value=False))
             stack.enter_context(patch.object(monitor, "read_talk_pages", return_value=[]))
@@ -1275,11 +2261,69 @@ class YoutubeMonitorTests(unittest.TestCase):
             stack.enter_context(patch.object(monitor, "write_resource_page", return_value=False))
             stack.enter_context(patch.object(monitor, "update_talk_pages", return_value=0))
             enrichment = stack.enter_context(patch.object(monitor, "run_enrichment", return_value=[]))
-            publish = stack.enter_context(patch.object(monitor, "maybe_commit_and_push", return_value={"enabled": False}))
+            publish = stack.enter_context(
+                patch.object(
+                    monitor,
+                    "maybe_commit_and_push",
+                    return_value=publish_result or {"enabled": False},
+                )
+            )
             write_status = stack.enter_context(patch.object(monitor, "write_status"))
             returncode = monitor.main([])
             report = write_status.call_args.args[0]
         return returncode, report, enrichment, publish
+
+    def _run_dry_monitor_rows(self, rss_rows, channel_rows, *, playlist_entries=None):
+        with tempfile.TemporaryDirectory() as directory, ExitStack() as stack:
+            root = Path(directory)
+            missing_resource = root / "missing.md"
+            stack.enter_context(
+                patch.dict(monitor.os.environ, {"AIE_WF2026_MONITOR_AUTO_PUSH": "0"})
+            )
+            stack.enter_context(
+                patch.object(monitor, "OFFICIAL_VIDEO_MANIFEST", root / "manifest.json")
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "fetch_official_playlist",
+                    return_value=(list(playlist_entries or []), {"status": "fixture"}),
+                )
+            )
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "fetch_rss",
+                    return_value=[entry for entry, _matched in rss_rows],
+                )
+            )
+            stack.enter_context(patch.object(monitor, "read_talk_pages", return_value=[]))
+            stack.enter_context(patch.object(monitor, "event_entries", return_value=rss_rows))
+            stack.enter_context(
+                patch.object(
+                    monitor,
+                    "discover_recent_channel_event_rows",
+                    return_value=(channel_rows, {"status": "fixture"}),
+                )
+            )
+            stack.enter_context(
+                patch.object(monitor, "scheduled_manifest_video_ids", return_value=set())
+            )
+            stack.enter_context(
+                patch.object(monitor, "pending_manifest_video_ids", return_value=set())
+            )
+            stack.enter_context(
+                patch.object(monitor, "no_slides_manifest_video_ids", return_value=set())
+            )
+            manifest_update = stack.enter_context(
+                patch.object(monitor, "update_official_video_manifest", return_value=False)
+            )
+            stack.enter_context(patch.object(monitor, "resource_path", return_value=missing_resource))
+            stdout = io.StringIO()
+            with redirect_stdout(stdout):
+                self.assertEqual(0, monitor.main(["--dry-run", "--no-auto-push"]))
+            report = json.loads(stdout.getvalue())
+        return report, manifest_update
 
 
 if __name__ == "__main__":

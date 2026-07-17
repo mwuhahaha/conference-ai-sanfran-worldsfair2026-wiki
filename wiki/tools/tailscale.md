@@ -5,6 +5,19 @@ aliases: ["Tailscale"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: ["Expo Stage 4 SE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1cfd76de4a706e9c331eb19ca7e1c2f778562871ce1aa70d88e49c141bae3196
+  subjectId: tool:tailscale
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:e7db94e441e13871716fce7a59096c3a3240dd014b4fac4fef42aa8d9faf7efa
 ---
 
 # Tailscale

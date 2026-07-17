@@ -3,6 +3,19 @@ title: "Coder"
 category: "companies"
 aliases: ["Coder"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fe70593ec033f2c286a0e02a56bfdc276f80b05798df4d0c93650a0b39643ae8
+  subjectId: company:coder
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8a106b7d71e9a5fa5fc789ad4144d379a3c4fc81b2d3f6db0990dc3bd5d15f7e
 ---
 # Coder
 

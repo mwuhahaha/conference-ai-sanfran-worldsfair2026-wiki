@@ -17,28 +17,53 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/xUnRQ9vLXxo/slide-001.jpg]]
+
+OCR text:
+
+> ul BROW
+>
+> Me DoT T
+>
+> { iT
+>
+> Alf
+
+![[assets/slides/xUnRQ9vLXxo/slide-002.jpg]]
+
+OCR text:
+
+> Al Engineer
+> World's Fair ot Microsoft VN,
+> 7 . - AlEngineer
+> ool Taral MCKaaellg
+> World's Fair meer ey Y
+> eet. AlEngineer -———— ae
+
 ![[assets/slides/xUnRQ9vLXxo/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/xUnRQ9vLXxo/slide-003.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Sonnet 3.5
+> Eee ad
+> i felale ka ar-lig
+> - Wiitavettens Sonnet 3.5
+> P) en v
+> ae Keynote
+> my ee eT
+> Theo Browne t3.gg
 
 ![[assets/slides/xUnRQ9vLXxo/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/xUnRQ9vLXxo/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-- Text source: none.
-- Slide text: not surfaced (`none` by AI classifier).
+OCR text:
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/xUnRQ9vLXxo/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with oversized name graphic; not a presentation slide.
-- [`slide-002.jpg`](/assets/slides/xUnRQ9vLXxo/slide-002.jpg) — `speaker_stage` confidence `0.98`; speaker on stage in front of sponsor/logo wall; not a slide.
-
-Classification audit: `raw/sources/slide-ai-classification/slides/xUnRQ9vLXxo/audit.json`
+> World'sFair AIEngineer
+> PRESENTED BY
+> Microsoft
+> 228% Colorado Boulder
+> M.8.Ci.501N.Z..07
+> :air licrosoft
+> Fair
+> air Keynote TheoBrowne/Founder t3.gg
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

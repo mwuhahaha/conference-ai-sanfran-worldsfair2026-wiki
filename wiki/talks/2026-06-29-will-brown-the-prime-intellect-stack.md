@@ -90,12 +90,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/V-EDrhIhHzQ/slide-003.jpg]]
 - Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
 - Source video: `youtube-PbHm2qKnu10`
-- Slide deck: [[youtube-PbHm2qKnu10-dense-slides|Dense Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] — 6 visible slide image(s); 6 HTML recreation(s).
-![[assets/dense-slides/PbHm2qKnu10/slide-001.jpg]]
-![[assets/dense-slides/PbHm2qKnu10/slide-002.jpg]]
-![[assets/dense-slides/PbHm2qKnu10/slide-003.jpg]]
+- Slide deck: [[youtube-PbHm2qKnu10-dense-slides|Dense Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] — slide evidence page.
 - Additional slide evidence: [[youtube-PbHm2qKnu10-slides|Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]], [[youtube-PbHm2qKnu10-reconstructed-slides|Reconstructed Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]]
-- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
+- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt` (10,228 words).
@@ -111,8 +108,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
 - Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
 - Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
-- `youtube-PbHm2qKnu10` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
+- `youtube-PbHm2qKnu10` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
 - Evidence links for `youtube-PbHm2qKnu10` (supporting context only): [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
 
 ### Agent Reading Notes

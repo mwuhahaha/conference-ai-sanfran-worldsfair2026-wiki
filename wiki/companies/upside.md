@@ -3,6 +3,19 @@ title: "Upside"
 category: "companies"
 aliases: ["Upside"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:70a9e888026161e7ee62913e439a247947b20cabe91db7a2380dbc3b400e94bb
+  subjectId: company:upside
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2dc14d5145b9b0690e679b9ac8ade7de5614ee7291280e73af2322f4b77fcb6e
 ---
 # Upside
 

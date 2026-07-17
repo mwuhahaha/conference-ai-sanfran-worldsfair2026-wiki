@@ -21,22 +21,21 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/3_gYbhABcAE/slide-002.jpg]]
 
 OCR text:
 
 > 3 Teas ne
-> 
+>
 > ars, Why (Senior) Engineers ss
-> 
+>
 > ’ bl rs Struggle to Build Al | wei tsacconss |
 > Agents En
 > 5 mental model collisions from traditional ,
 > engineering, and how to fix them. : Agent Reatty
-> 
+>
 > = Ze
 > = AlEngineer
 > [nel aU) colds
@@ -79,9 +78,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+> | Al Engineer |
+> ae elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

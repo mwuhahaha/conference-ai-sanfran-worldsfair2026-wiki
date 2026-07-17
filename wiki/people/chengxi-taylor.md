@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/chengxi-taylor/"
 twitter: "https://x.com/chengxitaylor"
 website: "https://www.chengxitaylor.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:282f0633e25490a36ac3e671f6917ea3f77d9c3855ddbafea2939f9c5a375a46
+  subjectId: person:chengxi-taylor
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1a7f25bc773a83f30eea4ed2a178efc7924dc2d0fa9b4fd664d2f5cf6940bd0b
 ---
 # Chengxi Taylor
 

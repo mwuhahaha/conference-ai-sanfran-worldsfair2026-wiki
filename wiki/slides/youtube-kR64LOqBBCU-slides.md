@@ -21,10 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust
-> WorkOS
-> OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/kR64LOqBBCU/slide-002.jpg]]
 
@@ -37,26 +34,33 @@ OCR text:
 > Cait yo idee hy S
 > Po ae pe ia
 > com eeRC IN AGENT ORCHESTRATION AGENTCRA
-> 
+>
 > ee ee IDO SALOMON / Creator of AgentCraft & MCP-UI @ MCP-UI
 
 ![[assets/slides/kR64LOqBBCU/slide-003.jpg]]
 
 OCR text:
 
-> We are the bottleneck
-> BUILDING THE ORC IN AGENT ORCHESTRATION
-> IDO SALOMON / Creator of AgentCraft & MCP-UI
-> MCP-UI
-> we just hired our 25 founding engineers
+> [ii tee
+> LF
+> ll Snorkel
+> aL; a We are the a Y
+> bottleneck rn
+> ee aan
+> =a
+> veer cl
+> cl eetNG THE ORC IN AGENT ORCHESTRATION Al
+> ee ee IDO SALOMON / Creator of AgentCraft & MCP-UI @ MCP-UI
 
 ![[assets/slides/kR64LOqBBCU/slide-004.jpg]]
 
 OCR text:
 
-> These skills were with us all along
-> RAFT: PUTTING THE ORC IN AGENT ORCHESTRA
-> IDO SALOMON / Creator of AgentCraft & MCP-UI
+> eae ate) UR -1 all along
+> -
+> J «4 xkos [
+> Ded
+> [cco AFT: PUTTING THE ORC IN AGENT ORCHESTRA
 
 ![[assets/slides/kR64LOqBBCU/slide-005.jpg]]
 
@@ -224,23 +228,22 @@ OCR text:
 
 OCR text:
 
-> QUESTS(6) CAMPAIGN TRACES ANALYTICS MEMORY
-> SCAN RECENT CHANGES
-> ANALYZE PROJECT
-> FORTIFICATION 3
-> PROVING GROUNDS 1
-> RESTORATION 3
-> FORTIFICATION
-> ENVIRONMENT & API PAYLOAD VALIDATION WITH...
-> THE SERVER HAS NO SCHEMA VALIDATION FOR ENVIRONMENT VARIABLES OR
-> INCOMING API PA...
+> QUESTS(S6) CAMPAIGN TRACES ANALYTICS MEMORY
+> QSCANRECENTCHANGES
+> ANALYZEPROJECT
+> FORTIFICATIO
+> PURIFICATION
+> ENVIRONMENT&APIPAYLOADVALIDATIONWITH
+> THESERVERHASNOSCHDMAVALIDATIONFORENVIRONMENTVARIABLESOR
+> NCOMINGAPIPA
+> ACCEPTQUEST
+> WEBSOCKETEVENTRATELIMITING
+> HTTPAOUTESHAVLEXPRESS-RATE-LIMITBUTWEES
+> RATELIMITING.
+> ORTIFOCATOO
 > ACCEPT QUEST
-> WEBSOCKET EVENT RATE LIMITING
-> HTTP ROUTES HAVE EXPRESS-RATE-LIMIT BUT WEBSOCKET MESSAGES HAVE NO
-> RATE LIMITING.
-> ACCEPT QUEST
-> PROVING GROUNDS
-> UNIT TESTS FOR CORE SERVER EXECUTION PATHS
+> PROVING CROUNDS
+> UNITTESTSFORCORESERVEREXECUTIONPATHS
 
 ![[assets/slides/kR64LOqBBCU/slide-013.jpg]]
 
@@ -326,28 +329,35 @@ OCR text:
 
 OCR text:
 
-> We need a higher ceiling
-> CHESTRATION AGENTCRAFT: PUTTING THE
-> IDO SALOMON / Creator of AgentCraft & MCP-UI
-> MCP-UI
-> AI Engineer Europe
-> Presented by Google DeepMind
+> eee we Boe
+> _Alenginest vi
+> Pee ICHMT UT
+> “Nengne ( BON
+> cr mee-HESTRATION AGENTCRAFT: PUTTING THE (
 
 ![[assets/slides/kR64LOqBBCU/slide-018.jpg]]
 
 OCR text:
 
-> Thank You!
-> Ido Salomon
+> ThankYou!
+> POM O
+> ne
+> AEng
+> 8Braint
+> tails le
+> AEn
+> IdoSalomon
 > @idosall
 > idosal
+> in
 > ido-salomon
-> AGENT ORCHESTRATION
-> AGENTCRAFT: PUT
-> AI Engineer Europe
+> AlEngineer
+> AGENTORCHESTRATION
+> AGENTCRAFT:PUT
+> EUROPE
 > PRESENTED BY
-> Google DeepMind
-> IDO SALOMON / Creator of AgentCraft & MCP-UI
+> GoogleDeepMind
+> IDOSALOMON/CreatorofAgentCraft&MCP-UI
 > MCP-UI
 
 ## Slide-Derived Subjects To Review

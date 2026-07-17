@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/eW_vxrjvERk/slide-002.jpg]]
 
@@ -40,9 +39,14 @@ OCR text:
 
 OCR text:
 
-> AIE
-> AI Engineer
-> EUROPE
+> rae
+> 5 4 bd
+> nara ;
+> bd Ad
+> 5d ve *
+> 3
+> | Al Engineer |
+> sete) a3
 
 ![[assets/slides/eW_vxrjvERk/slide-004.jpg]]
 
@@ -77,9 +81,24 @@ OCR text:
 
 OCR text:
 
-> AIE
-> AI Engineer
-> EUROPE
+> os N : vA a)
+> = ; ; f
+> ~ "1 ; /
+> N , c, 2
+> ee — Ny ‘ a a Pa
+> ra * - — af
+> * a SS ‘ , ‘
+> * oY an) :
+> aan t nd
+> J ‘
+> La , a AT
+> 7
+> a 7 *
+> ; ae —~ and
+> ad ae
+> nN
+> | Al Engineer |
+> aula
 
 ![[assets/slides/eW_vxrjvERk/slide-007.jpg]]
 
@@ -169,8 +188,9 @@ OCR text:
 
 OCR text:
 
-> I KNOW KUNG FU
-> Engineering the future of AI
+> &
+> - 1KNOW KUNG FU
+> Engineering the future of Al
 
 ![[assets/slides/eW_vxrjvERk/slide-012.jpg]]
 
@@ -214,11 +234,12 @@ OCR text:
 
 OCR text:
 
-> Building memory
-> Tool call traces
-> 1
-> Learning from experience
-> 3
+> ngmemory
+> toolusogeouditsandproven
+> AlEngineer
+> EUROPE
+> AIEngineer
+> NROK
 
 ![[assets/slides/eW_vxrjvERk/slide-015.jpg]]
 
@@ -327,13 +348,9 @@ OCR text:
 
 OCR text:
 
-> Context graph demo architecture
+> Context graph demo architecture ad
 > Ai-powered decision tracing for financial institutions
-> DATA SOURCES
-> Support Ticket System
-> CRM (e.g. Salesforce)
-> Internal Business Data
-> Engineering the future of AI
+> Engineering the future of Al
 
 ![[assets/slides/eW_vxrjvERk/slide-021.jpg]]
 
@@ -348,8 +365,11 @@ OCR text:
 
 OCR text:
 
-> AIE
-> Engineering the future of AI
+> 1 Mi
+> a rif
+> va wee _ af | '
+> 7 or ; i 7 ;
+> Engineering the future of Al
 
 ![[assets/slides/eW_vxrjvERk/slide-023.jpg]]
 

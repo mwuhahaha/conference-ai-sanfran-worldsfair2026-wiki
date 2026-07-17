@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/lucas-atkins-2892482b6"
 twitter: "https://x.com/latkins"
 website: "https://arcee.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4dd0c09e6f95759567083bca0fb2973ff4a9daa661e05da9deceaf2e87b9c4df
+  subjectId: person:lucas-atkins
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b277c58e0a288ab9b6d69c73e15ba59635a89490ef24f933af84098ae0ba8e23
 ---
 # Lucas Atkins
 

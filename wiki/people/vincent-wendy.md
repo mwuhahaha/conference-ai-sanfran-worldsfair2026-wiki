@@ -5,6 +5,19 @@ role: "Senior Creative Designer"
 company: "AI Engineer"
 linkedin: "https://id.linkedin.com/in/vinwendy"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f481e2c63b7166e9f54a45579d46f236aea838850e701eb106cd23fb87de8577
+  subjectId: person:vincent-wendy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5d96630dedb817ee8ca44fd42c21178f1ca700b2d8ed7abb3b99b31babe86261
 ---
 # Vincent Wendy
 

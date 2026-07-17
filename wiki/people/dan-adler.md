@@ -5,6 +5,19 @@ company: "Sourcegraph"
 linkedin: "https://www.linkedin.com/in/danielnealadler"
 blog: "https://sourcegraph.com/blog/a-note-from-dan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:82a1e60505b4d1fd95bb7e36431cc51aedb056e07a62c816f8cd09ff2cb2decc
+  subjectId: person:dan-adler
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f727a773993464c1089853fbdefd025e46eb8d82c44378e001ce04d2792eab54
 ---
 # Dan Adler
 

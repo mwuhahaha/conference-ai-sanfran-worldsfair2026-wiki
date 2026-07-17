@@ -6,6 +6,19 @@ company: "AI21"
 linkedin: "https://linkedin.com/in/yuval-belfer"
 twitter: "https://x.com/yuvalinthedeep"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:44c3fcf9e529d435ac5f51151e885468b84ba1e086a56ac0ad2ee2fec2284d79
+  subjectId: person:yuval-belfer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0ecc82352817563cb6b4b5373640d5d99696c7cf8256b699236b872caf7a7f35
 ---
 # Yuval Belfer
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story|Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story]]
 
 ### Media Signals
-- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
 - Evidence links for `youtube-Ywl4LsvHKzU` (supporting context only): [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

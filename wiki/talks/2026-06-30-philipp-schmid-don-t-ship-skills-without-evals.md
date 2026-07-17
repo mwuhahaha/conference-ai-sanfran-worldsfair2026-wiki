@@ -80,11 +80,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/0vphxNt4wyk/slide-003.jpg]]
 - Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
 - Source video: `youtube-3_gYbhABcAE`
-- Slide deck: [[youtube-3_gYbhABcAE-dense-slides|Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/3_gYbhABcAE/slide-001.jpg]]
-![[assets/dense-slides/3_gYbhABcAE/slide-002.jpg]]
+- Slide deck: [[youtube-3_gYbhABcAE-dense-slides|Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-3_gYbhABcAE-slides|Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]], [[youtube-3_gYbhABcAE-reconstructed-slides|Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]]
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/0vphxNt4wyk.txt` (3,965 words).
@@ -100,8 +98,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-0vphxNt4wyk`: skill, skills, model, should, look, evals, eval, always.
 - Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
 - Evidence links for `youtube-0vphxNt4wyk` (primary event evidence): [[youtube-0vphxNt4wyk]], [[youtube-0vphxNt4wyk-transcript]], [[youtube-0vphxNt4wyk-slides]]
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- `youtube-3_gYbhABcAE` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 - Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
 
 ### Agent Reading Notes

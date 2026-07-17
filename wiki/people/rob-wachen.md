@@ -4,6 +4,19 @@ category: "people"
 role: "Co-founder and President"
 company: "Etched"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a09e382c46fcdf89a9f02e9c82fff033eea8495561e854398ea19b762a08b63c
+  subjectId: person:rob-wachen
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:59ec12539283ce16699cecc8b4df50fc8822866b8abc8f8f6e238b917dd36049
 ---
 # Rob Wachen
 
@@ -29,5 +42,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]]
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- `youtube-qaJXBMwUkoE` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, mathematician, auto, figure, periods, great, surge, curve.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]

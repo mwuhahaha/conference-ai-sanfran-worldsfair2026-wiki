@@ -12,6 +12,8 @@ from pathlib import Path
 
 import importlib.util
 
+from markdown_blocks import blockquote
+
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_CACHE = ROOT / "raw" / "video-cache"
@@ -347,7 +349,7 @@ def write_dense_page(video_id: str, video: dict, result: dict) -> Path:
             lines.append(f"- Slide-only rule: `{item['strict_reason']}`")
         text = (item.get("ocr_text") or "").strip()
         if text:
-            lines.extend(["", "OCR text:", "", "> " + text.replace("\n", "\n> "), ""])
+            lines.extend(["", "OCR text:", "", blockquote(text), ""])
     write(page, "\n".join(lines))
     return page
 

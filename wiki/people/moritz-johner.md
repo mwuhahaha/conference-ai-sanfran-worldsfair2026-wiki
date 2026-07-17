@@ -6,6 +6,19 @@ company: "Form3"
 linkedin: "https://www.linkedin.com/in/moritz-johner/"
 website: "https://www.form3.tech/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c27ef7b857561e3d9601125771e2220cacd02a4f658aaa7aa95176decf28c196
+  subjectId: person:moritz-johner
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4063691702b5016854049c24ea9a8a758e3af048228b8f46c1260a445bd57fd4
 ---
 # Moritz Johner
 

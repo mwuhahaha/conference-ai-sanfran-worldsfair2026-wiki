@@ -3,6 +3,19 @@ title: "Indeed"
 category: "companies"
 aliases: ["Indeed"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c2f2b8f42f55770f688cfbdbc4b08000f5f492faa7aae53fe9dbe4c3104e1624
+  subjectId: company:indeed
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c63f000d555edb9dc32a7781bf36b05efc8706cde68df004d4db9483758037a5
 ---
 # Indeed
 

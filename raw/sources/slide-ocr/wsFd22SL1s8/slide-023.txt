@@ -1,8 +1,4 @@
 Arrakis: A Quick Tour Of Linux Sandboxing
-Linux Execution Model
-Containers: Why? And What?
-Containers: Security Story
-Containers: Sandboxing
-Containers → Virtualization
-Linux Virtualization
-MicroVMs vs Traditional VMs
+comnenyl sae °
+Containers: Sandboxing . os
+Containers ~ Vietusszation | .

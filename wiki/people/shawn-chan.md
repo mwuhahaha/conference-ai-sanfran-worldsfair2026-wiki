@@ -4,6 +4,19 @@ category: "people"
 role: "Vice President"
 company: "China Resources Holdings"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bf8283e8188a2b8c1b65379630b2db3d1d64fd69d1b21c59acb819bd6e1e305d
+  subjectId: person:shawn-chan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b714a8aca87c9230733dd3a69f466885a43b2f85e7822a54667c47846911388c
 ---
 # Shawn Chan
 

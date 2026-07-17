@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Greptile"]
 website: "https://www.greptile.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9e3dcf7f4aeab33e58af789e98dd3b1089eec629774b3755f8cecb4a6df907d2
+  subjectId: company:greptile
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5d5229098b98f6e22500cf23e471ff024b2f18b688df6ad88b430022b2f6e105
 ---
 # Greptile
 

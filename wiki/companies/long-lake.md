@@ -3,6 +3,19 @@ title: "Long Lake"
 category: "companies"
 aliases: ["Long Lake"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:caf5e5c0d694c38385e721eb44adb78f4020e68cf886ee397a83c5ad37b472b6
+  subjectId: company:long-lake
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1c919e1f4c498de60375b50fac530038a5374eb29200ad7a319d1d361875e59a
 ---
 # Long Lake
 

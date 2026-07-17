@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/hxiao87/"
 twitter: "https://x.com/hxiao"
 website: "https://hanxiao.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1ecd019b01b8143d28ce2cea0350dae6a1c7d05c6dd49bc88c2d6e380b6acfaa
+  subjectId: person:han-xiao
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:71f1b910bc9dee449f9057cfc7150c3f53778b108be09f0160e76d901590fe7f
 ---
 # Han Xiao
 

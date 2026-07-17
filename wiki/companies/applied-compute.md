@@ -3,6 +3,19 @@ title: "Applied Compute"
 category: "companies"
 aliases: ["Applied Compute"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5ba02aa14db553e7f7e93c8e6a45be2cce43cefce1b92582bf976fd6278623ab
+  subjectId: company:applied-compute
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:28bc18af49f45f909403a628b8e05cb288d90f47d2051255c08171ef01200316
 ---
 # Applied Compute
 

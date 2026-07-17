@@ -5,6 +5,19 @@ role: "Principal Engineer"
 company: "Weights & Biases by CoreWeave"
 linkedin: "https://www.linkedin.com/in/tssweeney"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:69a879505af7c2c50b80675ae65e041bf66d4e51ebbd9eb1ea3b03d5fdceeffb
+  subjectId: person:tim-sweeney
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:81fecabbcc9a6310460d3f11e8514dd86ef0db8e57f270603408ba33b6cf60f0
 ---
 # Tim Sweeney
 

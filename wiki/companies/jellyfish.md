@@ -3,6 +3,19 @@ title: "Jellyfish"
 category: "companies"
 aliases: ["Jellyfish"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dc31966b5a4e2af2f0bec2d91305d17ff1ab2f6f2126a1fdd8de9731cb8f98bc
+  subjectId: company:jellyfish
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:20f465d30b5af791aa2b6fd566b3f4849af6e4677814e9fcdff8d88715833a94
 ---
 # Jellyfish
 

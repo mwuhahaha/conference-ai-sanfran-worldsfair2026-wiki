@@ -3,6 +3,19 @@ title: "Nereu"
 category: "companies"
 aliases: ["Nereu"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:847b137c2ec934c30bd54a5866252fb5864c6de6250d0d22cc7ae4ae683bddf5
+  subjectId: company:nereu
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:54243f0978db786223f8d6100441ffc23f22eaf40f7e180f1689bee5e7c79340
 ---
 # Nereu
 

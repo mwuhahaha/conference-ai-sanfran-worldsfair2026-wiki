@@ -4,6 +4,19 @@ category: "people"
 role: "Developer Evangelist"
 company: "Oracle"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3ef6e105bda190f6c05ba146d475a070b44f8485a1645cc7f37ec2bf7a8bd47b
+  subjectId: person:anders-swanson
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:01dfb2b7d8cfaec5ec49f5002cbade10fa98a3336f22290c206326e863aff5ac
 ---
 # Anders Swanson
 

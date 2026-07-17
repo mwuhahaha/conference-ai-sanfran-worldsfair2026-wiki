@@ -6,6 +6,19 @@ company: "Not Diamond"
 linkedin: "https://www.linkedin.com/in/tomashk/"
 twitter: "https://x.com/tomas_hk"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:908cb7888eca7719f1d8e439541d74134083760409bc7b8fd2d1dac287709fa2
+  subjectId: person:tom-s-hernando-kofman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d0f7e473e0759c69e183a36544a04eda35a97bcae4391679e28eb577b663a634
 ---
 # Tomás Hernando Kofman
 

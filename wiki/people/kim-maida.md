@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/kimmaida"
 twitter: "https://x.com/kimmaida"
 website: "https://maida.kim"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8d1b4967722a366f0d90eebd66ea7338450ae749beea46672a8d75b7c398dc64
+  subjectId: person:kim-maida
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:48e2bf597856f7db44c542f3757dfdf6e6af83e870140169344f5ed675772578
 ---
 # Kim Maida
 

@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/paulbakaus"
 twitter: "https://x.com/pbakaus"
 website: "https://www.paulbakaus.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:be3bf453506a627b28e9592fd725ae4901119e6c3ea127b7d94f5991f5a4d58f
+  subjectId: person:paul-bakaus
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:078866c7221fa66912570b0facbfe3ec1bafd406341c751a3027477ecaa89880
 ---
 # Paul Bakaus
 

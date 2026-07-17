@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Maersk"]
 website: "https://www.maersk.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4a76a4fe70b4a84b96325682a08fa0f1e125d23f670b4f63fa85a1844bf94468
+  subjectId: company:maersk
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c600604844b261900b394924c5c592d2f0ec5da844fcdda8e4e9bb9f8bd9ed4d
 ---
 # Maersk
 

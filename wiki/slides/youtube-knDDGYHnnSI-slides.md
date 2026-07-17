@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATION SPONSOR
+> INNOVATIONSPONSOR
 > aws
-> PLATINUM SPONSORS
+> PLATINUMSPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -32,8 +32,12 @@ OCR text:
 
 OCR text:
 
-> neo4j
-> Graph Database & Analytics
+> of
+> we
+> - .
+> e04
+> Rave bl oo
+> a
 
 ![[assets/slides/knDDGYHnnSI/slide-003.jpg]]
 
@@ -69,8 +73,12 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> a
+> Po
+> 7
+> Ta civ)
+> a | World's Fair
+> 2
 
 ![[assets/slides/knDDGYHnnSI/slide-006.jpg]]
 
@@ -118,8 +126,15 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> t
+> d
+> se _
+> E _ 7
+> SS
+> x | Worta's Fair
+> a
+> ; co oo
+> . a"
 
 ![[assets/slides/knDDGYHnnSI/slide-009.jpg]]
 
@@ -163,7 +178,7 @@ OCR text:
 > Moscone Cente Fy sal
 > bee eT Bs
 > ~ Sor eee 7 Moscone —
-> 
+>
 > “ (Oferaitrg
 > cass reece so an er
 > Panag Po merry arm i+ ees rv a
@@ -207,7 +222,7 @@ OCR text:
 OCR text:
 
 > User
-> Your Application
+> Your Application |
 
 ![[assets/slides/knDDGYHnnSI/slide-014.jpg]]
 
@@ -233,12 +248,9 @@ OCR text:
 
 OCR text:
 
-> AIE
-> The Benefits of
-> GraphRAG
-> Microsoft
-> smol ai
-> aws
+> S The Benefits of os
+> GraphRAG oe
+> : a Microsoft GiQU° aws
 
 ![[assets/slides/knDDGYHnnSI/slide-017.jpg]]
 
@@ -296,11 +308,11 @@ OCR text:
 > development... once they've
 > pushed through the initial
 > learning curve.
-> 
+>
 > " Werdly ease of develapment Jer lack
 > thereof! :s aiso ene of the stumbins: blocks!
 > How can that be?
-> 
+>
 > One word Knowledge Graph Construction’
 > Ok that’s three. Susneld that tnouenAtuerd
 > ae

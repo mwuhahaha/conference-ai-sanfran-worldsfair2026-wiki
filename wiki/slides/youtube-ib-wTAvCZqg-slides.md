@@ -21,18 +21,19 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATION SPONSOR
-> aws
-> PLATINUM SPONSORS
-> MongoDB.
-> Google Cloud
-> neo4j
+> aWws
+> eee)
+> § MongoDB o Cloud Ne€O4Y)
 
 ![[assets/slides/ib-wTAvCZqg/slide-002.jpg]]
 
 OCR text:
 
-> ANTHROPIC
+> WP
+>
+> ae)
+>
+> Py a
 
 ![[assets/slides/ib-wTAvCZqg/slide-003.jpg]]
 
@@ -43,13 +44,13 @@ OCR text:
 > Step 1 Step 2
 > Start —»> 6, —> (() —> et
 > ae
-> 
+>
 > So Nites Jen vekipeda org win Comrat flo
-> 
+>
 > . nd
 > | a
 > , LC
-> 
+>
 > "
 
 ![[assets/slides/ib-wTAvCZqg/slide-004.jpg]]
@@ -121,7 +122,7 @@ OCR text:
 
 > wm OLangcnan
 > Challenge may be recency bias in LLMs
-> 
+>
 > A likely culprit for this phenomenon is a mismatch between the task LLMs are trained on and context-augmented
 > generation tasks. Among the documents typically used to pre-train LLMs such as web pages, books, articles and code,
 > the most informative tokens for predicting a particular token are typically the most recent ones. During pre-training,
@@ -129,12 +130,12 @@ OCR text:
 > in the open source models we investigate has an inductive bias towards reduced attention at long distances [27] that may
 > make it even easier for these models to learn to attend preferentially to recent tokens. Extreme recency bias is not a good
 > prior for context augmented generation tasks where far away tokens may, in fact, contain very relevant information.
-> 
+>
 > ay Reis ak aa a et
 > |
 > A aiid an Mi ft @
 > ; gw Microso
-> 
+>
 > A
 
 ## Slide-Derived Subjects To Review

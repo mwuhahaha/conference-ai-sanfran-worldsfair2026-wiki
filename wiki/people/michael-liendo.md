@@ -4,6 +4,19 @@ category: "people"
 role: "Staff Developer Advocate"
 company: "Auth0"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:82308acf2883ec7dfefdc7c32acf128a1cd1288460a4aa6dbdb09abf8424b9c3
+  subjectId: person:michael-liendo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a219470c5e3db21d8e7fff0726444b52b47f9836421509c99e4ffb467dd3b2d2
 ---
 # Michael Liendo
 

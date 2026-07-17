@@ -4,6 +4,19 @@ category: "people"
 company: "Sentry"
 linkedin: "https://www.linkedin.com/in/greg-pstrucha"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ba3bc5933038e2d3f5655d0539272a2d5cb3e64eb61325c3cceb04df90452bfa
+  subjectId: person:greg-pstrucha
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:859f355cbe47903a97f56cf0cee7bfa580b69eb81d6cb4bfcaecf7b82af435df
 ---
 # Greg Pstrucha
 

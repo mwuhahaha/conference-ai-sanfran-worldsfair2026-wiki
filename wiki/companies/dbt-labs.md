@@ -3,6 +3,19 @@ title: "dbt Labs"
 category: "companies"
 aliases: ["dbt Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:57bc01dd95301b135418349a4e94b3d62369a7e2d11ecf7531bae39a5c43b827
+  subjectId: company:dbt-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5f3d03c88e8618cc5c2324822bce9bb63bb90adbed7fe36fc91c9a61ea1f9937
 ---
 # dbt Labs
 

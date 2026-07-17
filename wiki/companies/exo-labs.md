@@ -3,6 +3,19 @@ title: "EXO Labs"
 category: "companies"
 aliases: ["EXO Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3f2855793559e3750e3cb9e3ec6f21fa5e689b7406b43b738cfbd5ae55fbe632
+  subjectId: company:exo-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:59b1faca8c49d56d9c731d805749cce806b885284ac1250677b9cf2b8ec17c39
 ---
 # EXO Labs
 

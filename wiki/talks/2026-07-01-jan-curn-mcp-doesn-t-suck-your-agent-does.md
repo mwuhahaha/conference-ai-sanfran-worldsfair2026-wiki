@@ -66,12 +66,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-blW-lSd5CYQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-blW-lSd5CYQ`
-- Slide deck: [[youtube-blW-lSd5CYQ-dense-slides|Dense Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]] — 7 visible slide image(s); 7 HTML recreation(s).
-![[assets/dense-slides/blW-lSd5CYQ/slide-001.jpg]]
-![[assets/dense-slides/blW-lSd5CYQ/slide-002.jpg]]
-![[assets/dense-slides/blW-lSd5CYQ/slide-003.jpg]]
+- Slide deck: [[youtube-blW-lSd5CYQ-dense-slides|Dense Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]] — slide evidence page.
 - Additional slide evidence: [[youtube-blW-lSd5CYQ-slides|Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]], [[youtube-blW-lSd5CYQ-reconstructed-slides|Reconstructed Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]]
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,8 +77,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
+- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
 - Evidence links for `youtube-blW-lSd5CYQ` (supporting context only): [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 
 ### Agent Reading Notes

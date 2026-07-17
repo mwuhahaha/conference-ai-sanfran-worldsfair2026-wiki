@@ -5,6 +5,19 @@ role: "CEO"
 company: "Arize"
 linkedin: "https://www.linkedin.com/in/jason-lopatecki-9509941/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dcf35a41226302c01b01a924ddf9b40bf320024cbedbd4d46947b6cb01aa0bcd
+  subjectId: person:jason-lopatecki
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:910384113c8078ef176d070c74a09c69df2129ed578a6e2916709236bf038db7
 ---
 # Jason Lopatecki
 

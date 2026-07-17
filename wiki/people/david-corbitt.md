@@ -6,6 +6,19 @@ company: "CoreWeave"
 linkedin: "https://linkedin.com/in/davidcorbitt"
 twitter: "https://x.com/dvdcrbt"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bc68802d7c9c984039207f4385c52c06fcbabd93f2b349ad3418d4b93813bf1d
+  subjectId: person:david-corbitt
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d3f1bf8ebbe70244e4ce7b298dfeafe8f05851038917039285610cdbba3816d7
 ---
 # David Corbitt
 

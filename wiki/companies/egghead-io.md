@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["egghead.io"]
 website: "https://egghead.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f0bce74766fbda9e25153ee068c7f3dc915cf169a52252592d6e077c99ce41a9
+  subjectId: company:egghead-io
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:13439a1b7c9240ea0c24f70264dfe2e8256a041d9601f7c930903482f9fd2246
 ---
 # egghead.io
 

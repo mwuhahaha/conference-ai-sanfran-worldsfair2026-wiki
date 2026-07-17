@@ -3,6 +3,19 @@ title: "TwelveLabs"
 category: "companies"
 aliases: ["TwelveLabs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b4369c82e2ea5750549a43b50325765a4b71393efe9d22b7f66f19c992cb506b
+  subjectId: company:twelvelabs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c34783d8d672e23d71ac8b56714db471bd14b7b74d92559673de8c264620d99b
 ---
 # TwelveLabs
 

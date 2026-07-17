@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-OV56RddyFuU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-OV56RddyFuU`
-- Slide deck: [[youtube-OV56RddyFuU-dense-slides|Dense Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]] — 17 visible slide image(s); 17 HTML recreation(s).
-![[assets/dense-slides/OV56RddyFuU/slide-001.jpg]]
-![[assets/dense-slides/OV56RddyFuU/slide-002.jpg]]
-![[assets/dense-slides/OV56RddyFuU/slide-003.jpg]]
+- Slide deck: [[youtube-OV56RddyFuU-dense-slides|Dense Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]] — slide evidence page.
 - Additional slide evidence: [[youtube-OV56RddyFuU-slides|Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]], [[youtube-OV56RddyFuU-reconstructed-slides|Reconstructed Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face]]
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
 
 ### Agent Reading Notes

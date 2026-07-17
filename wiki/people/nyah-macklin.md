@@ -6,6 +6,19 @@ company: "Neo4j"
 linkedin: "https://linkedin.com/in/nyahmacklin"
 twitter: "https://x.com/nyahmacklindev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5cd2c26ebda5755c36fd198a86bcccf2ae9b41e4f7ddba9a88437883c7ac8a27
+  subjectId: person:nyah-macklin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:551bb4d5942a20ec4d8feac7ed644c32546be1baf7b970fdf3d50dd574045412
 ---
 # Nyah Macklin
 

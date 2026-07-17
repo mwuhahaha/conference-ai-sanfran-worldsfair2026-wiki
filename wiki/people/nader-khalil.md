@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/naderlikeladder"
 twitter: "https://x.com/naderlikeladder"
 website: "https://nader.coffee"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:060da60e0cfc7ec6ed32b0480df03404521864dfffe84a0c7f6533f4548b1bda
+  subjectId: person:nader-khalil
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:763edb258ba2ba48ed7abca34cf84f88b9b00ba4fa00d04ed291f8140add1665
 ---
 # Nader Khalil
 
@@ -41,5 +54,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o` (supporting context only): [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-- `youtube-84Vtz2IL1Ug` — source page linked; role: supporting context only.
+- `youtube-84Vtz2IL1Ug` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: inference, largest, market, ever, software, january, moderation, location.
 - Evidence links for `youtube-84Vtz2IL1Ug` (supporting context only): [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

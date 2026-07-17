@@ -6,6 +6,19 @@ company: "Elorian"
 linkedin: "https://www.linkedin.com/in/andrewdai/"
 twitter: "https://x.com/andrewdai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:508ad28e04cf6cad66f9fa30f775e47453f23d49634f280a3eb7b5b70293d6b8
+  subjectId: person:andrew-dai
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:48632f86455dd49938a74ab132036237f2a97ec6daf08d5f3ea5ac33e3969c3c
 ---
 # Andrew Dai
 

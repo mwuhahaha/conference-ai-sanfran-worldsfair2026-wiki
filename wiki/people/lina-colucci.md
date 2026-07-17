@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/lina-colucci/"
 twitter: "https://x.com/lina_colucci"
 website: "https://www.linacolucci.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8807e8fe6206901f35c054f868150cd075f8ab9b28e1fce2c3cf00d147d01560
+  subjectId: person:lina-colucci
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fba21b91f017cc3eb44b1b963acbf447d52e22e162bfeebe222107ec13d5e534
 ---
 # Lina Colucci
 

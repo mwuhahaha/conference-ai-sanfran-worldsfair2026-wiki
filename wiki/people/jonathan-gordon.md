@@ -8,6 +8,19 @@ twitter: "https://x.com/reweaver_ai"
 website: "https://www.reweaver.ai"
 blog: "https://www.reweaver.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2d1b2627448339186ef584460db159706affe60e111b2e68ba2c30bcacb80912
+  subjectId: person:jonathan-gordon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b4f6581b8f085d1c001931a554700d1cd822780a2df9ddaa999014adc2400cf9
 ---
 # Jonathan Gordon
 

@@ -5,6 +5,19 @@ aliases: ["LlamaIndex"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: []
 scheduleRooms: ["Expo Stage 4 SE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c6d76092fc15ee816d611dc0c4c116f327b108468c662a939ad244d230cd307a
+  subjectId: tool:llamaindex
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:0a64a421cab879ea310960eb9618677cbf5eaddd6dc27cfe89299239a9c7867a
 ---
 
 # LlamaIndex

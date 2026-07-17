@@ -19,89 +19,89 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/3hXJI2q0Jz8/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Recursive Coding Agents
-> Raymond Weitekamp
-> RAW.works | OpenProse
-> @raw_works
+> . ‘ BT
 
 ![[assets/slides/3hXJI2q0Jz8/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> We all want outcomes.
-> Agents that work on our behalf - reliable co-workers - while we're out on a hike.
-> The bottleneck is not intelligence. It's reliability. It's trust.
-> One day - my agents build me a full SaaS app from a single prompt.
+> MOTIVATION
+> Weallwantoutcomes.
+> Agents that work on ourbehalf-reliable co-workers-while we're out on a hike.
+> The bottleneckisnot intelligence. It'sreliability.lt'strust.
+> One day-my agents buildme a full SaaS app froma single prompt.
 > The next day - they empty the entire contents of my Solana wallet.
 
 ![[assets/slides/3hXJI2q0Jz8/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Dense slide with screenshot cards and small captions; OCR is better suited than manual transcription for the embedded text.
+OCR text:
 
-Slide text:
-
-> Today's agents are mismanaged geniuses
+> THESIS
+> Today'sagents are
+> mismanaged geniuses
+> The intelligence is there.
+> The missing layer ishow we specify.manage,reuse,and verily the work
+> stopBabysitingAgentsstart
+> Authoring Outcomes
+> TURINGPOST-RAYMONDWEITEKAMP
+> ALEXZHANG·ZEDLI·OMARKHATTAB
+> Stop Babysitting Agents,Start Authoring Outcomes
+> TheMismanaged Geniuses Hypothesis
 
 ![[assets/slides/3hXJI2q0Jz8/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Contains a paper screenshot plus small diagram labels and bullet text; OCR should recover the embedded text more reliably.
+OCR text:
 
-Slide text:
-
-> Context itself is the object of computation
+> RECURSIVE LANGUAGE MODELS
+> Contextitselfisthe
+> objectofcomputation Renr Laa Mad
+> Externalize-thefullprompt livesinaREPL not the context window.
+> slice,and transform it. Operate-the model writes code toinspect,
+> Recurse-it sub-queriesitself over the slices. ARXIV:2512-24601
+> Root RLM （depth=0） (dap）w-qns Sub-RLM8 (depth=1) —LLMA1（depth=2） LLMA2 (depth=2) LLM B1(depth=2) LLM B2（depth=2)
 
 ![[assets/slides/3hXJI2q0Jz8/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Dense comparison table with multiple columns and rows; OCR is the right extraction method.
+OCR text:
 
-Slide text:
-
+> THE RLM RUDRIC
 > Lots of things feel close.
+> Executable
+> Prompt
+> Codecalls
+> Model picks
+> State stays
+> environment
+> extenalized
+> She model
+> decomposition
+> symbolle
+> Plain long-context call
+> Coding agents +subagents
+> ing loops
+> Hardcoded map-reduce
+> -OARLM
+> Recursive Language Model
+> Open the RLMrubric
 
 ![[assets/slides/3hXJI2q0Jz8/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-- OCR decision: ready — Two-column slide with code-like examples and fine text; OCR is better than manual transcription here.
-
-Slide text:
+OCR text:
 
 > OpenProse explicitly declares subagent work
+> PRR eae cae ee eS ilamenloin he ats Seo Lene cmir Te)
+> ag age
+> ?
 
 ![[assets/slides/3hXJI2q0Jz8/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Recursive Coding Agents FTW
-> Trust is reliability
-> A new paradigm of inference-time compute
-> Coding agents can be RLMs
-
-Classification audit: `raw/sources/slide-ai-classification/slides/3hXJI2q0Jz8/audit.json`
+> reliability Trustis model intelligence. Thenext stepis behavioral,notmore
+> FTW Coding Agents Recursive compute canbeRLMs paradigmof inference-time Coding agents Anew RLMsare the new reasoningmodels- recursive codingagents are thenew coding agents. Claude Code dynamic OpenProse show two workflowsand concrete paths.
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

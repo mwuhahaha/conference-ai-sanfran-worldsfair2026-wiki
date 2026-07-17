@@ -1,33 +1,34 @@
-AIE Home
-Lists.md
-Schedule
+C
+ai.engineer/worldsfair/2026#side-events
+AIE Horme
+1tns,dSchedule
 Side Events
-AI Engineer World's Fair
 Sponsors
-Venue
-Hotel
+Hobel
 Associates
 Buy Tickets
-The SOTA in AI Engineering
-All in One Place
-10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide
+The SOTA inAI Engineering
+AllinOnePlace
+miniconferences • 2 leadership tracks. 400+ sessions. Divide
 and conquer!
-Orientation Jun 28
-Workshop Day Jun 29
-Tuesday Jun 30
-Wednesday Jul 1
-Thursday Jul 2
-#1 Harness Engineering
-#2 Generative Media
-#3 Agentic Commerce
-#4 AI in Finance
-#5 Local AI
-#6 Graphs
-#7 AI in GTM
-#8 AI in Healthcare
-#9 Agentic Engineering
-#10 Inference
-#11 AI-Native Enterprises
-#12 AI Architects: AI Factories
-AI in Finance
-Inside the agentic shift in quant finance - from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling with what it really takes to ship finance agents that understand money.
+Orientatie
+Workshc
+Tuesday
+Wednesday
+Thursday
+Harness Engineering
+Generative Media
+Agentic Commerce
+Al in Finance
+LocalAI
+Graphs
+AlinGTM
+Al in Healthcare
+Agentic Engineering
+I Inference
+Al-Native Enterprises
+Al Architects: AlFactories
+AlinFinance
+Inside the agentic shiftinquant finance-fromMorgan
+Suxnsesoouesans
+2,000AskiswthtuFiltyndAntrpicwesing

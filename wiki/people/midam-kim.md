@@ -5,6 +5,19 @@ role: "ML Engineer"
 company: "ServiceNow"
 linkedin: "https://www.linkedin.com/in/midamkim/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:924fcfb924f62316a1c2e9817bf75afd2cea743ba7637eb1164259bf69df7063
+  subjectId: person:midam-kim
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ad84e0bee6cb7c0f09654d7539b7f00be7d70a7092b88239d17b71d62a3f870c
 ---
 # Midam Kim
 

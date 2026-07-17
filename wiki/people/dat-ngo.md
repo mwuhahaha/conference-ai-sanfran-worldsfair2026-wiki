@@ -5,6 +5,19 @@ role: "AI Architect"
 company: "Arize AI"
 twitter: "https://x.com/dat_attacked"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6f49dcc3742df2cab8edc18418888fdf6d9235c58d5b1018e5c78d9013465076
+  subjectId: person:dat-ngo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:457f0ed6ba7909aedd3cb225ccac88beb834583ab3e08c0d5d4dcbe7ab750616
 ---
 # Dat Ngo
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]
 
 ### Media Signals
-- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
+- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, hard, tackling, ship, powering, world, leading, happening.
 - Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]

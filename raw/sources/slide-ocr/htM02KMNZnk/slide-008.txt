@@ -1,12 +1,7 @@
-AI Engineer
+eal: eal Foundry |Q
 World's Fair
-Presented by
-Microsoft
-Foundry IQ
-Retrieval relevance by dataset
-BER (NDCG@10)
-MIRACL (NDCG@10)
-Customer (NDCG@3)
-MIML (NDCG@3)
-Support (NDCG@3)
-Keyword Vector Hybrid Hybrid + Reranking
+} - | i lh |
+TINEA World's
+1's Fair Open
+ore) Riek
+Pay sxe ile

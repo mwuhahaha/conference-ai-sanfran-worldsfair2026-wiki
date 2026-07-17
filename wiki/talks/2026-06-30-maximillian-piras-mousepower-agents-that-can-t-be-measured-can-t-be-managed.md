@@ -64,9 +64,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-BZtD0yYAgCQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-BZtD0yYAgCQ`
-- Slide deck: [[youtube-BZtD0yYAgCQ-dense-slides|Dense Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg]]
-![[assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg]]
+- Slide deck: [[youtube-BZtD0yYAgCQ-dense-slides|Dense Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]] — slide evidence page.
 - Additional slide evidence: [[youtube-BZtD0yYAgCQ-slides|Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]], [[youtube-BZtD0yYAgCQ-reconstructed-slides|Reconstructed Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]]
 - Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.
 

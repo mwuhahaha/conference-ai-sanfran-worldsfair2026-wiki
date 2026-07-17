@@ -3,6 +3,19 @@ title: "Sakana.ai"
 category: "companies"
 aliases: ["Sakana.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a851368e5108d1b5b9ec2f52c378e91eeeb79a2dd8dc584628a8137d2b50e781
+  subjectId: company:sakana-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d6d4a7c9c663795c9aa1699a973ff02496c9fe6ff7b74eef1ea067f3a512a789
 ---
 # Sakana.ai
 
@@ -30,7 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
 
 ### Media Signals
-- `youtube-wNH3q9pqn0U` — source page linked; role: supporting context only.
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
 - Evidence links for `youtube-wNH3q9pqn0U` (supporting context only): [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

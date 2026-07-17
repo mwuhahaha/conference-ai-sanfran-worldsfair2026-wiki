@@ -1,27 +1,8 @@
-Pretty Preview
-Apr 7 at 7:34 PM
-Build a very simple demo website just
-to show something pretty in the
-preview area.
-Thought for 1s
-Create demo landing UI
-Details Preview
-Here's a sleek dark-themed landing page with animated
-glow orbs, floating particles, a gradient headline, and
-three hover-interactive cards.
-Apr 7 at 7:35 PM
-Make it brighter and make it look less
-like AI slop
-Verify the preview Add a work section Add a footer
-Ask Lovable...
-Visual edits Build
-Studio
-Work About Contact
-DESIGN & DEVELOPMENT
-Now is the time
-to build something
-lovable
-Thoughtful design meets clean engineering. The build
-interfaces people actually enjoy using -- nothing more,
-nothing less.
-See our work Get in touch
+ae a Now is the time
+cane) to build something
+- | lovable
+ee zs ----
+: — = a ee , _
+ha y fz
+| | Al Engineer |
+ab ela

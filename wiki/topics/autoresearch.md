@@ -6,6 +6,21 @@ sourceLabels:
   - Public YouTube livestream transcript
   - Local slide OCR
 last_auto_summarized: '2026-07-06T19:58:14.630Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b93b18ab67ed48d64bc9e190c404a2919536098d6fe6fd2c60f3b2b8e9791df
+  subjectId: concept:autoresearch
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-q4Tr-DknG2M
+sourceAssessmentBodySha256: sha256:6257c6e245226bfe762a4958394834d0513a9cabde84f6832156de26f4e482cc
 ---
 # Autoresearch
 
@@ -200,10 +215,10 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
 - `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.

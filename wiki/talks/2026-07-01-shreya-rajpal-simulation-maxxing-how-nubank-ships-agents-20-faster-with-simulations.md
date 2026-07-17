@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-9-vGxMoUM9Y]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-9-vGxMoUM9Y`
-- Slide deck: [[youtube-9-vGxMoUM9Y-dense-slides|Dense Slides: Trust, but Verify: Shreya Rajpal]] — 13 visible slide image(s); 13 HTML recreation(s).
-![[assets/dense-slides/9-vGxMoUM9Y/slide-001.jpg]]
-![[assets/dense-slides/9-vGxMoUM9Y/slide-002.jpg]]
-![[assets/dense-slides/9-vGxMoUM9Y/slide-003.jpg]]
+- Slide deck: [[youtube-9-vGxMoUM9Y-dense-slides|Dense Slides: Trust, but Verify: Shreya Rajpal]] — slide evidence page.
 - Additional slide evidence: [[youtube-9-vGxMoUM9Y-slides|Slides: Trust, but Verify: Shreya Rajpal]], [[youtube-9-vGxMoUM9Y-reconstructed-slides|Reconstructed Slides: Trust, but Verify: Shreya Rajpal]]
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
 - Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 
 ### Agent Reading Notes

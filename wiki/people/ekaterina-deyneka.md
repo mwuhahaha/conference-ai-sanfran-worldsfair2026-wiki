@@ -8,6 +8,19 @@ twitter: "https://x.com/katedeyneka"
 website: "https://www.katedeyneka.com/"
 blog: "https://www.katedeyneka.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e16e62f204117becedee9220fafcb2fbb84bfddc93bf563160c3dba600453c13
+  subjectId: person:ekaterina-deyneka
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:de473a55f5b5868bf820d3fef957fde8c8308312e1c4228b6daad129442aa1af
 ---
 # Ekaterina Deyneka
 

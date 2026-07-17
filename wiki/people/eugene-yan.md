@@ -5,6 +5,19 @@ role: "Member of Technical Staff"
 company: "Anthropic"
 twitter: "https://x.com/eugeneyan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3f1fb3b19d4189747c77d248b1d3ed88669a6d5499d19797fdf076676df9c09c
+  subjectId: person:eugene-yan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3b74cd5fab01ce88255c39c6c047a480ad0eed59402ce7242cf626a5ce95b38b
 ---
 # Eugene Yan
 

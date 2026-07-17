@@ -5,6 +5,19 @@ role: "Cofounder of Metronome"
 company: "Stripe"
 linkedin: "https://www.linkedin.com/in/agarvin/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ca392cbd79b6865c819c489a7fe3f553a4c60d7ed8d99155846fa740d74a6de8
+  subjectId: person:andrew-garvin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ce9d2d2be43eca4614e13351d76bb9ddfe9a8b28155b1bb4caff4ea810312de3
 ---
 # Andrew Garvin
 

@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-JhJKgRAmfIU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-JhJKgRAmfIU`
-- Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/JhJKgRAmfIU/slide-001.jpg]]
-![[assets/dense-slides/JhJKgRAmfIU/slide-002.jpg]]
-![[assets/dense-slides/JhJKgRAmfIU/slide-003.jpg]]
+- Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — slide evidence page.
 - Additional slide evidence: [[youtube-JhJKgRAmfIU-slides|Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]], [[youtube-JhJKgRAmfIU-reconstructed-slides|Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]]
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,7 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
 - Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
 
 ### Agent Reading Notes

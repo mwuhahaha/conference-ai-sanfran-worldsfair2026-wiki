@@ -1,2 +1,2 @@
-BDD, ADR, PRD, WTF
-Capturing decisions for humans and AI alike
+BDD,DR,PRD,WTF
+Capturing decisions for humans andAl alike

@@ -64,12 +64,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-ZuiJjkbX0Og]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-ZuiJjkbX0Og`
-- Slide deck: [[youtube-ZuiJjkbX0Og-dense-slides|Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]] — 3 visible slide image(s); 3 HTML recreation(s).
-![[assets/dense-slides/ZuiJjkbX0Og/slide-001.jpg]]
-![[assets/dense-slides/ZuiJjkbX0Og/slide-002.jpg]]
-![[assets/dense-slides/ZuiJjkbX0Og/slide-003.jpg]]
+- Slide deck: [[youtube-ZuiJjkbX0Og-dense-slides|Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]] — slide evidence page.
 - Additional slide evidence: [[youtube-ZuiJjkbX0Og-slides|Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]], [[youtube-ZuiJjkbX0Og-reconstructed-slides|Reconstructed Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]]
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -78,8 +75,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
+- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
 - Evidence links for `youtube-ZuiJjkbX0Og` (supporting context only): [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
 
 ### Agent Reading Notes

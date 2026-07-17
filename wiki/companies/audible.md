@@ -3,6 +3,19 @@ title: "Audible"
 category: "companies"
 aliases: ["Audible"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:73336d4ff41753ff341fed4e97893f9441c89fa8fa6e252eda4378786091c55a
+  subjectId: company:audible
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:370bc94fd1aa4ea5ec1f94cdde9909d88efb68d5728ae782728b46d84bcf1f5b
 ---
 # Audible
 

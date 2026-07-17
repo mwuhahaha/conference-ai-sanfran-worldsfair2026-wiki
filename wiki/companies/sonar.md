@@ -3,6 +3,19 @@ title: "Sonar"
 category: "companies"
 aliases: ["Sonar"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2a9811115e13a806f872b7268cd3cd124cf9dd91fcbde3a050b04ea63ca4f3ec
+  subjectId: company:sonar
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b943aaf124061ae076f09221100e21b0b0b519f0035d346afe2ba37f6853fff9
 ---
 # Sonar
 

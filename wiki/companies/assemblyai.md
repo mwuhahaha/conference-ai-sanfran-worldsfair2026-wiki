@@ -3,6 +3,19 @@ title: "AssemblyAI"
 category: "companies"
 aliases: ["AssemblyAI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3365439bff259207d15ec8b1aeb273222b8da91e091138dcdbbbd979d1b23aa7
+  subjectId: company:assemblyai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:34a52d54fcbf1c7c0c0e97762577ec997c022e1c7d63bdd6d60c68033102468b
 ---
 # AssemblyAI
 

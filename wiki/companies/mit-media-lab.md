@@ -3,6 +3,19 @@ title: "MIT Media Lab"
 category: "companies"
 aliases: ["MIT Media Lab"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7bc03674945acb60b087937a6c72e77ebf2371be778a610c386492e22b2b071e
+  subjectId: company:mit-media-lab
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:db4885f8902759e13942c8e8fdc1cad8c0366b0af3eaff372896ec8229515b71
 ---
 # MIT Media Lab
 

@@ -1,11 +1,4 @@
-Moshi Lessons Learned
-What Works Well
-Full-Duplex Conversation: Natural, uninterrupted
-dialogue flow
-Real-time Interaction: Truly conversational AI, user and
-AI speak simultaneously
-Challenges
-A research prototype, not a real agent
-Lack of observability and reliability
-Does not convey or understand empathy well
-Engineering the future of AI
+Full-Dupiex Conversationsaenite NtaiiaEE mane ree Deeg not 8 real agent
+rn * te
+A Engineering the future of Al
+af |

@@ -4,6 +4,19 @@ category: "people"
 role: "Developer Experience Engineer"
 company: "Google DeepMind"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6050fcd3b0e3cc43a1822b9c69480ee2f9aa045332804176985dfe7d1e11f1e3
+  subjectId: person:ivan-leo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a88722b138717488627f716f2e69a602e680edd4eb0a013c3e6b295230a86489
 ---
 # Ivan Leo
 
@@ -27,6 +40,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need|An Interaction Is All You Need]]
 
 ### Media Signals
-- `youtube-xz0-brt56L8` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+- `youtube-xz0-brt56L8` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, hate, attar, loft, delicious, coffee, lovely.
 - Evidence links for `youtube-xz0-brt56L8` (supporting context only): [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

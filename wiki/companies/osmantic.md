@@ -3,6 +3,19 @@ title: "Osmantic"
 category: "companies"
 aliases: ["Osmantic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8d2d0abae2e40bcab93c3615aad5dbb41c564d57d95ee64facddc7053a9e56e9
+  subjectId: company:osmantic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e6d9200ce9637d0014ffa635487a5a5d8ca8dcba11e39e7f46d63ca15ccc06e0
 ---
 # Osmantic
 

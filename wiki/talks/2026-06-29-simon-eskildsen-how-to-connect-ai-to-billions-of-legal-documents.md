@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-XNtkiQJ49Ps]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-XNtkiQJ49Ps`
-- Slide deck: [[youtube-XNtkiQJ49Ps-dense-slides|Dense Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]] — 7 visible slide image(s); 7 HTML recreation(s).
-![[assets/dense-slides/XNtkiQJ49Ps/slide-001.jpg]]
-![[assets/dense-slides/XNtkiQJ49Ps/slide-002.jpg]]
-![[assets/dense-slides/XNtkiQJ49Ps/slide-003.jpg]]
+- Slide deck: [[youtube-XNtkiQJ49Ps-dense-slides|Dense Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]] — slide evidence page.
 - Additional slide evidence: [[youtube-XNtkiQJ49Ps-slides|Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]], [[youtube-XNtkiQJ49Ps-reconstructed-slides|Reconstructed Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]]
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, review, jacob, searching, reading, file, shareholders, terms.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, review, jacob, searching, reading, file, shareholders, terms.
 - Evidence links for `youtube-XNtkiQJ49Ps` (supporting context only): [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
 
 ### Agent Reading Notes

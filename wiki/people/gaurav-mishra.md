@@ -4,6 +4,19 @@ category: "people"
 company: "Amazon AGI Lab"
 linkedin: "https://www.linkedin.com/in/gaurav-mishra-b307a437"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b64b7a93e22911182daff2ad72d8b4c51f993edf1caf1c127d7d017c0833a2ca
+  subjectId: person:gaurav-mishra
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:491bc133566f9a406e1b09e3ee195e09c99897e4ef60436e6b0ff886a590d47d
 ---
 # Gaurav Mishra
 

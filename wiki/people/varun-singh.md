@@ -6,6 +6,19 @@ company: "Arcee AI"
 linkedin: "https://www.linkedin.com/in/varun-singh-cs"
 twitter: "https://x.com/stochasticchasm"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cc33cd428b50fa3e1abffea43af8d070721010f2e3e5213aaaa476c733a65df9
+  subjectId: person:varun-singh
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2f1c26241a155f71f834d828ab3664cef6e837f5d641a98e04d2a647f3aa8582
 ---
 # Varun Singh
 

@@ -64,12 +64,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-PmZDupFP3UM]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-PmZDupFP3UM`
-- Slide deck: [[youtube-PmZDupFP3UM-dense-slides|Dense Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]] — 6 visible slide image(s); 6 HTML recreation(s).
-![[assets/dense-slides/PmZDupFP3UM/slide-001.jpg]]
-![[assets/dense-slides/PmZDupFP3UM/slide-002.jpg]]
-![[assets/dense-slides/PmZDupFP3UM/slide-003.jpg]]
+- Slide deck: [[youtube-PmZDupFP3UM-dense-slides|Dense Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]] — slide evidence page.
 - Additional slide evidence: [[youtube-PmZDupFP3UM-slides|Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]], [[youtube-PmZDupFP3UM-reconstructed-slides|Reconstructed Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]]
-- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -78,8 +75,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-PmZDupFP3UM` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
+- `youtube-PmZDupFP3UM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
 - Evidence links for `youtube-PmZDupFP3UM` (supporting context only): [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
 
 ### Agent Reading Notes

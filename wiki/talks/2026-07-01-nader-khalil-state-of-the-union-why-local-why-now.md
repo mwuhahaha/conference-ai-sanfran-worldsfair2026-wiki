@@ -88,7 +88,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/KB41dTlX1Uc/slide-002.jpg]]
 ![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
 - Source video: `youtube-ESbWpPT_9-o`
-- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — slide evidence page.
 - Additional slide evidence: [[youtube-ESbWpPT_9-o-slides|Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]], [[youtube-ESbWpPT_9-o-reconstructed-slides|Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]]
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 

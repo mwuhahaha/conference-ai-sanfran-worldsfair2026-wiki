@@ -1,25 +1,49 @@
-Mima local-model eval
-Golden dataset at a glance
-Examples
-28
-Threads
-14
-each viewed list + modal
-Messages / thread
-2–17
-median 6
-Annotated
-100%
-hand-written [ref:N]
-By platform
-X ·
-22
-Bluesky ·
-6
-By view context
-list ·
-14
-modal ·
-14
-Sourced from real Mima threads, anonymized. Each example pairs a thread input with a gold-standard summary and citation r
-5 models evaluated against this set with 3 repetitions each (420 runs total).
+Es)
+
+a)
+
+im)
+
+>
+
+a
+
+on
+
+a Age wm A Se
+
+> Golden dataset at a glance
+
+Q
+
+>
+
+>)
+
+oe fr)
+
+> 28 14 Po Wi 100%
+
+S
+
+oo
+
+Po
+
+fa)
+
+Rp a: ee
+
+a esky Hh moda
+
+Q af rh cay na iy 7 fore]
+
+D
+
+A
+
+> ;
+S a.
+: eal
+Q g
+=

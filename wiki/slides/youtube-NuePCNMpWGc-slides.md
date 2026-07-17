@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/NuePCNMpWGc/slide-002.jpg]]
 
@@ -46,14 +45,21 @@ OCR text:
 
 OCR text:
 
-> Why benchmarks aren’t enough
+> | ell ecreeeeenern ct eee —
+>
+> —_— —
+>
+> Le
+>
+> a
 
 ![[assets/slides/NuePCNMpWGc/slide-004.jpg]]
 
 OCR text:
 
 > Want more info or a demo? Stop by
-> our booth!
+> ourbooth!
+> AIEn
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -5,6 +5,19 @@ role: "Principal AI Engineer"
 company: "Sondermind"
 linkedin: "https://www.linkedin.com/in/akele-reed"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a4846ce25776c0d80850067d4fcc6b0bf2935b4cf92959f058b9b2c5b24cd889
+  subjectId: person:akele-reed
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6b60e1cd0d6cfd5f75a459b15e2795058ff56b53c3661b2520bd911e734aad20
 ---
 # Akele Reed
 

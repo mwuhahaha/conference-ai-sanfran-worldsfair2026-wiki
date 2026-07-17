@@ -3,6 +3,19 @@ title: "Sarvam"
 category: "companies"
 aliases: ["Sarvam"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:abbba4a4826e0252d9c541037e6713827c3e2e5f250bca29b7f1a82dde48c840
+  subjectId: company:sarvam
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6fd7497d793e47b3e7904e2543d5254561dce1e8850036c099cb4fbffe7a6579
 ---
 # Sarvam
 

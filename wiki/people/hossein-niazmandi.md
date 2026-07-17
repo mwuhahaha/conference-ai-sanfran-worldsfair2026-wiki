@@ -5,6 +5,19 @@ role: "Solutions"
 company: "Braintrust"
 linkedin: "https://www.linkedin.com/in/hniazmandi"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2782e11f4460e5fe2591876aded2470526c5887b7032e1ae93cc8a885eea871c
+  subjectId: person:hossein-niazmandi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a7784aaa430af30e406e836f467c92961b76860c3a1ec3e4127b72f5662f865e
 ---
 # Hossein Niazmandi
 

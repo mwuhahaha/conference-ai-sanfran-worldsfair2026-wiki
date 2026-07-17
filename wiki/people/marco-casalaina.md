@@ -5,6 +5,19 @@ role: "VP Products, Core AI and AI Futurist"
 company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/marcocasalaina"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:97f6bcd6601f47dbd0b7f13fcb827f4a9266200dc7012ca649fa85d48ca52882
+  subjectId: person:marco-casalaina
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1d0d1af71cd5314ea1c8c5e4aeb8ff6e104a199f0c08a0d49d4dc08a921aafda
 ---
 # Marco Casalaina
 

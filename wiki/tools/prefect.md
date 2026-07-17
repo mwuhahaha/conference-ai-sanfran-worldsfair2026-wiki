@@ -5,6 +5,18 @@ aliases: ["Prefect"]
 sourceLabels: ["Public YouTube metadata", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:35d45cc2d301ba73021e218520a933a73ded74eb965df24d1bae52532b45b65b
+  subjectId: tool:prefect
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:7f881f6a67d127d200be57a226ff9dbd8172a943362aaac099019613b92f6f96
 ---
 
 # Prefect

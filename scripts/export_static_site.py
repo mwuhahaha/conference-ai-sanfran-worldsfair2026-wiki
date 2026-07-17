@@ -9,8 +9,15 @@ import json
 import os
 import re
 import shutil
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any, Mapping
+
+from wiki_from_topic_maker.credibility_v2 import (
+    PublicAssessmentCapsule,
+    PublicAssessmentState,
+    PublicProjectionError,
+)
 
 from build_relationship_dataset import (
     _frontmatter_and_body,
@@ -74,6 +81,7 @@ class Page:
     category: str
     body: str
     excerpt: str
+    frontmatter: Mapping[str, Any] = field(default_factory=dict)
 
     @property
     def url(self) -> str:
@@ -100,7 +108,15 @@ def parse_page(path: Path) -> Page:
         or (rel.parts[0] if len(rel.parts) > 1 else "root")
     )
     excerpt = build_excerpt(body)
-    return Page(id=page_id, source=path, title=title, category=category, body=body.strip(), excerpt=excerpt)
+    return Page(
+        id=page_id,
+        source=path,
+        title=title,
+        category=category,
+        body=body.strip(),
+        excerpt=excerpt,
+        frontmatter=frontmatter,
+    )
 
 
 def first_heading(markdown: str) -> str:
@@ -575,8 +591,58 @@ def render_page(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     body = f"""<article class="page">
   <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
   {render_markdown(page.body, by_id, by_stem)}
+  {render_source_assessment(page.frontmatter, page.body)}
 </article>"""
     return render_layout(page.title, body, pages, page.category if page.category != "root" else page.id)
+
+
+def render_source_assessment(
+    frontmatter: Mapping[str, Any], body: str | None = None
+) -> str:
+    """Render only the fixed public message from a validated maker capsule."""
+
+    if "sourceAssessment" in frontmatter and "evidenceAssessment" in frontmatter:
+        raise ValueError(
+            "sourceAssessment and legacy evidenceAssessment frontmatter cannot both be present"
+        )
+    key = (
+        "sourceAssessment"
+        if "sourceAssessment" in frontmatter
+        else "evidenceAssessment"
+    )
+    value = frontmatter.get(key)
+    if value is None:
+        return ""
+    if not isinstance(value, Mapping):
+        raise ValueError(f"{key} frontmatter must be a mapping")
+    try:
+        capsule = PublicAssessmentCapsule.from_dict(value)
+    except PublicProjectionError as exc:
+        raise ValueError(f"invalid public source assessment capsule: {exc}") from exc
+    expected_digest = frontmatter.get("sourceAssessmentBodySha256")
+    if not isinstance(expected_digest, str) or not re.fullmatch(
+        r"sha256:[0-9a-f]{64}", expected_digest
+    ):
+        raise ValueError("source assessment body digest is missing or invalid")
+    if body is None:
+        raise ValueError("source assessment body is required for freshness validation")
+    current_digest = "sha256:" + hashlib.sha256(
+        body.strip().encode("utf-8")
+    ).hexdigest()
+    if current_digest != expected_digest:
+        raise ValueError("source assessment is stale for the current page body")
+    # Ordinary source-attributed pages carry their categorical capsule in the
+    # agent-readable Markdown, but do not show an anchoring trust notice to
+    # human readers. Only the high and low boundary states are surfaced.
+    if capsule.state is PublicAssessmentState.LIMITED:
+        return ""
+    state = capsule.state.value
+    return (
+        f'<aside class="source-assessment source-assessment--{state}" '
+        'aria-label="Source assessment">'
+        f"<strong>Evidence note.</strong> {html.escape(capsule.message)}"
+        "</aside>"
+    )
 
 
 def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
@@ -1274,6 +1340,20 @@ main { max-width: 1080px; margin-left: 320px; padding: 42px clamp(24px, 5vw, 72p
   font-weight: 700;
 }
 .page-tools a::after { content: "↗"; color: var(--accent); }
+.source-assessment {
+  margin: 2.25rem 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left-width: 4px;
+  border-radius: 6px;
+  background: #f8faf8;
+  color: #475467;
+  font-size: 0.9rem;
+}
+.source-assessment strong { color: var(--ink); }
+.source-assessment--strong { border-left-color: #0f766e; background: #f0fdfa; }
+.source-assessment--contested { border-left-color: #b42318; background: #fff5f3; }
+.source-assessment--pending { border-left-color: #b45309; background: #fffbeb; }
 h1, h2, h3 { line-height: 1.18; margin: 1.4em 0 0.45em; }
 h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
 h1 { font-size: clamp(2rem, 4vw, 3.4rem); }

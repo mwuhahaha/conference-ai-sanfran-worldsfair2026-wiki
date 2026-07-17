@@ -19,117 +19,149 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/65X0pQ6Lmbg/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> AIE
 > Voice In, Visuals Out
 > The Agony and the Ecstasy
+> AllenPike,ForestwalkLabs
+> AIEngineeringWF,2026
 
 ![[assets/slides/65X0pQ6Lmbg/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> “Audio is the human-preferred input to AIs, but vision is the preferred output from them.”
-> — Andrej Karpathy, May 2026
+> “Audio is the human-preferred
+> LS input to Als, but vision is the
+> preferred output from them.”
+> — Andre] Karpathy. May 2026
+> oe Ap
+> 1 an v
+> P |
 
 ![[assets/slides/65X0pQ6Lmbg/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-- OCR decision: ready — Dense diagram and UI screenshot text are better handled by OCR; only short obvious labels are captured here.
+OCR text:
 
-Slide text:
-
+> OUpt
+> THEME
+> Probetoiities
+> DARK
+> LIGHT
+> dit
+> BREAKPOINT
+> AIE
+> DESKTOP
+> TABLET
+> MOBILE
+> NETWORK
+> Arccolor
+> Arc width
+> Arcglow
+> Postona
+> Encodng
+> Postional
+> Arcdensity
+> Cnysize
 > Visualization
 > Interactivity
 
 ![[assets/slides/65X0pQ6Lmbg/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-- OCR decision: ready — Dense diagram/UI content with small labels is OCR-suitable; only the short visible labels are captured here.
+OCR text:
 
-Slide text:
-
+> Oup
+> THEME
+> DARK
+> LIGHT
+> Sit
+> BREAKPOINT
+> AIE
+> DESKTOP
+> TABLET
+> MOBILE
+> NETWORK
+> Arccolor
+> Arcwidth
+> Arcglow
+> Postona
+> Enoodng
+> Postional
+> Arc density
 > Visualization
 > Interactivity
 > Beauty
 
 ![[assets/slides/65X0pQ6Lmbg/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-005.html)
-- AI slide classifier: `title_card` confidence `0.95`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> AIE
+> THAJOOO
 > Voice In
 
 ![[assets/slides/65X0pQ6Lmbg/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-006.html)
-- AI slide classifier: `demo_video` confidence `0.94`
-- Text source: none.
-- OCR decision: ready — The slide is a row of video thumbnails with small captions and view counts; OCR is better suited than manual transcription in this pass.
-- Slide text: not surfaced (`illegible` by AI classifier).
+OCR text:
+
+> ee Ere Marne T onl atl — -
+> Seer ee as MAAC rion IY ne Oa Ee rata eee
+> f af POLS NRSC CLS — simple instructions fae rta)
+> . nage 3 :
+> fmiied yw « c -<
+> r 4 a] ) aw 4
+> i Vas -Ba vy *
+> — bi : at eS
+> ak oe
+> a a Dees t ak
+> | 42° Oe { wv
+> What's going on... : KKkwhattotypeherem . Hopefully Al makes a 3 Wtdid too well. + Just leamed this :
+> te vens "8 evens ° Detter lawyer Twitch oy cen: 8 ay ews .
+> 4 SMeeas
+> E en
+> fanaa _
+
+![[assets/slides/65X0pQ6Lmbg/slide-007.jpg]]
+
+OCR text:
+
+> a
+>
+> ic ae
+
 ![[assets/slides/65X0pQ6Lmbg/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-008.html)
-- AI slide classifier: `title_card` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The Tyranny of Latency
+> The Tyranny
+> AIE
+> of Latency
 
 ![[assets/slides/65X0pQ6Lmbg/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> 200ms seamless voice
-> 100ms feels instant
+> AIE
+> 200ms-seamless voice
+> 100ms-feelsinstant
 
 ![[assets/slides/65X0pQ6Lmbg/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Pillars of low latency
-> 1 Fast models
+> rae] Pillars of low latency
+> Fast models
+> , }
+> ray
 
 ![[assets/slides/65X0pQ6Lmbg/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Pillars of low latency
-> 1 Fast models
-> 2 Short intervals
-> 3 Stable cache
-
-### Hidden Non-Slide Evidence
-- [`slide-007.jpg`](/assets/slides/65X0pQ6Lmbg/slide-007.jpg) — `sponsor_logo` confidence `0.98`; logo-only branding frame with no substantive slide content
-
-Classification audit: `raw/sources/slide-ai-classification/slides/65X0pQ6Lmbg/audit.json`
+> [ae] Pillars of low latency
+> Fast models Short intervals Stable cache
+> Fi
+> 7 Ve
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

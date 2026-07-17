@@ -3,6 +3,19 @@ title: "Clickhouse"
 category: "companies"
 aliases: ["Clickhouse"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7c82aa2d634dc68a5c0ea888a4b0edaa65297d767a0650ee33b4459e9cba4411
+  subjectId: company:clickhouse
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c76a389856ff0084a4835cfa9ec3dc23a923195e85c459ea927d6ac4184d05cb
 ---
 # Clickhouse
 

@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T07:13:55.965Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2f3d0bfd3850e87d99fa41dd4ac65dc609b2486c37b0f158ce3a1ecdabc02b3e
+  subjectId: person:will-bryk
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5a950728ea2f3817da2a5e032f050f708eccb4c364e75ca6f0c390d5c6339f7b
 ---
 # Will Bryk
 
@@ -35,6 +48,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
 
 ### Media Signals
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

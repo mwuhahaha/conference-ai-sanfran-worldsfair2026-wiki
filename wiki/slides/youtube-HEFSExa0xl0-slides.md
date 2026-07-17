@@ -17,137 +17,185 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/HEFSExa0xl0/slide-001.jpg]]
+
+OCR text:
+
+> tusterSpreadshe -hing Coding Age
+> AIEngineer EUROPE Nuno Campos
+> Previously LangChain,LangGraph WitanLabs.CTO&Co-Founder AIELondon-April2026
+> 2006 AlEngineer DRON
+
 ![[assets/slides/HEFSExa0xl0/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> 50% → 92%
-> - 4 months, multiple architectures, and many dead ends
-> - What mattered most: replacing 15 discrete tools with one REPL
+> Ome
+> — 4months, multiple architectures, and many dead ends
+> rare — What mattered most: replacing 15 discrete tools with one REPL
+> bd *
+> are
+> * bd
+> a ad
+> a
+> | Al Engineer |
+> aU lag
 
 ![[assets/slides/HEFSExa0xl0/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — dense table/small text and formula-like content
+OCR text:
 
-Slide text:
-
-> The problem
+> The problem ce
+> ATU DAE Ta -1 xara cn Lom Oreos e]i a] o1 CS 1a ke .
+> COOLANT SREB
+> Pane o
+> bd bd
+> An LLM sees: 10.000 cell values.
+> ‘ P ee a ee ee Ch Meee be Beat
+> a ones Pee h ee CMM (Olah DETOUR Cara ee Cr . woe tee ee
+> ;
+> Py
+> Al Engineer
+> Seo) d 3
 
 ![[assets/slides/HEFSExa0xl0/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > One dead end
 > Three specialized agents:
-> 1. Block discovery – identifies workbook structure
-> 2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify
-> 3. Question agent – answers questions
+> cod - : ape
+> as |. Block discovery — identifies workbook structure
+> * * 2. Edit agent — S-step process: disambiguate. define end state, plan.
+> a cd ;
+> * rao cr@U | Comm eB
+> 3. Question agent — answers questions
 > Key finding: Rigid architectures don't win
+> a.
+> Al Engineer
+> EUROPE
 
 ![[assets/slides/HEFSExa0xl0/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-- OCR decision: ready — table layout with small text across multiple rows
-
-Slide text:
+OCR text:
 
 > More dead ends
+> cooigeeren erator) Why it failed
+> a * & TSV views Lost formatting and structural context
+> * *
+> arose |
+> ‘ SO] Mec tanns Flat tables didn't capture visual structure
+> *
+> ans
+> peenitem cele) Too verbose, consumed too many tokens
+> DOT graphs Useful for analysis, not for interaction
+> Pelee ot ms LUM struggled with the syntax
+> None of them worked as a general purpose representation — but two informed whatcame next
+> s
+> a
+> Al Engineer
+> Sele) a 3
 
 ![[assets/slides/HEFSExa0xl0/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
-- OCR decision: ready — code snippets and small before/after tool-call text
+OCR text:
 
-Slide text:
-
-> Before vs. After
+> Beforevs.After
+> Before(10-15toolcalls):
+> AIE Tool call 3:find_cells（"Revenue") Toolcal14:read_ce11("Summary!C10")->"$1,234,567" Tool call 1:list_sheets() Tool call2:read_range("Summary!A1:D10")->cell values ->[matches] >["Summary"，“Data"，"Inputs"]
+> After(1toolcall):
+> const summary =await xlsx.readRangeTsv（wb,S{sheets[0].name}!A1:D10): const sheets=await xlsx.listSheets（wb); const revenue=await xlsx.findCells（wb, console.log(sheets,summary,revenue); “Revenue”，{context:1}）;
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/HEFSExa0xl0/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: agent_vision.
-- OCR decision: ready — paragraph text plus code snippet on slide
-
-Slide text:
+OCR text:
 
 > Code mode vs. REPL
+> Code mode the agent writes scripts instead of making tool calls. Operations compose
+> Fare Cute] |b aee\O be end LOM camae ln aneln
+> Peo
+> bd * . .
+> * “¢ REPL ~ code mode + persistent state -- variables survive acrass calls. The agent writes shorter
+> ra oa scripts, reasons between them. builds understanding incrementally,
+> * * bd
+> Result: accuracy gain on harder tasks — the agent can course-correct mid- exploration,
+> o
+> ry Led
 
 ![[assets/slides/HEFSExa0xl0/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-- Text source: agent_vision.
-- OCR decision: ready — diagram and small explanatory text are better suited to OCR
-
-Slide text:
+OCR text:
 
 > The verification loop
+> The tora aeoiine ad renderer cased hoen tae agent
+> Pec neh eee Sera .
+> Va /al ts)
+> eh % p ETO Ih eS CT cee ae ,
+> * Bd reais Coot new aided used tie sgrie boop inate
+> ad a
+> ane cera 1c
+> 4
+> Render
+> ry
+> Al Engineer
+> Sele) as
 
 ![[assets/slides/HEFSExa0xl0/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Interface vs. engines
-> 
-> The REPL is an interface — the best one today, because coding is where models are strongest.
-> 
-> The engines — formula calculation, rendering, linting — are the more durable part. They're what close the verification loop, and they compound with each new model.
-> 
-> If for instance agents become as capable at computer use as they are at coding, the interface might change. The engines won't.
+> Taio elec Sd BTGnS
+> The REPL is an interface — the best one today, because coding is where
+> ahs models are strongest.
+> * *
+> mn f The engines — formula calculation, rendering, linting — are the more durable
+> a part. They're what close the verification loop, and they compound with each
+> aT oa wa RRLOLe [ot
+> If for instance agents become as capable at computer use as they are at
+> coding, the interface might change. The engines won't.
+> ‘
+> Al Engineer
+> EUROPE
 
 ![[assets/slides/HEFSExa0xl0/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Domain knowledge outlived every tool
-> 
-> — We changed tools four times in four months
-> — The financial domain knowledge improved results on every one of them
-> 
-> Structured as a composable prompt component:
-> 
-> — How to interpret margins, profitability, revenue cascades
-> — Model type recognition (DCF, LBO, three-statement)
-> — Communication conventions ($1.2M not $1,234,567.89)
-> — "Never calculate in your head what the spreadsheet can calculate for you"
-> 
-> It was the most reused component in the system.
+> We chanzed tools four times in four months
+> The financialdemain knowledge improved results or every one of them
+> x * &
+> Sa *
+> * rs Structured as a composable prompt component
+> * *
+> rd
+> How to interpret margins, profitability, revenue cascades
+> Model type recognition (DCF, LBO, three statement)
+> + Communication conventions ($L2M not $1,234,50/89)
+> ~ “Never calculate in your head what the spreadsheet can calculate for you"
+> Itwas the most reused component in the system,
+> .
+> po
+> Engi ing the fut wa
 
 ![[assets/slides/HEFSExa0xl0/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HEFSExa0xl0/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: none.
-- OCR decision: ready — Dense two-column table with small text is better handled by OCR.
+OCR text:
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/HEFSExa0xl0/slide-001.jpg) — `speaker_stage` confidence `0.99`; Speaker on stage with a cropped projected slide; not a readable presentation frame.
-
-Classification audit: `raw/sources/slide-ai-classification/slides/HEFSExa0xl0/audit.json`
+> TauAPeLNea ere CUlZOm x Uft miele) 1 OmTee Loran Tm TIC ICas
+> What it looked like What it actually was
+> rand ss , .
+> ra * Agent can't find data One-character extraction bug (50% = 735)
+> acc
+> bd bd Agent uses wrong quoting SKILL. md had backwards examples
+> * ve *
+> Agent times out constantly Per-cell recalculation query instead of batch
+> Agent retries endlessly API returning empty results intermittently
+> When the agent seems confused, check the plumbing first.
+> a
+> .
+> Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

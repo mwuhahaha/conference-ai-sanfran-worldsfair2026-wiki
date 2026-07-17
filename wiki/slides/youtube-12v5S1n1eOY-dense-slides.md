@@ -14,30 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/12v5S1n1eOY/slide-001.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/12v5S1n1eOY/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-- Text source: agent_vision.
-
-Slide text:
-
-> 67%
-> Fortune 500
-> 115K
-> Total customers
-
-![[assets/dense-slides/12v5S1n1eOY/slide-002.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/12v5S1n1eOY/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
-
-> Box has fully integrated generative AI starting in 2023
-> Q&A across documents
-> Data extraction
-> AI-powered workflows
-
-Classification audit: `raw/sources/slide-ai-classification/dense/12v5S1n1eOY/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

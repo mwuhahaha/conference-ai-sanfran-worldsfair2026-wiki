@@ -6,6 +6,19 @@ company: "Snyk"
 linkedin: "https://www.linkedin.com/in/jjgarza"
 twitter: "https://twitter.com/jjaviergarza"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:07d3da2c9bf6c77eb675ab3ea5cf1c1d5a8fb50df48309d1e7fe43973b1acf61
+  subjectId: person:javier-garza
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:deaea70e99922ec6a75fe5acd7ebf2f8f1f7ae89d1a15723737b88adcebaf0d1
 ---
 # Javier Garza
 

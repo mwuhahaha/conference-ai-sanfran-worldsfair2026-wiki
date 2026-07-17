@@ -3,6 +3,19 @@ title: "Neo4j"
 category: "companies"
 aliases: ["Neo4j"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8101bc0f900c2e6f11b2f3dbaf06058c68fbe7ad4eaf178201496fbdca559b4e
+  subjectId: company:neo4j
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:578553b605be23cf0a5ecd2f8f2ccb1dc12d89bf9c66a2a58d2ff5144b13bafb
 ---
 # Neo4j
 
@@ -45,17 +58,17 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
 ### Media Signals
-- `youtube-eW_vxrjvERk` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
 - Evidence links for `youtube-eW_vxrjvERk` (supporting context only): [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; role: supporting context only.
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
 - Evidence links for `youtube-B9h9ovW5H9U` (supporting context only): [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
-- `youtube-knDDGYHnnSI` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
+- `youtube-knDDGYHnnSI` — source page linked; role: supporting context only.
 - Evidence links for `youtube-knDDGYHnnSI` (supporting context only): [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
-- `youtube-Fzb1a24hF-o` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
+- `youtube-Fzb1a24hF-o` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
 - Evidence links for `youtube-Fzb1a24hF-o` (supporting context only): [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

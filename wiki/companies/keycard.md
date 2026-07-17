@@ -3,6 +3,19 @@ title: "Keycard"
 category: "companies"
 aliases: ["Keycard"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9936a3c44bc452dbfc33c5d3b2ba1ab20603c30a1df90ef8d4bd5528c93bc92d
+  subjectId: company:keycard
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d7c03997243b02903b5ea8e37725a8d081ffba813197ab40c2d63a33162f073e
 ---
 # Keycard
 

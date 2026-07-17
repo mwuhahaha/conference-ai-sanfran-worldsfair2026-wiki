@@ -19,147 +19,136 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/6bmM45jkMDY/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> You can't prompt the room.
-> Cheap to build. Expensive to decide.
+> You can't prompt $
+> the room. 7
 
 ![[assets/slides/6bmM45jkMDY/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> WHERE THIS STARTS
-> 17 of 21 agents abandoned
-> On data access. None of them reached the model.
+> WHERETHISSTARTS
+> of21agents
+> abandoned
+> On data access.None of them reached themodeL
 
 ![[assets/slides/6bmM45jkMDY/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-003.html)
-- AI slide classifier: `title_card` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> THE BRIDGE
-> I've always prompted the developers.
-> The room was always the hard part.
-> 13 years, ERP & CRM
-> US · UK · Hungary
-> VisualLabs, Microsoft partner
+> I've always prompted
+> the developers. oy
+> The room was always the hard part. 7
+>
+> 13 years, ERP & CRM US - UK - Hungery VisualLabs, Microsoft partner
 
 ![[assets/slides/6bmM45jkMDY/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> THE SHIFT
 > The bottleneck moved.
-> USED TO BE getting the code built
-> NOW deciding what to build
+> a |
+> getting the code built >
 
 ![[assets/slides/6bmM45jkMDY/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> WHY A MODEL CAN'T DO IT
-> Ask it what to build.
-> You get a faster horse.
-> what already exists
-> the average
-> a faster horse
+> Ask it what to build. :
+> You get a faster horse. Po i
+> Star ieee ha tei ey the average cs ;
 
 ![[assets/slides/6bmM45jkMDY/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> WHY A MODEL CAN'T DO IT
 > Ask it what to build.
-> You get a faster horse.
-> what already exists
-> the average
-> a faster horse
+> eRe aT la lel ete ) j
+> hee Ue tte ha EIT) Sita he iete ld Fs ,
 
 ![[assets/slides/6bmM45jkMDY/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: agent_vision.
-- OCR decision: ready — Small multi-row diagram text and dense labels are better suited for OCR than manual transcription.
-
-Slide text:
+OCR text:
 
 > THE STORY MAP
+> Contact
+> Triage
+> Resolve or route
+> Close
+> RELEASE1
+> Capture intent
+> Classifyurgency
+> Draft agrounded answer
+> ps5
+> LATER
+> Read sentiment
+> Route to a team
+> opepeusattns
+> Check satisfaction
 
 ![[assets/slides/6bmM45jkMDY/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: agent_vision.
-- OCR decision: ready — Small multi-row diagram text and dense labels are better suited for OCR than manual transcription.
-
-Slide text:
+OCR text:
 
 > THE STORY MAP
+> Contact
+> Triage
+> Resolve or route
+> Close
+> RELEASEI
+> Capure intent
+> Classify urgency
+> Jasuepopunau6eye
+> Log to system ofrecord
+> LATER
+> Read sentiment
+> Route to ateam
+> uogpepeusattes
+> Checksatisfaction
 
 ![[assets/slides/6bmM45jkMDY/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Diagram slide with multiple small labels and compact boxes; OCR is likely more reliable than manual transcription.
-
-Slide text:
+OCR text:
 
 > THE STORY MAP
+> Contact
+> Triage
+> Resolve or route
+> Close
+> RELEASEI
+> Capture intent
+> Classifyurge
+> Oraftagrounded answer
+> Log to system ofrecord
+> LATER
+> uaguaspeag
+> weneesno
+> uope peusttes
+> Check satisfaction
 
 ![[assets/slides/6bmM45jkMDY/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> BEFORE THE AGENTS START
-> 1 Whose problem is this?
-> 2 What does winning look like for them?
-> 3 What would make them refuse to use it?
-> 4 What decision does it change?
+> Whose problem is this? What does winning look like for them? wht
+> he
+> ad
+> a |
+> What would make them refuse to use What decision does it change?
+> it? as
 
 ![[assets/slides/6bmM45jkMDY/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/6bmM45jkMDY/slide-011.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Build the right thing.
-> Not the next thing.
-> Balazs Horvath
-> linkedin.com/in/Balazshorvathd365
+> Build the right
+> thing.
+> Notthe next
+> thing.
 > SCAN TO CONNECT
-
-Classification audit: `raw/sources/slide-ai-classification/slides/6bmM45jkMDY/audit.json`
+> BalazsHorvath
+> linkedin.com/in/balazshorvathd365
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

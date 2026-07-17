@@ -3,6 +3,19 @@ title: "WorkOS"
 category: "companies"
 aliases: ["WorkOS"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d423ba5f1a4ee44eb8bc48df3f97cf723222c687546f29c439135e1705d1dbc7
+  subjectId: company:workos
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a5dcd5a1b9192584cb41977cf4d0b44e361d55cbc69fb9f4723dedd3fdec99e6
 ---
 # WorkOS
 

@@ -6,6 +6,19 @@ company: "Microsoft"
 linkedin: "https://linkedin.com/in/keijikanazawa"
 twitter: "https://x.com/gojira"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3d8a8616e73900c6e16c5c72a0101c0b4bfa58d7f90aac3f6b0c5cdab7db6971
+  subjectId: person:keiji-kanazawa
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ac5881070f2fb51cb00961814c6ab9fd272961a98e913be1f81cf481cfe2ce11
 ---
 # Keiji Kanazawa
 
@@ -32,5 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code|I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.]]
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
 - Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

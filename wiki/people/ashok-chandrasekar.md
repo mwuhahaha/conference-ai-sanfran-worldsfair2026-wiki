@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/ashokchandrasekar/"
 website: "https://ashokc.dev"
 blog: "https://ashokc.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4df40f454876575bd278be96bfb8b26429da98cd9d85f160a11b7fd77152fddf
+  subjectId: person:ashok-chandrasekar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ba2a49cec3b4ebe53d461b65de2a35a8eee33c55074d5129496379bb6d8845c4
 ---
 # Ashok Chandrasekar
 

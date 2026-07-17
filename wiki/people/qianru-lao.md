@@ -6,6 +6,19 @@ company: "OpenAI"
 linkedin: "https://linkedin.com/in/qianru-lao"
 website: "https://openai.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5cbb69fe286550b128a95261d1efd4eda421fde6fe8a29bf4a66ad51a16f0592
+  subjectId: person:qianru-lao
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a2f6ff763976df5f4013debfbef31ec76098da89b9a65c610f8384942afe715b
 ---
 # Qianru Lao
 

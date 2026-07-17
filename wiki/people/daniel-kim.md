@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/journeyer"
 twitter: "https://x.com/learnwdaniel"
 website: "https://danielkim.sh/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:00e74726da0b25c3f918c27377019f233872e5a5daf0baeaf0f15ba039995131
+  subjectId: person:daniel-kim
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2de1a6339e29b0e1d4fd3d329f57f5918df84235188053e2820cc76279aa739f
 ---
 # Daniel Kim
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
 
 ### Media Signals
-- `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
+- `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

@@ -5,6 +5,19 @@ role: "CTO and Co-founder"
 company: "Inngest"
 linkedin: "https://www.linkedin.com/in/djfarrelly"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:48d340efb5fad030ebeb69e6bcd2599dfe6529225b3f139b39619e4728d30e09
+  subjectId: person:dan-farrelly
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:631cad22f7af62d751e7dc66e9d882668ce7e43a6e714027978acb89a424138e
 ---
 # Dan Farrelly
 

@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-k8cnVCMYmNc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-k8cnVCMYmNc`
-- Slide deck: [[youtube-k8cnVCMYmNc-dense-slides|Dense Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]] — 3 visible slide image(s); 3 HTML recreation(s).
-![[assets/dense-slides/k8cnVCMYmNc/slide-004.jpg]]
-![[assets/dense-slides/k8cnVCMYmNc/slide-006.jpg]]
-![[assets/dense-slides/k8cnVCMYmNc/slide-011.jpg]]
+- Slide deck: [[youtube-k8cnVCMYmNc-dense-slides|Dense Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]] — slide evidence page.
 - Additional slide evidence: [[youtube-k8cnVCMYmNc-slides|Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]], [[youtube-k8cnVCMYmNc-reconstructed-slides|Reconstructed Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]]
-- Slide-derived themes for `youtube-k8cnVCMYmNc`: note, enough, quota, account, pending, event, types.
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,7 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-k8cnVCMYmNc` — source page linked; role: supporting context only.
+- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
 - Evidence links for `youtube-k8cnVCMYmNc` (supporting context only): [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 
 ### Agent Reading Notes

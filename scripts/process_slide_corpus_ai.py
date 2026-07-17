@@ -10,17 +10,33 @@ from __future__ import annotations
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import hashlib
 import json
+import math
 import subprocess
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+try:
+    from classify_and_recreate_slides import (
+        CACHE_SCHEMA_VERSION,
+        POLICY_VERSION,
+        PROMPT_CONTRACT_SHA256,
+        validate_min_confidence,
+    )
+except ModuleNotFoundError:  # Imported as scripts.process_slide_corpus_ai.
+    from scripts.classify_and_recreate_slides import (
+        CACHE_SCHEMA_VERSION,
+        POLICY_VERSION,
+        PROMPT_CONTRACT_SHA256,
+        validate_min_confidence,
+    )
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RUNS = ROOT / ".ops" / "state" / "runs"
-POLICY_VERSION = "agent-triage-ocr-reconcile-v2"
 MAX_WORKERS = 8
 
 DECKS = {
@@ -69,15 +85,150 @@ def load_json(path: Path) -> dict:
         return {}
 
 
-def completed(video_id: str, kind: str, image_count: int, model: str) -> bool:
-    audit = load_json(audit_path(video_id, kind))
-    if not audit:
-        return False
-    if audit.get("model") != model:
-        return False
-    if audit.get("policy_version") != POLICY_VERSION:
-        return False
-    return int(audit.get("accepted_count", 0)) + int(audit.get("rejected_count", 0)) >= image_count
+def input_manifest(video_id: str, kind: str) -> list[dict[str, str]]:
+    return [
+        {
+            "filename": path.name,
+            "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+        }
+        for path in sorted((DECKS[kind] / video_id).glob("*.jpg"))
+    ]
+
+
+def expected_cache_policy(item: dict, args: argparse.Namespace) -> dict:
+    return {
+        "model": str(args.model),
+        "deck_kind": item["deck_kind"],
+        "advanced_ocr": not args.no_advanced_ocr,
+        "ocr_reconcile": not args.no_ocr_reconcile,
+        "ocr_engines": ["rapidocr"],
+        "ocr_min_score": 120.0,
+        "ocr_max_suspicious_ratio": float(args.ocr_max_suspicious_ratio),
+        "ocr_variants": True,
+        "deep_ocr": False,
+    }
+
+
+def audit_validation(item: dict, args: argparse.Namespace) -> list[str]:
+    """Return contract violations for one corpus audit.
+
+    The public slide pages and HTML recreations are derived artifacts.  An
+    audit is current only when both the envelope and every per-image record are
+    bound to the present policy, prompt, cache settings, and exact input bytes.
+    """
+
+    violations: list[str] = []
+    try:
+        video_id = item["video_id"]
+        kind = item["deck_kind"]
+        audit = load_json(audit_path(video_id, kind))
+        if not audit:
+            return ["audit_missing_or_unreadable"]
+        if audit.get("video_id") != video_id:
+            violations.append("video_id_mismatch")
+        if audit.get("deck_kind") != kind:
+            violations.append("deck_kind_mismatch")
+        if audit.get("model") != args.model:
+            violations.append("model_mismatch")
+        if audit.get("policy_version") != POLICY_VERSION:
+            violations.append("policy_version_mismatch")
+        if audit.get("prompt_contract_sha256") != PROMPT_CONTRACT_SHA256:
+            violations.append("prompt_contract_mismatch")
+        if audit.get("hide_rejected") is not False:
+            violations.append("rejected_evidence_hidden")
+        if (
+            audit.get("status") != "succeeded"
+            or audit.get("cache_schema_version") != CACHE_SCHEMA_VERSION
+        ):
+            violations.append("audit_not_successfully_bound")
+        manifest = input_manifest(video_id, kind)
+        if not manifest:
+            violations.append("input_manifest_empty")
+        manifest_digest = hashlib.sha256(
+            json.dumps(manifest, separators=(",", ":"), sort_keys=True).encode(
+                "utf-8"
+            )
+        ).hexdigest()
+        if audit.get("input_manifest") != manifest:
+            violations.append("input_manifest_mismatch")
+        if audit.get("input_manifest_sha256") != manifest_digest:
+            violations.append("input_manifest_digest_mismatch")
+        cache_policy = expected_cache_policy(item, args)
+        if audit.get("cache_policy") != cache_policy:
+            violations.append("cache_policy_mismatch")
+        raw_min_confidence = audit.get("min_confidence")
+        if isinstance(raw_min_confidence, bool):
+            violations.append("minimum_confidence_invalid")
+        else:
+            try:
+                audit_min_confidence = float(raw_min_confidence)
+            except (TypeError, ValueError):
+                violations.append("minimum_confidence_invalid")
+                audit_min_confidence = -1.0
+            if audit_min_confidence != float(args.min_confidence):
+                violations.append("minimum_confidence_mismatch")
+        accepted = audit.get("accepted")
+        rejected = audit.get("rejected")
+        if not isinstance(accepted, list) or not isinstance(rejected, list):
+            return violations + ["classification_records_invalid"]
+        records = accepted + rejected
+        if any(not isinstance(record, dict) for record in records):
+            return violations + ["classification_records_invalid"]
+        by_name = {
+            Path(str(record.get("image") or "")).name: record for record in records
+        }
+    except (KeyError, OSError, TypeError, ValueError):
+        return violations + ["audit_validation_error"]
+    if audit.get("accepted_count") != len(accepted):
+        violations.append("accepted_count_mismatch")
+    if audit.get("rejected_count") != len(rejected):
+        violations.append("rejected_count_mismatch")
+    if len(records) != len(manifest) or len(by_name) != len(manifest):
+        violations.append("classification_record_coverage_mismatch")
+
+    accepted_ids = {id(record) for record in accepted}
+    for entry in manifest:
+        record = by_name.get(entry["filename"])
+        if record is None:
+            violations.append(f"record_missing:{entry['filename']}")
+            continue
+        if record.get("image_sha256") != entry["sha256"]:
+            violations.append(f"record_image_digest_mismatch:{entry['filename']}")
+        if (
+            record.get("cache_schema_version") != CACHE_SCHEMA_VERSION
+            or record.get("cache_status") != "succeeded"
+            or record.get("policy_version") != POLICY_VERSION
+            or record.get("prompt_contract_sha256") != PROMPT_CONTRACT_SHA256
+            or record.get("cache_policy") != cache_policy
+            or record.get("model") != args.model
+            or record.get("deck_kind") != kind
+        ):
+            violations.append(f"record_cache_binding_mismatch:{entry['filename']}")
+        raw_confidence = record.get("confidence")
+        if isinstance(raw_confidence, bool):
+            violations.append(f"record_confidence_invalid:{entry['filename']}")
+            continue
+        try:
+            confidence = float(raw_confidence)
+        except (TypeError, ValueError):
+            violations.append(f"record_confidence_invalid:{entry['filename']}")
+            continue
+        if not math.isfinite(confidence) or not 0 <= confidence <= 1:
+            violations.append(f"record_confidence_invalid:{entry['filename']}")
+            continue
+        is_content_slide = record.get("is_content_slide")
+        if not isinstance(is_content_slide, bool):
+            violations.append(f"record_classification_invalid:{entry['filename']}")
+            continue
+        should_accept = is_content_slide and confidence >= float(args.min_confidence)
+        if (id(record) in accepted_ids) != should_accept:
+            violations.append(f"record_decision_mismatch:{entry['filename']}")
+
+    return sorted(set(violations))
+
+
+def completed(item: dict, args: argparse.Namespace) -> bool:
+    return not audit_validation(item, args)
 
 
 def run_one(item: dict, args: argparse.Namespace) -> dict:
@@ -115,7 +266,7 @@ def run_one(item: dict, args: argparse.Namespace) -> dict:
         "stdout": cp.stdout.strip()[-2000:],
         "stderr": cp.stderr.strip()[-2000:],
     }
-    if cp.returncode == 0:
+    if cp.returncode == 0 and completed(item, args):
         audit = load_json(audit_path(item["video_id"], item["deck_kind"]))
         record.update(
             {
@@ -123,6 +274,11 @@ def run_one(item: dict, args: argparse.Namespace) -> dict:
                 "rejected_count": audit.get("rejected_count", 0),
             }
         )
+    elif cp.returncode == 0:
+        record["returncode"] = 1
+        record["stderr"] = (
+            record["stderr"] + "\nclassifier returned success without a valid current audit"
+        ).strip()
     return record
 
 
@@ -144,6 +300,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
+    try:
+        args.min_confidence = validate_min_confidence(args.min_confidence)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     work = selected_work()
     if args.shard_count < 1:
@@ -158,7 +318,7 @@ def main(argv: list[str] | None = None) -> int:
     pending = [
         item
         for item in work
-        if args.force or not completed(item["video_id"], item["deck_kind"], item["images"], args.model)
+        if args.force or not completed(item, args)
     ]
     if args.limit:
         pending = pending[: args.limit]

@@ -7,6 +7,19 @@ twitter: "https://x.com/johnlindquist"
 website: "https://egghead.io"
 blog: "https://dev.build"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:90b85ec627072e1e087227b448be7ca4546d7b5284e3f4fc17bd5c4b0b1176b4
+  subjectId: person:john-lindquist
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8977bee783e9e3583bb99e6b9847b360a9bfa733aa659c45bc809f7cda5da9cf
 ---
 # John Lindquist
 

@@ -6,6 +6,19 @@ company: "OpenAI"
 linkedin: "https://www.linkedin.com/in/embirico/"
 twitter: "https://x.com/embirico"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:170a462eda1a05ba9d906da9f467c3ed824385900b8980d911002b3383e26593
+  subjectId: person:alexander-embiricos
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ce07e6b07611e6ad2c4bed980d38633c9b5bbe160c5c5d3db4650a83b223085d
 ---
 # Alexander Embiricos
 
@@ -30,5 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 
 ### Media Signals
-- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
 - Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]

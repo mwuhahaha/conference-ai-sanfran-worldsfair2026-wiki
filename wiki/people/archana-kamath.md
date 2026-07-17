@@ -4,6 +4,19 @@ category: "people"
 role: "VP of Engineering"
 company: "Digital Ocean"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:62e1bb9780c6b35cd61bd8a460237951caeb891e7aabb28f62ba7e097849ee39
+  subjectId: person:archana-kamath
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e0fbee5b59c2db15c41baafbd4db459277894daac1e40c63e05d153bbe1f1c43
 ---
 # Archana Kamath
 

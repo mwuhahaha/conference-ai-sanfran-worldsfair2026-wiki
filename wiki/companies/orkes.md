@@ -3,6 +3,19 @@ title: "Orkes"
 category: "companies"
 aliases: ["Orkes"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4ea83b69b9d4358a49ea4fcae9144a51abb472163d682eb00f7d2ad530ba6ba2
+  subjectId: company:orkes
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:33546e2e9d9f5828dc2331e174ac75777db522f9e1f5cceb380dde1125c10f84
 ---
 # Orkes
 

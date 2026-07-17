@@ -3,6 +3,19 @@ title: "Firecrawl"
 category: "companies"
 aliases: ["Firecrawl"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:33eff6125c9db3ddb86d21e80f3120e333b81ffb38f0820456fde0c83e74e95b
+  subjectId: company:firecrawl
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ae265d02dbe358a41fd8e38ae6208c2ca59ae534aba1f66c13599b4ac4a6b5b6
 ---
 # Firecrawl
 

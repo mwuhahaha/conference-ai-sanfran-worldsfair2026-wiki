@@ -93,10 +93,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/pMggiOb18tc/slide-003.jpg]]
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
 - Source video: `youtube-yJHw33cVeHo`
-- Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/yJHw33cVeHo/slide-001.jpg]]
+- Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — slide evidence page.
 - Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]]
-- Slide-derived themes for `youtube-yJHw33cVeHo`: hello.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/pMggiOb18tc.txt` (4,606 words).
@@ -112,7 +111,8 @@ This section is generated from the official schedule, manifest-matched session r
 - Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
 - Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
-- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
 - Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
 
 ### Agent Reading Notes

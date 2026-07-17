@@ -4,6 +4,19 @@ category: "people"
 role: "Solutions Engineer"
 company: "Docker"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dade1b321455dc12eeecbc6bb59be67e03bc72ed787d81ee15e4125e58709a7d
+  subjectId: person:john-craft
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0df58c1d57c2d8a0d97d8fe93f292e3a91b8123ede2ba628ebcfd3a70bc7a381
 ---
 # John Craft
 

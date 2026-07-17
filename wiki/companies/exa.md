@@ -3,6 +3,19 @@ title: "Exa"
 category: "companies"
 aliases: ["Exa"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:708948051b26ba74fded5400fc8a6b42e2942dbb2b90633e895027504c960b54
+  subjectId: company:exa
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f5ba341ad23c6c6a11ed9d071069f728b4d4e7ba062bc4c2fd2309caf9e3e364
 ---
 # Exa
 
@@ -36,8 +49,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack|Knowledge Systems: The New GTM Stack]]
 
 ### Media Signals
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

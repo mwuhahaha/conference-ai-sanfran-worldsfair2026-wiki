@@ -5,6 +5,24 @@ aliases: ["Reducto"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: []
 scheduleRooms: ["Track 7", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7ea63d369b421da970aee8c1a45a06500c53b4976ee3ab206a2604d00f61e255
+  subjectId: tool:reducto
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-0vphxNt4wyk
+  - source:official-wf26-youtube-8G_1-3IO4ZQ
+  - source:official-wf26-youtube-KB41dTlX1Uc
+  - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+sourceAssessmentBodySha256: sha256:18856791656599a4c569feafcd75b04eff18463cff612dd4b5e2db378f8a7ebe
 ---
 
 # Reducto

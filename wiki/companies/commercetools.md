@@ -3,6 +3,19 @@ title: "commercetools"
 category: "companies"
 aliases: ["commercetools"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ffeff73fc8137fc52f662b812352d1fa5151788d24c030251f3db5bea83167a2
+  subjectId: company:commercetools
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bf4e6bfca4ba16fea11bb99a9f3809557db41fc05378f8b9980177e13d66f047
 ---
 # commercetools
 

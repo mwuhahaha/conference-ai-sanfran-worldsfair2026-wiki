@@ -3,6 +3,19 @@ title: "Datacurve"
 category: "companies"
 aliases: ["Datacurve"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3ca586329741efa909ee0ca67ab5421cf44f79057cb664876f610551d19afcd3
+  subjectId: company:datacurve
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7e2e503b5e735545abdabd1edf4c5b359a207537fa57e50b557430e5ceaa1923
 ---
 # Datacurve
 

@@ -3,6 +3,19 @@ title: "Reactor"
 category: "companies"
 aliases: ["Reactor"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d8a44e4183282082127c287c30c5f64580726404b5b6e85960fcc08f287e2362
+  subjectId: company:reactor
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a7eaf84003d58c8226097e86ae0f0100f82eef54f1dd648dafa1fa1440335b10
 ---
 # Reactor
 

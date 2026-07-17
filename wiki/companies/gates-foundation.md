@@ -3,6 +3,19 @@ title: "Gates Foundation"
 category: "companies"
 aliases: ["Gates Foundation"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1af9acc4d4e2ada6b1ec3f26a9a1fa8520df629e355085bf4628fc20c28bb85a
+  subjectId: company:gates-foundation
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0aeac5e1d0a0b6412f45d9771a447286126efa35122f4b67a9fb8b379d7d40fa
 ---
 # Gates Foundation
 

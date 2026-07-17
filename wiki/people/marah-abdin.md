@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/marah-abdin"
 twitter: "https://x.com/marah_i_abdin"
 website: "https://marahabdin.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5b59d6af1adb885775cb1f3290a3eac17ae57ca8a96bbb9b13188fafff685b71
+  subjectId: person:marah-abdin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:34daa896af03a798ef08ecea929203f155e44f6275e32f3d3ea6bbd3b16b0c97
 ---
 # Marah Abdin
 

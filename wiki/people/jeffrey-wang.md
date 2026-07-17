@@ -6,6 +6,19 @@ company: "Exa"
 linkedin: "https://www.linkedin.com/in/wangzjeff/"
 twitter: "https://x.com/jeffzwang"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b57b6b2c96541aa71f5579c967d677a2becede5cfa4d801ce8de0ca32c987f47
+  subjectId: person:jeffrey-wang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:684bed22eeca1caa2ad1a266bbeeb5f6980aec37ccc5892860687bf89006c89b
 ---
 # Jeffrey Wang
 

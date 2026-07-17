@@ -3,6 +3,19 @@ title: "Riot Games"
 category: "companies"
 aliases: ["Riot Games"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:446f1124977e0aeb0e6bafb4294c6b1856ec873ee21f5179e3d39f2e7690fbf6
+  subjectId: company:riot-games
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:29277ca86687ee7cdf42c9964811300177e8776041e270dff86a4bc7735cf294
 ---
 # Riot Games
 

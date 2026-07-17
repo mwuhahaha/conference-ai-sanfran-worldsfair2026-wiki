@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import json
 import re
-from collections import defaultdict
 from pathlib import Path
 
 
@@ -422,7 +421,6 @@ def main() -> int:
     (WIKI / "tools" / "registry.json").write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n")
     index_text = render_index(records).rstrip() + "\n"
     (WIKI / "tools" / "index.md").write_text(index_text)
-    (WIKI / "tools" / "tools.md").write_text(index_text)
     print(json.dumps({"tool_pages": len(records)}, sort_keys=True))
     return 0
 

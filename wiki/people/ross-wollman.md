@@ -2,6 +2,19 @@
 title: "Ross Wollman"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e87c595dc26ba258291283d2998dcdb53f6733f0289ef6d2d9f71f64482b66bf
+  subjectId: person:ross-wollman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c4ba3f7d705b4b8c29468bf62f6e1ba4e1ef843a7804f6292417f94521de9ca0
 ---
 # Ross Wollman
 

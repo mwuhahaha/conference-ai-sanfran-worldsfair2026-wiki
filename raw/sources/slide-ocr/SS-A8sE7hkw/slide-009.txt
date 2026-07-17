@@ -1,5 +1,13 @@
 Personal & Edge
-Personal (NPU/Mobile): Shifting execution to local "sunk-cost" hardware to maintain local data by design.
-Edge (Desktop/Single-GPU): Establishing fixed-cost reasoning on a 24GB-80GB footprint.
-Battery Priority: On mobile, power utilization is part of the cost calculation and is arguably more critical than raw token generation cost.
-Engineering the future of AI
+i wee -@
+ate ory _
+bd * ‘ ‘
+a ee
+ae ° Edge (Desktop/Single-GPU): Establishing
+O Qe fixed-cost reasoning on a 24GB. 80GB
+go ( troleleslaiale
+we | fi <
+org | |
+o
+a
+Engineering the future of Al

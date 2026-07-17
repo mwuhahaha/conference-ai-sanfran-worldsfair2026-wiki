@@ -2,7 +2,7 @@
 title: "Post-Conference Tool Trial Plan"
 category: "playbooks"
 status: "seeded"
-sourceLabels: ["Tool index", "Topic synthesis"]
+sourceLabels: ["Topic synthesis"]
 ---
 
 # Post-Conference Tool Trial Plan
@@ -21,7 +21,6 @@ Use this after a conference pass surfaces many plausible tools but not enough di
 - Write the result back as an evaluation page with confidence and open questions.
 
 ## Evidence
-- [[tools]] - Tool index
 - [[agent-evaluations]] - Topic synthesis
 - [[coding-agents]] - Topic synthesis
 - [[ai-sandboxes]] - Topic synthesis

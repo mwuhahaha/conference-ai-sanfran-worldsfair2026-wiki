@@ -6,6 +6,19 @@ company: "Google"
 linkedin: "https://www.linkedin.com/in/danielbump"
 twitter: "https://x.com/DanielJBump"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b3ab47125cb8c4865ca501bee641d8321605755d60c4723c2bc3b0eb78ff11b2
+  subjectId: person:daniel-bump
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2ba04beb559303f5d1a255867fc8c17cbdd79e6b242f290aef6d5fbf02e9f7c1
 ---
 # Daniel Bump
 

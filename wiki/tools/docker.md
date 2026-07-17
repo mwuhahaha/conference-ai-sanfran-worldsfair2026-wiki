@@ -5,6 +5,26 @@ aliases: ["Docker"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Security", "LLM Recsys", "Software Factories", "AI Architects: Show my Workflow", "Sandbox & Platform Engineering"]
 scheduleRooms: ["Track 2", "Track 5", "Track 7", "Main Stage", "Expo Stage 1 NE", "Leadership 2", "Track 1", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:69f062735393616225ec1f93ab6df15b76f0de56f14bf20e0a46de9f3922b799
+  subjectId: tool:docker
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-0vphxNt4wyk
+  - source:official-wf26-youtube-8G_1-3IO4ZQ
+  - source:official-wf26-youtube-KB41dTlX1Uc
+  - source:official-wf26-youtube-V-EDrhIhHzQ
+  - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-q4Tr-DknG2M
+sourceAssessmentBodySha256: sha256:16f363230c6f763cc5ae687f3cbe4ecc9c65a06d3c207493c6fa169a1c8541ea
 ---
 
 # Docker

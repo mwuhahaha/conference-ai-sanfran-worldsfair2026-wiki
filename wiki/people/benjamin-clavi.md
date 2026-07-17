@@ -7,6 +7,19 @@ twitter: "https://x.com/bclavie"
 website: "https://mixedbread.com"
 blog: "https://ben.clavie.eu"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bce78ffa4fa037c44aed05860a77af80182d9c59654d7db23793b3e94a6d48d3
+  subjectId: person:benjamin-clavi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:626010e0fb5fc6153a7234590eca188aea6971d87c606e4b83af57e6e524aab1
 ---
 # Benjamin Clavié
 

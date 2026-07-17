@@ -3,6 +3,19 @@ title: "Factory"
 category: "companies"
 aliases: ["Factory"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8eb3873a6c7c654c73d564cc984805ac45aaed55a7a9c52720e7a2574ab2a7af
+  subjectId: company:factory
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:58f17ca1715ddf2c5f333562bfb899a23d234dabb9fdb28819ba65b8ffeca2ed
 ---
 # Factory
 
@@ -33,7 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
 - Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

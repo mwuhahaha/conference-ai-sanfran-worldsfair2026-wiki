@@ -70,10 +70,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-5N33E9tC400]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-5N33E9tC400`
-- Slide deck: [[youtube-5N33E9tC400-dense-slides|Dense Slides: Why Agent Engineering — swyx]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/5N33E9tC400/slide-001.jpg]]
-![[assets/dense-slides/5N33E9tC400/slide-002.jpg]]
+- Slide deck: [[youtube-5N33E9tC400-dense-slides|Dense Slides: Why Agent Engineering — swyx]] — slide evidence page.
 - Additional slide evidence: [[youtube-5N33E9tC400-slides|Slides: Why Agent Engineering — swyx]], [[youtube-5N33E9tC400-reconstructed-slides|Reconstructed Slides: Why Agent Engineering — swyx]]
+- Slide-derived themes for `youtube-5N33E9tC400`: look, maybe, fare, seat, evolution, engineer, ideal, year.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -85,7 +84,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- `youtube-5N33E9tC400` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5N33E9tC400`: look, maybe, fare, seat, evolution, engineer, ideal, year.
 - Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
 
 ### Agent Reading Notes

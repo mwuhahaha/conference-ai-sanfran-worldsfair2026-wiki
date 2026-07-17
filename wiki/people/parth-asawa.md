@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/pgasawa/"
 twitter: "https://x.com/pgasawa"
 website: "https://pgasawa.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:adc715ae1e6ac60f209bd0f7877f09248cf826c153893263024d5a3e3433093c
+  subjectId: person:parth-asawa
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1de91e0d9080329ef850e72852cf775d5d5924f8c05caf8a573a84b61596a9ad
 ---
 # Parth Asawa
 

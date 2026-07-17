@@ -3,6 +3,19 @@ title: "TikTok"
 category: "companies"
 aliases: ["TikTok"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2ea23b506b2e99cac6014a6cc8e7487228365c6c8134490a222a1166645204a5
+  subjectId: company:tiktok
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:eaa5dbe1b01fc6955717459cb7a17bfb02a6294d288b1dd1063c89cf15a5ac0d
 ---
 # TikTok
 

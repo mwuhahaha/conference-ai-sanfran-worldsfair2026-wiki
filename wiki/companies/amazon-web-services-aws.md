@@ -3,6 +3,19 @@ title: "Amazon Web Services (AWS)"
 category: "companies"
 aliases: ["Amazon Web Services (AWS)"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2f6a5dca87d8f8639efff99cf7e9f57d77552268349c7cef7219d795f069089f
+  subjectId: company:amazon-web-services-aws
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b307ce21334f2c84e6fcfd32799b5ce5cbf2ae43b51c267fb3b7b7c3a9d12269
 ---
 # Amazon Web Services (AWS)
 

@@ -1,36 +1,9 @@
-SO, LET'S SUPPORT 85+ MODELS WITH 35+ RUNTIMES AND INFERENCE BACKENDS
-Every architecture is different under the hood
-bert_flash
-Fixed position IDs (0,1,2,...)
-Each token knows its absolute slot
-qwen2_flash
-RoPE: rotates Q/K vectors by position
-GQA: fewer KV heads = less memory
-modernbert_flash
-Fused QKV: one matrix, not three
-Pre-normalize before attention
-colbert_*
-Keeps every token's vector (not pooled)
-Late interaction: match token-by-token
-cross_encoder
-Takes a pair (query + doc) as input
-Outputs a score, not a vector
-clip_siglip_florence2
-Image encoder + text encoder
-Shared embedding space
-splade_flash
-Sparse 250K-dim vocabulary vector
-Learned term weights, not dense floats
-sglang
-48-88 embedding models
-KV cache = paged memory
-No universal engine
-BERT + Qwen2 + ModernBERT.
-Each needs its own inference path.
-An agentic workflow
-We wrote each adapter using AI agents
-until we had coverage across 90 models.
+ec , A wndiee 7 No universal engine
+Pel
+bd bd
+bf bal An agentic workHow
+ad ra *
 Re-implementation
-Not wrappers. We re-implement
-the forward pass and pooling for each arch.
-15 of 35 adopters use Flash Attention 2 with variable-length sequence packing
+: | Al Engineer |
+= ay:
+d

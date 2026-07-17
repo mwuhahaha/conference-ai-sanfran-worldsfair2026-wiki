@@ -6,6 +6,19 @@ company: "SID AI"
 linkedin: "https://www.linkedin.com/in/lotteseifert/"
 twitter: "https://x.com/lotteseifert"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f1d3bb8c85f2bf5b9f9ae74a6dc165859b6c7fd368cc1be520092f7dd2a8ecdc
+  subjectId: person:lotte-seifert
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f0ab3fcf577ad787370d7c5447ffa83f8e954b489ae0302fa21751deefd889a5
 ---
 # Lotte Seifert
 

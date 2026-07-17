@@ -3,6 +3,19 @@ title: "Runpod"
 category: "companies"
 aliases: ["Runpod"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:85757b6b06c25a52de121eb5890a1351bf17c9f2e324fb1f6743099534df0a6c
+  subjectId: company:runpod
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:be7eec5984abcd48569a1ea025e9266128eb88e778d4356d83c58fd72646b161
 ---
 # Runpod
 

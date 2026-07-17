@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["OpenAI"]
 website: "https://openai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf6e0a7eea1d4f1724266f8e27067c8421f97f2db85b730e86f55bd1c1db98fc
+  subjectId: company:openai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:849cd9ea62155c742ce7e065afefb18afdd18e1bd260089bf7678f656de34640
 ---
 # OpenAI
 
@@ -65,17 +78,20 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
+- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
 - Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
-- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+- `youtube-iXhba366fQc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
 - Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
-- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
 - Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
-- `youtube-jryZvCuA0Uc` — source page linked; role: supporting context only.
+- `youtube-jryZvCuA0Uc` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 - Evidence links for `youtube-jryZvCuA0Uc` (supporting context only): [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 5 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week, charlie, ignorance.
 - Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

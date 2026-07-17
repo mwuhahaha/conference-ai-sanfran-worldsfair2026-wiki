@@ -6,6 +6,19 @@ company: "Arize"
 linkedin: "https://www.linkedin.com/in/aparnadhinakaran/"
 twitter: "https://x.com/aparnadhinak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:627d3f2d93a3f6fb876a632e555005a7ac44c4ac72f8363b400f13753dfac805
+  subjectId: person:aparna-dhinakaran
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:48ee26e6fe070ffa1ff6d483759a7ec3af239e85a56f72707d7866e7b1f77836
 ---
 # Aparna Dhinakaran
 
@@ -30,7 +43,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-laurie-voss-evals-track-intro|Evals Track Intro]]
 
 ### Media Signals
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals; role: supporting context only.
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
-- Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
+- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
 - Evidence links for `youtube-Xfl50508LZM` (supporting context only): [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

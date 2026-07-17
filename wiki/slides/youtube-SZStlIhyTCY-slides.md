@@ -21,8 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> November 20, 2025
-> AIE Code Summit
+> November20,2025
+> AlIECode Summit
+> AIE
 
 ![[assets/slides/SZStlIhyTCY/slide-002.jpg]]
 
@@ -132,45 +133,25 @@ OCR text:
 
 OCR text:
 
-> Bottlenecks within current operating model and team setup
-> Bottleneck
-> Delays from increased complexity
-> and security vulnerabilities
-> Inefficient task
-> assignment
-> among
-> developers and
-> agents due to
-> hard-to-interpret
-> specifications
-> Day 0
-> Refinement
-> Day 1
-> Sprint planning
-> Day 2-3
-> Development
-> Day 4
-> Sprint review
-> Day 5
-> Retro
-> McKinsey & Company
-> AIEngineer
-> Engineering the future of AI
+> ~ . - Drei)
+> = P ‘ Bottlenecks within current operating model and team setup areas
+> a 7 a nines oe Ser 7 cn
+> Engineering the future of Al
 
 ![[assets/slides/SZStlIhyTCY/slide-008.jpg]]
 
 OCR text:
 
 > ae
-> 
+>
 > il
-> 
+>
 > LS
-> 
+>
 > |
-> 
+>
 > 5
-> 
+>
 > >
 
 ![[assets/slides/SZStlIhyTCY/slide-009.jpg]]
@@ -191,12 +172,12 @@ OCR text:
 > Secale Peace,
 > ; |
 > PM t im eR Rac soishes
-> 
+>
 > , Aderts process lowest complexity
 > tickets wih high ove. of human
 > PITY Ta ti( Re MORSE ao
 > Tuy roe eas
-> 
+>
 > Se ery !
 > e i
 > Alenginee S CRIN
@@ -316,7 +297,7 @@ OCR text:
 > - ; and higher feature throughput in large international airline oo
 > an ; Can
 > _ ; From To
-> 
+>
 > Pod #1 Pod #2 Pod #1 Pod #2 Pod #3 Pod #4
 > ™ ™ Product Product Product Product
 > 2 2 define defines definer definer
@@ -347,7 +328,7 @@ OCR text:
 > management
 > ®
 > en
-> 
+>
 > Engineering the future of Al
 
 ![[assets/slides/SZStlIhyTCY/slide-018.jpg]]
@@ -387,19 +368,19 @@ OCR text:
 > . ; nae Perea Soren art
 > ile ike oe peta aes CoE i i y
 > ~ ae .
-> 
+>
 > Nae MOVING AWAY FROM AGILE: WHAT'S NEXT?
 > a MARTIN HARRYSSON NATASHA MANIAR McKinsey
-> 
+>
 > Google DeepMind Senior Partner | Business Analyst & Company
 
 ![[assets/slides/SZStlIhyTCY/slide-020.jpg]]
 
 OCR text:
 
-> AI Engineer
+> AlEngineer
 > Code Summit
-> https://ai.engineer
+> al.engineer
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

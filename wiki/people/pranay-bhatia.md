@@ -6,6 +6,19 @@ company: "Fireworks AI"
 linkedin: "https://www.linkedin.com/in/pranay-bhatia-58132b22/"
 twitter: "https://x.com/pranaycbhatia"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2ae2dbbcb2c0d95b354dd5ef9dc4d5af4fd4486dac10da63956a45f1c4e1228a
+  subjectId: person:pranay-bhatia
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d4e6b7bf28cc93b6eccaac29f3eb7691ac7f281f9d2fa8c5f454da3eb1e69ecc
 ---
 # Pranay Bhatia
 

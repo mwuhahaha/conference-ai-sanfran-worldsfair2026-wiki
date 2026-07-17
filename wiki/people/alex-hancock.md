@@ -6,6 +6,19 @@ company: "Block"
 linkedin: "https://www.linkedin.com/in/alexjhancock/"
 twitter: "https://x.com/alexjhancock"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b0e19e6378e031b96ddfa9dd96a6cf2c5f787cff324c0b027cf0975d943cce7d
+  subjectId: person:alex-hancock
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ec746aa552125eda4d855b2d06497a7f0ad4c559f8dcacadc3536089b283c1b4
 ---
 # Alex Hancock
 

@@ -4,6 +4,19 @@ category: "people"
 role: "SVP/GM, AI & Personalization"
 company: "Spotify"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e5233ee0e8dc8720bdfd8b509c7ebf4186e23630e893a38eb0eaa3baa400e5d8
+  subjectId: person:yves-raimond
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d269cfb7bb37fc476fe92e82006f0578a3d7d928a637c993c02a3e01a085a675
 ---
 # Yves Raimond
 

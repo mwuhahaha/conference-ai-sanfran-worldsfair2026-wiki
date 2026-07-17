@@ -5,6 +5,19 @@ role: "CEO"
 company: "Neo4j"
 twitter: "https://x.com/emileifrem"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:18e797dff9394941e9d57f5f6aaed585803ffed2c6049a26dead948dab5e40ca
+  subjectId: person:emil-eifrem
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7f53ba99ae3fcd4405874964e93794357a31fbf11d8ace648e662cf698da0ce4
 ---
 # Emil Eifrem
 
@@ -32,6 +45,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]]
 
 ### Media Signals
-- `youtube-knDDGYHnnSI` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
+- `youtube-knDDGYHnnSI` — source page linked; role: supporting context only.
 - Evidence links for `youtube-knDDGYHnnSI` (supporting context only): [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]

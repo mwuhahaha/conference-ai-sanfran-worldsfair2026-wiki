@@ -193,20 +193,20 @@ OCR text:
 OCR text:
 
 > . . : . Cc Qk
-> 
+>
 > Solution Patch (summarized in english) orres
 > In bee ta wr boaatos. . return early if cela
-> 
+>
 > Problem ‘eeeoor Cfor cen eu «) eata isn’t a Voora i, skip
-> 
+>
 > Chine was asked to fixa non-op se: items when as. Ure, and when fetching
-> 
+>
 > bug where the program o poe Catch Cxecres nl to nekrr pr) so tield validators
-> 
+>
 > crashed if the input run only when the field is actually present.
-> 
+>
 > WAS ‘oe, =
-> 
+>
 > Corresponding Rule
 > When you locakze a bug. enumerate every execution path that reaches the fauity une (0.9. single vs. batch
 > flows) and propose a munmmal fix that miurors Sdjacent error-handling patterns across a# paths. then outline
@@ -216,17 +216,17 @@ OCR text:
 > Problem Update cree, sat to defer to matr ix
 > cl ; f semantics and return ¢. tiog es 8 ce for non-matrix
 > ine was asked to fix a operands (after o:-:::-.7..). allowing Python to try
-> 
+>
 > bug where using the reverse op or raise a losr:rre: per the
-> 
+>
 > with a scalar (e.g. 7 _* @ operator protocol.
-> 
+>
 > Mote x) incorrectly
-> 
+>
 > behaved like Corresponding Rule
-> 
+>
 > multiplication instead When proposing a fix. first map the failing test or reported behanor back to the exact API of function it
-> 
+>
 > of failing exercises. Ensure your changes akgn with that boundary - modify the function or layer dwoctly responsible
 > for Une behavioe rather than a relisted but bugher- level ublity. In other words. ful asues at thew source. notin s
 > Nearby convemence function
@@ -363,22 +363,36 @@ OCR text:
 
 OCR text:
 
-> JFK27-B1.300
-> 2025-11-22 12:49:43
+> oe A
+> 4 b
+> 7 Se ie
+> my , : a i
+> sg gg
+> JFK 27-B1.300 2025-11-22 12:49:43
 
 ![[assets/slides/SbcQYbrvAfI/slide-022.jpg]]
 
 OCR text:
 
-> JFK27-B1.300
-> 2025-11-22 12:50:08
+> i
+> \
+> “
+> 1 - .
+> k ly f 7 ra
+> ea ; a «
+> —_ es
+>
+> 7 a ( a
+>
+> A 2025-11-22 12:50:08
+> JFK 27-B1.300
 
 ![[assets/slides/SbcQYbrvAfI/slide-023.jpg]]
 
 OCR text:
 
 > WORKSHOP
-> 
+>
 > 2025-11-22 12:50:58
 
 ![[assets/slides/SbcQYbrvAfI/slide-024.jpg]]
@@ -393,15 +407,15 @@ OCR text:
 > byals with low oO
 > confidence
 > D Improve fae Run evals . fey area. @
-> 
+>
 > Improve prompt Agent Update prempt Pyates
-> 
+>
 > / Fine-tune
-> 
+>
 > , Collect dataset SN 7
 > Annotate for of failures S
 > training dataset
-> 
+>
 > Aarize 2025°11-22 12:55:08
 
 ## Slide-Derived Subjects To Review

@@ -5,6 +5,19 @@ role: "Co-Founder and CTO"
 company: "Orkes"
 linkedin: "https://www.linkedin.com/in/virenb"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f7e47e63850a6a31d866831159d21a86fed17104edfd7393116782bf2853f7ea
+  subjectId: person:viren-baraiya
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9fb934fd1bad70909a95c6a2de22b3c0a84ea40b14815654f6df0599676a6f5e
 ---
 # Viren Baraiya
 

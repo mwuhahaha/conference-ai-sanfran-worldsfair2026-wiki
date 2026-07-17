@@ -6,6 +6,19 @@ company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/priyankaphatak/"
 twitter: "https://x.com/PriyankaPhatak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cedef47ae4e6257b292d6f56dee1b78dde42983fe713aff399566f4e72796efb
+  subjectId: person:priyanka-phatak
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:20ebdb089ad4fa2bdf8fa392def79b5523fefd0b40a3c091042b2e1a3d10e472
 ---
 # Priyanka Phatak
 

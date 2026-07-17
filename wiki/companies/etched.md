@@ -3,6 +3,19 @@ title: "Etched"
 category: "companies"
 aliases: ["Etched"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0dfb5c29ab33f86e28036f83509bb4813b76ccb29c45f3c85758ce617524a32f
+  subjectId: company:etched
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dfcec32d514732af2f7d0f8279a812e5b519e47a0e9bc501f4772429e640ff0d
 ---
 # Etched
 
@@ -30,7 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]]
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- `youtube-qaJXBMwUkoE` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, mathematician, auto, figure, periods, great, surge, curve.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

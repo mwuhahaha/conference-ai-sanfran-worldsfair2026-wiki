@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/itamarf"
 twitter: "https://twitter.com/itamar_mar"
 blog: "https://www.qodo.ai/authors/itamar-f"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:59070fe3926f751ca9d9605da513ce993771d43803137d7b3c23b09a58270e01
+  subjectId: person:itamar-friedman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c25a2e96abf867158f6e40035c0f5ff0f142318523ad6edbe68ba4e582f1e34e
 ---
 # Itamar Friedman
 

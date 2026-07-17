@@ -4,6 +4,19 @@ category: "people"
 role: "Product Manager"
 company: "Google"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:72b303fafe629e419d45d290a903dcce14d54f62953b459663cfde3f95a928f5
+  subjectId: person:preetika-bhateja
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e31ce5d678db100881cd015d7d19c1d2494cc07889ac3e3c742f571366757300
 ---
 # Preetika Bhateja
 

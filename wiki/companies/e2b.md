@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["E2B"]
 website: "https://e2b.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:238fe68db20c1ad210bd42e294d6ac9671d11b8ef17460d6a3e98acf4084f0d0
+  subjectId: company:e2b
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dfc61d47ef390b4ceb7b4ca6c94b13321c62964bc0f81f4bc227f47772795413
 ---
 # E2B
 

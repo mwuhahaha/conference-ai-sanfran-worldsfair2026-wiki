@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/lyonwj/"
 twitter: "https://x.com/lyonwj"
 website: "https://lyonwj.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:39846d0ddaac62cf7887fd084bd417f4c7534df13075e54459b191fd52510eed
+  subjectId: person:will-lyon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d0c9678e5a3a2842ca520f126c4d3686ae6f70c81f37659ec580e9fceb2f4bb3
 ---
 # Will Lyon
 

@@ -3,6 +3,19 @@ title: "uRun"
 category: "companies"
 aliases: ["uRun"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:801babb86e6c945d210b62990d6362158e5aef50aab6471e2344c2b2a4048ef1
+  subjectId: company:urun
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:54dab0aa37e7f21b1363a03d7d18b9dcb1290de58f9ad66088c0e5c1e736dbcb
 ---
 # uRun
 

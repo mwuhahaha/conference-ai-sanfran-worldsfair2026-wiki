@@ -89,17 +89,17 @@ OCR text:
 OCR text:
 
 > remalnder of thei careers
-> 
+>
 > them for the
-> 
+>
 > J
-> 
+>
 > \}
-> 
+>
 > pees
-> 
+>
 > |
-> 
+>
 > ee
 
 ![[assets/slides/PmZDupFP3UM/slide-006.jpg]]
@@ -130,15 +130,15 @@ OCR text:
 OCR text:
 
 > ~“
-> 
+>
 > +“
-> 
+>
 > ei
-> 
+>
 > a
-> 
+>
 > 7 OT
-> 
+>
 > ea
 
 ![[assets/slides/PmZDupFP3UM/slide-008.jpg]]
@@ -157,9 +157,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> Al Engineer
 > Code Summit
-> https://ai.engineer
+> ai.engineer
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

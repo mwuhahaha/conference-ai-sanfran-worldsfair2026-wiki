@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/shreya-rajpal/"
 twitter: "https://x.com/ShreyaR"
 website: "http://shreya-rajpal.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9c172ba58621814dcd092f2d1094798762ddadcf00d6632b6b4308aec7f63849
+  subjectId: person:shreya-rajpal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:708399ec04c7f04f9387d72857d2b7be78efc37b692ce4ce5760639653a76a14
 ---
 # Shreya Rajpal
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
 
 ### Media Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
 - Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]

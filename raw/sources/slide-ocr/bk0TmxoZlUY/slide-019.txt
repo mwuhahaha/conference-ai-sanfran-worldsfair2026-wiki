@@ -3,13 +3,15 @@ Playgrounds
 Experiments
 Evaluations
 AIE
-• Quick iteration of Prompts, Agents,
-Scorers, Datasets
-• Great for comparing Prompts & Models
-• When you reach a happy place, save a
-lot of the playground to Experiments
-• Great for comparing full experiments so you
-can review past playground sessions
-• Evals from SDK or API will appear here
+QuickiterationofPrompts,Agents,
+Greatforcomparingfullexperimentssoyou
+Scorers,Datasets
+canreviewpastplaygroundsessions
+GreatforcomparingPrompts&Models
+EvalsfromSDKorAPIwillappearhere
+Whenvoureachahappyplace,savea
 directly
-• You can analyze your experiments over time
+otoftheplaygroundtoExperiments
+Youcananalyzeyourexperimentsovertime
+Microsoft
+smol?

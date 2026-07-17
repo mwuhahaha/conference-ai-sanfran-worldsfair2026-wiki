@@ -5,6 +5,19 @@ role: "Senior Staff Software Engineer"
 company: "Ramp"
 linkedin: "https://www.linkedin.com/in/armanvaziri/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a417ac238d98c32946d17d2465757c303452905018cc7fe99592700c6af2e289
+  subjectId: person:arman-vaziri
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5d6d88ebff87ab900791ba3eeb7dd2d8375996a7f486eee8a0ac5bf9ad6b9c5b
 ---
 # Arman Vaziri
 

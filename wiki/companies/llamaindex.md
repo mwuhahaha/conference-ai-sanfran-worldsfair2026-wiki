@@ -3,6 +3,19 @@ title: "LlamaIndex"
 category: "companies"
 aliases: ["LlamaIndex"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8057525d7300efbdfb084b1a17e09be198aaeab2ca9dbc38816c782374c029ca
+  subjectId: company:llamaindex
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c64a79b1936224477e3ef6e0fc14f4ca3f121f9e0e7c0462747bc455eb62af96
 ---
 # LlamaIndex
 
@@ -33,8 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results|Everyone talks about document search, but what about results?]]
 
 ### Media Signals
-- `youtube-jVGCulhBRZI` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
+- `youtube-jVGCulhBRZI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
 - Evidence links for `youtube-jVGCulhBRZI` (supporting context only): [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

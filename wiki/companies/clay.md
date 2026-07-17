@@ -3,6 +3,19 @@ title: "Clay"
 category: "companies"
 aliases: ["Clay"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ec91d4af7e07526878446cdc99b61dcf76ed0d8f2c890e3b25134e627b8efa5c
+  subjectId: company:clay
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b3b62cb59d17b3fb76bb84b0ff87e1f093a01535e667c48e8ca6cf2fadb3b246
 ---
 # Clay
 

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/samridhivaid/"
 twitter: "https://x.com/samridhivaid"
 website: "https://samridhivaid.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8ba85a5945822352fcd48743301e6329e8bc9298fde6d43239ef9e600ba8446c
+  subjectId: person:samridhi-vaid
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:30d040b33a3cf6f8179d1519b954a3dbaac04d2987ced4ce79df0c9712249ae5
 ---
 # Samridhi Vaid
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]]
 
 ### Media Signals
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+- `youtube-ZRM_TfEZcIo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: research, total, index, plus, notion, google, drive, growing.
 - Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

@@ -30,22 +30,26 @@ OCR text:
 
 OCR text:
 
-> asked: sell $1,000
+> asked: sell $12,000
+>
+> @
 
 ![[assets/slides/Lc8zRh9muoY/slide-003.jpg]]
 
 OCR text:
 
-> asked: sell $1,000
-> sold: $190,000
-> broker · POST /orders → 200 OK ✓
-> order.status FILLED · $190,000
+> asked: sell $1,0o0
+> sold:$190,000
+> broker·POST/orders→200OK
+> order.status FILLED$190,000
 
 ![[assets/slides/Lc8zRh9muoY/slide-004.jpg]]
 
 OCR text:
 
-> temperature = 0
+> temperature = O
+>
+> 2
 
 ![[assets/slides/Lc8zRh9muoY/slide-005.jpg]]
 ![[assets/slides/Lc8zRh9muoY/slide-006.jpg]]
@@ -89,19 +93,19 @@ OCR text:
 > X wrong question: can we make the model deterministic.
 > J right question: can we debug & test a run we can't reproduce.
 > determinism was never the goal. record the run, replay the recording.
-> 
+>
 > bitwise determinism replayability
-> 
+>
 > = controllability = observability
-> 
+>
 > same input —- identical output. reconstruct a run that happened,
-> 
+>
 > you won't get it from a hosted API, well enough to debug. you don't
-> 
+>
 > and you don’t want it: that need determinism, you need -
-> 
+>
 > tandomness makes the model qaod. the run recorded. =
-> 
+>
 > a
 
 ![[assets/slides/Lc8zRh9muoY/slide-010.jpg]]
@@ -121,23 +125,23 @@ OCR text:
 OCR text:
 
 > e e
-> 
+>
 > record above the wire, not on it.
-> 
+>
 > X at the network layer JY at the boundary
-> 
+>
 > half your agent never touches capture what enters each node
-> 
+>
 > the network: local retrieval, and what leaves it, every I/O,
-> 
+>
 > in-process tools, memory. network or not.
-> 
+>
 > the socket can't record the meaning of each step,
-> 
+>
 > what isnt on it. not the packets.
-> 
+>
 > f 7 3
-> 
+>
 > tracing records it. replay re-runs it offline: stub the model, O calls. “ha
 > Opentnference - Arize Phoenix - LangGraph checkpointers - framework -agnostic
 
@@ -308,18 +312,10 @@ OCR text:
 
 OCR text:
 
-> 2. Replay / eval mode — mimic output from a saved Envelope
-> Your function does not run. Chronicle returns the same output that was recorded during the incident (from the fixture trace).
-> @boundary wrapper (EVAL + stub)
-> @boundary("place_order", kind="tool") ← same decorator
-> ReplayPlan(trace_id).stub("place_order", 1) ← eval: freeze this step
-> def place_order(symbol: str, quantity: int) -> dict:
-> notional = quantity * SHARE_PRICE
-> return {"status": "filled",...} ← NOT executed
-> OUTPUT returned from saved Envelope (incident fixture)
-> {"status": "filled", "notional_cents": 19000000,...}
-> mimics the output Chronicle captured in LIVE mode
-> For cut-point tests, one boundary can be set to live instead of stub — the wrapper runs your new function body while upstream steps still mimic the saved Envelope. See Cut-point replay below.
+> 2 Replay eval mode — mum.c output from a saved bovelope
+> » ed SR ol <a Og 01s S| e101 S010 0 On ae ek ee
+> E Say PE A ee ae: . - a u ar ne
+> a By # Spa Sy oe tT ee Sc etre! re cote ge tee
 
 ![[assets/slides/Lc8zRh9muoY/slide-019.jpg]]
 
@@ -396,15 +392,15 @@ OCR text:
 > deterministic behavioural
 > control flow - guardrails prompt / wording changes
 > k
-> 
+>
 > freeze the recorded context as replay the scenario, score
-> 
+>
 > a fixture. Let the tool be called with qty 1000 MEANING not bytes:
-> 
+>
 > again, but this time assert on the tool output did it stay grounded? did st
-> 
+>
 > rerunnable & free. refuse the destructive call? ——_—
-> 
+>
 > never calls the model. score it: assert ficids . LLM-judge —_
 > a
 
@@ -424,8 +420,10 @@ OCR text:
 OCR text:
 
 > code + writeup
-> Thanks -- now go chronicle your agent....
-> -The Chronicle team
+> eae
+> a =
+> : SS &
+> ae no ge en ne Chronicle team
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

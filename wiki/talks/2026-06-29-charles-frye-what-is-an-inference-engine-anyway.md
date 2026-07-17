@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-DeFF3J8T5Pk]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-DeFF3J8T5Pk`
-- Slide deck: [[youtube-DeFF3J8T5Pk-dense-slides|Dense Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/DeFF3J8T5Pk/slide-001.jpg]]
-![[assets/dense-slides/DeFF3J8T5Pk/slide-002.jpg]]
+- Slide deck: [[youtube-DeFF3J8T5Pk-dense-slides|Dense Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]] — slide evidence page.
 - Additional slide evidence: [[youtube-DeFF3J8T5Pk-slides|Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]], [[youtube-DeFF3J8T5Pk-reconstructed-slides|Reconstructed Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]]
+- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, source, engines, getting, better, quickly, finally, makes.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-DeFF3J8T5Pk` — source page linked; role: supporting context only.
+- `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, source, engines, getting, better, quickly, finally, makes.
 - Evidence links for `youtube-DeFF3J8T5Pk` (supporting context only): [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
 
 ### Agent Reading Notes

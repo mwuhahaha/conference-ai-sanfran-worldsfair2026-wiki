@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/shafik-quoraishee/"
 twitter: "https://x.com/squoraishee"
 website: "https://www.shafikquoraishee.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c65f0c6b2882664870cfc3cafb9825fe0387fa2eb2836848a8188b789a6cc941
+  subjectId: person:shafik-quoraishee
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1e54f115fb85010f2583494dec1f307cb1f5e784acb7dbdf806540b700497d01
 ---
 # Shafik Quoraishee
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games|On-Device Agentic AI for the New York Times Games]]
 
 ### Media Signals
-- `youtube-P_uhFGH4J9Y` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, research, game, developer, times, worked, previously, business.
+- `youtube-P_uhFGH4J9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, times, score, department, defense, caveats, currently, specifically.
 - Evidence links for `youtube-P_uhFGH4J9Y` (supporting context only): [[youtube-P_uhFGH4J9Y]], [[youtube-P_uhFGH4J9Y-slides]], [[youtube-P_uhFGH4J9Y-dense-slides]], [[youtube-P_uhFGH4J9Y-reconstructed-slides]]

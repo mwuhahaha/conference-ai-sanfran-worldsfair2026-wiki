@@ -3,6 +3,19 @@ title: "Hugging Face"
 category: "companies"
 aliases: ["Hugging Face"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8a1c8f991c6e5c0584b0a64f06f4e83f61494f79328b9069ee374f11823fe16a
+  subjectId: company:hugging-face
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:62ab51d2988b2b4b0127ca6e569238a5d55c868ce04066cac26f55d78bf13447
 ---
 # Hugging Face
 
@@ -43,11 +56,11 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
 - Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

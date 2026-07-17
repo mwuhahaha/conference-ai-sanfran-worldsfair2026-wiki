@@ -6,6 +6,19 @@ company: "Independent / State of Data"
 twitter: "https://x.com/SeanZCai"
 website: "https://www.seancai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d623d09e923b9027f8208ce0c6d9a8169ce006dfedb8074787ccc59cdd44aafe
+  subjectId: person:sean-cai
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:15071fa146b820a01a4f6239306970d63d7e37254c9dc09e4f463b3898cc7acd
 ---
 # Sean Cai
 

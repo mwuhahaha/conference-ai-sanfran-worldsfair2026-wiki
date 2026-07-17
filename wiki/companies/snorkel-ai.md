@@ -3,6 +3,19 @@ title: "Snorkel AI"
 category: "companies"
 aliases: ["Snorkel AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:60780dad54c58fba66a648034b7b0c738de284ba815677d545ed455230bf4712
+  subjectId: company:snorkel-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:150a4b494493ca7b656f0b7af675154fe23d8c51f4af46ace57e12c67a73466e
 ---
 # Snorkel AI
 

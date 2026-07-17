@@ -4,6 +4,19 @@ category: "people"
 role: "Dating Coach for Tech Founders"
 company: "Joyce Consulting Group"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:195710c3f93bf9145abd39e83eee88d38af4efa6bcbf9a1f3febe5a8e0790f72
+  subjectId: person:joyce-zhang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:beff661c2994c947cb1986ef197de9b312180153778705ffcd5a3f28171dcbf9
 ---
 # Joyce Zhang
 

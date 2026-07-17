@@ -3,6 +3,19 @@ title: "Sentry"
 category: "companies"
 aliases: ["Sentry"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:320c2386c21c3bf0b69085363650ccd5e5fa7d0d7ffaa64848b4ade7989d2189
+  subjectId: company:sentry
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b7f0da70e20199f532c7d3e730670feeae692357abf10742327e04861b11aecf
 ---
 # Sentry
 

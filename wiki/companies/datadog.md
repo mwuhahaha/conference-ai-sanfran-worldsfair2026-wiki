@@ -3,6 +3,19 @@ title: "Datadog"
 category: "companies"
 aliases: ["Datadog"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cfb1d381f5d74a6d47c48819133e788944e746f88b0fc889773f94c25b3a1cab
+  subjectId: company:datadog
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5c195f95ad22140243566bc562c660c4c6bb2b171ca612ea1051a86bf3cdb581
 ---
 # Datadog
 

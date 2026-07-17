@@ -3,6 +3,19 @@ title: "Accenture"
 category: "companies"
 aliases: ["Accenture"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4495252f7f8279bc9795ed652a655ba1d0e85326fa60e8de65e1e721cc0eeb9e
+  subjectId: company:accenture
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ea35eb1a46a866ab166bb39cbac0224e4aac8bdde357983d36e7355748d60a61
 ---
 # Accenture
 

@@ -66,8 +66,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-P_RI1kCkRbo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-P_RI1kCkRbo`
-- Slide deck: [[youtube-P_RI1kCkRbo-dense-slides|Dense Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/P_RI1kCkRbo/slide-001.jpg]]
+- Slide deck: [[youtube-P_RI1kCkRbo-dense-slides|Dense Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]] — slide evidence page.
 - Additional slide evidence: [[youtube-P_RI1kCkRbo-slides|Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]], [[youtube-P_RI1kCkRbo-reconstructed-slides|Reconstructed Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]]
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 
@@ -78,7 +77,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 

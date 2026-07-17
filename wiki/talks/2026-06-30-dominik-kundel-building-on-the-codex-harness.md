@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-iXhba366fQc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-iXhba366fQc`
-- Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/iXhba366fQc/slide-001.jpg]]
-![[assets/dense-slides/iXhba366fQc/slide-002.jpg]]
-![[assets/dense-slides/iXhba366fQc/slide-003.jpg]]
+- Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — slide evidence page.
 - Additional slide evidence: [[youtube-iXhba366fQc-slides|Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]], [[youtube-iXhba366fQc-reconstructed-slides|Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]]
-- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+- `youtube-iXhba366fQc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
 - Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
 
 ### Agent Reading Notes

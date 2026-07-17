@@ -3,6 +3,19 @@ title: "Qodo AI"
 category: "companies"
 aliases: ["Qodo AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b91c0c9e23d9579d2ee1b2eba00b05373b37d68aa0e4ec1591c00ef7946747be
+  subjectId: company:qodo-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c9948a26cb1389d03e510b0b8f33af52d098f9b55a2eb81abd797ff59663f160
 ---
 # Qodo AI
 

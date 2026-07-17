@@ -5,6 +5,19 @@ role: "Product Manager"
 company: "Oxylabs"
 linkedin: "https://lt.linkedin.com/in/patricijazemaityte"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6041950fd721df68bd9fb5df3b8c75fb2ac450c19635027450e7c104ad0bd3d3
+  subjectId: person:patricija-emaityt
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:570979d14741dc34406d28e00746fdb42dc06959d7e8cf75f08cea9e66e65bb8
 ---
 # Patricija Žemaitytė
 

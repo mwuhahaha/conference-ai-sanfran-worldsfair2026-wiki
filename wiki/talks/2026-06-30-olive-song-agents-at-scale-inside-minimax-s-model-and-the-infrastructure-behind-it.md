@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-lY1iFbDPRlw]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-lY1iFbDPRlw`
-- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]]
-![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]]
-![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]]
+- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — slide evidence page.
 - Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]]
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
 - Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 
 ### Agent Reading Notes

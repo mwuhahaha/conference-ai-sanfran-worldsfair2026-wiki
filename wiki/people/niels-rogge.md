@@ -8,6 +8,19 @@ twitter: "https://x.com/NielsRogge"
 website: "https://nielsrogge.github.io/"
 blog: "https://nielsrogge.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:19e15cfeaaf0d807b1fa4918d03c25effdd2eafdb5b8fa8b3f38ac15f5cbfa87
+  subjectId: person:niels-rogge
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2d853148a564b1fe5585fdf12d9a2a61a93e5461d85c112ee7bc88cdc728992b
 ---
 # Niels Rogge
 

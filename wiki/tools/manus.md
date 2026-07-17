@@ -5,6 +5,18 @@ aliases: ["Manus"]
 sourceLabels: ["Public YouTube metadata", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3192d9fac7299b149247a33547254fc50ba11ce1716e2a3bec2bce89b0367e71
+  subjectId: tool:manus
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:ab76ec5ec4f016a9ef0ac48aea9f42d3ea552e2e2bd8ed26cfdf7d05d4fbd865
 ---
 
 # Manus

@@ -8,6 +8,19 @@ twitter: "https://x.com/keeganmccallum3"
 website: "https://urun.sh"
 blog: "https://urun.sh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8143c8672e90af8d646176deb6e2d69ba88ceb5d6f195ed94783e027328ba14a
+  subjectId: person:keegan-mccallum
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:433a83e4949b7574b1930cf0abb3287f711a96cee8f0a0f666766bd64fac547e
 ---
 # Keegan McCallum
 

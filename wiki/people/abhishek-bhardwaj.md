@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T07:15:28.626Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6daae52dea96b4597bd3a6afe18a1bf736f544b9ed4892852d6874382f8e26dd
+  subjectId: person:abhishek-bhardwaj
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:43907b9637c699c48043cf321640df652940075d63816e7bf8e6c8c78702eef2
 ---
 # Abhishek Bhardwaj
 
@@ -36,5 +49,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
+- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
 - Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]

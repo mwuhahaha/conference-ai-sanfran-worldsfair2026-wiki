@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T17:57:35.050Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b4928c5168a547a957db50fbb21cf297b1c2e4f32bb0da7c343118e196966ce9
+  subjectId: person:alex-bauer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ad32cd96f484a05c3c1a66640eaf6ebbd8d4139ea6475811ac981a3db24c5f9f
 ---
 # Alex Bauer
 

@@ -3,6 +3,19 @@ title: "Superlinked"
 category: "companies"
 aliases: ["Superlinked"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b566675c2a477392bf79c5a83b0fc3090d2ae58cc447a55532c4f609a8251057
+  subjectId: company:superlinked
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a2ea8e902b03f0e0f6cdc698c3db17a27b167939d28dd21c1cebb19f06544719
 ---
 # Superlinked
 

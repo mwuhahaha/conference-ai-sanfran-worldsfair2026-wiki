@@ -5,6 +5,19 @@ role: "AI Product Lead"
 company: "Millennium"
 linkedin: "https://www.linkedin.com/in/brianthomaslewis/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:81c8ddf31e5a215c5d36e8c9b98fad64325b1081159f705905540711df3f1e34
+  subjectId: person:brian-lewis
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d24dc7998efc9ffcc137fc9bd01b2d0472b30ea86244afbb0b707b85ec778aec
 ---
 # Brian Lewis
 

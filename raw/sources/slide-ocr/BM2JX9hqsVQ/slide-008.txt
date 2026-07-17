@@ -1,6 +1,1 @@
-tailscale / aperture
-Settings
-Configure Your Agent
-What's Next
-AIE
-Engineering the future of AI
+Engineering the future of Al

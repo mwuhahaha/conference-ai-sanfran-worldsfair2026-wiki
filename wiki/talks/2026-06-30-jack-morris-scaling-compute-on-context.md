@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-Jty4s9-Jb78]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-Jty4s9-Jb78`
-- Slide deck: [[youtube-Jty4s9-Jb78-dense-slides|Dense Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]] — 3 visible slide image(s); 3 HTML recreation(s).
-![[assets/dense-slides/Jty4s9-Jb78/slide-001.jpg]]
-![[assets/dense-slides/Jty4s9-Jb78/slide-002.jpg]]
-![[assets/dense-slides/Jty4s9-Jb78/slide-003.jpg]]
+- Slide deck: [[youtube-Jty4s9-Jb78-dense-slides|Dense Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]] — slide evidence page.
 - Additional slide evidence: [[youtube-Jty4s9-Jb78-slides|Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]], [[youtube-Jty4s9-Jb78-reconstructed-slides|Reconstructed Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]]
-- Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
+- Slide-derived themes for `youtube-Jty4s9-Jb78`: tokens, context, output, knowledge, given, user, second, blue.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-Jty4s9-Jb78` — source page linked; role: supporting context only.
+- `youtube-Jty4s9-Jb78` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Jty4s9-Jb78`: tokens, context, output, knowledge, given, user, second, blue.
 - Evidence links for `youtube-Jty4s9-Jb78` (supporting context only): [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
 
 ### Agent Reading Notes

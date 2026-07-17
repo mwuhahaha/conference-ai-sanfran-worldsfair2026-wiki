@@ -6,6 +6,19 @@ company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/angelajiang/"
 twitter: "https://x.com/angjiang"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:998db04d857ab703fbf00e877ea4cc401c433e05689f13486fcc6c126ee2a65f
+  subjectId: person:angela-jiang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2236f76df4512ddd709609f002f235da31b1864699f76b273cbf9a5193dfde4c
 ---
 # Angela Jiang
 
@@ -31,5 +44,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
 - Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]

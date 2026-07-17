@@ -8,6 +8,19 @@ twitter: "https://x.com/mervenoyann"
 website: "https://hf.co/merve"
 blog: "https://hf.co/merve"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bced3bf0f4a2b0bca362f7c659606e7c5941f0aa2b8a12525db852286f34ea44
+  subjectId: person:merve-noyan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ee489a8a316181c500285c62ae9c11f8743556a4b6de96714952170d2bfad368
 ---
 # Merve Noyan
 
@@ -38,6 +51,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519|Compression at the Edge]]
 
 ### Media Signals
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

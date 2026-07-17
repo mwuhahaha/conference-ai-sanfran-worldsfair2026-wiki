@@ -6,6 +6,19 @@ company: "Paper Compute Co."
 linkedin: "https://www.linkedin.com/in/jpmcb/"
 website: "https://johncodes.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eb9a9c204a7c3c00012f1725d6ee7d06e6ec74e0e284dd223f941fb73ab85c4a
+  subjectId: person:john-mcbride
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7c9773db6bbc72d91df1714a0df4de5cf3b0817d7147eaea2b3c364d25c7b44c
 ---
 # John McBride
 

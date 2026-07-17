@@ -5,6 +5,18 @@ aliases: ["Aperture", "Tailscale Aperture"]
 sourceLabels: ["Official schedule", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: ["Expo Stage 4 SE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e3b9b029f955e093adda857be7fd06a0fbeb4d20f1972bfefab362762e25a3d6
+  subjectId: tool:tailscale-aperture
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:6e5f5fd69b487ce325bcd4d919a33eae599a6f0b6948240f4033f3d69e82c1d6
 ---
 
 # Tailscale Aperture

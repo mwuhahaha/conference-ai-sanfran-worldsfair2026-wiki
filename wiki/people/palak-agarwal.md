@@ -4,6 +4,19 @@ category: "people"
 role: "Developer Relations Lead"
 company: "Reducto"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf1242d6a6071c91a17604aa406e2ff4a662d0c9831555e2a913dcd8760356a7
+  subjectId: person:palak-agarwal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f01d3e37df9a4c59ef05ebdf776cf0e5c8a63296170b1998b8df07d19ddfb326
 ---
 # Palak Agarwal
 

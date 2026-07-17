@@ -6,6 +6,19 @@ company: "Google"
 linkedin: "https://www.linkedin.com/in/prernakakkar95/"
 website: "https://about.google/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:856be68416d2ee605bfae3446b6fb317a7f05baa3bd69eb32d10a6ac08939cb6
+  subjectId: person:prerna-kakkar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c029288dc9a500098cc44e541093cb81f85b59fe67d5528ff49d9ab24fdf7939
 ---
 # Prerna Kakkar
 

@@ -5,6 +5,22 @@ aliases: ["Arize"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Evals"]
 scheduleRooms: ["Track 5"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:10d87bc431a0a73205dfd6e55ff6c57dc8ddcf78c67b6d42cf0e092d6a7f968b
+  subjectId: tool:arize
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-0vphxNt4wyk
+  - source:official-wf26-youtube-8G_1-3IO4ZQ
+  - source:official-wf26-youtube-KB41dTlX1Uc
+sourceAssessmentBodySha256: sha256:4d9bf33b424483a43693d58395899a78529297da5ec66af630706bca16c10d49
 ---
 
 # Arize

@@ -3,6 +3,19 @@ title: "Google DeepMind"
 category: "companies"
 aliases: ["Google DeepMind"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e75d8c90650a71a8ada991e71151d6ff50a9d69cfcce8ea4eda07ece683188cd
+  subjectId: company:google-deepmind
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5043d3d2273f407efcc237237d2bcbea4b8379f610e5383e14e65a8bd11bb3a9
 ---
 # Google DeepMind
 
@@ -60,22 +73,23 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
 
 ### Media Signals
-- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
-- `youtube-cVzf49yg0D8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
+- `youtube-cVzf49yg0D8` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
 - Evidence links for `youtube-cVzf49yg0D8` (supporting context only): [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- `youtube-3_gYbhABcAE` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 - Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
-- `youtube-xz0-brt56L8` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+- `youtube-xz0-brt56L8` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, hate, attar, loft, delicious, coffee, lovely.
 - Evidence links for `youtube-xz0-brt56L8` (supporting context only): [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

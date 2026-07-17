@@ -5,6 +5,19 @@ aliases: ["MCP", "Model Context Protocol"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Track 8", "Track M", "AI-Native Enterprises", "Search & Retrieval", "Claws & Personal Agents", "Security", "Expo Stage 1", "Context Engineering", "Design Engineering", "Computer Use", "Expo Stage 2", "Agentic Commerce", "Agentic Engineering", "Graphs", "AI in Finance", "AI in GTM"]
 scheduleRooms: ["Track 5", "Track 8", "Track 7", "Track M", "Expo Stage 3 SW", "Leadership 1", "Track 3", "Expo Stage 4 SE", "Track 1", "Expo Stage 1 NE", "Track 6", "Expo Stage 2 NW", "Track 2"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:635772d0c07c955d25fcf09df12fc545ab8e8b0c64b537d33bd32283316b799b
+  subjectId: tool:mcp
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:79786f18fdeeafebe81399d7e4659904e0916a4a38716ba003a4b87c61bc7dba
 ---
 
 # Model Context Protocol

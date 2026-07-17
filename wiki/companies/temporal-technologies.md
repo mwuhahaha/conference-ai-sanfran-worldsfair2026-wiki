@@ -3,6 +3,19 @@ title: "Temporal Technologies"
 category: "companies"
 aliases: ["Temporal Technologies"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:416b36aa91f8ac5f8498ec9088fabb755c8391508dd5754fc6d1a774a46383c2
+  subjectId: company:temporal-technologies
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9c879e97932f8d335cbd8877af0c29283782a781f9c0f64c2df95db77391b140
 ---
 # Temporal Technologies
 

@@ -3,6 +3,19 @@ title: "Elastic"
 category: "companies"
 aliases: ["Elastic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f1432e204de1d1d9416bea8e913423e2b58bed3131b4a632be38110712679e26
+  subjectId: company:elastic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d0806d404bf5e97dde55ec7cb6bf81246e1f2471c728eac0ffb9bd95e8e438c0
 ---
 # Elastic
 

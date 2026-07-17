@@ -37,13 +37,21 @@ OCR text:
 
 OCR text:
 
-> What is Manus
+> Ce er Ore os oo Me ed a ee } ae) eta we ot SY
+> « nn 7 a oO
+> P a - 0 * _
+> Ea What is Manus
+> x)
+> Cea 1. Te eel a i 2025-11-22 09:34:55
 
 ![[assets/slides/xz0-brt56L8/slide-003.jpg]]
 
 OCR text:
 
-> JFK27-B1.302
+> Q ra e VA
+> , a 4 A | WP. rT
+> a
+> JFK27-B1,302 om
 
 ![[assets/slides/xz0-brt56L8/slide-004.jpg]]
 
@@ -53,26 +61,26 @@ OCR text:
 > a 0 ia] o Hoe,
 > : 5 on Cres) - :
 > eos
-> 
+>
 > Wednesday, November 19. 2025
-> 
+>
 > .
 > FECus oF PANT Prangas eng French and EAA and ensure correc! Soedng aN prondun Vsape Ba 00
 > Le det est que wre Oral vere xceng lormard macs oF dex Se Conmoterdie evant? Mahahe
 > % fom Corrected vernun a
-> 
+>
 > @ oa
 > FOCUS OF oer COUQEION Latta after Code mets Cortes! tesa! and eipreming Cam TON EApCESDT bee
 > fa fev eaatence
 > Auced tes 1 des fad mon traves Ca me atresia parce aud erste nomteeutes thches b accomever Sespére
 > AC COMpE Totes lek Utes avant mon diner ce tor
-> 
+>
 > Liew Lestected Verse
-> 
+>
 > @ aw
 > The NT SRS UM ERONEC ECT are PREETI FN Ou: Tore Fwerh cougation passe compan!
 > AAD noose Mave natal Yemute ceeateng )
-> 
+>
 > Peer crey
 > a= ee ee ee
 > 3 ire ; od a- ; 2025-11-22 09:37:50
@@ -82,14 +90,15 @@ OCR text:
 
 OCR text:
 
-> Revert auto-sizing
-> Reply
-> Forward
-> Translate
-> Include Attachments
-> Don't include Attachments
-> Cancel
-> 2025-11-22 09:40:40
+> Revert ato-wing
+>
+> =
+>
+> chide Miachments
+>
+> Den i hate Attar Aree
+>
+> =
 
 ![[assets/slides/xz0-brt56L8/slide-006.jpg]]
 
@@ -128,7 +137,10 @@ OCR text:
 
 OCR text:
 
-> JFK27-B1.302
+> an
+> y. 7 Py Lia
+> a a4
+> JFK 27-B1,302
 
 ![[assets/slides/xz0-brt56L8/slide-009.jpg]]
 
@@ -160,22 +172,46 @@ OCR text:
 
 OCR text:
 
-> JFK27-B1.302
-> 2025-11-22 09:45:18
+> ry i‘
+> f
+> a iF
+> b
+> 3
+> 2 ' %
+> : ed f
+> is
+> k co ,
+> \ \
+> Li |
+> PLL WY Ee SEe
+> A oa -3 arse
 
 ![[assets/slides/xz0-brt56L8/slide-011.jpg]]
 
 OCR text:
 
-> JFK27-B1.302
+> War
+> ae
 > 2025-11-22 09:46:33
+> JFK 27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-012.jpg]]
 
 OCR text:
 
-> JFK27-B1.302
+> ' E
+>
+> F]
+>
+> ; f
+>
+> 1
+> 4%
+> a
+> a oN
 > 2025-11-22 09:47:23
+>
+> JFK 27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-013.jpg]]
 
@@ -188,7 +224,7 @@ OCR text:
 > A TinyURL Link
 > https://tinyurl.com/manus-api-workshop (a
 > Shorten Another Link
-> 
+>
 > Tea le eel a fC 2025-11-22 09:48:13
 
 ![[assets/slides/xz0-brt56L8/slide-014.jpg]]
@@ -337,24 +373,28 @@ OCR text:
 
 OCR text:
 
+> manusm/ap/TQjEENrstzUAeSBPhQ6K7Y
 > manus
-> Manus 1.5
-> New task
-> Search
-> Library
-> What is 2 + 2? Please provide a brief answer.
-> Let me calculate that for you.
-> Calculate the result
-> Calculating 2 + 2 estimates the answer is 4, ready to deliver this brief result to the user.
-> Thinking
-> 2025-11-22 10:09:35
+> Manus1.5
+> Newtask
+> QSrch
+> Whatis2
+> manus
+> Whatis2+27
+> Caicuate theresult~
+> Smgie Coftee Re
+> dation
+> Where to Find Coffee NearAiNS
+> ZS
+> How toWak toAiS Hank 27 fo
+> Doda
 
 ![[assets/slides/xz0-brt56L8/slide-021.jpg]]
 
 OCR text:
 
-> JFK27-B1.302
-> 2025-11-22 10:10:50
+> ; 2025-11-22 10:10:50
+> As Oxi SREP
 
 ![[assets/slides/xz0-brt56L8/slide-022.jpg]]
 

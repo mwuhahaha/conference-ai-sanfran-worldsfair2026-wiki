@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/maorbril"
 twitter: "https://x.com/maorbril"
 website: "https://character.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1b499f4e63bb17994f6f3cb40d7fdda599d77ba27bfaff73b4f10139c83beea3
+  subjectId: person:maor-bril
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7a02a621c853093e644d5efd3316bda0717fd0ce5acf10fd28a1d4916f2f7a15
 ---
 # Maor Bril
 

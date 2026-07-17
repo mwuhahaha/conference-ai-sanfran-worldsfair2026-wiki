@@ -63,9 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-eOxOzcw70f0]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-eOxOzcw70f0`
-- Slide deck: [[youtube-eOxOzcw70f0-dense-slides|Dense Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-eOxOzcw70f0-dense-slides|Dense Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]] — slide evidence page.
 - Additional slide evidence: [[youtube-eOxOzcw70f0-slides|Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]], [[youtube-eOxOzcw70f0-reconstructed-slides|Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]]
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, mode, even, exists, fully.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,7 +75,7 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Media Signals
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, mode, even, exists, fully.
 - Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 
 ### Agent Reading Notes

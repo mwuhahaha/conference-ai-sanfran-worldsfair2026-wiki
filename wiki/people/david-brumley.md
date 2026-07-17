@@ -5,6 +5,19 @@ role: "Chief AI and Science Officer"
 company: "Bugcrowd, Inc"
 linkedin: "https://www.linkedin.com/in/thedavidbrumley"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e717d4e6172b4157eb517ae7c9da54ddb180636290907fffdd5e66308ad1301c
+  subjectId: person:david-brumley
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e8cc96390fd88be39a95e20b56c8e4b6862bf7077b2038f3b62e22288342423d
 ---
 # David Brumley
 

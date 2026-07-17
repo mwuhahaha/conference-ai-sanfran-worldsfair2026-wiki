@@ -1,6 +1,5 @@
+TatrOu
 Repo automations
-Microservices
-ML notebooks
 TBD
-Reusable UI components
+UCO
 MONOREPO

@@ -4,6 +4,19 @@ category: "people"
 company: "Amazon AGI Lab"
 linkedin: "https://www.linkedin.com/in/emilebaizel"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf75c5c5c8a2a91d887f42bb399c964b55892b18af16d516fbb75d484b5988e8
+  subjectId: person:emile-baizel
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:586b9a331e21141422832ce9c6ae92f5b99a8998090b1638b56b91e64d8d2b09
 ---
 # Emile Baizel
 

@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T17:59:08.657Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3b14b51833a6a147d2efc82140921aaab0917471f03fccf39086cadaecd9aa41
+  subjectId: person:ahmad-osman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2d37d84dccdb1ac08b5dd9ef9ca0838c1797caf9d6f02fe5691a52ee80dd3943
 ---
 # Ahmad Osman
 

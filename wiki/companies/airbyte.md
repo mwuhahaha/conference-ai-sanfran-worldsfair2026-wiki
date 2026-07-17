@@ -3,6 +3,19 @@ title: "Airbyte"
 category: "companies"
 aliases: ["Airbyte"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bb6ba370d537c995a62501ad773b6d089bc868398c68ca50fa355f17511f981f
+  subjectId: company:airbyte
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a5a9c658b025cf6ba45cd785bb25f7fe170c6369b31ff4100c75078052916ce8
 ---
 # Airbyte
 

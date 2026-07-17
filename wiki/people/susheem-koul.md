@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/susheemkoul"
 website: "https://susheemk.substack.com"
 blog: "https://susheemk.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e60bb2a2280271357f067f01e0e904cd05ba66cc7ea9ab940888708aac8b0184
+  subjectId: person:susheem-koul
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:898dc8711843cdf84ec2d5cdc667a9022d752191ee8d65741bb2d8b4f27edc28
 ---
 # Susheem Koul
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens|FinOps for AI Agents: Who Spent All the Tokens?]]
 
 ### Media Signals
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- `youtube-Lc8zRh9muoY` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, asked, sell, identical, determinism, never, failed.
 - Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]

@@ -4,6 +4,19 @@ category: "people"
 role: "FDE CTO"
 company: "Decagon"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e34757aab019d5998cd5e042d2f656a2b25227080f06a372725ac025f1920299
+  subjectId: person:sunny-rekhi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9fcb7de8ddea957de4007c4a4c15aa1df8198b9cbc92672c6da3d07d6e8afb71
 ---
 # Sunny Rekhi
 

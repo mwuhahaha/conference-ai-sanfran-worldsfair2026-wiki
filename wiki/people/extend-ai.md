@@ -3,6 +3,19 @@ title: "Extend AI"
 category: "people"
 company: "Extend AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:278f92ab8b27115567fded0c143498179f868b91c024d3493174ee9464eded17
+  subjectId: person:extend-ai
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b145c52cc3a64c3c906843034aceec9c76d501104ea81e1237529c60ad2277fe
 ---
 # [[extend-ai|Extend AI]]
 
@@ -26,5 +39,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
 
 ### Media Signals
-- `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
+- `youtube-NuePCNMpWGc` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, info, demo, stop.
 - Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/kyle-mistele"
 twitter: "https://x.com/0xBlacklight"
 website: "https://blacklight.sh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:898e7fea66222df4917bff1dbfeb317b7c65af25ae28ca4a92893a0ec68bfc1c
+  subjectId: person:kyle-mistele
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:478ea9ee3ed65f7b42d44e1e9dca1039853726d7f0c2cc313f55bffe98c5756a
 ---
 # Kyle Mistele
 

@@ -21,15 +21,17 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/OV56RddyFuU/slide-002.jpg]]
 
 OCR text:
 
+> 8Bra
+> ust
+> ATr
 > Open/source
-> AI Engineer
+> AlEngineer
 > EUROPE
 
 ![[assets/slides/OV56RddyFuU/slide-003.jpg]]

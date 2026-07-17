@@ -6,6 +6,19 @@ company: "DFPI"
 linkedin: "https://www.linkedin.com/in/rachana-srivastava-ms-mba-78bab86"
 website: "https://dfpi.ca.gov/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:43f96537b5badad0f0499cef2067a780771d0a2ecdfc5a4cc0f0f3612a34ca14
+  subjectId: person:rachna-srivastava
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0a07d8df4eede12f2713418e8e7b1657950a86d43034901855a56079e1f60522
 ---
 # Rachna Srivastava
 
@@ -31,5 +44,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-5_QWh4LGoxg` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
+- Slide-derived themes for `youtube-5_QWh4LGoxg`: layer, graph, phishing, emails, working, legitimate, ones, mars.
 - Evidence links for `youtube-5_QWh4LGoxg` (supporting context only): [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]

@@ -50,19 +50,19 @@ OCR text:
 OCR text:
 
 > I OPEN source
-> 
+>
 > 5 ing van ited dn Bucecllnasd ng solng nike contributions
-> 
+>
 > [se ong] Sufhees during my experiments wth Pre-4 the ofner day it tums out
-> 
+>
 > the Pri-4 Sokenizer Getinmon as released Dy Mcrosott Nad a bu i it, and there
-> 
+>
 > wat a imal bug in the chat template at vrei Phi-3 + 4 Bug fixes
-> 
+>
 > Oaniel s cow t UF Mes i
-> 
+>
 > oe chaise sien fan PG a 9 Ma Ne Banana SF Merged by Microsoft
-> 
+>
 > Posted 11°" January 2079 at 1 20 am
 > Multiple Llama 4 fixes
 > and contributions to
@@ -70,7 +70,7 @@ OCR text:
 > Recently worked with
 > Quwen team on Qwen3
 > and Mistral on Devstral
-> 
+>
 > ©) unsioth
 > \ >,
 
@@ -78,8 +78,12 @@ OCR text:
 
 OCR text:
 
-> env:
-> READY!
+> awe ae
+> LL La
+> ed ts) ek
+> eel Seer Oana
+> 7 a Microsoft ary?
+> jel
 
 ![[assets/slides/OkEGJ5G3foU/slide-005.jpg]]
 
@@ -108,8 +112,15 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> A
+>
+> a
+>
+> Ces
+>
+> B\
+>
+> an
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

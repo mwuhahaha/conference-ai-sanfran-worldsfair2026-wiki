@@ -3,6 +3,19 @@ title: "Cognition AI"
 category: "companies"
 aliases: ["Cognition AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b732460c212d3f4469df1ae65143331649b4fd80a240159e937699579d215807
+  subjectId: company:cognition-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:52e1b53640bed22fbc195750e849ce18637c7061a14631ba17a899e35f7f3f60
 ---
 # Cognition AI
 

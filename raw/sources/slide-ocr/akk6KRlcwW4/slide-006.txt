@@ -1,8 +1,6 @@
-BY THE NUMBERS
 Breadboard to release candidate
-~2
-130
-1.3MB
-2
-4
-1
+a4 130 cr
+Wi 4 a
+|
+oe
+“we

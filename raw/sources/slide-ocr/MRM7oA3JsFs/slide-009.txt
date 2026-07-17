@@ -1,16 +1,27 @@
-(2) Empower domain experts to define and
-maintain a failure mode ontology
-Photo extraction
-Table extraction
-Handwriting extraction
-Medical record extraction
-Checkbox extraction
-Medical Necessity Review
-Failure Modes
-Logic representation
-Rules interpretation
-Rule source selection
-Clinical reasoning
+(2)Empowerdomainexpertstodefineand
+maintain afailure mode ontology
+AIE
+Photo
+Teke
+extraction
+ertrastion
+location
+Handuriting
+Medcolrecord
 Under-inference
-Over-inference
-Chronological reasoning
+extraction
+extraction
+Chgckbox
+MedicalNecessityReview
+extraction
+Failure Modes
+Logic
+representation
+reaso
+Rles
+interpretation
+21Em
+Rudlesouree
+seeetion
+Microsoft
+smol?

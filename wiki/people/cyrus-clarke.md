@@ -8,6 +8,19 @@ twitter: "https://x.com/cyrusclarke"
 website: "https://cyrus.website"
 blog: "https://cyrusclarke.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:716138fe8390dec66b2797116103cbf2ef242f5a5288faaf111410d5466c4b23
+  subjectId: person:cyrus-clarke
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e60fa4de115c2e7774fd68f399494c9002c6c9edfdd70f6ace4f7b2d62798e72
 ---
 # Cyrus Clarke
 

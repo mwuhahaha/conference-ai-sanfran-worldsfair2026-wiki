@@ -1,8 +1,5 @@
-A WRITER'S DIARY ON AI
-What Actually Makes Embedding
-Model Inference Fast?
-From Flash Attention to Quantization, where is the inference bottleneck? Is it the architecture, the maths, or will writing everything in Rust solve all my problems? (Hint: It's Not Rust)
-FILIP MAKRADULI
-JAN 22, 2026
-Not quite.
-Google DeepMind
+x * ®
+* * What Actually Makes Embedding
+or’ Model Inference Fast?
+ao
+1] Google DeepMind

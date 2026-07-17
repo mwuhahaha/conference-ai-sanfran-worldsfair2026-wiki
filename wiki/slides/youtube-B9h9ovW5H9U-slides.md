@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/B9h9ovW5H9U/slide-002.jpg]]
 
@@ -69,7 +68,7 @@ OCR text:
 > * i questions
 > Ps e
 > po
-> 
+>
 > a | AlEngineer |
 > oe ae ate
 
@@ -80,17 +79,17 @@ OCR text:
 > What Do Agents Need to be Accurate? a
 > Knowledge Base Context Graph
 > Pein Information required to answer Information required to make
-> 
+>
 > * i questions fe f-tol Ye ek)
-> 
+>
 > Maree
-> 
+>
 > * ras * co ee aaa ee Cea ey Cer
-> 
+>
 > “Approve credit limit increase for Jessica Norns? Requesting £ 25K"
 > 4 ; en b Engineering the future of Al
 > a Li 7 _ | dl
-> 
+>
 > a Os
 
 ![[assets/slides/B9h9ovW5H9U/slide-006.jpg]]
@@ -212,21 +211,21 @@ OCR text:
 > Araceae
 > Cea Teena Dee Rel
 > Pane o
-> 
+>
 > * a
 > * *
 > * a
-> 
+>
 > How GDS Powers the Agent's 10 MCP Tools mosray
-> 
+>
 > ad
-> 
+>
 > eran Ce ee re .
-> 
+>
 > ee rare re eerye rrr
-> 
+>
 > eee iris Going Forward: Industry Specific Examples
-> 
+>
 > Merle ae are ore bss) Tene
 > fe ae re es
 > Pee Erneta Taree) eed peninned ae i’
@@ -294,11 +293,14 @@ OCR text:
 
 OCR text:
 
-> my-health-app — Healthcare Context Graph
-> Quick Start
-> Architecture
-> AI Engineer
-> EUROPE
+> Panes
+> bd ad
+> * os *
+> __.
+> = eu Al i
+> = pier Engineer
+> i ¥ q Ea Sele) a
+> oe 4
 
 ![[assets/slides/B9h9ovW5H9U/slide-014.jpg]]
 

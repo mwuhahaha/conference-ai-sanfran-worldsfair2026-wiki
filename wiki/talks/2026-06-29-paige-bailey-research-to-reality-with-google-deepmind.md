@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-G_bHFmEAarM]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-G_bHFmEAarM`
-- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]]
-![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]]
-![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]]
+- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-G_bHFmEAarM-slides|Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]], [[youtube-G_bHFmEAarM-reconstructed-slides|Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]]
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
 
 ### Agent Reading Notes

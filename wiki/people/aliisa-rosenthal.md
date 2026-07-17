@@ -6,6 +6,19 @@ company: "Acrew Capital"
 linkedin: "https://www.linkedin.com/in/aliisa-rosenthal"
 website: "https://www.acrewcapital.com/team-members/aliisa-rosenthal"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:68fa2a0b56b5a68bcc86f7dba64849291e7e254892a4043f150cbf15af0cde40
+  subjectId: person:aliisa-rosenthal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:11bb7fe4cb6e0afbb5802528eda60f4fd1b4b3a5c4300aa8e839ec970a078da2
 ---
 # Aliisa Rosenthal
 

@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T16:55:03.755Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:969a77b6bac1c0a189efaff897907c1a293cfdc23b9b5bd9e16e683dc906a6b9
+  subjectId: person:khaled-alashmouny
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e9e5fcd3df0ac2eb991ac0b86be758946302b6ddaec7a03930ba8b1be300fbc1
 ---
 # Khaled Alashmouny
 

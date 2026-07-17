@@ -3,6 +3,19 @@ title: "You.com / Recursive Superintelligence"
 category: "companies"
 aliases: ["You.com / Recursive Superintelligence"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f053b6b2fa92a2c3e6346d6a7b908aa0845eeb60f3c8a2d7137db60879b37422
+  subjectId: company:you-com-recursive-superintelligence
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e2d3b51e642a2a2b0f7a06ee12143cc047a027204dc75ad4a53541c84d00e810
 ---
 # You.com / Recursive Superintelligence
 

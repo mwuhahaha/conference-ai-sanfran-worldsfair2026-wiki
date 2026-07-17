@@ -3,6 +3,19 @@ title: "Google"
 category: "companies"
 aliases: ["Google"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e888d37a932b1e7d6a71fade88d59e9533a588b4b6a4d66c5c0764ef92608904
+  subjectId: company:google
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:da6000a8ba13fb4ce1f26dec299af855fb40fe9a9fbdd3c27d1e87130e24e6a7
 ---
 # Google
 
@@ -43,8 +56,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable|Are LLM Performance Benchmarks Reliable?]]
 
 ### Media Signals
-- `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
+- `youtube--TiET_K-E_g` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
 - Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

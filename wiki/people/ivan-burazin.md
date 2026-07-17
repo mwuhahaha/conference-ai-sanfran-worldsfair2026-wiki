@@ -5,6 +5,19 @@ role: "CEO"
 company: "Daytona"
 twitter: "https://x.com/ivanburazin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:65ee173ef4809396370ebde645c1c1f2b503c9d507aed0f54825c8ac4df34753
+  subjectId: person:ivan-burazin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b94f56460d5441c0fde6d86695596fbd55a7b9d964d184051d08e1eefa4cb625
 ---
 # Ivan Burazin
 

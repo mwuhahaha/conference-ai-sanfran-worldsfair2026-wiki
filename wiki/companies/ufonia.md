@@ -3,6 +3,19 @@ title: "Ufonia"
 category: "companies"
 aliases: ["Ufonia"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7a10f97f77acc499bffe2dfee34baacb54b7711654b301a6815bb18b74490e05
+  subjectId: company:ufonia
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:57521fb8ef6f139d1f076a5b028023c30dabb5ff1a4d9f95ffd149a303716274
 ---
 # Ufonia
 

@@ -64,9 +64,8 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-iUWwcG-C8OU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-iUWwcG-C8OU`
-- Slide deck: [[youtube-iUWwcG-C8OU-dense-slides|Dense Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-iUWwcG-C8OU-dense-slides|Dense Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]] — slide evidence page.
 - Additional slide evidence: [[youtube-iUWwcG-C8OU-slides|Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]], [[youtube-iUWwcG-C8OU-reconstructed-slides|Reconstructed Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]]
-- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.

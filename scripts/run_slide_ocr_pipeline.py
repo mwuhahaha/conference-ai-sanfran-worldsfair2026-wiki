@@ -10,7 +10,10 @@ import subprocess
 import sys
 from pathlib import Path
 
-from improve_slide_ocr_rapidmerge import AUDIT_PATH, write_audit_page
+try:
+    from improve_slide_ocr_rapidmerge import AUDIT_PATH, write_audit_page
+except ModuleNotFoundError:  # Imported as scripts.run_slide_ocr_pipeline.
+    from scripts.improve_slide_ocr_rapidmerge import AUDIT_PATH, write_audit_page
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -128,6 +131,8 @@ def main() -> int:
         if args.remove_non_slides:
             classify_cmd.append("--hide-rejected")
         run(classify_cmd)
+
+    run([sys.executable, "scripts/quarantine_stale_slide_ai.py"])
 
     if not args.no_dependent_indexes:
         run([sys.executable, "scripts/generate_tool_inventory.py"])

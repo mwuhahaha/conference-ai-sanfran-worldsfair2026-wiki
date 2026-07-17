@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/kevinhou22"
 twitter: "https://x.com/kevinhou22"
 website: "https://khou22.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:923618260e29d53a4bb9a92c04649883759637280a208f485a7f0613268d222a
+  subjectId: person:kevin-hou
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b91da2a3c77aae54e0c21ef4d59f6b2db916ae75380cb53d41ef97905266a464
 ---
 # Kevin Hou
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way|Get Out of the Model's Way]]
 
 ### Media Signals
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]

@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > aWS
-> 
+>
 > eee)
 > @®Graphite WW Windsurf 4 MoneobB
 > Mdaily £3 augment code WorkOS
@@ -156,7 +156,7 @@ OCR text:
 OCR text:
 
 > SOLUTION NUCLEATION GROWTH FINAL CRYSTAL
-> 
+>
 > Demo 1: Crystal Growth = — #
 > The Science of Supersaturation |)" @)7 B*&
 > When salt dissolves in hot water, we create a
@@ -167,9 +167,9 @@ OCR text:
 > organized crystal structures. The seed crystal provxies
 > a template, and layers build up atom by atom. 4 21 3294
 > Key Scientific Concepts:
-> 
+>
 > - Solubility curves: More salt dissolves in hot
-> 
+>
 > water than cold
 > - Nucleation sites: Where crystals begin to form bo
 > - Growth rates: Affected by temperature, a

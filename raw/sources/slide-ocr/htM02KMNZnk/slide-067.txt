@@ -1,15 +1,6 @@
-This is when productivity actually explodes.
-Designer
-Figma files -> handoff -> iterations
-Works directly on running code
-Dev
-Code -> CI -> 40min wait -> feedback
-Agent + sandbox -> live in 30s
-QA
-Find bug -> ticket -> wait -> retest
-Tells agent directly in browser
-Ships complete features
-Bug fixed before ticket is filed
-The workflow runs at AI speed. Not just the code.
-stag.build
-10 / 11
+renee ltd
+This is when productivity
+Designer pT=a) QA
+Works directly on running code yo eee ae ey oe RY Tells agent directty in browser
+eee
+7 * Ba Berets ist Rata e- eV iiss) seh

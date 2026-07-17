@@ -3,6 +3,19 @@ title: "Sierra"
 category: "companies"
 aliases: ["Sierra"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c4ee988cef52409be3f482c7d6e6995cca4db81c93b6c9024443c9e23ddf3ca7
+  subjectId: company:sierra
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:77b87b0a250c54ba0c9c8716707f79e3be5097ace089bf9530cba4e136e1fb55
 ---
 # Sierra
 

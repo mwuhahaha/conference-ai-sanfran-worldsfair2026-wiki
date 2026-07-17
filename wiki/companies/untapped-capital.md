@@ -3,6 +3,19 @@ title: "Untapped Capital"
 category: "companies"
 aliases: ["Untapped Capital"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:26567f77a7f90fcb3037a3aeaff376bca4137eef0e5d2d2b499fb03ec50f0927
+  subjectId: company:untapped-capital
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:202d211717a88cf175ed8a631e8e3b32b8aaef5ac9cb1b88fb6dd4fecb150564
 ---
 # Untapped Capital
 

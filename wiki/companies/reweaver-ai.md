@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["ReWeaver AI"]
 website: "https://www.reweaver.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f8e1b4f3867aff17bd84b18a6ff8a0288923d8203e4be6dbeff310daa891f090
+  subjectId: company:reweaver-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bdadfce19bf63c5dbf870c6a3a7be01372e1afaa38fc1c42f069580fb07389a5
 ---
 # ReWeaver AI
 

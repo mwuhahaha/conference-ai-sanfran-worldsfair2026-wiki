@@ -8,6 +8,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T16:00:50.346Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1441d019f4e348b63dc68c066786a8953a093d917902fd8802fa4a39cf2b051a
+  subjectId: person:aaron-stanley
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4e8da82cb57c122dba6b0418a8791f43f116b4257c8bc07ef1493e468c11eb83
 ---
 # Aaron Stanley
 

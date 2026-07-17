@@ -14,22 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-001.html)
-- AI slide classifier: `other` confidence `0.93`
-- Text source: none.
-- OCR decision: ready — Dense product UI screenshots and small headings are better handled by OCR than manual transcription in this triage pass.
-- Slide text: not surfaced (`illegible` by AI classifier).
-![[assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-002.html)
-- AI slide classifier: `other` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
-
-> “…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”
-> Dario Amodei
-
-Classification audit: `raw/sources/slide-ai-classification/dense/BZtD0yYAgCQ/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

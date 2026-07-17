@@ -3,6 +3,19 @@ title: "G2i"
 category: "companies"
 aliases: ["G2i"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:48b762c0faef9070fdefc7735acc7534bde5dec7af1e98b46945e4b158695ba9
+  subjectId: company:g2i
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:34a4eb7bd0f7e473e7710de95fd6572e1cf35276e282f2d62c3776883029a2e2
 ---
 # G2i
 

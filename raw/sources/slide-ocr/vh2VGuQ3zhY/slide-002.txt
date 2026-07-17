@@ -1,12 +1,14 @@
-THE PRESENTERS
+THEPRESENTERS
 Ankush Rastogi
-Senior Data Solutions Engineer · Prosodica LLC
-IEEE Senior Member
-10+ years across data engineering, AI systems, production
-analytics, and enterprise LLM implementation.
+Ankush Rastogi
 Sohail Shaikh
-Data Scientist · Prosodica LLC
-Building Real-World AI Systems
-9+ years in AI, NLP, conversational intelligence, RAG pipelines,
-semantic search, and production LLM workflows.
-02
+Sohal Shaikh
+SeniorData Solutions Engineer.Prosodica LLC
+DataScientist·Prosodica LLC
+IEEESeniorMember
+BuildingReal-WorldAl Systems
+10+yearsacrossdataengineering,lsystemsproduction
+9+yearsinAlLP,conversationalintelligence,AGpipeines
+analytics,andenterprise LLMimplementation.
+semanticsearch,andproductionLLMworkflows.
+Ankush Rastogi

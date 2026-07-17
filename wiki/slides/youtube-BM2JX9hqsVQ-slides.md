@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/BM2JX9hqsVQ/slide-002.jpg]]
 
@@ -57,10 +56,14 @@ OCR text:
 
 OCR text:
 
-> How are permissions typically managed?
-> API Keys
-> OAuth (OIDC)
-> tailscale
+> ————
+> a @ —
+> —_ y “ |
+> he a > API Keys |
+> 7 ; EM rte) ots) |
+> | + 4 ee]
+> i ~ an
+> ” - ea
 
 ![[assets/slides/BM2JX9hqsVQ/slide-005.jpg]]
 
@@ -118,12 +121,7 @@ OCR text:
 
 OCR text:
 
-> tailscale / aperture
-> Settings
-> Configure Your Agent
-> What's Next
-> AIE
-> Engineering the future of AI
+> Engineering the future of Al
 
 ![[assets/slides/BM2JX9hqsVQ/slide-009.jpg]]
 
@@ -162,18 +160,18 @@ OCR text:
 OCR text:
 
 > Cae
-> 
+>
 > ),
-> 
+>
 > S
 
 ![[assets/slides/BM2JX9hqsVQ/slide-012.jpg]]
 
 OCR text:
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+> | Al Engineer |
+> aU elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

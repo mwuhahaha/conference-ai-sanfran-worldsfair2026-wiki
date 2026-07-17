@@ -1,30 +1,4 @@
-HOW TO BUILD IT
+HOW TO BUILD IT it
 3 Step Implementation Pattern
-1 Build Tool Index
-OFFLINE • ONE-TIME
-• Collect all tool names,
-descriptions, and JSON schemas
-• Embed each tool description
-(OpenAI, Cohere,
-SentenceTransformers)
-• Index once and reuse forever by
-storing vectors in FAISS or
-Pinecone.
-2 Route Each Query
-RUNTIME • EVERY REQUEST
-• Embed the incoming user query
-with the same model
-• Run approximate
-nearest-neighbor search against
-the tool index
-• Retrieve top-K tools (K = 5
-default); apply a cosine threshold
-3 Inject & Call LLM
-RUNTIME • EVERY REQUEST
-• Fetch JSON schemas for the
-selected tools only
-• Build the prompt with just those
-schemas in the tools parameter
-• Call the LLM → return result; log
-selections for monitoring
-11
+Build Tool Index 7 Route Each Query on Inject & Call LLM
+a | ee ‘ia :

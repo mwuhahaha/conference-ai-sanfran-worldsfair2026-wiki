@@ -3,6 +3,19 @@ title: "HumanLayer"
 category: "companies"
 aliases: ["HumanLayer"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9e745bbde52d2d9ce98d47bc01cebac0c8b6c90776d8f50fbd60cbac9c4ba248
+  subjectId: company:humanlayer
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bd239469c24f15bc7cb3bca4daef9b277d9872a396c7336049808e9a43580f10
 ---
 # HumanLayer
 
@@ -33,8 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
 
 ### Media Signals
-- `youtube-rmvDxxNubIg` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
+- `youtube-rmvDxxNubIg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
 - Evidence links for `youtube-rmvDxxNubIg` (supporting context only): [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

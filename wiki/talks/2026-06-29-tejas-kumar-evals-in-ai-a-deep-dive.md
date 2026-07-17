@@ -63,7 +63,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-C_GG5g38vLU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-C_GG5g38vLU`
-- Slide deck: [[youtube-C_GG5g38vLU-dense-slides|Dense Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-C_GG5g38vLU-dense-slides|Dense Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]] — slide evidence page.
 - Additional slide evidence: [[youtube-C_GG5g38vLU-slides|Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]], [[youtube-C_GG5g38vLU-reconstructed-slides|Reconstructed Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]]
 - Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
 

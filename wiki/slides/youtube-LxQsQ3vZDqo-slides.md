@@ -35,8 +35,7 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> [wot]
 
 ![[assets/slides/LxQsQ3vZDqo/slide-003.jpg]]
 

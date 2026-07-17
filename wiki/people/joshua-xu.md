@@ -6,6 +6,19 @@ company: "HeyGen"
 linkedin: "https://www.linkedin.com/in/buffxz"
 twitter: "https://x.com/joshua_xu_?lang=en"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:42b8ca6d8f844e018b9f5467a3282d8723c458a4ce29f1494e90f83f290519fc
+  subjectId: person:joshua-xu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2349ba120c892c5b70f19d4a707f3f288920ee9b8d3ceb2998ab12e0a5ba50d7
 ---
 # Joshua Xu
 
@@ -30,6 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

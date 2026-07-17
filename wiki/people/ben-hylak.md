@@ -6,6 +6,19 @@ company: "Raindrop"
 linkedin: "https://www.linkedin.com/in/benhylak/"
 twitter: "https://x.com/benhylak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d31b61c4125ba0eed6c61e95887b33d5935451937f37ccd23acb5ee9e0350921
+  subjectId: person:ben-hylak
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9bf786c4f79b0684dc1b197fa7a1f13725cfcc158a692b41d35f58d95917fb15
 ---
 # Ben Hylak
 
@@ -31,5 +44,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-5nOLb27hQ5w` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
 - Evidence links for `youtube-5nOLb27hQ5w` (supporting context only): [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]

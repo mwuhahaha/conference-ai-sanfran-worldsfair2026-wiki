@@ -3,6 +3,19 @@ title: "Tolan"
 category: "companies"
 aliases: ["Tolan"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:21b4774b0b7758f1461d9c7e3554aca8dd76c7e64a8845a3a6c45022d922c36c
+  subjectId: company:tolan
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7e53aea4b01c02ab64dec3ef1c26a9f6602c404a70b8a6112fe1582d5e9d9bff
 ---
 # Tolan
 

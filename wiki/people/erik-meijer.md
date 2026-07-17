@@ -8,6 +8,19 @@ twitter: "https://x.com/headinthebox"
 website: "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
 blog: "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:30cad3b11e9db50395352f3e13b89ee7ffb6dda6f489f3b687413ed80482f49e
+  subjectId: person:erik-meijer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b038b6cf50d97241d581de7dcb5020e7f02199849778a0a145ea503474ed1d86
 ---
 # Erik Meijer
 

@@ -8,7 +8,10 @@ Convert the World’s Fair 2026 wiki from a generated schedule/media database in
 - The media layer is strong: related YouTube resources, livestream transcripts, stage-frame slide decks, reconstructed slide decks, dense slide evidence, RapidOCR audit artifacts, and registries.
 - The synthesis layer is now AIE-specific: `wiki/overview.md`, `wiki/index.md`, topics, tools, questions, harnesses, playbooks, evaluations, policies, transcripts, slides, and resources are linked as a conference intelligence vault.
 - The publishable clean project keeps generated schedule/media evidence while adding curated synthesis categories and deterministic generators.
-- Topic-specific credibility policies now live as one JSON file per policy under `raw/sources/credibility-policies/`, with policy eval fixtures in `raw/sources/credibility-policy-evals.json`.
+- Claim-scoped credibility policy, calibration, receipts, and evaluation fixtures
+  now live only under ignored `.ops/state/cache/wiki-maker/credibility-v2/`.
+  Public artifacts may expose citations and fixed qualitative source-assessment
+  states, never weights, scores, ranks, named calibration exemplars, or receipts.
 - Project instructions are resolved through `AGENTS.md`; the clean repo is the publishable structure reference.
 
 ## Target Shape
@@ -53,7 +56,8 @@ Category roles:
 - `evaluations`: comparative judgments and scorecards, e.g. model/tool choices, agent workflows, build-vs-buy.
 - `questions`: open research/conference questions to resolve from transcripts/slides.
 - `playbooks`: actionable post-conference workflows.
-- `policies`: topic-specific scoring policies, especially credibility policies whose weights and eval fixtures explain how scores were made.
+- `policies`: public operational or source-boundary guidance only. Private
+  credibility rules and evaluation fixtures never belong in this category.
 - `conversations` and `personal-notes`: optional, only for firsthand notes or hallway material if added later.
 
 ## Slices
@@ -139,13 +143,15 @@ Validation:
   - local vs hosted inference
   - sandbox providers
 - [x] Use Miami’s decision-artifact style: criteria, evidence, open questions, tentative recommendation.
-- [x] Add topic-specific credibility policies and eval fixtures for known high-credibility exemplars.
+- [x] Add private claim-scoped credibility policies and internal evaluation
+  fixtures without publishing calibration identities or numeric rules.
 
 Completed 2026-07-10:
 - Generated comparative evaluation pages for coding-agent platforms, eval/observability tools, MCP server patterns, local vs hosted inference, and sandbox providers.
-- Added `wiki/evaluations/credibility-policy-evals.md` plus `raw/sources/credibility-policy-evals.json`.
-- Added 5 policy JSON files under `raw/sources/credibility-policies/`, one per topic, so policy changes can be reviewed or committed one at a time.
-- Policy eval fixtures cover known high exemplars such as Kent C. Dodds, Jason Liu, Aparna Dhinakaran, Laurie Voss, Jo Kristian Bergum, Han Xiao, Solomon Hykes, Samuel Colvin, Charles Frye, and Ion Stoica; all 10 fixtures pass.
+- The earlier public credibility-policy/evaluation artifacts were retired.
+  Current rules, calibration fixtures, signed line-item receipts, and provider
+  evidence remain ignored private operator state. Public pages retain only
+  attributed evidence and categorical capsules allowed by the maker contract.
 
 Validation:
 - No recommendation without source evidence and explicit confidence.
@@ -249,4 +255,7 @@ Before tools or changes:
 2. If the user asks for more work, define a new follow-up slice instead of reopening the completed conversion checklist.
 3. Preserve source boundaries and policy provenance.
 
-Preserve official schedule/media evidence. Keep generated evidence separate from curated synthesis. Change credibility policies one at a time and rerun `python3 scripts/generate_synthesis_layers.py`.
+Preserve official schedule/media evidence. Keep generated evidence separate
+from curated synthesis. Change private credibility policy only through the
+ignored maker state and rerun the unified update; never recreate public policy
+weights or calibration fixtures.

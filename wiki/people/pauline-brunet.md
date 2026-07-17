@@ -5,6 +5,19 @@ role: "VP, Forward Deployed Engineering"
 company: "Cursor"
 linkedin: "https://www.linkedin.com/in/pauline-brunet/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3746de39cfa9c7e0244e005354864d7356b8eef1f729d64d4aa8ec9c0c8fa16c
+  subjectId: person:pauline-brunet
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:50b3bc0142c20ff09cee270f61d13b9fd39c2aadf1e3bf5a587b8f0b6cb3ca5c
 ---
 # Pauline Brunet
 

@@ -4,6 +4,19 @@ category: "people"
 role: "Member of Technical Staff"
 company: "Laude Institute"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c342aa93953f506f084c8694f210a880a9c693260612c3f28d7811ddbece13fd
+  subjectId: person:ryan-marten
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:32bb44d8308bb8751d11157b0e9c3209a4f7bbcc78a730b6bf32f5da17d025f7
 ---
 # Ryan Marten
 

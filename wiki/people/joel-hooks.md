@@ -8,6 +8,19 @@ twitter: "https://x.com/joelhooks"
 website: "https://joelhooks.com"
 blog: "https://badass.dev/the-process"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8205ced1b016b9594ea0d51121c5cb894cc7ea9ba5242ec7c65fa63fa8c2b532
+  subjectId: person:joel-hooks
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:10060fd1da2fa96c93a06936065ec2b1cce1fd48ffbb0cdfcc87d5cb0bcd6abd
 ---
 # Joel Hooks
 

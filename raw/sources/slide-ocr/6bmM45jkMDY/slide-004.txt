@@ -1,6 +1,3 @@
-THE SHIFT
 The bottleneck moved.
-USED TO BE
-getting the code built
-NOW
-deciding what to build
+a |
+getting the code built >

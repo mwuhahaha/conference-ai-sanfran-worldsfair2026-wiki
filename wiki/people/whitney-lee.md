@@ -6,6 +6,19 @@ company: "Datadog"
 linkedin: "https://www.linkedin.com/in/whitneylee/"
 website: "https://whitneylee.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf79a34e65be134123eef5fc6a3e466156c4b18c5a2b96bdb97edc6160289979
+  subjectId: person:whitney-lee
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:10f99a92b3a2b5c81cc8485c7b48c0f9efdc43638732b7dcba950fea8ea5c51d
 ---
 # Whitney Lee
 

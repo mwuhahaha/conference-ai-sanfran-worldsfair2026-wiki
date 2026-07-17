@@ -3,6 +3,19 @@ title: "YouTube"
 category: "companies"
 aliases: ["YouTube"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:94bca7022ca9533dd926b77514dd4af0b5468afc2aafd8d5d0a557efec8a6c7e
+  subjectId: company:youtube
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1d144791cb663280a19ac71511dc338089a79149a59d3fa0a0f6bfdabda72502
 ---
 # YouTube
 

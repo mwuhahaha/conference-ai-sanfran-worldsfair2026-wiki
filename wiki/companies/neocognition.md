@@ -3,6 +3,19 @@ title: "NeoCognition"
 category: "companies"
 aliases: ["NeoCognition"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6403a6a400eab37807b858946e83c1cfd629b0fdd364565c35ddd5af5585a2d5
+  subjectId: company:neocognition
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a277b4fe3dd37858a181b063103bb61cd96d7ac7868bd8ddf3885ce3873f90f2
 ---
 # NeoCognition
 

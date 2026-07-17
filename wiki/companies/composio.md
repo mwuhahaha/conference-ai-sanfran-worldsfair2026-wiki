@@ -3,6 +3,19 @@ title: "Composio"
 category: "companies"
 aliases: ["Composio"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:07d76668dbc2b3216dc6568181deca9980bb3d6dc9cad9f3f743caa006894478
+  subjectId: company:composio
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2d4f6a8b7af48e476648b9c8d4a29bbde7fbf66312e8bd8d47081f001c884bbd
 ---
 # Composio
 

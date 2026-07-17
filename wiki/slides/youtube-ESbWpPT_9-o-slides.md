@@ -21,15 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/ESbWpPT_9-o/slide-002.jpg]]
 
 OCR text:
 
-> Why Most AI Will Run Locally
-> Cheema, EXO Labs
+> Why Most A Will Run Locally
+> ngineer
+> ELOPE
 
 ![[assets/slides/ESbWpPT_9-o/slide-003.jpg]]
 
@@ -41,9 +41,9 @@ OCR text:
 > ae oe ee ae ere Te) Tele TUsU LC Peale © el) Lg
 > brain
 > @tsarnick
-> 
+>
 > i, )
-> 
+>
 > of itas an exocortex,
 > Pra LG
 
@@ -52,7 +52,7 @@ OCR text:
 OCR text:
 
 > The Hardware Lottery
-> 
+>
 > Sara Hooker
 > Google Research, Brain Team
 > shooker@google.com
@@ -92,29 +92,35 @@ OCR text:
 > Context Usage
 > er claude -opus-4-5-20251101 - 63«/2e0k tokens (31?:)
 > , : 12 System prompt: 2.9k torxens (1.4%:)
-> 
+>
 > a ») System tools: 14./K toxens (/.45)
 > bel Messages: 8 toxens (@.@%)
-> 
+>
 > re Puen - Free space: 13/k (68.7%)
-> 
+>
 > ae : i Autocorpact buffer: 45.8« toKens (22.575)
-> 
+>
 > SlashCommand Tool - 4 com~™ands
-> 
+>
 > L Total: 949 toxens
 
 ![[assets/slides/ESbWpPT_9-o/slide-007.jpg]]
 
 OCR text:
 
-> 10^3
-> GPU Memory (GB)
-> 126.3×
-> Improvement
-> 10^2
-> 10^1
-> Local Accelerator Memory
+> 103
+> oO 126.3x
+> Yo improvement
+> > 10?
+> e
+> 3°
+> £
+> :
+> 1
+> = 10
+> a
+> Oo ee
+> =@— Local Accelerator Memory
 > 2012 2015 2020 2025
 > Release Year
 
@@ -286,13 +292,28 @@ OCR text:
 
 OCR text:
 
-> Real Local AI Benchmarks soonTM
+> Real Local Al Benchmarks soonTM
+> ; I 7 7
+> on ey 2 — 2
+> ore Ss
+> ® i ae Fa | ran
+> on a marke re } | ; .
 
 ![[assets/slides/ESbWpPT_9-o/slide-015.jpg]]
 
 OCR text:
 
-> Real Local AI Benchmarks soonTM
+> is ie
+> a = fp
+> Seep Bee li) 8 |
+> ..
+> 4 |
+> 7
+> - ¢
+> a 4 z! Y Pt
+> 4, si a _ y .*
+> BGS KS a P 4
+> on tee Ty i ;
 
 ![[assets/slides/ESbWpPT_9-o/slide-016.jpg]]
 

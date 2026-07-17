@@ -4,6 +4,19 @@ category: "people"
 role: "CEO"
 company: "Fleet"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f8a96034a644653aa310cf7dbec9c333cfa207923c6abe14f23054cc559a94f4
+  subjectId: person:nicolai-ouporov
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5f254839b56074e5b897d3ea316f8a1c0ed88d8b03c890d57c2bae7b3b242c5f
 ---
 # Nicolai Ouporov
 

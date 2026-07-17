@@ -3,6 +3,19 @@ title: "Morph"
 category: "companies"
 aliases: ["Morph"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6089fc852333dc2422bd068a5a15bc31146d76d01e71f046d9e2a5c04e28c3cc
+  subjectId: company:morph
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:68b449fa160b808ef4b0944be71ea4bfeddd5b15cafc20e006864add51df770d
 ---
 # Morph
 

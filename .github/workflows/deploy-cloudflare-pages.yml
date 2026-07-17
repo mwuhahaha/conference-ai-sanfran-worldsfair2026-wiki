@@ -1,5 +1,8 @@
 name: Deploy to Cloudflare Pages
 
+env:
+  WIKI_MAKER_REF: f27b9f3bdcc3ee35fea83e32506e0bdc094c0c7b
+
 on:
   push:
     branches:
@@ -15,6 +18,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install wiki maker
+        run: python -m pip install "git+https://github.com/mwuhahaha/wiki-from-topic-maker.git@${WIKI_MAKER_REF}"
 
       - name: Build
         run: npm run build

@@ -70,12 +70,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-xz0-brt56L8]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-xz0-brt56L8`
-- Slide deck: [[youtube-xz0-brt56L8-dense-slides|Dense Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]] — 12 visible slide image(s); 12 HTML recreation(s).
-![[assets/dense-slides/xz0-brt56L8/slide-001.jpg]]
-![[assets/dense-slides/xz0-brt56L8/slide-002.jpg]]
-![[assets/dense-slides/xz0-brt56L8/slide-003.jpg]]
+- Slide deck: [[youtube-xz0-brt56L8-dense-slides|Dense Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]] — slide evidence page.
 - Additional slide evidence: [[youtube-xz0-brt56L8-slides|Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]], [[youtube-xz0-brt56L8-reconstructed-slides|Reconstructed Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]]
-- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, hate, attar, loft, delicious, coffee, lovely.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -87,8 +84,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-xz0-brt56L8` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+- `youtube-xz0-brt56L8` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, hate, attar, loft, delicious, coffee, lovely.
 - Evidence links for `youtube-xz0-brt56L8` (supporting context only): [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
 
 ### Agent Reading Notes

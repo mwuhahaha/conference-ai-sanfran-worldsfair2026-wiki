@@ -3,6 +3,19 @@ title: "Taste Labs"
 category: "companies"
 aliases: ["Taste Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0feb85b392fde838d3de63df03ac6f66b54d35b2519794a2108e3d8a0ecd767b
+  subjectId: company:taste-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b48e1bfc104eca348a3f1269a9d05831b7f921ed601b572fdc23ca87b57b047c
 ---
 # Taste Labs
 

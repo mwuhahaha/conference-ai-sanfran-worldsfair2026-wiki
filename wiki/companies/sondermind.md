@@ -3,6 +3,19 @@ title: "SonderMind"
 category: "companies"
 aliases: ["SonderMind", "Sondermind"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:516d3332e4961c98985684204e02681ff7f2471e3c855b486c8f31ac89a67f1e
+  subjectId: company:sondermind
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a62fbc9d2b02adff1295a4b24f19492f6c073332d0de3c76c283b588e0d4011b
 ---
 # SonderMind
 

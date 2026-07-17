@@ -8,6 +8,19 @@ twitter: "https://x.com/thorwebdev"
 website: "https://thorweb.dev/"
 blog: "https://thorweb.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:78fcf48605d361f1ecec818ca0bdf9a9be5b17d29404cb1f8cf6853c8d075f18
+  subjectId: person:thor-schaeff
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3b12983fe5ba6ee61beb60677101d9b022bc4cda46475773fd0ea43093dc1bcb
 ---
 # Thor 雷神 Schaeff
 
@@ -42,5 +55,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4|Build realtime multimodal agents with Gemini Live (continued 4)]]
 
 ### Media Signals
-- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]

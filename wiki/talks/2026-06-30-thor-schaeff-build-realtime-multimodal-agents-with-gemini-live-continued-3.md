@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-Bc6Ojl2XS1w]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-Bc6Ojl2XS1w`
-- Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/Bc6Ojl2XS1w/slide-001.jpg]]
+- Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-Bc6Ojl2XS1w-slides|Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides|Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]]
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -8,6 +8,19 @@ twitter: "https://x.com/omribruchim"
 website: "https://edginary.io"
 blog: "https://x.com/omribruchim"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:680cf1704f47b9868983acd2ba286998379a45466ee75954b28271ab68ae9319
+  subjectId: person:omri-bruchim
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:23fb7a29024636493706e6b2ee2a425048f0d96bdf75f9d0a2e52498cabf32e1
 ---
 # Omri Bruchim
 

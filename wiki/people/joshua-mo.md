@@ -6,6 +6,19 @@ company: "Venice AI"
 linkedin: "https://uk.linkedin.com/in/joshua-mo-4146aa220"
 website: "https://joshmo.ooo"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1338f8c635e373d5eea3a578a75db8ca9cb0f556a280b3826ce0aa63d590039f
+  subjectId: person:joshua-mo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c7ea6833d73a238914ceaa9d79ab09bf9d680eb98d9f3814f4613af2a50d226b
 ---
 # Joshua Mo
 

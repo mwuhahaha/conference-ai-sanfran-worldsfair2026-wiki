@@ -3,6 +3,19 @@ title: "Paper Compute Co."
 category: "companies"
 aliases: ["Paper Compute Co."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c6bd29d5475e9e0eb602aeec4fc7783e60c96c3156da085c23a54e5f54ecbce8
+  subjectId: company:paper-compute-co
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ec05be0e2f1728d7dc471fe748c3ee377fa550b94bfe41cf890bbc4d66c07385
 ---
 # Paper Compute Co.
 

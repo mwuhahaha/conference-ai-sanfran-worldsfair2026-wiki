@@ -8,6 +8,19 @@ twitter: "https://x.com/RLanceMartin"
 website: "https://rlancemartin.github.io"
 blog: "https://rlancemartin.github.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6544aa7c34e75959d3a37950c31631cab858c59820df6548013e4850ffaf8936
+  subjectId: person:lance-martin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d97056b9f47820dc733cd949e912b783666217eb7eaf6ca206a2a322ed3f77f2
 ---
 # Lance Martin
 
@@ -34,5 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
 
 ### Media Signals
-- `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
+- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

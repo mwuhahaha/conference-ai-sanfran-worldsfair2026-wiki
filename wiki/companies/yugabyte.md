@@ -3,6 +3,19 @@ title: "Yugabyte"
 category: "companies"
 aliases: ["Yugabyte"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9a7570e756a1d711620336a81230f2beba77e1db6ddfd4d9734556153b240f08
+  subjectId: company:yugabyte
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7a79aadeacb0010693d309fe8e2bd1cac070dc035bb0dcc8d9c5385ae03c9239
 ---
 # Yugabyte
 

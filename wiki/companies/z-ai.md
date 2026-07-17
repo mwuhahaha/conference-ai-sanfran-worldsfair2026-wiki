@@ -3,6 +3,19 @@ title: "Z.ai"
 category: "companies"
 aliases: ["Z.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fad767b9df4a99510cfb896606b038c128b7ab9383279e5af30c80e176a5ee49
+  subjectId: company:z-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ddf8a5a32a03ab3d739a09b16061b1fd03a4b08b93e42b7df93ccf3251068eb5
 ---
 # Z.ai
 

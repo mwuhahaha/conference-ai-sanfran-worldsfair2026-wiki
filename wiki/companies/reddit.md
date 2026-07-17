@@ -3,6 +3,19 @@ title: "Reddit"
 category: "companies"
 aliases: ["Reddit"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c2454518507d0e35486cd1255af8b59a65ce25f532c0d72a055685331790a963
+  subjectId: company:reddit
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ed5b3f98c19b99c6bb1392c267c8609d9ddbc038863745fadd525bb3ecae3060
 ---
 # Reddit
 

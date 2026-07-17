@@ -1,26 +1,12 @@
-AI Engineer
-World’s Fair
-Human
-Agent
-Today’s signup flow assumes:
-A human can read a landing page
-A human can fill a form
-A human can solve a CAPTCHA
-A human can verify email
-(agents might not have an email address)
-A human can choose a plan
-A human can copy an API key
-A human can paste it somewhere
-A human can understand the dashboard
-Agent-native registration needs:
-Discovery
-Capability declaration
-Registration intent
-Risk assessment
-Agent identity verification (source agent, like Claude)
-Human or organizational delegation (my company)
-Entitlement grant
-Credential issuance
-Claiming / later ownership transfer
-Audibility
-Engineering the future of AI
+Ea Ted . :
+World's Fair
+Today’s signup flow assumes: Agent-native registration needs:
+
+a Le .
+Microsoft Meet
+a So
+pla eaaly sent
+
+ask Engineering the future of Al
+
+na at

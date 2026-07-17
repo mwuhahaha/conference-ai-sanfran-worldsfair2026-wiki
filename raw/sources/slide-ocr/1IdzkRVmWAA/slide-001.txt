@@ -1,9 +1,10 @@
 Mixedbread
+Al Engineer
+HannaLichtenberg
+AamirShakir
 AI Engineer
-Hanna Lichtenberg
-AI Engineer
-Volkswagen • TU Berlin
-Aamir Shakir
-CEO & Cofounder
-Google • EPFL
-How we taught agents to use good retrieval • Mixedbread
+CEO&Cofounder
+Shakir
+Volkswagen·TU Berlin
+Google·EPFL
+How we taughtagents to usegoodretrievlMixedbred

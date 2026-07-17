@@ -6,6 +6,19 @@ company: "Y Combinator"
 linkedin: "https://www.linkedin.com/in/garrytan/"
 twitter: "https://x.com/garrytan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8844d4139096cf2465b34b969f09287cb166979b57ed5819b6f0dc78d130298c
+  subjectId: person:garry-tan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dde4d800d76289e08f4fed31215d8727399eb45c6a86323763305c05b60ea322
 ---
 # Garry Tan
 

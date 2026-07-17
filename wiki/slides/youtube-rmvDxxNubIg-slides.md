@@ -21,7 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> AIE
+> ae
+> | |
+> ae: \ 3
+> a a tS
 
 ![[assets/slides/rmvDxxNubIg/slide-002.jpg]]
 
@@ -63,9 +66,12 @@ OCR text:
 
 OCR text:
 
-> took 8 weeks for a team of 3, it was
-> really f.... hard
+> reallyf..
 > Never going back
+> hard
+> ovibes allowed|adrthy
+> Code Summit
+> AIE
 
 ![[assets/slides/rmvDxxNubIg/slide-005.jpg]]
 ![[assets/slides/rmvDxxNubIg/slide-006.jpg]]
@@ -99,8 +105,12 @@ OCR text:
 
 OCR text:
 
-> owed | @dexhorthy
+> owed
+> adexhorthy
+> Code Summit
 > AIE
+> Code Surmit
+> Googeaodied
 
 ![[assets/slides/rmvDxxNubIg/slide-008.jpg]]
 
@@ -145,11 +155,11 @@ OCR text:
 
 > 9 Mitchell Hashimoto 's)
 > / - My favorite part about is that you can share your whole
-> 
+>
 > session globally. PRs with Amp threads attached make me very, very
-> 
+>
 > happy as a maintainer. here is one from a bug fix this morning:
-> 
+>
 > ESA
 > as ee Ps ape ¢
 > a no vibes allowed &dexhorthy see EST

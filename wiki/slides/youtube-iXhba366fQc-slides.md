@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > aWS
-> 
+>
 > ee)
 > OKCT ol gk Mn a Aine SO RMU ronTeTo) DIE
 > #Mdaily £3augmentcode WorkOS
@@ -102,9 +102,9 @@ OCR text:
 OCR text:
 
 > General tips for
-> 
+>
 > building voice agents
-> 
+>
 > Start small with a clear goal Build evals and guardrails early. Customize and create a personalized
 > Collect feedback brand
 
@@ -141,8 +141,7 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> | World's Fair |
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

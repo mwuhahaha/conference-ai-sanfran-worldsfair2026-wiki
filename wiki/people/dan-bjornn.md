@@ -5,6 +5,19 @@ role: "Senior Data Scientist"
 company: "Lease End"
 linkedin: "https://linkedin.com/in/dkbjornn"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:420a3f344142d7e0f001b1a4c3fd7b186f014655f61cb7515b8d0c24faa61b92
+  subjectId: person:dan-bjornn
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0b18899a408318eccfb66d7bf423049bf6b186af979682faf5af0baf5303f044
 ---
 # Dan Bjornn
 

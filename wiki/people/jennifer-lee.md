@@ -6,6 +6,19 @@ company: "Stripe"
 linkedin: "https://www.linkedin.com/in/jennifer-lee-5175a18a/"
 twitter: "https://x.com/backseatvc"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9ea241d2e45b302a645bbb9731e866b53445a2db47e659562ec26af4f6dd9022
+  subjectId: person:jennifer-lee
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8a4b0fa131ab0e72fa526448149fd912614d0bb9b7051ee559a033261688e3c9
 ---
 # Jennifer Lee
 

@@ -5,6 +5,19 @@ role: "Curator"
 company: "Latent Space / AI Engineer"
 twitter: "https://x.com/swyx"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:32c3cad951a928863d8a709a356267bf6be08e8e097ce0e3024567f403ac5a9d
+  subjectId: person:swyx
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:19777e569366b696f5cf51ae68b377cc97f8b6c467c1fed6aed87162d1a00b1c
 ---
 # swyx
 
@@ -41,10 +54,12 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- `youtube-qaJXBMwUkoE` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, mathematician, auto, figure, periods, great, surge, curve.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
-- `youtube-5N33E9tC400` — source page linked; role: supporting context only.
+- `youtube-5N33E9tC400` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5N33E9tC400`: look, maybe, fare, seat, evolution, engineer, ideal, year.
 - Evidence links for `youtube-5N33E9tC400` (supporting context only): [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

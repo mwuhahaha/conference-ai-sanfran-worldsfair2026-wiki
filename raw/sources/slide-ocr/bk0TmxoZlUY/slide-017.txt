@@ -1,11 +1,13 @@
 BRAINTRUST.DEV
 Scorer Types
-Code-based scorers
-- Exact or binary conditions
-- Numeric comparisons
-- Structured or factual checks
-LLM-as-a-judge scorers
-- Subjective or contextual feedback
-- Human-like interpretation
-- Improvement across multiple drafts
+Code-basedscorers
+LLM-as-a-judgescorers
+Exactorbinaryconditions
+Subjectiveorcontextualfeedback
 AIE
+Numericcomparisons
+Human-likeinterpretation
+Structuredorfactualchecks
+Improvementacrossmultipledrafts
+Microsoft
+smol?

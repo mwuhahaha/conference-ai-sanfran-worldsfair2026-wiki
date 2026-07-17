@@ -5,6 +5,19 @@ role: "VP of AI at Ironclad"
 company: "Ironclad"
 linkedin: "https://www.linkedin.com/in/mingshenghong/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b18b45b5b827259222cccb0acc28e22e569ade47690cfe0146b017115319b2f
+  subjectId: person:mingsheng-hong
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b154b58da592e6d449bcdfa800ca38873a34b903bff507a00a2015fed6e3e168
 ---
 # Mingsheng Hong
 

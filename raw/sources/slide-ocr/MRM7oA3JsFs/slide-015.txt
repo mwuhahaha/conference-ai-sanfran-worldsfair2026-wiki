@@ -1,6 +1,13 @@
 Takeaways
-• To build domain-native LLM applications you need to solve the last mile problem.
-• Using the best models isn't enough - you should build an adaptive domain intelligence engine.
-• Domain experts power this system by reviewing AI outputs to generate performance metrics, failure modes and suggested improvements.
-• This takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.
-• The result is a self-improving, data-driven process that can be managed by a domain expert PM.
+2 ‘lobuild domain-native LUM applications you necd to salve tne
+uO TAG Ran emeretmeROcercHMl- BRM cTs 01016 RR Ole R18 OeHOESl0/ | CNT in
+a pover this system by reviewing Al outputs to
+arora leiaatie! ; an O Rn tee esetete
+Tee ei
+» This takes production cata and uses it to give your LLM oreckicta
+ees ercreROlALe(Crecteala.el (BRO) MOLU(CKOIRA CT UIOlE-C1 ODIs
+« Jhoeresultis asel’-imoroving, data-driven process that can be
+—. ereenovaa meas
+- q :
+|:
+F

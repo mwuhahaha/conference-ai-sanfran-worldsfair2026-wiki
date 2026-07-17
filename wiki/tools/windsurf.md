@@ -5,6 +5,18 @@ aliases: ["Windsurf"]
 sourceLabels: ["Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9f3142c80d0e64576e216a8556d7a1321457181462bee7eef2d27849909adf73
+  subjectId: tool:windsurf
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:42ffffbd25f6f197391d7cc1ad9e020d451ab2b56b42d9547e7d300d4a6535d5
 ---
 
 # Windsurf

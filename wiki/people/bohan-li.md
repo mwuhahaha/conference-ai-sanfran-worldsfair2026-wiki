@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/bohan-li-7290b74a/"
 twitter: "https://x.com/bobowchan"
 website: "https://eliseai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9fd75c60af59b809efa81eb8bfb2a4e7c7c670c57d13d5e952b45f621176f465
+  subjectId: person:bohan-li
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e33df24811a9f18fabbcd1816e29fb96c3ae95f3bb4cc67f482c995ff09e20c0
 ---
 # Bohan Li
 

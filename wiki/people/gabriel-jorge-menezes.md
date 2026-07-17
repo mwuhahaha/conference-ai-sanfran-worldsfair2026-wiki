@@ -6,6 +6,19 @@ company: "Krea.ai"
 linkedin: "https://www.linkedin.com/in/gabriel-jorge-menezes/"
 website: "https://gab-menezes.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7382c8103c95d2cecb9a7ad3778cb11124612d5e52d194dfdd18f08cfe57629a
+  subjectId: person:gabriel-jorge-menezes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:93ce00d8cb638cf4f36d75a047b4ff912be61ee726ddd83d744cbc60c396c068
 ---
 # Gabriel Jorge Menezes
 

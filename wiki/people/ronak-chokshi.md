@@ -4,6 +4,19 @@ category: "people"
 role: "Director of Product Marketing"
 company: "Microsoft"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:865f94cfa25be595381b3809a4653e4846a6a329f12c813ec516ea53a7d08e2c
+  subjectId: person:ronak-chokshi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:089021b7912f323c88b873f4d66080ab1bd788864a44d91d152535439582e3b5
 ---
 # Ronak Chokshi
 

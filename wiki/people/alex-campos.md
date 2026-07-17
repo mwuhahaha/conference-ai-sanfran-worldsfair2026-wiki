@@ -4,6 +4,19 @@ category: "people"
 role: "Director of Sales Partnerships"
 company: "FriendliAI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:952607411e9ac9f9a075ea596bd481da02e79f7bfe86dabd0ba640d05caaf17b
+  subjectId: person:alex-campos
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:66f01439c0ff23aaac7b76a8b063f8cb3d72e1f27ae546b95a7d564fece742ce
 ---
 # Alex Campos
 

@@ -65,10 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-NuePCNMpWGc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-NuePCNMpWGc`
-- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
+- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — slide evidence page.
 - Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
-- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, info, demo, stop.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,7 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
+- `youtube-NuePCNMpWGc` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, info, demo, stop.
 - Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
 
 ### Agent Reading Notes

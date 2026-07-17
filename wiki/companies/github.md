@@ -3,6 +3,19 @@ title: "GitHub"
 category: "companies"
 aliases: ["GitHub"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8222dbc28ff9a39e63678152df02e2edbfec2e0df5dedf87c3c35236dc153ad1
+  subjectId: company:github
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bb2f76710d04bc7fb96384aa909baf95f2ed816227f6f6ff00fb9cab98457ff8
 ---
 # GitHub
 

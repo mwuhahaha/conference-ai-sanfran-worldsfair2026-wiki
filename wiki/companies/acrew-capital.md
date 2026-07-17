@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Acrew Capital"]
 website: "https://www.acrewcapital.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aa3064a4cbc9f893d5b4b7eceda5e2406b9efcabedc61e4bc4d79c1b83e297f2
+  subjectId: company:acrew-capital
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2f84e169c9acb1bad2eb0dc83d7efb6098dc60d3f9a4d3cbde25aca24b28ee5b
 ---
 # Acrew Capital
 

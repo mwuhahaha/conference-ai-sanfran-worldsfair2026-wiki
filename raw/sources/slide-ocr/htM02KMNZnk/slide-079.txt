@@ -1,8 +1,6 @@
-Scaling with intelligence isn’t always easy
-Giving AI a Terminal
-Fear from users (rightfully so) about the potential downsides
-Models got better, invest in permissions primitives, and you end up building much faster, safely
-Removing Chat, Only Agent
-Lots of user pushback removing chat in favor of agents
-Multi-step agentic research and execution was the future
-Engineering the future of AI
+Id Biases
+World's Fair
+| Worl! Far Scaling with intelligence isn't always easy
+orm ewe
+mE Viacerxenie 7 ferns a
+a | Engineering the future of Al

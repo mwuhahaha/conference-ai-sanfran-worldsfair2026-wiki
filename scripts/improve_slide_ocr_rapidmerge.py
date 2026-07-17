@@ -4,11 +4,12 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import importlib.util
 import json
+import math
 import os
 import re
-import shutil
 import tempfile
 import time
 from dataclasses import dataclass
@@ -16,6 +17,21 @@ from pathlib import Path
 
 from PIL import Image, ImageChops, ImageEnhance, ImageFilter, ImageOps, ImageStat
 from rapidocr_onnxruntime import RapidOCR
+
+try:
+    from slide_vision_cache_contract import (
+        CACHE_SCHEMA_VERSION as AI_VISION_CACHE_SCHEMA_VERSION,
+        MIN_ACCEPTED_CONFIDENCE as AI_VISION_MIN_ACCEPTED_CONFIDENCE,
+        PROMPT_CONTRACT_SHA256 as AI_VISION_PROMPT_CONTRACT_SHA256,
+        PROMPT_CONTRACT_VERSION as AI_VISION_PROMPT_CONTRACT_VERSION,
+    )
+except ModuleNotFoundError:  # Imported as scripts.improve_slide_ocr_rapidmerge.
+    from scripts.slide_vision_cache_contract import (
+        CACHE_SCHEMA_VERSION as AI_VISION_CACHE_SCHEMA_VERSION,
+        MIN_ACCEPTED_CONFIDENCE as AI_VISION_MIN_ACCEPTED_CONFIDENCE,
+        PROMPT_CONTRACT_SHA256 as AI_VISION_PROMPT_CONTRACT_SHA256,
+        PROMPT_CONTRACT_VERSION as AI_VISION_PROMPT_CONTRACT_VERSION,
+    )
 
 try:
     import cv2
@@ -31,6 +47,9 @@ CANONICAL_OCR = ROOT / "raw" / "sources" / "slide-ocr"
 MERGED_OCR = ROOT / "raw" / "sources" / "slide-ocr-rapidmerge"
 AUDIT_PATH = ROOT / "raw" / "sources" / "slide-ocr-rapidmerge-audit.json"
 AUDIT_PAGE = ROOT / "wiki" / "resources" / "slide-ocr-rapidmerge-audit.md"
+PROVENANCE_REPAIR_SUMMARY = (
+    ROOT / "raw" / "sources" / "slide-ocr-provenance-repair-summary.json"
+)
 SOURCE_DIRS = [
     ("operator-verified", ROOT / "raw" / "sources" / "slide-ocr-operator-verified"),
     ("ai-vision", ROOT / "raw" / "sources" / "slide-ocr-ai-vision"),
@@ -41,6 +60,12 @@ SOURCE_DIRS = [
     ("dense", ROOT / "raw" / "sources" / "dense-slide-ocr"),
 ]
 INTERNAL_LOG_DIR = ROOT / ".ops" / "state" / "cache" / "slide-ocr-evals"
+RECOVERY_ROOT = (
+    ROOT / ".ops" / "state" / "cache" / "slide-ocr-rapidmerge-recovery"
+)
+PUBLICATION_SCHEMA_VERSION = 1
+RECEIPT_SCHEMA_VERSION = 1
+SELECTION_POLICY_VERSION = "operator-verified-absolute-v1"
 
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z0-9'._/-]{2,}")
 GLUED_RE = re.compile(r"[A-Za-z]{22,}")
@@ -52,6 +77,7 @@ SPACELESS_RE = re.compile(r"[A-Za-z]{14,}[A-Z][a-z]")
 class Candidate:
     source: str
     text: str
+    provenance: dict[str, object] | None = None
 
     @property
     def words(self) -> list[str]:
@@ -81,7 +107,7 @@ class Candidate:
         if self.source == "operator-verified":
             score += 100
         if self.source == "ai-vision":
-            score += 220
+            score += 80
         return score
 
 
@@ -139,14 +165,136 @@ def text_path(base: Path, slide: Path) -> Path:
     return base / slide.parent.name / f"{slide.stem}.txt"
 
 
+def _sha256_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def _display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def _validated_ai_vision_candidate(base: Path, slide: Path) -> Candidate | None:
+    """Accept AI vision text only with a current producer receipt.
+
+    The receipt is an integrity contract, not a signature. It prevents stale,
+    partial, failed, or accidentally unreceipted cache text from receiving the
+    AI-vision priority bonus and being promoted into canonical OCR.
+    """
+
+    path = text_path(base, slide)
+    receipt_path = path.with_suffix(".receipt.json")
+    if not path.is_file() or not receipt_path.is_file() or not slide.is_file():
+        return None
+    try:
+        receipt_bytes = receipt_path.read_bytes()
+        raw_text = path.read_text(encoding="utf-8").strip()
+        receipt = json.loads(receipt_bytes)
+        image_sha256 = _sha256_bytes(slide.read_bytes())
+        canonical_path = text_path(CANONICAL_OCR, slide)
+        canonical_text = (
+            canonical_path.read_text(encoding="utf-8", errors="ignore").strip()
+            if canonical_path.is_file()
+            else ""
+        )
+    except (OSError, json.JSONDecodeError):
+        return None
+    required = {
+        "schemaVersion": AI_VISION_CACHE_SCHEMA_VERSION,
+        "status": "accepted",
+        "imageSha256": image_sha256,
+        "ocrSha256": _sha256_bytes(canonical_text.encode("utf-8")),
+        "promptContractVersion": AI_VISION_PROMPT_CONTRACT_VERSION,
+        "promptContractSha256": AI_VISION_PROMPT_CONTRACT_SHA256,
+        "textSha256": _sha256_bytes(raw_text.encode("utf-8")),
+    }
+    if not raw_text or not isinstance(receipt, dict):
+        return None
+    if any(receipt.get(key) != value for key, value in required.items()):
+        return None
+    provider = receipt.get("provider")
+    model = receipt.get("model")
+    if (
+        not isinstance(provider, str)
+        or not provider.strip()
+        or len(provider) > 200
+    ):
+        return None
+    if not isinstance(model, str) or not model.strip() or len(model) > 200:
+        return None
+    try:
+        confidence = float(receipt.get("confidence"))
+        minimum_confidence = float(receipt.get("minimumAcceptedConfidence"))
+        written_at = float(receipt.get("writtenAtEpoch"))
+    except (TypeError, ValueError):
+        return None
+    if (
+        isinstance(receipt.get("confidence"), bool)
+        or isinstance(receipt.get("minimumAcceptedConfidence"), bool)
+        or isinstance(receipt.get("writtenAtEpoch"), bool)
+        or not math.isfinite(confidence)
+        or not math.isfinite(minimum_confidence)
+        or not math.isfinite(written_at)
+        or not AI_VISION_MIN_ACCEPTED_CONFIDENCE <= minimum_confidence <= 1
+        or not minimum_confidence <= confidence <= 1
+        or written_at < 0
+    ):
+        return None
+    text = normalize_text(raw_text)
+    if not text:
+        return None
+    provenance = {
+        "cacheTextPath": _display_path(path),
+        "receiptPath": _display_path(receipt_path),
+        "receiptSha256": _sha256_bytes(receipt_bytes),
+        "schemaVersion": receipt["schemaVersion"],
+        "status": receipt["status"],
+        "imageSha256": receipt["imageSha256"],
+        "inputOcrSha256": receipt["ocrSha256"],
+        "provider": provider,
+        "model": model,
+        "promptContractVersion": receipt["promptContractVersion"],
+        "promptContractSha256": receipt["promptContractSha256"],
+        "minimumAcceptedConfidence": minimum_confidence,
+        "confidence": confidence,
+        "outputTextSha256": receipt["textSha256"],
+        "writtenAtEpoch": written_at,
+    }
+    return Candidate("ai-vision", text, provenance)
+
+
+def _validated_ai_vision_text(base: Path, slide: Path) -> str | None:
+    candidate = _validated_ai_vision_candidate(base, slide)
+    return candidate.text if candidate is not None else None
+
+
 def read_candidate(source: str, base: Path, slide: Path) -> Candidate | None:
     path = text_path(base, slide)
+    if source == "ai-vision":
+        return _validated_ai_vision_candidate(base, slide)
     if not path.exists():
         return None
     text = normalize_text(path.read_text(encoding="utf-8", errors="ignore"))
     if not text:
         return None
     return Candidate(source, text)
+
+
+def select_best_candidate(candidates: list[Candidate]) -> Candidate:
+    """Select operator-verified text whenever it exists, independent of score."""
+
+    operator = [
+        candidate for candidate in candidates if candidate.source == "operator-verified"
+    ]
+    return max(operator or candidates, key=lambda candidate: candidate.score)
+
+
+def decision_input_sha256(payload: dict[str, object]) -> str:
+    return _sha256_bytes(
+        json.dumps(payload, separators=(",", ":"), sort_keys=True).encode("utf-8")
+    )
 
 
 def rapid_lines(result: list | None) -> str:
@@ -364,9 +512,9 @@ class PaddleOcrEngine(OcrEngine):
                     elif box is not None:
                         xs = [float(point[0]) for point in box]
                         ys = [float(point[1]) for point in box]
-                        x1, y1, x2, y2 = min(xs), min(ys), max(xs), max(ys)
+                        x1, y1, y2 = min(xs), min(ys), max(ys)
                     else:
-                        x1 = y1 = x2 = y2 = 0
+                        x1 = y1 = y2 = 0
                     rows.append({"x": x1, "y": y1, "h": y2 - y1, "text": str(text).strip()})
             elif isinstance(page, list):
                 for item in page:
@@ -530,9 +678,48 @@ def rapid_candidates(ocr: RapidOCR, slide: Path, *, variants: bool, deep: bool =
     return candidates, "; ".join(errors)
 
 
-def write_text(path: Path, text: str) -> None:
+def _text_bytes(text: str) -> bytes:
+    return (text.rstrip() + "\n").encode("utf-8")
+
+
+def _fsync_directory(path: Path) -> None:
+    try:
+        descriptor = os.open(path, os.O_RDONLY)
+    except OSError:
+        return
+    try:
+        os.fsync(descriptor)
+    finally:
+        os.close(descriptor)
+
+
+def atomic_write_bytes(path: Path, data: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text.rstrip() + "\n", encoding="utf-8")
+    descriptor, temporary = tempfile.mkstemp(
+        prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
+    )
+    temporary_path = Path(temporary)
+    try:
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(data)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary_path, path)
+        _fsync_directory(path.parent)
+    finally:
+        temporary_path.unlink(missing_ok=True)
+
+
+def write_text(path: Path, text: str) -> None:
+    atomic_write_bytes(path, _text_bytes(text))
+
+
+def decision_receipt_path(slide: Path) -> Path:
+    return text_path(MERGED_OCR, slide).with_suffix(".receipt.json")
+
+
+def recovery_backup_path(run_id: str, slide: Path) -> Path:
+    return RECOVERY_ROOT / run_id / slide.parent.name / f"{slide.stem}.txt"
 
 
 def write_audit_page(audit: dict, refreshed_pages: int | None = None) -> None:
@@ -550,6 +737,22 @@ def write_audit_page(audit: dict, refreshed_pages: int | None = None) -> None:
         f"- {engine}: {status}"
         for engine, status in sorted((audit.get("engineStatus") or {}).items())
     ]
+    repair = {}
+    if PROVENANCE_REPAIR_SUMMARY.is_file():
+        try:
+            candidate = json.loads(PROVENANCE_REPAIR_SUMMARY.read_text(encoding="utf-8"))
+            audit_digest = hashlib.sha256(AUDIT_PATH.read_bytes()).hexdigest()
+            if (
+                isinstance(candidate, dict)
+                and candidate.get("historicalAuditSuperseded") is True
+                and candidate.get("sourceAuditSha256") == audit_digest
+            ):
+                repair = candidate
+        except (OSError, json.JSONDecodeError):
+            repair = {}
+    run_heading = (
+        "## Historical RapidMerge Run (Superseded)" if repair else "## Latest Run"
+    )
     lines = [
         "---",
         'title: "Slide OCR RapidMerge Audit"',
@@ -562,7 +765,31 @@ def write_audit_page(audit: dict, refreshed_pages: int | None = None) -> None:
         "## What Changed",
         "Weak or suspicious slide OCR is reread with local OCR engines, image crops, and high-contrast variants, then merged against prior OCR sources. Canonical slide OCR is replaced only when the best candidate clears the score-gain threshold.",
         "",
-        "## Latest Run",
+    ]
+    if repair:
+        historical_affected = int(
+            repair.get(
+                "historicalUnreceiptedAiVisionUpdates",
+                audit.get("canonicalUpdated", 0),
+            )
+        )
+        restored = int(repair.get("restoredCanonicalFiles", 0))
+        already_matched = int(repair.get("alreadyMatchedBackupFiles", 0))
+        accepted = int(
+            repair.get("historicalAiVisionUpdatesAcceptedByCurrentPolicy", 0)
+        )
+        lines.extend(
+            [
+                "## Provenance Repair",
+                f"A historical RapidMerge run affected {historical_affected:,} canonical OCR files using AI-vision output that had no valid cache receipts. The repair restored {restored:,} canonical OCR files from their byte-exact pre-merge backups. The other {already_matched:,} files already matched their pre-merge backups byte-for-byte, so no content restoration was needed for them. The post-repair check found {int(repair.get('remainingExactUnreceiptedCopies', 0)):,} remaining exact unreceipted copies and {int(repair.get('ambiguousRecords', 0)):,} ambiguous records.",
+                "",
+                f"The old AI-vision cache and both historical audit distributions below are superseded and untrusted; they are not current trusted evidence. They are retained for auditability, but the current RapidMerge policy accepts {accepted:,} results from that run because it recorded {int(repair.get('historicalAiVisionAuditRecordedReceipts', 0)):,} current provenance receipts.",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+        run_heading,
         f"- Slide images seen: {audit.get('slidesSeen', 0):,}",
         f"- Slide OCR records processed: {audit.get('slidesProcessed', 0):,}",
         f"- Slides skipped as already clean: {audit.get('slidesSkippedPerfect', 0):,}",
@@ -576,9 +803,19 @@ def write_audit_page(audit: dict, refreshed_pages: int | None = None) -> None:
         "- Canonical backups: `raw/sources/slide-ocr-before-rapidmerge/`",
         "",
         "## Best Source Distribution",
+        *(
+            ["These are historical selections from the superseded run, not currently accepted sources.", ""]
+            if repair
+            else []
+        ),
         *(source_lines or ["- No records processed."]),
         "",
         "## Canonical Updates By Source",
+        *(
+            ["This is the superseded run's historical update count. The provenance repair described above has removed its unreceipted AI-vision content from canonical OCR.", ""]
+            if repair
+            else []
+        ),
         *(update_lines or ["- No canonical replacements in the latest run."]),
         "",
         "## Engine Status",
@@ -593,11 +830,343 @@ def write_audit_page(audit: dict, refreshed_pages: int | None = None) -> None:
         "- PaddleOCR and Surya are stronger candidates for future layout-aware OCR, but they are heavier dependencies than the current local environment provides.",
         "- Tesseract documentation emphasizes that OCR quality depends heavily on preprocessing, cropping, border handling, and skew/segmentation quality; this pass therefore improves frame preparation instead of only swapping recognizers.",
         "- RapidOCR remains useful for scene text from video frames, while the merge scorer avoids blindly replacing cleaner Tesseract text with denser but glued text.",
-    ]
+        ]
+    )
     write_text(AUDIT_PAGE, "\n".join(lines))
 
 
+def _json_bytes(payload: dict[str, object]) -> bytes:
+    return _text_bytes(
+        json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True)
+    )
+
+
+def _valid_sha256(value: object) -> bool:
+    return isinstance(value, str) and re.fullmatch(r"[0-9a-f]{64}", value) is not None
+
+
+def _record_paths(record: dict[str, object], run_id: str) -> tuple[Path, Path, Path]:
+    video_id = record.get("videoId")
+    slide_name = record.get("slide")
+    if (
+        not isinstance(video_id, str)
+        or not video_id
+        or Path(video_id).name != video_id
+        or not isinstance(slide_name, str)
+        or Path(slide_name).name != slide_name
+        or not slide_name.endswith(".jpg")
+    ):
+        raise RuntimeError("RapidMerge recovery record has an unsafe path")
+    slide = SLIDE_ASSETS / video_id / slide_name
+    return (
+        text_path(CANONICAL_OCR, slide),
+        decision_receipt_path(slide),
+        recovery_backup_path(run_id, slide),
+    )
+
+
+def recover_incomplete_publication() -> dict[str, object] | None:
+    """Roll back canonical files from an interrupted publication audit."""
+
+    if not AUDIT_PATH.is_file():
+        return None
+    try:
+        audit = json.loads(AUDIT_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if (
+        not isinstance(audit, dict)
+        or audit.get("publicationSchemaVersion") != PUBLICATION_SCHEMA_VERSION
+        or audit.get("status") not in {"publishing", "failed"}
+    ):
+        return None
+    run_id = audit.get("runId")
+    records = audit.get("records")
+    if (
+        not isinstance(run_id, str)
+        or re.fullmatch(r"[A-Za-z0-9._-]{1,100}", run_id) is None
+        or not isinstance(records, list)
+    ):
+        raise RuntimeError("RapidMerge incomplete audit is not safely recoverable")
+
+    actions: list[tuple[dict[str, object], Path, Path, Path, bytes | None]] = []
+    for raw_record in records:
+        if not isinstance(raw_record, dict) or not raw_record.get(
+            "updatedCanonicalPlanned"
+        ):
+            continue
+        canonical, receipt_path, backup = _record_paths(raw_record, run_id)
+        previous = raw_record.get("previousCanonicalSha256")
+        replacement = raw_record.get("replacementCanonicalSha256")
+        existed = raw_record.get("previousCanonicalExisted")
+        if (
+            not isinstance(existed, bool)
+            or (existed and not _valid_sha256(previous))
+            or not _valid_sha256(replacement)
+        ):
+            raise RuntimeError("RapidMerge recovery hashes are incomplete")
+        current_bytes = canonical.read_bytes() if canonical.is_file() else None
+        current_digest = _sha256_bytes(current_bytes) if current_bytes is not None else None
+        if existed:
+            if not backup.is_file():
+                raise RuntimeError(f"RapidMerge recovery backup is missing: {backup}")
+            backup_bytes = backup.read_bytes()
+            if _sha256_bytes(backup_bytes) != previous:
+                raise RuntimeError(f"RapidMerge recovery backup digest mismatch: {backup}")
+            if current_digest not in {previous, replacement}:
+                raise RuntimeError(
+                    f"RapidMerge canonical file diverged during recovery: {canonical}"
+                )
+        else:
+            backup_bytes = None
+            if current_digest not in {None, replacement}:
+                raise RuntimeError(
+                    f"RapidMerge new canonical file diverged during recovery: {canonical}"
+                )
+        actions.append((raw_record, canonical, receipt_path, backup, backup_bytes))
+
+    restored = 0
+    for record, canonical, receipt_path, _backup, backup_bytes in actions:
+        replacement = record["replacementCanonicalSha256"]
+        current_bytes = canonical.read_bytes() if canonical.is_file() else None
+        if current_bytes is not None and _sha256_bytes(current_bytes) == replacement:
+            if backup_bytes is None:
+                canonical.unlink(missing_ok=True)
+                _fsync_directory(canonical.parent)
+            else:
+                atomic_write_bytes(canonical, backup_bytes)
+            restored += 1
+        if receipt_path.is_file():
+            try:
+                receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                receipt = {}
+            if isinstance(receipt, dict) and receipt.get("runId") == run_id:
+                receipt["status"] = "rolled_back"
+                receipt["rolledBackAtEpoch"] = time.time()
+                atomic_write_bytes(receipt_path, _json_bytes(receipt))
+        record["canonicalPublicationStatus"] = "rolled_back"
+        record["updatedCanonical"] = False
+
+    audit["status"] = "rolled_back"
+    audit["canonicalUpdated"] = 0
+    audit["recovery"] = {
+        "restoredCanonicalFiles": restored,
+        "completedAtEpoch": time.time(),
+    }
+    atomic_write_bytes(AUDIT_PATH, _json_bytes(audit))
+    return audit
+
+
+def _decision_receipt(
+    audit: dict[str, object], record: dict[str, object], *, status: str
+) -> dict[str, object]:
+    receipt = {
+        "schemaVersion": RECEIPT_SCHEMA_VERSION,
+        "status": status,
+        "runId": audit["runId"],
+        "publicationPlanSha256": audit["publicationPlanSha256"],
+        "selectionPolicyVersion": SELECTION_POLICY_VERSION,
+        "image": record["image"],
+        "imageSha256": record["imageSha256"],
+        "decisionInputSha256": record["decisionInputSha256"],
+        "selectedSource": record["bestSource"],
+        "selectedTextSha256": record["selectedTextSha256"],
+        "mergedPath": record["mergedPath"],
+        "mergedSha256": record["selectedTextSha256"],
+        "canonicalPath": record["canonicalPath"],
+        "previousCanonicalExisted": record["previousCanonicalExisted"],
+        "previousCanonicalSha256": record["previousCanonicalSha256"],
+        "replacementCanonicalSha256": record["replacementCanonicalSha256"],
+        "updatedCanonicalPlanned": record["updatedCanonicalPlanned"],
+        "recoveryBackupPath": record["recoveryBackupPath"],
+        "recoveryBackupSha256": record["recoveryBackupSha256"],
+    }
+    if record.get("aiVisionProvenance"):
+        receipt["aiVisionProvenance"] = record["aiVisionProvenance"]
+    return receipt
+
+
+def _validate_decision_sources(decisions: list[dict[str, object]]) -> None:
+    sources = dict(SOURCE_DIRS)
+    operator_base = sources.get("operator-verified")
+    ai_base = sources.get("ai-vision")
+    for decision in decisions:
+        record = decision["record"]
+        slide = decision["slide"]
+        if _sha256_bytes(slide.read_bytes()) != record["imageSha256"]:
+            raise RuntimeError(f"RapidMerge image changed before publication: {slide}")
+        if record["bestSource"] == "operator-verified":
+            if operator_base is None:
+                raise RuntimeError("RapidMerge operator source directory is unavailable")
+            operator = read_candidate("operator-verified", operator_base, slide)
+            if (
+                operator is None
+                or _sha256_bytes(operator.text.encode("utf-8"))
+                != record["selectedTextSha256"]
+            ):
+                raise RuntimeError(
+                    f"RapidMerge operator text changed before publication: {slide}"
+                )
+        if record["bestSource"] == "ai-vision":
+            if ai_base is None:
+                raise RuntimeError("RapidMerge AI source directory is unavailable")
+            candidate = _validated_ai_vision_candidate(ai_base, slide)
+            if (
+                candidate is None
+                or candidate.provenance != record.get("aiVisionProvenance")
+                or _sha256_bytes(candidate.text.encode("utf-8"))
+                != record["selectedTextSha256"]
+            ):
+                raise RuntimeError(
+                    f"RapidMerge AI receipt changed before publication: {slide}"
+                )
+
+
+def publish_rapidmerge(
+    audit: dict[str, object],
+    decisions: list[dict[str, object]],
+    args: argparse.Namespace,
+) -> None:
+    """Publish receipts before canonical replacements and finalize the audit last."""
+
+    _validate_decision_sources(decisions)
+    for decision in decisions:
+        record = decision["record"]
+        old_bytes = decision["old_bytes"]
+        canonical = decision["canonical_path"]
+        current = canonical.read_bytes() if canonical.is_file() else None
+        if current != old_bytes:
+            raise RuntimeError(f"RapidMerge canonical input changed before publication: {canonical}")
+        recovery = decision["recovery_path"]
+        if old_bytes is not None:
+            atomic_write_bytes(recovery, old_bytes)
+            if args.backup:
+                legacy_backup = (
+                    ROOT
+                    / "raw"
+                    / "sources"
+                    / "slide-ocr-before-rapidmerge"
+                    / decision["slide"].parent.name
+                    / f"{decision['slide'].stem}.txt"
+                )
+                if not legacy_backup.exists():
+                    atomic_write_bytes(legacy_backup, old_bytes)
+        record["recoveryBackupPath"] = _display_path(recovery)
+        record["recoveryBackupSha256"] = (
+            _sha256_bytes(old_bytes) if old_bytes is not None else None
+        )
+
+    plan_manifest = [
+        {
+            "image": decision["record"]["image"],
+            "decisionInputSha256": decision["record"]["decisionInputSha256"],
+            "updatedCanonicalPlanned": decision["record"]["updatedCanonicalPlanned"],
+            "previousCanonicalSha256": decision["record"]["previousCanonicalSha256"],
+            "replacementCanonicalSha256": decision["record"]["replacementCanonicalSha256"],
+            "recoveryBackupSha256": decision["record"]["recoveryBackupSha256"],
+        }
+        for decision in decisions
+    ]
+    audit["publicationPlanSha256"] = decision_input_sha256(
+        {
+            "runId": audit["runId"],
+            "selectionPolicyVersion": SELECTION_POLICY_VERSION,
+            "records": plan_manifest,
+        }
+    )
+    audit["status"] = "publishing"
+    atomic_write_bytes(AUDIT_PATH, _json_bytes(audit))
+
+    try:
+        receipt_manifest: list[dict[str, str]] = []
+        canonical_manifest: list[dict[str, str]] = []
+        for decision in decisions:
+            record = decision["record"]
+            merged_path = decision["merged_path"]
+            receipt_path = decision["receipt_path"]
+            prepared = _decision_receipt(audit, record, status="prepared")
+            atomic_write_bytes(receipt_path, _json_bytes(prepared))
+            write_text(merged_path, decision["best_text"])
+            if decision["updated"]:
+                canonical = decision["canonical_path"]
+                current = canonical.read_bytes() if canonical.is_file() else None
+                if current != decision["old_bytes"]:
+                    raise RuntimeError(
+                        f"RapidMerge canonical changed during publication: {canonical}"
+                    )
+                atomic_write_bytes(canonical, decision["new_bytes"])
+            committed_receipt = _decision_receipt(audit, record, status="committed")
+            committed_receipt["committedAtEpoch"] = time.time()
+            receipt_bytes = _json_bytes(committed_receipt)
+            atomic_write_bytes(receipt_path, receipt_bytes)
+            record["canonicalPublicationStatus"] = "committed"
+            record["updatedCanonical"] = bool(decision["updated"])
+            record["decisionReceiptSha256"] = _sha256_bytes(receipt_bytes)
+            receipt_manifest.append(
+                {
+                    "path": _display_path(receipt_path),
+                    "sha256": record["decisionReceiptSha256"],
+                }
+            )
+            if decision["updated"]:
+                canonical_manifest.append(
+                    {
+                        "path": record["canonicalPath"],
+                        "sha256": record["replacementCanonicalSha256"],
+                    }
+                )
+
+        for decision in decisions:
+            record = decision["record"]
+            merged_bytes = decision["merged_path"].read_bytes()
+            if _sha256_bytes(merged_bytes.rstrip(b"\n")) != record["selectedTextSha256"]:
+                raise RuntimeError(
+                    f"RapidMerge merged output digest mismatch: {decision['merged_path']}"
+                )
+            receipt_bytes = decision["receipt_path"].read_bytes()
+            if _sha256_bytes(receipt_bytes) != record["decisionReceiptSha256"]:
+                raise RuntimeError(
+                    f"RapidMerge receipt digest mismatch: {decision['receipt_path']}"
+                )
+            if decision["updated"] and _sha256_bytes(
+                decision["canonical_path"].read_bytes()
+            ) != record["replacementCanonicalSha256"]:
+                raise RuntimeError(
+                    f"RapidMerge canonical output digest mismatch: {decision['canonical_path']}"
+                )
+
+        audit["decisionReceiptManifest"] = sorted(
+            receipt_manifest, key=lambda item: item["path"]
+        )
+        audit["decisionReceiptManifestSha256"] = decision_input_sha256(
+            {"receipts": audit["decisionReceiptManifest"]}
+        )
+        audit["canonicalManifest"] = sorted(
+            canonical_manifest, key=lambda item: item["path"]
+        )
+        audit["canonicalManifestSha256"] = decision_input_sha256(
+            {"canonical": audit["canonicalManifest"]}
+        )
+        audit["canonicalUpdated"] = len(canonical_manifest)
+        audit["finishedAtEpoch"] = time.time()
+        audit["elapsedSeconds"] = round(
+            audit["finishedAtEpoch"] - audit["startedAtEpoch"], 2
+        )
+        audit["status"] = "succeeded"
+        atomic_write_bytes(AUDIT_PATH, _json_bytes(audit))
+    except BaseException:
+        try:
+            recover_incomplete_publication()
+        except Exception as recovery_error:
+            raise RuntimeError(
+                "RapidMerge publication failed and automatic recovery is blocked"
+            ) from recovery_error
+        raise
+
+
 def improve(args: argparse.Namespace) -> int:
+    recovered = recover_incomplete_publication()
     slides = sorted(SLIDE_ASSETS.glob("*/*.jpg"))
     if args.limit:
         slides = slides[: args.limit]
@@ -619,6 +1188,10 @@ def improve(args: argparse.Namespace) -> int:
                 engine_status[engine.name] = f"init_failed: {exc!r}"
     audit = {
         "generatedBy": "scripts/improve_slide_ocr_rapidmerge.py",
+        "publicationSchemaVersion": PUBLICATION_SCHEMA_VERSION,
+        "selectionPolicyVersion": SELECTION_POLICY_VERSION,
+        "status": "planning",
+        "runId": f"rapidmerge-{int(time.time() * 1000)}-{os.getpid()}",
         "startedAtEpoch": time.time(),
         "mode": "all" if args.all else "weak-only",
         "skipPerfect": args.skip_perfect,
@@ -630,17 +1203,37 @@ def improve(args: argparse.Namespace) -> int:
         "manualReviewNeeded": 0,
         "records": [],
     }
+    if recovered is not None:
+        audit["recoveredPriorRunId"] = recovered.get("runId")
+    decisions: list[dict[str, object]] = []
+    source_directories = dict(SOURCE_DIRS)
     for index, slide in enumerate(slides, 1):
         current = read_candidate("canonical", CANONICAL_OCR, slide) or Candidate("canonical", "")
+        operator_base = source_directories.get("operator-verified")
+        operator = (
+            read_candidate("operator-verified", operator_base, slide)
+            if operator_base is not None
+            else None
+        )
         perfect = is_perfect_enough(current.text)
-        should_process = args.all or is_weak(current.text)
-        if args.skip_perfect and perfect:
+        should_process = args.all or is_weak(current.text) or operator is not None
+        if args.skip_perfect and perfect and operator is None:
             audit["slidesSkippedPerfect"] += 1
             continue
         if not should_process:
             continue
         old_score = current.score
-        candidates = [candidate for name, base in SOURCE_DIRS if (candidate := read_candidate(name, base, slide))]
+        candidates = [
+            candidate
+            for name, base in SOURCE_DIRS
+            if (
+                candidate := (
+                    operator
+                    if name == "operator-verified"
+                    else read_candidate(name, base, slide)
+                )
+            )
+        ]
         engine_errors = {}
         if engines:
             use_variants = (not args.no_variants) and (args.deep_variants or old_score <= args.variant_max_old_score)
@@ -650,10 +1243,13 @@ def improve(args: argparse.Namespace) -> int:
             use_variants = False
         if not candidates:
             continue
-        best = max(candidates, key=lambda item: item.score)
+        best = select_best_candidate(candidates)
         merged_path = text_path(MERGED_OCR, slide)
-        write_text(merged_path, best.text)
-        updated = best.score > old_score + args.min_gain and best.text.strip() != current.text.strip()
+        text_changed = best.text.strip() != current.text.strip()
+        updated = text_changed and (
+            best.source == "operator-verified"
+            or best.score > old_score + args.min_gain
+        )
         manual_needed = (
             args.log_manual_queue
             and best.source != "operator-verified"
@@ -662,46 +1258,109 @@ def improve(args: argparse.Namespace) -> int:
         )
         if manual_needed:
             audit["manualReviewNeeded"] += 1
-        if updated and best.text.strip():
-            canonical_path = text_path(CANONICAL_OCR, slide)
-            if args.backup and canonical_path.exists():
-                backup = ROOT / "raw" / "sources" / "slide-ocr-before-rapidmerge" / slide.parent.name / f"{slide.stem}.txt"
-                backup.parent.mkdir(parents=True, exist_ok=True)
-                if not backup.exists():
-                    shutil.copy2(canonical_path, backup)
-            write_text(canonical_path, best.text)
-            audit["canonicalUpdated"] += 1
+        canonical_path = text_path(CANONICAL_OCR, slide)
+        old_bytes = canonical_path.read_bytes() if canonical_path.is_file() else None
+        new_bytes = _text_bytes(best.text)
+        image_sha256 = _sha256_bytes(slide.read_bytes())
+        selected_text_sha256 = _sha256_bytes(best.text.encode("utf-8"))
+        ai_provenance = best.provenance if best.source == "ai-vision" else None
+        decision_inputs = {
+            "selectionPolicyVersion": SELECTION_POLICY_VERSION,
+            "imageSha256": image_sha256,
+            "previousCanonicalSha256": (
+                _sha256_bytes(old_bytes) if old_bytes is not None else None
+            ),
+            "selectedSource": best.source,
+            "selectedTextSha256": selected_text_sha256,
+            "minimumScoreGain": float(args.min_gain),
+            "aiVisionReceiptSha256": (
+                ai_provenance.get("receiptSha256") if ai_provenance else None
+            ),
+            "aiVisionInputOcrSha256": (
+                ai_provenance.get("inputOcrSha256") if ai_provenance else None
+            ),
+        }
+        receipt_path = decision_receipt_path(slide)
+        recovery_path = recovery_backup_path(audit["runId"], slide)
+        record = {
+            "videoId": slide.parent.name,
+            "slide": slide.name,
+            "image": str(slide.relative_to(ROOT)),
+            "imageSha256": image_sha256,
+            "oldSource": current.source,
+            "oldWords": len(current.words),
+            "oldScore": round(old_score, 2),
+            "previousCanonicalExisted": old_bytes is not None,
+            "previousCanonicalSha256": (
+                _sha256_bytes(old_bytes) if old_bytes is not None else None
+            ),
+            "perfectBefore": perfect,
+            "variantReread": use_variants,
+            "bestSource": best.source,
+            "bestWords": len(best.words),
+            "bestScore": round(best.score, 2),
+            "selectedTextSha256": selected_text_sha256,
+            "replacementCanonicalSha256": _sha256_bytes(new_bytes),
+            "decisionInputs": decision_inputs,
+            "decisionInputSha256": decision_input_sha256(decision_inputs),
+            "aiVisionProvenance": ai_provenance,
+            "updatedCanonicalPlanned": updated,
+            "updatedCanonical": False,
+            "canonicalPublicationStatus": "planned" if updated else "not_required",
+            "canonicalPath": _display_path(canonical_path),
+            "mergedPath": _display_path(merged_path),
+            "decisionReceiptPath": _display_path(receipt_path),
+            "recoveryBackupPath": _display_path(recovery_path),
+            "recoveryBackupSha256": (
+                _sha256_bytes(old_bytes) if old_bytes is not None else None
+            ),
+            "manualReviewNeeded": manual_needed,
+            "engineErrors": engine_errors,
+            "preview": best.text[:260],
+        }
         audit["slidesProcessed"] += 1
-        audit["records"].append(
+        audit["records"].append(record)
+        decisions.append(
             {
-                "videoId": slide.parent.name,
-                "slide": slide.name,
-                "image": str(slide.relative_to(ROOT)),
-                "oldSource": current.source,
-                "oldWords": len(current.words),
-                "oldScore": round(old_score, 2),
-                "perfectBefore": perfect,
-                "variantReread": use_variants,
-                "bestSource": best.source,
-                "bestWords": len(best.words),
-                "bestScore": round(best.score, 2),
-                "updatedCanonical": updated,
-                "manualReviewNeeded": manual_needed,
-                "engineErrors": engine_errors,
-                "preview": best.text[:260],
+                "record": record,
+                "slide": slide,
+                "best_text": best.text,
+                "merged_path": merged_path,
+                "receipt_path": receipt_path,
+                "canonical_path": canonical_path,
+                "recovery_path": recovery_path,
+                "old_bytes": old_bytes,
+                "new_bytes": new_bytes,
+                "updated": updated,
             }
         )
         if args.progress and audit["slidesProcessed"] % args.progress == 0:
-            print(json.dumps({"processed": audit["slidesProcessed"], "updated": audit["canonicalUpdated"], "at": str(slide.relative_to(ROOT))}))
-    audit["finishedAtEpoch"] = time.time()
-    audit["elapsedSeconds"] = round(audit["finishedAtEpoch"] - audit["startedAtEpoch"], 2)
-    AUDIT_PATH.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            print(
+                json.dumps(
+                    {
+                        "processed": audit["slidesProcessed"],
+                        "planned_updates": sum(
+                            bool(item["updated"]) for item in decisions
+                        ),
+                        "at": str(slide.relative_to(ROOT)),
+                    }
+                )
+            )
     if args.internal_eval_log:
         INTERNAL_LOG_DIR.mkdir(parents=True, exist_ok=True)
         internal = {
             "note": "Internal, uncommitted operator/tool comparison log. Manual review entries are a queue for human correction, not public wiki evidence.",
             "generatedAtEpoch": time.time(),
-            "toolRun": {key: audit[key] for key in ["slidesSeen", "slidesProcessed", "slidesSkippedPerfect", "canonicalUpdated", "manualReviewNeeded", "engineStatus"]},
+            "toolRun": {
+                key: audit[key]
+                for key in [
+                    "slidesSeen",
+                    "slidesProcessed",
+                    "slidesSkippedPerfect",
+                    "manualReviewNeeded",
+                    "engineStatus",
+                ]
+            },
             "manualQueue": [
                 row
                 for row in audit["records"]
@@ -709,8 +1368,9 @@ def improve(args: argparse.Namespace) -> int:
             ][: args.internal_eval_limit],
         }
         path = INTERNAL_LOG_DIR / f"slide-ocr-eval-{int(time.time())}.json"
-        path.write_text(json.dumps(internal, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        atomic_write_bytes(path, _json_bytes(internal))
         audit["internalEvalLog"] = str(path.relative_to(ROOT))
+    publish_rapidmerge(audit, decisions, args)
     write_audit_page(audit)
     print(json.dumps({k: audit[k] for k in ["slidesSeen", "slidesProcessed", "canonicalUpdated", "elapsedSeconds"]}, sort_keys=True))
     return 0

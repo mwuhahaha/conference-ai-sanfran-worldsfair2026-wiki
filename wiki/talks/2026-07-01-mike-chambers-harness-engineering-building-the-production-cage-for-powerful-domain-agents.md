@@ -68,9 +68,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-HT4l0DeP69I]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-HT4l0DeP69I`
-- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/HT4l0DeP69I/slide-001.jpg]]
-![[assets/dense-slides/HT4l0DeP69I/slide-002.jpg]]
+- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — slide evidence page.
 - Additional slide evidence: [[youtube-HT4l0DeP69I-slides|Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]], [[youtube-HT4l0DeP69I-reconstructed-slides|Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]]
 - Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
 

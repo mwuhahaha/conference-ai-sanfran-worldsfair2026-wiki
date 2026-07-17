@@ -5,6 +5,19 @@ aliases: ["Neo4j"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Track 2", "Graphs", "AI in Finance"]
 scheduleRooms: ["Track 2", "Track 5", "Track 3"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:46c1f6aede3cf9870e55d1a9834892eb3713a58550c7dd64477a30a92704085b
+  subjectId: tool:neo4j
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:360dfcfe57cad31b63fe70df33ffae94bb17335aab7ac1d3a2bb3461c967d0de
 ---
 
 # Neo4j

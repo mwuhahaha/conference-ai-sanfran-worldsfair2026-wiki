@@ -19,18 +19,13 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/CDqzWpwkSls/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CDqzWpwkSls/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> AIE 2026
+> .duolingo
+> AIE2026
 > the human in your loop isn't thinking
-> build AI systems for discernment, not approval
-> angel ortmann lee
-
-Classification audit: `raw/sources/slide-ai-classification/slides/CDqzWpwkSls/audit.json`
+> buildAl systemsfor discernment,notapproval
+> angelortmann lee
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

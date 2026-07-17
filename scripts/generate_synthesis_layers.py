@@ -226,7 +226,7 @@ PLAYBOOK_PAGES = [
             "Write the result back as an evaluation page with confidence and open questions.",
         ],
         "sources": [
-            ("tools", "Tool index"),
+            ("tools/index", "Tool index"),
             ("agent-evaluations", "Topic synthesis"),
             ("coding-agents", "Topic synthesis"),
             ("ai-sandboxes", "Topic synthesis"),

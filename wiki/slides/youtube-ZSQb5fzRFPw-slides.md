@@ -121,12 +121,12 @@ OCR text:
 
 > pa :
 > World's Fair
-> 
+>
 > Reco —
 > OTRO INNS Kood
 > trust the nn
 > nraeCUP : .
-> 
+>
 > TRACK 7 *« JULY 1, 2026
 > eee Computer Use
 
@@ -141,7 +141,7 @@ OCR text:
 > | im t= (rt
 > a | | te hh aoe, ee
 > ba Patera eae ae
-> 
+>
 > TRACK 7 * JULY 1, 2026
 > Computer Use
 

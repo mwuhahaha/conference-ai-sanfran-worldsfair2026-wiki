@@ -47,12 +47,12 @@ OCR text:
 > Tne Gas
 > -
 > ~ Saat PSatn ire ae
-> 
+>
 > ee — le Fes Zee te yin =
 > eT = mr Tih ey Teel
-> 
+>
 > a Disrespecter
-> 
+>
 > fare 3 Seat tee ro | ; =
 > | Caegece ] Cond
 
@@ -73,9 +73,12 @@ OCR text:
 
 OCR text:
 
-> The Evolution of the AI Engineer (ideal)
-> MLE AIE SWE
-> first time
+> The Evolution of the Al Engineer (ideal)
+> MLE
+> AIE
+> SWE
+> lesi
+> time
 > compute
 
 ![[assets/slides/5N33E9tC400/slide-005.jpg]]
@@ -137,10 +140,11 @@ OCR text:
 
 OCR text:
 
-> “2025 is the year of
-> agents”
-> AGENT ENGINEERING
-> HTTPS://AI.ENGINEER
+> AIE
+> 2025 is the year of
+> agents
+> AGENTENGINEERING
+> HTTPS:I/AI.ENGINEER
 
 ![[assets/slides/5N33E9tC400/slide-009.jpg]]
 
@@ -173,10 +177,10 @@ OCR text:
 > Sear a ee ame ery ace eee ae ee Ce
 > Processes AVUTG era a ros
 > Completion
-> 
+>
 > et ae ar ee ee ee re ce a
 > CS Ca cS aeee a or OAc ee Oe ee ed
-> 
+>
 > | eee aoe rrr eas en So ast a BPM See
 
 ![[assets/slides/5N33E9tC400/slide-011.jpg]]
@@ -235,13 +239,11 @@ OCR text:
 
 > RL Finetuning
 > Preference fine-tuning
-> 10:35AM - 10:55AM
-> Agent Engineering
-> Room: TimesCenter Theater
-> What RL Means for Agents
-> See More Details
-> Will Brown
-> Researcher Morgan Stanley
+> WVVSOL-WYC0
+> Agent Engineeing
+> RoomTimesCener Thecte
+> WhatRLMeansforAgents
+> See More Detoils
 
 ![[assets/slides/5N33E9tC400/slide-015.jpg]]
 
@@ -283,11 +285,11 @@ OCR text:
 > al .
 > - n #
 > aq! a ‘ , .
-> 
+>
 > , an : .
 > ee __ : ri . . A
 > SE aS nna ‘ sas Ene aeneene ee
-> 
+>
 > a
 > = + a a a
 > | h j
@@ -300,10 +302,15 @@ OCR text:
 
 OCR text:
 
-> The Evolution of the AI Engineer (ideal)
-> MLE AIE SWE
-> fixed time compute inference time compute reasoning
-> models agents software
+> . (eee ae | ts »
+> , IGN ASOITIOLLSRT MOPGM UM MIU OG mnreceni ey (
+> —- Vn en | SC ro
+> asso ] «ae F ee : |
+> - 7 Sra Aiea
+> | | | | | nN :
+> J! Yas
+> , |e Fe
+> ; - “4 ry
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

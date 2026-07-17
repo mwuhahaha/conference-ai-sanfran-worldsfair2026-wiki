@@ -6,6 +6,19 @@ company: "Datacurve"
 linkedin: "https://www.linkedin.com/in/serena-ge-4583731b4/"
 twitter: "https://x.com/serenaa_ge"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dc1414d74c91050a89901a751370332ce6d28da720e3b181e8d8217166d8d927
+  subjectId: person:serena-ge
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5369eb3043c2610969cf7639ae115e07ee0beaf55ae2ac2dd701e914862b4117
 ---
 # Serena Ge
 

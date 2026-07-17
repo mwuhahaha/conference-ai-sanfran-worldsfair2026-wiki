@@ -69,17 +69,17 @@ OCR text:
 > ROS Co t
 > Oy, 7 2 7 . a]
 > PRESENTED BY oy aoa 1S King Bolton
-> 
+>
 > | Microsoft = Leen Cnr PanrEd ; 3
-> 
+>
 > ; te Ls ad
 > re Vi ire ke eee ~
-> 
+>
 > Jun 2025 F ;
-> 
+>
 > a
 > - atlan
-> 
+>
 > . Context Engineering
 
 ![[assets/slides/8G_1-3IO4ZQ/slide-006.jpg]]
@@ -111,9 +111,9 @@ OCR text:
 OCR text:
 
 > atlar
-> 
+>
 > ed
-> 
+>
 > ore Fair |
 
 ![[assets/slides/8G_1-3IO4ZQ/slide-009.jpg]]

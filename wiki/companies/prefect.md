@@ -3,6 +3,19 @@ title: "Prefect"
 category: "companies"
 aliases: ["Prefect"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:11c2d2a04bde0260591d43729742f9f992cbee16331ca8f3f10f3c9f319926b3
+  subjectId: company:prefect
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1e66e807ade244be2245fa2625481e16e56fcc07e8d47370f1ba0a43d5d6c34e
 ---
 # Prefect
 

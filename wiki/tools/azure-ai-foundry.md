@@ -5,6 +5,18 @@ aliases: ["Azure AI Foundry", "Microsoft Foundry"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Track M", "Workshops Day 1"]
 scheduleRooms: ["Track M", "Track 4"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ca3e5fcc72cb9042adf0cf28acda20fe0913027b51c6e0fd113692176bf78aea
+  subjectId: tool:azure-ai-foundry
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:50738245653125155dce462f35665d1145f44bb2c9e6c4ee9d31bcc06341abe9
 ---
 
 # Azure AI Foundry

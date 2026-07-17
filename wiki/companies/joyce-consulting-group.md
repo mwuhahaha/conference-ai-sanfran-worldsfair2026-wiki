@@ -3,6 +3,19 @@ title: "Joyce Consulting Group"
 category: "companies"
 aliases: ["Joyce Consulting Group"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5806fa6d3cb60e1556b5aa251fd3516093d3b1161c47794f1c6efee8c48401c4
+  subjectId: company:joyce-consulting-group
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:32855390fdc4595ea9f7eb93a322f43ae72ef4343a1ba8cecf7a84001ff3f782
 ---
 # Joyce Consulting Group
 

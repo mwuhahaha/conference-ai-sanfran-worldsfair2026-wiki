@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/christopher-manning-011575"
 twitter: "https://x.com/chrmanning"
 website: "https://nlp.stanford.edu/~manning/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:811b27453ae2bcdbc13006257c5f7611038c9cfb7be5b686219a4998fca98cef
+  subjectId: person:christopher-manning
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c45f63591b0072c11fe9722c7eecdc6c271b1cd3c56033fb9b1ccec8b6cd117a
 ---
 # Christopher Manning
 

@@ -7,6 +7,19 @@ linkedin: "https://uk.linkedin.com/in/rosstaylor90"
 twitter: "https://x.com/rosstaylor90"
 website: "https://rossjtaylor.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c2408d77e3c95bef7486df273b4a3cb7580db69fed63414f0a931713fdbd1c65
+  subjectId: person:ross-taylor
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4f4aaef2d0301c79a182c9fbb87a27d5455b765c770e3f8798cd78bc1f6efce7
 ---
 # Ross Taylor
 

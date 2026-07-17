@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["MiniMax"]
 website: "https://www.minimax.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4102ff3890bae2309fabd72b4760a14815f7865ae0ff0ae7fc1422c556ee30e8
+  subjectId: company:minimax
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1307c9c8e06223fdf232eb5ca526fc0cd7f9abde0d1ab0a88ef4622b6f2c584a
 ---
 # MiniMax
 
@@ -36,8 +49,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it|Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
 - Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

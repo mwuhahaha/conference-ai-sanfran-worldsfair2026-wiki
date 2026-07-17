@@ -5,6 +5,19 @@ role: "Senior Software Engineer/Inference Engineer"
 company: "AI21"
 linkedin: "https://www.linkedin.com/in/joseph-asaf-gardin/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:572464eee740d4693970fe2e9bf24ac36c1606484a8c1bb747b62522294f5f5b
+  subjectId: person:asaf-gardin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:99818062f008e422b53627e2ccc5f2cf961b1cb30f0940ef27cecda42b691840
 ---
 # Asaf Gardin
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story|Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story]]
 
 ### Media Signals
-- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
 - Evidence links for `youtube-Ywl4LsvHKzU` (supporting context only): [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

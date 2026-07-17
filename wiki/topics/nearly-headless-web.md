@@ -4,6 +4,18 @@ category: "topics"
 sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:24d79a9a539d2fea1872d544e2d714c2239f542ec50b8d1de4421e4d9c8534ca
+  subjectId: concept:nearly-headless-web
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:2303278ade224d84620778ee5ff78ecf1d4193cda0fce5659fc74ca499a924e1
 ---
 # Nearly Headless Web
 

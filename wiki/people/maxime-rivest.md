@@ -8,6 +8,19 @@ twitter: "https://x.com/MaximeRivest"
 website: "https://maximerivest.com"
 blog: "https://maximerivest.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3c533adb5c0e8bf9b2c461e85cef1719b2e32396afd341a260df72366b1e2692
+  subjectId: person:maxime-rivest
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:efb39c2b1b283f422f3548507ac3f7dd7dec1ec521bf9332415a482023a8dc87
 ---
 # Maxime Rivest
 

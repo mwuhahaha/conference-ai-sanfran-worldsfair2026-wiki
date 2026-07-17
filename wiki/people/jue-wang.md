@@ -6,6 +6,19 @@ company: "Together AI"
 twitter: "https://x.com/JueWANG26088228"
 website: "https://juewang.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:19ae1e8a599ca12076c20b5f5e9d37c8bda0003e120d4db1f576e0f50e305a43
+  subjectId: person:jue-wang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:aebbb555b50ebeb9ee5074246889fcf216b92d9f0c748886a0b31452232610bc
 ---
 # Jue Wang
 

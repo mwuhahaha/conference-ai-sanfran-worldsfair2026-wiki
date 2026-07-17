@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-04T08:21:12.782Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e87c84a043c1301336e892414aa0ac35746635ef0d2276b3b58ca325897aecba
+  subjectId: person:stefania-druga
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3f9232626790435b3e524c91e85098bf8e8b216c1b85c04d9efa1f2e6ff9ae0d
 ---
 # Stefania Druga
 
@@ -35,5 +48,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
 
 ### Media Signals
-- `youtube-wNH3q9pqn0U` — source page linked; role: supporting context only.
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
 - Evidence links for `youtube-wNH3q9pqn0U` (supporting context only): [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

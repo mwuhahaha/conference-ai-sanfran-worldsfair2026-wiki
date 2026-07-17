@@ -77,9 +77,12 @@ OCR text:
 
 OCR text:
 
-> AIE
-> Microsoft
-> smol ai
+> at
+> WW eee
+> \ Wt. 2 > hh |
+> Sy lO
+> | ® ° Sg Daas )
+> | | a Microsoft Ssmmoln
 
 ![[assets/slides/HT4l0DeP69I/slide-005.jpg]]
 
@@ -163,11 +166,11 @@ OCR text:
 
 OCR text:
 
-> AIE
 > Agent
-> Model
-> Prompt
-> aws
+> , Mode! |
+> | a :
+> 7 aws
+> |
 
 ![[assets/slides/HT4l0DeP69I/slide-009.jpg]]
 
@@ -175,6 +178,9 @@ OCR text:
 
 > AIE
 > LLM
+> Microsoft
+> smol?
+> WordsFair
 
 ![[assets/slides/HT4l0DeP69I/slide-010.jpg]]
 
@@ -322,8 +328,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> «6S rea . te
+> ae a» i
+> | World's Fair |
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

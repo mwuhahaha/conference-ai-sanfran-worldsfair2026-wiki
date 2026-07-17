@@ -8,6 +8,19 @@ twitter: "https://x.com/kentcdodds"
 website: "https://kentcdodds.com"
 blog: "https://kentcdodds.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9dc6efc57e993b24f7be6e4765452c22f17eaf949abc9c4dab65e896ca36a5db
+  subjectId: person:kent-c-dodds
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c1ef54f530aaa9e04cf6a74ba011c463fcf0d40bfbd3c00d2afab2090b5fb901
 ---
 # Kent C. Dodds
 
@@ -36,6 +49,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2|Build the Right Thing: Product Engineering for Software Developers — Part 2]]
 
 ### Media Signals
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
+- `youtube-EyZiAp0pelw` — source page linked; role: supporting context only.
 - Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]

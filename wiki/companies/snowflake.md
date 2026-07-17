@@ -3,6 +3,19 @@ title: "Snowflake"
 category: "companies"
 aliases: ["Snowflake"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6277b34d70695a27d88a8d8fe50b51caa04c5794c90af61b111c8db59d5a7be3
+  subjectId: company:snowflake
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:89ae4bee9c432491d790c9426ec5de90d19d4efa70f962fb669202abf4b95c8f
 ---
 # Snowflake
 

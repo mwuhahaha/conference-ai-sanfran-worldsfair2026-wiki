@@ -5,6 +5,19 @@ aliases: ["Spin"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Topic synthesis"]
 scheduleTracks: ["Expo Stage 2"]
 scheduleRooms: ["Expo Stage 1 NE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4bee66b5284d4098fa3c4b6415d2580bb4c260d6e9dc8076dcbb4b6ed32abce1
+  subjectId: tool:spin
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:55278773c7e58b96a3d5be7d70a33badccbb5cb5bfad9fd2a731aa1be2e3d034
 ---
 
 # Spin

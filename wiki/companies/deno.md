@@ -3,6 +3,19 @@ title: "Deno"
 category: "companies"
 aliases: ["Deno"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:70074709c023a513daaeadee04178be66e7eb51a55419478763f02a80471939c
+  subjectId: company:deno
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6f2849d9b411a0a492611d48540dfe1dcefbf06239d8a6999937f5ccba16cc85
 ---
 # Deno
 

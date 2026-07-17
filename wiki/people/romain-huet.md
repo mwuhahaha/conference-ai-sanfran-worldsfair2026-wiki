@@ -6,6 +6,19 @@ company: "OpenAI"
 linkedin: "https://www.linkedin.com/in/romainhuet/"
 twitter: "https://x.com/romainhuet"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf6cf52db1ad4b8fd87cb354b44b7c002f15f69751bfb1f3a0975fd356f2193d
+  subjectId: person:romain-huet
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:50462331edb34fc6a7405f0581a4bb246abef06195ab2af6a3b08d69bdb651b0
 ---
 # Romain Huet
 
@@ -30,5 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 
 ### Media Signals
-- `youtube-yJHw33cVeHo` — source page linked; role: supporting context only.
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
 - Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]

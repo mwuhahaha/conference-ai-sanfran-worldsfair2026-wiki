@@ -6,6 +6,19 @@ company: "Navan"
 linkedin: "https://www.linkedin.com/in/robertomilev/"
 website: "https://navan.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d14925d5ea0d623e0c09cb1a7520020410e84f4645696c771464d7f61f3ec865
+  subjectId: person:roberto-milev
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:11298b61bac3df05b6edcd13340398940475567b0a03f8cbdd40676dc6d84714
 ---
 # Roberto Milev
 

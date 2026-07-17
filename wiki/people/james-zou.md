@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/james-zou-2123a4133"
 twitter: "https://twitter.com/james_y_zou"
 website: "https://www.cs.stanford.edu/people/james-zou"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2928ae1322bdb962c464859c5f6c2630972a78ab025becf712c1413c17eff0b4
+  subjectId: person:james-zou
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a5f41923afae7fb72e6d1ec75bb5424608f630f4939725d3c69cc1399bd49a4b
 ---
 # James Zou
 

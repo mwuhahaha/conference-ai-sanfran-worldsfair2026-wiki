@@ -3,6 +3,19 @@ title: "Daily"
 category: "companies"
 aliases: ["Daily"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8bbcf61f388889a3be837b8ec49004a998e8b79fd3f4fb128cf20513ff58b515
+  subjectId: company:daily
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3f777fa0de89165f853521fcbaa7b4653e2d2a175eda6076866b9f1eef927c56
 ---
 # Daily
 
@@ -35,7 +48,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
 - Evidence links for `youtube-E71YtNbCFXY` (supporting context only): [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 ## Evidence Boundary

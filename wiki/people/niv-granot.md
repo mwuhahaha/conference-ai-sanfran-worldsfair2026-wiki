@@ -4,6 +4,19 @@ category: "people"
 role: "Tech Group Lead"
 company: "AI21 Labs"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0529f7abcf07b7d969dd59e54277e24929db9019df96925bbff9467ebe5930dd
+  subjectId: person:niv-granot
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7b1a8d35af21fc1e2fbbf594ff2b0cde4338b1957bb5108cf0b1855e5982195e
 ---
 # Niv Granot
 
@@ -27,6 +40,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
 
 ### Media Signals
-- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
 - Evidence links for `youtube-Ywl4LsvHKzU` (supporting context only): [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

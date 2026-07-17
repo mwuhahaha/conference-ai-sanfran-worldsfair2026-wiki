@@ -86,7 +86,12 @@ OCR text:
 
 OCR text:
 
-> My personal notes!
+> et i
+>
+> , . My personal notes!
+> ) a" a ‘an
+> ia
+> j=
 
 ![[assets/slides/ZRM_TfEZcIo/slide-005.jpg]]
 
@@ -109,15 +114,15 @@ OCR text:
 OCR text:
 
 > \
-> 
+>
 > 49 >
-> 
+>
 > he
-> 
+>
 > le
-> 
+>
 > Vs
-> 
+>
 > re,
 
 ![[assets/slides/ZRM_TfEZcIo/slide-007.jpg]]
@@ -131,16 +136,20 @@ OCR text:
 > n — “What's Al’ on YouTube - author of Building LLMs for Production
 > Va . a — Previously PhD @ Mila
 > — Build courses, videos, and trainings for a living
-> 
+>
 > TOWARDS A
-> 
+>
 > o Which all starts from good research!
 
 ![[assets/slides/ZRM_TfEZcIo/slide-008.jpg]]
 
 OCR text:
 
-> TOWARDS AI
+> ‘a [
+> { aus
+> ad |
+> TOWARDS AN
+> >, NN 4
 
 ![[assets/slides/ZRM_TfEZcIo/slide-009.jpg]]
 
@@ -156,7 +165,13 @@ OCR text:
 
 OCR text:
 
-> TOWARDS AI
+> | eee
+> oy “eg ,
+> i \ ; i
+> : e,
+> f
+> TOWARDS Ni
+> nn a so
 
 ![[assets/slides/ZRM_TfEZcIo/slide-011.jpg]]
 
@@ -187,8 +202,10 @@ OCR text:
 OCR text:
 
 > v1: a topic in, research.md out
-> Topic
-> + golden links
+> ~ ON %
+> Ss Lf NY
+> i aa i
+> / p Topic
 
 ![[assets/slides/ZRM_TfEZcIo/slide-014.jpg]]
 
@@ -243,9 +260,10 @@ OCR text:
 
 OCR text:
 
-> How does the wiki look like?
+> Howdoesthewikilooklike?
 > research-coding-agent-architectures
 > raw
+> ARCHITECTURIARCHITECTURE
 > wiki
 > comparisons
 > concepts
@@ -254,11 +272,12 @@ OCR text:
 > repos
 > sources
 > open-questions
+> nstruction-ties
 > overview
+> ARCHITECTURE
 > synthesis
 > index
 > log
-> ARCHITECTURE
 
 ![[assets/slides/ZRM_TfEZcIo/slide-019.jpg]]
 

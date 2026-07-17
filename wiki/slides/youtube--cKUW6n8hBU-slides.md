@@ -30,11 +30,11 @@ OCR text:
 > , 5 : Q u et / Pd rc |
 > OTT D) iS a
 > DSPy is a declarative framework for building modular AI software.
-> 
+>
 > It allows you to iterate fast on structured code, rather than brittle strings, and
 > offers algorithms that compile AI programs into effective prompts and
 > weights for your language models
-> 
+>
 > aLaee SH LeRs >) ee
 
 ![[assets/slides/-cKUW6n8hBU/slide-003.jpg]]
@@ -260,33 +260,33 @@ OCR text:
 > fi J E . 3 Ul) 4 _ p r
 > rT
 > GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM = = ra
-> 
+>
 > REINFORCEMENT LEARNING ae
-> 
+>
 > Lakshya A Agrawal’, Shangyin Tan’, Dilara Soylu’, Noah Ziems‘, Ls 7
-> 
+>
 > Rishi Khare!. Krista Opsahl-Ong', Amay Singhvi?*, Herumb Shandilya’.
-> 
+>
 > Michael J Ryan’, Meng Jiang‘. Christopher Potts’. Koushik Sen’. ia
-> 
+>
 > Alexandros G. Dimakis'-', lon Stoica', Dan Klein', Matei Zaharia'’, Omar Khattab® .
-> 
+>
 > "UC Berkeley "Stanford University *BespokeLabs.ai ‘Notre Dame ‘“Databricks = *MIT Chris Potts
 > https://www.youtube.com/
 > watch?v=Obkwd90 Yaqfk
-> 
+>
 > “Model —HotpotQA_IFBench Hover PUPA Aggregate Improvement
-> 
+>
 > Qwen3-8B
-> 
+>
 > Baseline 42.33 36.90 35.33 80.82 48.85 —
-> 
+>
 > MIPROv?2 6 47. 81 1] 6.26
-> 
+>
 > GRPO 43.33 35.88 38.67 86.66 51.14 +2.29
-> 
+>
 > GEPA 62.33 38.61 52.33 91.85 61.28 +12.44
-> 
+>
 > My point here, though, is that both of them outperformed GRPO, which ought to be a
 > kind of advanced RL-based post-training method, a fine-tuning method.
 
@@ -324,9 +324,9 @@ OCR text:
 > @dbreunig e Writes excellent technical content
 > @DSPyOSS e Official DSPy account
 > @getpy e Curator of DSPyWeekly
-> 
+>
 > @kmad e Me
-> 
+>
 > Po
 
 ![[assets/slides/-cKUW6n8hBU/slide-020.jpg]]
@@ -503,7 +503,7 @@ OCR text:
 > i ee a iT” S @@ SUID OE, OO cc oc —
 > o° F . 7 9 “ a ” Bp , a Ooacs
 > @ dspy_workshop.ipynd US. @ depy workshop. clean ipynd 4 BTR ern og ET ration Ipynb M @ Summarizer py an |
-> 
+>
 > — bad a vo
 > @osncy oeehon Sear tye wa ttt hoe at late gE a Abe eee a ost ltored cathe!
 > + Code + Markdown C2 Interrupt © Restart ~ Crear AlOutputs ¢. GoTo | | Jupyter Vanables Cutene dy very (Python 31113)
@@ -541,7 +541,7 @@ OCR text:
 > =! Ea a rr Se @® SOR Os cc CT i
 > ee f 5 : : Q Ul} = a 2 a ooce
 > @ dspy_.workshop.ipynb US @ dspy_worashop, clean ipynd M hub. oy qi i Eee Pres SUMS Eton iyo A @ Summarizer py Ca
-> 
+>
 > . ° eee z sgn Rey
 > ; j
 > BD Sety ere Gear yh Ma ot tan ate tr POF an Gyn lay den ecute sete ha Saeed oe tee oe tentitee £m gga at Bane del fed

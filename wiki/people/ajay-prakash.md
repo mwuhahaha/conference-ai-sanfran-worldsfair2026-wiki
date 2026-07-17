@@ -6,6 +6,19 @@ company: "Linkedin"
 linkedin: "https://www.linkedin.com/in/ajay-prakash-3780b132/"
 twitter: "https://x.com/ajay_prakash_ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5a8ce7b6ce908a13b1ba7ba7d183a04e17ffbe85ac61b09938c1fe12ca1ccef4
+  subjectId: person:ajay-prakash
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:db4ab7fa61037557491b4ad7a15474613ddfef078628aab07c718cf7f9e4ac09
 ---
 # Ajay Prakash
 

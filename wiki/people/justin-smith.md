@@ -4,6 +4,19 @@ category: "people"
 role: "Founding Product Engineer"
 company: "Resolve AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:06c4d6d3fc8580490f15f0be9c3a61974a9e02b7e3eef6a85be07488dbda8f7f
+  subjectId: person:justin-smith
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a23cf90c60ebd05bef6ad5a11f25610a3402141b6559ffb5ef74221bb99a5c68
 ---
 # Justin Smith
 

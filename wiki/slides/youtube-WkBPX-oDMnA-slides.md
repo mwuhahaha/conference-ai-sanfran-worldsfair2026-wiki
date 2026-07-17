@@ -99,7 +99,7 @@ OCR text:
 OCR text:
 
 > reed
-> 
+>
 > World's Fair
 
 ![[assets/slides/WkBPX-oDMnA/slide-009.jpg]]

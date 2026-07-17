@@ -5,6 +5,19 @@ aliases: ["Codex"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Software Factories", "Workshops Day 2", "AI Architects: Show my Workflow", "Design Engineering", "Autoresearch", "Context Engineering", "Agentic Engineering", "AI in GTM"]
 scheduleRooms: ["Track 3", "Track 6", "Track 8", "Main Stage", "Expo Stage 1 NE", "Track 4", "Leadership 2", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:48b0bd00af9a60b6550f776d70a5a5714f74826ed2db53bb7f2d7836c67f48ac
+  subjectId: tool:codex
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:e43ad0b113102f8ea327ad4698bdb8d8f9a17d5d8332b2875244e8b7fc151d65
 ---
 
 # Codex

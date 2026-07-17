@@ -4,6 +4,19 @@ category: "people"
 company: "Stigg"
 linkedin: "https://il.linkedin.com/in/datapm"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:075397fabe3c8d9e8932130d121dbaa6fba3fc6d7887ff22ee47b9b960f9d614
+  subjectId: person:dor-sasson
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:53bb9a6b08184ad124778b6bab4be507b8274754dce988db0ccfde67a8748b8b
 ---
 # Dor Sasson
 

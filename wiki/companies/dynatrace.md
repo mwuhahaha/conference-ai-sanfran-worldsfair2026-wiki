@@ -3,6 +3,19 @@ title: "Dynatrace"
 category: "companies"
 aliases: ["Dynatrace"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:97a4e1e24a89a9ccc8628e346fe566d5e7688563f8ad7c217cc5ec57bfe0d1ce
+  subjectId: company:dynatrace
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a23bdbe9f4ad2ce45bfa7ddbe6ff8130b83755417534d9d2bbe43d887f80e7a8
 ---
 # Dynatrace
 

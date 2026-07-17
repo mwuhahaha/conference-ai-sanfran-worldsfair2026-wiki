@@ -5,6 +5,19 @@ aliases: ["MCP Apps", "MCP UI", "MCP-UI"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Search & Retrieval", "Context Engineering", "Design Engineering"]
 scheduleRooms: ["Expo Stage 3 SW", "Track 3", "Track 8", "Track 6"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4f6d194344e3dc0eb197bff4aa819713e7a0e1e2529a49388cd3573ff9a98420
+  subjectId: tool:mcp-apps
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:486215d0f896723b244338595741dcb4bd6e442b92f6d280083c3629692aa459
 ---
 
 # MCP Apps

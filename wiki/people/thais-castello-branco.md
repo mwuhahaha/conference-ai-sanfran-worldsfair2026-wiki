@@ -6,6 +6,19 @@ company: "Taste Labs"
 linkedin: "https://www.linkedin.com/in/thais-castello-branco/"
 twitter: "https://x.com/thaiscbranco_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f153113a12a5e7627ad861a5dab343b59982a0d0acbb2e36194a59ccb27a59e3
+  subjectId: person:thais-castello-branco
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d3af35995d67d59f44b893bfeee0c080564fc75db87641c16ebf60e4fd8418e0
 ---
 # Thais Castello Branco
 

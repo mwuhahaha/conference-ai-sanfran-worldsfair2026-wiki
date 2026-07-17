@@ -5,6 +5,19 @@ aliases: ["VS Code", "VSC-Bench"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Track M", "Expo Stage 2"]
 scheduleRooms: ["Track M", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ccc977730a3c62f2e5223df590180701c4a73102a639ee2015e173cb82022064
+  subjectId: tool:vs-code
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:ff3a9f72dc7156117cf19a7514ad6dc2d998fd43f7db9605d446f63a8be58976
 ---
 
 # VS Code

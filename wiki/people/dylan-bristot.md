@@ -4,6 +4,19 @@ category: "people"
 role: "Product Marketing"
 company: "Token Factory"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dcabf45d67b6c7eeff295c1f9ebe3efb1e1689158155c2b13512ba80683372b3
+  subjectId: person:dylan-bristot
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f022651e744ebadf76cb5b9c48ef8cf94c9d6a865a999916256d79aa6fec8825
 ---
 # Dylan Bristot
 

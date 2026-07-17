@@ -63,8 +63,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-E71YtNbCFXY]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-E71YtNbCFXY`
-- Slide deck: [[youtube-E71YtNbCFXY-dense-slides|Dense Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/E71YtNbCFXY/slide-001.jpg]]
+- Slide deck: [[youtube-E71YtNbCFXY-dense-slides|Dense Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]] — slide evidence page.
 - Additional slide evidence: [[youtube-E71YtNbCFXY-slides|Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]], [[youtube-E71YtNbCFXY-reconstructed-slides|Reconstructed Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]]
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
 

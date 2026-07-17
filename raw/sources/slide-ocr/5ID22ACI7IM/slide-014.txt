@@ -1,12 +1,12 @@
-Summary of Latest PR Fixes and Enh...
-under the social-graph account. It now falls back to searching by service
-name alone, so keys stored by other tools (e.g. Claude Code) are also
-found.
-Key changes across 3 files:
-• builder.py — builds known_users dict from PR author data, handling
-collision avoidance with existing logins.
-• visualization.py — compute_lines_from_git accepts known_users,
-parses git author name + email, and resolves to GitHub login.
-• config.py — _macos_keychain_get loops over two keychain search
-strategies.
-References: Fix node size normalization and keychain fall...
+(oC oe fo eee rs (oe ee ee Tee Poweriewe we ween ee eee
+@ Unblocked g Summary of Latest PR Fixes and Enh...
+
+e a) 7 a a y y
+
+Pe “ont
+
+ae Cara i re
+
+Tamer ore Cee ote
+(er co
+& ae

@@ -1,24 +1,32 @@
-Playground
+punoubhed
 tokens
-Rexy the little T-Rex - All Ep
-Pangea NEW
-Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
-Run settings
-Media resolution
+（>Getcode
+G
+X
+Mediaresolution
+10:50AM
 Default
-Thinking level
+Rexy thelittleT-Rex-All Ep
+Thinkinglevel
+PangeaNEW
 Minimal
-Tools
+27,601tokens
 Structured outputs
 Code execution
+Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
 Function calling
-Grounding with Google Search
-Grounding with Google Maps
-URL context
-Advanced settings
+Grounding withGoogle Search
+10:50AM
+Source:G Google Search
+Grounding withGoogle Maps
+URLcontext
 Safety settings
 Edit
 Add stop sequence
+Adds
+Start typing aprompt,use optioo +enter.to append
 Output length
-65536
-Top P
+88Tools
+GGroundingwithGoogleSearchX
+OStp
+TopP

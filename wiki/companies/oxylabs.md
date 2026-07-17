@@ -3,6 +3,19 @@ title: "Oxylabs"
 category: "companies"
 aliases: ["Oxylabs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bb27a859e38ead366ce86ec1922b25ea4761e24884f55f709680dfb8b3bff769
+  subjectId: company:oxylabs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dedb9ae19a251fe213c9aa93a6da593776f8a7010e2b169221ac7eef688ce648
 ---
 # Oxylabs
 

@@ -5,6 +5,19 @@ role: "Senior Developer Advocate for Generative AI"
 company: "Amazon Web Services (AWS)"
 blog: "https://blog.mikegchambers.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2b85685b77e3068858ce39c8d0665dd0c342b708d677bdbbfcc4ce0aefdbe367
+  subjectId: person:mike-chambers
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:baa4eb3442f7198e02ea5135860c12cd3fb1e98d18e336b90aa7153491ba52db
 ---
 # Mike Chambers
 

@@ -3,6 +3,19 @@ title: "Adaption"
 category: "companies"
 aliases: ["Adaption"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ceb33fdf1c4ff850caeb3ea3547998858b533d6d65e9710fbbf900a6547c2f0b
+  subjectId: company:adaption
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8a0d7ae67c1bd51e3e023c04b309dee4f1a160aa57be8152432050e8b761afb3
 ---
 # Adaption
 

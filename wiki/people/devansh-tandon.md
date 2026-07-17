@@ -6,6 +6,19 @@ company: "Meta"
 linkedin: "https://www.linkedin.com/in/devanshtandon/"
 twitter: "https://x.com/devanshtandon_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7ef239da41e1c090e0404a3e13525267b8c73cb9d45a430d3bcc6a2706ff6992
+  subjectId: person:devansh-tandon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:68fd150178eff0cadf5c7d1779be400e8fa08854f33753df767a180eb26030a9
 ---
 # Devansh Tandon
 
@@ -36,6 +49,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys|Open Q&A: LLM Recsys]]
 
 ### Media Signals
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
 - Evidence links for `youtube-LxQsQ3vZDqo` (supporting context only): [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]

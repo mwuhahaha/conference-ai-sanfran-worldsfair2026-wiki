@@ -1,19 +1,20 @@
-OG Assist
-Please create a PDF with beautiful art to
-greet the folks of the AI Engineer
-Conference 2026. Please allow me to
-download it to share with them.
-Used 4 tools
+OG Assist =: OpenGov7
+Pease croote a POF seth besuttul wt to
+Qreet the tos of the AlEngneer
+Corterence 2076 Prease atiow me to
+downriosd to share mith them
+eouarny « Sandboxing
 Done
-I created the AI Engineer Conference 2026 Greeting PDF
-and made it available for download. It includes original AI-
-inspired generative artwork and a warm greeting message
-for conference attendees.
-AI Engineer Conference 2026 Greeting PDF
-64 KB
-Download
-Sandboxing
-Room to act,
+-edlteenerGnkcwoeRifeina Room to act
+and made it avanable for dannioad pinches orginal Al 5
+Agr ed Gener ative artwork and a navn greoting message
+for conterence alterdees f |
 safely.
-Code runs in isolated sandboxes, so agents can take real action
+Ry As Lgeeet Conference 20.0) Greeting FOF
+‘ asa
+@ haerenet
+tout gs
+Code runs in isolated sandboxes. so agents can take real action
 without putting production systems or customer data at risk.
+. en tos '
+a .

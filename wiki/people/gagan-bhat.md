@@ -5,6 +5,19 @@ role: "Member of Technical Staff"
 company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/gagan-bhat/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:00491d6bb51dd093805a59697dc58f8262b241169a9e4b348ddf2d2936b7d401
+  subjectId: person:gagan-bhat
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e3eb51c0412534a27903f31d29c4aa5cacfc7f33ae5748ab385ce5ec45e2ba8a
 ---
 # Gagan Bhat
 

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/flofloliu/"
 twitter: "https://twitter.com/floppyliu"
 website: "https://www.flofloliu.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7cbbc4c63c8296ba560c4e488892ec10b57abc641a7edd8010a2f61c8cea94c7
+  subjectId: person:flora-liu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4f8b72e1138dd582ccf76935f6b7ca0fb213b258c93285380e4e5f94421642af
 ---
 # Flora Liu
 

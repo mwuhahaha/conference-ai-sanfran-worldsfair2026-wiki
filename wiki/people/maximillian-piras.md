@@ -8,6 +8,19 @@ twitter: "https://x.com/MVXMXM"
 website: "https://www.maximin.design"
 blog: "https://www.maximin.design"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8e8207e464b996f8910be4ad694d40e15c49b185ce3740323fe386fc0994e444
+  subjectId: person:maximillian-piras
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65c9bc8090127b8b4f32974db9b942fe335f86740b1c4be8a28bd663cef50bbf
 ---
 # Maximillian Piras
 

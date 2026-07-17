@@ -3,6 +3,19 @@ title: "IBM"
 category: "companies"
 aliases: ["IBM"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b9622cfe095e5c7df8c399a816e646672c88e7df4799dfa1756739467bcfae40
+  subjectId: company:ibm
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:252b38485bf32dabf0bdc29c0721de907ff6572133bfb614059737e9976ca92b
 ---
 # IBM
 

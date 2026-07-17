@@ -6,6 +6,19 @@ company: "Uber Technology Inc."
 linkedin: "https://www.linkedin.com/in/ameya-ketkar"
 website: "https://scholar.google.com/citations?user=6JO46GMAAAAJ&hl=en"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e51f0926a890082e627fd0b25864d234a39adfb88db128f038b7a9f7e289e718
+  subjectId: person:ameya-ketkar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:91f0da395c3ee9dbf8c806977b4f2c6a82de0efaa8d0c32ea054cfc56a1365cb
 ---
 # Ameya Ketkar
 

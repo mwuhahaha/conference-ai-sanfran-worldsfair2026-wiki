@@ -8,6 +8,19 @@ twitter: "https://x.com/danielhanchen"
 website: "https://unsloth.ai"
 blog: "https://unsloth.ai/introducing"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0cb6d0bca16614da82651bf3f6375f97a9ad94d339ec8d1375ebb2572df7a7f5
+  subjectId: person:daniel-han
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:25f2e43e1d01ff797e715d2bf2b0071c607609fd5c09246745bc6fb232f1859b
 ---
 # Daniel Han
 
@@ -41,6 +54,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
 - Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
-- `youtube-OV56RddyFuU` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
 - Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

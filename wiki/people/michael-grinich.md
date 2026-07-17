@@ -5,6 +5,19 @@ role: "Founder & CEO"
 company: "WorkOS"
 twitter: "https://x.com/grinich"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:99811ace4d76dd693de02c8a6872758b05db63c5cc6f4a844fca1b30d0d66eaf
+  subjectId: person:michael-grinich
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d30a40b30cb412287e889cf3376a2022936c680040bbf02bfd25267d3a60c725
 ---
 # Michael Grinich
 

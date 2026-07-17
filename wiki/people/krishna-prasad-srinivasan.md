@@ -6,6 +6,19 @@ company: "Sarvam"
 linkedin: "https://www.linkedin.com/in/krishnapsrinivasan/"
 twitter: "https://x.com/fewshotlearner"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3d6832659bd784a3dec38d13ad1d4683c56d63f9c8010885f78fd4c2fc67c20c
+  subjectId: person:krishna-prasad-srinivasan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bb9efbf35ec6c897d77da7658130d28c4ff717080c97a626ff395f23b26e49e2
 ---
 # Krishna Prasad Srinivasan
 

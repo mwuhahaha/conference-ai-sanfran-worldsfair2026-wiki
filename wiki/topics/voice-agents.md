@@ -2,6 +2,19 @@
 title: "Voice Agents"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:601780ef06fb0a257d49834cd2756bd31844ff78f2ebe703633efcba6e9b6015
+  subjectId: concept:voice-agents
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-youtube-Z2Erdirpudo
+sourceAssessmentBodySha256: sha256:5ad3de488c978ddf73f81cdfa2d468df6aaf690c3360fae7a6e32c1615257f6e
 ---
 # Voice Agents
 
@@ -150,8 +163,9 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Media Signals
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-- `youtube-Bc6Ojl2XS1w` — source page linked; role: supporting context only.
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]

@@ -3,6 +3,19 @@ title: "Twilio Inc."
 category: "companies"
 aliases: ["Twilio Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eb835d9b2778350020597f7e46cd83e85125855e77cdfc452f087eedc91fe863
+  subjectId: company:twilio-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bae3c18eef23297a103d75f43034e9d52489f77ebab9f275af324681ae1fc7d5
 ---
 # Twilio Inc.
 

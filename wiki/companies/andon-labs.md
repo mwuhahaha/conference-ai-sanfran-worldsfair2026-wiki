@@ -3,6 +3,19 @@ title: "Andon Labs"
 category: "companies"
 aliases: ["Andon Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2eb85aec6adf41c80eb3f7cdf4923706d235c682d2a8f6ba70f525495cf0e589
+  subjectId: company:andon-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a78024996bbdfabf888bc15cc04dd3e4700899525c1a25598fc1d8fd52db2204
 ---
 # Andon Labs
 

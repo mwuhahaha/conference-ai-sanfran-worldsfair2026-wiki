@@ -5,6 +5,19 @@ role: "Head of AI/ML"
 company: "G2i"
 linkedin: "https://www.linkedin.com/in/ali-khial/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cae7b3b9b8981248c64ad226cd62e78612050f4832b2dcc26f8702e1aa91fcc9
+  subjectId: person:ali-khial
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cd5aabaa10cc6814112ec4b54265335ae4d1efba7da4731fb23ebdc504b805e3
 ---
 # Ali Khial
 

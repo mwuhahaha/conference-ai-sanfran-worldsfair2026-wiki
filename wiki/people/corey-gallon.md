@@ -10,6 +10,19 @@ blog: "https://gallon.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public YouTube metadata", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3517807b0c4cad6f49ff18e52744779b836d60332152b7656970b12b646d8ba4
+  subjectId: person:corey-gallon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:32e6dce7bc03e59c2c7784fd12a2713d1c3d02eb9a7ccb90a16debd61496987f
 ---
 # Corey Gallon
 

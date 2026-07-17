@@ -6,6 +6,19 @@ company: "cmpnd"
 linkedin: "https://www.linkedin.com/in/miller-isaac/"
 twitter: "https://x.com/isaacbmiller1"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:656ba56a981f2d3cb937056bf200d08ee179b6ceed1ba3db218463f8f888325d
+  subjectId: person:isaac-miller
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a0cd2b474f66352eeaf790cd37ecdab8253f7258b6c98b144d87f838ca4c9719
 ---
 # Isaac Miller
 

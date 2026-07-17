@@ -5,6 +5,19 @@ role: "Chief AI Officer"
 company: "WSO2"
 linkedin: "https://www.linkedin.com/in/raniakhalaf"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:068322792126fdd457b3a4a9754db62ae08e7f7a46981c488f58116ab2c01b2c
+  subjectId: person:rania-khalaf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d63f71bcdffbd745672167ee3859f1e1b3e4cda32ecfd9dd1f396d62c74f5b0c
 ---
 # Rania Khalaf
 

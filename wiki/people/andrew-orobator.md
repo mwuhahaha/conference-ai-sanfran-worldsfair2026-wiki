@@ -8,6 +8,19 @@ twitter: "https://x.com/aorobator"
 website: "https://medium.com/@andreworobator"
 blog: "https://medium.com/@andreworobator"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aa71d77de3804836ae8e9afdd297d3cdd8bce65a9c8cbdc4cc6b95e930295594
+  subjectId: person:andrew-orobator
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:36f74d3a98a4843f05bf533ec9fdc5c22121f59fd856df263a235de3036ba07e
 ---
 # Andrew Orobator
 

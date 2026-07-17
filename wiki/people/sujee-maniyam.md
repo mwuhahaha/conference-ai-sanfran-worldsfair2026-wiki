@@ -4,6 +4,19 @@ category: "people"
 role: "Developer Advocate"
 company: "Nebius"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b40686602920159eb767a621d628754d0b22aa30cf10c80b412dd8492fc225b8
+  subjectId: person:sujee-maniyam
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8c9463c0666c2c328d0718c4f4213998c20c9e50731d464a620e0bf0cc87906e
 ---
 # Sujee Maniyam
 

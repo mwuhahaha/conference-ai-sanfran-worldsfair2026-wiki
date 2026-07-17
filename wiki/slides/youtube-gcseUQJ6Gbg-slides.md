@@ -17,33 +17,50 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
 
 ## Extracted Slides
+![[assets/slides/gcseUQJ6Gbg/slide-001.jpg]]
+
+OCR text:
+
+> x
+> wi wv
+> World's Fair \
+> =
+
 ![[assets/slides/gcseUQJ6Gbg/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/gcseUQJ6Gbg/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — dense multi-column agenda text is better suited for OCR
+OCR text:
 
-Slide text:
-
-> Agenda Introduction Section 1
-> Who l am 04
-> Together.ai 05
-> AIE Build Demos Section 2 06
+> A g en d q Introduction Section 1
+> Who lam 04
+> Together.ai os
+> Build 06
+> Demos Section 2
 > My Al apps 08
 > Architecture of a typical app 09
 > Tech stack 10
 > My Process Section 3
 > My Advice Section 4
+>
+> a
 > Thanks for coming
-> aws
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/gcseUQJ6Gbg/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage; not a readable slide
-- [`slide-003.jpg`](/assets/slides/gcseUQJ6Gbg/slide-003.jpg) — `title_card` confidence `0.96`; closing thanks card; not substantive content
-- [`slide-004.jpg`](/assets/slides/gcseUQJ6Gbg/slide-004.jpg) — `sponsor_logo` confidence `0.99`; logo/sponsor card; not substantive content
+![[assets/slides/gcseUQJ6Gbg/slide-003.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/gcseUQJ6Gbg/audit.json`
+OCR text:
+
+> AIE
+> Thanks for coming
+> hassan@together.ai
+> @nutlope
+> Microsoft
+> smol?
+
+![[assets/slides/gcseUQJ6Gbg/slide-004.jpg]]
+
+OCR text:
+
+> Al Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -3,6 +3,19 @@ title: "Hornet.dev"
 category: "companies"
 aliases: ["Hornet.dev"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e3e939fee75556d35ec666c0862460efb8561f03145ee977a8cb4d6a47d83b37
+  subjectId: company:hornet-dev
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:449af41c082f8b96fe3e0e75f82328b5f35b7579d4b2ba2746eae2ed633b7cbe
 ---
 # Hornet.dev
 

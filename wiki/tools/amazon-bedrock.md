@@ -5,6 +5,19 @@ aliases: ["Amazon Bedrock", "Bedrock AgentCore", "Bedrock Agents"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1"]
 scheduleRooms: ["Track 9", "Expo Stage 2 NW", "Expo Stage 3 SW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9087c1463c972651bbe0e78b0417b34c0138029dbe5217dbddbda3bae1935d44
+  subjectId: tool:amazon-bedrock
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:096e53a99b716dadf2dec435165b5730f296eab756f9077624e74aff62f167cd
 ---
 
 # Amazon Bedrock

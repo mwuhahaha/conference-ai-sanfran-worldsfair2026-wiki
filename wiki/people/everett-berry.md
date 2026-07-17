@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/everettberry"
 twitter: "https://x.com/retttx"
 website: "https://retttx.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ea72407065cc731b0733204a469babb85c47a3c811c0f2b5c1ccedbc9c4860e5
+  subjectId: person:everett-berry
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c22c4939bf7c6f37f8622797294ade0340eb5850fdd85316e322ff1a33128818
 ---
 # Everett Berry
 

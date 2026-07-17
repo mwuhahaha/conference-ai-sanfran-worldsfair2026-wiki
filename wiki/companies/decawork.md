@@ -3,6 +3,19 @@ title: "Decawork"
 category: "companies"
 aliases: ["Decawork"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fa6abfad66abf7194103fa9634dbafee59b22d8c05757785dfae4146428329c8
+  subjectId: company:decawork
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9edc32ac8e2d3488c33065880c60130e0120781c8389f23ab1246e29e19dadbd
 ---
 # Decawork
 

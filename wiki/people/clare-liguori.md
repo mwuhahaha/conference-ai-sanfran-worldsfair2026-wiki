@@ -8,6 +8,19 @@ twitter: "https://x.com/clare_liguori"
 website: "https://clare.dev/"
 blog: "https://clare.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:57f008fb6e852b304c719efc5f227b596287e1d68ee27374e30f5780aea9575b
+  subjectId: person:clare-liguori
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d359860020304c785892baaa87f194e84e924a21bb2b7907c984e813431fa989
 ---
 # Clare Liguori
 

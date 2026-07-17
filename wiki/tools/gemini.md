@@ -5,6 +5,20 @@ aliases: ["Gemini", "Gemini Live"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Vision & OCR", "Voice & Realtime AI", "AI Architects: Show my Workflow", "Autoresearch", "Workshops Day 2", "Context Engineering", "Workshops Day 3", "Memory & Continual Learning", "Agentic Commerce", "Generative Media", "Agentic Engineering"]
 scheduleRooms: ["Track 6", "Expo Stage 3 SW", "Track 2", "Leadership 2", "Main Stage", "Track 4", "Track 8", "Track 3", "Track 1"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d8c15636d7f09ed0d58d428b419f76aa111b70ad8ee806b02e963b4baa76ebc3
+  subjectId: tool:gemini
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-0vphxNt4wyk
+sourceAssessmentBodySha256: sha256:738a16455e2f2165b503676f52424302e0f607d3729c3defbc513695b8fdb487
 ---
 
 # Gemini

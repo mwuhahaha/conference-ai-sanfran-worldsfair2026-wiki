@@ -17,114 +17,179 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/9fubhllmsBU/slide-001.jpg]]
+
+OCR text:
+
+> ANTHROP\C
+>
+> Pr
+
+![[assets/slides/9fubhllmsBU/slide-002.jpg]]
+
+OCR text:
+
+> Amazon
+> World'sFa
+> AlEngineer-
+> Jst
+> OpenAl
+> World'sFa
+> AlEngineer
+> ir
+> togeth
+> World'sFa
+> AlEny.
+> World'sI
+> DATADO
+
+![[assets/slides/9fubhllmsBU/slide-003.jpg]]
+
+OCR text:
+
+> FATT daZUIT AV! Lal  ¥Yvoriag Srair
+> Le
+> —— AlEng recr ————
+> World's Fair OpenAl
+> togethe _ Norld's Fair
+> World's Fz 3 DIENT Bele
+
 ![[assets/slides/9fubhllmsBU/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The Map is Opening Up
-> In the Land of AI Agents, the Verifiers Are King
+> Et esd
+> World's Fair |
+> é oy
+> ie -
+> Sa ‘ AN
+> . Sa
+> rid’s Fair a _ ee: _ eo P
+> The Mapis Opening Up
+>
+> eceraraN Aaey al
+> a Ai \IntheLand of Al Agents, the Verifiers Are King
+> er thier Tariq Shaukat [ RSet Rees
 
 ![[assets/slides/9fubhllmsBU/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> A Field Guide to Fable:
+> Tre oe |
 > 1 Unhobbling Claude
-> 2 Finding your Unknowns
-> 3 Dealing with the Grief
-> 4 Being Unreasonable
+> A Field 2 Finding your
+> ME Miiraxerxeyi Guide Unknowns
+> to Fable: 3 Dealing with the Grief
+>
+> ‘ + Being Unreasonable
+> NCTM] 6) dF
+> koe orl Oper ce
+> a OCR SE ANCOR Rey Cal can
 
 ![[assets/slides/9fubhllmsBU/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Models are grown, not designed.
+> Mi elale koa aT
+> ; aa
+> ees Models are grown,
+> not designed.
+> aed worlds Fi
+> Fair Pi=3e7
+> as ee ee Cee et ca
+> tg aiapc Tariq Shaukat [ ME el Reaeala
 
 ![[assets/slides/9fubhllmsBU/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.92`
-- Text source: agent_vision.
-- OCR decision: ready — contains a dense code screenshot suitable for OCR
+OCR text:
 
-Slide text:
-
-> Fetch every Pokémon. Write a script. Filter for “aw.”
+> ING teereeed
+> World's Fair
+> Fetch every
+> Mareen Pokemon. Write a
+> script. Filter for
+> “aw.
+> yvvoriasrair
+> aT oe
+> In the Land of Al Agents, the Verifiers Are King
+> 3 Tariq Shaukat [ Ral Renata
 
 ![[assets/slides/9fubhllmsBU/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> CAPABILITY OVERHANG
-> Claude gets smarter in spiky ways
+> ET i ea ad
+> World's Fair | :
+> : CAPABILITY OVERHANG 4 5.
+> a Microsoft Claude gets smarter in 4
+> spiky ways te
+>
+> Worle alia thease
+> _ Inthe Land of Al Agents, the Verifiers Are King
+>
+> en Tariq Shaukat @ sonar ~~
 
 ![[assets/slides/9fubhllmsBU/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> It's closer to a biology, than a physics.
-> On the Biology of a Large Language Model
-> Anthropic · transformer-circuits.pub
+> rer oe
+> a It's closer to a biology, than a physics.
+> a Microsoft
+> rea Car arte ere eal Ost ncn vt Ml rt tca ace]
+> worids Fair t
+> Opel
+> | Ww. 5 s
+> Engineering the future of Al
+> ne 5
 
 ![[assets/slides/9fubhllmsBU/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> the most important part of working with Fable is staying in the loop
+> World's Fair |
+> the most important part
+> of working with Fable is
+> staying in the loop
+>
+> worlas ralr
+> |= Ser ar aor
+> 7 Field Guide to Fable
+> Thariq Shihipar ANTHROP\C
 
 ![[assets/slides/9fubhllmsBU/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The past is a foreign country
-> 2019-2024 · a 30-person YC startup · 12 engineers
+> World'sFair AlEngineer
+> foreign country The past is a
+> 2019-2024-a30-personYC startup,-12engineers
+> woriasra
+> -air Browserb 31/40
+> Id'sFa Er Field GuidetoFable
+> 3x Thariq Shihipar/MemberofTechnical StaffANTHROPIC
 
 ![[assets/slides/9fubhllmsBU/slide-012.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/9fubhllmsBU/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> World's Fair
+> The pastisa a 2 =
+> foreign country
+> 2019-2024 a 30-person YC startup. -
+> Up. -12 engineers
+>
+> Fair #_.Al
+> tere “orid’s F:
+> att aPaM sre Ket Sle) 3
+> y Pa? Malate Rosales g ANTHROP\AC
 
-> The past is a foreign country
-> 2019-2024 · a 30-person YC startup · 12 engineers
+![[assets/slides/9fubhllmsBU/slide-013.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/9fubhllmsBU/slide-001.jpg) — `title_card` confidence `0.03`; stage intro title screen, not a presentation content slide
-- [`slide-002.jpg`](/assets/slides/9fubhllmsBU/slide-002.jpg) — `speaker_stage` confidence `0.02`; speaker shot in front of sponsor wall, not a slide
-- [`slide-003.jpg`](/assets/slides/9fubhllmsBU/slide-003.jpg) — `speaker_stage` confidence `0.02`; speaker shot in front of sponsor wall, not a slide
-- [`slide-013.jpg`](/assets/slides/9fubhllmsBU/slide-013.jpg) — `title_card` confidence `0.98`; logo/end card
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/9fubhllmsBU/audit.json`
+> Al Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

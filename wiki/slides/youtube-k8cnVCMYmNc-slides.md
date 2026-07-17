@@ -99,17 +99,17 @@ OCR text:
 OCR text:
 
 > What's an agent?
-> 
+>
 > An agent is an Al application “
-> 
+>
 > consisting of a model equipped “ee
-> 
+>
 > with instructions that guide its tes r T ry erste
 > behavior, access to tools that oe — (1)
 > extend its capabilities, :
-> 
+>
 > encapsulated in a runtime with a @) ®
-> 
+>
 > dynamic lifecycle.
 
 ![[assets/slides/k8cnVCMYmNc/slide-007.jpg]]
@@ -122,9 +122,9 @@ OCR text:
 > agent (
 > e« Works with most LLMs (even ars ;
 > non-OpenAl) ; instructions '
-> 
+>
 > Cie a JaleLev nes
-> 
+>
 > . result PCr ae re
 > ¢ Guardrails Pee
 > « Streaming*
@@ -132,7 +132,7 @@ OCR text:
 > e Built-in Traces support
 > e Flexible session management
 > « Voice agent support*
-> 
+>
 > P “not yet compatrb’e with Temporal
 
 ![[assets/slides/k8cnVCMYmNc/slide-008.jpg]]
@@ -196,6 +196,7 @@ OCR text:
 OCR text:
 
 > Temporal Activities
+> Taling NYC INYT) 47.14 Cal
 > withdraw
 > deposit
 > refund
@@ -204,9 +205,17 @@ OCR text:
 
 OCR text:
 
-> deposit
-> refund
-> failed
+> rehued
+> | aeses
+> La ed
+> ~ “=
+> ‘ c
+> sl,
+> eer
+> ee ce ae eae
+> Bg eens
+> P > ees or
+> S ~ AS \ nn
 
 ![[assets/slides/k8cnVCMYmNc/slide-013.jpg]]
 

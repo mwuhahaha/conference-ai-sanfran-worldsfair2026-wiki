@@ -8,6 +8,19 @@ twitter: "https://x.com/bholmesdev"
 website: "https://bholmes.dev"
 blog: "https://bholmes.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1b090c9fb5ea02f750fe4ad4c89b82dc5986917e784fbe29df18ae9177877a63
+  subjectId: person:ben-holmes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:964788673d1ed6f364bb19b35f511030c89c9adb4d74463b6472ab2c5729db39
 ---
 # Ben Holmes
 

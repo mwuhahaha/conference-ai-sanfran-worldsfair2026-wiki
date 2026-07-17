@@ -3,6 +3,19 @@ title: "The Carlyle Group"
 category: "companies"
 aliases: ["The Carlyle Group"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4dba9c24d262f9453b0a61a782b366970850392d59cc5f91e6bd454e5807c6b3
+  subjectId: company:the-carlyle-group
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6b126019ff28d88d9a046429c3fda86b8f41ed10144037e6c9ba71fb957dd81c
 ---
 # The Carlyle Group
 

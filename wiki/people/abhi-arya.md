@@ -4,6 +4,19 @@ category: "people"
 role: "Product, Software, Infra, and Applied AI"
 company: "Reducto"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f0d98bd4a595807f429a24d27bf3149eac683a2aae5d1ec6e3bd65cadb4b8048
+  subjectId: person:abhi-arya
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0f32cbec896ba7987a6d942059441d882f1f976bea3915bc4ad7da55fb335c33
 ---
 # Abhi Arya
 

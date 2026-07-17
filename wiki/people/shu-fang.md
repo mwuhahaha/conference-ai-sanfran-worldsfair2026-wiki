@@ -4,6 +4,19 @@ category: "people"
 role: "Software Engineer"
 company: "Two Sigma Investments"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dfd5f640902f183c864dee0e1044737ef23e36298b0f21a9dd41bfe41ed71bb0
+  subjectId: person:shu-fang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d2ddb239a67e2a995e4f03776bffa802360cb571e45708a18a1d92ae60feefb9
 ---
 # Shu Fang
 

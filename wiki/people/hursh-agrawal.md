@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/hurshagrawal"
 twitter: "https://twitter.com/hursh"
 website: "https://www.hurshagrawal.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4f57ac6105ace0e4ea16e6dac2b667b067f31ec4a6a0e77bf3d21174881ca3e4
+  subjectId: person:hursh-agrawal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:99c8cd4f90904142a6b11065999227862ca0fa89b17b85319dbca97a0a90aa0b
 ---
 # Hursh Agrawal
 

@@ -6,6 +6,19 @@ company: "SonderMind"
 linkedin: "https://www.linkedin.com/in/daverevere"
 twitter: "https://x.com/daverevere"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:66a630e08edab5840dd445eefd92727d891a25eedba9d739fd8c54cc5a5a923a
+  subjectId: person:dave-revere
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:78dc62bfa2c3581a11ecc092ab21eb722e5f1aa47b398f64e42a1999f82ffb7a
 ---
 # Dave Revere
 

@@ -3,6 +3,19 @@ title: "Microsoft Research"
 category: "companies"
 aliases: ["Microsoft Research"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ffcb551bb8c8a3d799a880361220a64594b2b20368650e999c7774f7642a8539
+  subjectId: company:microsoft-research
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:81043716aaafc9cb54658b42d19d6f25c0deb12917e9b6a977425d3898666109
 ---
 # Microsoft Research
 

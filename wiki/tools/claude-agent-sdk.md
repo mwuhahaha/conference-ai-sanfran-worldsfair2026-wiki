@@ -5,6 +5,19 @@ aliases: ["Claude Agent SDK"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Track 1", "Posttraining & Midtraining"]
 scheduleRooms: ["Track 1"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aab3f9c2e7e889cbecad994084e63c8b423d27745222b9e0822a675bc5f31804
+  subjectId: tool:claude-agent-sdk
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:6a9eaaf846aa3ef8bb285fd9592e4ed354c15fe63a1367a63904f79e94d914f8
 ---
 
 # Claude Agent SDK

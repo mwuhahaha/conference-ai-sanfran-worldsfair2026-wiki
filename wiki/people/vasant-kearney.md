@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/vasant-kearney-7b7a48b3"
 twitter: "https://x.com/vasantkearney"
 website: "https://onlay.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5a7670c8cdb65fdb741e497166d608cda649b56ecebea0475d54b537d79f19f1
+  subjectId: person:vasant-kearney
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:66d0ca1b4e16c16602e577112eef4c561c99632c49b8b1b82b733b831b534903
 ---
 # Vasant Kearney
 

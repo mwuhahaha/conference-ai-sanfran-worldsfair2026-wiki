@@ -5,6 +5,19 @@ aliases: ["GLM-5.2", "GLM 5.2", "Z.ai GLM"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Software Factories", "Local AI", "Inference"]
 scheduleRooms: ["Main Stage", "Track 4", "Track 9"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:425524b84932da1fa234395e46ac1b00d8110401242097666b729668eca359c9
+  subjectId: tool:glm-5-2
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:ff1b8168112b9dc002332555083e8ebec9e9b6aed59ff8aa35e864af2f538f47
 ---
 
 # GLM-5.2

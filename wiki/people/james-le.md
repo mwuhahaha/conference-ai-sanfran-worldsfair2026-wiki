@@ -8,6 +8,19 @@ twitter: "https://x.com/le_james94"
 website: "http://jameskle.com/"
 blog: "https://jameskle.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:582fc37f6cbc9506c71b29da13cab30f262f2559a5d12cec8f025a737e7839bc
+  subjectId: person:james-le
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c7b5f4ef7c85ed88676552b1b335ff0d2f70b6f900b2f3045cd5f75a8d3bf8f7
 ---
 # James Le
 

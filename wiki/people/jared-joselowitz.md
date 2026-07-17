@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/jaredjoselowitz/"
 twitter: "https://x.com/JaredJoselowitz"
 website: "https://jossy.co.za/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:755e4416241c817f1bf91ff0ac8812b5879780b4da45a7e956c8326a0e5e7c30
+  subjectId: person:jared-joselowitz
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:01ed57cf9de44e47dbf5cbf0b9bbd8c15d813d946b7d8b9565786a7cbb1f4518
 ---
 # Jared Joselowitz
 

@@ -7,6 +7,19 @@ twitter: "https://x.com/KentonVarda"
 website: "https://lanparty.house"
 blog: "https://lanparty.house"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7919479aa24ec71514e7f99af95e2ffb25df6e210ba437daa26d16e9f95566d3
+  subjectId: person:kenton-varda
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a967b2afe90d25443624e817bdfac4d81626d29b42627ca98dbe3897fb3d1e61
 ---
 # Kenton Varda
 

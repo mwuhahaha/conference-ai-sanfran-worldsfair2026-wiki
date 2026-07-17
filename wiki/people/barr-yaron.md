@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/barryaron"
 twitter: "https://x.com/barrnanas"
 website: "https://barrchives.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0baea32053573848b0ea61813a8bd1050d9e91dcd4a4dfb9b4d7cf86f35bc0e9
+  subjectId: person:barr-yaron
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d4cc7126bbbbf5054b8354546357e552d66264cf09c9093b89fd01f633d12a9c
 ---
 # Barr Yaron
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]
 
 ### Media Signals
-- `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
+- `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 - Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]

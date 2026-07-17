@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/remilouf/"
 twitter: "https://x.com/remilouf"
 website: "https://thetypicalset.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5628d1b1ef12a6ec29539f57509089bbae96e5eff9d8374c740216142a26f28e
+  subjectId: person:r-mi-louf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:81eb6bf1a91e323e6717ddec9888659b37136555f1707192473073d2c9cbce52
 ---
 # Rémi Louf
 

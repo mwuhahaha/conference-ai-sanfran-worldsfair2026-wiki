@@ -3,6 +3,19 @@ title: "Docker"
 category: "companies"
 aliases: ["Docker"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:686de9455e35ab6c1b693d9ab6413ff873461750686cbc1de15a43a6cc36c6ee
+  subjectId: company:docker
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:48fc407a41a02a9272b88920972b42867990b222e2c720ab14be6e60ef73db3b
 ---
 # Docker
 

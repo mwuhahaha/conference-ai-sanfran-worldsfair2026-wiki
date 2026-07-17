@@ -3,6 +3,19 @@ title: "Stanford University / Together AI"
 category: "companies"
 aliases: ["Stanford University / Together AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8fb219f39fa91960e146c2c2d45fa04baa66ce8f187736cbd2403b22ce0dd5cc
+  subjectId: company:stanford-university-together-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:16084d6d3e595afb4b1c7a744c2b9e8fcec4aaf68f9c9167f84f76cd6d7c4520
 ---
 # Stanford University / Together AI
 

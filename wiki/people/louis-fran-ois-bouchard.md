@@ -8,6 +8,19 @@ twitter: "https://x.com/Whats_AI"
 website: "https://www.louisbouchard.ai/"
 blog: "https://www.louisbouchard.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bcbcab34de52c7141521b2171412e7be50f28a27c23d66f1463947c9294b33f8
+  subjectId: person:louis-fran-ois-bouchard
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4e5c06899057a367caf18bd744292be045ced12fa65ff789f5ab88872bade39b
 ---
 # Louis-François Bouchard
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]]
 
 ### Media Signals
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+- `youtube-ZRM_TfEZcIo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: research, total, index, plus, notion, google, drive, growing.
 - Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

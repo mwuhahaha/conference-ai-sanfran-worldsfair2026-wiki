@@ -3,6 +3,19 @@ title: "Skild AI"
 category: "companies"
 aliases: ["Skild AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5ae8dc7fa861c81257ccb7def7913cc7f3988ed7cc994f50f28cbd103b35c150
+  subjectId: company:skild-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e57ad1edd8cdf222b552e661111708e55f64c5bc1cdb76017e668179e7825efb
 ---
 # Skild AI
 

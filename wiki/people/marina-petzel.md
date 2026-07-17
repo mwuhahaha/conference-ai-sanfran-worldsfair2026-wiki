@@ -3,6 +3,19 @@ title: "Marina Petzel"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 linkedin: "https://www.linkedin.com/in/marina-petzel"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1474b5086f69081c616a8c1b956c5f644905be326c0b19f8b294d4ab8e2939da
+  subjectId: person:marina-petzel
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ea0cd0dc3120573c461ed75104149a94facf9a5b863369d401b84249ecf42094
 ---
 # Marina Petzel
 

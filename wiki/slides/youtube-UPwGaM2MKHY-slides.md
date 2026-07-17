@@ -17,99 +17,98 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/UPwGaM2MKHY/slide-001.jpg]]
+
+OCR text:
+
+> The Log Is the Agent
+> Ishaan Sehgal - CEO, Omnara (YC $25) ,
+> ~ | |
+> rc | ae
+
 ![[assets/slides/UPwGaM2MKHY/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> ~~
 > What is your character?
-> game engine
-> playstation
-> controller
+> ae a 7 t- nie aS 2
+> Ee ae 9
+> er e game engine
+> i re, re ; e playstation
+> ye PB te OT
+> ans et el © controller
+> t @ iB |
+> a os
 
 ![[assets/slides/UPwGaM2MKHY/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Your character is the save file.
+> Your character is the save file. -”
+> , e « A
+> oy yD
+> ; ; ~~ . i
+> le! .
+> 2
+> : 1
 
 ![[assets/slides/UPwGaM2MKHY/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Compaction is not the log
+> —— a
+> , a .
+> Compaction is not the log j
+> = 7 , ; a
 
 ![[assets/slides/UPwGaM2MKHY/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Migration / Model Portability
-> Claude
-> GPT
-> Qwen
-> Different models, same agent
+> i cae
+> =
+>
+> Migration / Model Portability e
+> XK claude — Gort — fy awen (
 
 ![[assets/slides/UPwGaM2MKHY/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> {
+> 9
 > The deepest lock-in is log lock-in
 > 1. Models Can be Swapped
-> 2. APIs/Tools can be changed
+> 2. APtIs/Tools can be changed
 > 3. Log is locked in. Continuity is trapped.
+> tad
+> in et F
 
 ![[assets/slides/UPwGaM2MKHY/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> =
 > If the provider owns the log, they own the agent
+> 7 - el
+> . : oe)
+> a
+> , | : :
+> a _ a
+> oe
 
 ![[assets/slides/UPwGaM2MKHY/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UPwGaM2MKHY/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Diagram slide with small labels and multiple text regions; OCR is likely cheaper than manual transcription.
+OCR text:
 
-Slide text:
-
-> What this looks like in practice - Omnara
-> Worker
-> Model provider
-> dde osn Omnara API DurableSesslon Log
-> Tools and approvals
-> Machine daemon
+> ae
+> What this looks like in practice - Omnara , |
+> 7 \ |
 > Worker Advances the Loop
-> Log remains the agent Daemon Launches Tasks
+> Daemon Launches Tasks
+> Log remains the agent
 > omnara.com/managed
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/UPwGaM2MKHY/slide-001.jpg) — `title_card` confidence `0.98`; speaker intro/title card
-
-Classification audit: `raw/sources/slide-ai-classification/slides/UPwGaM2MKHY/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

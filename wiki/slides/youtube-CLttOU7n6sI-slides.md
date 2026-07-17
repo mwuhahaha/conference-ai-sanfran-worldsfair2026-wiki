@@ -19,174 +19,305 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/CLttOU7n6sI/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Respect the Process
-> Trustworthy coding agents in a domain full of expert judgement calls
+> docs.google.com
+> RespecttheProcess
+> Trustworthy coding agents ina domainfull ofexpert
+> judgementcalls
 
 ![[assets/slides/CLttOU7n6sI/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Sustainability is filled with judgement calls
+> Sustainability is filled with
+> judgement calls
 > Questions like:
-> - What are the emissions attributable to 1 bottle of wine?
-> - Which method should be used to allocate the emissions to various co-products?
+> - What are the emissions attributable to
+> 1 bottle of wine?
+> - Which method should be used to ‘
+> allocate the emissions to various
+> co-products?
+> There are many ways to get to aright answer
+> the wrong way and many right answers.
+> erify the process in addition to the
+> ra
+> ve]
+> ne
 
 ![[assets/slides/CLttOU7n6sI/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Small multi-region text with citation and metric is better suited for OCR than manual transcription in triage.
+OCR text:
+
+> Sustainability is filled with
+> judgement calls
+> Questions like:
+> - What are the emissions attributable to 0.97 - 149 kg co2e
+> 1 bottle of wine?
+> - Which method should be used to ‘
+> allocate the emissions to various Six experts with the exact
+> eo-products? same data on the exact same
+> There are many ways to get to a right answer bottle of wine
+> the wrong way and many right answers.
+> erify the process in addition to the
+> a
+> : ~ t Senxcaet a! (2020) “Uncertainty AL CA Anestimation of peac Utioner- related effects” 2
+
 ![[assets/slides/CLttOU7n6sI/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Diagram slide with many small labels and node cards is OCR-suitable.
+OCR text:
+
+> dors googie com
+>
+> Our task: Updating os
+>
+> ehectrcty Someone Cotton pan Svighus oe
+> complex graph data . | :
+> Help our users edit complex graphs representing lepe recat penn trey
+> supply chains
+> Each graph is a DAG representing the flow of * ‘ ,
+> materials and energy C ©
+>
+> &
+> The graph is comprised of 1000s of nodes with rich Reckeons Sresest ee
+> metadata describing the materials and processing at “ : 1
+> each step ~~
+> Derk veaeh
+> we
+>
+> hi
+> “4
+
 ![[assets/slides/CLttOU7n6sI/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Diagram slide with repeated node cards and small labels is OCR-suitable.
+OCR text:
+
+> Our agent worked
+> on one graph... meen
+> When we first tried to solve °
+> this task a year ago, it worked eat = na sre
+> well enough ona single graph - . — '
+> using custom built tools ee
+>
+> resiore trwpon =
+
 ![[assets/slides/CLttOU7n6sI/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Dense repeated diagram nodes and small labels are OCR-suitable.
+OCR text:
+
+> Our agent worked
+> on one graph... Joe One Le
+> When we first tried to solve - 7s, = Cee ee ee
+> this task a year ago, it worked — oe = oT TE OT
+> well enough ona single graph eee
+> using custom built tools Toot, vw TU The
+> - a. . voumi f tome = _ —-
+> - conaee ee " = ue
+> = - tee wee
+> But absolutely broke when we Me TS ee
+> tried to scale it up to many - .« : =
+> graphs = LO
+> eh _ —
+
 ![[assets/slides/CLttOU7n6sI/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > So, we naturally swapped in a coding agent
-> Gives the agent the ability to delight
-> The agent can find clever ways to solve underspecified problems, create fancy visualizations, and answer related questions
+> Gives the agent the ability
+> to delight
+> &
+> The agent can find clever ways to
+> solve underspecified problems. create
+> fancy visualizations. and answer
+> related questions
 
 ![[assets/slides/CLttOU7n6sI/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Three-column text slide is OCR-suitable and should be handled by OCR rather than manual transcription in triage.
+OCR text:
+
+> docs gers com
+> So, we naturally swapped in a coding agent
+> Gives the agent the ability The agent can explore and Flexibility and power to do
+> to delight edit efficiently stuff outside what we
+>
+> * designed it for
+>
+> The agent can find clever ways to Loops over graphs. scripts to unpack We consistently find entirely new use
+> solve underspecified problems. create and summarize node content. same cases via the new questions users ask
+> fancy visualizations. and answer pattern of data exploration as agentic of the agent
+> related questions data science
+
 ![[assets/slides/CLttOU7n6sI/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > But, unconstrained code is scary
-> The agent will find “creative” ways to solve every problem
-> The agent can gaslight users saying it made edits
-> Manual review of code is not in our users’ wheelhouse
+>
+> The agent will find The agent can gaslight Manual review of code is
+> “creative” ways to solve users Saying it made edits not in our users
+>
+> every problem * wheelhouse
+>
+> Writing Python when we expect Agent claims it made edits to users When the agent is right for the wrong
+> typescript, editing graph artifacts when it ran code that did nothing reasons, it's really hard to check it
+> directly without lineage without reading the code
 
 ![[assets/slides/CLttOU7n6sI/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-- OCR decision: ready — Dense multi-column slide with chart and several small quotes.
+OCR text:
 
-Slide text:
-
-> The process ≠ answer story is not new
+> The process # answer story is not new
+> The Open Proof Corpus, Dekoninck and
+> Petrov et al. 2026 “their reasoning often contains subtle logical
+> 100% me Cottect Final Answer errors masked by fluent language, posing
+> mm Correct Proof significant risks for critical applications.”
+> 78% - Beyond Correctness, Zheng et. al. 2025
+> 70
+> 50% &
+> “For every success story like the unit distance counterexample,
+> 25% there are likely thousands of pages generated for each of
+> these problems, which have led nowhere.”
+> ae - Thomas Bloom on ErdosProblems.com, 2026
+> 03 Gemint-Pro
+> - 5 ‘ “72% of reward hacking episodes include
+> ‘an LLM agent with access to unit tests 5k 5 :
+> explicit chain-of-thought rationale,
+> may delete falling tests rather than fix suggesting models often frame exploits
+> the undertying bug. -
+> ; ibleBench, Zh tal, 2025 as legitimate problem-solving.
+> ~ Impossiblevench, £nong et. al. - Reward Hacking Bench, Thaman 2026
 
 ![[assets/slides/CLttOU7n6sI/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Code-heavy slide with bullets and a large code sample.
+OCR text:
 
-Slide text:
-
-> Our SDK as the only door
+> dors geese came
+> Our SDK as the only door —_
+> definekditFunction, findNodesByNameExact, assert,
+> setRate, editNode, type EditProducttonGraphState,
+> } from ‘mnotersned: gragmagentagi;
+> . . . . . export default defined dr tFuncet vont
+> : Typescript SDK with all edit primitives the “cut elecericity. ard, saap.seeet |
+> async (state: EditProductironGrapnState) => {
+> agent needs to make changes const [mfg] = fundNadesBytionet xo t(
+> state. graph nodes, ‘minsfocturing'):
+> : Enforces which fields are editable vs. which const [electricsty) i«, fledNedestyNonet rock
+> state graph nodes, ‘grid electeriity' iy
+> . 7, const (steel) = findNodesByNane€ xact(
+> are derived from other fields ROL GrSONLS “BEE
+> : Guarantees that it emits objects we expect \ assertinfg && electricity Ak steet,
+> . . “ Terpectst one of each tex) lod);
+> : Requires teaching the agent how to use it
+> State = setRate(
+> state, mfg.identifier, clectricity. identifier, »;
+> state = editNode(state, steel. identifier, {
+> 1 stainless steel’ J);
+> return stote;
+> }
+> v
+> ee a a — ee
 
 ![[assets/slides/CLttOU7n6sI/slide-012.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Text plus structured flow diagram and step boxes are OCR-suitable.
-
-Slide text:
+OCR text:
 
 > Deterministic execution to guarantee process
+>
+> Even with the typed SDK as the entry point, we run-executorts
+>
+> only guided the agent towards our desired end
+>
+> etate Dineths agegt coe)
+> i. Rotienigo |
+>
+> The real guarantee comes from final script that Detect conpficts)
+>
+> we orchestrate on agent completion ‘ = =
+>
+> The completion script calls the agent pRan agentedited code iy |
+>
+> generated code, validates the results, and send
+>
+> any errors back to the agent = Wanosecen oie: aie
+>
+> GER Glecte review artifact
 
 ![[assets/slides/CLttOU7n6sI/slide-013.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-013.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
-- OCR decision: ready — Mostly the same structured slide with an overlaid report and small labels.
-
-Slide text:
+OCR text:
 
 > Deterministic execution to guarantee process
+>
+> Even with the typed SDK as the entry point, we run-executorts
+>
+> only guided the agent towards our desired end Cie coe
+> _———
+>
+> The real guarantee comes from final script that Emissions Report
+>
+> we orchestrate on agent completion .
+>
+> The completion script calls the agent 50 7 749 tet
+>
+> generated code, validates the results, and send
+>
+> any errors back to the agent i c dap out Sitarute ee |
+> Oreste (eview artiact ma
 
 ![[assets/slides/CLttOU7n6sI/slide-014.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-014.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: agent_vision.
-- OCR decision: ready — Structured process slide with chart labels and small diagram text.
-
-Slide text:
+OCR text:
 
 > Deterministic execution to guarantee process
+> 2.01 - ction
+> Even with the typed SDK as the entry point, we - .
+> only guided the agent towards our desired end | |
+> state
+> The real guarantee comes from final script that Er
+> we orchestrate on agent completion ‘
+> The completion script calls the agent 5 a
+> generated code, validates the results, and send a
+> any errors back to the agent
+> Cod Fad Derg
+> a a ca .
 
 ![[assets/slides/CLttOU7n6sI/slide-015.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-015.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Hillclimbing within this harness
-> All the typical approaches were still effective
-> Prompt improvements
-> Few-shot examples
-> Making tools better fit-for-use
-> Breaking the task down
-> Teaching the agent some expert judgement
-> 43% -> 92%
-> Accuracy improvement on internal evals
+> : doce.qoogie.com
+> Hillclimbing
+> within this
+> harness re) re)
+> 43% > 92%
+> All the typical approaches
+> were still effective A Se e ie r 2g cy
+> - Prompt improvements :.
+> - Few-shot examples Improvement on
+> ~ Making tools better
+> fit-for-use '
+> - Breaking the task down internal eVa Is
+> - Teaching the agent some
+> ge expert judgement
+> a —E 7
 
 ![[assets/slides/CLttOU7n6sI/slide-016.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/CLttOU7n6sI/slide-016.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > In a domain full of judgement calls, respect the process
-> User request
-> agent writes free code
-> typed SDK + lint
-> deterministic execution
-> commit as typed objects
-> valid · traceable · replayable
-> reject → retry
-
-Classification audit: `raw/sources/slide-ai-classification/slides/CLttOU7n6sI/audit.json`
+> request
+> agent writes Cay
+> free code CS)
+> e Lv
+> typed SDK reject - retry
+> + lint
+> v
+> Vv
+> v
+> valid - traceable - replayable
+> ee = .
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

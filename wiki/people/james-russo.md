@@ -8,6 +8,19 @@ twitter: "https://x.com/Rames_Jusso"
 website: "https://boredhacking.com/"
 blog: "https://boredhacking.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:991a4d82f6875f3a2b5955261ab4ae2b26751959e57a31a43b1809b71db46f56
+  subjectId: person:james-russo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0719fb93702e21472119ed358f2e25896398d2cca39317462efd4a399e635a4d
 ---
 # James Russo
 

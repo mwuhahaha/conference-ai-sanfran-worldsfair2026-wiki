@@ -3,6 +3,19 @@ title: "Auth0"
 category: "companies"
 aliases: ["Auth0"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ab3bb6861df2438a1a1a3987efd80fc1c7230ac2c8281a7c55defa7ed871f841
+  subjectId: company:auth0
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8338c25ca37cb76c41c4c8f05986c2d7021ce21821cd643feecdd8a64e7ac6b2
 ---
 # Auth0
 

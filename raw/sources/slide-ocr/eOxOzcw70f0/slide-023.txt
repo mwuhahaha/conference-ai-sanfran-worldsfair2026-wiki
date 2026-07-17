@@ -1,26 +1,11 @@
-AIE
-#root {
-max-width: 1280px;
-}
-/* Apple-inspired design with Fluent UI */
-.app-container {
-min-height: 100vh;
-background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-}
-.app-header {
-background: rgba(255, 255, 255, 0.95);
-backdrop-filter: blur(20px);
-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-Perfect! Now let me create the.github/copilot-instructions.md file:
-Created copilot-instructions.md
-Now let me create the main hydration tracking application. I'll start by updating the main App component:
-Let me fix the TypeScript error by properly typing the entry:
-Now let me create the CSS file for the app with Apple-inspired design principles:
-Now let me also update the global CSS to ensure proper baseline styling:
-48 packages are looking for funding
-run `npm fund` for details
-found 0 vulnerabilities
-aws
-World's Fair
+Te EE eee ee eee
+ee 5 we - J
+nen
+i :
+moat an eae 5 5 5 :
+ae er aa i re
+: eer ee
+Bee wes
+a
+~ Re Ret a ee
+. 99 ic hed Tepepelelol EY - 1 Baolony en eo ee |

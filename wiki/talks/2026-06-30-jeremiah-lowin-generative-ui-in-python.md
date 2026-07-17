@@ -64,9 +64,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-96G7FLab8xc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-96G7FLab8xc`
-- Slide deck: [[youtube-96G7FLab8xc-dense-slides|Dense Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/96G7FLab8xc/slide-001.jpg]]
-![[assets/dense-slides/96G7FLab8xc/slide-002.jpg]]
+- Slide deck: [[youtube-96G7FLab8xc-dense-slides|Dense Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]] — slide evidence page.
 - Additional slide evidence: [[youtube-96G7FLab8xc-slides|Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]], [[youtube-96G7FLab8xc-reconstructed-slides|Reconstructed Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]]
 - Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
 

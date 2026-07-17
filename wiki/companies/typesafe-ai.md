@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["TypeSafe AI"]
 website: "https://typesafe.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1c0dc503c45d95a250d4a6eb49ac7d4993916a6a5f1616343879b168cf013ccb
+  subjectId: company:typesafe-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:73a64a603dac294259de4e5ae95bc59995c249b034f8405575df0c66416407d8
 ---
 # TypeSafe AI
 

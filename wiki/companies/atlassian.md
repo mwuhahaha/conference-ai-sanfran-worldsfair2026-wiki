@@ -3,6 +3,19 @@ title: "Atlassian"
 category: "companies"
 aliases: ["Atlassian"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1db2a3524fa5129933d901dabd2cab07bdb22e6ce8457812dc32b8a6aa1b09ea
+  subjectId: company:atlassian
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:11d8c04388eef16e7d8b2fa4d56f26d3f9d7ec59a555693e2486a44966119bd2
 ---
 # Atlassian
 

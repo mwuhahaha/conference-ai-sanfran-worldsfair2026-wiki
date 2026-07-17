@@ -73,12 +73,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-5ID22ACI7IM]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-5ID22ACI7IM`
-- Slide deck: [[youtube-5ID22ACI7IM-dense-slides|Dense Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/5ID22ACI7IM/slide-001.jpg]]
-![[assets/dense-slides/5ID22ACI7IM/slide-002.jpg]]
-![[assets/dense-slides/5ID22ACI7IM/slide-003.jpg]]
+- Slide deck: [[youtube-5ID22ACI7IM-dense-slides|Dense Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]] — slide evidence page.
 - Additional slide evidence: [[youtube-5ID22ACI7IM-slides|Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]], [[youtube-5ID22ACI7IM-reconstructed-slides|Reconstructed Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]]
-- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -87,8 +84,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
+- `youtube-5ID22ACI7IM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
 - Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
 
 ### Agent Reading Notes

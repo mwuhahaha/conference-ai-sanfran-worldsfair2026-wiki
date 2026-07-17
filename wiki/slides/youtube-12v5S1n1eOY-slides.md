@@ -52,7 +52,7 @@ OCR text:
 > Industry-leading Ini: anagement platform
 > Box as 1,500+ integrations Custom 2 geue
 > Web : APIs&SDKs = ;
-> 
+>
 > _ Mowat ton, a! Slack DCopilot Zoom -
 > Mobile — = rd * P Integrations
 > a DT co gewcrnace nw GBD okta crowosrmme fF uicemens  _¥ ”
@@ -76,7 +76,7 @@ OCR text:
 > Box has fully integrated generative Al starting in 2023
 > Q&A across Data Al-powered
 > documents extraction workflows
-> 
+>
 > g How can we speed up our product roadmap? 172 Contracts Loan Approved: “eee
 > 1 Above $5000 90 vein 90 Days
 > Beemeiatentoris  ceutean oh tesbrdgse Neweeronvonses @
@@ -87,23 +87,11 @@ OCR text:
 
 OCR text:
 
-> Box has fully integrated generative AI starting in 2023
-> Q&A across documents
-> How can we speed up our product roadmap?
-> Data extraction
-> 172 Contracts
-> 17 Above $5,000
-> 90 Due in 90 Days
-> 12 Risky clauses
-> 53 Contain PII
-> AI-powered workflows
-> Loan Approved
-> New client onboarded
-> Insurance claim processed
-> Compliance audit submitted
-> AIE
-> Microsoft
-> smol ai
+> Box has fully integrated generative Al starting in 2023
+> Data
+> 2>xtraction
+> Cia i :
+> - J a Microsoft @yry{?
 
 ![[assets/slides/12v5S1n1eOY/slide-006.jpg]]
 
@@ -324,9 +312,11 @@ OCR text:
 
 OCR text:
 
-> AIE
 > Thank you!
-> box
+> ee
+> a
+> bY —
+> a Microsoft @yry{?
 
 ![[assets/slides/12v5S1n1eOY/slide-017.jpg]]
 
@@ -341,8 +331,14 @@ OCR text:
 OCR text:
 
 > Thank you!
-> box
-> World's Fair
+> rd
+> Loved a
+> : 7
+> Worlds Fair
+> | y
+> S| a - Dead
+> ie —,_ -
+> oe
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

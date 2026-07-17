@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/leomehr"
 twitter: "https://x.com/leomehr"
 website: "https://leomehr.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f6c80515b0c8a46f451bdb153a6394cfae3113aeeb87705f8efffee2c86aac99
+  subjectId: person:leo-mehr
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fe95a09188a71305fee54ccbdaaa6387bd1429dc1a9f46a1dd427bd715f7391d
 ---
 # Leo Mehr
 

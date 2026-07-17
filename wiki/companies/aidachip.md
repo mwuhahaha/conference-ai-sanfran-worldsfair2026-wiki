@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["AIDAChip"]
 website: "https://aidachip.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4affd57a8ffce67a343a37ce5534d590d968c4204062b26d2ce3803e67f96907
+  subjectId: company:aidachip
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:496fb86a440b8aa367e491bcf79b51c37cea15a2ca2ddad2806b8e040d167815
 ---
 # AIDAChip
 

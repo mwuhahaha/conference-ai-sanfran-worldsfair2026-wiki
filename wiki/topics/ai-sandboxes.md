@@ -2,6 +2,24 @@
 title: "AI Sandboxes"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5b206028141586ca2746aff32d9733f1bb75c7de22b847a403790c2fec3af04b
+  subjectId: concept:ai-sandboxes
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube-1P1hJ36rxM0
+  - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-ZyIoTOAbRfs
+  - source:official-wf26-youtube-pMggiOb18tc
+sourceAssessmentBodySha256: sha256:339952c19a8036959203d1d8b8212c666c5ed08baa4b4f980eb62cf80817ee6d
 ---
 # AI Sandboxes
 
@@ -224,9 +242,9 @@ Current media support is attributable to one official recording; it is context f
 - Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
 - Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
+- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
 - Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
-- `youtube-4kYl2_mqmnQ` — 4,930 transcript words; 9 slide-derived text signals; role: supporting context only.
+- `youtube-4kYl2_mqmnQ` — 4,930 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-4kYl2_mqmnQ`: machine, context, machines, linux, back, whole, point, each.
-- Slide-derived themes for `youtube-4kYl2_mqmnQ`: failure, coding, personal, projects, heavy, tasks, side, fleet.
+- Slide-derived themes for `youtube-4kYl2_mqmnQ`: sleeps, headless, dispatch, normal, default, coding, tasks, machines.
 - Evidence links for `youtube-4kYl2_mqmnQ` (supporting context only): [[youtube-4kYl2_mqmnQ]], [[youtube-4kYl2_mqmnQ-transcript]], [[youtube-4kYl2_mqmnQ-slides]]

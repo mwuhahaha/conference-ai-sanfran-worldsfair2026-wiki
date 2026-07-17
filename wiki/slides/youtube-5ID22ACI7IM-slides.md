@@ -21,15 +21,16 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/5ID22ACI7IM/slide-002.jpg]]
 
 OCR text:
 
-> Building the context
-> engine AI agents need
+> Bullding the context
+> neAlagentsne
+> AlEngine
+> EUROPE
 
 ![[assets/slides/5ID22ACI7IM/slide-003.jpg]]
 
@@ -44,7 +45,7 @@ OCR text:
 OCR text:
 
 > a
-> 
+>
 > oi =~
 
 ![[assets/slides/5ID22ACI7IM/slide-005.jpg]]
@@ -54,17 +55,17 @@ OCR text:
 > Remember how you built context?
 > * Day lat yourjob you had almost nocontext.
 > * Overtime, you accumulated it:
-> 
+>
 > * Mentorship
-> 
+>
 > * Planning & code reviews
-> 
+>
 > * Architecture decisions
-> 
+>
 > * Incidents & outages
-> 
+>
 > * Experiments & rollouts
-> 
+>
 > * Pushing alot of PRs
 
 ![[assets/slides/5ID22ACI7IM/slide-006.jpg]]
@@ -72,12 +73,12 @@ OCR text:
 OCR text:
 
 > The problem:
-> 
+>
 > access ¢ understanding
-> 
+>
 > * Weconnect agents to code, logs. docs, tickets, and more...
 > * Which gives us plausible output that often compiles...
-> 
+>
 > + Butit fails human review and real world expectations.
 
 ![[assets/slides/5ID22ACI7IM/slide-007.jpg]]
@@ -132,75 +133,33 @@ OCR text:
 OCR text:
 
 > Where Al forward teams use a context engine
-> 
+>
 > * Agent Plans & code — hydrate context before planning to improve codegen quality.
 > * Ticket enrichment — gathering context across systems to improve tickets.
-> 
+>
 > * Triage operations — routing issues, enriching tickets, and validating bug reports.
 
 ![[assets/slides/5ID22ACI7IM/slide-010.jpg]]
 
 OCR text:
 
-> Merged
-> Bulk code review memories experiment: rerun all code reviews with memories enabled #25632
-> unblocked bot reviewed on Dec 3, 2025
-> View reviewed changes
-> unblocked bot left a comment
-> 1 issue found.
-> About Unblocked
-> 2 participants
-> Lock conversation
-> ...n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
-> Comment on lines +210 to +288
-> @Test
-> fun processPullRequestChangedEvent enqueues HiddenReviewWithMemories for Full scope
-> suspendingDatabaseTest {
-> val org = makeOrg()
-> val pr = makePullRequest()
-> val commit = Hash.parse("8888888888888888888888888888888888888888")
-> val codeReview = makeCodeReview(
-> orgId = org.id.value,
-> prId = pr.id.value,
-> commit = commit,
-> pr = pr,
-> scope = CodeReviewScope.Full,
-> trigger = CodeReviewEventType.PullRequestOpened,
-> )
-> // Must be in base type format for polymorphic serialization to work
-> val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
+> fo Ce See enees Over teens [> eure O.-- OG sesrnrarcsmenygnesiny [ee eas eee eer) ee
+> LE Waters Se ele Te eee ee ee ee cere]
+> baat oad
+> @ [ie oe od Th OA em te
+> ceeened es
+> >
 
 ![[assets/slides/5ID22ACI7IM/slide-011.jpg]]
 
 OCR text:
 
-> Bulk code review memories experiment: rerun all code reviews with memories enabled #26332
-> richiebres merged 1 commit into main from richie/cr-memories-shado...
-> scope = CodeReviewScope.Full,
-> val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
-> orgId = org.id.value,
-> prId = pr.id.value,
-> commit = commit,
-> eventType = eventType,
-> )
-> whenever(codeReviewControlService.shouldAutomaticallyCreateCodeReview(org.id.value, p...)
-> whenever(
-> codeReviewManager.createReview(
-> orgId = org.id.value,
-> prId = pr.id.value,
-> commit = commit,
-> trigger = eventType,
-> )
-> ).thenReturn(codeReview.asDataModel())
-> processor.process(mockMessage, event.encode())
-> verify(codeReviewLifecycleEventProducer).enqueueHiddenPullRequestReviewWithMemoriesEv...
-> orgId = org.id.value,
-> prId = pr.id.value,
-> commit = commit,
-> )
-> Based on #24846 (comment) and #24699 [comment]
-> richiebres on Dec 3, 2025 Author
-> Very cool. Something I would say!
+> fo ee eon ores lo ee rny el los ee eer O:.+ (ee a ee Fleece wen ie GNC area
+> [ane CT Se ale ee ee ete ee aed eres]
+> bat ad
+> >
+> Cranes roan
+> res La
 
 ![[assets/slides/5ID22ACI7IM/slide-012.jpg]]
 
@@ -277,18 +236,18 @@ OCR text:
 
 OCR text:
 
-> Summary of Latest PR Fixes and Enh...
-> under the social-graph account. It now falls back to searching by service
-> name alone, so keys stored by other tools (e.g. Claude Code) are also
-> found.
-> Key changes across 3 files:
-> • builder.py — builds known_users dict from PR author data, handling
-> collision avoidance with existing logins.
-> • visualization.py — compute_lines_from_git accepts known_users,
-> parses git author name + email, and resolves to GitHub login.
-> • config.py — _macos_keychain_get loops over two keychain search
-> strategies.
-> References: Fix node size normalization and keychain fall...
+> (oC oe fo eee rs (oe ee ee Tee Poweriewe we ween ee eee
+> @ Unblocked g Summary of Latest PR Fixes and Enh...
+>
+> e a) 7 a a y y
+>
+> Pe “ont
+>
+> ae Cara i re
+>
+> Tamer ore Cee ote
+> (er co
+> & ae
 
 ![[assets/slides/5ID22ACI7IM/slide-015.jpg]]
 
@@ -418,7 +377,13 @@ OCR text:
 
 OCR text:
 
-> Workshop setup
+> eee
+>
+> a
+>
+> Ot
+>
+> =
 
 ![[assets/slides/5ID22ACI7IM/slide-022.jpg]]
 
@@ -446,12 +411,12 @@ OCR text:
 > enginecring-social- graph oe on oo
 > oon 9 ° conan Coe eels
 > ae Saeed ee 7 n
-> 
+>
 > re nota
-> 
+>
 > imal Caras ae
 > Packages
-> 
+>
 > Social Graph Builder
 
 ![[assets/slides/5ID22ACI7IM/slide-024.jpg]]

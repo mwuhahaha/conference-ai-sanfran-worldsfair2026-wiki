@@ -5,6 +5,19 @@ role: "Founder"
 company: "Ref."
 linkedin: "https://www.linkedin.com/in/matthewjdailey"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:00d6fc5c24ec9dec96664f86091186d9984b43af9cbe80305163313e0e2ca467
+  subjectId: person:matt-dailey
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3269c53b58c308ccffb089c24e4704feb9f3fb8b53d91075bb3e8ec36ae1d648
 ---
 # Matt Dailey
 

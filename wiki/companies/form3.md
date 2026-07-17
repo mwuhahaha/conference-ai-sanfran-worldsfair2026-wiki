@@ -3,6 +3,19 @@ title: "Form3"
 category: "companies"
 aliases: ["Form3"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:12fdf0a345bd1ebf5e5c33caa8cb84ec1740fc95e9ada8a141a6060961477792
+  subjectId: company:form3
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:adc5fae5f735eea3062243fe48651801bd908a3057dd437748f984af27d4e034
 ---
 # Form3
 

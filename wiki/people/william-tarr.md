@@ -8,6 +8,18 @@ website: "https://fellows.ai.gov.uk/articles/william-tarr-moj/"
 sourceLabels: ["Public YouTube metadata", "Public YouTube video frames", "No10 Innovation Fellowship", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "critical"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:373730f378e0695d0266824f3052f5102c61caa1ef89df451397cd8f4d379701
+  subjectId: person:william-tarr
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:3298c85e0c85f1e8c53658d07d86477e6914a98ab1cbda7979e0fe667c6ede09
 ---
 # William Tarr
 
@@ -50,9 +62,9 @@ This section summarizes how this person appears across the conference source gra
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 3 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
-- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: unit, automation, joined, november, working, mainly, across, trying.
 - Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 ## Evidence Boundary
 This page combines public YouTube metadata, transcript/slide evidence, No10 Fellowship pages, the [[justice-ai-unit|Justice AI Unit]] site, and Tergle/YC public pages. The exact AI Engineer schedule slot for this cut video has not been matched to an official scheduled session page in this wiki.

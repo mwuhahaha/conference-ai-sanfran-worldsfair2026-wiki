@@ -8,6 +8,19 @@ twitter: "https://x.com/_philschmid"
 website: "https://www.philschmid.de/"
 blog: "https://www.philschmid.de"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d50a5f775a8ac1d397173223472f8b9678949a6d791ad017f8fcda57e363a51a
+  subjectId: person:philipp-schmid
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fa1384cb033699fc311dadbe106173180cbb91ae4c634db1645a42d0d39b6450
 ---
 # Philipp Schmid
 
@@ -38,9 +51,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python|Agents Without Code: How Skills, YAML, and Filesystems Replaced Python]]
 
 ### Media Signals
-- `youtube-3_gYbhABcAE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
+- `youtube-3_gYbhABcAE` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
 - Evidence links for `youtube-3_gYbhABcAE` (supporting context only): [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
-- `youtube-cVzf49yg0D8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
+- `youtube-cVzf49yg0D8` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
 - Evidence links for `youtube-cVzf49yg0D8` (supporting context only): [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]

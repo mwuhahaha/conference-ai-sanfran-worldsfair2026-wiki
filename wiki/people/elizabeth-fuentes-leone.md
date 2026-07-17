@@ -6,6 +6,19 @@ company: "Amazon Web Services"
 linkedin: "https://www.linkedin.com/in/lizfue/"
 twitter: "https://x.com/lizfue"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1aaf105d6d5e23c5a6ba049da87f02aff85982095c8d069c6299beda07c816c7
+  subjectId: person:elizabeth-fuentes-leone
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:33111f5975baf50c5560072a4d80b3fab6a5f9e43b48424842dfeb74e9520c4a
 ---
 # Elizabeth Fuentes Leone
 

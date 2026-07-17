@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-SbUxRluVRwk]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-SbUxRluVRwk`
-- Slide deck: [[youtube-SbUxRluVRwk-dense-slides|Dense Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/SbUxRluVRwk/slide-001.jpg]]
+- Slide deck: [[youtube-SbUxRluVRwk-dense-slides|Dense Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]] — slide evidence page.
 - Additional slide evidence: [[youtube-SbUxRluVRwk-slides|Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]], [[youtube-SbUxRluVRwk-reconstructed-slides|Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]]
-- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
+- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.

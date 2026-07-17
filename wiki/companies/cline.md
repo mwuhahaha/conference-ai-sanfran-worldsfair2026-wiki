@@ -3,6 +3,19 @@ title: "Cline"
 category: "companies"
 aliases: ["Cline"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:faa6262a80ae017d6e28c3510b5c0bbe1b0ef080e9a5fcd045eb71fa71860a6b
+  subjectId: company:cline
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:249dae4e1adfe6d6bf50a12c7f53117ad12d39ef369b02de047c5978904824ba
 ---
 # Cline
 

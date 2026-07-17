@@ -17,29 +17,25 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/UM6sFg_jdlE/slide-002.jpg]]
+![[assets/slides/UM6sFg_jdlE/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UM6sFg_jdlE/slide-002.html)
-- AI slide classifier: `title_card` confidence `0.95`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Rag is dead, right??
-> How hybrid, tool-rich retrieval is becoming the default for serious agentic search
-> Kuba Rogut
-> Deployed Engineer
-> April 9, 2026
-> Engineering the future of AI
+
+![[assets/slides/UM6sFg_jdlE/slide-002.jpg]]
+
+OCR text:
+
+> turbopuffer
+> AIE How hybrid,tool-rich retrieval is becoming the default Rag is dead, right?? for serious ogentic search
+> Kuba Rogut Deployed Engineer
+> April9.2026
+> Engineering thefutureofAl
 
 ![[assets/slides/UM6sFg_jdlE/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UM6sFg_jdlE/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/full`.
-- OCR decision: ready — Content slide with a dense embedded product/chart screenshot and small UI text; OCR is likely better than manual transcription.
-
-Slide text:
+OCR text:
 
 > "RAGisdead"？ turbopuffer
 > Retrieval Aug onted Ge
@@ -51,24 +47,30 @@ Slide text:
 
 ![[assets/slides/UM6sFg_jdlE/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UM6sFg_jdlE/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Content slide with a dense comparison diagram and an embedded social/media screenshot; OCR is likely the efficient way to capture the body text.
+OCR text:
 
-Slide text:
-
-> from RAG to agentic retrieval turbopuffer
-> pattern Google Jeff Oean says bigger context windows alone are not enough Haldr. O - Hslow devrlope! tuyqns
-> ★ + ★ AIE ★ From RAG - Agentic Rctrieval old -Stuff the prompt. Cross fingers - Retrieve once new -Search as needed - Reason in steps - Fetch what is useful Wmat matters is staged retrieval: lightweight mechanisms that narrow 3 trillion tokens down to 10 million, then to the mition you actually nood you don't need a trillion ot once, you noed the right mlion* Oelow_develops!
+> from RAG to agentic retrieval ‘g® turbopuffer
+> ev": a
+> cols Gevelope
+> pattern Google Jeff Dean says bigger context windows alone are not enough
+> « From RAG — Agentic Retrieval What matters 15 staged retreval: ightweight mechanisms that narrow a
+> fa bl * trillion tokens down to 10 million, then to the miflion you actually need
+> af
+> * * °
+> 5 old new "you don't need a trillion at once, you need the right million
+> a *
+> * a ba SS eeerrrr——————————— Osiow developer
+> - Retrieve once - Reason in steps
+> - Stuff the prompt - Search as needed
+> - Cross fingers + Fetch what is useful
 > Retrieval is now iterative with tools
-> AlEngineer
-> EUROPE
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/UM6sFg_jdlE/slide-001.jpg) — `speaker_stage` confidence `0.98`; Speaker standing at podium with audience visible; this is a stage shot, not a clean presentation slide frame.
-
-Classification audit: `raw/sources/slide-ai-classification/slides/UM6sFg_jdlE/audit.json`
+> ,
+> f
+> | ~ 7 K\ |
+> =
+> . | PND le ats |
+> Lm SUL Xela
+> rn Co :
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -14,18 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/jryZvCuA0Uc/slide-002.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/jryZvCuA0Uc/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: agent_vision.
-
-Slide text:
-
-> Read the full report
-> research.trychroma.com
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/dense-slides/jryZvCuA0Uc/slide-001.jpg) — `title_card` confidence `0.98`; title card
-
-Classification audit: `raw/sources/slide-ai-classification/dense/jryZvCuA0Uc/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

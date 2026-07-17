@@ -1,7 +1,3 @@
 reality is messy
-webhook
-crash
-retry
-fires twice
-mid-run
-run it again
+™ “
+fires twice mid-run run it again

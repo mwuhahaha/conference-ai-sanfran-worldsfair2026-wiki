@@ -6,6 +6,19 @@ company: "Uber"
 linkedin: "https://www.linkedin.com/in/guptasoumya12/"
 twitter: "https://x.com/guptasoumya12"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:84e156cb7b3bb3a170641e7551e17cb5095b801a02716d681b9d1635e7b767a2
+  subjectId: person:soumya-gupta
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:44827b9ba9edf01b28e6fc667205d412c8f3e4c57e97e485dc74d2f0692133a8
 ---
 # Soumya Gupta
 

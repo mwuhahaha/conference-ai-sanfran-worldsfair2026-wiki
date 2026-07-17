@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-17T10:01:40Z
+updated: 2026-07-17T13:47:04Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -25,17 +25,22 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - The official YouTube monitor invokes that update once after admitting new
   event media. Direct generator, enricher, normalizer, and exporter calls are
   stage-level debugging tools only.
-- Run `update-20260717T051453Z-43aefe0a3d` completed all 16 stages, validated,
-  and promoted locally. Its machine receipt is
-  `.ops/state/runs/wiki-maker-update-20260717T051453Z-43aefe0a3d-attempt-001.json`;
-  the operator summary is
-  `.ops/state/runs/20260717T052722Z-playlist-credibility-article-migration.md`.
-- The promoted target snapshot is
-  `snapshot:b00976ab3a3272e1f2532a9db296cb97c522bed892725c8b4258b63c54be5711`;
-  its agent snapshot is
-  `snapshot:521c817de54118bbd2190c616edb5991f0355859040dcbcc9e663f10eb1c74c2`.
-  Repeating the identical update returns a planning no-op with no execution,
-  validation, promotion, or receipt.
+- The media profile now has 18 ordered adapters. Its fail-closed tail is
+  `sanitize_public_text` -> `agent_source_index` -> `normalize_articles` ->
+  `page_assessments` -> `static_export`; the maker then builds and validates
+  the agent product before promotion.
+- Definitive run `update-20260717T132348Z-4d6cb4d754` completed the 18 adapters
+  plus maker runtime stages, validated, and promoted locally. Its target
+  snapshot is
+  `snapshot:81f654182c28bd0eec179d4cf0c5a303c55b825b1366cdca8cf0292d78e7ce35`;
+  the promoted agent snapshot is
+  `snapshot:c7e4ef0e07ffb79d4d158cf9e8664d8770e8c7ef546de4769b5742c41ab639bc`.
+- An earlier candidate run, `update-20260717T131302Z-bb9a6a529d`, failed
+  before promotion because the agent product was redundantly rebuilt from a
+  candidate symlink outside its apparent root. The duplicate build was removed;
+  no output from the failed candidate was promoted. Repeating the corrected
+  update returns `status: no_op` without execution, validation, promotion, or
+  a receipt.
 - The run performed no external deployment. Publication remains a separate,
   explicit operation.
 - Auditable credibility-v2 closure is complete. Definitive run
@@ -47,17 +52,24 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   ruleset snapshots, replay before finalization, and distinguish arithmetic
   replay, append-only provenance, and live-source rehashing. Exact correction
   and remediation reversals are uncapped, unfactored, and globally single-use.
-- Final validation: 668 maker tests and 234 project tests pass; Ruff and diff
-  checks are clean; all 12,377 scanned public files pass the private-score
-  boundary. The scoring values and ranking internals remain ignored private
-  state and are not documented publicly.
+- Final validation: 750 maker tests and 302 project tests pass; Ruff, compile,
+  and diff checks are clean. All 7,384 publishable files plus 1,998 raw source
+  files pass the private-ranking boundary. Numeric values, weights, thresholds,
+  and ranking internals remain ignored private state.
 - Every held company-profile candidate now has an explicit `omit` decision.
   The internal audit verifies all 300 held candidates are absent from public
   artifacts and fails on any future held candidate lacking that decision.
-- The official-media union contains 34 WF26 items: 26 recordings, 3 scheduled
-  premieres, 2 unavailable playlist placeholders, and 3 event livestreams.
-  All 29 official-playlist entries are represented; its 24 playable recordings
-  have cached transcripts.
+- All 975 canonical entity/article pages have evidence-coverage assessments:
+  953 are `limited`, 22 are `pending`, and none currently meet `strong` or
+  `contested`. Official primary-source pages are never omitted because of an
+  assessment. Public Markdown carries categorical evidence capsules; the human
+  site shows fixed friendly notices only at configured edge states and does not
+  expose ordinary limited-state notices or numeric scores.
+- The official-media union contains 34 WF26 items. A live owner-validated
+  playlist dry-run found no new playlist IDs: 29 are playable, 3 scheduled, and
+  2 unavailable. Local transcript coverage is 25/29 playable items and slide
+  outcomes are complete for 29/29; four playable items retain explicit
+  transcript gaps rather than fabricated or misclassified content.
 - The transcript layer contains 123 pages: 28 primary-event transcripts and 95
   supporting-context transcripts. Transcript, video, OCR, slide, and synthesis
   roles remain labeled separately. Playlist slide outcomes are 23 cached, 1
@@ -66,7 +78,8 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   `.ops/state/cache/wiki-maker/private-policy.json`, as declared by the profile.
   Provider/browser receipts, claim assessments, candidate profiles, and writing
   decisions remain under ignored `.ops/state/cache/wiki-maker/credibility-v2/`.
-  Their contents must never enter tracked or public outputs.
+  Their contents must never enter tracked or public outputs. Full signed +/-
+  receipts remain replayable there for operator audit.
 
 ## Relationship Explorer Release
 
@@ -105,6 +118,12 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   edges across 30 articles, including linked companies, highlights, resources,
   slides, talks, tools, topics, and transcripts. Desktop/mobile checks passed
   without page errors, failed requests, or document overflow.
+- A 2026-07-17 local release check reconfirmed graph data, connection lines,
+  node selection, canonical wiki links, zoom, Fit, and step expansion. It also
+  found a separate presentation follow-up: entity-neighborhood labels collide
+  or clip at the graph boundary, especially on mobile, and the mobile expansion
+  control can obscure the legend. The graph also requires its current `esm.sh`
+  Sigma/Graphology dependency at runtime and does not initialize offline.
 - Next single story returns to S3 in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
 ## Latest Completed Follow-Up Stories
@@ -139,11 +158,31 @@ The project-local official YouTube monitor was hardened in commit `324e0e2c`:
 - `--dry-run` no longer mutates the tracked RSS snapshot.
 - the auto-push path refuses to run in a dirty worktree so it cannot commit unrelated operator changes.
 
+The current monitor adds two durable transaction boundaries. A mutation journal
+restores wiki, raw, static, and root agent-index state after pre-publish failure;
+a separate post-push local-sync journal closes the remote-published/local-HEAD
+crash window without rolling back content already verified on the remote. Normal
+recurring runs owner-validate and reconcile the complete official playlist, then
+union it with strictly year/date-gated official-channel discovery. Scheduled and
+unavailable playlist members stay represented and wrong-year media fails closed.
+
+Slide AI publication is now content-addressed against the exact image, model,
+prompt, configuration, input, and output. Classifier or OCR failures cannot
+publish partial state or poison a later cache hit. Historical repair restored
+599 exact backups, confirmed 2 already-correct records, quarantined 200 stale
+audits, withheld 108 unsupported sections, and removed 1,498 stale HTML assets.
+Codex-based reads of untrusted media default to read-only execution without local
+tools. Public classifier status remains categorical; exact gate reports remain
+ignored private state.
+
 The updated user unit was installed and verified at `2026-07-16T07:47:25Z`.
 For the bounded playlist/maker migration, the timer was disabled before source
-acquisition and remains disabled and inactive. This branch is intentionally
-dirty and the installed auto-push service requires a clean `main` checkout;
-restore the six-hour timer only after review/commit returns operations to that
+acquisition and remains disabled and inactive. Its prior failed status came
+from the expected feature-branch/dirty-checkout preflight refusal,
+not a media-processing failure, and has been cleared without starting the
+service. The service and timer are now inactive and the timer remains disabled.
+The installed auto-push service requires a clean `main` checkout; restore the
+six-hour timer only after the feature branch is reviewed and merged into that
 safe state.
 
 The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to
@@ -157,14 +196,15 @@ The earlier channel-scan slice had added or corrected:
 - Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
 - Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.
 
-Validation at `2026-07-17T05:27:22Z`: all 29 playlist items have typed outcomes,
-all 24 playable playlist recordings have primary-event transcript coverage,
-229 project tests pass, article normalization is idempotent, and the static
-export contains 2,438 Markdown-identical pages.
+Validation at `2026-07-17T13:42:36Z`: the live recurring dry-run found no new
+playlist IDs and left the worktree unchanged. The union has typed outcomes for
+all 34 admitted items; the static and agent builds contain 2,438
+Markdown-identical pages, and article normalization is idempotent.
 
 ## Next Step
 
-Review and commit the maker/WF26 changes before restoring the local six-hour
-monitor. Push/deployment remain separate explicit operations. The monitor will
-revisit the three scheduled premieres and run the same unified update when
-their media becomes playable.
+Review and merge the pushed maker and WF26 feature branches, return the installed
+monitor to a clean `main` checkout, then enable the local six-hour timer.
+Deployment remains a separate explicit operation. The monitor will
+revisit scheduled premieres and run the same unified update when their media
+becomes playable.

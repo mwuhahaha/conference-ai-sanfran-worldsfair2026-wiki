@@ -3,6 +3,19 @@ title: "Venice AI"
 category: "companies"
 aliases: ["Venice AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:55a1387a90665623af2671e260bc4dbf050c67ca86b7b714a7067a83b1d5db99
+  subjectId: company:venice-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9736946572c16e61a131fc805c9ddad95974f2095c08216998b13dfc9304d217
 ---
 # Venice AI
 

@@ -6,6 +6,19 @@ company: "DoorDash, Inc."
 linkedin: "https://www.linkedin.com/in/raghavsaboo/"
 website: "https://buildshipai.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2e98d00367982c2eb152d7fe4c5a5db98f314960031b73346b4aedd36bf1eff5
+  subjectId: person:raghav-saboo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:07905b4df0908bf9a146a487fa5b64ae60f26be2d23fed77837d51b98d231fdf
 ---
 # Raghav Saboo
 

@@ -3,6 +3,19 @@ title: "Forward Future"
 category: "companies"
 aliases: ["Forward Future"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c06c5dbf32112250832cfa48e2df3c45215d25cd32a84b89f24723de97ab8a5b
+  subjectId: company:forward-future
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b766eff8b80e58ade3cd7fe890ecb8a47e408fd9d5c6e274ac265ce960f7590f
 ---
 # Forward Future
 

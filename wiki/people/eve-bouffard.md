@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/eve-bouffard"
 twitter: "https://x.com/eve_bouff"
 website: "https://evebouffard.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b9e42e3519cf3d7447e66fba4013f569b9c8dbef39e25a06b279a3f20e31658b
+  subjectId: person:eve-bouffard
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:373b5f6487eae8b00872bf5880d6c2d9a6a9905f500b0949f879a42bb9aca4dc
 ---
 # Eve Bouffard
 

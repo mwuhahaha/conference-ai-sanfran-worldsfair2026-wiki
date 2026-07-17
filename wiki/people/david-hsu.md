@@ -5,6 +5,19 @@ role: "CEO"
 company: "Retool"
 linkedin: "https://www.linkedin.com/in/dvdhsu/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:321d104f9a9a2f4a850b748948b575e5883684a683fd4297e432b32b45f1cc88
+  subjectId: person:david-hsu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:05aae65cf283191eb598a4f8a3063420ab9d182967ca124053a685863e418303
 ---
 # David Hsu
 

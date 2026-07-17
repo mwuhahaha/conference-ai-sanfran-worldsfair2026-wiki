@@ -5,6 +5,19 @@ role: "Distinguished Engineer and CVP"
 company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/pabloc"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7cd001f6bcf4da4c122d1410658f9ab086b7d57d8c58cf7efb57e6a3d10a7af9
+  subjectId: person:pablo-castro
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:49141dd6fb9c0e6979184f340bc2cf141315857a203355efecddc5b53ec4f7da
 ---
 # Pablo Castro
 

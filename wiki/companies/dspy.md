@@ -3,6 +3,19 @@ title: "DSPy"
 category: "companies"
 aliases: ["DSPy"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:63746bdcab7c80e5e0e19850488d0db32aa4e231f62056ada29632c8a5aefe32
+  subjectId: company:dspy
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a1f101c6c023b222cf0eb8e981bab28961b781044990e792f5b19943ea370a6c
 ---
 # DSPy
 

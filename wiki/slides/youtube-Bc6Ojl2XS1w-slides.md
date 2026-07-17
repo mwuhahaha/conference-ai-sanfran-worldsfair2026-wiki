@@ -21,10 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust
-> WorkOS
-> OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/Bc6Ojl2XS1w/slide-002.jpg]]
 
@@ -118,10 +115,10 @@ OCR text:
 OCR text:
 
 > ranean’ : Our goal is to build models that
-> 
+>
 > i i deeply comprehend. richly
 > mn . : transcribe, and robustly reason
-> 
+>
 > ran through audio -- seamlessly
 > : handling any mix of languages,
 > ; dialects, accents. and modalities.
@@ -281,9 +278,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> | Al Engineer |
 > EUROPE
-> HTTPS://AI.ENGINEER
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

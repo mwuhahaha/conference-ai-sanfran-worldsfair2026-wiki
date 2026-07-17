@@ -3,6 +3,19 @@ title: "Band.ai"
 category: "companies"
 aliases: ["Band.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eaf1e28e067d1979aacd360d35d6771c4d438e10c883fcab8939cfbc25099cae
+  subjectId: company:band-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9afc073dde50ae5964af16bdd917c940ef3e4253975fad4023e7caa11a498e81
 ---
 # Band.ai
 

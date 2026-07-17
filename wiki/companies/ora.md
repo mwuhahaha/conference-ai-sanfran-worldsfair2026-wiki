@@ -6,6 +6,18 @@ website: "https://ora.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public research article", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3a86b3e40fb7a8015f92713a15eeed14726ffc37c836c9a684b847b78bd53008
+  subjectId: company:ora
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:f52a924122b1cc7363ab3037022327fb6568b4efa81b6ccc6a3ce63cfd53adcd
 ---
 # ORA
 

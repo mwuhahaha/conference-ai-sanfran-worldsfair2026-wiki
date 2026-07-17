@@ -5,6 +5,19 @@ aliases: ["Krea 2"]
 sourceLabels: ["Official schedule", "Public YouTube metadata"]
 scheduleTracks: ["Generative Media"]
 scheduleRooms: ["Track 1"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1c3d3a2236c1736cd5518d4b922b6c29fe97bfa2bba9bb417df9f6198e9a7433
+  subjectId: tool:krea-2
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:46bf4846672e132752ad7b1b68f150c3e2520d7984f45af1f8aae64c0b70b832
 ---
 
 # Krea 2

@@ -8,6 +8,19 @@ twitter: "https://x.com/tejaskumar_"
 website: "https://tejaskumar.com"
 blog: "https://tej.as/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f013d7a69de7302febb8676c43eed73c84fdb42b0c9d678fe865c2eb29c85b60
+  subjectId: person:tejas-kumar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:be9c4dd4612dcadae4809e2c9e5b2afe4f003a7bdc0077d82b16a1b35e52339c
 ---
 # Tejas Kumar
 

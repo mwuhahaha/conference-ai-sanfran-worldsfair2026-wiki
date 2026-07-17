@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATION SPONSOR
+> INNOVATIONSPONSOR
 > aws
-> PLATINUM SPONSORS
+> PLATINUMSPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -33,10 +33,10 @@ OCR text:
 OCR text:
 
 > Embrace the
-> AI overlords
+> Al overlords
 > Give them the data they
 > need.
-> Pacha DDN
+> PachaDDN
 
 ![[assets/slides/himhGiWJXjo/slide-003.jpg]]
 
@@ -59,7 +59,7 @@ OCR text:
 OCR text:
 
 > Why is the deal with
-> ACME stuck in stage 3?
+> Salesforce ACME stuck in stage 3?
 
 ![[assets/slides/himhGiWJXjo/slide-005.jpg]]
 
@@ -135,6 +135,7 @@ OCR text:
 
 > #3. Get LLMs to figure out the plan of how to
 > access data.
+> re eM)
 
 ![[assets/slides/himhGiWJXjo/slide-012.jpg]]
 
@@ -148,11 +149,8 @@ OCR text:
 
 OCR text:
 
-> AIE
-> AI Engineer
-> World's Fair
-> Microsoft
-> smol ai
+> | World's Fair |
+> wien | a Microsoft amc?
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

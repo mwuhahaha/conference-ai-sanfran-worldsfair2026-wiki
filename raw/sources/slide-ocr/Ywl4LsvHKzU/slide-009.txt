@@ -1,6 +1,5 @@
-Ingestion:
-Flow
 1. Cluster
-2. Identify Schema
-3. Populate
-4. Upload
+_ 2. Identify Schema
+Ingestion: 3. Populate
+Flow 4. Upload
+Kor 73) A

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/namanahuja/"
 website: "https://buzzingtech.ai/"
 blog: "https://buzzingtech.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cdaa481086b5438395618605792eede2ddca09cf2d1c35c28110bf78c5ab9605
+  subjectId: person:naman-ahuja
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2633d45cadeacd71d6804c52e834e1c16f8be882c8ea1fd66c906f05ade29a53
 ---
 # Naman Ahuja
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
 
 ### Media Signals
-- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
+- `youtube-APh1Vx0oLmQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: step, infrastructure, state, model, hallucinates, error, built, traditional.
 - Evidence links for `youtube-APh1Vx0oLmQ` (supporting context only): [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]

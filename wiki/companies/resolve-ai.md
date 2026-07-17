@@ -3,6 +3,19 @@ title: "Resolve AI"
 category: "companies"
 aliases: ["Resolve AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4609975eeceaa237016013eec24fea38aeaa78a52e21cca64d834bd7d8836a7c
+  subjectId: company:resolve-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:28e008d9508c952432ff87c56361dc8c9fb2f6f435ebba658cc7669bda67db7e
 ---
 # Resolve AI
 

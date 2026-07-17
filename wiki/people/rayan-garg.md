@@ -6,6 +6,19 @@ company: "Theta Software"
 linkedin: "https://www.linkedin.com/in/rayan-garg/"
 twitter: "https://x.com/RayanGarg"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:de9f87731a2d4a05bafc49552559b5a5bbb942a9e6ef05fecd3f1e4ab317b6bc
+  subjectId: person:rayan-garg
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9b453e35c61a60cba564444a77037be2824035f4766070032cebd9b6c53ea77d
 ---
 # Rayan Garg
 

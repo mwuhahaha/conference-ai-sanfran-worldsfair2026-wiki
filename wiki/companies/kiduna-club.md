@@ -3,6 +3,19 @@ title: "Kiduna Club"
 category: "companies"
 aliases: ["Kiduna Club"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d695ccc00525ae801a70c83441b24718b00850dc3e4857083083cb1d6d11677b
+  subjectId: company:kiduna-club
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6f9d388091157c29bdd93cdee7a9d265cb46af62e6145dfdb7dff2d6d67616a3
 ---
 # Kiduna Club
 

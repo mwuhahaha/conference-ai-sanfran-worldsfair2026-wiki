@@ -3,6 +3,19 @@ title: "Deasy Labs / Collibra"
 category: "companies"
 aliases: ["Deasy Labs / Collibra"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c60bbfa9213bc47c4526276146b8a1c2b264309b99c5d3a39ad5fb2564d787a3
+  subjectId: company:deasy-labs-collibra
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ff16b76b0759e80e5f6539e21ae02c05c78cf6004dc56cc39b5da759f85fa93e
 ---
 # Deasy Labs / Collibra
 

@@ -21,25 +21,17 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust
-> WorkOS
-> OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/XNtkiQJ49Ps/slide-002.jpg]]
 
 OCR text:
 
-> LEGORA
-> COLLABORATIVE AI FOR LAWYERS
-> Research relevant law and draft a contract between the two parties
-> in these documents.
-> Make no mistakes
-> AGENTS NEED MORE THAN A CHAT
-> JACOB LAURITZEN / CTO LEGORA
-> AI Engineer EUROPE
-> PRESENTED BY
-> Google DeepMind
+> a
+> a as
+> LT
+> AlEngineer AGENTS NEED MORE THAN A CHAT
+> EEN JACOB LAURITZEN /cto LEGORA
 
 ![[assets/slides/XNtkiQJ49Ps/slide-003.jpg]]
 
@@ -132,12 +124,12 @@ OCR text:
 > =i
 > mat]
 > Agents aren't humans
-> 
+>
 > = |
 > ded
-> 
+>
 > A
-> 
+>
 > ce AGENTS NEED MORE THAN A CHAT
 > ee ee @ Braintrust €)WorkOS OpenAl
 

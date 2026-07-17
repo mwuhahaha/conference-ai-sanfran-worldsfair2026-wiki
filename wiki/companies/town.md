@@ -3,6 +3,19 @@ title: "Town"
 category: "companies"
 aliases: ["Town"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9c07937fbbe7325d1dbe713aae1e119afc9f52d61a761380cf5ddbc2094711cc
+  subjectId: company:town
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bcc5445d0588b37b72288686cd1372b6aaf03dc8b9141c5fd0bd4f04a3a1a542
 ---
 # Town
 

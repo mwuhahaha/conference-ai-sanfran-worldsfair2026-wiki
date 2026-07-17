@@ -4,6 +4,19 @@ category: "people"
 role: "Co-Founder and COO"
 company: "Druid AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:91eaf626818fd72716717d3dcd3f5efc62644f4344539ad9ebadd60a733856f7
+  subjectId: person:andreea-ple-ea
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b4f8bf26d8a97004478436f0df578f92c2f55ff99d62410ba8664a720f9320f1
 ---
 # Andreea Pleşea
 

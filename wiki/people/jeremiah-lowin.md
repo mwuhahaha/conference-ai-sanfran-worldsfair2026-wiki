@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/jlowin/"
 twitter: "https://x.com/jlowin"
 website: "https://jlowin.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c9b0129b6ae3701c0dfaec2f2f3456d80d1271584020b67de7fc9deafc7366ae
+  subjectId: person:jeremiah-lowin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6dd32144af39d46c5558571df1804ad82ea77ce9fc5ae633553aa9102e9e56a0
 ---
 # Jeremiah Lowin
 

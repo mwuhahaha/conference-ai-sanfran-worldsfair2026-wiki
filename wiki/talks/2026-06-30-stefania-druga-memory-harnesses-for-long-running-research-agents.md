@@ -74,12 +74,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-wNH3q9pqn0U]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-wNH3q9pqn0U`
-- Slide deck: [[youtube-wNH3q9pqn0U-dense-slides|Dense Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]] — 14 visible slide image(s); 14 HTML recreation(s).
-![[assets/dense-slides/wNH3q9pqn0U/slide-001.jpg]]
-![[assets/dense-slides/wNH3q9pqn0U/slide-002.jpg]]
-![[assets/dense-slides/wNH3q9pqn0U/slide-003.jpg]]
+- Slide deck: [[youtube-wNH3q9pqn0U-dense-slides|Dense Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]] — slide evidence page.
 - Additional slide evidence: [[youtube-wNH3q9pqn0U-slides|Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]], [[youtube-wNH3q9pqn0U-reconstructed-slides|Reconstructed Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]]
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -88,7 +85,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-wNH3q9pqn0U` — source page linked; role: supporting context only.
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
 - Evidence links for `youtube-wNH3q9pqn0U` (supporting context only): [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 
 ### Agent Reading Notes

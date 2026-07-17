@@ -1,2 +1,2 @@
-/ ANTHROPIC
+/ ANTHROP\C
 Claude Agent SDK

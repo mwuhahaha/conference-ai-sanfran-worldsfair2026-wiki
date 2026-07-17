@@ -6,6 +6,19 @@ company: "EXO Labs"
 linkedin: "https://linkedin.com/in/alex-cheema"
 twitter: "https://x.com/alexocheema"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bfb05321013147fe21485bd5eb15dc84dba9d94c9e61087d149d70ddb2cb306f
+  subjectId: person:alex-cheema
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3e80a97f9cabc4c4f81a1a36e9ff9396bcb073084b1b91e4838b06154493093c
 ---
 # Alex Cheema
 

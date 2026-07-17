@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/JsCCrBF7F1g/slide-002.jpg]]
 
@@ -38,36 +37,38 @@ OCR text:
 
 OCR text:
 
-> observe
-> Registration is open for Arize Observe 2026 →
-> Ship Agents that Work
-> AI & Agent Engineering Platform. One place for development,
-> observability, and evaluation.
-> Get Started
-> Self-Host OSS
-> Powering the world’s leading AI teams
-> AIE
-> Braintrust WorkOS OpenAI
+> oT 7 PC i . . . . . . . Cr a ad " i “s 7 ; ROK ; ~
+>
+> observe Dee ne on OR CP ava a
+> Cy ce: a ca os ot ere |
+>
+> aa Ship Agents that Work
+>
+> A iM
+> Sr =i .
+> Powering the world’s leading Al teams
+> =
+> #3 Braintrust €) WorkOS OpenAl
 
 ![[assets/slides/JsCCrBF7F1g/slide-004.jpg]]
 
 OCR text:
 
 > Building GenAl is Hard, So How Are Teams Tackling This?
-> 
+>
 > vt — ~
 > &
 > Observability “|
-> 
+>
 > rs What is happening in my application? Can Erle
 > en ba in | root cause down into the problem? Experimentation &
 > NX. i
 > * x Improvement
 > Paar (+) i The ultimate goal of
 > Nw observability and evaluation
-> 
+>
 > . ] : is to know where to iterate
-> 
+>
 > [5] and know where to improve
 > 5 the system
 > Evaluation
@@ -83,10 +84,10 @@ OCR text:
 
 OCR text:
 
-> Building GenAI is Hard, So How Are Teams Tackling This?
-> Observability
-> Evaluation
-> Experimentation & Improvement
+> Bullding GenAl is Hard,So How Are Teams Tackling
+> AEngineer
+> EUROPE
+> D26
 
 ![[assets/slides/JsCCrBF7F1g/slide-006.jpg]]
 
@@ -105,9 +106,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> | Al Engineer |
 > EUROPE
-> HTTPS://AI.ENGINEER
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

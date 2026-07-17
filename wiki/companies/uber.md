@@ -3,6 +3,19 @@ title: "Uber"
 category: "companies"
 aliases: ["Uber"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f018c7856c23e34948372e741198a5653be564872f439061509eb3296bd97e8f
+  subjectId: company:uber
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:558006bcb56662f088e865ad45704a83f828ca2f1d9f09c7508a99055f4d109b
 ---
 # Uber
 

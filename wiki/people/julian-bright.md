@@ -4,6 +4,19 @@ category: "people"
 role: "Co-Founder"
 company: "Introspection"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2a5c720ba277230be7be83998c4e9b7bf8b4c61d9e3f60c5b75b389557a36195
+  subjectId: person:julian-bright
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4af5cee0dd3ece5b24faa634e6b53befb19a82136307a1556067bedf30b3fd0b
 ---
 # Julian Bright
 

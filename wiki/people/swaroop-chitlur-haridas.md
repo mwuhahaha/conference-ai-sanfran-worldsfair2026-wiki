@@ -3,6 +3,19 @@ title: "Swaroop Chitlur Haridas"
 category: "people"
 company: "DoorDash"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eae319a3b2be3986e7e8742e50e1d239f3a099fdefc9509a303084b40039b663
+  subjectId: person:swaroop-chitlur-haridas
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:21a882f72bd77cc258066b064f753a905afc3621316d31f0772bbfe3ea77752d
 ---
 # Swaroop Chitlur Haridas
 

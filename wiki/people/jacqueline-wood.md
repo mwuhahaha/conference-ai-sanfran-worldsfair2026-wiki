@@ -5,6 +5,19 @@ role: "Staff Machine Learning Engineer"
 company: "Spotify"
 linkedin: "https://www.linkedin.com/in/jacquelinewood"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:93e52ee7d61867cd3587c2efd85901e408c2617a99ba705a4c49d5de3f39b6cf
+  subjectId: person:jacqueline-wood
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:87f49037bb870b1183c34aa461172453e88d892f20fe8f603bc563be2ac7ef05
 ---
 # Jacqueline Wood
 

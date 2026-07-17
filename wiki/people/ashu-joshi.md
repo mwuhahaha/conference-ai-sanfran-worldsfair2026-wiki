@@ -5,6 +5,19 @@ role: "Director, Business Strategy"
 company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/ashujoshi"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5a7052934cf9a24328ba62e5651476ef5dc8bdd03fde4af0fbcc259a3c8de6c6
+  subjectId: person:ashu-joshi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d8b13230ed530a3d32043388c90b609d9269b06646bd386b8d4e2d4078a12ae4
 ---
 # Ashu Joshi
 

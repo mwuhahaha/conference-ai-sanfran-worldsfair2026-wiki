@@ -8,6 +8,19 @@ twitter: "https://x.com/pamelafox"
 website: "https://pamelafox.org/"
 blog: "http://blog.pamelafox.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6e3ad6e23ecf3009ea9aa13832beaec73199fd944ad1e06196728e9f9b822ad5
+  subjectId: person:pamela-fox
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:43fb4fd04668130f0333c922ca764016edf1d79b008d2b9d680ee4ae48afb1df
 ---
 # Pamela Fox
 
@@ -44,6 +57,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production|Diagnosing agent failures in production]]
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
 - Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

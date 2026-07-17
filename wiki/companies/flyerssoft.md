@@ -3,6 +3,19 @@ title: "FlyersSoft"
 category: "companies"
 aliases: ["FlyersSoft"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4ce1a96e40d03b0198a8a2837509e56ab9fac4f0d9b62a96b55ae8b8b9cae449
+  subjectId: company:flyerssoft
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ccc2c61abba6b8d00b7e879e98b35a1694c04446767461229e5c4f0972679953
 ---
 # FlyersSoft
 

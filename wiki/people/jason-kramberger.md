@@ -5,6 +5,19 @@ role: "Software Engineer"
 company: "Google"
 linkedin: "https://www.linkedin.com/in/jkramberger"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4d93d927cb0dac9390b06642bf571029b0be7041f9d052b575a0ec1f30dc965b
+  subjectId: person:jason-kramberger
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f9e8676e2c4fb0e7086e5b0913671fc96d69aa398153a3c72d28b54cc304ae38
 ---
 # Jason Kramberger
 

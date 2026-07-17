@@ -4,6 +4,19 @@ category: "people"
 role: "Regional Director, Solutions Engineering"
 company: "Dynatrace"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a3666bc360d1c11359ebc8ec59ad3b1e7128bf8b0d420168c50b5ca9ae2364d6
+  subjectId: person:matt-gibiec
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e9f69db7229f5bcf0a9a062faa190db2f7f6476ffffbd43b9d10172d5bf5c419
 ---
 # Matt Gibiec
 

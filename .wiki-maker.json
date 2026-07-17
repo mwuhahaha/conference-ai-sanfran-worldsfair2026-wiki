@@ -174,6 +174,28 @@
       "timeout_seconds": 900
     },
     {
+      "key": "slide_ai_admission_check",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/quarantine_stale_slide_ai.py"
+      ],
+      "implementation_inputs": [
+        "scripts/quarantine_stale_slide_ai.py",
+        "scripts/process_slide_corpus_ai.py",
+        "scripts/classify_and_recreate_slides.py",
+        "scripts/slide_codex_safety.py"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
       "key": "talk_synthesis",
       "version": "v2",
       "command": [
@@ -187,7 +209,8 @@
       "dependencies": [
         "transcript_pages",
         "credibility_policy",
-        "livestream_segments"
+        "livestream_segments",
+        "slide_ai_admission_check"
       ],
       "triggers": [
         "media"
@@ -200,19 +223,24 @@
     },
     {
       "key": "source_enrichment",
-      "version": "v2",
+      "version": "v3",
       "command": [
         "python3",
         "scripts/enrich_all_articles_from_sources.py",
         "--all"
       ],
       "implementation_inputs": [
-        "scripts/enrich_all_articles_from_sources.py"
+        "scripts/enrich_all_articles_from_sources.py",
+        "scripts/quarantine_stale_slide_ai.py",
+        "scripts/process_slide_corpus_ai.py",
+        "scripts/classify_and_recreate_slides.py",
+        "scripts/slide_codex_safety.py"
       ],
       "optional_dependencies": [
         "talk_synthesis"
       ],
       "dependencies": [
+        "slide_ai_admission_check",
         "credibility_policy",
         "company_profiles",
         "talk_media_map"
@@ -307,14 +335,14 @@
       "timeout_seconds": 900
     },
     {
-      "key": "normalize_articles",
-      "version": "v2",
+      "key": "sanitize_public_text",
+      "version": "v1",
       "command": [
         "python3",
-        "scripts/normalize_article_shapes.py"
+        "scripts/sanitize_public_wiki_text.py"
       ],
       "implementation_inputs": [
-        "scripts/normalize_article_shapes.py"
+        "scripts/sanitize_public_wiki_text.py"
       ],
       "optional_dependencies": [
         "evolution_context"
@@ -329,20 +357,60 @@
       "timeout_seconds": 900
     },
     {
-      "key": "static_export",
+      "key": "agent_source_index",
       "version": "v1",
       "command": [
-        "npm",
-        "run",
-        "build"
+        "python3",
+        "scripts/generate_agent_source_index.py"
       ],
       "implementation_inputs": [
-        "scripts/sanitize_public_wiki_text.py",
-        "scripts/generate_agent_source_index.py",
-        "scripts/normalize_article_shapes.py",
-        "scripts/export_static_site.py",
-        "scripts/build_relationship_dataset.py",
-        "scripts/relationship_explorer.js"
+        "scripts/generate_agent_source_index.py"
+      ],
+      "dependencies": [
+        "sanitize_public_text"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "normalize_articles",
+      "version": "v2",
+      "command": [
+        "python3",
+        "scripts/normalize_article_shapes.py"
+      ],
+      "implementation_inputs": [
+        "scripts/normalize_article_shapes.py"
+      ],
+      "dependencies": [
+        "agent_source_index"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
+      "key": "page_assessments",
+      "version": "v2",
+      "command": [
+        "python3",
+        "scripts/apply_page_assessments.py",
+        "--minimum-pages",
+        "975"
+      ],
+      "implementation_inputs": [
+        "scripts/apply_page_assessments.py"
       ],
       "dependencies": [
         "normalize_articles"
@@ -352,6 +420,36 @@
       ],
       "mutates": [
         "wiki",
+        "private"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 1800
+    },
+    {
+      "key": "static_export",
+      "version": "v3",
+      "command": [
+        "npm",
+        "run",
+        "build:validated"
+      ],
+      "implementation_inputs": [
+        "package.json",
+        "scripts/quarantine_stale_slide_ai.py",
+        "scripts/process_slide_corpus_ai.py",
+        "scripts/classify_and_recreate_slides.py",
+        "scripts/slide_codex_safety.py",
+        "scripts/export_static_site.py",
+        "scripts/build_relationship_dataset.py",
+        "scripts/relationship_explorer.js"
+      ],
+      "dependencies": [
+        "page_assessments"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
         "static"
       ],
       "resource_pool": "candidate_writer",

@@ -13,6 +13,8 @@ import cv2
 import numpy as np
 from PIL import Image
 
+from markdown_blocks import blockquote
+
 try:
     from rapidocr_onnxruntime import RapidOCR
 except Exception:  # pragma: no cover - optional local dependency
@@ -331,7 +333,7 @@ def write_reconstructed_page(video_id: str, video: dict, result: dict) -> Path:
         lines.append(f"- Crop: `{item['kind']}` `{item['box']}` score `{item['score']}`")
         text = (item.get("ocr_text") or "").strip()
         if text:
-            lines.extend(["", "OCR text:", "", "> " + text.replace("\n", "\n> "), ""])
+            lines.extend(["", "OCR text:", "", blockquote(text), ""])
     write(page, "\n".join(lines))
     return page
 

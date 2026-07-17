@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/dhruv-batra-dbatra/"
 twitter: "https://x.com/DhruvBatra_"
 website: "https://dhruvbatra.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:290d262cee7bdf898ed52c3247b64ccccf20af196b7e05221fe5dabdce7792bf
+  subjectId: person:dhruv-batra
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:91804520e11cbbb7ccf47d5c796515326f3bc231289ce6b41f001be5a31d388e
 ---
 # Dhruv Batra
 

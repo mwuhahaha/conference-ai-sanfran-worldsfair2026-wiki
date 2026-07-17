@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Reducto"]
 website: "https://reducto.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:48523e950810651a70c15dfaea830851f0dc397017e050861d9f13923fe0b459
+  subjectId: company:reducto
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0306a321fb9abf54f7014a2b490a61260663d8de45287ef2e577ab156bb5691e
 ---
 # Reducto
 

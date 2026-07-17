@@ -6,6 +6,19 @@ company: "The Carlyle Group"
 linkedin: "https://linkedin.com/in/ethancha0411"
 website: "https://ethancha.net"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ea7518648dc920d1718eefea96457dfe758f567f9e81f2cfb0ea49a00cd20b3b
+  subjectId: person:ethan-jung-min-cha
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8c4b6fe01a86c53c4caf75d49f68a51a499bb58336a39cdef39c37d40faf4d21
 ---
 # Ethan (Jung Min) Cha
 

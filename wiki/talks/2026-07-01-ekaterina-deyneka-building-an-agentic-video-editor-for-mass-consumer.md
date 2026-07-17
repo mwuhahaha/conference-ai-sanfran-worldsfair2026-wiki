@@ -91,7 +91,11 @@ These videos were discovered outside the official AI Engineer channel and matche
 - [[youtube-AheG9p_JXVw]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-AheG9p_JXVw`
-- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — 4 visible slide image(s).
+![[assets/slides/AheG9p_JXVw/slide-001.jpg]]
+![[assets/slides/AheG9p_JXVw/slide-002.jpg]]
+![[assets/slides/AheG9p_JXVw/slide-003.jpg]]
+- Slide-derived themes for `youtube-AheG9p_JXVw`: useful, text, demo, footage, frame, exclusive, beta.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.

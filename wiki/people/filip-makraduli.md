@@ -8,6 +8,19 @@ twitter: "https://x.com/f_makraduli"
 website: "https://filipmakraduli.substack.com/"
 blog: "https://filipmakraduli.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dcd1f51577a4aebdb4c0890b420985e5d236368bd97920e0cf3e22a180297e0f
+  subjectId: person:filip-makraduli
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a663ae63d701ba9abb8ff3703a4a2abca33c6b737533a099382b4d9be21027b9
 ---
 # Filip Makraduli
 

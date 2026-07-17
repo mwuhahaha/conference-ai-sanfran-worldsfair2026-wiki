@@ -5,6 +5,19 @@ role: "Principal Technologist - Data and AI Platforms"
 company: "Oracle"
 linkedin: "https://www.linkedin.com/in/anantds"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0e6c86627bf1a34dab07e610d457e924ecba36b0747f2007d1e1aae6b257ef97
+  subjectId: person:anant-srivastava
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b27d68a1e186a40059e0eb2ece64baa6b9c75d9bb659d89e0afdb149bfaaac9a
 ---
 # Anant Srivastava
 

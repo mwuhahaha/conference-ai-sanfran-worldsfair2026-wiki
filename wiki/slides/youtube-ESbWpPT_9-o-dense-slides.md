@@ -14,12 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-No slide-like frames are visible after AI slide classification. Rejected frames remain stored as evidence and are listed below.
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/dense-slides/ESbWpPT_9-o/slide-001.jpg) — `other` confidence `0.0`; missing batch classifier result
-- [`slide-002.jpg`](/assets/dense-slides/ESbWpPT_9-o/slide-002.jpg) — `other` confidence `0.0`; missing batch classifier result
-- [`slide-003.jpg`](/assets/dense-slides/ESbWpPT_9-o/slide-003.jpg) — `other` confidence `0.0`; missing batch classifier result
-- [`slide-004.jpg`](/assets/dense-slides/ESbWpPT_9-o/slide-004.jpg) — `other` confidence `0.0`; missing batch classifier result
-
-Classification audit: `raw/sources/slide-ai-classification/dense/ESbWpPT_9-o/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

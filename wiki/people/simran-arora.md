@@ -5,6 +5,19 @@ role: "Computer Science PhD Student"
 company: "Stanford University"
 website: "https://arorasimran.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c93f446f1b32309e2bf0ce49380d73e448b762c8f0f04dbe382832abbc7257ab
+  subjectId: person:simran-arora
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dc0a63aa53d028b342f884d79c1d5ec15b5521564c5f37280abbada948af5f9c
 ---
 # Simran Arora
 

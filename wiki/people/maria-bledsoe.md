@@ -4,6 +4,19 @@ category: "people"
 role: "General Manager, Product Marketing"
 company: "Microsoft"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:61bbc995aa8c3e1947662bbdc7b2a35e5dc5f4dd28105923a60bb6e7d5796f64
+  subjectId: person:maria-bledsoe
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5964ea6efe3aa2e57db3f125dd76469467912e7123856c77d698c3ce787b23af
 ---
 # Maria Bledsoe
 

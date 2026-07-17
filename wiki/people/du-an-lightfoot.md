@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-04T08:18:26.057Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:57b26aa6cfda51747586f6ee360442fd1a6b4aca47e2389915052d7176f7cfcd
+  subjectId: person:du-an-lightfoot
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c2aebc84987dd14d812be9554ccb86103dada11c8bae084d990c2caa5212dd49
 ---
 # Du'an Lightfoot
 
@@ -33,6 +46,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
 
 ### Media Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; role: supporting context only.
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
 - Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]

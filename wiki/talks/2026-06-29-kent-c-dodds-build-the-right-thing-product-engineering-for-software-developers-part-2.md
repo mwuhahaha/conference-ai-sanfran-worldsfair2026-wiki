@@ -64,10 +64,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-EyZiAp0pelw]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-EyZiAp0pelw`
-- Slide deck: [[youtube-EyZiAp0pelw-dense-slides|Dense Slides: Letting AI Interface with your App with MCP — Kent C Dodds]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/EyZiAp0pelw/slide-001.jpg]]
+- Slide deck: [[youtube-EyZiAp0pelw-dense-slides|Dense Slides: Letting AI Interface with your App with MCP — Kent C Dodds]] — slide evidence page.
 - Additional slide evidence: [[youtube-EyZiAp0pelw-slides|Slides: Letting AI Interface with your App with MCP — Kent C Dodds]], [[youtube-EyZiAp0pelw-reconstructed-slides|Reconstructed Slides: Letting AI Interface with your App with MCP — Kent C Dodds]]
-- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
+- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,8 +75,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-EyZiAp0pelw` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
+- `youtube-EyZiAp0pelw` — source page linked; role: supporting context only.
 - Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 
 ### Agent Reading Notes

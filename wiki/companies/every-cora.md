@@ -3,6 +3,19 @@ title: "Every/Cora"
 category: "companies"
 aliases: ["Every/Cora"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8e2361f28638c8d45fe118f6390f16c603e64a2605dfe7373f775fe82581ba41
+  subjectId: company:every-cora
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:796ec8c3af88bb8c44fee11b8ce8bcaac6a9ff736266324493249615008c3055
 ---
 # Every/Cora
 

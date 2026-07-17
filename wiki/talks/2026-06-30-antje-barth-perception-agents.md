@@ -63,11 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-WJjInLeaJjo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-WJjInLeaJjo`
-- Slide deck: [[youtube-WJjInLeaJjo-dense-slides|Dense Slides: Building Agents at Cloud Scale — Antje Barth, AWS]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/WJjInLeaJjo/slide-001.jpg]]
-![[assets/dense-slides/WJjInLeaJjo/slide-002.jpg]]
+- Slide deck: [[youtube-WJjInLeaJjo-dense-slides|Dense Slides: Building Agents at Cloud Scale — Antje Barth, AWS]] — slide evidence page.
 - Additional slide evidence: [[youtube-WJjInLeaJjo-slides|Slides: Building Agents at Cloud Scale — Antje Barth, AWS]], [[youtube-WJjInLeaJjo-reconstructed-slides|Reconstructed Slides: Building Agents at Cloud Scale — Antje Barth, AWS]]
-- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
+- Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-WJjInLeaJjo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
 - Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATION SPONSOR
+> INNOVATIONSPONSOR
 > aws
-> PLATINUM SPONSORS
+> PLATINUMSPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -32,15 +32,31 @@ OCR text:
 
 OCR text:
 
-> Microsoft
-> AI Engineer
+> e ‘ ‘
+> * _
+> ) ® = ws. | fa! :
+> r : | i as a ae ae 7 |
+> eet i nN i 4 ae re :
+> P e ee ad if an
+> ‘ se er ae re
+> oe N i 7
+> b
+> | L
+> l rs ce
+> 7 a
+> oe
+> co a a
+> P I
+> —
+> Sra eee =
+> gaa Fanaa on ml
 
 ![[assets/slides/1t-9-s1brcg/slide-003.jpg]]
 
 OCR text:
 
 > -, Microsoft ¥ :
-> 
+>
 > / «
 > Running Al Neen ii .
 > in Minutes: a ,
@@ -303,7 +319,7 @@ OCR text:
 > _ ee ee ee ee ee SFO Geg BOARS 9 28 wenden
 > 050 B! 2 [01010 crwee 2{ 0 mee 210 Gnne 2/0 meee x! 0 omnes 210 mer 510 meee 5 |B MOE | O em 21 omeme &| A Oct a] A teem x] >
 > eee ST a een en oe ae SP ME SRE © See eee Tera . a oe
-> 
+>
 > Al Engineer workshop instructions ~ & Signin (a)
 > % Accessibility Mode J Download @ Save acopy to OneDrve G3 Print’ “++ More
 > GitHub:
@@ -331,17 +347,13 @@ OCR text:
 
 OCR text:
 
-> Microsoft Azure
-> MY ACCOUNT SIGN OUT
+> 6 Gen mh tn we oer, beeeew ln Ww oe Be Og ec ROARS 928 wniaw
+> Oc Ammen Ce ee ee en ee ° Bente tte le .
 > Ready to get started?
 > Try Microsoft Azure Pass
-> We’re offering an Azure Pass, so for a limited time period, you can try Azure for free
-> *No credit card required*
-> Start >
-> Use the links below to learn more
-> Redemption Process Guide
-> Azure Documentation
-> Explore Azure
+> tC
+> =
+> 8-30 @ &« Dees OT] TY
 
 ![[assets/slides/1t-9-s1brcg/slide-020.jpg]]
 
@@ -350,17 +362,17 @@ OCR text:
 > 6 Gee te ie we ee, eee fe WS eee Be¢O€O gg RAOAR SE 8 28 wKnrEON
 > ere A unOme i ee Lee ° & emmq. Geet 8 + .
 > . 2 ereasrapompen ceaymaabreme te an 20 @:
-> 
+>
 > Enter Promo code:
-> 
+>
 > QEQRSOFTYCZDZ2LGHC
-> 
+>
 > Fe
-> 
+>
 > eee ae a a eae cl
-> 
+>
 > SEX
-> 
+>
 > Submit
 > 8-0 @ GH: DVeeGs 10] De
 
@@ -392,7 +404,7 @@ OCR text:
 > A nee ee ey ee ee ee SB ¢ 069g BOARS 8 2B wniew
 > Pe MB) 6 (O10 [0 eee: 210 ewan | O tenes | O ttt £10 te 5} D tnete ={ One 2/O mee 2) A tes £1 aoe 1) O Oe. BLK OTe alk Oem a + |
 > an renin nem CO RT ee ho OLN) Re etene bce tae of oe
-> 
+>
 > AI Engineer workshop instrucbons ~ 8 Signin (2)
 > B Accerutity Mode YL Downinns Save ace to One Ore TD Pree te Meee
 > ot your Crearts, wnicnever occurs rst.

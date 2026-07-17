@@ -19,130 +19,157 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/UcYoMg-8-L8/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Radical Speed Month
-> 30 Days
-> 501 People participating
-> 794 Projects started
+> 30 501 794
+
+![[assets/slides/UcYoMg-8-L8/slide-002.jpg]]
+
+OCR text:
+
+> 0006006000000 -GO000000000
+
+![[assets/slides/UcYoMg-8-L8/slide-003.jpg]]
+
+OCR text:
+
+> Sanja Grbic
+> Product Designer a |
+> _\ ;
+> te
+> oe
+> [=] mbes 4 [a] 7 in
+> i oe
+> BAe ge ;
+> aii oa
 
 ![[assets/slides/UcYoMg-8-L8/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The promise of AI is speed
-> 0→1 Product
+> The promise of Al —
+>
+> is speed
+>
+> Ohad i aa cove LU (ol
+>
 > 1-3 people
-> vs
+>
+> - CONTEXT
+>
 > 5-20yo Product ecosystem
-> 1400+ people
+>
+> 1400+ people _ a
+> “if ile
 
 ![[assets/slides/UcYoMg-8-L8/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > 1 — Boardgame session manager
 > An app used for creating, viewing, joining
-> and managing board game event
-> sessions. Including a chat feature.
+> and managing board game event oS
+> sessions. Including a chat feature. a
 > 4 people
+> car oe
 
 ![[assets/slides/UcYoMg-8-L8/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.81`
-- Text source: none.
-- Slide text: not surfaced (`none` by AI classifier).
+OCR text:
+
+> ia ey ch ire ee
+> RA MAGNA, Gi IVI fF
+> A \e Sf ion TT fy oe ee OA
+> ra’ a ren ie ! AN:
+> ‘ ~——_ o
+> y , - = es E
+> . a vee 2 Es € + é ac ty
+> i. iad : ; - } “
+> | x ng ; a y
+> ; a a . i.
+> ‘y aa aa a aa : + 3 aa | ¥
+> “s we “ oon x ory i ory ni
+> 4 a ; i - ry fa ue
+> | ee
+> 7 * an, 4 5
+> ; we ren ts eee RY
+> . Caen hs ne ial a ;
+> La rs + 7 Ps 7 + a o
+> , fom es a an wo a
+> wt ; oa ae fe
+> 4 P roe fs f
+> ; ; sw ; i —
+> ji i: cot ae cot oe - z=
+> a i . + aa 7 ry ‘ a)
+> i a o © a a ;
+> x _ \, ;
+> Hi a ead Ca tay =
+> : nT ae
+
 ![[assets/slides/UcYoMg-8-L8/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — Mixed diagram plus small embedded task-list screenshot; better suited for OCR than hand transcription.
-
-Slide text:
+OCR text:
 
 > DESIGNER DEVELOPER
-> Rename eptytable siotlabel fronHOST toGAut
-> Mergefucureui-cutenossintomsin oC*
-> n noutnoua ecewpuroubpeqAooo pun oyned Aosy
-> Letthe hostminimize bxk to the lobby without ending thesessicn teda1n
-> Asd turnel scriptandprod staticpert lorlaolophonting
+> Rename mpy tale siotlabel from HOSTto GAME
+> LMy A
+> n
+> on stay &
+> punopeqqopuyd ddy agethn
+> ddpdpsp
 > PRODUCT DESIGNER
 
 ![[assets/slides/UcYoMg-8-L8/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The impact of enabling others may be greater than the impact of doing more engineering yourself.
+> The impact of enabling others may
+> be greater than the impact of doing
+> more engineering yourself.
+> ai cs
 
 ![[assets/slides/UcYoMg-8-L8/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> 2 – DS-tracker
-> WHAT
-> Design System tracker - one place to browse, preview, and search for design components, with links and status.
-> TEAM
+> 2 — DS-tracker
+>
+> Design System tracker - one place to
+>
+> browse, preview, and search for design pe
+>
+> components, with links and status. Oa VS
+>
 > Discovery: 3 people
-> Design and build: Solo
+>
+> Design and build: Solo | A
+> a ae
 
 ![[assets/slides/UcYoMg-8-L8/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
-- OCR decision: ready — Product/UI screenshot slide with dense small text inside the demo screenshots.
+OCR text:
 
-Slide text:
-
-> 12.278 Synthest X
-> Synthest Pew pnerge 中 phet ir e fet manuten Do you ship to Lina, Peru?
-> the EU and Us. Expek! ten to fourteen We ship artywherd postal works. business days, and s Customs and VAT are on you outside cingrns
-> cover it if you spend more than $500.
-> FAO
-> Tksen auomiedeay brd an hop? Ro Tie lhao oneyt hus ben notuted erd r! rabw o
-> A synths &ro in
-> WooCommrt
+> 12:278 Synthest
+> Synthest D Do you ship to Lima,Peru?
+> We ship anywherepostal works.
+> theEUandUS.Expegttentofourteen approximately$40- coveritif you spendmore than$500. business days,and Customs andVATare onyououtside Uugh we'll ingruns
+> FAQS
+> Thiswas anautomated replybasedon the shops Info.The hop owner haseennotified and w followup.
+> Allsynths are in]
+> WooCommerce
 
 ![[assets/slides/UcYoMg-8-L8/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UcYoMg-8-L8/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > In 30 days
-> Engineer → Enabler
-> Designer → Design Engineer
-> Team level-up → Speed unlocked
-
-### Hidden Non-Slide Evidence
-- [`slide-002.jpg`](/assets/slides/UcYoMg-8-L8/slide-002.jpg) — `sponsor_logo` confidence `0.96`; logo wall
-- [`slide-003.jpg`](/assets/slides/UcYoMg-8-L8/slide-003.jpg) — `title_card` confidence `0.99`; speaker intro card
-
-Classification audit: `raw/sources/slide-ai-classification/slides/UcYoMg-8-L8/audit.json`
+> Engineer
+> Enabler
+> Designer
+> Design Engineer
+> Team level-up
+> Speed unlocked
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

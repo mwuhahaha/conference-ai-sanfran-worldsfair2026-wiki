@@ -5,6 +5,19 @@ role: "Partner, Technology Practice"
 company: "McKinsey & Company"
 linkedin: "https://www.linkedin.com/in/matthew-linderman/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d50e82ecad3ad9896d8e82e48a93a25a06617e3cf90011cc4549f01272b7f2fc
+  subjectId: person:matt-linderman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e848960bcfceac4a9f893963afc3ab6eb40a6150ac896cba77f4151e39754252
 ---
 # Matt Linderman
 

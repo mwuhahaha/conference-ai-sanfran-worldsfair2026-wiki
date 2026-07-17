@@ -3,6 +3,19 @@ title: "Dioxus Labs"
 category: "companies"
 aliases: ["Dioxus Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c591f78647da5c8ef4c19ea522b028980549476781023c156a5c78b0a344e8c2
+  subjectId: company:dioxus-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4b931095e314127e38696474abb29e2629bd5111d019b9902e23edbfaedfa6e4
 ---
 # Dioxus Labs
 

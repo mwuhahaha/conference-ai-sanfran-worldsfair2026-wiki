@@ -4,6 +4,19 @@ category: "people"
 role: "Head of Z.ai"
 company: "Z.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:09be308682b86d18448047411166d54a18a644555c71a268cf1ecb5a98e25dfb
+  subjectId: person:zixuan-li
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:17a1bb2f7729dea9fe3f9687bb078b9a224a815669123401b88bc95dde5489d5
 ---
 # Zixuan Li
 

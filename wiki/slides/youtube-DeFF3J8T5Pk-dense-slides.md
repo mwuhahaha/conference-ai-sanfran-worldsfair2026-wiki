@@ -14,22 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/DeFF3J8T5Pk/slide-001.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/DeFF3J8T5Pk/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: none.
-- OCR decision: ready — Dense product/UI screenshot with chart, small labels, and configuration text; OCR is better than manual transcription.
-- Slide text: not surfaced (`illegible` by AI classifier).
-![[assets/dense-slides/DeFF3J8T5Pk/slide-002.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/DeFF3J8T5Pk/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Dense product/UI screenshot with chart, controls, and small configuration text; OCR is better than manual transcription.
-
-Slide text:
-
-> LLM Engine Advisor
-
-Classification audit: `raw/sources/slide-ai-classification/dense/DeFF3J8T5Pk/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

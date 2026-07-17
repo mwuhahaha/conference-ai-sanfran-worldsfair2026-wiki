@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/dmihalik/"
 website: "https://dmihalik.com"
 blog: "https://dmihalik.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:51b04206cb29eabdcd316f35156323ec1f93edb286d3c2777fbcaab8f3a60f9d
+  subjectId: person:dustin-mihalik
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b80e1e4dbd0f86c2ee23307dc3b8184da88e9182d3c5646edd0f4f21a2ca2cac
 ---
 # Dustin Mihalik
 

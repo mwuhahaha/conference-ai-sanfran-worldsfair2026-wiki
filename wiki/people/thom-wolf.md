@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/thom-wolf"
 twitter: "https://x.com/Thom_Wolf"
 website: "https://thomwolf.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:da09d95f66ca5ceee5d2c80668232599b0671ee976126f0089820a16b7bb4f3b
+  subjectId: person:thom-wolf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:de7eb240c2b98a89e8a1842991245468360ac5b2dd77c07b94d9d1417190e2b2
 ---
 # Thom Wolf
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]]
 
 ### Media Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
 - Evidence links for `youtube-lY1iFbDPRlw` (supporting context only): [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]

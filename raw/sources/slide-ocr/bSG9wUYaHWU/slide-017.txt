@@ -1,9 +1,8 @@
-Announcing Entire with $60m seed round
-Every commit tells a story.
-Now you can read it.
-Entire CLI hooks into your git workflow to capture AI agent sessions on every push. Sessions are indexed alongside commits, a searchable record of how code was written.
-curl -fsSL https://entire.io/install.sh | bash
-Open source • MIT licensed
-https://entire.io/
-3.6k
-Engineering the future of AI
+S Entire | signin |
+air Every commit tells a story.
+i bs] 4 Now you can read it.
+oa
+:
+t 5 .
+Engineering the future of Al
+Pass

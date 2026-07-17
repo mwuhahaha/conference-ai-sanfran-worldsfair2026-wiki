@@ -8,6 +8,19 @@ twitter: "https://x.com/tereza_tizkova"
 website: "https://www.terezatizkova.com"
 blog: "https://www.terezatizkova.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9aca882413e6b8c9ed5073651cd58ffd1b0ba0c032c673483b99d424ddcce57f
+  subjectId: person:tereza-t-kov
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:111f78495da79de64aec265d6b357330b01fee641e3dd75374c17da41f113d27
 ---
 # Tereza Tížková
 

@@ -17,64 +17,104 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/TNwJ1LMiENk/slide-001.jpg]]
+
+OCR text:
+
+> | : eo :
+> 2 =
+> Fs - a
+> S 7 bee schon Sih, By Edy 7
+> ! . .
+> l o toad on ge x
+> o ee Pet
+> D oe Redeemer a
+> c a ~ :
+> —_ 4 i.
+> . ; a :
+> 7 — F
+> [_mengineer ) ql ‘
+> AlEngineer A r
+> enor 7 mn :
+> *, a A
+> 4 . we. q
+> . en 7 Siew mip
+> i A ri ‘
+> F S x :
+
 ![[assets/slides/TNwJ1LMiENk/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TNwJ1LMiENk/slide-002.html)
-- AI slide classifier: `title_card` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Stop Making Models Bigger.
-> Make Them Behave
-> Making a 4B Model Outperform 235B on Tool Use for Financial Analysis
-> Kobie Crawford, Developer Advocate
+> Rcd SnorkeJ The Frontier Al Data Lab
+> a stop Making Models Bigger.
+> es Make Them Behave
+> Making a 48 Moae! Outperform 2358 on ac
+> Tool Use for Financial Analysis
+> Kobie Crawford, Developer Agvocate
+> ib Ss Engineering the future of Al
+> a __—_—_|
 
 ![[assets/slides/TNwJ1LMiENk/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TNwJ1LMiENk/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> What we’ll cover
-> 1 Research Objective
-> 2 The Approach
-> 3 The Result
+> Whatwe'll
+> ResearchObjective
+> cover
+> |TheApproach
+> AIE
+> |TheResult
+> Snrke APtyCodNt rd
+> Engineering the future of Al
 
 ![[assets/slides/TNwJ1LMiENk/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TNwJ1LMiENk/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.91`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Qwen3 235B
-> FinQA Tool Use
+> / 7 7 ne.
+> ah _ - _) "| UTE ¥n
+> * f — ' ae ’ iD = aah ss
+> rnd , ee & cg -,. £20" .*"4 ws
+> >; ga esr “<a aa
+> tw :: (p 3 ew <== ‘aan
+> Y wm 4 st rit 7 5 e/ e: ®t 25 gram d Ses ie
+> ey ion we 2 PA: ie tet oe
+> a me? of a ee
+> + § b le OR ae, a oY “ain one ae 7 :
+> To gg Tg el a
+> —-— | We j
+> ‘e a . < Fou. 2 ~ a an oa
+> g “ ‘= ee
+> j} | Al Engineer |
+> a | EUROPE
+> | j
+> =r...
 
 ![[assets/slides/TNwJ1LMiENk/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TNwJ1LMiENk/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — dense chart slide with small labels, percentages, and QR code
+OCR text:
 
-Slide text:
-
-> GLLM Snorke
-> AIE 4B + RL 59.7%
-> .
-> 235B 51.4%
+> Cmaaay Snorkel
+> - Pe ey
+> 235B eee eae aed
+>
+> meee
+>
 > ACCURACY SCORE Pass@1 line (59.7%)
-> Engineering the future ofAl
+>
+> , \ 7 Engineering the future of Al
+>
+> ’ oz
+> a — ee |
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/TNwJ1LMiENk/slide-001.jpg) — `speaker_stage` confidence `0.97`; stage photo with speaker and audience; projected slide is not a clean presentation frame
-- [`slide-006.jpg`](/assets/slides/TNwJ1LMiENk/slide-006.jpg) — `sponsor_logo` confidence `0.96`; closing logo/branding card, not a content slide
+![[assets/slides/TNwJ1LMiENk/slide-006.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/TNwJ1LMiENk/audit.json`
+OCR text:
+
+> | Al Engineer |
+> ae Olas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -17,28 +17,48 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/qlHaO6laBlM/slide-001.jpg]]
+
+OCR text:
+
+> Building Al Th.
+> Governr
+> aii
+> " ; .
+> — | ar
+> aN
+
 ![[assets/slides/qlHaO6laBlM/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/qlHaO6laBlM/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > About Me
-> Now
-> • Forward Deployed Engineer in the Justice AI Unit
-> • No10 Innovation Fellow – selected from top 0.8% of applicants
-> • Joined in November, working mainly across prisons
-> Previously
-> • Co-Founder @ Tergle (YC W25) – AI for audit automation
-> • CS + Math @ Harvard
+> Now Previously
+> » Forward Deployed Engineer in the Justice Al = Co-Founder @ Tergle (YC W25) - Al for audit
+> Pa as Unit automation
+> * * ® No10 Innovation Fellow - selected from top ® CS + Math @ Harvard
+> * *
+> ” " 0.8% of applicants
+> oll al ® Joined in November, working mainly across
+> prisons
+> We're trying to ship real Al products inside government. Not pilots, not slides — things people actually
+> use.
+> y 4! a
+> a aoa | rN Sats lag |
+> a EUROPE
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/qlHaO6laBlM/slide-001.jpg) — `speaker_stage` confidence `0.99`; Stage shot with presenters at podium; projected slide is only partially visible and not readable as a standalone slide.
-- [`slide-003.jpg`](/assets/slides/qlHaO6laBlM/slide-003.jpg) — `speaker_stage` confidence `0.98`; Stage shot with people walking in front of the screen; projected slide is cropped and not readable as a standalone presentation slide.
+![[assets/slides/qlHaO6laBlM/slide-003.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/qlHaO6laBlM/audit.json`
+OCR text:
+
+> Pea Ny
+> Peel
+> "ote
+> ; F [a] Fy
+> a ») rad ; ?
+> 7, nN / , i
+> a : <
+> ee
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

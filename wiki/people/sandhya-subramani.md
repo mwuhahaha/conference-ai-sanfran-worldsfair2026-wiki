@@ -5,6 +5,19 @@ role: "Senior Developer Advocate, GenAI"
 company: "Amazon Web Services"
 linkedin: "https://www.linkedin.com/in/sandhyasubramani/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e736327888e200acd0f0bdc6ab92e5e6af51a2caf06e44f2eb09ebf4320a5701
+  subjectId: person:sandhya-subramani
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7e096d6867635fbe8af3a04f555cc4cff182d30d1a7a74aff690040582caa6a6
 ---
 # Sandhya Subramani
 

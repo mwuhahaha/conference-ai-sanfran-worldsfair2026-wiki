@@ -1,7 +1,7 @@
 Messages
 MCP
 Skill
-Tools
-System Prompt
 Context
+Tools
+SystemPrompt
 Model

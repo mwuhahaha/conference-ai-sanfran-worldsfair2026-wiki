@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-YRGjll7uu5w]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-YRGjll7uu5w`
-- Slide deck: [[youtube-YRGjll7uu5w-dense-slides|Dense Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/YRGjll7uu5w/slide-001.jpg]]
-![[assets/dense-slides/YRGjll7uu5w/slide-002.jpg]]
-![[assets/dense-slides/YRGjll7uu5w/slide-003.jpg]]
+- Slide deck: [[youtube-YRGjll7uu5w-dense-slides|Dense Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]] — slide evidence page.
 - Additional slide evidence: [[youtube-YRGjll7uu5w-slides|Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]], [[youtube-YRGjll7uu5w-reconstructed-slides|Reconstructed Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]]
-- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
 
 ### Agent Reading Notes

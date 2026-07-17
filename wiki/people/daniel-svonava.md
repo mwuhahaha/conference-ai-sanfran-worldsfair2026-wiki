@@ -5,6 +5,19 @@ role: "CEO and co-founder"
 company: "Superlinked"
 twitter: "https://x.com/svonava"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4e687cba88e20b49e52124e38ebdc9f5db5ddad3ca9acb05ef91bf71c09c237c
+  subjectId: person:daniel-svonava
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bfc2385c7c2e8900a251c9ff7c1d1eb20322f525d22c30a3f60af6aee34c3475
 ---
 # Daniel Svonava
 

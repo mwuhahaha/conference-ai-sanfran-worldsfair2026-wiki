@@ -6,6 +6,19 @@ company: "Akamai"
 linkedin: "https://www.linkedin.com/in/lena-hall"
 twitter: "https://x.com/lenadroid"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:85a9fc1dae2cce5624be69d715dc9c6d89df0c0bf0c7cf65767c670c1de99469
+  subjectId: person:lena-hall
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:34e71a46e7240a2b5252799f7deda0f721ffb775b0f87699862898421c95e281
 ---
 # Lena Hall
 

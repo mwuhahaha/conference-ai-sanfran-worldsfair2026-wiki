@@ -3,6 +3,19 @@ title: "Snyk"
 category: "companies"
 aliases: ["Snyk"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a47f26b0bf902169be6ddacc4412c25359115de3c2babb81f4d2d51a35f51530
+  subjectId: company:snyk
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b434294d3fdd249b378474e5bd8d005a40f1de404191c3f6f97927fd1565bfbe
 ---
 # Snyk
 

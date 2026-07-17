@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/robert-mchardy"
 twitter: "https://x.com/robert_mchardy"
 website: "https://www.robertmchardy.de"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2695c9d65f2ff777f1c9a3163ca8ab821876046b25df409d3a19b9abd5318616
+  subjectId: person:robert-mchardy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e8764d706f19c4d1b976c94bd2f58dee013d1a7742ba6960e8d966773008f08d
 ---
 # Robert McHardy
 

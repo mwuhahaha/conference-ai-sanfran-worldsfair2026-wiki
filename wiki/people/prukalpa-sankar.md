@@ -6,6 +6,19 @@ company: "Atlan"
 linkedin: "https://www.linkedin.com/in/prukalpa"
 twitter: "https://x.com/prukalpa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cba5b44d89391396e2e631962818af2c3679692411b7d604b2e1bc7f04a2bcb6
+  subjectId: person:prukalpa-sankar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e88f9de2e2a8ad954704754a8ddd39d39be74cb91936ab4782cc09f68651b1fa
 ---
 # Prukalpa Sankar
 

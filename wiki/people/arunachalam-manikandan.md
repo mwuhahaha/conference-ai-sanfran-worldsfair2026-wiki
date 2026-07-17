@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/arunachalam-manikandan/"
 twitter: "https://x.com/Arunachala64250"
 blog: "https://medium.com/@rome101202"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c0bae736d8a6b358560894df3eb1b0b92fd16b938d149686f252c8863a45f18c
+  subjectId: person:arunachalam-manikandan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:163baae8263f37a2a929e432cef74a7fa7aa98300dd5d71ece5c646dd7389b93
 ---
 # Arunachalam Manikandan
 

@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Automating Massive
-> Refactors with Agents
-> OpenHands
+> Automating Massive |
+> Refactors with Agents |
+> (3,0; OpenHands
 
 ![[assets/slides/rcsliSIy_YU/slide-002.jpg]]
 
@@ -88,8 +88,14 @@ OCR text:
 
 OCR text:
 
-> JFK27-B1.300
-> 2025-11-22 14:41:33
+> 4
+> ] er:
+> aaa
+> Ce Ie na rial
+> — b a is ant at fl
+> ie es _
+> : 7" , 2025-11-22 14:41:33
+> JFK 27-B1.300 jj ;
 
 ![[assets/slides/rcsliSIy_YU/slide-006.jpg]]
 
@@ -200,9 +206,18 @@ OCR text:
 
 OCR text:
 
-> JFK27-B1.300
-> OpenHands
-> 2025-11-22 15:02:53
+> =: =] f n y
+> td
+> , my \,. on
+>
+> : 4
+>
+> ; i“ and
+>
+> b Seer ol Bemege Aaa ;
+>
+> | ;
+> aR ee
 
 ![[assets/slides/rcsliSIy_YU/slide-013.jpg]]
 
@@ -249,9 +264,9 @@ OCR text:
 > 5 Car ee
 > F " F e ;
 > Nard
-> 
+>
 > foresee a aes eras ao aes oars reat re Gnk sethn as AP moe
-> 
+>
 > PE Beery eat
 > eae vias microagents
 > ore
@@ -304,9 +319,22 @@ OCR text:
 
 OCR text:
 
-> OpenHands
-> JFK27-B1.300
-> 2025-11-22 15:15:11
+> j
+> |
+> i
+> i
+> a J
+> | 4
+> ad meted cre
+> e! ,
+> an
+> an
+> ,. 3 i wa
+> i a, 8 Onenrtandal
+> z
+> a al
+> 7 . iow ' 2025-11-22 15:15:11
+> JFK27-B1.300 ,™ a ' a
 
 ![[assets/slides/rcsliSIy_YU/slide-019.jpg]]
 

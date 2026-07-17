@@ -6,6 +6,19 @@ company: "Google"
 linkedin: "https://www.linkedin.com/in/averikitsch"
 website: "https://averi.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:66f134a2db86b8ed367c6e5047c7a03867bf05f90898e995cdb1e28f57c095c0
+  subjectId: person:averi-kitsch
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9f59be2a22080da1f36bc39518e9dd103789857342facc68c54a3706e124dbc5
 ---
 # Averi Kitsch
 

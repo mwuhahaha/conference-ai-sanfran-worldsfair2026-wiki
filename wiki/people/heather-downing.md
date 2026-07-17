@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/heathermdowning"
 twitter: "https://twitter.com/quorralyne"
 website: "https://quorralyne.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7d033f79ce7cfa94cecf0ffaefcaa1d66c77dd4f30b90c61f4d2f9bbe7bd9225
+  subjectId: person:heather-downing
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:80fa5c7e72853583549023d1e794ee7dbb9dd5ec97e7a788b4e3989501b1d4dd
 ---
 # Heather Downing
 

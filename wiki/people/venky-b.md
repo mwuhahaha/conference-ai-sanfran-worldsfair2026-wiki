@@ -6,6 +6,19 @@ company: "Plivo"
 linkedin: "https://www.linkedin.com/in/bevenky/"
 twitter: "https://x.com/bevenky"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:348b2209b72515cba81a5917b7b24874c368d9b355be619e202866892f3d7468
+  subjectId: person:venky-b
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fa3a53dbbd982974f516bf25ff30ae5bc2c1c8a3b5a70d3105426688fa5afa44
 ---
 # Venky B
 

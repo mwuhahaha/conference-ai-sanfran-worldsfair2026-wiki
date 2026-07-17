@@ -29,12 +29,12 @@ OCR text:
 > & Engineered for Real-World
 > Coding
 > a ; PN |
-> 
+>
 > mun DT are Ono
-> 
+>
 > withw Senior Research Engineer
 > St a De (RL & Eval Lead)
-> 
+>
 > Google DeepMind
 
 ![[assets/slides/lY1iFbDPRlw/slide-002.jpg]]
@@ -72,12 +72,6 @@ OCR text:
 > eee ee OLIVE SONG / Senior Research Engineer afifin MINIMAX
 
 ![[assets/slides/lY1iFbDPRlw/slide-004.jpg]]
-
-OCR text:
-
-> Intelligence with Everyone
-> AIE
-
 ![[assets/slides/lY1iFbDPRlw/slide-005.jpg]]
 ![[assets/slides/lY1iFbDPRlw/slide-006.jpg]]
 
@@ -97,11 +91,6 @@ OCR text:
 > allfo MINIMAX Intelligence +-ith Everyenc
 
 ![[assets/slides/lY1iFbDPRlw/slide-007.jpg]]
-
-OCR text:
-
-> AIE
-
 ![[assets/slides/lY1iFbDPRlw/slide-008.jpg]]
 
 OCR text:

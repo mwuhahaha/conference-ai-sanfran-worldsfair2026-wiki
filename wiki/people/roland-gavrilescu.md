@@ -8,6 +8,19 @@ twitter: "https://x.com/rolandgvc"
 website: "https://www.introspection.dev/blog"
 blog: "https://www.introspection.dev/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:31c6d28578a36602d10d9142da88a463a2ababfb5e6e999aacbb86c6a9f54c18
+  subjectId: person:roland-gavrilescu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:158b4492ede41cebf27e40e1a501e2eb8c3aa55167cf6457002222c2414783a7
 ---
 # Roland Gavrilescu
 

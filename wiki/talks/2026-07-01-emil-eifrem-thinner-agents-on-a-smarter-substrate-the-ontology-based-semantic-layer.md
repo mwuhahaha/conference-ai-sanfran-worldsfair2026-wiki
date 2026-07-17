@@ -68,12 +68,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-knDDGYHnnSI]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-knDDGYHnnSI`
-- Slide deck: [[youtube-knDDGYHnnSI-dense-slides|Dense Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]] — 10 visible slide image(s); 10 HTML recreation(s).
-![[assets/dense-slides/knDDGYHnnSI/slide-001.jpg]]
-![[assets/dense-slides/knDDGYHnnSI/slide-002.jpg]]
-![[assets/dense-slides/knDDGYHnnSI/slide-003.jpg]]
+- Slide deck: [[youtube-knDDGYHnnSI-dense-slides|Dense Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]] — slide evidence page.
 - Additional slide evidence: [[youtube-knDDGYHnnSI-slides|Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]], [[youtube-knDDGYHnnSI-reconstructed-slides|Reconstructed Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]]
-- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
+- Slide-derived themes for `youtube-knDDGYHnnSI`: full, text, george, mooc.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -82,8 +79,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-knDDGYHnnSI` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
+- `youtube-knDDGYHnnSI` — source page linked; role: supporting context only.
 - Evidence links for `youtube-knDDGYHnnSI` (supporting context only): [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
 
 ### Agent Reading Notes

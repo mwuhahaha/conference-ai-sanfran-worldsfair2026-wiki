@@ -3,6 +3,19 @@ title: "Modular"
 category: "companies"
 aliases: ["Modular"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bdf551f4db8d29fe7e49c64b7f318d774ed39957e4eeaaf49ae6cfa0fc63c258
+  subjectId: company:modular
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:da60935579158ac003032ce13bfca5c841a019d43baf66fb1331e678c32b4a6f
 ---
 # Modular
 

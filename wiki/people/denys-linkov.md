@@ -6,6 +6,19 @@ company: "Wisedocs"
 linkedin: "https://www.linkedin.com/in/denyslinkov/"
 twitter: "https://x.com/denyslinkov"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1368040e894a6e0a540e63049fe8258d83341a807ae7f52d0ed6c4055bf95483
+  subjectId: person:denys-linkov
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:28d407a429971da9d25889a48a61f5aa9ecd0ff1e02983306f4ab0682483a33d
 ---
 # Denys Linkov
 

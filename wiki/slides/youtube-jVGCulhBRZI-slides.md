@@ -75,11 +75,11 @@ OCR text:
 
 > Special Release: Excel!
 > We built an Excel agent capable of:
-> 
+>
 > 1. Data Transformation: Transforming wore mmene mrs mmm = . . a
 > each sheet into a normalized 2D CEN. 0 Teaiela oua pares: he
 > format. —_
-> 
+>
 > 2. Agentic QA: Answer questions over binds Minit L.
 > cells in any of the sheets. et 5
 > Sen to
@@ -108,40 +108,24 @@ OCR text:
 
 OCR text:
 
-> AIE
 > Document
 > Agent Use Cases
 > Real-world use cases
 > of workflow automation
 > aws
+> ed
 
 ![[assets/slides/jVGCulhBRZI/slide-007.jpg]]
 
 OCR text:
 
 > [Automation + Assistant UX] Financial Due Diligence
-> CARLYLE
-> Use Case
-> An e2e leveraged buyout agent
-> Impact
-> “This end-to-end agentic
-> workflow to do a leveraged
-> buyout model created
-> decision-making value in the
-> tens of millions of dollars.”
-> LlamaCloud
-> Excel Normalization
-> Agent
-> Document Extraction
-> Agent
-> SQL Tool
-> Vector Retrieval
-> Tool
-> File Tool
-> LlamaIndex
-> Ask your Excel agent
-> Due Diligence Copilot
-> 28
+> LO ae
+> or Wem ans Uamacioud | EE] Usmaindex
+> fers of mitons dar
+> | 28
+> aws
+> Nee)
 
 ![[assets/slides/jVGCulhBRZI/slide-008.jpg]]
 
@@ -156,12 +140,12 @@ OCR text:
 > with agentic Al,
 > Backed By: Greylock, NVP
 > ras ales
-> 
+>
 > nae Ww
 > ae 200M+ cep) isle] Ga
-> 
+>
 > = V1 >i]
-> 
+>
 > uw Microsoft =U
 
 ## Slide-Derived Subjects To Review

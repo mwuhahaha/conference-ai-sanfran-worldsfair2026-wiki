@@ -17,84 +17,133 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/hCMrEfPG2Yg/slide-001.jpg]]
+
+OCR text:
+
+> a,
+> ; /
+> an Ee ee | se
+> A —<i-oio—_— -_ Beyond Co
+> _t oe me ae -——
+> | F
+> a ae eee ae
+> _——
+
 ![[assets/slides/hCMrEfPG2Yg/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hCMrEfPG2Yg/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — dense multi-panel slide with code screenshot and small labels
-
-Slide text:
+OCR text:
 
 > November 2022
-> lnporttogofrce 1por ReKt./1o0.svg
-> Ipcrt'./A.CSs':
-> Copy n1（）< return
-> 01clossNmAo0
-> AIE cerclasNe-"kp 1gsrcoto）classNamAo-logo altlcoo
-> Paste Edit-ccdeslooom clesyNon='App-l1nk" logo localstorat logaoles (alias）（est lokst/mrt 0es1i>g- 11lary/(e×t Mes!ig-1ilrery/ree（
-> bref=htps://react]t.og
-> Fix target="_5lsnk" reln'notceter noreferrer
-> Lorn ReKt
+> React
+> inport/App.css
+> Copy
+> functien App（）(
+> return(
+> AIE
+> header classNee-"Aop
+> ing srclogdclassaneApp-logo” altLogo"
+> EditcodeslogOo
+> logo
+> (alias）cest log stringipert
+> Paste
+> </p>
+> togRoles
+> mlocalsterage
+> eesting-Lirery/react
+> ]-dy.=s
+> href="https://reactjs.org"
+> Fix
+> target="_blank"
+> reta"nooperer noreferrer"
+> Learn React
+> </header>
+> </a
 > Repeat
-> 2020 MEngjinee Google DeepMind
+> ATP/-
+> NEngjineer
+> Google DeepMind
 
 ![[assets/slides/hCMrEfPG2Yg/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hCMrEfPG2Yg/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — dense chart slide with small embedded text and logos
+OCR text:
 
-Slide text:
-
-> WTFHappenedin2025?
-> Acollection of datapoints in or around 2025 which we may look back as a historical
-> inflection point Open source & curated inreaftime by Latent Space.
-> + ★ AIE
-> differont LlMs can compietc So% of the time Timo horizon of sottware tasks METR
-> Oos4 CETL
-> 2006 AEngine #Braintrust OWorkos OpenAl
+> i
+> WTF Happened in 2025?
+> % Latent Space
+> - Time horizon of software tasks
+> nenes Sitterent LLMs can complete 50% of the time ‘ ETE
+> afb
+> — - bere crssmee «
+> eo cst onnuse
+> I
+>
+> #3 Braintrust €) WorkOS OpenAl
 
 ![[assets/slides/hCMrEfPG2Yg/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hCMrEfPG2Yg/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > November 2025
-> 5.2
-> Opus 4.5
+> Opus
+> Ee ~
+> Pane a
+> * *
+> , ,
+> od ra bd
+> be
+> an |
+> LAT
+> | Al Engineer |
+> ! ea
 
 ![[assets/slides/hCMrEfPG2Yg/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hCMrEfPG2Yg/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Where's the “Jarvis” moment?
-> Engineering the future of AI
+> Where’s the “Jarvis”
+> moment?
+> Pele ; . 7 ; a
+> So NTRS
+> ge re
+> .
+> Wake up, daddy’s home. 7:
+> a -
+> A
+>
+> Engineering the future of Al
 
 ![[assets/slides/hCMrEfPG2Yg/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hCMrEfPG2Yg/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-- OCR decision: ready — product screenshot slide with dense small UI text
-
-Slide text:
+OCR text:
 
 > https://json-render.dev/
+> json-renderChat Example
+> Start Ove
+> 1953-DNAStructure
+> RondFrsXy cty t NP
+> and Cricksdsry of thdoulx
+> 2011-Qasicrytal Nobel Prie
+> AIE
+> DanShecmnwnsheNoe Prr dscover
+> noerdcstructresthatwen thought me
+> Quick quiz on crystal struclurs
+> Q1: How many atoms are in an FCC unit cell?
+> O2
+> O1
+> O4
+> Check Anywer
+> Ask a folic
+> AIEngineer
+> EUROPE
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/hCMrEfPG2Yg/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with only a partial projected slide visible
-- [`slide-007.jpg`](/assets/slides/hCMrEfPG2Yg/slide-007.jpg) — `title_card` confidence `0.98`; Branded logo/title card with no presentation content; looks like an intro/splash frame.
+![[assets/slides/hCMrEfPG2Yg/slide-007.jpg]]
 
-Classification audit: `raw/sources/slide-ai-classification/slides/hCMrEfPG2Yg/audit.json`
+OCR text:
+
+> | Al Engineer |
+> ae elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

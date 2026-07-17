@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Coinbase"]
 website: "https://www.coinbase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c4188d2a88790ffe20168bfd21fdc271d49127d1b4ab53681df88504f49d0d3a
+  subjectId: company:coinbase
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e6504f3842a07d8e887dbf18cae46082c1d3cdb6f720bba564532c916735147a
 ---
 # Coinbase
 

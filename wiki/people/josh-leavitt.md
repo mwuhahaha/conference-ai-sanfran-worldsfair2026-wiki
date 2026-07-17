@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/josh-leavitt/"
 twitter: "https://x.com/Josh_Leavitt"
 website: "https://www.coinbase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ec9fdc6af174c93bc04096ba87bc416fa237fca04212b837f7f93fa92680d908
+  subjectId: person:josh-leavitt
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5fa3c1ef96417a5033f0b79c37f903b87a3c96f6e74484d891fbfa9f79930423
 ---
 # Josh Leavitt
 

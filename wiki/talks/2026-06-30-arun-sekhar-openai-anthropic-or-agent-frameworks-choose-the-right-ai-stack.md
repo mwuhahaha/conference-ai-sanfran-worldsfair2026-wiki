@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-1t-9-s1brcg]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-1t-9-s1brcg`
-- Slide deck: [[youtube-1t-9-s1brcg-dense-slides|Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]] — 50 visible slide image(s); 50 HTML recreation(s).
-![[assets/dense-slides/1t-9-s1brcg/slide-001.jpg]]
-![[assets/dense-slides/1t-9-s1brcg/slide-002.jpg]]
-![[assets/dense-slides/1t-9-s1brcg/slide-003.jpg]]
+- Slide deck: [[youtube-1t-9-s1brcg-dense-slides|Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]] — slide evidence page.
 - Additional slide evidence: [[youtube-1t-9-s1brcg-slides|Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]], [[youtube-1t-9-s1brcg-reconstructed-slides|Reconstructed Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]]
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
 - Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 
 ### Agent Reading Notes

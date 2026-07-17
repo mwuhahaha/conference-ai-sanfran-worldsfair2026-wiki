@@ -6,6 +6,19 @@ company: "Towards AI"
 linkedin: "https://www.linkedin.com/in/omar-solano1"
 twitter: "https://x.com/omar_solano1"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:76d5ccab1384ce9a402eab7b31a4e1c16771895ba70bf41cc6ae9204ae78e949
+  subjectId: person:omar-solano
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3a416dfb2fc88ce25a788da83a1d53d81a4eb10f8fafb7f3c5657bbcf202a509
 ---
 # Omar Solano
 
@@ -30,6 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]]
 
 ### Media Signals
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+- `youtube-ZRM_TfEZcIo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: research, total, index, plus, notion, google, drive, growing.
 - Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Applied Compute"
 twitter: "https://x.com/raymondmfeng"
 website: "https://raymondhfeng.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2477674e43e52b5cc4417f72cb3085896bb3fc7d01610b3a5cc26a859d576cc8
+  subjectId: person:raymond-feng
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e9f923f94142267d4d9969df89af43726b6940936886aa3d12660b95ec014495
 ---
 # Raymond Feng
 

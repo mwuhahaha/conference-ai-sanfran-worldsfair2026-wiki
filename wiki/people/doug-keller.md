@@ -5,6 +5,19 @@ role: "Senior Staff AI Engineer"
 company: "SonderMind"
 linkedin: "https://www.linkedin.com/in/doug-keller/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3cd0669014846793e8854369becb7d6e440359abe08f872b8fce7e7e89cdfb40
+  subjectId: person:doug-keller
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a1f6b4551999810976e18702b225fe903cc0245ce183f32b41d507db509ead2a
 ---
 # Doug Keller
 

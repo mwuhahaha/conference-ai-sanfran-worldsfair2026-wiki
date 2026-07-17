@@ -3,6 +3,19 @@ title: "HeyGen"
 category: "companies"
 aliases: ["HeyGen"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:72590a6f11fd49b5310cf87606935ac5e63ad0f795d17e7b24b06d76fa0df550
+  subjectId: company:heygen
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b406f21781a15fdf907242b26224c85e6f8f99203c225164126cbfc9f4a1e658
 ---
 # HeyGen
 
@@ -33,8 +46,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

@@ -5,6 +5,19 @@ aliases: ["Temporal"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Evals", "Graphs"]
 scheduleRooms: ["Track 5", "Expo Stage 3 SW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:423bcd9a4cfaa5fb61502580ba34e7324aaf82dcf583ac35a2341423a0ceb526
+  subjectId: tool:temporal
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:04f21a765842beea618f4219be9ed897629b0e7cecac27656b0a5bd68db604b6
 ---
 
 # Temporal

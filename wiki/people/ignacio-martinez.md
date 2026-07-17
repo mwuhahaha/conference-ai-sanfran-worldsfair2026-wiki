@@ -5,6 +5,19 @@ role: "AI Developer Advocate"
 company: "Oracle"
 twitter: "https://x.com/nacho_martinez"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dc92181270856457fa7818523be215f835a5be83b0dec81f78e969340881c3ff
+  subjectId: person:ignacio-martinez
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d372d43f036583f473a074bc4c414089df19246f56b91a361c146a336a555b15
 ---
 # Ignacio Martinez
 

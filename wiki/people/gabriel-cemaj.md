@@ -6,6 +6,19 @@ company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/gcemaj"
 twitter: "https://x.com/gcemaj"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5b0bfe6ce5af4fe895bf12bfbf325a9c5131825029bf01b11d4e676b0227fa20
+  subjectId: person:gabriel-cemaj
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6c340766ce7cc3389962a1a4d998f698297896989f9c3e6b991f9d6e37926c47
 ---
 # Gabriel Cemaj
 

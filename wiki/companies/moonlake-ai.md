@@ -3,6 +3,19 @@ title: "Moonlake AI"
 category: "companies"
 aliases: ["Moonlake AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6f38e2ad33d5e0605efc75ddb7151464e8d1fc4fd29be4aba21b1562cacb61ae
+  subjectId: company:moonlake-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:056fea3339b808f47679c21357a4bc3f92db7141b812f0e0df4ca84541d71e3a
 ---
 # Moonlake AI
 

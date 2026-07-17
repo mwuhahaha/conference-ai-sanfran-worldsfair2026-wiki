@@ -1,27 +1,6 @@
-Merged
-Bulk code review memories experiment: rerun all code reviews with memories enabled #25632
-unblocked bot reviewed on Dec 3, 2025
-View reviewed changes
-unblocked bot left a comment
-1 issue found.
-About Unblocked
-2 participants
-Lock conversation
-...n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
-Comment on lines +210 to +288
-@Test
-fun processPullRequestChangedEvent enqueues HiddenReviewWithMemories for Full scope
-suspendingDatabaseTest {
-val org = makeOrg()
-val pr = makePullRequest()
-val commit = Hash.parse("8888888888888888888888888888888888888888")
-val codeReview = makeCodeReview(
-orgId = org.id.value,
-prId = pr.id.value,
-commit = commit,
-pr = pr,
-scope = CodeReviewScope.Full,
-trigger = CodeReviewEventType.PullRequestOpened,
-)
-// Must be in base type format for polymorphic serialization to work
-val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
+fo Ce See enees Over teens [> eure O.-- OG sesrnrarcsmenygnesiny [ee eas eee eer) ee
+LE Waters Se ele Te eee ee ee ee cere]
+baat oad
+@ [ie oe od Th OA em te
+ceeened es
+>

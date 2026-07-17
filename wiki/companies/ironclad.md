@@ -3,6 +3,19 @@ title: "Ironclad"
 category: "companies"
 aliases: ["Ironclad"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f3a02120143dc73c36a5ed9f91aca363a483f278ec1a7f19abd27eb4a49d8cb7
+  subjectId: company:ironclad
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4261f5328b06b0bddf539d4baf85a8161a346c63efbaa97fef9f858c10dd4914
 ---
 # Ironclad
 

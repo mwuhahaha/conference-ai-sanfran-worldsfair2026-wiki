@@ -21,73 +21,87 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/bSG9wUYaHWU/slide-002.jpg]]
 
 OCR text:
 
-> AI Engineer
-> EUROPE
-> 2026
-> Context is the
+> Za hop oa Context is the
+> f
+>
+> ites
+> ¢ whe 0 8 wees
 
 ![[assets/slides/bSG9wUYaHWU/slide-003.jpg]]
 
 OCR text:
 
-> Context is the new Code
-> Prompt → Code
-> Code → Skill
+> ContextisthenewCode
+> Prompt→Code
+> Code→Skill
 > Prompt
-> Write a function to fetch user
-> data from an API endpoint.
-> Add error handling and retry
-> logic with a timeout.
 > Code
-> def fetch_user(uid, retries=3):
-> for i in range(retries):
-> try:
-> r = requests.get(
-> f"/users/{uid}", timeout=5)
-> r.raise_for_status()
-> return r.json()
-> packaged as
-> Skill
-> API Fetch Best Practices
-> - Always set a request timeout
-> - Retry on transient errors
-> - Re-raise on last attempt
-> Evals
-> - timeout params set
-> - retries ≥ 3
-> Prompt → Code (left) · Code → Skill (right)
-> Engineering the future of AI
+> deffetch_user（uid,retrles3)1
+> for1inrangelretries)i
+> Addeorhandingandretry
+> tryi
+> logic wltha timeout.
+> r=requests.geti
+> AIE
+> f/users/(uid)",tineout=5)
+> r.raise_for_statust)
+> returm r.json()
+> packagedas
+> Code
+> Ski
+> det fetcseruid,retries3):
+> for1Inrange(retries)
+> AP1 Fetch Best Practices
+> tryi
+> Aways set arequest meout
+> rreguests.gett
+> -Retry on transient errors
+> (5)/s/
+> Re-raise on last attempt
+> r.ralse_for_statusl)
+> returnc.json[)
+> EvaLs
+> except Exceptien as e！
+> meout paramsset
+> f1-retries-1:raise
+> √retesz3
+> Prompt → Code (left) ·Code → Skil (right)
+> AlEngineer
+> Engineering the future of Al
+> AEnginoer
 
 ![[assets/slides/bSG9wUYaHWU/slide-004.jpg]]
 
 OCR text:
 
-> I ❤️ to think in parallels
-> 2009 - What if Ops was like Dev
-> 2025 - What if Context was like Code
-> Patrick Debois - Product Devrel Tessl
+> to think in parallels
+> AIE
+> 2009-WhatifOpswaslikeDev
+> 2025-WhatifContextwaslikeCode
+> AIEngineer
+> Patrick Debois-ProductDevrel Tessl
+> AIEngineer
+> AEngineer
+> EUROPE
 
 ![[assets/slides/bSG9wUYaHWU/slide-005.jpg]]
 
 OCR text:
 
 > Context Development Lifecycle
-> Generate
-> Making implicit knowledge explicit
-> Distribute
-> Context as a package
-> Evaluate
-> TDD for context
-> Observe
-> Learn from use in the wild
-> Engineering the future of AI
+> Generate Distribute
+> (XD)
+> Evaluate Observe
+> |
+> a
+> Engineering the future of Al
+> wmPuses
 
 ![[assets/slides/bSG9wUYaHWU/slide-006.jpg]]
 
@@ -133,15 +147,12 @@ OCR text:
 OCR text:
 
 > Context Connectors
-> Connect models to the real world
-> Servers and tools from the community that connect models to files, APIs, databases, and more.
-> All MCP servers
-> Markitdown
-> Netdata
-> Github MCP - https://github.com/mcp
-> Connect Unblocked to your knowledge sources
-> Install the Unblocked MCP plugin
-> Engineering the future of AI
+> rales a Pee Reis] 7 i _ i a °
+> “ee a as
+> aw
+> .
+> vee
+> Engineering the future of Al
 
 ![[assets/slides/bSG9wUYaHWU/slide-009.jpg]]
 
@@ -307,27 +318,29 @@ OCR text:
 
 OCR text:
 
-> Announcing Entire with $60m seed round
-> Every commit tells a story.
-> Now you can read it.
-> Entire CLI hooks into your git workflow to capture AI agent sessions on every push. Sessions are indexed alongside commits, a searchable record of how code was written.
-> curl -fsSL https://entire.io/install.sh | bash
-> Open source • MIT licensed
-> https://entire.io/
-> 3.6k
-> Engineering the future of AI
+> S Entire | signin |
+> air Every commit tells a story.
+> i bs] 4 Now you can read it.
+> oa
+> :
+> t 5 .
+> Engineering the future of Al
+> Pass
 
 ![[assets/slides/bSG9wUYaHWU/slide-018.jpg]]
 
 OCR text:
 
 > Context from production code
-> Hud
-> Understand code behavior with
-> function level data
-> Hud gathers errors and performance data at the service and function level. It connects, at runtime, the business impact and the root cause in the code. Engineers use this data in the IDE to understand how their code behaves in reality
-> https://www.hud.io/
-> Engineering the future of AI
+> Calera]
+> a e Pa * Understand code behavior with
+> * function level data
+> [serge]
+> |
+> k a
+> Engineering the future of Al
+>
+> we Pais
 
 ![[assets/slides/bSG9wUYaHWU/slide-019.jpg]]
 

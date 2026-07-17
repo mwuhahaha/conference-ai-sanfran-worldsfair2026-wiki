@@ -21,6 +21,8 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
+from markdown_blocks import blockquote
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -290,10 +292,9 @@ def group_records(copied: list[dict]) -> list[dict]:
 
 
 def markdown_quote(text: str) -> str:
-    text = re.sub(r"\n{3,}", "\n\n", text.strip())
-    if not text:
+    if not text.strip():
         return "> No OCR text was extracted."
-    return "> " + text.replace("\n", "\n> ")
+    return blockquote(text)
 
 
 def write_slide_pages(matches: list[dict]) -> list[dict]:

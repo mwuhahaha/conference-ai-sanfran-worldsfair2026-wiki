@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/0thernet"
 twitter: "https://x.com/0thernet"
 website: "https://0.zo.space"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8ff30bbd107a92a8be31604a9a29627d8c808245be8e69dc1b6935556c81c244
+  subjectId: person:benjamin-guo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d30462b4651f0aea32134f27665cd672de08dab9412968cc6510da07d33d491c
 ---
 # Benjamin Guo
 

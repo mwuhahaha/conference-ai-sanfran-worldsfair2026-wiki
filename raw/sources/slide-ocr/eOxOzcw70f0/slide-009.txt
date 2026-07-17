@@ -1,20 +1,7 @@
-AIE
-CHAT
-Chat with Copilot
-Agent Mode
-Select tools that are available to chat
-62 Selected
-OK
-vscodeAPI Use VS Code API references to answer questions about VS Code extension devel...
-problems Check errors for a particular file
-changes Get diffs of changed files
-testFailure Includes information about the last unit test failure
-terminalSelection The active terminal's selection
-terminalLastCommand The active terminal's last run command
-new Scaffold a new workspace in VS Code
-newJupyterNotebook Create a new Jupyter Notebook
-openSimpleBrowser Preview a locally hosted website in the Simple Browser
-runCell Trigger the execution of a cell in a notebook file
-readCellOutput Read the output of a previously executed cell
-Add Context...
-Edit files in your workspace in agent mode
+ee |
+& tereetes &% ith Copilot
+@
+ro css
+of bor Tonsrolorel S11 moti) a eel; i | |
+i , S
+pm u

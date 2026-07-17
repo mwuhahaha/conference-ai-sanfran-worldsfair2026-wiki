@@ -8,6 +8,19 @@ twitter: "https://x.com/shloked"
 website: "https://shloked.com"
 blog: "https://www.shloked.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7128d2f6cab101d5e8c7b932015475233e5d95c4ff1b67365cfef43ac30c0eff
+  subjectId: person:shlok-khemani
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bc4ee9aaf5dd290ec50822e9e9c0435692d3189922c5f30e90933355de7b4bdd
 ---
 # Shlok Khemani
 

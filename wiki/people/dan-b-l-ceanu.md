@@ -4,6 +4,19 @@ category: "people"
 role: "Chief Product Officer and Co-Founder"
 company: "DRUID AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ff40be4321ca3b3e3fd354179e8f70df6f691e2610d868e8f8947c4ab1f45d58
+  subjectId: person:dan-b-l-ceanu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d77aae830997b54cc88a7d90c372d2b3e6bdc7f07754b7192c67b1d8030042b7
 ---
 # Dan Bălăceanu
 

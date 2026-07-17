@@ -3,6 +3,19 @@ title: "tldraw"
 category: "companies"
 aliases: ["tldraw"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9e1a2a9fae3edf66d4751aca854403623abb2130435082e390975067580122a4
+  subjectId: company:tldraw
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:54f53079e27829550dc4697484eb0e1f4d767431d83c562688726ca0385f8a9d
 ---
 # tldraw
 

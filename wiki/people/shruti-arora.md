@@ -5,6 +5,19 @@ role: "Member of Technical Staff and Customer Engagement"
 company: "Amazon AGI Lab"
 linkedin: "https://www.linkedin.com/in/shruti-arora-0730"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:36b067095579f5a82de2211caf4f949f7ef82e1694c027e06a9b8021f10fdc35
+  subjectId: person:shruti-arora
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f76086768cd513580fcbb8ff777c6f01b8ed541707b1a4799524b6f152ddd3e0
 ---
 # Shruti Arora
 

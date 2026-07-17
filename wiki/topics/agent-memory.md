@@ -2,6 +2,21 @@
 title: "Agent Memory"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8c6b128508f3d2b28e81cb166edc23205c391d3cde8a1be8619b309da4e4264c
+  subjectId: concept:agent-memory
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-youtube-8G_1-3IO4ZQ
+  - source:official-wf26-youtube-eBUyTS7SzV4
+  - source:official-wf26-youtube-n97BCfyFIvw
+sourceAssessmentBodySha256: sha256:837357cd4538aa1f946b2878530bbd8e66f29461d62eda3bb43f468f1e0c6a36
 ---
 # Agent Memory
 
@@ -149,8 +164,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Resources
 - [[youtube-o-zkvb0iFDQ]]
 - [[youtube-I2cbIws9j10]]
-- [[youtube-4sX_He5c4sI]]
 - [[youtube-eBUyTS7SzV4]]
+- [[youtube-4sX_He5c4sI]]
 - [[youtube-vljxQZfJ9wY]]
 - [[youtube-T5IMo5ntyhA]]
 
@@ -164,8 +179,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Transcripts
 - [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
 - [[youtube-eBUyTS7SzV4-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 - [[youtube-vljxQZfJ9wY-transcript]]
 
 ### Tools
@@ -190,32 +205,33 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
 - Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
-- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
 - `youtube-eBUyTS7SzV4` — 3,551 transcript words; role: primary event evidence.
 - Interpretation rule for `youtube-eBUyTS7SzV4`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-eBUyTS7SzV4`: company, open, companies, brain, code, three, does, person.
 - Evidence links for `youtube-eBUyTS7SzV4` (primary event evidence): [[youtube-eBUyTS7SzV4]], [[youtube-eBUyTS7SzV4-transcript]]
-- `youtube-vljxQZfJ9wY` — 1,143 transcript words; 8 slide-derived text signals; role: supporting context only.
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-vljxQZfJ9wY` — 1,143 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-vljxQZfJ9wY`: evaluation, production, systems, most, model, tool, becomes, infrastructure.
-- Slide-derived themes for `youtube-vljxQZfJ9wY`: evaluation, reliability, accuracy, systems, behavior, measuring, beyond, autonomous.
+- Slide-derived themes for `youtube-vljxQZfJ9wY`: accuracy, evaluation, output, behavior, workflow, tool, failure, volume.
 - Evidence links for `youtube-vljxQZfJ9wY` (supporting context only): [[youtube-vljxQZfJ9wY]], [[youtube-vljxQZfJ9wY-transcript]], [[youtube-vljxQZfJ9wY-slides]]
-- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
 - Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
-- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
+- `youtube-ZRM_TfEZcIo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: research, total, index, plus, notion, google, drive, growing.
 - Evidence links for `youtube-ZRM_TfEZcIo` (supporting context only): [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
-- `youtube-Jty4s9-Jb78` — source page linked; role: supporting context only.
+- `youtube-Jty4s9-Jb78` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Jty4s9-Jb78`: tokens, context, output, knowledge, given, user, second, blue.
 - Evidence links for `youtube-Jty4s9-Jb78` (supporting context only): [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
+- `youtube-5ID22ACI7IM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
 - Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]

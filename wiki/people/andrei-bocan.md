@@ -5,6 +5,19 @@ role: "Principal Engineer"
 company: "Atlassian"
 linkedin: "https://www.linkedin.com/in/andrei-bocan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c00be899dfafb91cb38042621e0b5fde78df406d52da3baafbf6c58eb37be9a5
+  subjectId: person:andrei-bocan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:08a5f0be8d4e1b2800d6666bb41bd0f6c5a04d54eda604d4c8bc2f883468cf02
 ---
 # Andrei Bocan
 

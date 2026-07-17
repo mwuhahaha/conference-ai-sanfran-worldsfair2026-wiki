@@ -3,6 +3,19 @@ title: "Fidelity Investments"
 category: "companies"
 aliases: ["Fidelity Investments"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:17e4e49724c6ce7dc836788a8a9ffaea1256a7f19853f19606025cd358080685
+  subjectId: company:fidelity-investments
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:16d5de80b593f2424631e35ea0fc23ef89363e07cd76f34ec47e7926ec488cb1
 ---
 # Fidelity Investments
 

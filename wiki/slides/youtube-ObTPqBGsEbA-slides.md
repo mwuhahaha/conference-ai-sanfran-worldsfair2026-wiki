@@ -17,154 +17,196 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/ObTPqBGsEbA/slide-001.jpg]]
+
+OCR text:
+
+> AIEngineer The Producti
+> EUROPE AI Playbook
+> Learningsfrom deploying ogents in enterprises
+> Databricks Data&AlTechLead SandipanBhaumik
+> AlEngineer EUROPE
+
 ![[assets/slides/ObTPqBGsEbA/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — small timeline labels and caption text across a multi-element slide
-
-Slide text:
+OCR text:
 
 > THEPROBLEM
-> The pattern you already know
-> AIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6
-> Pickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?" "WhyisAl failedlastyear. sSin projects
-> Sound familiar? You're not here because you haven't seen this. You're here because you want to stop it.
+> Thepatternyou alreadyknow
+> AIE
+> Weeks1-4
+> Weeks4-8
+> Weeks8-12
+> Week14
+> Month6
+> Pickmodels.
+> Build features.
+> Demotoleaders.
+> "WhyisAl
+> SSin projects
+> Looksgreat.
+> Sign-off.Ship.
+> b*s*-ing us?"
+> failed lastyear.
+> Soundfamiliar?You'renotherebecauseyouhaven'tseen this.You'reherebecauseyouwanttostopit.
 > AlEngin
-> CURCPE
-> AEngivoer Engineering thefuture of Al
+> Moen
+> AlEnginee
+> EngineeringthefutureofAl
 
 ![[assets/slides/ObTPqBGsEbA/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> The AI is the easy part
-> You can't debug what you can't see.
-> You can't improve what you can't measure.
-> You can't trust what you can't explain.
+> e
+> The AT is the easy part
+> gk ¥ You can't debug what you can't see. 01
+> * ~ ol Saat ate er
+> mae
+> * ad
+> oar ied tee U
+> You can't improve what you can't measure. 02
+> PTT toe td
+> OECD Ma te here xee Manan ete ny
+> Governonce gap
+> AlEngin
+> eee | PVE Sales |
+> ’ aU cela
 
 ![[assets/slides/ObTPqBGsEbA/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > The Five Pillars of Production AI
-> Evaluation
-> Observability
-> Data Foundation
-> Orchestration
-> Governance
+> as rep ey 0303 oye O05
+> mn . Evaluation fel estuarleliiiag Data Foundation Orchestration Governance
+> Each pillor enadles the next. Skip one and the whole thing breaks in production.
+> [sean
+> »
+> Lael Engineering the future of Al
 
 ![[assets/slides/ObTPqBGsEbA/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Evaluation First
-> Define success with numbers
+> PILLAR 02 &
+> o Define success with numbers
+> Not ‘accurate -- BUL 87%. en fer disputes, «2%, false positives, 60%, detection
+> Evaluation date Numbers make model selection obvious
+> ca
+> ate hws
+> oa rd
 > Build test cases from real data
-> Wire automated grading
+> ae] B
+> * i
+> a ra . ‘ Pull 200+ real conversations from: production fogs Ancnymise them Every case
+> * You reva | Tein kea by Reeds pass/faicrtena — nat locks good
+> your specification.
+> Without it, you're
+> guessing. B Wire automated grading
+> Evaluston pipeline that runs on every code change Dashboard showing metrics
+> You missure success before you tive anything fo messure
+> ele aace tia)
+> 7
+> t
+> ae ,
+> ra | Al Engineer |
+> noe SUL tela
 
 ![[assets/slides/ObTPqBGsEbA/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — multi-column dense text and embedded code screenshot are better handled by OCR
+OCR text:
 
-Slide text:
-
-> PILLARO1-DEEPDIVE
-> Three layers of evaluation
-> Layer1—Deterministic
-> AIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote
-> wrng.+gatiallyorret,2·foil（rect
-> Layer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)
-> C.5 tevest scefe.
-> AlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt
-> RURNPE
-> ABrgore AI Engineer
+> PILLAR01-DEEPDIVE
+> Threelayers of evaluation
+> Layer1-Deterministic
+> AIE Pll detection(NER+regex),Output format validation,Response lengthbounds Layer2-Semantic ufetyi cerrectsess) severy factal class sep Deseresse stohte crret liy cme wtiatlycrt,flly rect id PIT Leak ertee by theretrievee ceetet? dhallocinated account data? OHH
+> above threshold Correctness&groundedness,LLM-as-a-Judge,Non- determinismfix:run eachtest3x-flagvariance
+> eitscare.
+> AlEngin within scope? escalate whenconfidence was low?Didit stay Layer3-Behavioural Didit calltheright tools,in the rightorder?Didit teat? SAMPLE:LLM-as-a-Judgeprompt
+> AiEngineer AlEngineer
 > EUROPE
 
 ![[assets/slides/ObTPqBGsEbA/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/center-82/contrast`.
-- OCR decision: ready — Dense architecture diagram with many small labels and stacked elements.
+OCR text:
 
-Slide text:
-
-> Databricks Data Intelligence Platforn
-> Dissster recovery 100%serverless Cost controls Enterprise security
-> AIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81
+> Databricks Data Intelligence Platform
+> Disasterrecovery 100%serverless Costcontrols Enterprise security
+> Databricks SQL Data warehousing Workflows/SDP Ingest,ETL,streming
+> AIE Articialintellgence MosaicAI Businessinteligence AI/BI
 > Lakehouse
-> Unity Catalog
-> AlEngin DELTA LAKE ICEBERG Parquet
-> AEngineer AI Engineer
-> 2028 EUROPE
+> UnityCatalog
+> AIEngin DELTALAKE ICEBERG Parquet
+> AlEngi AIEngineer
+> EUROPE
 
 ![[assets/slides/ObTPqBGsEbA/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-008.html)
-- AI slide classifier: `demo_video` confidence `0.88`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Engineering the future of AI
+> AlEngineer
+> EUROPE
+> AIE Multi-Agent databricks
+> Orchestration
+> AlEngin From Chaos to Choreography: Multi-Agent Orchestration Patterns That Actually Work - Sandipan Bhaumik AlEngineer Share
+> AEng Engineering the future of Al
 
 ![[assets/slides/ObTPqBGsEbA/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Dense platform architecture slide with many small labels and nested sections.
+OCR text:
 
-Slide text:
-
-> databricks
-> Agent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.
-> ★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance
-> Knowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry
-> Supervisor Agont Runtimo AlGatcway
-> Documonts Agent Memory Agont Observability
-> AlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps
-> FAEngk
-> AEngrak AI Engineer
-> EUROPE
+> — CUS ah c) > Al/Bl coe @ Custom Apps
+> eta eae carts a ve ewe * BA Shout data ond AL apes :
+> te gence
+> Pein
+> * *
+> cd Od «1 Agent Platform
+> a *
+> Contextual
+> a Sd
+> * . Developer Platform Al Governance
+> Reasoning Agents P
+> Knowledge Assistant Agent Orchestration Agent/Skill/MCP Registry
+> Supervisor Agent Runtime thm, Al Gateway
+> Documents Agent Memory Agent Obdservability
+> Al Functions Model by Managed OAuth Apps
+> Capacity OO Gein fo aN 8
+> Alingin
+> ie | AlEngineer |
+> : se) Kola
 
 ![[assets/slides/ObTPqBGsEbA/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ObTPqBGsEbA/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> CASE STUDY
+> Same project.
+> ate Same problem.
+> vay DUSCOUSIE eer toe
+> THE PROBLEM THE KEY DIFFERENCE
+> a We didn't pick a model
+> en ee TTP OLeO mG Wels) alee
+> aac Sete ea Pe CC CECA
+> »
+> liters | AlEngineer |
+> 7 ae) e) a3
 
-> Same project. Same problem. Different approach.
-> 18,000 calls/month - 60% simple queries
-> $85,000 + 6 months spent on failed attempt
-> System: unmeasurable, invisible, misaligned
-> Goal: AI agent handles 60%+ user queries
-> We didn't pick a model until week 7.
+![[assets/slides/ObTPqBGsEbA/slide-011.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/ObTPqBGsEbA/slide-001.jpg) — `speaker_stage` confidence `0.99`; camera shot of presenter on stage with audience and only a partial projected slide visible
-- [`slide-011.jpg`](/assets/slides/ObTPqBGsEbA/slide-011.jpg) — `speaker_stage` confidence `0.99`; Camera shot of the speaker on stage with a projected slide in the background, not a readable presentation slide.
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/ObTPqBGsEbA/audit.json`
+> 4 7 CASE STU
+> Six Ween, post-launch
+> I y Or
+> | AlEngineer 625
+> EUROPE
+> Estee Det
+> on J ee ee Ree Ler
+> . See Tot eae tet ts oot te eh ee
+> CE eee Bet kn Cie ee. i
+> ee Mit tides te Bei eae Re a oeeee
+> jee a ae
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

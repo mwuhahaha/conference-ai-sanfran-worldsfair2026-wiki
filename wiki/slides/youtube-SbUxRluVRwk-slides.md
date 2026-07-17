@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > aWws
-> 
+>
 > eee)
 > @®Graphite W Windsurf  MongobB
 > Mdaily £3 augment code WorkOS

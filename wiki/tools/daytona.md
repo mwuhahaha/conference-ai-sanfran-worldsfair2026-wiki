@@ -5,6 +5,18 @@ aliases: ["Daytona"]
 sourceLabels: ["Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eea3111adf5609cb0fb86b162da72a4bf0d787b0d493ebf32f65ded99a95a782
+  subjectId: tool:daytona
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:550ed67df4bfb9565b8a68ea4ad7253a167511e2f3529cc0f546f351c8ed6a5a
 ---
 
 # Daytona

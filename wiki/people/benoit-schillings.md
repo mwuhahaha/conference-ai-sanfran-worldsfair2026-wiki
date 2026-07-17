@@ -5,6 +5,19 @@ role: "VP of Technology"
 company: "Google DeepMind"
 linkedin: "https://www.linkedin.com/in/benoit-schillings-2942a5"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6c599ba7bbad69eff48759e331fa3e47190879f5bb5f802f5230016180af933d
+  subjectId: person:benoit-schillings
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:87c85f00cba3ef17a9fd98b5d05fc97459854a0803523ba5c92e0ddea447b3b3
 ---
 # Benoit Schillings
 
@@ -30,6 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
 
 ### Media Signals
-- `youtube-G_bHFmEAarM` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: google, gemini, flash, grounding, latest, releases, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM` (supporting context only): [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

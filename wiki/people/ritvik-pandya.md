@@ -6,6 +6,19 @@ company: "JP Morgan Chase"
 linkedin: "https://www.linkedin.com/in/ritvik-pandya/"
 website: "https://www.jpmorganchase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7af0c9bc21ca6a3e591f4aeb4445f832d8e535ff0b8293af53395de7d8f6b4a5
+  subjectId: person:ritvik-pandya
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3a8779900510dee61d759832e4c220c221acf1b13a85579a722f54e82a61a0ad
 ---
 # Ritvik Pandya
 

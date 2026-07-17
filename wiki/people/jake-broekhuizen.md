@@ -5,6 +5,19 @@ role: "Labs Lead"
 company: "LangChain"
 linkedin: "https://www.linkedin.com/in/jake-broekhuizen"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6cbbc1ed638fc6997bc40f2141fc6a0acb4d4397d5997849437116ca681cc3b2
+  subjectId: person:jake-broekhuizen
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:78cc4a795844235aa6cd328768c8f3ec77ae1688e06708b6ceafa6b5ddce9f9b
 ---
 # Jake Broekhuizen
 

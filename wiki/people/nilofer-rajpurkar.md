@@ -6,6 +6,19 @@ company: "Stripe"
 linkedin: "https://www.linkedin.com/in/nilofer-rajpurkar-3a80a168"
 twitter: "https://x.com/nilli_minaj"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:896ad84c84f6933057b3040303d7c0d59bf2a07c73dfeeb0a38e3a5016715eec
+  subjectId: person:nilofer-rajpurkar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dc4c59c6780223dd99579d65f08cac2639166d7377fb887e97afbfb0c91cff10
 ---
 # Nilofer Rajpurkar
 

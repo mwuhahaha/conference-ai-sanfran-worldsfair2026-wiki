@@ -6,6 +6,19 @@ company: "Microsoft"
 linkedin: "https://linkedin.com/in/gcordido"
 twitter: "https://twitter.com/gcordidoa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:10a649620ff17e69c28404cd965f165990c2b3b9f4acb0b673f0031478a36166
+  subjectId: person:gustavo-cordido
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:09f502c6e6f84009f5de562339ef97bb3767f13099037dab416ffb7849835a5c
 ---
 # Gustavo Cordido
 

@@ -6,6 +6,19 @@ company: "Unblocked"
 linkedin: "https://ca.linkedin.com/in/brandonwaselnuk"
 twitter: "https://x.com/BrandonWaselnuk"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3214afb60b3a64c6aefbd1d3d62eba8cf070f848d0d8c6302bc9a4f105e7ee38
+  subjectId: person:brandon-waselnuk
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:581650ceb2a4afbfb6fe7b20d2b562397940c90a603e0139a45e3bacf1d11eb1
 ---
 # Brandon Waselnuk
 
@@ -32,5 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
 
 ### Media Signals
-- `youtube-BiG2ssibKGc` — source page linked; role: supporting context only.
+- `youtube-BiG2ssibKGc` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
 - Evidence links for `youtube-BiG2ssibKGc` (supporting context only): [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]

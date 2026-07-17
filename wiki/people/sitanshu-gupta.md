@@ -4,6 +4,19 @@ category: "people"
 company: "Coreweave"
 linkedin: "https://www.linkedin.com/in/sitanshugupta"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cd10007d4dab6c95e6426be8a724a3f878501ea61d0c7eccec69f9ca7b30f306
+  subjectId: person:sitanshu-gupta
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:679dd5e1495f36b8b11706117670e96111d38fa815db8d0d363d2c36f26f411c
 ---
 # Sitanshu Gupta
 

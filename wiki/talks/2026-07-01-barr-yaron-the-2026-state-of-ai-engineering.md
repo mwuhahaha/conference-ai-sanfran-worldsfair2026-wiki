@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-mQ7_Zje7WKE]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-mQ7_Zje7WKE`
-- Slide deck: [[youtube-mQ7_Zje7WKE-dense-slides|Dense Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]] — 3 visible slide image(s); 3 HTML recreation(s).
-![[assets/dense-slides/mQ7_Zje7WKE/slide-002.jpg]]
-![[assets/dense-slides/mQ7_Zje7WKE/slide-003.jpg]]
-![[assets/dense-slides/mQ7_Zje7WKE/slide-004.jpg]]
+- Slide deck: [[youtube-mQ7_Zje7WKE-dense-slides|Dense Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]] — slide evidence page.
 - Additional slide evidence: [[youtube-mQ7_Zje7WKE-slides|Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]], [[youtube-mQ7_Zje7WKE-reconstructed-slides|Reconstructed Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]]
-- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-mQ7_Zje7WKE` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, best, describes, title, survey, demographics, option, identified.
+- `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 - Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
 
 ### Agent Reading Notes

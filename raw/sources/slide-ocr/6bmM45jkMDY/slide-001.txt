@@ -1,3 +1,2 @@
-You can't prompt
-the room.
-Cheap to build. Expensive to decide.
+You can't prompt $
+the room. 7

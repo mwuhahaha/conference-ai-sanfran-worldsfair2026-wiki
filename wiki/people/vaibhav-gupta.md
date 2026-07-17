@@ -8,6 +8,19 @@ twitter: "https://x.com/vaibcode"
 website: "https://www.youtube.com/@boundaryml"
 blog: "https://www.boundaryml.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:39e1e524cc6ee4e07f2af680239f5068cfa6a15936819fd93e0d94b49cf2e189
+  subjectId: person:vaibhav-gupta
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3c3cc3a7e909826992277240aa1148d7895c34e5bf97006ae4230362f1f8b466
 ---
 # Vaibhav Gupta
 

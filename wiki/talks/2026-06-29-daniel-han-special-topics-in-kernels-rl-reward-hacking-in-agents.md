@@ -68,7 +68,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-OkEGJ5G3foU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-OkEGJ5G3foU`
-- Slide deck: [[youtube-OkEGJ5G3foU-dense-slides|Dense Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]] — no readable content slides after AI classification.
+- Slide deck: [[youtube-OkEGJ5G3foU-dense-slides|Dense Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]] — slide evidence page.
 - Additional slide evidence: [[youtube-OkEGJ5G3foU-slides|Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]], [[youtube-OkEGJ5G3foU-reconstructed-slides|Reconstructed Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]]
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
 

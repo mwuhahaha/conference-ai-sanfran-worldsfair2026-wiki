@@ -6,6 +6,19 @@ company: "Google DeepMind"
 linkedin: "https://www.linkedin.com/in/valeriawu/"
 twitter: "https://x.com/valeriawu_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2d99d231cee5e079f969f845913c14d81eea8d6bcc7083f2b3f76b8e1fc915d9
+  subjectId: person:valeria-wu-fon
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e7ae664069de7d97f2bdac28f2bd2449f51af2c8139bf7aa8f6ef9370f22aad0
 ---
 # Valeria Wu Fon
 

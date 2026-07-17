@@ -7,6 +7,18 @@ linkedin: "https://uk.linkedin.com/in/louis-allgood"
 sourceLabels: ["YouTube transcript", "Justice AI Unit public site", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c57faecc8d20f8f899ffad60df1efd36cd36d3fd23843e32badd426a240be770
+  subjectId: person:louis-allgood
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:6735e9f4cead9ec261a15a6e0adcd0b4c4af672a3bdba18c5e691629709074e9
 ---
 # Louis Allgood
 
@@ -40,9 +52,9 @@ This section summarizes how this person appears across the conference source gra
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 3 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
-- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: unit, automation, joined, november, working, mainly, across, trying.
 - Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 ## Evidence Boundary
 This page uses the local transcript, [[justice-ai-unit|Justice AI Unit]] public context, and public professional-profile snippets. It avoids inferring private biographical details beyond those sources.

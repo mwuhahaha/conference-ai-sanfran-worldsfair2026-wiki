@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/derekmeegan"
 twitter: "https://x.com/derekmeegan"
 website: "https://derekmeegan.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7b6fadba8cd9991afb023c5b28e5d50a3f4900a6cfbcdd8e2c1f5ef13bad289d
+  subjectId: person:derek-meegan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:acf1b7832cba66ce47d5a37d05a70ef0a9d3c4accc38a5fb4021c3ff693b2d7f
 ---
 # Derek Meegan
 

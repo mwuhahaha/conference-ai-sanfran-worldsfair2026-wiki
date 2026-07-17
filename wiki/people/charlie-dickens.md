@@ -2,6 +2,19 @@
 title: "Charlie Dickens"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7d2f918d3a7006ecead37abb117592656abb137a9665957455907993fc6b278e
+  subjectId: person:charlie-dickens
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:87ea3fdb11c91db07fd0afba90a72d603bc921b08fd177b1d41cc3d0bfea16d6
 ---
 # Charlie Dickens
 

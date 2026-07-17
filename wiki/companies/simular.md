@@ -3,6 +3,19 @@ title: "Simular"
 category: "companies"
 aliases: ["Simular"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1fc4bfa8c7f12261b8a1ff8b2c1f10747c6326ecddfdb380903151458bc0b2f8
+  subjectId: company:simular
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ea5bb03e37046d49364b64b0219639a07552716b479328eaf6fd1f874feefd7e
 ---
 # Simular
 

@@ -8,6 +8,19 @@ twitter: "https://x.com/varunshenoy_"
 website: "https://varunshenoy.com"
 blog: "https://varunshenoy.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:36e3552a9ca7479680188cbd909901ae398ce834dd2752757c50313706bb5a26
+  subjectId: person:varun-shenoy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:74f08dcee2ac4f128c0194d6d7c6b123d83ef674a1ed4ec9f4595f4af9b49a9c
 ---
 # Varun Shenoy
 

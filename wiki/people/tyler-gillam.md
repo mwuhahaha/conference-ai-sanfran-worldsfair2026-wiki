@@ -5,6 +5,19 @@ role: "Senior Software Engineer II - Agentic AI"
 company: "Digital Ocean"
 linkedin: "https://www.linkedin.com/in/tdgillam"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1eaa2df8dd2370c3cf665f79d01d6dd0e9db7ee355f7282a707c745f703b0ca5
+  subjectId: person:tyler-gillam
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cfa55addfdba69256bffd3de6cd13e50ff34200e263b1d6db84e3a8ac0508be1
 ---
 # Tyler Gillam
 

@@ -8,6 +8,19 @@ twitter: "https://x.com/hj1393"
 website: "https://harshuljain.substack.com/"
 blog: "https://harshuljain.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2749d28ec3062250c514a8eb6579caea24b2e2f241d30359c8dbb4b392e5506b
+  subjectId: person:harshul-jain
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1296a805d9c1383a804b8366eb5159748eedbb068492b456ae1c4c4b9d41ed03
 ---
 # Harshul Jain
 

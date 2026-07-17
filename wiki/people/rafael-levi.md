@@ -4,6 +4,19 @@ category: "people"
 role: "DevRel"
 company: "Bright Data"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:504d56e301d272466c5f2c0b530352279b8486ed0be207cd16f84484d532de32
+  subjectId: person:rafael-levi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fa1af596309cadf35d3d95e248f05ec6b355deb3c9a6670b4cdb1e8870e5e37f
 ---
 # Rafael Levi
 

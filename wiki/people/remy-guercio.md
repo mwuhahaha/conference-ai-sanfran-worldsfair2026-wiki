@@ -5,6 +5,19 @@ role: "Strategic Projects"
 company: "Tailscale"
 linkedin: "https://www.linkedin.com/in/remyguercio"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:66793dfd36674bd651747b01ab0c98a64129c1bc3af6f7cd0701162f8544313b
+  subjectId: person:remy-guercio
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:995ed5325302790931b384d2ba972d0f9e79dc6428e67c18a23f2dac25a2acd7
 ---
 # Remy Guercio
 
@@ -28,5 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in|An AI Future Without the Lock-In]]
 
 ### Media Signals
-- `youtube-BM2JX9hqsVQ` — source page linked; role: supporting context only.
+- `youtube-BM2JX9hqsVQ` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: sandbox, keys, identity, provider, pond, engineering, future.
 - Evidence links for `youtube-BM2JX9hqsVQ` (supporting context only): [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Amazon Web Services (AWS)"
 linkedin: "https://www.linkedin.com/in/nadiminti"
 twitter: "https://x.com/super_intel_bot"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3856c6323984380e75bccf435b077d1fe30cfbafdb09ff6ea1cd2fac2dc1c18e
+  subjectId: person:anil-nadiminti
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c251f124ef2240fd126ac14c7b7cdcddfb142dd175773500c469ed6c76b9104a
 ---
 # Anil Nadiminti
 

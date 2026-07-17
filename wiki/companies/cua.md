@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Cua"]
 website: "https://cua.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:501f16a97d094fa3bd538a0e7a3efda12f08b925ec793d66c803728bf9d10a8d
+  subjectId: company:cua
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:812893c12891fd01885681696cb72a755451e6aeedb50377ae441add4563b1a8
 ---
 # Cua
 

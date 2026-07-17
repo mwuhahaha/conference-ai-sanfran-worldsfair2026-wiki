@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > 3
-> 
+>
 > a
 
 ![[assets/slides/7Dtu2bilcFs/slide-002.jpg]]
@@ -56,11 +56,11 @@ OCR text:
 > | are 2 bale Oi
 > P aw fy
 > ¢ J i 4 -
-> 
+>
 > Why would we stop now?
 > Vans 2026: THE YEAR THE IDE DIED
 > Serene STEVE YEGGE GENE KIM
-> 
+>
 > Google DeepMind Software Engineer Amp . Author & Researcher MPrevowwtion
 
 ![[assets/slides/7Dtu2bilcFs/slide-004.jpg]]
@@ -190,9 +190,9 @@ OCR text:
 > AA eed droge can Get corr SIve Tngy done oN Se mate
 > ba Oe rd int wee
 > ‘Why are we Lrymg Le Rares 2 vunghe Greer de ever ptheng”
-> 
+>
 > - - .- a
-> 
+>
 > Code Summit - o |
 > oats cana "
 > ie od 3 ely
@@ -244,7 +244,9 @@ OCR text:
 
 OCR text:
 
-> AIE
+> | . |
+> _ | 7 _
+> nl : ag
 
 ![[assets/slides/7Dtu2bilcFs/slide-015.jpg]]
 

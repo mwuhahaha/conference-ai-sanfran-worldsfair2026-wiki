@@ -51,9 +51,9 @@ OCR text:
 
 > | WAT dehe) nt | Worlds |
 > World” a mid
-> 
+>
 > _ - ; AlEngincer
-> 
+>
 > ! VVfo) gto Koa
 > el 4 my :
 
@@ -124,12 +124,12 @@ OCR text:
 > : CAPABILITY OVERHANG i 4.
 > a Microsoft Claude gets smarter in ay
 > spiky ways 4
-> 
+>
 > asralr ke
-> 
+>
 > roar sy AYA" algo a phage
 > setae Akz Inthe Land of Al Agents, the Verifiers Are King
-> 
+>
 > VADOG vane oe G sonar —-
 
 ![[assets/slides/4sX_He5c4sI/slide-009.jpg]]
@@ -196,7 +196,7 @@ OCR text:
 > : ele ee eS)
 > Woric ir a La wh a #: 7 f a A
 > f eereaten y wis . , ; 7 . 7 ok
-> 
+>
 > Treks Ven Cm UCR ice UL Ca)
 > ATC i Tariq Shaukat [ Real Renata
 
@@ -302,23 +302,30 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> World's Fair |
 > Clicking was
 > the easy part.
-> Amazon AGI Lab
-> Perception Agents
-> Antje Barth / Member of Technical Staff Amazon AGI Lab
+> er oe |
+> a ; c Perception Agents
+> fe * veer eereay ne
 
 ![[assets/slides/4sX_He5c4sI/slide-021.jpg]]
 
 OCR text:
 
-> Perceive
-> Act
+> World's Fair |
+> a Microsoft ee ( ) ae
+>
+> ~
 > Plan
-> Perception Agents
-> Antje Barth / Member of Technical Staff Amazon AGI Lab
+>
+> A Brora aie
+>
+> aoe at 2°
+>
+> —_ rl ye Perception Agents
+>
+> ean iTerateae Antje Barth Amazon AGI Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-022.jpg]]
 
@@ -402,9 +409,9 @@ OCR text:
 > MW felale kd are
 > From Assembly to Vibe Coding
 > Benoit Schillings
-> 
+>
 > occa i
-> 
+>
 > Open&é re
 > reg Research to Reality with Google DeepMind
 > a. eee Google DeepMind
@@ -416,13 +423,13 @@ OCR text:
 > END Sie eg
 > ; The Software Eras
 > World's Fair | |
-> 
+>
 > Atira Cetra eren te) ee 7 ;
 > The Modern/Cloud Era J . a
 > The Frontier Al Era bs a A
-> 
+>
 > Worle! 'T
-> 
+>
 > OFelon Vu
 > vs Research to Reality with Google DeepMind
 > - Benoit Schillings Google DeepMind
@@ -431,14 +438,18 @@ OCR text:
 
 OCR text:
 
-> State of AI Software Engineering
-> Super-human Syntax Generation 95%
-> Local Problem Solving & Tasks 70%
-> Multi-step Codebase Planning 45%
-> Architectural System Decisions 25%
-> Models generate localized code rapidly but struggle to form cohesive systems, design complex architectures, and predict overall security flaws.
-> Research to Reality with Google DeepMind
-> Benoit Schillings / Vice President of Research Google DeepMind
+> ALE Ps A
+> an State of Al Software Engineerin
+> World's Fair | 4 o
+> nike colton
+>
+> Id’s Fair “mason
+>
+> eENnAl World
+>
+> ide Res Aa keels pel ot Le
+>
+> Benoit Schillings Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-030.jpg]]
 
@@ -463,48 +474,39 @@ OCR text:
 
 OCR text:
 
-> The Economics of Code
-> ~$0
+> anil , Gas
+> aaa nds a A _—
+> World's Fair | | Bi) 7 ee
+> - ye ion f ip vw eae
+> AN f iy Secor. a _
 > Marginal Cost of Code
-> The Bottleneck Transformed
-> When generating code becomes virtually free, software
-> creation is no longer the key constraint. The system pressure
-> shifts to validation and specification.
-> The core disciplines of the future engineer will focus on
-> defining system correctness, auditing security boundaries,
-> and designing precise constraints.
-> Write only code, fast code refresh. This is the same step we
-> saw with compilers, who still reads the assembly output?
-> Research to Reality with Google DeepMind
-> Benoit Schillings / Vice President of Research Google DeepMind
+> i ) an
+> org tal 7 ae
+> Ww Research to Reality with Google DeepMind
+> Benoit Schillings Geogle DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-032.jpg]]
 
 OCR text:
 
-> AI Engineer World's Fair
-> Next-Gen Architecture Foundations
-> Multimodal Design Reason
-> Software architecture is visual and spatial, not just
-> textual. Modern multimodal models like Gemini are
-> bridging this gap, allowing direct evaluation of visual
-> flowcharts and interface layouts against the
-> synthesized code.
-> LLM-Native Target Languages
-> Human developers require languages that optimize for
-> code readability. For AI models, do we still need
-> standard languages, or do we pivot to mathematically
-> precise, highly rigorous specification engines like Rust?
-> Research to Reality with Google DeepMind
-> Benoit Schillings / Vice President of Research Google DeepMind
+> vere oe | Neat" ee
+> mn: eS
+> : 7S + a f
+> 7 oa 7 i , amet) i] y oy) a
+> = , ;
+> : MC a
+> orid’s Fair r aan Pe ao ae nat
+> Flore yh aN
+> Rae re ae AVA /o) ieee? ~ a
+> an Research to Reality with Google DeepMind
+> Benoit Schillings Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-033.jpg]]
 
 OCR text:
 
-> APARNA DHINAKARAN
-> CO-FOUNDER & CPO
-> arize
+> UT EUG Tey
+> - ; arize 15 :
 
 ![[assets/slides/4sX_He5c4sI/slide-034.jpg]]
 
@@ -566,7 +568,7 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> AlEngineer
 > World's Fair
 
 ![[assets/slides/4sX_He5c4sI/slide-037.jpg]]
@@ -574,19 +576,19 @@ OCR text:
 OCR text:
 
 > eres eld
-> 
+>
 > Agenda
-> 
+>
 > | Meet OG Assist
-> 
+>
 > 2. | The Origin Story
-> 
+>
 > | Betting on Effect
-> 
+>
 > a. | The Core Agent Loop
-> 
+>
 > s. | A2A, Evals & Sandboxing ~
-> 
+>
 > s. | Long Context Handling ga
 > Monitoring & Observability 7 q
 > 2. | Tools. Skills & Dev Workflows how we collect feedback, a ;
@@ -673,7 +675,7 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> AIEngineer
 > World's Fair
 
 ![[assets/slides/4sX_He5c4sI/slide-043.jpg]]
@@ -743,12 +745,10 @@ OCR text:
 
 OCR text:
 
-> THE
-> EUREKA
+> Roca vt ‘ fh recursive
+> 7 Mevoscft eal IDEN
 > MACHINE
-> WHY AI IS THE KEY TO UNLOCKING A
-> NEW ERA OF SCIENTIFIC DISCOVERIES
-> Engineering the future of AI
+> 7 — Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-048.jpg]]
 
@@ -759,13 +759,13 @@ OCR text:
 > scientific superintelligence and part of pillar 1 of the Eureka Machine.
 > , ac Oa ames re Le DCT Tae ST Sl Men Ea OE Sh CD oD OTe ATRL Conran rears en ee
 > = Microsoft erseeee al orbs Meare Or ge) mega os Mer olan cine Mn arcere tre
-> 
+>
 > oir ae ey ees ec ee ee ee ee eo
-> 
+>
 > The snowledge layers the precegucsite for pilare OF O48 and OF, You
-> 
+>
 > Pa rara tek Oncap ES eurs Oe SMCCER ra Gy T OTe GLOmrere Fane bl eno
-> 
+>
 > oie
 > Engineering the future of Al
 
@@ -773,44 +773,29 @@ OCR text:
 
 OCR text:
 
-> AI Engineer World's Fair
-> First simple proof points
-> Better training, faster training, better kernels
-> recursive
-> 01 NanoChat Autoresearch
-> Several dozens of humans and hundreds of their agents
-> SOTA: 0.9372 BPB → 0.9109 BPB
-> 1.3x speedup to reach the same loss
-> 02 NanoGPT Speedrun
-> 83 human record-setting contributions to the leaderboard
-> SOTA: 79.7 s → 77.5 s
-> Similar or larger improvement than recent human contributions
-> 03 SOL-ExecBench
-> 235 kernel-writing tasks derived from real workloads
-> SOTA: 0.699 SOL → 0.754 SOL
-> 18% reduction in gap to the optimal performance estimate of 1.0
-> Engineering the future of AI
+> f recursive
+> ONE ag
+> Mh dl laa Better training, faster training, better kernels
+> NanoChat Autoresearch ;
+> NanoGPT Speedrun ;
+> yo SOL-ExecBench
+> ‘d's Fair €) Work<
+> a ae Melsekcd a
+> ca) se Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-050.jpg]]
 
 OCR text:
 
-> AI Engineer
-> World's Fair
-> SOL-EXECBENCH · 03 / 03
-> recursive
-> SOL-ExecBench: SOL score per kernel
-> SOL-ExecBench mean SOL score by kernel category
-> 0.564
-> Cursor
-> 0.690
-> doubleAI
-> 0.699
-> Leaderboard best
-> 0.754
-> Recursive
-> 0.5 = optimized PyTorch baseline · 1.0 = analytical optimal performance estimate · 235 kernels
-> Engineering the future of AI
+> alengineer es fh recursive
+> World's Fair Wee luntese “ nuanyeraee BRE, I Relaae onclliarmmenanee gor Rigg
+> i a : 3 2 we es . -.
+> : a “4 i | : | j é | | -s |
+> ff Tab ad
+> 7 : 0.699 0.754
+> qv os
+> a
+> Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-051.jpg]]
 
@@ -895,9 +880,9 @@ OCR text:
 > aa :NeOg) “World's Fair Google DecpMind | World's Fair arize World's! Fair |
 > oh) | eed Amazon AGI Lab renee re iu Microsoft Pere (ale yer m=
 > Fe ee zd eae Rota RR eed
-> 
+>
 > eer ®  togetherai ocr . Akama | Wortd's aa eM ales ca ccxe)
-> 
+>
 > cin ihecliaaheibiaill
 > Ce ee CC
 > eDB Roce B builderio foc a Ate al are) Roce CopilotKit *
@@ -1165,12 +1150,12 @@ OCR text:
 > $3 Brai A | Worle 'r | OpenAl Wantriaeti Lv
 > | AY World's a | yy eles kl Ko a , 7
 > — |
-> 
+>
 > ; We SR Beatanoe eae |
 > anata re tr re , ad —————
-> 
+>
 > ola la Same World's Fai. N Ravenna LS a
-> 
+>
 > ae ate \ enetel olathe | Monten re
 > ( oa an 2 a One) @eooacoaooeoaro. Ge ” +e O90 o,.o a
 
@@ -1178,9 +1163,12 @@ OCR text:
 
 OCR text:
 
-> OpenAI
-> AI Engineer World's Fair
-> Akamai
+> bo
+> ota World's Fai
+> AlEnginee: y
+> World's VENTED
+> as
+> «e — _ Al Enginecr a
 
 ![[assets/slides/4sX_He5c4sI/slide-075.jpg]]
 
@@ -1227,24 +1215,24 @@ OCR text:
 OCR text:
 
 > — iis nae my
-> 
+>
 > Pct AcoOMNCMmR oka zl Lifes World's Fair
-> 
+>
 > — - ites r ri a a
-> 
+>
 > tO ‘Wor. 1 «) WorkOS. enon B Bf : ze
 > a Fd ee r
-> 
+>
 > - yee pI lw I ‘a
-> 
+>
 > a 7
-> 
+>
 > male | ' Aaa one ait ‘da ee Te
-> 
+>
 > = ei —
-> 
+>
 > Se _— _ a. een ;
-> 
+>
 > cy ara ire) we ae ACen ton ANE en 10106]
 > on errs
 
@@ -1259,7 +1247,7 @@ OCR text:
 OCR text:
 
 > Ww
-> 
+>
 > vir
 
 ![[assets/slides/4sX_He5c4sI/slide-079.jpg]]
@@ -1292,13 +1280,13 @@ OCR text:
 OCR text:
 
 > =
-> 
+>
 > serbase
-> 
+>
 > cL
-> 
+>
 > S|
-> 
+>
 > Toe
 
 ![[assets/slides/4sX_He5c4sI/slide-083.jpg]]
@@ -1336,11 +1324,11 @@ OCR text:
 OCR text:
 
 > ,
-> 
+>
 > rc
-> 
+>
 > TJ 7 nO
-> 
+>
 > Ir
 
 ![[assets/slides/4sX_He5c4sI/slide-087.jpg]]
@@ -1398,9 +1386,9 @@ OCR text:
 OCR text:
 
 > :
-> 
+>
 > Ki
-> 
+>
 > fa
 
 ![[assets/slides/4sX_He5c4sI/slide-090.jpg]]
@@ -1528,16 +1516,21 @@ OCR text:
 
 OCR text:
 
-> A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END
-> You are Abraham Lincoln. Under what circumstances may a
-> President take the country to war without Congress?
-> While Congress holds the power to declare war, the President, as
-> Commander-in-Chief, possesses inherent executive authority to
-> act decisively in moments of national emergency. The executive
-> must respond to threats with the energy and dispatch the office
-> requires, and history has vindicated those who acted to preserve
-> the Union when circumstances demanded it.
-> It sounds like Lincoln. It’s a good answer. Hold it.
+> AlEng
+> World'sFair
+> You are watching an AJE Online Talk
+> Pre-Recorded tor World'sFair 2026.
+> GROUNDING QUESTION
+> WE RETURN TOITATTHE VERY END
+> YouareAbrahamLincoln.Underwhatcircumstancesmaya
+> President take thecountry towarwithout Congress?
+> WhileCongressholds thepower todeclarewar,thePresident,as
+> Commander-in-Chiefpossessesinhcrentcxecutive authorityto
+> act decisively inmomentsofnational emergency.The cxecutive
+> mustrespondto threatswiththeenergy and dispatchtheoffice
+> requires,andhistoryhasvindicated those who acted topreservc
+> the Union whencircumstances demanded it.
+> It sounds likeLincoln.It'sa good answer.Holdit.
 
 ![[assets/slides/4sX_He5c4sI/slide-097.jpg]]
 
@@ -1601,15 +1594,15 @@ OCR text:
 > re eT
 > Co en 2
 > a ee) ee a
-> 
+>
 > ne ee ee ee
 > Pe ee ee
 > aa] me fee] OS ea 1 ee 7 :
 > rem = 2. oe rm G
-> 
+>
 > EE On iio 2 a
 > — Fo nn 7 2.)
-> 
+>
 > dl
 > meen ee aoe 9 pees bad
 
@@ -1917,17 +1910,17 @@ OCR text:
 
 > PNT erg MRS
 > World's Fair Takeaways
-> 
+>
 > The loop is the product.
 > System distillation is the moat.
 > Valued work per watt is the score.
-> 
+>
 > ir Amaze AGI Lab
-> 
+>
 > ef ' ile
-> 
+>
 > ie
-> 
+>
 > 7 Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-118.jpg]]

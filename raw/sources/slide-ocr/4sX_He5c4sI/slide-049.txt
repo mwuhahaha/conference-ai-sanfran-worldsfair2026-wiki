@@ -1,17 +1,9 @@
-AI Engineer World's Fair
-First simple proof points
-Better training, faster training, better kernels
-recursive
-01 NanoChat Autoresearch
-Several dozens of humans and hundreds of their agents
-SOTA: 0.9372 BPB → 0.9109 BPB
-1.3x speedup to reach the same loss
-02 NanoGPT Speedrun
-83 human record-setting contributions to the leaderboard
-SOTA: 79.7 s → 77.5 s
-Similar or larger improvement than recent human contributions
-03 SOL-ExecBench
-235 kernel-writing tasks derived from real workloads
-SOTA: 0.699 SOL → 0.754 SOL
-18% reduction in gap to the optimal performance estimate of 1.0
-Engineering the future of AI
+f recursive
+ONE ag
+Mh dl laa Better training, faster training, better kernels
+NanoChat Autoresearch ;
+NanoGPT Speedrun ;
+yo SOL-ExecBench
+‘d's Fair €) Work<
+a ae Melsekcd a
+ca) se Engineering the future of Al

@@ -3,6 +3,19 @@ title: "DatologyAI"
 category: "companies"
 aliases: ["DatologyAI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:191fe918fab95ef5f3138d4f3eb653f421ff8b1e47fd1cf75770a6ce7b08572c
+  subjectId: company:datologyai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:25aa774274576dc1c1510d357a21a813a52483550228b9edb60c3dd46cc649da
 ---
 # DatologyAI
 

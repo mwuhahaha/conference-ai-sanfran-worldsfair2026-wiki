@@ -5,6 +5,19 @@ role: "Director of Inspection and Mapping"
 company: "Skydio"
 linkedin: "https://www.linkedin.com/in/sbargoti"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:77a0a73b6266b35b9c49112bd080c1ae07372af38e7cd972f850f0e07da5d624
+  subjectId: person:suchet-bargoti
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:54b9dcffce55af7de5bdbb859f59dc475ccbcea6d89cbbf5e0269a5fdbea34e2
 ---
 # Suchet Bargoti
 

@@ -6,6 +6,19 @@ company: "Cloudflare"
 linkedin: "https://www.linkedin.com/in/justin-j-22132912/"
 website: "https://www.cloudflare.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:672b11d160685440249f4e4bc7f2ea8f675f77a3b1459a606ed8797b312190e5
+  subjectId: person:justin-joyce
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e94ee7aba6696acf9d251a744e55f7bfa4c3a0e2f7d0855765e3fad880db185c
 ---
 # Justin Joyce
 

@@ -5,6 +5,19 @@ role: "Director of Technology Incubation"
 company: "Snyk"
 linkedin: "https://www.linkedin.com/in/cohen-eli"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2fe12a454bfc614eee242e30b78a655c97ef3fdbae14ca65d36044c2d3732661
+  subjectId: person:eli-cohen
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c676453f8a422c23bd4c5b505955f1a2fac448bcbe5abccd674bdea077e72c49
 ---
 # Eli Cohen
 

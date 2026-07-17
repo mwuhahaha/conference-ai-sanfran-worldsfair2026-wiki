@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/sararosehooker/"
 twitter: "https://x.com/sarahookr"
 website: "https://www.sarahooker.me/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6f135a5f094789a28f82fbdbf21f684f977915babdb88debe0070d8ece96b245
+  subjectId: person:sara-hooker
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0943fb410740fc8774b2006f096abce3bc58eed34eb2df28e77f5b3603974a2f
 ---
 # Sara Hooker
 

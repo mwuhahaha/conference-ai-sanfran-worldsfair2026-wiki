@@ -8,6 +8,19 @@ twitter: "https://x.com/iamvinoth"
 website: "https://theagentstack.substack.com/"
 blog: "https://theagentstack.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bff4f05e6840e80fb66012255b1877d7e9fb78d6317011f20d8f9cf737b33647
+  subjectId: person:vinoth-govindarajan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9d09fd80cf4f7a034e8435df55b67f902f232f98bc3f8c8b8d4963e9a04f366e
 ---
 # Vinoth Govindarajan
 

@@ -6,6 +6,19 @@ company: "Applied Compute"
 linkedin: "https://www.linkedin.com/in/sam-denton-161b50126/"
 twitter: "https://x.com/samueldenton"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ec3a7359fe6db9bbb3c85b74dcbd4620994ce0205b8280cf4390baff816e7aed
+  subjectId: person:samuel-denton
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:54b7533ecb5ce248860291099707d8ae9ae2eb896ca1717ed2fb3b5a43866224
 ---
 # Samuel Denton
 

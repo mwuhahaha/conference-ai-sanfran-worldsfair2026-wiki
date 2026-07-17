@@ -85,9 +85,9 @@ OCR text:
 
 > The rise of the agentic economy on
 > the shoulders of MCP
-> 
+>
 > Jan Curn, Founder & CEO
-> 
+>
 > @jancurn
 
 ![[assets/slides/blW-lSd5CYQ/slide-006.jpg]]
@@ -118,40 +118,44 @@ OCR text:
 > nN
 > [3 Google Maps Scraper
 > Try for free
-> 
+>
 > compass/crawler—google-places © Developed by | 2 Compass Maintained by Apify
 > Extract data from thousands of Google Maps locations and businesses. Get Google Maps data including reviews, reviewer
 > details, images, contact info, opening hours, location, prices & more. Export scraped data, run the scraper via API,
 > schedule and monitor runs, or integrate with other tools.
-> 
+>
 > 2aext 4.2(56) © Pricing Pay_per event Q 1100 = & Monthly users 8.2k v Runs succeeded >99%
 > © Response time 4.5 days S Last modified 3 hours ago
-> 
+>
 > Lead generation
 
 ![[assets/slides/blW-lSd5CYQ/slide-008.jpg]]
 
 OCR text:
 
-> Use Actors from code
-> Python JavaScript CLI OpenAPI HTTP MCP
-> 1 from apify_client import ApifyClient
-> 3 # Initialize the ApifyClient with your Apify API token
-> 4 # Replace "<YOUR_API_TOKEN>" with your token.
-> 5 client = ApifyClient("<YOUR_API_TOKEN>")
-> 7 # Prepare the Actor input
-> 8 run_input = {
-> 9 "searchStringsArray": ["restaurant"],
-> 10 "locationQuery": "New York, USA",
-> 11 "maxCrawledPlacesPerSearch": 50,
-> 12 "language": "en",
-> 13 "maxImages": 0,
-> 14 }
+> e J p # & e
+> Python JavaScript cul OpenaPi HTTP mcp
+> 1 from apify_client import ApifyClient 6
+> 2
+> 3° # [Initialize the ApifyClient with your Apify API token
+> 4 oo# Replace '<YOUR_API_TOKEN>’ with your token.
+> 5 client = ApifyClient “- CUR APL TOKon.”
+> 6
+> 7?) # Prepare the Actor input
+> 8 run_input = «
+> 9g “searchStringsArray: [Teestaurant’ |,
+> 10 “TosatianQiery “New York, USA’,
+> 11 “maslrawvedPlacesPerSearch': 5@,
+> 12 “Canguage’: Ten’,
+> 13 “sgateages: @,
+> 14:
+> 15
 > 16 # Run the Actor and wait for it to finish
-> 17 run = client.actor("compass/crawler-google-places").call(run_input=run_input)
-> 19 # Fetch and print Actor results from the run's dataset (if there are any)
-> 20 print(f"🔍 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
-> 21 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+> 17) cun = client.actor ‘comcuss/crawler qoagte: places” |. calli cun_input=run_input |
+> 18
+> 19 @ Fetch and print Actor results from the cun’s dataset [if there are any)
+> 20 print “Mi Check your data nerve: "tteps:oyromanie.apity.con/staraqesdatasets/" # runivdetacitdataset ia’)
+> 21 for item in client.dataseticun “defauttbataset io’! iterate_items =:
 
 ![[assets/slides/blW-lSd5CYQ/slide-009.jpg]]
 
@@ -183,26 +187,12 @@ OCR text:
 
 OCR text:
 
-> mastra
+> ©) mastra
 > The MCP Registry
-> Registry
-> modelcontextprotocol/servers
-> This repository is a collection of reference implementations for the Model Context Protocol (MCP).
-> official
-> MCP Market 12454
-> Explore our curated collection of MCP servers to connect AI to your favorite tools.
-> MCP.so 7682
-> Find Awesome MCP Servers and Clients
-> verified
-> Smithery 4274
-> Extend your agent with 4,274 capabilities via Model Context Protocol servers.
-> verified
-> Pulse MCP 3653
-> Browse and discover MCP use cases, servers, clients, and news.
-> verified
-> Glama MCP Server 3457
-> Production-ready and experimental MCP servers that extend AI capabilities.
-> open-source
+> 9p nec er Get chao era nes Derm RTS (na
+> MCP so
+> 2 nae ,  eTaoesrers oo
+> Same eck Tn
 
 ![[assets/slides/blW-lSd5CYQ/slide-012.jpg]]
 
@@ -223,19 +213,19 @@ OCR text:
 OCR text:
 
 > CENT, MAAN ONTENTS OER Nae ENTER ETON TT SERENE TORTIE IEEE NHTSA Bee HT INS NASON ART
-> 
+>
 > 4.4 Attempted form submission multiple times
-> 
+>
 > = Process Details:
 > e Navigation: Successfully loaded the Al Engineer World's Fair homepage
 > * Form Location: Found the subscription form with placeholder "your@work.email”
 > ¢ Email Input: Successfully entered jan@apify.com into the email field
 > ° Form Interaction: Clicked the submit button (arrow icon) multiple times
-> 
+>
 > @ Current Status:
-> 
+>
 > The form shows a validation error: "Invalid Email Address. Please use a valid email
-> 
+>
 > ® address.”
 > This appears to be a client-side validation issue wit
 > Oo Claude does not have internet access enabled. Enable web search for up to date and accurate links.
@@ -247,7 +237,7 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> Al Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

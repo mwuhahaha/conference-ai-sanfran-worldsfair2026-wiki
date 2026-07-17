@@ -1,0 +1,17 @@
+{
+  "alreadyMatchedBackupFiles": 2,
+  "ambiguousRecords": 0,
+  "generatedAt": "2026-07-17T11:49:58.578110+00:00",
+  "historicalAiVisionAuditRecordedReceipts": 0,
+  "historicalAiVisionAuditStatus": "superseded_untrusted",
+  "historicalAiVisionUpdatesAcceptedByCurrentPolicy": 0,
+  "historicalAuditSuperseded": true,
+  "historicalUnreceiptedAiVisionUpdates": 601,
+  "remainingExactUnreceiptedCopies": 0,
+  "repairMethod": "restored_from_pre_merge_canonical_backup",
+  "restoredCanonicalFiles": 599,
+  "restoredFromBackupFiles": 599,
+  "schemaVersion": 2,
+  "sourceAudit": "raw/sources/slide-ocr-rapidmerge-audit.json",
+  "sourceAuditSha256": "e9d1d6fb7d86db55a97fdec39bb6fa078bdfdd89b1a8b68c9f033be630ba9e5d"
+}

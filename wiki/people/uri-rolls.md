@@ -6,6 +6,19 @@ company: "Arithmetic"
 linkedin: "https://www.linkedin.com/in/urirolls/"
 twitter: "https://x.com/uri_rolls"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:81609bb5e494bd110bfa820ead744c6ce36565460db728f34b21e395b5c7666a
+  subjectId: person:uri-rolls
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e28312dc54b6558fab96abc295f7515b21279bb51ba935d6c20f9d7dfa1984b2
 ---
 # Uri Rolls
 

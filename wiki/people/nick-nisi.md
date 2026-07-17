@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-03T05:03:50.448Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d67c76ebb0c461eca23405e97ae8fd3238ef53cefe707757acc437b2745f0b74
+  subjectId: person:nick-nisi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6dc504eea124e4ba46f708cf9d3362260a3dd894de614a3fbef6f867a2197605
 ---
 # Nick Nisi
 

@@ -6,6 +6,19 @@ company: "Salesforce"
 linkedin: "https://www.linkedin.com/in/nikita-kothari3"
 website: "https://www.salesforce.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cb52ae78a2a05446b8f6d88191e93d7180d829359eada2c6b2eaa74e8e4843fa
+  subjectId: person:nikita-kothari
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ed4ac1cdca94cd6f9097dd1a862dfca813e3dd96716d752eeecc03cff740eff7
 ---
 # Nikita Kothari
 

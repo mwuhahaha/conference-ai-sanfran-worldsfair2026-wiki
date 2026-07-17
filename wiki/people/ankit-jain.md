@@ -6,6 +6,19 @@ company: "Aviator"
 linkedin: "https://www.linkedin.com/in/ankitjaindce/"
 twitter: "https://x.com/ankitxg"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:604c1f686638ef8083e2bad688b2ecf5be74cc0a5d7548d33a4e077330a65f2d
+  subjectId: person:ankit-jain
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65c139f722ab9625badb7ee724e1dc60624858744aefde6a1b6096f12aa9b9cc
 ---
 # Ankit Jain
 

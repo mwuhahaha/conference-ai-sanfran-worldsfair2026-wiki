@@ -6,6 +6,19 @@ company: "Sierra"
 linkedin: "https://www.linkedin.com/in/nataliemeurer"
 twitter: "https://x.com/natalie_meurer"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7d5da73faf4a5e15489700e4e74f75452d9718c9271d3d86ede4a4ef1515591e
+  subjectId: person:natalie-meurer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d3302f2e0f073996291c651a1c3bd7d8c6288af683279a59ab1dc470c88118e6
 ---
 # Natalie Meurer
 

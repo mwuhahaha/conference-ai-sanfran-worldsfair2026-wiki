@@ -4,6 +4,19 @@ category: "people"
 company: "Qodo"
 linkedin: "https://www.linkedin.com/in/wallon"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:62de489fbd2dfbb8049fe4c5245fa33b0814fa9270a401c6b87ad26d8bac1a56
+  subjectId: person:wallon-walusayi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8c7eb3988427fde1d096b3b585871a2865e3d704e719b3426a2b97466b16840f
 ---
 # Wallon Walusayi
 

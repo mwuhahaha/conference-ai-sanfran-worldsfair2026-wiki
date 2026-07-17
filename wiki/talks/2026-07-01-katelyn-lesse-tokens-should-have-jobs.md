@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-aqW68Is_Kj4]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-aqW68Is_Kj4`
-- Slide deck: [[youtube-aqW68Is_Kj4-dense-slides|Dense Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/aqW68Is_Kj4/slide-001.jpg]]
-![[assets/dense-slides/aqW68Is_Kj4/slide-002.jpg]]
-![[assets/dense-slides/aqW68Is_Kj4/slide-003.jpg]]
+- Slide deck: [[youtube-aqW68Is_Kj4-dense-slides|Dense Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic]] — slide evidence page.
 - Additional slide evidence: [[youtube-aqW68Is_Kj4-slides|Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic]], [[youtube-aqW68Is_Kj4-reconstructed-slides|Reconstructed Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic]]
-- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,7 +77,7 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Media Signals
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
 - Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
 
 ### Agent Reading Notes

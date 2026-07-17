@@ -8,6 +8,19 @@ twitter: "https://x.com/erinakarati"
 website: "https://www.erinakarati.dev/"
 blog: "https://www.erinakarati.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d820204dea2df91e76a1754bdc54b27bd153d573334e0607d7b38ca10e4006da
+  subjectId: person:erina-karati
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4ab5666bf2db02c024ef9c80a8436bde5d63c3764eea8100b2db2a6c83f69420
 ---
 # Erina Karati
 

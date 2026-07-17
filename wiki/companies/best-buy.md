@@ -3,6 +3,19 @@ title: "Best Buy"
 category: "companies"
 aliases: ["Best Buy"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:af876039d5f306e5183dbf1be68b7ee15384a65e7b80efea5de20c2e9be8f13c
+  subjectId: company:best-buy
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2f235c9b33e40d781239ef962372973e84db468fce33a936019999421686f18b
 ---
 # Best Buy
 

@@ -6,6 +6,19 @@ company: "Uber"
 linkedin: "https://www.linkedin.com/in/udaykiran/"
 twitter: "https://x.com/udaykiran"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1ce9e8a6c65ddbcdbca74c12c40bcd2bf19fd4099d41b81141ce2d32c2b89cc1
+  subjectId: person:uday-kiran-medisetty
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6f76d1c0f67dcb6ba506bb9bdd73e705e342f7263b0d7bef78697e2bda3fc6a1
 ---
 # Uday Kiran Medisetty
 

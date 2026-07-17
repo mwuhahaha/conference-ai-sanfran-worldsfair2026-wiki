@@ -6,6 +6,19 @@ company: "Varick Agents"
 linkedin: "https://www.linkedin.com/in/vasumanmoza/"
 twitter: "https://x.com/vasuman"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:dce5427512910e75e06232294677b30f5193f0810289dac49de19bf4685b6729
+  subjectId: person:vasuman-moza
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:277ed23a16dc372e1b8f3c99198003efcbac952b7dacfad37ef4000d045d78f3
 ---
 # Vasuman Moza
 

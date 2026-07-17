@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-ib-wTAvCZqg]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-ib-wTAvCZqg`
-- Slide deck: [[youtube-ib-wTAvCZqg-dense-slides|Dense Slides: Architecting and Testing Controllable Agents: Lance Martin]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/ib-wTAvCZqg/slide-001.jpg]]
-![[assets/dense-slides/ib-wTAvCZqg/slide-002.jpg]]
-![[assets/dense-slides/ib-wTAvCZqg/slide-003.jpg]]
+- Slide deck: [[youtube-ib-wTAvCZqg-dense-slides|Dense Slides: Architecting and Testing Controllable Agents: Lance Martin]] — slide evidence page.
 - Additional slide evidence: [[youtube-ib-wTAvCZqg-slides|Slides: Architecting and Testing Controllable Agents: Lance Martin]], [[youtube-ib-wTAvCZqg-reconstructed-slides|Reconstructed Slides: Architecting and Testing Controllable Agents: Lance Martin]]
-- Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-ib-wTAvCZqg` — source page linked; role: supporting context only.
+- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
 
 ### Agent Reading Notes

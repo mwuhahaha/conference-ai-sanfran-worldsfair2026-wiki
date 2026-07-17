@@ -7,6 +7,18 @@ linkedin: "https://www.linkedin.com/company/justice-ai-unit/"
 sourceLabels: ["Justice AI Unit official site", "No10 Innovation Fellowship", "YouTube transcript", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6d127050812ed96e249d4078ae6bed93c83ca1ef80762c68435826cc7c975442
+  subjectId: company:justice-ai-unit
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:d305bd685959598e6aa55e5d7c7b080c37a8e2169a815ab7324d495b00d09c99
 ---
 # Justice AI Unit
 
@@ -42,9 +54,9 @@ This section summarizes how this organization appears across the conference sour
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 3 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
-- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: unit, automation, joined, november, working, mainly, across, trying.
 - Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 ## Evidence Boundary
 The Justice AI Unit official site supports the organizational description. The highlighted YouTube transcript supplies the conference-specific synthesis and should be treated as auto-captured source text.

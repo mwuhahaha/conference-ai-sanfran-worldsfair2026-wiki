@@ -6,6 +6,19 @@ company: "Mastra"
 linkedin: "https://www.linkedin.com/in/sambhagwat/"
 twitter: "https://x.com/calcsam"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7e69d96ae12a1169e518c7226e19405d8a993c8af5807949ec4c151d9fb7a137
+  subjectId: person:sam-bhagwat
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c4f213919fb735f22f4b958835acb5c5a1f88d9142518394c414d882fc154992
 ---
 # Sam Bhagwat
 

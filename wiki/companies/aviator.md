@@ -3,6 +3,19 @@ title: "Aviator"
 category: "companies"
 aliases: ["Aviator"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2eddb81db4f33cb0f2ff701d8b49d32fc2ae084d5f8f900a889964718184a74a
+  subjectId: company:aviator
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3da238320e563732301246405b02ee6ac1a8af49a6e65d05c33d7a05678a8045
 ---
 # Aviator
 

@@ -5,6 +5,19 @@ role: "AI Engineer, Applied AI"
 company: "WorkOS"
 twitter: "https://x.com/zackproser"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7ddc84d60989f36121e9fdbf5008c5493e1d6cfe2730bccf694e243a9075b016
+  subjectId: person:zack-proser
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ac74b3d75987b42023d31fa1f08fdec6bda50cfbcc5d5e0b4e108817e6b149cb
 ---
 # Zack Proser
 

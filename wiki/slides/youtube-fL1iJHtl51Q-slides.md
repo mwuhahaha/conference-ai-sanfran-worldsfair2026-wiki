@@ -22,9 +22,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > |
-> 
+>
 > |
-> 
+>
 > _ |
 
 ![[assets/slides/fL1iJHtl51Q/slide-002.jpg]]
@@ -49,13 +49,33 @@ OCR text:
 
 OCR text:
 
-> Speed
+> : 3%
+> oa bd
+> ate,
+> Ste,
+> hy a, e
+> Pe eT N
+> tae - ;
+> re is wt 7
+> Spey “ae : ;
+> #6 Ee
+> ae ry
+> . ; ‘
+> ‘ty, . YY
+> Sean, Ph tg hee . | r
+> i a
+> , o
+> a
+> | 5
+> -t i
 
 ![[assets/slides/fL1iJHtl51Q/slide-004.jpg]]
 
 OCR text:
 
-> AIE
+> ee
+> ae:\:
+> "<< — :' ha
 
 ![[assets/slides/fL1iJHtl51Q/slide-005.jpg]]
 
@@ -76,7 +96,7 @@ OCR text:
 OCR text:
 
 > 7
-> 
+>
 > _ te
 
 ![[assets/slides/fL1iJHtl51Q/slide-007.jpg]]
@@ -124,14 +144,20 @@ OCR text:
 OCR text:
 
 > ra
-> 
+>
 > a
 
 ![[assets/slides/fL1iJHtl51Q/slide-012.jpg]]
 
 OCR text:
 
-> AIE
+> |
+>
+> |
+>
+> Ste —
+>
+> id
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

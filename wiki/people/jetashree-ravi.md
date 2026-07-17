@@ -5,6 +5,19 @@ role: "Tech Lead Manager"
 company: "Fireworks AI"
 linkedin: "https://www.linkedin.com/in/jetashree-ravi"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9ffc1cdf8dc2e3f3a6a13c4db9411329f25e6ebfc91f2b6ab5d7a227ad8d600e
+  subjectId: person:jetashree-ravi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2a67122f457fd7df4dcf2463bdcabe7779f9bc107bf2e70a50e770c31d812239
 ---
 # Jetashree Ravi
 

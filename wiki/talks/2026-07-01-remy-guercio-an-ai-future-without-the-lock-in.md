@@ -65,10 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-BM2JX9hqsVQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-BM2JX9hqsVQ`
-- Slide deck: [[youtube-BM2JX9hqsVQ-dense-slides|Dense Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/BM2JX9hqsVQ/slide-001.jpg]]
+- Slide deck: [[youtube-BM2JX9hqsVQ-dense-slides|Dense Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]] — slide evidence page.
 - Additional slide evidence: [[youtube-BM2JX9hqsVQ-slides|Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]], [[youtube-BM2JX9hqsVQ-reconstructed-slides|Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]]
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: sandbox, keys, identity, provider, pond, engineering, future.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,7 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-BM2JX9hqsVQ` — source page linked; role: supporting context only.
+- `youtube-BM2JX9hqsVQ` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: sandbox, keys, identity, provider, pond, engineering, future.
 - Evidence links for `youtube-BM2JX9hqsVQ` (supporting context only): [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
 
 ### Agent Reading Notes

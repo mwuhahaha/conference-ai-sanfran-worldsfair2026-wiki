@@ -5,6 +5,20 @@ aliases: ["Claude"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Track 1", "Posttraining & Midtraining", "Workshops Day 1", "Workshops Day 2", "Software Factories", "Search & Retrieval", "Claws & Personal Agents", "AI Architects: Show my Workflow", "AI-Native Enterprises", "AI Architects: Tokenmaxxing", "Design Engineering", "Autoresearch", "Memory & Continual Learning", "Context Engineering", "Agentic Engineering", "Graphs", "Generative Media", "AI in Finance", "AI in GTM", "Agentic Commerce", "Harness Engineering"]
 scheduleRooms: ["Track 1", "Track 8", "Track 9", "Track 4", "Expo Stage 1 NE", "Expo Stage 2 NW", "Main Stage", "Track 3", "Expo Stage 4 SE", "Leadership 1", "Leadership 2", "Track 6", "Expo Stage 3 SW", "Track 5", "Track 2"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5765f20b02ea08a6b7b34e7c722c886083b3dcc1a6ccd12362f320a7a5e7f8ad
+  subjectId: tool:claude
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-9fubhllmsBU
+sourceAssessmentBodySha256: sha256:a31ef6556123397fd8fdad855e20ceb3288d02426f0eb5eade252ab32176810d
 ---
 
 # Claude

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/zhengyao-jiang-387b44145/"
 twitter: "https://x.com/zhengyaojiang"
 website: "https://zhengyaojiang.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5deac931d6751b9871e38da04ee54fbb6e92318c7a4f5e4306977db9781bba7e
+  subjectId: person:zhengyao-jiang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cae92017728f3f35256db65c890bbd55ccc0127c20d1d298041addf0ec66695a
 ---
 # Zhengyao Jiang
 

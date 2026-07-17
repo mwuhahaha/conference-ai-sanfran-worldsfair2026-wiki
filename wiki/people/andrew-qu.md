@@ -8,6 +8,19 @@ twitter: "https://x.com/andrewqu"
 website: "https://andrewqu.com"
 blog: "https://andrewqu.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:445e1b066710148b03aff8c2eb0a8f759cbdeaabd5e1ec2ab8fee20ffe9f2e7c
+  subjectId: person:andrew-qu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9acb98447db80805e2f2564dec430e6c28a69d0bb6ebc946adef280ad2d55e27
 ---
 # Andrew Qu
 

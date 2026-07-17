@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-LxQsQ3vZDqo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-LxQsQ3vZDqo`
-- Slide deck: [[youtube-LxQsQ3vZDqo-dense-slides|Dense Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/LxQsQ3vZDqo/slide-001.jpg]]
-![[assets/dense-slides/LxQsQ3vZDqo/slide-002.jpg]]
-![[assets/dense-slides/LxQsQ3vZDqo/slide-003.jpg]]
+- Slide deck: [[youtube-LxQsQ3vZDqo-dense-slides|Dense Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]] — slide evidence page.
 - Additional slide evidence: [[youtube-LxQsQ3vZDqo-slides|Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]], [[youtube-LxQsQ3vZDqo-reconstructed-slides|Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]]
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
 - Evidence links for `youtube-LxQsQ3vZDqo` (supporting context only): [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
 
 ### Agent Reading Notes

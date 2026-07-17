@@ -8,6 +8,19 @@ twitter: "https://x.com/WolframRvnwlf"
 website: "https://wolfbench.ai/"
 blog: "https://wolfbench.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2eb00297ec1d60db64977fe554d935a64df7e91ff871a63d1ac894c651ba04ea
+  subjectId: person:wolfram-ravenwolf
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:713d93d64d6f3333161520988a8dbc03bc22009f75aa17852379c90c46b6048c
 ---
 # Wolfram Ravenwolf
 

@@ -5,6 +5,19 @@ role: "LLM Inference"
 company: "Together AI"
 linkedin: "https://www.linkedin.com/in/yubo-wang-057616117"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b39bf83b1ed7cc1dba40f6fe75e8bb287f3ac21aada2adff0f1dd9774fe64a6a
+  subjectId: person:yubo-wang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6a7a756ccce872b219535f93bf73c13b5e97670661afeeb5d5f542e8f17cd1dd
 ---
 # Yubo Wang
 

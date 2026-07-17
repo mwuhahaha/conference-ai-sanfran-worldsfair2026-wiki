@@ -6,6 +6,19 @@ company: "Edge And Node"
 linkedin: "https://www.linkedin.com/in/thepranavmaheshwari/"
 twitter: "https://x.com/impranavm_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2b803890c1c4d8a146113d5ad124c300ca0158ab76cc3639d709d742196a3fac
+  subjectId: person:pranav-maheshwari
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d113118695c3bc6c61f857004974da7648ff9c83058d881a88aece84765bae0e
 ---
 # Pranav Maheshwari
 

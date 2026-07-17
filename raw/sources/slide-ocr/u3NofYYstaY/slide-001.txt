@@ -1,6 +1,3 @@
-INNOVATION SPONSOR
-aws
-PLATINUM SPONSORS
-MongoDB.
-Google Cloud
-neo4j
+aWws
+ae:
+0 MongoDB o Cloud NeOY

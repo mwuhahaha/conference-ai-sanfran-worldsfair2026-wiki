@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-bVNNvWq6dKo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-bVNNvWq6dKo`
-- Slide deck: [[youtube-bVNNvWq6dKo-dense-slides|Dense Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/bVNNvWq6dKo/slide-001.jpg]]
-![[assets/dense-slides/bVNNvWq6dKo/slide-002.jpg]]
-![[assets/dense-slides/bVNNvWq6dKo/slide-003.jpg]]
+- Slide deck: [[youtube-bVNNvWq6dKo-dense-slides|Dense Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]] — slide evidence page.
 - Additional slide evidence: [[youtube-bVNNvWq6dKo-slides|Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]], [[youtube-bVNNvWq6dKo-reconstructed-slides|Reconstructed Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]]
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
+- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ### Agent Reading Notes

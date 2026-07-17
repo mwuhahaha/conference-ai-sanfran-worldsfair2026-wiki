@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/brianldouglas"
 twitter: "https://x.com/bdougieYO"
 website: "https://b.dougie.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8a599bbb5145e0d61b5fee6a16496a76992a9368947e8f966fd8a8ceb19cb551
+  subjectId: person:brian-douglas
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:82368e1a3dcdecbd37a298259c6b2081ed57961e014c8c298df78b03b3154b8e
 ---
 # Brian Douglas
 

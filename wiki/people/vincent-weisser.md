@@ -6,6 +6,19 @@ company: "Prime Intellect"
 linkedin: "https://www.linkedin.com/in/vincentweisser"
 website: "https://www.primeintellect.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bf43acb273632e8ff63b22e3c6eb6ccfdacb13d4632359face676ac4a88ac912
+  subjectId: person:vincent-weisser
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1f6beae611bf540d575a44281d3770a553bffb18e37ce1d01f78b68fe2b64b03
 ---
 # Vincent Weisser
 

@@ -5,6 +5,18 @@ aliases: ["Factory AI"]
 sourceLabels: ["Public YouTube metadata", "Local slide OCR"]
 scheduleTracks: []
 scheduleRooms: []
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:61fd9fc131054d80c4ba4173ec0e35ebc67bbee58857800d3b7bc3d2840ad111
+  subjectId: tool:factory-ai
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:44d955af8b25a602da6464e3b23d57220c16f9920abfdf18c4cc6875496248d3
 ---
 
 # Factory AI

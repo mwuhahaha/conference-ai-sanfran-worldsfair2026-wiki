@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Auditoria AI"]
 website: "https://www.auditoria.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:17192ead15aba0520ef9c78ada7121445b587f10d703e4463ddcb875d9abcb73
+  subjectId: company:auditoria-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:16547468535349f462f197087e716060f2104bffaa2b38058be5fce9ff744f51
 ---
 # Auditoria AI
 

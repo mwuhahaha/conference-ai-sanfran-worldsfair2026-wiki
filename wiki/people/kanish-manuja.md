@@ -5,6 +5,19 @@ role: "Principal Software Engineer"
 company: "Twilio Inc."
 linkedin: "https://www.linkedin.com/in/kanish-manuja-a99bb923/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9eefaa2893d5161c22adef965e97fb095f1ada2f2b1f527c9fc0af914351118a
+  subjectId: person:kanish-manuja
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f8187475a31bbe706a5ccef4a8d113f707796586ce0972e9b254e3fa218543dd
 ---
 # Kanish Manuja
 

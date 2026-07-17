@@ -3,6 +3,19 @@ title: "typedef"
 category: "companies"
 aliases: ["typedef"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6e81c8928ebea9800909c9084790060b265e686712b09d5a04f83ed36875c1d0
+  subjectId: company:typedef
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4cb91e548b5b3ba68c78afd96db4578a8b51d0a3502d18b426e6a30af69b343e
 ---
 # typedef
 

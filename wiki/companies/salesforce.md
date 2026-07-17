@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Salesforce"]
 website: "https://www.salesforce.com/artificial-intelligence/?bc=DB"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2220b29ed68a6cccaf2286c1e9572dcddd31cdaf1a957e8874ce939726ea19b7
+  subjectId: company:salesforce
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bd3250e67f7c505bc3234dbfedf146b00a9db9d5c51d8976c4d286491ddafbe6
 ---
 # Salesforce
 

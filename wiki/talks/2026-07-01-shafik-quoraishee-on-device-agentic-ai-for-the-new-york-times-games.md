@@ -65,11 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-P_uhFGH4J9Y]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-P_uhFGH4J9Y`
-- Slide deck: [[youtube-P_uhFGH4J9Y-dense-slides|Dense Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/P_uhFGH4J9Y/slide-001.jpg]]
-![[assets/dense-slides/P_uhFGH4J9Y/slide-002.jpg]]
+- Slide deck: [[youtube-P_uhFGH4J9Y-dense-slides|Dense Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]] — slide evidence page.
 - Additional slide evidence: [[youtube-P_uhFGH4J9Y-slides|Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]], [[youtube-P_uhFGH4J9Y-reconstructed-slides|Reconstructed Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]]
-- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, research, game, developer, times, worked, previously, business.
+- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, times, score, department, defense, caveats, currently, specifically.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -78,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-P_uhFGH4J9Y` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, research, game, developer, times, worked, previously, business.
+- `youtube-P_uhFGH4J9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, times, score, department, defense, caveats, currently, specifically.
 - Evidence links for `youtube-P_uhFGH4J9Y` (supporting context only): [[youtube-P_uhFGH4J9Y]], [[youtube-P_uhFGH4J9Y-slides]], [[youtube-P_uhFGH4J9Y-dense-slides]], [[youtube-P_uhFGH4J9Y-reconstructed-slides]]
 
 ### Agent Reading Notes

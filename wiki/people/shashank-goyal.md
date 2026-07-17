@@ -6,6 +6,19 @@ company: "OpenRouter"
 linkedin: "https://www.linkedin.com/in/shashankgoyal1/"
 twitter: "https://x.com/shashankgoyal95"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8f56f98bf725e1a4f8e4ffde991c58f1f6a9e1c53f1bc94ce9a4267a22d432e7
+  subjectId: person:shashank-goyal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:700f5af0d3c08aaf96ff1324adfb49a1d95cf8b61a493053e64746b23373ad77
 ---
 # Shashank Goyal
 

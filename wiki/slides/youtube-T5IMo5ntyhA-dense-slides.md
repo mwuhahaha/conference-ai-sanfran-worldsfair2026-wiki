@@ -14,25 +14,5 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/T5IMo5ntyhA/slide-001.jpg]]
-
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/T5IMo5ntyhA/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
-
-> PROBLEM
-> When the Media Assistant Remembers Everything Except Your Listening Habits...
-> • Daniel likes jazz music.
-> • Daniel plays NPR podcast.
-> • Daniel wakes up at 7am.
-> • Daniel went to the gym.
-> • Daniel listened to The Daily.
-> • Daniel prefers mornings.
-> • Daniel's dog is named Melody.
-> • Daniel turned up the volume.
-> • Daniel asked about vegan recipes.
-> • Daniel paused Taylor Swift song.
-
-Classification audit: `raw/sources/slide-ai-classification/dense/T5IMo5ntyhA/audit.json`
+<!-- slide-ai-classifier-output-withheld -->
+> **Classifier-derived view withheld.** The previous AI slide classification does not satisfy the current policy, prompt, exact-input, and cache-provenance contract. Original captured slide/frame files remain the source evidence. See [[resources/slide-ai-classifier-status]].

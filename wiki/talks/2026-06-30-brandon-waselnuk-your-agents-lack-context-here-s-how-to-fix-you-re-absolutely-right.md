@@ -65,10 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-BiG2ssibKGc]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-BiG2ssibKGc`
-- Slide deck: [[youtube-BiG2ssibKGc-dense-slides|Dense Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/BiG2ssibKGc/slide-001.jpg]]
+- Slide deck: [[youtube-BiG2ssibKGc-dense-slides|Dense Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]] — slide evidence page.
 - Additional slide evidence: [[youtube-BiG2ssibKGc-slides|Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]], [[youtube-BiG2ssibKGc-reconstructed-slides|Reconstructed Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]]
-- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -80,7 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-BiG2ssibKGc` — source page linked; role: supporting context only.
+- `youtube-BiG2ssibKGc` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
 - Evidence links for `youtube-BiG2ssibKGc` (supporting context only): [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
 
 ### Agent Reading Notes

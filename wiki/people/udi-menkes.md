@@ -8,6 +8,19 @@ twitter: "https://x.com/menkesu"
 website: "https://genaipm.com/about"
 blog: "https://genaipm.com/about"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:329e598bad3782877ba25cf417b58c20e598bca56ad922fc4784b6e08dc13ea0
+  subjectId: person:udi-menkes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ec86ac083b934e45b09ce65668197cc8aa1a51f4f18127e8a48b3e6f57e823bf
 ---
 # Udi Menkes
 

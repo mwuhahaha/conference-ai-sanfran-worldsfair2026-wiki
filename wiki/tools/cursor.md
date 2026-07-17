@@ -5,6 +5,21 @@ aliases: ["Cursor"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Forward Deployed Engineering", "Search & Retrieval", "AI Architects: Show my Workflow", "Computer Use", "Inference"]
 scheduleRooms: ["Track 8", "Expo Stage 1 NE", "Track 3", "Leadership 2", "Track 7", "Expo Stage 3 SW", "Leadership 1", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:73da62ab286ba83f7261007f144eaa90158bd756864582ab6bea46fda1885e97
+  subjectId: tool:cursor
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-q4Tr-DknG2M
+sourceAssessmentBodySha256: sha256:4fdf280dfd33742dc233adbff638249283278ea8c7a7de8b513fd5f62dce2310
 ---
 
 # Cursor

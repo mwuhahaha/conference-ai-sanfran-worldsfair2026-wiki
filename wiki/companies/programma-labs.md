@@ -3,6 +3,19 @@ title: "Programma Labs"
 category: "companies"
 aliases: ["Programma Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bab527b2b28daecac1d114703a36d144f154f99f37c878f6435db02997ac1a4f
+  subjectId: company:programma-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bb1db2f46680f68609aef645f7617c49258c07e14b02753a59408929cef742d8
 ---
 # Programma Labs
 

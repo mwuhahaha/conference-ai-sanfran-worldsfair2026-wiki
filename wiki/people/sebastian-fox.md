@@ -5,6 +5,19 @@ role: "CEO"
 company: "Composo"
 linkedin: "https://www.linkedin.com/in/seb--fox/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a912f35985aa99eb81090ea7c3e01b2dfddabad389248829e95b8b7008b13c5a
+  subjectId: person:sebastian-fox
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:840590dc8a01f6f2b9db134c445d75a7465ef9e693e56818e59e1cc514e43c6a
 ---
 # Sebastian Fox
 

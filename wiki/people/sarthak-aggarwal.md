@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/sarthak-agg/"
 twitter: "https://x.com/_sarthak4"
 website: "https://sarthak.site"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:28135e9f6fd837c011667af0f4146baffd8246ca472955fe240e735b0bde9b31
+  subjectId: person:sarthak-aggarwal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:59aadcd3f4c8ab7935435f8cea8fb8176f9623360e67a8439e54b7a9515e5b6a
 ---
 # Sarthak Aggarwal
 

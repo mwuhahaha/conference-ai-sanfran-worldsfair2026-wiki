@@ -1,7 +1,8 @@
-META HARNESS
-An agent with an
-eidetic memory of
+110SH
+META MARNESS
+An agentwith an
+eideticmemory of
 the entire
 organization.
-It knows every repo and remembers every
-session by every developer.
+Itknows everyrepoandremembersevery
+sessionbyeverydeveloper.

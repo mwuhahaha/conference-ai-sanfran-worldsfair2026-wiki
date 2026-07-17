@@ -5,6 +5,21 @@ aliases: ["Browserbase"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Computer Use"]
 scheduleRooms: ["Track 4", "Track 7"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1e4207aa31ae4a89a95c0a6196261df2bfbd3ead987693429c3ba7a931ce022e
+  subjectId: tool:browserbase
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-KB41dTlX1Uc
+  - source:official-wf26-youtube-q4Tr-DknG2M
+sourceAssessmentBodySha256: sha256:0b8839854d8a4fe984c94c9bff944d1632b6feeadefd0816c8cd28c807d90732
 ---
 
 # Browserbase

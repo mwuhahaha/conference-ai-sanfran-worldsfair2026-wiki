@@ -4,6 +4,19 @@ category: "people"
 role: "Forward Deployed Engineer Lead"
 company: "AssemblyAI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ecd3ab52677207c188cdc1ec326d968587b6fb8b7e1363dade63094be5b20259
+  subjectId: person:matt-lawler
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e319f4b5a1326646541396bc2fd61be7788b435c0603cdd25e533ff9ae28f4d5
 ---
 # Matt Lawler
 

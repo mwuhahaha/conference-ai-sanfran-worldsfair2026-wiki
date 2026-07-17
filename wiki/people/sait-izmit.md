@@ -5,6 +5,19 @@ role: "Principal Product Manager"
 company: "Snowflake"
 linkedin: "https://www.linkedin.com/in/saitizmit/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c62465040a508fd3d8bf7ef9f5742a42f902334da56491fb150dc6726fe82f0d
+  subjectId: person:sait-izmit
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a7d6c7f23994425d8707c3f39fd1d625fb6da7f2dc1aedd1c198331531785b7d
 ---
 # Sait Izmit
 

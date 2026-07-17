@@ -5,6 +5,19 @@ role: "Senior Software Engineer Weave"
 company: "Weights & Biases by CoreWeave"
 linkedin: "https://www.linkedin.com/in/zubin-aysola"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f9ae7390ef19661c792be852732ea3885995eb113bde64675ee11ec01bedd619
+  subjectId: person:zubin-aysola
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b6fedb47487cb3570acfc6a8a717e9940b5bd26a0dbb769e08a895f589ebf2fa
 ---
 # Zubin Aysola
 

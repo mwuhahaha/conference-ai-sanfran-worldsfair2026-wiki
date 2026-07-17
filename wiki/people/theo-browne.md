@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/t3gg/"
 twitter: "https://x.com/theo"
 website: "https://t3.gg"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6f59775f6773223676a740019f6fb8034cc24ec991af55af0701c6093c454d43
+  subjectId: person:theo-browne
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4940ef09de59f40590273026994d5e77bff1047ca8d95911346bc03889e0a525
 ---
 # Theo Browne
 

@@ -3,6 +3,19 @@ title: "Bee (acq. Amazon)"
 category: "companies"
 aliases: ["Bee (acq. Amazon)"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4e7dd601b1b4c88c7593d24916769c517416c1643db2e26d9bc415bc64c675ba
+  subjectId: company:bee-acq-amazon
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7185e102ad7b3350d88094ca1bbc86dbc934e371a9d06e8c68e66d533274d0ee
 ---
 # Bee (acq. Amazon)
 

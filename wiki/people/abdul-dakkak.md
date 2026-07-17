@@ -9,6 +9,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T08:42:40.867Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:38920e5a3158cf6175ec78456432a787074f42b101a5d8fe588bd37c4d32ede8
+  subjectId: person:abdul-dakkak
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5b3ce1fac34e8c6846bac6c448a30b5ae6fbb2d80537df47a178ef98d514daf2
 ---
 # Abdul Dakkak
 

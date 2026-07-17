@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-JsCCrBF7F1g]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-JsCCrBF7F1g`
-- Slide deck: [[youtube-JsCCrBF7F1g-dense-slides|Dense Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/JsCCrBF7F1g/slide-001.jpg]]
+- Slide deck: [[youtube-JsCCrBF7F1g-dense-slides|Dense Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]] — slide evidence page.
 - Additional slide evidence: [[youtube-JsCCrBF7F1g-slides|Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]], [[youtube-JsCCrBF7F1g-reconstructed-slides|Reconstructed Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]]
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, hard, tackling, ship, powering, world, leading, happening.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
+- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, hard, tackling, ship, powering, world, leading, happening.
 - Evidence links for `youtube-JsCCrBF7F1g` (supporting context only): [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 
 ### Agent Reading Notes

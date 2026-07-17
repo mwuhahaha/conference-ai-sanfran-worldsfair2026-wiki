@@ -3,6 +3,19 @@ title: "Merge"
 category: "companies"
 aliases: ["Merge"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a048236a609e89d12355389ceb0894414fce3b399e27694284268216a9858b3d
+  subjectId: company:merge
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a0986a2b1d6074d9d3ee8013b3eea7d49ebadd19812c87a9cba0e712a1a3a05e
 ---
 # Merge
 

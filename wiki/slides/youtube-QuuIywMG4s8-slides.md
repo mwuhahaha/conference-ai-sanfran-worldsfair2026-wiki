@@ -17,92 +17,116 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/QuuIywMG4s8/slide-001.jpg]]
+
+OCR text:
+
+> Evals Are Broken,Use Tneni Anyway
+> AlEngine
+
 ![[assets/slides/QuuIywMG4s8/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> I want you to be able to build, interpret and/or use evals in your agent flows
+> a | want you to be able to build, interpret and/or use
+> . * evals in your agent flows
+> : " Y Engineering the future of Al
+> » 4 r
 
 ![[assets/slides/QuuIywMG4s8/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.93`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — contains a dense social-post screenshot with small text
+OCR text:
 
-Slide text:
-
-> Francois Chollet @fchollet · 6h
-> ★ ★ AIE Overoptimized for public benchmark numbers at the detriment of with actual usefulness is a core competency for Al labs, and any new lab is unlikelyto be successful without first figuring that out. everything else. Knowing how to evaluate models in a way that correlates The new model from Meta is already looking like a disappointment:
-> 55 QZ4 ili? h0115K
-> AlEngineer
-> EUROPE
+> B Wee eure Cas
+> ra ae n The new model from Meta is already looking like a disappointment:
+> bl bd overoptimized for public benchmark numbers at the detriment of
+> vt * i. everything else. Knowing how to evaluate models in a way that correlates
+> with actual usefulness is a core competency for Al labs, and any new lab is
+> unlikely to be successful without first figuring that out.
+> | AlEngineer |
+> : ~ EUROPE
+> / a
 
 ![[assets/slides/QuuIywMG4s8/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.93`
-- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
-- OCR decision: ready — contains a dense social-post screenshot with small text
+OCR text:
 
-Slide text:
-
-> harness) based ona benchmark result? Nikunj Kothari@nikunjo4h Genuinely curious = has any engineer made a decision on a model (or
-> ★ AIE trust their taste, evals and how models are performing for their specific use case. Every researcher / engineer I have talked to routinely dismisses it. They
-> not. It's seems like it's simply now used for the labs to show how they're slightly ahead but in my head has no material impact on whether a model is used or
+> ro Nikunj Kothari |
+> Genuinely curious - has any engineer made a decision on a model (or
+> harness) based on a benchmark result?
+>
+> a Every researcher / engineer | have talked to routinely dismisses it. They
+> Penn trust their taste, evals and how models are performing for their specific use
+> " * Cee
+> * *
+>
+> od ve *
+>
+> It’s seems like it’s simply now used for the labs to show how they’re slightly
+> ahead but in my head has no material impact on whether a model is used or
+> not.
+>
 > I'd love to be proven wrong so please push back!
-> 930 包 65 6.1K
-> AI Engineer
-> EUROPE
+>
+> i
+> | Al Engineer |
+> W009
 
 ![[assets/slides/QuuIywMG4s8/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Why SWE-bench Verified no longer measures frontier coding capabilities
-> SWE-bench Verified is increasingly contaminated. We recommend SWE-bench Pro.
+> eee
+> ve Why SWE-bench Verified
+> aoe no longer measures
+> frontier coding capabilities
+> Engineering the future of Al
 
 ![[assets/slides/QuuIywMG4s8/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.95`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — title slide contains smaller UI text and labels suited for OCR
+OCR text:
 
-Slide text:
-
-> terminal-bench: benchmarks for ai
-> agents sin t terminal environments
-> AIE terminal-bench is a collection of harbor-native benchmarks
-> to help agent makers quantify their agents' terminal mastery
-> )terninal-bench 3.θ is now in developacnt 复 terminal-bench-science is now in developnent
-> help build the next frontior benchmnrk oxtending terminaL-bench to tho natural sciences
-> i want to test my ogent
+> terminal-bench: benchmarks for ai agents in terminal environments
+> AIE to help agent makers quantify their agents'terminal mastery terminal-bench isa collection of harbor-native benchmarks
+> ).terminal-bench 3.θ is nowin development terminal-bench-science is now in development
+> help build the next frontier benchmark extending terminal-bench to the natural sciences
+> iwant to testmyagent
 > Engineering the future of Al
 
 ![[assets/slides/QuuIywMG4s8/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/QuuIywMG4s8/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
+> ra eee
+> es i g* “- =
+> PA a + 4
+> rt1's ais ¥
+> mee
+> Was
 
-> Engineering the future of AI
+![[assets/slides/QuuIywMG4s8/slide-008.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/QuuIywMG4s8/slide-001.jpg) — `speaker_stage` confidence `0.98`; camera shot of speaker and audience with a projected slide, not a clean slide frame
-- [`slide-008.jpg`](/assets/slides/QuuIywMG4s8/slide-008.jpg) — `speaker_stage` confidence `0.99`; Camera shot of presenter and audience with projected slide in the background; not a readable presentation slide frame.
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/QuuIywMG4s8/audit.json`
+> ek ee ———F '* .- .
+> i i :
+> —_— wy | : .
+> 7 ee poopy tt ha :
+> [ on ii
+> oor WEL SY eee
+> rea arcu Boe
+> ve aah Cl teak vy
+> BNET rT
+> i | r
+> ; r
+> a PA ;
+> a 2 i | ,
+> % ——
+> a w
+> ~ ¥ oo:
+> _. . re :
+> 4 : md ,
+> _ .
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -46,9 +46,10 @@ OCR text:
 OCR text:
 
 > The Vibe-Coding Journey
-> AIE
-> “FUN CHAOS”
-> “PROFESSIONAL ZEN”
+>
+> “FUN CHAOS” “PROFESSIONAL ZEN"
+> 2
+> ia By 7
 
 ![[assets/slides/eOxOzcw70f0/slide-004.jpg]]
 
@@ -89,13 +90,13 @@ OCR text:
 
 OCR text:
 
-> AIE
 > YOLO
+> AIE
 > VIBE
 > CODING
 > Microsoft
-> smol ai
-> World's Fair
+> smol?
+> Worid'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-007.jpg]]
 
@@ -134,26 +135,13 @@ OCR text:
 
 OCR text:
 
-> AIE
-> CHAT
-> Chat with Copilot
-> Agent Mode
-> Select tools that are available to chat
-> 62 Selected
-> OK
-> vscodeAPI Use VS Code API references to answer questions about VS Code extension devel...
-> problems Check errors for a particular file
-> changes Get diffs of changed files
-> testFailure Includes information about the last unit test failure
-> terminalSelection The active terminal's selection
-> terminalLastCommand The active terminal's last run command
-> new Scaffold a new workspace in VS Code
-> newJupyterNotebook Create a new Jupyter Notebook
-> openSimpleBrowser Preview a locally hosted website in the Simple Browser
-> runCell Trigger the execution of a cell in a notebook file
-> readCellOutput Read the output of a previously executed cell
-> Add Context...
-> Edit files in your workspace in agent mode
+> ee |
+> & tereetes &% ith Copilot
+> @
+> ro css
+> of bor Tonsrolorel S11 moti) a eel; i | |
+> i , S
+> pm u
 
 ![[assets/slides/eOxOzcw70f0/slide-010.jpg]]
 
@@ -469,32 +457,17 @@ OCR text:
 
 OCR text:
 
-> AIE
-> #root {
-> max-width: 1280px;
-> }
-> /* Apple-inspired design with Fluent UI */
-> .app-container {
-> min-height: 100vh;
-> background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-> font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-> }
-> .app-header {
-> background: rgba(255, 255, 255, 0.95);
-> backdrop-filter: blur(20px);
-> border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-> }
-> Perfect! Now let me create the.github/copilot-instructions.md file:
-> Created copilot-instructions.md
-> Now let me create the main hydration tracking application. I'll start by updating the main App component:
-> Let me fix the TypeScript error by properly typing the entry:
-> Now let me create the CSS file for the app with Apple-inspired design principles:
-> Now let me also update the global CSS to ensure proper baseline styling:
-> 48 packages are looking for funding
-> run `npm fund` for details
-> found 0 vulnerabilities
-> aws
-> World's Fair
+> Te EE eee ee eee
+> ee 5 we - J
+> nen
+> i :
+> moat an eae 5 5 5 :
+> ae er aa i re
+> : eer ee
+> Bee wes
+> a
+> ~ Re Ret a ee
+> . 99 ic hed Tepepelelol EY - 1 Baolony en eo ee |
 
 ![[assets/slides/eOxOzcw70f0/slide-024.jpg]]
 

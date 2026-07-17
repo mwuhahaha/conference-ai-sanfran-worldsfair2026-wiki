@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/willempienaar"
 twitter: "https://x.com/willpienaar"
 website: "https://willem.co"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b4c21457a1a21ffeb2d17c024aa11935af70ddbc661d00a230898bd33b93e0b0
+  subjectId: person:willem-pienaar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1c621e3df26b1d0bb2faa7627f66097133158981c7306b9fe7425fc2b21c2e65
 ---
 # Willem Pienaar
 

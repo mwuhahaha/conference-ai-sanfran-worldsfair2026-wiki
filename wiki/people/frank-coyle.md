@@ -8,6 +8,19 @@ twitter: "https://x.com/coyle_frankp"
 website: "https://www.frank-coyle.ai/"
 blog: "https://frank-coyle.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:470fc4921a5bb13eccae3d88e096426ef54d9cc645b7811b07ffbd196d112b56
+  subjectId: person:frank-coyle
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4fd7befc2ea8daf0b162b81b0a1e7e5f1b03785d3036a3dff543e26f302bea79
 ---
 # Frank Coyle
 

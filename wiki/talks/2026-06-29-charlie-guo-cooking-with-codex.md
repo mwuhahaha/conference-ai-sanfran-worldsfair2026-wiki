@@ -68,11 +68,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-dvft0Gp9sEE]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-dvft0Gp9sEE`
-- Slide deck: [[youtube-dvft0Gp9sEE-dense-slides|Dense Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/dvft0Gp9sEE/slide-001.jpg]]
-![[assets/dense-slides/dvft0Gp9sEE/slide-002.jpg]]
+- Slide deck: [[youtube-dvft0Gp9sEE-dense-slides|Dense Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]] — slide evidence page.
 - Additional slide evidence: [[youtube-dvft0Gp9sEE-slides|Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]], [[youtube-dvft0Gp9sEE-reconstructed-slides|Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]]
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week, charlie, ignorance.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/dvft0Gp9sEE.txt` (1,508 words).
@@ -81,8 +79,9 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 5 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week, charlie, ignorance.
 - Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 
 ### Agent Reading Notes

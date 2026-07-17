@@ -63,9 +63,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-gmTHs5T_YAE]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-gmTHs5T_YAE`
-- Slide deck: [[youtube-gmTHs5T_YAE-dense-slides|Dense Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/gmTHs5T_YAE/slide-002.jpg]]
-![[assets/dense-slides/gmTHs5T_YAE/slide-003.jpg]]
+- Slide deck: [[youtube-gmTHs5T_YAE-dense-slides|Dense Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]] — slide evidence page.
 - Additional slide evidence: [[youtube-gmTHs5T_YAE-slides|Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]], [[youtube-gmTHs5T_YAE-reconstructed-slides|Reconstructed Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]]
 
 ## Transcript Status

@@ -3,6 +3,19 @@ title: "QuantumBlack, AI by McKinsey"
 category: "companies"
 aliases: ["QuantumBlack, AI by McKinsey"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9937c0d44d6a3510edeb40c8093bf595e87eb416906f9583db5a2d4b5713ba2c
+  subjectId: company:quantumblack-ai-by-mckinsey
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fdc2cb340a2d94fadaaa489158c284447f54ed06f450fd49048afed08a008641
 ---
 # QuantumBlack, AI by McKinsey
 

@@ -1,20 +1,11 @@
 Unlike MCPs, plugins allow transformations
 on both inputs and outputs
-export class WebSearchPlugin extends BasePlugin {
-override async *complete(
-const addAnnotationsResult = addAnnotationsToOutput({
-output: topChoice,
-annotations: this.#cachedAnnotations,
-});
-if (isErr(addAnnotationsResult)) {
-inspectErrorT(addAnnotationsResult.error);
-yield event;
-continue;
-}
-event.data.choices[0] = addAnnotationsResult.data;
-this.#didSendCitations = true;
-yield event;
-} else {
-yield event;
-}
-break;
+, (cena
+oe 5 an = addAnnotationsToOutput (
+folvnaslehan aan
+annotations: .fcachedAnnotations,
+);
+oka 2 at
+peek tel aa ee elie ees Fi Proll ae
+. mont ars tT at 1 (rt a a8 acerca mele
+peyote ere meen a ead F

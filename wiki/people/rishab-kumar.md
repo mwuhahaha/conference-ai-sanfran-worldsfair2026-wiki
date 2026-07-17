@@ -6,6 +6,19 @@ company: "Twilio"
 linkedin: "https://www.linkedin.com/in/rishabkumar7"
 twitter: "https://twitter.com/rishabk7"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ec6f7aa4d70e0458a915ebe88abe54453e07633fbcb7f1cb2d85819d3c041f92
+  subjectId: person:rishab-kumar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c8e6b721973836efa0d2a6e32675236af3faff40bebe6fd0afae325408668e29
 ---
 # Rishab Kumar
 

@@ -3,6 +3,19 @@ title: "Lease End"
 category: "companies"
 aliases: ["Lease End"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:407e5bc3ad60bea27830d84bb74f22882daf403e7dc2b6f0b38a85301e144a55
+  subjectId: company:lease-end
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9bc582504faca32ec25f5598b8bdc1dfc66c46158067f339cefb6218fb80dc3b
 ---
 # Lease End
 

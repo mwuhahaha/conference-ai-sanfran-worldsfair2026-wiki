@@ -1,1 +1,3 @@
-asked: sell $1,000
+asked: sell $12,000
+
+@

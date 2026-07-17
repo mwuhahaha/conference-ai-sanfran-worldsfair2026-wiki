@@ -5,6 +5,19 @@ aliases: ["OpenHands"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Sandbox & Platform Engineering"]
 scheduleRooms: ["Track 1"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ac4cc4b04c9617a00c8ae4d0fab68807a6893f7fb288815d29cefe9fe3937af2
+  subjectId: tool:openhands
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:4aa51d862cf2ec770542b9a958970c2bad2321201634876f85e076c034af8ee3
 ---
 
 # OpenHands

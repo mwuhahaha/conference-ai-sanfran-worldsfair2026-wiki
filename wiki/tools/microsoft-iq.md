@@ -5,6 +5,19 @@ aliases: ["Microsoft IQ", "Foundry IQ", "Fabric IQ", "Work IQ"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Track M", "Expo Stage 1"]
 scheduleRooms: ["Track M", "Expo Stage 1 NE"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d48b4ba6d6d19eab5bc51c5211ce9bae63c8036ca7b1f8a80dc472d082cef9c2
+  subjectId: tool:microsoft-iq
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:be2c9cc4669db330f1883b43e4dada523d063a0afc2f56c3fe769cc59ad8f228
 ---
 
 # Microsoft IQ

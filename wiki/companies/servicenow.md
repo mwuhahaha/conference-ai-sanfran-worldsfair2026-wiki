@@ -3,6 +3,19 @@ title: "ServiceNow"
 category: "companies"
 aliases: ["ServiceNow"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3c79e2988cbb4427f23e3b4fdeed4d37f12e5db0cf59596c555872a6374acb24
+  subjectId: company:servicenow
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:94457c378383e914151414afaf766171dc5fd02df61e3baf109631c6cc164559
 ---
 # ServiceNow
 

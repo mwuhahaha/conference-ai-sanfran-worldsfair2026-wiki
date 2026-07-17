@@ -79,13 +79,13 @@ OCR text:
 > implement a new feature for the figma web interface in the -
 > Figma monorepo. a
 > Nigh Cour lam-lear- lm Ameah Acie (em
-> 
+>
 > diagnose this patient given their past history.
-> 
+>
 > what arguments did opposing counsel use in the Martinez
-> 
+>
 > settlement negotiations?
-> 
+>
 > is this question already answered from our internal wiki?
 
 ![[assets/slides/Jty4s9-Jb78/slide-004.jpg]]
@@ -165,7 +165,7 @@ OCR text:
 OCR text:
 
 > i co TP TTT i
-> 
+>
 > TP 2 lees
 > PPP REEOLEL OS. . She
 > PT RPE UROOS SS lo
@@ -173,17 +173,17 @@ OCR text:
 > PT RUS.
 > PU RUEERESEE SL.
 > PT PUES.
-> 
+>
 > aliealies “Te TEReeneaa
-> 
+>
 > anion "TET
-> 
+>
 > ehenteotis “Te RPERReeeua
-> 
+>
 > let PT Pu EUeEGe.
-> 
+>
 > ice lU ate).<S/ AIS) twelve tokens
-> 
+>
 > Full Context ¢ RAG ¢ VWeiahts
 
 ![[assets/slides/Jty4s9-Jb78/slide-010.jpg]]
@@ -193,18 +193,18 @@ OCR text:
 > x See eee REY alae y ee
 > Grok 4.1 Fast and Agent Tools API
 > &
-> 
+>
 > RASS mec Cri Bria age! eu can Re art eae a aCe ogre cos am a ote Cre
 > Be a eee ee re er eer) ar eer se ee ecm ed
-> 
+>
 > Grok 4.1 Fast ou cecttes Oe eae eae a re ae Ge
-> 
+>
 > Fi Rae same ee ear A cet te ree Re Aa ea ae
-> 
+>
 > A aToue Cs (clan a oto) Ed MeO Co SO Se
 > Gea Ro Eo oC CO a aD 0 EO Cee OS ce
 > NeCaeee ae Oe eae ae ee
-> 
+>
 > Full Context ¢ RAG « Weights
 
 ![[assets/slides/Jty4s9-Jb78/slide-011.jpg]]
@@ -457,9 +457,9 @@ OCR text:
 > vectext2 is an algorithm for recovering
 > text from_ embed s. Using vectex
 > » we cd recover text from embed
-> 
+>
 > s, approx 90% 0 in.
-> 
+>
 > Embedding
 > Full Context * RAG + Wechts
 
@@ -483,7 +483,7 @@ OCR text:
 > documents at a az |
 > credit card a
 > COMpany 7 .
-> 
+>
 > Full Context + RAG ene
 
 ![[assets/slides/Jty4s9-Jb78/slide-023.jpg]]
@@ -508,23 +508,23 @@ OCR text:
 OCR text:
 
 > Embedding Context 7 bene
-> 
+>
 > ccore le nn Guan
-> 
+>
 > Card: **** keke **** 5676 MASTERCARD
-> 
+>
 > Bougit .. =
-> 
+>
 > Card: ##** *##4e #e** 5938 VISA i —
-> 
+>
 > [| a oo ee
-> 
+>
 > ooo _ —— =
-> 
+>
 > Bougnt .. -
-> 
+>
 > Car ai eh ie a ee an aor \ | =D
-> 
+>
 > a c
 > a oe Full Context * RAG © Weghts
 

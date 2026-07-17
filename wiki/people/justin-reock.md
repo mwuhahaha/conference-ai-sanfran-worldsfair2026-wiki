@@ -4,6 +4,19 @@ category: "people"
 role: "Deputy CTO"
 company: "DX"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:edb5f65b2be04da410f7c8d6f2c46b933581074763bf6ce4dba83e584a589d32
+  subjectId: person:justin-reock
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7add25cfe61cd9eeb01bacd99bacf3cede6777548374ae011a58701190994269
 ---
 # Justin Reock
 
@@ -29,6 +42,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations|The state of AI in software development: Insights across 400+ organizations]]
 
 ### Media Signals
-- `youtube-PmZDupFP3UM` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
+- `youtube-PmZDupFP3UM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
 - Evidence links for `youtube-PmZDupFP3UM` (supporting context only): [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Weco AI"
 linkedin: "https://www.linkedin.com/in/vayum-arora/"
 blog: "https://www.weco.ai/blog/vardera-case-study"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7c40722f2b89a60684dcd885dd41f8176d93e752732579faf82b83c1889401e1
+  subjectId: person:vayum-arora
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dcf95a34b8f460e9cf198f39aeaeca0903489a2bfb606cf2437ae5008a057738
 ---
 # Vayum Arora
 

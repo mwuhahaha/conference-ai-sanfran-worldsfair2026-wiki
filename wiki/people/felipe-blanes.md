@@ -4,6 +4,19 @@ category: "people"
 company: "Amazon"
 linkedin: "https://www.linkedin.com/in/felipeblanes"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:42220efd12cec70318e4ecbb6022c8a813089c56f3c1fd6203ffd7c7f204af42
+  subjectId: person:felipe-blanes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65bc34ddb909a37a873ef48396dc03462f4ab8c5ad68fe809baa690934a562e5
 ---
 # Felipe Blanes
 

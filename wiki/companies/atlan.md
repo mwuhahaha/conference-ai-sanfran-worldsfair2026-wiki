@@ -3,6 +3,19 @@ title: "Atlan"
 category: "companies"
 aliases: ["Atlan"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7f4631c3ced028a12282ec67db9a160d5c56e3c9f93af6afddd961deebd08617
+  subjectId: company:atlan
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:decd114708948e08986c346996f2a4b0aa7bec94c34ef413b44dcf552650072e
 ---
 # Atlan
 

@@ -6,6 +6,19 @@ company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/digitarald"
 twitter: "https://twitter.com/digitarald"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:917c5d9b8f632e4dadf1c5e9b7875cbc299167f4657b5e3939669e1539add9ce
+  subjectId: person:harald-kirschner
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bd26a4a113902fccb1fba376fd3416bc23247c9e6c37e1febd4a92191c10b169
 ---
 # Harald Kirschner
 
@@ -33,5 +46,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, mode, even, exists, fully.
 - Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]

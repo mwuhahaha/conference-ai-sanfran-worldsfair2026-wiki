@@ -3,6 +3,19 @@ title: "Pinecone"
 category: "companies"
 aliases: ["Pinecone"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:755b785202ed5424367ce7322cb8413025763bc7907306514b831e11e203418a
+  subjectId: company:pinecone
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7a54a08ee7b0d9e16a46cb62a5083eaaaf0e76b6781919178cc4b3556e32a745
 ---
 # Pinecone
 

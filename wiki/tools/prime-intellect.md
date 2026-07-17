@@ -5,6 +5,21 @@ aliases: ["Prime Intellect", "Prime Intellect Stack", "prime-rl", "verifiers"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Data Quality", "Software Factories", "Evals", "Local AI"]
 scheduleRooms: ["Track 6", "Track 9", "Main Stage", "Track 5", "Expo Stage 1 NE", "Track 4"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:43379b1670ff0a889ad9d2bf93e69d1bc2187ad7ceec3fa43cd222f9e805599c
+  subjectId: tool:prime-intellect
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-9fubhllmsBU
+  - source:official-wf26-youtube-V-EDrhIhHzQ
+sourceAssessmentBodySha256: sha256:7290158b6d9a6f2f44d0e1796da491a5160c403408b76fd6744a2ffd4a46ffb8
 ---
 
 # Prime Intellect Stack

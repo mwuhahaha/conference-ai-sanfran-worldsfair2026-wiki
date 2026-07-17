@@ -5,6 +5,19 @@ role: "CTO & Chief Innovation Officer"
 company: "Snyk"
 linkedin: "https://www.linkedin.com/in/mnair1"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ea9db498785309d58373fb2091c4228d3a157120fca7961fc6cfcbcf64dd6e67
+  subjectId: person:manoj-nair
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:41b38a5d181557592618b672e6b01a373b8cdf4b1c0aff821655fb386c348c00
 ---
 # Manoj Nair
 

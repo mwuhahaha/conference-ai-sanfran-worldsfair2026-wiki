@@ -4,6 +4,19 @@ category: "people"
 role: "Staff Software Engineer"
 company: "Postman"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9f337802abede7f0a468b1c9d3bf21aaa27309983024442841bb15ab34cfe064
+  subjectId: person:kamalakannan-nandagopal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7c26463c381e8f958a2df6dd8fa3ad7ffc6e944010925f6423a2659e5573cb03
 ---
 # Kamalakannan Nandagopal
 

@@ -3,6 +3,19 @@ title: "Nebius"
 category: "companies"
 aliases: ["Nebius"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4420de0d3e95e34f27439ef3a88ea1af080ef701e785c945d9fdb9a6d8a8aa33
+  subjectId: company:nebius
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d25ff1f95f8bd0ad824960ab0da2123a0556d7fba59cc5b6327ce6e94fbaa777
 ---
 # Nebius
 

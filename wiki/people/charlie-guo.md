@@ -8,6 +8,19 @@ twitter: "https://x.com/charlierguo"
 website: "https://www.ignorance.ai/"
 blog: "https://ignorance.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7f7a654e308fb5bcd1099f118a85a8eb42ef3d12c202981b8ec4f3c4ca9d5297
+  subjectId: person:charlie-guo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bd30f982e8c5332062b8301614d4790e89ca05788a34082aaf986aa61f454451
 ---
 # Charlie Guo
 
@@ -36,6 +49,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
 
 ### Media Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; role: supporting context only.
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 5 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week, charlie, ignorance.
 - Evidence links for `youtube-dvft0Gp9sEE` (supporting context only): [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]

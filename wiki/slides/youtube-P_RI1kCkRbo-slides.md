@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/P_RI1kCkRbo/slide-002.jpg]]
 
@@ -81,26 +80,32 @@ OCR text:
 
 OCR text:
 
-> AIE
-> AI Engineer
-> Engineering the future of AI
+> |
+> a)
+> = Pa. ee a" a oe a
+> j
+> a , Engineering the future of Al
 
 ![[assets/slides/P_RI1kCkRbo/slide-006.jpg]]
 
 OCR text:
 
-> AIE
-> Engineering the future of AI
-> AIEngineer
+> . on
+> ln — Engineering the future of Al
 
 ![[assets/slides/P_RI1kCkRbo/slide-007.jpg]]
 
 OCR text:
 
-> In real life...
-> AIE
-> AI Engineer
-> EUROPE
+> Pel
+> ry ry é
+> aco =e
+> bd * x
+> * a *
+> x | =
+> ! - ok | AlEngineer |
+> Sam auto) a
+> ‘e---| &
 
 ![[assets/slides/P_RI1kCkRbo/slide-008.jpg]]
 
@@ -118,7 +123,10 @@ OCR text:
 
 OCR text:
 
-> Engineering the future of AI
+> e y ©
+> 7 ; |
+> nan k = Engineering the future of Al
+> ot
 
 ![[assets/slides/P_RI1kCkRbo/slide-010.jpg]]
 
@@ -156,14 +164,14 @@ OCR text:
 OCR text:
 
 > On, that's 2 great top<! Yeah, I'd hove to help you b
-> 
+>
 > Peo ‘
 > bd bd
 > ere
 > bd ad
-> 
+>
 > * ae bd
-> 
+>
 > “ ‘=> . Ne |
 > . eee Wee te te oa! :
 > a) | | Al Engineer |
@@ -184,17 +192,10 @@ OCR text:
 
 OCR text:
 
-> Moshi Lessons Learned
-> What Works Well
-> Full-Duplex Conversation: Natural, uninterrupted
-> dialogue flow
-> Real-time Interaction: Truly conversational AI, user and
-> AI speak simultaneously
-> Challenges
-> A research prototype, not a real agent
-> Lack of observability and reliability
-> Does not convey or understand empathy well
-> Engineering the future of AI
+> Full-Dupiex Conversationsaenite NtaiiaEE mane ree Deeg not 8 real agent
+> rn * te
+> A Engineering the future of Al
+> af |
 
 ![[assets/slides/P_RI1kCkRbo/slide-015.jpg]]
 
@@ -240,9 +241,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+> | Al Engineer |
+> aU elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

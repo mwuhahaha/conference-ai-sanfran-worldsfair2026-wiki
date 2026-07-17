@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Qodo"]
 website: "https://www.qodo.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b3ea230b5c5cb5dd9b8c59afbe36380f8a6b98f003d458267cfaffeea8673718
+  subjectId: company:qodo
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:edf66bed11c6a1a7d1ec71117c935e1a35a54e1e48407595a61112877da23d50
 ---
 # Qodo
 

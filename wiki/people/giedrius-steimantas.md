@@ -5,6 +5,19 @@ role: "Director of Scraping Engineering"
 company: "Oxylabs"
 linkedin: "https://lt.linkedin.com/in/steimantas"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0a87a48b9b47d69b84c2f84ab0258e0a552e2a157068ddf0ca17c1a46a835d27
+  subjectId: person:giedrius-steimantas
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d84ef49d8dcb106f2ce6e5f278a8af76cd718638380b3d32f19bd0ea01591828
 ---
 # Giedrius Steimantas
 

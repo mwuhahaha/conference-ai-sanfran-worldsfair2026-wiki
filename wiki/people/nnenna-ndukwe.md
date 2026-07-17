@@ -5,6 +5,19 @@ role: "Principal Developer Advocate and Software Engineer"
 company: "Qodo AI"
 twitter: "https://x.com/nnennahacks"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:630cbdb2bc9728f3934676664ea029681524b903a9c6dc041d5e541a1ccf3210
+  subjectId: person:nnenna-ndukwe
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:024bcdafdae9da61d3b82cef4de3fcc6e16d1c863674d8f1d109b8d90b5ce6bb
 ---
 # Nnenna Ndukwe
 

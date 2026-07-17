@@ -15,6 +15,13 @@ from collections import Counter, defaultdict
 from functools import lru_cache
 from pathlib import Path
 
+try:
+    import process_slide_corpus_ai as slide_corpus
+    import quarantine_stale_slide_ai as slide_quarantine
+except ModuleNotFoundError:  # Imported as scripts.enrich_all_articles_from_sources.
+    from scripts import process_slide_corpus_ai as slide_corpus
+    from scripts import quarantine_stale_slide_ai as slide_quarantine
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -827,11 +834,38 @@ def extract_block_text(markdown: str, *, strict: bool = False) -> list[str]:
     return dedupe(lines)
 
 
+@lru_cache(maxsize=None)
+def classification_audit_violations(
+    deck_kind: str,
+    video_id: str,
+) -> tuple[str, ...]:
+    if deck_kind not in slide_corpus.DECKS:
+        return ("unsupported_deck_kind",)
+    item = slide_quarantine.item_for(deck_kind, video_id)
+    return tuple(
+        slide_corpus.audit_validation(
+            item,
+            slide_quarantine.contract_args(),
+        )
+    )
+
+
 def classification_text(video_id: str) -> list[str]:
     lines: list[str] = []
-    for audit in sorted((RAW / "slide-ai-classification").glob(f"*/{video_id}/audit.json")):
-        data = json.loads(read(audit))
-        for item in data.get("accepted", []):
+    audit_root = RAW / "slide-ai-classification"
+    for audit in sorted(audit_root.glob(f"*/{video_id}/audit.json")):
+        deck_kind = audit.parent.parent.name
+        if audit != slide_corpus.audit_path(video_id, deck_kind):
+            continue
+        if classification_audit_violations(deck_kind, video_id):
+            continue
+        data = slide_corpus.load_json(audit)
+        accepted = data.get("accepted", [])
+        if not isinstance(accepted, list):
+            continue
+        for item in accepted:
+            if not isinstance(item, dict):
+                continue
             for line in str(item.get("text") or "").splitlines():
                 clean = compact_line(line)
                 if useful_line(clean):

@@ -63,11 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-ShuJ_CN6zr4]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-ShuJ_CN6zr4`
-- Slide deck: [[youtube-ShuJ_CN6zr4-dense-slides|Dense Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/ShuJ_CN6zr4/slide-001.jpg]]
-![[assets/dense-slides/ShuJ_CN6zr4/slide-002.jpg]]
+- Slide deck: [[youtube-ShuJ_CN6zr4-dense-slides|Dense Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]] — slide evidence page.
 - Additional slide evidence: [[youtube-ShuJ_CN6zr4-slides|Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]], [[youtube-ShuJ_CN6zr4-reconstructed-slides|Reconstructed Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]]
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-ShuJ_CN6zr4` — source page linked; role: supporting context only.
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
 - Evidence links for `youtube-ShuJ_CN6zr4` (supporting context only): [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -5,6 +5,19 @@ aliases: ["Strands Agents", "Strands"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Workshops Day 1", "AI-Native Enterprises"]
 scheduleRooms: ["Track 9", "Expo Stage 3 SW", "Leadership 1"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6e382848c8ce25c6f65702f7aab1d73baead442a4c99df547a40d41995fcb82c
+  subjectId: tool:strands-agents
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:408030782cfc9db826deb64bd42003dc9753f16d7b886eb9bfc95edfd7dd46fc
 ---
 
 # Strands Agents

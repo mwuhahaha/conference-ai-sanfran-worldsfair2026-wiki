@@ -8,6 +8,19 @@ twitter: "https://x.com/jgreze"
 website: "https://greze.com/"
 blog: "https://www.greze.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:11d793d8e86b495f3603e1f1da4ddde4a4a81e82a1a9868f14bcedce362dcd96
+  subjectId: person:jean-denis-greze
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ca59ff9b2a7e90dac265be6a9cb1bbd9b869339aa79b7ed4e98060578a1fc16b
 ---
 # Jean-Denis Greze
 

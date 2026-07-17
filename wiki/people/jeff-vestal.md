@@ -6,6 +6,19 @@ company: "Elastic"
 linkedin: "https://www.linkedin.com/in/jeffvestal"
 blog: "https://www.elastic.co/blog/author/jeff-vestal"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3a3e07b6abdea935f6b70f016c465c08ac10d8bc7df10914b50963262c1a2122
+  subjectId: person:jeff-vestal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e3ad2f7e67ff542a40dd044547323a63eeb58efaf92a440abcd9bdaa9b655fe6
 ---
 # Jeff Vestal
 

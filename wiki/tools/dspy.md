@@ -5,6 +5,19 @@ aliases: ["DSPy"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Harness Engineering"]
 scheduleRooms: ["Main Stage"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:93033a6be9d139ebf35d39de29054872a1de9930f49034cf34eb3893f04bdf30
+  subjectId: tool:dspy
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:621c32560609aeebf8d543bc361d1f6136dc4484f3d38aa9aa29eb3189577369
 ---
 
 # DSPy

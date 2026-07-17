@@ -4,6 +4,19 @@ category: "people"
 role: "Solutions Architect"
 company: "Arize AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ab23050db5b95aea402bf06fde8f704faab0d39231bbca8166b183f038e5079c
+  subjectId: person:ankur-duggal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:51137303708c3906c866f1bff4126c0705770af9b7d80a5d90ab28b0803917e0
 ---
 # Ankur Duggal
 

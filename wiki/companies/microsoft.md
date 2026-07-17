@@ -3,6 +3,19 @@ title: "Microsoft"
 category: "companies"
 aliases: ["Microsoft"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6b1bd8a8aa655c7bfba08f3239ce4af0d8d5ff19b3d4fd120c07c19efa9f9c3b
+  subjectId: company:microsoft
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4187706e32f7e78129be371722403eec754e7ef116b7ac9df5c2d3d95b88d259
 ---
 # Microsoft
 
@@ -73,16 +86,17 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
 
 ### Media Signals
-- `youtube-JhJKgRAmfIU` — source page linked; role: supporting context only.
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
 - Evidence links for `youtube-JhJKgRAmfIU` (supporting context only): [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- `youtube-Lc8zRh9muoY` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, asked, sell, identical, determinism, never, failed.
 - Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
 - Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, mode, even, exists, fully.
 - Evidence links for `youtube-eOxOzcw70f0` (supporting context only): [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

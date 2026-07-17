@@ -5,6 +5,19 @@ role: "Software Engineer"
 company: "Figma"
 linkedin: "https://www.linkedin.com/in/eyalg/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9d206669a3669325310c08fca5d82e020e6c7c1175ace03701ab7ba3c29c40b4
+  subjectId: person:eyal-blum
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1dcdb5560e51b44e719414570c5cb1b49de61e3830a02714f8fc3e717f3ecfbf
 ---
 # Eyal Blum
 

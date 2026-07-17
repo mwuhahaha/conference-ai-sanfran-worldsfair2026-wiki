@@ -5,6 +5,19 @@ aliases: ["sderosiaux chrome-agent", "Rust chrome-agent"]
 sourceLabels: ["Public GitHub project", "Supporting comparison context"]
 status: "external comparison"
 accidentalResources: ["https://github.com/sderosiaux/chrome-agent"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:19aefa10b1e965376169cacef953e33e2490c3c564887c1fda32b7c856843659
+  subjectId: tool:sderosiaux-chrome-agent
+  domain: tools page evidence coverage
+  intendedUse: comparison_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: source_attributed
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:github_rest-github.com
+sourceAssessmentBodySha256: sha256:c104f5bdd40ed9699778c824b2050213a3fc0ee14f9f1d62ecb056b1fe977ca6
 ---
 
 # sderosiaux/chrome-agent

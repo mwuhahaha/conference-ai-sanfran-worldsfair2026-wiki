@@ -6,6 +6,19 @@ company: "NVIDIA"
 linkedin: "https://www.linkedin.com/in/lovina25"
 blog: "https://developer.nvidia.com/blog/author/ldmello"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:37598b4ed18621289d1acbd188523a641a32247bee3d9ec25f28834ff773ef3a
+  subjectId: person:lovina-dmello
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:60cdac9d8a9ec757e697b0b90173820745dc9f2305259dba50cb513d770b1fc2
 ---
 # Lovina Dmello
 

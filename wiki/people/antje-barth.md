@@ -5,6 +5,19 @@ role: "Member of Technical Staff"
 company: "Amazon AGI Lab"
 twitter: "https://x.com/anbarth"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ae440a556bf5d988f5f8c18671214f63ff088f31a306cccf7f8ec74ab970eb2c
+  subjectId: person:antje-barth
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:580a9fc548c4193f1411d00644ba6a19dcc1954edc9af1011546261d1c8b8d2c
 ---
 # Antje Barth
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
 
 ### Media Signals
-- `youtube-WJjInLeaJjo` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
 - Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

@@ -1,23 +1,7 @@
 [Automation + Assistant UX] Financial Due Diligence
-CARLYLE
-Use Case
-An e2e leveraged buyout agent
-Impact
-“This end-to-end agentic
-workflow to do a leveraged
-buyout model created
-decision-making value in the
-tens of millions of dollars.”
-LlamaCloud
-Excel Normalization
-Agent
-Document Extraction
-Agent
-SQL Tool
-Vector Retrieval
-Tool
-File Tool
-LlamaIndex
-Ask your Excel agent
-Due Diligence Copilot
-28
+LO ae
+or Wem ans Uamacioud | EE] Usmaindex
+fers of mitons dar
+| 28
+aws
+Nee)

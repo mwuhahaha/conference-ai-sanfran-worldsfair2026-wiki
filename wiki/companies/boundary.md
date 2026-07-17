@@ -3,6 +3,19 @@ title: "Boundary"
 category: "companies"
 aliases: ["Boundary"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:88f904c7ecbf09d3d0e0d9d7085d2a4a4f5324634266588b21da07e8500b22a9
+  subjectId: company:boundary
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:23bfe70523f27fe56cc6f4f14f440418ab5163d443813870a306af158ad4c75d
 ---
 # Boundary
 

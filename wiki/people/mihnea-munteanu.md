@@ -6,6 +6,19 @@ company: "YouTube"
 linkedin: "https://www.linkedin.com/in/mihneamunteanu/"
 twitter: "https://x.com/ainteligentsia"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8a78e5b82b729ce9649e394220c98f6581b9c6a1ab1d0dadb7e035c98eef9e99
+  subjectId: person:mihnea-munteanu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a1d97cfdf78d81aa790adaff05d683e880e1edd634fc9fae5e4fc968309f309e
 ---
 # Mihnea Munteanu
 

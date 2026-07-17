@@ -3,6 +3,19 @@ title: "SID AI"
 category: "companies"
 aliases: ["SID AI", "SID.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8ea30e1eb95dca996531c561c7ee1356b4979c1e75fc7bfeffd5057bd41bce65
+  subjectId: company:sid-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f22c76c8c24cbcc5b5c9d177793cfc04c1064bbf37b28160fce8077848dae121
 ---
 # SID AI
 

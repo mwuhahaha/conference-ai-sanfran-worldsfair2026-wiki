@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Krea.ai"]
 website: "https://www.krea.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c8008d5dd8a5195eda48b14fe62e71b35a055e1feb00892f2d8a2b6f1dc5376e
+  subjectId: company:krea-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3b60a9611c57bd3e17bb08baf8fb5c41233997769e5c74c7835e2d14925b3b8a
 ---
 # Krea.ai
 

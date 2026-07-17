@@ -6,6 +6,19 @@ company: "FriendliAI"
 linkedin: "https://www.linkedin.com/in/byung-gon-chun"
 website: "https://bgchun.github.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8dd9571194241be6c82f1471f0ca6bdd367ad954ee7e94cf2fc52970424a55fa
+  subjectId: person:byung-gon-gon-chun
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:27c4f0c16a48c05e249f98f305a584bfac5d115b57d45c60a58ad7f667357bff
 ---
 # Byung-Gon (Gon) Chun
 

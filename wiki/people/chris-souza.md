@@ -3,6 +3,19 @@ title: "Chris Souza"
 category: "people"
 company: "Google"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4c94177f3cf33661a67864f22cb4e5b134e7bdf6641a0da84edf25474597b987
+  subjectId: person:chris-souza
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:10c54ec9899c8bc7eb65730f6a57e6480f572047ec3e86ac6d386afb80c2e5b0
 ---
 # Chris Souza
 

@@ -9,13 +9,18 @@ sourceLabels: ["Local slide OCR", "RapidOCR", "OCR audit"]
 ## What Changed
 Weak or suspicious slide OCR is reread with local OCR engines, image crops, and high-contrast variants, then merged against prior OCR sources. Canonical slide OCR is replaced only when the best candidate clears the score-gain threshold.
 
-## Latest Run
+## Provenance Repair
+A historical RapidMerge run affected 601 canonical OCR files using AI-vision output that had no valid cache receipts. The repair restored 599 files from their byte-exact pre-merge backups. The other 2 files already matched their pre-merge backups byte-for-byte, so no content restoration was needed for them. The post-repair check found 0 remaining exact unreceipted copies and 0 ambiguous records.
+
+The old AI-vision cache and both historical audit distributions below are superseded and untrusted. They are retained for auditability, but the current RapidMerge policy accepts 0 results from that run because it recorded 0 current provenance receipts.
+
+## Historical RapidMerge Run (Superseded)
 - Slide images seen: 2,870
 - Slide OCR records processed: 1,789
 - Slides skipped as already clean: 1,020
 - Canonical OCR files updated: 601
 - Manual review queue entries: 163
-- Slide markdown pages refreshed from canonical OCR: 199
+- Slide markdown pages refreshed from canonical OCR: 221
 - Mode: all
 - Elapsed seconds: 2.28
 - Audit artifact: `raw/sources/slide-ocr-rapidmerge-audit.json`
@@ -23,6 +28,8 @@ Weak or suspicious slide OCR is reread with local OCR engines, image crops, and 
 - Canonical backups: `raw/sources/slide-ocr-before-rapidmerge/`
 
 ## Best Source Distribution
+These are historical selections from the superseded run, not currently accepted sources.
+
 - canonical: 1144
 - ai-vision: 619
 - rapidocr-prior: 21
@@ -30,6 +37,8 @@ Weak or suspicious slide OCR is reread with local OCR engines, image crops, and 
 - reconstructed: 1
 
 ## Canonical Updates By Source
+This is the superseded run's historical update count. The provenance repair described above has removed its unreceipted AI-vision content from canonical OCR.
+
 - ai-vision: 601
 
 ## Engine Status

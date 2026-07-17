@@ -22,7 +22,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > RAG is already solved.
-> Well yes, but actually no
+> £ rd 7
+> ° aa | ya i
+> a by UR eye teers CeloL aoe
 
 ![[assets/slides/Ywl4LsvHKzU/slide-002.jpg]]
 
@@ -52,22 +54,22 @@ OCR text:
 OCR text:
 
 > Prob le ms Local questions, local answers
-> 
+>
 > e Assuming an answer lies in a certain chunk
 > Multi-hop questions are not realistic
-> 
+>
 > e “If my future wife has the same first name as the 15th first lady
 > of the United States’ mother and her surname ts the same as
 > the second assassinated president's mother's maiden name,
 > what is my future wife's name?” (from: FRAMES)
 > No holistic way to test the entire system
-> 
+>
 > e Retrieval-only benchmarks
-> 
+>
 > e Generation-only benchmark (grounding)
-> 
+>
 > e What about chunking? What about parsing?
-> 
+>
 > Un rn 7 :
 
 ![[assets/slides/Ywl4LsvHKzU/slide-005.jpg]]
@@ -122,41 +124,42 @@ OCR text:
 OCR text:
 
 > Common
-> 
+>
 > RAG Retrieval Generator Score
-> 
+>
 > Pipelines Pipeline
 > « Common
-> 
+>
 > Fail | 088
 > wees FUN eet Cage “i O
-> 
+>
 > ser FOpenar | 8
-> 
+>
 > rey ms
-> 
+>
 > PD eee
 
 ![[assets/slides/Ywl4LsvHKzU/slide-008.jpg]]
 
 OCR text:
 
-> High Level Idea
+> High Level ldea
 > Query
-> Unstructured Corpus
-> Data Structure
 > FIFA World Cup
+> Unstructured
+> DataStructure
+> Corpus
+> ONAIR
 
 ![[assets/slides/Ywl4LsvHKzU/slide-009.jpg]]
 
 OCR text:
 
-> Ingestion:
-> Flow
 > 1. Cluster
-> 2. Identify Schema
-> 3. Populate
-> 4. Upload
+> _ 2. Identify Schema
+> Ingestion: 3. Populate
+> Flow 4. Upload
+> Kor 73) A
 
 ![[assets/slides/Ywl4LsvHKzU/slide-010.jpg]]
 

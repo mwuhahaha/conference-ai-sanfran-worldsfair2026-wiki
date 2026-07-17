@@ -3,6 +3,19 @@ title: "Runlayer"
 category: "companies"
 aliases: ["Runlayer"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9ed555340bdca7c2186064ae4d925f456a99a4375520cd21a5f039b096539688
+  subjectId: company:runlayer
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9d5c2a998718380389cb78d8f7ea7d6d200a966a356e6c743525a3d36982bd17
 ---
 # Runlayer
 

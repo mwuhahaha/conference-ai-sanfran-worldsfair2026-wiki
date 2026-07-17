@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/carter-abdallah"
 twitter: "https://x.com/Baxate"
 website: "https://baxate.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:896e0fb282c900787c47e51b3a68697f6bcca458bfc7cf85272d8d963cec7c11
+  subjectId: person:carter-abdallah
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:189a15c6708371a1b42cfb38dd9686d70cd155c87bb7de9875fc7c7f09b2efeb
 ---
 # Carter Abdallah
 

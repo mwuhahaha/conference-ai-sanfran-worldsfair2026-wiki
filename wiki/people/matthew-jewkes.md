@@ -6,6 +6,19 @@ company: "Standard Cybernetics"
 linkedin: "https://linkedin.com/in/mjewkes"
 twitter: "https://x.com/mjewkes"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:38278cdb761d358949ba541532e4f4cef494f1baf8f9b80555359cce1c0a129a
+  subjectId: person:matthew-jewkes
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0892af6037de8cc6654cb63ab806c47873d0b2a691540581af5095c8ee0c6693
 ---
 # Matthew Jewkes
 

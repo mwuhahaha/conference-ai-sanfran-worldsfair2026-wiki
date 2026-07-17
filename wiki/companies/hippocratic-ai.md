@@ -3,6 +3,19 @@ title: "Hippocratic AI"
 category: "companies"
 aliases: ["Hippocratic AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6bdcd2f0bfc44fc4c69ab4b88d368b33c53c1b7a2871ffc0b8f0f3d66e08db05
+  subjectId: company:hippocratic-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:83967c6abd64c6bb3837e2b274613adfcace90516e8141e9fa05c29e38a951bd
 ---
 # Hippocratic AI
 
@@ -30,7 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
 
 ### Media Signals
-- `youtube-u3NofYYstaY` — source page linked; role: supporting context only.
+- `youtube-u3NofYYstaY` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
 - Evidence links for `youtube-u3NofYYstaY` (supporting context only): [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

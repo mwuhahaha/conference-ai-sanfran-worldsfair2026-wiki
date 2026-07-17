@@ -17,112 +17,163 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/SS-A8sE7hkw/slide-001.jpg]]
+
+OCR text:
+
+> Sovereign
+> Escape
+> AIOwnership with
+> Open Models
+> AlEngi
+
+![[assets/slides/SS-A8sE7hkw/slide-002.jpg]]
+
+OCR text:
+
+> raed ‘ ; 3
+> co * ae te
+> A fhe ee
+> aco S :
+> ve 4 aif
+> * ad
+> -
+> a ad a
+> Product Manager Devwe'oper Relations Eng neer
+> Google Deep tind Google OrepMind
+> Google DeepMind
+
+![[assets/slides/SS-A8sE7hkw/slide-003.jpg]]
+
+OCR text:
+
+> #3 Braintrust €) WorkOS OpenAl
+
+![[assets/slides/SS-A8sE7hkw/slide-004.jpg]]
+
+OCR text:
+
+> bd *
+> naa
+> bd ad
+> * * *
+> | AlEngineer |
+> sel tela
+
 ![[assets/slides/SS-A8sE7hkw/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Chart slide with small labels and numeric bars; OCR is likely more reliable than manual transcription.
-
-Slide text:
+OCR text:
 
 > Gemma4
-> Arena Elo Score
+> ArenaEloScore
 > AIE
-> 31B26B754B 61008397B:6858
-> Engineering the future ofAl
-> : AlEngg
+> Gmik2.s
+> oes3.5
+> 31B
+> 26B
+> 754B1100B397B
+> 685B
+> Engineering the future of Al
+> AIEngi
 
 ![[assets/slides/SS-A8sE7hkw/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
-- OCR decision: ready — Product/UI screenshot with dense small interface text; OCR is likely more reliable than manual transcription.
-
-Slide text:
+OCR text:
 
 > ai.dev
+> | Al Engineer |
+> SUL cold
 
 ![[assets/slides/SS-A8sE7hkw/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Efficiency & "Intelligence-per-Parameter"
-> Gemma 4 family:
-> E2B, E4B, 26B A4B, 31B.
-> Extreme parameter efficiency:
-> max("intelligence-per-parameter")
-> Performance equivalent to models up to 10x their size on targeted logic tasks.
+> Efficiency & “Intelligence-per-Parameter"
+> en *s n Gemma 4 family: ; ;
+> nm * Picts ise sel oe cle mecl oe
+> * * a
+> ion ial Extreme parameter efficiency: o F
+> max("intelligence-per-parameter’) .
+> Performance equivalent to models
+> up to 10x their size on targeted
+> logic tasks.
+> Engineering the future of Al
 
 ![[assets/slides/SS-A8sE7hkw/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > The Agentic "Thinking Tax"
 > Autonomous loops, tool calls,
-> and self-correction dominate
-> current application demand.
-> Iterative agentic workflows
-> consume 5–9x more tokens than
-> standard chat.
-> Relying purely on pay-per-token
-> "Leased Intelligence" creates
-> heavy scaling operational liabilities.
+> r Ca in and self-correction dominate Lg Coe tng angen Caters ¢ ee
+> * current application demand. -
+> bd * &
+> rd : .
+> Relying purely on pay-per-token .
+> “Leased Intelligence” creates = -
+> heavy scaling operational
+> felon etsase a oe ee
+> Ps
+> Engineering the future of Al
 
 ![[assets/slides/SS-A8sE7hkw/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Personal & Edge
-> Personal (NPU/Mobile): Shifting execution to
-> local "sunk-cost" hardware to maintain local
-> data by design.
-> Edge (Desktop/Single-GPU): Establishing
-> fixed-cost reasoning on a 24GB-80GB
-> footprint.
-> Battery Priority: On mobile, power utilization is
-> part of the cost and is arguably
-> more critical than raw token generation cost.
+> i wee -@
+> ate ory _
+> bd * ‘ ‘
+> a ee
+> ae ° Edge (Desktop/Single-GPU): Establishing
+> O Qe fixed-cost reasoning on a 24GB. 80GB
+> go ( troleleslaiale
+> we | fi <
+> org | |
+> o
+> a
+> Engineering the future of Al
 
 ![[assets/slides/SS-A8sE7hkw/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.9`
-- Text source: none.
-- OCR decision: ready — Dense product/UI screenshot with small text; OCR is likely more efficient than manual transcription.
-- Slide text: not surfaced (`illegible` by AI classifier).
+OCR text:
+
+> bd * a
+> * J oo a
+> a) Doe
+> an von me : eee
+> —_ Ur eee gee ~
+> | | AlEngineer |
+> Sele) a3
+
 ![[assets/slides/SS-A8sE7hkw/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/SS-A8sE7hkw/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.91`
-- Text source: agent_vision.
-- OCR decision: ready — Dense slide-editor screenshot with thumbnail sidebar and UI chrome; OCR is likely useful for the embedded slide content.
+OCR text:
 
-Slide text:
+> SOT ee
+> SUS oes 6 fo eee ee @
+> =
+>
+> 2
+>
+> ac =
+>
+> ey Eg. CTT a ala ale mss
+> : | demos
+> ,
+> |
+> 7
+>
+> | Al Engineer |
+> Sele) a
 
-> Gemma 4 demos
+![[assets/slides/SS-A8sE7hkw/slide-012.jpg]]
 
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/SS-A8sE7hkw/slide-001.jpg) — `speaker_stage` confidence `0.98`; Stage photo with audience and podium; not a readable presentation slide.
-- [`slide-002.jpg`](/assets/slides/SS-A8sE7hkw/slide-002.jpg) — `title_card` confidence `0.97`; Speaker intro card with headshots and names; not a content slide.
-- [`slide-003.jpg`](/assets/slides/SS-A8sE7hkw/slide-003.jpg) — `title_card` confidence `0.95`; Title/logo slide with minimal content; not a substantive presentation slide.
-- [`slide-004.jpg`](/assets/slides/SS-A8sE7hkw/slide-004.jpg) — `title_card` confidence `0.95`; Title/logo slide with minimal content; not a substantive presentation slide.
-- [`slide-012.jpg`](/assets/slides/SS-A8sE7hkw/slide-012.jpg) — `title_card` confidence `0.99`; End card/logo slate with only branding and URL; no substantive presentation content.
+OCR text:
 
-Classification audit: `raw/sources/slide-ai-classification/slides/SS-A8sE7hkw/audit.json`
+> | Al Engineer |
+> aU elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -6,6 +6,19 @@ company: "turbopuffer"
 linkedin: "https://www.linkedin.com/in/halpert"
 website: "https://owenhalpert.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4b288b7b563c19aa42a6203c0c9821844ea0e09cf87f4ff688b7ecd6f17adc5d
+  subjectId: person:owen-halpert
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:331e241d849ed4d9ec766437dfbcc8a1f51245ed6231efe855407af11d76c376
 ---
 # Owen Halpert
 

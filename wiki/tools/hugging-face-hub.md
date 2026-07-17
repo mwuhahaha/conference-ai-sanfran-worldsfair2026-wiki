@@ -5,6 +5,19 @@ aliases: ["Hugging Face Hub", "Hugging Face"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["AI Architects: Show my Workflow", "Local AI"]
 scheduleRooms: ["Leadership 2", "Track 4"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:76eeda8e334f47847daa89114340991de45926548af576807c774c814f4273cf
+  subjectId: tool:hugging-face-hub
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:37ce4de363825d1449a1114bbd9f2327644412d583d12178156e5108a54b9124
 ---
 
 # Hugging Face Hub

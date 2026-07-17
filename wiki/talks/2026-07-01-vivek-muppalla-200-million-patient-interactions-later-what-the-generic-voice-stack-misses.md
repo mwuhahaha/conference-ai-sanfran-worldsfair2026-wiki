@@ -64,10 +64,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-u3NofYYstaY]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-u3NofYYstaY`
-- Slide deck: [[youtube-u3NofYYstaY-dense-slides|Dense Slides: Cohere for VPs of AI: Vivek Muppalla]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/u3NofYYstaY/slide-001.jpg]]
+- Slide deck: [[youtube-u3NofYYstaY-dense-slides|Dense Slides: Cohere for VPs of AI: Vivek Muppalla]] — slide evidence page.
 - Additional slide evidence: [[youtube-u3NofYYstaY-slides|Slides: Cohere for VPs of AI: Vivek Muppalla]], [[youtube-u3NofYYstaY-reconstructed-slides|Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla]]
-- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,7 +78,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-u3NofYYstaY` — source page linked; role: supporting context only.
+- `youtube-u3NofYYstaY` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
 - Evidence links for `youtube-u3NofYYstaY` (supporting context only): [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 
 ### Agent Reading Notes

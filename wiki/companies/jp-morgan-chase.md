@@ -3,6 +3,19 @@ title: "JP Morgan Chase"
 category: "companies"
 aliases: ["JP Morgan Chase"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:71f3971bc2c6ba2f05628bdac80c0e0550458827928d30203a5a628ed01383a9
+  subjectId: company:jp-morgan-chase
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:71ab8bde5cc599f99a0ca0690e4d1b261721973e07bfbbc3adbbacc0f01d8fac
 ---
 # JP Morgan Chase
 

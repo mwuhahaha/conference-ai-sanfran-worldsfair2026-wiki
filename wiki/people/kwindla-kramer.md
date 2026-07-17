@@ -8,6 +8,19 @@ twitter: "https://x.com/kwindla"
 website: "https://machine-theory.com/"
 blog: "https://www.linkedin.com/in/sean-dubois/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:39b9cbdf64d6d9d6e89cb6592e2cefbd9aca4390dd2f1fa321dc46976e51889e
+  subjectId: person:kwindla-kramer
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b057f397bdb6c31825b3535ae98355e1096a103920fbe0fee7729dcba3c81392
 ---
 # Kwindla Kramer
 
@@ -39,6 +52,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
 - Evidence links for `youtube-E71YtNbCFXY` (supporting context only): [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Anthropic"
 linkedin: "https://www.linkedin.com/in/katelynlesse/"
 twitter: "https://x.com/katelyn_lesse"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6a2408e1267545f772c9215101bb37c895f4801f0564023f7cfdc53b1a692e2f
+  subjectId: person:katelyn-lesse
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:da6ea4a38952b1f92c0b4276c81739ede12ead8d3eb8e17e09a0ab86d0839ef8
 ---
 # Katelyn Lesse
 
@@ -31,5 +44,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-aqW68Is_Kj4`: claude, context, give, model, developer, platform, maximizes, intelligence.
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
 - Evidence links for `youtube-aqW68Is_Kj4` (supporting context only): [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]

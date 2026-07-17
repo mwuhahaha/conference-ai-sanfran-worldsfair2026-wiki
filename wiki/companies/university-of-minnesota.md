@@ -3,6 +3,19 @@ title: "University of Minnesota"
 category: "companies"
 aliases: ["University of Minnesota"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cf9564f668bbfe51ec01c11466eb6eabccef211a3328d0a823b0291ba7538e97
+  subjectId: company:university-of-minnesota
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4176d1cbf4e090ae63a50193c7d0d3aff23c1408f7e93c23855e4bdef6c9a45e
 ---
 # University of Minnesota
 

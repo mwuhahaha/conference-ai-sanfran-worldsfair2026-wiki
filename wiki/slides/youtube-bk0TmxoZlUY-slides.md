@@ -35,25 +35,27 @@ OCR text:
 
 OCR text:
 
-> BRAINTRUST.DEV
+> BRAINTRUST OEY o®
 > braintrust
-> THE END-TO-END DEVELOPER PLATFORM
-> BUILDING AI PRODUCTS
+> P-END DEVELOPER PLATFORM
+> NG AI PRODUCTS
+> i
+> i |
 
 ![[assets/slides/bk0TmxoZlUY/slide-003.jpg]]
 
 OCR text:
 
 > Agenda
-> 
+>
 > e Company Overview
 > e Intro to Evals
 > ENIAC CIOL
 > e Moving to Production
 > e Human inthe Loop
-> 
+>
 > oo
-> 
+>
 > | ~~]
 > - ~~
 
@@ -66,12 +68,12 @@ OCR text:
 > Ea Investors and Al teaders
 > eae CRBC anette erste al6z ee ;
 > » Cher nema om
-> 
+>
 > Pac laire) Microsoft 3 DATADOG dbt Labs zapier =| Grafana
-> 
+>
 > ee Ca re amazon nuro ~ instacart STS
 > bd
-> 
+>
 > VF fai)
 > | aMicrosoft oy)
 > me F
@@ -135,14 +137,14 @@ OCR text:
 > How evals can help your business
 > Cut dev time Rapid heraton cycies & local tested on multiple LLMs seamlessly
 > Reduce costs Autontated evals replace manuel review alowing faster eration ¢ release
-> 
+>
 > Enhance quality Real time nonttoring & compliance to redcce risk and improve Cx
 > Sca le iets aahs Enabie non-technical collaboration to puda tie best Al Apps
-> 
+>
 > Ie never seen a workfiow transformation jike the one tnat incorporates
-> 
+>
 > evals Into ‘mainstream engineering’ processes before. it's astonisning.
-> 
+>
 > eit
 > ,
 > | a Microsoft @yr{?
@@ -293,15 +295,17 @@ OCR text:
 
 > BRAINTRUST.DEV
 > Scorer Types
-> Code-based scorers
-> - Exact or binary conditions
-> - Numeric comparisons
-> - Structured or factual checks
-> LLM-as-a-judge scorers
-> - Subjective or contextual feedback
-> - Human-like interpretation
-> - Improvement across multiple drafts
+> Code-basedscorers
+> LLM-as-a-judgescorers
+> Exactorbinaryconditions
+> Subjectiveorcontextualfeedback
 > AIE
+> Numericcomparisons
+> Human-likeinterpretation
+> Structuredorfactualchecks
+> Improvementacrossmultipledrafts
+> Microsoft
+> smol?
 
 ![[assets/slides/bk0TmxoZlUY/slide-018.jpg]]
 
@@ -331,16 +335,18 @@ OCR text:
 > Experiments
 > Evaluations
 > AIE
-> • Quick iteration of Prompts, Agents,
-> Scorers, Datasets
-> • Great for comparing Prompts & Models
-> • When you reach a happy place, save a
-> lot of the playground to Experiments
-> • Great for comparing full experiments so you
-> can review past playground sessions
-> • Evals from SDK or API will appear here
+> QuickiterationofPrompts,Agents,
+> Greatforcomparingfullexperimentssoyou
+> Scorers,Datasets
+> canreviewpastplaygroundsessions
+> GreatforcomparingPrompts&Models
+> EvalsfromSDKorAPIwillappearhere
+> Whenvoureachahappyplace,savea
 > directly
-> • You can analyze your experiments over time
+> otoftheplaygroundtoExperiments
+> Youcananalyzeyourexperimentsovertime
+> Microsoft
+> smol?
 
 ![[assets/slides/bk0TmxoZlUY/slide-020.jpg]]
 
@@ -379,32 +385,32 @@ OCR text:
 OCR text:
 
 > on Pemareatt 3 ek m —)
-> 
+>
 > gegen .@ y
-> 
+>
 > Ong tenes rome e
 > Poeqoete ea - _ ote
 > Gers Sve on bee yon o tas o vee ee
-> 
+>
 > 6 Rta ane
-> 
+>
 > leterste sranjeog pees a een @ lon wan
 > amines
 > siersarrerinconspereg’d we a ee Qt tee
-> 
+>
 > Urvecemtas AI
-> 
+>
 > + inewssente
-> 
+>
 > 3 Cater nents
 > treet
-> 
+>
 > Wages
 > eanypece
 > vet eney &
 > secgng laceretne Lee
 > Bie ote
-> 
+>
 > raintrust
 > a
 > i an i * ,
@@ -450,32 +456,52 @@ OCR text:
 
 OCR text:
 
+> FS
+> Tsresources.tsx
+> braintrust>Ts resources.ts
+> app
+> choicescores:
+> api
+> fair:0.5,
+> generate
+> Poor:0.25,
+> globals.css
+> ayout.tx
 > AIE
-> export const completenessScorer = project.scorers.create({
-> choiceScores: {
-> Good: 0.75,
-> Fair: 0.5,
-> Poor: 0.25,
-> },
-> });
-> export const accuracyScorer = project.scorers.create({
-> name: "Changelog Accuracy Scorer",
-> slug: "changelog-accuracy-scorer",
-> description: "Evaluates the accuracy of a generated changelog",
-> evals: [
-> {
-> role: "system",
+> page.tsx
+> braintrust
+> exportconstaccuracyScorerproject.
+> createlc
+> Tsresources.ts
+> name:"ChangelogAccuracyScorer",
+> EE
+> sLug:"changeLog-accuracy-scorer",
+> I
+> H
+> description: “Evaluates theaccuracy of a generatedcha
+> eval
+> ressges:[
+> 1ib
+> rsbraintrust.ts
+> rolei"systen",
+> Ts constants.ts
 > content:
-> "You are evaluating the accuracy of a changelog generated from a list of git commits.",
-> },
-> {
-> role: "user",
-> content:
-> "Task: Rate how accurately the changelog represents the actual changes described in the commits.",
-> },
-> ],
-> });
+> You are evaluating the accuracy of a changelog gemerated from aList of git commits.
+> Tsutils.ts
+> *TaskelRate how accurately the changelog represents the actual changes described in the conmits.
+> pubic
+> ProblemsOutputDebug ConsoleTerminalPorts
+> scripts
+> at callback（/Users/dpg/repos/ai-worlds-fair/node_modules/.pnpm/braintrusta0.0.205_openaia4.47.1_reacta18.3.1_sswr@2.2.
+> papm
+> 0_svelte@5.33.1__svelte@5.33.1_v_b3826b4d9a1ae52bd8efbc9af546b03b/node_nodules/braintrust/dist/cli.js:6905:26）
+> env.localexample
+> gitigrore
+> ()prettierrc
 > Finished running experiment
+> ents.lson
+> Microsoft
+> smol?
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

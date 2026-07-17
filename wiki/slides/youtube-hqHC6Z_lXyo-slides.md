@@ -17,161 +17,192 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/hqHC6Z_lXyo/slide-001.jpg]]
+![[assets/slides/hqHC6Z_lXyo/slide-002.jpg]]
+
+OCR text:
+
+> What Model is ts
+> Google DeepMind
+> | wef,
+
 ![[assets/slides/hqHC6Z_lXyo/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Method 1: Check Public Leaderboards
-> Use-case: Find the most performant image editing AI model
-> - Step 1: Find a leaderboard
-> - Step 2: Select the top ranked model
+> Use-case: Find the most performant image editing Al model
+> of
+> Fe * il * Step 1: Find a leaderboard ila was Ceomammert fap
+> cd * ~- Step 2 Select the ==
+> 5g * bd
+> cad Ort ege ss tae vete
+> n © Germey 3 re reage Prone 2K aE Pn,
+> wa © Gare 1 Pro trege Pewee ee
+> “ © Cron enepre Lent ssa ees
+> at fescoe Avnet
+> a
+> | Al Engineer |
+> EUROPE
+> : All
 
 ![[assets/slides/hqHC6Z_lXyo/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — small leaderboard screenshots and labels are better handled by OCR
+OCR text:
 
-Slide text:
-
-> Problem 1: Each public leaderboard has a different ranking
+> Problem1:Eachpublicleaderboardhasadifferentranking
 > AIE
-> (LM)Arena Design Arena Artificial Analysis
+> (LM)Arena
+> Artificial Analysis
+> DesignArena
 > Engineering the future of Al
 
 ![[assets/slides/hqHC6Z_lXyo/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: advanced OCR `rapidocr-live/right-72/opencv-adaptive`.
-- OCR decision: ready — chart text and small labels are better handled by OCR
+OCR text:
 
-Slide text:
-
-> Problem 3:Leaderboard are not statistically significant for one use case
-> Artificial Analysis ranking w! number of samples Win rate on (LM)Arena Win rate on Design Arena
-> AlEngineer
+> ee — -e
+>
+> a & “Ai ts —_ 8 ie ee
+>
+> * re hd ee ae wwe _
+>
+> fier bee Bae -,,
+> * a wo IDS Tt eee eea
+> * x aoe teow ve —_ oy oe =
+> ke Wes Se, Me eG
+> Pi eer cass oem eke tn ae) 7 a Z 7
+> fare era ee ee en caer Ror Bi renn men sare)
+> lana
+> | Al Engineer |
 > EUROPE
 
 ![[assets/slides/hqHC6Z_lXyo/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Method 2: Perform Internal Evaluation
-> Use-case: Find the most performant image editing AI model
-> - Step 1.a: Manual inspection
+> Use-case: Find the most performant image editing Al model
+> a * *. - Step 1a Manua: inspection
+> " y
+> * bd
+> a nad
+> ~- Ld a \ Ty,
+> rs, of 44
+> ) . rede gy ee
+> ar. ne
+> ae (ca eat is Se
+> Google DeepMind
+> ef,
 
 ![[assets/slides/hqHC6Z_lXyo/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.89`
-- Text source: agent_vision.
-- OCR decision: ready — Dense chart labels and small benchmark graphics are better handled by OCR.
+OCR text:
 
-Slide text:
-
-> Problem 5: Benchmark results are not consistent
+> i — ~ ae wes aim
+> t= |- h.
+> ate i I: I:
+> ial a SLD SILAS LP SA LL ALPS PL PE LP SL 7
+> * al PP COOL E SG COOP DELLE LOL EOS OF
+> * bd
+> * oa *
+> ce
+> i}
+> | Al Engineer |
+> ab elas
+> a ,
 
 ![[assets/slides/hqHC6Z_lXyo/slide-008.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Multiple charts plus small bullet text make OCR the cheaper and more accurate path.
+OCR text:
 
-Slide text:
-
-> Problem 5: Benchmark results are not consistent
-> AIE
-> Misaligned with target Benchmarkranking change Smal/largevariations Checkmeaningsofmetrics Use multiple metrics
+> fe I: {2
+> a i I~ I:
+> . * NA PELEL SS POL EEA tte PPO SE ELE
+> * Ld 7
+> a * ee
+> ; I: E rE:
+> F ao: oat ual
+> SS REESEE |: oo REESE te SREEEE
+> LOSCE, reed “fe CEE, Bnf. yet ALPS, ‘ wy we
+> ' , 5 L 28 RY —
+> |
+> 2 tJ
 > Engineering the future of Al
+> aT ee
 
 ![[assets/slides/hqHC6Z_lXyo/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — Scatter plots and small axis labels are OCR-suitable.
+OCR text:
 
-Slide text:
-
-> What Model is State-of-the-Art?
+> What Model is cy
+> There are multiple SOFA Al medeis
+> —— —
+> * * WH Se Paes ae SE SH ON aSE ei ties SEE BRS RD
+> re a 7 ce = — oe :
+> ke meee, _ . =, estink,? : _.
+> : = _
+> an
+> | Google DeepMind
+> a ee
 
 ![[assets/slides/hqHC6Z_lXyo/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — The benchmark scatter plots and annotations are small enough that OCR will likely outperform manual transcription.
+OCR text:
 
-Slide text:
-
-> What Model is State-of-the-Art?
-> There are multiple SOTA Al models
-> AIE Long Text Bench OeelGTertRenderieg
-> 0:20
-> 0.85
-> 0.03
-> 0.73
-> 0.65 0.63
-> 0.50 0.00
-> 0.55 0.55
-> Medin inference Time Mesinn IeterenceTime
-> AI Engineer
-> EUROPE
+> What Model is ?
+> There are multiple SOTA Ar moceis ,
+> Penn
+> Mare
+> * S 3
+> a
+> |
+> | AlEngineer |
+> se) Ke) a3
+> b, — .
 
 ![[assets/slides/hqHC6Z_lXyo/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
-- OCR decision: ready — Endpoint cards and small brand/logo text are OCR-suitable.
+OCR text:
 
-Slide text:
-
-> How To Reach SOTA Performance?
+> HowToReachSOTAPerformance?
 > Option 1:Use optimized Performance models
 > AIE
-> VideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints
-> Bopioote Koyed aws Runware Segmind WIRO
+> Video Endpoints
+> Image Endpoints
+> TextEndpoints
+> s
+> leplicote
+> aws
+> Runwar
+> Segmind
+> WIRO
 > Engineering the future of Al
-> neer
 
 ![[assets/slides/hqHC6Z_lXyo/slide-012.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
-- OCR decision: ready — This slide has multiple small cards, labels, and links that are best left for OCR.
+OCR text:
 
-Slide text:
-
-> How To Reach SOTA Performance?
-> Option 1: Use optimized Performance models
+> HowToReachSOTAPerformance?
+> Option 1:Use optimized Performance models
 > AIE
-> VideoEndpoints Image Endpoints Text Endpoints AudioEndpoints
-> Weplicoto Koyeb aws Runware Segmnd WIRO
-> Option 2: Develop and apply inference optimization
-> PrunoAI
-> AI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses
-> aRaihub.comPnnaAwcoun
-> AI Engineer
-> JUUU
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/hqHC6Z_lXyo/slide-001.jpg) — `speaker_stage` confidence `0.98`; camera shot of speaker on stage with projected slide; not a clean slide frame
-- [`slide-002.jpg`](/assets/slides/hqHC6Z_lXyo/slide-002.jpg) — `title_card` confidence `0.96`; title slide only; no substantive content
-
-Classification audit: `raw/sources/slide-ai-classification/slides/hqHC6Z_lXyo/audit.json`
+> Video Endpoints
+> Image Endpoints
+> TextEndpoints
+> s
+> eplicate
+> aws
+> Runware
+> Segmind
+> qeley
+> WIRO
+> Option 2:Develop and apply inference optimization
+> PrunoAl
+> AI EfficiencyPackage
+> Al EfficiencyMaterials
+> Al Efficiency Courses
+> mesllibub.comPrunaAllcza
+> nollaihub.comPnnaAicon
+> AIEngineer
+> rinanr
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -3,6 +3,19 @@ title: "Amazon AGI"
 category: "companies"
 aliases: ["Amazon AGI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ef3526ea8795d6ce3ef2c58617d5a317cf4c86885511eb6c275b6ac0be3d03e4
+  subjectId: company:amazon-agi
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1b6597a019560077dc3340fc108c702c28398f94a10563d95b9ba0ec5da73fb4
 ---
 # Amazon AGI
 

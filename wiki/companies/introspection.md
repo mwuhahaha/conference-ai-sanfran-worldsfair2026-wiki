@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Introspection"]
 website: "https://www.introspection.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b1dc34ad30b5021d2fcd4da751647aa9747404793774f12afcfeaa9c8551e890
+  subjectId: company:introspection
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ae623a16f8442682edeb571fc30ce28602ad47e9ab8c89e22fe19ff04722a039
 ---
 # Introspection
 

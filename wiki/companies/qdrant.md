@@ -3,6 +3,19 @@ title: "Qdrant"
 category: "companies"
 aliases: ["Qdrant"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ebf17f8899af1e503d0400ef81b356b0e2ceac1fd482fb44203a776a71786048
+  subjectId: company:qdrant
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9b13a907b9f50f4a95eba8f8737951cce89f7580fb30dd79b55ba214943a0972
 ---
 # Qdrant
 

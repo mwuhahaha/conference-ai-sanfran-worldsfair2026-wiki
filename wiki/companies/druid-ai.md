@@ -3,6 +3,19 @@ title: "DRUID AI"
 category: "companies"
 aliases: ["DRUID AI", "Druid AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:399747298a5ce5b06e853021cd90561589b0cfce1c2482d2be13e1015f13c73f
+  subjectId: company:druid-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:24e80e2158a554462f7ac76ebc6a2fb9fa042ea8e75775c5f1493c888697c0a0
 ---
 # DRUID AI
 

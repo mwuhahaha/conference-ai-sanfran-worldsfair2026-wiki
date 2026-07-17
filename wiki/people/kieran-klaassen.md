@@ -8,6 +8,19 @@ twitter: "https://x.com/kieranklaassen"
 website: "https://cora.computer"
 blog: "https://x.com/kieranklaassen"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2d7a20a5ccd617f9c06aad38fe0f159be4db7f9b3bf785a41ebeeb394bd7f10b
+  subjectId: person:kieran-klaassen
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:578151310f8b16ec715aaa9ce0d1e2a60ba34ec4b3fd0a34e21267adeb69e774
 ---
 # Kieran Klaassen
 

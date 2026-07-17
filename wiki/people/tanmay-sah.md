@@ -5,6 +5,19 @@ role: "Senior Quantitative Modeler"
 company: "Zions Bancorporation"
 linkedin: "https://www.linkedin.com/in/tanmay-sah/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4b04988c02d66bcd3704bb4d4faf0fbd97092c064dec436b05dffc3cb813b4ef
+  subjectId: person:tanmay-sah
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5d9d41a7b17b2a182f631586e11beddfa2eda9e293256c06990de353f605646c
 ---
 # Tanmay Sah
 

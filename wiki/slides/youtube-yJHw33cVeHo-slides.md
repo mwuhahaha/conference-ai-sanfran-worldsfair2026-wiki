@@ -21,12 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATION SPONSOR
-> aws
-> PLATINUM SPONSORS
-> MongoDB.
-> Google Cloud
-> neo4j
+> AWS
+> Y MongoDB o Cloud NeOY
 
 ![[assets/slides/yJHw33cVeHo/slide-002.jpg]]
 
@@ -42,8 +38,8 @@ OCR text:
 
 OCR text:
 
-> 01 AI Outlook
-> 02 GPT-4o
+> 01Al Outlook
+> 02 GPT-40
 > 03 What's Next
 
 ![[assets/slides/yJHw33cVeHo/slide-004.jpg]]
@@ -149,7 +145,7 @@ OCR text:
 > ca ime.
 > cower A Oem
 > ey E — oo
-> 
+>
 > den Hy
 > toy
 > we el rn’
@@ -255,49 +251,48 @@ OCR text:
 
 OCR text:
 
-> AIE
 > Our investment areas
-> Textual
+> ay ar
 > intelligence
-> Microsoft
-> smol.ai
+> | | BE Microsoft Qo?
+> 7 ial.
 
 ![[assets/slides/yJHw33cVeHo/slide-019.jpg]]
 
 OCR text:
 
 > ino
-> 
+>
 > o
-> 
+>
 > (o7
-> 
+>
 > Cc
-> 
+>
 > ov
-> 
+>
 > 2
-> 
+>
 > co
-> 
+>
 > = aferor-W]
 > ®
-> 
+>
 > 8
-> 
+>
 > =
-> 
+>
 > GPT-3 Era GPT-4 Era “GPT Next” Future Models
 
 ![[assets/slides/yJHw33cVeHo/slide-020.jpg]]
 
 OCR text:
 
-> Our investment areas
+> Ourinvestmentareas
 > Textual
-> intelligence
 > Cheaper and
-> faster models
+> intelligence
+> fastermodels
 
 ![[assets/slides/yJHw33cVeHo/slide-021.jpg]]
 
@@ -315,8 +310,6 @@ OCR text:
 OCR text:
 
 > Our investment areas
-> Textual intelligence
-> Cheaper and faster models
 > Custom models
 
 ![[assets/slides/yJHw33cVeHo/slide-023.jpg]]
@@ -341,14 +334,12 @@ OCR text:
 
 OCR text:
 
-> Co-worker agents
-> Docs
-> Code Repo
-> Calendar
-> CRM
-> Email
-> Multimodal AI
-> AI Agents
+> Co-worke ; . Oren
+> id } agents id ») .
+> Xa) a)
+> Docs ‘ a (os,
+> ce) CodeRepo + ey i Email
+> Multimodal Al Al Agents
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

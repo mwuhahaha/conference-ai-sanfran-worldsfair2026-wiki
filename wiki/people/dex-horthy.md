@@ -6,6 +6,19 @@ company: "HumanLayer"
 linkedin: "https://linkedin.com/in/dexterihorthy"
 twitter: "https://x.com/dexhorthy"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aa0eb605474f6e56f0545e35e4cc7c830ee33a0e3adad91c53436208ca66d2a6
+  subjectId: person:dex-horthy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1097b3e693e5ab66fec3473f602feb2333c52bb769fd85b777e2ffee9e715289
 ---
 # Dex Horthy
 
@@ -30,6 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
 
 ### Media Signals
-- `youtube-rmvDxxNubIg` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
+- `youtube-rmvDxxNubIg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
 - Evidence links for `youtube-rmvDxxNubIg` (supporting context only): [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]

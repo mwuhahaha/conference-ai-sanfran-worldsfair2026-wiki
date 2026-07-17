@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/dkundel"
 twitter: "https://x.com/dkundel"
 website: "https://dkundel.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:df473869a04302c9c5db94b579832420e2b1a1815b96cb9b89cd36a0584c06e7
+  subjectId: person:dominik-kundel
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0e8cd8a054dd24f127f9dd1106e9b7798b38b6cb0887186de71c58310d1e8c99
 ---
 # Dominik Kundel
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness|Codex, Behind the Harness]]
 
 ### Media Signals
-- `youtube-iXhba366fQc` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+- `youtube-iXhba366fQc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
 - Evidence links for `youtube-iXhba366fQc` (supporting context only): [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]

@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-tzRvcTEapzo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-tzRvcTEapzo`
-- Slide deck: [[youtube-tzRvcTEapzo-dense-slides|Dense Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/tzRvcTEapzo/slide-001.jpg]]
-![[assets/dense-slides/tzRvcTEapzo/slide-002.jpg]]
-![[assets/dense-slides/tzRvcTEapzo/slide-003.jpg]]
+- Slide deck: [[youtube-tzRvcTEapzo-dense-slides|Dense Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]] — slide evidence page.
 - Additional slide evidence: [[youtube-tzRvcTEapzo-slides|Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]], [[youtube-tzRvcTEapzo-reconstructed-slides|Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]]
-- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -82,8 +79,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
+- `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
 
 ### Agent Reading Notes

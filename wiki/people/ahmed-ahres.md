@@ -8,6 +8,19 @@ twitter: "https://x.com/Boudatw"
 website: "https://www.ahmedahres.com"
 blog: "https://www.ahmedahres.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e2834f91c2f9828bed58ee530b176f30820693256b5b4256d334f22b3fd7dad5
+  subjectId: person:ahmed-ahres
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:87a2d3ede1814aebf40ed3da5e0b2d85cee7194fe0925f6b808bf1164c3fa58d
 ---
 # Ahmed Ahres
 

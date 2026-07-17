@@ -5,6 +5,19 @@ aliases: ["LangGraph"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Workshops Day 1", "AI in Finance"]
 scheduleRooms: ["Track 6", "Expo Stage 1 NE", "Track 3", "Expo Stage 3 SW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2e643add7da8fd9504cbeca014e023ec1d6e6547935dc7b17bb5eca4efda2700
+  subjectId: tool:langgraph
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:05749b62b04930df9a01fc6118f9d5af78f25aab904b1e6ec32c0e40a4baa4fb
 ---
 
 # LangGraph

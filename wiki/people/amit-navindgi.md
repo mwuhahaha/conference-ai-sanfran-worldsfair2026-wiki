@@ -6,6 +6,19 @@ company: "Zoox"
 linkedin: "https://www.linkedin.com/in/amitnavindgi/"
 twitter: "https://x.com/amitnavindgi"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:841597458dd660532476398b1299ea60471810fee6bb3715cf99e18b4bfd25b0
+  subjectId: person:amit-navindgi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e411f5b734c30a280d9ddd4c7ffe47a1562256d5339dbcf887c9bbeb4f3084d5
 ---
 # Amit Navindgi
 

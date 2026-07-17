@@ -72,12 +72,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube--cKUW6n8hBU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube--cKUW6n8hBU`
-- Slide deck: [[youtube--cKUW6n8hBU-dense-slides|Dense Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]] — 12 visible slide image(s); 12 HTML recreation(s).
-![[assets/dense-slides/-cKUW6n8hBU/slide-001.jpg]]
-![[assets/dense-slides/-cKUW6n8hBU/slide-002.jpg]]
-![[assets/dense-slides/-cKUW6n8hBU/slide-003.jpg]]
+- Slide deck: [[youtube--cKUW6n8hBU-dense-slides|Dense Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]] — slide evidence page.
 - Additional slide evidence: [[youtube--cKUW6n8hBU-slides|Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]], [[youtube--cKUW6n8hBU-reconstructed-slides|Reconstructed Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]]
-- Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
+- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -89,8 +86,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube--cKUW6n8hBU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
+- `youtube--cKUW6n8hBU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
 - Evidence links for `youtube--cKUW6n8hBU` (supporting context only): [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
 
 ### Agent Reading Notes

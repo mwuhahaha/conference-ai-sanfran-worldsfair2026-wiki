@@ -3,6 +3,19 @@ title: "Jakub Hojsan"
 category: "people"
 company: "Exa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:674ffb04eb0a5c0c7c77e3b6eae74d4ab6604a4e94074ba1ed3ab3624f44c37e
+  subjectId: person:jakub-hojsan
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:491ac943488da9e6177e3c9afdb146a3b6bbedcd832d6e6570dbc3a7eb38fee9
 ---
 # Jakub Hojsan
 

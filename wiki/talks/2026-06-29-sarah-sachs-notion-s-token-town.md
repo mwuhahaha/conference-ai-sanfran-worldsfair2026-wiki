@@ -63,11 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-6YdPI9YbjbI]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-6YdPI9YbjbI`
-- Slide deck: [[youtube-6YdPI9YbjbI-dense-slides|Dense Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/6YdPI9YbjbI/slide-001.jpg]]
-![[assets/dense-slides/6YdPI9YbjbI/slide-002.jpg]]
+- Slide deck: [[youtube-6YdPI9YbjbI-dense-slides|Dense Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]] — slide evidence page.
 - Additional slide evidence: [[youtube-6YdPI9YbjbI-slides|Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]], [[youtube-6YdPI9YbjbI-reconstructed-slides|Reconstructed Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]]
-- Slide-derived themes for `youtube-6YdPI9YbjbI`: create, project.
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,7 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-6YdPI9YbjbI` — source page linked; role: supporting context only.
+- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
 - Evidence links for `youtube-6YdPI9YbjbI` (supporting context only): [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
 
 ### Agent Reading Notes

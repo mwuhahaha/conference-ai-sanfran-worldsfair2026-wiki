@@ -1,17 +1,7 @@
-YOUR ROADMAP
+eaters a at)
+. P — ‘ie
 Implementation Checklist
-1 Catalog Your Tools
-Gather all tool names, descriptions, and JSON schemas in a structured list
-2 Build the Embedding Index
-Embed each description; store vectors in FAISS or Pinecone; one-time setup
-3 Implement the Router
-embed(query) → similarity_search → top-K → fetch schemas
-4 Integrate Into the Agent Loop
-Replace your static functions list with the router output on every call
-5 Evaluate & Tune K
-Benchmark accuracy at K = 3, 5, 10 on a held-out set; pick the sweet spot
-6 Monitor & Iterate
-Log selections; alert on missed tools; re-embed as your catalog grows
-Ankush Rastogi
-Sohail Shaikh
-14
+Catalog Your Tools ., Build the Embedding Index
++ , |
+; Implement the Router Integrate into the Agent Loop
+7 Evaluate & Tune K 7 Monitor & Iterate

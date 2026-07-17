@@ -3,6 +3,19 @@ title: "Bright Data"
 category: "companies"
 aliases: ["Bright Data"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:7712ab35f739eeec4b2136623d15ee31c1bd840777e142b1d4433f95e1696233
+  subjectId: company:bright-data
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:32f8665e3c24f7b4ee7f069ba7d899cfd0f267978ffed4a92c9178611fda5c10
 ---
 # Bright Data
 

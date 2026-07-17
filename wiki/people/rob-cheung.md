@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/robertkcheung"
 twitter: "https://x.com/perceptnet"
 website: "https://rob.zo.space"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fd9185b69922b0e572f2ca3ecba790c5cff498bbc98492f9c3965a4c46c3f587
+  subjectId: person:rob-cheung
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2cc81fc84f3a1f02397cb00ae733babd7d1b4acc61c837ae01b7dfa7beab3cfe
 ---
 # Rob Cheung
 

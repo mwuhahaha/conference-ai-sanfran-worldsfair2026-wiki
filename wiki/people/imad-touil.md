@@ -5,6 +5,19 @@ role: "Distinguished Engineer"
 company: "QuantumBlack, AI by McKinsey"
 linkedin: "https://www.linkedin.com/in/imad-touil/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0d743635bc2e950297c4f9325e755d3b4514e7ff08e4930f239b5b01cce1674c
+  subjectId: person:imad-touil
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d6bc0f31ca63c8b9adb97e66d5cf786b7911b0f7b62a7e54f89c158c55ccf297
 ---
 # Imad Touil
 

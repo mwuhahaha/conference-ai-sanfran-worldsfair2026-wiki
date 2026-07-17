@@ -5,6 +5,19 @@ role: "Founding Engineer"
 company: "typedef"
 linkedin: "https://www.linkedin.com/in/bcallender/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cc7316e21c4ef9f67292e87870fe5efe251b801161e9130392cdcf813a92c858
+  subjectId: person:brandon-callender
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:890a4f2e4fa156b1085d4b9a9df5bb6b91933db99ac474a39eaf426e23592e81
 ---
 # Brandon Callender
 

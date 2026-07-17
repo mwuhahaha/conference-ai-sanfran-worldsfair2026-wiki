@@ -3,6 +3,19 @@ title: "Arithmetic"
 category: "companies"
 aliases: ["Arithmetic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:55bf89ede4252f3c10e8ca8bea9133adea5cf546077fa19f3a6b0eb0ede246ec
+  subjectId: company:arithmetic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cba8571227d234ec178dc5e6b0517c5602b75f9cedf9e85ef6d0f599e963fb55
 ---
 # Arithmetic
 

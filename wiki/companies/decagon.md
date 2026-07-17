@@ -3,6 +3,19 @@ title: "Decagon"
 category: "companies"
 aliases: ["Decagon"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a4897838c9201ecee9b788c8c8d0883dfa88eab8b4d0a0fd090cd5c786f1224c
+  subjectId: company:decagon
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5c1d881e36de712a4170f4ebf5d1a83d4606290363596bfbd2d1fe1d42c64268
 ---
 # Decagon
 

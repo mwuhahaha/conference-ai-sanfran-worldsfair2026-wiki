@@ -4,6 +4,19 @@ category: "people"
 role: "Staff Developer Success Advocate"
 company: "Docker"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9be71ec369db5ef55223e85bde852d94af8829b12c900b40e69c2302e2c6f832
+  subjectId: person:dan-ndombe
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:865e79ad1c1f45e02a5a2efe2d330a0295e18a94e928aba720ecf1d0c63cd661
 ---
 # Dan Ndombe
 

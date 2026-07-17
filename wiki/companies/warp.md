@@ -3,6 +3,19 @@ title: "Warp"
 category: "companies"
 aliases: ["Warp"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cb1d3fe3e64772c63cce248642e357e3976fbeb5ffc92a43bbff88f400a727e4
+  subjectId: company:warp
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:242548a3876c77203b38608082c4172033fadd7f74d49b7cc38136f4fd57ffff
 ---
 # Warp
 

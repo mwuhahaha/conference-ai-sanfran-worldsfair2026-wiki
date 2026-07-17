@@ -3,6 +3,19 @@ title: "Stanford University"
 category: "companies"
 aliases: ["Stanford University"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5d49a4f33e72faf833522b20873a207c8b53be58954a18d6eb1732db778490a8
+  subjectId: company:stanford-university
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:468731850ed5f96b96db3c62c63b9defcd4c16b74cfc7d5d7fb0c2000834e7b1
 ---
 # Stanford University
 

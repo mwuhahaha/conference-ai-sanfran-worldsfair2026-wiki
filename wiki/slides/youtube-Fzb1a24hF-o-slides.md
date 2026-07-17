@@ -59,11 +59,11 @@ OCR text:
 > softwe
 > Define software deli :
 > components — includ 7
-> 
+>
 > Guit by the creators o YP
-> 
+>
 > De
-> 
+>
 > ae 2 ro a Microsoft ry?
 
 ![[assets/slides/Fzb1a24hF-o/slide-004.jpg]]
@@ -168,22 +168,31 @@ OCR text:
 
 OCR text:
 
-> This module has been generated via dagger init and serves as a reference to
-> basic module structure as you get started with Dagger.
-> Two functions have been pre-created. You can modify, delete, or add to them,
-> as needed. They demonstrate usage of arguments and return types using simple
-> echo and grep commands. The functions can be called from the dagger CLI or
-> from one of the SDKs.
-> The first line in this comment block is a short description line and the
-> rest is a long description with more detail on the module's purpose or usage,
-> if appropriate. All modules should have a short description.
-> Missing.source: ModuleSource! 0.0s
-> .digest: String! 0.0s
-> xxh3:c5554240ef477fe5
-> ModuleSource.asString: String! 0.0s
-> /Users/kylepenfound/github.com/kpenfound/hello-dagger-py/.dagger/workspace
-> ModuleSource.localContextDirectoryPath: String! 0.0s
-> /Users/kylepenfound/github.com/kpenfound/hello-dagger-py
+> a a se ci ili jada Se oe
+> or a
+> Pras cudube Pan Meet gerectated via dagqer acit and Semmes as ag feferencie t
+> ct ae Cee an cae ace hme ce eer rae et
+> Ts es Poe ARS CR a A CO A) aC
+> a gaa OM eM aera 2 ca a a Pc tec ces
+> Emo ge coe ea Ce ce ee reece a a eA CO Sa Ma Oe
+> Sea ae IEC ae
+> aU ae ae ese CCS caer aa Cao a CT ee ee ts ee Came CE
+> Sa ea OY ae Pac ea a ce a Ye
+> Pete PEE Pa ees A Gigs Sd eb: Shales om Sete S fei Pe pan
+> RRP STOOL
+> digest
+> Pen CDSS SSL Ea bes
+> ST eS SS er
+> PORES SO STS CITC a ka en ee TT eT ee eee
+> Mouuleso or LocalcontextDarectoryPath
+> fetern hy leceatogeyaithub ca facerfurnd bela. dagyee oy
+> ee Oc rarer ce art genre EON ORD Ma a Peg eA eee Me Pat oR ea See Pa aR ae a Fe ee eT RR er
+> Pp . u
+> ee
+> - — viva
+> AV a
+> eo... | a Ne eT
+> a ee _— Nel
 
 ![[assets/slides/Fzb1a24hF-o/slide-009.jpg]]
 
@@ -462,7 +471,7 @@ OCR text:
 > ee oe :
 > nede acne dag.cache golure y
 > t
-> 
+>
 > cs eure a
 > Paco
 > Pare Red eee irene ea ig po self.scuren:
@@ -471,13 +480,13 @@ OCR text:
 > Pa f 18
 > ere UT ee. A a oD 7
 > Reena te oa)
-> 
+>
 > » *
-> 
+>
 > a a
-> 
+>
 > n
-> 
+>
 > , an
 > a 4 =
 > . ca

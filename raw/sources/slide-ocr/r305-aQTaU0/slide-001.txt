@@ -1,2 +1,2 @@
-Text Diffusion
-Speaker: Brendan O'Donoghue
+TextDiffusion
+Speaker.Brendan O'Danoohue

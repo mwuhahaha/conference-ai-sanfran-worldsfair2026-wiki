@@ -3,6 +3,19 @@ title: "McKinsey"
 category: "companies"
 aliases: ["McKinsey"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a8b3788da97a1291803ac04851c2ecaec6d985b1ef0b2cf0dec867a079ad0289
+  subjectId: company:mckinsey
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6f041536364275bdd433792e35b89f50355125ebcc214917e424be00ebdd99c7
 ---
 # McKinsey
 

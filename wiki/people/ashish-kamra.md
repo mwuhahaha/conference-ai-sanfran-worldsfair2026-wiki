@@ -5,6 +5,19 @@ role: "Senior Manager, Software Engineering"
 company: "Red Hat"
 linkedin: "https://www.linkedin.com/in/ashishkamra/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b408ec57ab39936cd3a765e3c73598e33b15598001fb09c7388b3ffa73d1955f
+  subjectId: person:ashish-kamra
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:fcbabc4bb6ce82a3060c4481eb64a3590e208049afc4a8da4394489ca2b9bdb0
 ---
 # Ashish Kamra
 

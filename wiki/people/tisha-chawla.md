@@ -6,6 +6,19 @@ company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/tisha-chawla"
 website: "https://dev.to/tisha"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e08f186ccfbb36086155c4efb7300c3ffe3ad5aacc305ba30d62211bdaa506b5
+  subjectId: person:tisha-chawla
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ca8d62103ee37af31719a5191e162da8fd7a31fca49f57d708b0500de043def4
 ---
 # Tisha Chawla
 
@@ -31,6 +44,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens|FinOps for AI Agents: Who Spent All the Tokens?]]
 
 ### Media Signals
-- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
+- `youtube-Lc8zRh9muoY` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, asked, sell, identical, determinism, never, failed.
 - Evidence links for `youtube-Lc8zRh9muoY` (supporting context only): [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]

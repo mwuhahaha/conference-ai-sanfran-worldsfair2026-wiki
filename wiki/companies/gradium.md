@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Gradium"]
 website: "https://gradium.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ac8ef8cb1e2ccd0fd8b961c0f9f4b76a38fdbd4776e8122648c697a00c5ae89a
+  subjectId: company:gradium
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5deed9a599bd4a91316f53ad9e1880687d5db7c5eafddae9b7d5cbfffb996afa
 ---
 # Gradium
 
@@ -42,7 +55,7 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 
 ### Media Signals
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 ## Evidence Boundary

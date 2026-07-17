@@ -3,6 +3,19 @@ title: "Philo Ventures"
 category: "companies"
 aliases: ["Philo Ventures"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c8c6164ed20c302fc06e436cf6e1dc8898d5260e878eda1f8a0055f0da4ab10c
+  subjectId: company:philo-ventures
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0da9780d2727abcd7be1eb8b67c9bdce8f5449dd958bc2bc5496de1a91f0c262
 ---
 # Philo Ventures
 

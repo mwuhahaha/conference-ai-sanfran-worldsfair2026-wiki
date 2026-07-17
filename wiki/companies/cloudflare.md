@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Cloudflare"]
 website: "https://www.cloudflare.com/solutions/ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:94d5d163f283a10a3724a2b3b266928aa8a07fc6480d2bc2e7c4e8ce1cfa9b42
+  subjectId: company:cloudflare
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5bd09c3259c912669adc28a92d771607676e08d9186e487de29575772f074958
 ---
 # Cloudflare
 

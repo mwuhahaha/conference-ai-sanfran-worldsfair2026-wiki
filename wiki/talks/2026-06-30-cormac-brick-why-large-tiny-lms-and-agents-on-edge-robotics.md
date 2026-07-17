@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube--TiET_K-E_g]] - supporting context; not the exact session recording.
 
 - Source video: `youtube--TiET_K-E_g`
-- Slide deck: [[youtube--TiET_K-E_g-dense-slides|Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/-TiET_K-E_g/slide-001.jpg]]
+- Slide deck: [[youtube--TiET_K-E_g-dense-slides|Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]] — slide evidence page.
 - Additional slide evidence: [[youtube--TiET_K-E_g-slides|Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]], [[youtube--TiET_K-E_g-reconstructed-slides|Reconstructed Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]]
-- Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
+- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube--TiET_K-E_g` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
+- `youtube--TiET_K-E_g` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
 - Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
 
 ### Agent Reading Notes

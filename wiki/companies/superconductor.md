@@ -3,6 +3,19 @@ title: "Superconductor"
 category: "companies"
 aliases: ["Superconductor"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f332844081250e596440b9280108c52b47b8c0ab042e3a6b783ae802df655280
+  subjectId: company:superconductor
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:68165c6f9a8785d193b48102ee975cf77d86e2c10c0811fb70189f9943e7eb1d
 ---
 # Superconductor
 

@@ -139,13 +139,15 @@ OCR text:
 
 > Skills
 > AIE
+> AIE
 
 ![[assets/slides/aqW68Is_Kj4/slide-011.jpg]]
 
 OCR text:
 
-> Code Summit
-> Google Cloud
+> te
+>
+> cE
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

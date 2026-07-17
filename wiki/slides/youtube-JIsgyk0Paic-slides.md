@@ -79,21 +79,21 @@ OCR text:
 OCR text:
 
 > LLM agents in 2025
-> 
+>
 > e Most LLMs are Chatbots Stages of Artificial
 > Great on Q&A benchmarks mitaligence
 > Helpful for interactive problem-solving Level 1 Chatbots, Al with conversational
-> 
+>
 > e “Reasoning” models = the future? language
 > 01, 03. R1, Grok 3, ... Levelt 2 ee human-level problem
 > Better at hard Q&A
-> 
+>
 > e Best practices for “agents” Level 3 a Agents, systems that can take actions
 > Manychainest. LLM calls pertask Levet 4 Innovators, Al that can aid in invention
 > Prompt engineering + tooling
 > Evals, ops. tool-use, human-in-the-loop Level S chonorsaiedlon that can do the work
 > Results are... OK?
-> 
+>
 > (Openaly
 
 ![[assets/slides/JIsgyk0Paic/slide-005.jpg]]
@@ -158,7 +158,9 @@ OCR text:
 
 OCR text:
 
-> AIE
+> | To en 7 jo
+> ey
+> : iil
 
 ![[assets/slides/JIsgyk0Paic/slide-009.jpg]]
 

@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/thinktopdown/"
 twitter: "https://x.com/hudaman"
 website: "https://adamhuda.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b587530e8074fed1e29b8836e0ae3bda3ee24c2b5793b09aa8e56e44879d16ae
+  subjectId: person:adam-huda
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a27923b1c4a6e5c606b77b1b46ec3b5486831ed6b7b43a0e8e50616b98a2b64f
 ---
 # Adam Huda
 

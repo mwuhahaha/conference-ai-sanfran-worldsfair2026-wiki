@@ -3,6 +3,19 @@ title: "Inngest"
 category: "companies"
 aliases: ["Inngest"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:012187e84a3c0701f37249f2402bd0685d6e610dc53d07a850d0132c582aa239
+  subjectId: company:inngest
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4bac73f78f90e1a87df2942a08539fa2477fcfafdd71c3fa343960b803da8195
 ---
 # Inngest
 

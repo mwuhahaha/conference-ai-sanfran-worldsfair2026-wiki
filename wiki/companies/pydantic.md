@@ -3,6 +3,19 @@ title: "Pydantic"
 category: "companies"
 aliases: ["Pydantic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d386a870fb551f6ed96c408f942f5e164f8d99a4464c6f346be1497ae9d3fd63
+  subjectId: company:pydantic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:aa1dce0ecb5a5a4d80236e64c2f5a542838c310444ed454fa621576a35f3094c
 ---
 # Pydantic
 

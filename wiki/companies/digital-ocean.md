@@ -3,6 +3,19 @@ title: "Digital Ocean"
 category: "companies"
 aliases: ["Digital Ocean"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d34669bde2587309b8d0d54e464dda36bd852b6899b95ced6a050198adf6d238
+  subjectId: company:digital-ocean
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2e91d380f2e9dd8184a226abf6ebf16168b2fbce2bbed72c9d50d292b34ca827
 ---
 # Digital Ocean
 

@@ -2,6 +2,21 @@
 title: "Agentic Web"
 category: "topics"
 sourceLabels: ["Official conference schedule", "Public YouTube metadata", "YouTube transcript evidence", "Local slide OCR", "Topic synthesis"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9f0de2efc095323effa785b6c11aac4b8819f81d12c60cdfb33cd90a869cae79
+  subjectId: concept:agentic-web
+  domain: topics page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-pMggiOb18tc
+sourceAssessmentBodySha256: sha256:7c3a16d6cb61dc0ade8065e828fe93adc3e7c0b05fcd15d367d86f4bfd2769da
 ---
 # Agentic Web
 
@@ -133,15 +148,15 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-ZSQb5fzRFPw`: attribute claims to the recording or speaker unless independently corroborated.
@@ -153,14 +168,15 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
 - Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
-- `youtube-JnubYCYunk8` — 937 transcript words; role: supporting context only.
+- `youtube-JnubYCYunk8` — 937 transcript words; 4 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-JnubYCYunk8`: browser, screenshot, give, click, website, been, took, maybe.
+- Slide-derived themes for `youtube-JnubYCYunk8`: today, trying, navigate, browser, challenge.
 - Evidence links for `youtube-JnubYCYunk8` (supporting context only): [[youtube-JnubYCYunk8]], [[youtube-JnubYCYunk8-transcript]], [[youtube-JnubYCYunk8-slides]]
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 - `youtube-JsKTQbT58BY` — source page linked; role: supporting context only.
 - Evidence links for `youtube-JsKTQbT58BY` (supporting context only): [[youtube-JsKTQbT58BY]]

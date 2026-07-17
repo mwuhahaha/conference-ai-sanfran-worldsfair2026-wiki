@@ -3,6 +3,19 @@ title: "The Browser Company"
 category: "companies"
 aliases: ["The Browser Company"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ea4853e96804200c290a609668e31a90af8a42c91399563254dd43d898438d5c
+  subjectId: company:the-browser-company
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:16a45ce3bc5da15ba3c8d45853e7daa83a13d9f115cdb2400c42d3a08f23fd99
 ---
 # The Browser Company
 

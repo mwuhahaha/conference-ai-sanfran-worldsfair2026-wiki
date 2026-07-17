@@ -65,12 +65,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-rcsliSIy_YU]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-rcsliSIy_YU`
-- Slide deck: [[youtube-rcsliSIy_YU-dense-slides|Dense Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]] — 16 visible slide image(s); 16 HTML recreation(s).
-![[assets/dense-slides/rcsliSIy_YU/slide-001.jpg]]
-![[assets/dense-slides/rcsliSIy_YU/slide-002.jpg]]
-![[assets/dense-slides/rcsliSIy_YU/slide-003.jpg]]
+- Slide deck: [[youtube-rcsliSIy_YU-dense-slides|Dense Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]] — slide evidence page.
 - Additional slide evidence: [[youtube-rcsliSIy_YU-slides|Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]], [[youtube-rcsliSIy_YU-reconstructed-slides|Reconstructed Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]]
-- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -79,8 +76,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-rcsliSIy_YU` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
 - Evidence links for `youtube-rcsliSIy_YU` (supporting context only): [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 
 ### Agent Reading Notes

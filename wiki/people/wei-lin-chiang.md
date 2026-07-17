@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/wei-lin-chiang-51b025b2/"
 twitter: "https://x.com/infwinston"
 website: "https://infwinston.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a4bb64eae5085cd57b3a9551cd81af3f06cf6b9519bda545b20e297749fdc60a
+  subjectId: person:wei-lin-chiang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2b9868a49a0f1dc5bdf7d52b2ac74c47fffc5779519f6f1d28ff7d08cb7d8daf
 ---
 # Wei-Lin Chiang
 

@@ -5,6 +5,19 @@ aliases: ["Azure"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Track M"]
 scheduleRooms: ["Track M"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b0b24bf1c2e8e7a3089b3d66393c6f4a7d4c57ef02f6b8e691d30c320dba331d
+  subjectId: tool:azure
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:d3e90515097b3f61fc2016637951c746e004a5073ea9d3930aa699e28bc1cdfb
 ---
 
 # Azure

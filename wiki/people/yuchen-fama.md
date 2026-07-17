@@ -5,6 +5,19 @@ role: "Senior Principal Product Manager"
 company: "Red Hat"
 linkedin: "https://www.linkedin.com/in/yuchen-fama"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d2f4220429b897bb00ece142332291c92229c175b439074303c25de30655f392
+  subjectId: person:yuchen-fama
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a656602e6eb6215c9e9d9379aa23755f75d502a248107112f0cfa965159a745f
 ---
 # Yuchen Fama
 

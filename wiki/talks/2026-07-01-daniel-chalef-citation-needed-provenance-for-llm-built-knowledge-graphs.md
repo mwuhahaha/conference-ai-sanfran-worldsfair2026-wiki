@@ -63,10 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-T5IMo5ntyhA]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-T5IMo5ntyhA`
-- Slide deck: [[youtube-T5IMo5ntyhA-dense-slides|Dense Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/T5IMo5ntyhA/slide-001.jpg]]
+- Slide deck: [[youtube-T5IMo5ntyhA-dense-slides|Dense Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]] — slide evidence page.
 - Additional slide evidence: [[youtube-T5IMo5ntyhA-slides|Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]], [[youtube-T5IMo5ntyhA-reconstructed-slides|Reconstructed Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]]
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -75,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
 - Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -2,6 +2,19 @@
 title: "Sonar"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9da75db759d79324ee235d984a6afd4c9c1943328a9a6f952263c728e59ce790
+  subjectId: person:sonar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3d01dd5439a97965fcf4773b562f1d927b3ed65b9befca1e13c11d7fdcfedb29
 ---
 # Sonar
 
@@ -25,5 +38,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
 
 ### Media Signals
-- `youtube-NuePCNMpWGc` — source page linked; role: supporting context only.
+- `youtube-NuePCNMpWGc` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, info, demo, stop.
 - Evidence links for `youtube-NuePCNMpWGc` (supporting context only): [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]

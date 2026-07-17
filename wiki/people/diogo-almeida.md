@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/diogomda/"
 twitter: "https://x.com/CompleteSkeptic"
 website: "https://typesafe.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:941c520dc26489ad93fd970c2aa25e6796818eb47dd18badc09e30497dfec694
+  subjectId: person:diogo-almeida
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f3ebcd1281c5bc3638d8dc6e919e275c18a49a75625aa8db42567b127546e10c
 ---
 # Diogo Almeida
 

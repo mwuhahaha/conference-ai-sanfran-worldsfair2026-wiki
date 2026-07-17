@@ -3,6 +3,19 @@ title: "Morgan Stanley"
 category: "companies"
 aliases: ["Morgan Stanley"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:9c894cf0ddff9b668fa6f591664fda5d01e7dd5f889bfbec24add0913b989623
+  subjectId: company:morgan-stanley
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7c4f70d76aab86fa88e08111f4313a108ccbda8299098d0e966881997683ac4e
 ---
 # Morgan Stanley
 

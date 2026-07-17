@@ -5,6 +5,19 @@ role: "Director of Developer Relations"
 company: "Snyk"
 linkedin: "https://www.linkedin.com/in/micahsilverman"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d8037f658711a41185b8cbcde1fdc6d8e19d4b6793f4d7b69badd49d7229e452
+  subjectId: person:micah-silverman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f56469649ef7e27ba9a31c3583d987a6633316b2763b7964d00c70833cbc772b
 ---
 # Micah Silverman
 

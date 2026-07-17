@@ -5,16 +5,29 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 import html
 import importlib.util
 import json
+import math
 import os
 import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from pathlib import Path
+
+try:
+    from markdown_blocks import blockquote
+except ModuleNotFoundError:  # Imported as scripts.classify_and_recreate_slides.
+    from scripts.markdown_blocks import blockquote
+
+try:
+    from slide_codex_safety import CODEX_NO_TOOL_ARGS, UNTRUSTED_MEDIA_PREAMBLE
+except ModuleNotFoundError:  # Imported as scripts.classify_and_recreate_slides.
+    from scripts.slide_codex_safety import CODEX_NO_TOOL_ARGS, UNTRUSTED_MEDIA_PREAMBLE
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,11 +36,15 @@ SLIDE_PAGES = WIKI / "slides"
 CLASSIFICATION_ROOT = ROOT / "raw" / "sources" / "slide-ai-classification"
 RECREATION_ASSETS = WIKI / "assets" / "slide-recreations"
 DEFAULT_CODEX_MODEL = os.environ.get("CODEX_SLIDE_CLASSIFIER_MODEL", "gpt-5.4-mini")
-POLICY_VERSION = "agent-triage-ocr-reconcile-v2"
+POLICY_VERSION = "agent-triage-ocr-reconcile-v5"
+CACHE_SCHEMA_VERSION = 2
+PUBLICATION_SCHEMA_VERSION = 1
+MIN_CLASSIFICATION_CONFIDENCE = 0.72
+PUBLICATION_PENDING_MARKER = "<!-- slide-ai-classifier-publication-pending -->"
 
 JSON_RE = re.compile(r"\{.*\}", re.S)
 
-PROMPT = """Inspect the attached conference video frame.
+PROMPT = UNTRUSTED_MEDIA_PREAMBLE + """Inspect the attached conference video frame.
 
 Return only compact JSON with this shape:
 {
@@ -65,7 +82,7 @@ Keep only frames that are clearly actual presentation slides with meaningful con
 - Coordinates are percentages from 0 to 100 and should approximate the recreated slide layout.
 """
 
-BATCH_PROMPT = """Inspect the attached conference video frames.
+BATCH_PROMPT = UNTRUSTED_MEDIA_PREAMBLE + """Inspect the attached conference video frames.
 
 Return only compact JSON with this shape:
 {
@@ -113,7 +130,7 @@ Keep only frames that are clearly actual presentation slides with meaningful con
 Image order:
 """
 
-RECONCILE_PROMPT = """Inspect the attached slide image and the OCR candidate below.
+RECONCILE_PROMPT = UNTRUSTED_MEDIA_PREAMBLE + """Inspect the attached slide image and the OCR candidate below.
 
 Return only compact JSON with this shape:
 {
@@ -127,14 +144,58 @@ Use the image as authority. Correct obvious OCR errors only when the image clear
 OCR candidate:
 """
 
+PROMPT_CONTRACT_SHA256 = hashlib.sha256(
+    f"{POLICY_VERSION}\n{PROMPT}\n{BATCH_PROMPT}\n{RECONCILE_PROMPT}".encode("utf-8")
+).hexdigest()
+
 
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore").strip() if path.exists() else ""
 
 
-def write_text(path: Path, text: str) -> None:
+def _text_bytes(text: str) -> bytes:
+    return (text.rstrip() + "\n").encode("utf-8")
+
+
+def _fsync_directory(path: Path) -> None:
+    try:
+        descriptor = os.open(path, os.O_RDONLY)
+    except OSError:
+        return
+    try:
+        os.fsync(descriptor)
+    finally:
+        os.close(descriptor)
+
+
+def _stage_bytes(path: Path, data: bytes) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text.rstrip() + "\n", encoding="utf-8")
+    descriptor, temporary = tempfile.mkstemp(
+        prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
+    )
+    temporary_path = Path(temporary)
+    try:
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(data)
+            handle.flush()
+            os.fsync(handle.fileno())
+    except BaseException:
+        temporary_path.unlink(missing_ok=True)
+        raise
+    return temporary_path
+
+
+def atomic_write_bytes(path: Path, data: bytes) -> None:
+    temporary_path = _stage_bytes(path, data)
+    try:
+        os.replace(temporary_path, path)
+        _fsync_directory(path.parent)
+    finally:
+        temporary_path.unlink(missing_ok=True)
+
+
+def write_text(path: Path, text: str) -> None:
+    atomic_write_bytes(path, _text_bytes(text))
 
 
 def encode_image(path: Path) -> str:
@@ -146,20 +207,10 @@ def parse_json(text: str) -> dict:
     payload = match.group(0) if match else text
     try:
         data = json.loads(payload)
-    except Exception:
-        return {
-            "is_content_slide": False,
-            "confidence": 0.0,
-            "frame_type": "other",
-            "reject_reason": f"unparseable response: {(text or '')[:180]}",
-            "text": "",
-            "text_status": "illegible",
-            "ocr_ready": False,
-            "ocr_reason": "",
-            "direct_read_ready": False,
-            "text_density": "none",
-            "layout": {"background": "#ffffff", "style": "light", "blocks": []},
-        }
+    except Exception as exc:
+        raise ValueError(f"slide classifier returned malformed JSON: {(text or '')[:180]}") from exc
+    if not isinstance(data, dict):
+        raise ValueError("slide classifier returned malformed JSON: expected an object")
     layout = data.get("layout") if isinstance(data.get("layout"), dict) else {}
     blocks = layout.get("blocks") if isinstance(layout.get("blocks"), list) else []
     normalized_blocks = []
@@ -176,16 +227,19 @@ def parse_json(text: str) -> dict:
                 "h": clamp_number(block.get("h"), 1, 100, 12),
             }
         )
+    confidence = parse_probability(data.get("confidence"))
     return {
-        "is_content_slide": bool(data.get("is_content_slide")),
-        "confidence": float(data.get("confidence") or 0),
+        "is_content_slide": parse_boolean(data.get("is_content_slide"), "is_content_slide"),
+        "confidence": confidence,
         "frame_type": str(data.get("frame_type") or "other"),
         "reject_reason": str(data.get("reject_reason") or "").strip(),
         "text": str(data.get("text") or "").strip(),
         "text_status": str(data.get("text_status") or ("meaningful" if data.get("text") else "none"))[:40],
-        "ocr_ready": bool(data.get("ocr_ready")),
+        "ocr_ready": parse_boolean(data.get("ocr_ready"), "ocr_ready"),
         "ocr_reason": str(data.get("ocr_reason") or "").strip()[:240],
-        "direct_read_ready": bool(data.get("direct_read_ready")),
+        "direct_read_ready": parse_boolean(
+            data.get("direct_read_ready"), "direct_read_ready"
+        ),
         "text_density": str(data.get("text_density") or "none")[:40],
         "layout": {
             "background": str(layout.get("background") or "#ffffff")[:160],
@@ -200,11 +254,11 @@ def parse_batch_json(text: str) -> list[dict]:
     payload = match.group(0) if match else text
     try:
         data = json.loads(payload)
-    except Exception:
-        return []
+    except Exception as exc:
+        raise ValueError("slide batch classifier returned malformed JSON") from exc
     slides = data.get("slides") if isinstance(data, dict) else data
     if not isinstance(slides, list):
-        return []
+        raise ValueError("slide batch classifier returned no slides array")
     return [parse_json(json.dumps(item, ensure_ascii=False)) | {
         "image_index": item.get("image_index") if isinstance(item, dict) else None,
         "filename": str(item.get("filename") or "").strip() if isinstance(item, dict) else "",
@@ -216,7 +270,40 @@ def clamp_number(value, lower: float, upper: float, fallback: float) -> float:
         number = float(value)
     except Exception:
         return fallback
+    if not math.isfinite(number):
+        return fallback
     return max(lower, min(upper, number))
+
+
+def parse_boolean(value, name: str) -> bool:
+    if type(value) is not bool:
+        raise ValueError(f"slide classifier returned non-boolean {name}")
+    return value
+
+
+def parse_probability(value) -> float:
+    if type(value) not in {int, float}:
+        raise ValueError("slide classifier returned non-numeric confidence")
+    try:
+        number = float(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError("slide classifier returned non-numeric confidence") from exc
+    if not math.isfinite(number) or not 0 <= number <= 1:
+        raise ValueError("slide classifier returned confidence outside 0..1")
+    return number
+
+
+def validate_min_confidence(value: float) -> float:
+    if (
+        isinstance(value, bool)
+        or not isinstance(value, (int, float))
+        or not math.isfinite(float(value))
+        or not MIN_CLASSIFICATION_CONFIDENCE <= float(value) <= 1
+    ):
+        raise ValueError(
+            f"min confidence must be between {MIN_CLASSIFICATION_CONFIDENCE} and 1"
+        )
+    return float(value)
 
 
 def codex_cli(image: Path, model: str, timeout: int) -> dict:
@@ -230,10 +317,14 @@ def codex_cli(image: Path, model: str, timeout: int) -> dict:
         command,
         "exec",
         "--ephemeral",
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--skip-git-repo-check",
+        *CODEX_NO_TOOL_ARGS,
         "-s",
         "read-only",
         "-C",
-        str(ROOT),
+        str(out_dir),
         "-i",
         str(image),
         "-o",
@@ -244,7 +335,7 @@ def codex_cli(image: Path, model: str, timeout: int) -> dict:
     ]
     env = os.environ.copy()
     env.pop("OPENAI_API_KEY", None)
-    cp = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, timeout=timeout, env=env)
+    cp = subprocess.run(cmd, cwd=out_dir, text=True, capture_output=True, timeout=timeout, env=env)
     if cp.returncode != 0:
         raise RuntimeError((cp.stderr or cp.stdout)[-1200:])
     if not out_file.exists():
@@ -263,10 +354,14 @@ def codex_cli_reconcile(image: Path, ocr_text: str, model: str, timeout: int) ->
         command,
         "exec",
         "--ephemeral",
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--skip-git-repo-check",
+        *CODEX_NO_TOOL_ARGS,
         "-s",
         "read-only",
         "-C",
-        str(ROOT),
+        str(out_dir),
         "-i",
         str(image),
         "-o",
@@ -277,7 +372,7 @@ def codex_cli_reconcile(image: Path, ocr_text: str, model: str, timeout: int) ->
     ]
     env = os.environ.copy()
     env.pop("OPENAI_API_KEY", None)
-    cp = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, timeout=timeout, env=env)
+    cp = subprocess.run(cmd, cwd=out_dir, text=True, capture_output=True, timeout=timeout, env=env)
     if cp.returncode != 0:
         raise RuntimeError((cp.stderr or cp.stdout)[-1200:])
     if not out_file.exists():
@@ -310,10 +405,14 @@ def codex_cli_batch(images: list[Path], model: str, timeout: int) -> list[dict]:
         command,
         "exec",
         "--ephemeral",
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--skip-git-repo-check",
+        *CODEX_NO_TOOL_ARGS,
         "-s",
         "read-only",
         "-C",
-        str(ROOT),
+        str(out_dir),
         *image_args,
         "-o",
         str(out_file),
@@ -323,7 +422,7 @@ def codex_cli_batch(images: list[Path], model: str, timeout: int) -> list[dict]:
     ]
     env = os.environ.copy()
     env.pop("OPENAI_API_KEY", None)
-    cp = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, timeout=timeout, env=env)
+    cp = subprocess.run(cmd, cwd=out_dir, text=True, capture_output=True, timeout=timeout, env=env)
     if cp.returncode != 0:
         raise RuntimeError((cp.stderr or cp.stdout)[-1200:])
     if not out_file.exists():
@@ -518,8 +617,7 @@ def render_recreation(video_id: str, slide: Path, result: dict, args: argparse.N
 """
 
 
-def upsert_section(path: Path, heading: str, body: str) -> None:
-    text = path.read_text(encoding="utf-8")
+def updated_section_text(text: str, heading: str, body: str) -> str:
     text = re.sub(r"\n## Removed Non-Slide Frames\n.*?(?=\n## |\Z)", "\n", text, flags=re.S)
     text = re.sub(r"\n## Hidden Non-Slide Evidence\n.*?(?=\n## |\Z)", "\n", text, flags=re.S)
     if heading != "Extracted Slides":
@@ -530,23 +628,40 @@ def upsert_section(path: Path, heading: str, body: str) -> None:
         text = pattern.sub(lambda _m: block, text)
     else:
         text = text.rstrip() + block
-    write_text(path, text)
+    return text.rstrip() + "\n"
 
 
-def refresh_page(video_id: str, accepted: list[dict], rejected: list[dict], args: argparse.Namespace) -> None:
+def upsert_section(path: Path, heading: str, body: str) -> None:
+    write_text(
+        path,
+        updated_section_text(path.read_text(encoding="utf-8"), heading, body),
+    )
+
+
+def rendered_page(
+    video_id: str,
+    accepted: list[dict],
+    rejected: list[dict],
+    args: argparse.Namespace,
+) -> tuple[Path, str] | None:
     suffix = deck_config(args)["page_suffix"]
     page = SLIDE_PAGES / f"youtube-{video_id}-{suffix}.md"
     if not page.exists():
-        return
+        return None
     lines = []
     if not accepted:
         lines.append("No slide-like frames are visible after AI slide classification. Rejected frames remain stored as evidence and are listed below.")
     for item in accepted:
         slide = Path(item["image"])
+        if not slide.is_absolute():
+            slide = ROOT / slide
         rel = slide.relative_to(WIKI)
         lines.append(f"![[{rel.as_posix()}]]")
         lines.append("")
-        recreate_rel = Path(item["recreation"]).relative_to(WIKI).as_posix()
+        recreation = Path(item["recreation"])
+        if not recreation.is_absolute():
+            recreation = ROOT / recreation
+        recreate_rel = recreation.relative_to(WIKI).as_posix()
         lines.append(f"- Recreated text/layout view: [open HTML recreation](/{recreate_rel})")
         lines.append(f"- AI slide classifier: `{item['frame_type']}` confidence `{item['confidence']}`")
         if item.get("text_source"):
@@ -562,29 +677,350 @@ def refresh_page(video_id: str, accepted: list[dict], rejected: list[dict], args
         text = item.get("text") or ""
         text_status = item.get("text_status") or ("meaningful" if text else "none")
         if text and text_status == "meaningful":
-            lines.extend(["", "Slide text:", "", "> " + text.strip().replace("\n", "\n> "), ""])
+            lines.extend(["", "Slide text:", "", blockquote(text), ""])
         elif text_status and text_status != "meaningful":
             lines.append(f"- Slide text: not surfaced (`{text_status}` by AI classifier).")
     if rejected:
         lines.extend(["", "### Hidden Non-Slide Evidence"])
         for item in rejected:
             slide = Path(item["image"])
+            if not slide.is_absolute():
+                slide = ROOT / slide
             rel = slide.relative_to(WIKI).as_posix()
             lines.append(
                 f"- [`{slide.name}`](/{rel}) — `{item['frame_type']}` confidence `{item['confidence']}`; "
                 f"{item.get('reject_reason') or 'not a content slide'}"
             )
     lines.extend(["", f"Classification audit: `raw/sources/slide-ai-classification/{args.deck_kind}/{video_id}/audit.json`"])
-    upsert_section(page, deck_config(args)["visible_heading"], "\n".join(lines))
+    return (
+        page,
+        updated_section_text(
+            page.read_text(encoding="utf-8"),
+            deck_config(args)["visible_heading"],
+            "\n".join(lines),
+        ),
+    )
 
 
-def cached_result(path: Path) -> dict | None:
+def refresh_page(video_id: str, accepted: list[dict], rejected: list[dict], args: argparse.Namespace) -> None:
+    rendered = rendered_page(video_id, accepted, rejected, args)
+    if rendered is not None:
+        page, text = rendered
+        write_text(page, text)
+
+
+def pending_page_text(page: Path, args: argparse.Namespace) -> str | None:
+    text = page.read_text(encoding="utf-8")
+    markers = (
+        "Classification audit:",
+        "/assets/slide-recreations/",
+        "AI slide classifier:",
+    )
+    if not any(marker in text for marker in markers):
+        return None
+    body = (
+        f"{PUBLICATION_PENDING_MARKER}\n"
+        "> **Classifier-derived view withheld.** A replacement publication is "
+        "in progress or did not finish. Original captured slide/frame files "
+        "remain the source evidence.\n"
+    )
+    return updated_section_text(text, deck_config(args)["visible_heading"], body)
+
+
+def _manifest_sha256(manifest: list[dict[str, object]]) -> str:
+    return hashlib.sha256(
+        json.dumps(manifest, separators=(",", ":"), sort_keys=True).encode("utf-8")
+    ).hexdigest()
+
+
+def _project_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def bind_recreation_output(record: dict, path: Path, data: bytes) -> None:
+    record.update(
+        {
+            "recreation": _project_path(path),
+            "recreation_sha256": hashlib.sha256(data).hexdigest(),
+            "recreation_size_bytes": len(data),
+        }
+    )
+
+
+def recreation_manifest(accepted: list[dict]) -> list[dict[str, object]]:
+    manifest = [
+        {
+            "path": str(
+                Path(record["recreation"]).relative_to(ROOT)
+                if Path(record["recreation"]).is_absolute()
+                else Path(record["recreation"])
+            ),
+            "sha256": record["recreation_sha256"],
+            "size_bytes": record["recreation_size_bytes"],
+        }
+        for record in accepted
+    ]
+    return sorted(manifest, key=lambda item: str(item["path"]))
+
+
+def validate_recreation_publication(
+    audit: dict,
+    outputs: list[tuple[Path, bytes]],
+    *,
+    read_published: bool = False,
+) -> None:
+    if (
+        audit.get("publication_schema_version") != PUBLICATION_SCHEMA_VERSION
+        or audit.get("publication_status") != "succeeded"
+    ):
+        raise RuntimeError("classification publication envelope is incomplete")
+    manifest = audit.get("recreation_manifest")
+    if not isinstance(manifest, list) or audit.get(
+        "recreation_manifest_sha256"
+    ) != _manifest_sha256(manifest):
+        raise RuntimeError("classification recreation manifest is not digest-bound")
+    accepted = audit.get("accepted")
+    if not isinstance(accepted, list) or recreation_manifest(accepted) != manifest:
+        raise RuntimeError(
+            "classification accepted records do not match recreation manifest"
+        )
+    output_by_path = {str(path.relative_to(ROOT)): data for path, data in outputs}
+    if len(output_by_path) != len(outputs):
+        raise RuntimeError("classification recreation output paths are not unique")
+    expected = {
+        str(item.get("path")): (
+            item.get("sha256"),
+            item.get("size_bytes"),
+        )
+        for item in manifest
+        if isinstance(item, dict)
+    }
+    if set(expected) != set(output_by_path):
+        raise RuntimeError("classification recreation output set does not match audit")
+    for relative, data in output_by_path.items():
+        path = ROOT / relative
+        actual = path.read_bytes() if read_published else data
+        digest, size = expected[relative]
+        if hashlib.sha256(actual).hexdigest() != digest or len(actual) != size:
+            raise RuntimeError(
+                f"classification recreation output digest mismatch: {relative}"
+            )
+
+
+def publish_classification(
+    video_id: str,
+    audit: dict,
+    outputs: list[tuple[Path, bytes]],
+    args: argparse.Namespace,
+    final_page: tuple[Path, str] | None,
+) -> None:
+    """Publish one classifier result with the page as the final visibility gate."""
+
+    validate_recreation_publication(audit, outputs)
+    live_directory = RECREATION_ASSETS / args.deck_kind / video_id
+    live_parent = live_directory.parent
+    live_parent.mkdir(parents=True, exist_ok=True)
+    staged_directory = Path(
+        tempfile.mkdtemp(prefix=f".{video_id}.publication-", dir=live_parent)
+    )
+    audit_path = CLASSIFICATION_ROOT / args.deck_kind / video_id / "audit.json"
+    audit_bytes = _text_bytes(
+        json.dumps(audit, indent=2, ensure_ascii=False, sort_keys=True)
+    )
+    audit_temporary: Path | None = None
+    pending_temporary: Path | None = None
+    final_page_temporary: Path | None = None
+    backup_directory: Path | None = None
+    old_audit = audit_path.read_bytes() if audit_path.is_file() else None
+    page_path = final_page[0] if final_page else (
+        SLIDE_PAGES / f"youtube-{video_id}-{deck_config(args)['page_suffix']}.md"
+    )
+    committed = False
+    try:
+        for output_path, data in outputs:
+            if output_path.parent != live_directory:
+                raise RuntimeError("classification recreation escaped publication directory")
+            staged_path = staged_directory / output_path.name
+            staged_path.write_bytes(data)
+            with staged_path.open("rb") as handle:
+                os.fsync(handle.fileno())
+        _fsync_directory(staged_directory)
+        validate_recreation_publication(audit, outputs)
+        audit_temporary = _stage_bytes(audit_path, audit_bytes)
+        if page_path.is_file():
+            pending = pending_page_text(page_path, args)
+            if pending is not None:
+                pending_temporary = _stage_bytes(page_path, _text_bytes(pending))
+        if final_page is not None:
+            final_page_temporary = _stage_bytes(
+                final_page[0], _text_bytes(final_page[1])
+            )
+
+        if pending_temporary is not None:
+            os.replace(pending_temporary, page_path)
+            pending_temporary = None
+            _fsync_directory(page_path.parent)
+
+        os.replace(audit_temporary, audit_path)
+        audit_temporary = None
+        _fsync_directory(audit_path.parent)
+
+        if live_directory.exists():
+            backup_directory = Path(
+                tempfile.mkdtemp(prefix=f".{video_id}.previous-", dir=live_parent)
+            )
+            backup_directory.rmdir()
+            os.replace(live_directory, backup_directory)
+            _fsync_directory(live_parent)
+        os.replace(staged_directory, live_directory)
+        _fsync_directory(live_parent)
+
+        published_audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        validate_recreation_publication(
+            published_audit, outputs, read_published=True
+        )
+        if final_page_temporary is not None:
+            os.replace(final_page_temporary, final_page[0])
+            final_page_temporary = None
+            _fsync_directory(final_page[0].parent)
+        committed = True
+    except BaseException:
+        if not staged_directory.exists() and live_directory.exists():
+            shutil.rmtree(live_directory, ignore_errors=True)
+        if backup_directory is not None and backup_directory.exists():
+            os.replace(backup_directory, live_directory)
+            backup_directory = None
+            _fsync_directory(live_parent)
+        if old_audit is None:
+            audit_path.unlink(missing_ok=True)
+            _fsync_directory(audit_path.parent)
+        else:
+            atomic_write_bytes(audit_path, old_audit)
+        raise
+    finally:
+        if not committed and staged_directory.exists():
+            shutil.rmtree(staged_directory, ignore_errors=True)
+        for temporary_path in (
+            audit_temporary,
+            pending_temporary,
+            final_page_temporary,
+        ):
+            if temporary_path is not None:
+                temporary_path.unlink(missing_ok=True)
+    if backup_directory is not None:
+        shutil.rmtree(backup_directory, ignore_errors=True)
+
+
+def _cache_policy(args: argparse.Namespace) -> dict[str, object]:
+    return {
+        "model": str(args.model),
+        "deck_kind": str(args.deck_kind),
+        "advanced_ocr": not bool(getattr(args, "no_advanced_ocr", False)),
+        "ocr_reconcile": not bool(getattr(args, "no_ocr_reconcile", False)),
+        "ocr_engines": list(getattr(args, "ocr_engine", []) or ["rapidocr"]),
+        "ocr_min_score": float(getattr(args, "ocr_min_score", 120.0)),
+        "ocr_max_suspicious_ratio": float(
+            getattr(args, "ocr_max_suspicious_ratio", 0.08)
+        ),
+        "ocr_variants": not bool(getattr(args, "no_ocr_variants", False)),
+        "deep_ocr": bool(getattr(args, "deep_ocr", False)),
+    }
+
+
+def bind_cache_provenance(
+    result: dict, slide: Path, args: argparse.Namespace
+) -> dict:
+    result.update(
+        {
+            "cache_schema_version": CACHE_SCHEMA_VERSION,
+            "cache_status": "succeeded",
+            "policy_version": POLICY_VERSION,
+            "prompt_contract_sha256": PROMPT_CONTRACT_SHA256,
+            "image_sha256": hashlib.sha256(slide.read_bytes()).hexdigest(),
+            "cache_policy": _cache_policy(args),
+            "model": str(args.model),
+            "deck_kind": str(args.deck_kind),
+        }
+    )
+    return result
+
+
+def cached_result(
+    path: Path, slide: Path, args: argparse.Namespace
+) -> dict | None:
     if not path.exists():
         return None
-    data = json.loads(read_text(path))
-    if data.get("policy_version") != POLICY_VERSION:
+    try:
+        data = json.loads(read_text(path))
+        confidence = float(data.get("confidence"))
+    except (OSError, TypeError, ValueError, json.JSONDecodeError):
+        return None
+    if (
+        data.get("cache_schema_version") != CACHE_SCHEMA_VERSION
+        or data.get("cache_status") != "succeeded"
+        or data.get("policy_version") != POLICY_VERSION
+        or data.get("prompt_contract_sha256") != PROMPT_CONTRACT_SHA256
+        or data.get("image_sha256") != hashlib.sha256(slide.read_bytes()).hexdigest()
+        or data.get("cache_policy") != _cache_policy(args)
+        or not isinstance(data.get("is_content_slide"), bool)
+        or not math.isfinite(confidence)
+        or not 0 <= confidence <= 1
+    ):
         return None
     return data
+
+
+def resolve_batch_results(
+    slides: list[Path], results: list[dict]
+) -> list[tuple[Path, dict]]:
+    """Bind each batch response to exactly one requested image."""
+
+    def result_index(result: dict) -> int | None:
+        value = result.get("image_index")
+        if isinstance(value, int) and not isinstance(value, bool):
+            return value
+        if isinstance(value, str) and value.isdigit():
+            return int(value)
+        return None
+
+    unused = set(range(len(results)))
+    resolved: list[tuple[Path, dict]] = []
+    for expected_index, slide in enumerate(slides, 1):
+        filename_matches = [
+            index
+            for index in unused
+            if str(results[index].get("filename") or "") == slide.name
+        ]
+        index_matches = [
+            index
+            for index in unused
+            if result_index(results[index]) == expected_index
+        ]
+        matches = filename_matches or index_matches
+        if len(matches) != 1:
+            raise RuntimeError(
+                f"slide batch classifier did not uniquely identify {slide.name}"
+            )
+        selected_row = matches[0]
+        result = results[selected_row]
+        filename = str(result.get("filename") or "")
+        image_index = result_index(result)
+        if filename and filename != slide.name:
+            raise RuntimeError(
+                f"slide batch classifier filename mismatch for {slide.name}: {filename}"
+            )
+        if image_index is not None and image_index != expected_index:
+            raise RuntimeError(
+                f"slide batch classifier index mismatch for {slide.name}: {image_index}"
+            )
+        unused.remove(selected_row)
+        resolved.append((slide, result))
+    if unused:
+        raise RuntimeError("slide batch classifier returned unbound extra results")
+    return resolved
 
 
 def apply_agent_first_ocr(slide: Path, result: dict, args: argparse.Namespace) -> dict:
@@ -616,39 +1052,40 @@ def apply_agent_first_ocr(slide: Path, result: dict, args: argparse.Namespace) -
 def classify_video(video_id: str, args: argparse.Namespace) -> dict:
     accepted: list[dict] = []
     rejected: list[dict] = []
+    recreation_outputs: list[tuple[Path, bytes]] = []
     slides = slide_images(video_id, args)
-    missing = [slide for slide in slides if not (args.reuse and cached_result(classification_path(video_id, slide, args)))]
+    if not slides:
+        raise ValueError(
+            f"no {args.deck_kind} images found for requested video {video_id}"
+        )
+    args.min_confidence = validate_min_confidence(args.min_confidence)
+    missing = [
+        slide
+        for slide in slides
+        if not (
+            args.reuse
+            and cached_result(
+                classification_path(video_id, slide, args), slide, args
+            )
+        )
+    ]
     if args.batch_size > 1:
         for start in range(0, len(missing), args.batch_size):
             chunk = missing[start : start + args.batch_size]
             if not chunk:
                 continue
             results = codex_cli_batch(chunk, args.model, args.timeout)
-            by_name = {str(result.get("filename") or ""): result for result in results}
-            by_index = {int(result.get("image_index") or 0): result for result in results if str(result.get("image_index") or "").isdigit()}
-            for index, slide in enumerate(chunk, 1):
-                result = by_name.get(slide.name) or by_index.get(index)
-                if not result:
-                    result = {
-                        "is_content_slide": False,
-                        "confidence": 0.0,
-                        "frame_type": "other",
-                        "reject_reason": "missing batch classifier result",
-                        "text": "",
-                        "text_status": "illegible",
-                        "ocr_ready": False,
-                        "ocr_reason": "",
-                        "layout": {"background": "#ffffff", "style": "light", "blocks": []},
-                    }
+            for slide, result in resolve_batch_results(chunk, results):
                 result["image"] = str(slide.relative_to(ROOT))
                 result["deck_kind"] = args.deck_kind
                 result["model"] = args.model
                 result["classified_at_epoch"] = time.time()
                 result = apply_agent_first_ocr(slide, result, args)
+                bind_cache_provenance(result, slide, args)
                 write_text(classification_path(video_id, slide, args), json.dumps(result, indent=2, ensure_ascii=False))
     for slide in slides:
         cached = classification_path(video_id, slide, args)
-        result = cached_result(cached) if args.reuse else None
+        result = cached_result(cached, slide, args) if args.reuse else None
         if result is not None:
             pass
         else:
@@ -658,28 +1095,48 @@ def classify_video(video_id: str, args: argparse.Namespace) -> dict:
             result["model"] = args.model
             result["classified_at_epoch"] = time.time()
             result = apply_agent_first_ocr(slide, result, args)
+            bind_cache_provenance(result, slide, args)
             write_text(cached, json.dumps(result, indent=2, ensure_ascii=False))
         keep = bool(result.get("is_content_slide")) and float(result.get("confidence") or 0) >= args.min_confidence
         record = {
             **result,
-            "image": str(slide),
+            "image": _project_path(slide),
             "confidence": round(float(result.get("confidence") or 0), 4),
             "frame_type": result.get("frame_type") or "other",
         }
         if keep:
             recreation = recreation_path(video_id, slide, args)
-            write_text(recreation, render_recreation(video_id, slide, result, args))
-            record["recreation"] = str(recreation)
+            recreation_data = _text_bytes(
+                render_recreation(video_id, slide, result, args)
+            )
+            bind_recreation_output(record, recreation, recreation_data)
+            recreation_outputs.append((recreation, recreation_data))
             accepted.append(record)
         else:
             rejected.append(record)
-    if not args.no_refresh_page:
-        refresh_page(video_id, accepted, rejected, args)
+    input_manifest = [
+        {
+            "filename": slide.name,
+            "sha256": hashlib.sha256(slide.read_bytes()).hexdigest(),
+        }
+        for slide in slides
+    ]
+    input_manifest_sha256 = hashlib.sha256(
+        json.dumps(
+            input_manifest, separators=(",", ":"), sort_keys=True
+        ).encode("utf-8")
+    ).hexdigest()
     audit = {
+        "status": "succeeded",
+        "cache_schema_version": CACHE_SCHEMA_VERSION,
         "video_id": video_id,
         "deck_kind": args.deck_kind,
         "model": args.model,
         "policy_version": POLICY_VERSION,
+        "prompt_contract_sha256": PROMPT_CONTRACT_SHA256,
+        "cache_policy": _cache_policy(args),
+        "input_manifest": input_manifest,
+        "input_manifest_sha256": input_manifest_sha256,
         "min_confidence": args.min_confidence,
         "ocr_policy": {
             "agent_first": True,
@@ -699,7 +1156,24 @@ def classify_video(video_id: str, args: argparse.Namespace) -> dict:
         "accepted": accepted,
         "rejected": rejected,
     }
-    write_text(CLASSIFICATION_ROOT / args.deck_kind / video_id / "audit.json", json.dumps(audit, indent=2, ensure_ascii=False))
+    audit["publication_schema_version"] = PUBLICATION_SCHEMA_VERSION
+    audit["publication_status"] = "succeeded"
+    audit["recreation_manifest"] = recreation_manifest(accepted)
+    audit["recreation_manifest_sha256"] = _manifest_sha256(
+        audit["recreation_manifest"]
+    )
+    final_page = (
+        rendered_page(video_id, accepted, rejected, args)
+        if not args.no_refresh_page
+        else None
+    )
+    publish_classification(
+        video_id,
+        audit,
+        recreation_outputs,
+        args,
+        final_page,
+    )
     return audit
 
 
@@ -727,6 +1201,10 @@ def main() -> int:
     parser.add_argument("--hide-rejected", action="store_true", help="Hide rejected frames from the visible wiki slide sequence while retaining evidence files.")
     parser.add_argument("--remove-rejected", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
+    try:
+        args.min_confidence = validate_min_confidence(args.min_confidence)
+    except ValueError as exc:
+        parser.error(str(exc))
     if args.remove_rejected:
         args.hide_rejected = True
     if (args.limit or args.slide) and not args.refresh_partial_page:

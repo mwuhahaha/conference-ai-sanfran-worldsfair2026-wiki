@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/cVzf49yg0D8/slide-002.jpg]]
 
@@ -30,13 +29,24 @@ OCR text:
 
 > One API to
 > Rule Them All
+> AIEng
+> EURO
 
 ![[assets/slides/cVzf49yg0D8/slide-003.jpg]]
 
 OCR text:
 
-> One API to
-> Rule Them All
+> eee einen nna eee as
+> i
+> |
+> |
+> nn!
+> F id a
+> ee -
+> Se gt ix
+> as ;
+> ie ¥
+> At _—
 
 ![[assets/slides/cVzf49yg0D8/slide-004.jpg]]
 
@@ -135,9 +145,9 @@ OCR text:
 
 > , ; OS ae
 > Race i . Pooh!
-> 
+>
 > aos ; : J i
-> 
+>
 > ahs an
 
 ![[assets/slides/cVzf49yg0D8/slide-007.jpg]]
@@ -147,12 +157,12 @@ OCR text:
 > PR eC cS cet oi oT od Gor G6 & & CB SF mw © sects
 > bs ‘ ad °o
 > ‘
-> 
+>
 > J
 > J
-> 
+>
 > Al ENGINEER EUROPE - WORKSHOP
-> 
+>
 > ae
 > Building Agents with the Gemini Interactions API, from zero toa 5 os a
 > working agentic application in 60 minutes.
@@ -168,13 +178,13 @@ OCR text:
 > Part 1; The Interactions APi
 > Core Primitives
 > .
-> 
+>
 > a OO ———————————————————————————————————————— OR _—_—eeeeeeeeoeeee
 > C
 > , © Server-Side State * Background Execution
-> 
+>
 > Be Ce eh Ma aes Ge OST a Le OPM MER Cle as ste aed
-> 
+>
 > Pana)
 > Chain turns with peectous ieteractice <3, Server owns conversation Fire-and-forget for long tasks Poll with .-re-o:tors getiagi.
 > history.
@@ -209,20 +219,20 @@ OCR text:
 
 > Pe en Ca eT ©: GO ek OF @ LE meters
 > e . a 5 °
-> 
+>
 > Part 2: Building Agents
 > Co
 > . © HOW IT WORKS
 > : @ Send request: prompt - tool definitions erence
-> 
+>
 > e@ Check outputs: look for function_call blocks o 5 5
-> 
+>
 > e@ Execute locally: run your function code
-> 
+>
 > oe Send results back: as function_reault re rrr
-> 
+>
 > e Repeat: until model returns text sheet So
-> 
+>
 > ee : ee Sa
 > No history management
 > OQ Sevver tracks na meracton 10 SO Aromatic ma ; foot re
@@ -234,9 +244,9 @@ OCR text:
 
 > Boma et em ety Teetany Teta Cat Aeon oe Ca or i ne SC cee)
 > e ry
-> 
+>
 > c a 4 o
-> 
+>
 > mee
 > é Goo Ke
 > id Gg
@@ -305,25 +315,16 @@ OCR text:
 
 OCR text:
 
-> README Apache-2.0 license Security
-> Skill for developing Gemini-powered apps. Provides the best practices for building apps that use the Gemini API.
-> Skill for developing Gemini-powered apps on Google Cloud Vertex AI using the Gen AI SDK. Covers tools, multimodal generation, caching, and batch prediction.
-> Skill for building real-time, bidirectional streaming apps with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection, native audio features, function calling, and session management.
-> Skill for building apps with the Gemini Interactions API. Covers text generation, multi-turn chat, streaming, function calling, structured output, image generation, Deep Research agents, deprecated model guardrails, and both Python and TypeScript SDKs.
-> Installation
-> You can browse and install skills using either the Vercel skills CLI or the Context7 skills CLI.
-> Using Vercel skills CLI
-> # Interactively browse and install skills.
-> npx skills add google-gemini/gemini-skills --list
-> # Install a specific skill (e.g., gemini-api-dev).
-> npx skills add google-gemini/gemini-skills --skill gemini-api-dev --global
-> Using Context7 skills CLI
-> # Interactively browse and install skills.
-> npx ctx7 skills install google-gemini/gemini-skills
-> # Install a specific skill (e.g., vertex-ai-api-dev).
-> npx ctx7 skills install google-gemini/gemini-skills --skill vertex-ai-api-dev
+> Pe ere Pe Cee G- GO ee OB Fw] Bm ee
+> cf ms a °
+> fore ao F
+> Py ee ee ee ee eg r
+> - wa tenet eo ee tae 5
+> e a oie . ee
+> RSC Creda)
+> eat
+> a)
 > Disclaimer
-> This is not an officially supported Google product. This project is not eligible for the Google Open Source Software Vulnerability Rewards Program.
 
 ![[assets/slides/cVzf49yg0D8/slide-015.jpg]]
 
@@ -405,7 +406,8 @@ OCR text:
 
 OCR text:
 
-> Gemini 3.1 Flash Live
+> Gemini 3.1Flash Live
+> AIEr
 
 ![[assets/slides/cVzf49yg0D8/slide-018.jpg]]
 
@@ -426,7 +428,23 @@ OCR text:
 
 OCR text:
 
-> Live Jukebox
+> ~- = te f Bt te
+> Na |
+> eA Lo
+> re oe
+> oaar
+> i ne
+> Boe:
+> an a ARS
+> | ee
+> 7 Co eee XS
+> , ye
+> a
+> , ec f a.
+> 7 |
+> Zz
+> ’ =<
+> A
 
 ![[assets/slides/cVzf49yg0D8/slide-020.jpg]]
 

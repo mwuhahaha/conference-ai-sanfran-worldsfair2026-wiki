@@ -7,6 +7,20 @@ repository: "https://github.com/gepa-ai/gepa"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public repository"]
 scheduleTracks: ["Autoresearch"]
 scheduleRooms: ["Main Stage"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ba3d120c29e8a4fb049bb343829d041c3f735ded970c0da2b85622b01b28625f
+  subjectId: tool:gepa
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:github_rest-github.com
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:5d04df9f42a7c0aea1dec20be47b5038af6c897ac10108afa25ac84e80681218
 ---
 # GEPA
 

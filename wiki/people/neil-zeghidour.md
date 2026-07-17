@@ -6,6 +6,19 @@ company: "Gradium"
 twitter: "https://x.com/neilzegh"
 website: "https://gradium.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f0ad7726e24124e99beb53eaa3ed50bfe1d2eb365687f4d7817700602bd5a54a
+  subjectId: person:neil-zeghidour
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5ca1077ea4f53e4a1b9c4d34e755001651356945044ae56b31f57ce639065245
 ---
 # Neil Zeghidour
 
@@ -38,6 +51,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 
 ### Media Signals
-- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals; role: supporting context only.
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]

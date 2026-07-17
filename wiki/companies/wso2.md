@@ -3,6 +3,19 @@ title: "WSO2"
 category: "companies"
 aliases: ["WSO2"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:457ff18c0f6717f6327305ae4fa1cd7460882bd6605a0da4c035e78fed28b0eb
+  subjectId: company:wso2
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7b7acba9450d6497953ad1128e0b3a72902cdba08142617a761a6ddd99467848
 ---
 # WSO2
 

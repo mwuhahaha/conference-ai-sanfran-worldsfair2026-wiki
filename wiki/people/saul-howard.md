@@ -7,6 +7,19 @@ linkedin: "https://linkedin.com/in/saulhoward"
 twitter: "https://x.com/saulhoward"
 website: "https://saulhoward.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:efdfaa0c4b7897f838a62b4aa978ab2ec322db1537a7b046b33fb80d206b5f5c
+  subjectId: person:saul-howard
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6c2fb762d43cb1b9918de24e17a0cb37f22c0b00a57d8e47bcb4ca17ada8321e
 ---
 # Saul Howard
 

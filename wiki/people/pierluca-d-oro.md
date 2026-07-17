@@ -8,6 +8,19 @@ twitter: "https://x.com/proceduralia"
 website: "https://www.proceduralia.com"
 blog: "https://pragmatichumanism.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fb55b101333518ae4176648ceff7b4e2a720d3ea1f50c086a312157d7516cdb9
+  subjectId: person:pierluca-d-oro
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1aaa89073be3bcc11d0d7affe94e7ade23d501e706342aa5eb41941c17524f2a
 ---
 # Pierluca D'Oro
 

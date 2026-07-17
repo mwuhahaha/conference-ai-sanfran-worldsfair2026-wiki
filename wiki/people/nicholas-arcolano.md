@@ -8,6 +8,19 @@ twitter: "https://x.com/arcolano"
 website: "https://arcolano.com/"
 blog: "https://arcolano.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e29af448d8d50ba3fd59409e81b7e94a6db5b00c749e0c0f18c28e25ebfeefc4
+  subjectId: person:nicholas-arcolano
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9fd5e89566b7afc53fae8a9f794bcc1ec4401f9b61a68535c81beed0d9b7a8f8
 ---
 # Nicholas Arcolano
 

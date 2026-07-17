@@ -3,6 +3,19 @@ title: "Renaissance Geek, Inc."
 category: "companies"
 aliases: ["Renaissance Geek, Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cb8b64fe41457eedd41964adb86675fe574c0653490ccca9b0f3b43a9e19fcb8
+  subjectId: company:renaissance-geek-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:48408cec79233059811b3688212800adabf02745419e55095bd0c9411c2d8691
 ---
 # Renaissance Geek, Inc.
 

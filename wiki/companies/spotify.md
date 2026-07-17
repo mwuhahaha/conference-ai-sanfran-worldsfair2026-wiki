@@ -3,6 +3,19 @@ title: "Spotify"
 category: "companies"
 aliases: ["Spotify"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c7ad6f1a64051ee4f8ae9fb84ffd887e60cfb8be10928b84f6f2c330237f5ec7
+  subjectId: company:spotify
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:45deada54f0eae78a9c8173d40873e6caf2d861e70c95b5152522b82c64e8b69
 ---
 # Spotify
 

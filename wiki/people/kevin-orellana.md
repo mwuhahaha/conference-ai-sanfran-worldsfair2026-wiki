@@ -6,6 +6,19 @@ company: "Amazon Web Services"
 linkedin: "https://www.linkedin.com/in/kevinorellana/"
 twitter: "https://x.com/KevssOrellana"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:fbda69a3896bba2b08b1887d341642e2d5e82d82452b357c2cd18aa832c99253
+  subjectId: person:kevin-orellana
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:b1cd1cf069489baa0cc4e99759f926367d5f94084e65d00c01bb2077cb08a6a5
 ---
 # Kevin Orellana
 

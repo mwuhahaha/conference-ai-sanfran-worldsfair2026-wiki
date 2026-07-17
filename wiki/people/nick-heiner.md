@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/nick-heiner-3874055a/"
 twitter: "https://x.com/nickheiner"
 website: "https://www.nickheiner.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2cdb80004a9ee4d9e653d83e82f3df4e965cb8896a26a74e967304f22a9dade5
+  subjectId: person:nick-heiner
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5c4032f50044598c937e0cce0f23726f8abf5f24341adb93c7f2770ae41c6400
 ---
 # Nick Heiner
 

@@ -19,139 +19,216 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/_xIwFcnHqp4/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-001.html)
-- AI slide classifier: `title_card` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Building Interactive UIs in VS Code with MCP Apps
+> AIE VS Code with MCP Apps Building Interactive Uls in
+> MARLENE MHANGAMI
+> Microsoft/GitHub
+> Senlor Developer Advocate LIAM HAMPTON
+> Microsoft/GitHub
+> Bailding lnteractive Uisin VSCodewthMCPApps Google DeepMind
 
 ![[assets/slides/_xIwFcnHqp4/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Agenda Session
-> 01 What is MCP?
-> 02 MCP Apps
-> 03 Building MCP Apps in VS Code (demo)
+> Open dar ami/ ae
+> Agenda
+> . O2 MCP Apps
+> Session
+> ra a * 03 Building MCP Apps in VS Code (demo)
+> 7 ia
+> bd t bd
+> s ; ec:
+> al. c
+> | r
+> . . |S H
 
 ![[assets/slides/_xIwFcnHqp4/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Model Context Protocol
-> MCP is an open protocol that standardizes how applications provide context to LLMs
+> ae MCP is an open protocol that standardizes how
+> _ applications provide context to LLMs
+> “a : — oO
+> ai
+> moo i EUROPE
+> : | ee
 
 ![[assets/slides/_xIwFcnHqp4/slide-004.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Parts of MCP
-> Hosts
-> Clients
+> a
+> aane ie K Engineering the future of Al
 
 ![[assets/slides/_xIwFcnHqp4/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Dense screenshot with small embedded text; OCR is more suitable than direct transcription.
+OCR text:
 
-Slide text:
-
-> returnedas Context Drawadagram oxpiaining Mcp
-> text Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]
-> ★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!"HCP ProtoCoi\nIJS-RPC ovcr sGio/HIIP)"! CI"P<P SCrvc"
-> （-->El""Aesour<esfat the rocel （ read)"」 C --> Dl"< Toolsin(fuctions the rouel Can cal!") ··f[. Pronptsinirrusablr p"ongt trrplatrsi")
-> D ---l"ciccutes"I G!"Extcrrat APis\nDatabnses\n:le Systcln"c Scarch"] E-->i"c"cOCs"G
-> F -->i"orviis （ontt rron"|G
-> Lots of emojls to compensate
-> 7.
-> AIEngineer
-> EUROPE
+> Co ntext Draw a d.ageam explaining MCP
+> Reyewed be
+> Pa 1c=>.4e Here's a diagram explainng NCP iModel Context Protocol)
+> i i Soot
+> ace rm
+> Ala AL Poel / tla] *1° Sends requests wio 4CP* BINMCR Client”)
+> * * B -- 29 MCP Protocoint JSON RPL over StG1O/HTTPI”: C(“MCP® Server’!
+> wy *
+> C --» DITN\ Toolset fuactians the sogel can callin}
+> C --> EL’ * Resources\aidata the todel can read "}
+> € spo Promptsinireusable provet terptatess"}
+> D ---ivenecutes? GIExterral API s\oDatadases\1F ile Systew\nwed Search”)
+> E -->;"enpases" | G
+> F -->)"proviites contest fron”| G
+> . a —
+> . ill
+> S| o
+> ro Al Engineer
+> oe i EUROPE
+> 7! Pt - é
 
 ![[assets/slides/_xIwFcnHqp4/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
-- OCR decision: ready — Product slide with multiple dense UI screenshots and small supporting text; OCR is more appropriate than manual transcription.
+OCR text:
 
-Slide text:
-
-> Use Cases
-> AIE
-> +
+> * * i i * Cori ma ™ cat] ee — “e = : a
+> * * .
+> aan se : e Cf Cy
+> : td 7 -- a
+> ta
 > Data Exploration Configuration Wizards E-Commerce
-> Interactive dashboard with region filters, drill-down capabilities, export options "production" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server
-> Google DeepMind
+> ; 7 , Interactive dashboard with region Form with dependent fields, select.ng Browse, filter, compare, and add to cart
+> in — SE atemee filters, drill-down capabiities, export “production” reveals security opt.ans; PH itet sce ( east Lome 1CTe i oh a fad
+> options “staging” shows different defaults inventory from the MCP Server.
+> a Googl Mi
+> -_ 7 :
+> = oogie DeepMind
+> ae
+> . . a .
 
 ![[assets/slides/_xIwFcnHqp4/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-
-Slide text:
+OCR text:
 
 > Who's building MCP Apps?
-> Shopify
-> Excalidraw
-> Figma
+> AIE functioe App（1（ </> retum(
+> Shopify Exaclidraw Figma
+> AIEngineer
+> EUROPE
+
+![[assets/slides/_xIwFcnHqp4/slide-008.jpg]]
+
+OCR text:
+
+> AIE
+> Vs Code (demo) Building MCP Apps in
+> BuildingMCPAppsin vSCode(demo)
+> Engineering the future of Al
 
 ![[assets/slides/_xIwFcnHqp4/slide-009.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: agent_vision.
-- OCR decision: ready — Dense editor screenshot with small UI text and multiple sections; OCR will do better than manual transcription.
+OCR text:
 
-Slide text:
-
-> Create MCP App
+> Pe ee er rod _. Or)
+> F me i
+> le ibesewiabiinw a
+> enc FC Lele Nels)
+> 7 ee
+> eusatncritaseanzs cmeecencomart
+> .
+> miter e Ra tetas
+> : : Le ea ie eee eee
+> a i is A ih ee i een a eerie ry
+> * bal eat ee ee ee ee dee Rie ee
+> im x Smt a teen peuaaneraenwen
+> * * : ee ee ee ee a eer Rare
+> aa s
+> ote Si) ane RLY
+> ee eh et a
+> Kidiresit one coor
+> sag er
+> eae a a on
+> ee ee
+> oe Cereals
+> nee
+> . | er ees
+> at 7 | ; _ ;
+> i
+> . Al Engineer
+> a rd } EUROPE
+> 4
 
 ![[assets/slides/_xIwFcnHqp4/slide-010.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-010.html)
-- AI slide classifier: `content_slide` confidence `0.99`
-- Text source: none.
-- OCR decision: ready — Code-heavy slide with small text and IDE chrome; OCR is the right extraction path.
+OCR text:
+
+> tclertar et）（
+> LAS
+> .rjl.
+> fechyCptatll（
+> /.Catoitatxt
+> AIE
+> arytsx
+> coalotisnt
+> fr1100*（
+> MApo.to
+> 12s
+> .Sif（1））.Cf（1）
+> idhs
+> ncfibenaccl（e Sat） Jet（
+> T1012
+> fsoi(
+> returns
+> aci（s-1)fanacct（2)
+> eryateri3(
+> ste js[yt,10
+> Engineering the future of Al
+
 ![[assets/slides/_xIwFcnHqp4/slide-011.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: none.
-- OCR decision: ready — Chart/profile screenshot with tiny labels and dense visual data; OCR will help more than direct transcription.
+OCR text:
+
+> 9Aor424
+> Amain
+> Pofie 556s > 203 s
+> AIE
+> Engineering the future of Al
+
 ![[assets/slides/_xIwFcnHqp4/slide-012.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_xIwFcnHqp4/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> LLM Model
-> MCP Server
-> Host (VS Code)
-> iframe (Your React UI)
-
-### Hidden Non-Slide Evidence
-- [`slide-008.jpg`](/assets/slides/_xIwFcnHqp4/slide-008.jpg) — `demo_video` confidence `0.85`; PowerPoint editor UI and stage-camera inset; not a clean slide frame.
-
-Classification audit: `raw/sources/slide-ai-classification/slides/_xIwFcnHqp4/audit.json`
+> i ro a Cee ee
+> ' coed
+> ; °
+> Y
+> Ope tena 7 Shan SE La
+> . Yrde- od be ,
+> vas 7 : ee ee ee
+> 5d ad ee at . :
+> - toe teen TO GND
+> +
+> x Pd ees ;
+> on and dats Seay bee ee gee
+> “yy fat ae ee ee
+> _—
+> — are eG
+> ‘yr
+> OT RT Path eee’
+> ve 7 web be ode
+> inane Va tte Cie care nt
+> Sw a ee
+> . Aye ee egant
+> ae rtadss oo
+> i wee ee ey canoes
+> 4 | -_ an —
+> es ’ Pa 5 : | /
+> 6s \ 1
+> _— b #3 Braintrust €} WorkOS OpenAl
+> ~ 41. *
+> - a
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

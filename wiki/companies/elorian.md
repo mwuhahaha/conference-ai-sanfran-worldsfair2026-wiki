@@ -3,6 +3,19 @@ title: "Elorian"
 category: "companies"
 aliases: ["Elorian"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6c044a58e3c82dea51392c0e012ae4513a07ab19a7c84bf291e054e6d66c6b3e
+  subjectId: company:elorian
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f7de7666c60d4d21c1c15300b201df5038092e40a6df0939b5ebde7c54e42126
 ---
 # Elorian
 

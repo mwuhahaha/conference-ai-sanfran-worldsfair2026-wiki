@@ -3,6 +3,19 @@ title: "Gitar.ai"
 category: "companies"
 aliases: ["Gitar.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:56c1f9161b067525d56fd44ce9567e85e3b9b825ee3dcb0d5541e6af6a25ed0b
+  subjectId: company:gitar-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4b826f84f98c9371ae549e8d9f19fe969a3dd5d2460dbcc42999b0692fe53506
 ---
 # Gitar.ai
 

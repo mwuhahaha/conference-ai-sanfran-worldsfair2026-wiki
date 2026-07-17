@@ -3,6 +3,19 @@ title: "DX"
 category: "companies"
 aliases: ["DX"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4ac397d47d5fb7411a327ae1b2ecfeddc317cb193eb6c6a7dc74c9758c6bb306
+  subjectId: company:dx
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:4ec26e1107ca11ebe11d71402f780e9a88f036d8ca538f84189a2a3b49ed3293
 ---
 # DX
 
@@ -32,8 +45,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations|The state of AI in software development: Insights across 400+ organizations]]
 
 ### Media Signals
-- `youtube-PmZDupFP3UM` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
+- `youtube-PmZDupFP3UM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
 - Evidence links for `youtube-PmZDupFP3UM` (supporting context only): [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

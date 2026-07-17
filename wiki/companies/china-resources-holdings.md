@@ -3,6 +3,19 @@ title: "China Resources Holdings"
 category: "companies"
 aliases: ["China Resources Holdings"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:98c96e68a5bd627a8b2c457240b440b73e7a7a7b49057e30a1cd99890502c497
+  subjectId: company:china-resources-holdings
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:aceeeaa833c01628f862d71a789d4955390067b83593e60831d3028828828e1b
 ---
 # China Resources Holdings
 

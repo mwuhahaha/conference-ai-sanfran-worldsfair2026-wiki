@@ -63,11 +63,8 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-sl3icG-IjHo]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-sl3icG-IjHo`
-- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/sl3icG-IjHo/slide-001.jpg]]
-![[assets/dense-slides/sl3icG-IjHo/slide-002.jpg]]
+- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — slide evidence page.
 - Additional slide evidence: [[youtube-sl3icG-IjHo-slides|Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]], [[youtube-sl3icG-IjHo-reconstructed-slides|Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]]
-- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -76,8 +73,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-sl3icG-IjHo` — 8 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
+- `youtube-sl3icG-IjHo` — source page linked; role: supporting context only.
 - Evidence links for `youtube-sl3icG-IjHo` (supporting context only): [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
 
 ### Agent Reading Notes

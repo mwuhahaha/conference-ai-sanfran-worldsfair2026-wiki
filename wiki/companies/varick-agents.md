@@ -3,6 +3,19 @@ title: "Varick Agents"
 category: "companies"
 aliases: ["Varick Agents"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:20e9a15dd4f4ea1c8c6c4d1048ee87afa83b39d84f870e64bd3d8845d0533e92
+  subjectId: company:varick-agents
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3e5737f1283e90b5275a7b7f877b76fa006d16c838338dc17a6697ee2e73dbfe
 ---
 # Varick Agents
 

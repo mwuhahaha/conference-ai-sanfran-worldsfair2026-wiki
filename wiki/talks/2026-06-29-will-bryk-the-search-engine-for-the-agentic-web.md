@@ -75,12 +75,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-xnXqpUW_Kp8]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-xnXqpUW_Kp8`
-- Slide deck: [[youtube-xnXqpUW_Kp8-dense-slides|Dense Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/xnXqpUW_Kp8/slide-001.jpg]]
-![[assets/dense-slides/xnXqpUW_Kp8/slide-002.jpg]]
-![[assets/dense-slides/xnXqpUW_Kp8/slide-003.jpg]]
+- Slide deck: [[youtube-xnXqpUW_Kp8-dense-slides|Dense Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai]] — slide evidence page.
 - Additional slide evidence: [[youtube-xnXqpUW_Kp8-slides|Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai]], [[youtube-xnXqpUW_Kp8-reconstructed-slides|Reconstructed Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai]]
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -89,8 +86,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
+- `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 
 ### Agent Reading Notes

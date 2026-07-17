@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/qdh_x-uRs9g/slide-002.jpg]]
 
@@ -40,22 +39,24 @@ OCR text:
 
 OCR text:
 
-> A WRITER'S DIARY ON AI
-> What Actually Makes Embedding
-> Model Inference Fast?
-> From Flash Attention to Quantization, where is the inference bottleneck? Is it the architecture, the maths, or will writing everything in Rust solve all my problems? (Hint: It's Not Rust)
-> FILIP MAKRADULI
-> JAN 22, 2026
-> Not quite.
-> Google DeepMind
+> x * ®
+> * * What Actually Makes Embedding
+> or’ Model Inference Fast?
+> ao
+> 1] Google DeepMind
 
 ![[assets/slides/qdh_x-uRs9g/slide-004.jpg]]
 
 OCR text:
 
-> I realised... I had to learn
-> AI Engineer
+> ba * ,
+> Mae
+> bd a
+> oO Pe
+> | | |
+> . AlEngineer
 > EUROPE
+> S95
 
 ![[assets/slides/qdh_x-uRs9g/slide-005.jpg]]
 
@@ -63,20 +64,20 @@ OCR text:
 
 > Traming & re tening area pose DCMT RL stenet a gern
 > va Eva‘vation & bencnmark:ng GPU uti! zat on & schedu .ng
-> 
+>
 > * *
 > * ~ Appied Al researc Rosting & autosca’ ng
 > # . Bem rae feat ien Crployment & oprrat ons
 > bod *
-> 
+>
 > ad os *
-> 
+>
 > Best way to learn?
 > Join the team building it.
 > : | Al Engineer |
-> 
+>
 > eS) EUROPE
-> 
+>
 > =
 
 ![[assets/slides/qdh_x-uRs9g/slide-006.jpg]]
@@ -163,42 +164,15 @@ OCR text:
 
 OCR text:
 
-> SO, LET'S SUPPORT 85+ MODELS WITH 35+ RUNTIMES AND INFERENCE BACKENDS
-> Every architecture is different under the hood
-> bert_flash
-> Fixed position IDs (0,1,2,...)
-> Each token knows its absolute slot
-> qwen2_flash
-> RoPE: rotates Q/K vectors by position
-> GQA: fewer KV heads = less memory
-> modernbert_flash
-> Fused QKV: one matrix, not three
-> Pre-normalize before attention
-> colbert_*
-> Keeps every token's vector (not pooled)
-> Late interaction: match token-by-token
-> cross_encoder
-> Takes a pair (query + doc) as input
-> Outputs a score, not a vector
-> clip_siglip_florence2
-> Image encoder + text encoder
-> Shared embedding space
-> splade_flash
-> Sparse 250K-dim vocabulary vector
-> Learned term weights, not dense floats
-> sglang
-> 48-88 embedding models
-> KV cache = paged memory
-> No universal engine
-> BERT + Qwen2 + ModernBERT.
-> Each needs its own inference path.
-> An agentic workflow
-> We wrote each adapter using AI agents
-> until we had coverage across 90 models.
+> ec , A wndiee 7 No universal engine
+> Pel
+> bd bd
+> bf bal An agentic workHow
+> ad ra *
 > Re-implementation
-> Not wrappers. We re-implement
-> the forward pass and pooling for each arch.
-> 15 of 35 adopters use Flash Attention 2 with variable-length sequence packing
+> : | Al Engineer |
+> = ay:
+> d
 
 ![[assets/slides/qdh_x-uRs9g/slide-011.jpg]]
 

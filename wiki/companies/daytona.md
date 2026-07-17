@@ -3,6 +3,19 @@ title: "Daytona"
 category: "companies"
 aliases: ["Daytona"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e2a76f186d95427ef76c026ebf5cc63cee0d2d1731dafbfda70fa1bdd7c63aed
+  subjectId: company:daytona
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:5416959e535beae0be625b70cc26088806e8c90d28b41f70d7a758bd14c45a93
 ---
 # Daytona
 

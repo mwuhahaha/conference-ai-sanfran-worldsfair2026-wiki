@@ -3,6 +3,19 @@ title: "Browserbase"
 category: "companies"
 aliases: ["Browserbase"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a6fe88e99f005a2a124dcf24274675e0a3c06562e3e0d7758264d8a5f9ddaf55
+  subjectId: company:browserbase
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:214e20f5a3a0351cea64af57a253356482707daeb98bf5c0cf3f73dfb273c5da
 ---
 # Browserbase
 
@@ -39,8 +52,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents|The Art of Building Verifiers for Computer Use Agents]]
 
 ### Media Signals
-- `youtube-YRGjll7uu5w` — 3 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

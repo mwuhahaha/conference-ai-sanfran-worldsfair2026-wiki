@@ -6,6 +6,19 @@ company: "Oracle"
 linkedin: "https://www.linkedin.com/in/kaymalcolm"
 blog: "https://blogs.oracle.com/authors/kay-malcolm"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e976d5a53840e5c5b718b6d5972e960d0d7521c66f11f8235490fad808a00a77
+  subjectId: person:kay-malcolm
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65cede7ed95232c24dacc46f86851b1f498b84aa60b8966d907262c921c9baf2
 ---
 # Kay Malcolm
 

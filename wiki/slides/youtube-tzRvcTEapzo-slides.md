@@ -81,18 +81,18 @@ OCR text:
 > : r : fe me Qk Qu Geom e Qin 2 Gun . 5 te = whee 8 iw oe
 > Balok Te NN 8 Tete DOMES Ura ee pes eeeL o Go . @
 > 7 —_—
-> 
+>
 > |
-> 
+>
 > Pe ae
 > tomes get
-> 
+>
 > meoes Meo gues tues cate we pane
 > sacs .
 > uae,
-> 
+>
 > | mV o
-> 
+>
 > 4 a Microsoft §=acoct)
 > Pd
 
@@ -158,8 +158,13 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> an
+> 3 {
+> r Y.
+> oe 7 5 ; 7
+> —_ -
+> | a ~— me
+> — ee «6 Ae
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

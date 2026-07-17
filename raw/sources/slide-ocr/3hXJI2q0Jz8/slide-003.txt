@@ -1,9 +1,11 @@
 THESIS
-Today’s agents are
+Today'sagents are
 mismanaged geniuses
 The intelligence is there.
-The missing layer is how we specify, manage, reuse, and verify the work.
-TURING POST • RAYMOND WEITEKAMP
-Stop Babysitting Agents, Start Authoring Outcomes
-ALEX ZHANG • ZED LI • OMAR KHATTAB
-The Mismanaged Geniuses Hypothesis
+The missing layer ishow we specify.manage,reuse,and verily the work
+stopBabysitingAgentsstart
+Authoring Outcomes
+TURINGPOST-RAYMONDWEITEKAMP
+ALEXZHANG·ZEDLI·OMARKHATTAB
+Stop Babysitting Agents,Start Authoring Outcomes
+TheMismanaged Geniuses Hypothesis

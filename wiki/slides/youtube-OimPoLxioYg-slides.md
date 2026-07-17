@@ -22,11 +22,11 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > an 86a
-> 
+>
 > a Oey ie
-> 
+>
 > A Ss ee
-> 
+>
 > aa a
 > Mi
 
@@ -35,8 +35,8 @@ OCR text:
 OCR text:
 
 > AIE
-> AUTOGPT
-> smol ai
+> AUTOgPt
+> smol?
 
 ![[assets/slides/OimPoLxioYg/slide-003.jpg]]
 
@@ -85,7 +85,7 @@ OCR text:
 > text_embedding: how CLIP Paint.wtf Scoring
 > maps the paint.wtf prompt into
 > its feature space CLIP’s Interpretation
-> 
+>
 > x, of the Paint.wtf Prompt
 > Image_embedding: how CLIP cuPtissarpraention of
 > maps the user submission into saiaaeteiaiiaaiienaiiniias-
@@ -93,7 +93,7 @@ OCR text:
 > Winning paint.wtf: minimizing Cosine Similarity S|
 > distance between the prompt i
 > and the user drawing
-> 
+>
 > 7
 
 ![[assets/slides/OimPoLxioYg/slide-007.jpg]]
@@ -101,6 +101,7 @@ OCR text:
 OCR text:
 
 > AIE
+> SUN
 > AUTOgPt
 > smoo
 
@@ -184,17 +185,17 @@ OCR text:
 > ove. pu
 > arrare le
 > 32
-> 
+>
 > cw2. im
-> 
+>
 > cv2.Wa
-> 
+>
 > inference,
-> 
+>
 > source
-> 
+>
 > model
-> 
+>
 > ; use_me
 > a CUR aot
 
@@ -235,8 +236,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> SUMMIT
+> Seog | oe -
+> ath arn
+> Pid
 
 ![[assets/slides/OimPoLxioYg/slide-017.jpg]]
 ![[assets/slides/OimPoLxioYg/slide-018.jpg]]
@@ -258,24 +260,24 @@ OCR text:
 
 OCR text:
 
-> LIVE CODING
+> LIVECODING
+> AlEngineer
+> SUMMIT
 > Let's be 1000x Engineers Today
+> A!F
+> RUTO
 
 ![[assets/slides/OimPoLxioYg/slide-020.jpg]]
 
 OCR text:
 
-> Lessons from Building Paint.wtf with CLIP
-> We're all learning here
+> Lessons from Building Paint.wtf with CLIP Lee
 > CLIP Can Read
-> Draw a raccoon driving a tractor
-> Global Ranking: 586 out of 10,187 submissions
-> TRY AGAIN
-> choose another prompt
-> Draw a raccoon driving a tractor
-> Global Ranking: 81 out of 10,187 submissions
-> TRY AGAIN
-> choose another prompt
+>  Gomanenne sot tet ios atone ance merino sore "
+> a ae A faccoo}
+> 2Y __
+> ne 0 AR Wry A
+> roan - |
 > 10
 
 ![[assets/slides/OimPoLxioYg/slide-021.jpg]]

@@ -4,6 +4,19 @@ category: "people"
 company: "PayPal"
 linkedin: "https://www.linkedin.com/in/nixon-dinh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:22eeb071f194064bc3cd353ef277725e4938f91bd448f8a5b34a09bbf28b0899
+  subjectId: person:nixon-dinh
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:dce36ec2efc2a159d45a10d9f5dd0391688fed190b765f7acfd1fd9313e6675a
 ---
 # Nixon Dinh
 

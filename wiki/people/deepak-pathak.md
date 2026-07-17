@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/pathak22"
 twitter: "https://twitter.com/pathak2206"
 website: "https://www.cs.cmu.edu/~dpathak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2d9b087d339c3c462f045ae7dcac0bb39c24b0a04a38a422ca1f43d47d85f681
+  subjectId: person:deepak-pathak
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1805c59612edd97d3edd7643721a34c19fdc3b4a519475f9c76f37d301dd0d84
 ---
 # Deepak Pathak
 

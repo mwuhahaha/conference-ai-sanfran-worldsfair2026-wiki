@@ -31,7 +31,7 @@ OCR text:
 > + PF ———>+ + > .
 > —_—— i rT
 > —— oer a“ acre BONE Bons BD,
-> 
+>
 > ri °
 > AuToget, = GC
 
@@ -61,7 +61,7 @@ OCR text:
 > Auto~ GPT May Be The Seriously, software engineering as we have known it is dead in the water.
 > Strong AI Tool That oe . ;
 > Surpasses ChatGPT This Al is better than at least 95% of coders. And to the extent it is not, it
-> 
+>
 > delivers 1000x productivity improvements to complement them.
 > We have now officially entered the Age of Al.
 > Ge eAG REE ahem eae
@@ -69,7 +69,7 @@ OCR text:
 > Setee
 > How Generative Al Will
 > + Quarctrate Al Change Sales
-> 
+>
 > by Prabhiskarn Sinha. Arun Shastn, and Satty £. Lonerae
 
 ![[assets/slides/9-vGxMoUM9Y/slide-004.jpg]]
@@ -81,11 +81,11 @@ OCR text:
 > es =~
 > ee
 > Path to 100 Million Users ..... ee ~*~
-> 
+>
 > es °~
-> 
+>
 > ~~ ~~ -_ FS rrrrrrr——sY
-> 
+>
 > © ¢ ® @ —————
 > , / eS --~
 > es «~~
@@ -105,7 +105,7 @@ OCR text:
 OCR text:
 
 > wy
-> 
+>
 > ba ed
 
 ![[assets/slides/9-vGxMoUM9Y/slide-006.jpg]]
@@ -126,7 +126,13 @@ OCR text:
 
 OCR text:
 
-> ...but ML Model APIs are not
+> but ML Model APIs are nos
+> rn
+> 4
+> —s
+> a,
+> The. A
+> ~ -
 
 ![[assets/slides/9-vGxMoUM9Y/slide-008.jpg]]
 
@@ -134,6 +140,7 @@ OCR text:
 
 > Use of LLMs is limited
 > when “correctness” is critical.
+> O Quer
 
 ![[assets/slides/9-vGxMoUM9Y/slide-009.jpg]]
 
@@ -151,23 +158,13 @@ OCR text:
 
 OCR text:
 
-> Guardrails AI acts as a safety firewall around your LLMs
-> Application Logic
-> Standard
-> LLM Logic
-> Prompt
-> LLM API
-> Raw Output
-> Application Logic
-> Guardrails AI
-> LLM Logic
-> Prompt
-> LLM API
-> Raw Output
-> Reconstruct prompt...
-> Fail Validation
-> Verification Logic
-> Pass Validation
+> Guardrails Al acts as a safety firewall around your LLMs
+> Appicapon Log Applicaton Logic
+> Standard Guarorags Al
+> ’ 9
+> LLM : LLM :
+> an =.
+> ‘+ Querdrelie Al |
 
 ![[assets/slides/9-vGxMoUM9Y/slide-011.jpg]]
 
@@ -184,7 +181,7 @@ OCR text:
 OCR text:
 
 > 2.
-> 
+>
 > Guardrails Al under-the-hood
 > : Select type of ovtput to waldate : : + UA wT . :
 > He career : : ¢ ce er ‘ :
@@ -198,9 +195,9 @@ OCR text:
 > te ‘ : ‘ * ’ i % :
 > i gc : ao es ;
 > 1 wetnetions : Lo emi Be PR Re nee :
-> 
+>
 > -. Guardraiie Al
-> 
+>
 > | ;
 
 ![[assets/slides/9-vGxMoUM9Y/slide-013.jpg]]
@@ -208,12 +205,12 @@ OCR text:
 OCR text:
 
 > What Guardrails Al does
-> 
+>
 > Guardrails Al is a fully open source library that offers
 > Framework for creating custom validators
-> 
+>
 > Orchestration of prompting > verification > re-prompting
-> 
+>
 > | Library of commonly used validators for multiple use cases
 > Specification language for communicating requirements to LLM
 > +> Guerdraiie Al
@@ -248,7 +245,9 @@ OCR text:
 
 OCR text:
 
-> SUMMIT
+> ee...
+>
+> Bee
 
 ![[assets/slides/9-vGxMoUM9Y/slide-017.jpg]]
 
@@ -322,19 +321,19 @@ OCR text:
 
 > More examples of validations
 > e Make sure my code is executable
-> 
+>
 > e Never give financial or healthcare advice
-> 
+>
 > e Don’t ask private questions |
 > e Don’t mention competitors
 > e Ensure each sentence is from a verified source and is accurate
-> 
+>
 > e No profanity is mentioned in text
-> 
+>
 > e Prompt injection protection
-> 
+>
 > e Never expose prompt or sources
-> 
+>
 > > Querdraiie Al
 
 ![[assets/slides/9-vGxMoUM9Y/slide-023.jpg]]
@@ -342,17 +341,17 @@ OCR text:
 OCR text:
 
 > Learn more
-> 
+>
 > @ Github:
-> 
+>
 > @ Website:
-> 
+>
 > @ Twitter: @ShreyaR or @guardrails_ai
 > [a] C pou [a]
 > ae is ms Eh
 > ag bettors
 > aes
-> 
+>
 > | :. Querdraite Al (alt : an ae.
 
 ## Slide-Derived Subjects To Review

@@ -3,6 +3,19 @@ title: "Gimlet Labs"
 category: "companies"
 aliases: ["Gimlet Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0ae838f4c78b3c47299721fd21eea424f96be3fffd81c61f5ea44695df1a7606
+  subjectId: company:gimlet-labs
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2e61c3feca8373b343b3a0cad353bac7ddcf234d0f550ae34e762ae888d15b84
 ---
 # Gimlet Labs
 
@@ -30,8 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
 
 ### Media Signals
-- `youtube-tzRvcTEapzo` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
+- `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

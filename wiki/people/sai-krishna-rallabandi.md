@@ -8,6 +8,19 @@ twitter: "https://x.com/Saikallis9012"
 website: "https://saikrishnarallabandi.github.io/"
 blog: "https://saikrishnarallabandi.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3d2bb3a5d5d203270244fb1de3818c72e09c11b85ff59031295960a6505f3b80
+  subjectId: person:sai-krishna-rallabandi
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:2c0d1b1d027ae40f0e6e339879bbc2b57d9d8a5939a307b2ab3c77974364eca8
 ---
 # Sai Krishna Rallabandi
 

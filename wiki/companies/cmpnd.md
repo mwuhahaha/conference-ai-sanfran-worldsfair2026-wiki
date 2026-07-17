@@ -3,6 +3,19 @@ title: "cmpnd"
 category: "companies"
 aliases: ["cmpnd"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a0471b0db9c5ed921935052ef564ae800eec7d8540d94aaf6b10cdd8ca4819f2
+  subjectId: company:cmpnd
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:924fceded3637ce2a8aec00d92595f2ca0c12b48f54838692d43c95e201eb695
 ---
 # cmpnd
 

@@ -35,20 +35,13 @@ OCR text:
 
 OCR text:
 
-> Who I am
-> Why I’m giving this talk
-> Sam Bhagwat
-> Founder/CEO, Mastra.ai
-> Prev: Gatsby co-founder
-> Author, Principles of Building AI Agents
-> sam on X/Twitter
-> Mastra is the leading Typescript agent framework
-> Users use our agent and workflow primitives for different use-cases...and sometimes together
-> Mastra
-> The TypeScript AI Framework
-> npm create mastra
-> github.com/mastra-ai/mastra
-> World’s Fair
+> Wholam Why I'm giving this talk
+> ~-f.*
+> \ ava ) Mast
+> Sam Bhagwat 4 The Typesc :
+> Tee aerten CET Str Fey] bin
+> a npm create mastra
+> |
 
 ![[assets/slides/8SUJEqQNClw/slide-003.jpg]]
 
@@ -228,15 +221,15 @@ OCR text:
 
 > Rules of agents + workflow composition
 > (1) Agents have tools
-> 
+>
 > (2) Workflows have steps
 > (3) An agent can be a step
 > (4) A workflow can be a tool
 > (5) An agent can be a tool
 > (A\ A workflow can be a step
-> 
+>
 > i aws
-> 
+>
 > ee = | See
 
 ![[assets/slides/8SUJEqQNClw/slide-018.jpg]]
@@ -299,14 +292,15 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> mastra
+> AIEnginee
+> World'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-021.jpg]]
 
 OCR text:
 
-> AI Engineer
+> AlEngineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

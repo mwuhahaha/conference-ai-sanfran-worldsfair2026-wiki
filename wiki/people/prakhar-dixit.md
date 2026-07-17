@@ -5,6 +5,19 @@ role: "Partner"
 company: "McKinsey"
 linkedin: "https://www.linkedin.com/in/prakhar-dixit/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:eb2ae604fc5ef8b5d24b5d2f97e126be2a65e7f0dd49de575b525c68a8dfee9f
+  subjectId: person:prakhar-dixit
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d8c9d59bbf74a8a09bcf5dadf58481865b2152fedd5b03dcd4309f6e11b09902
 ---
 # Prakhar Dixit
 

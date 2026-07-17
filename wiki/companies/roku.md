@@ -3,6 +3,19 @@ title: "Roku"
 category: "companies"
 aliases: ["Roku"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ce573a2a1d5e91ce5517bc79865d874ae1ab204b0972534b3d74bb4c970aad0c
+  subjectId: company:roku
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:aa74488140d3c4be248715aced70015d0026b61a568d862429b7784b93e7f6ea
 ---
 # Roku
 

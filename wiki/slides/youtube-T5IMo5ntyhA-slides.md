@@ -45,37 +45,30 @@ OCR text:
 
 OCR text:
 
-> entityFields,
+> entityfields,
 > EntityType,
-> } from "@getzep/zep-cloud/wrapper/ontology";
-> export const financialGoalSchema: EntityType = {
-> description: "A specific financial objective the user wants to achieve.",
-> fields: {
+> }from"egetzep/zep-cloud/wrapper/ontology"
+> export constfinancialGoalSchema:EntityType={
+> description:"A specific financial objective the user wants to achieve."
+> fields:{
 > goal_type: entityFields.text(
-> "Type of financial goal (emergency_fund, house_down_payment, retirement, vacation, debt)"
-> ),
-> target_amount: entityFields.float("Target dollar amount for the goal"),
-> priority: entityFields.text("Goal priority level (high, medium, low)"),
-> },
-> };
-> export const expenseCategorySchema: EntityType = {
-> description: "A spending category showing where the user's money goes.",
-> fields: {
+> "Type of financial goal (emergency_fund,house_down_payment,retirement,vacation, debt)
+> AIE
+> target_amount:entityFields.float（"Target dollar amount for the goal"),
+> priority:entil
+> lds.text（"Goalpriority level （high,nedium,low)"),
+> export const expenseCategorySchena:EntityType ={
+> fields:(
 > category_name: entityFields.text(
-> "Name of expense category (housing, food, transportation, entertainment, utilities, shop..."
-> ),
-> monthly_spend: entityFields.float(
-> "Average monthly spending amount in this category"
-> ),
-> optimization_potential: entityFields.text(
-> "Potential for reducing spending in this category (high, medium, low, none)"
-> ),
-> },
-> };
-> export const debtAccountSchema: EntityType = {
-> description: "A debt obligation that impacts the user's financial health.",
-> fields: {
-> debt_type: entityFields.text(
+> Name of expense category (housing,food, transportation，entertainment,utilities,shop
+> monthly_spend:entityFields.float(
+> "Average monthly spending amount in this category
+> optimization_potential:entityFields.text(
+> "Potential for reducing spending in this category （high,medium,low,none)
+> export const debtAccountSchema:EntityType={
+> description:"A debt obligation that impacts the user's financial health.
+> fields:{
+> debt type:entityFields.text(
 
 ![[assets/slides/T5IMo5ntyhA/slide-004.jpg]]
 

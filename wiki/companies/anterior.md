@@ -3,6 +3,19 @@ title: "Anterior"
 category: "companies"
 aliases: ["Anterior"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6ca2fed4a2b7634446e5e2c985f3f51cc9d191c7b00589a5da8351344ef6a44e
+  subjectId: company:anterior
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3e598c0704b245803db947d2302080ad4f1a9df6818f408472b5d56a6e6c32ed
 ---
 # Anterior
 

@@ -2,6 +2,18 @@
 title: "TBD — Sonar"
 category: "people"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f9bc483a745b84045f2573e044a20bd5ed03594dd31331668670629cb8c53fac
+  subjectId: person:tbd-sonar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:d2a4be345c50ccd5b47aed87a6faff84bdebf14e6bed92e3c9565fcd37e26210
 ---
 # TBD — Sonar
 

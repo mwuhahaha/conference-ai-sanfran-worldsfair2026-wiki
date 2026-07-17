@@ -35,8 +35,9 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> =, ae
+> AMtngineer
+> World's Fai
 
 ![[assets/slides/wFTVEDYVJT0/slide-003.jpg]]
 
@@ -177,10 +178,10 @@ OCR text:
 > TT Ease of Use: Intuitive agent
 > development to get started in
 > minutes instead of hours
-> 
+>
 > te Robust Capabilities: Native tools,
 > Stra nd S Age ales oe MCP servers, and natively integrated
-> 
+>
 > PE Nese adl at)
 > Strands Agents is an open-source
 > python SDK for building agents
@@ -215,13 +216,13 @@ OCR text:
 OCR text:
 
 > Nema
-> 
+>
 > eee ne
-> 
+>
 > Ce mee nape een >
-> 
+>
 > A nemper wasn @ sa Toney Ae
-> 
+>
 > 7 os ww eee. = wee we ae
 > 8 for Mant i Raderecd Cay, CA gle @ wm
 > jadd te fw © ey
@@ -249,26 +250,25 @@ OCR text:
 
 OCR text:
 
-> Let's build!
-> AIE
+> Let’s build!
 > https://s12d.com/ai_eng_aws
 
 ![[assets/slides/wFTVEDYVJT0/slide-016.jpg]]
 
 OCR text:
 
-> AI Engineer
-> World's Fair
+> aws
+> aws
+> World'sFair
 
 ![[assets/slides/wFTVEDYVJT0/slide-017.jpg]]
 
 OCR text:
 
 > Let's build!
-> AIE
-> https://s12d.com/ai_eng_aws
-> aws
-> 13
+> ae https://s12d.com/ai_eng_aws
+> | fea] aws
+> 7
 
 ![[assets/slides/wFTVEDYVJT0/slide-018.jpg]]
 
@@ -280,7 +280,7 @@ OCR text:
 > Buliding Agents ath «
 > fesaton' Nove Ait snd We sccene ta the Thakteng Ager arth Amaron feos Act and HOP wort ney 6 ths hands on weston, your inaen hie ho Dusit encatie atom tat ng agents
 > wee
-> 
+>
 > WOU eIpiere how 10 Cte IRAE IRE Can Rav ate wtb ent aCER. perform COmplES ALE. BE emegy ate wth Wesel Conrtent Protos IMAP wervery Bee enhance Capable es
 > cree tony wR :
 > D mreates tere a
@@ -310,29 +310,29 @@ OCR text:
 > Agents eth Amarone eee rer - eo
 > Meva Act and MCP ad
 > Later Sacco ellen Ageres OD Amat Marea ASE and ME
-> 
+>
 > beta Age woh aasor font .
-> 
+>
 > Aree Al Engineer World's Fair 2025: Building Agents with Amazon Nova Act and MCP
-> 
+>
 > ciate Coin yet
 > # mene tere Event information
-> 
+>
 > woos Rute Att ano vert ene owwwes seen repent
-> 
+>
 > eee BER Proy t2 ap ene stron eet wees?
-> 
+>
 > Moats Micnz ert Mose
-> 
+>
 > are Pere 2 A
-> 
+>
 > Mette E Racony wrt arth ‘Gearwaes,
-> 
+>
 > : trace Nee De ees ty enn Naren Nes tw ht ee Cane eed RP eerste sent ad ats natn tenes a Poor Noes ets moan ogee
 > = tac setties b pniry Mee SA8 forme AN NO Mal NO Nd AP gt Nee OF et AOL Ym Mt aD ind MOR IH EAE RA PL Va Dee otra CORD wt EME KCC es
 > mace Bee ark Od Tema Ned ang ange re tes
 > wl
-> 
+>
 > r .
 > Workshop Le atee >
 > wrrawes 200 | Re ittoterted JL)
@@ -433,7 +433,7 @@ OCR text:
 > 2: ie T-Te
 > ial sens
 > https://pulse.aws/promotion/RPND9AFU?p=0
-> 
+>
 > a Microsoft aur?
 
 ![[assets/slides/wFTVEDYVJT0/slide-024.jpg]]

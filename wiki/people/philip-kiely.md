@@ -8,6 +8,19 @@ twitter: "https://x.com/philip_kiely"
 website: "https://baseten.co"
 blog: "https://philipkiely.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b3bdf9ef72e0b6fdc6626bedc0ee0890a5427b87fa7e576fc49243054666ca24
+  subjectId: person:philip-kiely
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:65604b634f8b4e04d1ef57c206d3dbfcf16534af05e7f59e853021e5ba58c8c1
 ---
 # Philip Kiely
 

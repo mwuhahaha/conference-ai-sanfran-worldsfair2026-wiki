@@ -155,18 +155,13 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> eal: eal Foundry |Q
 > World's Fair
-> Presented by
-> Microsoft
-> Foundry IQ
-> Retrieval relevance by dataset
-> BER (NDCG@10)
-> MIRACL (NDCG@10)
-> Customer (NDCG@3)
-> MIML (NDCG@3)
-> Support (NDCG@3)
-> Keyword Vector Hybrid Hybrid + Reranking
+> } - | i lh |
+> TINEA World's
+> 1's Fair Open
+> ore) Riek
+> Pay sxe ile
 
 ![[assets/slides/htM02KMNZnk/slide-009.jpg]]
 
@@ -366,10 +361,10 @@ OCR text:
 
 OCR text:
 
-> Build an open
-> ecosystem
-> AIEngineer
+> AlEngineer
 > World's Fair
+> Build anopen
+> ecosystem
 
 ![[assets/slides/htM02KMNZnk/slide-017.jpg]]
 
@@ -387,12 +382,10 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
-> Cost
-> TerminalBench 2.1
-> Score
-> Engineering the future of AI
+> World's Fair -
+> TerminalBench 2.1 _ 3 |
+> ox ee
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-019.jpg]]
 
@@ -411,21 +404,36 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
+> CTS ed
 > World's Fair
-> Engineering the future of AI
+> Wor' “air
+> [= Siecoaeea eS iy
+> Wo! oF oy ep oe ee
+> Pearl
+> te i
 
 ![[assets/slides/htM02KMNZnk/slide-021.jpg]]
 
 OCR text:
 
+> AlEngineer
+> World's Fair
 > Paul Solt
-> @PaulSolt · Follow
-> My NEW Codex workflow is better than I expected.
-> 8 new features ready for release in my app.
-> Took a few attempts to figure out the workflow and some bugs. Feels like the future.
-> Thanks @Dimillian @emanueledpt and @steipete for the inspiration.
-> Engineering the future of AI
+> @PauSolt-Follow
+> MyNEWCodexworkflowisbetterthanIexpected.
+> 8new featuresready forrelease in my app.
+> bugs.Feels like the future.
+> PRESENTEDBY
+> Thanks@Dimillian @emanueledpt and @steipetefor the
+> inspiration.
+> Microsoft
+> 10min
+> PRs
+> AlEngine
+> World's
+> W
+> W
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-022.jpg]]
 
@@ -535,7 +543,7 @@ OCR text:
 > : Pane: 3 mal (e
 > TAY (ol ata een .« y |
 > fe
-> 
+>
 > a
 
 ![[assets/slides/htM02KMNZnk/slide-031.jpg]]
@@ -552,16 +560,16 @@ OCR text:
 OCR text:
 
 > abl | vvoriaS ral | Atl a O Ry
-> 
+>
 > AlEngineer —
-> 
+>
 > | ey ota World's Fe
 > aR staleit
-> 
+>
 > World; Akamai
-> 
+>
 > a AlEngincer ——
-> 
+>
 > | BAT, Ty ee ee
 
 ![[assets/slides/htM02KMNZnk/slide-033.jpg]]
@@ -593,7 +601,7 @@ OCR text:
 > [ Wortd’s Fair |
 > Your agent failed in prod.
 > good luck reproducing tt.
-> 
+>
 > \ &) Tisha Chawla - Susheem Koul - Microsoft
 
 ![[assets/slides/htM02KMNZnk/slide-035.jpg]]
@@ -604,7 +612,7 @@ OCR text:
 > r/LocalLLaMA 1,000 prompts
 > “different outputs at temperature = 0, — 80 answers
 > mostly the MoE architecture.”
-> 
+>
 > temp O vLLM  Qwen-3-8B
 > t/LocalLLaMA
 > “even at temp 0 you get different
@@ -669,14 +677,14 @@ OCR text:
 > TRG 4d
 > elem tas
 > Re Sea
-> 
+>
 > an [ahaa ee | ane
 > ec ware Pa ae [a]
-> 
+>
 > aoe ZA
-> 
+>
 > a
-> 
+>
 > wo ON Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-041.jpg]]
@@ -695,12 +703,12 @@ OCR text:
 OCR text:
 
 > Alora te bod orl g
-> 
+>
 > # unedited, from the threads HARD DATA
 > r/LocalLLaMA 1,000 prompts
 > “different outputs at temperature = 0, —~+ 80 answers
 > mostly the MoE architecture.”
-> 
+>
 > temp 0 vLLM - Qwen-3-S8
 > r/LocalLLaMA
 > “even at temp 0 you get different
@@ -708,7 +716,7 @@ OCR text:
 > Hacker News
 > “completely correct or completely wrong,
 > depending on minute numerical diffs.”
-> 
+>
 > a) f
 
 ![[assets/slides/htM02KMNZnk/slide-043.jpg]]
@@ -727,7 +735,7 @@ OCR text:
 > ~“
 > 13 cas esasg
 > « ,
-> 
+>
 > waar) :
 > DT
 
@@ -865,13 +873,13 @@ OCR text:
 > Becton? meets alerts e
 > 3 - © ~~ Th a a ote “ata Te cove tor
 > Fate Se ONIN eee
-> 
+>
 > Secton 3 we &
-> 
+>
 > De atm
-> 
+>
 > none ESD
-> 
+>
 > IS Tee
 > cS
 > “This Claude with Chrome
@@ -901,13 +909,13 @@ OCR text:
 OCR text:
 
 > orate kala
-> 
+>
 > YX
-> 
+>
 > ; ch tb,
-> 
+>
 > 2,
-> 
+>
 > cog an ~
 > The Agentic Al Engineer
 > An Al agont is never “done.” It lives in a development loop — and the speed of that loop is the whole
@@ -975,16 +983,16 @@ OCR text:
 OCR text:
 
 > World's Fair ;
-> 
+>
 > 1. Stay near the frontier
 > 2. Don’t try to beat the market
 > 3. Create slop-free zones
 > 4. Feed the beast
 > 5. Free-range agents
 > 6. Orchestras, not factories
-> 
+>
 > | wy
-> 
+>
 > rs
 > | Engineering the future of Al
 
@@ -1004,10 +1012,10 @@ OCR text:
 
 > eee slg
 > NINE REAL JOBS, EVERY DAY
-> 
+>
 > ‘2-4 "a Wy ec
 > te >). 2 ae
-> 
+>
 > Rie = | a
 > e rc ie Cy .
 > tap, Pt cole |
@@ -1099,21 +1107,12 @@ OCR text:
 
 OCR text:
 
-> This is when productivity actually explodes.
-> Designer
-> Figma files -> handoff -> iterations
-> Works directly on running code
-> Dev
-> Code -> CI -> 40min wait -> feedback
-> Agent + sandbox -> live in 30s
-> QA
-> Find bug -> ticket -> wait -> retest
-> Tells agent directly in browser
-> Ships complete features
-> Bug fixed before ticket is filed
-> The workflow runs at AI speed. Not just the code.
-> stag.build
-> 10 / 11
+> renee ltd
+> This is when productivity
+> Designer pT=a) QA
+> Works directly on running code yo eee ae ey oe RY Tells agent directty in browser
+> eee
+> 7 * Ba Berets ist Rata e- eV iiss) seh
 
 ![[assets/slides/htM02KMNZnk/slide-068.jpg]]
 
@@ -1134,9 +1133,9 @@ OCR text:
 > can (0,0 Ue _!| World's Fair ae matome ale ko ar: ) 14
 > or ° 5 DATADOG LV, (0) gn . Re) Mowet!
 > 7 7 —— AlEnginecr t
-> 
+>
 > em (°\ ae ko a1 14 ba atslYisvalh) Ey ¢
-> 
+>
 > er a
 > cf reais
 > |
@@ -1165,8 +1164,16 @@ OCR text:
 
 OCR text:
 
-> THE PRAGMATIC
-> ENGINEER
+> | a cee ee het nl | Baa Pd
+> v4
+> ——_—___ | —_ Fi a1 a : a
+> a) ar 7 . * ae )
+> rll an eae
+> ——_—! a ne ; a
+> ~ D
+> v Na
+> 7 ae i) a ©
+> STS &
 
 ![[assets/slides/htM02KMNZnk/slide-073.jpg]]
 
@@ -1188,7 +1195,7 @@ OCR text:
 OCR text:
 
 > |
-> 
+>
 > ose Jaz
 > ae
 > 9ercor ‘or :
@@ -1220,44 +1227,45 @@ OCR text:
 
 OCR text:
 
-> Google Antigravity
-> 2022
-> Autocomplete + Chat
-> Embedding search
-> Rules files
-> Code snippets around cursor
-> Tree sitter AST parsing
-> Deterministic context retrieval
-> 2024
+> AIEngineer
+> AGoogle Antigravity
+> World'sFair
+> PRESENTED BY
+> Microsoft
+> Autocomplete-Chat
 > Agents
-> Chat → Agents only
-> Custom tools
-> MCP server integrations
-> Permissions
-> Agentic research for context
-> 2025
 > Agent Manager
+> Embeddingsearch
+> Chet-Agents only
 > Multiple agents in parallel
-> Skills & plugins
+> Rulesfiles
+> Customtools
+> Skills &plugins
+> Code snippets around cursor
+> MCPserverintegrations
+> 2026era?
+> Tree sitter ASTparsing
 > Hooks
-> Artifacts (ie. plan & walkthrough docs)
-> Agent-first management UIs
-> 2026
-> 2026 era?
-> Engineering the future of AI
+> Permissions
+> Artifacts (ie.plan& walkthrough docs)
+> nAI
+> Deterministiccontextretrieval
+> Agenticresearchforcontext
+> Agent-first management Uls
+> f
+> Fair
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-079.jpg]]
 
 OCR text:
 
-> Scaling with intelligence isn’t always easy
-> Giving AI a Terminal
-> Fear from users (rightfully so) about the potential downsides
-> Models got better, invest in permissions primitives, and you end up building much faster, safely
-> Removing Chat, Only Agent
-> Lots of user pushback removing chat in favor of agents
-> Multi-step agentic research and execution was the future
-> Engineering the future of AI
+> Id Biases
+> World's Fair
+> | Worl! Far Scaling with intelligence isn't always easy
+> orm ewe
+> mE Viacerxenie 7 ferns a
+> a | Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-080.jpg]]
 
@@ -1305,16 +1313,16 @@ OCR text:
 > Nae enaneenng dane by the user
 > Write async poo: yourself to fan out to 100¢
 > Judge processes Generative Up vars decat plug ntyutens
-> 
+>
 > Shared wath the entire Getr pr research tear
 > Fear a ce Bee es eT eT
-> 
+>
 > : . - . - ;
-> 
+>
 > eT] ay Fae Oe a ee ne eee
-> 
+>
 > alr a
-> 
+>
 > os I eed
 > oo A
 > 3 Fair
@@ -1426,19 +1434,19 @@ OCR text:
 OCR text:
 
 > eee izle
-> 
+>
 > Agenda
-> 
+>
 > | Meet OG Assist
-> 
+>
 > 2. | The Origin Story
-> 
+>
 > | Betting on Effect
-> 
+>
 > | The Core Agent Loop
-> 
+>
 > s. | A2A. Evals & Sandboxing i
-> 
+>
 > 6. | Long Context Handling f
 > Monitoring & Observability ‘ q
 > 3. | Tools, Skills & Dev Workflowslong context. We're going to talk al Ss
@@ -1641,14 +1649,13 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
-> You are watching an AIE Online Talk
-> Pre-Recorded for World's Fair 2026
+> World'sFair
+> You are wartching an AiE Online Talk
+> Pre-Recorded for Worid'sFair 2026.
 > User Signal dies at the
 > Retrieval Boundary.
 > Sonam Pankaj
-> CEO & Co-Founder StarlightSearch
+> CEO&Co-FounderStarlightSearch
 > agentRTX
 
 ![[assets/slides/htM02KMNZnk/slide-102.jpg]]
@@ -1736,7 +1743,7 @@ OCR text:
 > AS Engineer
 > ‘i ~ B Noteon Ha V ay Seem cette bax am tee OS
 > World's Fair » FL aR as nan an ana RST RMT RE
-> 
+>
 > 1h Crate Agere
 > Cerue D OR te the fe gcany ont Damn 8 [onpamded by Geter) haved on Ihe yer cetee sh
 > TN 2 ner 6 CoMONECE HORTON A Grace meth tod bacagrourd + sinmattrogy for ae P Bloce
@@ -1745,17 +1752,17 @@ OCR text:
 > Wate o wacenets
 > 00 PIRAT Sere ae teted DINK OM owe
 > Case arpane:
-> 
+>
 > * Cotrey
-> 
+>
 > fen Can yeu renee the be?
-> 
+>
 > @ Codes Agent
 > Revewsd 19 63047 — overs tye okt told and ihe UX dvectan meses rerio
 > 103 Catch: Dap Samal thang (7p case where Te deleted SracAre CALE Deg Some ran Neat Sete
 > IRer CENT and U2) a ground yt Cate IML ORAS mene ere
 > | pried fume te BOY ipa A Qare AQPELAEY SONt) Shen ba 3600 12 Lord ence Cl a gener
-> 
+>
 > ar 4, I
 > a f
 > re

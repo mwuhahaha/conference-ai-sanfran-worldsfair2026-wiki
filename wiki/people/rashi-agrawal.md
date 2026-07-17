@@ -6,6 +6,19 @@ company: "Hinge Health"
 linkedin: "https://www.linkedin.com/in/rashi283/"
 website: "https://sessionize.com/rashiagrawal/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2eab305fa52a8f347c565c82ca9c3be05e44af4c236ad5affbb78842d16d6b9e
+  subjectId: person:rashi-agrawal
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:63756728d738ab58c8b05badeb66ed7ea327fe2752d9a673e12e8f05bf59e9a5
 ---
 # Rashi Agrawal
 

@@ -3,6 +3,19 @@ title: "General Reasoning Inc."
 category: "companies"
 aliases: ["General Reasoning Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3d7b336a82eca674ced996d76b5c5c95bac964654ba6f6de72611b452530f4fc
+  subjectId: company:general-reasoning-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:95f0b3744945e61d6fa2cf49b34fa766291b515793bfd29ae2ad62145c4a37b7
 ---
 # General Reasoning Inc.
 

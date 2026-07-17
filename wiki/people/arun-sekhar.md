@@ -5,6 +5,19 @@ role: "Principal Product Manager for AI Developer Experience"
 company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/rcarun"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:524f14277e1a62711f9b53fdc500b3708392a1230589c085ba504ebdc5c7292b
+  subjectId: person:arun-sekhar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:02b6b3342ce7cd621d2f32cd1e030586fdfb3726482310232b59c2cf993d1b49
 ---
 # Arun Sekhar
 
@@ -32,6 +45,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud|Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud]]
 
 ### Media Signals
-- `youtube-1t-9-s1brcg` — 6 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
 - Evidence links for `youtube-1t-9-s1brcg` (supporting context only): [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

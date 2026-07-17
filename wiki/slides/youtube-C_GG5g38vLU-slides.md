@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/C_GG5g38vLU/slide-002.jpg]]
 
@@ -121,13 +120,13 @@ OCR text:
 > s@ Upvote a story on Hacker News
 > 12 Go to mttos://news. ycombinator.com.
 > reo 23 Call browser got stories to see ranked stories with their 10s and voted status.
-> 
+>
 > * bd i4 Find the highest-ranked story mhere alreadyVoted is false.
-> 
+>
 > * Pa 15 Chick 1ts upvote arrow using the oxact selector: afid«"up_STORYID*} (replace STOAYIO with the actual td).
-> 
+>
 > * a 16 trim():
-> 
+>
 > rd ee
 > 18 console.jog{ Model: ${MODE:} >):
 > 29 console. log{ Task: upvete on Hacker News\n ):

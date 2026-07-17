@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > aWws
-> 
+>
 > ee)
 > ORCI ol glk Mm am AVIACe STO RO MU FotateTey DIE
 > Mdaily £3 augment code WorkOS
@@ -31,16 +31,22 @@ OCR text:
 
 OCR text:
 
+> —eeeeeeeSSSSSSSSSSSeSeeeaaSSSS
 > How to Look at Your Data
 > Jeff Huber & Jason Liu
+> ms oaths)
+> es
 
 ![[assets/slides/jryZvCuA0Uc/slide-003.jpg]]
 
 OCR text:
 
 > Read the full report
-> research.trychroma.com
-> AIE
+> research. trychroma.com
+> { ; x OF; er Me [a]
+> ¢ y gt rs
+> . lo : ae
+> | ie
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

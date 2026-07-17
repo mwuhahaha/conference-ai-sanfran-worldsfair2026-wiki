@@ -9,6 +9,19 @@ website: "https://ora.ai"
 highlighted: "true"
 highlightPriority: "critical"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Transcript-backed synthesis", "Highlight registry"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a339b2750175039fe85cb69fea14bc55e601d4358ea393be1231a179593fdf27
+  subjectId: person:liad-yosef
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:202d2015160a31625f00dcec16a4cf959230d542320a29eb1a0fadb59a526c95
 ---
 # Liad Yosef
 

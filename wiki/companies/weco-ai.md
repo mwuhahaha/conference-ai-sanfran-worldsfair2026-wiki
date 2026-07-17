@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Weco AI"]
 website: "https://www.weco.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:97745f6ceac97adbc9704884aab82f0fe059e9fc7f01f14608787f065bbb091a
+  subjectId: company:weco-ai
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:bb468001f78ebe20ee178956c7169e7a2d0f7fe35a4eb46c0e1262fb72be733e
 ---
 # Weco AI
 

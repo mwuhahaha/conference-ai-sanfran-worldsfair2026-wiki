@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUM SPONSORS
-> Braintrust WorkOS OpenAI
+> €3 Braintrust €} WorkOS OpenAl
 
 ![[assets/slides/Xfl50508LZM/slide-002.jpg]]
 
@@ -31,7 +30,7 @@ OCR text:
 > De AE Frage Sg an gers tm cde tome eget x BB true ing mewagees on EP tet aeiativn xt =
 > . Ste andes Com ALL Mes 7 tf OQ» D & rm |
 > What are we talking about?
-> 
+>
 > ¢ What is an eval, and why you need them
 > © Setting up tracing with Phoenix
 > © Building an Al agent with the Claude Agent SDK

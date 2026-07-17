@@ -3,6 +3,19 @@ title: "Bugcrowd, Inc"
 category: "companies"
 aliases: ["Bugcrowd, Inc"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c6b700a3425c17128b8ff9a047912fca4ea9cd114385ff50fd59149ae6223274
+  subjectId: company:bugcrowd-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:7b928c50ebdba14d989125c13c31ff46c5529873e47a0246259eeeeeb67f51f3
 ---
 # Bugcrowd, Inc
 

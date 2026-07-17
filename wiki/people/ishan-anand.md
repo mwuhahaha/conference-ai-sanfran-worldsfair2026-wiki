@@ -8,6 +8,19 @@ twitter: "https://x.com/ianand"
 website: "https://ishananand.com/"
 blog: "https://ishananand.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:903210596258a799f69173f49feea9dc7969a5a35a1a283a60ec31f0c4c54364
+  subjectId: person:ishan-anand
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:6d2e21d9541122f2b2afdb24b48c326ceb2d5fe03035afcaf2b1ac38a21e5649
 ---
 # Ishan Anand
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
 
 ### Media Signals
-- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
+- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
 - Evidence links for `youtube-ZuiJjkbX0Og` (supporting context only): [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]

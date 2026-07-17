@@ -8,6 +8,19 @@ twitter: "https://x.com/nutlope"
 website: "https://nutlope.com"
 blog: "https://nutlope.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f71b4ea09678699d95a1ed3bc24654cb13fb977ae75118dafb9568f9f12d84b0
+  subjectId: person:hassan-el-mghari
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:73de905b7146907a808cf7fb9ce0059af8c37b6d71b0dbf64293e8a6617e6327
 ---
 # Hassan El Mghari
 

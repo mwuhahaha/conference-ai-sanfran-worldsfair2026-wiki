@@ -5,6 +5,19 @@ role: "Claude Code"
 company: "Anthropic"
 twitter: "https://x.com/trq212"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2b119f4afde4f4247cf4ac54f3aa3c58faf321039b28b0a05c25413419cf097a
+  subjectId: person:thariq-shihipar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:420cf53c00fc8462c2cfee0053701593f9e21391c476effdf7c7f621ce2e08e3
 ---
 # Thariq Shihipar
 
@@ -28,6 +41,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
 
 ### Media Signals
-- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
+- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
 - Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]

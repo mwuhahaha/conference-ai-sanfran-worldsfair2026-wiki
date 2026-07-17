@@ -8,6 +8,19 @@ twitter: "https://x.com/madiator"
 website: "https://smahesh.com"
 blog: "http://smahesh.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a3e52b8e29dc266ebd3cd2a7d17395ff7ceec4dcb251e6a38c943cd14db1ee46
+  subjectId: person:mahesh-sathiamoorthy
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ac0a4d032d8e83bf744ce70d4e4b513102418e464f30eabce4cbba286afb6d7e
 ---
 # Mahesh Sathiamoorthy
 

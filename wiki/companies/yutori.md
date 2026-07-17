@@ -3,6 +3,19 @@ title: "Yutori"
 category: "companies"
 aliases: ["Yutori"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:14a7d7ee57f8fcb2a0f317a9f9e04e4db2ca4a6324e3f37ed13336fbc913fc9e
+  subjectId: company:yutori
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:23cfaf839811eed02998af5fce1e2118dcf58dd1fe258ac195c0e0f2aa20f5cc
 ---
 # Yutori
 

@@ -5,6 +5,19 @@ role: "Principal Engineer"
 company: "Google DeepMind"
 linkedin: "https://www.linkedin.com/in/tom-ouyang-8b5a5142/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c33054995c6cdb4847ae1e455ba86981a968b7fbbe8cfaba47dc0c82bfe4ceb8
+  subjectId: person:tom-ouyang
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0a1561fbe6c492784c483b0ce693842f8c4f14011bce1f623e5191bff2b86b6d
 ---
 # Tom Ouyang
 

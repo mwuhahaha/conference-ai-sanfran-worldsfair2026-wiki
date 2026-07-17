@@ -75,18 +75,15 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-TqC1qOfiVcQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-9fubhllmsBU`
-- Slide deck: [[youtube-9fubhllmsBU-slides|Slides: Field Guide to Fable — Thariq Shihipar, Anthropic]] — 9 visible slide image(s); 9 HTML recreation(s).
-![[assets/slides/9fubhllmsBU/slide-004.jpg]]
-![[assets/slides/9fubhllmsBU/slide-005.jpg]]
-![[assets/slides/9fubhllmsBU/slide-006.jpg]]
-- Slide-derived themes for `youtube-9fubhllmsBU`: opening, land, king, models, grown, designed, fetch, write.
+- Slide deck: [[youtube-9fubhllmsBU-slides|Slides: Field Guide to Fable — Thariq Shihipar, Anthropic]] — 13 visible slide image(s).
+![[assets/slides/9fubhllmsBU/slide-001.jpg]]
+![[assets/slides/9fubhllmsBU/slide-002.jpg]]
+![[assets/slides/9fubhllmsBU/slide-003.jpg]]
+- Slide-derived themes for `youtube-9fubhllmsBU`: land, king, guide, unknowns, fable, dealing, grief, models.
 - Source video: `youtube-TqC1qOfiVcQ`
-- Slide deck: [[youtube-TqC1qOfiVcQ-dense-slides|Dense Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]] — 24 visible slide image(s); 24 HTML recreation(s).
-![[assets/dense-slides/TqC1qOfiVcQ/slide-001.jpg]]
-![[assets/dense-slides/TqC1qOfiVcQ/slide-002.jpg]]
-![[assets/dense-slides/TqC1qOfiVcQ/slide-003.jpg]]
+- Slide deck: [[youtube-TqC1qOfiVcQ-dense-slides|Dense Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]] — slide evidence page.
 - Additional slide evidence: [[youtube-TqC1qOfiVcQ-slides|Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]], [[youtube-TqC1qOfiVcQ-reconstructed-slides|Reconstructed Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]]
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/9fubhllmsBU.txt` (3,542 words).
@@ -97,13 +94,13 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-9fubhllmsBU` — 3,542 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- `youtube-9fubhllmsBU` — 3,542 transcript words; 9 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-9fubhllmsBU`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-9fubhllmsBU`: claude, fable, code, give, models, prompt, model, little.
-- Slide-derived themes for `youtube-9fubhllmsBU`: opening, land, king, models, grown, designed, fetch, write.
+- Slide-derived themes for `youtube-9fubhllmsBU`: land, king, guide, unknowns, fable, dealing, grief, models.
 - Evidence links for `youtube-9fubhllmsBU` (primary event evidence): [[youtube-9fubhllmsBU]], [[youtube-9fubhllmsBU-transcript]], [[youtube-9fubhllmsBU-slides]]
-- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
+- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
 - Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
 
 ### Agent Reading Notes

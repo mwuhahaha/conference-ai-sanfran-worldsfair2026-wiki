@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/lukas-petersson-181a83172/"
 twitter: "https://x.com/lukaspet"
 website: "https://lukaspet.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:f00ec4131b748949a658c1f5a473b2aee9e41cb48fdce5ca7827765874d6e641
+  subjectId: person:lukas-petersson
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:66abcea040a2bad4bd97119ebb5abcdb407f1a75aeaa38909df1de95a83a8a30
 ---
 # Lukas Petersson
 

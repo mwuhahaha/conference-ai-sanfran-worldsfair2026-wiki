@@ -1,2 +1,2 @@
-Stop converting REST APIs
+converting REST APIs
 to MCP servers

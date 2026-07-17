@@ -8,6 +8,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-06T17:58:21.449Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:aaf71bec982f8d7f2c7d428854ef62a942501131c6e153adeca43093229aad85
+  subjectId: person:ahnaf-prio
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:64db58bd05aac0110180fb6e92d108386e2f46b83cb8b02afdf99a13eafa30ce
 ---
 # Ahnaf Prio
 

@@ -6,6 +6,19 @@ company: "Zep AI"
 linkedin: "https://www.linkedin.com/in/danielchalef/"
 twitter: "https://x.com/danielchalef"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2b830b4b7cbee21a6388d57a1c4e6cfd797537217dfc1bce453eb5ee0a0d62f5
+  subjectId: person:daniel-chalef
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c642be3b0086ec6213736fac3b088ba31e8766be24337844c510ce774e262b01
 ---
 # Daniel Chalef
 
@@ -30,6 +43,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
 
 ### Media Signals
-- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
+- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
 - Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]

@@ -6,6 +6,19 @@ company: "Notion"
 linkedin: "https://www.linkedin.com/in/sarahmsachs/"
 twitter: "https://x.com/sarahmsachs"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6ebed874582ead4d4e7e918e2260608c5ff85da499d219030419a13a3b0bc394
+  subjectId: person:sarah-sachs
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9fe21fa83eacd023de6770a03e38923ec3b74d3c3c09e5244bd042e984454b30
 ---
 # Sarah Sachs
 
@@ -34,5 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]]
 
 ### Media Signals
-- `youtube-6YdPI9YbjbI` — source page linked; role: supporting context only.
+- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
 - Evidence links for `youtube-6YdPI9YbjbI` (supporting context only): [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

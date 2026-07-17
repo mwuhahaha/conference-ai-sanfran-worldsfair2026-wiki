@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-cVzf49yg0D8]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-cVzf49yg0D8`
-- Slide deck: [[youtube-cVzf49yg0D8-dense-slides|Dense Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]] — 14 visible slide image(s); 14 HTML recreation(s).
-![[assets/dense-slides/cVzf49yg0D8/slide-001.jpg]]
-![[assets/dense-slides/cVzf49yg0D8/slide-002.jpg]]
-![[assets/dense-slides/cVzf49yg0D8/slide-003.jpg]]
+- Slide deck: [[youtube-cVzf49yg0D8-dense-slides|Dense Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-cVzf49yg0D8-slides|Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]], [[youtube-cVzf49yg0D8-reconstructed-slides|Reconstructed Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]]
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-cVzf49yg0D8` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
+- `youtube-cVzf49yg0D8` — 7 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
 - Evidence links for `youtube-cVzf49yg0D8` (supporting context only): [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
 
 ### Agent Reading Notes

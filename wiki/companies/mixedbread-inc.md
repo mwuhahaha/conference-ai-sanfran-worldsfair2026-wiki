@@ -4,6 +4,19 @@ category: "companies"
 aliases: ["Mixedbread Inc."]
 website: "https://www.mixedbread.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d6e7fac3bf33ddd2aad291cb93c4c25aeae4df03e31809056709d0b2331a8c16
+  subjectId: company:mixedbread-inc
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d919b6f14501ae5a5866cb92cacfb3786e81d28065b5bbec433d9eff838ff56a
 ---
 # Mixedbread Inc.
 

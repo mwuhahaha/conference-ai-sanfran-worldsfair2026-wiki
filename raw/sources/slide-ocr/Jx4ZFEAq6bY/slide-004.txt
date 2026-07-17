@@ -1,2 +1,4 @@
-Retrieval is Static
-Context Stuffing
+} Retrieval is Static
+} Context Stuffing
+al
+|

@@ -4,6 +4,19 @@ category: "people"
 company: "NVIDIA"
 website: "https://developer.nvidia.com/blog/author/skirui"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:cafab1be8b4e10638f8104f3a05b8e66cf702396748d556efc34cbe174e20b59
+  subjectId: person:sheilah-kirui
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:03b2a03cd1ce2723326b7d6becbc132784ce98bb50c7a8e5caf51af4807a943a
 ---
 # Sheilah Kirui
 

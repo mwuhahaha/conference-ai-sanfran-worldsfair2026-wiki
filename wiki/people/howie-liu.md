@@ -6,6 +6,19 @@ company: "Airtable"
 linkedin: "https://www.linkedin.com/in/howieliu/"
 twitter: "https://x.com/howietl"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:e67e48b442ab9ae09793030f1ce2b768cb89577b5672632be1a94e4c708d3c5c
+  subjectId: person:howie-liu
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:85b6fb137f658659cbd0a3d078f469c8ecc445320748aaed72180f16d75cdafd
 ---
 # Howie Liu
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

@@ -3,6 +3,19 @@ title: "Unblocked"
 category: "companies"
 aliases: ["Unblocked"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:bcd1db81fdb59b083a7105c3757f6f7bcf46adeb148973c1f7acb03771a182dd
+  subjectId: company:unblocked
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:1ee6ab3b85903f1175ca38ae4f940025ac1670ba5463f89153563d8080869d56
 ---
 # Unblocked
 
@@ -40,10 +53,11 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
 
 ### Media Signals
-- `youtube-5ID22ACI7IM` — 4 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
+- `youtube-5ID22ACI7IM` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
 - Evidence links for `youtube-5ID22ACI7IM` (supporting context only): [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
-- `youtube-BiG2ssibKGc` — source page linked; role: supporting context only.
+- `youtube-BiG2ssibKGc` — 5 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
 - Evidence links for `youtube-BiG2ssibKGc` (supporting context only): [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

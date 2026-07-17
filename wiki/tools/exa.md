@@ -5,6 +5,19 @@ aliases: ["Exa", "Exa.ai"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Search & Retrieval", "AI in GTM"]
 scheduleRooms: ["Track 3", "Track 6"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:ff6ca353cdd3b07dd58a13b79ea8164be431db0d9b49608c276f3209081271e5
+  subjectId: tool:exa
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:d7c858b02c9fee47736bd62d8a540ea21236940b002c76b5cb3bd2136a778ff3
 ---
 
 # Exa

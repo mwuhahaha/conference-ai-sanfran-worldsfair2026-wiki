@@ -6,6 +6,19 @@ company: "Warp"
 linkedin: "https://www.linkedin.com/in/zachlloyd/"
 twitter: "https://x.com/zachlloydtweets"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:631ac1b2ecb62d8545da3cbbb2367656cf25550296e798ab9ec5a361d61b3337
+  subjectId: person:zach-lloyd
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0400dcf480205fde855ca06971f5da23f3a492bb70c5e4e2292413d0991c478f
 ---
 # Zach Lloyd
 

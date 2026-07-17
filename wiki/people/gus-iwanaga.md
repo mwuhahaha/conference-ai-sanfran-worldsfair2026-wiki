@@ -8,6 +8,19 @@ twitter: "https://x.com/guhgoi"
 website: "https://www.youtube.com/@Produtando"
 blog: "https://www.youtube.com/@Produtando"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:17c53c1e2e9ff6349c9fed7090556b965715d876397f749905de06652da816b3
+  subjectId: person:gus-iwanaga
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:c33b3b724ad5a2a72c26c1c3ca1eb77c5d3f94a72d5578c543a993fb3a3ddbdb
 ---
 # Gus Iwanaga
 

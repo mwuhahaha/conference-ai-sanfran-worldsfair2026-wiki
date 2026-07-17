@@ -8,6 +8,19 @@ twitter: "https://x.com/brendanh0gan"
 website: "https://www.bhogan.net"
 blog: "https://www.bhogan.net/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a94d238b2ea4f00cc85c5905cfdf6a1a5deccce2ba8c8c22ab6c23105c4c1b0f
+  subjectId: person:brendan-rappazzo
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cdea0a0da55d08910db7c53a63b78d2a0fbdaa936870264fa7f179c1017843c5
 ---
 # Brendan Rappazzo
 

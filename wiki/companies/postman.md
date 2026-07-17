@@ -3,6 +3,19 @@ title: "Postman"
 category: "companies"
 aliases: ["Postman"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2ca16b690bfd77e793eae8e0d41c8852a111c3e5e47f71c1c8ad61eb6ab76b80
+  subjectId: company:postman
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:abe59f2f2b4ad361a9dbefec90407c77fad9de08c980c91956141ee9b2b3f431
 ---
 # Postman
 

@@ -74,10 +74,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-zepu8Kk6FBQ]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-zepu8Kk6FBQ`
-- Slide deck: [[youtube-zepu8Kk6FBQ-dense-slides|Dense Slides: Agents for Everything Else — swyx]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/zepu8Kk6FBQ/slide-001.jpg]]
+- Slide deck: [[youtube-zepu8Kk6FBQ-dense-slides|Dense Slides: Agents for Everything Else — swyx]] — slide evidence page.
 - Additional slide evidence: [[youtube-zepu8Kk6FBQ-slides|Slides: Agents for Everything Else — swyx]], [[youtube-zepu8Kk6FBQ-reconstructed-slides|Reconstructed Slides: Agents for Everything Else — swyx]]
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -86,8 +85,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
 - Evidence links for `youtube-zepu8Kk6FBQ` (supporting context only): [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ### Agent Reading Notes

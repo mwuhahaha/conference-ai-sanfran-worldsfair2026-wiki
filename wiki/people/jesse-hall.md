@@ -4,6 +4,19 @@ category: "people"
 role: "Staff Developer Advocate"
 company: "Livekit"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2f2b0f1eb3fef5fdd7965018be6ca1ced6c8c3073bc951d2178d3a91dc27f3c4
+  subjectId: person:jesse-hall
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:749e50570fd5b29b73c2bdd0d2715286ad89b62a531555cd5d61b18b9d3e9ddd
 ---
 # Jesse Hall
 

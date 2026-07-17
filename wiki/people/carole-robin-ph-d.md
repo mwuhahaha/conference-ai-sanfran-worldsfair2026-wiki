@@ -6,6 +6,19 @@ company: "Leaders in Tech"
 linkedin: "https://www.linkedin.com/in/carole-robin"
 website: "https://leadersintech.org/team"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:def762d223356e9db648f1976e4a10e6c4857776a7e39e83909d152acea40917
+  subjectId: person:carole-robin-ph-d
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d544a2ed334ab4416257bbe3e2c7044435a3819d7b823af288c77e23919a5712
 ---
 # Carole Robin, Ph.D.
 

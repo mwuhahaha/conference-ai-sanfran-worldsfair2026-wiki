@@ -17,76 +17,117 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
+![[assets/slides/HvZXAOZ3iv8/slide-001.jpg]]
+
+OCR text:
+
+> i
+> , &§
+> 4 aa? a *
+>
+> e “ < wa
+
 ![[assets/slides/HvZXAOZ3iv8/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-002.html)
-- AI slide classifier: `title_card` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> Panes
+> * 5
+> * * bod
 > What Lies Beneath the API:
 > When you should fine-tune your own model
 > Benjamin Cowen, PhD
+>
+> ae —
+>
+> ; a
+>
+> as °
+>
+> “ Google DeepMind
+>
+> en
 
 ![[assets/slides/HvZXAOZ3iv8/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
-- OCR decision: ready — dense multi-column slide with small labels and diagram text
+OCR text:
 
-Slide text:
+> Modal 101 Functions Sandboxes
+> Pon a Storage Application State Led rere clare
+> . * As a general purpose platform, we're seeing
+> ra é some interesting patterns.
+> sre
+> (OOS Ceres ane
+> Capacity Orchestration
+> ¥', Modal
+> . ee
+> + #3 Braintrust €} WorkOS OpenAl
 
-> Modal 101
+![[assets/slides/HvZXAOZ3iv8/slide-004.jpg]]
+
+OCR text:
+
+> ge TA ™~ :
+> —— 7}
+> ) —
+> I
+> 2
+> id
+> ‘ -_
+> EUROPE
+> o. ’
 
 ![[assets/slides/HvZXAOZ3iv8/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Use a frontier API
-> Move fast. Ship something.
 > Works for
-> Get started fast
-> No infrastructure overhead
-> Very good models!
-> When you might want to shift
-> You need performance control at scale
+> © Get started fast
+> « —Noinfrastructure overhead
+> . ® Very good models!
+> oe Use a frontier API
+> * *
+> * va Move fast Snip semetn. aq When you might want to shift
+> Sd n i bd e You need performance control at scale
+> a
 > Cost, throughput, latency, custom metric
-> You need model differentiation
-> You're hitting rate limits
+> © You need model differentiation
+> © You're hitting rate mits
+> 7 ”
+> a | Al Engineer |
+> SU ela
 
 ![[assets/slides/HvZXAOZ3iv8/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — dense code screenshot with small text and compact layout
+OCR text:
 
-Slide text:
-
-> SFT in 300 lines of code
+> SFT in 300 lines
+> st of code
+> Ea bs
+> * *
+> * a
+> ior diel Once you have your data in place, open source
+> libraries and serverless infra make parallel
+> hyperparameter sweeps trivial.
+> laltd Space ea Lonel Es raD rere tt MEO LM ba le-¢ Mss Cran Sh eet one SLES
+> O6_ap4_ana_m “yalo-finetu re _yolo py
+> »
+> re)
+> S Z | Al Engineer |
+> aU e) a3
+> at
 
 ![[assets/slides/HvZXAOZ3iv8/slide-007.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
-- OCR decision: ready — dense code screenshot with small text and compact layout
+OCR text:
 
-Slide text:
-
-> GRPO (RL) in 300 lines of code.
-
-### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/HvZXAOZ3iv8/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with audience; no readable slide content
-- [`slide-004.jpg`](/assets/slides/HvZXAOZ3iv8/slide-004.jpg) — `speaker_stage` confidence `0.98`; speaker on stage with a blank projected screen; no readable slide content
-
-Classification audit: `raw/sources/slide-ai-classification/slides/HvZXAOZ3iv8/audit.json`
+> GRPO(RL)in300 aapp.function( inage:inage, sp-*H100*, volumes-(°/nodels':checkpoints_votome). tit-69.60·24,24hou75 secrets-[modal.Secret.from_name(wandb-secret')], Copy
+> linesofcode. defstart_grpo_trainer（use_vllm=false,vlls_mode-ome）: dataset:Dataset-load_dataset( "openCoder-Lu/opc-sft-stage2',"educational_instruct',split-'train”
+> AIE UnifiedGPU+SandboxAPlsmakeslargescale RLfeasible. dataset-dataset.rename_column（ dataset-dataset.rename_column(`testcase',"testcases') training_args:GRpoConfig-Gapoconfig( ）Needed for theGRPO traier dataset·dataset.select(range(12s))To sinplify testing. ootput_dir-str（MootLs.DIR),
+> vlln_mode-vlla_mode, save_steps*1, max_stepsos, To sinplify testing.Renove for production uss cases
+> 06_gpu_and_ml/reinforcement-leaming https://github.com/modal-labs/modal-examples/tree/main/ trainer-GRpoTrainer( mede1-*Qwen/Qwen2-0.50-Instruct', reward_funcs·reward_helper_function, argsutraining_args, train_dataset-dataset,
+> trainer.train()
+> Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

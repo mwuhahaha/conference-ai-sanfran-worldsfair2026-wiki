@@ -8,6 +8,19 @@ twitter: "https://x.com/KaranVaidya6"
 website: "https://kvaidya.com/"
 blog: "https://kvaidya.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:37416dcc02bbd7bd92bbfa342e5840888291604f0f50ebc98160d7c3d6c6879a
+  subjectId: person:karan-vaidya
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:477b046f150ca68c63c03b5e1f84626a94e28868a5d50b4ef180fc1d04f8fcd0
 ---
 # Karan Vaidya
 

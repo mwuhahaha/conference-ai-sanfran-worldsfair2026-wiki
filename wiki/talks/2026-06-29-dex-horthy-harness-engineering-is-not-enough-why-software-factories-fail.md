@@ -63,12 +63,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-rmvDxxNubIg]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-rmvDxxNubIg`
-- Slide deck: [[youtube-rmvDxxNubIg-dense-slides|Dense Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]] — 4 visible slide image(s); 4 HTML recreation(s).
-![[assets/dense-slides/rmvDxxNubIg/slide-001.jpg]]
-![[assets/dense-slides/rmvDxxNubIg/slide-002.jpg]]
-![[assets/dense-slides/rmvDxxNubIg/slide-003.jpg]]
+- Slide deck: [[youtube-rmvDxxNubIg-dense-slides|Dense Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]] — slide evidence page.
 - Additional slide evidence: [[youtube-rmvDxxNubIg-slides|Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]], [[youtube-rmvDxxNubIg-reconstructed-slides|Reconstructed Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]]
-- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -77,8 +74,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-rmvDxxNubIg` — 5 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
+- `youtube-rmvDxxNubIg` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
 - Evidence links for `youtube-rmvDxxNubIg` (supporting context only): [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
 
 ### Agent Reading Notes

@@ -3,6 +3,19 @@ title: "Maven Clinic"
 category: "companies"
 aliases: ["Maven Clinic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4d9e10cc620eee7ee1ce409872fbc85a93f3ca3a12570d6e398372e266b4b82f
+  subjectId: company:maven-clinic
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0afe70dc3d66ccc16457fa214f5e4a7bc7c3e8e25d69693c8eadbe33b38c4f7d
 ---
 # Maven Clinic
 

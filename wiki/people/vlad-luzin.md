@@ -5,6 +5,19 @@ role: "Founder"
 company: "Band.ai"
 linkedin: "https://il.linkedin.com/in/luzin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:d1cd499c866fbb7ffda0e9c9c2cc9fbee8d50cc40e1d4dc0833054d9d35634a3
+  subjectId: person:vlad-luzin
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8776454a15527a044f3eea5074f3a06716c1a1cec5ce56e9220802e2beb117f5
 ---
 # Vlad Luzin
 

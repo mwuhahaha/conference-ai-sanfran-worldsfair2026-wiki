@@ -43,8 +43,9 @@ OCR text:
 
 OCR text:
 
-> AGENTS AT WORK
-> AI Engineer
+> AGENTSAT
+> WORK
+> AIEngineer
 > SUMMIT
 
 ![[assets/slides/bVNNvWq6dKo/slide-004.jpg]]
@@ -179,61 +180,61 @@ OCR text:
 > s. P
 > ] Related features
 > 7 The agent continuously researches in the + “Continue my work”
-> 
+>
 > background. predicting your next steps + Terminal Turbo mode
 > and integrating seamlessly with your we di .
 > workflow—like it’s reading your mind ~ AGENT: citfiewien UX
-> 
+>
 > ; re mt AI.ENGINEER
 
 ![[assets/slides/bVNNvWq6dKo/slide-009.jpg]]
 
 OCR text:
 
-> use client
-> import { useState } from 'react';
-> export default function LoginForm() {
-> const [formData, setFormData] = useState({
-> email: '',
-> password: '',
-> confirmPassword: ''
-> });
-> const [error, setError] = useState('');
-> const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-> const { name, value } = e.target;
-> setFormData(prev => ({
-> ...prev,
-> [name]: value
-> }));
-> };
-> const handleSubmit = (e: React.FormEvent) => {
-> e.preventDefault();
-> setError('');
-> if (formData.password!== formData.confirmPassword) {
-> setError('Passwords do not match');
-> return;
-> }
-> const response = await fetch('/api/auth/register', {
-> method: 'POST',
-> headers: {
-> 'Content-Type': 'application/json',
-> },
-> body: JSON.stringify({
-> email: formData.email,
-> password: formData.password,
-> }),
-> });
-> }
-> }
-> Write with Cascade
-> Kick off a new project or make changes across your entire codebase
+> LoginForm.tsx
+> layout.tsx
+> nts）LoginFormsx)①LoinForm）
+> ExD
+> Add Docstring
+> 'use client';
+> (useState)
+> function LoginForm（）
+> const [fornData,setFormData]
+> useStatelf
+> email:*,
+> password:..
+> B
+> confirnPassword:
+> Writewith Cascade
+> useState(*`):
+> Kick offanew prject ormake
+> const [error,setError]
+> const handleFullNaneChang
+> React.ChangeEvent<HTMLInputElenent>))
+> const （name,value
+> o.target:
 > Past workflows
-> Add a sign up button to the main page
-> Resolve CORS issue
-> Fix my errors in all my pages
-> Install all of my dependencies
-> Continue my work
-> Show 12 more...
+> setFormData（prev=>（（
+> prev,
+> Addasig
+> aneA 1[weu]
+> 9CORSI
+> React.FormEvent)
+> .preventDefault（）;
+> setError(*.):
+> formData.password
+> fornData.confirmPassword)
+> setError('Passwords do not match'):
+> 3a
+> const response
+> fetch('/api/auth/register',
+> method:'POST',
+> headers:(
+> Content-Type':'application/json'
+> body:JsoN.stringify（<
+> email:fornData.email,
+> password: formData.password,
+> NSERT
 
 ![[assets/slides/bVNNvWq6dKo/slide-010.jpg]]
 
@@ -299,16 +300,12 @@ OCR text:
 
 OCR text:
 
-> User runs commands in Terminal
-> Cascade is up-to-date with recent terminal commands
-> Your recent terminal commands:
-> $ source ~/.bashrc
-> $ dwbs
-> $ gd
-> $ gd
-> $ acimg
+> ae User runs commands in Terminal
+> “Ss. F we
+> a on orc . ae |
+> Cascade is up-to-date with recent termina! commands
 > AGENT ENGINEERING
-> https://ai.engineer
+> _ ee Tet)
 
 ![[assets/slides/bVNNvWq6dKo/slide-012.jpg]]
 
@@ -333,10 +330,10 @@ OCR text:
 OCR text:
 
 > 3 f NN EN EE EE
-> 
+>
 > ( ; created and activat
 > launched. You can t
-> 
+>
 > def parse aras() ;
 > esti When you're done,
 > For future sessions,
@@ -344,11 +341,11 @@ OCR text:
 > weith:
 > (venyv) nickjiang:~ sre exarple color switch (main) $ python main. py
 > File , lane reas)
-> 
+>
 > Wiehe Aone
 > ane , bine 2 ED before running the «
 > mes , line ree)
-> 
+>
 > (venv) nickjiang:~ srcvexample ‘color switch (main) $ echo Success!
 > Success!
 > (venv) nickjiang:. src exarple color “Kh Curb tees
@@ -358,37 +355,40 @@ OCR text:
 OCR text:
 
 > Principle
+> AIE
 > Meta-Learning
-> The best agents don't just assist—they learn.
-> Windsurf adapts to your workflows,
-> remembers past interactions, and evolves
-> with every use. From recalling preferred
-> tools to understanding project-specific
-> patterns, it gets smarter the more you use it.
-> Related features
-> • Memories
-> • Custom tools via MCP servers
-> • Reading your fav docs
-> • Whitelist / blacklist commands
+> Thebestagentsdon't just assist-theylearn.
+> Relatedfeatures
+> Windsurfadaptstoyourworkflows.
+> rememberspastinteractions.andevolves
+> .Memories
+> witheveryuse.Fromrecallingpreferred
+> .CustomtoolsviaMCPservers
+> toolstounderstandingproject-specific
+> ·Readingyourfavdocs
+> patterns,itgetssmarterthemoreyouuseit.
+> Whitelist/blacklistcommands
+> AGENTENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/bVNNvWq6dKo/slide-015.jpg]]
 
 OCR text:
 
 > Principle
-> 02
 > Meta-Learning
-> The best agents don't just assist-they learn.
-> Windsurf adapts to your workflows,
-> remembers past interactions, and evolves
-> with every use. From recalling preferred
-> tools to understanding project-specific
-> patterns, it gets smarter the more you use it.
-> Related features
-> Memories
-> Custom tools via MCP servers
-> Reading your docs
-> Whisps / basic commands
+> The bestagenis dontjust assst-they lean
+> Related festures
+> Windsurfadaptstoyourworkows
+> .Menores
+> IGENTSATWORK
+> rememberspastinteractionsandevoes
+> witheveryuse.Fromrecalling prefed
+> Cuelomxols vaMCPsero
+> tools to understandng project-specilc
+> Redngyourfaedocs
+> pattes.it getssartrthe more youusei
+> Whiis/boodstconmnds
 
 ![[assets/slides/bVNNvWq6dKo/slide-016.jpg]]
 

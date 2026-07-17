@@ -70,9 +70,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-qaJXBMwUkoE]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-qaJXBMwUkoE`
-- Slide deck: [[youtube-qaJXBMwUkoE-dense-slides|Dense Slides: The 1,000x AI Engineer: Swyx]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/qaJXBMwUkoE/slide-001.jpg]]
+- Slide deck: [[youtube-qaJXBMwUkoE-dense-slides|Dense Slides: The 1,000x AI Engineer: Swyx]] — slide evidence page.
 - Additional slide evidence: [[youtube-qaJXBMwUkoE-slides|Slides: The 1,000x AI Engineer: Swyx]], [[youtube-qaJXBMwUkoE-reconstructed-slides|Reconstructed Slides: The 1,000x AI Engineer: Swyx]]
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, mathematician, auto, figure, periods, great, surge, curve.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -84,7 +84,8 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-qaJXBMwUkoE` — source page linked; role: supporting context only.
+- `youtube-qaJXBMwUkoE` — 8 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, mathematician, auto, figure, periods, great, surge, curve.
 - Evidence links for `youtube-qaJXBMwUkoE` (supporting context only): [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 
 ### Agent Reading Notes

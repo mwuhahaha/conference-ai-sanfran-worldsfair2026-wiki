@@ -3,6 +3,19 @@ title: "Temporal"
 category: "companies"
 aliases: ["Temporal"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b29d29b8e4aff6bff0a24a057bca738eb56ba3c804861d85d8fd685e527e9047
+  subjectId: company:temporal
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d0f3d8819f9df30826dcad65228d495127eb4bea95132cd02fd6cca4b9e50df6
 ---
 # Temporal
 
@@ -30,7 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
 
 ### Media Signals
-- `youtube-k8cnVCMYmNc` — source page linked; role: supporting context only.
+- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
 - Evidence links for `youtube-k8cnVCMYmNc` (supporting context only): [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

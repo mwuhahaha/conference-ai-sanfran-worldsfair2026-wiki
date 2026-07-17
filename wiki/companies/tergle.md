@@ -4,6 +4,18 @@ category: "companies"
 aliases: ["Tergle (YC W25)"]
 website: "https://tergle.com/"
 sourceLabels: ["Public company site", "Y Combinator profile", "Public YouTube video frames", "Synthesis"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:0a627f8d96007c35a7640b9024b59f0488f84a7f45937e45a07a411916cbefb0
+  subjectId: company:tergle
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: pending
+  basis: no_admitted_evidence
+  message: This page has not yet received enough admitted evidence for a source assessment.
+  publicSourceIds: []
+sourceAssessmentBodySha256: sha256:015f2d02081c16c4753143b0d0ff4ff368620c558505cede480570f1cdf7e9da
 ---
 # Tergle
 
@@ -35,9 +47,9 @@ This section summarizes how this organization appears across the conference sour
 - No related scheduled session was found in this pass.
 
 ### Media Signals
-- `youtube-qlHaO6laBlM` — 11,459 transcript words; 4 slide-derived text signals; role: supporting context only.
+- `youtube-qlHaO6laBlM` — 11,459 transcript words; 3 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-qlHaO6laBlM`: government, prison, officers, context, been, prisons, problem, justice.
-- Slide-derived themes for `youtube-qlHaO6laBlM`: forward, deployed, engineer, justice, unit, innovation, fellow, selected.
+- Slide-derived themes for `youtube-qlHaO6laBlM`: unit, automation, joined, november, working, mainly, across, trying.
 - Evidence links for `youtube-qlHaO6laBlM` (supporting context only): [[youtube-qlHaO6laBlM]], [[youtube-qlHaO6laBlM-transcript]], [[youtube-qlHaO6laBlM-slides]]
 ## Evidence Boundary
 Tergle's site and YC profile support the company description. Its relationship to the World's Fair corpus is through William Tarr's slide/profile context, not through an official scheduled Tergle session found in this wiki.

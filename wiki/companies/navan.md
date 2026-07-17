@@ -3,6 +3,19 @@ title: "Navan"
 category: "companies"
 aliases: ["Navan"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:8b9f60bc2d850d02a4a986289e49e39543f0a87de9d79bec969c39f92788b1d6
+  subjectId: company:navan
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:0c0cf28a1c513f2c782b96e5280a4183ee2a9309cc57008802a3c2513f981963
 ---
 # Navan
 

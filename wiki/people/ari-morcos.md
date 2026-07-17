@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/arimorcos/"
 twitter: "https://x.com/arimorcos"
 website: "http://www.arimorcos.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3ac0777a7ad77415f166f6053add53e7fa5cfe59cb8a339cff7588c709931af7
+  subjectId: person:ari-morcos
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ebe3b6562d90a821a245ef133f6efc09d320fdc102849e12300ebfa5b6a64c38
 ---
 # Ari Morcos
 

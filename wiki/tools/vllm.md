@@ -5,6 +5,19 @@ aliases: ["vLLM"]
 sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Workshops Day 1", "Search & Retrieval", "Inference"]
 scheduleRooms: ["Track 7", "Track 8", "Track 3", "Expo Stage 3 SW", "Track 9", "Expo Stage 2 NW"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:3c3293a4418a9048f1eba6343e9a2f04c7c1fdecab2fcdb1d462259f41fa2f73
+  subjectId: tool:vllm
+  domain: tools page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-sessions
+sourceAssessmentBodySha256: sha256:9ee6c98b8a90d3de8f3959526d3296f2d8a28644d089cfd644a59ffca4532977
 ---
 
 # vLLM

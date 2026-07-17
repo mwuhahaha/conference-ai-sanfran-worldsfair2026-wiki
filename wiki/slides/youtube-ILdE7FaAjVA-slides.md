@@ -19,59 +19,101 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/ILdE7FaAjVA/slide-001.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ILdE7FaAjVA/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.98`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
-> Introducing Runpod
-> The foundational platform for building, running, and scaling custom AI systems.
+> runpod
+> AIE
+> Introducing
+> Runpod
+> The foundationalplatformforbuilding.
+> running.and scaling custom Al systems.
+> GoogleDeepMind
 
 ![[assets/slides/ILdE7FaAjVA/slide-002.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ILdE7FaAjVA/slide-002.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-- Text source: agent_vision.
+OCR text:
 
-Slide text:
-
+> i. St eee 90 Oo
 > Why Runpod Exists
+> Pe 3
+> bd *
+> , ,
+> oe G G G
+> a ad
+> Infrastructure eats GPU access is Builder primary focus
+> developer time slow and opaque should be building
+> — 4
+> |
+> = ., | AlEngineer |
+> . 7 a EUROPE
+> oo oe
 
 ![[assets/slides/ILdE7FaAjVA/slide-003.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ILdE7FaAjVA/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.92`
-- Text source: agent_vision.
-- OCR decision: ready — Small bullet text and multi-column layout are better suited for OCR.
+OCR text:
 
-Slide text:
-
+> . oe Capea 20 @08
+> con re re sa
 > Serverless
+> roe Autoscaling inference without
+> a Py infrastructure overhead
+> ae
+> va * Best for
+> sail e@ Real-time inference
+> @ Vanable or spsky traffic
+> e User-facing Al products
+> Why teams use it
+> * Nopre-provsionmng
+> « Scales automatically
+> ® Pay only for usage
+> a eS ) |
+> | | Al Engineer |
+> 7 ae, le EUROPE
+> ne ite:
+> ae, EB u
+
+![[assets/slides/ILdE7FaAjVA/slide-004.jpg]]
+
+OCR text:
+
+> &) runpod
+> ss  h0UmUmrtw~”~C~—
+> = _ J Engineering the future of Al
 
 ![[assets/slides/ILdE7FaAjVA/slide-005.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ILdE7FaAjVA/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.89`
-- Text source: agent_vision.
-- OCR decision: ready — Dense UI screenshot and small repository metadata are better handled by OCR.
+OCR text:
 
-Slide text:
-
-> vLLM
+> Q
+> v2.4.0
+> VLLM
+> AIE
+> 2U7
+> Finet
+> VLLM
+> VLLM
+> Google DeepMind
 
 ![[assets/slides/ILdE7FaAjVA/slide-006.jpg]]
 
-- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ILdE7FaAjVA/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.96`
-- Text source: none.
-- OCR decision: ready — Code-heavy slide with small monospace text is OCR-suitable.
+OCR text:
 
-### Hidden Non-Slide Evidence
-- [`slide-004.jpg`](/assets/slides/ILdE7FaAjVA/slide-004.jpg) — `title_card` confidence `0.71`; Brand/interstitial card with logo only, not substantive presentation content.
-- [`slide-007.jpg`](/assets/slides/ILdE7FaAjVA/slide-007.jpg) — `title_card` confidence `0.74`; End-card / brand logo screen, not a substantive content slide.
+> Par . ae
+> ‘ " ore
+> a * Le re
+> a in wd err
+> wa * = arn
+> a 7
+> a rel. | AlEngineer |
+> ao a Va
 
-Classification audit: `raw/sources/slide-ai-classification/slides/ILdE7FaAjVA/audit.json`
+![[assets/slides/ILdE7FaAjVA/slide-007.jpg]]
+
+OCR text:
+
+> | Al Engineer |
+> aU elas
+> AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

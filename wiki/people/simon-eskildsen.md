@@ -8,6 +8,19 @@ twitter: "https://x.com/Sirupsen"
 website: "https://sirupsen.com"
 blog: "https://sirupsen.com/napkin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:6316c1a38fd59554fdfef1da63bc7dda0e74de2fbab9b61b03ee9c7b9e33e0c7
+  subjectId: person:simon-eskildsen
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:8c1f4eccd1a9fd177f89c8f84d13d8cfec5d99dd55adcc74d4658ae475f9bd28
 ---
 # Simon Eskildsen
 
@@ -34,6 +47,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
 ### Media Signals
-- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, review, jacob, searching, reading, file, shareholders, terms.
 - Evidence links for `youtube-XNtkiQJ49Ps` (supporting context only): [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]

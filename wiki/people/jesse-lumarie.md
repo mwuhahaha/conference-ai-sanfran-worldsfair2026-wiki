@@ -6,6 +6,19 @@ company: "Figma"
 linkedin: "https://www.linkedin.com/in/jesselumarie/"
 twitter: "https://x.com/jesselumarie"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:1893373e6902d5946ad08a1e7264b3f4caa50599f7466d39d044c37116096057
+  subjectId: person:jesse-lumarie
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:cb75f8f9ced04b29df17076d7411b1c780001260212ce01ac280c8fa7d9b882e
 ---
 # Jesse Lumarie
 

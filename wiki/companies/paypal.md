@@ -3,6 +3,19 @@ title: "PayPal"
 category: "companies"
 aliases: ["PayPal"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:4722fdd017ab5f080129c6076c4666839c03817c541acf32d9a2dde5411476f9
+  subjectId: company:paypal
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:d2e30509410762b83d98de33355fab4be5a58bdb72693215b09dfd43ac4f61b6
 ---
 # PayPal
 

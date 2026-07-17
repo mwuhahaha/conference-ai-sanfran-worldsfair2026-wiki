@@ -7,6 +7,19 @@ linkedin: "https://www.linkedin.com/in/divakar-kumar/"
 website: "https://iamdivakarkumar.com"
 blog: "https://iamdivakarkumar.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:a62cb03f2ffdd9aa88da3e3af8123a485ef18b00ff4090cab37f69e693863c51
+  subjectId: person:divakar-kumar
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:3b281eb63f5c2618e135c31b7f4da13a5b6f4b7ec2a43a78b502091050fc76ee
 ---
 # Divakar Kumar
 

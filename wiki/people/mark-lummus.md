@@ -5,6 +5,19 @@ role: "Product Lead"
 company: "PayPal"
 linkedin: "https://www.linkedin.com/in/marklummus"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:5f1f7eeb5a22c6ea0c6f5bbb36c0ed0247e76716f4dd3201c1361e8037623f51
+  subjectId: person:mark-lummus
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:72dc109c9b3d80488c8bbb723f19a5624d9f361ebd58cdbace2cdb2c177e37b2
 ---
 # Mark Lummus
 

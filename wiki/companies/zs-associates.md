@@ -3,6 +3,19 @@ title: "ZS Associates"
 category: "companies"
 aliases: ["ZS Associates"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:2f7faec53347201233c6c45f4e2a7f9d25e3e31d2cb22d04a8d0edacaab5eb56
+  subjectId: company:zs-associates
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:9c6c7faa385c8c55d81ab5f195d48b625020e5e75293515f9e7ab3095a335169
 ---
 # ZS Associates
 

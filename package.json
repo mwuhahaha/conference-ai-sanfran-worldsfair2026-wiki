@@ -3,9 +3,13 @@
   "private": true,
   "scripts": {
     "sanitize": "python3 scripts/sanitize_public_wiki_text.py",
+    "slide-ai-check": "python3 scripts/quarantine_stale_slide_ai.py",
     "agent-index": "python3 scripts/generate_agent_source_index.py",
     "normalize": "python3 scripts/normalize_article_shapes.py",
+    "assess": "python3 scripts/apply_page_assessments.py --minimum-pages 975",
     "export": "python3 scripts/export_static_site.py",
-    "build": "npm run sanitize && npm run agent-index && npm run normalize && npm run export"
+    "agent-product": "wiki-from-topic-maker agent build . --json",
+    "build:validated": "npm run slide-ai-check && npm run export",
+    "build": "npm run slide-ai-check && npm run sanitize && npm run agent-index && npm run normalize && npm run export && npm run agent-product"
   }
 }

@@ -8,6 +8,19 @@ twitter: "https://x.com/kenbwork"
 website: "https://kenbw.com/"
 blog: "https://blog.latch.bio/p/the-latch-sdk"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:74c2d4892853f22cd90da63339edff8c824e16284b28cfc502e7ca0a3c3acc11
+  subjectId: person:kenny-workman
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:551a1f07739a34c0b50a4c17fcc5b24e0d6fc0223e3aaece159432348ac5ecb3
 ---
 # Kenny Workman
 

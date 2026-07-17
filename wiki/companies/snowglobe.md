@@ -3,6 +3,19 @@ title: "Snowglobe"
 category: "companies"
 aliases: ["Snowglobe"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b25f459ff52fa1101cc19a9ec58875a12baf77c98b865e2a00b13e4e4b6959da
+  subjectId: company:snowglobe
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:f85460a7dba02df061c5c48a87762544d53bcd8f6a51f243aa2483aca0e8ee59
 ---
 # Snowglobe
 
@@ -30,8 +43,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
 
 ### Media Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
 - Evidence links for `youtube-9-vGxMoUM9Y` (supporting context only): [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

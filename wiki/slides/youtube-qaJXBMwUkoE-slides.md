@@ -23,8 +23,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > There's a #foom time for
-> every discipline
-> Tough luck being born in the wrong century
+> every discipline |
 
 ![[assets/slides/qaJXBMwUkoE/slide-003.jpg]]
 
@@ -41,7 +40,7 @@ OCR text:
 > are ———
 > =a ; an SS eee
 > wed G a oe ft. i Ld , . ise:
-> 
+>
 > 7 if] BY (a! eS ie ee g ~ iO
 > D . = red me Paskehyeoa ~“ == . me eee
 > ~ sae. are 6 mete = e- a rome ' me om ere Pisa
@@ -180,16 +179,16 @@ OCR text:
 > Demand vs Supply
 > i —— }
 > Gamers Rate Cueerd a Femmigen fete
-> 
+>
 > -—- a --- -—~
-> 
+>
 > — -~~
-> 
+>
 > read Hi ~- mel areal --
-> 
+>
 > tite ico [Bc %- ee Hi x=.
 > emer owe Jom rere nee J nce.
-> 
+>
 > ave | avo |
 
 ![[assets/slides/qaJXBMwUkoE/slide-012.jpg]]
@@ -246,21 +245,21 @@ OCR text:
 > But it’s not about tools or speakers, it's also about you
 > e ! -ig >
 > 4. Pe) ia
-> 
+>
 > ; : A * LA aN ee) en en eee)
-> 
+>
 > nd a : 4 , : tr Qe seme Gare
-> 
+>
 > ; 2 ~) UATARTAN @codhem Pewee
-> 
+>
 > a BP Pa Bic cesT eee
-> 
+>
 > a ae.! a* seeisene -
 > meal a]
 > e
-> 
+>
 > AUTO apt Sistloes
-> 
+>
 > ay ,
 
 ![[assets/slides/qaJXBMwUkoE/slide-017.jpg]]

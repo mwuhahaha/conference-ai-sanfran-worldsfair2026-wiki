@@ -10,6 +10,19 @@ sourceLabels:
   - Official speaker roster
   - Official conference schedule
 last_auto_summarized: '2026-07-03T05:05:53.384Z'
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b2f51a2463cd819244f1b21c41b6b7bf76af472683161c39702fcb8745318341
+  subjectId: person:ang-li
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:a371468c41fdebce48e134bb8e6310032681bc7186de77f6c551c1a32947eeea
 ---
 # Ang Li
 

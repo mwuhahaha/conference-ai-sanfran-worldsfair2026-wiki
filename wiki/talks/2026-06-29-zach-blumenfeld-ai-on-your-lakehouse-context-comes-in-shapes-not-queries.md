@@ -66,10 +66,9 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-B9h9ovW5H9U]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-B9h9ovW5H9U`
-- Slide deck: [[youtube-B9h9ovW5H9U-dense-slides|Dense Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/B9h9ovW5H9U/slide-001.jpg]]
+- Slide deck: [[youtube-B9h9ovW5H9U-dense-slides|Dense Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]] — slide evidence page.
 - Additional slide evidence: [[youtube-B9h9ovW5H9U-slides|Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]], [[youtube-B9h9ovW5H9U-reconstructed-slides|Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt` (2,859 words).
@@ -81,8 +80,9 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; role: supporting context only.
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
 - Evidence links for `youtube-B9h9ovW5H9U` (supporting context only): [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 
 ### Agent Reading Notes

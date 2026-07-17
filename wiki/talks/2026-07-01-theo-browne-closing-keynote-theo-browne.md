@@ -61,10 +61,11 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-xUnRQ9vLXxo-transcript]] - dedicated official recording transcript.
 
 - Source video: `youtube-xUnRQ9vLXxo`
-- Slide deck: [[youtube-xUnRQ9vLXxo-slides|Slides: What do we build now? — @t3dotgg]] — 2 visible slide image(s); 2 HTML recreation(s).
+- Slide deck: [[youtube-xUnRQ9vLXxo-slides|Slides: What do we build now? — @t3dotgg]] — 4 visible slide image(s).
+![[assets/slides/xUnRQ9vLXxo/slide-001.jpg]]
+![[assets/slides/xUnRQ9vLXxo/slide-002.jpg]]
 ![[assets/slides/xUnRQ9vLXxo/slide-003.jpg]]
-![[assets/slides/xUnRQ9vLXxo/slide-004.jpg]]
-- Slide-derived themes for `youtube-xUnRQ9vLXxo`: sonnet.
+- Slide-derived themes for `youtube-xUnRQ9vLXxo`: colorado, boulder, keynote, founder.
 
 ## Transcript Status
 Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt` (9,663 words).

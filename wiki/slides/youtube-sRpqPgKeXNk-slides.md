@@ -35,14 +35,14 @@ OCR text:
 
 OCR text:
 
-> AI Engineer
-> World's Fair
-> Artificial Analysis
-> Trends Across the AI Frontier
-> Presented by
-> George Cameron, Co-founder at Artificial Analysis
-> AI Engineer World's Fair
-> Engineering the future of AI
+> AlEnginee
+> World'sFair
+> ArtificialAnalysis
+> TrendsAcrosstheAlFrontier
+> Presentedby
+> George Cameron,Co-founderatArtificialAnalysis
+> World'sFair
+> Engineering the future of Al
 
 ![[assets/slides/sRpqPgKeXNk/slide-003.jpg]]
 
@@ -93,27 +93,27 @@ OCR text:
 > Artificial Analysis intelligence index (Version 2, released Feb 25), Output Tokens Used (~SM input tokens)
 > Most attractive quadrant
 > 5 vay Geman? A Artificial Anatysis
-> 
+>
 > Pd 70 Grok Jira
-> 
+>
 > i « ‘ re
-> 
+>
 > « Non-Reasoning Models ° Germ.
-> 
+>
 > = * wash
-> 
+>
 > 3 GPT-4.1 OeepSeocs \ (Reasoning)
-> 
+>
 > 5 55 cota mn v3 0324 tone 3 Claude 3.7
-> 
+>
 > B/S" ee ES — rae
-> 
+>
 > & Prerver
-> 
+>
 > j : Sore coat Reasoning Models
-> 
+>
 > = a e Genwnes
-> 
+>
 > 35 Mistral Large
 > 2 (Now 24)
 > 4M Ge 20M 30M 70M 100M 3008
@@ -212,19 +212,19 @@ OCR text:
 > >S500x Spreaq nie eo8o run Att ee at a ae an
 > Cost to Nun Artficiat Anata ttetgonce ngs, ae ; ae a re ~ oe
 > POU ene ye BRR ec “SW f riven sre no ae
-> 
+>
 > e ms cay n
-> 
+>
 > Input Cosy Breanne cost Mops cay Aull « axe a ey a me ee
 > . a — ae
-> 
+>
 > aN: So ;
 > Sie. mio: one Saeed ; cee a 1 . —
 > gees $1334 7 ent em —
 > | m ser Bee kg oo 4 eee ne
 > ve | cam pie ges Ws ace 7 ee = ae :
 > | Ed tit “des mo BP es ae 7
-> 
+>
 > " , Awe
 
 ![[assets/slides/sRpqPgKeXNk/slide-010.jpg]]

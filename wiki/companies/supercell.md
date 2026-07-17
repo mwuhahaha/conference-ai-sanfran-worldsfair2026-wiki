@@ -3,6 +3,19 @@ title: "Supercell"
 category: "companies"
 aliases: ["Supercell"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:c0a41b31c554f8acd8af523fbb7e5b82b6fc1b0666528cc135ab93766053d582
+  subjectId: company:supercell
+  domain: companies page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:ba9e4b555b8a77716beae100ffe42fdcbf5167c7fe6a6dba462e16678932da8b
 ---
 # Supercell
 

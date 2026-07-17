@@ -6,6 +6,19 @@ company: "Edge & Node"
 linkedin: "https://www.linkedin.com/in/rodrigoco/"
 twitter: "https://x.com/rodventures"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:99f7088b76afe0f2ca0aa0c38554da7677870dfce01ac709d25b0d1a7fd00f77
+  subjectId: person:rodrigo-coelho
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:94ad10edf903472c87a6d75d0be7323f86ceab1e2821152c4b73def4f9f2738d
 ---
 # Rodrigo Coelho
 

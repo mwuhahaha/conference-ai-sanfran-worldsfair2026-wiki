@@ -6,6 +6,19 @@ company: "Prime Intellect"
 linkedin: "https://www.linkedin.com/in/eliebak/"
 twitter: "https://x.com/eliebakouch"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
+sourceAssessment:
+  schemaVersion: 1
+  claimId: claim:b14fb096e3f3b9bba0ce20a35eff2c9ae165e7ba95e29f45922abcfc83e44d35
+  subjectId: person:elie-bakouch
+  domain: people page evidence coverage
+  intendedUse: attributed_context
+  asOf: '2026-07-17T13:24:54.408152Z'
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-official-speakers
+sourceAssessmentBodySha256: sha256:e8079a2ba3e55accf54d5b56ad98ef50b9ede95aa20fbae9c97ca6c6550c1e84
 ---
 # Elie Bakouch
 

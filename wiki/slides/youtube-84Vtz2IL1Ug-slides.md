@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > aWS
-> 
+>
 > eee)
 > @®Graphite WW Windsurf 4 MoneobB
 > Mdaily £3 augment code WorkOS
@@ -35,33 +35,39 @@ OCR text:
 > ee K
 > Weltn? Vo1
 > ve
-> 
+>
 > mney i a
-> 
+>
 > iN
-> 
+>
 > IN
-> 
+>
 > Avice ALEX ATALLAH < OpenRouter
 
 ![[assets/slides/84Vtz2IL1Ug/slide-003.jpg]]
 
 OCR text:
 
-> January, 2023: Moderation
-> r/ChatGPT · 2 yr. ago
+> January,2023:Moderation
+> r/ChatGPT.2yr.ago
 > Noobrage2112
-> OpenAI Banning accounts.
+> OpenAlBanningaccounts.
 > Gone Wild
-> Hi there,
-> After a thorough investigation, we have determined that you or a member of your organization are using the OpenAI API in ways that violate our policies.
-> Due to this breach we are halting access to the API immediately for the organization Personal. Common reasons for breach include violations of our content policy, repeated attempts at disallowed use-cases, or accessing the API from an unsupported location. You may also wish to review our Terms of Use.
-> If you believe this is in error and would like to appeal, please contact us through our help center. We will review appeals within one business day and will contact you if we reinstate access to the API.
+> Hithere,
+> After a thoroughinvestigation,we have determined thatyou oramemberofyourorganization are usingthe
+> OpenAl APlinways thatviolate ourpolicies.
+> Dueto thisbreach we arehalting accessto theAPlimmediately for theorganizationPersonal.Commonreasons
+> forbreachincludeviolationsofourcontentpolicy,repeated attemptsatdisallowed use-cases,oraccessing the
+> API from anunsupported location.Youmay also wish toreviewourTermsof Use.
+> appealswithin onebusiness day andwillcontactyou ifwereinstateaccess to theAPl.
 > Best,
-> The OpenAI team
-> That was the E-mail I received just a couple of minutes earlier.
-> It seems OpenAI does not appreciate people using it's program for D&D/ Text based/ Roleplaying/ Fictional based adventure games that might entail forms of Violence/ Gore/ Fantasy/ Erotic/ Fictional gameplay.
-> I had just purchased an account for the Beta Playground and shortly after I was removed. I'm not going to be supporting OpenAI anymore after this action. I don't appreciate the weights and aggression they have placed on the filter precautions, and I feel this is highly unfair.
+> TheOpenAl team
+> That was theE-mail lreceivedjusta couple of minutesearlier.
+> It seemsOpenAl doesnotappreciate people usingit'sprogramforD&D/ Textbased/Roleplaying/Fictional based
+> adventuregames thatmight entail formsofViolence/Gore/Fantasy/Erotic/Fictionalgameplay.
+> Ihadjustpurchased anaccountfortheBetaPlayground andshortly afterI wasremoved.I'mnotgoing to be
+> supporting OpenAl anymore after this action.I don't appreciate the weights and aggression theyhave placed on
+> thefilterprecautions,andIfeel thisishighlyunfair.
 
 ![[assets/slides/84Vtz2IL1Ug/slide-004.jpg]]
 
@@ -81,19 +87,13 @@ OCR text:
 
 OCR text:
 
-> February, 2023: Open Source race begins...
+> i February, 2023: Open Source race begins...
+> World's Fair
 > [D] List of Large Language Models to play with.
-> Discussion
-> Hello! I'm trying to understand what available LLMs one can "relatively easily" play with. My goal is to understand the landscape since I haven't worked in this field before. I'm trying to run them "from the largest to the smallest"
-> By "relatively easy", I mean doesn't require to setup a GPU cluster or costs more than $20:)
-> Here are some examples I have found so far:
-> 1. ChatGPT (obviously) - 175B params
-> 2. OpenAI API to access GPT-3s (from ada (0.5B) to davinci (175B)). Also CodeX
-> 3. Bloom (176B) - text window on that page seems to work reliably, you just need to keep pressing "generate"
-> 4. OPT-175B (Facebook LLM), the hosting works surprisingly fast, but slower than ChatGPT
-> 5. Several models on HuggingFace that I made to run with Colab Pro subscription: GPT-NeoX 20B, Flan-t5-xxl 11B, Xlm-roberta-xxl 10.7B, GPT-j 6B. I spent about $20 total on running the models below. None of the Hugging Face API interfaces/spaces didn't work for me:(. Here is an example notebook I made for NeoX.
-> Does anyone know more models that are easily accessible?
-> Engineering the future of AI
+> orororm a a
+> ; i< |
+> ore WE . a
+> World's Fair Engineering the future of Al
 
 ![[assets/slides/84Vtz2IL1Ug/slide-006.jpg]]
 
@@ -124,7 +124,7 @@ OCR text:
 > Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin
 > Edouard Grave; Guillaume Lample*
 > Meta Al
-> 
+>
 > Abstract performance, a smaller one trained longer will
 > Wei ' ultimately be cheaper at inference. For instance,
 > we introduce LLaMA. arcollection of founda- although Hoffmann et al. (2022) recommends
@@ -139,7 +139,7 @@ OCR text:
 > 65B is competitive with the best models, on more tokens than what is typically used. The
 > Chinchilla-70B and Pal.M-540B. We release resulting fels, called LLaMA, ranges from 7B
 > all our models to the research communily’. . we
-> 
+>
 > to 65B parameters with compctitive performance
 
 ![[assets/slides/84Vtz2IL1Ug/slide-008.jpg]]
@@ -199,37 +199,13 @@ OCR text:
 
 OCR text:
 
-> May, 2023: OpenRouter
-> The Unified
-> Interface For LLMs
-> Better prices, better uptime, no subscription.
-> Featured Models
-> View Trending
-> Gemini 2.5 Pro Preview
-> by google
-> 215.0B
-> Tokens/wk
-> 2.4s
-> Latency
-> +7.02%
-> Weekly growth
-> GPT-4.1
-> by openai
-> 49.1B
-> Tokens/wk
-> 815ms
-> Latency
-> +4.23%
-> Weekly growth
-> Claude Sonnet 4
-> New
-> by anthropic
-> 242.8B
-> Tokens/wk
-> 1.7s
-> Latency
-> +47.29%
-> Weekly growth
+> ree WF VA Ae Pac bm O lel -1al cele lcs
+> The Unified ae
+> aws Interface For LLMs a
+> > -
+> ae i BYeys1) Pad
+> N
+> World's Fair a Microsoft ae smoot
 
 ![[assets/slides/84Vtz2IL1Ug/slide-012.jpg]]
 
@@ -354,22 +330,18 @@ OCR text:
 
 OCR text:
 
-> Will intelligence be winner-take-all?
+> renee Will intelligence be winner-take-all?
 > Token Marketshare by Model Author
-> June 1, 2025
-> OpenRouter
-> google 34.6%
-> openai 22.9%
-> anthropic 16.7%
-> deepseek 14.7%
-> meta-llama 3.9%
-> mistralai 2.8%
-> qwen 1.5%
-> others 1.3%
-> x-ai 0.7%
-> microsoft 0.5%
-> nousresearch 0.4%
-> Total 100.0%
+> a es Le aS a bi an
+> a * Pere ie = al i. a ae
+> x . a is
+> 7 |
+> ee all U
+> I
+> | i eu nin |
+> | a “ee j Ml
+> en ae
+> eee MEW reco <o)| aah ES 680 0 Oh
 
 ![[assets/slides/84Vtz2IL1Ug/slide-017.jpg]]
 
@@ -448,24 +420,15 @@ OCR text:
 
 > Unlike MCPs, plugins allow transformations
 > on both inputs and outputs
-> export class WebSearchPlugin extends BasePlugin {
-> override async *complete(
-> const addAnnotationsResult = addAnnotationsToOutput({
-> output: topChoice,
-> annotations: this.#cachedAnnotations,
-> });
-> if (isErr(addAnnotationsResult)) {
-> inspectErrorT(addAnnotationsResult.error);
-> yield event;
-> continue;
-> }
-> event.data.choices[0] = addAnnotationsResult.data;
-> this.#didSendCitations = true;
-> yield event;
-> } else {
-> yield event;
-> }
-> break;
+> , (cena
+> oe 5 an = addAnnotationsToOutput (
+> folvnaslehan aan
+> annotations: .fcachedAnnotations,
+> );
+> oka 2 at
+> peek tel aa ee elie ees Fi Proll ae
+> . mont ars tT at 1 (rt a a8 acerca mele
+> peyote ere meen a ead F
 
 ![[assets/slides/84Vtz2IL1Ug/slide-023.jpg]]
 
