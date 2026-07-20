@@ -13,13 +13,13 @@ sourceAssessment:
   subjectId: person:mike-krieger
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:fcc40b5d821bef72fde5d101522ab56238a48a028d284fbde28451cfb1c289af
+sourceAssessmentBodySha256: sha256:845ea48c21c8ba91a8d794b558d8f3f794a085728978210929876382bd67617e
 ---
 # Mike Krieger
 
@@ -37,7 +37,7 @@ Mike Krieger leads [[anthropic|Anthropic]] Labs and previously served as [[anthr
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs (2026-07-01, 10:00am-10:20am)
 
 ## Livestream Appearances
-- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

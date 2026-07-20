@@ -1,15 +1,23 @@
 ---
-title: "Building self-learning loops for your agent"
-category: "talks"
-date: "2026-06-29"
-time: "11:05am-12:05pm"
-track: "Posttraining & Midtraining"
-room: "Track 1"
-speakers: ["Fuad Ali"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Posttraining & Midtraining"
-scheduleRoom: "Track 1"
-scheduleLabels: ["Posttraining & Midtraining", "Track 1", "sponsor", "confirmed"]
+title: Building self-learning loops for your agent
+category: talks
+date: '2026-06-29'
+time: '11:05am-12:05pm'
+track: Posttraining & Midtraining
+room: Track 1
+speakers:
+  - Fuad Ali
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Posttraining & Midtraining
+scheduleRoom: Track 1
+scheduleLabels:
+  - Posttraining & Midtraining
+  - Track 1
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-18T22:12:37.505Z'
 ---
 # Building self-learning loops for your agent
 
@@ -32,7 +40,7 @@ Building an AI demo is easy. Knowing whether it actually works — and keeping i
 Building an AI demo is easy. Knowing whether it actually works — and keeping it working in production — is the hard part. Most teams ship agents on vibes: they try a few prompts, the output looks good, and they push to production with no real way to measure quality or catch regressions. This hands-on workshop walks through the full lifecycle of shipping a real AI agent, using a working financial-analyst agent built on the Claude Agent SDK as the running example.
 
 ### Speaker And Company Context
-- [[fuad-ali|Fuad Ali]] — Senior Product Manager at [[arize-ai|Arize AI]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

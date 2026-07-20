@@ -9,13 +9,13 @@ sourceAssessment:
   subjectId: company:atlassian
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:11d8c04388eef16e7d8b2fa4d56f26d3f9d7ec59a555693e2486a44966119bd2
+sourceAssessmentBodySha256: sha256:f2e8e076b45c43719ab9d00307a5826215d58e90564ff79f845efa683430bb3e
 ---
 # Atlassian
 
@@ -41,7 +41,7 @@ This section summarizes how this organization appears across the conference sour
 Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|>-]]
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -363,6 +363,58 @@ def test_invalid_or_duplicate_livestream_segments_fail(tmp_path: Path) -> None:
 def test_cli_write_and_check_are_idempotent(tmp_path: Path) -> None:
     talks, manifest, segments = write_inputs(tmp_path)
     output = tmp_path / "wiki" / "resources" / "talk-video-transcript-map.md"
+    slides = tmp_path / "wiki" / "slides"
+    topics = tmp_path / "wiki" / "topics"
+    slides.mkdir(parents=True)
+    topics.mkdir(parents=True)
+    prefix = "---\ntitle: Slides\n---\n\n# Slides\n"
+    suffix = (
+        "\n## Extracted Slides\n"
+        "![[assets/slides/AAAAAAAAAAA/slide-001.jpg]]\n\n"
+        "OCR text:\n\n> exact OCR bytes stay here\n"
+    )
+    slide_page = slides / "youtube-AAAAAAAAAAA-slides.md"
+    slide_page.write_text(
+        prefix
+        + "\n## Related Scheduled Sessions\n"
+        + "- [[talk-a]] — Published Talk\n"
+        + "- [[talk-b]] — Stale heuristic Part 2\n"
+        + "- [[talk-c]] — Stale heuristic Part 3\n"
+        + suffix,
+        encoding="utf-8",
+    )
+    empty_page = slides / "youtube-UUUUUUUUUUU-slides.md"
+    empty_page.write_text(
+        prefix
+        + "\n## Related Scheduled Sessions\n"
+        + "- [[talk-b]] — Stale heuristic match\n"
+        + suffix,
+        encoding="utf-8",
+    )
+    topic_page = topics / "test-topic.md"
+    manual_topic_tail = (
+        "\n## Connections\n"
+        "- [[talk-c]] — independently sourced manual relationship\n"
+    )
+    topic_page.write_text(
+        "# Test topic\n\n"
+        "## Slide-Derived Scheduled Session Signals\n"
+        "- [[talk-a]] — Published Talk\n"
+        "- [[talk-b]] — Stale heuristic Part 2\n"
+        "- [[talk-c]] — Stale heuristic Part 3\n\n"
+        "## Slide-Derived Supporting Decks\n"
+        "- [[youtube-AAAAAAAAAAA-slides]] — current deck\n"
+        + manual_topic_tail,
+        encoding="utf-8",
+    )
+    asset = tmp_path / "wiki" / "assets" / "slides" / "AAAAAAAAAAA" / "slide-001.jpg"
+    asset.parent.mkdir(parents=True)
+    asset.write_bytes(b"\x00\xffunchanged-slide-bytes")
+    ocr = tmp_path / "raw" / "slide-ocr" / "AAAAAAAAAAA" / "slide-001.txt"
+    ocr.parent.mkdir(parents=True)
+    ocr.write_bytes(b"unchanged OCR bytes\n")
+    asset_before = asset.read_bytes()
+    ocr_before = ocr.read_bytes()
     args = [
         "--talks-dir",
         str(talks),
@@ -372,13 +424,42 @@ def test_cli_write_and_check_are_idempotent(tmp_path: Path) -> None:
         str(segments),
         "--output",
         str(output),
+        "--slides-dir",
+        str(slides),
+        "--topics-dir",
+        str(topics),
     ]
 
     assert MEDIA_MAP.main(args) == 0
+    assert slide_page.read_text(encoding="utf-8") == (
+        prefix
+        + "\n## Related Scheduled Sessions\n"
+        + "- [[talk-a]] — Published Talk\n"
+        + suffix
+    )
+    assert "[[talk-b]]" not in empty_page.read_text(encoding="utf-8")
+    assert "[[talk-c]]" not in empty_page.read_text(encoding="utf-8")
+    assert "official media manifest" in empty_page.read_text(encoding="utf-8")
+    topic_text = topic_page.read_text(encoding="utf-8")
+    owned_topic_section = topic_text.split(
+        "## Slide-Derived Scheduled Session Signals\n", 1
+    )[1].split("\n## ", 1)[0]
+    assert "[[talk-a]]" in owned_topic_section
+    assert "[[talk-b]]" not in owned_topic_section
+    assert "[[talk-c]]" not in owned_topic_section
+    assert manual_topic_tail in topic_text
+    assert asset.read_bytes() == asset_before
+    assert ocr.read_bytes() == ocr_before
     first = output.read_bytes()
+    first_slide_page = slide_page.read_bytes()
+    first_empty_page = empty_page.read_bytes()
+    first_topic_page = topic_page.read_bytes()
     assert MEDIA_MAP.main([*args, "--check"]) == 0
     assert MEDIA_MAP.main(args) == 0
     assert output.read_bytes() == first
+    assert slide_page.read_bytes() == first_slide_page
+    assert empty_page.read_bytes() == first_empty_page
+    assert topic_page.read_bytes() == first_topic_page
 
     output.write_text("stale\n", encoding="utf-8")
     assert MEDIA_MAP.main([*args, "--check"]) == 1

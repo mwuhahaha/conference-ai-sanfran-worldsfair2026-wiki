@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
+PLAYABLE_VIDEO_AVAILABILITIES = {"", "public", "unlisted"}
+PLAYABLE_PLAYLIST_AVAILABILITIES = {"", "available"}
 TRANSCRIPT_DIRS = [
     RAW / "youtube-transcripts",
     RAW / "external-youtube-transcripts",
@@ -127,15 +129,37 @@ def transcript_for(video_id: str) -> tuple[Path | None, str]:
     return None, ""
 
 
-def official_recording_ids_by_talk() -> dict[str, list[str]]:
+def official_manifest_videos() -> list[dict]:
     data = load_json(OFFICIAL_VIDEO_MANIFEST, {})
     videos = data.get("videos", []) if isinstance(data, dict) else []
     if not isinstance(videos, list):
         raise ValueError("official WF26 video manifest must contain a videos array")
+    return [item for item in videos if isinstance(item, dict)]
+
+
+def manifest_row_is_playable(item: dict) -> bool:
+    return (
+        str(item.get("videoAvailability") or "").casefold()
+        in PLAYABLE_VIDEO_AVAILABILITIES
+        and str(item.get("playlistAvailability") or "").casefold()
+        in PLAYABLE_PLAYLIST_AVAILABILITIES
+    )
+
+
+def official_manifest_video_ids() -> set[str]:
+    return {
+        str(item["id"])
+        for item in official_manifest_videos()
+        if isinstance(item.get("id"), str)
+    }
+
+
+def official_recording_ids_by_talk() -> dict[str, list[str]]:
+    videos = official_manifest_videos()
 
     recordings: dict[str, list[str]] = {}
     ordered = sorted(
-        (item for item in videos if isinstance(item, dict)),
+        videos,
         key=lambda item: (
             int(item.get("playlistIndex") or 1_000_000),
             str(item.get("id") or ""),
@@ -145,9 +169,7 @@ def official_recording_ids_by_talk() -> dict[str, list[str]]:
         video_id = item.get("id")
         if not isinstance(video_id, str) or item.get("mediaType") != "talk_recording":
             continue
-        if item.get("playlistAvailability") == "unavailable":
-            continue
-        if item.get("videoAvailability") in {"private", "unknown", "unavailable"}:
+        if not manifest_row_is_playable(item):
             continue
         matched_talks = item.get("matchedTalks")
         if not isinstance(matched_talks, list):
@@ -159,13 +181,10 @@ def official_recording_ids_by_talk() -> dict[str, list[str]]:
 
 
 def broad_event_video_ids() -> set[str]:
-    data = load_json(OFFICIAL_VIDEO_MANIFEST, {})
-    videos = data.get("videos", []) if isinstance(data, dict) else []
     return {
         str(item.get("id"))
-        for item in videos
-        if isinstance(item, dict)
-        and item.get("id")
+        for item in official_manifest_videos()
+        if item.get("id")
         and item.get("mediaType")
         in {"event_livestream", "scheduled_premiere", "unavailable_playlist_item"}
     }
@@ -292,7 +311,7 @@ def section_for(
         else official_recording_ids_by_talk()
     )
     dedicated_ids = recording_map.get(path.stem, [])
-    broad_event_ids = broad_event_video_ids()
+    manifest_ids = official_manifest_video_ids() | broad_event_video_ids()
     ids = list(
         dict.fromkeys(
             [
@@ -300,7 +319,7 @@ def section_for(
                 *(
                     video_id
                     for video_id in video_ids(text)
-                    if video_id not in broad_event_ids
+                    if video_id not in manifest_ids
                 ),
             ]
         )
@@ -418,11 +437,11 @@ def write_registry(category: str) -> None:
     (WIKI / category / "registry.json").write_text(json.dumps(sorted(rows, key=lambda r: r["title"].lower()), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--speaker", action="append", help="Only update talks containing this speaker. Repeatable.")
     parser.add_argument("--all", action="store_true", help="Update every talk with source context.")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     people, companies = parse_people_companies()
     matched_recordings = official_recording_ids_by_talk()

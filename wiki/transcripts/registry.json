@@ -10,6 +10,16 @@
     "sourceRole": "primary_event_evidence"
   },
   {
+    "id": "youtube-1P1hJ36rxM0-transcript",
+    "title": "Transcript: \"Software engineering is not about writing code\" — Benoit Schillings, Google DeepMind VP of Research",
+    "path": "wiki/transcripts/youtube-1P1hJ36rxM0-transcript.md",
+    "videoId": "1P1hJ36rxM0",
+    "wordCount": 3195,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-n97BCfyFIvw-transcript",
     "title": "Transcript: \"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
     "path": "wiki/transcripts/youtube-n97BCfyFIvw-transcript.md",
@@ -68,6 +78,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-JvKO40CFq-s-transcript",
+    "title": "Transcript: Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth",
+    "path": "wiki/transcripts/youtube-JvKO40CFq-s-transcript.md",
+    "videoId": "JvKO40CFq-s",
+    "wordCount": 5616,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-aHhB3sjGjkI-transcript",
@@ -300,11 +320,11 @@
     "sourceRole": "context_only"
   },
   {
-    "id": "youtube-eBUyTS7SzV4-transcript",
-    "title": "Transcript: Closing Keynote: Garry Tan, Y Combinator",
-    "path": "wiki/transcripts/youtube-eBUyTS7SzV4-transcript.md",
-    "videoId": "eBUyTS7SzV4",
-    "wordCount": 3551,
+    "id": "youtube-uU5Gv2h8-9g-transcript",
+    "title": "Transcript: Claude Fable, Claude Tag, and Anthropic's Culture — Cat Wu & Thariq Shihipar ft Simon Willison",
+    "path": "wiki/transcripts/youtube-uU5Gv2h8-9g-transcript.md",
+    "videoId": "uU5Gv2h8-9g",
+    "wordCount": 10417,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -338,6 +358,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-XV2oYi7kojc-transcript",
+    "title": "Transcript: Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic",
+    "path": "wiki/transcripts/youtube-XV2oYi7kojc-transcript.md",
+    "videoId": "XV2oYi7kojc",
+    "wordCount": 2590,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-YZQsWVeN3rE-transcript",
@@ -378,6 +408,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-8qWIPUia2O8-transcript",
+    "title": "Transcript: Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
+    "path": "wiki/transcripts/youtube-8qWIPUia2O8-transcript.md",
+    "videoId": "8qWIPUia2O8",
+    "wordCount": 2869,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-xUnRQ9vLXxo-transcript",
@@ -536,6 +576,26 @@
     "videoId": "o-zkvb0iFDQ",
     "wordCount": 3969,
     "sourceLabel": "YouTube transcript",
+    "manifestStatus": "not_admitted_official_wf26",
+    "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-V-EDrhIhHzQ-transcript",
+    "title": "Transcript: Modern Post-Training: A Deep Dive  — Will Brown, Prime Intellect",
+    "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
+    "videoId": "V-EDrhIhHzQ",
+    "wordCount": 10228,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-RGSFUqzqErE-transcript",
+    "title": "Transcript: On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+    "path": "wiki/transcripts/youtube-RGSFUqzqErE-transcript.md",
+    "videoId": "RGSFUqzqErE",
+    "wordCount": 3081,
+    "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
   },
@@ -548,6 +608,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-2JX6JYyQG4Y-transcript",
+    "title": "Transcript: Perception Agents — Antje Barth, Amazon AGI Lab",
+    "path": "wiki/transcripts/youtube-2JX6JYyQG4Y-transcript.md",
+    "videoId": "2JX6JYyQG4Y",
+    "wordCount": 2870,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-vljxQZfJ9wY-transcript",
@@ -585,16 +655,6 @@
     "path": "wiki/transcripts/youtube-q4Tr-DknG2M-transcript.md",
     "videoId": "q4Tr-DknG2M",
     "wordCount": 4039,
-    "sourceLabel": "YouTube transcript",
-    "manifestStatus": "admitted_official_wf26",
-    "sourceRole": "primary_event_evidence"
-  },
-  {
-    "id": "youtube-1P1hJ36rxM0-transcript",
-    "title": "Transcript: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
-    "path": "wiki/transcripts/youtube-1P1hJ36rxM0-transcript.md",
-    "videoId": "1P1hJ36rxM0",
-    "wordCount": 3195,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -650,6 +710,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-il1c1a2FufU-transcript",
+    "title": "Transcript: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI",
+    "path": "wiki/transcripts/youtube-il1c1a2FufU-transcript.md",
+    "videoId": "il1c1a2FufU",
+    "wordCount": 13744,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-Xfl50508LZM-transcript",
     "title": "Transcript: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
     "path": "wiki/transcripts/youtube-Xfl50508LZM-transcript.md",
@@ -680,16 +750,6 @@
     "sourceRole": "primary_event_evidence"
   },
   {
-    "id": "youtube-uU5Gv2h8-9g-transcript",
-    "title": "Transcript: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
-    "path": "wiki/transcripts/youtube-uU5Gv2h8-9g-transcript.md",
-    "videoId": "uU5Gv2h8-9g",
-    "wordCount": 10417,
-    "sourceLabel": "YouTube transcript",
-    "manifestStatus": "admitted_official_wf26",
-    "sourceRole": "primary_event_evidence"
-  },
-  {
     "id": "youtube-SS-A8sE7hkw-transcript",
     "title": "Transcript: Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
     "path": "wiki/transcripts/youtube-SS-A8sE7hkw-transcript.md",
@@ -698,6 +758,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-uIiA6DquRiE-transcript",
+    "title": "Transcript: Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+    "path": "wiki/transcripts/youtube-uIiA6DquRiE-transcript.md",
+    "videoId": "uIiA6DquRiE",
+    "wordCount": 25283,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-ZyIoTOAbRfs-transcript",
@@ -810,6 +880,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-RGe6EjucbzI-transcript",
+    "title": "Transcript: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners",
+    "path": "wiki/transcripts/youtube-RGe6EjucbzI-transcript.md",
+    "videoId": "RGe6EjucbzI",
+    "wordCount": 2999,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-ghJmWQCIHRM-transcript",
     "title": "Transcript: The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
     "path": "wiki/transcripts/youtube-ghJmWQCIHRM-transcript.md",
@@ -900,6 +980,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-eBUyTS7SzV4-transcript",
+    "title": "Transcript: The New Physics of Business — Garry Tan, Y Combinator",
+    "path": "wiki/transcripts/youtube-eBUyTS7SzV4-transcript.md",
+    "videoId": "eBUyTS7SzV4",
+    "wordCount": 3551,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-bRnoEpoK5m4-transcript",
     "title": "Transcript: The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
     "path": "wiki/transcripts/youtube-bRnoEpoK5m4-transcript.md",
@@ -908,16 +998,6 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
-  },
-  {
-    "id": "youtube-V-EDrhIhHzQ-transcript",
-    "title": "Transcript: The Prime Intellect Stack — Will Brown, Prime Intellect",
-    "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
-    "videoId": "V-EDrhIhHzQ",
-    "wordCount": 10228,
-    "sourceLabel": "YouTube transcript",
-    "manifestStatus": "admitted_official_wf26",
-    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-hVJOnuhFmTA-transcript",
@@ -938,6 +1018,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-GgLQ02aO-hs-transcript",
+    "title": "Transcript: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy",
+    "path": "wiki/transcripts/youtube-GgLQ02aO-hs-transcript.md",
+    "videoId": "GgLQ02aO-hs",
+    "wordCount": 2751,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-grdoOC1BT1s-transcript",

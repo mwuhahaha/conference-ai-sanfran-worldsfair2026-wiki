@@ -10,10 +10,14 @@ speakers:
 sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
-last_auto_summarized: '2026-07-06T07:16:20.383Z'
-scheduleTrack: "Sandbox & Platform Engineering"
-scheduleRoom: "Track 1"
-scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confirmed"]
+last_auto_summarized: '2026-07-18T01:27:43.295Z'
+scheduleTrack: Sandbox & Platform Engineering
+scheduleRoom: Track 1
+scheduleLabels:
+  - Sandbox & Platform Engineering
+  - Track 1
+  - session
+  - confirmed
 ---
 # From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 
@@ -32,7 +36,11 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle diverse tasks with minimal setup. This talk explores the architectural challenges of building an agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine persistence and storage as the next major unlock for agent capabilities, and discuss the key decisions involved in orchestrating and scaling sandboxes.
 
 ## Summary
-Abhishek Bhardwaj's World's Fair session is a Sandbox & Platform Engineering talk about the infrastructure layer that lets agents operate inside secure, real computing environments rather than toy execution sandboxes. The official session description frames the problem at cloud scale: compare runtime isolation technologies, decide how much kernel and process boundary protection is needed, make persistence and storage usable for longer-running agents, and orchestrate many sandbox instances as a production fleet. The connected speaker page adds useful context: Bhardwaj works on RL and agent infrastructure at OpenAI, so the session should be read as coming from the layer where agent training, tool use, and execution environments meet. The linked Arrakis video and slide pages are supporting evidence from a related public AI Engineer talk by the same speaker, not a confirmed recording of this exact World's Fair session, but they make the technical vocabulary concrete: Linux namespaces, containers, process cloning, mounts, filesystem snapshots, userspace behavior, syscalls, kernel boundaries, and attack surfaces. Together, the schedule and Arrakis materials point to a systems design talk about moving from a single sandbox runtime toward a fleet-scale agent sandbox cloud: how to isolate untrusted or semi-trusted agent work, how to preserve state without weakening security, and how to make sandbox orchestration reliable enough for production AI engineering workflows.
+Abhishek Bhardwaj’s session examines the transition from creating one isolated execution environment with fork-like primitives to operating a secure, persistent fleet of computers for AI agents. The exact session now has a dedicated official recording, a 7,738-word transcript, and 15 visible slide images, making it the primary evidence for the talk rather than relying on the earlier Arrakis presentation. Bhardwaj’s role building RL and agent infrastructure at [[openai|OpenAI]] places the discussion where agent training, tool use, and production execution meet: [[coding-agents]] and other tool-using systems need enough freedom to write and run code, install dependencies, inspect files, and retain artifacts, while the platform must prevent those workloads from escaping into the host or interfering with one another.
+
+The architectural problem spans several connected layers. Runtime isolation determines the boundary between host and guest behavior, including the use of processes, Linux namespaces, containers, syscalls, and kernel-level protection. Persistence introduces mounts, filesystem snapshots, and durable storage so an agent can continue a long-running task instead of losing its environment after each execution, but retained state also expands the security and lifecycle responsibilities of the platform. Fleet orchestration then has to turn those individual sandboxes into a dependable service that can create, schedule, monitor, recover, and scale many environments without weakening isolation. In that sense, [[ai-sandboxes]] are not merely code runners: they are a platform control plane whose capability model, storage design, and attack surface directly shape [[agent-security]].
+
+The linked Arrakis recording and reconstructed slide sets remain valuable supporting context because they expose the implementation vocabulary behind the same design space—process cloning, namespaces, mounts, snapshots, userspace behavior, syscalls, kernel boundaries, and attack surfaces—but they are not evidence for the precise contents of this scheduled session. Taken together, the official World’s Fair recording and the related systems material frame the sandbox cloud as foundational agent infrastructure: a way to provide reproducible computers with durable working state while preserving strong boundaries and fleet-level reliability for production agent workflows, training, and [[agent-evaluations]].
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -88,6 +96,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/OqM67QG_Ikk/slide-002.jpg]]
 ![[assets/slides/OqM67QG_Ikk/slide-003.jpg]]
 - Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
+
 - Source video: `youtube-wsFd22SL1s8`
 - Slide deck: [[youtube-wsFd22SL1s8-dense-slides|Dense Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]] — slide evidence page.
 - Additional slide evidence: [[youtube-wsFd22SL1s8-slides|Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]], [[youtube-wsFd22SL1s8-reconstructed-slides|Reconstructed Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]]
@@ -98,6 +107,7 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-OqM67QG_Ikk-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/OqM67QG_Ikk.txt`.
+
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

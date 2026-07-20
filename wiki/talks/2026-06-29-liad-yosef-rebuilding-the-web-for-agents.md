@@ -74,7 +74,13 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - Slide-derived terms: `future`, `engineering`, `apps`, `alengineer`, `europe`, `engineer`, `aiengineer`, `mcp-ui`, `host`, `braintrust`, `workos`, `openal`, `rene`, `morrow`, `server`, `claude`, `architecture`, `sandbox`
 
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-o-zkvb0iFDQ]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-o-zkvb0iFDQ`
+- Slide deck: [[youtube-o-zkvb0iFDQ-dense-slides|Dense Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]] — slide evidence page.
+- Additional slide evidence: [[youtube-o-zkvb0iFDQ-slides|Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]], [[youtube-o-zkvb0iFDQ-reconstructed-slides|Reconstructed Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]]
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+
 ## Transcript Status
 Related video transcript availability: English auto-captions. The transcript has been fetched and converted to [[youtube-o-zkvb0iFDQ-transcript]]. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed.
 
@@ -82,7 +88,10 @@ Related video transcript availability: English auto-captions. The transcript has
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

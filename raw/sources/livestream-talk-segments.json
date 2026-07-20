@@ -1,23 +1,5 @@
 [
   {
-    "talk_slug": "2026-06-29-pablo-castro-on-ai-and-knowledge",
-    "title": "On AI and Knowledge",
-    "date": "2026-06-29",
-    "time": "9:05am-9:25am",
-    "track": "Software Factories",
-    "room": "Main Stage",
-    "speakers": [
-      "Pablo Castro"
-    ],
-    "video_id": "htM02KMNZnk",
-    "video_title": "WF2026: Software Factories & Keynotes (Day 1)",
-    "start_seconds": 628,
-    "start_hms": "00:10:28",
-    "url": "https://www.youtube.com/watch?v=htM02KMNZnk&t=628s",
-    "confidence": "high",
-    "evidence_excerpt": "Also, AI security best practices have Also, AI security best practices have emerged, allowing models and allowing emerged, allowing models and allowing emerged, allowing models and allowing agents to have the security, autonomy, agents to have the security, autonomy, agents to have the security, autonomy, and capability they need to do real and capability th"
-  },
-  {
     "talk_slug": "2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent",
     "title": "Closing the Loop: An Autonomous AI Research Agent",
     "date": "2026-06-30",
@@ -54,6 +36,24 @@
     "evidence_excerpt": "should be more like functions and we learned that the real problem with learned that the real problem with learned that the real problem with building with agents is not the model, building with agents is not the model, building with agents is not the model, but it's about everything around it. but it's about everything around it. but it's about everything a"
   },
   {
+    "talk_slug": "2026-07-01-garry-tan-closing-keynote-garry-tan",
+    "title": "Closing Keynote: Garry Tan",
+    "date": "2026-07-01",
+    "time": "4:50pm-5:10pm",
+    "track": "Main Stage",
+    "room": "Main Stage",
+    "speakers": [
+      "Garry Tan"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 28640,
+    "start_hms": "07:57:20",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s",
+    "confidence": "high",
+    "evidence_excerpt": "their agents in half the time, which is their agents in half the time, which is crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good product, but it's the right shape for product, but it's the right shape for product, but it's the right shape for people to build the features they want people to build the"
+  },
+  {
     "talk_slug": "2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent",
     "title": "$100,000 AIE Startup Battlefield \u2014 presented by Hyperagent",
     "date": "2026-07-01",
@@ -70,25 +70,6 @@
     "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s",
     "confidence": "high",
     "evidence_excerpt": "[applause] >> And every single one of you can fly, not >> And every single one of you can fly, not >> And every single one of you can fly, not metaphorically, mechanically. And you metaphorically, mechanically. And you metaphorically, mechanically. And you need to to survive, to thrive, to win. need to to survive, to thrive, to win. need to to survive, to th"
-  },
-  {
-    "talk_slug": "2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model",
-    "title": "The Unreasonable Effectiveness of Separating the Task from the Model",
-    "date": "2026-07-01",
-    "time": "9:40am-10:00am",
-    "track": "Harness Engineering",
-    "room": "Main Stage",
-    "speakers": [
-      "Maxime Rivest",
-      "Isaac Miller"
-    ],
-    "video_id": "I2cbIws9j10",
-    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
-    "start_seconds": 3216,
-    "start_hms": "00:53:36",
-    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=3216s",
-    "confidence": "high",
-    "evidence_excerpt": "need help getting started, answer need help getting started, answer questions, bug fixes, whatever, you questions, bug fixes, whatever, you questions, bug fixes, whatever, you know, I'd be happy to work with you to know, I'd be happy to work with you to know, I'd be happy to work with you to try and make you successful with it. try and make you successful wi"
   },
   {
     "talk_slug": "2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents",

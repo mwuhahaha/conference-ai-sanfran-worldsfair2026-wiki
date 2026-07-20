@@ -37,6 +37,8 @@ TRANSCRIPT_DIRS = [
     RAW / "youtube-livestream-transcripts",
 ]
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
+PLAYABLE_VIDEO_AVAILABILITIES = {"", "public", "unlisted"}
+PLAYABLE_PLAYLIST_AVAILABILITIES = {"", "available"}
 PRIVATE_POLICY_PROFILE = (
     ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-policy.json"
 )
@@ -210,15 +212,56 @@ def official_video_manifest() -> dict[str, dict]:
     }
 
 
+def manifest_row_is_playable(item: dict) -> bool:
+    return (
+        str(item.get("videoAvailability") or "").casefold()
+        in PLAYABLE_VIDEO_AVAILABILITIES
+        and str(item.get("playlistAvailability") or "").casefold()
+        in PLAYABLE_PLAYLIST_AVAILABILITIES
+    )
+
+
 @lru_cache(maxsize=1)
 def official_event_video_ids() -> frozenset[str]:
-    return frozenset(official_video_manifest())
+    return frozenset(
+        video_id
+        for video_id, item in official_video_manifest().items()
+        if item.get("mediaType") in {"talk_recording", "event_livestream"}
+        and manifest_row_is_playable(item)
+    )
+
+
+def reconcile_retired_topic_connection_roles(path: Path) -> bool:
+    """Demote legacy generated topic rows that lost primary media admission."""
+
+    admitted = official_event_video_ids()
+    text = read(path)
+    pattern = re.compile(
+        r"verified event YouTube resource; via "
+        r"\[\[youtube-(?P<video_id>[A-Za-z0-9_-]{11})(?:\|[^\]]+)?\]\]"
+    )
+
+    def demote(match: re.Match[str]) -> str:
+        if match.group("video_id") in admitted:
+            return match.group(0)
+        return match.group(0).replace(
+            "verified event YouTube resource",
+            "related YouTube resource",
+            1,
+        )
+
+    updated = pattern.sub(demote, text)
+    if updated == text:
+        return False
+    write(path, updated)
+    return True
 
 
 def official_recording_ids_for_talk(talk_slug: str) -> list[str]:
     rows = []
+    admitted = official_event_video_ids()
     for video_id, item in official_video_manifest().items():
-        if item.get("mediaType") != "talk_recording":
+        if item.get("mediaType") != "talk_recording" or video_id not in admitted:
             continue
         matched_talks = item.get("matchedTalks")
         if isinstance(matched_talks, list) and talk_slug in matched_talks:
@@ -407,10 +450,13 @@ def private_topic_video_candidates(article_slug: str) -> list[str]:
         return []
     values: list[str] = []
     manifest = official_video_manifest()
+    admitted = official_event_video_ids()
     for video_id, decision in sorted(decisions.items()):
         if not isinstance(decision, dict):
             continue
         if decision.get("writingDisposition") == "omit":
+            continue
+        if video_id not in admitted:
             continue
         item = manifest.get(video_id, {})
         if item.get("mediaType") in {
@@ -1301,18 +1347,30 @@ def main() -> int:
     if args.limit:
         targets = targets[: args.limit]
 
+    reconciled_retired_topic_pages = 0
     for kind, path in targets:
         changed = False
         if kind == "talks":
             changed = enrich_talk(path)
         elif kind == "topics":
+            if reconcile_retired_topic_connection_roles(path):
+                reconciled_retired_topic_pages += 1
             changed = enrich_topic(path)
         elif kind in {"people", "companies"}:
             changed = enrich_person_or_company(path, kind)
         if changed:
             counts[kind] += 1
 
-    print(json.dumps({"updated": dict(counts), "processed": len(targets)}, sort_keys=True))
+    print(
+        json.dumps(
+            {
+                "updated": dict(counts),
+                "processed": len(targets),
+                "reconciled_retired_topic_pages": reconciled_retired_topic_pages,
+            },
+            sort_keys=True,
+        )
+    )
     return 0
 
 

@@ -1,27 +1,35 @@
 ---
-title: "Agent Security"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: Agent Security
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-18T22:16:32.316Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:66a4c6055bfb543ba381c5d5a45b59a54312f07eca3453a6ac2711efe4d4e164
   subjectId: concept:agent-security
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube-JvKO40CFq-s
   - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:9f427a81320d54fe314af5958193a6bb23e393e644d7dae2f7a0ee8887962594
+sourceAssessmentBodySha256: sha256:c614944c49d96c4d4bef5563bcd67faa5af6fb7f7e8aa46fcd6ac4dde846e7f2
 ---
 # Agent Security
 
 ## Overview
-Agent security covers the controls that keep autonomous or semi-autonomous AI systems within trusted boundaries. It includes authentication, authorization, tool permissions, sandboxing, prompt-injection resistance, secret handling, audit logs, data-boundary enforcement, and recovery paths when an agent behaves unexpectedly.
+At World’s Fair 2026, agent security is treated as an end-to-end systems problem rather than a model-level feature. The connected sessions span the full path from establishing an agent’s identity to limiting what it may authorize, verifying what it consumes, containing what it executes, and retaining evidence of what occurred. Steve Yegge links permissions with provenance and the agent software supply chain, while Lovina Dmello argues that many practical ML-security failures arise from configuration errors in otherwise capable infrastructure. Bereket Habtemeskel and Paola Estefania introduce the Agent Auth protocol as an identity layer for agents; Michael Grinich’s `auth.md` work applies enterprise authorization patterns to autonomous software; and Jay Mok shows why delegation must encode transaction scope when an agent can commit money. Manoj Nair and Ezra Tanzer connect these controls to the architecture and development lifecycle of agent-built applications, while Ryan Dahl’s agent firewall and Tanmai Gopal’s company-knowledge session address hostile inputs and the leakage of sensitive enterprise context.
+
+Runtime containment is the page’s other major evidence cluster. Robert Brennan and Samuel Colvin frame purpose-built sandboxes as necessary infrastructure for coding agents, and Ivan Burazin distinguishes orchestration with Kubernetes from an actual security boundary. Abhishek Bhardwaj’s two-part “From fork() to Fleet” session follows that boundary from process creation and kernel controls to fleet-scale sandbox management, with an official recording, transcript, and extracted slides providing additional evidence. Kevin Orellana examines failures across 1,000 code-writing tasks, while Matt Brockman, Rowan Christmas, Arun Sekhar, and Philipp Schmid cover developer sandboxes, microVMs, cloud-hosted OpenClaw isolation, and agent-specific execution environments. These sessions turn “blast radius” into concrete design dimensions: filesystem mounts, process lifetime, credential exposure, network egress, tenant separation, resource limits, observability, and the ability to destroy or reconstruct an execution environment.
+
+The wider conference graph demonstrates why identity and isolation must be composed rather than deployed separately. Rashi Agrawal’s member-facing healthcare system requires guardrails around high-stakes responses; agentic commerce requires narrowly bounded payment authority; browser and personal agents must process untrusted pages and tool output; and enterprise assistants can reveal internal knowledge without any conventional model exploit. The resulting security model is layered: authenticate both user and agent, express delegation explicitly, grant per-run credentials and tool scopes, verify software and content provenance, isolate code execution, constrain network and data access, require approval for consequential actions, and capture enough evidence to audit, revoke, retry, or reverse a failed run.
 
 ## Conference Context
 It combines application security, cloud IAM, browser and plugin sandboxing, supply-chain security, and adversarial ML. Tool-using agents raise the stakes because natural-language inputs can influence systems that touch files, APIs, payments, infrastructure, or private data.
@@ -64,13 +72,16 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 **Confidence:** high. Treat this as synthesis derived from the linked evidence graph, not as an official schedule claim.
 
 ## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-bereket-habtemeskel-agent-auth]] — Agent Auth
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 
 ## Slide-Derived Supporting Decks
+- [[youtube-JvKO40CFq-s-slides]] — Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth (12 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
 ## Connections
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain; [[steve-yegge|Steve Yegge]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Security; official schedule)
@@ -146,55 +157,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 40 | Related pages outside the main evidence categories. |
-| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube--CnA2lGfymY]]
-
-### Slides
-- [[youtube-OqM67QG_Ikk-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-
-### Transcripts
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube--CnA2lGfymY-transcript]]
-- [[youtube-uU5Gv2h8-9g-transcript]]
-
-### Tools
-- [[docker]]
-- [[openhands]]
-- [[pydantic]]
-- [[daytona]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -218,6 +180,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
 - Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
 - Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
+- `youtube-JvKO40CFq-s` — 5,616 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-JvKO40CFq-s`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-JvKO40CFq-s`: okay, idea, email, capabilities, maybe, read, directory, identity.
+- Slide-derived themes for `youtube-JvKO40CFq-s`: engineering, future, find, service, read, down, give, gees.
+- Evidence links for `youtube-JvKO40CFq-s` (primary event evidence): [[youtube-JvKO40CFq-s]], [[youtube-JvKO40CFq-s-transcript]], [[youtube-JvKO40CFq-s-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
@@ -238,7 +205,62 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube--CnA2lGfymY`: answer, lean, safe, model, type, look, llms, question.
 - Slide-derived themes for `youtube--CnA2lGfymY`: someone, credible, fair, conviction, sara, made, serious, error.
 - Evidence links for `youtube--CnA2lGfymY` (primary event evidence): [[youtube--CnA2lGfymY]], [[youtube--CnA2lGfymY-transcript]], [[youtube--CnA2lGfymY-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-uU5Gv2h8-9g` — 10,417 transcript words; role: primary event evidence.
 - Interpretation rule for `youtube-uU5Gv2h8-9g`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uU5Gv2h8-9g`: code, claude, prompt, been, cloud, model, mode, team.
 - Evidence links for `youtube-uU5Gv2h8-9g` (primary event evidence): [[youtube-uU5Gv2h8-9g]], [[youtube-uU5Gv2h8-9g-transcript]], [[youtube-uU5Gv2h8-9g-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 40 | Related pages outside the main evidence categories. |
+| resources | 9 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 15 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 8 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-bereket-habtemeskel-agent-auth]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-JvKO40CFq-s]]
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-htM02KMNZnk]]
+
+### Slides
+- [[youtube-JvKO40CFq-s-slides]]
+- [[youtube-OqM67QG_Ikk-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+
+### Transcripts
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-JvKO40CFq-s-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube--CnA2lGfymY-transcript]]
+
+### Tools
+- [[docker]]
+- [[openhands]]
+- [[pydantic]]
+- [[daytona]]

@@ -6,12 +6,12 @@ sourceLabels: ["Public YouTube metadata"]
 # Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai
 
 ## What It Is
-An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
 
 ## Source Classification
-- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel cut video verified against scheduled-session title and speaker evidence.
-- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
+- Source role: supporting contextual video source.
+- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
+- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
 ## Relationship To World's Fair 2026
 - [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI

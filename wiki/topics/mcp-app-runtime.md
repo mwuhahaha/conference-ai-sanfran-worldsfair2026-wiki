@@ -10,12 +10,12 @@ sourceAssessment:
   subjectId: concept:mcp-app-runtime
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:20106fadf44a6826ee704950c392c04c0402007894901da8770544ff71e41471
+sourceAssessmentBodySha256: sha256:8554c78e8e1de0ac5934ac32742186ab463cd47cda6bc43987b5ee239ad4244b
 ---
 # MCP Apps as Agentic App Runtime
 
@@ -41,21 +41,20 @@ MCP Apps as an agentic app runtime is the idea that MCP servers can return inter
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
-The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
+Current media support is attributable to one official recording; it is context for the theme rather than independent corroboration of every claim.
 
 ### Linked Sessions
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
 ### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-o-zkvb0iFDQ`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
-- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 ## Evidence Boundary
 This page is grounded in official schedule context and related MCP UI/MCP Apps transcript evidence. It should be updated as MCP Apps implementation details and SEP-1865 adoption evolve.

@@ -9,13 +9,13 @@ sourceAssessment:
   subjectId: company:amazon-web-services-aws
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:b307ce21334f2c84e6fcfd32799b5ce5cbf2ae43b51c267fb3b7b7c3a9d12269
+sourceAssessmentBodySha256: sha256:e3cf10f2a7cd0f7d10a0ffab58a241888b5c742577e8073410c07a89e8cb21c9
 ---
 # Amazon Web Services (AWS)
 
@@ -42,8 +42,8 @@ This section summarizes how this organization appears across the conference sour
 Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
-- [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws|When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS]]
-- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]]
+- [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws|>-]]
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|'Harness Engineering: Building the Production Cage for Powerful Domain Agents']]
 
 ### Media Signals
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals; role: supporting context only.

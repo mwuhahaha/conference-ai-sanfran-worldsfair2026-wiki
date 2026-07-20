@@ -60,10 +60,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Slide-derived terms: `e-03`, `microsoft`, `smol`, `graphrag`, `search`, `google`, `graph`, `moscone`, `erved2024`, `knowledge`, `accuracy`, `e-04`, `lycos`, `text`, `world`, `users`, `center`, `initial`
 
 ## Livestream Segment
-- [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield.
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
-
 ## Media Evidence
 - [[youtube-knDDGYHnnSI]] - supporting context; not the exact session recording.
 

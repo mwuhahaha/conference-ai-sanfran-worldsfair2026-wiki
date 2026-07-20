@@ -12,13 +12,13 @@ sourceAssessment:
   subjectId: person:howie-liu
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:85b6fb137f658659cbd0a3d078f469c8ecc445320748aaed72180f16d75cdafd
+sourceAssessmentBodySha256: sha256:d2c504120f20bf81b9037b4277f9a8e4c35700c629f438a785a8b0d81e98d1bf
 ---
 # Howie Liu
 
@@ -36,7 +36,7 @@ Howie is the CEO of [[airtable|Airtable]], which he co-founded in 2013 with the 
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
 ## Livestream Appearances
-- [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent|$100,000 AIE Startup Battlefield — presented by Hyperagent]] — [watch at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent|$100,000 AIE Startup Battlefield — presented by Hyperagent]] — [watch at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

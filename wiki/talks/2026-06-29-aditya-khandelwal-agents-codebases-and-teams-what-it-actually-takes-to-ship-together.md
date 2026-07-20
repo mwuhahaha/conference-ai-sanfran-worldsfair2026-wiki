@@ -1,15 +1,22 @@
 ---
-title: "Agents, codebases, and teams: what it actually takes to ship together"
-category: "talks"
-date: "2026-06-29"
-time: "11:10am-11:30am"
-track: "Expo Stage 4 SE"
-room: "Expo Stage 4 SE"
-speakers: ["Aditya Khandelwal"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 4 SE"
-scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
+title: 'Agents, codebases, and teams: what it actually takes to ship together'
+category: talks
+date: '2026-06-29'
+time: '11:10am-11:30am'
+track: Expo Stage 4 SE
+room: Expo Stage 4 SE
+speakers:
+  - Aditya Khandelwal
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 4 SE
+scheduleLabels:
+  - Expo Stage 4 SE
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T09:17:22.403Z'
 ---
 # Agents, codebases, and teams: what it actually takes to ship together
 
@@ -32,7 +39,7 @@ Using a coding agent solo is one thing. Getting a whole team to trust agent-writ
 Using a coding agent solo is one thing. Getting a whole team to trust agent-written code, agent-run reviews, and long-running agent work is another. That's where most teams stall. This talk is about what it actually takes to get there: how to shape a codebase so agents can work in it safely, how to earn a skeptical team's trust instead of mandating it, and the failure modes that only show up once agents are part of the daily workflow.
 
 ### Speaker And Company Context
-- [[aditya-khandelwal|Aditya Khandelwal]] — MTS at [[amazon-agi-lab|Amazon AGI Lab]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

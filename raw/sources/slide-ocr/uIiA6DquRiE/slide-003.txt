@@ -1,0 +1,7 @@
+Dynamic 1-bit reaches ~76.2% top-1 accuracy while being 86% smaller. This means.
+the model is not &6% worse since it's 86% smaller - it rather Is only ~14% less accurate
+than the full 1.6TB model.
+1-bitGLM-5.2 Claude 4.8 Opus GPT 5.5
+GGUF + High Extra Extra High
+7 Engineering the future of Al
+Malate Kea rcs

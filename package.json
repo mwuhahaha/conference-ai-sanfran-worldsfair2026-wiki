@@ -8,8 +8,12 @@
     "normalize": "python3 scripts/normalize_article_shapes.py",
     "assess": "python3 scripts/apply_page_assessments.py --minimum-pages 975",
     "export": "python3 scripts/export_static_site.py",
+    "audit:media-roles": "python3 scripts/audit_primary_media_roles.py --phase pre-agent --root .",
+    "audit:media-roles:full": "python3 scripts/audit_primary_media_roles.py --phase full --root .",
+    "audit:segment-projection": "python3 scripts/livestream_segment_projection.py --check",
+    "audit:attendance": "python3 scripts/generate_attendance_calibration.py --check-current",
     "agent-product": "wiki-from-topic-maker agent build . --json",
-    "build:validated": "npm run slide-ai-check && npm run export",
+    "build:validated": "npm run slide-ai-check && npm run audit:segment-projection && npm run export && npm run audit:media-roles && npm run audit:attendance",
     "build": "npm run slide-ai-check && npm run sanitize && npm run agent-index && npm run normalize && npm run export && npm run agent-product"
   }
 }

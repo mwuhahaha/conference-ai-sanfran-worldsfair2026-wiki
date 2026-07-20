@@ -4,7 +4,8 @@ category: "resources"
 sourceLabels: ["Official WF26 playlist membership"]
 videoId: "Z3fP-eMEx-8"
 playlistId: "PLDyBmFH9HlVc"
-availability: "private"
+availability: "unavailable"
+sourceLayers: ["supporting_context"]
 ---
 # Official WF26 Playlist Item Z3fP-eMEx-8 (Unavailable)
 

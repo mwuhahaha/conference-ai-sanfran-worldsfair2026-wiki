@@ -58,25 +58,29 @@ locally. It does not deploy the site externally. The official YouTube monitor
 invokes this same update entry point once when it has admitted new event media;
 it does not maintain a separate generator chain.
 
-The reconciled official-media union contains 34 items: 29 playable recordings
-or livestreams, 3 scheduled premieres, and 2 unavailable playlist
-placeholders. All 29 official-playlist entries are represented; five other
-official WF26 recordings or livestreams were admitted through the separately
-labeled official-event boundary. Cached transcripts cover 25 of the 29
-playable items, and the four gaps remain explicit. The generated transcript
-layer contains 123 pages, labeled as 28 primary-event transcripts and 95
-supporting-context transcripts. Typed slide outcomes exist for all 29 playable
-items.
+The reconciled official-media union contains 46 items: 33 playable playlist
+recordings, 3 admitted official event livestreams, 2 scheduled premieres, and
+8 unavailable playlist placeholders. All 43 official-playlist entries are
+represented. Local transcript pages cover all 36 playable items. The generated
+transcript layer contains 132 media transcript pages: 36 primary-event
+transcripts and 96 supporting-context transcripts. Typed slide outcomes exist
+for all 36 playable items.
 
-Final local run `update-20260717T151153Z-c726308cdf` completed all 18 adapters
-and both maker runtime stages, then promoted target snapshot
-`snapshot:7eb9e7909f90fe52706542953a7daa1d3b0009380f93b09f32361d5c868340de`.
-Its 2,437-page agent product is
-`snapshot:62900940db784a1c6b68bb19a4a20c0bc14bcd87dae2ef27ee28cbbab0edd1ab`.
-The identical follow-up request returned a planning no-op. No external
-deployment was performed. Publishable inventory follows Git visibility, so an
-ignored untracked local overlay is excluded from wiki, static, agent, graph,
-and relationship products without being deleted from the operator workspace.
+Latest unified maker run `update-20260720T094613Z-28ace9e80c` completed and
+promoted locally. The seven newly playable playlist recordings were imported,
+and two stale primary-video associations (`o-zkvb0iFDQ` and `sRpqPgKeXNk`)
+were retired to context-only status. Subsequent deterministic relationship,
+assessment, and static repairs were followed by an agent-only rebuild; the
+current aligned snapshot is
+`snapshot:fda9f4494156e2236cca37770b54b1ee95d481cf8c2b4a4154aef00392134cd2`,
+covering 2,469 pages, 3,693 evidence records, 431 resources, 1,540 entities,
+and 1,670 relationships. No second maker update or external deployment was
+performed. The local monitor now runs canonical segment-projection,
+attendance, and full media-role checks after maker promotion; any workspace
+versus canonical-source split therefore fails closed before publication.
+Publishable inventory follows Git visibility, so an ignored untracked local
+overlay is excluded from wiki, static, agent, graph, and relationship products
+without being deleted from the operator workspace.
 
 Private review-policy bootstrap data lives only at the ignored local path
 `.ops/state/cache/wiki-maker/private-policy.json`, referenced through

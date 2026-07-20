@@ -5,14 +5,14 @@ sourceLabels:
   - Official schedule
   - Public YouTube livestream transcript
   - Local slide OCR
-last_auto_summarized: '2026-07-06T19:58:14.630Z'
+last_auto_summarized: '2026-07-18T14:18:53.314Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:7b93b18ab67ed48d64bc9e190c404a2919536098d6fe6fd2c60f3b2b8e9791df
   subjectId: concept:autoresearch
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -20,37 +20,41 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:6257c6e245226bfe762a4958394834d0513a9cabde84f6832156de26f4e482cc
+sourceAssessmentBodySha256: sha256:5da72661ea5f2813c32ffe0c51fbbe9c7752a270137d7b6bcc47c9ed6b3bb27a
 ---
 # Autoresearch
 
 ## Overview
-AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
+AutoResearch at WF2026 is framed as a closed-loop engineering discipline rather than a one-shot research assistant: keep an objective stable, gather evidence, propose a bounded change, execute a test, compare the result with a baseline, and decide what survives into the next iteration. The program grounds that loop in specific systems. Weco AI CEO Zhengyao Jiang, MTS Dixing Xu, founding engineer Dhruv Srikanth, and Vayum Arora connect automated hill climbing, self-improving agents, and recursive improvement to the Parameter Golf workshop. Elastic VP of AI Han Xiao focuses on test-time compute around frozen embedding models; Morph founder Tejas Bhakta brings the loop to generated kernels and specialized code inference; and Tim Sweeney’s Closing the Loop session names the autonomous research-agent cycle directly. Roland Gavrilescu and Julian Bright extend the discussion from controlled experiments to infrastructure for self-improving systems operating in the wild.
 
-AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
+The connected sessions make clear that the object being optimized is often larger than a model response. Lakshya Agrawal separates context, the agent harness, and model weights into distinct reflective-optimization surfaces. Sakana.ai researcher Stefania Druga’s memory-harness session addresses the durable state required by long-running research agents, while Zubin Aysola’s ARIA session makes the recursive construction problem explicit by describing autoresearch used to build an autoresearch system. Erina Karati and Arunachalam Manikandan place research iteration inside a multi-agent AI Village, and Morgan Stanley scientist Brendan Rappazzo’s ALPHALAB session applies frontier models across multiple optimization domains. The adjacent hill-climbing-skills workshop and Lee Robinson’s Recursive Model Improvement recording sharpen the shared governance question: which component may change, which evaluation controls acceptance, and which failures must remain visible to the next attempt.
+
+The Autoresearch track also presents a progression from research direction to operational practice. Richard Socher’s First Steps Toward Automated AI Research establishes the emerging capability; Google DeepMind VP Benoit Schillings links research to deployment reality; and Prime Intellect research engineer Elie Bakouch situates auto research alongside open pre-training work. The surrounding program exposes the dependencies that determine whether these loops are useful: perception agents for observations, memory systems for continuity, evaluations for selection, inference engineering for controlled execution, and human judgment for recognizing benchmark gaming or persuasive but unsupported results. Sessions on speech research, synthetic personas, robotics, and understanding as a bottleneck show how the same loop encounters different evidence, action, and measurement constraints outside code generation.
+
+For this wiki, autoresearch therefore denotes an inspectable chain from question to source, hypothesis, intervention, measurement, and next decision—not merely an agent that produces polished prose. The official Autoresearch and Keynotes livestream and transcript are primary event evidence for recording- or speaker-attributed interpretation. Schedule pages establish titles, speakers, times, affiliations, and track framing; extracted, dense, and reconstructed slide pages form a separate OCR-derived layer whose text can be incomplete or noisy. Preserving those distinctions makes it possible to compare retrieval search, kernel benchmarking, Parameter Golf, memory harnesses, reflective optimization, and multi-agent research without turning schedule language or machine-read slide fragments into verified technical claims.
 
 ## Conference Context
-It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
+AutoResearch grows out of literature search, systematic review, research assistants, web search, RAG, benchmarking, and scientific-discovery tooling, but adds an action-and-measurement loop. Instead of stopping after retrieval and synthesis, the system can select the next query, preserve experimental state, modify a candidate artifact, execute a test, score the outcome, and revise its policy. At WF2026, those artifacts range from embedding-model retrieval strategies and generated kernels to prompts, context, agent skills, harnesses, model weights, and multi-agent research plans.
 
-It grew from literature search, systematic review methods, research assistants, web search, RAG, benchmarking, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, compare evidence, and produce structured research artifacts. The connected WF2026 material places AutoResearch in a broader shift from one-off retrieval toward closed-loop systems: agents that gather evidence, run or propose tests, improve their own harnesses, and move research ideas toward production workflows.
+The connected program traces a progression from capability to infrastructure and then to bounded applications. Socher’s First Steps session and Schillings’s Research to Reality keynote establish the research direction; Sweeney, Agrawal, Druga, and the Introspection team focus on feedback, memory, reflective optimization, and operation over time; and the Parameter Golf, dense-retrieval, kernel, ARIA, AI Village, and ALPHALAB sessions apply those mechanisms to measurable domains. Neighboring sessions on agent evaluations, recursive model improvement, synthetic personas, robotics, speech research, and perception expose the interfaces autoresearch depends on: reliable observations, durable state, controllable actions, and metrics that distinguish genuine progress from a persuasive-looking result.
+
+The conference context also shows that autoresearch is not one fixed architecture. A retrieval loop may spend additional test-time compute without changing the embedding model; a kernel loop may generate code and benchmark latency or correctness; a Parameter Golf loop may hill-climb against a compact score; and a multi-agent system may divide investigation across competing hypotheses or optimization domains. What unifies them is not the model vendor or domain, but the presence of a bounded objective, an observable intervention, a comparison against prior state, and a recorded decision about what happens next.
 
 ## Significance
-Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
+AutoResearch shifts the bottleneck from generating plausible ideas to governing repeated research decisions. A useful system must determine which evidence to seek, which variable to change, which metric represents progress, what state must survive between trials, and when an apparent gain is reproducible. WF2026 makes those decisions visible across documents and embeddings, generated code and kernels, context and harnesses, model weights, multi-agent coordination, and production research infrastructure. This breadth matters because it turns autoresearch from a single-agent demo pattern into a general systems problem spanning retrieval, experimentation, evaluation, memory, and operations.
 
-Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
+The same breadth creates concrete failure modes. A retrieval agent can optimize a benchmark that does not reflect user relevance; a kernel researcher can accept a speedup that breaks correctness; a long-running agent can lose the failed trials needed to explain why a path was abandoned; and a multi-agent investigation can amplify the same unsupported assumption across several workers. In this wiki, an additional risk is evidence-layer collapse: schedule descriptions, speaker-attributed transcript statements, OCR-derived slide text, and external context do not carry the same evidentiary weight. The connected evaluation, memory, retrieval, and reflective-optimization sessions indicate that closed-loop capability must be paired with traceable inputs, stable baselines, explicit stopping rules, reproducible comparisons, and human review. Faster iteration is valuable only when the system can explain what changed, why it changed, and whether the measured improvement survives scrutiny.
 
 ## Applied Use
-Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
+Begin with a bounded objective and an output that can actually be checked: a ranked retrieval result, a kernel benchmark, a reproduced paper result, a source-grounded market map, or a documented experiment plan. Define the baseline, evaluation metric, resource budget, and stopping rule before the loop begins. Record every query, selected and excluded source, hypothesis, code or configuration change, measured result, and rationale for the next step so that improvement can be separated from metric drift, data leakage, or accidental variance.
 
-AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
+Match the loop to the substrate. Dense-retrieval work should preserve the frozen embedding model, corpus snapshot, candidate-generation settings, reranking procedure, query set, and test-time compute budget. Kernel research should retain generated code, compiler and hardware details, correctness checks, latency measurements, and failed variants. Parameter Golf or agent-skill hill climbing should record the exact scoring harness and every accepted or rejected mutation. Reflective optimization should distinguish whether a gain came from context, harness behavior, or model-weight changes rather than treating the entire system as one opaque candidate.
 
-Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
+Maintain an evidence ledger that separates official schedule facts, recording- or transcript-backed observations, slide/OCR-derived notes, external supporting context, interpretations, and unresolved questions. For long-running investigations, use a memory harness that preserves decisions, failed trials, and provenance without blindly replaying stale context. For multi-agent work, assign explicit hypotheses or optimization domains, require each agent to return evidence and uncertainty, and reconcile conflicting results against a shared evaluation rather than accepting consensus as proof.
 
-Start with a clear research question, source-specific retrieval, and an explicit record of search terms, inclusion criteria, and excluded evidence. Keep a claim-evidence table that separates official schedule facts, transcript-backed observations, slide/OCR-derived notes, interpretations, and open questions. Use agentic search and memory for multi-step exploration, but pair them with agent evaluations, benchmark design, and human review before treating outputs as conclusions. For engineering research, connect the synthesis to reproducible artifacts: experiments, eval harnesses, retrieval tests, kernel benchmarks, or implementation plans.
+The WF2026 examples support several concrete applications: automated hill climbing for Parameter Golf and agent skills; test-time search over frozen embedding models; generation-and-benchmark loops for kernels; multi-agent exploration across optimization domains; reflective improvement of context, harnesses, and weights; and conference-intelligence synthesis across schedules, talks, transcripts, and slide evidence. The same structure can support technical due diligence, literature review, financial-compliance document correlation, competitive analysis, product discovery, and engineering design investigations when the work depends on repeated comparison rather than a single answer.
 
-AutoResearch is useful for technical due diligence, literature reviews, market maps, competitive analysis, financial-compliance document correlation, product discovery, and engineering design investigations. In this wiki, it is also a method for conference intelligence: the official Autoresearch livestream, extracted slides/OCR, scheduled talks, and transcript-backed resource pages can be compared to identify recurring claims, tools, research patterns, and unanswered questions across talks.
-
-Use it when the answer depends on multiple sources, evolving evidence, or repeated comparison across papers, products, transcripts, benchmarks, or implementation patterns. It is especially relevant when a team needs a source-grounded briefing, a research map, or an experiment plan rather than a single answer. Avoid relying on it as a black-box oracle for high-stakes conclusions; the connected material repeatedly points toward closed-loop research systems, but those loops still need traceable evidence, evaluation, and human judgment.
+Use humans to set scope, approve consequential actions, inspect surprising gains, resolve ambiguous evidence, and decide when the investigation is sufficient. AutoResearch is most valuable when it produces an auditable research map or reproducible experiment trail; it should not be treated as a black-box authority for high-stakes conclusions.
 
 ## Active Use Cases
 - Evidence-grounded briefing docs and source maps.
@@ -157,6 +161,35 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[openai|OpenAI]]
 - [[poolside|poolside]]
 
+## Evidence Graph
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
+
+### Linked Sessions
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels|Autoresearch for Kernels]]
+- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
+- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]
+- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
+- [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
+
+### Media Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
+- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
@@ -197,31 +230,3 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Tools
 - [[browserbase]]
 - [[prime-intellect]]
-## Evidence Graph
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
-
-The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
-
-### Linked Sessions
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels|Autoresearch for Kernels]]
-- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
-- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
-- [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
-
-### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
-- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
-- Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
-- Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]

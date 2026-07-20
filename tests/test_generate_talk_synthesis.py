@@ -40,6 +40,37 @@ def test_first_sentences_ignores_fenced_headings() -> None:
     )
 
 
+def test_official_recording_map_fails_closed_on_both_availability_fields(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    manifest = tmp_path / "manifest.json"
+    manifest.write_text(
+        """
+        {"videos": [
+          {"id": "PLAYABLE001", "mediaType": "talk_recording",
+           "videoAvailability": "public", "playlistAvailability": "available",
+           "matchedTalks": ["valid-talk"]},
+          {"id": "PRIVATE0001", "mediaType": "talk_recording",
+           "videoAvailability": "private", "playlistAvailability": "available",
+           "matchedTalks": ["private-talk"]},
+          {"id": "PLAYLISTBAD", "mediaType": "talk_recording",
+           "videoAvailability": "public", "playlistAvailability": "unavailable",
+           "matchedTalks": ["unavailable-talk"]},
+          {"id": "PLAYLISTUNK", "mediaType": "talk_recording",
+           "videoAvailability": "public", "playlistAvailability": "unknown",
+           "matchedTalks": ["unknown-talk"]}
+        ]}
+        """,
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(SYNTHESIS, "OFFICIAL_VIDEO_MANIFEST", manifest)
+
+    assert SYNTHESIS.official_recording_ids_by_talk() == {
+        "valid-talk": ["PLAYABLE001"]
+    }
+
+
 def test_curated_synopsis_extracts_ai_native_company_operating_model() -> None:
     transcript = (
         "A skill file is an employee. Work moves between latent space and "

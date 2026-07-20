@@ -9,13 +9,13 @@ sourceAssessment:
   subjectId: company:microsoft
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:4187706e32f7e78129be371722403eec754e7ef116b7ac9df5c2d3d95b88d259
+sourceAssessmentBodySha256: sha256:f18c9b6082dbda653d051725936ac0461c884b010d6c554897c78461ffcbf64f
 ---
 # Microsoft
 
@@ -79,10 +79,10 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end|Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end]]
 - [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry|Observe, optimize and protect your hosted agents in Microsoft Foundry]]
 - [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks|Using AI tools to teach old apps new tricks]]
-- [[2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people|Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People]]
+- [[2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people|'Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People']]
 - [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps|Get Started with Models in Microsoft Foundry to Build AI Apps]]
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
-- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service|From framework to runtime: running agents with Foundry Agent Service]]
+- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service|'From framework to runtime: running agents with Foundry Agent Service']]
 - [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
 
 ### Media Signals

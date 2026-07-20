@@ -1566,7 +1566,7 @@ def build_private_policy(
             continue
         media_type = str(item.get("mediaType") or "unknown")
         association = str(item.get("associationEvidence") or "")
-        unavailable = media_type == "unavailable_playlist_item"
+        content_admitted = media_type in {"talk_recording", "event_livestream"}
         claim = ClaimRecord.create(
             subject_id=f"video:{video_id}",
             predicate="is associated with AI Engineer World's Fair 2026 media",
@@ -1574,7 +1574,7 @@ def build_private_policy(
             qualifiers={
                 "associationEvidence": association,
                 "mediaType": media_type,
-                "contentAvailable": not unavailable,
+                "contentAvailable": content_admitted,
             },
         )
         store.append_claim(claim)
@@ -1616,7 +1616,7 @@ def build_private_policy(
         ).as_dict()
 
         source_text, transcript = video_source_text(root, item)
-        if unavailable or transcript is None:
+        if not content_admitted or transcript is None:
             continue
         transcript_value = transcript.read_text(encoding="utf-8", errors="ignore")
         transcript_source = append_source(

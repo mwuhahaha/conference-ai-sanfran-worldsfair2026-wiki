@@ -14,13 +14,13 @@ sourceAssessment:
   subjectId: person:lance-martin
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:d97056b9f47820dc733cd949e912b783666217eb7eaf6ca206a2a322ed3f77f2
+sourceAssessmentBodySha256: sha256:52ae276160c047b6549dfc33887bf5550475b51f94ea7ad965d4d84aca961349
 ---
 # Lance Martin
 
@@ -47,6 +47,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
 
 ### Media Signals
+- `youtube-9QebvrrY3KY` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-9QebvrrY3KY`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-9QebvrrY3KY` (supporting context only): [[youtube-9QebvrrY3KY]]
 - `youtube-ib-wTAvCZqg` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

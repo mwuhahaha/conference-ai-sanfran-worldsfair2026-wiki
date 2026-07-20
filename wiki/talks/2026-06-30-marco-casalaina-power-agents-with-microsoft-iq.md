@@ -1,15 +1,23 @@
 ---
-title: "Power agents with Microsoft IQ"
-category: "talks"
-date: "2026-06-30"
-time: "2:25pm-2:45pm"
-track: "Track M"
-room: "Track M"
-speakers: ["Marco Casalaina"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Track M"
-scheduleRoom: "Track M"
-scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
+title: Power agents with Microsoft IQ
+category: talks
+date: '2026-06-30'
+time: '2:25pm-2:45pm'
+track: Track M
+room: Track M
+speakers:
+  - Marco Casalaina
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Track M
+scheduleRoom: Track M
+scheduleLabels:
+  - Track M
+  - Track M
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-19T01:11:08.502Z'
 ---
 # Power agents with Microsoft IQ
 
@@ -32,7 +40,7 @@ Agents need more than data, they need context. Learn how Microsoft IQ connects a
 Agents need more than data, they need context. Learn how Microsoft IQ connects agents to enterprise knowledge, business data, and work signals. See how Foundry IQ, Fabric IQ, and Work IQ provide grounded, permission-aware context that enables agents to reason, act, and deliver reliable results.
 
 ### Speaker And Company Context
-- [[marco-casalaina|Marco Casalaina]] — VP Products, Core AI and AI Futurist at [[microsoft|Microsoft]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

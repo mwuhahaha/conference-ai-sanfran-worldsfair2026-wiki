@@ -51,7 +51,6 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
     assert keys == [
         "classify_media",
         "transcript_pages",
-        "livestream_segments",
         "talk_media_map",
         "credibility_provider_checks",
         "credibility_policy",
@@ -59,6 +58,7 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
         "slide_ai_admission_check",
         "talk_synthesis",
         "source_enrichment",
+        "livestream_segment_projection",
         "attendance_evidence_sync",
         "synthesis_layers",
         "evolution_context",
@@ -70,8 +70,32 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
     ]
 
     adapters = {adapter["key"]: adapter for adapter in profile["adapters"]}
+    assert "livestream_segments" not in adapters
+    assert all(
+        adapter["command"][:2]
+        != ["python3", "scripts/generate_livestream_talk_segments.py"]
+        for adapter in adapters.values()
+    )
+    assert adapters["talk_media_map"]["dependencies"] == ["transcript_pages"]
+    assert adapters["talk_synthesis"]["dependencies"] == [
+        "transcript_pages",
+        "credibility_policy",
+        "talk_media_map",
+        "slide_ai_admission_check",
+    ]
     assert adapters["sanitize_public_text"].get("optional_dependencies") == [
         "evolution_context"
+    ]
+    assert adapters["livestream_segment_projection"]["dependencies"] == [
+        "source_enrichment"
+    ]
+    assert adapters["livestream_segment_projection"]["triggers"] == ["any"]
+    assert adapters["attendance_evidence_sync"]["dependencies"] == [
+        "livestream_segment_projection"
+    ]
+    assert adapters["attendance_evidence_sync"]["triggers"] == ["any"]
+    assert adapters["synthesis_layers"]["optional_dependencies"] == [
+        "attendance_evidence_sync"
     ]
     assert adapters["agent_source_index"]["dependencies"] == [
         "sanitize_public_text"
@@ -91,6 +115,13 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
     for key in keys[assessment_index + 1 :]:
         assert "wiki" not in adapters[key]["mutates"]
 
+    general_keys = selected_adapter_keys(profile, "general")
+    assert "livestream_segment_projection" in general_keys
+    assert "attendance_evidence_sync" in general_keys
+    assert general_keys.index("source_enrichment") < general_keys.index(
+        "livestream_segment_projection"
+    ) < general_keys.index("attendance_evidence_sync")
+
 
 def test_update_export_is_nonmutating_while_ci_build_remains_fail_closed() -> None:
     profile = load_profile()
@@ -106,7 +137,10 @@ def test_update_export_is_nonmutating_while_ci_build_remains_fail_closed() -> No
     ]
     assert scripts["build:validated"].split(" && ") == [
         "npm run slide-ai-check",
+        "npm run audit:segment-projection",
         "npm run export",
+        "npm run audit:media-roles",
+        "npm run audit:attendance",
     ]
 
     ci_build = scripts["build"].split(" && ")

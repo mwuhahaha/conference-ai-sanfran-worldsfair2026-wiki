@@ -10,12 +10,12 @@ sourceAssessment:
   subjectId: concept:nearly-headless-web
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:2303278ade224d84620778ee5ff78ecf1d4193cda0fce5659fc74ca499a924e1
+sourceAssessmentBodySha256: sha256:85a8c0c9d5f8ad0f1dad0304391a1e2f0ca2a73aec11dc56c967d8bc965019ae
 ---
 # Nearly Headless Web
 
@@ -45,6 +45,9 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 ## Evidence Boundary
 This page synthesizes a recurring design frame from the official schedule description and related transcript evidence. It should be refined if an exact session recording becomes available.

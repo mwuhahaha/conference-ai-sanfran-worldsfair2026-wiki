@@ -10,6 +10,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from slide_session_projection import reconcile_topic_slide_session_signals
+except ModuleNotFoundError:  # Imported as scripts.* in the test suite.
+    from scripts.slide_session_projection import reconcile_topic_slide_session_signals
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -18,6 +23,8 @@ TALKS_DIR = WIKI / "talks"
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 LIVESTREAM_SEGMENTS = RAW / "livestream-talk-segments.json"
 OUTPUT = WIKI / "resources" / "talk-video-transcript-map.md"
+SLIDES_DIR = WIKI / "slides"
+TOPICS_DIR = WIKI / "topics"
 OFFICIAL_PLAYLIST_ID = "PLDyBmFH9HlVc"
 
 PLAYLIST_MEDIA_TYPES = {
@@ -198,16 +205,13 @@ def validate_inputs(
                 raise ValueError(f"duplicate playlistIndex: {position}")
             playlist_positions.add(position)
 
-        if is_playlist_item(video):
-            if not isinstance(video.get("matchedTalks"), list):
+        if "matchedTalks" in video and not isinstance(video.get("matchedTalks"), list):
+            raise ValueError(f"manifest item {video_id} matchedTalks must be a list")
+        for slug in matched_talks(video):
+            if slug not in talks_by_slug:
                 raise ValueError(
-                    f"playlist item {video_id} matchedTalks must be a list"
+                    f"manifest item {video_id} references missing talk: {slug}"
                 )
-            for slug in matched_talks(video):
-                if slug not in talks_by_slug:
-                    raise ValueError(
-                        f"playlist item {video_id} references missing talk: {slug}"
-                    )
 
     segment_keys: set[tuple[str, str, int]] = set()
     for segment in segments:
@@ -239,6 +243,57 @@ def validate_inputs(
 def compact(value: object, fallback: str = "") -> str:
     text = re.sub(r"\s+", " ", str(value or "")).strip()
     return text.replace("|", "&#124;") or fallback
+
+
+RELATED_SESSIONS_PATTERN = re.compile(
+    r"\n## Related Scheduled Sessions\n.*?(?=\n## |\Z)", re.S
+)
+
+
+def render_slide_related_sessions(
+    slugs: list[str], talks_by_slug: dict[str, dict[str, object]]
+) -> str:
+    if not slugs:
+        return (
+            "- No individual scheduled session mapping is assigned by the official media "
+            "manifest; treat this as event-level media unless a future exact mapping is "
+            "recorded."
+        )
+    return "\n".join(
+        f"- [[{slug}]] — {compact(talks_by_slug[slug]['title'], slug)}"
+        for slug in slugs
+    )
+
+
+def reconcile_slide_session_links(
+    talks: list[dict[str, object]],
+    videos: list[dict[str, object]],
+    slides_dir: Path,
+    *,
+    write: bool,
+) -> list[Path]:
+    """Project exact manifest ownership onto existing slide-page session links."""
+
+    talks_by_slug = {str(talk["slug"]): talk for talk in talks}
+    changed: list[Path] = []
+    for video in videos:
+        video_id = str(video["id"])
+        page = slides_dir / f"youtube-{video_id}-slides.md"
+        if not page.exists():
+            continue
+        body = render_slide_related_sessions(matched_talks(video), talks_by_slug)
+        block = f"\n## Related Scheduled Sessions\n{body}\n"
+        current = page.read_text(encoding="utf-8")
+        if RELATED_SESSIONS_PATTERN.search(current):
+            rendered = RELATED_SESSIONS_PATTERN.sub(lambda _match: block, current)
+        else:
+            rendered = current.rstrip() + block
+        if rendered == current:
+            continue
+        changed.append(page)
+        if write:
+            page.write_text(rendered, encoding="utf-8")
+    return changed
 
 
 def wiki_link(target: str, label: object | None = None) -> str:
@@ -679,6 +734,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--manifest", type=Path, default=OFFICIAL_VIDEO_MANIFEST)
     parser.add_argument("--segments", type=Path, default=LIVESTREAM_SEGMENTS)
     parser.add_argument("--output", type=Path, default=OUTPUT)
+    parser.add_argument("--slides-dir", type=Path, default=SLIDES_DIR)
+    parser.add_argument("--topics-dir", type=Path, default=TOPICS_DIR)
     parser.add_argument(
         "--check",
         action="store_true",
@@ -689,14 +746,23 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    rendered = render_map(
-        load_talks(args.talks_dir),
-        load_manifest(args.manifest),
-        load_segments(args.segments),
+    talks = load_talks(args.talks_dir)
+    videos = load_manifest(args.manifest)
+    segments = load_segments(args.segments)
+    rendered = render_map(talks, videos, segments)
+    slide_changes = reconcile_slide_session_links(
+        talks, videos, args.slides_dir, write=not args.check
+    )
+    topic_changes = reconcile_topic_slide_session_signals(
+        talks,
+        slides_dir=args.slides_dir,
+        topics_dir=args.topics_dir,
+        write=not args.check,
     )
     current = args.output.read_text(encoding="utf-8") if args.output.exists() else ""
-    changed = current != rendered
-    if not args.check and changed:
+    output_changed = current != rendered
+    changed = output_changed or bool(slide_changes) or bool(topic_changes)
+    if not args.check and output_changed:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered, encoding="utf-8")
     print(
@@ -705,6 +771,8 @@ def main(argv: list[str] | None = None) -> int:
                 "changed": changed,
                 "check": args.check,
                 "output": str(args.output),
+                "slide_pages_changed": len(slide_changes),
+                "topic_pages_changed": len(topic_changes),
             },
             sort_keys=True,
         )

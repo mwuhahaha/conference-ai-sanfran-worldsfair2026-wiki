@@ -14,6 +14,13 @@ RAW = ROOT / "raw" / "sources"
 WIKI = ROOT / "wiki"
 RESOURCES = WIKI / "resources"
 OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
+PLAYABLE_VIDEO_AVAILABILITIES = {"", "public", "unlisted"}
+PLAYABLE_PLAYLIST_AVAILABILITIES = {"", "available"}
+PLAYABLE_PRIMARY_ROLES = {
+    "primary event cut video",
+    "primary event livestream",
+    "primary event playlist recording",
+}
 
 
 def read_json(path: Path, fallback):
@@ -22,38 +29,49 @@ def read_json(path: Path, fallback):
     return json.loads(path.read_text(encoding="utf-8", errors="ignore"))
 
 
-def wf26_title(title: str) -> bool:
-    low = title.lower()
-    return "wf2026" in low or "wf26" in low or ("world" in low and "fair" in low and "2026" in low)
+def manifest_row_is_playable(item: dict) -> bool:
+    return (
+        str(item.get("videoAvailability") or "").casefold()
+        in PLAYABLE_VIDEO_AVAILABILITIES
+        and str(item.get("playlistAvailability") or "").casefold()
+        in PLAYABLE_PLAYLIST_AVAILABILITIES
+    )
 
 
 def official_wf_livestream_ids() -> set[str]:
-    blob = read_json(RAW / "aidotengineer-channel-streams-latest.json", {})
-    entries = blob.get("entries") if isinstance(blob, dict) else blob
-    ids: set[str] = set()
-    for entry in entries or []:
-        video_id = entry.get("id") or entry.get("video_id")
-        title = entry.get("title") or ""
-        if video_id and wf26_title(title):
-            ids.add(video_id)
+    """Return only livestreams admitted by the authoritative WF26 manifest.
+
+    Channel-title similarity is useful for discovery, but it cannot promote an
+    arbitrary or historical stream to primary event evidence.
+    """
+
     manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
-    ids.update(
+    return {
         str(item.get("id"))
         for item in manifest.get("videos", [])
-        if isinstance(item, dict) and item.get("id") and item.get("mediaType") == "event_livestream"
-    )
-    return ids
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("mediaType") == "event_livestream"
+        and manifest_row_is_playable(item)
+    }
 
 
 def official_wf_cut_ids() -> set[str]:
-    ids = confirmed_event_cut_ids()
+    """Return only recordings admitted by the authoritative WF26 manifest.
+
+    Title/speaker similarity remains useful for supporting-source discovery,
+    but it cannot promote an older or pre-event recording to primary evidence.
+    """
+
     manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
-    ids.update(
+    return {
         str(item.get("id"))
         for item in manifest.get("videos", [])
-        if isinstance(item, dict) and item.get("id") and item.get("mediaType") == "talk_recording"
-    )
-    return ids
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("mediaType") == "talk_recording"
+        and manifest_row_is_playable(item)
+    }
 
 
 def official_wf_premiere_ids() -> set[str]:
@@ -85,7 +103,10 @@ def official_wf_unavailable_ids() -> set[str]:
         for item in manifest.get("videos", [])
         if isinstance(item, dict)
         and item.get("id")
-        and item.get("mediaType") == "unavailable_playlist_item"
+        and (
+            item.get("mediaType") == "unavailable_playlist_item"
+            or not manifest_row_is_playable(item)
+        )
     }
 
 
@@ -160,6 +181,49 @@ def split_frontmatter(text: str) -> tuple[str, str]:
     if end == -1:
         return "", text
     return text[: end + 5], text[end + 5 :].lstrip()
+
+
+def reconcile_media_source_layers(text: str, role: str) -> str:
+    """Maintain the generated non-playable media override in frontmatter."""
+
+    frontmatter, body = split_frontmatter(text)
+    if not frontmatter:
+        return text
+    lines = frontmatter.rstrip("\n").splitlines()
+    field_start = next(
+        (index for index, line in enumerate(lines) if line.startswith("sourceLayers:")),
+        None,
+    )
+    field_end = field_start
+    if field_start is not None:
+        field_end = field_start + 1
+        while field_end < len(lines) - 1 and (
+            lines[field_end].startswith((" ", "\t")) or not lines[field_end].strip()
+        ):
+            field_end += 1
+
+    non_playable = role in {
+        "official event unavailable playlist item",
+        "primary event scheduled premiere",
+    }
+    if non_playable:
+        replacement = ['sourceLayers: ["supporting_context"]']
+        if field_start is None:
+            lines.insert(len(lines) - 1, replacement[0])
+        else:
+            lines[field_start:field_end] = replacement
+    elif field_start is not None and role in PLAYABLE_PRIMARY_ROLES:
+        existing = "\n".join(lines[field_start:field_end])
+        layer_values = set(
+            re.findall(
+                r"official_schedule|official_event_media|transcript|slide_ocr|slide|ocr|"
+                r"curated_public_source|supporting_context|comparison_context|synthesis",
+                existing,
+            )
+        )
+        if layer_values == {"supporting_context"}:
+            del lines[field_start:field_end]
+    return "\n".join(lines) + "\n" + body
 
 
 def video_id_from_page(path: Path, text: str) -> str:
@@ -378,6 +442,7 @@ def main() -> int:
             official_no_slides,
         )
         counts[role] = counts.get(role, 0) + 1
+        text = reconcile_media_source_layers(text, role)
         text = rewrite_what_it_is(text, role)
         text = upsert_section(text, "Source Classification", body)
         path.write_text(text.rstrip() + "\n", encoding="utf-8")

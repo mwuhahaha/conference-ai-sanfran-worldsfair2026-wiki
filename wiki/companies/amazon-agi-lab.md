@@ -9,13 +9,13 @@ sourceAssessment:
   subjectId: company:amazon-agi-lab
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:39684563679733c57f0647f2edebc144ca8083e29ab11eecfdad512fa54ed70a
+sourceAssessmentBodySha256: sha256:55937af673b27eb21de75f91deb1cd0686bc55bfcc9b8d3b2ac01fb3ea4a1e9f
 ---
 # Amazon AGI Lab
 
@@ -47,7 +47,7 @@ This section summarizes how this organization appears across the conference sour
 Event participation, role, and affiliation details remain attributed to the official event program; publication here is not an endorsement.
 
 ### Linked Sessions
-- [[2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together|Agents, codebases, and teams: what it actually takes to ship together]]
+- [[2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together|'Agents, codebases, and teams: what it actually takes to ship together']]
 - [[2026-06-29-emile-baizel-build-with-perception-agents|Build with Perception Agents]]
 - [[2026-06-30-gaurav-mishra-from-rl-to-irl|From RL to IRL]]
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]

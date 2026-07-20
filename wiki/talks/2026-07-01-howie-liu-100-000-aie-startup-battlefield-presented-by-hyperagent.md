@@ -48,7 +48,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[howie-liu]]
 
 ## Livestream Segment
-- [Watch in livestream at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [Watch in livestream at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) — WF26: Harness Engineering & Startup Battlefield.
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 ## Media Evidence

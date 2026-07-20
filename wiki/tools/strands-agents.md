@@ -1,31 +1,42 @@
 ---
-title: "Strands Agents"
-category: "tools"
-aliases: ["Strands Agents", "Strands"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
-scheduleTracks: ["Workshops Day 1", "AI-Native Enterprises"]
-scheduleRooms: ["Track 9", "Expo Stage 3 SW", "Leadership 1"]
+title: Strands Agents
+category: tools
+aliases:
+  - Strands Agents
+  - Strands
+sourceLabels:
+  - Official schedule
+  - Public YouTube metadata
+  - Transcript evidence
+  - Local slide OCR
+scheduleTracks:
+  - Workshops Day 1
+  - AI-Native Enterprises
+scheduleRooms:
+  - Track 9
+  - Expo Stage 3 SW
+  - Leadership 1
+last_auto_summarized: '2026-07-18T06:12:08.661Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:6e382848c8ce25c6f65702f7aab1d73baead442a4c99df547a40d41995fcb82c
   subjectId: tool:strands-agents
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:408030782cfc9db826deb64bd42003dc9753f16d7b886eb9bfc95edfd7dd46fc
+sourceAssessmentBodySha256: sha256:be2b80141be35c9fd48248bb15afc2bc81e00a91aa682d21eb6b66e1c965e3e7
 ---
-
 # Strands Agents
 
 ## Conference Context
-Strands Agents appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
+Strands Agents is an open-source AI agent SDK from AWS represented across the World’s Fair 2026 corpus. Its confirmed schedule connections span Elizabeth Fuentes Leone’s workshop on moving from an agent idea through coding, deployment, observation, repair, and shipping; her session on context engineering beyond the “infinite context window” assumption; and Sandhya Subramani’s enterprise-focused talk on communicating desired behavior to robots and agents.
 
-This page records confirmed mentions and keeps them separate from broader inferred relevance.
+The supporting media broadens that context. An AWS presentation explicitly introduces Strands Agents, while linked slide and transcript evidence places it near discussions of decision traces, harness engineering, cloud-scale agent systems, Amazon Nova Act, and MCP. These links establish where the SDK appears in the corpus without implying that every connected session or recording is primarily about Strands.
 
 ## Confirmed Evidence
 
@@ -50,4 +61,4 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt`
 
 ## Confidence
-High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.
+High confidence that Strands Agents is directly present in the corpus, supported by an explicit AWS introduction and repeated schedule, transcript, and slide connections. The evidence supports interpreting it as part of the conference’s practical agent-engineering stack—especially around lifecycle workflows, context management, observability through decision traces, cloud deployment, and MCP-connected systems—while the precise depth of its role should be evaluated within each linked source.

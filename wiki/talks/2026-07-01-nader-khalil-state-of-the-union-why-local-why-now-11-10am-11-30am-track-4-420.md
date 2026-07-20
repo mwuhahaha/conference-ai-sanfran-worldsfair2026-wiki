@@ -87,6 +87,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/KB41dTlX1Uc/slide-001.jpg]]
 ![[assets/slides/KB41dTlX1Uc/slide-002.jpg]]
 ![[assets/slides/KB41dTlX1Uc/slide-003.jpg]]
+
 - Source video: `youtube-ESbWpPT_9-o`
 - Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — slide evidence page.
 - Additional slide evidence: [[youtube-ESbWpPT_9-o-slides|Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]], [[youtube-ESbWpPT_9-o-reconstructed-slides|Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]]
@@ -97,6 +98,7 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-KB41dTlX1Uc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt`.
+
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

@@ -79,6 +79,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/0vphxNt4wyk/slide-002.jpg]]
 ![[assets/slides/0vphxNt4wyk/slide-003.jpg]]
 - Slide-derived themes for `youtube-0vphxNt4wyk`: skills, fail, chad, vibe, checks, production, engineering, future.
+
 - Source video: `youtube-3_gYbhABcAE`
 - Slide deck: [[youtube-3_gYbhABcAE-dense-slides|Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]] — slide evidence page.
 - Additional slide evidence: [[youtube-3_gYbhABcAE-slides|Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]], [[youtube-3_gYbhABcAE-reconstructed-slides|Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]]
@@ -89,6 +90,7 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-0vphxNt4wyk-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/0vphxNt4wyk.txt`.
+
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

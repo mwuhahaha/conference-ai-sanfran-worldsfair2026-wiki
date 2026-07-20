@@ -1,15 +1,23 @@
 ---
-title: "Tell the Robot What You Want"
-category: "talks"
-date: "2026-07-01"
-time: "3:45pm-4:05pm"
-track: "AI-Native Enterprises"
-room: "Leadership 1"
-speakers: ["Sandhya Subramani"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "AI-Native Enterprises"
-scheduleRoom: "Leadership 1"
-scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
+title: Tell the Robot What You Want
+category: talks
+date: '2026-07-01'
+time: '3:45pm-4:05pm'
+track: AI-Native Enterprises
+room: Leadership 1
+speakers:
+  - Sandhya Subramani
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: AI-Native Enterprises
+scheduleRoom: Leadership 1
+scheduleLabels:
+  - AI-Native Enterprises
+  - Leadership 1
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T07:12:29.178Z'
 ---
 # Tell the Robot What You Want
 
@@ -32,7 +40,7 @@ What if you could command a robot just by talking to it? This session introduces
 What if you could command a robot just by talking to it? This session introduces Strands Agents, an open-source framework that lets developers control physical sensors and actuators using natural language, by exposing hardware as programmable agent tools through a unified interface. The agent interprets the request, selects appropriate tools, and orchestrates execution. We explore a hybrid model where low-latency perception and actuation run locally on edge hardware, and higher-level reasoning and multi-step planning are delegated to cloud-based agents when needed.
 
 ### Speaker And Company Context
-- [[sandhya-subramani|Sandhya Subramani]] — Senior Developer Advocate, GenAI at [[amazon-web-services|Amazon Web Services]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

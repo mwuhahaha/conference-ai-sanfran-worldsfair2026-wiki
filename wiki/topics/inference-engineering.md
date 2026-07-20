@@ -1,29 +1,35 @@
 ---
-title: "Inference Engineering"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: Inference Engineering
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-18T04:30:32.575Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:4850462b84362bed601efedd32d2462a4cd5c02401c4d80bf1d975ea9b153271
   subjectId: concept:inference-engineering
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-V-EDrhIhHzQ
+  - source:official-wf26-youtube-XV2oYi7kojc
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:fe1df1a3c65f3c98bbede72bc33db5a29ad741d9adffe3ce7204691d0bdec1f0
+  - source:official-wf26-youtube-uIiA6DquRiE
+sourceAssessmentBodySha256: sha256:f6e1bd8086426dffd9d0a19d687c9eddf809ec5ee28f85e21c14f644f1055f41
 ---
 # Inference Engineering
 
 ## Overview
-Inference engineering is the practice of making AI model serving reliable, fast, cost-aware, and fit for product constraints. It covers model selection, batching, caching, routing, quantization, GPU utilization, latency budgets, observability, and fallback behavior.
+Inference engineering is the systems discipline that turns model capability into a dependable product by controlling the complete serving path: inference-engine and model selection, prefill and generation, batching, KV and context caching, quantization, routing policy, GPU utilization, token streaming, observability, fallback behavior, and unit economics.
+
+At World’s Fair 2026, the topic spans distributed serving at Meta scale, engine-signal-driven routing at OpenAI, open-source inference stacks from Together AI, dedicated GPUs for production agents, multi-silicon clouds, and platforms that grow from MVPs to trillion-parameter workloads. Sessions also examine vLLM speculative decoding on NVIDIA Blackwell, hidden engine bugs, token-level FinOps, network protocols that constrain throughput, and the data pipelines required to keep accelerators productive. Together, these connections frame inference engineering as a control problem across hardware, engines, models, policies, and product-level latency and reliability targets—not merely as low-level kernel optimization.
 
 ## Conference Context
 It extends production ML serving, distributed systems, GPU infrastructure, and web-performance engineering. LLMs added new constraints: token streaming, long prompts, context caching, tool latency, and rapidly changing model/provider economics.
@@ -44,8 +50,15 @@ Invest in inference engineering once prototypes need predictable user experience
 - Routing between frontier, small, local, and specialized models.
 - Optimizing voice and interactive applications for low latency.
 
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
+- [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement
+- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk
+
 ## Slide-Derived Supporting Decks
 - [[youtube-q4Tr-DknG2M-slides]] —  (12 extracted slide frames)
+- [[youtube-uIiA6DquRiE-slides]] — Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth (11 extracted slide frames)
+- [[youtube-XV2oYi7kojc-slides]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic (6 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
@@ -135,48 +148,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference; [[sujee-maniyam|Sujee Maniyam]], [[dylan-bristot|Dylan Bristot]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Expo Stage 1 NE; official schedule)
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 63 | Related pages outside the main evidence categories. |
-| resources | 10 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 23 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
-- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
-- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
-- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
-- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
-- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-V-EDrhIhHzQ]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-iCj_ATyThvc]]
-- [[youtube-4sX_He5c4sI]]
-
-### Slides
-- [[youtube-q4Tr-DknG2M-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-V-EDrhIhHzQ-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-
-### Transcripts
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-iCj_ATyThvc-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -215,6 +186,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
 - Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
 - Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
+- `youtube-uIiA6DquRiE` — 25,283 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-uIiA6DquRiE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-uIiA6DquRiE`: model, models, source, open, benchmark, question, okay, accuracy.
+- Slide-derived themes for `youtube-uIiA6DquRiE`: smaller, model, high, extra, license, businesses, users, open.
+- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]], [[youtube-uIiA6DquRiE-transcript]], [[youtube-uIiA6DquRiE-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
@@ -233,3 +209,46 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 63 | Related pages outside the main evidence categories. |
+| resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 25 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 28 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]
+- [[2026-06-29-lee-robinson-recursive-model-improvement]]
+- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]]
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
+
+### Resources
+- [[youtube-pMggiOb18tc]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-iCj_ATyThvc]]
+- [[youtube-uIiA6DquRiE]]
+
+### Slides
+- [[youtube-q4Tr-DknG2M-slides]]
+- [[youtube-uIiA6DquRiE-slides]]
+- [[youtube-XV2oYi7kojc-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
+
+### Transcripts
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-iCj_ATyThvc-transcript]]
+- [[youtube-uIiA6DquRiE-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]

@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a verified official AI Engineer World's Fair San Francisco 2026 recording. Use them as slide and OCR evidence; official schedule pages remain canonical for titles, times, rooms, tracks, speakers, and affiliations.
 
 ## Related Scheduled Sessions
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
+- No individual scheduled session mapping is assigned by the official media manifest; treat this as event-level media unless a future exact mapping is recorded.
 
 ## Extracted Slides
 ![[assets/slides/1P1hJ36rxM0/slide-001.jpg]]

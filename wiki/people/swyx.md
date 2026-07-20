@@ -11,13 +11,13 @@ sourceAssessment:
   subjectId: person:swyx
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:19777e569366b696f5cf51ae68b377cc97f8b6c467c1fed6aed87162d1a00b1c
+sourceAssessmentBodySha256: sha256:e0f5232a4a156c24f6a153935458a3c0f07f3db313b9b061dae9a3ac07a444a3
 ---
 # swyx
 
@@ -38,8 +38,8 @@ Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an 
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
 ## Livestream Appearances
-- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
-- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield.
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

@@ -61,8 +61,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-VrpEyglYgeU]] — scheduled official AI Engineer YouTube premiere for 2026-07-20.
 - Evidence status: transcript/slide enrichment pending.
 - Boundary: use this link as event-association and premiere-state metadata only until the recording is playable; do not use it as recording, transcript, or slide-content evidence.
+
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-VrpEyglYgeU]] - supporting context; not the exact session recording.
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
 
@@ -70,7 +71,9 @@ No official session recording transcript was found by exact title match on the A
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-VrpEyglYgeU` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-VrpEyglYgeU`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-VrpEyglYgeU` (supporting context only): [[youtube-VrpEyglYgeU]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

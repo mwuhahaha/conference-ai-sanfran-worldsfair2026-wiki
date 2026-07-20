@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
 
 ## Extracted Slides
 ![[assets/slides/ZSQb5fzRFPw/slide-001.jpg]]

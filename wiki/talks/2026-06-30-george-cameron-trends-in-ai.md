@@ -1,15 +1,24 @@
 ---
-title: "Trends in AI"
-category: "talks"
-date: "2026-06-30"
-time: "4:50pm-5:10pm"
-track: "Autoresearch"
-room: "Main Stage"
-speakers: ["George Cameron", "Micah Hill-Smith"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Autoresearch"
-scheduleRoom: "Main Stage"
-scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
+title: Trends in AI
+category: talks
+date: '2026-06-30'
+time: '4:50pm-5:10pm'
+track: Autoresearch
+room: Main Stage
+speakers:
+  - George Cameron
+  - Micah Hill-Smith
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Autoresearch
+scheduleRoom: Main Stage
+scheduleLabels:
+  - Autoresearch
+  - Main Stage
+  - keynote
+  - confirmed
+last_auto_summarized: '2026-07-18T14:13:14.344Z'
 ---
 # Trends in AI
 
@@ -32,8 +41,7 @@ No official description published in the schedule data.
 No official description published in the schedule data.
 
 ### Speaker And Company Context
-- [[george-cameron|George Cameron]] — Co-Founder at [[artificial-analysis|Artificial Analysis]].
-- [[micah-hill-smith|Micah Hill-Smith]] — CEO at [[artificial-analysis|Artificial Analysis]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.
@@ -62,7 +70,13 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Slide-derived terms: `artificial`, `analysis`, `models`, `reasoning`, `intelligence`, `cost`, `index`, `tokens`, `non-reasoning`, `input`, `anatysis`, `open`, `weights`, `leading`, `output`, `time`, `world`, `engineering`
 
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-sRpqPgKeXNk]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-sRpqPgKeXNk`
+- Slide deck: [[youtube-sRpqPgKeXNk-dense-slides|Dense Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — slide evidence page.
+- Additional slide evidence: [[youtube-sRpqPgKeXNk-slides|Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]], [[youtube-sRpqPgKeXNk-reconstructed-slides|Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]]
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, intelligence, artificial, index, models, leading, tokens, open.
+
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
 
@@ -70,7 +84,9 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, intelligence, artificial, index, models, leading, tokens, open.
+- Evidence links for `youtube-sRpqPgKeXNk` (supporting context only): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

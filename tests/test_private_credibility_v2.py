@@ -295,6 +295,45 @@ def test_source_as_of_does_not_time_travel_to_a_pending_release() -> None:
     )
 
 
+def test_pending_premiere_cached_transcript_cannot_drive_topic_writing(
+    tmp_path: Path,
+) -> None:
+    root = _fixture(tmp_path)
+    manifest_path = root / "raw/sources/official-wf26-video-manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["videos"].append(
+        {
+            "id": "premiere001",
+            "title": "Pending MCP premiere",
+            "mediaType": "scheduled_premiere",
+            "associationEvidence": "official_wf26_playlist_membership",
+            "uploadDate": "2026-07-10",
+            "releaseDate": "2026-07-20",
+        }
+    )
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+    (root / "raw/sources/youtube-transcripts/premiere001.txt").write_text(
+        "MCP tools and an MCP server appear in this stale early transcript cache.",
+        encoding="utf-8",
+    )
+
+    policy = POLICY.build_private_policy(root)
+
+    assert "premiere001" in policy["videoWritingDecisions"]
+    assert "mcp" not in policy["topicWritingDecisions"]
+    assert all(
+        "premiere001" not in rows
+        for rows in policy["topicVideoWritingDecisions"].values()
+    )
+    assert "youtube-premiere001" not in json.dumps(
+        {
+            "topics": policy["topicWritingDecisions"],
+            "topicVideos": policy["topicVideoWritingDecisions"],
+        },
+        sort_keys=True,
+    )
+
+
 def test_same_name_domain_and_topical_metadata_do_not_prove_company_identity() -> None:
     accepted, reasons, _metadata, signals = POLICY.company_profile_gate(
         "Apify",

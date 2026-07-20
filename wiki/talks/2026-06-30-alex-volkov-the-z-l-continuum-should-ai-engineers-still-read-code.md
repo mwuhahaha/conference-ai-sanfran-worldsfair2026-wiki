@@ -80,6 +80,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/ZpK5PWX2YRM/slide-002.jpg]]
 ![[assets/slides/ZpK5PWX2YRM/slide-003.jpg]]
 - Slide-derived themes for `youtube-ZpK5PWX2YRM`: future, software, bigger, than, last, engineering, leadership, july.
+
 - Source video: `youtube-Lcqat4iP_lE`
 - Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — slide evidence page.
 - Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
@@ -90,6 +91,7 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt`.
+
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

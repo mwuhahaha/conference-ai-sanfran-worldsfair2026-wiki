@@ -719,6 +719,102 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
             self.assertNotIn("match score", text.lower())
             self.assertTrue(scan_publishable_artifacts(root).ok)
 
+    def test_youtube_enrichment_requires_manifest_admission_for_primary_role(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki = root / "wiki"
+            talks = wiki / "talks"
+            talks.mkdir(parents=True)
+            talks.joinpath("registry.json").write_text(
+                json.dumps([{"id": "example-talk", "title": "Example Talk"}]),
+                encoding="utf-8",
+            )
+            manifest = root / "official-wf26-video-manifest.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "videos": [
+                            {
+                                "id": "admitted001",
+                                "mediaType": "talk_recording",
+                                "matchedTalks": ["example-talk"],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            session = {"title": "Example Talk", "speakers": ["Example Speaker"]}
+            heuristic_only = {
+                "video_id": "heuristic01",
+                "youtube_title": "Example Talk — Example Speaker",
+                "source_kind": "channel_video",
+            }
+            admitted = {
+                "video_id": "admitted001",
+                "youtube_title": "Example Talk — Example Speaker",
+                "source_kind": "channel_video",
+            }
+            matches = [(89, session)]
+
+            with patch.object(youtube_enrichment, "WIKI", wiki), patch.object(
+                youtube_enrichment, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ):
+                self.assertFalse(
+                    youtube_enrichment.confirmed_event_video(heuristic_only, matches)
+                )
+                self.assertEqual(
+                    [], youtube_enrichment.confirmed_event_matches(heuristic_only, matches)
+                )
+                self.assertTrue(
+                    youtube_enrichment.confirmed_event_video(admitted, matches)
+                )
+                self.assertEqual(
+                    matches, youtube_enrichment.confirmed_event_matches(admitted, matches)
+                )
+
+    def test_youtube_enrichment_demotes_retired_generated_topic_connections(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            topics = root / "wiki" / "topics"
+            topics.mkdir(parents=True)
+            page = topics / "mcp.md"
+            page.write_text(
+                "# MCP\n\n"
+                "- Valid (verified event YouTube resource; via [[youtube-validVid001]])\n"
+                "- Retired (verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])\n",
+                encoding="utf-8",
+            )
+            manifest = root / "official-wf26-video-manifest.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "videos": [
+                            {"id": "validVid001", "mediaType": "talk_recording"}
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            with patch.object(youtube_enrichment, "TOPICS", topics), patch.object(
+                youtube_enrichment, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ):
+                self.assertEqual(
+                    1, youtube_enrichment.reconcile_retired_topic_connection_roles()
+                )
+
+            text = page.read_text(encoding="utf-8")
+            self.assertIn(
+                "verified event YouTube resource; via [[youtube-validVid001]]", text
+            )
+            self.assertIn(
+                "related YouTube resource; via [[youtube-o-zkvb0iFDQ]]", text
+            )
+            self.assertNotIn(
+                "verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]]", text
+            )
+
     def test_package_project_names_extracts_pypi_identity(self):
         text = "[Package](https://pypi.org/project/chrome-agent/)"
         self.assertEqual(package_project_names(text), {"chrome-agent"})

@@ -1,31 +1,40 @@
 ---
-title: "Model Context Protocol"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: Model Context Protocol
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-18T13:16:05.013Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:e279dee65ddf7dcb7ca408f31e224119075825168aea46cff0cdbd116cd45b17
   subjectId: concept:mcp
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube-9fubhllmsBU
+  - source:official-wf26-youtube-JvKO40CFq-s
+  - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-c35YoMdnI78
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:3806b3e610c3c574d58e6e34fb2fa3a944e10a5e2ad7244c795347b73a8bbcc6
+sourceAssessmentBodySha256: sha256:40fafe86d17cc9eda5f8f830b2712401428ba083c8ce7bb262bf0e94805c24e3
 ---
 # Model Context Protocol
 
 ## Overview
-Model Context Protocol, or MCP, is a standard pattern for connecting AI applications to tools, data, and interactive capabilities through structured servers and clients. In this wiki it also includes MCP Apps and agent-facing interfaces that expose richer actions or UI surfaces to models.
+At AI Engineer World’s Fair 2026, Model Context Protocol (MCP) appears as the operating boundary between agents and the systems they act on, not merely a common tool-call schema. The program follows that boundary from implementation through production governance: Jesse Lumarie covers launching Figma’s MCP server while the product was still evolving; Pedro Lopez explains why Airbyte exposed both an MCP server and a CLI; Mark Lummus and Navinkumar Patil examine interactive CLI design for agents; and Nikita Kothari compares MCPs, CLIs, and skills as distinct tooling layers. Thorsten Hans takes MCP servers to Spin-based edge infrastructure, Cornelia Davis focuses on long-running asynchronous tasks, Jim Clark asks who approves third-party servers, and Sandhya Subramani extends the problem to agents that create their own tools. Jan Curn’s Apify-centered session states the core quality constraint most directly: protocol support does not make an agent effective unless it can discover, select, and correctly use the available capabilities.
+
+MCP Apps are the clearest product-level extension of this architecture. Liad Yosef and Ido Salomon’s verified event recording supplies primary evidence for a dual output contract in which models receive structured tool results while users receive interactive UI. Dustin Mihalik’s adjacent session makes the same division explicit in its title, while Ethan Cha’s dual-surface architecture, Liad Yosef’s agent-ready web session, and Corey Gallon’s web-automation session connect it to a broader effort to serve humans and agents from the same underlying systems. In this model, host behavior, component discovery, inline rendering, iframe isolation, permission handling, and human oversight are part of the integration contract rather than presentation details. Pietro Zullo’s linked MCP Apps recording and slides add supporting context about primitives, hosts, servers, widgets, and software discovery, but remain separate from the verified conference recording and official schedule record.
+
+The connected sessions also show why MCP must be evaluated as part of a complete agent system. Averi Kitsch and Prerna Kakkar distinguish build-time success from runtime reliability; Dan Adler places the tool layer inside enterprise codebases containing millions of lines; OpenAI’s Golden Age of AI Engineering keynote situates tools within evolving software-engineering platforms; and sessions on legacy applications, M365 deployment, dedicated inference, browser operation, and x402 commerce demonstrate how widely the same capability boundary can be deployed. Across those settings, schema validity is only the beginning. A production MCP integration needs concrete capability descriptions, explicit authorization and approval, structured and attributable results, controlled UI isolation, durable handling of asynchronous work, and enough observability for operators to determine which client, server, tool, or agent action produced an outcome.
 
 ## Conference Context
 MCP emerged from the need to standardize how AI clients discover and call tools, access resources, and integrate with external systems. It sits in the lineage of plugin APIs, language-server style tooling, RPC, browser extensions, and developer-tool protocols.
@@ -48,7 +57,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI; [[dustin-mihalik|Dustin Mihalik]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Context Engineering; official schedule)
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]] — Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; [[averi-kitsch|Averi Kitsch]], [[prerna-kakkar|Prerna Kakkar]] (Day 3 — Session Day 2 · 10:45am-11:05am · Context Engineering; official schedule)
 - [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]] — Who Approved That MCP Server? Governing the Tool Layer; [[jim-clark|Jim Clark]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Expo Stage 1 NE; official schedule)
@@ -58,7 +67,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild]] — Agents That Forge Their Own Tools: Self-Modifying AI in the Wild; [[sandhya-subramani|Sandhya Subramani]] (Day 4 — Session Day 3 · 12:05pm-12:25pm · Expo Stage 4 SE; official schedule)
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; verified event YouTube resource; via [[youtube-pMggiOb18tc]])
 - [[2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents]] — Burn your flags: How PayPal designs interactive CLI tools for agents; [[mark-lummus|Mark Lummus]], [[navinkumar-patil|Navinkumar Patil]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Workshops Day 1; official schedule)
-- [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development]] — MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development; [[nikita-kothari|Nikita Kothari]] (Day 4 — Session Day 3 · 11:10am-11:30am · Agentic Engineering; official schedule)
+- [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development]] — MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development; [[nikita-kothari|Nikita Kothari]] (Day 4 — Session Day 3 · 11:10am-11:30pm · Agentic Engineering; official schedule)
 - [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] — Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer; [[ethan-jung-min-cha|Ethan (Jung Min) Cha]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Security; official schedule)
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI; [[pedro-lopez|Pedro Lopez]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Expo Stage 1; official schedule)
 - [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin]] — Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin; [[thorsten-hans|Thorsten Hans]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Expo Stage 2; official schedule)
@@ -147,17 +156,97 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training; [[rafael-levi|Rafael Levi]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Expo Stage 2 NW; related YouTube resource; via [[youtube-btxGmN8RvNU]])
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
 
+## Evidence Graph
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
+
+### Linked Sessions
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
+- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer|Who Approved That MCP Server? Governing the Tool Layer]]
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
+- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|'Agents That Forge Their Own Tools: Self-Modifying AI in the Wild']]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
+
+### Media Signals
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-V-EDrhIhHzQ`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-JvKO40CFq-s` — 5,616 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-JvKO40CFq-s`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-JvKO40CFq-s`: okay, idea, email, capabilities, maybe, read, directory, identity.
+- Slide-derived themes for `youtube-JvKO40CFq-s`: engineering, future, find, service, read, down, give, gees.
+- Evidence links for `youtube-JvKO40CFq-s` (primary event evidence): [[youtube-JvKO40CFq-s]], [[youtube-JvKO40CFq-s-transcript]], [[youtube-JvKO40CFq-s-slides]]
+- `youtube-RGSFUqzqErE` — 3,081 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-RGSFUqzqErE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-RGSFUqzqErE`: knowledge, data, retrieval, foundry, whatnot, microsoft, models, give.
+- Slide-derived themes for `youtube-RGSFUqzqErE`: fair, engineering, future, bile, microsoft, resolve, knowledge, pablo.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]], [[youtube-RGSFUqzqErE-transcript]], [[youtube-RGSFUqzqErE-slides]]
+- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-YZQsWVeN3rE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
+- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
+- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
+- `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
+- Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
+- Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
+- `youtube-sAOBXCDiDOs` — 4,772 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-sAOBXCDiDOs`: apps, model, tool, widget, server, cloud, clears, throat.
+- Slide-derived themes for `youtube-sAOBXCDiDOs`: host, apps, server, renders, inline, primitives, discovery, software.
+- Evidence links for `youtube-sAOBXCDiDOs` (supporting context only): [[youtube-sAOBXCDiDOs]], [[youtube-sAOBXCDiDOs-transcript]], [[youtube-sAOBXCDiDOs-slides]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
+- Evidence links for `youtube-blW-lSd5CYQ` (supporting context only): [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
+- Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 64 | Related pages outside the main evidence categories. |
-| resources | 16 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 25 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 28 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
 | talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 8 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 11 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
@@ -178,85 +267,20 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Slides
 - [[youtube-2e9ANoOEn28-slides]]
 - [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-o-zkvb0iFDQ-slides]]
-- [[youtube-o-zkvb0iFDQ-dense-slides]]
-- [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - [[youtube-V-EDrhIhHzQ-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-htM02KMNZnk-slides]]
 
 ### Transcripts
-- [[youtube-o-zkvb0iFDQ-transcript]]
 - [[youtube-V-EDrhIhHzQ-transcript]]
 - [[youtube-I2cbIws9j10-transcript]]
 - [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-JvKO40CFq-s-transcript]]
+- [[youtube-RGSFUqzqErE-transcript]]
 - [[youtube-YZQsWVeN3rE-transcript]]
-- [[youtube-c35YoMdnI78-transcript]]
 
 ### Tools
 - [[docker]]
 - [[mcp-apps]]
 - [[neo4j]]
-## Evidence Graph
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
-
-The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
-
-### Linked Sessions
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
-- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
-- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
-- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer|Who Approved That MCP Server? Governing the Tool Layer]]
-- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
-- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
-- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
-- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|Agents That Forge Their Own Tools: Self-Modifying AI in the Wild]]
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
-
-### Media Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-o-zkvb0iFDQ`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
-- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-V-EDrhIhHzQ`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
-- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
-- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-YZQsWVeN3rE`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
-- Slide-derived themes for `youtube-YZQsWVeN3rE`: juries, librarians, solve, trust, problem, alex, bauer, upside.
-- Evidence links for `youtube-YZQsWVeN3rE` (primary event evidence): [[youtube-YZQsWVeN3rE]], [[youtube-YZQsWVeN3rE-transcript]], [[youtube-YZQsWVeN3rE-slides]]
-- `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
-- Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
-- Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
-- `youtube-sAOBXCDiDOs` — 4,772 transcript words; 10 slide-derived text signals; role: supporting context only.
-- Transcript signals for `youtube-sAOBXCDiDOs`: apps, model, tool, widget, server, cloud, clears, throat.
-- Slide-derived themes for `youtube-sAOBXCDiDOs`: host, apps, server, renders, inline, primitives, discovery, software.
-- Evidence links for `youtube-sAOBXCDiDOs` (supporting context only): [[youtube-sAOBXCDiDOs]], [[youtube-sAOBXCDiDOs-transcript]], [[youtube-sAOBXCDiDOs-slides]]
-- `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
-- Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals; role: supporting context only.
-- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
-- Evidence links for `youtube-wFTVEDYVJT0` (supporting context only): [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
-- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
-- Evidence links for `youtube-blW-lSd5CYQ` (supporting context only): [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- `youtube-OV56RddyFuU` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
-- Evidence links for `youtube-OV56RddyFuU` (supporting context only): [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

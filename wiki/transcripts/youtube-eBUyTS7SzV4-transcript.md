@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Closing Keynote: Garry Tan, Y Combinator"
+title: "Transcript: The New Physics of Business — Garry Tan, Y Combinator"
 category: "transcripts"
 videoId: "eBUyTS7SzV4"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3551"
 ---
 
-# Transcript: Closing Keynote: Garry Tan, Y Combinator
+# Transcript: The New Physics of Business — Garry Tan, Y Combinator
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=eBUyTS7SzV4)

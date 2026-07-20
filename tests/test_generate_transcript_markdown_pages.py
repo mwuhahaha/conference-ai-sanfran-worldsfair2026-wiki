@@ -16,6 +16,17 @@ TRANSCRIPTS = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader
 SPEC.loader.exec_module(TRANSCRIPTS)
 
+SYNTHESIS_SCRIPT = (
+    Path(__file__).resolve().parents[1] / "scripts" / "generate_talk_synthesis.py"
+)
+SYNTHESIS_SPEC = importlib.util.spec_from_file_location(
+    "generate_talk_synthesis_projection_test",
+    SYNTHESIS_SCRIPT,
+)
+SYNTHESIS = importlib.util.module_from_spec(SYNTHESIS_SPEC)
+assert SYNTHESIS_SPEC.loader
+SYNTHESIS_SPEC.loader.exec_module(SYNTHESIS)
+
 
 def stale_talk_page() -> str:
     return (
@@ -53,6 +64,20 @@ def test_manifest_mapping_projects_every_eligible_matched_talk() -> None:
             "mediaType": "talk_recording",
             "videoAvailability": "private",
             "matchedTalks": ["private-talk"],
+        },
+        {
+            "id": "PLAYLISTBAD",
+            "mediaType": "talk_recording",
+            "videoAvailability": "public",
+            "playlistAvailability": "unavailable",
+            "matchedTalks": ["unavailable-playlist-talk"],
+        },
+        {
+            "id": "PLAYLISTUNK",
+            "mediaType": "talk_recording",
+            "videoAvailability": "public",
+            "playlistAvailability": "unknown",
+            "matchedTalks": ["unknown-playlist-talk"],
         },
     ]
 
@@ -269,3 +294,125 @@ def test_video_id_selection_does_not_project_other_manifest_recordings(
     assert f"[[youtube-{selected_id}|Selected recording]]" in selected
     assert f"[[youtube-{other_id}|Other recording]]" not in other
     assert other == stale_talk_page()
+
+
+def test_part_one_projection_retires_other_parts_and_is_idempotent(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    root = tmp_path / "project"
+    wiki = root / "wiki"
+    raw = root / "raw" / "sources"
+    transcript_dir = raw / "youtube-transcripts"
+    external_dir = raw / "external-youtube-transcripts"
+    for directory in (
+        wiki / "talks",
+        wiki / "resources",
+        wiki / "transcripts",
+        transcript_dir,
+        external_dir,
+    ):
+        directory.mkdir(parents=True, exist_ok=True)
+
+    recording_id = "PARTONE0001"
+    external_id = "EXTERNAL001"
+    part_ids = ["part-1", "part-2", "part-3"]
+    (transcript_dir / f"{recording_id}.txt").write_text(
+        "The Part 1 recording discusses its own bounded workshop material."
+    )
+    (external_dir / f"{external_id}.txt").write_text(
+        "A separate interview remains useful supporting context."
+    )
+    for video_id in (recording_id, external_id):
+        (wiki / "resources" / f"youtube-{video_id}.md").write_text(
+            f"# {video_id}\n", encoding="utf-8"
+        )
+
+    for index, talk_id in enumerate(part_ids, start=1):
+        stale = (
+            "---\n"
+            f'title: "Workshop Part {index}"\n'
+            "---\n"
+            f"# Workshop Part {index}\n\n"
+            "## Session Description\n"
+            f"This is the distinct Part {index} schedule description.\n\n"
+            "## Synthesis\n"
+            "### Synthesized Breakdown\n"
+            "Stale synthesis copied from the Part 1 recording.\n\n"
+            "### Derived Links And Source Material\n"
+            f"- [[youtube-{recording_id}-transcript]] — stale.\n\n"
+            "## Official YouTube Recording\n"
+            f"- [[youtube-{recording_id}|Part 1 recording]] — official AI Engineer "
+            "YouTube recording.\n"
+            f"- Evidence status: [[youtube-{recording_id}-transcript]] — dedicated "
+            "official recording transcript.\n"
+            "- Boundary: use these recordings as media evidence; keep schedule facts "
+            "tied to the official schedule.\n\n"
+            "## Transcript Status\n"
+            "Cached dedicated-session transcript text is available at "
+            f"`raw/sources/youtube-transcripts/{recording_id}.txt` (10 words).\n\n"
+            "## Transcript Markdown\n"
+            f"- [[youtube-{recording_id}-transcript]] — dedicated official recording "
+            "transcript.\n\n"
+            "## Manual Notes\n"
+            f"- [[youtube-{external_id}]] — preserve this unrelated manual source.\n"
+        )
+        (wiki / "talks" / f"{talk_id}.md").write_text(stale, encoding="utf-8")
+
+    manifest = raw / "official-wf26-video-manifest.json"
+    manifest.write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": recording_id,
+                        "title": "Workshop Part 1",
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "available",
+                        "matchedTalks": ["part-1"],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    for module in (TRANSCRIPTS, SYNTHESIS):
+        monkeypatch.setattr(module, "ROOT", root)
+        monkeypatch.setattr(module, "WIKI", wiki)
+        monkeypatch.setattr(module, "RAW", raw)
+        monkeypatch.setattr(module, "OFFICIAL_VIDEO_MANIFEST", manifest)
+    monkeypatch.setattr(
+        TRANSCRIPTS,
+        "TRANSCRIPT_DIRS",
+        [
+            (transcript_dir, "YouTube transcript"),
+            (external_dir, "External YouTube secondary-source transcript"),
+        ],
+    )
+    monkeypatch.setattr(TRANSCRIPTS, "VIDEO_CATALOG", raw / "missing-catalog.json")
+    monkeypatch.setattr(TRANSCRIPTS, "IMPORT_REPORT", raw / "missing-import.json")
+    monkeypatch.setattr(
+        TRANSCRIPTS,
+        "EXTERNAL_DISCOVERY",
+        raw / "missing-external.json",
+    )
+    monkeypatch.setattr(SYNTHESIS, "TRANSCRIPT_DIRS", [transcript_dir, external_dir])
+
+    def run_generators() -> dict[str, str]:
+        assert TRANSCRIPTS.main(["--manifest-only"]) == 0
+        assert SYNTHESIS.main(["--all"]) == 0
+        return {
+            talk_id: (wiki / "talks" / f"{talk_id}.md").read_text()
+            for talk_id in part_ids
+        }
+
+    first = run_generators()
+    second = run_generators()
+
+    assert second == first
+    assert recording_id in first["part-1"]
+    for talk_id in ("part-2", "part-3"):
+        assert recording_id not in first[talk_id]
+        assert external_id in first[talk_id]

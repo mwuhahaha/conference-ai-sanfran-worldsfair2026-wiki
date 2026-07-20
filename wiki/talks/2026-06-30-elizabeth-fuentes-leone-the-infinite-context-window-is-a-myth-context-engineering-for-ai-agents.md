@@ -1,15 +1,22 @@
 ---
-title: "The Infinite Context Window Is a Myth: Context Engineering for AI Agents"
-category: "talks"
-date: "2026-06-30"
-time: "3:20pm-3:40pm"
-track: "Expo Stage 3 SW"
-room: "Expo Stage 3 SW"
-speakers: ["Elizabeth Fuentes Leone"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 3 SW"
-scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
+title: 'The Infinite Context Window Is a Myth: Context Engineering for AI Agents'
+category: talks
+date: '2026-06-30'
+time: '3:20pm-3:40pm'
+track: Expo Stage 3 SW
+room: Expo Stage 3 SW
+speakers:
+  - Elizabeth Fuentes Leone
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 3 SW
+scheduleLabels:
+  - Expo Stage 3 SW
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T05:16:54.488Z'
 ---
 # The Infinite Context Window Is a Myth: Context Engineering for AI Agents
 
@@ -32,7 +39,7 @@ Large context windows have become a popular answer to the growing complexity of 
 Large context windows have become a popular answer to the growing complexity of AI agents. When agents lose track of details, forget prior decisions, or degrade in reasoning quality, the instinct is often to add more tokens. In practice, this rarely fixes the problem and often makes it worse. Bigger context windows increase cost and latency, introduce noise, and amplify failure modes like lost-in-the-middle effects, context collapse, and brittle summarization.
 
 ### Speaker And Company Context
-- [[elizabeth-fuentes-leone|Elizabeth Fuentes Leone]] — Developer Advocate at [[amazon-web-services|Amazon Web Services]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-memory]]

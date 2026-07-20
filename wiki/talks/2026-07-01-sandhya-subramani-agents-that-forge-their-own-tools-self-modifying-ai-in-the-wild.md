@@ -1,15 +1,22 @@
 ---
-title: "Agents That Forge Their Own Tools: Self-Modifying AI in the Wild"
-category: "talks"
-date: "2026-07-01"
-time: "12:05pm-12:25pm"
-track: "Expo Stage 4 SE"
-room: "Expo Stage 4 SE"
-speakers: ["Sandhya Subramani"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 4 SE"
-scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
+title: 'Agents That Forge Their Own Tools: Self-Modifying AI in the Wild'
+category: talks
+date: '2026-07-01'
+time: '12:05pm-12:25pm'
+track: Expo Stage 4 SE
+room: Expo Stage 4 SE
+speakers:
+  - Sandhya Subramani
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 4 SE
+scheduleLabels:
+  - Expo Stage 4 SE
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T07:11:46.301Z'
 ---
 # Agents That Forge Their Own Tools: Self-Modifying AI in the Wild
 
@@ -32,7 +39,7 @@ What happens when your agent decides its existing tools aren't good enough and w
 What happens when your agent decides its existing tools aren't good enough and writes new ones? Self-modifying agents can generate, test, and deploy their own tool implementations at runtime, adapting to problems they weren't explicitly programmed to solve. In this session, we'll demo a live agent that forges its own tools on the fly, discuss the safety boundaries you need, and explore where this pattern makes sense (and where it absolutely doesn't).
 
 ### Speaker And Company Context
-- [[sandhya-subramani|Sandhya Subramani]] — Senior Developer Advocate, GenAI at [[amazon-web-services|Amazon Web Services]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

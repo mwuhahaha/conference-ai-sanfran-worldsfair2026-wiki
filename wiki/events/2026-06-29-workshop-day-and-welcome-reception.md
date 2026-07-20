@@ -1,15 +1,15 @@
 ---
-title: "Workshop Day and Welcome Reception"
-category: "events"
-date: "2026-06-29"
-type: "conference-day"
-source: "Official schedule"
+title: Workshop Day and Welcome Reception
+category: events
+date: '2026-06-29'
+type: conference-day
+source: Official schedule
+last_auto_summarized: '2026-07-18T16:14:04.348Z'
 ---
-
 # Workshop Day and Welcome Reception
 
 ## What It Was
-Official AI Engineer World's Fair 2026 programming day at Moscone West in San Francisco. This page is generated from the official schedule data.
+The opening programming day of AI Engineer World’s Fair 2026 at Moscone West in San Francisco combined extended, hands-on workshops with the welcome reception and evening expo programming. Its practical curriculum covered the full agent-engineering stack: evaluation and quality gates, memory and context engineering, inference infrastructure, observability, security, sandboxing, retrieval, synthetic training data, local models, deployment, coding-agent orchestration, and continuous improvement. Multi-part sessions offered deeper instruction in production agent evaluation, large-scale inference, product engineering, local workstation agents, and AI security, while later sessions explored skills, computer-use infrastructure, agent authentication, voice coding, and loop design. The day concluded with human-connection programming, the Sonar expo welcome, and the Runway AI Film Festival.
 
 ## Scheduled Sessions
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — 9:00am-11:00am · Track 1
@@ -131,4 +131,3 @@ Official AI Engineer World's Fair 2026 programming day at Moscone West in San Fr
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — 12:05pm-12:25pm · Search & Retrieval
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4]] — 12:05pm-12:25pm · Workshops Day 2
 - [[2026-06-29-ezra-tanzer-agentic-development-security]] — 12:05pm-12:25pm · Security
-- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — 12:05pm-12:25pm · Claws & Personal Agents

@@ -15,11 +15,14 @@ import json
 import re
 import shutil
 import subprocess
-import sys
-import textwrap
 from pathlib import Path
 
 from PIL import Image, ImageStat
+
+try:
+    from slide_session_projection import reconcile_topic_slide_session_signals
+except ModuleNotFoundError:  # Imported as scripts.* in the test suite.
+    from scripts.slide_session_projection import reconcile_topic_slide_session_signals
 
 try:
     import cv2
@@ -170,10 +173,30 @@ def related_sessions_by_video() -> dict[str, list[dict]]:
     if manifest_path.exists():
         for video in load_json(manifest_path).get("videos", []):
             video_id = video.get("id")
-            for talk_id in video.get("matchedTalks") or []:
+            matched_talk_ids = video.get("matchedTalks")
+            if not video_id:
+                raise ValueError("every manifest video must have an id")
+            if "matchedTalks" not in video:
+                matched_talk_ids = []
+            elif not isinstance(matched_talk_ids, list):
+                raise ValueError(
+                    f"manifest video {video_id} matchedTalks must be a list"
+                )
+            manifest_sessions = []
+            for talk_id in matched_talk_ids:
+                if not isinstance(talk_id, str) or not talk_id.strip():
+                    raise ValueError(
+                        f"manifest video {video_id} matchedTalks entries must be non-empty strings"
+                    )
                 talk = talk_registry.get(talk_id)
-                if video_id and talk and talk not in grouped.setdefault(video_id, []):
-                    grouped[video_id].append(talk)
+                if talk is None:
+                    raise ValueError(
+                        f"manifest video {video_id} references missing talk: {talk_id}"
+                    )
+                manifest_sessions.append(talk)
+            # The official manifest is authoritative for every admitted video.
+            # Replace heuristic speaker-map matches, including with an empty list.
+            grouped[video_id] = manifest_sessions
     return grouped
 
 
@@ -441,7 +464,10 @@ def write_slide_page(video_id: str, video: dict, sessions: list[dict], slides: l
         for session in sessions:
             lines.append(f"- [[{talk_slug(session)}]] — {session.get('title')}")
     else:
-        lines.append("- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.")
+        lines.append(
+            "- No individual scheduled session mapping is assigned by the official media manifest; "
+            "treat this as event-level media unless a future exact mapping is recorded."
+        )
     lines.extend(["", "## Extracted Slides"])
     if not slides:
         lines.append("No slide-like frames were extracted in this run.")
@@ -723,6 +749,12 @@ def main() -> int:
             print(f"  failed: {exc}", flush=True)
 
     update_subjects(processed)
+    reconcile_topic_slide_session_signals(
+        load_json(ROOT / "wiki" / "talks" / "registry.json"),
+        slides_dir=SLIDE_PAGES,
+        topics_dir=ROOT / "wiki" / "topics",
+        write=True,
+    )
     update_slide_registry(processed)
     update_topic_registry()
     update_slide_library()

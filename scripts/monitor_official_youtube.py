@@ -82,6 +82,13 @@ OFFICIAL_PLAYLIST_BASELINE_IDS = (
 OFFICIAL_PLAYLIST_SCHEDULE_OVERRIDES = {
     "xUnRQ9vLXxo": ("2026-07-01-theo-browne-closing-keynote-theo-browne",),
 }
+EXPLICIT_WF26_OFFICIAL_LIVESTREAM_IDS = frozenset(
+    {
+        "4sX_He5c4sI",
+        "I2cbIws9j10",
+        "htM02KMNZnk",
+    }
+)
 CAPTION_FAILURE_STATUSES = {
     "chrome_agent_unavailable",
     "chrome_caption_import_failed",
@@ -186,7 +193,7 @@ def generated_recording_block_pattern(video_id: str) -> re.Pattern[str]:
     """Match only the three lines emitted by ``update_talk_pages`` for a video."""
 
     return re.compile(
-        rf"(?m)^- \[\[youtube-{re.escape(video_id)}\]\][^\n]*\n"
+        rf"(?m)^- \[\[youtube-{re.escape(video_id)}(?:\|[^\]\n]+)?\]\][^\n]*\n"
         r"^- Evidence status:[^\n]*\n"
         r"^- Boundary:[^\n]*(?:\n|\Z)"
     )
@@ -744,6 +751,7 @@ def verified_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) ->
             matched[talk["id"]] = talk
     evidence_blob = normalize_evidence_text(f"{video.title}\n{video.description}")
     description_blob = normalize_evidence_text(video.description)
+    description_candidates: list[dict[str, str]] = []
     for talk in talks:
         if talk["id"] in matched:
             continue
@@ -754,8 +762,15 @@ def verified_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) ->
         schedule_description = normalize_evidence_text(talk.get("description", ""))
         title_signal = len(title_phrase) >= 12 and phrase_present(title_phrase, evidence_blob)
         description_signal = len(schedule_description) >= 120 and schedule_description[:120] in description_blob
-        if title_signal or description_signal:
+        if title_signal:
             matched[talk["id"]] = talk
+        elif description_signal:
+            description_candidates.append(talk)
+    # Description matching is a fallback for materially rewritten video titles.
+    # Never let a shared schedule description broaden an already title-bound or
+    # explicitly overridden match to sibling sessions.
+    if not matched:
+        matched.update({talk["id"]: talk for talk in description_candidates})
     return sorted(matched.values(), key=lambda item: item["title"])
 
 
@@ -791,6 +806,31 @@ def video_entry_from_metadata(payload: dict[str, object]) -> VideoEntry:
     )
 
 
+def opaque_unavailable_metadata(payload: dict[str, object]) -> bool:
+    """Recognize yt-dlp's metadata-only placeholder for an unavailable video."""
+
+    video_id = str(payload.get("id") or "").strip()
+    title = str(payload.get("title") or "").strip().casefold()
+    placeholder_titles = {
+        "",
+        "[deleted video]",
+        "[private video]",
+        f"youtube video #{video_id}".casefold(),
+    }
+    identifying_fields = (
+        "channel_id",
+        "upload_date",
+        "release_date",
+        "timestamp",
+        "release_timestamp",
+        "description",
+        "live_status",
+    )
+    return bool(video_id) and title in placeholder_titles and not any(
+        payload.get(field) for field in identifying_fields
+    )
+
+
 def fetch_video_metadata(video_id: str) -> VideoEntry:
     cp = subprocess.run(
         [
@@ -813,6 +853,11 @@ def fetch_video_metadata(video_id: str) -> VideoEntry:
     payload = json.loads(cp.stdout)
     if not isinstance(payload, dict):
         raise RuntimeError(f"yt-dlp returned no metadata for {video_id}")
+    if opaque_unavailable_metadata(payload):
+        raise RuntimeError(
+            f"yt-dlp metadata reports unavailable video: {video_id} "
+            "(opaque metadata placeholder)"
+        )
     try:
         return video_entry_from_metadata(payload)
     except ValueError as exc:
@@ -967,6 +1012,88 @@ def manifest_video_ids() -> set[str]:
     return {str(item.get("id")) for item in payload.get("videos", []) if isinstance(item, dict) and item.get("id")}
 
 
+def revalidate_manifest_non_playlist_rows(
+    talks: list[dict[str, str]],
+) -> tuple[list[tuple[VideoEntry, list[dict[str, str]]]], dict[str, object]]:
+    """Revalidate durable non-playlist primary admissions from fresh metadata.
+
+    The bounded recent-channel scan cannot prove that an older retained row is
+    still a WF26 recording. Re-fetch those rows directly so a successful full
+    reconciliation can retire stale, wrong-year, or otherwise unbound primary
+    admissions without treating absence from the recent window as evidence.
+    """
+
+    payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
+    videos = payload.get("videos", []) if isinstance(payload, dict) else []
+    candidates = [
+        item
+        for item in videos
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("playlistId") != OFFICIAL_PLAYLIST_ID
+        and not (
+            str(item.get("id")) in EXPLICIT_WF26_OFFICIAL_LIVESTREAM_IDS
+            and item.get("mediaType") == "event_livestream"
+            and item.get("associationEvidence") == "explicit_wf26_official_livestream"
+        )
+    ]
+    rows: list[tuple[VideoEntry, list[dict[str, str]]]] = []
+    rejected: list[dict[str, str]] = []
+    metadata_errors: list[dict[str, str]] = []
+    for item in sorted(candidates, key=lambda row: str(row.get("id"))):
+        video_id = str(item["id"])
+        try:
+            video = fetch_video_metadata(video_id)
+        except Exception as exc:
+            metadata_errors.append({"id": video_id, "error": str(exc)[-1200:]})
+            continue
+        if video.channel_id != CHANNEL_ID:
+            rejected.append(
+                {
+                    "id": video_id,
+                    "upload_date": video.published_date.isoformat(),
+                    "reason": "official_channel_owner_mismatch",
+                }
+            )
+            continue
+        if excluded_non_wf26_event_title(video):
+            rejected.append(
+                {
+                    "id": video_id,
+                    "upload_date": video.published_date.isoformat(),
+                    "reason": "explicit_non_wf26_event_title",
+                }
+            )
+            continue
+        if not non_playlist_media_date_allowed(video):
+            rejected.append(
+                {
+                    "id": video_id,
+                    "upload_date": video.published_date.isoformat(),
+                    "reason": "outside_wf26_date_gate",
+                }
+            )
+            continue
+        matched = verified_schedule_matches(video, talks)
+        if not matched and not explicit_wf26_event_title(video):
+            rejected.append(
+                {
+                    "id": video_id,
+                    "upload_date": video.published_date.isoformat(),
+                    "reason": "wf26_event_binding_not_reverified",
+                }
+            )
+            continue
+        rows.append((video, matched))
+    return rows, {
+        "status": "ok" if not metadata_errors else "metadata_incomplete",
+        "candidate_count": len(candidates),
+        "revalidated_count": len(rows),
+        "rejected": rejected,
+        "metadata_errors": metadata_errors,
+    }
+
+
 def scheduled_manifest_video_ids() -> set[str]:
     payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
     if not isinstance(payload, dict):
@@ -1029,6 +1156,9 @@ def discover_recent_channel_event_rows(
     payload = json.loads(cp.stdout)
     if not isinstance(payload, dict) or payload.get("channel_id") != CHANNEL_ID:
         return [], {"status": "channel_identity_mismatch"}
+    channel_entries = payload.get("entries")
+    if not isinstance(channel_entries, list):
+        return [], {"status": "channel_entries_invalid"}
 
     known_ids = manifest_video_ids()
     pending_ids = pending_manifest_video_ids()
@@ -1042,7 +1172,7 @@ def discover_recent_channel_event_rows(
     metadata_errors: list[dict[str, str]] = []
     date_rejected_ids: list[str] = []
     candidates = 0
-    for item in payload.get("entries", []):
+    for item in channel_entries:
         if not isinstance(item, dict) or not item.get("id"):
             continue
         if item.get("id") in known_ids and item.get("id") not in pending_ids:
@@ -1079,7 +1209,7 @@ def discover_recent_channel_event_rows(
             rows.append((video, matched))
     return rows, {
         "status": "ok",
-        "scanned": min(limit, len(payload.get("entries", []))),
+        "scanned": min(limit, len(channel_entries)),
         "metadata_candidates": candidates,
         "verified_event_videos": len(rows),
         "date_rejected_ids": sorted(date_rejected_ids),
@@ -1087,10 +1217,25 @@ def discover_recent_channel_event_rows(
     }
 
 
+def authoritative_non_playlist_reconciliation_ready(
+    channel_discovery: dict[str, object],
+    retained_revalidation: dict[str, object],
+) -> bool:
+    """Return whether stale primary rows may be pruned fail closed."""
+
+    return (
+        channel_discovery.get("status") == "ok"
+        and not channel_discovery.get("metadata_errors")
+        and retained_revalidation.get("status") == "ok"
+        and not retained_revalidation.get("metadata_errors")
+    )
+
+
 def update_official_video_manifest(
     rows: list[tuple[VideoEntry, list[dict[str, str]]]],
     *,
     playlist_entries: list[PlaylistEntry] | None = None,
+    prune_stale_non_playlist: bool = False,
     write: bool = True,
 ) -> bool:
     payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
@@ -1106,6 +1251,21 @@ def update_official_video_manifest(
         for video, matched in rows
     }
     changed = False
+    if prune_stale_non_playlist:
+        authoritative_ids = set(row_matches) | {
+            item.video_id for item in (playlist_entries or [])
+        }
+        for video_id, item in list(videos.items()):
+            explicitly_retained_stream = (
+                video_id in EXPLICIT_WF26_OFFICIAL_LIVESTREAM_IDS
+                and item.get("mediaType") == "event_livestream"
+                and item.get("associationEvidence")
+                == "explicit_wf26_official_livestream"
+            )
+            if video_id in authoritative_ids or explicitly_retained_stream:
+                continue
+            del videos[video_id]
+            changed = True
     for video, matched in rows:
         existing = dict(videos.get(video.video_id) or {})
         entry = {
@@ -1321,7 +1481,15 @@ def excluded_non_wf26_event_title(video: VideoEntry) -> bool:
 
 def title_tokens(value: str) -> set[str]:
     value = normalize_title(value)
-    return {token for token in value.split() if len(token) >= 3}
+    # Short numeric tokens can be the only discriminator between a sequence of
+    # scheduled sessions (for example, "Part 1", "Part 2", and "Part 3").
+    # Dropping them makes otherwise distinct titles look identical and can
+    # attach one recording to every session in the sequence.
+    return {
+        token
+        for token in value.split()
+        if len(token) >= 3 or token.isdigit()
+    }
 
 
 def strict_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -1487,6 +1655,11 @@ def write_resource_page(
                     "videoId": video.video_id,
                     "publishedDate": video.published_date.isoformat(),
                     "last_enriched": enriched_at,
+                    **(
+                        {"sourceLayers": ["supporting_context"]}
+                        if upcoming
+                        else {}
+                    ),
                 }
             ).rstrip(),
             f"# {video.title}",
@@ -1543,6 +1716,7 @@ def write_unavailable_resource_page(item: PlaylistEntry) -> bool:
                     "videoId": item.video_id,
                     "playlistId": OFFICIAL_PLAYLIST_ID,
                     "availability": item.availability,
+                    "sourceLayers": ["supporting_context"],
                 }
             ).rstrip(),
             f"# {title}",
@@ -1615,6 +1789,50 @@ def update_talk_pages(video: VideoEntry, matched_talks: list[dict[str, str]]) ->
             write_text(path, new_text)
             updated += 1
     return updated
+
+
+def retire_primary_event_projections(video_ids: list[str]) -> dict[str, object]:
+    """Demote retired manifest rows without deleting useful source artifacts."""
+
+    safe_ids = sorted(set(video_ids))
+    for video_id in safe_ids:
+        if not re.fullmatch(r"[A-Za-z0-9_-]{6,32}", video_id):
+            raise ValueError(f"unsafe retired YouTube video id: {video_id!r}")
+    talk_updates = 0
+    for path in sorted((WIKI / "talks").glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        updated = text
+        for video_id in safe_ids:
+            updated = reconcile_official_recording_section(updated, video_id, None)
+        if updated != text:
+            write_text(path, updated)
+            talk_updates += 1
+    if not safe_ids:
+        return {"video_ids": [], "talk_updates": 0, "resource_updates": 0}
+    if _ACTIVE_TRANSACTION is not None:
+        _ACTIVE_TRANSACTION.backup_canonical_root(WIKI)
+    command = [sys.executable, "scripts/classify_video_resource_sources.py"]
+    for video_id in safe_ids:
+        command.extend(["--video-id", video_id])
+    completed = run(command, timeout=900, check=True)
+    classifier_summary = None
+    for line in reversed(completed.stdout.splitlines()):
+        try:
+            candidate = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(candidate, dict) and isinstance(candidate.get("updated"), int):
+            classifier_summary = candidate
+            break
+    if classifier_summary is None:
+        raise RuntimeError("resource classifier did not emit an updated count")
+    return {
+        "video_ids": safe_ids,
+        "talk_updates": talk_updates,
+        "resource_updates": classifier_summary["updated"],
+        "resource_classifier": classifier_summary,
+        "classifier_returncode": completed.returncode,
+    }
 
 
 def yt_dlp_js_runtime_arg() -> str:
@@ -2107,7 +2325,28 @@ def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dic
         cmd.extend(["--source", str(path.relative_to(ROOT))])
     cmd.append("--json")
     cp = run(cmd, timeout=7200)
-    return [{"cmd": cmd, "returncode": cp.returncode}]
+    results = [{"cmd": cmd, "returncode": cp.returncode}]
+    if cp.returncode != 0:
+        return results
+
+    canonical_checks = [
+        [sys.executable, "scripts/livestream_segment_projection.py", "--check"],
+        [sys.executable, "scripts/generate_attendance_calibration.py", "--check-current"],
+        [
+            sys.executable,
+            "scripts/audit_primary_media_roles.py",
+            "--phase",
+            "full",
+            "--root",
+            ".",
+        ],
+    ]
+    for check_cmd in canonical_checks:
+        check = run(check_cmd, timeout=900)
+        results.append({"cmd": check_cmd, "returncode": check.returncode})
+        if check.returncode != 0:
+            break
+    return results
 
 
 def publish_sync_journal_path() -> Path:
@@ -2583,17 +2822,31 @@ def main(argv: list[str] | None = None) -> int:
     if args.playlist_only:
         snapshot_changed = False
         channel_discovery: dict[str, object] = {"status": "not_run_playlist_only"}
+        retained_rows: list[tuple[VideoEntry, list[dict[str, str]]]] = []
+        retained_revalidation: dict[str, object] = {
+            "status": "not_run_playlist_only"
+        }
         event_rows = playlist_event_rows
     else:
         entries = fetch_rss()
         snapshot_changed = False if args.dry_run else update_channel_snapshot(entries)
         rss_event_rows = event_entries(entries, talks)
         discovered_rows, channel_discovery = discover_recent_channel_event_rows(talks)
+        retained_rows, retained_revalidation = revalidate_manifest_non_playlist_rows(
+            talks
+        )
         event_rows = deduplicate_event_rows(
             rss_event_rows,
             discovered_rows,
+            retained_rows,
             playlist_event_rows,
         )
+    authoritative_non_playlist_reconciliation = (
+        not args.playlist_only
+        and authoritative_non_playlist_reconciliation_ready(
+            channel_discovery, retained_revalidation
+        )
+    )
     playlist_video_ids = {item.video_id for item in playlist_entries}
     scheduled_manifest_ids = scheduled_manifest_video_ids()
     pending_manifest_ids = pending_manifest_video_ids()
@@ -2601,10 +2854,36 @@ def main(argv: list[str] | None = None) -> int:
     manifest_changed = update_official_video_manifest(
         event_rows,
         playlist_entries=playlist_entries,
+        prune_stale_non_playlist=authoritative_non_playlist_reconciliation,
         write=not args.dry_run,
     )
     manifest_after = (
         load_json(OFFICIAL_VIDEO_MANIFEST, {}) if not args.dry_run else manifest_before
+    )
+    manifest_before_videos = (
+        manifest_before.get("videos", []) if isinstance(manifest_before, dict) else []
+    )
+    manifest_after_videos = (
+        manifest_after.get("videos", []) if isinstance(manifest_after, dict) else []
+    )
+    manifest_before_ids = {
+        str(item.get("id"))
+        for item in manifest_before_videos
+        if isinstance(item, dict) and item.get("id")
+    }
+    manifest_after_ids = {
+        str(item.get("id"))
+        for item in manifest_after_videos
+        if isinstance(item, dict) and item.get("id")
+    }
+    retired_primary_ids = sorted(manifest_before_ids - manifest_after_ids)
+    retired_primary_projection = (
+        retire_primary_event_projections(retired_primary_ids)
+        if retired_primary_ids and not args.dry_run
+        else {
+            "video_ids": retired_primary_ids,
+            "status": "dry_run" if args.dry_run and retired_primary_ids else "not_needed",
+        }
     )
     known_no_slides_ids = no_slides_manifest_video_ids()
     playable_evidence_changed = (
@@ -2624,7 +2903,12 @@ def main(argv: list[str] | None = None) -> int:
         "mode": "playlist_only" if args.playlist_only else "scheduled_monitor",
         "auto_push": auto_push,
         "manifest_changed": manifest_changed,
+        "retired_primary_projection": retired_primary_projection,
         "channel_discovery": channel_discovery,
+        "retained_non_playlist_revalidation": retained_revalidation,
+        "authoritative_non_playlist_reconciliation": (
+            authoritative_non_playlist_reconciliation
+        ),
         "playlist_discovery": playlist_discovery,
         "reconciliation_policy": {
             "auto_expiry": False,

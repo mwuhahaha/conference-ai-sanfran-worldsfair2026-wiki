@@ -14,6 +14,21 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+import yaml
+
+try:
+    from livestream_segment_projection import (
+        load_manifest as load_projection_manifest,
+        load_talks as load_projection_talks,
+        reconcile_livestream_segment_projections,
+    )
+except ModuleNotFoundError:  # Imported as scripts.* in the test suite.
+    from scripts.livestream_segment_projection import (
+        load_manifest as load_projection_manifest,
+        load_talks as load_projection_talks,
+        reconcile_livestream_segment_projections,
+    )
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -152,20 +167,15 @@ def parse_frontmatter(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
         return {}
-    end = text.find("\n---", 4)
+    end = text.find("\n---\n", 4)
     if end == -1:
         return {}
-    front = text[4:end]
-    data: dict[str, object] = {}
-    for line in front.splitlines():
-        if ":" not in line:
-            continue
-        key, raw = line.split(":", 1)
-        raw = raw.strip()
-        try:
-            data[key.strip()] = json.loads(raw)
-        except json.JSONDecodeError:
-            data[key.strip()] = raw.strip('"')
+    try:
+        data = yaml.safe_load(text[4:end])
+    except yaml.YAMLError as exc:
+        raise ValueError(f"invalid YAML frontmatter in {path}: {exc}") from exc
+    if not isinstance(data, dict):
+        raise ValueError(f"frontmatter must be a mapping: {path}")
     return data
 
 
@@ -196,8 +206,8 @@ def load_talks() -> list[dict]:
     return talks
 
 
-def dedicated_talk_slugs(path: Path = OFFICIAL_MEDIA_MANIFEST) -> set[str]:
-    """Return talks with playable exact recordings that supersede broad streams."""
+def official_manifest_videos(path: Path = OFFICIAL_MEDIA_MANIFEST) -> list[dict]:
+    """Load the authoritative media manifest or fail closed."""
 
     if not path.exists():
         raise FileNotFoundError(f"official media manifest is required: {path}")
@@ -207,10 +217,37 @@ def dedicated_talk_slugs(path: Path = OFFICIAL_MEDIA_MANIFEST) -> set[str]:
         raise ValueError(f"invalid official media manifest: {path}") from exc
     if not isinstance(payload, dict) or not isinstance(payload.get("videos"), list):
         raise ValueError(f"official media manifest must contain a videos array: {path}")
-    videos = payload["videos"]
+    if not all(isinstance(video, dict) for video in payload["videos"]):
+        raise ValueError(f"official media manifest videos must all be objects: {path}")
+    return payload["videos"]
+
+
+def manifest_admitted_streams(path: Path = OFFICIAL_MEDIA_MANIFEST) -> dict[str, dict]:
+    """Filter configured stream anchors through current manifest admission."""
+
+    admitted_ids = {
+        str(video["id"])
+        for video in official_manifest_videos(path)
+        if isinstance(video.get("id"), str)
+        and video.get("mediaType") == "event_livestream"
+        and video.get("videoAvailability", "") in {"", "public", "unlisted"}
+        and video.get("playlistAvailability", "") in {"", "available"}
+    }
+    return {
+        video_id: stream
+        for video_id, stream in STREAMS.items()
+        if video_id in admitted_ids
+    }
+
+
+def dedicated_talk_slugs(path: Path = OFFICIAL_MEDIA_MANIFEST) -> set[str]:
+    """Return talks with playable exact recordings that supersede broad streams."""
+
     slugs: set[str] = set()
-    for video in videos:
-        if not isinstance(video, dict) or video.get("mediaType") != "talk_recording":
+    for video in official_manifest_videos(path):
+        if video.get("mediaType") != "talk_recording":
+            continue
+        if video.get("playlistAvailability") != "available":
             continue
         if video.get("videoAvailability", "public") not in {
             "public",
@@ -392,7 +429,7 @@ def public_match(row: dict) -> dict:
     return {key: value for key, value in row.items() if key not in internal_fields}
 
 
-def write_resource(matches: list[dict]) -> None:
+def write_resource(matches: list[dict], streams: dict[str, dict]) -> None:
     lines = [
         "---",
         'title: "Livestream Talk Segments"',
@@ -411,7 +448,7 @@ def write_resource(matches: list[dict]) -> None:
     for row in matches:
         by_stream.setdefault(row["video_id"], []).append(row)
     for video_id in sorted(by_stream):
-        stream_title = STREAMS[video_id]["title"]
+        stream_title = streams[video_id]["title"]
         lines.extend(["", f"## {stream_title}", ""])
         for row in sorted(by_stream[video_id], key=lambda item: item["start_seconds"]):
             lines.append(
@@ -423,14 +460,14 @@ def write_resource(matches: list[dict]) -> None:
 
 
 def main() -> int:
+    streams = manifest_admitted_streams()
     talks = load_talks()
     talks_with_dedicated_recordings = dedicated_talk_slugs()
-    for path in (WIKI / "talks").glob("*.md"):
-        remove_section(path, "Livestream Segment")
-    for path in (WIKI / "people").glob("*.md"):
-        remove_section(path, "Livestream Appearances")
 
-    windows_by_stream = {video_id: build_windows(parse_vtt(info["vtt"])) for video_id, info in STREAMS.items()}
+    windows_by_stream = {
+        video_id: build_windows(parse_vtt(info["vtt"]))
+        for video_id, info in streams.items()
+    }
     speaker_indexes = {
         video_id: build_speaker_index(windows, talks)
         for video_id, windows in windows_by_stream.items()
@@ -441,7 +478,7 @@ def main() -> int:
             continue
         best_stream_id = ""
         best_match = None
-        for video_id, stream in STREAMS.items():
+        for video_id, stream in streams.items():
             if stream["date"] != talk["date"]:
                 continue
             match = best_match_for_talk(talk, speaker_indexes[video_id], windows_by_stream[video_id])
@@ -452,7 +489,7 @@ def main() -> int:
                 best_stream_id = video_id
         if not best_match:
             continue
-        stream = STREAMS[best_stream_id]
+        stream = streams[best_stream_id]
         match = best_match
         if not match:
             continue
@@ -478,39 +515,51 @@ def main() -> int:
             "evidence_excerpt": match["evidence_excerpt"],
         }
         matches.append(row)
-        body = "\n".join(
-            [
-                f"- [Watch in livestream at {row['start_hms']}]({row['url']}) — {row['video_title']}.",
-                "- Evidence: transcript-aligned segment validated against the official schedule and timed captions.",
-                "- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.",
-            ]
-        )
-        upsert_section(talk["path"], "Livestream Segment", body)
-
-    by_person: dict[str, list[dict]] = {}
-    for row in matches:
-        for speaker in row["speakers"]:
-            by_person.setdefault(speaker, []).append(row)
-
-    for speaker, rows in by_person.items():
-        path = WIKI / "people" / f"{slugify(speaker)}.md"
-        if not path.exists():
-            continue
-        lines = []
-        for row in sorted(rows, key=lambda item: (item["date"], item["start_seconds"])):
-            lines.append(
-                f"- [[{row['talk_slug']}|{row['title']}]] — "
-                f"[watch at {row['start_hms']}]({row['url']}) in {row['video_title']}."
-            )
-        upsert_section(path, "Livestream Appearances", "\n".join(lines))
+    public_matches = [public_match(row) for row in matches]
+    projection_talks = load_projection_talks(WIKI / "talks")
+    projection_manifest = load_projection_manifest(OFFICIAL_MEDIA_MANIFEST)
+    projection_args = {
+        "people_dir": WIKI / "people",
+        "resource_path": WIKI / "resources" / "livestream-talk-segments.md",
+    }
+    # Validate every semantic input and render every owned output before the
+    # first write.  This prevents malformed manifests or segment rows from
+    # leaving a partially stripped wiki.
+    reconcile_livestream_segment_projections(
+        projection_talks,
+        projection_manifest,
+        public_matches,
+        write=False,
+        **projection_args,
+    )
 
     INTERNAL_AUDIT.parent.mkdir(parents=True, exist_ok=True)
-    INTERNAL_AUDIT.write_text(json.dumps(matches, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
-    public_matches = [public_match(row) for row in matches]
+    INTERNAL_AUDIT.write_text(
+        json.dumps(matches, indent=2, ensure_ascii=True) + "\n",
+        encoding="utf-8",
+    )
     output = RAW / "livestream-talk-segments.json"
-    output.write_text(json.dumps(public_matches, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
-    write_resource(public_matches)
-    print(json.dumps({"matches": len(matches), "output": str(output)}, sort_keys=True))
+    output.write_text(
+        json.dumps(public_matches, indent=2, ensure_ascii=True) + "\n",
+        encoding="utf-8",
+    )
+    projection = reconcile_livestream_segment_projections(
+        projection_talks,
+        projection_manifest,
+        public_matches,
+        write=True,
+        **projection_args,
+    )
+    print(
+        json.dumps(
+            {
+                "matches": len(matches),
+                "output": str(output),
+                "projection": projection,
+            },
+            sort_keys=True,
+        )
+    )
     return 0
 
 

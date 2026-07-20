@@ -55,28 +55,6 @@
       "timeout_seconds": 900
     },
     {
-      "key": "livestream_segments",
-      "version": "v2",
-      "command": [
-        "python3",
-        "scripts/generate_livestream_talk_segments.py"
-      ],
-      "implementation_inputs": [
-        "scripts/generate_livestream_talk_segments.py"
-      ],
-      "dependencies": [
-        "transcript_pages"
-      ],
-      "triggers": [
-        "media"
-      ],
-      "mutates": [
-        "wiki"
-      ],
-      "resource_pool": "candidate_writer",
-      "timeout_seconds": 900
-    },
-    {
       "key": "talk_media_map",
       "version": "v1",
       "command": [
@@ -84,10 +62,11 @@
         "scripts/generate_talk_video_transcript_map.py"
       ],
       "implementation_inputs": [
-        "scripts/generate_talk_video_transcript_map.py"
+        "scripts/generate_talk_video_transcript_map.py",
+        "scripts/slide_session_projection.py"
       ],
       "dependencies": [
-        "livestream_segments"
+        "transcript_pages"
       ],
       "triggers": [
         "media"
@@ -209,7 +188,7 @@
       "dependencies": [
         "transcript_pages",
         "credibility_policy",
-        "livestream_segments",
+        "talk_media_map",
         "slide_ai_admission_check"
       ],
       "triggers": [
@@ -258,6 +237,28 @@
       "timeout_seconds": 1800
     },
     {
+      "key": "livestream_segment_projection",
+      "version": "v1",
+      "command": [
+        "python3",
+        "scripts/livestream_segment_projection.py"
+      ],
+      "implementation_inputs": [
+        "scripts/livestream_segment_projection.py"
+      ],
+      "dependencies": [
+        "source_enrichment"
+      ],
+      "triggers": [
+        "any"
+      ],
+      "mutates": [
+        "wiki"
+      ],
+      "resource_pool": "candidate_writer",
+      "timeout_seconds": 900
+    },
+    {
       "key": "attendance_evidence_sync",
       "version": "v1",
       "command": [
@@ -269,10 +270,10 @@
         "scripts/generate_attendance_calibration.py"
       ],
       "dependencies": [
-        "source_enrichment"
+        "livestream_segment_projection"
       ],
       "triggers": [
-        "media"
+        "any"
       ],
       "mutates": [
         "wiki"
@@ -439,6 +440,9 @@
         "scripts/process_slide_corpus_ai.py",
         "scripts/classify_and_recreate_slides.py",
         "scripts/slide_codex_safety.py",
+        "scripts/audit_primary_media_roles.py",
+        "scripts/livestream_segment_projection.py",
+        "scripts/generate_attendance_calibration.py",
         "scripts/export_static_site.py",
         "scripts/build_relationship_dataset.py",
         "scripts/relationship_explorer.js"

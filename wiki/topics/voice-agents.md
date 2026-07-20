@@ -8,13 +8,14 @@ sourceAssessment:
   subjectId: concept:voice-agents
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
+  - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-Z2Erdirpudo
-sourceAssessmentBodySha256: sha256:5ad3de488c978ddf73f81cdfa2d468df6aaf690c3360fae7a6e32c1615257f6e
+sourceAssessmentBodySha256: sha256:d2b1f0bc985766425d71c78618ef147c8dfc531d0838c7a9dca9a453aa229cb2
 ---
 # Voice Agents
 
@@ -41,11 +42,14 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - Hands-free operational assistants.
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model
 
 ## Slide-Derived Supporting Decks
+- [[youtube-GgLQ02aO-hs-slides]] — The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy (22 extracted slide frames)
 - [[youtube-Z2Erdirpudo-slides]] — Imagination Engineering — Eve Bouffard, Y Combinator (9 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
 ## Connections
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
@@ -118,35 +122,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 44 | Related pages outside the main evidence categories. |
-| resources | 2 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 8 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 25 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-
-### Talks
-- [[2026-06-30-eve-bouffard-imagination-engineering]]
-- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
-- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
-- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
-- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
-
-### Resources
-- [[youtube-P_RI1kCkRbo]]
-- [[youtube-Bc6Ojl2XS1w]]
-
-### Slides
-- [[youtube-Z2Erdirpudo-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-P_RI1kCkRbo-slides]]
-- [[youtube-P_RI1kCkRbo-dense-slides]]
-- [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-- [[youtube-Bc6Ojl2XS1w-slides]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -169,3 +144,33 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
 - Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 44 | Related pages outside the main evidence categories. |
+| resources | 2 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 9 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 26 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+
+### Talks
+- [[2026-06-30-eve-bouffard-imagination-engineering]]
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]]
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
+
+### Resources
+- [[youtube-P_RI1kCkRbo]]
+- [[youtube-Bc6Ojl2XS1w]]
+
+### Slides
+- [[youtube-GgLQ02aO-hs-slides]]
+- [[youtube-Z2Erdirpudo-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-P_RI1kCkRbo-slides]]
+- [[youtube-P_RI1kCkRbo-dense-slides]]
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]]

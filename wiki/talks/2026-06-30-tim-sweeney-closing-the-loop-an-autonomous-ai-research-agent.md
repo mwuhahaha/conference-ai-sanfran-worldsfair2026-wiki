@@ -49,7 +49,7 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[tim-sweeney]]
 
 ## Livestream Segment
-- [Watch in livestream at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) — WF2026: Autoresearch & Keynotes (Day 2).
+- [Watch in livestream at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) — WF2026: Autoresearch & Keynotes.
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 ## Media Evidence

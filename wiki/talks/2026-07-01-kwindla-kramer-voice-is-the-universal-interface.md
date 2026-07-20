@@ -1,15 +1,23 @@
 ---
-title: "Voice is the universal interface"
-category: "talks"
-date: "2026-07-01"
-time: "11:40am-12:00pm"
-track: "Expo Stage 3 SW"
-room: "Expo Stage 3 SW"
-speakers: ["Kwindla Kramer", "Neil Zeghidour"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 3 SW"
-scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
+title: Voice is the universal interface
+category: talks
+date: '2026-07-01'
+time: '11:40am-12:00pm'
+track: Expo Stage 3 SW
+room: Expo Stage 3 SW
+speakers:
+  - Kwindla Kramer
+  - Neil Zeghidour
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 3 SW
+scheduleLabels:
+  - Expo Stage 3 SW
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-17T19:32:13.310Z'
 ---
 # Voice is the universal interface
 
@@ -32,8 +40,7 @@ Language models give us the ability to create natural language, conversational, 
 Language models give us the ability to create natural language, conversational, interfaces for computers. We are seeing a rapid shift among early adopters to using general language instead of traditional user interfaces for tasks like writing code and editing spreadsheets. Join the cofounders of Pipecat, Gradium, and Daily as we discuss the future of realtime voice and AI interfaces. Voice is the most efficient input mode for natural-language systems, and often the most efficient output mode, as well.
 
 ### Speaker And Company Context
-- [[kwindla-kramer|Kwindla Kramer]] — CEO at [[daily|Daily]].
-- [[neil-zeghidour|Neil Zeghidour]] — Co-founder & CEO at [[gradium|Gradium]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agentic-search]]

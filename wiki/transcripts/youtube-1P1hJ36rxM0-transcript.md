@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind"
+title: "Transcript: \"Software engineering is not about writing code\" — Benoit Schillings, Google DeepMind VP of Research"
 category: "transcripts"
 videoId: "1P1hJ36rxM0"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3195"
 ---
 
-# Transcript: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind
+# Transcript: "Software engineering is not about writing code" — Benoit Schillings, Google DeepMind VP of Research
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=1P1hJ36rxM0)

@@ -1,14 +1,16 @@
 ---
-title: "Coding Agents"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: Coding Agents
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-18T22:19:54.888Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:55f1ab1ade498774d2fd8e9d453f0fbfd0d1b17c5aae88482f45cd8779579efe
   subjectId: concept:coding-agents
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -16,27 +18,38 @@ sourceAssessment:
   - source:official-wf26-youtube--CnA2lGfymY
   - source:official-wf26-youtube-0vphxNt4wyk
   - source:official-wf26-youtube-1P1hJ36rxM0
+  - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZpK5PWX2YRM
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-iCj_ATyThvc
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-pMggiOb18tc
+  - source:official-wf26-youtube-uIiA6DquRiE
   - source:official-wf26-youtube-uU5Gv2h8-9g
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:13e85c9afba894d35e4a37e748ee90247d3734a3f5fd652b38bee10f5eb1e809
+sourceAssessmentBodySha256: sha256:3235454c83f2d2b426114c06703f4c95616b7bf76d230ce34c24963ac5690686
 ---
 # Coding Agents
 
 ## Overview
-Coding agents are AI systems that can inspect repositories, reason about requirements, edit files, run commands, test changes, and sometimes open pull requests or operate development tools. They move AI coding from autocomplete toward task execution.
+Coding agents at the World’s Fair are presented as repository-level participants in software delivery rather than upgraded autocomplete. The Golden Age of AI Engineering and Cooking with Codex place them inside real codebases, where they inspect local instructions, retrieve context, edit files, execute commands and tests, and return reviewable changes. Other sessions make particular parts of that loop concrete: Weco reports an agent becoming the top contributor in OpenAI’s hiring challenge, Uber’s uReview coordinates multiple specialized review agents across an organization, and turbogrep addresses the retrieval failures that arise when ordinary repository search cannot expose the context an agent needs.
 
+The conference repeatedly argues that agent performance depends on the engineering system around the model. Guide, Verify, Solve, How to Build Quality Gates into Agentic Coding Workflows, and Figma’s adoption session connect useful deployment to explicit acceptance criteria, repository guidance, executable checks, observability, and disciplined rollout. The Data Context Layer and Beyond Code Generation show why source files and database schemas alone do not capture the operational meaning agents need. MCP Apps gives agents discoverable interactive tools, while HTML Is All Agents Need treats HTML and JavaScript as a flexible substrate for generating interfaces and operating software. Together, these talks shift the central question from whether a model can emit code to whether the surrounding environment can supply the right context, interfaces, and feedback.
+
+Evaluation becomes harder as scope and duration increase. Benchmarking Coding Agents on New vs Legacy Code Bases tests the gap between bounded greenfield work and changes inside unfamiliar, debt-laden systems. SWE-Marathon extends the horizon to billion-token tasks involving compilers, tests, verifiers, and hours of sustained execution. Supporting sessions on spreadsheets, rules that agents fail to follow, continual learning, production evaluations, and fleets distributed across several machines expose additional failure modes: tool-selection errors, instruction drift, loss of coherence, weak verification, and operational breakage that short benchmark tasks can hide.
+
+Safety and trust are therefore properties of the harness, not assumptions about the model. Sandboxes Aren’t Optional and the session about granting an agent production-code access connect isolation, permissions, rollback, and auditability to everyday operation. In Code They Act, In Proof We Trust makes the proof obligation explicit: an agent’s change should be accompanied by evidence that can be independently checked. The Last Human Code Review, The Death of the Code Review, How to Kill the Code Review, and Uber’s multi-agent review engine explore how executable quality gates and independent reviewing agents might replace portions of direct line-by-line inspection without removing accountability.
+
+The resulting change is a redistribution of engineering work rather than the disappearance of engineers. Addy Osmani’s closing-keynote claim that the future engineer chooses what is worth doing aligns with the Z/L Continuum’s question of how much generated code humans still need to read. Agents can take on larger implementation, verification, and release loops, but people still define worthwhile work, supply missing organizational context, set authority boundaries, resolve ambiguous tradeoffs, and decide whether the resulting evidence is strong enough to ship.
 ## Conference Context
 They evolved from code completion, IDE assistants, program synthesis, CI automation, and software bots. The recent shift is tool use: agents can read context, make coordinated edits, run tests, and respond to feedback inside real development workflows.
 
@@ -58,20 +71,26 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge
 - [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
+- [[2026-06-30-antje-barth-perception-agents]] — Perception Agents
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge
 - [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need
 
 ## Slide-Derived Supporting Decks
 - [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
 - [[youtube-1P1hJ36rxM0-slides]] — Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind (15 extracted slide frames)
+- [[youtube-2JX6JYyQG4Y-slides]] — Perception Agents — Antje Barth, Amazon AGI Lab (31 extracted slide frames)
 - [[youtube-Cz4v1WHVyZc-slides]] — HTML Is All Agents Need — James Russo, HeyGen (32 extracted slide frames)
 - [[youtube-iCj_ATyThvc-slides]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco (3 extracted slide frames)
 - [[youtube-n97BCfyFIvw-slides]] — "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani (32 extracted slide frames)
 - [[youtube-pMggiOb18tc-slides]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI (32 extracted slide frames)
+- [[youtube-RGSFUqzqErE-slides]] — On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft (28 extracted slide frames)
+- [[youtube-uIiA6DquRiE-slides]] — Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth (11 extracted slide frames)
 - [[youtube-WkBPX-oDMnA-slides]] —  (12 extracted slide frames)
 - [[youtube-ZpK5PWX2YRM-slides]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI (32 extracted slide frames)
 
@@ -86,7 +105,7 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]] — How to Build Quality Gates into Agentic Coding Workflows; [[nnenna-ndukwe|Nnenna Ndukwe]] (Day 1 — Workshop Day · 11:05am-12:05pm · Workshops Day 1; official schedule)
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]] — The Last Human Code Review: Building Trust in AI-Generated Code; [[itamar-friedman|Itamar Friedman]] (Day 2 — Session Day 1 · 11:40am-12:00pm · AI Architects: Show my Workflow; official schedule)
 - [[2026-06-30-laurie-voss-the-death-of-the-code-review]] — The Death of the Code Review; [[laurie-voss|Laurie Voss]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · AI Architects: Tokenmaxxing; official schedule)
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage]] — How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage); [[eyal-blum|Eyal Blum]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · AI-Native Enterprises; official schedule)
 - [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity]] — The Next Trillion Users of the Internet Still Don't Have an Identity; [[adi-singh|Adi Singh]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Sandbox & Platform Engineering; official schedule)
 - [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer]] — Building an Agentic Video Editor for Mass Consumer; [[ekaterina-deyneka|Ekaterina Deyneka]] (Day 4 — Session Day 3 · 11:40am-12:00pm · Generative Media; official schedule)
@@ -174,53 +193,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] — We Gave an Agent Production Code Access and Then Tried to Sleep at Night; [[moritz-johner|Moritz Johner]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Security; official schedule)
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust; [[erik-meijer|Erik Meijer]] (Day 2 — Session Day 1 · 4:50pm-5:10pm · Harness Engineering; official schedule)
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 70 | Related pages outside the main evidence categories. |
-| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 47 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 31 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 19 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
-- [[2026-06-30-addy-osmani-closing-keynote]]
-- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]]
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]]
-- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]]
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-ZpK5PWX2YRM]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-0vphxNt4wyk]]
-- [[youtube-9fubhllmsBU]]
-
-### Slides
-- [[youtube--CnA2lGfymY-slides]]
-- [[youtube-1P1hJ36rxM0-slides]]
-- [[youtube-Cz4v1WHVyZc-slides]]
-- [[youtube-iCj_ATyThvc-slides]]
-- [[youtube-n97BCfyFIvw-slides]]
-- [[youtube-pMggiOb18tc-slides]]
-
-### Transcripts
-- [[youtube-pMggiOb18tc-transcript]]
-- [[youtube-o-zkvb0iFDQ-transcript]]
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-0vphxNt4wyk-transcript]]
-- [[youtube-9fubhllmsBU-transcript]]
-- [[youtube-Cz4v1WHVyZc-transcript]]
-
-### Tools
-- [[docker]]
-- [[mcp-apps]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -244,11 +216,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
 - Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-o-zkvb0iFDQ`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
-- Evidence links for `youtube-o-zkvb0iFDQ` (primary event evidence): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
@@ -288,11 +255,21 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
 - Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
 - Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-n97BCfyFIvw`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
 - Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
 - Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-uIiA6DquRiE` — 25,283 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-uIiA6DquRiE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-uIiA6DquRiE`: model, models, source, open, benchmark, question, okay, accuracy.
+- Slide-derived themes for `youtube-uIiA6DquRiE`: smaller, model, high, extra, license, businesses, users, open.
+- Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]], [[youtube-uIiA6DquRiE-transcript]], [[youtube-uIiA6DquRiE-slides]]
 - `youtube-uU5Gv2h8-9g` — 10,417 transcript words; role: primary event evidence.
 - Interpretation rule for `youtube-uU5Gv2h8-9g`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uU5Gv2h8-9g`: code, claude, prompt, been, cloud, model, mode, team.
@@ -316,20 +293,68 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
-- Evidence links for `youtube-7Dtu2bilcFs` (supporting context only): [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 - `youtube-MpZzWMdmQCE` — 5,590 transcript words; role: supporting context only.
 - Transcript signals for `youtube-MpZzWMdmQCE`: claude, code, little, okay, give, cool, verification, well.
 - Evidence links for `youtube-MpZzWMdmQCE` (supporting context only): [[youtube-MpZzWMdmQCE]], [[youtube-MpZzWMdmQCE-transcript]], [[youtube-MpZzWMdmQCE-slides]]
-- `youtube-HEFSExa0xl0` — 9,009 transcript words; 10 slide-derived text signals; role: supporting context only.
-- Transcript signals for `youtube-HEFSExa0xl0`: repl, model, tools, spreadsheet, tool, code, many, ended.
-- Slide-derived themes for `youtube-HEFSExa0xl0`: code, mode, scripts, hing, coding, rare, mattered, most.
-- Evidence links for `youtube-HEFSExa0xl0` (supporting context only): [[youtube-HEFSExa0xl0]], [[youtube-HEFSExa0xl0-transcript]], [[youtube-HEFSExa0xl0-slides]]
+- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+- Evidence links for `youtube-7Dtu2bilcFs` (supporting context only): [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 - `youtube-Rx8f05JI_WA` — 4,329 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-Rx8f05JI_WA`: tasks, verifier, task, full, marathon, hours, compiler, tests.
 - Slide-derived themes for `youtube-Rx8f05JI_WA`: tasks, tokens, coding, projects, trial, stay, coherent, over.
 - Evidence links for `youtube-Rx8f05JI_WA` (supporting context only): [[youtube-Rx8f05JI_WA]], [[youtube-Rx8f05JI_WA-transcript]], [[youtube-Rx8f05JI_WA-slides]]
+- `youtube-HEFSExa0xl0` — 9,009 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-HEFSExa0xl0`: repl, model, tools, spreadsheet, tool, code, many, ended.
+- Slide-derived themes for `youtube-HEFSExa0xl0`: code, mode, scripts, hing, coding, rare, mattered, most.
+- Evidence links for `youtube-HEFSExa0xl0` (supporting context only): [[youtube-HEFSExa0xl0]], [[youtube-HEFSExa0xl0-transcript]], [[youtube-HEFSExa0xl0-slides]]
 - `youtube-bSG9wUYaHWU` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bSG9wUYaHWU`: context, code, fetch, best, practices, retry, transient, errors.
 - Evidence links for `youtube-bSG9wUYaHWU` (supporting context only): [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 70 | Related pages outside the main evidence categories. |
+| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 48 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 20 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]]
+- [[2026-06-30-addy-osmani-closing-keynote]]
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]]
+
+### Resources
+- [[youtube-pMggiOb18tc]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-ZpK5PWX2YRM]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-0vphxNt4wyk]]
+- [[youtube-9fubhllmsBU]]
+
+### Slides
+- [[youtube--CnA2lGfymY-slides]]
+- [[youtube-1P1hJ36rxM0-slides]]
+- [[youtube-2JX6JYyQG4Y-slides]]
+- [[youtube-Cz4v1WHVyZc-slides]]
+- [[youtube-iCj_ATyThvc-slides]]
+- [[youtube-n97BCfyFIvw-slides]]
+
+### Transcripts
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-0vphxNt4wyk-transcript]]
+- [[youtube-9fubhllmsBU-transcript]]
+- [[youtube-Cz4v1WHVyZc-transcript]]
+- [[youtube-KB41dTlX1Uc-transcript]]
+
+### Tools
+- [[docker]]
+- [[mcp-apps]]

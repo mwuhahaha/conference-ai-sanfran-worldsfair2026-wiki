@@ -1,156 +1,156 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-15T23:37:04.530361+00:00",
+  "checked_at": "2026-07-20T08:05:04.205828+00:00",
   "entries": [
     {
       "channel": "AI Engineer",
-      "id": "ZSQb5fzRFPw",
-      "published": "2026-07-15T22:45:06+00:00",
-      "published_date": "2026-07-15",
+      "id": "wEc9aG7cRQc",
+      "published": "2026-07-20T06:25:22+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
-      "updated": "2026-07-15T23:03:47+00:00",
-      "url": "https://www.youtube.com/watch?v=ZSQb5fzRFPw"
+      "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
+      "updated": "2026-07-20T06:25:50+00:00",
+      "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc"
     },
     {
       "channel": "AI Engineer",
-      "id": "q4Tr-DknG2M",
-      "published": "2026-07-15T20:13:51+00:00",
-      "published_date": "2026-07-15",
+      "id": "m24UKZomm7k",
+      "published": "2026-07-20T06:25:18+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
-      "updated": "2026-07-15T20:30:11+00:00",
-      "url": "https://www.youtube.com/watch?v=q4Tr-DknG2M"
+      "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
+      "updated": "2026-07-20T06:25:18+00:00",
+      "url": "https://www.youtube.com/watch?v=m24UKZomm7k"
     },
     {
       "channel": "AI Engineer",
-      "id": "uU5Gv2h8-9g",
-      "published": "2026-07-15T15:05:06+00:00",
-      "published_date": "2026-07-15",
+      "id": "fnLBmfsI_Fg",
+      "published": "2026-07-20T06:25:15+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
-      "updated": "2026-07-15T22:51:53+00:00",
-      "url": "https://www.youtube.com/watch?v=uU5Gv2h8-9g"
+      "title": "Your Voice Agent Doesn't Need a Frontier Model - Joel Allou & Ornella Bahidika, Microsoft",
+      "updated": "2026-07-20T06:25:15+00:00",
+      "url": "https://www.youtube.com/watch?v=fnLBmfsI_Fg"
     },
     {
       "channel": "AI Engineer",
-      "id": "8G_1-3IO4ZQ",
-      "published": "2026-07-14T22:45:06+00:00",
-      "published_date": "2026-07-14",
+      "id": "B8l81jhvHbI",
+      "published": "2026-07-20T06:25:12+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
-      "updated": "2026-07-15T19:11:05+00:00",
-      "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ"
+      "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
+      "updated": "2026-07-20T06:25:42+00:00",
+      "url": "https://www.youtube.com/watch?v=B8l81jhvHbI"
     },
     {
       "channel": "AI Engineer",
-      "id": "0vphxNt4wyk",
-      "published": "2026-07-14T22:00:06+00:00",
-      "published_date": "2026-07-14",
+      "id": "bUJgirn4_yc",
+      "published": "2026-07-20T06:25:07+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
-      "updated": "2026-07-15T12:03:58+00:00",
-      "url": "https://www.youtube.com/watch?v=0vphxNt4wyk"
+      "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
+      "updated": "2026-07-20T06:25:44+00:00",
+      "url": "https://www.youtube.com/watch?v=bUJgirn4_yc"
     },
     {
       "channel": "AI Engineer",
-      "id": "APqXGyCoGW4",
-      "published": "2026-07-14T21:00:06+00:00",
-      "published_date": "2026-07-14",
+      "id": "ltv-L5oMPIs",
+      "published": "2026-07-20T06:25:04+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
-      "updated": "2026-07-15T11:57:04+00:00",
-      "url": "https://www.youtube.com/watch?v=APqXGyCoGW4"
+      "title": "Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)",
+      "updated": "2026-07-20T06:25:38+00:00",
+      "url": "https://www.youtube.com/watch?v=ltv-L5oMPIs"
     },
     {
       "channel": "AI Engineer",
-      "id": "n97BCfyFIvw",
-      "published": "2026-07-14T17:16:43+00:00",
-      "published_date": "2026-07-14",
+      "id": "Q9ycQHbDdJs",
+      "published": "2026-07-20T06:25:01+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
-      "updated": "2026-07-15T00:22:04+00:00",
-      "url": "https://www.youtube.com/watch?v=n97BCfyFIvw"
+      "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
+      "updated": "2026-07-20T06:25:31+00:00",
+      "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs"
     },
     {
       "channel": "AI Engineer",
-      "id": "-CnA2lGfymY",
-      "published": "2026-07-13T19:25:09+00:00",
-      "published_date": "2026-07-13",
+      "id": "maTp79FD9gI",
+      "published": "2026-07-20T06:24:59+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "\"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox",
-      "updated": "2026-07-14T23:42:03+00:00",
-      "url": "https://www.youtube.com/watch?v=-CnA2lGfymY"
+      "title": "Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens",
+      "updated": "2026-07-20T06:25:31+00:00",
+      "url": "https://www.youtube.com/watch?v=maTp79FD9gI"
     },
     {
       "channel": "AI Engineer",
-      "id": "O3FEoMYvUf8",
-      "published": "2026-07-13T17:56:55+00:00",
-      "published_date": "2026-07-13",
+      "id": "hMlLw1LeIK8",
+      "published": "2026-07-20T06:24:55+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
-      "updated": "2026-07-15T12:54:56+00:00",
-      "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8"
+      "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
+      "updated": "2026-07-20T06:25:36+00:00",
+      "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8"
     },
     {
       "channel": "AI Engineer",
-      "id": "OqM67QG_Ikk",
-      "published": "2026-07-13T17:00:06+00:00",
-      "published_date": "2026-07-13",
+      "id": "LC3-P7v3yoI",
+      "published": "2026-07-20T06:24:53+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
-      "updated": "2026-07-14T23:55:08+00:00",
-      "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk"
+      "title": "Skills are the New SDKs - Elvin Aghammadzada, DataRobot",
+      "updated": "2026-07-20T06:25:56+00:00",
+      "url": "https://www.youtube.com/watch?v=LC3-P7v3yoI"
     },
     {
       "channel": "AI Engineer",
-      "id": "V-EDrhIhHzQ",
-      "published": "2026-07-13T15:34:07+00:00",
-      "published_date": "2026-07-13",
+      "id": "0RNNfxpdbQk",
+      "published": "2026-07-20T06:24:50+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
-      "updated": "2026-07-15T18:53:22+00:00",
-      "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ"
+      "title": "Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest",
+      "updated": "2026-07-20T06:25:16+00:00",
+      "url": "https://www.youtube.com/watch?v=0RNNfxpdbQk"
     },
     {
       "channel": "AI Engineer",
-      "id": "8oyalrfwgjw",
-      "published": "2026-07-12T23:00:06+00:00",
-      "published_date": "2026-07-12",
+      "id": "_cVfz88_j7A",
+      "published": "2026-07-20T06:24:47+00:00",
+      "published_date": "2026-07-20",
       "source": "official_youtube_rss",
-      "title": "RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI",
-      "updated": "2026-07-12T23:19:33+00:00",
-      "url": "https://www.youtube.com/watch?v=8oyalrfwgjw"
+      "title": "Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs",
+      "updated": "2026-07-20T06:25:19+00:00",
+      "url": "https://www.youtube.com/watch?v=_cVfz88_j7A"
     },
     {
       "channel": "AI Engineer",
-      "id": "7JgIS42mz7U",
-      "published": "2026-07-12T22:00:09+00:00",
-      "published_date": "2026-07-12",
+      "id": "-561cZmir5Q",
+      "published": "2026-07-19T20:00:06+00:00",
+      "published_date": "2026-07-19",
       "source": "official_youtube_rss",
-      "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
-      "updated": "2026-07-12T22:00:40+00:00",
-      "url": "https://www.youtube.com/watch?v=7JgIS42mz7U"
+      "title": "From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs",
+      "updated": "2026-07-19T20:19:03+00:00",
+      "url": "https://www.youtube.com/watch?v=-561cZmir5Q"
     },
     {
       "channel": "AI Engineer",
-      "id": "EUsPvBeIx70",
-      "published": "2026-07-12T16:00:36+00:00",
-      "published_date": "2026-07-12",
+      "id": "lMCxVorb9wM",
+      "published": "2026-07-19T16:00:06+00:00",
+      "published_date": "2026-07-19",
       "source": "official_youtube_rss",
-      "title": "Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh & Vanč Levstik, Phaidra",
-      "updated": "2026-07-12T16:01:08+00:00",
-      "url": "https://www.youtube.com/watch?v=EUsPvBeIx70"
+      "title": "You Didn't Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit",
+      "updated": "2026-07-19T16:14:56+00:00",
+      "url": "https://www.youtube.com/watch?v=lMCxVorb9wM"
     },
     {
       "channel": "AI Engineer",
-      "id": "sum9DgexFRQ",
-      "published": "2026-07-12T14:00:07+00:00",
-      "published_date": "2026-07-12",
+      "id": "JJGbw4ggaFs",
+      "published": "2026-07-19T13:45:06+00:00",
+      "published_date": "2026-07-19",
       "source": "official_youtube_rss",
-      "title": "The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab",
-      "updated": "2026-07-12T14:14:17+00:00",
-      "url": "https://www.youtube.com/watch?v=sum9DgexFRQ"
+      "title": "From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud",
+      "updated": "2026-07-19T14:09:52+00:00",
+      "url": "https://www.youtube.com/watch?v=JJGbw4ggaFs"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"

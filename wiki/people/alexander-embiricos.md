@@ -1,35 +1,38 @@
 ---
-title: "Alexander Embiricos"
-category: "people"
-role: "Head of Enterprise Product"
-company: "OpenAI"
-linkedin: "https://www.linkedin.com/in/embirico/"
-twitter: "https://x.com/embirico"
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+title: Alexander Embiricos
+category: people
+role: Head of Enterprise Product
+company: OpenAI
+linkedin: 'https://www.linkedin.com/in/embirico/'
+twitter: 'https://x.com/embirico'
+sourceLabels:
+  - Official speaker roster
+  - Official conference schedule
+last_auto_summarized: '2026-07-18T01:35:54.848Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:170a462eda1a05ba9d906da9f467c3ed824385900b8980d911002b3383e26593
   subjectId: person:alexander-embiricos
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:ce07e6b07611e6ad2c4bed980d38633c9b5bbe160c5c5d3db4650a83b223085d
+sourceAssessmentBodySha256: sha256:d1ad71578717b61c686a5130202467e2e4de9a3bc80024b4d29e7f7ef9806cfb
 ---
 # Alexander Embiricos
 
 ## Profile
-Head of Enterprise Product at [[openai|OpenAI]].
+Alexander Embiricos is Head of Enterprise Product at [[openai|OpenAI]], where his work follows earlier product leadership on Codex and contributions to ChatGPT Desktop. His conference appearance connects that enterprise-product perspective to the Software Factories program and the broader shift from coding assistance toward AI systems that participate directly in engineering work.
 
 - [LinkedIn](https://www.linkedin.com/in/embirico/)
 - [X / Twitter](https://x.com/embirico)
 
 ## Biography
-Alexander Embiricos is the Head of Enterprise Product at [[openai|OpenAI]]. He previously led product for Codex and worked on ChatGPT Desktop, with a consistent focus on building assistants that work alongside people in their work and personal contexts. Before joining [[openai|OpenAI]], Alexander founded Multi, a pair-programming startup acquired by [[openai|OpenAI]] in 2024. Alexander is half Greek and half Malaysian and came to the United States to study Mechanical Engineering and Computer Science at Stanford University.
+Alexander Embiricos builds AI products designed to work alongside people in professional and personal settings. Before becoming Head of Enterprise Product at [[openai|OpenAI]], he led product for Codex and worked on ChatGPT Desktop. He joined OpenAI through its 2024 acquisition of Multi, the pair-programming startup he founded. At World’s Fair 2026, he appears with Romain Huet in the Software Factories keynote [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]], placing his experience with coding agents, enterprise adoption, and human–AI collaboration within OpenAI’s wider conference presence. Embiricos is half Greek and half Malaysian and came to the United States to study Mechanical Engineering and Computer Science at Stanford University.
 
 ## Conference Sessions
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering (2026-06-29, 9:25am-9:45am)

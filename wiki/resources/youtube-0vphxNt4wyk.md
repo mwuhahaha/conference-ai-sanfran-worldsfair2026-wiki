@@ -1,10 +1,9 @@
 ---
 title: "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "0vphxNt4wyk"
+publishedDate: "2026-07-14"
 last_enriched: "2026-07-15T23:40:57.093546+00:00"
 ---
 # Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
@@ -18,14 +17,10 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-06-30-philipp-schmid-don-t-ship-skills-without-evals]] — Don't Ship Skills Without Evals
-
-## Topic Signals
-- [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `simple`, `accept`, `used`, `share`, `adding`, `self`, `based`, `detailed`
+- [[2026-06-30-philipp-schmid-don-t-ship-skills-without-evals|Don't Ship Skills Without Evals]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/0vphxNt4wyk.txt` (3,965 words).
+Cached transcript text is available at `raw/sources/youtube-transcripts/0vphxNt4wyk.txt`.
 
 ## Extracted Slides
 - [[youtube-0vphxNt4wyk-slides]]

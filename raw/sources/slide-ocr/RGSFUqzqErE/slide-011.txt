@@ -1,0 +1,14 @@
+World's Fair AlEngineer Foundry IQ Retrieval relevance by dataset
+90.0
+80.0
+PRESENTED BY 70.0
+Microsoft 60.0 50.0
+40.0
+30.0
+20.0
+10.0
+World's Fair 8UR(NDC6910) MRACL(NXG910) Customoer (NDCG@3) MML (NDCG②3) Spport(NOCG@3)
+Krywcrd VectorHyerdHrd·nng
+)nAI
+Fair
+ildkite

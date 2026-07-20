@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable
 
 ## Extracted Slides
 ![[assets/slides/9fubhllmsBU/slide-001.jpg]]

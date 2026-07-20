@@ -1,12 +1,12 @@
 ---
-title: "Imagination Engineering — Eve Bouffard, Y Combinator"
+title: "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator"
 category: "resources"
 sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "Z2Erdirpudo"
 publishedDate: "2026-07-16"
 last_enriched: "2026-07-17T00:50:45.865638+00:00"
 ---
-# Imagination Engineering — Eve Bouffard, Y Combinator
+# Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator
 
 ## What It Is
 An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.

@@ -10,12 +10,12 @@ sourceAssessment:
   subjectId: concept:reachability-over-format
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:29c1c3c84adb09e77c49e2d44c6c586ac082440ae777b711b49854e8a6224332
+sourceAssessmentBodySha256: sha256:50592fe981685ac35922bd8f1f35b3c01dcf387ddd82a436fe8d313d536bfc49
 ---
 # Reachability Over Format
 
@@ -54,6 +54,10 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement|Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.]]
 
 ### Media Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-EyZiAp0pelw` — source page linked; role: supporting context only.
 - Evidence links for `youtube-EyZiAp0pelw` (supporting context only): [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 - `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.

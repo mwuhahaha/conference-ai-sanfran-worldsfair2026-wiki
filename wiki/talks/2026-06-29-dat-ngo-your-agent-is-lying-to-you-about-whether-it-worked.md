@@ -1,15 +1,22 @@
 ---
-title: "Your Agent Is Lying to You About Whether It Worked"
-category: "talks"
-date: "2026-06-29"
-time: "12:05pm-12:25pm"
-track: "Expo Stage 1 NE"
-room: "Expo Stage 1 NE"
-speakers: ["Dat Ngo"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 1 NE"
-scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
+title: Your Agent Is Lying to You About Whether It Worked
+category: talks
+date: '2026-06-29'
+time: '12:05pm-12:25pm'
+track: Expo Stage 1 NE
+room: Expo Stage 1 NE
+speakers:
+  - Dat Ngo
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 1 NE
+scheduleLabels:
+  - Expo Stage 1 NE
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T21:13:45.858Z'
 ---
 # Your Agent Is Lying to You About Whether It Worked
 
@@ -32,7 +39,7 @@ Every span is green, every tool call returned cleanly, and the agent still regen
 Every span is green, every tool call returned cleanly, and the agent still regenerated the same plan 27 times before giving up invisible to any outcome metric, obvious in the trajectory. We pull up a real trace where the outcome looks healthy and the path is a disaster, then show Signal, our agent, surfacing it automatically: sweeping the project, ranking it above the noise, and linking straight to the offending trace with debugging evidence attached. The live version of the trajectory-over-outcomes argument, with a one-click path from "something's wrong" to "here's exactly where."
 
 ### Speaker And Company Context
-- [[dat-ngo|Dat Ngo]] — AI Architect at [[arize-ai|Arize AI]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.

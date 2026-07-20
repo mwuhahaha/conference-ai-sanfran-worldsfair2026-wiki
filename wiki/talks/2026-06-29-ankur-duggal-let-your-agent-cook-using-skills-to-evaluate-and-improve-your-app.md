@@ -1,15 +1,23 @@
 ---
-title: "Let your agent cook: using skills to evaluate and improve your app"
-category: "talks"
-date: "2026-06-29"
-time: "1:15pm-2:15pm"
-track: "Track 1"
-room: "Track 1"
-speakers: ["Ankur Duggal"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Track 1"
-scheduleRoom: "Track 1"
-scheduleLabels: ["Track 1", "Track 1", "sponsor", "confirmed"]
+title: 'Let your agent cook: using skills to evaluate and improve your app'
+category: talks
+date: '2026-06-29'
+time: '1:15pm-2:15pm'
+track: Track 1
+room: Track 1
+speakers:
+  - Ankur Duggal
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Track 1
+scheduleRoom: Track 1
+scheduleLabels:
+  - Track 1
+  - Track 1
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-18T21:13:04.406Z'
 ---
 # Let your agent cook: using skills to evaluate and improve your app
 
@@ -32,7 +40,7 @@ No official description published in the schedule data.
 No official description published in the schedule data.
 
 ### Speaker And Company Context
-- [[ankur-duggal|Ankur Duggal]] — Solutions Architect at [[arize-ai|Arize AI]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.

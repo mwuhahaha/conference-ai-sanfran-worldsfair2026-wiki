@@ -1,14 +1,16 @@
 ---
-title: "AI Sandboxes"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: AI Sandboxes
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-19T01:15:51.606Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:5b206028141586ca2746aff32d9733f1bb75c7de22b847a403790c2fec3af04b
   subjectId: concept:ai-sandboxes
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -19,12 +21,18 @@ sourceAssessment:
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:339952c19a8036959203d1d8b8212c666c5ed08baa4b4f980eb62cf80817ee6d
+sourceAssessmentBodySha256: sha256:f3564cf3b67846dede319f3019c15eff41d31291d79082f4b343db4208508198
 ---
 # AI Sandboxes
 
 ## Overview
-AI sandboxes are controlled execution environments where agents can run code, browse, inspect files, call tools, or manipulate artifacts without putting the host system at unnecessary risk. A sandbox gives the agent enough power to do real work while limiting filesystem, network, credential, and process access.
+AI sandboxes are controlled execution environments in which agents can write and run code, inspect files, install dependencies, browse, and produce artifacts without inheriting unrestricted access to the host. The World’s Fair 2026 material treats a sandbox as an execution control plane, not merely a container: process isolation must be combined with scoped filesystems, explicit network and credential policy, resource limits, action logs, artifact capture, reproducible state, and reliable teardown.
+
+The Sandbox & Platform Engineering track develops this boundary from several concrete angles. Abhishek Bhardwaj’s two-part OpenAI session traces sandbox infrastructure from `fork()`-level host and guest separation to fleet-scale operation; its official recording, 7,738-word transcript, and extracted slides provide the page’s strongest linked media evidence. Ivan Burazin’s “Kubernetes Is Not Your Sandbox” separates workload orchestration from the security boundary required for untrusted agent code. Kevin Orellana examines failures across 1,000 AWS code-writing tasks, Adam Azzam argues that better environments can matter more than additional agent-framework machinery, and Robert Brennan connects runtime isolation to operating OpenHands coding agents at scale. Samuel Colvin frames sandbox design as a product tradeoff between useful capabilities and an unusably restricted “desert,” while Matt Brockman’s E2B workshop turns those principles into hands-on implementation.
+
+The surrounding conference graph broadens sandboxing beyond coding assistants. Tushar Jain ties agent autonomy to Docker-based runtime infrastructure; Derek Meegan applies constrained execution to browser-agent fleets; Arun Sekhar presents one-command cloud sandboxes organized around a near-zero blast radius; and Rowan Christmas focuses on microVM isolation for arbitrary agents. Pierluca D’Oro and Ang Li extend the environment problem to computer use, where agents interact with graphical systems rather than only shells. Miguel González Fernández and Corby Rosset show why those environments need task-specific verifiers, while Erik Meijer’s proof-oriented harness framing supplies the acceptance boundary: completing an action is not proof that its result is correct or safe. Sessions on long-horizon environments, durable runtimes, autonomous computers, dedicated infrastructure, post-training data curation, and browser automation further connect sandbox quality to persistence, state fidelity, reproducibility, and recovery.
+
+Taken together, the linked material defines sandboxing as the layer that mediates autonomous software’s ability to affect the world. Orchestration decides where work runs; isolation limits what a compromised or mistaken agent can reach; filesystem, network, and credential policies constrain external effects; logs and captured artifacts establish provenance; and verifiers decide whether outputs may be accepted. The central design choice is therefore not simply process versus container versus microVM, but a risk-specific combination of boundary strength, permitted capabilities, observability, task lifetime, reproducibility, and evidence-based acceptance. The DeepMind, State of Data, multi-machine agent-fleet, and other slide-linked material remains adjacent slide, transcript, or OCR context rather than independent proof of a particular sandbox architecture.
 
 ## Conference Context
 The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, and secure code-execution services. Agentic coding and computer-use systems made sandboxing a default requirement rather than a specialty feature.
@@ -71,7 +79,7 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
 - [[2026-06-30-sean-cai-state-of-data]] — State of Data
 
 ## Slide-Derived Supporting Decks
@@ -95,7 +103,7 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] — Don’t build agents, build environments; [[adam-azzam|Adam Azzam]] (Day 3 — Session Day 2 · 10:45am-11:05am · Sandbox & Platform Engineering; official schedule)
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — How I learned to stop worrying and love the sandbox; [[matt-brockman|Matt Brockman]] (Day 1 — Workshop Day · 11:05am-12:05pm · Workshops Day 1; official schedule)
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; verified event YouTube resource; via [[youtube-pMggiOb18tc]])
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud]] — Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud; [[arun-sekhar|Arun Sekhar]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Track M; official schedule)
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale; [[derek-meegan|Derek Meegan]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Expo Stage 4 SE; official schedule)
 - [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute]] — Scaling to Long-Horizons: Algorithms, Environments, Compute; [[ross-taylor|Ross Taylor]], [[chengxi-taylor|Chengxi Taylor]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Data Quality; official schedule)
@@ -172,52 +180,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[yohei-nakajima|Yohei Nakajima]]
 - [[ang-li|Ang Li]]
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 45 | Related pages outside the main evidence categories. |
-| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-pMggiOb18tc]]
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-wsFd22SL1s8]]
-
-### Slides
-- [[youtube--CnA2lGfymY-slides]]
-- [[youtube-1P1hJ36rxM0-slides]]
-- [[youtube-OqM67QG_Ikk-slides]]
-- [[youtube-ZSQb5fzRFPw-slides]]
-- [[youtube-ZyIoTOAbRfs-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-
-### Transcripts
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-4kYl2_mqmnQ-transcript]]
-
-### Tools
-- [[docker]]
-- [[browserbase]]
-- [[prime-intellect]]
-- [[mcp-apps]]
-- [[openhands]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -248,3 +210,50 @@ Current media support is attributable to one official recording; it is context f
 - Transcript signals for `youtube-4kYl2_mqmnQ`: machine, context, machines, linux, back, whole, point, each.
 - Slide-derived themes for `youtube-4kYl2_mqmnQ`: sleeps, headless, dispatch, normal, default, coding, tasks, machines.
 - Evidence links for `youtube-4kYl2_mqmnQ` (supporting context only): [[youtube-4kYl2_mqmnQ]], [[youtube-4kYl2_mqmnQ-transcript]], [[youtube-4kYl2_mqmnQ-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 45 | Related pages outside the main evidence categories. |
+| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-wsFd22SL1s8]]
+
+### Slides
+- [[youtube--CnA2lGfymY-slides]]
+- [[youtube-1P1hJ36rxM0-slides]]
+- [[youtube-OqM67QG_Ikk-slides]]
+- [[youtube-ZSQb5fzRFPw-slides]]
+- [[youtube-ZyIoTOAbRfs-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+
+### Transcripts
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-4kYl2_mqmnQ-transcript]]
+
+### Tools
+- [[docker]]
+- [[browserbase]]
+- [[prime-intellect]]
+- [[mcp-apps]]
+- [[openhands]]

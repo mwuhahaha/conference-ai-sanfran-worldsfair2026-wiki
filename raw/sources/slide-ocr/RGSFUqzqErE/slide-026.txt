@@ -1,0 +1,7 @@
+EoitSelection View Go Update 0
+EXPLORER NEWF >venv Fagentignore o.emw.exanple srcBiem sols agenconngs dockengnore!sgentmanifest. U U U n manpyUX 51 58 52 53 55 56 54 57 58 59 #Intentionally bare - optimization will dramatically inprove this. #Baseline insteuctions live in,agent _configs/baseline/instructions.rd FALLBACK_INSTRUCTIoNS-"You are a helpful customer support agont." config-load configk) if config Is None: fron azure.ai.agentserver.optimization inport OptinizationConfig config-OptinizationConfig( instructionS=FALLBACK_INSTRUCTIONS, DV
+()eral-quickjsonl 0eratjonl!ealyaml manpy READMEmd 5requirements.tt Dockerfilo!agentyaml -gitignore U u U n U U u A o PS C:\tenp\foptlaienf> PROBLEMS 62 68 61 63 64 OUTPUT model=Os.gotenV("MOOEL_DEPLOYMENT_NAME") or"gpt-4.1-nini", source-"defaults", OrOS.getenV("AZURE_AI MODEL_DEPLOYNENT NAME") AZURE TERMNAL PORIS 十一
+azure.yam M
+OUTLINE
+TIMELNE ooAoBmShare L55.Col2101ecte)Spaces4UTF-8LF[]ython 福 3140(venPython3140final0
+C Ao C

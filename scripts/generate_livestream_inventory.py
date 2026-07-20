@@ -13,6 +13,7 @@ RAW = ROOT / "raw" / "sources"
 WIKI = ROOT / "wiki"
 RESOURCES = WIKI / "resources"
 SLIDES = WIKI / "slides"
+OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 
 
 def read_json(path: Path, fallback):
@@ -48,6 +49,20 @@ def is_worldsfair_stream(title: str) -> bool:
     return "world" in low and "fair" in low or "wf2026" in low or "wf26" in low
 
 
+def official_wf26_livestream_ids() -> set[str]:
+    """Return the manifest-authorized primary WF26 livestream set."""
+
+    payload = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    videos = payload.get("videos", []) if isinstance(payload, dict) else []
+    return {
+        str(item["id"])
+        for item in videos
+        if isinstance(item, dict)
+        and isinstance(item.get("id"), str)
+        and item.get("mediaType") == "event_livestream"
+    }
+
+
 def stream_year(title: str) -> str:
     for year in ["2026", "2025", "2024", "2023"]:
         if year in title:
@@ -78,6 +93,7 @@ def stream_rows() -> list[dict]:
     blob = read_json(RAW / "aidotengineer-channel-streams-latest.json", {})
     entries = blob.get("entries") if isinstance(blob, dict) else blob
     rows = []
+    primary_wf26_ids = official_wf26_livestream_ids()
     for entry in entries or []:
         video_id = entry.get("id") or entry.get("video_id")
         title = entry.get("title") or video_id or "Untitled"
@@ -95,6 +111,7 @@ def stream_rows() -> list[dict]:
                 "url": entry.get("url") or entry.get("webpage_url") or f"https://www.youtube.com/watch?v={video_id}",
                 "year": stream_year(title),
                 "worldsfair": is_worldsfair_stream(title),
+                "primary_wf26": video_id in primary_wf26_ids,
                 "transcript_path": f"raw/sources/youtube-livestream-transcripts/{video_id}.txt" if transcript.exists() else "",
                 "transcript_words": word_count(transcript),
                 "resource_page": f"wiki/resources/youtube-{video_id}.md" if resource.exists() else "",
@@ -133,7 +150,7 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
         "## Coverage Summary",
         f"- Channel livestream entries collected: {len(rows)}",
         f"- World's Fair-related livestream entries: {len(worldsfair)}",
-        f"- World's Fair 2026 livestream entries: {sum(1 for row in rows if row['year'] == '2026' and row['worldsfair'])}",
+        f"- Manifest-authorized World's Fair 2026 livestream entries: {sum(1 for row in rows if row['primary_wf26'])}",
         f"- Livestream transcript caches present: {sum(1 for row in rows if row['transcript_words'])}",
         f"- Livestreams with standard slide pages: {sum(1 for row in rows if row['standard_slide_count'])}",
         f"- Livestreams with dense slide pages: {sum(1 for row in rows if row['dense_slide_count'])}",
@@ -141,7 +158,7 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
         "",
         "## World's Fair 2026 Livestreams",
     ]
-    for row in [r for r in rows if r["year"] == "2026" and r["worldsfair"]]:
+    for row in [r for r in rows if r["primary_wf26"]]:
         transcript = f"{row['transcript_words']:,} transcript words" if row["transcript_words"] else "no cached transcript"
         slides = []
         if row["standard_slide_count"]:
@@ -153,13 +170,16 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
         slide_text = "; ".join(slides) if slides else "no slide deck yet"
         lines.append(f"- [[youtube-{row['video_id']}]] — [{row['title']}]({row['url']}); {transcript}; {slide_text}")
     lines.extend(["", "## Other World's Fair Track Streams"])
-    for row in [r for r in rows if r["worldsfair"] and not (r["year"] == "2026")]:
-        lines.append(f"- [{row['title']}]({row['url']}) — {row['year']} historical context")
+    for row in [r for r in rows if r["worldsfair"] and not r["primary_wf26"]]:
+        lines.append(
+            f"- [{row['title']}]({row['url']}) — {row['year']} title-discovered "
+            "supporting context; not admitted as primary WF26 media by the official manifest"
+        )
     lines.extend(
         [
             "",
             "## Use Guidance",
-            "- Use World's Fair San Francisco 2026 livestreams as primary event video sources for what was said or shown in the recording.",
+            "- Use only manifest-authorized World's Fair San Francisco 2026 livestreams as primary event video sources for what was said or shown in the recording.",
             "- Use older World's Fair track streams only as historical or conceptual context, not as evidence for 2026 session facts.",
             "- When a stream has transcript but no slides, run `scripts/extract_video_slides.py --video-id <id>` and then rebuild.",
             "- When a stream has neither transcript nor slides, fetch captions first; use local Whisper only when public captions are absent.",
@@ -169,7 +189,7 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
 
 
 def write_worldsfair_page(rows: list[dict]) -> None:
-    wf26 = [row for row in rows if row["year"] == "2026" and row["worldsfair"]]
+    wf26 = [row for row in rows if row["primary_wf26"]]
     lines = [
         frontmatter(
             {
@@ -231,7 +251,16 @@ def main() -> int:
     write(RAW / "livestream-corpus-audit.json", json.dumps({"streams": rows}, indent=2, ensure_ascii=False))
     write_ai_livestream_corpus(rows)
     write_worldsfair_page(rows)
-    print(json.dumps({"streams": len(rows), "worldsfair": sum(1 for row in rows if row["worldsfair"])}, sort_keys=True))
+    print(
+        json.dumps(
+            {
+                "streams": len(rows),
+                "worldsfair": sum(1 for row in rows if row["worldsfair"]),
+                "primary_wf26": sum(1 for row in rows if row["primary_wf26"]),
+            },
+            sort_keys=True,
+        )
+    )
     return 0
 
 

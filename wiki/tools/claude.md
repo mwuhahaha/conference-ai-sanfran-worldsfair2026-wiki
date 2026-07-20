@@ -1,32 +1,74 @@
 ---
-title: "Claude"
-category: "tools"
-aliases: ["Claude"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
-scheduleTracks: ["Track 1", "Posttraining & Midtraining", "Workshops Day 1", "Workshops Day 2", "Software Factories", "Search & Retrieval", "Claws & Personal Agents", "AI Architects: Show my Workflow", "AI-Native Enterprises", "AI Architects: Tokenmaxxing", "Design Engineering", "Autoresearch", "Memory & Continual Learning", "Context Engineering", "Agentic Engineering", "Graphs", "Generative Media", "AI in Finance", "AI in GTM", "Agentic Commerce", "Harness Engineering"]
-scheduleRooms: ["Track 1", "Track 8", "Track 9", "Track 4", "Expo Stage 1 NE", "Expo Stage 2 NW", "Main Stage", "Track 3", "Expo Stage 4 SE", "Leadership 1", "Leadership 2", "Track 6", "Expo Stage 3 SW", "Track 5", "Track 2"]
+title: Claude
+category: tools
+aliases:
+  - Claude
+sourceLabels:
+  - Official schedule
+  - Public YouTube metadata
+  - Transcript evidence
+  - Local slide OCR
+  - Topic synthesis
+scheduleTracks:
+  - Track 1
+  - Posttraining & Midtraining
+  - Workshops Day 1
+  - Workshops Day 2
+  - Software Factories
+  - Search & Retrieval
+  - Claws & Personal Agents
+  - 'AI Architects: Show my Workflow'
+  - AI-Native Enterprises
+  - 'AI Architects: Tokenmaxxing'
+  - Design Engineering
+  - Autoresearch
+  - Memory & Continual Learning
+  - Context Engineering
+  - Agentic Engineering
+  - Graphs
+  - Generative Media
+  - AI in Finance
+  - AI in GTM
+  - Agentic Commerce
+  - Harness Engineering
+scheduleRooms:
+  - Track 1
+  - Track 8
+  - Track 9
+  - Track 4
+  - Expo Stage 1 NE
+  - Expo Stage 2 NW
+  - Main Stage
+  - Track 3
+  - Expo Stage 4 SE
+  - Leadership 1
+  - Leadership 2
+  - Track 6
+  - Expo Stage 3 SW
+  - Track 5
+  - Track 2
+last_auto_summarized: '2026-07-18T22:14:14.620Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:5765f20b02ea08a6b7b34e7c722c886083b3dcc1a6ccd12362f320a7a5e7f8ad
   subjectId: tool:claude
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-9fubhllmsBU
-sourceAssessmentBodySha256: sha256:a31ef6556123397fd8fdad855e20ceb3288d02426f0eb5eade252ab32176810d
+sourceAssessmentBodySha256: sha256:89929e44d95085ffc8935e6a9956bf86fb27091b6be78d4a0151897347d23c33
 ---
-
 # Claude
 
 ## Conference Context
-Claude appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
+Claude is represented across the World’s Fair 2026 corpus as both a model platform and a working environment for building, retrieving context for, evaluating, and operating agents. Its clearest official-schedule anchor is Priyanka Phatak and Gabriel Cemaj’s three-part Claude Managed Agents workshop, which gives the platform a dedicated sequence on Workshops Day 2. Other confirmed sessions connect Claude to specific engineering concerns: Owen Halpert’s Turbogrep session and Jess Wang’s eval-driven comparison of agentic and vector search address retrieval for coding agents; Laurie Voss’s paired production workshops emphasize evaluation and shipping; Fuad Ali’s session covers self-learning loops; Joel Hooks’s Loopcraft workshop situates Claude-adjacent development within iterative agent workflows; and Gagan Bhat’s agentic-surfaces session places model capabilities in the interfaces through which agents act.
 
-This page records confirmed mentions and keeps them separate from broader inferred relevance.
+The linked media and resource layer supplies more detailed technical context without changing the status of the schedule evidence. Supporting videos cover the Claude Agent SDK, evolving Claude APIs for agents, Claude Code’s architecture and development model, prompt engineering, semantic code retrieval, protocol reverse engineering, and an embodied Minecraft experiment. Transcript-backed resources include Thariq Shihipar’s Agent SDK workshop, Katelyn Lesse’s discussion of agent-oriented API evolution, and Kuba Rogut’s Claude Code retrieval benchmark. Slide and topic connections extend the picture into production agents, context engines, multimodal interfaces, autoresearch, agent memory, MCP application runtimes, agentic search, and machine-reachable web surfaces. Together, these connections show Claude functioning across the agent stack—from prompts, APIs, and managed execution to repository search, memory, evaluation loops, and user-facing action surfaces—while public YouTube material whose event association is unverified remains labeled as supporting context rather than confirmed World’s Fair 2026 programming.
 
 ## Confirmed Evidence
 
@@ -99,4 +141,4 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/HEFSExa0xl0.txt`
 
 ## Confidence
-High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.
+High confidence that Claude is materially represented across the corpus: ten confirmed schedule appearances span managed agents, production evaluation, self-learning loops, coding-agent retrieval, loop-based development, and agentic interfaces. The strongest current-event evidence is the official schedule, particularly the complete three-part managed-agents workshop and the two coding-agent search sessions. The numerous transcript, resource, slide, and topic links establish a broader technical footprint around SDKs, APIs, context retrieval, memory, MCP, multimodal interaction, and agent-ready web architecture. Those supporting connections strengthen the technical interpretation of Claude’s role but do not independently prove World’s Fair 2026 participation; public videos and cached transcripts must remain supporting evidence unless playlist membership or another authoritative event-association source verifies them.

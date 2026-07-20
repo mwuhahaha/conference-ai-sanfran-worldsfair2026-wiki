@@ -46,21 +46,23 @@ NOW = datetime(2026, 7, 17, 12, 0, tzinfo=timezone.utc)
 
 
 def _factor_choices(source_authority: str) -> tuple[FactorChoice, ...]:
+    # evidence-balance-v3 deliberately permits only one policy factor per
+    # rule. Source authority remains independently recorded by source_role;
+    # this fixture varies method quality to preserve factor-selection replay.
+    del source_authority
     values = (
-        ("claim_relevance", "exact"),
-        ("method_quality", "moderate"),
-        ("method_quality", "strong"),
-        ("method_quality", "weak"),
-        ("source_authority", source_authority),
+        ("method_quality", "moderate", ReasonCode.OFFICIAL_CANON_SCOPE_ONLY.value),
+        ("method_quality", "strong", ReasonCode.REPRODUCIBLE_ARTIFACT.value),
+        ("method_quality", "weak", ReasonCode.MISSING_EVIDENCE.value),
     )
     return tuple(
         FactorChoice(
             factor_id=factor_id,
             choice_id=choice_id,
             factor=RationalFactor(1, 1),
-            reason_code=f"test_{factor_id}_{choice_id}",
+            reason_code=reason_code,
         )
-        for factor_id, choice_id in values
+        for factor_id, choice_id, reason_code in values
     )
 
 
@@ -360,9 +362,10 @@ def test_signed_line_items_are_replayable_and_correlated_adverse_copy_is_zero(
         publication=PublicationDisposition.APPROVED,
         independent=True,
     )
-    receipt = store.score_receipt_as_of(claim.claim_id, NOW)
+    receipts = store.score_receipts_for_snapshot(snapshot.snapshot_id)
+    assert len(receipts) == 1
+    receipt = receipts[0]
 
-    assert receipt is not None
     assert sorted(item.signed_points for item in receipt.line_items) == [-6, 0, 10]
     suppressed = next(item for item in receipt.line_items if item.signed_points == 0)
     assert suppressed.factor_applications[-1].reason_code == (
@@ -395,14 +398,10 @@ def test_signed_line_items_are_replayable_and_correlated_adverse_copy_is_zero(
         if item.signed_points
     }
     assert selected_factors[SourceRole.OFFICIAL_PRIMARY] == {
-        "claim_relevance": "exact",
         "method_quality": "strong",
-        "source_authority": "official_original",
     }
     assert selected_factors[SourceRole.INDEPENDENT_SECONDARY] == {
-        "claim_relevance": "exact",
         "method_quality": "weak",
-        "source_authority": "independent_documented",
     }
 
     replayed = runtime.evaluate(

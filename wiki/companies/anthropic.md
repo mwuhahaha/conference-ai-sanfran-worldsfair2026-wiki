@@ -10,13 +10,13 @@ sourceAssessment:
   subjectId: company:anthropic
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:441c12a6fb37a64cd2d79cea7e19e78f77ee3b9927f30233dc4959ae6a6d307d
+sourceAssessmentBodySha256: sha256:27727c25fe1ff8b5de15efffeb864207e275b2a545dbe6de01214d0974499bdc
 ---
 # Anthropic
 
@@ -80,6 +80,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Media Signals
+- `youtube-9QebvrrY3KY` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-9QebvrrY3KY`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-9QebvrrY3KY` (supporting context only): [[youtube-9QebvrrY3KY]]
 - `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
 - Evidence links for `youtube-TqC1qOfiVcQ` (supporting context only): [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]

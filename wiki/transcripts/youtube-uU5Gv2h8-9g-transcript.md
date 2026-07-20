@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic"
+title: "Transcript: Claude Fable, Claude Tag, and Anthropic's Culture — Cat Wu & Thariq Shihipar ft Simon Willison"
 category: "transcripts"
 videoId: "uU5Gv2h8-9g"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "10417"
 ---
 
-# Transcript: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic
+# Transcript: Claude Fable, Claude Tag, and Anthropic's Culture — Cat Wu & Thariq Shihipar ft Simon Willison
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=uU5Gv2h8-9g)

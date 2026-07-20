@@ -131,6 +131,7 @@ def test_collect_room_videos_admits_only_current_primary_media(
 ) -> None:
     wiki, raw = _configure_fixture(monkeypatch, tmp_path)
     talk_slug = "2026-07-01-garry-tan-closing-keynote-garry-tan"
+    segment_talk_slug = "2026-07-01-mike-chambers-harness-engineering"
     (raw / "official-wf26-video-manifest.json").write_text(
         json.dumps(
             {
@@ -141,6 +142,13 @@ def test_collect_room_videos_admits_only_current_primary_media(
                         "videoAvailability": "public",
                         "playlistAvailability": "available",
                         "matchedTalks": [talk_slug],
+                    },
+                    {
+                        "id": "htM02KMNZnk",
+                        "title": "Day 1 Stream",
+                        "mediaType": "event_livestream",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "available",
                     }
                 ]
             }
@@ -151,12 +159,22 @@ def test_collect_room_videos_admits_only_current_primary_media(
         json.dumps(
             [
                 {
-                    "talk_slug": talk_slug,
+                    "talk_slug": segment_talk_slug,
                     "video_id": "htM02KMNZnk",
                     "start_seconds": 628,
+                    "confidence": "high",
                 }
             ]
         ),
+        encoding="utf-8",
+    )
+    (wiki / "talks" / f"{segment_talk_slug}.md").write_text(
+        "---\n"
+        'title: "Harness Engineering"\n'
+        'scheduleRoom: "Main Stage"\n'
+        'scheduleTrack: "Harness Engineering"\n'
+        "---\n"
+        "# Harness Engineering\n",
         encoding="utf-8",
     )
     (wiki / "talks" / f"{talk_slug}.md").write_text(
@@ -166,8 +184,6 @@ def test_collect_room_videos_admits_only_current_primary_media(
         'scheduleTrack: "Keynote"\n'
         "---\n"
         "# Closing Keynote: Garry Tan\n\n"
-        "- [[youtube-eBUyTS7SzV4|Dedicated recording]]\n"
-        "- https://www.youtube.com/watch?v=htM02KMNZnk&t=628s\n"
         "- https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s\n"
         "- https://www.youtube.com/watch?v=abc12345678\n"
         "- speaker-match related prior/adjacent: "
@@ -190,6 +206,131 @@ def test_collect_room_videos_admits_only_current_primary_media(
         ("htM02KMNZnk", "worldsfair-livestream-segment", 628),
         ("SUPPORT1234", "supporting-related-video", None),
     }
+
+
+def test_collect_room_videos_rejects_segment_from_demoted_stream(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    wiki, raw = _configure_fixture(monkeypatch, tmp_path)
+    talk_slug = "2026-07-01-example-talk"
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": "htM02KMNZnk",
+                        "mediaType": "event_livestream",
+                        "videoAvailability": "private",
+                        "playlistAvailability": "available",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text(
+        json.dumps(
+            [
+                {
+                    "talk_slug": talk_slug,
+                    "video_id": "htM02KMNZnk",
+                    "start_seconds": 628,
+                    "confidence": "high",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    (wiki / "talks" / f"{talk_slug}.md").write_text(
+        "---\n"
+        'title: "Example Talk"\n'
+        'scheduleRoom: "Main Stage"\n'
+        "---\n"
+        "# Example Talk\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="non-admitted stream"):
+        attendance.collect_room_videos()
+
+
+def test_attendance_authority_rejects_cross_talk_timestamp_collision(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    wiki, raw = _configure_fixture(monkeypatch, tmp_path)
+    slugs = ["2026-07-01-first", "2026-07-01-second"]
+    for slug in slugs:
+        (wiki / "talks" / f"{slug}.md").write_text(
+            "---\n"
+            f'title: "{slug}"\n'
+            'date: "2026-07-01"\n'
+            'scheduleRoom: "Main Stage"\n'
+            "---\n"
+            f"# {slug}\n",
+            encoding="utf-8",
+        )
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": "htM02KMNZnk",
+                        "title": "Day 1 Stream",
+                        "mediaType": "event_livestream",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "available",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text(
+        json.dumps(
+            [
+                {
+                    "talk_slug": slug,
+                    "video_id": "htM02KMNZnk",
+                    "start_seconds": 628,
+                    "date": "2026-07-01",
+                    "confidence": "high",
+                }
+                for slug in slugs
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="livestream timestamp is attributed to multiple talks",
+    ):
+        attendance.collect_room_videos()
+
+
+def test_attendance_authority_fails_closed_on_missing_or_malformed_inputs(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    wiki, raw = _configure_fixture(monkeypatch, tmp_path)
+    (wiki / "talks" / "example.md").write_text(
+        "---\ntitle: Example\ndate: '2026-07-01'\n---\n# Example\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="required input is missing"):
+        attendance.collect_room_videos()
+
+    (raw / "official-wf26-video-manifest.json").write_text(
+        '{"videos": []}\n', encoding="utf-8"
+    )
+    (raw / "livestream-talk-segments.json").write_text(
+        '{"not": "a list"}\n', encoding="utf-8"
+    )
+    with pytest.raises(ValueError, match="expected list"):
+        attendance.collect_room_videos()
 
 
 def test_sync_current_reuses_image_receipts_without_dependencies(

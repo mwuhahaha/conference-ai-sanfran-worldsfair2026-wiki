@@ -1,35 +1,38 @@
 ---
-title: "Neil Zeghidour"
-category: "people"
-role: "Co-founder & CEO"
-company: "Gradium"
-twitter: "https://x.com/neilzegh"
-website: "https://gradium.ai"
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+title: Neil Zeghidour
+category: people
+role: Co-founder & CEO
+company: Gradium
+twitter: 'https://x.com/neilzegh'
+website: 'https://gradium.ai'
+sourceLabels:
+  - Official speaker roster
+  - Official conference schedule
+last_auto_summarized: '2026-07-17T19:31:25.773Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:f0ad7726e24124e99beb53eaa3ed50bfe1d2eb365687f4d7817700602bd5a54a
   subjectId: person:neil-zeghidour
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:5ca1077ea4f53e4a1b9c4d34e755001651356945044ae56b31f57ce639065245
+sourceAssessmentBodySha256: sha256:b794a68b49429e12cf665d8e81e1b707e0953c212ad2b9933539e10da1849c95
 ---
 # Neil Zeghidour
 
 ## Profile
-Co-founder & CEO at [[gradium|Gradium]].
+Neil Zeghidour is the co-founder and CEO of [[gradium|Gradium]], a voice AI company building developer APIs for ultra-low-latency text-to-speech and speech-to-text. At AI Engineer World’s Fair 2026, he connects the research behind real-time speech models with the practical [[inference-engineering|inference engineering]] needed to build responsive [[voice-agents|voice agents]]. His sessions focus on replacing turn-based, “walkie-talkie” exchanges with streaming, full-duplex conversations and on the technical and product implications of increasingly capable digital voices.
 
 - [X / Twitter](https://x.com/neilzegh)
 - [Website](https://gradium.ai)
 
 ## Biography
-Neil Zeghidour is the co-founder and CEO of [[gradium|Gradium]]. Neil founded [[gradium|Gradium]] after a decade of building and leading frontier generative audio teams at Meta and Google DeepMind. Being frustrated by slow and brittle voice assistants , he built the engineering teams that developed the first neural audio codecs and introduced the first audio LLMs, such as AudioLM, at Google. He later created Kyutai to launch Moshi, the world's first real-time, full-duplex conversational AI , and Hibiki, the first simultaneous speech-to-speech translation system. Today, [[gradium|Gradium]] is focused on helping developers build natural, real-time voice agents by providing ultra-low latency streaming APIs that transition these breakthroughs from the research lab to production.
+Before founding [[gradium|Gradium]], Neil Zeghidour spent a decade building and leading generative-audio teams at Meta and Google DeepMind. His research and engineering work included neural audio codecs and AudioLM, followed by the creation of Kyutai and its real-time conversational system Moshi and simultaneous speech-to-speech translation system Hibiki. At Gradium, he brings that background into production infrastructure for natural, low-latency streaming voice applications. His World’s Fair program develops that trajectory across several formats: [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie|Your Voice Agent is Just a Walkie-Talkie]] examines the latency and interaction constraints that keep many voice systems turn-based; the three-part [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3|Everybody Gets a Digital Clone!]] workshop extends the discussion into hands-on voice replication; and [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]] places speech within a broader interface shift. The supporting video [[youtube-P_RI1kCkRbo|Voice AI: when is the “Her” moment?]] and its extracted slide evidence provide additional context on his work across Google, research teams, translation systems, voice engineering, and Gradium’s product direction, while remaining clearly separated from official event media.
 
 ## Conference Sessions
 - [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — Your Voice Agent is Just a Walkie-Talkie (2026-06-29, 12:05pm-12:25pm)
@@ -46,9 +49,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 ### Linked Sessions
 - [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie|Your Voice Agent is Just a Walkie-Talkie]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3|Everybody Gets a Digital Clone! (Part 1 of 3)]]
+- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3|Everybody Gets a Digital Clone! (Part 2 of 3)]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3|Everybody Gets a Digital Clone! (Part 3 of 3)]]
-- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 
 ### Media Signals
 - `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.

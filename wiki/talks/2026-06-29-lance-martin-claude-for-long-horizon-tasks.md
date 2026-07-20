@@ -59,7 +59,13 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-ib-wTAvCZqg-slides]]
 - Slide-derived terms: `generation`, `bias`, `tokens`, `question`, `search`, `documents`, `llms`, `recent`, `awws`, `step`, `lististr`, `retrieval`, `recency`, `tasks`, `typically`, `used`, `attend`, `models`
 
+## Official YouTube Recording
+- [[youtube-9QebvrrY3KY]] — scheduled official AI Engineer YouTube premiere for 2026-07-22.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this link as event-association and premiere-state metadata only until the recording is playable; do not use it as recording, transcript, or slide-content evidence.
+
 ## Media Evidence
+- [[youtube-9QebvrrY3KY]] - supporting context; not the exact session recording.
 - [[youtube-ib-wTAvCZqg]] - supporting context; not the exact session recording.
 
 - Source video: `youtube-ib-wTAvCZqg`
@@ -74,6 +80,9 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
+- `youtube-9QebvrrY3KY` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-9QebvrrY3KY`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-9QebvrrY3KY` (supporting context only): [[youtube-9QebvrrY3KY]]
 - `youtube-ib-wTAvCZqg` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
 - Evidence links for `youtube-ib-wTAvCZqg` (supporting context only): [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

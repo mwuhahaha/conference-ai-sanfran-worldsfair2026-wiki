@@ -1,15 +1,23 @@
 ---
-title: "Everybody Gets a Digital Clone! (Part 3 of 3)"
-category: "talks"
-date: "2026-06-29"
-time: "2:25pm-2:45pm"
-track: "Workshops Day 2"
-room: "Track 4"
-speakers: ["Neil Zeghidour"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Workshops Day 2"
-scheduleRoom: "Track 4"
-scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
+title: Everybody Gets a Digital Clone! (Part 3 of 3)
+category: talks
+date: '2026-06-29'
+time: '2:25pm-2:45pm'
+track: Workshops Day 2
+room: Track 4
+speakers:
+  - Neil Zeghidour
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Workshops Day 2
+scheduleRoom: Track 4
+scheduleLabels:
+  - Workshops Day 2
+  - Track 4
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-17T18:37:05.233Z'
 ---
 # Everybody Gets a Digital Clone! (Part 3 of 3)
 
@@ -32,7 +40,7 @@ Walk out of this workshop with a deployed digital clone that makes your phone ca
 Walk out of this workshop with a deployed digital clone that makes your phone calls for you. We will skip the theory and immediately get our hands dirty wiring together OpenClaw, Twilio, and Gradium to build an autonomous voice agent on a live cellular network. You will tackle the hardest parts of real-time telephony: routing audio streams, handling human interruption, and killing latency. In 60 minutes, your AI will be ready to call restaurants for the daily special, book appointments, and actively negotiate on your behalf.
 
 ### Speaker And Company Context
-- [[neil-zeghidour|Neil Zeghidour]] — Co-founder & CEO at [[gradium|Gradium]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.

@@ -1,10 +1,9 @@
 ---
 title: "Field Guide to Fable — Thariq Shihipar, Anthropic"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "9fubhllmsBU"
+publishedDate: "2026-07-06"
 last_enriched: "2026-07-15T23:40:57.160507+00:00"
 ---
 # Field Guide to Fable — Thariq Shihipar, Anthropic
@@ -18,14 +17,10 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable
-
-## Topic Signals
-- [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `night`, `fireside`, `getting`, `used`, `plan`, `asked`, `probably`, `figure`
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/9fubhllmsBU.txt` (3,542 words).
+Cached transcript text is available at `raw/sources/youtube-transcripts/9fubhllmsBU.txt`.
 
 ## Extracted Slides
 - [[youtube-9fubhllmsBU-slides]]

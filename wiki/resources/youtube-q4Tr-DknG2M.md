@@ -1,10 +1,9 @@
 ---
 title: "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "q4Tr-DknG2M"
+publishedDate: "2026-07-15"
 last_enriched: "2026-07-15T23:40:57.371275+00:00"
 ---
 # Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
@@ -18,14 +17,10 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement
-
-## Topic Signals
-- [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[mcp|MCP]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `coordination`, `fine`, `nudge`, `getting`, `used`, `internal`, `noticed`, `precise`
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
+Cached transcript text is available at `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt`.
 
 ## Extracted Slides
 - [[youtube-q4Tr-DknG2M-slides]]

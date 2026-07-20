@@ -1,15 +1,23 @@
 ---
-title: "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code."
-category: "talks"
-date: "2026-06-30"
-time: "2:25pm-2:45pm"
-track: "AI Architects: Tokenmaxxing"
-room: "Leadership 2"
-speakers: ["Keiji Kanazawa"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "AI Architects: Tokenmaxxing"
-scheduleRoom: "Leadership 2"
-scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
+title: I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.
+category: talks
+date: '2026-06-30'
+time: '2:25pm-2:45pm'
+track: 'AI Architects: Tokenmaxxing'
+room: Leadership 2
+speakers:
+  - Keiji Kanazawa
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: 'AI Architects: Tokenmaxxing'
+scheduleRoom: Leadership 2
+scheduleLabels:
+  - 'AI Architects: Tokenmaxxing'
+  - Leadership 2
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-19T01:12:29.625Z'
 ---
 # I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.
 
@@ -32,7 +40,7 @@ Lopopolo says code is a liability. Zechner got a standing ovation for "read ever
 Lopopolo says code is a liability. Zechner got a standing ovation for "read every fucking line." I was firmly at L — letting coding agents drive a refactoring for weeks, rubber-stamping PRs, trusting the vibes. Then I actually read what they'd built and couldn't explain my own system's contracts. The interfaces weren't wrong.
 
 ### Speaker And Company Context
-- [[keiji-kanazawa|Keiji Kanazawa]] — Principal Product Manager at [[microsoft|Microsoft]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]

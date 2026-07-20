@@ -1,15 +1,23 @@
 ---
-title: "Harness Engineering: Building the Production Cage for Powerful Domain Agents"
-category: "talks"
-date: "2026-07-01"
-time: "12:05pm-12:25pm"
-track: "Harness Engineering"
-room: "Main Stage"
-speakers: ["Mike Chambers"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Harness Engineering"
-scheduleRoom: "Main Stage"
-scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
+title: 'Harness Engineering: Building the Production Cage for Powerful Domain Agents'
+category: talks
+date: '2026-07-01'
+time: '12:05pm-12:25pm'
+track: Harness Engineering
+room: Main Stage
+speakers:
+  - Mike Chambers
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Harness Engineering
+scheduleRoom: Main Stage
+scheduleLabels:
+  - Harness Engineering
+  - Main Stage
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T13:17:34.278Z'
 ---
 # Harness Engineering: Building the Production Cage for Powerful Domain Agents
 
@@ -32,7 +40,7 @@ Every agent is a while loop. The model takes strings in and produces strings out
 Every agent is a while loop. The model takes strings in and produces strings out. We've all written it, debugged it, shipped it. And yet every team building agents is still re-inventing the same session management, truncation logic, tool wiring, and memory plumbing from scratch.
 
 ### Speaker And Company Context
-- [[mike-chambers|Mike Chambers]] — Senior Developer Advocate for Generative AI at [[amazon-web-services-aws|Amazon Web Services (AWS)]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[ai-sandboxes]]
@@ -59,11 +67,6 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-HT4l0DeP69I-slides]]
 - Slide-derived terms: `models`, `amazon`, `microsoft`, `bedrock`, `model`, `prompt`, `mike`, `system`, `master`, `roll`, `claude`, `chat`, `select`, `nova`, `learn`, `world`, `ate-wf-2025-demos`, `grand`
 
-## Livestream Segment
-- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
-
 ## Media Evidence
 - [[youtube-HT4l0DeP69I]] - supporting context; not the exact session recording.
 
@@ -88,3 +91,7 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Livestream Segment
+- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield.
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

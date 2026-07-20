@@ -1,0 +1,6 @@
+Repeated logic becomes a function.
+DUPLICATION A NAMEO FUNCTION
+total -price_a· price_a·0.15 total-price_b·price_b·0.15 total = price_c+ price_c· 0.15 defwith_tax(price): total =with_tax(price_a) return price·1.15
+osoft World's Fa
+Fair nMINIMA
+na Fa

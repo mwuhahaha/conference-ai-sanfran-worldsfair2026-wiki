@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: tool:tailscale-aperture
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.

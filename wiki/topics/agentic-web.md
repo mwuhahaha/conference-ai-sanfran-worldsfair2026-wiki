@@ -8,15 +8,17 @@ sourceAssessment:
   subjectId: concept:agentic-web
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:7c3a16d6cb61dc0ade8065e828fe93adc3e7c0b05fcd15d367d86f4bfd2769da
+sourceAssessmentBodySha256: sha256:943fb23d27329882ba0970accd9dd5bddf832eb735da7ea882d7c519c0ae80a7
 ---
 # Agentic Web
 
@@ -158,11 +160,21 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-2JX6JYyQG4Y` — 2,870 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-2JX6JYyQG4Y`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-2JX6JYyQG4Y`: screen, still, first, maybe, check, meeting, click, part.
+- Slide-derived themes for `youtube-2JX6JYyQG4Y`: amazon, easy, part, clicking, tool, still, figure, ease.
+- Evidence links for `youtube-2JX6JYyQG4Y` (primary event evidence): [[youtube-2JX6JYyQG4Y]], [[youtube-2JX6JYyQG4Y-transcript]], [[youtube-2JX6JYyQG4Y-slides]]
 - `youtube-ZSQb5fzRFPw` — 2,617 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-ZSQb5fzRFPw`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
 - Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
 - Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
@@ -171,6 +183,10 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-JnubYCYunk8` — 937 transcript words; 4 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-JnubYCYunk8`: browser, screenshot, give, click, website, been, took, maybe.
 - Slide-derived themes for `youtube-JnubYCYunk8`: today, trying, navigate, browser, challenge.

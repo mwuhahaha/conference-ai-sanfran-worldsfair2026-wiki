@@ -1,15 +1,23 @@
 ---
-title: "Your Voice Agent is Just a Walkie-Talkie"
-category: "talks"
-date: "2026-06-29"
-time: "12:05pm-12:25pm"
-track: "Claws & Personal Agents"
-room: "Track 6"
-speakers: ["Neil Zeghidour"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Claws & Personal Agents"
-scheduleRoom: "Track 6"
-scheduleLabels: ["Claws & Personal Agents", "Track 6", "session", "confirmed"]
+title: Your Voice Agent is Just a Walkie-Talkie
+category: talks
+date: '2026-06-29'
+time: '12:05pm-12:25pm'
+track: Claws & Personal Agents
+room: Track 6
+speakers:
+  - Neil Zeghidour
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Claws & Personal Agents
+scheduleRoom: Track 6
+scheduleLabels:
+  - Claws & Personal Agents
+  - Track 6
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-17T18:38:37.062Z'
 ---
 # Your Voice Agent is Just a Walkie-Talkie
 
@@ -32,7 +40,7 @@ Everyone says cascaded voice pipelines are dead and native speech models are the
 Everyone says cascaded voice pipelines are dead and native speech models are the future. Yet production environments are still dominated by STT-LLM-TTS stacks. Reconciling the natural flow of native audio with the elite reasoning of a cascaded agent remains an unsolved systems problem. This talk dissects the brutal technical trade-offs behind that counterintuitive reality.
 
 ### Speaker And Company Context
-- [[neil-zeghidour|Neil Zeghidour]] — Co-founder & CEO at [[gradium|Gradium]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.

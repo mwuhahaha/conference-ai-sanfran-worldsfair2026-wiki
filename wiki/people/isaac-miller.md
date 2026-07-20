@@ -12,13 +12,13 @@ sourceAssessment:
   subjectId: person:isaac-miller
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:a0cd2b474f66352eeaf790cd37ecdab8253f7258b6c98b144d87f838ca4c9719
+sourceAssessmentBodySha256: sha256:0663552754163ebf4a815e89bc21f16a7100f5dec2f296f0b3dbbc425af7f4e6
 ---
 # Isaac Miller
 
@@ -34,8 +34,6 @@ Lead Maintainer of DSPy. Co-Founder at [[cmpnd|cmpnd]]. Building an OSS Framewor
 ## Conference Sessions
 - [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model (2026-07-01, 9:40am-10:00am)
 
-## Livestream Appearances
-- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — [watch at 00:53:36](https://www.youtube.com/watch?v=I2cbIws9j10&t=3216s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

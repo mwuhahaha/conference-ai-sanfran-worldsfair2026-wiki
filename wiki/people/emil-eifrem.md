@@ -11,13 +11,13 @@ sourceAssessment:
   subjectId: person:emil-eifrem
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:7f53ba99ae3fcd4405874964e93794357a31fbf11d8ace648e662cf698da0ce4
+sourceAssessmentBodySha256: sha256:38515e21e009f233e8c54b9f3aecdf2834c9d964d9cf3f4b86e363d04bcdb3a3
 ---
 # Emil Eifrem
 
@@ -35,7 +35,7 @@ Emil created the category of graph databases and has devoted his professional li
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer (2026-07-01, 10:20am-10:30am)
 
 ## Livestream Appearances
-- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — [watch at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — [watch at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

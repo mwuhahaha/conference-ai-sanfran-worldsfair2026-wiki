@@ -1,31 +1,41 @@
 ---
-title: "Claude Agent SDK"
-category: "tools"
-aliases: ["Claude Agent SDK"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
-scheduleTracks: ["Track 1", "Posttraining & Midtraining"]
-scheduleRooms: ["Track 1"]
+title: Claude Agent SDK
+category: tools
+aliases:
+  - Claude Agent SDK
+sourceLabels:
+  - Official schedule
+  - Public YouTube metadata
+  - Transcript evidence
+  - Local slide OCR
+scheduleTracks:
+  - Track 1
+  - Posttraining & Midtraining
+scheduleRooms:
+  - Track 1
+last_auto_summarized: '2026-07-18T22:13:11.951Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:aab3f9c2e7e889cbecad994084e63c8b423d27745222b9e0822a675bc5f31804
   subjectId: tool:claude-agent-sdk
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:6a9eaaf846aa3ef8bb285fd9592e4ed354c15fe63a1367a63904f79e94d914f8
+sourceAssessmentBodySha256: sha256:467b76ad580e6dc889753176a062f3638e313c6724a4a6d8f6d203f74e3981e3
 ---
-
 # Claude Agent SDK
 
 ## Conference Context
-Claude Agent SDK appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
+Claude Agent SDK is anchored in the corpus by Thariq Shihipar’s explicitly titled full workshop for Anthropic. The supporting video is accompanied by extracted slides, an OpenCV-cropped reconstructed deck, and a dense-slide analysis, giving the page multiple views of the same practical SDK material rather than relying on title metadata alone. These artifacts establish the SDK as a concrete agent-development framework discussed through workshop demonstrations, while the source page clearly identifies the recording as supporting public context—not confirmed official World’s Fair San Francisco 2026 media.
 
-This page records confirmed mentions and keeps them separate from broader inferred relevance.
+The official schedule connections place that workshop material inside a broader production-agent lifecycle. Laurie Voss’s confirmed Track 1 sessions bracket June 29 with a two-hour 101 workshop at 9:00am and a two-hour 201 workshop at 2:20pm; the connected “Ship Real Agents” slide deck emphasizes hands-on evaluation of agentic applications. Fuad Ali’s confirmed 11:05am session in the Posttraining & Midtraining track adds the operational question of how deployed agents can feed experience into self-learning loops. Together, these links make Claude Agent SDK relevant here as an implementation layer that must be paired with behavioral evaluation, repository and task context, review gates, and reversible delivery practices before an agent is trusted in production.
+
+The surrounding evidence also marks important boundaries. The talk-video-transcript map separates schedule authority from media association, while the coding-agent evaluation pages judge platforms by whether they support reviewed, testable changes rather than rapid code generation alone. Slide pages from Laurie Voss’s evaluation material and the separate decision-trace deck provide adjacent evidence about observability and evaluation patterns; they should not be read as proof that every such pattern is a native Claude Agent SDK feature.
 
 ## Confirmed Evidence
 
@@ -55,4 +65,4 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/zMiSRliEzv4.txt`
 
 ## Confidence
-High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.
+High confidence that Claude Agent SDK is directly represented in the corpus: the public workshop metadata names the SDK, Thariq Shihipar, and Anthropic, and the recording has multiple independently generated slide artifacts, including dense-slide and reconstructed-deck outputs. Confidence is lower for attributing the connected evaluation, decision-trace, or self-learning practices specifically to the SDK. Those connections establish the production environment in which an SDK-built agent would be assessed and operated, while the Anthropic workshop remains labeled supporting context rather than confirmed official World’s Fair 2026 media.

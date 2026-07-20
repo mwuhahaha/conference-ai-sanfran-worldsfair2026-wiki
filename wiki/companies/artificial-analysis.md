@@ -10,13 +10,13 @@ sourceAssessment:
   subjectId: company:artificial-analysis
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:d8a10a64f0dae7fa218b7578f27550a457845e34447489940f8a660ff80f0182
+sourceAssessmentBodySha256: sha256:22c538912446f474e3776db2628d5cbe1cabcfbcd1cc5e59c86530bb563ebaf5
 ---
 # Artificial Analysis
 
@@ -48,6 +48,8 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, intelligence, artificial, index, models, leading, tokens, open.
+- Evidence links for `youtube-sRpqPgKeXNk` (supporting context only): [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Included organization-site descriptions remain attributed owner context, not independent validation or endorsement.

@@ -1,15 +1,22 @@
 ---
-title: "The Missing Layer in Agentic AI"
-category: "talks"
-date: "2026-07-01"
-time: "12:05pm-12:25pm"
-track: "Expo Stage 1 NE"
-room: "Expo Stage 1 NE"
-speakers: ["Giedrius Steimantas"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: ""
-scheduleRoom: "Expo Stage 1 NE"
-scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
+title: The Missing Layer in Agentic AI
+category: talks
+date: '2026-07-01'
+time: '12:05pm-12:25pm'
+track: Expo Stage 1 NE
+room: Expo Stage 1 NE
+speakers:
+  - Giedrius Steimantas
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: ''
+scheduleRoom: Expo Stage 1 NE
+scheduleLabels:
+  - Expo Stage 1 NE
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-19T08:51:08.319Z'
 ---
 # The Missing Layer in Agentic AI
 
@@ -32,7 +39,7 @@ Reasoning is solved. Web access isn't. Most agents break the moment they leave t
 Reasoning is solved. Web access isn't. Most agents break the moment they leave the sandbox blocked, rate-limited, or staring at a CAPTCHA. Giedrius will show the three primitives every production agent needs: a browser, a fast search API, and a universal scraper and demo an agent built on top of them that actually works in the wild.
 
 ### Speaker And Company Context
-- [[giedrius-steimantas|Giedrius Steimantas]] — Director of Scraping Engineering at [[oxylabs|Oxylabs]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agentic-search]]

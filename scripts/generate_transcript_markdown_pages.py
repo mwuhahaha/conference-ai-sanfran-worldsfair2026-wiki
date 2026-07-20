@@ -27,6 +27,8 @@ STALE_NO_OFFICIAL_TRANSCRIPT = (
     "No official session recording transcript was found by exact title match on the "
     "AI Engineer YouTube channel during this run."
 )
+PLAYABLE_VIDEO_AVAILABILITIES = {"", "public", "unlisted"}
+PLAYABLE_PLAYLIST_AVAILABILITIES = {"", "available"}
 
 
 def yaml_value(value: object) -> str:
@@ -102,11 +104,25 @@ def official_manifest_videos() -> list[dict[str, object]]:
     ]
 
 
+def manifest_row_is_playable(item: dict[str, object]) -> bool:
+    return (
+        str(item.get("videoAvailability") or "").casefold()
+        in PLAYABLE_VIDEO_AVAILABILITIES
+        and str(item.get("playlistAvailability") or "").casefold()
+        in PLAYABLE_PLAYLIST_AVAILABILITIES
+    )
+
+
 def official_manifest_video_ids(
     videos: list[dict[str, object]] | None = None,
 ) -> set[str]:
     source = videos if videos is not None else official_manifest_videos()
-    return {str(item["id"]) for item in source}
+    return {
+        str(item["id"])
+        for item in source
+        if item.get("mediaType") in {"talk_recording", "event_livestream"}
+        and manifest_row_is_playable(item)
+    }
 
 
 def official_recordings_by_talk(
@@ -123,9 +139,7 @@ def official_recordings_by_talk(
     for item in ordered:
         if item.get("mediaType") != "talk_recording":
             continue
-        if item.get("playlistAvailability") == "unavailable":
-            continue
-        if item.get("videoAvailability") in {"private", "unknown", "unavailable"}:
+        if not manifest_row_is_playable(item):
             continue
         matched_talks = item.get("matchedTalks")
         if not isinstance(matched_talks, list):
@@ -237,6 +251,92 @@ def rewrite_existing_section(markdown: str, heading: str, transform) -> str:
     return fm + body.rstrip() + "\n"
 
 
+def reconcile_generated_media_sections(
+    markdown: str,
+    excluded_video_ids: set[str],
+) -> str:
+    """Remove stale generator-owned projections while preserving manual prose."""
+
+    if not excluded_video_ids:
+        return markdown
+
+    def update_section(heading: str, transform) -> None:
+        nonlocal markdown
+        fm, body = split_frontmatter(markdown)
+        pattern = re.compile(
+            rf"^## {re.escape(heading)}\n(.*?)(?=^## |\Z)", re.M | re.S
+        )
+        match = pattern.search(body)
+        if match is None:
+            return
+        updated = transform(match.group(1)).strip()
+        replacement = f"## {heading}\n{updated}\n\n" if updated else ""
+        body = body[: match.start()] + replacement + body[match.end() :]
+        markdown = fm + body.rstrip() + "\n"
+
+    def recording_lines(section: str) -> str:
+        lines: list[str] = []
+        skip_evidence = False
+        retained_generated_recording = False
+        recording_pattern = re.compile(
+            r"^- \[\[youtube-([A-Za-z0-9_-]{11})(?:\|[^\]]+)?\]\] "
+            r"— official AI Engineer YouTube recording"
+        )
+        for line in section.splitlines():
+            match = recording_pattern.match(line)
+            if match:
+                skip_evidence = match.group(1) in excluded_video_ids
+                if skip_evidence:
+                    continue
+                retained_generated_recording = True
+            elif skip_evidence and line.startswith("- Evidence status:"):
+                skip_evidence = False
+                continue
+            lines.append(line)
+        if not retained_generated_recording:
+            lines = [
+                line
+                for line in lines
+                if not line.startswith(
+                    (
+                        "- Boundary: use these recordings as media evidence;",
+                        "- Boundary: use this recording as media evidence;",
+                    )
+                )
+            ]
+        return "\n".join(lines)
+
+    def dedicated_status_lines(section: str) -> str:
+        return "\n".join(
+            line
+            for line in section.splitlines()
+            if not (
+                line.startswith(
+                    "Cached dedicated-session transcript text is available at"
+                )
+                and any(video_id in line for video_id in excluded_video_ids)
+            )
+        )
+
+    def transcript_link_lines(section: str) -> str:
+        generated_link = re.compile(
+            r"^- \[\[youtube-([A-Za-z0-9_-]{11})-transcript\]\] —"
+        )
+        return "\n".join(
+            line
+            for line in section.splitlines()
+            if not (
+                (match := generated_link.match(line))
+                and match.group(1) in excluded_video_ids
+            )
+        )
+
+    update_section("Official YouTube Recording", recording_lines)
+    update_section("Transcript Status", dedicated_status_lines)
+    update_section("Transcript Markdown", transcript_link_lines)
+    return markdown
+
+
 def dedupe_media_source_blocks(section: str) -> str:
     prefix: list[str] = []
     order: list[str] = []
@@ -313,6 +413,8 @@ def project_official_media_to_talk(
     markdown: str,
     recordings: list[dict[str, object]],
     available_transcript_ids: set[str],
+    *,
+    excluded_video_ids: set[str] | None = None,
 ) -> str:
     if not recordings:
         return markdown
@@ -343,6 +445,7 @@ def project_official_media_to_talk(
             for video_id in video_ids_in_text(updated)
             if video_id in available_transcript_ids
             and video_id not in cached_official_ids
+            and video_id not in (excluded_video_ids or set())
         )
     )
     if linked_ids:
@@ -436,7 +539,7 @@ def write_registry(
         frontmatter({"title": "Transcripts", "category": "transcripts", "sourceLabels": ["Cached transcript markdown"]}),
         "# Transcripts",
         "",
-        "These pages expose cached YouTube and livestream transcripts as linkable wiki markdown. Official WF26 manifest entries are primary event evidence; every other retained transcript is supporting context only.",
+        "These pages expose cached YouTube and livestream transcripts as linkable wiki markdown. Playable official WF26 talk recordings and admitted event livestreams are primary event evidence; pending, unavailable, and every other retained transcript are supporting context only.",
         "",
         "## Official WF26 Event Transcripts",
     ]
@@ -465,22 +568,13 @@ def main(argv: list[str] | None = None) -> int:
     manifest_videos = official_manifest_videos()
     official_video_ids = official_manifest_video_ids(manifest_videos)
     recordings_by_talk = official_recordings_by_talk(manifest_videos)
+    all_manifest_ids = {str(item["id"]) for item in manifest_videos}
+    requested_ids = set(args.video_id)
     selected_ids = (
         official_video_ids
         if args.manifest_only
         else set(args.video_id) if args.video_id else None
     )
-    if args.video_id:
-        requested_ids = set(args.video_id)
-        recordings_by_talk = {
-            talk_id: [
-                item
-                for item in recordings
-                if str(item["id"]) in requested_ids
-            ]
-            for talk_id, recordings in recordings_by_talk.items()
-            if any(str(item["id"]) in requested_ids for item in recordings)
-        }
     for source_path, label in transcript_paths(selected_ids):
         video_id = source_path.stem
         title = titles.get(video_id) or titleize(video_id)
@@ -527,25 +621,38 @@ def main(argv: list[str] | None = None) -> int:
     for path in sorted((WIKI / "talks").glob("*.md")):
         text = path.read_text(encoding="utf-8")
         recordings = recordings_by_talk.get(path.stem, [])
+        exact_ids = {str(item["id"]) for item in recordings}
+        reconciliation_scope = requested_ids if args.video_id else all_manifest_ids
+        if args.video_id and not (
+            exact_ids & requested_ids
+            or any(video_id in text for video_id in reconciliation_scope)
+        ):
+            continue
+        excluded_manifest_ids = reconciliation_scope - exact_ids
+        updated = reconcile_generated_media_sections(text, excluded_manifest_ids)
         if recordings:
             updated = project_official_media_to_talk(
-                text,
+                updated,
                 recordings,
                 available_transcript_ids,
+                excluded_video_ids=all_manifest_ids - exact_ids,
             )
         else:
             linked = sorted(
                 video_id
-                for video_id in video_ids_in_text(text)
+                for video_id in video_ids_in_text(updated)
                 if video_id in transcript_ids
+                and video_id not in all_manifest_ids
             )
             if not linked:
-                continue
-            section = "\n".join(
-                transcript_markdown_line(video_id, dedicated=False)
-                for video_id in linked
-            )
-            updated = upsert_section(text, "Transcript Markdown", section)
+                if updated == text:
+                    continue
+            else:
+                section = "\n".join(
+                    transcript_markdown_line(video_id, dedicated=False)
+                    for video_id in linked
+                )
+                updated = upsert_section(updated, "Transcript Markdown", section)
         if updated != text:
             path.write_text(updated, encoding="utf-8")
             talk_updates += 1

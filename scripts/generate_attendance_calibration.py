@@ -20,6 +20,11 @@ from statistics import median
 from collections import defaultdict
 from pathlib import Path
 
+try:
+    from scripts import livestream_segment_projection as segment_projection
+except ModuleNotFoundError:  # Direct execution: python scripts/generate_*.py
+    import livestream_segment_projection as segment_projection
+
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
@@ -93,43 +98,34 @@ def authoritative_talk_media() -> tuple[set[tuple[str, str]], set[tuple[str, str
 
     direct: set[tuple[str, str]] = set()
     segments: set[tuple[str, str, int]] = set()
-    try:
-        manifest = json.loads(MEDIA_MANIFEST.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        manifest = {}
-    videos = manifest.get("videos", []) if isinstance(manifest, dict) else []
-    for video in videos if isinstance(videos, list) else []:
-        if not isinstance(video, dict) or video.get("mediaType") != "talk_recording":
-            continue
+    videos = segment_projection.load_manifest(MEDIA_MANIFEST)
+    talks = segment_projection.load_talks(WIKI / "talks")
+    visible_segments = segment_projection.validate_and_filter_segments(
+        talks,
+        videos,
+        segment_projection.load_segments(LIVESTREAM_SEGMENTS),
+    )
+    for video in videos:
         video_id = str(video.get("id") or "")
-        if not VALID_YOUTUBE_ID.fullmatch(video_id):
+        if video.get("mediaType") != "talk_recording":
             continue
         if video.get("videoAvailability") not in {"public", "unlisted"}:
             continue
         if video.get("playlistAvailability") != "available":
             continue
-        matched_talks = video.get("matchedTalks", [])
-        for talk_slug in matched_talks if isinstance(matched_talks, list) else []:
-            if isinstance(talk_slug, str) and talk_slug:
-                direct.add((talk_slug, video_id))
+        for talk_slug in segment_projection.matched_talks(video):
+            if talk_slug not in talks:
+                raise ValueError(
+                    f"dedicated recording references missing talk: {talk_slug}"
+                )
+            direct.add((talk_slug, video_id))
 
-    try:
-        segment_rows = json.loads(LIVESTREAM_SEGMENTS.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        segment_rows = []
-    for segment in segment_rows if isinstance(segment_rows, list) else []:
-        if not isinstance(segment, dict):
-            continue
+    for segment in visible_segments:
         talk_slug = str(segment.get("talk_slug") or "")
         video_id = str(segment.get("video_id") or "")
         start_seconds = segment.get("start_seconds")
-        if (
-            talk_slug
-            and VALID_YOUTUBE_ID.fullmatch(video_id)
-            and isinstance(start_seconds, int)
-            and start_seconds >= 0
-        ):
-            segments.add((talk_slug, video_id, start_seconds))
+        assert isinstance(start_seconds, int)
+        segments.add((talk_slug, video_id, start_seconds))
     return direct, segments
 
 
@@ -143,31 +139,25 @@ def collect_room_videos() -> dict[str, list[dict]]:
         track = fm.get("scheduleTrack") or fm.get("track") or ""
         title = fm.get("title") or path.stem
         talk_slug = path.stem
-        candidates: list[dict] = []
-        for match in re.finditer(r"youtube\.com/watch\?v=([A-Za-z0-9_-]{11})&t=(\d+)s", text):
-            segment_key = (talk_slug, match.group(1), int(match.group(2)))
-            if segment_key not in livestream_segments:
+        candidates: list[dict] = [
+            {
+                "video_id": video_id,
+                "source_kind": "candidate-session-video",
+                "segment_start_seconds": None,
+            }
+            for owner, video_id in sorted(direct_media)
+            if owner == talk_slug
+        ]
+        for owner, video_id, start_seconds in sorted(livestream_segments):
+            if owner != talk_slug:
                 continue
             candidates.append(
                 {
-                    "video_id": match.group(1),
+                    "video_id": video_id,
                     "source_kind": "worldsfair-livestream-segment",
-                    "segment_start_seconds": int(match.group(2)),
+                    "segment_start_seconds": start_seconds,
                 }
             )
-        for match in re.finditer(
-            r"\[\[youtube-([A-Za-z0-9_-]{11})(?:\||\]\])",
-            text,
-        ):
-            video_id = match.group(1)
-            if (talk_slug, video_id) in direct_media:
-                candidates.append(
-                    {
-                        "video_id": video_id,
-                        "source_kind": "candidate-session-video",
-                        "segment_start_seconds": None,
-                    }
-                )
         for line in text.splitlines():
             if "youtube.com/watch?v=" not in line:
                 continue
@@ -176,10 +166,15 @@ def collect_room_videos() -> dict[str, list[dict]]:
             match = re.search(r"youtube\.com/watch\?v=([A-Za-z0-9_-]{11})", line)
             if not match:
                 continue
-            source_kind = "supporting-related-video" if "speaker-match related prior/adjacent" in line else "candidate-session-video"
-            if source_kind == "candidate-session-video" and (talk_slug, match.group(1)) not in direct_media:
+            if "speaker-match related prior/adjacent" not in line:
                 continue
-            candidates.append({"video_id": match.group(1), "source_kind": source_kind, "segment_start_seconds": None})
+            candidates.append(
+                {
+                    "video_id": match.group(1),
+                    "source_kind": "supporting-related-video",
+                    "segment_start_seconds": None,
+                }
+            )
         seen = set()
         for candidate in candidates:
             video_id = candidate["video_id"]

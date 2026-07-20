@@ -12,12 +12,12 @@ sourceAssessment:
   subjectId: company:ora
   domain: companies page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:f52a924122b1cc7363ab3037022327fb6568b4efa81b6ccc6a3ce63cfd53adcd
+sourceAssessmentBodySha256: sha256:d3acf657c72518491d9c9f4cf17b1241c3c822396239b92cf57a54a064183cd8
 ---
 # ORA
 
@@ -68,6 +68,9 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ` (supporting context only): [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 ## Evidence Boundary
 The official speaker roster is canonical for Liad Yosef's World's Fair participation. ORA's public site, ORA's research article, and public professional profiles are supporting sources used to explain the company and the agentic-web context.

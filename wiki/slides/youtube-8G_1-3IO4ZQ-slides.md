@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents
 
 ## Extracted Slides
 ![[assets/slides/8G_1-3IO4ZQ/slide-001.jpg]]

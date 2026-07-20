@@ -62,10 +62,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Slide-derived terms: `think`, `ai.engineer`, `https`, `year`, `they`, `david`, `better`, `evolution`, `latentspace`, `engineering`, `agentengineering`, `i/ai.engineer`, `people`, `look`, `million`, `maybe`, `good`, `swyx`
 
 ## Livestream Segment
-- [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield.
 - Evidence: transcript-aligned segment validated against the official schedule and timed captions.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
-
 ## Media Evidence
 - [[youtube-5N33E9tC400]] - supporting context; not the exact session recording.
 

@@ -5,6 +5,7 @@ sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist m
 videoId: "VrpEyglYgeU"
 publishedDate: "2026-07-10"
 last_enriched: "2026-07-17T01:12:30.092398+00:00"
+sourceLayers: ["supporting_context"]
 ---
 # In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar
 

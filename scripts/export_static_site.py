@@ -1017,26 +1017,57 @@ def render_category(category: str, category_pages: list[Page], all_pages: list[P
     return render_layout(titleize(category), body, all_pages, category)
 
 
+def json_for_html_script(value: Any) -> str:
+    """Serialize JSON without allowing data to terminate an inline script node."""
+
+    return (
+        json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+        .replace("&", "\\u0026")
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+    )
+
+
 def render_search(pages: list[Page]) -> str:
     index = [
         {"title": page.title, "url": page.url, "category": page.category, "excerpt": page.excerpt}
         for page in pages
         if not is_category_index(page)
     ]
+    serialized_index = json_for_html_script(index)
     body = f"""<section class="landing">
   <p class="eyebrow">Search</p>
   <h1>Search the wiki</h1>
   <input id="search-input" class="search-input" type="search" placeholder="Type to filter pages" autofocus>
   <div id="search-results" class="card-grid"></div>
 </section>
-<script>
-const pages = {json.dumps(index)};
+<script id="search-index" type="application/json">{serialized_index}</script>
+<script id="search-runtime">
+const indexNode = document.querySelector("#search-index");
+const pages = JSON.parse(indexNode.textContent);
 const input = document.querySelector("#search-input");
 const results = document.querySelector("#search-results");
+const sidebarInput = document.querySelector('form.search input[name="q"]');
+const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
+input.value = initialQuery;
+if (sidebarInput) sidebarInput.value = initialQuery;
 function render() {{
   const q = input.value.trim().toLowerCase();
   const hits = pages.filter((page) => !q || [page.title, page.category, page.excerpt].join(" ").toLowerCase().includes(q)).slice(0, 100);
-  results.innerHTML = hits.map((page) => `<a class="card" href="${{page.url}}"><strong>${{page.title}}</strong><small>${{page.category}}</small><span>${{page.excerpt || ""}}</span></a>`).join("");
+  const cards = hits.map((page) => {{
+    const card = document.createElement("a");
+    const title = document.createElement("strong");
+    const category = document.createElement("small");
+    const excerpt = document.createElement("span");
+    card.className = "card";
+    card.href = page.url;
+    title.textContent = page.title;
+    category.textContent = page.category;
+    excerpt.textContent = page.excerpt || "";
+    card.append(title, category, excerpt);
+    return card;
+  }});
+  results.replaceChildren(...cards);
 }}
 input.addEventListener("input", render);
 render();

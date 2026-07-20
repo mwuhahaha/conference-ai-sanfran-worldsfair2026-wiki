@@ -11,13 +11,13 @@ sourceAssessment:
   subjectId: person:pablo-castro
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:49141dd6fb9c0e6979184f340bc2cf141315857a203355efecddc5b53ec4f7da
+sourceAssessmentBodySha256: sha256:e734f0b95ef3958db173b6b7229323c05700627e2c47ce23157ce886a7b9064b
 ---
 # Pablo Castro
 
@@ -32,8 +32,6 @@ Pablo leads the AI Knowledge team in the CoreAI division at [[microsoft|Microsof
 ## Conference Sessions
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge (2026-06-29, 9:05am-9:25am)
 
-## Livestream Appearances
-- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — [watch at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) in WF2026: Software Factories & Keynotes (Day 1).
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 

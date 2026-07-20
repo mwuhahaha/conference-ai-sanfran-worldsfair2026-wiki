@@ -7,7 +7,6 @@ into raw/sources/youtube-transcripts or raw/sources/youtube-livestream-transcrip
 
 from __future__ import annotations
 
-import html
 import json
 import re
 from collections import Counter, defaultdict
@@ -20,6 +19,7 @@ WIKI = ROOT / "wiki"
 RESOURCES = WIKI / "resources"
 TOPICS = WIKI / "topics"
 QUOTES = WIKI / "quotes"
+OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 
 STOPWORDS = {
     "about", "after", "again", "agent", "agents", "also", "because", "being", "build", "building",
@@ -243,6 +243,52 @@ def read_json(path: Path, default):
     return json.loads(path.read_text(errors="ignore"))
 
 
+def official_video_manifest() -> dict[str, dict]:
+    payload = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    videos = payload.get("videos", []) if isinstance(payload, dict) else []
+    return {
+        str(item["id"]): item
+        for item in videos
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    }
+
+
+def primary_event_video_ids() -> set[str]:
+    return {
+        video_id
+        for video_id, item in official_video_manifest().items()
+        if item.get("mediaType") in {"talk_recording", "event_livestream"}
+    }
+
+
+def reconcile_retired_topic_connection_roles() -> int:
+    """Demote stale generated topic rows whose video lost primary admission."""
+
+    admitted = primary_event_video_ids()
+    pattern = re.compile(
+        r"verified event YouTube resource; via "
+        r"\[\[youtube-(?P<video_id>[A-Za-z0-9_-]{11})(?:\|[^\]]+)?\]\]"
+    )
+    updated_pages = 0
+    for path in sorted(TOPICS.glob("*.md")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+
+        def demote(match: re.Match[str]) -> str:
+            if match.group("video_id") in admitted:
+                return match.group(0)
+            return match.group(0).replace(
+                "verified event YouTube resource",
+                "related YouTube resource",
+                1,
+            )
+
+        updated = pattern.sub(demote, text)
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+            updated_pages += 1
+    return updated_pages
+
+
 def load_new_videos() -> dict[str, dict]:
     videos: dict[str, dict] = {}
     metadata: dict[str, dict] = {}
@@ -357,19 +403,29 @@ def title_alignment(video_title: str, session_title: str) -> tuple[int, float]:
 
 
 def confirmed_event_matches(video: dict, matches: list[tuple[int, dict]]) -> list[tuple[int, dict]]:
-    confirmed = []
-    for score, session in matches:
-        overlap, ratio = title_alignment(video["youtube_title"], session.get("title", ""))
-        if score >= 80 and overlap >= 2 and ratio >= 0.75:
-            confirmed.append((score, session))
-    return confirmed
+    """Return only the manifest's exact scheduled-session associations.
+
+    Title and speaker similarity can propose discovery candidates, but cannot
+    independently create a primary event connection.
+    """
+
+    item = official_video_manifest().get(str(video.get("video_id") or ""), {})
+    admitted_talks = item.get("matchedTalks") if isinstance(item, dict) else []
+    if not isinstance(admitted_talks, list):
+        return []
+    admitted = {str(talk) for talk in admitted_talks}
+    return [
+        (score, session)
+        for score, session in matches
+        if session_slug(session) in admitted
+    ]
 
 
 def confirmed_event_video(video: dict, matches: list[tuple[int, dict]]) -> bool:
-    if video.get("source_kind") == "channel_stream":
-        title = video.get("youtube_title", "").lower()
-        return "wf26" in title or "wf2026" in title or ("world" in title and "fair" in title and "2026" in title)
-    return bool(confirmed_event_matches(video, matches))
+    """Treat only manifest-admitted playable event media as primary evidence."""
+
+    del matches  # Similarity is discovery evidence, never the admission gate.
+    return str(video.get("video_id") or "") in primary_event_video_ids()
 
 
 def transcript_summary(text: str) -> list[str]:
@@ -894,6 +950,7 @@ def main() -> int:
     processed = []
     missing = []
     skipped_non_article = []
+    reconciled_topic_pages = reconcile_retired_topic_connection_roles()
     for video_id, video in sorted(videos.items(), key=lambda item: item[1]["youtube_title"].lower()):
         path = transcript_path(video_id)
         if not path:
@@ -932,6 +989,7 @@ def main() -> int:
         "missing_transcripts": missing,
         "skipped_non_article": skipped_non_article,
         "quote_count": len(quote_rows),
+        "reconciled_retired_topic_pages": reconciled_topic_pages,
         "updated_at": datetime.now(timezone.utc).isoformat(),
     }
     (RAW / "transcript-enrichment-report-2026-07-06.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")

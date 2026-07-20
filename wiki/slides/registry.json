@@ -114,6 +114,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-2JX6JYyQG4Y-slides",
+    "title": "Slides: Perception Agents — Antje Barth, Amazon AGI Lab",
+    "path": "wiki/slides/youtube-2JX6JYyQG4Y-slides.md",
+    "slide_count": 31
+  },
+  {
     "id": "youtube-2e9ANoOEn28-slides",
     "title": "Slides: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
     "path": "wiki/slides/youtube-2e9ANoOEn28-slides.md",
@@ -346,6 +352,12 @@
     "title": "Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
     "path": "wiki/slides/youtube-8SUJEqQNClw-slides.md",
     "slide_count": 21
+  },
+  {
+    "id": "youtube-8qWIPUia2O8-slides",
+    "title": "Slides: Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
+    "path": "wiki/slides/youtube-8qWIPUia2O8-slides.md",
+    "slide_count": 13
   },
   {
     "id": "youtube-9-vGxMoUM9Y-dense-slides",
@@ -720,6 +732,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-GgLQ02aO-hs-slides",
+    "title": "Slides: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy",
+    "path": "wiki/slides/youtube-GgLQ02aO-hs-slides.md",
+    "slide_count": 22
+  },
+  {
     "id": "youtube-HEFSExa0xl0-slides",
     "title": "Slides: Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
     "path": "wiki/slides/youtube-HEFSExa0xl0-slides.md",
@@ -880,6 +898,12 @@
     "title": "Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is",
     "path": "wiki/slides/youtube-Jty4s9-Jb78-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-JvKO40CFq-s-slides",
+    "title": "Slides: Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth",
+    "path": "wiki/slides/youtube-JvKO40CFq-s-slides.md",
+    "slide_count": 12
   },
   {
     "id": "youtube-Jx4ZFEAq6bY-slides",
@@ -1152,6 +1176,18 @@
     "slide_count": 8
   },
   {
+    "id": "youtube-RGSFUqzqErE-slides",
+    "title": "Slides: On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+    "path": "wiki/slides/youtube-RGSFUqzqErE-slides.md",
+    "slide_count": 28
+  },
+  {
+    "id": "youtube-RGe6EjucbzI-slides",
+    "title": "Slides: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners",
+    "path": "wiki/slides/youtube-RGe6EjucbzI-slides.md",
+    "slide_count": 15
+  },
+  {
     "id": "youtube-Rx8f05JI_WA-slides",
     "title": "Slides: SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
     "path": "wiki/slides/youtube-Rx8f05JI_WA-slides.md",
@@ -1360,6 +1396,12 @@
     "title": "Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora",
     "path": "wiki/slides/youtube-XNtkiQJ49Ps-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-XV2oYi7kojc-slides",
+    "title": "Slides: Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic",
+    "path": "wiki/slides/youtube-XV2oYi7kojc-slides.md",
+    "slide_count": 6
   },
   {
     "id": "youtube-Xfl50508LZM-dense-slides",
@@ -1944,6 +1986,12 @@
     "slide_count": 4
   },
   {
+    "id": "youtube-il1c1a2FufU-slides",
+    "title": "Slides: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI",
+    "path": "wiki/slides/youtube-il1c1a2FufU-slides.md",
+    "slide_count": 12
+  },
+  {
     "id": "youtube-jVGCulhBRZI-dense-slides",
     "title": "Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
     "path": "wiki/slides/youtube-jVGCulhBRZI-dense-slides.md",
@@ -2332,6 +2380,12 @@
     "title": "Slides: Cohere for VPs of AI: Vivek Muppalla",
     "path": "wiki/slides/youtube-u3NofYYstaY-slides.md",
     "slide_count": 9
+  },
+  {
+    "id": "youtube-uIiA6DquRiE-slides",
+    "title": "Slides: Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+    "path": "wiki/slides/youtube-uIiA6DquRiE-slides.md",
+    "slide_count": 11
   },
   {
     "id": "youtube-uU5Gv2h8-9g-slides",

@@ -1,15 +1,24 @@
 ---
-title: "Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship"
-category: "talks"
-date: "2026-06-29"
-time: "11:05am-12:05pm"
-track: "Workshops Day 1"
-room: "Track 9"
-speakers: ["Elizabeth Fuentes Leone", "Sandhya Subramani"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Workshops Day 1"
-scheduleRoom: "Track 9"
-scheduleLabels: ["Workshops Day 1", "Track 9", "session", "confirmed"]
+title: 'Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship'
+category: talks
+date: '2026-06-29'
+time: '11:05am-12:05pm'
+track: Workshops Day 1
+room: Track 9
+speakers:
+  - Elizabeth Fuentes Leone
+  - Sandhya Subramani
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Workshops Day 1
+scheduleRoom: Track 9
+scheduleLabels:
+  - Workshops Day 1
+  - Track 9
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T07:10:39.767Z'
 ---
 # Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship
 
@@ -32,8 +41,7 @@ One agent. Fully deployed to production before the workshop ends. We'll take you
 One agent. Fully deployed to production before the workshop ends. We'll take you from a blank file to a running production agent using Amazon Bedrock AgentCore and Strands Agents, covering the full lifecycle: ideation, coding the agent loop, deploying to serverless infrastructure, wiring up observability, breaking it intentionally, fixing it with tracing data, and shipping the final version. Bring your laptop and leave with a deployed agent.
 
 ### Speaker And Company Context
-- [[elizabeth-fuentes-leone|Elizabeth Fuentes Leone]] — Developer Advocate at [[amazon-web-services|Amazon Web Services]].
-- [[sandhya-subramani|Sandhya Subramani]] — Senior Developer Advocate, GenAI at [[amazon-web-services|Amazon Web Services]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[coding-agents]]

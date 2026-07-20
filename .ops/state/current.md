@@ -2,12 +2,72 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-17T15:28:37Z
+updated: 2026-07-20T12:15:07Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
 
 The completed AIE-specific conversion plan remains closed. Follow-up public navigation work now lives in `.ops/plans/worldsfair-static-navigation-followup.md`.
+
+## 2026-07-20 Search And Official-Media Refresh
+
+- Static search now hydrates both search fields from the `?q=` query string,
+  filters immediately on page load, and renders the embedded index through
+  text-only DOM APIs. Inline index JSON escapes HTML-sensitive characters.
+- The owner-validated official playlist now contains all 43 entries. The
+  complete official-media union contains 46 records: 33 playable playlist
+  recordings, 3 admitted official event livestreams, 2 scheduled premieres,
+  and 8 unavailable playlist placeholders.
+- Seven newly playable playlist recordings were imported with transcripts,
+  resource pages, slide outcomes, and conservative talk ownership:
+  `2JX6JYyQG4Y`, `il1c1a2FufU`, `JvKO40CFq-s`, `8qWIPUia2O8`,
+  `GgLQ02aO-hs`, `RGe6EjucbzI`, and `XV2oYi7kojc`.
+- Local transcript coverage is 36/36 playable items and typed slide outcomes
+  are complete for all 36. The transcript layer contains 132 pages: 36
+  primary-event transcripts and 96 supporting-context transcripts.
+- Opaque `yt-dlp` placeholders for private/unavailable videos now enter the
+  existing unavailable path instead of aborting the whole monitor run.
+- Unified maker run `update-20260720T094613Z-28ace9e80c` completed, validated,
+  and promoted locally. It was the only maker update in this refresh. Two stale
+  primary associations, `o-zkvb0iFDQ` and `sRpqPgKeXNk`, are now durable
+  supporting-context records rather than exact-session evidence.
+- `raw/sources/livestream-talk-segments.json` is the reviewed semantic
+  authority for seven current broad-stream navigation segments (SHA-256
+  `4b5a8a13744d23049b60371acf136a5f6b152fbb8933d0a426726271d85c56db`).
+  Projection is deterministic, rejects demoted streams, non-high-confidence
+  rows, malformed inputs, and cross-talk timestamp collisions, and removes a
+  broad segment when a playable dedicated recording supersedes it.
+- The matcher now parses valid YAML frontmatter, including the single-quoted
+  and multiline forms produced by auto-summary. It computes and validates all
+  matches before any write, but is intentionally excluded from the automatic
+  maker DAG: ambiguous recomputation is an explicit candidate/operator-review
+  workflow and cannot replace the reviewed registry during a media update.
+  Attendance derives primary candidates from the raw manifest and reviewed
+  segment authority rather than requiring their links to survive in Markdown;
+  Main Stage remains calibrated from 2 primary videos and 12 stored evidence
+  frames, including Mike Chambers at 03:14:28.
+- The maker DAG deliberately keeps projection early but after source
+  enrichment: `source_enrichment` -> `livestream_segment_projection` ->
+  `attendance_evidence_sync` -> synthesis/evolution/sanitization -> agent index
+  -> normalization -> assessment -> static export. Normalization has explicit
+  preservation tests for the owned segment, appearance, and attendance
+  sections.
+- The monitor now performs canonical post-promotion segment, attendance, and
+  full media-role gates. This catches the current generic maker limitation that
+  candidate raw/source mutations are not promoted with wiki/static outputs.
+  Durable match acquisition must remain in the monitor transaction unless the
+  generic maker later gains transactional source-root promotion.
+- A second external follow-up remains for the hub auto-summary service: it has
+  no project opt-out and can rewrite whole pages. This repository now tolerates
+  its valid YAML and restores/audits owned sections, but project exclusion or
+  section-owned merging belongs in the hub rather than this repository.
+- The final aligned agent snapshot is
+  `snapshot:fda9f4494156e2236cca37770b54b1ee95d481cf8c2b4a4154aef00392134cd2`:
+  2,469 pages, 3,693 evidence records, 431 resources, 1,540 entities, 1,670
+  relationships, 3 claims, and 10 patterns. Full project validation passes 349
+  tests; the 145-test media/segment/attendance/DAG slice, changed-file Ruff,
+  Python compilation, static export, full media-role audit, attendance audit,
+  and agent-product build are green. No external deployment was performed.
 
 ## E11 Unified Maker Integration
 
@@ -75,15 +135,14 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   assessment. Public Markdown carries categorical evidence capsules; the human
   site shows fixed friendly notices only at configured edge states and does not
   expose ordinary limited-state notices or numeric scores.
-- The official-media union contains 34 WF26 items. A live owner-validated
-  playlist dry-run found no new playlist IDs: 29 are playable, 3 scheduled, and
-  2 unavailable. Local transcript coverage is 25/29 playable items and slide
-  outcomes are complete for 29/29; four playable items retain explicit
-  transcript gaps rather than fabricated or misclassified content.
-- The transcript layer contains 123 pages: 28 primary-event transcripts and 95
+- The official-media union contains 46 WF26 items. The owner-validated playlist
+  contains 43 entries: 33 playable recordings, 2 scheduled premieres, and 8
+  unavailable placeholders. Three separately admitted official event
+  livestreams complete the union. Local transcript coverage and typed slide
+  outcomes are complete for all 36 playable items.
+- The transcript layer contains 132 pages: 36 primary-event transcripts and 96
   supporting-context transcripts. Transcript, video, OCR, slide, and synthesis
-  roles remain labeled separately. Playlist slide outcomes are 23 cached, 1
-  `no_slides`, 3 pending, and 2 unavailable.
+  roles remain labeled separately.
 - Private review-policy bootstrap data lives only at ignored
   `.ops/state/cache/wiki-maker/private-policy.json`, as declared by the profile.
   Provider/browser receipts, claim assessments, candidate profiles, and writing
@@ -200,23 +259,24 @@ safe state.
 The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to
 a bounded official-channel scan, then on 2026-07-17 to complete reconciliation
 against the official WF26 playlist. Playlist membership now establishes event
-association while the schedule remains canonical for session facts. The final
-union contains 34 records and preserves separately admitted event livestreams
-and recordings outside the playlist.
+association while the schedule remains canonical for session facts. The latest
+union contains 46 records and preserves three separately admitted event
+livestreams outside the 43-item playlist.
 The earlier channel-scan slice had added or corrected:
 - Four playable recordings with cached transcripts, transcript pages, slide/OCR pages, resource pages, and talk synthesis: Pauline Brunet, Addy Osmani, Erik Meijer, and Alex Bauer.
 - Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
 - Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.
 
-Validation at `2026-07-17T15:28:37Z`: the live recurring dry-run found no new
-playlist IDs and left the worktree unchanged. The union has typed outcomes for
-all 34 admitted items; the static and agent builds contain 2,437
-Markdown-identical pages, and article normalization is idempotent.
+Validation at `2026-07-20T12:15:07Z`: all 46 admitted items have typed outcomes,
+all 36 playable items have transcripts and slide outcomes, the final agent
+snapshot contains 2,469 pages, and the project suite passes 349 tests. Maker,
+monitor, and local deterministic validation ran with external publishing
+disabled.
 
 ## Next Step
 
-Review and merge the pushed maker and WF26 feature branches, return the installed
-monitor to a clean `main` checkout, then enable the local six-hour timer.
-Deployment remains a separate explicit operation. The monitor will
-revisit scheduled premieres and run the same unified update when their media
-becomes playable.
+Review the local search, monitor, media, and preservation-recovery changes.
+Deployment remains a separate explicit operation. The monitor should revisit
+the Tariq Shaukat and Lance Martin scheduled premieres and run the same unified
+update when their media becomes playable. Return the installed monitor to a
+clean `main` checkout before enabling the local six-hour timer.

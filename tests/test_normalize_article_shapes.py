@@ -144,6 +144,49 @@ class NormalizeArticleShapesTest(unittest.TestCase):
             )
             self.assertFalse(NORMALIZER.normalize_page(page, "talks"))
 
+    def test_normalizer_preserves_livestream_projection_sections(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "wiki"
+            talk = root / "talks" / "trial.md"
+            person = root / "people" / "alice.md"
+            talk.parent.mkdir(parents=True)
+            person.parent.mkdir(parents=True)
+            segment = (
+                "- [Watch in livestream at 03:14:28]"
+                "(https://www.youtube.com/watch?v=stream00001&t=11668s) — Day 3.\n"
+                "- Evidence: transcript-aligned segment.\n"
+                "- Confidence: high."
+            )
+            appearance = (
+                "- [[trial|Trial]] — [watch at 03:14:28]"
+                "(https://www.youtube.com/watch?v=stream00001&t=11668s) in Day 3."
+            )
+            talk.write_text(
+                "# Trial\n\n"
+                "## Evidence Graph\nGraph.\n\n"
+                f"## Livestream Segment\n{segment}\n\n"
+                "## Conference Context\nContext.\n\n"
+                "## Session Description\nDescription.\n\n"
+                "## Media Evidence\nMedia.\n",
+                encoding="utf-8",
+            )
+            person.write_text(
+                "# Alice\n\n"
+                "## Evidence Graph\nGraph.\n\n"
+                f"## Livestream Appearances\n{appearance}\n\n"
+                "## Profile\nProfile.\n",
+                encoding="utf-8",
+            )
+
+            self.assertTrue(NORMALIZER.normalize_page(talk, "talks"))
+            self.assertTrue(NORMALIZER.normalize_page(person, "people"))
+            self.assertIn(f"## Livestream Segment\n{segment}", talk.read_text())
+            self.assertIn(
+                f"## Livestream Appearances\n{appearance}", person.read_text()
+            )
+            self.assertFalse(NORMALIZER.normalize_page(talk, "talks"))
+            self.assertFalse(NORMALIZER.normalize_page(person, "people"))
+
 
 if __name__ == "__main__":
     unittest.main()

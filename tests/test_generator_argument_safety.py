@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import sys
 from pathlib import Path
 
 import pytest
@@ -10,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def load_script(name: str):
     path = ROOT / "scripts" / name
+    scripts_path = str(path.parent)
+    if scripts_path not in sys.path:
+        sys.path.insert(0, scripts_path)
     spec = importlib.util.spec_from_file_location(name.removesuffix(".py"), path)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
@@ -107,6 +111,34 @@ def test_manifest_registry_preserves_supporting_pages_with_explicit_context_role
     assert "## Supporting Context Transcripts" in index
 
 
+def test_stale_pending_and_unavailable_transcripts_cannot_become_primary():
+    module = load_script("generate_transcript_markdown_pages.py")
+    videos = [
+        {"id": "recording01", "mediaType": "talk_recording", "videoAvailability": "public"},
+        {"id": "stream00001", "mediaType": "event_livestream"},
+        {"id": "premiere001", "mediaType": "scheduled_premiere", "videoAvailability": "public"},
+        {"id": "private0001", "mediaType": "unavailable_playlist_item"},
+        {"id": "privateCut1", "mediaType": "talk_recording", "videoAvailability": "private"},
+        {
+            "id": "playlistBad",
+            "mediaType": "talk_recording",
+            "videoAvailability": "public",
+            "playlistAvailability": "unavailable",
+        },
+        {
+            "id": "playlistUnk",
+            "mediaType": "event_livestream",
+            "videoAvailability": "public",
+            "playlistAvailability": "unknown",
+        },
+    ]
+
+    assert module.official_manifest_video_ids(videos) == {
+        "recording01",
+        "stream00001",
+    }
+
+
 def test_synthesis_summary_is_private_state_not_a_public_raw_source():
     module = load_script("generate_synthesis_layers.py")
 
@@ -194,6 +226,65 @@ def test_media_signal_priority_preserves_official_ids_and_labels_sparse_context(
     assert "Evidence links for `youtube-support0001` (supporting context only)" in rendered
     assert "Slide-derived themes" not in rendered
     assert "slide-derived text signals" not in rendered
+
+
+def test_official_event_video_ids_exclude_nonplayable_manifest_rows():
+    module = load_script("enrich_all_articles_from_sources.py")
+    module.official_event_video_ids.cache_clear()
+    module.official_video_manifest = lambda: {
+        "recording01": {
+            "mediaType": "talk_recording",
+            "matchedTalks": ["example-talk"],
+        },
+        "stream00001": {"mediaType": "event_livestream"},
+        "premiere001": {"mediaType": "scheduled_premiere"},
+        "private0001": {"mediaType": "unavailable_playlist_item"},
+        "privateCut1": {
+            "mediaType": "talk_recording",
+            "videoAvailability": "private",
+            "playlistAvailability": "available",
+            "matchedTalks": ["example-talk"],
+        },
+        "playlistBad": {
+            "mediaType": "talk_recording",
+            "videoAvailability": "public",
+            "playlistAvailability": "unavailable",
+            "matchedTalks": ["example-talk"],
+        },
+        "playlistUnk": {
+            "mediaType": "event_livestream",
+            "videoAvailability": "public",
+            "playlistAvailability": "unknown",
+        },
+    }
+
+    assert module.official_event_video_ids() == frozenset(
+        {"recording01", "stream00001"}
+    )
+    assert module.official_recording_ids_for_talk("example-talk") == ["recording01"]
+    module.official_event_video_ids.cache_clear()
+
+
+def test_active_source_enrichment_demotes_retired_topic_primary_marker(
+    tmp_path, monkeypatch
+):
+    module = load_script("enrich_all_articles_from_sources.py")
+    page = tmp_path / "topic.md"
+    page.write_text(
+        "# Topic\n\n"
+        "- Valid (verified event YouTube resource; via [[youtube-validVid001]])\n"
+        "- Retired (verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(
+        module, "official_event_video_ids", lambda: frozenset({"validVid001"})
+    )
+
+    assert module.reconcile_retired_topic_connection_roles(page) is True
+    assert module.reconcile_retired_topic_connection_roles(page) is False
+    text = page.read_text(encoding="utf-8")
+    assert "verified event YouTube resource; via [[youtube-validVid001]]" in text
+    assert "related YouTube resource; via [[youtube-o-zkvb0iFDQ]]" in text
 
 
 def test_talk_evidence_excludes_unmatched_official_event_media_and_stale_blocks(
@@ -692,21 +783,723 @@ def test_event_resource_classifier_rebuilds_slide_registry_from_existing_pages(
 def test_manifest_media_type_sets_do_not_promote_private_or_premiere_as_cut(tmp_path, monkeypatch):
     module = load_script("classify_video_resource_sources.py")
     manifest = tmp_path / "official-wf26-video-manifest.json"
+    channel_streams = tmp_path / "aidotengineer-channel-streams-latest.json"
     manifest.write_text(
         json.dumps(
             {
                 "videos": [
                     {"id": "recording01", "mediaType": "talk_recording"},
+                    {"id": "stream00001", "mediaType": "event_livestream"},
                     {"id": "premiere001", "mediaType": "scheduled_premiere"},
                     {"id": "private0001", "mediaType": "unavailable_playlist_item"},
+                    {
+                        "id": "blockedCut1",
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "private",
+                        "playlistAvailability": "available",
+                    },
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    channel_streams.write_text(
+        json.dumps(
+            {
+                "entries": [
+                    {
+                        "id": "heuristic01",
+                        "title": "AI Engineer World's Fair 2026 Livestream",
+                    }
                 ]
             }
         ),
         encoding="utf-8",
     )
     monkeypatch.setattr(module, "OFFICIAL_VIDEO_MANIFEST", manifest)
-    monkeypatch.setattr(module, "confirmed_event_cut_ids", lambda: set())
+    monkeypatch.setattr(module, "RAW", tmp_path)
+    monkeypatch.setattr(module, "confirmed_event_cut_ids", lambda: {"legacyHeuristic"})
 
     assert module.official_wf_cut_ids() == {"recording01"}
+    assert module.official_wf_livestream_ids() == {"stream00001"}
     assert module.official_wf_premiere_ids() == {"premiere001"}
-    assert module.official_wf_unavailable_ids() == {"private0001"}
+    assert module.official_wf_unavailable_ids() == {"blockedCut1", "private0001"}
+
+
+def test_media_source_layer_override_tracks_non_playable_state():
+    module = load_script("classify_video_resource_sources.py")
+    page = '---\ntitle: "Media"\ncategory: "resources"\n---\n# Media\n'
+
+    scheduled = module.reconcile_media_source_layers(
+        page, "primary event scheduled premiere"
+    )
+    assert 'sourceLayers: ["supporting_context"]' in scheduled
+
+    unavailable = module.reconcile_media_source_layers(
+        scheduled, "official event unavailable playlist item"
+    )
+    assert unavailable.count('sourceLayers: ["supporting_context"]') == 1
+
+    playable = module.reconcile_media_source_layers(
+        unavailable, "primary event cut video"
+    )
+    assert "sourceLayers:" not in playable
+
+    supporting = module.reconcile_media_source_layers(
+        unavailable, "supporting external video"
+    )
+    assert 'sourceLayers: ["supporting_context"]' in supporting
+
+
+def test_livestream_inventory_separates_title_discovery_from_primary_admission(
+    tmp_path, monkeypatch
+):
+    module = load_script("generate_livestream_inventory.py")
+    raw = tmp_path / "raw" / "sources"
+    wiki = tmp_path / "wiki"
+    raw.mkdir(parents=True)
+    (raw / "aidotengineer-channel-streams-latest.json").write_text(
+        json.dumps(
+            {
+                "entries": [
+                    {"id": "manifest001", "title": "Main Stage Stream"},
+                    {
+                        "id": "heuristic01",
+                        "title": "AI Engineer World's Fair 2026 Livestream",
+                    },
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    manifest = raw / "official-wf26-video-manifest.json"
+    manifest.write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {"id": "manifest001", "mediaType": "event_livestream"}
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(module, "RAW", raw)
+    monkeypatch.setattr(module, "WIKI", wiki)
+    monkeypatch.setattr(module, "RESOURCES", wiki / "resources")
+    monkeypatch.setattr(module, "SLIDES", wiki / "slides")
+    monkeypatch.setattr(module, "OFFICIAL_VIDEO_MANIFEST", manifest)
+
+    rows = {row["video_id"]: row for row in module.stream_rows()}
+
+    assert rows["manifest001"]["primary_wf26"] is True
+    assert rows["heuristic01"]["worldsfair"] is True
+    assert rows["heuristic01"]["primary_wf26"] is False
+
+
+def write_static_media_fixture(root):
+    search_rows = []
+    for category in ("resources", "transcripts", "slides"):
+        source_dir = root / "wiki" / category
+        if not source_dir.is_dir():
+            continue
+        for source in source_dir.glob("youtube-*.md"):
+            target = root / "dist" / "md" / category / source.name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(source.read_bytes())
+            rendered = root / "dist" / category / source.stem / "index.html"
+            rendered.parent.mkdir(parents=True, exist_ok=True)
+            rendered.write_text(
+                f"<html><main>{source.read_text(encoding='utf-8')}</main></html>",
+                encoding="utf-8",
+            )
+            search_rows.append(
+                {
+                    "title": source.stem,
+                    "url": f"/{category}/{source.stem}/",
+                    "category": category,
+                    "excerpt": source.read_text(encoding="utf-8"),
+                }
+            )
+    search = root / "dist" / "search" / "index.html"
+    search.parent.mkdir(parents=True, exist_ok=True)
+    search.write_text(
+        '<script id="search-index" type="application/json">'
+        + json.dumps(search_rows)
+        + "</script>",
+        encoding="utf-8",
+    )
+
+
+def test_primary_media_role_audit_checks_markers_segments_and_transcripts(
+    tmp_path, monkeypatch
+):
+    module = load_script("audit_primary_media_roles.py")
+    monkeypatch.setattr(module, "DURABLE_RETIRED_IDS", set())
+    root = tmp_path / "project"
+    raw = root / "raw" / "sources"
+    topics = root / "wiki" / "topics"
+    resources = root / "wiki" / "resources"
+    transcripts = root / "wiki" / "transcripts"
+    for path in (raw, topics, resources, transcripts):
+        path.mkdir(parents=True)
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {"id": "recording01", "mediaType": "talk_recording"},
+                    {"id": "stream00001", "mediaType": "event_livestream"},
+                    {"id": "premiere001", "mediaType": "scheduled_premiere"},
+                    {
+                        "id": "privateCut1",
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "private",
+                        "playlistAvailability": "available",
+                    },
+                    {
+                        "id": "missingCut1",
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "unavailable",
+                    },
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    topic = topics / "example.md"
+    topic.write_text(
+        "- verified event YouTube resource; via [[youtube-premiere001]]\n"
+        "- verified event YouTube resource; via [[youtube-orphan00001]]\n",
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text(
+        json.dumps([{"video_id": "recording01"}]), encoding="utf-8"
+    )
+    (transcripts / "registry.json").write_text(
+        json.dumps(
+            [
+                {
+                    "videoId": "premiere001",
+                    "sourceRole": "primary_event_evidence",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    retired = resources / "youtube-retired0001.md"
+    retired.write_text("# Retired\n\nSupporting context only.\n", encoding="utf-8")
+    write_static_media_fixture(root)
+
+    failed = module.audit_corpus(
+        root, phase="pre-agent", retired_ids={"retired0001"}
+    )
+    assert {issue["code"] for issue in failed["issues"]} == {
+        "canonical_non_admitted_primary_reference",
+        "segment_stream_not_admitted",
+        "transcript_primary_role_not_admitted",
+    }
+    assert {issue.get("video_id") for issue in failed["issues"]} >= {
+        "premiere001",
+        "orphan00001",
+    }
+    assert "privateCut1" not in failed["admitted_primary_ids"]
+    assert "missingCut1" not in failed["admitted_primary_ids"]
+
+    topic.write_text(
+        "- related YouTube resource; via [[youtube-premiere001]]\n"
+        "- related YouTube resource; via [[youtube-orphan00001]]\n",
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text(
+        json.dumps([{"video_id": "stream00001"}]), encoding="utf-8"
+    )
+    (transcripts / "registry.json").write_text(
+        json.dumps(
+            [{"videoId": "premiere001", "sourceRole": "context_only"}]
+        ),
+        encoding="utf-8",
+    )
+
+    assert (
+        module.audit_corpus(
+            root, phase="pre-agent", retired_ids={"retired0001"}
+        )["ok"]
+        is True
+    )
+
+
+def test_primary_media_role_audit_checks_exact_livestream_segment_projection(
+    tmp_path,
+):
+    module = load_script("audit_primary_media_roles.py")
+    root = tmp_path / "project"
+    talks = root / "wiki" / "talks"
+    talks.mkdir(parents=True)
+    manifest = [
+        {
+            "id": "stream00001",
+            "mediaType": "event_livestream",
+        },
+        {
+            "id": "dedicated01",
+            "mediaType": "talk_recording",
+            "playlistAvailability": "available",
+            "videoAvailability": "public",
+            "matchedTalks": ["now-dedicated"],
+        },
+    ]
+    segments = [
+        {
+            "talk_slug": "current-segment",
+            "video_id": "stream00001",
+            "start_seconds": 11668,
+            "confidence": "high",
+        },
+        {
+            "talk_slug": "now-dedicated",
+            "video_id": "stream00001",
+            "start_seconds": 200,
+            "confidence": "high",
+        },
+    ]
+    (talks / "current-segment.md").write_text(
+        "# Current\n", encoding="utf-8"
+    )
+    (talks / "now-dedicated.md").write_text(
+        "# Dedicated\n\n## Livestream Segment\n"
+        "- https://www.youtube.com/watch?v=stream00001&t=200s\n",
+        encoding="utf-8",
+    )
+    (talks / "removed-segment.md").write_text(
+        "# Removed\n\n## Livestream Segment\n"
+        "- https://www.youtube.com/watch?v=stream00001&t=300s\n",
+        encoding="utf-8",
+    )
+
+    issues = []
+    module.audit_livestream_segment_projections(
+        root,
+        manifest=manifest,
+        segments=segments,
+        talks_dir=talks,
+        issues=issues,
+        code_prefix="canonical",
+    )
+
+    assert {
+        (issue["path"], tuple(map(tuple, issue["missing_segments"])), tuple(map(tuple, issue["extra_segments"])))
+        for issue in issues
+    } == {
+        ("wiki/talks/current-segment.md", (("stream00001", 11668),), ()),
+        ("wiki/talks/now-dedicated.md", (), (("stream00001", 200),)),
+        ("wiki/talks/removed-segment.md", (), (("stream00001", 300),)),
+    }
+
+    (talks / "current-segment.md").write_text(
+        "# Current\n\n## Livestream Segment\n"
+        "- https://www.youtube.com/watch?v=stream00001&t=11668s\n",
+        encoding="utf-8",
+    )
+    (talks / "now-dedicated.md").write_text("# Dedicated\n", encoding="utf-8")
+    (talks / "removed-segment.md").write_text("# Removed\n", encoding="utf-8")
+    issues = []
+    module.audit_livestream_segment_projections(
+        root,
+        manifest=manifest,
+        segments=segments,
+        talks_dir=talks,
+        issues=issues,
+        code_prefix="canonical",
+    )
+
+    assert issues == []
+
+
+def test_primary_media_role_audit_infers_retired_ids_and_checks_static_and_agent(
+    tmp_path, monkeypatch
+):
+    module = load_script("audit_primary_media_roles.py")
+    retired_id = "retired0001"
+    monkeypatch.setattr(module, "DURABLE_RETIRED_IDS", {retired_id})
+    root = tmp_path / "project"
+    raw = root / "raw" / "sources"
+    resources = root / "wiki" / "resources"
+    transcripts = root / "wiki" / "transcripts"
+    for path in (raw, resources, transcripts):
+        path.mkdir(parents=True)
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {"videos": [{"id": "recording01", "mediaType": "talk_recording"}]}
+        ),
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text("[]\n", encoding="utf-8")
+    (resources / f"youtube-{retired_id}.md").write_text(
+        "# Retired\n\nThis is a primary event video source.\n",
+        encoding="utf-8",
+    )
+    (transcripts / f"youtube-{retired_id}-transcript.md").write_text(
+        "# Transcript\n\nSource role: primary event evidence.\n\n## Transcript\nbody\n",
+        encoding="utf-8",
+    )
+    (transcripts / "registry.json").write_text(
+        json.dumps(
+            [
+                {
+                    "videoId": retired_id,
+                    "sourceRole": "primary_event_evidence",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    write_static_media_fixture(root)
+    agent = root / "dist" / "agent"
+    agent.mkdir(parents=True)
+    (agent / "pages.jsonl").write_text(
+        json.dumps(
+            {
+                "sourcePath": f"wiki/resources/youtube-{retired_id}.md",
+                "sourceRoles": ["official_primary"],
+                "summary": "This is a primary event video source.",
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    (agent / "evidence.jsonl").write_text(
+        json.dumps(
+            {
+                "locator": f"https://www.youtube.com/watch?v={retired_id}",
+                "sourceRole": "primary_event_evidence",
+                "excerpt": "This is a primary event video source.",
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    failed = module.audit_corpus(root, phase="full")
+    assert retired_id in failed["known_media_ids"]
+    assert retired_id in failed["retired_ids"]
+    assert {
+        "canonical_non_admitted_file_primary_context",
+        "static_non_admitted_file_primary_context",
+        "static_non_admitted_html_primary_context",
+        "static_search_non_admitted_primary_context",
+        "transcript_primary_role_not_admitted",
+        "agent_page_non_admitted_primary_role",
+        "agent_page_non_admitted_primary_context",
+        "agent_evidence_non_admitted_primary_role",
+        "agent_evidence_non_admitted_primary_context",
+    } <= {issue["code"] for issue in failed["issues"]}
+
+    (resources / f"youtube-{retired_id}.md").write_text(
+        "# Retired\n\nSupporting context only.\n", encoding="utf-8"
+    )
+    (transcripts / f"youtube-{retired_id}-transcript.md").write_text(
+        "# Transcript\n\nSupporting context only.\n\n## Transcript\nbody\n",
+        encoding="utf-8",
+    )
+    (transcripts / "registry.json").write_text(
+        json.dumps([{"videoId": retired_id, "sourceRole": "context_only"}]),
+        encoding="utf-8",
+    )
+    write_static_media_fixture(root)
+    (agent / "pages.jsonl").write_text(
+        json.dumps(
+            {
+                "sourcePath": f"wiki/resources/youtube-{retired_id}.md",
+                "sourceRoles": ["context_only"],
+                "summary": "Supporting context only.",
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    (agent / "evidence.jsonl").write_text(
+        json.dumps(
+            {
+                "locator": f"https://www.youtube.com/watch?v={retired_id}",
+                "sourceRole": "context_only",
+                "excerpt": "Supporting context only.",
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    assert module.audit_corpus(root, phase="full")["ok"] is True
+
+
+def test_primary_media_role_audit_binds_agent_claims_to_owned_media_ids(
+    tmp_path, monkeypatch
+):
+    module = load_script("audit_primary_media_roles.py")
+    monkeypatch.setattr(module, "DURABLE_RETIRED_IDS", set())
+    root = tmp_path / "project"
+    raw = root / "raw" / "sources"
+    resources = root / "wiki" / "resources"
+    transcripts = root / "wiki" / "transcripts"
+    talks = root / "wiki" / "talks"
+    for path in (raw, resources, transcripts, talks):
+        path.mkdir(parents=True)
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {"videos": [{"id": "recording01", "mediaType": "talk_recording"}]}
+        ),
+        encoding="utf-8",
+    )
+    (raw / "livestream-talk-segments.json").write_text("[]\n", encoding="utf-8")
+    (transcripts / "registry.json").write_text("[]\n", encoding="utf-8")
+    (talks / "schedule.md").write_text("# Schedule\n", encoding="utf-8")
+    (resources / "livestream-inventory.md").write_text(
+        "# Livestream Inventory\n", encoding="utf-8"
+    )
+    non_admitted = {
+        "bounded0001",
+        "conflict001",
+        "history0001",
+        "ownedbad001",
+        "related0001",
+    }
+    for video_id in non_admitted:
+        (resources / f"youtube-{video_id}.md").write_text(
+            f"# {video_id}\n\nSupporting context only.\n", encoding="utf-8"
+        )
+    write_static_media_fixture(root)
+
+    agent = root / "dist" / "agent"
+    agent.mkdir(parents=True)
+    safe_pages = [
+        {
+            "id": "page:schedule",
+            "sourcePath": "wiki/talks/schedule.md",
+            "renderedPath": "talks/schedule/",
+            "sourceLayers": ["official_schedule"],
+            "sourceRoles": ["primary_event_evidence"],
+            "summary": (
+                "Official schedule facts are primary event evidence. "
+                "Related video [[youtube-related0001]] is supporting context."
+            ),
+        },
+        {
+            "id": "page:corpus",
+            "sourcePath": "wiki/resources/livestream-inventory.md",
+            "renderedPath": "resources/livestream-inventory/",
+            "sourceRoles": ["context_only"],
+            "summary": "Historical livestream inventory.",
+        },
+        {
+            "id": "page:bounded",
+            "sourcePath": "wiki/resources/youtube-bounded0001.md",
+            "renderedPath": "resources/youtube-bounded0001/",
+            "sourceRoles": ["context_only"],
+            "summary": (
+                "This is not a primary event video; it is supporting context only."
+            ),
+        },
+    ]
+    safe_evidence = [
+        {
+            "pageId": "page:corpus",
+            "locator": "https://www.youtube.com/watch?v=history0001",
+            "sourceRole": "context_only",
+            "excerpt": (
+                "Confirmed WF26 livestreams are primary event video sources; prior "
+                "livestreams are historical/supporting context."
+            ),
+        },
+        {
+            "pageId": "page:bounded",
+            "locator": "https://www.youtube.com/watch?v=bounded0001",
+            "sourceRole": "context_only",
+            "excerpt": (
+                "This is not a primary event video; it is supporting context only."
+            ),
+        },
+    ]
+    (agent / "pages.jsonl").write_text(
+        "".join(json.dumps(row) + "\n" for row in safe_pages), encoding="utf-8"
+    )
+    (agent / "evidence.jsonl").write_text(
+        "".join(json.dumps(row) + "\n" for row in safe_evidence), encoding="utf-8"
+    )
+
+    assert module.audit_corpus(
+        root, phase="full", retired_ids=non_admitted
+    )["ok"] is True
+
+    unsafe_page = {
+        "id": "page:owned",
+        "sourcePath": "wiki/resources/youtube-ownedbad001.md",
+        "renderedPath": "resources/youtube-ownedbad001/",
+        "sourceRoles": ["primary_event_evidence"],
+        "summary": "This is a primary event video source.",
+    }
+    unsafe_evidence = {
+        "pageId": "page:owned",
+        "locator": "https://www.youtube.com/watch?v=ownedbad001",
+        "sourceRole": "primary_event_evidence",
+        "excerpt": "This is a primary event video source.",
+    }
+    contradictory_page = {
+        "id": "page:conflict",
+        "sourcePath": "wiki/resources/youtube-conflict001.md",
+        "renderedPath": "resources/youtube-conflict001/",
+        "sourceRoles": ["context_only"],
+        "summary": (
+            "This is a primary event video source. Use supporting context elsewhere."
+        ),
+    }
+    contradictory_evidence = {
+        "pageId": "page:conflict",
+        "locator": "https://www.youtube.com/watch?v=conflict001",
+        "sourceRole": "context_only",
+        "excerpt": (
+            "This is a primary event video source. Use supporting context elsewhere."
+        ),
+    }
+    (agent / "pages.jsonl").write_text(
+        "".join(
+            json.dumps(row) + "\n"
+            for row in [*safe_pages, unsafe_page, contradictory_page]
+        ),
+        encoding="utf-8",
+    )
+    (agent / "evidence.jsonl").write_text(
+        "".join(
+            json.dumps(row) + "\n"
+            for row in [*safe_evidence, unsafe_evidence, contradictory_evidence]
+        ),
+        encoding="utf-8",
+    )
+
+    failed = module.audit_corpus(root, phase="full", retired_ids=non_admitted)
+    assert {
+        "agent_page_non_admitted_primary_role",
+        "agent_page_non_admitted_primary_context",
+        "agent_evidence_non_admitted_primary_role",
+        "agent_evidence_non_admitted_primary_context",
+    } <= {issue["code"] for issue in failed["issues"]}
+    context_issues = {
+        (issue["code"], issue.get("video_id")) for issue in failed["issues"]
+    }
+    assert (
+        "agent_page_non_admitted_primary_context",
+        "conflict001",
+    ) in context_issues
+    assert (
+        "agent_evidence_non_admitted_primary_context",
+        "conflict001",
+    ) in context_issues
+
+
+def test_primary_media_id_parser_does_not_treat_transcript_directory_as_id():
+    module = load_script("audit_primary_media_roles.py")
+
+    assert module.extract_media_ids(
+        "raw/sources/youtube-transcripts/recording01.txt",
+        {"recording01", "transcripts"},
+    ) == {"recording01"}
+
+
+def test_primary_media_role_audit_detects_topic_slide_session_projection_drift(
+    tmp_path,
+):
+    module = load_script("audit_primary_media_roles.py")
+    root = tmp_path / "project"
+    topics = root / "wiki" / "topics"
+    slides = root / "wiki" / "slides"
+    topics.mkdir(parents=True)
+    slides.mkdir(parents=True)
+    (slides / "youtube-partvideo01-slides.md").write_text(
+        "# Part deck\n\n"
+        "## Related Scheduled Sessions\n"
+        "- [[part-1]] — Part 1\n\n"
+        "## Extracted Slides\nOCR\n",
+        encoding="utf-8",
+    )
+    (slides / "youtube-othervideo1-slides.md").write_text(
+        "# Other deck\n\n"
+        "## Related Scheduled Sessions\n"
+        "- [[other-talk]] — Independent Deck Talk\n\n"
+        "## Extracted Slides\nOCR\n",
+        encoding="utf-8",
+    )
+    topic = topics / "topic.md"
+    topic.write_text(
+        "# Topic\n\n"
+        "## Slide-Derived Scheduled Session Signals\n"
+        "- [[part-1]] — Part 1\n"
+        "- [[stale-talk]] — stale owned edge\n\n"
+        "## Slide-Derived Supporting Decks\n"
+        "- [[youtube-partvideo01-slides]] — part deck\n"
+        "- [[youtube-othervideo1-slides]] — other deck\n\n"
+        "## Connections\n"
+        "- [[stale-talk]] — independent manual edge remains out of scope\n",
+        encoding="utf-8",
+    )
+
+    issues = []
+    module.audit_topic_slide_session_projections(
+        root,
+        topics_dir=topics,
+        slides_dir=slides,
+        issues=issues,
+        code_prefix="canonical",
+    )
+
+    assert issues == [
+        {
+            "code": "canonical_topic_slide_session_projection_mismatch",
+            "path": "wiki/topics/topic.md",
+            "extra_talks": ["stale-talk"],
+            "missing_talks": ["other-talk"],
+        }
+    ]
+
+    topic.write_text(
+        topic.read_text(encoding="utf-8").replace(
+            "- [[stale-talk]] — stale owned edge",
+            "- [[other-talk]] — Independent Deck Talk",
+            1,
+        ),
+        encoding="utf-8",
+    )
+    issues = []
+    module.audit_topic_slide_session_projections(
+        root,
+        topics_dir=topics,
+        slides_dir=slides,
+        issues=issues,
+        code_prefix="canonical",
+    )
+    assert issues == []
+    assert "independent manual edge" in topic.read_text(encoding="utf-8")
+
+    orphan = topics / "orphan.md"
+    orphan.write_text(
+        "# Orphan\n\n"
+        "## Slide-Derived Scheduled Session Signals\n"
+        "- [[stale-talk]] — stale generator-owned edge\n\n"
+        "## Connections\n"
+        "- [[manual-only]] — independent manual edge\n",
+        encoding="utf-8",
+    )
+    issues = []
+    module.audit_topic_slide_session_projections(
+        root,
+        topics_dir=topics,
+        slides_dir=slides,
+        issues=issues,
+        code_prefix="canonical",
+    )
+    assert issues == [
+        {
+            "code": "canonical_topic_slide_session_projection_mismatch",
+            "path": "wiki/topics/orphan.md",
+            "extra_talks": ["stale-talk"],
+            "missing_talks": [],
+        }
+    ]

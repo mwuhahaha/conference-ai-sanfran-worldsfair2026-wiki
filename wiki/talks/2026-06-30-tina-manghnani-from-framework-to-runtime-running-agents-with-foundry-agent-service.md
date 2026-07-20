@@ -1,15 +1,24 @@
 ---
-title: "From framework to runtime: running agents with Foundry Agent Service"
-category: "talks"
-date: "2026-06-30"
-time: "10:45am-11:05am"
-track: "Track M"
-room: "Track M"
-speakers: ["Tina Manghnani", "Keiji Kanazawa"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Track M"
-scheduleRoom: "Track M"
-scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
+title: 'From framework to runtime: running agents with Foundry Agent Service'
+category: talks
+date: '2026-06-30'
+time: '10:45am-11:05am'
+track: Track M
+room: Track M
+speakers:
+  - Tina Manghnani
+  - Keiji Kanazawa
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Track M
+scheduleRoom: Track M
+scheduleLabels:
+  - Track M
+  - Track M
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-19T01:13:28.486Z'
 ---
 # From framework to runtime: running agents with Foundry Agent Service
 
@@ -32,8 +41,7 @@ See how agents move from frameworks into production systems. Learn how Foundry A
 See how agents move from frameworks into production systems. Learn how Foundry Agent Service provides hosted execution, scaling, and lifecycle management—combining models, tools, and orchestration into a production-ready runtime.
 
 ### Speaker And Company Context
-- [[tina-manghnani|Tina Manghnani]] — Product Manager at [[microsoft|Microsoft]].
-- [[keiji-kanazawa|Keiji Kanazawa]] — Principal Product Manager at [[microsoft|Microsoft]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - Topic links are pending transcript-backed classification.

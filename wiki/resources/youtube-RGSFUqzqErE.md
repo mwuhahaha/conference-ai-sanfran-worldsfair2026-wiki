@@ -1,29 +1,32 @@
 ---
 title: "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft"
 category: "resources"
-sourceLabels: ["Official AI Engineer YouTube channel", "Official-channel video metadata"]
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "RGSFUqzqErE"
-publishedDate: "2026-07-11"
+publishedDate: "2026-07-17"
 last_enriched: "2026-07-16T08:28:11.687564+00:00"
 ---
 # On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft
 
 ## What It Is
-A verified official AI Engineer YouTube premiere for AI Engineer World's Fair San Francisco 2026. The recording, transcript, and slide evidence remain pending until the premiere is playable; the official schedule remains canonical for schedule facts.
+An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: verified official event video scheduled for premiere for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel scheduled premiere.
-- Use: event-video metadata until the recording becomes playable; transcript and slide evidence remain pending, and official schedule pages remain canonical for schedule metadata.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
 
 ## Transcript Status
-Transcript import status: pending_premiere.
+Cached transcript text is available at `raw/sources/youtube-transcripts/RGSFUqzqErE.txt`.
 
 ## Extracted Slides
-- Slide extraction status: pending_premiere.
+- [[youtube-RGSFUqzqErE-slides]]
+
+## Transcript Markdown
+- [[youtube-RGSFUqzqErE-transcript]] — full cached transcript markdown.
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=RGSFUqzqErE)

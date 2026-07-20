@@ -1,10 +1,9 @@
 ---
 title: "Forward Deployed Engineering at Cursor — Pauline Brunet"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "APqXGyCoGW4"
+publishedDate: "2026-07-14"
 last_enriched: "2026-07-16T08:28:12.888910+00:00"
 ---
 # Forward Deployed Engineering at Cursor — Pauline Brunet
@@ -18,14 +17,10 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] — How Forward Deployed Engineering is done at Cursor
-
-## Topic Signals
-- [[coding-agents|Coding Agents]], [[mcp|MCP]], [[software-factories|Software Factories]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `rightfully`, `phenomenal`, `hiring`, `risks`, `point`, `conference`, `name`, `experience`
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
+Cached transcript text is available at `raw/sources/youtube-transcripts/APqXGyCoGW4.txt`.
 
 ## Extracted Slides
 - [[youtube-APqXGyCoGW4-slides]]

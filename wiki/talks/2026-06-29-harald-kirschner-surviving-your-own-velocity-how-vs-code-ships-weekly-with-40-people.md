@@ -1,15 +1,23 @@
 ---
-title: "Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People"
-category: "talks"
-date: "2026-06-29"
-time: "3:20pm-3:40pm"
-track: "Track M"
-room: "Track M"
-speakers: ["Harald Kirschner"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Track M"
-scheduleRoom: "Track M"
-scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
+title: 'Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People'
+category: talks
+date: '2026-06-29'
+time: '3:20pm-3:40pm'
+track: Track M
+room: Track M
+speakers:
+  - Harald Kirschner
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Track M
+scheduleRoom: Track M
+scheduleLabels:
+  - Track M
+  - Track M
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-18T20:10:08.570Z'
 ---
 # Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
 
@@ -32,7 +40,7 @@ A ~40-person team ships VS Code weekly to millions of users. Models got good eno
 A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and leaning in is exactly what broke our process. This talk is the part most AI talks skip: what you have to rebuild after agents start working. We had to scale three things at once: how fast we ship, how we hold quality, and how fast we learn, and each one we fixed revealed the next.
 
 ### Speaker And Company Context
-- [[harald-kirschner|Harald Kirschner]] — Principal Product Manager at [[microsoft|Microsoft]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[coding-agents]]

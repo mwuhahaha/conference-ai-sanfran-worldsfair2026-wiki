@@ -1,14 +1,16 @@
 ---
-title: "Agentic Search"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: Agentic Search
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-18T14:16:27.899Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:58b65f04598a04ca30a080efc8c6b33e7e991083d42e78d2017b3d017f56b803
   subjectId: concept:agentic-search
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -16,8 +18,11 @@ sourceAssessment:
   - source:official-wf26-youtube--CnA2lGfymY
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-8G_1-3IO4ZQ
+  - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-Cz4v1WHVyZc
+  - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-c35YoMdnI78
@@ -25,12 +30,20 @@ sourceAssessment:
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:e50ed5c886c75a604f6881a9f3b586a002caae31eae7f93f0065f37d82a2510a
+sourceAssessmentBodySha256: sha256:c3c5ea9e4a6550f289805db643d867e0f3882408f5d6f46784be60a01941ecfa
 ---
 # Agentic Search
 
 ## Overview
-Agentic search is retrieval where an AI system actively plans, queries, follows leads, compares sources, and decides when it has enough evidence. It goes beyond one-shot RAG by treating search as an iterative reasoning and tool-use process.
+Agentic search turns retrieval into an explicit control loop: choose an index or source, select a retrieval mode, inspect the evidence, reformulate weak queries, follow promising relationships, and stop only when the result is adequate for the task. The conference’s Search & Retrieval program supplies concrete components for that loop. [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search|Jo Kristian Bergum’s BM25 session]] argues for retaining exact lexical matching inside agent workflows, while [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Jeff Vestal’s hybrid-search session]] combines lexical and vector retrieval instead of treating embeddings as a universal replacement. [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|Will Bryk’s Exa session]] moves the same problem onto the open web, framing search infrastructure around agent consumption. [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs|Nixon Dinh]] focuses on catalogs whose structure agents can navigate directly, and [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results|George He]] sharpens the output requirement by distinguishing document retrieval from delivering usable results.
+
+The retrieval policy is itself something to train, optimize, and evaluate. [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search|Maximilian-David Rumpf and Lotte Seifert]] connect search behavior to reinforcement learning, while [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Dhruv Nathawani’s NVIDIA Data Designer workshop]] addresses synthetic pipelines for teaching agents how to search. [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Han Xiao]] explores spending test-time compute around a frozen dense embedding model, making the inference procedure—not only the underlying retriever—a performance lever. [[2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance|Jess Wang’s coding-agent comparison]] establishes the necessary baseline discipline: additional searches, reformulations, and tool calls should earn their cost through better task completion and evidence quality rather than being presumed superior to direct vector retrieval. Hanna Lichtenberg’s linked supporting material adds retrieval trajectories, generated queries, and supervised tool calls as a complementary training view, but it remains supporting context rather than official event evidence.
+
+The graph and memory sessions show why the searchable unit cannot always be an isolated chunk. [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|Nyah Macklin’s GraphRAG workshop]], [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch|Peter Werry’s relational context engine]], and [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|Stephen Chin’s CrabRAG session]] foreground entities, dependencies, and persistent relationships that flat semantic search can obscure. [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Stefania Druga’s memory-harness session]] extends that context across long-running work. Together, these sessions imply a layered retrieval architecture: lexical indexes recover identifiers and exact terms, vector indexes find semantic neighbors, relational or graph indexes expose connected evidence, and durable memory records what the agent has already examined, rejected, or learned.
+
+Autoresearch places the search loop inside a larger experimental feedback system. Sessions from [[2026-06-30-elie-bakouch-the-era-of-auto-research|Elie Bakouch]], [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Tim Sweeney]], [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Erina Karati and Arunachalam Manikandan]], and [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Zhengyao Jiang and the Weco AI team]] connect information gathering to experiment selection, execution, evaluation, and revision. In such systems, retrieval does more than initialize a prompt: it helps select the next experiment, locates inputs and prior results, surfaces contradictory evidence, and feeds outcomes back into subsequent queries. Poor stopping criteria or repeated retrieval of already-invalidated context can therefore waste an entire autonomous compute loop.
+
+The surrounding conference material defines the interfaces and safety controls needed to deploy this pattern. [[2026-07-01-james-russo-html-is-all-agents-need|James Russo’s “HTML Is All Agents Need”]] points toward web surfaces that agents can inspect and navigate directly. Erik Meijer’s proof-oriented keynote and [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|Abhishek Bhardwaj’s two-part sandbox-cloud sessions]] emphasize that retrieved information may trigger consequential tool calls or code execution. A production agentic-search system therefore needs source-layer provenance, claim-to-evidence links, hybrid and relationship-aware indexes, explicit retry and stopping policies, deduplication of previously inspected evidence, bounded execution environments, and evaluations that distinguish a plausible response from one supported by sufficient evidence.
 
 ## Conference Context
 It combines web search, enterprise search, information retrieval, RAG, semantic search, BM25, vector databases, knowledge graphs, and research-agent workflows. Agents add query reformulation, source triage, multi-hop exploration, and evidence synthesis.
@@ -53,20 +66,25 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] — Every Harness Will Become A Claw
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 - [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
 - [[2026-06-30-sean-cai-state-of-data]] — State of Data
 - [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model
 
 ## Slide-Derived Supporting Decks
 - [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
 - [[youtube-1P1hJ36rxM0-slides]] — Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind (15 extracted slide frames)
+- [[youtube-8qWIPUia2O8-slides]] — Every Harness Will Become A Claw — Sam Bhagwat, Mastra (13 extracted slide frames)
 - [[youtube-c35YoMdnI78-slides]] — The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents (32 extracted slide frames)
 - [[youtube-Cz4v1WHVyZc-slides]] — HTML Is All Agents Need — James Russo, HeyGen (32 extracted slide frames)
+- [[youtube-GgLQ02aO-hs-slides]] — The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy (22 extracted slide frames)
 - [[youtube-n97BCfyFIvw-slides]] — "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani (32 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
+- [[youtube-RGSFUqzqErE-slides]] — On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft (28 extracted slide frames)
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
@@ -154,72 +172,22 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[youtube-UcYoMg-8-L8-slides]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic (11 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 50 | Related pages outside the main evidence categories. |
-| resources | 10 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 29 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-- [[2026-06-30-addy-osmani-closing-keynote]]
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]]
-- [[2026-06-30-sean-cai-state-of-data]]
-
-### Resources
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-8G_1-3IO4ZQ]]
-- [[youtube-YZQsWVeN3rE]]
-- [[youtube-eBUyTS7SzV4]]
-
-### Slides
-- [[youtube--CnA2lGfymY-slides]]
-- [[youtube-1P1hJ36rxM0-slides]]
-- [[youtube-c35YoMdnI78-slides]]
-- [[youtube-Cz4v1WHVyZc-slides]]
-- [[youtube-n97BCfyFIvw-slides]]
-- [[youtube-OqM67QG_Ikk-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-8G_1-3IO4ZQ-transcript]]
-- [[youtube-YZQsWVeN3rE-transcript]]
-- [[youtube-eBUyTS7SzV4-transcript]]
-
-### Tools
-- [[neo4j]]
-- [[exa]]
-- [[llamaindex]]
-- [[prime-intellect]]
-- [[browserbase]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
-- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search|The unreasonable effectiveness of BM25 for agentic search]]
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs|The Death of Keyword Search and the Rise of Agent-Readable Catalogs]]
+- [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results|Everyone talks about document search, but what about results?]]
 - [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search|Where RL Will Take Search]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
 - [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
-- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+- [[2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance|Agentic vs. Vector Search: An Eval-Driven Approach to Coding Agent Performance]]
+- [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
 
 ### Media Signals
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
@@ -242,6 +210,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
 - Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
 - Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
+- `youtube-RGSFUqzqErE` — 3,081 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-RGSFUqzqErE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-RGSFUqzqErE`: knowledge, data, retrieval, foundry, whatnot, microsoft, models, give.
+- Slide-derived themes for `youtube-RGSFUqzqErE`: fair, engineering, future, bile, microsoft, resolve, knowledge, pablo.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]], [[youtube-RGSFUqzqErE-transcript]], [[youtube-RGSFUqzqErE-slides]]
 - `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-YZQsWVeN3rE`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
@@ -267,3 +240,54 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-xnXqpUW_Kp8` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, humans, queries, biden, information, traditional, search, engines.
 - Evidence links for `youtube-xnXqpUW_Kp8` (supporting context only): [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 50 | Related pages outside the main evidence categories. |
+| resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 32 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 33 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 10 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]]
+- [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results]]
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-8G_1-3IO4ZQ]]
+- [[youtube-RGSFUqzqErE]]
+- [[youtube-YZQsWVeN3rE]]
+
+### Slides
+- [[youtube--CnA2lGfymY-slides]]
+- [[youtube-1P1hJ36rxM0-slides]]
+- [[youtube-8qWIPUia2O8-slides]]
+- [[youtube-c35YoMdnI78-slides]]
+- [[youtube-Cz4v1WHVyZc-slides]]
+- [[youtube-GgLQ02aO-hs-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-8G_1-3IO4ZQ-transcript]]
+- [[youtube-RGSFUqzqErE-transcript]]
+- [[youtube-YZQsWVeN3rE-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[exa]]
+- [[llamaindex]]
+- [[prime-intellect]]
+- [[browserbase]]

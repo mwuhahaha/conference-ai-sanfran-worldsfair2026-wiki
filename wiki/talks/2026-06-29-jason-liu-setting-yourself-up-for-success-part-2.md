@@ -68,9 +68,6 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Additional slide evidence: [[youtube-jryZvCuA0Uc-slides|Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]], [[youtube-jryZvCuA0Uc-reconstructed-slides|Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]]
 - Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 
-## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

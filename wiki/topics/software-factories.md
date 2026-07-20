@@ -1,14 +1,18 @@
 ---
-title: "Software Factories"
-category: "topics"
-sourceLabels: ["Official schedule", "Public YouTube livestream transcript", "Local slide OCR"]
+title: Software Factories
+category: topics
+sourceLabels:
+  - Official schedule
+  - Public YouTube livestream transcript
+  - Local slide OCR
+last_auto_summarized: '2026-07-18T13:19:38.026Z'
 sourceAssessment:
   schemaVersion: 1
   claimId: claim:2ebffdab952df23254670a2efb37c05b7fcd63b2459f6042eee551d2c1cac804
   subjectId: concept:software-factories
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -16,12 +20,16 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-n97BCfyFIvw
-sourceAssessmentBodySha256: sha256:c31117f044496f95264d318e1b4c35b896d8aaabcbd0ed36c3898be0f01c1c21
+sourceAssessmentBodySha256: sha256:b4a1da13634012bf9aacee55c0c373a6048fae8013d95ece0d2e9d53e70c25e7
 ---
 # Software Factories
 
 ## Overview
-Software factories are coordinated systems for turning ideas, issues, designs, tests, agents, and human review into shipped software. In an AI-native version, multiple agents may handle planning, coding, testing, review, documentation, and release support under explicit workflow rules.
+At World’s Fair 2026, a software factory is presented as a governed production system for agent-assisted engineering: work enters through structured intake, receives assembled context and a plan, moves through scoped implementation and sandboxed execution, and exits only after evaluation, human review, release controls, and recorded outcomes. [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] places those building blocks inside an enterprise SDLC, [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]] makes quality gates explicit within the coding workflow, and [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]] extends the model toward factories that learn from completed work rather than repeatedly starting from an empty prompt.
+
+The linked sessions distinguish this system from a collection of coding assistants. [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] argues for an organization-specific orchestration layer, while [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]] focuses on the design of the engineering loop itself. [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] supplies the necessary counterpoint by challenging loose use of the label. Factory’s forward-deployed engineering session, Atlassian’s SDLC workshop, Qodo AI’s quality-gate workshop, HumanLayer’s loop-engineering session, and Warp’s self-improving-factory talk show different operational slices of the same problem: assigning work, constraining agent action, validating results, and feeding evidence back into the next run.
+
+Across that graph, the defining properties are durable stages, shared artifacts, explicit owners, bounded permissions, observable handoffs, measurable acceptance criteria, rollback paths, and feedback tied to real delivery outcomes. Coding agents are specialized participants within this system—not autonomous substitutes for the engineering organization. A chat interface that generates code is therefore an ingredient, not a factory; the factory is the repeatable mechanism that turns a request into reviewed, traceable, releasable software.
 
 ## Conference Context
 The idea comes from assembly-line metaphors in software engineering, CI/CD, DevOps, internal developer platforms, and automated code generation. AI agents make the factory metaphor more literal because parts of the SDLC can be delegated to tool-using systems.
@@ -120,75 +128,24 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[amazon-web-services-aws|Amazon Web Services (AWS)]]
 - [[tessl|Tessl]]
 
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 29 | Related pages outside the main evidence categories. |
-| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
-- [[2026-07-01-session-the-software-factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-qdZzND79mcg]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-c35YoMdnI78]]
-- [[youtube-n97BCfyFIvw]]
-
-### Slides
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-- [[youtube-htM02KMNZnk-dense-slides]]
-- [[youtube-htM02KMNZnk-reconstructed-slides]]
-- [[youtube-c35YoMdnI78-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-c35YoMdnI78-transcript]]
-- [[youtube-n97BCfyFIvw-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
 - [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories|'Warp: Building Self-Improving Agent Software Factories']]
-- [[2026-07-01-session-the-software-factory|The Software Factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|>-]]
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
+- [[2026-07-01-session-the-software-factory|The Software Factory]]
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
-- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
@@ -204,6 +161,58 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-bVNNvWq6dKo` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 29 | Related pages outside the main evidence categories. |
+| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-qdZzND79mcg]]
+- [[youtube-c35YoMdnI78]]
+- [[youtube-n97BCfyFIvw]]
+- [[youtube-4sX_He5c4sI]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-c35YoMdnI78-slides]]
+- [[youtube-n97BCfyFIvw-slides]]
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+
+### Transcripts
+- [[youtube-c35YoMdnI78-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]

@@ -12,13 +12,13 @@ sourceAssessment:
   subjectId: person:garry-tan
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:dde4d800d76289e08f4fed31215d8727399eb45c6a86323763305c05b60ea322
+sourceAssessmentBodySha256: sha256:bd5a59a1170b417e3054021bc0c71fc021b9917be3c6ca33cd90232040eef45f
 ---
 # Garry Tan
 
@@ -44,3 +44,5 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
+## Livestream Appearances
+- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [watch at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) in WF26: Harness Engineering & Startup Battlefield.

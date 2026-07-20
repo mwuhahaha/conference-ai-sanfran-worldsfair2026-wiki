@@ -138,7 +138,7 @@ class YoutubeMonitorTests(unittest.TestCase):
         ):
             monitor.fetch_official_playlist([])
 
-    def test_playlist_manifest_merge_retains_non_playlist_admissions_and_reaches_34(self):
+    def test_authoritative_manifest_refresh_prunes_stale_non_playlist_primary_rows(self):
         upcoming_ids = {
             "uIiA6DquRiE",
             "RGSFUqzqErE",
@@ -174,9 +174,26 @@ class YoutubeMonitorTests(unittest.TestCase):
             )
 
         retained = [
-            {"id": "4sX_He5c4sI", "mediaType": "event_livestream"},
-            {"id": "I2cbIws9j10", "mediaType": "event_livestream"},
-            {"id": "htM02KMNZnk", "mediaType": "event_livestream"},
+            {
+                "id": "4sX_He5c4sI",
+                "mediaType": "event_livestream",
+                "associationEvidence": "explicit_wf26_official_livestream",
+            },
+            {
+                "id": "I2cbIws9j10",
+                "mediaType": "event_livestream",
+                "associationEvidence": "explicit_wf26_official_livestream",
+            },
+            {
+                "id": "htM02KMNZnk",
+                "mediaType": "event_livestream",
+                "associationEvidence": "explicit_wf26_official_livestream",
+            },
+            {
+                "id": "fakeStream01",
+                "mediaType": "event_livestream",
+                "associationEvidence": "explicit_wf26_official_livestream",
+            },
             {"id": "o-zkvb0iFDQ", "mediaType": "talk_recording"},
             {"id": "sRpqPgKeXNk", "mediaType": "talk_recording"},
         ]
@@ -192,20 +209,27 @@ class YoutubeMonitorTests(unittest.TestCase):
             ), patch.object(monitor, "OFFICIAL_VIDEO_MANIFEST", manifest):
                 self.assertTrue(
                     monitor.update_official_video_manifest(
-                        [], playlist_entries=playlist_entries
+                        [],
+                        playlist_entries=playlist_entries,
+                        prune_stale_non_playlist=True,
                     )
                 )
             result = json.loads(manifest.read_text(encoding="utf-8"))
 
         videos = result["videos"]
-        self.assertEqual(34, len(videos))
-        self.assertTrue({item["id"] for item in retained} <= {item["id"] for item in videos})
+        self.assertEqual(32, len(videos))
+        retained_ids = {item["id"] for item in retained[:3]}
+        self.assertTrue(retained_ids <= {item["id"] for item in videos})
+        self.assertFalse(
+            {"fakeStream01", "o-zkvb0iFDQ", "sRpqPgKeXNk"}
+            & {item["id"] for item in videos}
+        )
         counts = {}
         for item in videos:
             counts[item["mediaType"]] = counts.get(item["mediaType"], 0) + 1
         self.assertEqual(
             {
-                "talk_recording": 24,
+                "talk_recording": 22,
                 "scheduled_premiere": 5,
                 "event_livestream": 3,
                 "unavailable_playlist_item": 2,
@@ -216,6 +240,112 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertEqual(29, len(playlist))
         self.assertTrue(
             all(item["associationEvidence"] == "official_wf26_playlist_membership" for item in playlist)
+        )
+
+    def test_retirement_receipt_uses_classifier_reported_update_count(self):
+        with tempfile.TemporaryDirectory() as directory:
+            wiki = Path(directory) / "wiki"
+            (wiki / "talks").mkdir(parents=True)
+            completed = Mock(
+                returncode=0,
+                stdout='classifier detail\n{"counts":{"supporting contextual video":1},"updated":1}\n',
+                stderr="",
+            )
+            with patch.object(monitor, "WIKI", wiki), patch.object(
+                monitor, "run", return_value=completed
+            ):
+                report = monitor.retire_primary_event_projections(
+                    ["o-zkvb0iFDQ", "sRpqPgKeXNk"]
+                )
+
+        self.assertEqual(1, report["resource_updates"])
+        self.assertEqual(1, report["resource_classifier"]["updated"])
+        self.assertEqual(0, report["talk_updates"])
+
+    def test_non_playlist_revalidation_rejects_two_concrete_stale_dates(self):
+        metadata = {
+            "o-zkvb0iFDQ": monitor.VideoEntry(
+                "o-zkvb0iFDQ",
+                "MCP UI: Extending the frontier",
+                "2026-05-06T00:00:00+00:00",
+                "2026-05-06T00:00:00+00:00",
+                "https://www.youtube.com/watch?v=o-zkvb0iFDQ",
+                channel_id=monitor.CHANNEL_ID,
+            ),
+            "sRpqPgKeXNk": monitor.VideoEntry(
+                "sRpqPgKeXNk",
+                "Trends Across the AI Frontier",
+                "2025-07-08T00:00:00+00:00",
+                "2025-07-08T00:00:00+00:00",
+                "https://www.youtube.com/watch?v=sRpqPgKeXNk",
+                description="Recorded at the AI Engineer World's Fair in San Francisco.",
+                channel_id=monitor.CHANNEL_ID,
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            manifest = Path(directory) / "official-wf26-video-manifest.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "videos": [
+                            {
+                                "id": video_id,
+                                "mediaType": "talk_recording",
+                                "associationEvidence": "official_channel_plus_schedule_text",
+                            }
+                            for video_id in metadata
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(
+                monitor, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ), patch.object(
+                monitor,
+                "fetch_video_metadata",
+                side_effect=lambda video_id: metadata[video_id],
+            ):
+                rows, report = monitor.revalidate_manifest_non_playlist_rows([])
+
+        self.assertEqual([], rows)
+        self.assertEqual("ok", report["status"])
+        self.assertEqual(
+            [
+                ("o-zkvb0iFDQ", "2026-05-06", "outside_wf26_date_gate"),
+                ("sRpqPgKeXNk", "2025-07-08", "outside_wf26_date_gate"),
+            ],
+            [
+                (item["id"], item["upload_date"], item["reason"])
+                for item in report["rejected"]
+            ],
+        )
+
+    def test_authoritative_prune_requires_complete_channel_and_revalidation_scans(self):
+        complete_channel = {"status": "ok", "metadata_errors": []}
+        complete_retained = {"status": "ok", "metadata_errors": []}
+        self.assertTrue(
+            monitor.authoritative_non_playlist_reconciliation_ready(
+                complete_channel, complete_retained
+            )
+        )
+        self.assertFalse(
+            monitor.authoritative_non_playlist_reconciliation_ready(
+                {"status": "channel_scan_failed", "metadata_errors": []},
+                complete_retained,
+            )
+        )
+        self.assertFalse(
+            monitor.authoritative_non_playlist_reconciliation_ready(
+                {"status": "ok", "metadata_errors": [{"id": "new"}]},
+                complete_retained,
+            )
+        )
+        self.assertFalse(
+            monitor.authoritative_non_playlist_reconciliation_ready(
+                complete_channel,
+                {"status": "metadata_incomplete", "metadata_errors": [{"id": "old"}]},
+            )
         )
 
     def test_playlist_manifest_keeps_reconciled_talk_matches(self):
@@ -288,23 +418,58 @@ class YoutubeMonitorTests(unittest.TestCase):
             ), patch.object(monitor, "run", return_value=completed) as run:
                 result = monitor.run_enrichment(1, ["video-1", "video-1"])
 
-        run.assert_called_once_with(
+        self.assertEqual(
             [
-                "/tools/wiki-from-topic-maker",
-                "update",
-                str(root),
-                "--change-type",
-                "media",
-                "--source",
-                "raw/sources/official-wf26-video-manifest.json",
-                "--source",
-                "raw/sources/youtube-transcripts/video-1.txt",
-                "--json",
+                (
+                    [
+                        "/tools/wiki-from-topic-maker",
+                        "update",
+                        str(root),
+                        "--change-type",
+                        "media",
+                        "--source",
+                        "raw/sources/official-wf26-video-manifest.json",
+                        "--source",
+                        "raw/sources/youtube-transcripts/video-1.txt",
+                        "--json",
+                    ],
+                    7200,
+                ),
+                (
+                    [
+                        sys.executable,
+                        "scripts/livestream_segment_projection.py",
+                        "--check",
+                    ],
+                    900,
+                ),
+                (
+                    [
+                        sys.executable,
+                        "scripts/generate_attendance_calibration.py",
+                        "--check-current",
+                    ],
+                    900,
+                ),
+                (
+                    [
+                        sys.executable,
+                        "scripts/audit_primary_media_roles.py",
+                        "--phase",
+                        "full",
+                        "--root",
+                        ".",
+                    ],
+                    900,
+                ),
             ],
-            timeout=7200,
+            [
+                (call.args[0], call.kwargs["timeout"])
+                for call in run.call_args_list
+            ],
         )
-        self.assertEqual(1, len(result))
-        self.assertEqual(0, result[0]["returncode"])
+        self.assertEqual(4, len(result))
+        self.assertTrue(all(item["returncode"] == 0 for item in result))
 
     def test_playable_manifest_projection_ignores_private_and_upcoming_changes(self):
         before = {
@@ -632,6 +797,34 @@ class YoutubeMonitorTests(unittest.TestCase):
 
         self.assertEqual([], monitor.verified_schedule_matches(video, talks))
 
+    def test_numeric_part_discriminator_prevents_multi_session_overmatch(self):
+        description = (
+            "A three-part workshop that shares one schedule description across "
+            "each logical session. " * 3
+        )
+        talks = [
+            {
+                "id": f"part-{part}",
+                "title": f"Setting Yourself Up for Success — Part {part}",
+                "speakers": '["Jason Liu"]',
+                "description": description,
+            }
+            for part in (1, 2, 3)
+        ]
+        video = monitor.VideoEntry(
+            "video-part-1",
+            "Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI",
+            "2026-07-19T00:00:00+00:00",
+            "2026-07-19T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=video-part-1",
+            description=description,
+        )
+
+        self.assertEqual(
+            ["part-1"],
+            [row["id"] for row in monitor.verified_schedule_matches(video, talks)],
+        )
+
     def test_curated_playlist_override_matches_only_theo_closing_keynote(self):
         talks = [
             {
@@ -702,6 +895,31 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertEqual("is_upcoming", video.live_status)
         self.assertFalse(video.has_english_captions)
 
+    def test_opaque_metadata_placeholder_is_preserved_as_unavailable(self):
+        payload = {
+            "id": "PXXNCtfKZs0",
+            "title": "youtube video #PXXNCtfKZs0",
+            "availability": None,
+            "live_status": None,
+            "upload_date": None,
+            "release_date": None,
+            "timestamp": None,
+            "release_timestamp": None,
+            "channel_id": None,
+            "description": None,
+        }
+        completed = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
+
+        with patch.object(monitor.subprocess, "run", return_value=completed):
+            with self.assertRaisesRegex(
+                RuntimeError, "reports unavailable video: PXXNCtfKZs0"
+            ) as raised:
+                monitor.fetch_video_metadata("PXXNCtfKZs0")
+
+        self.assertEqual(
+            "unavailable", monitor.metadata_unavailable_reason(raised.exception)
+        )
+
     def test_upcoming_playlist_resource_is_association_metadata_not_content_evidence(self):
         video = monitor.VideoEntry(
             "premiere-1",
@@ -734,6 +952,62 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertIn("association metadata for a scheduled premiere", text)
         self.assertIn("do not use this page as recording, transcript, or slide-content evidence", text)
         self.assertNotIn("use as media/transcript/slide evidence", text)
+        self.assertIn('sourceLayers: ["supporting_context"]', text)
+
+    def test_generated_resource_source_layers_follow_playability(self):
+        upcoming = monitor.VideoEntry(
+            "premiere001",
+            "Pending official premiere",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=premiere001",
+            live_status="is_upcoming",
+            release_date="2026-07-18",
+        )
+        playable = monitor.VideoEntry(
+            "playable001",
+            "Playable official recording",
+            "2026-07-16T00:00:00+00:00",
+            "2026-07-16T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=playable001",
+        )
+        unavailable = monitor.PlaylistEntry(
+            "private0001", 3, "", "private", None
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw" / "sources"
+            wiki = root / "wiki"
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "RAW", raw
+            ), patch.object(monitor, "WIKI", wiki):
+                self.assertTrue(
+                    monitor.write_resource_page(
+                        upcoming,
+                        [],
+                        "pending_premiere",
+                        "pending_premiere",
+                        association_evidence="official_wf26_playlist_membership",
+                    )
+                )
+                self.assertTrue(
+                    monitor.write_resource_page(
+                        playable,
+                        [],
+                        "already_cached",
+                        "not_run",
+                        association_evidence="official_wf26_playlist_membership",
+                    )
+                )
+                self.assertTrue(monitor.write_unavailable_resource_page(unavailable))
+
+            upcoming_text = (wiki / "resources/youtube-premiere001.md").read_text()
+            playable_text = (wiki / "resources/youtube-playable001.md").read_text()
+            unavailable_text = (wiki / "resources/youtube-private0001.md").read_text()
+
+        self.assertIn('sourceLayers: ["supporting_context"]', upcoming_text)
+        self.assertIn('sourceLayers: ["supporting_context"]', unavailable_text)
+        self.assertNotIn("sourceLayers:", playable_text)
 
     def test_upcoming_playlist_talk_link_is_not_content_evidence(self):
         video = monitor.VideoEntry(
@@ -789,7 +1063,7 @@ class YoutubeMonitorTests(unittest.TestCase):
             new_talk = talks / "new-talk.md"
             unrelated_talk = talks / "unrelated-talk.md"
             old_talk.write_text(
-                f"# Old\n\n## Official YouTube Recording\n{generated}\n\nManual verification note.\n\n## Sources\n- Keep me.\n",
+                f"# Old\n\n## Official YouTube Recording\n{generated.replace('[[youtube-video-1]]', '[[youtube-video-1|Official recording]]')}\n\nManual verification note.\n\n## Sources\n- Keep me.\n",
                 encoding="utf-8",
             )
             new_talk.write_text("# New\n\n## Sources\n- Keep me.\n", encoding="utf-8")
@@ -807,6 +1081,7 @@ class YoutubeMonitorTests(unittest.TestCase):
                 new_text = new_talk.read_text(encoding="utf-8")
                 unrelated_text = unrelated_talk.read_text(encoding="utf-8")
                 self.assertNotIn("[[youtube-video-1]]", old_text)
+                self.assertNotIn("[[youtube-video-1|Official recording]]", old_text)
                 self.assertIn("Manual verification note.", old_text)
                 self.assertIn("## Sources\n- Keep me.", old_text)
                 self.assertIn("[[youtube-video-1]]", new_text)

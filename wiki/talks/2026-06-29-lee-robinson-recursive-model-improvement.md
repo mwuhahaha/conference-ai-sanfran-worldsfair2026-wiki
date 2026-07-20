@@ -81,6 +81,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/q4Tr-DknG2M/slide-002.jpg]]
 ![[assets/slides/q4Tr-DknG2M/slide-003.jpg]]
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
+
 - Source video: `youtube-fL1iJHtl51Q`
 - Slide deck: [[youtube-fL1iJHtl51Q-dense-slides|Dense Slides: Building Cursor Composer – Lee Robinson, Cursor]] — slide evidence page.
 - Additional slide evidence: [[youtube-fL1iJHtl51Q-slides|Slides: Building Cursor Composer – Lee Robinson, Cursor]], [[youtube-fL1iJHtl51Q-reconstructed-slides|Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor]]
@@ -91,6 +92,7 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-q4Tr-DknG2M-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt`.
+
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

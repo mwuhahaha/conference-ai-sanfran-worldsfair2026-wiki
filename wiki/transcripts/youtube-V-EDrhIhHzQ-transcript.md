@@ -1,12 +1,12 @@
 ---
-title: "Transcript: The Prime Intellect Stack — Will Brown, Prime Intellect"
+title: "Transcript: Modern Post-Training: A Deep Dive  — Will Brown, Prime Intellect"
 category: "transcripts"
 videoId: "V-EDrhIhHzQ"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "10228"
 ---
 
-# Transcript: The Prime Intellect Stack — Will Brown, Prime Intellect
+# Transcript: Modern Post-Training: A Deep Dive  — Will Brown, Prime Intellect
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=V-EDrhIhHzQ)

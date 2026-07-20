@@ -1,15 +1,23 @@
 ---
-title: "How Web Data Infrastructure Powers the Next Generation of AI"
-category: "talks"
-date: "2026-06-30"
-time: "3:20pm-3:40pm"
-track: "Computer Use"
-room: "Track 7"
-speakers: ["Patricija Žemaitytė"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Computer Use"
-scheduleRoom: "Track 7"
-scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
+title: How Web Data Infrastructure Powers the Next Generation of AI
+category: talks
+date: '2026-06-30'
+time: '3:20pm-3:40pm'
+track: Computer Use
+room: Track 7
+speakers:
+  - Patricija Žemaitytė
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Computer Use
+scheduleRoom: Track 7
+scheduleLabels:
+  - Computer Use
+  - Track 7
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-19T08:50:35.508Z'
 ---
 # How Web Data Infrastructure Powers the Next Generation of AI
 
@@ -32,7 +40,7 @@ For years, the web intelligence industry has powered major data developments. As
 For years, the web intelligence industry has powered major data developments. As big data grew, ensuring sustained data flow became harder. Now, AI is taking the biggest leaps forward. How the web intelligence industry responded to this increasing scale and complexity is the story of the most crucial steps forward in AI today.
 
 ### Speaker And Company Context
-- [[patricija-emaityt|Patricija Žemaitytė]] — Product Manager at [[oxylabs|Oxylabs]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[coding-agents]]

@@ -1,15 +1,23 @@
 ---
-title: "From AI-Assisted to AI-Native: Building a Frontier Development Team"
-category: "talks"
-date: "2026-06-29"
-time: "2:50pm-3:10pm"
-track: "AI-Native Enterprises"
-room: "Leadership 1"
-speakers: ["Clare Liguori"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "AI-Native Enterprises"
-scheduleRoom: "Leadership 1"
-scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
+title: 'From AI-Assisted to AI-Native: Building a Frontier Development Team'
+category: talks
+date: '2026-06-29'
+time: '2:50pm-3:10pm'
+track: AI-Native Enterprises
+room: Leadership 1
+speakers:
+  - Clare Liguori
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: AI-Native Enterprises
+scheduleRoom: Leadership 1
+scheduleLabels:
+  - AI-Native Enterprises
+  - Leadership 1
+  - session
+  - confirmed
+last_auto_summarized: '2026-07-18T05:15:34.852Z'
 ---
 # From AI-Assisted to AI-Native: Building a Frontier Development Team
 
@@ -32,7 +40,7 @@ When features that took two weeks now ship in an afternoon, the bottleneck shift
 When features that took two weeks now ship in an afternoon, the bottleneck shifts from writing code to making decisions. Frontier teams have discovered this firsthand, achieving 3-10x productivity gains by fundamentally rethinking how developers work with AI agents. This talk covers the practices that separate frontier teams from those who merely "sprinkle" AI on their existing workflows: running agents asynchronously for hours, investing in comprehensive agent steering files, enabling local integration testing for agent self-correction, and automating everything from coding to operations to documentation. You'll learn how teams at Amazon slowed down to speed up, the temporary productivity dips they accepted, and the organizational changes required to sustain this velocity.
 
 ### Speaker And Company Context
-- [[clare-liguori|Clare Liguori]] — Senior Principal Engineer at [[amazon-web-services|Amazon Web Services]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agentic-search]]

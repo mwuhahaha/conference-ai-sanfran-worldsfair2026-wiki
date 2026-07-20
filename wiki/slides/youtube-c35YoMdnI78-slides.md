@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a verified official AI Engineer World's Fair San Francisco 2026 recording. Use them as slide and OCR evidence; official schedule pages remain canonical for titles, times, rooms, tracks, speakers, and affiliations.
 
 ## Related Scheduled Sessions
-- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
+- No individual scheduled session mapping is assigned by the official media manifest; treat this as event-level media unless a future exact mapping is recorded.
 
 ## Extracted Slides
 ![[assets/slides/c35YoMdnI78/slide-001.jpg]]

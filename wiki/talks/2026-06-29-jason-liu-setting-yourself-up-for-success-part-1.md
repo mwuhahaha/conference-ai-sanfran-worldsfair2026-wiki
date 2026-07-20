@@ -29,16 +29,23 @@ I will walk you through the process of understanding how Codex works as a genera
 
 ## Synthesis
 ### Synthesized Breakdown
-I will walk you through the process of understanding how Codex works as a general tool to control your computer (setting up your memory vault/ assistant threads, prompting it to talk to other threads, and exploring computer use), how to think about things like long running work streams, and preparing yourself to start thinking in loops.
+All right, let's just uh kick things off. How many people here already saw the keynote that I gave? Okay, not everyone. That's good.
 
 ### Speaker And Company Context
 - [[jason-liu|Jason Liu]] — Developer Experience, OpenAI at [[openai|OpenAI]].
 
 ### Topics Covered
 - [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
 - [[coding-agents]]
+- [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-il1c1a2FufU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/il1c1a2FufU.txt` (13,744 words).
+- [[youtube-il1c1a2FufU]] — related YouTube source page.
+- [[youtube-il1c1a2FufU-slides]] — slide evidence.
 - [[youtube-jryZvCuA0Uc]] — related YouTube source page.
 - [[youtube-jryZvCuA0Uc-slides]] — slide evidence.
 - [[youtube-jryZvCuA0Uc-reconstructed-slides]] — slide evidence.
@@ -48,7 +55,7 @@ I will walk you through the process of understanding how Codex works as a genera
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[jason-liu]]
 
@@ -60,8 +67,22 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-jryZvCuA0Uc-slides]]
 - Slide-derived terms: `awws`, `orci`, `aviace`, `fotatetey`, `mdaily`, `augment`, `code`, `workos`, `eeeeeeessssssssssseseeeaassss`, `look`, `jeff`, `huber`, `jason`, `oaths`, `read`, `full`, `report`, `research`
 
+## Official YouTube Recording
+- [[youtube-il1c1a2FufU|Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI]] — official AI Engineer YouTube recording published 2026-07-19.
+- Evidence status: [[youtube-il1c1a2FufU-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
 ## Media Evidence
+- [[youtube-il1c1a2FufU]] - dedicated official event recording.
+- [[youtube-il1c1a2FufU-transcript]] - dedicated official recording transcript.
 - [[youtube-jryZvCuA0Uc]] - supporting context; not the exact session recording.
+
+- Source video: `youtube-il1c1a2FufU`
+- Slide deck: [[youtube-il1c1a2FufU-slides|Slides: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI]] — 12 visible slide image(s).
+![[assets/slides/il1c1a2FufU/slide-001.jpg]]
+![[assets/slides/il1c1a2FufU/slide-002.jpg]]
+![[assets/slides/il1c1a2FufU/slide-003.jpg]]
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
 
 - Source video: `youtube-jryZvCuA0Uc`
 - Slide deck: [[youtube-jryZvCuA0Uc-dense-slides|Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — slide evidence page.
@@ -69,12 +90,20 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 
 ## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/il1c1a2FufU.txt` (13,744 words).
+
+## Transcript Markdown
+- [[youtube-il1c1a2FufU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/il1c1a2FufU.txt`.
 
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-jryZvCuA0Uc` — 3 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
 - Evidence links for `youtube-jryZvCuA0Uc` (supporting context only): [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]

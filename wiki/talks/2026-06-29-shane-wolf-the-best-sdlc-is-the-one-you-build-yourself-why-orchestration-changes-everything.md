@@ -1,15 +1,26 @@
 ---
-title: "The best SDLC is the one you build yourself: Why orchestration changes everything"
-category: "talks"
-date: "2026-06-29"
-time: "9:00am-11:00am"
-track: "Workshops Day 1"
-room: "Track 4"
-speakers: ["Shane Wolf", "Andrei Bocan"]
-sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
-scheduleTrack: "Workshops Day 1"
-scheduleRoom: "Track 4"
-scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
+title: >-
+  The best SDLC is the one you build yourself: Why orchestration changes
+  everything
+category: talks
+date: '2026-06-29'
+time: '9:00am-11:00am'
+track: Workshops Day 1
+room: Track 4
+speakers:
+  - Shane Wolf
+  - Andrei Bocan
+sourceLabels:
+  - Official conference schedule
+  - Public YouTube metadata
+scheduleTrack: Workshops Day 1
+scheduleRoom: Track 4
+scheduleLabels:
+  - Workshops Day 1
+  - Track 4
+  - sponsor
+  - confirmed
+last_auto_summarized: '2026-07-18T12:15:44.301Z'
 ---
 # The best SDLC is the one you build yourself: Why orchestration changes everything
 
@@ -32,8 +43,7 @@ Industry research shows AI productivity gains have plateaued at 10–15% — bec
 Industry research shows AI productivity gains have plateaued at 10–15% — because today's tools only optimize the 20% of a developer's day spent writing code. The real bottlenecks are left and right of code: planning, orchestration, review, and operations. We'll also explore the value of AI-powered code reviews - from establishing code standards that AI can seamlessly enforce, to triggering agentic pipelines that autonomously fix issues. Join Atlassian's Shane Wolf and Andrei Bocan for a hands-on deep dive into the AI-native SDLC.
 
 ### Speaker And Company Context
-- [[shane-wolf|Shane Wolf]] — role not listed at [[atlassian|Atlassian]].
-- [[andrei-bocan|Andrei Bocan]] — Principal Engineer at [[atlassian|Atlassian]].
+- No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agentic-search]]

@@ -1,10 +1,9 @@
 ---
 title: "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua"
 category: "resources"
-sourceLabels:
-  - "Public YouTube metadata"
-  - "YouTube transcript"
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "ZSQb5fzRFPw"
+publishedDate: "2026-07-15"
 last_enriched: "2026-07-15T23:40:57.034084+00:00"
 ---
 # Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
@@ -18,14 +17,10 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
-
-## Topic Signals
-- [[ai-sandboxes|AI Sandboxes]], [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-security|Agent Security]]
-- Transcript keywords: `currently`, `warm`, `internal`, `plan`, `kyad`, `probably`, `thanks`, `figure`
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]]
 
 ## Transcript Status
-Cached transcript text is available at `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt` (2,617 words).
+Cached transcript text is available at `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt`.
 
 ## Extracted Slides
 - [[youtube-ZSQb5fzRFPw-slides]]

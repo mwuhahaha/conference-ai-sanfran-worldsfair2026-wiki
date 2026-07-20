@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: tool:sderosiaux-chrome-agent
   domain: tools page evidence coverage
   intendedUse: comparison_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: source_attributed
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.

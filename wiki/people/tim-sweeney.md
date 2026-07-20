@@ -11,13 +11,13 @@ sourceAssessment:
   subjectId: person:tim-sweeney
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-17T15:12:45.081803Z'
+  asOf: '2026-07-20T01:11:38.017560Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:81fecabbcc9a6310460d3f11e8514dd86ef0db8e57f270603408ba33b6cf60f0
+sourceAssessmentBodySha256: sha256:1842e51ed7fc7dcbfd6d92567d2ba9cf65b9295c80a3b16153bd89308c386225
 ---
 # Tim Sweeney
 
@@ -33,7 +33,7 @@ Tim Sweeney is a Principal Engineer at [[weights-and-biases-by-coreweave|Weights
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]] — Closing the Loop: An Autonomous AI Research Agent (2026-06-30, 1:30pm-1:50pm)
 
 ## Livestream Appearances
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]] — [watch at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) in WF2026: Autoresearch & Keynotes (Day 2).
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]] — [watch at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) in WF2026: Autoresearch & Keynotes.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
