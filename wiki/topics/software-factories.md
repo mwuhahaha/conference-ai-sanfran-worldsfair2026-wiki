@@ -20,10 +20,14 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-8qWIPUia2O8
-  - source:official-wf26-youtube-VrpEyglYgeU
+  - source:official-wf26-youtube-APqXGyCoGW4
+  - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-c35YoMdnI78
+  - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-n97BCfyFIvw
-sourceAssessmentBodySha256: sha256:79c13eabb44ad2ebd1cb7d48bb8c5d6c25d8d9d89845fc83a7ecd6e96bed0763
+  - source:official-wf26-youtube-pMggiOb18tc
+  - source:official-wf26-youtube-xUnRQ9vLXxo
+sourceAssessmentBodySha256: sha256:f23df858205e1f1c5d4e2cd4cb3781c7618b1234c1a7aa15040111b8f7ec2348
 ---
 # Software Factories
 
@@ -80,21 +84,42 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
 
 ## Transcript Digest Evidence
-This section synthesizes 4 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 17 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-End-to-end delivery systems that turn requests into shipped software through coordinated loops, scaffolding, and ownership boundaries. The recurring variation is whether the focus is harnesses, delivery orchestration, or long-term maintainability, with the tradeoff being throughput versus codebase health.
+These talks frame software delivery as a managed production system with orchestration, reusable execution units, and end-to-end vertical slices. The variation is between factory-like planning and the harness layer that actually executes work, but both treat delivery as an industrial process that can be decomposed, repeated, and scaled.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]] — Breaking implementation into coordinated end-to-end chunks across a system.
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — Long-lived coordination between a manager agent and worker agents.
+  - Transcript: [[youtube-pMggiOb18tc-transcript]]
+  - Evidence: "I was no longer pairing. I was managing 10 direct reports. Now I mostly talk to a longunning manager which delegates work to a team."
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]] — Human-in-the-loop planning and review before implementation.
   - Transcript: [[youtube-Ib5GBkD555M-transcript]]
-  - Evidence: "Um which is the order of implementation, multi-reo coordination. How are we going to build this across our entire system and how are we going to check it along the way?"
-- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — The stage where the industry focus has shifted from agents to harnesses.
+  - Evidence: "Um, so turning the lights back on, we're going to put the code review back. Uh, we're going to embrace this approach of like how do we plan up front to reduce the chance that we have a long or uh difficult review process."
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]] — Turning close customer work into signals for product and roadmap decisions.
+  - Transcript: [[youtube-APqXGyCoGW4-transcript]]
+  - Evidence: "And then finally, you have to work very delicately between the product and engineering teams and your customers, where you want to give that feedback loop to your product team saying, \"Hey, we're hearing this over and over again.\" Uh and the FTE team is so close to the customers, embedded in their organizations, they're going to be the first ones have a really good pulse on what we should build next as a company."
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — A future consolidation in which only a few high-value systems remain salient.
   - Transcript: [[youtube-8qWIPUia2O8-transcript]]
-  - Evidence: "Um and uh the thing that I'm going to say is is welcome to the harness era. What do I mean by the harness era?"
-- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — The growth of maintainability, reliability, and security debt as agents generate more code.
-  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
-  - Evidence: "And then the last point I mentioned is technical debt does explode. Right? As you generate code, technical debt is also generated."
+  - Evidence: "um which is that and and it's something that like I don't think we we sort of talk about as much uh but after this after this phase where where we're sort of making everything more and more powerful um there will be a shakeout um and and let me walk you through sort of uh through my reasoning here which is that in the 2010s we had these platforms we had Android, we had iOS."
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — Coordinating multiple agents and humans across a software delivery workflow.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "Usually she does, but multi-agent orchestration is important. Maybe Claude Code isn't the best at customer voice, but Decagon is, right?"
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The pattern where cheaper software creation expands the set of problems people want built.
+  - Transcript: [[youtube-n97BCfyFIvw-transcript]]
+  - Evidence: "It's going to move the bottleneck from can we build this to should this exist and can we answer for it?"
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — The role of architecture or API boundaries in steering search and preventing bad solutions.
+  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
+  - Evidence: "The other one I think is really underrated is codebased abstraction. The abstraction provides the framework that auto research can iterate on and uh that's also that starting point hugely bias the whole search direction."
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — The idea that AI programs should be built and optimized like ordinary reusable functions.
+  - Transcript: [[youtube-GgLQ02aO-hs-transcript]]
+  - Evidence: "To make a function, you give it a name. You define some inputs, some outputs, and then you have some implementation logic inside of it."
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — The talk emphasizes models coordinating and verifying multi-step work.
+  - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
+  - Evidence: "figure it out a lot of the time. figure it out a lot of the time. Mythos is another jump Mythos is another jump Mythos is another jump to orchestration."
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
+  - Transcript: [[youtube-khVX_BUnEwU-transcript]]
+  - Evidence: "And when you bring it all together, you got these kind of object schemas, tools, deterministic LLM behaviors can be assembled into a something called a pack, right?"
 
 ## Neighboring Subjects
 - [[coding-agents]]
@@ -156,8 +181,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 29 | Related pages outside the main evidence categories. |
 | resources | 10 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 15 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 17 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 14 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
@@ -171,25 +196,25 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[aie-wiki-generation-delta]]
 - [[youtube-htM02KMNZnk]]
 - [[youtube-qdZzND79mcg]]
-- [[youtube-I2cbIws9j10]]
 - [[youtube-Ib5GBkD555M]]
 - [[youtube--I5W5QVAT8E]]
+- [[youtube-n97BCfyFIvw]]
 
 ### Slides
 - [[youtube-htM02KMNZnk-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
 - [[youtube-Ib5GBkD555M-slides]]
 - [[youtube--I5W5QVAT8E-slides]]
-- [[youtube-c35YoMdnI78-slides]]
+- [[youtube-n97BCfyFIvw-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
 
 ### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
 - [[youtube-Ib5GBkD555M-transcript]]
+- [[youtube-APqXGyCoGW4-transcript]]
+- [[youtube-8qWIPUia2O8-transcript]]
 - [[youtube--I5W5QVAT8E-transcript]]
-- [[youtube-c35YoMdnI78-transcript]]
 - [[youtube-n97BCfyFIvw-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -202,17 +227,12 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|>-]]
 - [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
-- [[2026-07-01-session-the-software-factory|The Software Factory]]
-- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
-- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
-- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Media Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
@@ -223,16 +243,21 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube--I5W5QVAT8E`: model, notion, today, customers, product, okay, always, system.
 - Slide-derived themes for `youtube--I5W5QVAT8E`: engineering, plan, future, fair, recently, purchased, each, subscription.
 - Evidence links for `youtube--I5W5QVAT8E` (primary event evidence): [[youtube--I5W5QVAT8E]], [[youtube--I5W5QVAT8E-transcript]], [[youtube--I5W5QVAT8E-slides]]
-- `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
-- Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
-- Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
 - `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-n97BCfyFIvw`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
 - Slide-derived themes for `youtube-n97BCfyFIvw`: roles, google, look, across, worth, doing, increasingly, automated.
 - Evidence links for `youtube-n97BCfyFIvw` (primary event evidence): [[youtube-n97BCfyFIvw]], [[youtube-n97BCfyFIvw-transcript]], [[youtube-n97BCfyFIvw-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
+- Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
+- Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.

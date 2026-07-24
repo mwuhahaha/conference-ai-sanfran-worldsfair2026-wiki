@@ -62,9 +62,9 @@ The talk argues for a log-centered agent runtime: instead of starting from the L
 ### Topics Covered
 - **Event-sourced agent runtime** — The core idea that the agent should be modeled as an auditable, event-sourced graph rather than a message thread.
 - [[agent-memory|Immutable agent log]] — The use of a single immutable log as the source of truth for agent state, history, and change tracking.
-- [[agent-memory|Behavior-driven state updates]] — Mechanisms for attaching reacting code to graph updates and letting it emit new events.
-- [[agent-security|Policy-controlled mutation]] — Using policies to constrain edits, approvals, and safe self-modification.
-- **Agent packs** — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
+- [[agent-reliability-and-durable-execution|Behavior-driven state updates]] — Mechanisms for attaching reacting code to graph updates and letting it emit new events.
+- [[inference-engineering|Policy-controlled mutation]] — Using policies to constrain edits, approvals, and safe self-modification.
+- [[software-factories|Agent packs]] — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
 - [[agent-memory|Graph-backed memory]] — Treating logs and replays as the basis for memory and recovery in long-running systems.
 - [[agent-evaluations|Self-improving evaluation loops]] — Controlled self-improvement loops that propose changes, test them, and keep only verified gains.
 - **Experiential world model** — The idea that an agent’s identity and learning may derive from its own experiential history.
@@ -117,8 +117,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-khVX_BUnEwU]] - dedicated official event recording.
 - [[youtube-khVX_BUnEwU-transcript]] - dedicated official recording transcript.
 
-- [[youtube-khVX_BUnEwU-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-khVX_BUnEwU`
 - Slide deck: [[youtube-khVX_BUnEwU-slides|Slides: Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital]] — 31 visible slide image(s).
 ![[assets/slides/khVX_BUnEwU/slide-001.jpg]]
@@ -131,7 +129,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-khVX_BUnEwU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/khVX_BUnEwU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

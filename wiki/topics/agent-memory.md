@@ -19,16 +19,15 @@ sourceAssessment:
   - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-9QebvrrY3KY
   - source:official-wf26-youtube-GgLQ02aO-hs
-  - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-VrpEyglYgeU
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-X1kp-ABIIxQ
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-eBUyTS7SzV4
-  - source:official-wf26-youtube-iCj_ATyThvc
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-n97BCfyFIvw
-sourceAssessmentBodySha256: sha256:244377762dfea36c030c96f0c6a83215a66139da5b0446d79ee4f742d2dff1bf
+sourceAssessmentBodySha256: sha256:31801b132cfe59f31f8119a89f49012d2f9a47bd2714c4d1445e0b3e193197ce
 ---
 # Agent Memory
 
@@ -88,63 +87,45 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Transcript Digest Evidence
-This section synthesizes 42 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 20 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-Persistent context systems that let agents retain, retrieve, and audit useful knowledge across sessions and artifacts. The variations include traces, graphs, ontologies, provenance, and writable memory, with the central tradeoff being richer recall versus higher complexity and maintenance cost.
+These talks treat memory as a durable system for preserving context, continuity, and reusable work state across long-running interactions. The variation is between graph-style recall, file-based or writable state, immutable logs, and search-versus-memory tradeoffs when lineage and context sprawl become the real constraint.
 
 ### Constituent Talk Evidence
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]] — Offline passes that inspect traces and repair memory errors.
   - Transcript: [[youtube-9QebvrrY3KY-transcript]]
   - Evidence: "This is a very important nuance in this process of dreaming is is kind of an offline or out of band process that we've used to consolidate and improve memory."
-- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — A retrieval architecture that supports both simple usage and expert control in one system.
-  - Transcript: [[youtube-RGSFUqzqErE-transcript]]
-  - Evidence: "So, in Foundry IQ, that was one of our core design goals. And the way we do this is we actually layer the system."
-- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
-  - Transcript: [[youtube-kRkcNOsRyYg-transcript]]
-  - Evidence: "Um, that's the general idea with this. And so what this gives the agent to do is not just search like vector search or or lexical search but actually kind of traverse through the documents in a sense."
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']] — Saved sandbox state that survives failures and long tasks.
-  - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
-  - Evidence: "So, we want to give them durable storage. And so, this this part of the presentation is specifically working on disk storage, not memory persistence, but disk persistence."
 - [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The erosion of understanding and memory that can follow heavy reliance on agents.
   - Transcript: [[youtube-n97BCfyFIvw-transcript]]
   - Evidence: "Well, the first thing to avoid really is cognitive debt. Now, cognitive debt is the erosion of your understanding and memory around how to solve problems."
-- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]] — Capturing traces across the full run so long-running agents can be debugged and improved.
-  - Transcript: [[youtube-X1kp-ABIIxQ-transcript]]
-  - Evidence: "So, the full session trace across your entire run is essential. So, if you can't see the entirety of a trace from the trigger through the whole stack, it's really hard to debug it, let alone improve your agent and keep evolving it."
-- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — A collaborative environment where humans and agents can reason about work together.
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up.
   - Transcript: [[youtube-WkBPX-oDMnA-transcript]]
-  - Evidence: "Let's ask a different agent.\" And that agent comes in and talks to us. What's happening here is that instead of me and my PM both talking to our own agents, we're in a shared space, we can see each other's communication."
-- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]] — The failure mode where agents learn separately and drift away from a single source of truth.
+  - Evidence: "Because if we want to be active participants, you still got to do this. There's a great term maybe some of you have heard called cognitive debt that I think really captures the spirit well."
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]] — The shared infrastructure that turns business knowledge into reusable context for agents.
   - Transcript: [[youtube-8G_1-3IO4ZQ-transcript]]
-  - Evidence: "Um and over time we started dealing with uh context sprawl. Uh we had the the the hard part about this was agents all had their own memory systems to a certain extent."
-- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.
-  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
-  - Evidence: "Aiden is the next step and a experimental prototype. It's a multi-agent self-improving system that can read public information like research papers and other PRs, run its own experiments and submit a PR once the findings pass a quality gate."
+  - Evidence: "I like to think of this as the context layer. Uh and then this has a bunch of retrieval mechanisms which then talks to the general purpose agent across the ecosystem."
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — A pre-answer knowledge layer that gives agents company definitions, documentation, and failure history.
   - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
   - Evidence: "So what we actually have it do is consult the librarian first. And the librarian has access to documentation and the library of knowledge items about your company and the schema of prior failed queries."
-- [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]] — The need to preserve where synthesized facts came from in LLM-built knowledge graphs.
+- [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]] — The point that file-based memory becomes hard to reason about when lineage matters.
   - Transcript: [[youtube-H7puB0RwJMM-transcript]]
-  - Evidence: "And I'm going to be talking today about provenence, which is tracing how an artifact was built and why."
-- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — Using observed agent runs to score outcomes and guide future decisions.
-  - Transcript: [[youtube-VGN22pPpb-8-transcript]]
-  - Evidence: "And then the third pillar is the runtime signals out of your agents. When they walk this graph and they execute, they leave the traces around what have I tried?"
-- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]] — The importance of temporal order and multimodal signals in making video meaningful.
+  - Evidence: "Yeah. uh markdown suffers from provenence. File-based um file-based uh memory starts to break down with provenence."
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]] — The distinction between retrieving candidates and preserving corpus-level continuity and knowledge.
   - Transcript: [[youtube-mOf-PP4mVjA-transcript]]
-  - Evidence: "is useful approximation for some task but it throw away the thing that makes video very unique which is continuity right so meaning in video derives from space time modalities the sequence so a better mental for video is a spatial temporal volume."
+  - Evidence: "Now moving beyond like kind of the stack right here I want to talk about the difference between search and memory right very quickly speaking uh search is obviously super important is how you recover relevant moments from large video library but then it give you candidate it actually not give you like any continuity"
 - [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — A graph-based semantic layer that joins multiple systems of record into one traversable model.
   - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
   - Evidence: "So we're building a knowledge graph with the idea of the agent consumer and here is an endto-end look of what this looks like."
-- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — The shift from storing records to building a live layer that explains how work is connected and why decisions were made.
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — A two-speed architecture that combines long-term pattern learning with short-term state tracking.
   - Transcript: [[youtube-Btk8wDUVs74-transcript]]
-  - Evidence: "What we want to talk today is like take it step further. Uh we want software that actually understand the connection between them."
-- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — Graph-based representation of entities and relationships for connected data.
+  - Evidence: "And in data processing architecture, it's referred to as a lambda architecture. We apply the same concepts to how we construct the agent's data model."
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — Memory limits and operating scale beyond a prompt-sized context window.
   - Transcript: [[youtube-Q0VkgCyNVUg-transcript]]
-  - Evidence: "That's that's very unfortunate. So enter graphs. Graphs are a great way of finding the relationships, finding those identities, bu mapping out the paths, getting that full chain and they're built for this sort of connected data."
-- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Mechanisms for attaching reacting code to graph updates and letting it emit new events.
+  - Evidence: "If if you have a big enterprise which has a huge data center, if you're doing things in financial services where you have like a huge set of companies and customer records you're trying to do, if you're doing anything at at large scale where it doesn't fit into the 1 million context window of the modern models, you really need a better memory system than just throwing things in markdown files."
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Treating logs and replays as the basis for memory and recovery in long-running systems.
   - Transcript: [[youtube-khVX_BUnEwU-transcript]]
-  - Evidence: "And then they emit events, which then in turn updates the state of the agent, which might trigger new behaviors."
+  - Evidence: "Um the first one I did was can I use the log itself as memory? So this is not pure vector rag."
 
 ## Connections
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer; [[anders-swanson|Anders Swanson]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 2 NW; official schedule)
@@ -244,9 +225,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 56 | Related pages outside the main evidence categories. |
 | resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 38 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 41 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 38 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 21 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 15 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge]]
@@ -258,8 +239,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-o-zkvb0iFDQ]]
-- [[youtube-mOf-PP4mVjA]]
 - [[youtube-H7puB0RwJMM]]
+- [[youtube-mOf-PP4mVjA]]
 - [[youtube-I2cbIws9j10]]
 - [[youtube-eBUyTS7SzV4]]
 - [[youtube-4sX_He5c4sI]]
@@ -273,12 +254,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-il1c1a2FufU-slides]]
 
 ### Transcripts
-- [[youtube-mOf-PP4mVjA-transcript]]
+- [[youtube-9QebvrrY3KY-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-WkBPX-oDMnA-transcript]]
+- [[youtube-8G_1-3IO4ZQ-transcript]]
+- [[youtube-YZQsWVeN3rE-transcript]]
 - [[youtube-H7puB0RwJMM-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-eBUyTS7SzV4-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-vljxQZfJ9wY-transcript]]
 
 ### Tools
 - [[neo4j]]
@@ -290,28 +271,28 @@ This section consolidates source evidence currently connected to this topic acro
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
-- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer|From Context to Memory: Your Agents Need a Real Memory Layer]]
-- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]]
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]]
 - [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]]
-- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents|'The Infinite Context Window Is a Myth: Context Engineering for AI Agents']]
-- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
+- [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
-- [[2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering|Total Recall: Agent Memory and Harness Engineering]]
-- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]]
-- [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident|Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident]]
-- [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]]
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
 
 ### Media Signals
-- `youtube-mOf-PP4mVjA` — 3,509 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-mOf-PP4mVjA`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-mOf-PP4mVjA`: memory, scene, content, system, across, layer, application, context.
-- Slide-derived themes for `youtube-mOf-PP4mVjA`: memory, built, data, incredibly, complex, scale, holistic, understanding.
-- Evidence links for `youtube-mOf-PP4mVjA` (primary event evidence): [[youtube-mOf-PP4mVjA]], [[youtube-mOf-PP4mVjA-transcript]], [[youtube-mOf-PP4mVjA-slides]]
 - `youtube-H7puB0RwJMM` — 2,544 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-H7puB0RwJMM`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-H7puB0RwJMM`: fact, graph, data, source, graffiti, facts, provenence, sources.
 - Slide-derived themes for `youtube-H7puB0RwJMM`: track, graphs, provenance, engineering, future, temporal, knowledge, built.
 - Evidence links for `youtube-H7puB0RwJMM` (primary event evidence): [[youtube-H7puB0RwJMM]], [[youtube-H7puB0RwJMM-transcript]], [[youtube-H7puB0RwJMM-slides]]
+- `youtube-mOf-PP4mVjA` — 3,509 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-mOf-PP4mVjA`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-mOf-PP4mVjA`: memory, scene, content, system, across, layer, application, context.
+- Slide-derived themes for `youtube-mOf-PP4mVjA`: memory, built, data, incredibly, complex, scale, holistic, understanding.
+- Evidence links for `youtube-mOf-PP4mVjA` (primary event evidence): [[youtube-mOf-PP4mVjA]], [[youtube-mOf-PP4mVjA-transcript]], [[youtube-mOf-PP4mVjA-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.

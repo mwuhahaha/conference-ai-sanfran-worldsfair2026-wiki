@@ -17,7 +17,7 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:170706aa703e228bdfcc490f313af3e0bb4e1a56355fcb8bf8217f0d99fc3b0d
+sourceAssessmentBodySha256: sha256:5410d6973727fcc102bea32cc16eb77391b03142746eb3f76a1b267d8668603d
 ---
 # Pydantic
 
@@ -32,6 +32,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — A Python library used to specify and enforce parameter types for tool inputs.
   - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
   - Evidence: "Pydantic is a way to specify the types of what you want the types of the parameters to be."
+
 ## Confirmed Evidence
 
 ### Official Schedule

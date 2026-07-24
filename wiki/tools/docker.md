@@ -25,7 +25,7 @@ sourceAssessment:
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:1e539453bc26d067b20011a3d960c87f8c1fcc941f9db7259e57e0dc787a3b3c
+sourceAssessmentBodySha256: sha256:3696f8c0ad049de9098f71c20491cae6d810d47df42cdac85f772ea3ab1bb10a
 ---
 # Docker
 
@@ -43,6 +43,7 @@ This section is generated from 2 evidence-bound talk digest(s).
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — The containerization technology that creates the Docker socket exposure discussed in the talk.
   - Transcript: [[youtube-LqLoYksJ6do-transcript]]
   - Evidence: "Um but our world is much more complicated than that, at least nowadays in our world since we have containers."
+
 ## Confirmed Evidence
 
 ### Official Schedule

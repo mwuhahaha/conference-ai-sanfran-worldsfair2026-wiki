@@ -20,12 +20,13 @@ sourceAssessment:
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-OqM67QG_Ikk
-  - source:official-wf26-youtube-V-EDrhIhHzQ
+  - source:official-wf26-youtube-X1kp-ABIIxQ
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-imFedndyXYQ
+  - source:official-wf26-youtube-jRCpXUjz4CI
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:00ebb733fd540e8eec87defa87aa902e3b81cc7b506f01140ac54a89c64e458c
+sourceAssessmentBodySha256: sha256:e08cd0f6fc9f27cd4d845e4b5bae1011c525c6cbae9b58bfce4d723c05d2cde4
 ---
 # AI Sandboxes
 
@@ -81,9 +82,11 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
+- [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
 - [[2026-06-30-sean-cai-state-of-data]] — State of Data
 
@@ -91,6 +94,7 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
 - [[youtube-1EZdpEhwmNc-slides]] — Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk (16 extracted slide frames)
 - [[youtube-1P1hJ36rxM0-slides]] — Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind (15 extracted slide frames)
+- [[youtube-jRCpXUjz4CI-slides]] — Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute (32 extracted slide frames)
 - [[youtube-kRkcNOsRyYg-slides]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j (32 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
 - [[youtube-ZSQb5fzRFPw-slides]] —  (17 extracted slide frames)
@@ -99,15 +103,12 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Transcript Digest Evidence
-This section synthesizes 15 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 11 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-Isolated execution environments for running untrusted or production-capable agent actions safely. The shared idea is containment, but the talks differ on whether the emphasis is micro-VM strength, placement and persistence, or fleet-level sandbox operations.
+These candidates describe isolated execution environments for agents, ranging from sandbox fleets and snapshot-aware workspaces to stronger containment around code and tool use. The variation is between persistence and isolation: some talks want durable state that survives failures, while others emphasize hard boundaries and reproducible execution above all else.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — An application and infrastructure strategy where the same stack is used internally and externally.
-  - Transcript: [[youtube-pMggiOb18tc-transcript]]
-  - Evidence: "At every layer, we actually use the thing that we give to you. And we want to thank all of you because every time you fork the harness, every time you find the edge of capabilities of the models, it means we get to learn and improve."
 - [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Running exploit tests in isolated, reproducible environments to safely validate findings.
   - Transcript: [[youtube-imFedndyXYQ-transcript]]
   - Evidence: "So this isolation doing bad things could be data exfiltration or you know dropping things in production and of course uh you you want all of this to be running in a VM without egress and of of course without your cloud credentials."
@@ -117,15 +118,18 @@ Isolated execution environments for running untrusted or production-capable agen
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — Harnesses that run continuously in cloud sandboxes and broader collaboration surfaces.
   - Transcript: [[youtube-8qWIPUia2O8-transcript]]
   - Evidence: "I think this is something we've seen over the last really 3 months. Um, and I think we're all still starting to grapple with what it means, which is this movement from a local harness to a cloud harness where the harness is always on."
-- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — The idea that environments are the shared abstraction for evaluation, training, and data generation.
-  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
-  - Evidence: "And so the post-training loop in my mind kind of revolves around environments in the sense of environments are a language for specifying what you want your model to do."
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']] — Placement logic that uses snapshot lineage and node state.
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']] — Saved sandbox state that survives failures and long tasks.
   - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
-  - Evidence: "And so, here is a way where we can use snapshot rich restore for better orchestration. So, remember we discussed that a snapshot can have a lineage of many, many layers."
+  - Evidence: "So, we want to give them durable storage. And so, this this part of the presentation is specifically working on disk storage, not memory persistence, but disk persistence."
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']] — How to execute agent tool calls and untrusted code securely for product and research workloads.
   - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
   - Evidence: "So, a sandbox is a play an environment in which you can run these tool calls and execute code on behalf of the model securely and it could be on your laptop or it could be on the cloud."
+- [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]] — Sandboxed task environments that pair instructions with execution space and verification.
+  - Transcript: [[youtube-jRCpXUjz4CI-transcript]]
+  - Evidence: "So we'll put it into a computer, but we'll put it into a virtual computer. So a sandbox. Um, and then we need some way of telling whether or not the agent actually did the thing that we told it to do in the sandbox within some amount of time or other stopping condition."
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]] — Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.
+  - Transcript: [[youtube-X1kp-ABIIxQ-transcript]]
+  - Evidence: "But, a sandbox is ephemeral and stateless by design. So, using it for durability, snapshots, or something in state, I think is an anti-pattern."
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Keeping GPU workers busy by allocating sandboxes from a demand-sized warm pool.
   - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
   - Evidence: "So um I guess I'll just explain to you orally and what what that is is uh so we have like a a set of GPUs here which all want to use a sandbox and what we will do is that we use a demandbased autoscaler to detect um how many GPUs like currently need a sandbox and we can grow the pool to be that size uh on demand."
@@ -226,8 +230,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 | --- | ---: | --- |
 | other | 45 | Related pages outside the main evidence categories. |
 | resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| slides | 17 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 36 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 8 | Transcript markdown; check session matching and caption quality. |
 
@@ -235,33 +239,33 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]]
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
 
 ### Resources
 - [[aie-wiki-generation-delta]]
 - [[youtube-pMggiOb18tc]]
 - [[youtube-o-zkvb0iFDQ]]
 - [[youtube-wFTVEDYVJT0]]
-- [[youtube-OqM67QG_Ikk]]
 - [[youtube-LqLoYksJ6do]]
+- [[youtube-OqM67QG_Ikk]]
 
 ### Slides
 - [[youtube--CnA2lGfymY-slides]]
 - [[youtube-1EZdpEhwmNc-slides]]
 - [[youtube-1P1hJ36rxM0-slides]]
+- [[youtube-jRCpXUjz4CI-slides]]
 - [[youtube-kRkcNOsRyYg-slides]]
 - [[youtube-OqM67QG_Ikk-slides]]
-- [[youtube-ZSQb5fzRFPw-slides]]
 
 ### Transcripts
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-LqLoYksJ6do-transcript]]
-- [[youtube-4kYl2_mqmnQ-transcript]]
-- [[youtube-pMggiOb18tc-transcript]]
 - [[youtube-imFedndyXYQ-transcript]]
+- [[youtube-LqLoYksJ6do-transcript]]
 - [[youtube-8qWIPUia2O8-transcript]]
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-jRCpXUjz4CI-transcript]]
+- [[youtube-X1kp-ABIIxQ-transcript]]
 
 ### Tools
 - [[docker]]
@@ -277,26 +281,26 @@ The theme recurs across independently attributed official event recordings. Spec
 ### Linked Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
-- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems|Unlock Agent Autonomy: The Runtime for AI-Native Systems]]
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]]
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]]
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
-- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox|Kubernetes Is Not Your Sandbox]]
-- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code|1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code]]
-- [[2026-06-30-adam-azzam-don-t-build-agents-build-environments|Don’t build agents, build environments]]
-- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
+- [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]]
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]]
 
 ### Media Signals
-- `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
-- Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
-- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
 - `youtube-LqLoYksJ6do` — 4,014 transcript words; 5 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-LqLoYksJ6do`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-LqLoYksJ6do`: case, docker, sandbox, access, repository, order, deterministic, give.
 - Slide-derived themes for `youtube-LqLoYksJ6do`: code, gave, production, access, tried, sleep, night, track.
 - Evidence links for `youtube-LqLoYksJ6do` (primary event evidence): [[youtube-LqLoYksJ6do]], [[youtube-LqLoYksJ6do-transcript]], [[youtube-LqLoYksJ6do-slides]]
+- `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
+- Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
+- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
 - Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]

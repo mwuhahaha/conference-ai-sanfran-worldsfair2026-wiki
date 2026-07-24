@@ -26,17 +26,17 @@
   },
   {
     "id": "transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1",
-    "title": "Highlights: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+    "title": "Highlights: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1",
     "path": "wiki/highlights/transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1.md"
   },
   {
     "id": "transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2",
-    "title": "Highlights: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2'",
+    "title": "Highlights: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2",
     "path": "wiki/highlights/transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2.md"
   },
   {
     "id": "transcript-2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king",
-    "title": "Highlights: 'In the Land of AI Agents, the Verifiers Are King'",
+    "title": "Highlights: 'In the Land of AI Agents, the Verifiers Are King",
     "path": "wiki/highlights/transcript-2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king.md"
   },
   {
@@ -68,6 +68,11 @@
     "id": "transcript-2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge",
     "title": "Highlights: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge",
     "path": "wiki/highlights/transcript-2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge.md"
+  },
+  {
+    "id": "transcript-2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale",
+    "title": "Highlights: Building Closed-Loop Evals for a Multimodal Agent at Uber Scale",
+    "path": "wiki/highlights/transcript-2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale.md"
   },
   {
     "id": "transcript-2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs",
@@ -110,9 +115,19 @@
     "path": "wiki/highlights/transcript-2026-06-29-sam-bhagwat-every-harness-will-become-a-claw.md"
   },
   {
+    "id": "transcript-2026-06-30-alex-shaw-everything-is-a-rollout",
+    "title": "Highlights: Everything Is a Rollout",
+    "path": "wiki/highlights/transcript-2026-06-30-alex-shaw-everything-is-a-rollout.md"
+  },
+  {
     "id": "transcript-2026-06-30-thariq-shihipar-field-guide-to-fable",
     "title": "Highlights: Field Guide to Fable",
     "path": "wiki/highlights/transcript-2026-06-30-thariq-shihipar-field-guide-to-fable.md"
+  },
+  {
+    "id": "transcript-2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent",
+    "title": "Highlights: From Signal to PR: Anatomy of a Self-Improving Agent",
+    "path": "wiki/highlights/transcript-2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent.md"
   },
   {
     "id": "transcript-2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context",
@@ -153,6 +168,11 @@
     "id": "transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are",
     "title": "Highlights: It's 10pm. Do You Know Where Your Agents Are?",
     "path": "wiki/highlights/transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are.md"
+  },
+  {
+    "id": "transcript-2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior",
+    "title": "Highlights: Model Whisperers: How Evals and Prompts Shape Agent Behavior",
+    "path": "wiki/highlights/transcript-2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior.md"
   },
   {
     "id": "transcript-2026-06-29-sarah-sachs-notion-s-token-town",
@@ -220,6 +240,11 @@
     "path": "wiki/highlights/transcript-2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer.md"
   },
   {
+    "id": "transcript-2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on",
+    "title": "Highlights: Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.",
+    "path": "wiki/highlights/transcript-2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on.md"
+  },
+  {
     "id": "transcript-2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers",
     "title": "Highlights: Training Frontier Models to Out-Think Hackers",
     "path": "wiki/highlights/transcript-2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers.md"
@@ -248,6 +273,11 @@
     "id": "transcript-2026-07-01-frank-coyle-why-agentic-systems-need-ontologies",
     "title": "Highlights: Why Agentic Systems Need Ontologies",
     "path": "wiki/highlights/transcript-2026-07-01-frank-coyle-why-agentic-systems-need-ontologies.md"
+  },
+  {
+    "id": "transcript-2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research",
+    "title": "Highlights: Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)",
+    "path": "wiki/highlights/transcript-2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research.md"
   },
   {
     "id": "transcript-2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents",

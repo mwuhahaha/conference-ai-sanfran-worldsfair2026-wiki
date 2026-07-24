@@ -1,0 +1,22 @@
+oe a aa a
+Al Engineer
+World's Fair |
+Machine Learning > Agent Building
+
+Training data pee ube ese
+
+Test / validation set > Evals (environments)
+
+Weights > Skills, prompts, tools, model
+
+Loss function > Environment rewards & feedback
+
+Backprop / optimizer > GEPA or text-based optimization
+
+Gradient descent step cee ee acto ct-ba
+
+Overfitting >» Reward hacking (or overfitting)
+iy)
+
+TRACK 5 * JULY 1, 2026
+Evals

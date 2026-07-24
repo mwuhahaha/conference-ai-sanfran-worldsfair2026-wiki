@@ -1,27 +1,32 @@
 ---
-title: "Official WF26 Playlist Item 31GUkCBD-Uc (Unavailable)"
+title: "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber"
 category: "resources"
-sourceLabels: ["Official WF26 playlist membership"]
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "31GUkCBD-Uc"
-playlistId: "PLDyBmFH9HlVc"
-availability: "unavailable"
-sourceLayers: ["supporting_context"]
+publishedDate: "2026-07-24"
+last_enriched: "2026-07-24T22:22:59.285070+00:00"
 ---
-# Official WF26 Playlist Item 31GUkCBD-Uc (Unavailable)
+# Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber
 
 ## What It Is
-An unavailable item retained from the official AI Engineer WF26 playlist. Playlist membership establishes event association only; no content or schedule claim is made.
+An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: official WF26 playlist association metadata only.
-- Channel/source: unavailable item retained from the official AI Engineer WF26 playlist.
-- Use: do not use this placeholder as content, transcript, slide, or schedule evidence.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
+
+## Relationship To World's Fair 2026
+- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale|Building Closed-Loop Evals for a Multimodal Agent at Uber Scale]]
 
 ## Transcript Status
-Unavailable; no transcript content was acquired.
+Cached transcript text is available at `raw/sources/youtube-transcripts/31GUkCBD-Uc.txt`.
 
 ## Extracted Slides
-Unavailable; no slide content was acquired.
+- [[youtube-31GUkCBD-Uc-slides]]
+
+## Transcript Markdown
+- [[youtube-31GUkCBD-Uc-transcript]] — full cached transcript markdown.
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=31GUkCBD-Uc)

@@ -120,6 +120,11 @@
     "path": "wiki/tools/dspy.md"
   },
   {
+    "id": "evo",
+    "title": "EVO",
+    "path": "wiki/tools/evo.md"
+  },
+  {
     "id": "exa",
     "title": "Exa",
     "path": "wiki/tools/exa.md"
@@ -128,6 +133,11 @@
     "id": "fable",
     "title": "Fable",
     "path": "wiki/tools/fable.md"
+  },
+  {
+    "id": "fable-5",
+    "title": "Fable 5",
+    "path": "wiki/tools/fable-5.md"
   },
   {
     "id": "factory-ai",
@@ -173,6 +183,11 @@
     "id": "google-antigravity",
     "title": "Google Antigravity",
     "path": "wiki/tools/google-antigravity.md"
+  },
+  {
+    "id": "gpt-5-5",
+    "title": "GPT 5.5",
+    "path": "wiki/tools/gpt-5-5.md"
   },
   {
     "id": "graphrag",

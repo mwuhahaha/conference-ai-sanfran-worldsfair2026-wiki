@@ -55,9 +55,9 @@ The talk argues that once agents can invoke tools, safety stops being a philosop
 
 ### Topics Covered
 - [[agent-security|Tool-call safety]] — The risk that tool-enabled agents can create real-world harm through side effects.
-- **Agentic loops** — The execution loop in which an agent acts on the world rather than only producing text.
+- [[agent-reliability-and-durable-execution|Agentic loops]] — The execution loop in which an agent acts on the world rather than only producing text.
 - [[agent-security|Proof-carrying code]] — The idea of attaching a proof to code so execution is allowed only after verification.
-- [[coding-agents|Program verification]] — Turning agent intent into a program that can be inspected and analyzed statically.
+- [[agent-evaluations|Program verification]] — Turning agent intent into a program that can be inspected and analyzed statically.
 - **Static analysis** — Using compiler methods like type checking and data-flow analysis on agent programs.
 
 ### Tools And Named Systems

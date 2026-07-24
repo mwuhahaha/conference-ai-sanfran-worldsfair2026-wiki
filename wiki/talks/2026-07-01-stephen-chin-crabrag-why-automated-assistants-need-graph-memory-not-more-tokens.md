@@ -58,9 +58,9 @@ The talk argues that automated assistants fail less because they lack tools and 
 ### Topics Covered
 - [[agent-memory|Assistant memory architecture]] — The central problem of preserving useful state across assistant turns and tool iterations.
 - [[agent-memory|Knowledge graphs]] — Graph-based representation of entities and relationships for connected data.
-- [[agent-memory|Vector retrieval]] — Similarity-based retrieval from embeddings and vectors.
-- **Multihop reasoning** — Using graphs to answer questions that require multiple relationship hops.
-- [[agent-memory|Auditable context]] — Answers that can be inspected and traced back to a specific graph path.
+- **Vector retrieval** — Similarity-based retrieval from embeddings and vectors.
+- [[agent-memory|Multihop reasoning]] — Using graphs to answer questions that require multiple relationship hops.
+- [[agentic-search|Auditable context]] — Answers that can be inspected and traced back to a specific graph path.
 - [[agent-memory|Large-scale assistants]] — Memory limits and operating scale beyond a prompt-sized context window.
 
 ### Tools And Named Systems
@@ -122,8 +122,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-Q0VkgCyNVUg-transcript]] - dedicated official recording transcript.
 - [[youtube-eW_vxrjvERk]] - supporting context; not the exact session recording.
 
-- [[youtube-Q0VkgCyNVUg-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-Q0VkgCyNVUg`
 - Slide deck: [[youtube-Q0VkgCyNVUg-slides|Slides: CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j]] — 22 visible slide image(s).
 ![[assets/slides/Q0VkgCyNVUg/slide-001.jpg]]
@@ -140,7 +138,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-Q0VkgCyNVUg-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Q0VkgCyNVUg.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

@@ -60,11 +60,11 @@ The panel's thesis is that local AI has moved from novelty to utility because mo
   - Evidence: "That's why we need to automate it. And it it really does need to be point-and-click. And once it gets there, and there's there's a lot of great open source projects, there's a lot of great projects in general that are getting there, but we're still not quite there."
 
 ### Topics Covered
-- **Local AI inflection point** — The idea that local AI crossed from interesting to useful because models and harnesses both improved.
+- [[inference-engineering|Local AI inflection point]] — The idea that local AI crossed from interesting to useful because models and harnesses both improved.
 - [[inference-engineering|Model harnesses]] — The layer of tools, peripherals, and system access that makes a model practically useful.
 - [[inference-engineering|Multimodel routing]] — Choosing different models for planning, execution, and other tasks based on cost and capability.
-- **Specialized models** — Task-specific models that replace the assumption that one model should handle everything.
-- **Local hardware optimization** — Performance work on smaller devices through tuning, quantization, and configuration.
+- [[inference-engineering|Specialized models]] — Task-specific models that replace the assumption that one model should handle everything.
+- [[inference-engineering|Local hardware optimization]] — Performance work on smaller devices through tuning, quantization, and configuration.
 - **Open-model control** — The strategic need to control versions, weights, and update timing instead of depending on cloud defaults.
 
 ### Tools And Named Systems

@@ -56,7 +56,7 @@ This talk argues that once an agent can touch production credentials, it is no l
   - Evidence: "All right. If you take one thing from this, um the blast radius of an agent is an architecture decision."
 
 ### Topics Covered
-- [[agent-security|Dependency patching at scale]] — How to remediate vulnerable dependencies across many repositories while keeping PRs reviewable and safe.
+- **Dependency patching at scale** — How to remediate vulnerable dependencies across many repositories while keeping PRs reviewable and safe.
 - [[agent-security|Agent supply-chain role]] — The idea that an agent with production credentials becomes part of the software supply chain.
 - [[coding-agents|Two-layer agent architecture]] — Separating boring orchestration from agentic reasoning to reduce risk and increase reliability.
 - [[agent-security|Prompt injection defense]] — Using tests and crafted repositories to check whether an agent can be manipulated by untrusted repository content.
@@ -112,8 +112,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-LqLoYksJ6do]] - dedicated official event recording.
 - [[youtube-LqLoYksJ6do-transcript]] - dedicated official recording transcript.
 
-- [[youtube-LqLoYksJ6do-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-LqLoYksJ6do`
 - Slide deck: [[youtube-LqLoYksJ6do-slides|Slides: We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3]] — 5 visible slide image(s).
 ![[assets/slides/LqLoYksJ6do/slide-001.jpg]]
@@ -126,7 +124,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-LqLoYksJ6do-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/LqLoYksJ6do.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

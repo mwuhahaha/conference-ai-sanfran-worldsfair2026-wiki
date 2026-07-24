@@ -1,0 +1,242 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T22:39:26.850710+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:f82ecc9bb68da61cb2de67fb67cfc5b09b0d8bc04ed38d116a3d81ec83165a67",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Visual content actually plays a really important role for the user experience. So a photo is quite often the first signal that a customer gets that gives them that initial impression about a merchant.",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "support": "explicit",
+        "text": "The speakers say visual content is often the first signal shoppers see, and it can determine whether they click through and add an item to cart."
+      },
+      {
+        "evidenceExcerpt": "And when we speak to our merchants, there are three themes that kind of emerge. Lack of time, lack of know-how, and costs cuz these professional um photo shoots actually cost a lot of money.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "support": "explicit",
+        "text": "They report that smaller merchants often lack the time, know-how, and money to produce high-quality photos."
+      },
+      {
+        "evidenceExcerpt": "So, we're threading the needle here. We need to be able to stay faithful to the original image, preserve the brand of the merchant, and avoid everything looking the same.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "They argue the system has to stay faithful to the original image, preserve merchant branding, and avoid making the marketplace look uniform."
+      },
+      {
+        "evidenceExcerpt": "You want to start with your logging cuz if you don't start with it, you have nothing to optimize for, let alone set up a self-learning loop.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "support": "explicit",
+        "text": "They say logging is foundational because without it there is nothing to optimize or feed into a self-learning loop."
+      },
+      {
+        "evidenceExcerpt": "So the meta point I'm trying to get here is you've trained your offline model, but there will be long cases where your model is going to continue to fail and the static model will not work in the real system.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "support": "explicit",
+        "text": "They report that static offline models will not hold up under drift, so the system has to keep evolving over time."
+      },
+      {
+        "evidenceExcerpt": "So, this is an example of a reward hacking actually. And and this is a nugatory change, but something that we don't think is a meaningful or influential change despite the actual raw pixels of the input and output being pretty different.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "support": "explicit",
+        "text": "They describe reward hacking as edits that change pixels in a way that is not actually meaningful or influential."
+      }
+    ],
+    "methodNotes": "I used exactly one transcript segment ID for each non-summary item and kept claims separate from methods, topics, tools, takeaways, and open questions.",
+    "methods": [
+      {
+        "description": "Structured-output image-understanding routing: the system asks for a description of the photo, turns it into structured output, and uses that to decide whether to enhance or skip.",
+        "evidenceExcerpt": "We actually ask the LLM to describe what it sees in the photo. Um and then we we create a structured output from that, and we send it to a router.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Structured routing"
+      },
+      {
+        "description": "Confusion-matrix routing evaluation: routing is evaluated like a classifier with precision and recall over branch decisions.",
+        "evidenceExcerpt": "Um but we can look at things like the true positive cases, the false negative negative cases, and so on and so forth.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Routing confusion matrix"
+      },
+      {
+        "description": "Human-golden-dataset alignment: representative samples are labeled by humans with objective guidelines and used to tune the model before shipping.",
+        "evidenceExcerpt": "Once we've got that system set up is when we start tuning our model. We take our agent, we go ahead get output from the agent, compare it to your golden dataset, evaluate if it's good enough to ship, if it meets your guardrail metrics, you go ahead and ship it.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "name": "Golden-label calibration"
+      },
+      {
+        "description": "Diagnoser-driven auto-tuning: a diagnoser localizes mismatches from production feedback and triggers the tuning pipeline.",
+        "evidenceExcerpt": "If there's a mismatch, we have an umbrella diagnosis agent which takes in the feedback, localizes where this issue is happening, and and and triggers our auto-tuning pipeline.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Diagnoser auto-tuning"
+      },
+      {
+        "description": "Reflection-and-synthesis prompt optimization: one sub-agent reflects on mismatches and another updates the agent config from that feedback.",
+        "evidenceExcerpt": "There's the reflect agent and the up synthesize agent. What reflect does is it it just looks at the mismatches, tries to find remove any noise, find any systemic issues that might be in your data set, and reflect on it and send that feedback to the synthesize agent.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "Prompt optimizer loop"
+      },
+      {
+        "description": "Iterative enhancement with a multi-dimensional QA gate: the editor keeps retrying until the output passes checks on attributes like plating, faithfulness, and color.",
+        "evidenceExcerpt": "Then you've got the QA gate, which is a multi-dimensional gate, looks at multiple things like plating, faithfulness, colors.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "Iterative QA gating"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But how do we actually find what's better? So, um we're not going to dive into too much of the details here cuz this is kind of like proprietary stuff, and so we'll just mention it at a higher level that this is where you sort of For least for us at Rue Ba, we have to make sure that we're aligning with product, design, policy, legal.",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "question": "How can the team define a better-image rubric that stays aligned across product, design, policy, and legal without erasing merchant-specific variety?",
+        "whyItMatters": "That definition sets the boundary between useful enhancement and unsafe homogenization."
+      },
+      {
+        "evidenceExcerpt": "So, this is an example of a reward hacking actually. And and this is a nugatory change, but something that we don't think is a meaningful or influential change despite the actual raw pixels of the input and output being pretty different.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "question": "How can the system reliably detect edits that are technically different but not meaningfully better?",
+        "whyItMatters": "This is the core defense against reward hacking in the image-editing loop."
+      },
+      {
+        "evidenceExcerpt": "It can reflect on what actual agent within the overall system needs to be optimized, and it can route that agent to be able to fix that configuration specifically.",
+        "evidenceSegmentIds": [
+          "S0131"
+        ],
+        "question": "How can one diagnoser generalize across multiple agents and feedback sources without reintroducing manual review bottlenecks?",
+        "whyItMatters": "The answer determines whether the feedback system scales as the orchestration surface grows."
+      }
+    ],
+    "summary": "The talk’s central thesis is that a multimodal food-photo enhancement agent can only work at Uber scale if evals are built as a closed loop, not as a one-shot benchmark. The speakers lay out a staged mechanism: a router decides whether to enhance, an editing loop iterates against QA feedback, and a final publish gate enforces policy and quality while every step is logged for diagnosis. The practical tradeoff is that the system has to improve lower-quality merchant photos without flattening brand identity or marketplace diversity, so it balances creativity against recall-heavy guardrails, compute cost, and reward-hacking risk. They also show that offline tuning has to be coupled to production signals, because drift and real-world feedback determine whether the system actually keeps improving.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "You want to start with your logging cuz if you don't start with it, you have nothing to optimize for, let alone set up a self-learning loop.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "text": "Start with logging before trying to optimize anything, because logs are what make diagnosis and self-learning possible."
+      },
+      {
+        "evidenceExcerpt": "Send it to our human labelers and give them a very objective guideline to label on. This is to remove any subjective biases or any noise coming in from human labelers.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "text": "Use objective human-labeling guidelines to reduce subjective noise when building the first target dataset."
+      },
+      {
+        "evidenceExcerpt": "Essentially, what we're doing is we're measuring the precision recall. In practice, your routers might actually be much more sophisticated.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "Treat routing as a precision-and-recall problem so the guardrail matches the cost of letting bad images slip through."
+      },
+      {
+        "evidenceExcerpt": "So, the metric we are measuring here is pass at K. Pass at K is essentially the pass rate at Kth iteration.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "text": "Measure iterative image editing with pass-at-K so you can see whether more rounds actually improve the chance of success."
+      },
+      {
+        "evidenceExcerpt": "So, in this area as opposed to the others, what we can do is sort of slice by geos, by device type, by dish type, etc.",
+        "evidenceSegmentIds": [
+          "S0140"
+        ],
+        "text": "Check production impact by slicing metrics by geo, device type, and dish type instead of relying only on aggregate results."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The Uber Eats delivery marketplace is the production platform the speakers use as the setting for the agent and its evaluation loop.",
+        "evidenceExcerpt": "So our delivery marketplace Uber Eats, we do about 90 billion run rate per year at the moment.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Uber Eats"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The talk centers on routing, editing, and QA for a multimodal image agent.",
+        "evidenceExcerpt": "So, first up, we have what we call an image understanding and routing agents. So, this is where multimodality is is pretty important.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Multimodal routing"
+      },
+      {
+        "description": "The system is designed to preserve merchant identity and user trust while improving photos.",
+        "evidenceExcerpt": "But for us, it's about one, preserving authenticity and trust. Two, improving the quality when we need to.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "name": "Merchant authenticity"
+      },
+      {
+        "description": "The speakers emphasize that edits should not collapse the visual diversity of the marketplace.",
+        "evidenceExcerpt": "If we have the same prompt for every photo that we're editing, the diversity of the marketplace is going to collapse.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "name": "Marketplace diversity"
+      },
+      {
+        "description": "The talk gives a concrete example of reward hacking in image-edit evaluation.",
+        "evidenceExcerpt": "So, this is an example of a reward hacking actually. And and this is a nugatory change, but something that we don't think is a meaningful or influential change despite the actual raw pixels of the input and output being pretty different.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "name": "Reward hacking"
+      },
+      {
+        "description": "The system combines offline labeling, production sampling, and feedback-driven retraining.",
+        "evidenceExcerpt": "So, this is where we've actually created um a higher level of abstraction on top, which we call the diagnoser.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "name": "Closed-loop feedback"
+      },
+      {
+        "description": "Production evaluation is broken down by slices such as geo, device type, and dish type.",
+        "evidenceExcerpt": "So, in this area as opposed to the others, what we can do is sort of slice by geos, by device type, by dish type, etc.",
+        "evidenceSegmentIds": [
+          "S0140"
+        ],
+        "name": "Segment-level evaluation"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:dbf709953350719d988659745cbce5383825f52c5a40ce1e3bf361f0f0f64560",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale",
+  "talkTitle": "Building Closed-Loop Evals for a Multimodal Agent at Uber Scale",
+  "transcriptPath": "raw/sources/youtube-transcripts/31GUkCBD-Uc.txt",
+  "transcriptSha256": "sha256:fcd182d3666b5696a1a9d03c57fbed73b070c080733030ffe3875cc071cd4eb9",
+  "videoId": "31GUkCBD-Uc"
+}

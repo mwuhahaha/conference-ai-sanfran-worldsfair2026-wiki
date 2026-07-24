@@ -54,10 +54,10 @@ Sean Cai argues that the real bottleneck in frontier AI is no longer raw data vo
   - Evidence: "Enterprise in ways you wouldn't expect a data business to do. Once enterprises stop renting out labs intelligence and starts owning their own, you need an entire abstraction layer that doesn't exist yet."
 
 ### Topics Covered
-- [[agent-evaluations|Process-Based Data]] — Data derived from real workflows, reasoning traces, and decision sequences rather than only final outputs.
+- **Process-Based Data** — Data derived from real workflows, reasoning traces, and decision sequences rather than only final outputs.
 - [[agent-evaluations|Verification-Driven Maturity]] — The idea that task ease of training depends on how verifiable the task is.
 - [[agent-evaluations|Benchmark Reliability]] — Failure modes where benchmarks become noisy, gameable, or scaffold-dependent.
-- **Enterprise AI Infrastructure** — Enterprise-oriented infrastructure for owning workflows, routing models, and retraining on live work.
+- [[model-capability-and-product-framing|Enterprise AI Infrastructure]] — Enterprise-oriented infrastructure for owning workflows, routing models, and retraining on live work.
 
 ### Tools And Named Systems
 - [[github|GitHub]] — The code host cited as an example of a platform that provides objective correctness signals and abundant public traces.

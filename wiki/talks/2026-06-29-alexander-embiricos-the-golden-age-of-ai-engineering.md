@@ -66,12 +66,12 @@ The talk argues that AI engineering is not the end of engineering but a return t
   - Evidence: "And unlike tokens or compute, I can't simply add more of it. So the most important skill is today is deciding where to spend it."
 
 ### Topics Covered
-- **AI engineering** — The role of engineers in an AI-native software era.
-- [[coding-agents|Collaborative agent UI]] — A product model that combines chat delegation with hands-on steering.
-- [[ai-sandboxes|Open agent stack]] — An application and infrastructure strategy where the same stack is used internally and externally.
+- [[model-capability-and-product-framing|AI engineering]] — The role of engineers in an AI-native software era.
+- [[agentic-web|Collaborative agent UI]] — A product model that combines chat delegation with hands-on steering.
+- **Open agent stack** — An application and infrastructure strategy where the same stack is used internally and externally.
 - **Value maxing** — Optimizing for user value rather than raw token output.
-- [[coding-agents|Manager-worker loops]] — Long-lived coordination between a manager agent and worker agents.
-- [[ai-sandboxes|Agent host placement]] — Choosing the right host or environment for each agent task.
+- [[software-factories|Manager-worker loops]] — Long-lived coordination between a manager agent and worker agents.
+- [[inference-engineering|Agent host placement]] — Choosing the right host or environment for each agent task.
 
 ### Tools And Named Systems
 - **Codex app** — The product surface for chatting with and steering coding agents.

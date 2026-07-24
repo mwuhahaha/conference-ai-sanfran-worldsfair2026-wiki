@@ -70,11 +70,11 @@ Alex Bauer argues that GTM AI has moved past simple hallucination and into a bro
 
 ### Topics Covered
 - **AI Trust in GTM** — The shift from hallucination as a generic concern to wrong-but-confident business answers that undermine adoption.
-- [[coding-agents|Commander's Intent]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
-- **Business Knowledge Scaffolding** — Preparing company facts, capabilities, and personas as reusable reference material before generation.
+- [[model-capability-and-product-framing|Commander's Intent]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
+- [[semantic-infrastructure-and-ontology|Business Knowledge Scaffolding]] — Preparing company facts, capabilities, and personas as reusable reference material before generation.
 - [[agent-memory|Librarian Memory]] — A pre-answer knowledge layer that gives agents company definitions, documentation, and failure history.
 - [[autoresearch|Jury-and-Judge Workflow]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
-- **Agent Tiering** — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
+- [[model-capability-and-product-framing|Agent Tiering]] — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
 
 ### Tools And Named Systems
 - [[claude|Claude]] — The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.

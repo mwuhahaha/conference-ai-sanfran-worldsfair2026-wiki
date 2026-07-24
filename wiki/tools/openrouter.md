@@ -18,7 +18,7 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-uIiA6DquRiE
-sourceAssessmentBodySha256: sha256:63f23bc21a02004ce00f506ac80c00857d1cf90cc7b20e55c2ce991aeb9c2144
+sourceAssessmentBodySha256: sha256:9d93e2bfe8e67b47eda75f87481de17618a5daf9e2a12c111e7e773b5e692d43
 ---
 # OpenRouter
 
@@ -33,6 +33,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]] — The inference platform he references when discussing benchmarked provider accuracy.
   - Transcript: [[youtube-uIiA6DquRiE-transcript]]
   - Evidence: "Um and so for DeepS v4 you know there are two benchmarks which open router ran you know yeah it's like sorted it's sorted I think on the gray I think it's sorted on tower bench um so it's sorted on tower bench um and the green one is GPQA and you can see that"
+
 ## Confirmed Evidence
 
 ### Official Schedule

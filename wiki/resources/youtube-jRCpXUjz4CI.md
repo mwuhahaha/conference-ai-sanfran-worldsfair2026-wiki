@@ -3,28 +3,30 @@ title: "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Har
 category: "resources"
 sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "jRCpXUjz4CI"
-publishedDate: "2026-07-18"
+publishedDate: "2026-07-24"
 last_enriched: "2026-07-24T13:53:51.399968+00:00"
-sourceLayers: ["supporting_context"]
 ---
 # Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute
 
 ## What It Is
-A verified official AI Engineer YouTube premiere for AI Engineer World's Fair San Francisco 2026. The recording, transcript, and slide evidence remain pending until the premiere is playable; the official schedule remains canonical for schedule facts.
+An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: verified official event video scheduled for premiere for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel scheduled premiere.
-- Use: event-video metadata until the recording becomes playable; transcript and slide evidence remain pending, and official schedule pages remain canonical for schedule metadata.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ## Transcript Status
-Transcript import status: pending_premiere.
+Cached transcript text is available at `raw/sources/youtube-transcripts/jRCpXUjz4CI.txt`.
 
 ## Extracted Slides
-- Slide extraction status: pending_premiere.
+- [[youtube-jRCpXUjz4CI-slides]]
+
+## Transcript Markdown
+- [[youtube-jRCpXUjz4CI-transcript]] — full cached transcript markdown.
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=jRCpXUjz4CI)

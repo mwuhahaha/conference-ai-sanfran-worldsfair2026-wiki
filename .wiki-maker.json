@@ -176,7 +176,7 @@
     },
     {
       "key": "talk_synthesis",
-      "version": "v3",
+      "version": "v4",
       "command": [
         "python3",
         "scripts/generate_talk_synthesis.py",

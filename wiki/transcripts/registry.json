@@ -320,6 +320,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-31GUkCBD-Uc-transcript",
+    "title": "Transcript: Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+    "path": "wiki/transcripts/youtube-31GUkCBD-Uc-transcript.md",
+    "videoId": "31GUkCBD-Uc",
+    "wordCount": 3773,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-UNzCG3lw6O0-transcript",
     "title": "Transcript: Building Great Agent Skills: The Missing Manual",
     "path": "wiki/transcripts/youtube-UNzCG3lw6O0-transcript.md",
@@ -490,6 +500,16 @@
     "sourceRole": "primary_event_evidence"
   },
   {
+    "id": "youtube-jRCpXUjz4CI-transcript",
+    "title": "Transcript: Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+    "path": "wiki/transcripts/youtube-jRCpXUjz4CI-transcript.md",
+    "videoId": "jRCpXUjz4CI",
+    "wordCount": 3664,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-xUnRQ9vLXxo-transcript",
     "title": "Transcript: Everything we knew about software has changed — Theo Browne, @t3dotgg ​",
     "path": "wiki/transcripts/youtube-xUnRQ9vLXxo-transcript.md",
@@ -530,6 +550,16 @@
     "sourceRole": "primary_event_evidence"
   },
   {
+    "id": "youtube-9HbzAWnKbo4-transcript",
+    "title": "Transcript: From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+    "path": "wiki/transcripts/youtube-9HbzAWnKbo4-transcript.md",
+    "videoId": "9HbzAWnKbo4",
+    "wordCount": 3797,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-Btk8wDUVs74-transcript",
     "title": "Transcript: From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
     "path": "wiki/transcripts/youtube-Btk8wDUVs74-transcript.md",
@@ -555,6 +585,16 @@
     "path": "wiki/transcripts/youtube-JvKO40CFq-s-transcript.md",
     "videoId": "JvKO40CFq-s",
     "wordCount": 5616,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-il1c1a2FufU-transcript",
+    "title": "Transcript: Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
+    "path": "wiki/transcripts/youtube-il1c1a2FufU-transcript.md",
+    "videoId": "il1c1a2FufU",
+    "wordCount": 13744,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -595,6 +635,16 @@
     "path": "wiki/transcripts/youtube-iCj_ATyThvc-transcript.md",
     "videoId": "iCj_ATyThvc",
     "wordCount": 1795,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-xyL2Ltkh-SA-transcript",
+    "title": "Transcript: How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, YouTube Ads",
+    "path": "wiki/transcripts/youtube-xyL2Ltkh-SA-transcript.md",
+    "videoId": "xyL2Ltkh-SA",
+    "wordCount": 3548,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -855,16 +905,6 @@
     "path": "wiki/transcripts/youtube-zMiSRliEzv4-transcript.md",
     "videoId": "zMiSRliEzv4",
     "wordCount": 2882,
-    "sourceLabel": "YouTube transcript",
-    "manifestStatus": "not_admitted_official_wf26",
-    "sourceRole": "context_only"
-  },
-  {
-    "id": "youtube-il1c1a2FufU-transcript",
-    "title": "Transcript: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI",
-    "path": "wiki/transcripts/youtube-il1c1a2FufU-transcript.md",
-    "videoId": "il1c1a2FufU",
-    "wordCount": 13744,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"

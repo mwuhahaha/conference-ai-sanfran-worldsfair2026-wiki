@@ -17,7 +17,7 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:004373f0b51b236867c6b25303102641c85318dc784601bb5c7901333d848e5e
+sourceAssessmentBodySha256: sha256:8cfd0ba8e0c0729eb08948b53967f98eabb1fd31341fa211fd07c4c825e7f272
 ---
 # Snowflake
 
@@ -32,6 +32,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — Cloud data warehouse mentioned as part of the enterprise data landscape.
   - Transcript: [[youtube-VGN22pPpb-8-transcript]]
   - Evidence: "You have a hundred databases and you have snowflake and data bricks probably and you have S3 buckets and so on and so forth."
+
 ## Confirmed Evidence
 
 ### Official Schedule

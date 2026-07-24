@@ -17,8 +17,9 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:53967ce08207489f5d6924fa33792fa66f133de30675fed8c53b71fa9bf1e755
+sourceAssessmentBodySha256: sha256:4f8584c7739c47d6cca9edfec73e7f0b7ffcd57d3a7a034a835cf92fa8193978
 ---
 # Codex
 
@@ -28,11 +29,15 @@ Codex appears as a high-confidence tool, platform, model, protocol, product, or 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 1 evidence-bound talk digest(s).
+This section is generated from 2 evidence-bound talk digest(s).
 
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — A coding agent explicitly named as part of the security monitoring scope.
+  - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
+  - Evidence: "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others."
 - [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — A tool named as something markdown can be piped into for execution.
   - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
   - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"
+
 ## Confirmed Evidence
 
 ### Official Schedule

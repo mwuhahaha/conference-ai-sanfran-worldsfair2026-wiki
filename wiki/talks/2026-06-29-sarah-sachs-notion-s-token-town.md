@@ -61,13 +61,13 @@ Sarah Sachs argues that the real problem in building AI-native products is not j
 
 ### Topics Covered
 - **Token economics** — The economics of buying and reselling model tokens, including margin pressure and vendor leverage.
-- [[agentic-search|Model optionality]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
+- [[model-capability-and-product-framing|Model optionality]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
 - [[agent-evaluations|Trajectory evaluation]] — Judging providers by end-to-end task outcomes rather than by single-call metrics.
-- **Open-weight models** — Using open-weight models as a practical alternative for many production tasks.
+- [[model-capability-and-product-framing|Open-weight models]] — Using open-weight models as a practical alternative for many production tasks.
 - [[inference-engineering|CPU offload]] — Moving deterministic or low-complexity work off LLMs and onto CPUs or lightweight services.
 - [[agent-security|Lethal trifecta]] — The security risk created when private data, untrusted content, and external communication coexist in autonomous systems.
-- **Active documents** — Collaborative documents that act as live work surfaces for humans and agents.
-- [[coding-agents|Multi-agent orchestration]] — Coordinating multiple agents and humans across a software delivery workflow.
+- [[active-documents-and-live-work-surfaces|Active documents]] — Collaborative documents that act as live work surfaces for humans and agents.
+- [[software-factories|Multi-agent orchestration]] — Coordinating multiple agents and humans across a software delivery workflow.
 
 ### Tools And Named Systems
 - [[notion|Notion]] — The company platform the speaker describes as the durable system of record and collaboration layer for humans and agents.
@@ -127,8 +127,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube--I5W5QVAT8E-transcript]] - dedicated official recording transcript.
 - [[youtube-6YdPI9YbjbI]] - supporting context; not the exact session recording.
 
-- [[youtube--I5W5QVAT8E-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube--I5W5QVAT8E`
 - Slide deck: [[youtube--I5W5QVAT8E-slides|Slides: Notion's Token Town — Sarah Sachs, Notion]] — 12 visible slide image(s).
 ![[assets/slides/-I5W5QVAT8E/slide-001.jpg]]
@@ -145,7 +143,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube--I5W5QVAT8E-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/-I5W5QVAT8E.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

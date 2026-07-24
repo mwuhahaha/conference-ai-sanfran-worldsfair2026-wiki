@@ -58,12 +58,12 @@ The talk argues that Fable is not just a stronger chat model but a different ope
   - Evidence: "Uh I think it's also worth calling out that building is easier, but generating value is still hard."
 
 ### Topics Covered
-- [[agent-evaluations|Field guide to Fable]] — How to adapt prompting, tools, and harnesses to a new model class with more latent capability.
-- **Capability overhang** — The idea that model usefulness can jump when paired with tools instead of only scaling parameters or context.
-- [[agentic-search|Map and territory]] — The distinction between what the operator thinks they know and the real constraints in the environment.
-- [[autoresearch|Unknown unknowns]] — Structured techniques for uncovering missing requirements before implementation.
-- **Grief and gain from AI coding** — The emotional and professional adjustment to faster, easier coding workflows.
-- **Unreasonableness** — The push to pursue more ambitious goals instead of accepting familiar constraints.
+- [[model-capability-and-product-framing|Field guide to Fable]] — How to adapt prompting, tools, and harnesses to a new model class with more latent capability.
+- [[model-capability-and-product-framing|Capability overhang]] — The idea that model usefulness can jump when paired with tools instead of only scaling parameters or context.
+- **Map and territory** — The distinction between what the operator thinks they know and the real constraints in the environment.
+- **Unknown unknowns** — Structured techniques for uncovering missing requirements before implementation.
+- [[coding-agents|Grief and gain from AI coding]] — The emotional and professional adjustment to faster, easier coding workflows.
+- [[coding-agents|Unreasonableness]] — The push to pursue more ambitious goals instead of accepting familiar constraints.
 
 ### Tools And Named Systems
 - [[claude-code|Claude Code]] — The coding assistant the speaker says he works on and uses as the basis for the talk's workflow.

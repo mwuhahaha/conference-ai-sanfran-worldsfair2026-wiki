@@ -18,7 +18,7 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-RGSFUqzqErE
-sourceAssessmentBodySha256: sha256:17c0b802bdef24d9ef7ebfc6a7773af6da7b0eb57768451a57b85280ac4d246e
+sourceAssessmentBodySha256: sha256:076efe6a4157f710eac75cebc03dac4ea52674b3083997c93b141f7b91123ec6
 ---
 # Microsoft IQ
 
@@ -33,6 +33,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — Microsoft's knowledge-grounding capability described as a set of capabilities for ambient organizational data.
   - Transcript: [[youtube-RGSFUqzqErE-transcript]]
   - Evidence: "This includes maybe your documents, your emails, your chat threads, or the information in your data warehouse and So, we built Microsoft IQ as a way to give you a single entry point into all these kind of ambient data that agents need to get the job done in addition to the specific information that you build into the agent."
+
 ## Confirmed Evidence
 
 ### Official Schedule

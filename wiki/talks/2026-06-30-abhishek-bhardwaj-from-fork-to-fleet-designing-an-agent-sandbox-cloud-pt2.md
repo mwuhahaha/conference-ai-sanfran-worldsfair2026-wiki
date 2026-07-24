@@ -72,8 +72,8 @@ The talk argues that agent sandboxes should be treated as a cloud primitive buil
 
 ### Topics Covered
 - [[ai-sandboxes|Agent sandboxing]] — How to execute agent tool calls and untrusted code securely for product and research workloads.
-- [[ai-sandboxes|Hardware virtualization]] — Using CPU-level virtualization to isolate hostile guest code from the host kernel.
-- [[ai-sandboxes|Disk persistence]] — Saving sandbox state so long-running tasks can resume after failure or backtrack across branches.
+- **Hardware virtualization** — Using CPU-level virtualization to isolate hostile guest code from the host kernel.
+- [[inference-engineering|Disk persistence]] — Saving sandbox state so long-running tasks can resume after failure or backtrack across branches.
 - [[ai-sandboxes|Snapshot-aware orchestration]] — Using load, snapshot lineage, and restore cost to place sandboxes efficiently across a fleet.
 
 ### Tools And Named Systems

@@ -52,10 +52,10 @@ Alex Volkov argues that the real debate in 2026 is not whether AI engineers shou
   - Evidence: "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it."
 
 ### Topics Covered
-- **Task-based review** — The idea that review depth should be chosen per task instead of per engineer identity.
-- [[coding-agents|Proof routing]] — A change-routing approach that assigns the right proof method to each piece of work.
-- **Capability drift** — The way rising model capability moves the review layer and the location of proof over time.
-- [[coding-agents|Looped verification]] — Agents that plan, execute, and verify work on a schedule or loop.
+- [[agent-evaluations|Task-based review]] — The idea that review depth should be chosen per task instead of per engineer identity.
+- [[agent-evaluations|Proof routing]] — A change-routing approach that assigns the right proof method to each piece of work.
+- [[human-oversight-and-review-dynamics|Capability drift]] — The way rising model capability moves the review layer and the location of proof over time.
+- [[agent-reliability-and-durable-execution|Looped verification]] — Agents that plan, execute, and verify work on a schedule or loop.
 
 ### Tools And Named Systems
 - [[cloud-code|Cloud Code]] — The talk uses Cloud Code as an example of agent-authored code becoming normal.

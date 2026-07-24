@@ -69,12 +69,12 @@ The talk argues that the core bottleneck in agentic software development is no l
   - Evidence: "And one of the tests we did with one of the large banks who are using some of the cutting edge the folks who are all around here today um cutting edge agentic coding tools they can get a 92% reduction in issues if you actually take this guide verify solve approach inside of those agentic loops."
 
 ### Topics Covered
-- [[coding-agents|Agent-Centric Development Cycle]] — The lifecycle model the speaker proposes for agentic software development.
-- **Verification-First Development** — The shift from generation-first thinking to verification-first thinking in AI software workflows.
-- [[agent-evaluations|Context and Constraints]] — Using repository knowledge and explicit rules to steer agents before they write code.
+- [[agent-evaluations|Agent-Centric Development Cycle]] — The lifecycle model the speaker proposes for agentic software development.
+- [[agent-evaluations|Verification-First Development]] — The shift from generation-first thinking to verification-first thinking in AI software workflows.
+- [[agent-security|Context and Constraints]] — Using repository knowledge and explicit rules to steer agents before they write code.
 - [[agent-evaluations|Multi-Layered Verification]] — Combining multiple verification techniques to cover both obvious and subtle failures.
-- [[software-factories|Technical Debt in Agentic Workflows]] — The growth of maintainability, reliability, and security debt as agents generate more code.
-- [[coding-agents|Compounding Development Loops]] — The feedback structure that links generation, review, and maintenance into a compounding system.
+- **Technical Debt in Agentic Workflows** — The growth of maintainability, reliability, and security debt as agents generate more code.
+- [[agent-evaluations|Compounding Development Loops]] — The feedback structure that links generation, review, and maintenance into a compounding system.
 
 ### Tools And Named Systems
 - **sonar vortex** — A product introduced as part of the speaker's verification and agent-guidance stack.
@@ -119,8 +119,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-VrpEyglYgeU]] - dedicated official event recording.
 - [[youtube-VrpEyglYgeU-transcript]] - dedicated official recording transcript.
 
-- [[youtube-VrpEyglYgeU-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-VrpEyglYgeU`
 - Slide deck: [[youtube-VrpEyglYgeU-slides|Slides: In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar]] — 32 visible slide image(s).
 ![[assets/slides/VrpEyglYgeU/slide-001.jpg]]
@@ -133,7 +131,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-VrpEyglYgeU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/VrpEyglYgeU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

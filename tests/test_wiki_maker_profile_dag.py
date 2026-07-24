@@ -83,7 +83,7 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
         "talk_media_map",
         "slide_ai_admission_check",
     ]
-    assert adapters["talk_synthesis"]["version"] == "v3"
+    assert adapters["talk_synthesis"]["version"] == "v4"
     assert adapters["talk_synthesis"]["command"] == [
         "python3",
         "scripts/generate_talk_synthesis.py",

@@ -57,10 +57,10 @@ Dan Farrelly's core thesis is that agent architectures decay quickly because tea
 
 ### Topics Covered
 - **Layered agent architecture** — The idea that agent systems should be organized into stable and volatile layers with different lifetimes.
-- **Durable execution** — The use of durable, resumable execution as the stable core of an agent system.
-- [[agent-memory|Full-session observability]] — Capturing traces across the full run so long-running agents can be debugged and improved.
-- [[agent-security|Sandbox isolation]] — Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.
-- [[coding-agents|Background agent loops]] — Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.
+- [[agent-reliability-and-durable-execution|Durable execution]] — The use of durable, resumable execution as the stable core of an agent system.
+- [[coding-agents|Full-session observability]] — Capturing traces across the full run so long-running agents can be debugged and improved.
+- [[ai-sandboxes|Sandbox isolation]] — Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.
+- [[agent-reliability-and-durable-execution|Background agent loops]] — Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.
 
 ### Tools And Named Systems
 - **Inngest** — A durable execution platform the speaker uses as the concrete example of this architecture.
@@ -103,8 +103,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-X1kp-ABIIxQ]] - dedicated official event recording.
 - [[youtube-X1kp-ABIIxQ-transcript]] - dedicated official recording transcript.
 
-- [[youtube-X1kp-ABIIxQ-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-X1kp-ABIIxQ`
 - Slide deck: [[youtube-X1kp-ABIIxQ-slides|Slides: Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest]] — 15 visible slide image(s).
 ![[assets/slides/X1kp-ABIIxQ/slide-001.jpg]]
@@ -117,7 +115,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-X1kp-ABIIxQ-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/X1kp-ABIIxQ.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

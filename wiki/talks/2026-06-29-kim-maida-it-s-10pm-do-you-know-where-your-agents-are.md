@@ -60,7 +60,7 @@ The talk argues that agents should not be handed broad, long-lived API keys; ins
 - [[agent-security|Delegated authorization]] — Granting access on behalf of a user while preserving who the user is and what they are allowed to do.
 - [[agent-security|Ephemeral access tokens]] — Credentials that are short-lived, audience-bound, and discarded after the call finishes.
 - [[agent-security|Policy governance]] — Using governance rules to decide whether a requested action is allowed before any downstream token is issued.
-- **Agent execution path** — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
+- [[mcp-app-runtime|Agent execution path]] — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
 
 ### Tools And Named Systems
 - **RFC8693** — The token exchange RFC used as the standards basis for narrowing delegated access.
@@ -107,8 +107,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-I3znWC3MEXM]] - dedicated official event recording.
 - [[youtube-I3znWC3MEXM-transcript]] - dedicated official recording transcript.
 
-- [[youtube-I3znWC3MEXM-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-I3znWC3MEXM`
 - Slide deck: [[youtube-I3znWC3MEXM-slides|Slides: It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard]] — 11 visible slide image(s).
 ![[assets/slides/I3znWC3MEXM/slide-001.jpg]]
@@ -121,7 +119,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-I3znWC3MEXM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/I3znWC3MEXM.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

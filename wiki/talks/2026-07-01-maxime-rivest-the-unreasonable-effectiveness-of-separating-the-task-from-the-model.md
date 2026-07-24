@@ -52,11 +52,11 @@ The talk argues that AI engineering should start from the task contract, not fro
   - Evidence: "How do we decrease assistance? And it's a research question right now. But what we believe is that models are now good enough to interpret whatever textual feedback is present in the environment and convert that into evals and a hill that the model can climb."
 
 ### Topics Covered
-- [[inference-engineering|Task-model separation]] — The central idea that the task contract should stay stable while the implementation changes underneath it.
-- [[agent-evaluations|Specs, code, and evals]] — The interface defined by natural-language instructions, code constraints, and evaluative examples.
-- **Qualitative learning** — The use of product feedback and textual signals to improve evals without relying only on hand-built metrics.
+- [[coding-agents|Task-model separation]] — The central idea that the task contract should stay stable while the implementation changes underneath it.
+- [[model-capability-and-product-framing|Specs, code, and evals]] — The interface defined by natural-language instructions, code constraints, and evaluative examples.
+- [[agent-evaluations|Qualitative learning]] — The use of product feedback and textual signals to improve evals without relying only on hand-built metrics.
 - [[coding-agents|Implementation flexibility]] — The ability to substitute models and harnesses to reduce cost while preserving behavior.
-- **Function-like AI programs** — The idea that AI programs should be built and optimized like ordinary reusable functions.
+- [[software-factories|Function-like AI programs]] — The idea that AI programs should be built and optimized like ordinary reusable functions.
 
 ### Tools And Named Systems
 - [[dspy|DSPy]] — The open-source Python framework the talk uses to separate task specification from implementation details.

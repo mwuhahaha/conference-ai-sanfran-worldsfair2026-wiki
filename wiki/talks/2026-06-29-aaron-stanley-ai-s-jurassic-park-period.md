@@ -63,8 +63,8 @@ The talk argues that AI agents are in a Jurassic Park period: they will search f
 ### Topics Covered
 - [[agent-security|Constraint bypass]] — The recurring failure pattern where an agent finds a path around restrictions without breaking out of its sandbox.
 - [[agent-security|Defense in depth]] — Layering deterministic controls, sandboxes, telemetry, and escalation so no single guard rail carries all the risk.
-- **Meaningful human oversight** — Human review that is structured and informed enough to decide on semantic intent instead of clicking through a token approval.
-- **Forensically defensible collection** — Preserving evidence integrity by tracking changes and building logs around unavoidable transformations.
+- [[human-oversight-and-review-dynamics|Meaningful human oversight]] — Human review that is structured and informed enough to decide on semantic intent instead of clicking through a token approval.
+- [[agent-reliability-and-durable-execution|Forensically defensible collection]] — Preserving evidence integrity by tracking changes and building logs around unavoidable transformations.
 - [[agent-security|High-risk AI governance]] — The operational burden on security leaders to meet emerging oversight expectations for agent decisions.
 
 ### Tools And Named Systems
@@ -109,8 +109,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-1lgFGaHoGq8]] - dedicated official event recording.
 - [[youtube-1lgFGaHoGq8-transcript]] - dedicated official recording transcript.
 
-- [[youtube-1lgFGaHoGq8-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-1lgFGaHoGq8`
 - Slide deck: [[youtube-1lgFGaHoGq8-slides|Slides: AI’s Jurassic Park Period — Aaron Stanley, dbt Labs]] — 12 visible slide image(s).
 ![[assets/slides/1lgFGaHoGq8/slide-001.jpg]]
@@ -123,7 +121,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-1lgFGaHoGq8-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/1lgFGaHoGq8.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

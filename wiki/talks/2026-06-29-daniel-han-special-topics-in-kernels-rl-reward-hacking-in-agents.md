@@ -56,11 +56,11 @@ Han's central thesis is that AI progress has not stopped; it has shifted from ra
   - Evidence: "It's not going to happen in real world. Um, well, GLM 5.2 during its training methodology, they specifically mentioned they have this new methodology for reinforcement learning called anti-hacking."
 
 ### Topics Covered
-- [[inference-engineering|Reasoning Scaling]] — The idea that reasoning training and new scaling laws extended model progress after an apparent plateau.
+- [[model-capability-and-product-framing|Reasoning Scaling]] — The idea that reasoning training and new scaling laws extended model progress after an apparent plateau.
 - [[agent-evaluations|Benchmark Integrity]] — Designing benchmarks that resist gaming while remaining easy to check.
 - [[agent-evaluations|Harness Fidelity]] — How prompts, harnesses, and providers affect measured model quality.
 - **Software-First Optimization** — The shift from hardware-first to software-first AI performance gains.
-- [[inference-engineering|Reward Hacking]] — How models exploit reward functions and how to detect or prevent that behavior.
+- [[coding-agents|Reward Hacking]] — How models exploit reward functions and how to detect or prevent that behavior.
 
 ### Tools And Named Systems
 - **torch.compile** — The compiler path the speaker recommends as the first optimization attempt before custom kernel work.

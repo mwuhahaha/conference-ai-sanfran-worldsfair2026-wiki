@@ -17,8 +17,9 @@ sourceAssessment:
   - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:499cd0aa08bb25445911ccd92b6dc7c2693fa5e6cbee4a81303ec5f3f5307a95
+sourceAssessmentBodySha256: sha256:c4227405153de77e48a27153802f781f05d9c61809c0c53fd14f8e29deb4c28e
 ---
 # Agentic Web
 
@@ -70,18 +71,24 @@ The pattern is most useful for research agents, shopping and catalog agents, bro
 - What evidence should a browser agent preserve so that a user, auditor, or downstream system can trust the result?
 
 ## Transcript Digest Evidence
-This section synthesizes 2 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 5 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-Web workflows where agents act through web-native or non-screen inputs instead of relying on traditional manual interaction. The distinction is between media generation and workflow control, but both treat the web as an active execution substrate rather than a passive display layer.
+These talks all treat the web or UI layer as the place where agents and humans share a common substrate for action and understanding. The difference is whether the emphasis falls on rendered web control, accessibility-tree affordances, or shared-screen collaboration that reduces the need to translate intent across interfaces.
 
 ### Constituent Talk Evidence
-- [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow.
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — A product model that combines chat delegation with hands-on steering.
+  - Transcript: [[youtube-pMggiOb18tc-transcript]]
+  - Evidence: "I think chat is underrated. uh and some kind of hands-on experience. So, what you want is a single entity that you can ask for help with anything anywhere."
+- [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — The idea that an agent should read the rendered UI, layout, and state before acting.
   - Transcript: [[youtube-2JX6JYyQG4Y-transcript]]
-  - Evidence: "So we had the discussion the be did the transcript and you can see here on the right we're pulling this meeting transcript right in there is a whole detailed summary of the meeting."
-- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — Using HTML, CSS, and JavaScript as the interface for agent-generated video.
+  - Evidence: "And it starts here really with the first word which is perceive. The agent has to take in the screen the way you do, not scrape the code behind the page, but what's actually rendered, the layout, the state, what just changed the work, what we're doing, and then do it."
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Directly addressing desktop UI elements through accessibility trees instead of hardware mouse and keyboard events.
+  - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
+  - Evidence: "So you really um have um to observe the space in this case just by calling like get window state you get a an accessibility tree representation plus a screenshot and then you will go and uh um try a background execution using accessibility tree and if that doesn't work we go all the way and uh make the heavy lifting for you and just try a pixel background click."
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — The tension between creative freedom and framework guardrails.
   - Transcript: [[youtube-Cz4v1WHVyZc-transcript]]
-  - Evidence: "Our bet is on HTML. HTML, CSS, and JavaScript are the native languages of LLMs. Most of their training data, every webpage that gets scraped at the end of day is essentially just HTML, CSS, and JavaScript under the hood."
+  - Evidence: "Um and they can get you pretty good output, but agent-friendly isn't necessarily true for those because they're not um their native tongue and they aren't as editable or controllable, which is a big thing for us is that controllability layer."
 
 ## Connections
 ### Search, Catalogs, And Web Data
@@ -152,19 +159,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 22 | Related pages outside the main evidence categories. |
-| resources | 13 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 23 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 11 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| resources | 16 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 30 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 13 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 10 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
+- [[2026-06-30-antje-barth-perception-agents]]
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]]
+- [[2026-07-01-james-russo-html-is-all-agents-need]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
 - [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data]]
-- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]]
-- [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]]
-- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]]
-- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]]
 
 ### Resources
 - [[talk-video-transcript-map]]
@@ -183,12 +190,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-o-zkvb0iFDQ-slides]]
 
 ### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
 - [[youtube-2JX6JYyQG4Y-transcript]]
 - [[youtube-ZSQb5fzRFPw-transcript]]
-- [[youtube-pMggiOb18tc-transcript]]
-- [[youtube-Ib5GBkD555M-transcript]]
+- [[youtube-Cz4v1WHVyZc-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
 
 ### Tools
 - [[mcp]]
@@ -202,28 +209,23 @@ This section consolidates source evidence currently connected to this topic acro
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
+- [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]]
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
 - [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data|Building AI Agents with Real-Time Web Data]]
 - [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs|The Death of Keyword Search and the Rise of Agent-Readable Catalogs]]
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale|Deploying browser agents at scale]]
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]
-- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
-- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
-- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
-- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
-- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
-- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
 - `youtube-2JX6JYyQG4Y` — 2,870 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-2JX6JYyQG4Y`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-2JX6JYyQG4Y`: screen, still, first, maybe, check, meeting, click, part.
@@ -234,11 +236,21 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
 - Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
 - Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
-- `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
-- Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
-- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
+- Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
@@ -247,6 +259,12 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
+- Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
+- Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
 - Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.

@@ -17,15 +17,22 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:040fb0399f3cd379114259d12bb4f1decf1c7ce71674db224ba0802eb64fd5f8
+  - source:official-wf26-youtube-jRCpXUjz4CI
+sourceAssessmentBodySha256: sha256:0d22281154fba03006fb32f5b2f0e30af7b57a8143f40d319e11ceadb884e5c0
 ---
-
 # Modal
 
 ## Conference Context
 Modal appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
+
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]] — The cloud orchestration platform used for the demo rollout flow.
+  - Transcript: [[youtube-jRCpXUjz4CI-transcript]]
+  - Evidence: "And you can see in this case I'm running on modal. I do the map step with cursor CLI because it's cheap and fast."
 
 ## Confirmed Evidence
 

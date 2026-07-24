@@ -156,6 +156,12 @@
     "slide_count": 4
   },
   {
+    "id": "youtube-31GUkCBD-Uc-slides",
+    "title": "Slides: Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+    "path": "wiki/slides/youtube-31GUkCBD-Uc-slides.md",
+    "slide_count": 16
+  },
+  {
     "id": "youtube-3_gYbhABcAE-dense-slides",
     "title": "Dense Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
     "path": "wiki/slides/youtube-3_gYbhABcAE-dense-slides.md",
@@ -412,6 +418,12 @@
     "title": "Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect",
     "path": "wiki/slides/youtube-96G7FLab8xc-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-9HbzAWnKbo4-slides",
+    "title": "Slides: From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+    "path": "wiki/slides/youtube-9HbzAWnKbo4-slides.md",
+    "slide_count": 17
   },
   {
     "id": "youtube-9QebvrrY3KY-slides",
@@ -2100,6 +2112,12 @@
     "slide_count": 7
   },
   {
+    "id": "youtube-jRCpXUjz4CI-slides",
+    "title": "Slides: Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+    "path": "wiki/slides/youtube-jRCpXUjz4CI-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-jVGCulhBRZI-dense-slides",
     "title": "Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
     "path": "wiki/slides/youtube-jVGCulhBRZI-dense-slides.md",
@@ -2632,6 +2650,12 @@
     "title": "Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai",
     "path": "wiki/slides/youtube-xnXqpUW_Kp8-slides.md",
     "slide_count": 12
+  },
+  {
+    "id": "youtube-xyL2Ltkh-SA-slides",
+    "title": "Slides: How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, YouTube Ads",
+    "path": "wiki/slides/youtube-xyL2Ltkh-SA-slides.md",
+    "slide_count": 7
   },
   {
     "id": "youtube-xz0-brt56L8-dense-slides",

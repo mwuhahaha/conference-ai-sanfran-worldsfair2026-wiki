@@ -65,12 +65,12 @@ The talk argues that modern post-training should be organized around environment
   - Evidence: "Um what we have coming quite soon that we'll be rolling out is full fine-tuning um which supports changing as much as you want in Primerl in terms of the model and everything else where we still give you all the same abstractions for uh not needing to think about the GPUs and kind of"
 
 ### Topics Covered
-- [[ai-sandboxes|Environment-centered post-training]] — The idea that environments are the shared abstraction for evaluation, training, and data generation.
-- [[coding-agents|Verifiers V1]] — The refactored Verifiers architecture built around task sets, harnesses, and runtimes.
-- **Async RL orchestration** — Training and rollout management that overlaps slow episodes by keeping inference and training separate.
-- [[inference-engineering|Group rewards]] — Reward design that compares grouped samples to balance correctness and efficiency.
+- [[inference-engineering|Environment-centered post-training]] — The idea that environments are the shared abstraction for evaluation, training, and data generation.
+- [[agent-evaluations|Verifiers V1]] — The refactored Verifiers architecture built around task sets, harnesses, and runtimes.
+- [[inference-engineering|Async RL orchestration]] — Training and rollout management that overlaps slow episodes by keeping inference and training separate.
+- [[agent-evaluations|Group rewards]] — Reward design that compares grouped samples to balance correctness and efficiency.
 - **Trace graphs and renderers** — Trace and renderer machinery for preserving logical structure across tokenization and chat templates.
-- [[autoresearch|Hosted training platform]] — Managed self-serve training that supports multi-tenant LoRA and upcoming full fine-tuning.
+- [[model-capability-and-product-framing|Hosted training platform]] — Managed self-serve training that supports multi-tenant LoRA and upcoming full fine-tuning.
 
 ### Tools And Named Systems
 - **Verifiers** — The open-source environment and verification library the speaker says is being overhauled around the new V1 pattern.

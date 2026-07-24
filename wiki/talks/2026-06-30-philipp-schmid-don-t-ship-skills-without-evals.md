@@ -56,14 +56,14 @@ The talk argues that agent skills should not be shipped on intuition alone: beca
   - Evidence: "You don't need to throw that eval away because you throw the skill away. You can keep that eval to make sure that the model or the agent keeps the performance and as soon as you start seeing some degradation, you can reintroduce the skill."
 
 ### Topics Covered
-- **Capability skills** — Skills that improve abilities the model cannot yet do consistently and may later become unnecessary.
-- [[coding-agents|Preference skills]] — Skills that encode durable team or company preferences and workflows.
-- [[agent-evaluations|Progressive disclosure]] — The layered structure of a skill: description, skill body, then deep references.
+- [[coding-agents|Capability skills]] — Skills that improve abilities the model cannot yet do consistently and may later become unnecessary.
+- [[agent-evaluations|Preference skills]] — Skills that encode durable team or company preferences and workflows.
+- **Progressive disclosure** — The layered structure of a skill: description, skill body, then deep references.
 - [[agent-evaluations|Trigger evaluation]] — Small tests that check whether a skill fires in the right situations and stays quiet in the wrong ones.
 - [[agent-evaluations|Ablation testing]] — Testing a skill with and without it loaded to measure whether it still adds value.
 - [[agent-evaluations|Skill eval harness]] — Using prompts, regex, asserts, and judge models to score skill behavior before shipping.
-- **Regression gating** — Keeping skill changes from merging unless the evaluation improves.
-- [[coding-agents|No-ops]] — Short, non-behavior-changing instructions that should be removed because they add cost without value.
+- [[agent-evaluations|Regression gating]] — Keeping skill changes from merging unless the evaluation improves.
+- **No-ops** — Short, non-behavior-changing instructions that should be removed because they add cost without value.
 
 ### Tools And Named Systems
 - **Gemini Interactions API** — The API the speaker says the team needed a skill for, because the model lacked context about it.

@@ -17,7 +17,7 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:e964f8d0692d76e4bebb97c7955deaa310a965b22bc457e8f00612ec246ce5de
+sourceAssessmentBodySha256: sha256:57f10e12ef5089c865896627b26e38ed65a04eb02e3c3c0533571fb5facb71da
 ---
 # Neo4j
 
@@ -38,6 +38,7 @@ This section is generated from 3 evidence-bound talk digest(s).
 - [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — The graph database used to model and serve the enterprise semantic layer.
   - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
   - Evidence: "And this gets into part of the magic here that you can model with Neo4j. But we have meetings that have documents."
+
 ## Confirmed Evidence
 
 ### Official Schedule

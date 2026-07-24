@@ -56,11 +56,11 @@ The talk argues that AI has changed the scale at which software should be imagin
   - Evidence: "real. real. If your idea doesn't feel stupid, If your idea doesn't feel stupid, If your idea doesn't feel stupid, it's cuz your idea's not big enough."
 
 ### Topics Covered
-- **Capability eras** — The talk frames model progress as distinct eras of capability.
-- [[coding-agents|Orchestration]] — The talk emphasizes models coordinating and verifying multi-step work.
-- **Skeuomorphic habits** — The talk argues developers are overvaluing familiar interfaces and workflows.
+- [[model-capability-and-product-framing|Capability eras]] — The talk frames model progress as distinct eras of capability.
+- [[software-factories|Orchestration]] — The talk emphasizes models coordinating and verifying multi-step work.
+- [[agentic-search|Skeuomorphic habits]] — The talk argues developers are overvaluing familiar interfaces and workflows.
 - **Breadth and depth** — The talk contrasts software breadth with depth to explain modern product strategy.
-- [[agentic-search|Extensibility]] — The talk stresses products that let users extend missing features themselves.
+- [[coding-agents|Extensibility]] — The talk stresses products that let users extend missing features themselves.
 
 ### Tools And Named Systems
 - [[sonnet-3-5|Sonnet 3.5]] — A model used as the baseline example of the earlier tool-call era.

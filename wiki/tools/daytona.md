@@ -16,15 +16,21 @@ sourceAssessment:
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:550ed67df4bfb9565b8a68ea4ad7253a167511e2f3529cc0f546f351c8ed6a5a
+sourceAssessmentBodySha256: sha256:1fcfd73a77d7a0acfe87f4bf20d3531b8eb15f2c864714cd5e76200c397fede9
 ---
-
 # Daytona
 
 ## Conference Context
 Daytona appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
+
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]] — Sandbox option mentioned as an alternative execution environment
+  - Transcript: [[youtube-9HbzAWnKbo4-transcript]]
+  - Evidence: "So you can use Arise sandboxes or you can use Daytona or any of any of these that you're comfortable with um that you built relationships with."
 
 ## Confirmed Evidence
 

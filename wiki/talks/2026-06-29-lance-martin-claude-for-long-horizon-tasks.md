@@ -62,8 +62,8 @@ Martin argues that long-horizon AI work is no longer primarily a prompt-design p
   - Evidence: "With the dreaming, this error is corrected, and it's able to properly localize itself and not fall fall down this trap."
 
 ### Topics Covered
-- [[coding-agents|Long-horizon async agents]] — Agents that can run for hours with limited human steering and need durable orchestration.
-- **Brain-hand decoupling** — Architectures that separate reasoning and coordination from execution environments.
+- [[agent-reliability-and-durable-execution|Long-horizon async agents]] — Agents that can run for hours with limited human steering and need durable orchestration.
+- [[active-documents-and-live-work-surfaces|Brain-hand decoupling]] — Architectures that separate reasoning and coordination from execution environments.
 - [[agent-evaluations|Verifier loops]] — Using an independent context to judge work rather than self-grading in the same context.
 - [[agent-memory|In-band memory writing]] — Writing memory during execution through simple writable storage primitives.
 - [[agent-memory|Dreaming-based memory consolidation]] — Offline passes that inspect traces and repair memory errors.
@@ -129,8 +129,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-9QebvrrY3KY-transcript]] - dedicated official recording transcript.
 - [[youtube-ib-wTAvCZqg]] - supporting context; not the exact session recording.
 
-- [[youtube-9QebvrrY3KY-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-9QebvrrY3KY`
 - Slide deck: [[youtube-9QebvrrY3KY-slides|Slides: Claude for Long-Horizon Tasks — Lance Martin, Anthropic]] — 4 visible slide image(s).
 ![[assets/slides/9QebvrrY3KY/slide-001.jpg]]
@@ -147,7 +145,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-9QebvrrY3KY-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/9QebvrrY3KY.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

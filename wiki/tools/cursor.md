@@ -17,12 +17,13 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-APqXGyCoGW4
   - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:6c058b1688232cb52d94ea51b20f6891b4f8bd928add127346fdbeedc5a1f8a5
+sourceAssessmentBodySha256: sha256:b45febe798256f2c630aaa0041ce5e6028e9aaee0cb7c9d6ccf90d6c1e90eae5
 ---
 # Cursor
 
@@ -32,11 +33,14 @@ Cursor appears as a high-confidence tool, platform, model, protocol, product, or
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 5 evidence-bound talk digest(s).
+This section is generated from 6 evidence-bound talk digest(s).
 
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The product platform where agent usage and model behavior generate training data and feedback.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
   - Evidence: "If you haven't used Cursor in a while, you might think about it as this IDE or tab autocomplete thing."
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — A coding agent explicitly named as part of the security monitoring scope.
+  - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
+  - Evidence: "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others."
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]] — The AI coding platform the speaker represents and uses as the main product context for the FDE function.
   - Transcript: [[youtube-APqXGyCoGW4-transcript]]
   - Evidence: "Uh so, as you know, we are an AI coding platform. A lot of our customers are incredibly [snorts] mature organizations, deeply technical buyers and users, and that has informed of who we hire and the profiles we're looking for."
@@ -49,6 +53,7 @@ This section is generated from 5 evidence-bound talk digest(s).
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — A coding environment cited as the kind of simple onboarding experience local AI should eventually match.
   - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
   - Evidence: "And what was really great about tools like cursor was it essentially was this harness that said what if I just had the full file system and I can let these agents reason on what files they needed and so on."
+
 ## Confirmed Evidence
 
 ### Official Schedule

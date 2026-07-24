@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI"
+title: "Transcript: Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex"
 category: "transcripts"
 videoId: "il1c1a2FufU"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "13744"
 ---
 
-# Transcript: Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI
+# Transcript: Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=il1c1a2FufU)

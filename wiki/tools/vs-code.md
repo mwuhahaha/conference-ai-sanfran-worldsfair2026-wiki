@@ -18,7 +18,7 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-RGSFUqzqErE
-sourceAssessmentBodySha256: sha256:5bad683d82ef7b2461c617535f2b14b1e0576dcb3366d403c2f1142c1340d934
+sourceAssessmentBodySha256: sha256:06db4db355ab48b4405f78bbac373b304a09a66c7f7e436c78dccf2964d22b59
 ---
 # VS Code
 
@@ -33,6 +33,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — The editor used in the optimization demo with the Foundry toolkit installed.
   - Transcript: [[youtube-RGSFUqzqErE-transcript]]
   - Evidence: "All right. So here I'm I mean VS Code, I have the Foundry toolkit installed. And I have a simple agent, it doesn't matter how you write your agent as long as you externalize configuration like you know, your instructions, tool definitions, skills, and whatnot."
+
 ## Confirmed Evidence
 
 ### Official Schedule

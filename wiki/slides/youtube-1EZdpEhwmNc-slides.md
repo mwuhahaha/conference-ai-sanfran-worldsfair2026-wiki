@@ -14,7 +14,7 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 These slides are extracted from a verified official AI Engineer World's Fair San Francisco 2026 recording. Use them as slide and OCR evidence; official schedule pages remain canonical for titles, times, rooms, tracks, speakers, and affiliations.
 
 ## Related Scheduled Sessions
-- No individual scheduled session mapping is assigned by the official media manifest; treat this as event-level media unless a future exact mapping is recorded.
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
 
 ## Extracted Slides
 ![[assets/slides/1EZdpEhwmNc/slide-001.jpg]]

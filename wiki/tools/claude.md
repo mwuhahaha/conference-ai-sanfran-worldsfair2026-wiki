@@ -61,12 +61,13 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube--I5W5QVAT8E
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-Z2Erdirpudo
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:e90b0153f7468bf49a4c07ab9888a3c777bcf05a11af83e96ddfe26be18833c5
+sourceAssessmentBodySha256: sha256:58cdb1c1ef850b2ff9ea6bc1725b91c456a9b671ee994837252b13419ee59d5c
 ---
 # Claude
 
@@ -76,11 +77,14 @@ Claude is represented across the World’s Fair 2026 corpus as both a model plat
 The linked media and resource layer supplies more detailed technical context without changing the status of the schedule evidence. Supporting videos cover the Claude Agent SDK, evolving Claude APIs for agents, Claude Code’s architecture and development model, prompt engineering, semantic code retrieval, protocol reverse engineering, and an embodied Minecraft experiment. Transcript-backed resources include Thariq Shihipar’s Agent SDK workshop, Katelyn Lesse’s discussion of agent-oriented API evolution, and Kuba Rogut’s Claude Code retrieval benchmark. Slide and topic connections extend the picture into production agents, context engines, multimodal interfaces, autoresearch, agent memory, MCP application runtimes, agentic search, and machine-reachable web surfaces. Together, these connections show Claude functioning across the agent stack—from prompts, APIs, and managed execution to repository search, memory, evaluation loops, and user-facing action surfaces—while public YouTube material whose event association is unverified remains labeled as supporting context rather than confirmed World’s Fair 2026 programming.
 
 ## Transcript Digest Evidence
-This section is generated from 8 evidence-bound talk digest(s).
+This section is generated from 10 evidence-bound talk digest(s).
 
 - [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — The agent interface used as an example of where ask-based prompting might appear.
   - Transcript: [[youtube-cgimkNGNjvU-transcript]]
   - Evidence: "cursor what whatever tool um or potentially through some other mechanism that that we're explor flooring now as well."
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — The model/service used in the demo to generate a CLI tool.
+  - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
+  - Evidence: "Stop by Stop by the booth. Find us after this talk here. Uh the first thing that I'm going to do here is I'm going to ask Claude to generate a tool a CLI tool that can create a QR code image from uh from a prompt."
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — The AI agent used inside Notion to scope tasks and help drive collaborative workflows.
   - Transcript: [[youtube--I5W5QVAT8E-transcript]]
   - Evidence: "You can have Claude actually go ahead and scope out what you need. We've launched this manage agent capability today."
@@ -93,6 +97,9 @@ This section is generated from 8 evidence-bound talk digest(s).
 - [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — He notes that Claude can generate explainers, microworlds, and migration helpers that support understanding.
   - Transcript: [[youtube-WkBPX-oDMnA-transcript]]
   - Evidence: "So, I had Claude make me a microworld. This is a debugger, ephemeral UI that was built specifically to visualize the internal implementation of my programming language."
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]] — Model used in the skill-and-data example for debugging with traces
+  - Transcript: [[youtube-9HbzAWnKbo4-transcript]]
+  - Evidence: "Um the answer is like you should um like like the vision and what we do actually at at Arise is we have uh a lot of skills."
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.
   - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
   - Evidence: "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right."
@@ -102,6 +109,7 @@ This section is generated from 8 evidence-bound talk digest(s).
 - [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — Another tool named as something markdown can be piped into for execution.
   - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
   - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"
+
 ## Confirmed Evidence
 
 ### Official Schedule

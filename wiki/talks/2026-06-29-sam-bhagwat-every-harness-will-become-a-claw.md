@@ -57,10 +57,10 @@ Sam Bhagwat argues that the software stack is moving from simple LLMs to agents,
 
 ### Topics Covered
 - [[software-factories|Harness era]] — The stage where the industry focus has shifted from agents to harnesses.
-- [[inference-engineering|Agentic spectrum]] — The ladder of autonomy from LLMs to agents to harnesses to claws.
+- [[software-factories|Agentic spectrum]] — The ladder of autonomy from LLMs to agents to harnesses to claws.
 - [[ai-sandboxes|Always-on cloud harnesses]] — Harnesses that run continuously in cloud sandboxes and broader collaboration surfaces.
-- [[coding-agents|Claws]] — Harnesses that initiate work, listen to external events, and learn over time.
-- **Market shakeout** — A future consolidation in which only a few high-value systems remain salient.
+- [[software-factories|Claws]] — Harnesses that initiate work, listen to external events, and learn over time.
+- [[software-factories|Market shakeout]] — A future consolidation in which only a few high-value systems remain salient.
 - [[agent-security|Power and control tradeoff]] — The tension between giving systems more capability and keeping them under user control.
 
 ### Tools And Named Systems

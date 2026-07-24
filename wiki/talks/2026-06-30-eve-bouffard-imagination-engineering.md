@@ -56,9 +56,9 @@ The talk argues that as models get capable enough to make implementation cheap, 
   - Evidence: "And so I just explored a few concepts like the 10 principles of good design and um like Renaissance patronage is also something that I'm fascinated by right now."
 
 ### Topics Covered
-- [[inference-engineering|Imagination engineering]] — The idea that model progress shifts value from implementation to idea generation.
-- [[autoresearch|Thinking in public]] — Publishing one's reasoning and stream of consciousness for others to inspect.
-- **Personal thought website** — Using a generated site as a living representation of personal thoughts, tastes, and work.
+- [[model-capability-and-product-framing|Imagination engineering]] — The idea that model progress shifts value from implementation to idea generation.
+- [[inference-engineering|Thinking in public]] — Publishing one's reasoning and stream of consciousness for others to inspect.
+- [[active-documents-and-live-work-surfaces|Personal thought website]] — Using a generated site as a living representation of personal thoughts, tastes, and work.
 - **Comparative minds analysis** — Comparing notable minds across recurring traits and dimensions to surface patterns.
 - **Agent-readable documentation** — Packaging project metadata so agents can read, summarize, and act on a changing system.
 
@@ -66,7 +66,7 @@ The talk argues that as models get capable enough to make implementation cheap, 
 - [[chatgpt|ChatGPT]] — Used to create an image of the Library of Alexandria for the talk's framing.
 - [[opus-4-8|Opus 4.8]] — Used to generate the website from a week of brain dumps.
 - [[claude|Claude]] — Used to generate a checklist of completeness items for the project.
-- **Fable 5** — Referenced as a capable model and campaign used to shape the design language of the project.
+- [[fable-5|Fable 5]] — Referenced as a capable model and campaign used to shape the design language of the project.
 - [[slack|Slack]] — Used as the channel where the speaker published the thought stream.
 - **Conductor Cloud** — Referenced as the environment for spinning off agents on the go.
 - **Paper** — Used as a design tool whose sheeters were incorporated into the website's customization.

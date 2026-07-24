@@ -60,12 +60,12 @@ Dex Horthy argues that the current wave of software factories fails because team
   - Evidence: "Um and so if you use model assisted planning and alignment, your alignment is shorter because you use AI to get all the information at once."
 
 ### Topics Covered
-- [[coding-agents|software factory]] — The end-to-end system for turning requests into shipped software through planning, implementation, review, and production.
-- [[software-factories|code maintainability]] — The ability to evolve a codebase without causing regressions or making future changes harder.
+- [[software-factories|software factory]] — The end-to-end system for turning requests into shipped software through planning, implementation, review, and production.
+- [[model-capability-and-product-framing|code maintainability]] — The ability to evolve a codebase without causing regressions or making future changes harder.
 - [[agent-evaluations|benchmark design]] — Evaluating coding agents and code quality with benchmarks, verifiers, and reward channels.
-- [[coding-agents|upfront planning]] — Human-in-the-loop planning and review before implementation.
+- [[software-factories|upfront planning]] — Human-in-the-loop planning and review before implementation.
 - [[software-factories|vertical slices]] — Breaking implementation into coordinated end-to-end chunks across a system.
-- [[coding-agents|human-owned agentic development]] — The strategy of using AI to accelerate work while keeping humans responsible for code ownership and judgment.
+- [[software-factories|human-owned agentic development]] — The strategy of using AI to accelerate work while keeping humans responsible for code ownership and judgment.
 
 ### Tools And Named Systems
 - **Human Layer** — The company/product used as the speaker's example of the human-layer workflow and platform being built.
@@ -123,8 +123,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-Ib5GBkD555M-transcript]] - dedicated official recording transcript.
 - [[youtube-rmvDxxNubIg]] - supporting context; not the exact session recording.
 
-- [[youtube-Ib5GBkD555M-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-Ib5GBkD555M`
 - Slide deck: [[youtube-Ib5GBkD555M-slides|Slides: Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer]] — 32 visible slide image(s).
 ![[assets/slides/Ib5GBkD555M/slide-001.jpg]]
@@ -141,7 +139,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-Ib5GBkD555M-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Ib5GBkD555M.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

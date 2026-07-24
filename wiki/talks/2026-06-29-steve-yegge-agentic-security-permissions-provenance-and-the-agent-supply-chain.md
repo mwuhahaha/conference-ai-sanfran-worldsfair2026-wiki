@@ -120,8 +120,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-yWS0udrIOc8-transcript]] - dedicated official recording transcript.
 - [[youtube-7Dtu2bilcFs]] - supporting context; not the exact session recording.
 
-- [[youtube-yWS0udrIOc8-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-yWS0udrIOc8`
 - Slide deck: [[youtube-yWS0udrIOc8-slides|Slides: Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town]] — 8 visible slide image(s).
 ![[assets/slides/yWS0udrIOc8/slide-001.jpg]]
@@ -138,7 +136,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-yWS0udrIOc8-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/yWS0udrIOc8.txt`.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
 

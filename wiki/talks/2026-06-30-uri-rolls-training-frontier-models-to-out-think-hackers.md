@@ -58,14 +58,14 @@ The talk argues that AI is changing cyber offense economics, but that same shift
   - Evidence: "and speed will be where you know you you want to have a specialized model that's maybe running on specialized hardware and actually is is going to be very important and here I think the the danger is to say we're just going to rely on two company that everyone knows here to solve all"
 
 ### Topics Covered
-- **Cyber economics** — How frontier models are changing the attack and defense balance in cyber.
+- [[agent-security|Cyber economics]] — How frontier models are changing the attack and defense balance in cyber.
 - [[agent-security|Access control]] — A first-foothold vulnerability class where permissions and logic matter more than obvious bugs.
-- [[autoresearch|Black-box cyber evaluation]] — Evaluating models in a live but hidden system with limited information and no source access.
+- **Black-box cyber evaluation** — Evaluating models in a live but hidden system with limited information and no source access.
 - [[agent-evaluations|Deterministic grading]] — Verifying each action in a long exploitation chain with machine-checkable scoring.
-- **Open source model adaptation** — Using collaboration and post-training to adapt open source models for defense.
+- [[agent-security|Open source model adaptation]] — Using collaboration and post-training to adapt open source models for defense.
 
 ### Tools And Named Systems
-- **GPT 5.5** — A model used in the live attempts against the benchmark task.
+- [[gpt-5-5|GPT 5.5]] — A model used in the live attempts against the benchmark task.
 - **Opus** — A model mentioned alongside GPT 5.5 in the attempted solve.
 - **Keycloak** — An application in the benchmark chain used in the real solve example.
 - **Vault** — Another application in the benchmark chain used in the real solve example.
@@ -113,8 +113,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-O-CBZ3JtRvo]] - dedicated official event recording.
 - [[youtube-O-CBZ3JtRvo-transcript]] - dedicated official recording transcript.
 
-- [[youtube-O-CBZ3JtRvo-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-O-CBZ3JtRvo`
 - Slide deck: [[youtube-O-CBZ3JtRvo-slides|Slides: Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face]] — 21 visible slide image(s).
 ![[assets/slides/O-CBZ3JtRvo/slide-001.jpg]]
@@ -127,7 +125,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-O-CBZ3JtRvo-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/O-CBZ3JtRvo.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

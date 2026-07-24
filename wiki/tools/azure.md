@@ -18,7 +18,7 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-RGSFUqzqErE
-sourceAssessmentBodySha256: sha256:cabdf02f110058e24ac7eb1060ceb2391ab4a935e7ed855cf43f85d6daf902b0
+sourceAssessmentBodySha256: sha256:a0ba389026451675dd51f3130a366eceb33583d7fdb6036b00c72d80da56a6f1
 ---
 # Azure
 
@@ -33,6 +33,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — The Microsoft cloud environment where the speaker shows the underlying knowledge base service.
   - Transcript: [[youtube-RGSFUqzqErE-transcript]]
   - Evidence: "Uh and if you want control over that, like if I if you don't, you can just use it here. But, if you do, let me just switch to Azure and show you the service behind that particular instance."
+
 ## Confirmed Evidence
 
 ### Official Schedule

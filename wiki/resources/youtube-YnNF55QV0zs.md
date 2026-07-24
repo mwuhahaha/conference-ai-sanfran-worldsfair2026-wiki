@@ -17,7 +17,7 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- No exact schedule-page match has been assigned; event association comes from official WF26 playlist membership. Do not infer schedule fields from the video title.
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/YnNF55QV0zs.txt`.

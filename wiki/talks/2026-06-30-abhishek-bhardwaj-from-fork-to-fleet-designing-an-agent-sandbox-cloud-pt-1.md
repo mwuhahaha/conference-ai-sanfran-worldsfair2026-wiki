@@ -71,10 +71,10 @@ The talk argues that agent sandboxes should be treated as a cloud primitive: onc
   - Evidence: "So, you can use like snapshot with orchestration to just have faster like uh uh creates and even just more reliable uh uh like orchestration."
 
 ### Topics Covered
-- [[ai-sandboxes|Agent sandbox cloud]] — A fleet of secure sandboxes that runs model tool calls for research and product.
-- [[ai-sandboxes|Runtime isolation]] — The choice of isolation primitive for a single sandboxed workload.
+- **Agent sandbox cloud** — A fleet of secure sandboxes that runs model tool calls for research and product.
+- [[inference-engineering|Runtime isolation]] — The choice of isolation primitive for a single sandboxed workload.
 - [[ai-sandboxes|Micro VMs]] — Hardware-isolated guest machines with smaller VMMs and stronger boundaries.
-- [[agent-memory|Disk persistence]] — Saved sandbox state that survives failures and long tasks.
+- [[ai-sandboxes|Disk persistence]] — Saved sandbox state that survives failures and long tasks.
 - [[ai-sandboxes|Snapshot-aware orchestration]] — Placement logic that uses snapshot lineage and node state.
 
 ### Tools And Named Systems

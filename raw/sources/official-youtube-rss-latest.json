@@ -1,7 +1,77 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-24T12:36:41.455161+00:00",
+  "checked_at": "2026-07-24T22:20:04.922419+00:00",
   "entries": [
+    {
+      "channel": "AI Engineer",
+      "id": "31GUkCBD-Uc",
+      "published": "2026-07-24T22:00:25+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+      "updated": "2026-07-24T22:00:58+00:00",
+      "url": "https://www.youtube.com/watch?v=31GUkCBD-Uc"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "xyL2Ltkh-SA",
+      "published": "2026-07-24T21:00:00+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, YouTube Ads",
+      "updated": "2026-07-24T21:21:43+00:00",
+      "url": "https://www.youtube.com/watch?v=xyL2Ltkh-SA"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "9HbzAWnKbo4",
+      "published": "2026-07-24T20:15:32+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+      "updated": "2026-07-24T20:16:07+00:00",
+      "url": "https://www.youtube.com/watch?v=9HbzAWnKbo4"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "q2JrUKBMf0w",
+      "published": "2026-07-24T20:00:06+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI",
+      "updated": "2026-07-24T20:07:12+00:00",
+      "url": "https://www.youtube.com/watch?v=q2JrUKBMf0w"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "jRCpXUjz4CI",
+      "published": "2026-07-24T16:00:06+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+      "updated": "2026-07-24T19:42:31+00:00",
+      "url": "https://www.youtube.com/watch?v=jRCpXUjz4CI"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "cO8qC6HBuBg",
+      "published": "2026-07-24T15:00:06+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs",
+      "updated": "2026-07-24T15:20:11+00:00",
+      "url": "https://www.youtube.com/watch?v=cO8qC6HBuBg"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "il1c1a2FufU",
+      "published": "2026-07-24T15:00:06+00:00",
+      "published_date": "2026-07-24",
+      "source": "official_youtube_rss",
+      "title": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
+      "updated": "2026-07-24T16:17:09+00:00",
+      "url": "https://www.youtube.com/watch?v=il1c1a2FufU"
+    },
     {
       "channel": "AI Engineer",
       "id": "O-CBZ3JtRvo",
@@ -81,76 +151,6 @@
       "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
       "updated": "2026-07-23T04:23:13+00:00",
       "url": "https://www.youtube.com/watch?v=H7puB0RwJMM"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "418t26CVz-w",
-      "published": "2026-07-23T03:00:01+00:00",
-      "published_date": "2026-07-23",
-      "source": "official_youtube_rss",
-      "title": "Local Agentic Theory For Mobile Games — Shafik Quoraishee & Joanne Song, The New York Times",
-      "updated": "2026-07-23T03:24:30+00:00",
-      "url": "https://www.youtube.com/watch?v=418t26CVz-w"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "mOf-PP4mVjA",
-      "published": "2026-07-23T02:00:03+00:00",
-      "published_date": "2026-07-23",
-      "source": "official_youtube_rss",
-      "title": "Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
-      "updated": "2026-07-23T02:25:12+00:00",
-      "url": "https://www.youtube.com/watch?v=mOf-PP4mVjA"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "Sir59K8ZDPU",
-      "published": "2026-07-23T01:00:07+00:00",
-      "published_date": "2026-07-23",
-      "source": "official_youtube_rss",
-      "title": "Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley",
-      "updated": "2026-07-23T01:14:30+00:00",
-      "url": "https://www.youtube.com/watch?v=Sir59K8ZDPU"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "u1yaOeEX4e8",
-      "published": "2026-07-23T00:00:04+00:00",
-      "published_date": "2026-07-23",
-      "source": "official_youtube_rss",
-      "title": "Learned Execution Graphs for Anomaly Detection & Drift in APIs — Ritvik Pandya, JP Morgan Chase",
-      "updated": "2026-07-23T00:00:36+00:00",
-      "url": "https://www.youtube.com/watch?v=u1yaOeEX4e8"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "Btk8wDUVs74",
-      "published": "2026-07-22T23:00:11+00:00",
-      "published_date": "2026-07-22",
-      "source": "official_youtube_rss",
-      "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
-      "updated": "2026-07-23T07:16:44+00:00",
-      "url": "https://www.youtube.com/watch?v=Btk8wDUVs74"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "jt1Pbr_n6oU",
-      "published": "2026-07-22T21:30:31+00:00",
-      "published_date": "2026-07-22",
-      "source": "official_youtube_rss",
-      "title": "Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
-      "updated": "2026-07-22T21:31:03+00:00",
-      "url": "https://www.youtube.com/watch?v=jt1Pbr_n6oU"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "khVX_BUnEwU",
-      "published": "2026-07-22T20:00:06+00:00",
-      "published_date": "2026-07-22",
-      "source": "official_youtube_rss",
-      "title": "Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
-      "updated": "2026-07-22T20:19:40+00:00",
-      "url": "https://www.youtube.com/watch?v=khVX_BUnEwU"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"

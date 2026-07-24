@@ -63,10 +63,10 @@ The talk argues that autonomous research is not primarily a story about an agent
 
 ### Topics Covered
 - [[agent-evaluations|Parameter Golf]] — A competition used as both a benchmark and a hiring filter for small language model training under strict resource limits.
-- [[agent-memory|Autonomous research agents]] — An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.
-- **Community impact** — A metric-style way to measure whether a PR's ideas spread through the community and get reused.
-- [[inference-engineering|Evaluation design]] — The role of evaluation design in determining what an autonomous research system optimizes for.
-- **Codebase abstraction** — The role of architecture or API boundaries in steering search and preventing bad solutions.
+- [[autoresearch|Autonomous research agents]] — An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.
+- [[model-capability-and-product-framing|Community impact]] — A metric-style way to measure whether a PR's ideas spread through the community and get reused.
+- [[agent-evaluations|Evaluation design]] — The role of evaluation design in determining what an autonomous research system optimizes for.
+- [[software-factories|Codebase abstraction]] — The role of architecture or API boundaries in steering search and preventing bad solutions.
 - [[coding-agents|Human-AI collaboration]] — A collaboration pattern where humans provide ideas and agents perform rapid execution and iteration.
 
 ### Tools And Named Systems

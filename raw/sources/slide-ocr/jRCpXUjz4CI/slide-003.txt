@@ -1,0 +1,12 @@
+AlEngineer
+World's Fair |
+, ..  staysaasy r Fotiow a
+i
+It's 2018 and your coworker just sent you a 400 line pull request.
+You get a cup of coffee and sit down to review it.
+It’s beautiful. Elegant micro-refactors. Crispy method names.
+You catch a few things, but that’s ok. It’s part of the dance. They didn’t
+consider extensibility on part of their API. Here’s a comment buddy.
+a
+TRACK 5 * JULY 1, 2026
+Evals

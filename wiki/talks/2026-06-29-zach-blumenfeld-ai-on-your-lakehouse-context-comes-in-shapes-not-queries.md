@@ -58,10 +58,10 @@ Zach Blumenfeld argues that lakehouse copilots usually fail because they get the
   - Evidence: "If the data changes, it will change to reflect the data. So, it's very stable. The disadvantage to it would be if your links in your documents um, and the titles and things that are being scooped up, because this is really only looking basically at document metadata and link metadata."
 
 ### Topics Covered
-- [[agent-memory|Lakehouse context]] — Using graph shapes to supply agents with the right context for lakehouse reasoning.
-- **Semantic layers** — A metadata graph that acts as a semantic layer over warehouse schemas.
-- [[agent-memory|Document navigation trees]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
-- [[agentic-search|Theme discovery]] — Community detection for surfacing corpus-wide clusters and hidden themes.
+- [[inference-engineering|Lakehouse context]] — Using graph shapes to supply agents with the right context for lakehouse reasoning.
+- [[semantic-infrastructure-and-ontology|Semantic layers]] — A metadata graph that acts as a semantic layer over warehouse schemas.
+- [[agentic-search|Document navigation trees]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
+- **Theme discovery** — Community detection for surfacing corpus-wide clusters and hidden themes.
 - [[agentic-search|Agentic query routing]] — An agent workflow that chains outline, search, and theme shapes to answer mixed structured and unstructured questions.
 
 ### Tools And Named Systems
@@ -123,8 +123,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-kRkcNOsRyYg-transcript]] - dedicated official recording transcript.
 - [[youtube-B9h9ovW5H9U]] - supporting context; not the exact session recording.
 
-- [[youtube-kRkcNOsRyYg-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-kRkcNOsRyYg`
 - Slide deck: [[youtube-kRkcNOsRyYg-slides|Slides: AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j]] — 32 visible slide image(s).
 ![[assets/slides/kRkcNOsRyYg/slide-001.jpg]]
@@ -141,7 +139,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-kRkcNOsRyYg-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/kRkcNOsRyYg.txt`.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
 

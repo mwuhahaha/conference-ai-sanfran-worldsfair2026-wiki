@@ -1,0 +1,241 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T22:37:30.768560+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:aa8fd0229a767203468027e762ba4a1f1671f89e4750123bdbacf61cadc5d326",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Uh and then once your base structure is defined uh you can have you can then go to um having an eval and having a strong eval is very important as this gives you um like a way of proving the value of changes you make as well as running ablation experiments on any changes you make.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "support": "explicit",
+        "text": "The speakers argue that evals are not just scorecards; they are part of the feedback loop used to prove changes and drive iteration."
+      },
+      {
+        "evidenceExcerpt": "Um so yeah the the reliability of your agent is basically a function of the capabilities of the agent uh the guard rails and the evals.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "They say agent reliability comes from the combination of agent capabilities, guardrails, and evals."
+      },
+      {
+        "evidenceExcerpt": "Um so when you're first uh starting out it may be that uh you you know you could uh take a track of basically just going ahead and making the super comprehensive eval right um but we found it actually works better to first do intuition based approach where you kind of um first see",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "support": "explicit",
+        "text": "They report that early intuition-based probing can be useful even though it is not scalable, because it reveals failure patterns quickly."
+      },
+      {
+        "evidenceExcerpt": "Uh one was that providing them with a clear rubric of what they were actually rating with very clear examples.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "support": "explicit",
+        "text": "They argue that clear rubrics, concrete examples, and explanation capture are essential for human raters to be useful."
+      },
+      {
+        "evidenceExcerpt": "So we really had to look at the traces to see what was going on. And in this example, you can see in the initial trace, it actually detects that there is a disclaimer in what it's searching for and it says, okay, I found a disclaimer and now I'm going to go ahead and remove it, which was not what we asked it to do.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "support": "explicit",
+        "text": "They show that trace inspection can uncover instruction-violating behavior that aggregate pass/fail metrics miss."
+      },
+      {
+        "evidenceExcerpt": "Um so yeah this is basically just saying like it's very important to understand from these evals right what is the exact issue that you're having and figure out um the trade-offs here and then um you should also this is a very important point so you should focus on patterns rather than isolated runs",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "support": "explicit",
+        "text": "They emphasize that regression analysis should focus on recurring patterns across examples rather than isolated failures."
+      },
+      {
+        "evidenceExcerpt": "Uh important to of course keep it evolving. That's why we talked about having your online eval having test sets that are refreshed with production data, having sampling pipelines, all sorts of things.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "support": "explicit",
+        "text": "They say evals and test sets must keep evolving with production data and the current product stage."
+      }
+    ],
+    "methodNotes": "Synthesized only from the supplied schedule metadata and transcript. Each evidence-linked field uses exactly one transcript segment ID, and no explicit third-party tools were named in the talk.",
+    "methods": [
+      {
+        "description": "Use a prompt-eval-iteration-feedback loop to improve agent behavior without treating prompting as the whole solution.",
+        "evidenceExcerpt": "Um, and then through all of these things, you can both iterate on your eval as along with um, iterating on the agent.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "Prompt-eval feedback loop"
+      },
+      {
+        "description": "Begin with a small set of core tasks and expand later instead of waiting for a comprehensive golden set.",
+        "evidenceExcerpt": "Um you can just kind of start with a few core tasks. So you can look through your agent and define what are the primary things that you want to target, right?",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Start-small eval design"
+      },
+      {
+        "description": "Attach clear rating rubrics and concrete examples so raters can make consistent judgments.",
+        "evidenceExcerpt": "Uh one was that providing them with a clear rubric of what they were actually rating with very clear examples.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Rubric calibration"
+      },
+      {
+        "description": "Collect explanations for pass/fail decisions so the team can see why a rating was assigned.",
+        "evidenceExcerpt": "Uh the second things that we noticed that helped us a lot was getting explanations from raider.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Explanation capture"
+      },
+      {
+        "description": "Track how human and model judgments disagree over time to calibrate automated judging.",
+        "evidenceExcerpt": "So we ended up going down that path. Also few things that we tried to do to kind of set this set a more uh comprehensive structure for ourselves is one we we monitored disagreements or in some cases teams monitored agreements.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Judge agreement monitoring"
+      },
+      {
+        "description": "Inspect agent traces to diagnose failures that summary metrics conceal.",
+        "evidenceExcerpt": "So uh it basically says if you if you want to know what it's doing look at it at its thinking.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Trace-based debugging"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "We have of course like a plethora of use cases. So, I won't say all. I co can't go into details about what the benchmarking and all of that system looks like, but some of the things that we talked about in terms of disagreement rates and ma monitoring like sampling pipelines, those things hold true generally.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "question": "How should a team calibrate an LLM judge against human raters without losing useful coverage across use cases?",
+        "whyItMatters": "The talk treats judge alignment as a practical operational problem, but does not specify a complete calibration recipe."
+      },
+      {
+        "evidenceExcerpt": "Uh important to of course keep it evolving. That's why we talked about having your online eval having test sets that are refreshed with production data, having sampling pipelines, all sorts of things.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "question": "How do you know when a golden set has become stale enough that it needs to be refreshed from production data?",
+        "whyItMatters": "The speakers recommend keeping evals evolving, but the trigger for refresh is left open."
+      },
+      {
+        "evidenceExcerpt": "Is there a certain precision recall number that you're looking at? Is there some other metric that you look at?",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "question": "What launch metric should replace or complement precision and recall for a given agent task?",
+        "whyItMatters": "They say launch criteria can differ by system, but do not define a universal metric choice."
+      }
+    ],
+    "summary": "The talk argues that stable agent behavior comes from a loop of prompts, evals, iteration, and feedback, not from prompt writing alone. In the AI Engineer World’s Fair session, the speakers frame production reliability as a function of the agent’s capabilities, its guardrails, and the quality of the eval system around it, using their YouTube ads work as the concrete example. The main tradeoff is that early intuition-driven probing is fast and revealing but not scalable, while production-grade evals must be strict, measurable, and continuously refreshed from real data so the team can catch regressions, understand failure patterns, and improve the system without breaking what already works.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Um you can just kind of start with a few core tasks. So you can look through your agent and define what are the primary things that you want to target, right?",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "text": "Start with a small set of core tasks and expand the eval later."
+      },
+      {
+        "evidenceExcerpt": "Um, and so here it's important to also test the negatives. Checking if the model like didn't do something as bad, uh, something bad is just as critical as checking if it did the task.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "text": "Test negatives, not only successful task completion, because absence of a bad behavior matters too."
+      },
+      {
+        "evidenceExcerpt": "So we really had to look at the traces to see what was going on. And in this example, you can see in the initial trace, it actually detects that there is a disclaimer in what it's searching for and it says, okay, I found a disclaimer and now I'm going to go ahead and remove it, which was not what we asked it to do.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "text": "Use trace review when aggregate metrics do not explain a policy violation or unexpected failure."
+      },
+      {
+        "evidenceExcerpt": "What's an acceptable regression versus not? Things like that. As you're doing these systems, it's important to like uh get some clarity early on on what is your gatekeeping rule like what's your launch criteria.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "text": "Define launch criteria and acceptable regressions before treating a model as ready."
+      },
+      {
+        "evidenceExcerpt": "Uh important to of course keep it evolving. That's why we talked about having your online eval having test sets that are refreshed with production data, having sampling pipelines, all sorts of things.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "text": "Keep the eval set and test data aligned with changing production behavior."
+      }
+    ],
+    "tools": [],
+    "topics": [
+      {
+        "description": "The idea that agent performance improves through a closed loop of prompts, evals, iteration, and feedback.",
+        "evidenceExcerpt": "And this loop, uh, once you have a very good eval defined, it works quite well for iterating on your agent um, and doing quality hill climbing as I mentioned before, doing ablations and whatnot.",
+        "evidenceSegmentIds": [
+          "S0082"
+        ],
+        "name": "Eval-driven iteration"
+      },
+      {
+        "description": "How to reason about whether an agent will behave reliably in production.",
+        "evidenceExcerpt": "Um so yeah the the reliability of your agent is basically a function of the capabilities of the agent uh the guard rails and the evals.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Agent reliability"
+      },
+      {
+        "description": "A curated set of representative examples used to judge agent behavior.",
+        "evidenceExcerpt": "So we want to give a golden set that's like super expansive. It covers a broad range of use cases and it also has very high human human agreement within your team.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "Golden sets"
+      },
+      {
+        "description": "Inspecting agent traces to understand why a failure occurred.",
+        "evidenceExcerpt": "So we really had to look at the traces to see what was going on. And in this example, you can see in the initial trace, it actually detects that there is a disclaimer in what it's searching for and it says, okay, I found a disclaimer and now I'm going to go ahead and remove it, which was not what we asked it to do.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "name": "Trace analysis"
+      },
+      {
+        "description": "Using model or automated judges alongside human raters and checking agreement.",
+        "evidenceExcerpt": "We have of course like a plethora of use cases. So, I won't say all. I co can't go into details about what the benchmarking and all of that system looks like, but some of the things that we talked about in terms of disagreement rates and ma monitoring like sampling pipelines, those things hold true generally.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "name": "LLM judging"
+      },
+      {
+        "description": "Evaluating whether a system is ready to ship and what regressions are acceptable.",
+        "evidenceExcerpt": "What's an acceptable regression versus not? Things like that. As you're doing these systems, it's important to like uh get some clarity early on on what is your gatekeeping rule like what's your launch criteria.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Launch readiness"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:d241efa5bb45bbbd5f77e20dd6a15b7d49358fdc5aed0c2ab7ab7ab9abe4b2bc",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior",
+  "talkTitle": "Model Whisperers: How Evals and Prompts Shape Agent Behavior",
+  "transcriptPath": "raw/sources/youtube-transcripts/xyL2Ltkh-SA.txt",
+  "transcriptSha256": "sha256:0960de1c991b16a1fdd517ea0800a4c170601e9f01fb7c96319fc342c0e4a89a",
+  "videoId": "xyL2Ltkh-SA"
+}

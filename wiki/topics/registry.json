@@ -1,5 +1,10 @@
 [
   {
+    "id": "active-documents-and-live-work-surfaces",
+    "title": "Active Documents and Live Work Surfaces",
+    "path": "wiki/topics/active-documents-and-live-work-surfaces.md"
+  },
+  {
     "id": "agent-evaluations",
     "title": "Agent Evaluations",
     "path": "wiki/topics/agent-evaluations.md"
@@ -8,6 +13,11 @@
     "id": "agent-memory",
     "title": "Agent Memory",
     "path": "wiki/topics/agent-memory.md"
+  },
+  {
+    "id": "agent-reliability-and-durable-execution",
+    "title": "Agent Reliability and Durable Execution",
+    "path": "wiki/topics/agent-reliability-and-durable-execution.md"
   },
   {
     "id": "agent-security",
@@ -45,6 +55,11 @@
     "path": "wiki/topics/coding-agents.md"
   },
   {
+    "id": "human-oversight-and-review-dynamics",
+    "title": "Human Oversight and Review Dynamics",
+    "path": "wiki/topics/human-oversight-and-review-dynamics.md"
+  },
+  {
     "id": "inference-engineering",
     "title": "Inference Engineering",
     "path": "wiki/topics/inference-engineering.md"
@@ -53,6 +68,11 @@
     "id": "mcp-app-runtime",
     "title": "MCP Apps as Agentic App Runtime",
     "path": "wiki/topics/mcp-app-runtime.md"
+  },
+  {
+    "id": "model-capability-and-product-framing",
+    "title": "Model Capability and Product Framing",
+    "path": "wiki/topics/model-capability-and-product-framing.md"
   },
   {
     "id": "mcp",
@@ -68,6 +88,11 @@
     "id": "reachability-over-format",
     "title": "Reachability Over Format",
     "path": "wiki/topics/reachability-over-format.md"
+  },
+  {
+    "id": "semantic-infrastructure-and-ontology",
+    "title": "Semantic Infrastructure and Ontology",
+    "path": "wiki/topics/semantic-infrastructure-and-ontology.md"
   },
   {
     "id": "software-factories",

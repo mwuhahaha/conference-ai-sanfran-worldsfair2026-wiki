@@ -61,13 +61,13 @@ The talk argues that agentic development security has to cover three layers at o
 - [[agent-security|Agentic development security]] — The core problem of securing agentic software development across outputs, inputs, and actions.
 - [[agent-security|Agent supply chain]] — The connected ecosystem of MCP servers and skills that expands the agent attack surface.
 - [[agent-security|Behavior governance]] — Policies and controls for intercepting risky agent behavior before it executes.
-- [[agent-security|Agent observability]] — Seeing commands, files, sessions, costs, and tool use as part of trust in local agent workflows.
+- **Agent observability** — Seeing commands, files, sessions, costs, and tool use as part of trust in local agent workflows.
 - [[agent-security|False positives]] — Managing the tension between strict enforcement and developer workflow noise.
 
 ### Tools And Named Systems
 - [[mcp|MCP]] — The protocol used to connect agents to external tools and services.
 - **Snappy** — The local enforcement tool shown blocking secret-file access in the demo.
-- **EVO** — The platform referenced for seeing agent guard behavior and connected components.
+- [[evo|EVO]] — The platform referenced for seeing agent guard behavior and connected components.
 - [[claude|Claude]] — The agent interface used as an example of where ask-based prompting might appear.
 
 ### Novel Concepts And Methods
@@ -110,8 +110,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-cgimkNGNjvU]] - dedicated official event recording.
 - [[youtube-cgimkNGNjvU-transcript]] - dedicated official recording transcript.
 
-- [[youtube-cgimkNGNjvU-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-cgimkNGNjvU`
 - Slide deck: [[youtube-cgimkNGNjvU-slides|Slides: Agentic Development Security — Ezra Tanzer, Snyk]] — 18 visible slide image(s).
 ![[assets/slides/cgimkNGNjvU/slide-001.jpg]]
@@ -124,7 +122,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-cgimkNGNjvU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/cgimkNGNjvU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

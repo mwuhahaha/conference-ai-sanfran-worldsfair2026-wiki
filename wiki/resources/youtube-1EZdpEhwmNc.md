@@ -17,7 +17,7 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- No exact schedule-page match has been assigned; event association comes from official WF26 playlist membership. Do not infer schedule fields from the video title.
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]]
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/1EZdpEhwmNc.txt`.

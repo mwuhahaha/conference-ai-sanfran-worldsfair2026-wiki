@@ -16,7 +16,7 @@ sourceAssessment:
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:c2ddbfaffe566c99ec8b30435b968204a7d62f5e135be7ea95384ffa64c52cbb
+sourceAssessmentBodySha256: sha256:66924c174ecf9eea4f26be49f23b5aaec32a161207f688a4e185defc7200a1af
 ---
 # Zep
 
@@ -31,6 +31,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]] — The enterprise agent memory infrastructure built on Graffiti.
   - Transcript: [[youtube-H7puB0RwJMM-transcript]]
   - Evidence: "So my team and I built Graffiti uh the open-source temporal graph framework and Zep, our enterprise agent memory infrastructure is built on graffiti."
+
 ## Confirmed Evidence
 
 ### Public YouTube Metadata

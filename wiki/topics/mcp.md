@@ -24,9 +24,10 @@ sourceAssessment:
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-c35YoMdnI78
+  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:7a54116f612e8a13216b60385a9b272d6e7ba020e8a44d687056357e38b42965
+sourceAssessmentBodySha256: sha256:933cc5fe33a69659c63ee49245db6cc8b213e816b6159d1d4348b2916db316fd
 ---
 # Model Context Protocol
 
@@ -58,6 +59,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-ezra-tanzer-agentic-development-security]] — Agentic Development Security
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
 - [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
 
 ## Slide-Derived Supporting Decks
@@ -174,19 +176,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 64 | Related pages outside the main evidence categories. |
-| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 34 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| resources | 25 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 35 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 35 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 16 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 17 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-ezra-tanzer-agentic-development-security]]
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]]
 - [[2026-06-29-sarah-sachs-notion-s-token-town]]
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
-- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]]
 
 ### Resources
 - [[youtube-o-zkvb0iFDQ]]
@@ -210,7 +212,7 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-htM02KMNZnk-transcript]]
 - [[youtube-I3znWC3MEXM-transcript]]
 - [[youtube-jt1Pbr_n6oU-transcript]]
-- [[youtube-JvKO40CFq-s-transcript]]
+- [[youtube-1EZdpEhwmNc-transcript]]
 
 ### Tools
 - [[docker]]
@@ -259,6 +261,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
 - Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
 - Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
+- `youtube-1EZdpEhwmNc` — 4,245 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-1EZdpEhwmNc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-1EZdpEhwmNc`: security, data, code, able, find, skill, customers, attacks.
+- Slide-derived themes for `youtube-1EZdpEhwmNc`: track, june, security, malicious, engineering, future, pitch, defend.
+- Evidence links for `youtube-1EZdpEhwmNc` (primary event evidence): [[youtube-1EZdpEhwmNc]], [[youtube-1EZdpEhwmNc-transcript]], [[youtube-1EZdpEhwmNc-slides]]
 - `youtube-JvKO40CFq-s` — 5,616 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-JvKO40CFq-s`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-JvKO40CFq-s`: okay, idea, email, capabilities, maybe, read, directory, identity.
@@ -279,11 +286,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
 - Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
 - Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
-- `youtube-1EZdpEhwmNc` — 4,245 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-1EZdpEhwmNc`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-1EZdpEhwmNc`: security, data, code, able, find, skill, customers, attacks.
-- Slide-derived themes for `youtube-1EZdpEhwmNc`: track, june, security, malicious, engineering, future, pitch, defend.
-- Evidence links for `youtube-1EZdpEhwmNc` (primary event evidence): [[youtube-1EZdpEhwmNc]], [[youtube-1EZdpEhwmNc-transcript]], [[youtube-1EZdpEhwmNc-slides]]
+- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
+- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
+- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-Q0VkgCyNVUg` — 3,266 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-Q0VkgCyNVUg`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-Q0VkgCyNVUg`: graph, memory, vector, files, demo, information, great, store.

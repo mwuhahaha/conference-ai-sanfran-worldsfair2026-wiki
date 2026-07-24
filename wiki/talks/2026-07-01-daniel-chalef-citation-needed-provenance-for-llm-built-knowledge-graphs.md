@@ -62,14 +62,14 @@ The talk argues that LLM-built context is inherently lossy and non-deterministic
   - Evidence: "So, the rule is pretty simple here and it's easier to apply because the link exists. A fact is only deleted if no remaining episodes support it."
 
 ### Topics Covered
-- [[agent-memory|Provenance]] — The need to preserve where synthesized facts came from in LLM-built knowledge graphs.
-- [[agent-memory|Lineage graph]] — Keeping source links intact as entities merge, facts mutate, and the graph changes over time.
-- [[agent-memory|Metadata projection]] — Projecting a source classification onto all descendant nodes and edges after ingestion.
-- [[agent-memory|Mixed-trust retrieval]] — Applying different trust rules when a fact has multiple parents and mixed-source ancestry.
+- [[agentic-search|Provenance]] — The need to preserve where synthesized facts came from in LLM-built knowledge graphs.
+- [[agentic-search|Lineage graph]] — Keeping source links intact as entities merge, facts mutate, and the graph changes over time.
+- [[semantic-infrastructure-and-ontology|Metadata projection]] — Projecting a source classification onto all descendant nodes and edges after ingestion.
+- [[agentic-search|Mixed-trust retrieval]] — Applying different trust rules when a fact has multiple parents and mixed-source ancestry.
 - **Deletion propagation** — Propagating deletion from source records to derived facts when support disappears.
 - [[agent-memory|File-based memory limits]] — The point that file-based memory becomes hard to reason about when lineage matters.
-- [[agent-memory|Graph construction cost]] — The overhead of building provenance-aware graph artifacts at scale.
-- [[agent-memory|Entity resolution]] — Splitting facts across episodes, entities, and derived artifacts while preserving lineage through entity resolution.
+- [[agentic-search|Graph construction cost]] — The overhead of building provenance-aware graph artifacts at scale.
+- [[agentic-search|Entity resolution]] — Splitting facts across episodes, entities, and derived artifacts while preserving lineage through entity resolution.
 
 ### Tools And Named Systems
 - **Graffiti** — The open-source temporal graph framework used as the provenance layer.
@@ -125,8 +125,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-H7puB0RwJMM-transcript]] - dedicated official recording transcript.
 - [[youtube-T5IMo5ntyhA]] - supporting context; not the exact session recording.
 
-- [[youtube-H7puB0RwJMM-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-H7puB0RwJMM`
 - Slide deck: [[youtube-H7puB0RwJMM-slides|Slides: Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI]] — 5 visible slide image(s).
 ![[assets/slides/H7puB0RwJMM/slide-001.jpg]]
@@ -143,7 +141,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-H7puB0RwJMM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/H7puB0RwJMM.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

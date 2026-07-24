@@ -56,9 +56,9 @@ Russo's thesis is that HTML, CSS, and JavaScript are the right interface for age
   - Evidence: "But we think there's something at a higher level that needs to change here, which is why we started to work on a code to video benchmark where we are trying to work with the LLM labs, any creators who are working on video agents to ensure that we can raise the floor of videos for everyone."
 
 ### Topics Covered
-- [[agentic-web|Agent-native video authoring]] — Using HTML, CSS, and JavaScript as the interface for agent-generated video.
-- **Deterministic browser rendering** — Producing repeatable video output from browser rendering.
-- **Creativity versus guardrails** — The tension between creative freedom and framework guardrails.
+- **Agent-native video authoring** — Using HTML, CSS, and JavaScript as the interface for agent-generated video.
+- [[reachability-over-format|Deterministic browser rendering]] — Producing repeatable video output from browser rendering.
+- [[agentic-web|Creativity versus guardrails]] — The tension between creative freedom and framework guardrails.
 - [[agent-evaluations|Taste-focused skill design]] — Using skills and evaluation loops to shape model output quality.
 - **Code-to-video benchmarking** — Measuring and improving code-to-video systems with benchmarks.
 

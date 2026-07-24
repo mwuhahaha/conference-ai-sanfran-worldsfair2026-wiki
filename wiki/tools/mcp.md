@@ -17,11 +17,12 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:02bd080cf5183f58e2ca15b6b50480e366d20030751b3a2db079fb20f74c1efe
+sourceAssessmentBodySha256: sha256:c25c2d6f0525b4b54d790a32c9d5dd67b41bb3e52be680aefa246dd095921ecc
 ---
 # Model Context Protocol
 
@@ -31,7 +32,7 @@ Model Context Protocol appears as a high-confidence tool, platform, model, proto
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 8 evidence-bound talk digest(s).
+This section is generated from 9 evidence-bound talk digest(s).
 
 - [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — The protocol used to connect agents to external tools and services.
   - Transcript: [[youtube-cgimkNGNjvU-transcript]]
@@ -42,6 +43,9 @@ This section is generated from 8 evidence-bound talk digest(s).
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The protocol mentioned as part of the context and tool ecosystem models can use.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
   - Evidence: "And then for context, of course, you have all the different places you can hook up with MCPs, Slack and Notion, Linear, Data Dog, etc."
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — The protocol discussed as an integration point for enterprise data and agent tools.
+  - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
+  - Evidence: "So, you have to really understand the intent behind it. And the MCP servers, how do you connect to enterprise data?"
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — The protocol used so each knowledge base can be connected without custom glue code.
   - Transcript: [[youtube-RGSFUqzqErE-transcript]]
   - Evidence: "Uh but also it's a standalone asset that if I have already a harness that I'm using in other in other places, every knowledge base is an MCP server, so you can just connect to it uh without having to write any glue code in the middle."
@@ -57,6 +61,7 @@ This section is generated from 8 evidence-bound talk digest(s).
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — The protocol layer used to expose memory as callable servers and commands.
   - Transcript: [[youtube-Q0VkgCyNVUg-transcript]]
   - Evidence: "You can also use it kind of like a personal assistant. It relies heavily on MCP as the layer, over 70 MCP extensions."
+
 ## Confirmed Evidence
 
 ### Official Schedule

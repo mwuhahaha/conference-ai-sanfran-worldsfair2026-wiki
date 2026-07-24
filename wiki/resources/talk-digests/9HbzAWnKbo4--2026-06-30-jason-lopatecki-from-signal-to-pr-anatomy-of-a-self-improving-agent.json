@@ -1,0 +1,283 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T22:38:33.692222+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:52288fd7841c578f17714634dd6bd4cb8b774af10c536156a5127b492e19f7ff",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um and and today it's I would argue it's a lot of 2.0 which is like this combination of coding agent.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that observability is moving from human-only UI inspection toward a combination of coding agents and skills."
+      },
+      {
+        "evidenceExcerpt": "Evals add another layer to this. Um but really what we're at here is is how do I build systems that autonomously fix themselves?",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "He says the target state is systems that autonomously fix themselves rather than only surface problems for humans."
+      },
+      {
+        "evidenceExcerpt": "It's looking at the data before a human even looks at it. Um and and what you move from there is is kind of humans grabbing tickets to to having some amount of evidence um some deep evidence relative to whatever you're looking at already sitting in front of you by the time you actually even look at it.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "He describes the current loop as one where the agent often prepares evidence or an issue first, and the human continues from there."
+      },
+      {
+        "evidenceExcerpt": "It can create an issue in your repo. You can create an evaluator from this. Maybe u maybe there's a a specific problem by which you want to catch again.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "support": "explicit",
+        "text": "He reports that Signal can create issues, evaluators, and datasets from recurring problems while attaching evidence."
+      },
+      {
+        "evidenceExcerpt": "So we install in the VPC of a lot of you know bigname companies out there um from from Uber to um to bookings to you name it and and these people don't want to send their connections out but they'll they'll use a s you know many many companies um are very comfortable installing a V into a VPC and actually connecting it up.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "support": "explicit",
+        "text": "He says many customers prefer VPC-hosted sandboxes because they do not want production systems connected out to Anthropic."
+      }
+    ],
+    "methodNotes": "Each structured item is grounded in exactly one transcript segment. The summary synthesizes the talk across the full transcript, while the other fields stay one-to-one with a single evidence segment.",
+    "methods": [
+      {
+        "description": "Event-or-schedule-triggered investigation loop",
+        "evidenceExcerpt": "Um but but this is kind of what what we view the loop as. And really what it is is there's you know there's an event that occurs that you're kind of kicking things off on or you're looking at periodically.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Event-triggered loop"
+      },
+      {
+        "description": "Skill-driven context gathering",
+        "evidenceExcerpt": "Okay, handful. Okay, cool. Awesome. Um, so the magic of of of skills that that that connect to observability platforms um is it can gather the context.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Skill-based context assembly"
+      },
+      {
+        "description": "Filesystem-backed debugging workflow",
+        "evidenceExcerpt": "Um, normally our skills actually pull pull little temp files down into the the repo. Um, so that you kind of have this this this idea of what actually happened, what the code is there enough and and all that together to put up a fix.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Filesystem-backed debugging"
+      },
+      {
+        "description": "Sandboxed agent execution for debugging",
+        "evidenceExcerpt": "Um and and really the sandbox is this this running environment where um based upon an event or a periodic you know a periodic event you can kick this thing off and it does the same thing you were doing locally get it working locally first locally on your laptop and then event based based upon the observability platforms like ourselves.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Sandboxed execution"
+      },
+      {
+        "description": "Online evals layered on production traces",
+        "evidenceExcerpt": "Yeah. So so the so the eval typically will the um the eval essentially are running and being layered on typically to the production traces something we call online evals.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "name": "Online eval layering"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Um the answer is like you should um like like the vision and what we do actually at at Arise is we have uh a lot of skills.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "question": "What is the minimal skill surface area needed for an LLM to debug trace data reliably without overcomplicating the workflow?",
+        "whyItMatters": "This determines how reusable and maintainable the agent debugging stack can be."
+      },
+      {
+        "evidenceExcerpt": "So those of us who've used these systems and and use used um coding agents with with skills, the the the bottlenecks, a lot of the the confidence in in do I have it right?",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "question": "How should systems calibrate confidence so they can move faster without pushing too many wrong fixes for human review?",
+        "whyItMatters": "This is the main gating problem in making the loop safe enough to automate."
+      },
+      {
+        "evidenceExcerpt": "Um by logging and tracing orders and orders of magnitude more than we do today, we can actually create these continuous loops that know what path was taking your software and and and actually have it fix itself.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "question": "How much extra tracing and logging can teams afford before the cost outweighs the benefit of a continuous repair loop?",
+        "whyItMatters": "The approach depends on whether expanded telemetry stays practical at scale."
+      }
+    ],
+    "summary": "The talk argues that observability is changing from a human-centered dashboard workflow into an agentic debugging loop that can investigate, propose fixes, and eventually open a PR. The mechanism is to trigger an agent on an alert or schedule, pull traces and related artifacts into a filesystem-backed working context, and use skills plus a sandbox or harness to gather evidence and shape the fix. The main tradeoff is that autonomy only works if the skills, data packaging, and execution environment are carefully designed, because the hard part is not generating a patch but deciding whether it is trustworthy enough to ship and when a human must stay in the loop.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Um by logging and tracing orders and orders of magnitude more than we do today, we can actually create these continuous loops that know what path was taking your software and and and actually have it fix itself.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "text": "More traces and logs can become useful rather than noisy when agents can use them to reconstruct the software path and run continuous repair loops."
+      },
+      {
+        "evidenceExcerpt": "That's kind of the magic of this skills which are composable for the agent to go actually put a fix.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "text": "Putting the right artifacts into files inside a repo is a key unlock because harnesses are much better at working with files than with raw telemetry."
+      },
+      {
+        "evidenceExcerpt": "Um but but you've got to kind of design the skill surface area in a way that Claude can really really work well and and and it's not just like point Claude at the data.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "text": "The quality of the skill surface matters as much as the model itself; the agent needs the right data in the right shape, not just direct access to everything."
+      },
+      {
+        "evidenceExcerpt": "pre-processed information on the data that that and then as signal is running it's using data from the evals that were layered on um in addition to all the raw data that it has there Um it but it tends to be like you build an eval for a failure you've seen before a lot",
+        "evidenceSegmentIds": [
+          "S0119"
+        ],
+        "text": "Evals are part of the operational loop, not a separate layer, because they can ride on production traces and preprocessed failure patterns to catch known issues again."
+      }
+    ],
+    "tools": [
+      {
+        "description": "Arize's SaaS observability and agent platform used to host Signal",
+        "evidenceExcerpt": "So first off from let me describe the products we have. Uh this is AX which is our our SAS platform.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "name": "Arize AX"
+      },
+      {
+        "description": "Arize's open source product for starting quickly",
+        "evidenceExcerpt": "Um we also have Phoenix which is open source if you just want to start tomorrow. Um Signal right now is is just available in in our AX SAS platform.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "name": "Phoenix"
+      },
+      {
+        "description": "Arize's autonomous investigation agent that runs on alerts or schedules",
+        "evidenceExcerpt": "Uh if you want to try out Signal, it's it's an AX. Um and what it looks like is something like this, which is it's just periodically running and and kind of coming up with like issues and you can hook it up to your GitHub repo.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "Signal"
+      },
+      {
+        "description": "Local coding environment used as the baseline experience being extended into the loop",
+        "evidenceExcerpt": "of black boxes out there like oh there's a SR agent that does this or S agent that does this all we're really trying to do ourselves is take your local debugging experience with cloud code cursor and run it periodically so pick your sandbox pick your harness, pick your skills, we'll pre-bank a bunch",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "name": "Cloud Code"
+      },
+      {
+        "description": "Model used in the skill-and-data example for debugging with traces",
+        "evidenceExcerpt": "Um the answer is like you should um like like the vision and what we do actually at at Arise is we have uh a lot of skills.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "Profiling tool whose skills can surface memory issues and cohort analysis",
+        "evidenceExcerpt": "So the answer is absolutely yes. like we have Pyroscope skills that will find memory issues.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "name": "Pyroscope"
+      },
+      {
+        "description": "Sandbox option mentioned as an alternative execution environment",
+        "evidenceExcerpt": "So you can use Arise sandboxes or you can use Daytona or any of any of these that you're comfortable with um that you built relationships with.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "Daytona"
+      },
+      {
+        "description": "Repository and issue surface integrated into the workflow",
+        "evidenceExcerpt": "Uh if you want to try out Signal, it's it's an AX. Um and what it looks like is something like this, which is it's just periodically running and and kind of coming up with like issues and you can hook it up to your GitHub repo.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "GitHub"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Using observability data as input for autonomous debugging and repair loops",
+        "evidenceExcerpt": "Evals add another layer to this. Um but really what we're at here is is how do I build systems that autonomously fix themselves?",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Agentic observability"
+      },
+      {
+        "description": "Systems that improve themselves through repeated investigation and repair",
+        "evidenceExcerpt": "Um but there's a future we're all driving towards and throwing off traces, throwing off logs, throwing off way more than you normally would and having agents run at this for a continuous loop is where we're going.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "name": "Self-improving systems"
+      },
+      {
+        "description": "Debugging workflows built around traces, logs, and repo files",
+        "evidenceExcerpt": "skills used to put together logs maybe there's the repo uh you want kind of a combination of all this together um to understand what to go fix the repo tells you the code path that you know the you know all tells you everything that's there, the the production logs or traces that the",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Filesystem-backed debugging"
+      },
+      {
+        "description": "Composable skills that gather and shape observability context",
+        "evidenceExcerpt": "Okay, handful. Okay, cool. Awesome. Um, so the magic of of of skills that that that connect to observability platforms um is it can gather the context.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Observability skills"
+      },
+      {
+        "description": "Evaluations that run alongside production traces as operational checks",
+        "evidenceExcerpt": "Yeah. So so the so the eval typically will the um the eval essentially are running and being layered on typically to the production traces something we call online evals.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "name": "Online evals"
+      },
+      {
+        "description": "Running debugging agents in sandboxes rather than only on a laptop",
+        "evidenceExcerpt": "Um and and really the sandbox is this this running environment where um based upon an event or a periodic you know a periodic event you can kick this thing off and it does the same thing you were doing locally get it working locally first locally on your laptop and then event based based upon the observability platforms like ourselves.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Sandboxed agent execution"
+      },
+      {
+        "description": "Human review after the agent assembles evidence and proposes a fix",
+        "evidenceExcerpt": "It's looking at the data before a human even looks at it. Um and and what you move from there is is kind of humans grabbing tickets to to having some amount of evidence um some deep evidence relative to whatever you're looking at already sitting in front of you by the time you actually even look at it.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Human-in-the-loop repair"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:7dd9f9b8d3672d2c605a8dd11b398b8a703ebe289467378afbcd591caee7fbf3",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent",
+  "talkTitle": "From Signal to PR: Anatomy of a Self-Improving Agent",
+  "transcriptPath": "raw/sources/youtube-transcripts/9HbzAWnKbo4.txt",
+  "transcriptSha256": "sha256:f349bfb66342b997c44b3f646ee5404861530895a3f1bd911852e63c45f9e878",
+  "videoId": "9HbzAWnKbo4"
+}

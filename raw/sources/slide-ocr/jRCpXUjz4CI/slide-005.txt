@@ -1,0 +1,19 @@
+; es 1
+Al Engineer
+5 5
+Worl and
+Us def extract_phone_number (text):
+; match - re.search(r"\di3i-\disi-\di4di' | text)
+return match. group ()
+response = OpenAlI().responses.create(
+model="spt-5.5",
+input=f"Extract the phone number: \n\nj~text}",
+|
+return response.output_text
+def main():
+text = "My number is 555-123-4567"
+print(extract_phone_number (text))
+vy)
+were
+TRACK 5 + JULY 1, 2026
+Evals

@@ -16,14 +16,11 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
-  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-8G_1-3IO4ZQ
   - source:official-wf26-youtube-8qWIPUia2O8
-  - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-GgLQ02aO-hs
-  - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-YZQsWVeN3rE
@@ -32,11 +29,11 @@ sourceAssessment:
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-eBUyTS7SzV4
   - source:official-wf26-youtube-iCj_ATyThvc
-  - source:official-wf26-youtube-imFedndyXYQ
+  - source:official-wf26-youtube-jRCpXUjz4CI
   - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-uU5Gv2h8-9g
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:5356f1ecc490b1dce75e0941d3c398f5874ab1076d19025067d2372aaa14cb51
+sourceAssessmentBodySha256: sha256:5c02b539bdf582d95a36210b0f7368108fcdb5157f44b8e61cf472545ead99fc
 ---
 # Agentic Search
 
@@ -79,6 +76,8 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 - [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote
+- [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]] — Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)
 - [[2026-06-30-sean-cai-state-of-data]] — State of Data
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.
 - [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need
@@ -94,6 +93,7 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[youtube-c35YoMdnI78-slides]] — The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents (32 extracted slide frames)
 - [[youtube-Cz4v1WHVyZc-slides]] — HTML Is All Agents Need — James Russo, HeyGen (32 extracted slide frames)
 - [[youtube-GgLQ02aO-hs-slides]] — The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy (22 extracted slide frames)
+- [[youtube-jRCpXUjz4CI-slides]] — Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute (32 extracted slide frames)
 - [[youtube-khVX_BUnEwU-slides]] — Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital (31 extracted slide frames)
 - [[youtube-kRkcNOsRyYg-slides]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j (32 extracted slide frames)
 - [[youtube-mOf-PP4mVjA-slides]] — Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs (31 extracted slide frames)
@@ -107,33 +107,30 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Transcript Digest Evidence
-This section synthesizes 8 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 13 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-Search workflows that actively navigate uncertainty by chaining retrieval, optionality, and thematic synthesis. The difference across talks is whether search is framed as query routing or as a broader product strategy for finding answers and capabilities that are not initially available.
+These candidates frame retrieval as a structured reasoning layer rather than a passive lookup step, with provenance, satisfaction checking, and navigable knowledge structures built into the search flow. The variation is between query routing, graph-centered recall, and entity-grounded synthesis, but all of them prioritize traceable paths through information over flat result lists.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
-  - Transcript: [[youtube-imFedndyXYQ-transcript]]
-  - Evidence: "You spend more compute. You pay more money. Things that can be solved with money are not really problems."
-- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — Retrieval workflows that reflect on whether the query has been satisfied before returning results.
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — A retrieval architecture that supports both simple usage and expert control in one system.
   - Transcript: [[youtube-RGSFUqzqErE-transcript]]
-  - Evidence: "on on top of the core retrieval system, we also introduced an agentic retrieval stack because we see that for easy cases, like, you know, quick single-shot retrieval is great, but for more sophisticated cases, you do want a system that can reflect on on what's in the data set and decide whether or not we've satisfied the information need as stated in the input before we come back with results."
-- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
-  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
-  - Evidence: "One option to navigate this is stay model agnostic. Have different models and capabilities in your system so that at any point if pricing seems unfair or untenable, you are not out of business."
-- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — Community detection for surfacing corpus-wide clusters and hidden themes.
+  - Evidence: "So, in Foundry IQ, that was one of our core design goals. And the way we do this is we actually layer the system."
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
   - Transcript: [[youtube-kRkcNOsRyYg-transcript]]
-  - Evidence: "And so we're going to use something called lien community detection. By a show of hands, how many people in this room are familiar with what graph data science is?"
-- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]] — The distinction between what the operator thinks they know and the real constraints in the environment.
-  - Transcript: [[youtube-9fubhllmsBU-transcript]]
-  - Evidence: "And so one of the things that I think a lot about is that the map is not the territory, right?"
-- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
-  - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
-  - Evidence: "Can I add one thing to that? One of the biggest challenge so I think there's two two big challenges One is what we've been talking about of basically the trade-off of simplicity versus customizability."
-- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — The talk stresses products that let users extend missing features themselves.
+  - Evidence: "Um, that's the general idea with this. And so what this gives the agent to do is not just search like vector search or or lexical search but actually kind of traverse through the documents in a sense."
+- [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]] — Applying different trust rules when a fact has multiple parents and mixed-source ancestry.
+  - Transcript: [[youtube-H7puB0RwJMM-transcript]]
+  - Evidence: "So one tagging action at ingestion supports evaluating the veracity of a fact. But what if the fact is three parents or more?"
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.
+  - Transcript: [[youtube-Btk8wDUVs74-transcript]]
+  - Evidence: "Um and this is why we have built what we are building. We are building uh the Monday world model."
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — Answers that can be inspected and traced back to a specific graph path.
+  - Transcript: [[youtube-Q0VkgCyNVUg-transcript]]
+  - Evidence: "And graphs are they're accurate so they give you very precise information. Explainable because you can look at the graph which got returned and auditable because now you can actually say these are the this is the context."
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — The talk argues developers are overvaluing familiar interfaces and workflows.
   - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
-  - Evidence: "missing themselves. missing themselves. If you architect your systems and you If you architect your systems and you If you architect your systems and you architect your products in such a way architect your products in such a way architect your products in such a way that users can do things that they you that users can do things that they you that users can do things that they you never would have guessed."
+  - Evidence: "we got over it. we got over it. We're currently in our skeuomorphic We're currently in our skeuomorphic We're currently in our skeuomorphic phase as software developers."
 
 ## Connections
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers; [[jeff-vestal|Jeff Vestal]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Track 7; official schedule)
@@ -224,11 +221,11 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 50 | Related pages outside the main evidence categories. |
-| resources | 17 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 41 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| resources | 18 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 45 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
 | talks | 42 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 21 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 18 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
@@ -240,11 +237,11 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-4sX_He5c4sI]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-mOf-PP4mVjA]]
-- [[youtube-8G_1-3IO4ZQ]]
 - [[youtube-RGSFUqzqErE]]
+- [[youtube-kRkcNOsRyYg]]
+- [[youtube-H7puB0RwJMM]]
+- [[youtube-Btk8wDUVs74]]
+- [[youtube-I2cbIws9j10]]
 
 ### Slides
 - [[youtube--CnA2lGfymY-slides]]
@@ -255,12 +252,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-Cz4v1WHVyZc-slides]]
 
 ### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-mOf-PP4mVjA-transcript]]
-- [[youtube-8G_1-3IO4ZQ-transcript]]
 - [[youtube-RGSFUqzqErE-transcript]]
+- [[youtube-kRkcNOsRyYg-transcript]]
+- [[youtube-H7puB0RwJMM-transcript]]
+- [[youtube-Btk8wDUVs74-transcript]]
+- [[youtube-Q0VkgCyNVUg-transcript]]
+- [[youtube-xUnRQ9vLXxo-transcript]]
 
 ### Tools
 - [[neo4j]]
@@ -291,6 +288,26 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-RGSFUqzqErE` — 3,081 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-RGSFUqzqErE`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-RGSFUqzqErE`: knowledge, data, retrieval, foundry, whatnot, microsoft, models, give.
+- Slide-derived themes for `youtube-RGSFUqzqErE`: fair, engineering, future, bile, microsoft, resolve, knowledge, pablo.
+- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]], [[youtube-RGSFUqzqErE-transcript]], [[youtube-RGSFUqzqErE-slides]]
+- `youtube-kRkcNOsRyYg` — 18,117 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-kRkcNOsRyYg`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-kRkcNOsRyYg`: graph, data, well, question, inside, search, over, documents.
+- Slide-derived themes for `youtube-kRkcNOsRyYg`: engineering, future, engineer, squire, ryan, knight, senior, partner.
+- Evidence links for `youtube-kRkcNOsRyYg` (primary event evidence): [[youtube-kRkcNOsRyYg]], [[youtube-kRkcNOsRyYg-transcript]], [[youtube-kRkcNOsRyYg-slides]]
+- `youtube-H7puB0RwJMM` — 2,544 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-H7puB0RwJMM`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-H7puB0RwJMM`: fact, graph, data, source, graffiti, facts, provenence, sources.
+- Slide-derived themes for `youtube-H7puB0RwJMM`: track, graphs, provenance, engineering, future, temporal, knowledge, built.
+- Evidence links for `youtube-H7puB0RwJMM` (primary event evidence): [[youtube-H7puB0RwJMM]], [[youtube-H7puB0RwJMM-transcript]], [[youtube-H7puB0RwJMM-slides]]
+- `youtube-Btk8wDUVs74` — 2,510 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Btk8wDUVs74`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Btk8wDUVs74`: data, understand, monday, context, help, model, user, over.
+- Slide-derived themes for `youtube-Btk8wDUVs74`: data, track, july, missing, stack, records, systems, context.
+- Evidence links for `youtube-Btk8wDUVs74` (primary event evidence): [[youtube-Btk8wDUVs74]], [[youtube-Btk8wDUVs74-transcript]], [[youtube-Btk8wDUVs74-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
@@ -311,11 +328,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-8G_1-3IO4ZQ`: context, team, started, learn, skills, company, question, systems.
 - Slide-derived themes for `youtube-8G_1-3IO4ZQ`: context, layer, keep, companies, track, july, human, specialized.
 - Evidence links for `youtube-8G_1-3IO4ZQ` (primary event evidence): [[youtube-8G_1-3IO4ZQ]], [[youtube-8G_1-3IO4ZQ-transcript]], [[youtube-8G_1-3IO4ZQ-slides]]
-- `youtube-RGSFUqzqErE` — 3,081 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-RGSFUqzqErE`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-RGSFUqzqErE`: knowledge, data, retrieval, foundry, whatnot, microsoft, models, give.
-- Slide-derived themes for `youtube-RGSFUqzqErE`: fair, engineering, future, bile, microsoft, resolve, knowledge, pablo.
-- Evidence links for `youtube-RGSFUqzqErE` (primary event evidence): [[youtube-RGSFUqzqErE]], [[youtube-RGSFUqzqErE-transcript]], [[youtube-RGSFUqzqErE-slides]]
 - `youtube-YZQsWVeN3rE` — 2,901 transcript words; 3 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-YZQsWVeN3rE`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-YZQsWVeN3rE`: product, first, data, important, back, team, go-to-market, give.
@@ -334,31 +346,19 @@ The theme recurs across independently attributed official event recordings. Spec
 - Interpretation rule for `youtube-uU5Gv2h8-9g`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uU5Gv2h8-9g`: code, claude, prompt, been, cloud, model, mode, team.
 - Evidence links for `youtube-uU5Gv2h8-9g` (primary event evidence): [[youtube-uU5Gv2h8-9g]], [[youtube-uU5Gv2h8-9g-transcript]], [[youtube-uU5Gv2h8-9g-slides]]
-- `youtube-Btk8wDUVs74` — 2,510 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-Btk8wDUVs74`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-Btk8wDUVs74`: data, understand, monday, context, help, model, user, over.
-- Slide-derived themes for `youtube-Btk8wDUVs74`: data, track, july, missing, stack, records, systems, context.
-- Evidence links for `youtube-Btk8wDUVs74` (primary event evidence): [[youtube-Btk8wDUVs74]], [[youtube-Btk8wDUVs74-transcript]], [[youtube-Btk8wDUVs74-slides]]
-- `youtube-H7puB0RwJMM` — 2,544 transcript words; 8 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-H7puB0RwJMM`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-H7puB0RwJMM`: fact, graph, data, source, graffiti, facts, provenence, sources.
-- Slide-derived themes for `youtube-H7puB0RwJMM`: track, graphs, provenance, engineering, future, temporal, knowledge, built.
-- Evidence links for `youtube-H7puB0RwJMM` (primary event evidence): [[youtube-H7puB0RwJMM]], [[youtube-H7puB0RwJMM-transcript]], [[youtube-H7puB0RwJMM-slides]]
 - `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
 - Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
 - Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
-- `youtube-kRkcNOsRyYg` — 18,117 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-kRkcNOsRyYg`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-kRkcNOsRyYg`: graph, data, well, question, inside, search, over, documents.
-- Slide-derived themes for `youtube-kRkcNOsRyYg`: engineering, future, engineer, squire, ryan, knight, senior, partner.
-- Evidence links for `youtube-kRkcNOsRyYg` (primary event evidence): [[youtube-kRkcNOsRyYg]], [[youtube-kRkcNOsRyYg-transcript]], [[youtube-kRkcNOsRyYg-slides]]
 - `youtube-khVX_BUnEwU` — 3,675 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-khVX_BUnEwU`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-khVX_BUnEwU`: graph, pack, activegraph, called, didn, code, event, state.
 - Slide-derived themes for `youtube-khVX_BUnEwU`: track, july, engineering, future, graph, ieee, greene, behavior.
 - Evidence links for `youtube-khVX_BUnEwU` (primary event evidence): [[youtube-khVX_BUnEwU]], [[youtube-khVX_BUnEwU-transcript]], [[youtube-khVX_BUnEwU-slides]]
+- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, financial, goal, type, target, amount.
+- Evidence links for `youtube-T5IMo5ntyhA` (supporting context only): [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
 - `youtube-1IdzkRVmWAA` — 6,138 transcript words; 4 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-1IdzkRVmWAA`: search, query, tools, queries, tool, retrieval, semantic, chunks.
 - Slide-derived themes for `youtube-1IdzkRVmWAA`: taught, retrieval, trajectories, tool, calls, toes.

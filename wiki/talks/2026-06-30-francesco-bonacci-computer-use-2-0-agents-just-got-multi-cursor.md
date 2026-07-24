@@ -60,9 +60,9 @@ The talk argues that computer-use agents become much more useful once they stop 
   - Evidence: "Um so yeah so now when you have like this like uh redundancy in your pool you're paying the cost of that startup time on the infrastructure side not on the GPU side so your GPU workers have full utilization um yeah and then because we use this we can give you instant sandboxes for"
 
 ### Topics Covered
-- [[coding-agents|Background computer use]] — Operating desktop agents without foreground takeover by running them in the background.
-- **Accessibility-driven control** — Directly addressing desktop UI elements through accessibility trees instead of hardware mouse and keyboard events.
-- [[agent-evaluations|GUI benchmark design]] — Representing GUI benchmarks as setup, oracle, and evaluator components.
+- [[agent-reliability-and-durable-execution|Background computer use]] — Operating desktop agents without foreground takeover by running them in the background.
+- [[agentic-web|Accessibility-driven control]] — Directly addressing desktop UI elements through accessibility trees instead of hardware mouse and keyboard events.
+- **GUI benchmark design** — Representing GUI benchmarks as setup, oracle, and evaluator components.
 - [[agent-evaluations|Electrical engineering evaluation]] — Testing computer-use agents on electrical engineering software tasks with real evaluator functions.
 - [[agent-evaluations|World-model measurement]] — Using recorded trajectories to probe whether a model can predict reward or internal state.
 - [[ai-sandboxes|GPU sandbox pooling]] — Keeping GPU workers busy by allocating sandboxes from a demand-sized warm pool.

@@ -56,10 +56,10 @@ Mike Phipps argues that the durable enterprise AI advantage is not the model, th
   - Evidence: "Okay, I've got a couple minutes. I'll kind of speed through this, but the the way eval relate to data modeling is that as you're doing eval, you find you find gaps."
 
 ### Topics Covered
-- **AI moat** — The idea that an organization’s durable AI advantage comes from its internal processes and tacit knowledge.
+- [[model-capability-and-product-framing|AI moat]] — The idea that an organization’s durable AI advantage comes from its internal processes and tacit knowledge.
 - [[agent-memory|Knowledge graph platform]] — A graph-based semantic layer that joins multiple systems of record into one traversable model.
-- [[agent-memory|Semantic document ingestion]] — The practice of turning unstructured documents into semantically meaningful graph content at ingestion time.
-- **Hierarchical graph modeling** — Graph structures that encode both additive DAGs and hierarchical rollups for organizational relationships.
+- [[semantic-infrastructure-and-ontology|Semantic document ingestion]] — The practice of turning unstructured documents into semantically meaningful graph content at ingestion time.
+- [[semantic-infrastructure-and-ontology|Hierarchical graph modeling]] — Graph structures that encode both additive DAGs and hierarchical rollups for organizational relationships.
 - [[agent-security|AI governance]] — Controls for masking PII, classifying sensitive data, and enforcing user entitlements in AI systems.
 - [[agent-evaluations|Graph evaluation loops]] — Using evals to identify ambiguities, missing schema detail, and mismatches with reporting conventions.
 
@@ -108,8 +108,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-jt1Pbr_n6oU]] - dedicated official event recording.
 - [[youtube-jt1Pbr_n6oU-transcript]] - dedicated official recording transcript.
 
-- [[youtube-jt1Pbr_n6oU-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-jt1Pbr_n6oU`
 - Slide deck: [[youtube-jt1Pbr_n6oU-slides|Slides: Your Moat Is Your Data Model — Mike Phipps, Gates Foundation]] — 5 visible slide image(s).
 ![[assets/slides/jt1Pbr_n6oU/slide-001.jpg]]
@@ -122,7 +120,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-jt1Pbr_n6oU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/jt1Pbr_n6oU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

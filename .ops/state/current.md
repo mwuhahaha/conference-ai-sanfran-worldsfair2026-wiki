@@ -2,49 +2,65 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-24T14:38:38Z
+updated: 2026-07-24T23:40:38Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
 
 The completed AIE-specific conversion plan remains closed. Follow-up public navigation work now lives in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
-## 2026-07-24 Official-Video Refresh
+## 2026-07-24 Official-Video Refresh And Semantic-Digestion Repair
 
-- A fresh owner-validated playlist plus exact official-channel reconciliation
-  found 20 official records absent from the prior manifest: 19 playable talk
-  recordings and 1 scheduled premiere. Four existing
-  placeholder/premiere records also became playable.
-- All 23 newly playable recordings were imported with caption transcripts,
-  typed slide outcomes, resource projections, and conservative talk
-  associations.
-- The official-media union now contains 66 associated items: 55 dedicated talk
-  recordings, 3 official event livestreams, 3 scheduled-premiere records, and
-  5 unavailable playlist placeholders. The playlist itself contains 46
-  entries: 41 visible and 5 unavailable.
-- All 55 dedicated talk recordings have cached transcripts and typed slide
-  outcomes. Two premieres remain pending because no playable recording is
-  available: `jRCpXUjz4CI` and `hacEQHHhu2Q`.
-- Unified maker run `update-20260724T135423Z-49fe2e15ac` passed all project
-  adapters and maker validation, then promoted locally. Promotion
-  `promotion:61ae11720a3c4d580402500291633b6deb1be5a7a2abe2ae95c355b847a14d73`
-  is committed with no recovery action.
+- The pre-repair public corpus is preserved and pushed at checkpoint
+  `766bf0f8412afaac5d0a35679d72b18bf637603f` on
+  `checkpoint/wf26-pre-semantic-synthesis-2026-07-24`; no PR was opened.
+- The monitor found seven additional official playlist entries and processed
+  ten records including three unavailable placeholders. Six playable
+  recordings were matched to exact scheduled talks and one Jason Liu workshop,
+  `il1c1a2FufU`, remains an official resource-only item rather than receiving
+  an invented talk association.
+- The official-media manifest now contains 67 records: 60 talk recordings,
+  3 event livestreams, 1 scheduled premiere, and 3 unavailable playlist
+  placeholders. The playlist contains 46 entries: 43 available and 3
+  unavailable. Sixty transcripts are cached; the single premiere is pending.
+  The 60 talk recordings have typed slide outcomes: 59 cached slide sets and
+  one evidence-backed `no_slides` result.
+- Talk digestion is now semantic and fail closed. Every admitted digest is
+  bound to the exact recording, talk, transcript SHA-256, transcript segment
+  IDs, and copied evidence excerpts. Missing or short transcripts, malformed
+  model output, and unsupported claims fail the required maker stage instead
+  of silently producing template text.
+- The canonical wiki contains 54 semantic talk digests, 54 generated claim
+  pages, 54 generated highlight pages, and 17 cross-talk topic clusters. Each
+  cluster spans at least two talks. The map/reduce and per-talk results use
+  content-addressed public caches, so unchanged imports are not re-analyzed.
+- Definitive maker run `update-20260724T230407Z-abe3bdf1cc` completed all 20
+  stages and promoted
+  `promotion:c1ab1f915a20c62fdfc571fa551e7ce8dc968d5d5580d83b0ba42e51adcf3ff0`.
+  Public validation passed `agent.snapshot`, `public.boundary`, and
+  `wiki.shape`. A subsequent read-only plan is a no-op and confirms canonical
+  wiki digest
+  `sha256:1f0377bf796962a83a43738f6b2e13fd6af3e505add9dd6566ddddc12c08d1a0`
+  and static digest
+  `sha256:90b7c137883f8dea7ec25c1d6b07acf588d7b12adf53289bb1a23b408e4fb61a`.
 - The aligned agent snapshot is
-  `snapshot:3989e7374effbef90f04c0ab0d5e308f98a2366bdbe93201251a3f85f607b3df`:
-  2,535 pages, 3,825 evidence records, 451 resources, 1,540 entities, 1,845
-  relationships, 3 claims, and 10 patterns.
-- The monitor now performs canonical attendance sync before the guarded maker
-  run, while the maker adapter checks the read-only source state. Synthesis and
-  slide-classifier private outputs honor the runner-owned adapter state
-  directory.
-- A fresh post-import dry run at `2026-07-24T14:29:21Z` found zero new entries
-  and no manifest or playable-evidence changes. The focused 119-test suite,
-  Ruff, Python compilation, profile JSON validation, diff checks, maker
-  validation, and post-promotion media/attendance gates pass.
-- Receipt:
-  `.ops/state/runs/20260724T143838Z-official-video-refresh.md`. No commit, push,
-  timer enablement, or external deployment was performed; the timer remains
-  disabled and inactive.
+  `snapshot:d5421cac4a7d4666007dad26e883b5fd84796d1f76db2e7c308298b025d569e0`:
+  2,688 pages, 3,844 evidence records, 452 resources, 1,573 entities, 1,684
+  relationships, 57 claims, and 12 patterns.
+- The project pins wiki-from-topic-maker at
+  `c5bc782956d85fdf5d3347858eb2ce49b6054f6a`. Nested Codex adapters now run
+  with an ephemeral auth-only Codex home, preventing PATH alias, SQLite, and
+  installation-state writes from failing inside the read-only adapter sandbox.
+  The fix is pushed on `origin/agent/codex-adapter-runtime-sandbox`.
+- `aie-wf2026-youtube-monitor.timer` is enabled and active. It runs every six
+  hours via the pinned maker wrapper, with clean-main auto-push and a ten-minute
+  failure retry. The first scheduled trigger after re-enablement is
+  `2026-07-25T05:40:03Z`.
+- Focused project tests, the 285-test non-network project suite, 82 targeted
+  maker tests, static validation, full media-role, attendance, livestream,
+  digest-binding, and post-promotion no-op checks pass. Receipt:
+  `.ops/state/runs/wiki-maker-update-20260724T230407Z-abe3bdf1cc-attempt-001.json`.
+  No external deployment was performed.
 
 ## 2026-07-20 Search And Official-Media Refresh
 

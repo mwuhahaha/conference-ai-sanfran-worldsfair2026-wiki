@@ -70,10 +70,10 @@ Geoffrey Litt argues that the real bottleneck in the agent era is not just corre
 ### Topics Covered
 - **understanding as participation** — The idea that the main challenge in agentic development is preserving human understanding, not just checking outputs.
 - [[agent-memory|cognitive debt]] — The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up.
-- [[autoresearch|explanation design]] — A teaching approach for code changes that starts with system background and intuition before details.
-- **quiz-based comprehension** — A learning technique that uses quizzes to verify genuine comprehension instead of passive reading.
+- **explanation design** — A teaching approach for code changes that starts with system background and intuition before details.
+- [[agent-evaluations|quiz-based comprehension]] — A learning technique that uses quizzes to verify genuine comprehension instead of passive reading.
 - **microworlds** — An interactive model of a system that lets a person explore its behavior directly.
-- [[agent-memory|shared understanding]] — A collaborative environment where humans and agents can reason about work together.
+- **shared understanding** — A collaborative environment where humans and agents can reason about work together.
 
 ### Tools And Named Systems
 - [[notion|Notion]] — The speaker uses Notion as a collaborative place for explainer docs, comments, and shared understanding.

@@ -58,13 +58,13 @@ The talk argues that LLMs have crossed the threshold from bug-hunting novelty to
   - Evidence: "But human attention doesn't scale. Your deaf, your product engineers and your security engineers, what if they don't agree on what high severity or uh critical severity is?"
 
 ### Topics Covered
-- **LLM-assisted vulnerability discovery** — Using language models to discover real vulnerabilities in source code and security systems.
+- [[agent-security|LLM-assisted vulnerability discovery]] — Using language models to discover real vulnerabilities in source code and security systems.
 - **Threat modeling** — Turning implicit system knowledge into explicit written context for security analysis.
 - [[ai-sandboxes|Security sandboxes]] — Running exploit tests in isolated, reproducible environments to safely validate findings.
-- **Verification and precision** — Separating recall-oriented discovery from precision-oriented confirmation.
-- **Security triage** — Ranking findings by impact, likelihood, and business context before handing them to engineers.
-- **Patch validation loops** — Validating fixes by testing the original exploit, preserving the test suite, and reattacking the patch.
-- [[agentic-search|Organizational bottlenecks]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
+- [[agent-security|Verification and precision]] — Separating recall-oriented discovery from precision-oriented confirmation.
+- [[agent-security|Security triage]] — Ranking findings by impact, likelihood, and business context before handing them to engineers.
+- [[agent-security|Patch validation loops]] — Validating fixes by testing the original exploit, preserving the test suite, and reattacking the patch.
+- [[coding-agents|Organizational bottlenecks]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
 
 ### Tools And Named Systems
 - [[docker|Docker]] — Container platform used to build the representative sandbox with separate app, database, and cache images.
@@ -112,8 +112,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-imFedndyXYQ]] - dedicated official event recording.
 - [[youtube-imFedndyXYQ-transcript]] - dedicated official recording transcript.
 
-- [[youtube-imFedndyXYQ-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-imFedndyXYQ`
 - Slide deck: [[youtube-imFedndyXYQ-slides|Slides: Using LLMs to Secure Source Code — Eugene Yan, Anthropic]] — 7 visible slide image(s).
 ![[assets/slides/imFedndyXYQ/slide-001.jpg]]
@@ -126,7 +124,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-imFedndyXYQ-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/imFedndyXYQ.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

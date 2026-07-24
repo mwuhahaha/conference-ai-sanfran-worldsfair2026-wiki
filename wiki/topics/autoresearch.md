@@ -18,14 +18,12 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-  - source:official-wf26-youtube-9fubhllmsBU
-  - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-YZQsWVeN3rE
-  - source:official-wf26-youtube-Z2Erdirpudo
+  - source:official-wf26-youtube-YnNF55QV0zs
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:4d6d77467613aaf2719feb6fb324d46ef669fab20aa0f01ad97ee11775d0364c
+sourceAssessmentBodySha256: sha256:9deb4b4180acaef296e3f226fbda793264bf4813312fb87a7e9b5f7f3d387d20
 ---
 # Autoresearch
 
@@ -72,30 +70,24 @@ Use humans to set scope, approve consequential actions, inspect surprising gains
 - [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
 
 ## Transcript Digest Evidence
-This section synthesizes 7 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 5 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-Systems that automate research, experimentation, and judgment while still exposing uncertainty and reasoning structure. The variation is between general research workflows and more adversarial or high-leverage settings, with the tradeoff being automation speed versus the need for a final human judgment step.
+These candidates describe agents that generate, connect, and validate findings through repeated research and self-improvement loops. The important variation is whether the loop is explicitly multi-agent, experiment-driven, or framed as a general-purpose autonomous research process with a quality gate at the end.
 
 ### Constituent Talk Evidence
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — Using agents to launch experiments and reduce human bottlenecks in research operations.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
   - Evidence: "We've created these tools and these systems where researchers can run experiments directly from Slack."
-- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — Managed self-serve training that supports multi-tenant LoRA and upcoming full fine-tuning.
-  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
-  - Evidence: "So like this whole family we now support within Primerl natively. Um and one thing you may also have poked around at or seen or tried is uh we have our hosted training platform uh which means you don't have to worry about GPUs at all."
-- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Publishing one's reasoning and stream of consciousness for others to inspect.
-  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
-  - Evidence: "But what about thinking in public? And it's basically what PG is doing, thinking in public."
-- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — A teaching approach for code changes that starts with system background and intuition before details.
-  - Transcript: [[youtube-WkBPX-oDMnA-transcript]]
-  - Evidence: "And here's how it looks. We start with background. We do not start with what happened in this change."
-- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]] — Structured techniques for uncovering missing requirements before implementation.
-  - Transcript: [[youtube-9fubhllmsBU-transcript]]
-  - Evidence: "So, I'm going to go over a few examples of how I do that with Fable. Um The first is I like to do what I call a blind spot pass."
-- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — Evaluating models in a live but hidden system with limited information and no source access.
-  - Transcript: [[youtube-O-CBZ3JtRvo-transcript]]
-  - Evidence: "And so to do that, we don't give it access to the internet or the codebase, but we do give it sort of all the basic tooling it would need to be able to execute a task well."
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]] — The future use of personas interacting together as simulated agents in a system.
+  - Transcript: [[youtube-YnNF55QV0zs-transcript]]
+  - Evidence: "We didn't get time for this, but it's called generative agent-based modeling where we can take each of these personas and simulate with the dynamics and how they'll interface interface and interact with each other."
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]] — Systems that improve themselves through repeated investigation and repair
+  - Transcript: [[youtube-9HbzAWnKbo4-transcript]]
+  - Evidence: "Um but there's a future we're all driving towards and throwing off traces, throwing off logs, throwing off way more than you normally would and having agents run at this for a continuous loop is where we're going."
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.
+  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
+  - Evidence: "Aiden is the next step and a experimental prototype. It's a multi-agent self-improving system that can read public information like research papers and other PRs, run its own experiments and submit a PR once the findings pass a quality gate."
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
   - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
   - Evidence: "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be."
@@ -203,17 +195,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 61 | Related pages outside the main evidence categories. |
 | resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 5 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
+- [[2026-06-29-lee-robinson-recursive-model-improvement]]
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]]
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]]
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]]
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem]]
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
 
 ### Resources
 - [[youtube-4sX_He5c4sI]]
@@ -225,18 +217,18 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Slides
 - [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
+- [[youtube-iCj_ATyThvc-slides]]
 - [[youtube-4sX_He5c4sI-dense-slides]]
 - [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-iCj_ATyThvc-slides]]
-- [[youtube-q4Tr-DknG2M-slides]]
 
 ### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-iCj_ATyThvc-transcript]]
 - [[youtube-q4Tr-DknG2M-transcript]]
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-Z2Erdirpudo-transcript]]
-- [[youtube-WkBPX-oDMnA-transcript]]
+- [[youtube-YnNF55QV0zs-transcript]]
+- [[youtube-9HbzAWnKbo4-transcript]]
+- [[youtube-iCj_ATyThvc-transcript]]
+- [[youtube-YZQsWVeN3rE-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 
 ### Tools
 - [[browserbase]]
@@ -247,30 +239,30 @@ This section consolidates source evidence currently connected to this topic acro
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]]
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]]
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 - [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
 - [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels|Autoresearch for Kernels]]
-- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
-- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]
-- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
-- [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
 ### Media Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
-- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-iCj_ATyThvc` — 1,795 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-iCj_ATyThvc`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
-- Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
-- Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
 - `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
 - Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
+- `youtube-iCj_ATyThvc` — 1,795 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-iCj_ATyThvc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
+- Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
+- Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
+- Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]

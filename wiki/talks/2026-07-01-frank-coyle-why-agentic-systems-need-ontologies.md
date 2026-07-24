@@ -54,11 +54,11 @@ Frank Coyle argues that agentic systems need an explicit ontology layer because 
   - Evidence: "So, you have these functional properties, disjoint properties. I'll just put these you can look at the slides, but essentially the errors it can catch."
 
 ### Topics Covered
-- **Ontology guardrails** — Using explicit ontology rules as guardrails around probabilistic agent behavior.
-- [[inference-engineering|RDFS and OWL inference]] — Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.
+- [[agent-security|Ontology guardrails]] — Using explicit ontology rules as guardrails around probabilistic agent behavior.
+- [[semantic-infrastructure-and-ontology|RDFS and OWL inference]] — Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.
 - [[agent-evaluations|Agent loop validation]] — The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.
-- **Ontology construction strategies** — Choosing between expert-defined schemas and data-driven ontology extension.
-- [[agent-security|Tool-call typing]] — Typed tool arguments and structured result checking before downstream action.
+- [[semantic-infrastructure-and-ontology|Ontology construction strategies]] — Choosing between expert-defined schemas and data-driven ontology extension.
+- [[mcp-app-runtime|Tool-call typing]] — Typed tool arguments and structured result checking before downstream action.
 
 ### Tools And Named Systems
 - [[pydantic|Pydantic]] — A Python library used to specify and enforce parameter types for tool inputs.
@@ -110,8 +110,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-Sir59K8ZDPU]] - dedicated official event recording.
 - [[youtube-Sir59K8ZDPU-transcript]] - dedicated official recording transcript.
 
-- [[youtube-Sir59K8ZDPU-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-Sir59K8ZDPU`
 - Slide deck: [[youtube-Sir59K8ZDPU-slides|Slides: Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley]] — 13 visible slide image(s).
 ![[assets/slides/Sir59K8ZDPU/slide-001.jpg]]
@@ -124,7 +122,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-Sir59K8ZDPU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Sir59K8ZDPU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

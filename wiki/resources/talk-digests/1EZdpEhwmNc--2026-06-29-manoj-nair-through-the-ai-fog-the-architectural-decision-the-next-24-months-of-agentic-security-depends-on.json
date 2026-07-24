@@ -1,0 +1,283 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T22:37:27.295081+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:685e1820a9070668dcffa2eedb071fed24506bb3bfd0679dbade087cba9a04ff",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, one thing you're going to hear from from me quite a bit of, you know, in this like, you know, what if you take one thing, it's this notion of our learning from this real-life data and working with the biggest frontier labs in the world and the biggest companies in the world is this concept that has really been, you know, not questioned in security before, but it is being asked now, right?",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that a central security question in agentic systems is whether the generator and validator can be the same, and he says his answer is no."
+      },
+      {
+        "evidenceExcerpt": "All the frontier labs have been used in automated attacks. You can do that even without having frontier models.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "explicit",
+        "text": "He reports that frontier labs have already been used in automated attacks and that attackers can operate continuously when they have good context and a good harness."
+      },
+      {
+        "evidenceExcerpt": "This is 4,800 plus customers in the last year. Their actual backlog quarter over quarter is like 108% more backlog.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "support": "strong",
+        "text": "He says his customer data shows backlog has grown by 108 percent quarter over quarter across more than 4,800 customers, which he treats as evidence that risk is increasing faster than teams are controlling it."
+      },
+      {
+        "evidenceExcerpt": "This is you know, the amount of vulnerable code coming from the latest models. Plus the skills, there's toxic skills.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "support": "explicit",
+        "text": "He argues that skills and MCP servers are part of the security problem because skills can contain malware or vulnerabilities and MCP adds another weak security layer for enterprise data access."
+      },
+      {
+        "evidenceExcerpt": "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "support": "explicit",
+        "text": "He reports that Snyk has GA'd an agentic dev security offering that watches the environment, outputs, skills, MCP servers, and agent behavior in real time."
+      },
+      {
+        "evidenceExcerpt": "And we learned, you know, this as I mentioned Evo, what is Evo? Evo is the system that we we brought to the world late last year in terms of a concept and we've constantly built these different agents.",
+        "evidenceSegmentIds": [
+          "S0138"
+        ],
+        "support": "explicit",
+        "text": "He presents Evo as a concept and system built to support AI security engineers through observation, orientation, decision, and action, and says it is meant to be open and community-built."
+      }
+    ],
+    "methodNotes": "Synthesized from the speaker's framing, the risk and benchmark sections, the live demo, and the closing product vision. I treated product demos and customer-data claims as the speaker's reported evidence, not independent verification.",
+    "methods": [
+      {
+        "description": "Use generator-validator separation instead of assuming the same model can both create and judge agent output reliably.",
+        "evidenceExcerpt": "Can, you know, the generator and the validator be the same? And our point is, you know, in some of the data you'll show for all kinds of reasons why not, right?",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Generator-validator separation"
+      },
+      {
+        "description": "Apply deterministic package-health checks and policy hooks before an agent introduces dependencies into a workflow.",
+        "evidenceExcerpt": "I'm asking it to use an open source dependency and if you notice this fourth uh fourth line that I have here um I'm being pretty verbose.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "name": "Deterministic package gating"
+      },
+      {
+        "description": "Assess skills and MCP servers as first-class attack surface rather than trusting their labels or filenames.",
+        "evidenceExcerpt": "Um and I ran the skill assessment against Excuse me, the risk assessment against the skill here, and we saw there were four findings returned.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Skill and MCP risk assessment"
+      },
+      {
+        "description": "Measure breakability before remediation so teams can reduce vulnerability backlog without breaking applications.",
+        "evidenceExcerpt": "We've been able to take organizations like Labelbox to zero once, zero backlog. Which is very hard in security due to because it breaks applications.",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "name": "Breakability-aware remediation"
+      },
+      {
+        "description": "Keep security decisions inside the live agent loop instead of relying on static governance documents.",
+        "evidenceExcerpt": "And when you're building ungoverned AI apps, that AI governance cannot live in a confluence page or PDF.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "name": "Real-time policy enforcement"
+      },
+      {
+        "description": "Use observe, orient, decide, act as the operating loop for continuously improving agentic security systems.",
+        "evidenceExcerpt": "We learned from other systems, you know, you have fighter pilots with 5G fighters and how are they trained?",
+        "evidenceSegmentIds": [
+          "S0139"
+        ],
+        "name": "OODA operating loop"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And what did some of our customers do? Immediately shut down all MCP servers then they figured out that all of their dev screens and then how do you actually go back safely enabling things that are very powerful.",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "question": "What is the safe path to re-enable MCP servers after a broad shutdown once their risks are understood?",
+        "whyItMatters": "The talk shows that disabling powerful interfaces is easy, but safely restoring them is the harder operational problem."
+      },
+      {
+        "evidenceExcerpt": "So what does this mean? It doesn't mean that they're not good. It just means they need to be you really need to use them for what they're really good at together and carefully to find the surface that your deterministic check cannot use not just think about probabilistic systems will solve everything.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "question": "How should teams combine probabilistic model checks with deterministic checks so they catch what each one misses?",
+        "whyItMatters": "The speaker says latest models and deterministic checks each miss different issues, which leaves open the right division of labor."
+      },
+      {
+        "evidenceExcerpt": "So, you need to know concepts like breakability. And that data is super important that we're able to get from our base to know this is a safe upgrade.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "question": "How can breakability be measured well enough to know whether a remediation or upgrade is truly safe?",
+        "whyItMatters": "The speaker presents breakability as necessary for zeroing backlog without causing outages, but the operational method is not fully settled."
+      },
+      {
+        "evidenceExcerpt": "We want to enable AI security engineers to be able to have their own powerful system and tools and yes, there are problems that are not solved yet fully in terms of coordinating multiple agents with systems like this.",
+        "evidenceSegmentIds": [
+          "S0142"
+        ],
+        "question": "How do you coordinate multiple agents, shared memory, and harnesses without losing control of the system?",
+        "whyItMatters": "He says multi-agent coordination is still unsolved, so this is a core research and implementation gap."
+      }
+    ],
+    "summary": "Manoj Nair argues that agentic security now depends on a design choice: do not assume the same system can generate work and validate it safely. He uses customer data, benchmark results, and attack examples to show that autonomous attacks, poisoned skills, risky MCP servers, and agent behavior create a broader and more dynamic attack surface than traditional software. His practical answer is to move security into the live workflow, combine deterministic checks with model-based analysis, inspect provenance and breakability before allowing packages or skills into use, and enforce policy in real time where agents and developers actually work. He closes by framing Evo as an open, community-built system meant to give AI security engineers the same operational leverage that agentic systems give builders.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "It's just not widespread enough. And so, trying to like you know, chase systems and like the specific model will be the cure for all this is not the way is our point.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "The speaker's core takeaway is that chasing one model or one latest capability will not solve agentic security; the system has to be designed around the problem."
+      },
+      {
+        "evidenceExcerpt": "Uh but, the first one, QR code, is healthy, meaning it's actively being maintained. Um and there's a ton of a ton of active usage downloads of this.",
+        "evidenceSegmentIds": [
+          "S0119"
+        ],
+        "text": "Package choice should account for maintenance and future patchability, not only whether a package is currently free of CVEs."
+      },
+      {
+        "evidenceExcerpt": "So, it's really giving it the logic to actually execute the skill from a third-party website.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "text": "A skill or tool can become unsafe even if the local file does not change, because it may depend on external instructions or data that can be altered later."
+      },
+      {
+        "evidenceExcerpt": "So, how do you real-time look at everything that is happening in a very fast moving complex code repositories and understand risk and have policies enforced in the loops that the agents and the devs are.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "text": "Security policy has to be enforced in the loop, because static documents cannot keep up with fast-moving code repositories and agent actions."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The security and package-health product the speaker demoed as part of the agentic dev security workflow.",
+        "evidenceExcerpt": "I'm asking it to use an open source dependency and if you notice this fourth uh fourth line that I have here um I'm being pretty verbose.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "name": "Snyk"
+      },
+      {
+        "description": "The model/service used in the demo to generate a CLI tool.",
+        "evidenceExcerpt": "Stop by Stop by the booth. Find us after this talk here. Uh the first thing that I'm going to do here is I'm going to ask Claude to generate a tool a CLI tool that can create a QR code image from uh from a prompt.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "A coding agent explicitly named as part of the security monitoring scope.",
+        "evidenceExcerpt": "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Codex"
+      },
+      {
+        "description": "A coding agent explicitly named as part of the security monitoring scope.",
+        "evidenceExcerpt": "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Cursor"
+      },
+      {
+        "description": "The protocol discussed as an integration point for enterprise data and agent tools.",
+        "evidenceExcerpt": "So, you have to really understand the intent behind it. And the MCP servers, how do you connect to enterprise data?",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "MCP"
+      },
+      {
+        "description": "The system the speaker says is being built to empower AI security engineers.",
+        "evidenceExcerpt": "And we learned, you know, this as I mentioned Evo, what is Evo? Evo is the system that we we brought to the world late last year in terms of a concept and we've constantly built these different agents.",
+        "evidenceSegmentIds": [
+          "S0138"
+        ],
+        "name": "Evo"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The overarching problem of securing autonomous and semi-autonomous AI systems across code, tools, data, and behavior.",
+        "evidenceExcerpt": "And when you build with agents and models, that's an entirely new threat surface that was not part of the prior one.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "Agentic security"
+      },
+      {
+        "description": "The claim that generation and validation should be separated because models are not reliable enough to serve as their own judges.",
+        "evidenceExcerpt": "That's not how you can run an enterprise system if you just use the LLM without any anything else.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "name": "Generator-validator separation"
+      },
+      {
+        "description": "The idea that skills can hide malware, vulnerabilities, or externally controlled logic and therefore need review.",
+        "evidenceExcerpt": "We found the research the seminal research around how skills a third of them or more than third of them in all of the skills, not just you know, open claw, clawed, code acts, these skills actually have malware and they have vulnerabilities that are being Three lines of English are able to now bring a system down.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Skill supply-chain risk"
+      },
+      {
+        "description": "The security risks introduced by MCP servers as connectors to enterprise data and external instructions.",
+        "evidenceExcerpt": "This is great protocol, very little security built in. It's getting better, but the foundations behind it is you know, this is the GitHub MCP server exploit that we highlighted to the year a year ago.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "MCP server security"
+      },
+      {
+        "description": "Choosing remediation steps based on how likely they are to break applications rather than only on severity counts.",
+        "evidenceExcerpt": "So, you need to know concepts like breakability. And that data is super important that we're able to get from our base to know this is a safe upgrade.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Breakability-aware remediation"
+      },
+      {
+        "description": "Enforcing security decisions live inside the tools and workflows that agents and developers use.",
+        "evidenceExcerpt": "And when you're building ungoverned AI apps, that AI governance cannot live in a confluence page or PDF.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "name": "Real-time policy enforcement"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:fc5dd62aecb196629251281143722947e2fc3732697f7435dc001688b7943a8d",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on",
+  "talkTitle": "Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.",
+  "transcriptPath": "raw/sources/youtube-transcripts/1EZdpEhwmNc.txt",
+  "transcriptSha256": "sha256:9907f4a88d610aec8d1f16b592c190a4bd33c062f7d8c44affe3a850add5b8d5",
+  "videoId": "1EZdpEhwmNc"
+}

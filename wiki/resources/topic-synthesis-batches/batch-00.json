@@ -1,174 +1,188 @@
 {
   "algorithmVersion": 3,
   "batchIndex": 0,
-  "candidateCount": 46,
+  "candidateCount": 53,
   "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
-  "generatedAt": "2026-07-24T20:41:22.270967+00:00",
+  "generatedAt": "2026-07-24T22:40:21.331275+00:00",
   "generatedBy": "cross-talk-topic-map-v1",
-  "inputSha256": "sha256:d240d178e928e12ef01680aef484b3ee71259ac9998fcc27a810b02a8b7b44d1",
+  "inputSha256": "sha256:9c1aa5c4e07cce76d89ca9b41239abe539a39adea62393120bbfd03e801c3776",
   "model": "gpt-5.4-mini",
   "payload": {
     "clusters": [
       {
-        "canonicalTopic": "Agent security and governance controls",
+        "canonicalTopic": "Security boundaries, verification gates, and governance before execution",
         "memberIds": [
           "T0001",
           "T0025",
+          "T0031",
           "T0037",
           "T0043",
-          "T0091",
-          "T0115",
-          "T0217"
+          "T0061",
+          "T0097",
+          "T0121",
+          "T0211",
+          "T0277"
         ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Controls that block, gate, or verify risky agent actions before they execute, including policy checks, proof-based execution, review separation, and human accountability."
+        "synthesis": "These talks all center on preventing unsafe actions by adding policy checks, proof or verification steps, supply-chain scrutiny, and human accountability before an agent is allowed to act."
       },
       {
-        "canonicalTopic": "Benchmark integrity and evaluation design",
+        "canonicalTopic": "Evaluation design and benchmark integrity for agent systems",
         "memberIds": [
           "T0013",
           "T0019",
           "T0055",
+          "T0127",
+          "T0133",
           "T0145",
-          "T0157",
-          "T0187"
+          "T0163",
+          "T0175",
+          "T0187",
+          "T0205",
+          "T0229"
         ],
         "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "Evaluation methods focused on benchmarks, verifier design, ablations, and measurement schemes that are hard to game."
+        "synthesis": "These candidates focus on how to measure agent behavior without letting the system game the metric, including benchmark hardening, task-specific review, golden sets, closed-loop evaluation, and outcome-driven measurement."
       },
       {
-        "canonicalTopic": "Coding agent orchestration and factory loops",
-        "memberIds": [
-          "T0007",
-          "T0061",
-          "T0175",
-          "T0265"
-        ],
-        "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "Product and architecture patterns for coordinating coding agents, separating orchestration from reasoning, and compounding generation-review-maintenance loops."
-      },
-      {
-        "canonicalTopic": "Agent memory, context, and semantic state",
+        "canonicalTopic": "Memory systems for long-running agents",
         "memberIds": [
           "T0049",
-          "T0067",
-          "T0103",
-          "T0109",
-          "T0133",
-          "T0163",
-          "T0199",
-          "T0205",
-          "T0211",
-          "T0223",
           "T0235",
           "T0259",
-          "T0271"
+          "T0313"
         ],
         "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "Persistent state and context systems for agents, including retrieval layers, graph memory, traces, document hierarchies, persistence, provenance, and event-driven updates."
+        "synthesis": "These talks describe memory as a persistent system, using consolidation, librarian-style context, graph memory, and a search-vs-memory split to preserve continuity over time."
       },
       {
-        "canonicalTopic": "Inference and task/runtime separation",
+        "canonicalTopic": "Agent-facing web interaction and rendered UI control",
         "memberIds": [
-          "T0085",
-          "T0229",
-          "T0241"
+          "T0007",
+          "T0139",
+          "T0265"
         ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "System design choices that move simple work off the model and keep task contracts stable while changing the underlying implementation."
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "These candidates treat the web or rendered UI as the agent substrate, emphasizing delegated control, perception of the rendered interface, and HTML as the execution surface."
       },
       {
-        "canonicalTopic": "Rendered UI perception",
+        "canonicalTopic": "Retrieval, context graphs, and navigable knowledge structures",
         "memberIds": [
-          "T0127"
+          "T0073",
+          "T0109",
+          "T0241",
+          "T0295",
+          "T0301"
         ],
-        "preferredExistingTopicSlug": "nearly-headless-web",
-        "synthesis": "An agent reads the rendered interface, layout, and visible state before deciding what to do."
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "These talks frame retrieval as a structured context layer, combining layered search, mixed-trust facts, context graphs, and auditable paths through navigable information."
       },
       {
-        "canonicalTopic": "Task-scoped operational review",
-        "memberIds": [
-          "T0121"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Review depth should vary with the task rather than the reviewer identity."
-      },
-      {
-        "canonicalTopic": "Enterprise AI operating infrastructure",
-        "memberIds": [
-          "T0169"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Infrastructure for owning workflows, routing models, and retraining on live work in enterprise settings."
-      },
-      {
-        "canonicalTopic": "Ambition and market dynamics",
-        "memberIds": [
-          "T0079",
-          "T0181"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Forward-looking framing about ambitious goals, constraint breaking, and eventual consolidation."
-      },
-      {
-        "canonicalTopic": "AI trust for business decisions",
-        "memberIds": [
-          "T0193"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Business trust problems caused by wrong but confident answers."
-      },
-      {
-        "canonicalTopic": "Local model autonomy",
+        "canonicalTopic": "Ontology and semantic-layer representations",
         "memberIds": [
           "T0247",
           "T0253"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Arguments for keeping data local and using open models to preserve privacy, sovereignty, cost control, and flexibility."
+        "synthesis": "These candidates center on explicit concept graphs and formal semantic constraints as the backbone for how an organization models and reasons about its domain."
       },
       {
-        "canonicalTopic": "Agentic product substrate",
+        "canonicalTopic": "Sandbox persistence and agent runtime isolation",
         "memberIds": [
-          "T0073"
+          "T0115"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "The product and data substrate used to measure ROI and unify systems of record through a traversable model."
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "This candidate is about durable sandbox state that survives failures and long-running work, which is a core sandbox-runtime concern."
       },
       {
-        "canonicalTopic": "Verification and precision",
+        "canonicalTopic": "Coding-agent workflows and production-operational patterns",
         "memberIds": [
-          "T0031"
+          "T0067",
+          "T0079",
+          "T0151",
+          "T0181",
+          "T0271",
+          "T0307"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Separating recall-oriented discovery from precision-oriented confirmation."
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "These talks describe how coding agents are organized, observed, debugged, and extended in production, including separation of orchestration from reasoning, trace-based debugging, and flexibility in model or harness choice."
       },
       {
-        "canonicalTopic": "Async RL orchestration",
+        "canonicalTopic": "Inference and rollout orchestration efficiency",
         "memberIds": [
-          "T0097"
+          "T0091",
+          "T0103",
+          "T0283"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Training and rollout management that overlaps slow episodes by keeping inference and training separate."
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "These candidates are about moving work off the model, overlapping slow training or rollout phases, and optimizing local or device-constrained inference paths."
       },
       {
-        "canonicalTopic": "Comparative minds analysis",
+        "canonicalTopic": "Software-factory dynamics and market consolidation",
         "memberIds": [
-          "T0139"
+          "T0085"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Comparing notable minds across recurring traits and dimensions to surface patterns."
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "This candidate is about the broader product-market shape of software-factory systems and how the category may consolidate over time."
       },
       {
-        "canonicalTopic": "microworlds",
+        "canonicalTopic": "Interactive microworlds for system understanding",
         "memberIds": [
-          "T0151"
+          "T0169"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "An interactive model of a system that lets a person explore its behavior directly."
+        "synthesis": "This candidate is about using small interactive worlds as a way to understand a larger system by direct exploration."
+      },
+      {
+        "canonicalTopic": "Comparative trait analysis of people or minds",
+        "memberIds": [
+          "T0157"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "This candidate is about comparing notable minds across recurring dimensions to extract patterns rather than describing one person in isolation."
+      },
+      {
+        "canonicalTopic": "Empty instructions and low-value skill content",
+        "memberIds": [
+          "T0193"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "This candidate isolates instructions that do not change behavior and should be removed because they add cost without value."
+      },
+      {
+        "canonicalTopic": "Process-Based Data",
+        "memberIds": [
+          "T0199"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Data derived from real workflows, reasoning traces, and decision sequences rather than only final outputs."
+      },
+      {
+        "canonicalTopic": "Map and territory",
+        "memberIds": [
+          "T0217"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The distinction between what the operator thinks they know and the real constraints in the environment."
+      },
+      {
+        "canonicalTopic": "Black-box cyber evaluation",
+        "memberIds": [
+          "T0223"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Evaluating models in a live but hidden system with limited information and no source access."
+      },
+      {
+        "canonicalTopic": "Simplicity versus customizability",
+        "memberIds": [
+          "T0289"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The tension between simple out-of-the-box usage and the flexibility of custom local systems."
       }
     ]
   },
-  "payloadSha256": "sha256:fbc533ae1aef2992c9b0eaebba8d22b28ccbf330e90af8278e376afad9e039f0",
+  "payloadSha256": "sha256:b5365423a2e7d0bbd0e48dbf3a35cc74e973a8cf50cde4aba4dd74233022c757",
   "schemaVersion": 1
 }

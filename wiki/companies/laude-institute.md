@@ -15,7 +15,7 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:e1fd5197bad6208fdf76cf9a885cde0505e57823891ec6a90d9f170a804f9625
+sourceAssessmentBodySha256: sha256:c7eddc122407e3ab2365fc8ea8d94b4b57fef6abf65a0845dd90064026bb8ec1
 ---
 # Laude Institute
 
@@ -44,8 +44,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Media Signals
-- `youtube-jRCpXUjz4CI` — source page linked; role: supporting context only.
-- Interpretation rule for `youtube-jRCpXUjz4CI`: attribute claims to the recording or speaker unless independently corroborated.
-- Evidence links for `youtube-jRCpXUjz4CI` (supporting context only): [[youtube-jRCpXUjz4CI]]
+No linked video, transcript, or slide source has been attached yet.
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. No separate organization-profile claim is included without a validated identity path.

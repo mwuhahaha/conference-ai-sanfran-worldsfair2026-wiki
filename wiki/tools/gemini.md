@@ -18,7 +18,7 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-0vphxNt4wyk
-sourceAssessmentBodySha256: sha256:2d85b1e98fbffc26bd90bf35c7774da86093bb5e0877971096df06e7957ae466
+sourceAssessmentBodySha256: sha256:9eadb15fc15977a6ffb252ab27191528cc35f3dfa1a889c9ebd0d53935be6555
 ---
 # Gemini
 
@@ -33,6 +33,7 @@ This section is generated from 1 evidence-bound talk digest(s).
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — The large language model product explicitly mentioned as an example of an assistant that still misses connected understanding.
   - Transcript: [[youtube-Btk8wDUVs74-transcript]]
   - Evidence: "Um it sounds almost trivial but uh to be honest with yourself if you ask your agent whether Gemini GPT or even cloud um if you ever typed this question you probably got list of bullets um not related to each other."
+
 ## Confirmed Evidence
 
 ### Official Schedule

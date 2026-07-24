@@ -1,135 +1,138 @@
 {
   "algorithmVersion": 3,
   "batchIndex": 4,
-  "candidateCount": 46,
+  "candidateCount": 52,
   "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
-  "generatedAt": "2026-07-24T20:42:45.963067+00:00",
+  "generatedAt": "2026-07-24T22:40:30.499351+00:00",
   "generatedBy": "cross-talk-topic-map-v1",
-  "inputSha256": "sha256:fcb055797256b84ea58b84ead22ab98672866787aaae0ffa9b6fe66e5d1efcc0",
+  "inputSha256": "sha256:1bfd677499d9283058ae97f6625c82951d02bcf11fe339a5fd8e406786d94cd0",
   "model": "gpt-5.4-mini",
   "payload": {
     "clusters": [
       {
-        "canonicalTopic": "agentic security for coding and tool use",
+        "canonicalTopic": "agent-security",
         "memberIds": [
           "T0005",
           "T0023",
           "T0035",
           "T0041",
-          "T0089",
-          "T0059"
+          "T0059",
+          "T0095",
+          "T0221"
         ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Security concerns around agent-driven code and tool use, including permissions, delegated access, harmful side effects, and safe remediation at scale."
+        "synthesis": "These candidates all describe securing agentic systems: governance, tool-call side effects, delegated authorization, agentic software development security, and the broader attack/defense balance."
       },
       {
-        "canonicalTopic": "environment and host selection for agents",
-        "memberIds": [
-          "T0011",
-          "T0077",
-          "T0107",
-          "T0113",
-          "T0095"
-        ],
-        "preferredExistingTopicSlug": "ai-sandboxes",
-        "synthesis": "Choosing and operating the right sandbox, host, or environment for agent work, including isolation, persistence, and environment-centered workflows."
-      },
-      {
-        "canonicalTopic": "software factory delivery model",
-        "memberIds": [
-          "T0017",
-          "T0071"
-        ],
-        "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "End-to-end delivery systems that turn requests into shipped software, including project-based execution and the full planning-to-production loop."
-      },
-      {
-        "canonicalTopic": "verification and evaluation loops",
+        "canonicalTopic": "agent-evaluations",
         "memberIds": [
           "T0047",
-          "T0119",
+          "T0089",
           "T0125",
-          "T0167",
-          "T0173",
-          "T0185",
-          "T0215",
-          "T0221",
-          "T0275"
-        ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "Using verification, grading, and control loops to judge work, catch failures, and keep iterative improvement tied to measurable outcomes."
-      },
-      {
-        "canonicalTopic": "context and memory substrate for agents",
-        "memberIds": [
-          "T0065",
-          "T0101",
-          "T0161",
-          "T0257",
-          "T0263"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "The reusable substrate for agent context, including what is known, retrieved, learned, and tracked over different time horizons."
-      },
-      {
-        "canonicalTopic": "evaluation-driven agent and skill design",
-        "memberIds": [
-          "T0083",
+          "T0131",
           "T0143",
-          "T0155",
-          "T0227",
-          "T0239"
+          "T0191",
+          "T0209"
         ],
         "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "Designing systems and skills around evals, benchmarks, and output quality checks rather than only model capability."
+        "synthesis": "These candidates focus on evaluation and verification loops for agents, including verifier loops, trajectory evaluation, rollout-based iteration, skill harnesses, and broader agent development cycles."
       },
       {
-        "canonicalTopic": "agent architecture and runtime structure",
+        "canonicalTopic": "software-factories",
         "memberIds": [
-          "T0131",
-          "T0191",
-          "T0233",
-          "T0269"
+          "T0017",
+          "T0077"
         ],
-        "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "Architectural patterns for agent systems, including layered design, abstraction boundaries, function-like programs, and event-sourced runtimes."
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "These candidates frame software delivery as an end-to-end factory motion, including project-based delivery tied to strategic objectives."
       },
       {
-        "canonicalTopic": "knowledge representation and ontology layers",
+        "canonicalTopic": "agent-memory",
         "memberIds": [
-          "T0203",
-          "T0209",
-          "T0245"
+          "T0257",
+          "T0299"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "These candidates both center on durable memory layers for reusable queries and graph-based recall instead of stateless retrieval."
+      },
+      {
+        "canonicalTopic": "agentic-web",
+        "memberIds": [
+          "T0263"
+        ],
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "This candidate treats the web stack as the agent-facing substrate, using HTML, CSS, and JavaScript as the interface for agent-generated video."
+      },
+      {
+        "canonicalTopic": "mcp",
+        "memberIds": [
+          "T0197",
+          "T0251",
+          "T0275",
+          "T0293"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Using structured data models, ontologies, and provenance-aware representations to ground agent reasoning in the real system landscape."
+        "synthesis": "These candidates describe shared context substrates for enterprise agents: a common brain, workflow-guided agents, semantic ingestion, and systems of context."
       },
       {
-        "canonicalTopic": "research and reasoning workflows",
+        "canonicalTopic": "inference-engineering",
         "memberIds": [
-          "T0137",
-          "T0149",
-          "T0179",
-          "T0197"
+          "T0011",
+          "T0101",
+          "T0107",
+          "T0113",
+          "T0119",
+          "T0155",
+          "T0173",
+          "T0281",
+          "T0287",
+          "T0311"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "These candidates focus on shaping runtime behavior through environment choice, isolation, persistence, prompting context, routing, and policy constraints."
+      },
+      {
+        "canonicalTopic": "agentic-search",
+        "memberIds": [
+          "T0071",
+          "T0239",
+          "T0245",
+          "T0305"
+        ],
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "These candidates emphasize knowledge organization, provenance, and entity-level grounding for systems that retrieve, connect, and explain information."
+      },
+      {
+        "canonicalTopic": "autoresearch",
+        "memberIds": [
+          "T0227"
         ],
         "preferredExistingTopicSlug": "autoresearch",
-        "synthesis": "Workflows that expose reasoning, surface unknowns, and combine independent research with a final judgment step."
+        "synthesis": "This candidate describes an autonomous multi-agent research loop that runs experiments and submits work after a quality gate."
       },
       {
-        "canonicalTopic": "model and platform control",
+        "canonicalTopic": "voice-agents",
         "memberIds": [
-          "T0251"
+          "T0203"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Controlling local or open-model behavior through version choice, update timing, and easy onboarding."
+        "preferredExistingTopicSlug": "voice-agents",
+        "synthesis": "This candidate is about multimodal routing and QA for an image agent, but not clearly enough to merge with a stronger existing topic, so it remains a singleton proto-topic."
       },
       {
-        "canonicalTopic": "large-scale agent operations",
+        "canonicalTopic": "nearly-headless-web",
         "memberIds": [
-          "T0053"
+          "T0161"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Operating agents and harnesses at scale, including continuous cloud execution and feedback from users and products."
+        "preferredExistingTopicSlug": "nearly-headless-web",
+        "synthesis": "This candidate is about GUI benchmark structure and multi-cursor computer use, which fits the browser-and-UI automation substrate rather than a broader web concept."
+      },
+      {
+        "canonicalTopic": "ai-sandboxes",
+        "memberIds": [
+          "T0083"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "These candidates concern sandbox infrastructure for agent work, including always-on cloud harnesses and runtime isolation."
       },
       {
         "canonicalTopic": "Threat modeling",
@@ -138,9 +141,89 @@
         ],
         "preferredExistingTopicSlug": "",
         "synthesis": "Turning implicit system knowledge into explicit written context for security analysis."
+      },
+      {
+        "canonicalTopic": "Outer loop feedback",
+        "memberIds": [
+          "T0053"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "User and product feedback that shapes the next round of training data and model behavior."
+      },
+      {
+        "canonicalTopic": "Dependency patching at scale",
+        "memberIds": [
+          "T0065"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "How to remediate vulnerable dependencies across many repositories while keeping PRs reviewable and safe."
+      },
+      {
+        "canonicalTopic": "Agent Reliability",
+        "memberIds": [
+          "T0137"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The gap between agents that can take actions and agents that can be trusted to finish messy work end to end."
+      },
+      {
+        "canonicalTopic": "Layered agent architecture",
+        "memberIds": [
+          "T0149"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The idea that agent systems should be organized into stable and volatile layers with different lifetimes."
+      },
+      {
+        "canonicalTopic": "explanation design",
+        "memberIds": [
+          "T0167"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A teaching approach for code changes that starts with system background and intuition before details."
+      },
+      {
+        "canonicalTopic": "Agentic observability",
+        "memberIds": [
+          "T0179"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using observability data as input for autonomous debugging and repair loops"
+      },
+      {
+        "canonicalTopic": "Human-in-the-loop repair",
+        "memberIds": [
+          "T0185"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Human review after the agent assembles evidence and proposes a fix"
+      },
+      {
+        "canonicalTopic": "Field guide to Fable",
+        "memberIds": [
+          "T0215"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "How to adapt prompting, tools, and harnesses to a new model class with more latent capability."
+      },
+      {
+        "canonicalTopic": "Commander's Intent",
+        "memberIds": [
+          "T0233"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Prompting agents by explaining the desired outcome and context rather than micromanaging the steps."
+      },
+      {
+        "canonicalTopic": "Specs, code, and evals",
+        "memberIds": [
+          "T0269"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The interface defined by natural-language instructions, code constraints, and evaluative examples."
       }
     ]
   },
-  "payloadSha256": "sha256:5b1a7caca17fb343b217331ad9849cae39071cd850f79d6a357ec942d48e9006",
+  "payloadSha256": "sha256:4b28de5007e1a1c266a9f4b10bfacfb4f2dc973a39e20784eebb5b4e37c1158d",
   "schemaVersion": 1
 }

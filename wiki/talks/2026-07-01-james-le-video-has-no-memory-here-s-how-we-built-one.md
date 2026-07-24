@@ -60,12 +60,12 @@ James Le argues that video AI is missing the equivalent of durable memory, so th
   - Evidence: "Um and again um now what can you build with with this sort of video memory layer based on example these are the categories of of application that I believe developers can build you can discover things you can view reasoning experience you can organize your content across different video library and you can view action workflow assemble uh different scene together do compliance review data operation etc."
 
 ### Topics Covered
-- [[agent-memory|Video memory]] — The need for a durable memory layer that makes video queries reusable instead of stateless.
-- **Context graph** — A queryable structure linking moments, appearances, entities, relationships, and corpus context.
+- **Video memory** — The need for a durable memory layer that makes video queries reusable instead of stateless.
+- [[agent-memory|Context graph]] — A queryable structure linking moments, appearances, entities, relationships, and corpus context.
 - [[agent-memory|Search versus memory]] — The distinction between retrieving candidates and preserving corpus-level continuity and knowledge.
 - [[agent-evaluations|Video worker harness]] — A deterministic operating model for video understanding that plans tasks, retrieves evidence, and validates outputs.
-- **Video cognition infrastructure** — A systems-style way to productize video understanding as reusable infrastructure through memory and harnesses.
-- [[agent-memory|Temporal multimodal continuity]] — The importance of temporal order and multimodal signals in making video meaningful.
+- [[agent-reliability-and-durable-execution|Video cognition infrastructure]] — A systems-style way to productize video understanding as reusable infrastructure through memory and harnesses.
+- **Temporal multimodal continuity** — The importance of temporal order and multimodal signals in making video meaningful.
 
 ### Tools And Named Systems
 - **Jockey** — The video intelligence product James Le demonstrated as the application layer built on top of the memory stack.
@@ -113,8 +113,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-mOf-PP4mVjA]] - dedicated official event recording.
 - [[youtube-mOf-PP4mVjA-transcript]] - dedicated official recording transcript.
 
-- [[youtube-mOf-PP4mVjA-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-mOf-PP4mVjA`
 - Slide deck: [[youtube-mOf-PP4mVjA-slides|Slides: Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs]] — 31 visible slide image(s).
 ![[assets/slides/mOf-PP4mVjA/slide-001.jpg]]
@@ -127,7 +125,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-mOf-PP4mVjA-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/mOf-PP4mVjA.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

@@ -58,14 +58,14 @@ The panel argues that local AI has moved from novelty to practicality because mo
   - Evidence: "The way that trade-off is is always difficult. The second, which I actually encourage people in this room to help solve is the importance of open models is becoming increasingly in question."
 
 ### Topics Covered
-- **Local AI inflection point** — The talk's main claim that local AI has crossed an inflection point because models and harnesses improved together.
-- **Data sovereignty and cost control** — The argument that keeping data local helps with privacy, sovereignty, and cost control.
+- [[inference-engineering|Local AI inflection point]] — The talk's main claim that local AI has crossed an inflection point because models and harnesses improved together.
+- [[inference-engineering|Data sovereignty and cost control]] — The argument that keeping data local helps with privacy, sovereignty, and cost control.
 - [[inference-engineering|Multimodel routing]] — The move toward routing work across multiple models instead of relying on a single universal model.
 - [[inference-engineering|Local inference optimization]] — How local performance is improved through tuning, quantization, and configuration on existing hardware.
-- [[agentic-search|Simplicity versus customizability]] — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
+- **Simplicity versus customizability** — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
 - **Point-and-click onboarding** — The need for ordinary users to get local AI running without specialist knowledge.
-- **Specialized distillation** — Using broad models, consensus labeling, and curation to create specialized datasets and narrower models.
-- **Open-model advocacy** — The defense of open models as a requirement for local AI freedom and adaptability.
+- [[inference-engineering|Specialized distillation]] — Using broad models, consensus labeling, and curation to create specialized datasets and narrower models.
+- [[inference-engineering|Open-model advocacy]] — The defense of open models as a requirement for local AI freedom and adaptability.
 
 ### Tools And Named Systems
 - [[llama|Llama]] — A language model family used as a landmark example of local execution becoming practical on consumer hardware.

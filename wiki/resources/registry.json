@@ -280,6 +280,11 @@
     "path": "wiki/resources/youtube-whue9_YquGA.md"
   },
   {
+    "id": "youtube-31GUkCBD-Uc",
+    "title": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+    "path": "wiki/resources/youtube-31GUkCBD-Uc.md"
+  },
+  {
     "id": "youtube-cVzf49yg0D8",
     "title": "Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
     "path": "wiki/resources/youtube-cVzf49yg0D8.md"
@@ -480,6 +485,11 @@
     "path": "wiki/resources/youtube-tzRvcTEapzo.md"
   },
   {
+    "id": "youtube-9HbzAWnKbo4",
+    "title": "From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+    "path": "wiki/resources/youtube-9HbzAWnKbo4.md"
+  },
+  {
     "id": "youtube-Btk8wDUVs74",
     "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
     "path": "wiki/resources/youtube-Btk8wDUVs74.md"
@@ -543,6 +553,11 @@
     "id": "youtube-C_GG5g38vLU",
     "title": "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
     "path": "wiki/resources/youtube-C_GG5g38vLU.md"
+  },
+  {
+    "id": "youtube-xyL2Ltkh-SA",
+    "title": "How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, YouTube Ads",
+    "path": "wiki/resources/youtube-xyL2Ltkh-SA.md"
   },
   {
     "id": "youtube-DeFF3J8T5Pk",
@@ -730,11 +745,6 @@
     "path": "wiki/resources/official-speakers-json.md"
   },
   {
-    "id": "youtube-31GUkCBD-Uc",
-    "title": "Official WF26 Playlist Item 31GUkCBD-Uc (Unavailable)",
-    "path": "wiki/resources/youtube-31GUkCBD-Uc.md"
-  },
-  {
     "id": "youtube-O72p-rBb2bA",
     "title": "Official WF26 Playlist Item O72p-rBb2bA (Unavailable)",
     "path": "wiki/resources/youtube-O72p-rBb2bA.md"
@@ -743,11 +753,6 @@
     "id": "youtube-PXXNCtfKZs0",
     "title": "Official WF26 Playlist Item PXXNCtfKZs0 (Unavailable)",
     "path": "wiki/resources/youtube-PXXNCtfKZs0.md"
-  },
-  {
-    "id": "youtube-xyL2Ltkh-SA",
-    "title": "Official WF26 Playlist Item xyL2Ltkh-SA (Unavailable)",
-    "path": "wiki/resources/youtube-xyL2Ltkh-SA.md"
   },
   {
     "id": "youtube-Z3fP-eMEx-8",

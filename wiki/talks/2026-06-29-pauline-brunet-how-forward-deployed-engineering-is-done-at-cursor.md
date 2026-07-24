@@ -60,11 +60,11 @@ Pauline Brunet argues that forward deployed engineering only works when you matc
   - Evidence: "It's always three things, super simple. Am I increasing revenue? Am I decreasing costs? Or am I mitigating risks?"
 
 ### Topics Covered
-- [[coding-agents|FDE fit matrix]] — Choosing whether FDE fits by comparing customer maturity with product configurability.
-- [[coding-agents|Project-based delivery]] — Using FDE as a project-based motion tied to strategic objectives and named sponsors.
+- [[model-capability-and-product-framing|FDE fit matrix]] — Choosing whether FDE fits by comparing customer maturity with product configurability.
+- [[software-factories|Project-based delivery]] — Using FDE as a project-based motion tied to strategic objectives and named sponsors.
 - [[coding-agents|Embedded co-development]] — Working directly with customer teams inside their code base instead of operating as a detached service layer.
-- **ROI framing** — Judging success by revenue, cost, or risk impact rather than by activity volume.
-- **Product feedback loop** — Turning close customer work into signals for product and roadmap decisions.
+- [[coding-agents|ROI framing]] — Judging success by revenue, cost, or risk impact rather than by activity volume.
+- [[software-factories|Product feedback loop]] — Turning close customer work into signals for product and roadmap decisions.
 
 ### Tools And Named Systems
 - [[cursor|Cursor]] — The AI coding platform the speaker represents and uses as the main product context for the FDE function.

@@ -52,9 +52,9 @@ Pablo Castro's thesis is that AI progress should be understood as a progression 
   - Evidence: "So we built a component called the agent optimizer that effectively goes through this process and allows you to evaluate a baseline, generate candidates, and then you know, evaluate the new candidates and we have a strong result, then deploy that to production."
 
 ### Topics Covered
-- [[agent-memory|knowledge taxonomy]] — The distinction between what models already know, what agents retrieve from outside sources, and what systems learn over time.
-- **company grounding** — How AI systems use organizational and public data to ground agent behavior.
-- [[agent-memory|layered retrieval]] — A retrieval architecture that supports both simple usage and expert control in one system.
+- [[agentic-search|knowledge taxonomy]] — The distinction between what models already know, what agents retrieve from outside sources, and what systems learn over time.
+- [[semantic-infrastructure-and-ontology|company grounding]] — How AI systems use organizational and public data to ground agent behavior.
+- [[agentic-search|layered retrieval]] — A retrieval architecture that supports both simple usage and expert control in one system.
 - [[agentic-search|agentic retrieval]] — Retrieval workflows that reflect on whether the query has been satisfied before returning results.
 - [[agent-evaluations|agent optimization]] — Improving agents through evaluation-driven candidate generation and deployment.
 

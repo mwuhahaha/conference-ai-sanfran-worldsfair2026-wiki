@@ -11,11 +11,12 @@ sourceAssessment:
   domain: topics page evidence coverage
   intendedUse: attributed_context
   asOf: '2026-07-24T00:00:00.000000Z'
-  state: pending
-  basis: no_admitted_evidence
-  message: This page has not yet received enough admitted evidence for a source assessment.
-  publicSourceIds: []
-sourceAssessmentBodySha256: sha256:097291aa24c0278e1a02a45b234971bd2eddd0ae621f1f2af5db8e6c957b1989
+  state: limited
+  basis: official_primary_canonical
+  message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
+  publicSourceIds:
+  - source:official-wf26-youtube-1EZdpEhwmNc
+sourceAssessmentBodySha256: sha256:5825fc2b2a928190704c344531d8a81f3aca804c3078846c423e7dff69310924
 ---
 # MCP Apps as Agentic App Runtime
 
@@ -31,6 +32,23 @@ MCP Apps as an agentic app runtime is the idea that MCP servers can return inter
 - Design for host constraints and permissions.
 - Use MCP Apps when text-only tool output would force awkward back-and-forth or when human review is part of the workflow.
 
+## Transcript Digest Evidence
+This section synthesizes 3 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+These talks treat MCP-style tool execution as a runtime substrate where authorization, typed contracts, and connector boundaries determine what agents can safely do. The variation is between protocol-level structure and app-runtime framing, but both assume dependable action comes from explicit interfaces rather than informal prompt-only behavior.
+
+### Constituent Talk Evidence
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]] — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
+  - Transcript: [[youtube-I3znWC3MEXM-transcript]]
+  - Evidence: "Now an MCP client takes the agent's proposed tool calls and it dispatches them to its MCP server."
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — The security risks introduced by MCP servers as connectors to enterprise data and external instructions.
+  - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
+  - Evidence: "This is great protocol, very little security built in. It's getting better, but the foundations behind it is you know, this is the GitHub MCP server exploit that we highlighted to the year a year ago."
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — Typed tool arguments and structured result checking before downstream action.
+  - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
+  - Evidence: "But the idea is to surround the input with checks. Now, I've got this something that you that you should be at least taking a look at if you're doing some of this coding is something called Pydantic."
+
 ## Connections
 - [[liad-yosef]]
 - [[ido-salomon]]
@@ -38,6 +56,48 @@ MCP Apps as an agentic app runtime is the idea that MCP servers can return inter
 - [[mcp]]
 - [[agentic-web]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 3 | Related pages outside the main evidence categories. |
+| resources | 3 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 7 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 4 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are]]
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]]
+
+### Resources
+- [[youtube-htM02KMNZnk]]
+- [[youtube-jt1Pbr_n6oU]]
+- [[youtube-o-zkvb0iFDQ]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-htM02KMNZnk-dense-slides]]
+- [[youtube-htM02KMNZnk-reconstructed-slides]]
+- [[youtube-jt1Pbr_n6oU-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+- [[youtube-o-zkvb0iFDQ-dense-slides]]
+
+### Transcripts
+- [[youtube-I3znWC3MEXM-transcript]]
+- [[youtube-1EZdpEhwmNc-transcript]]
+- [[youtube-Sir59K8ZDPU-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-jt1Pbr_n6oU-transcript]]
+- [[youtube-o-zkvb0iFDQ-transcript]]
+
+### Tools
+- [[mcp-apps]]
+- [[mcp]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -45,6 +105,9 @@ The theme recurs across independently attributed official event recordings. Spec
 
 ### Linked Sessions
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]]
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]]
 
 ### Media Signals
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.

@@ -54,9 +54,9 @@ This talk argues that production enterprise agents fail less because they cannot
   - Evidence: "And the data model is unique. It's unique to how you work. We're not pretending this solves everything."
 
 ### Topics Covered
-- [[agent-memory|Systems of context]] — The shift from storing records to building a live layer that explains how work is connected and why decisions were made.
+- [[semantic-infrastructure-and-ontology|Systems of context]] — The shift from storing records to building a live layer that explains how work is connected and why decisions were made.
 - [[agent-memory|Work understanding]] — The idea that enterprise assistants need durable understanding of a user and their work, not just retrieved documents or messages.
-- [[agent-memory|Context graph]] — A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.
+- [[agentic-search|Context graph]] — A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.
 - [[agent-memory|Dual-timescale architecture]] — A two-speed architecture that combines long-term pattern learning with short-term state tracking.
 
 ### Tools And Named Systems
@@ -103,8 +103,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-Btk8wDUVs74]] - dedicated official event recording.
 - [[youtube-Btk8wDUVs74-transcript]] - dedicated official recording transcript.
 
-- [[youtube-Btk8wDUVs74-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-Btk8wDUVs74`
 - Slide deck: [[youtube-Btk8wDUVs74-slides|Slides: From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com]] — 19 visible slide image(s).
 ![[assets/slides/Btk8wDUVs74/slide-001.jpg]]
@@ -117,7 +115,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-Btk8wDUVs74-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Btk8wDUVs74.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

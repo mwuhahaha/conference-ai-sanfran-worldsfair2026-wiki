@@ -56,12 +56,12 @@ The talk argues that enterprise agents should not be built as thick, one-off sys
   - Evidence: "If something changes that cascades across all my agents, right? And we have self-arning. So my agent that wakes up tomorrow is slightly smarter than it was today."
 
 ### Topics Covered
-- **Thin agents on a shared substrate** — The architectural idea of building simpler agents that rely on a shared enterprise knowledge substrate.
-- [[agent-memory|Business ontology]] — A business-readable graph of concepts and relationships used to model how the organization talks about its domain.
+- [[semantic-infrastructure-and-ontology|Thin agents on a shared substrate]] — The architectural idea of building simpler agents that rely on a shared enterprise knowledge substrate.
+- [[semantic-infrastructure-and-ontology|Business ontology]] — A business-readable graph of concepts and relationships used to model how the organization talks about its domain.
 - **Technical ontology** — A graph of enterprise data systems, schemas, and assets used to represent the actual technical landscape.
-- **Ontology mapping** — The link between domain concepts and underlying systems of record.
-- [[agent-memory|Execution traces]] — Using observed agent runs to score outcomes and guide future decisions.
-- **Process-guided agent** — An agent that is intended to follow a predefined enterprise workflow.
+- [[semantic-infrastructure-and-ontology|Ontology mapping]] — The link between domain concepts and underlying systems of record.
+- [[coding-agents|Execution traces]] — Using observed agent runs to score outcomes and guide future decisions.
+- [[semantic-infrastructure-and-ontology|Process-guided agent]] — An agent that is intended to follow a predefined enterprise workflow.
 
 ### Tools And Named Systems
 - [[neo4j|Neo4j]] — Enterprise graph database platform used as the substrate for the ontology-based semantic layer.
@@ -124,8 +124,6 @@ This section is synthesized only from official schedule metadata and dedicated m
 - [[youtube-VGN22pPpb-8-transcript]] - dedicated official recording transcript.
 - [[youtube-knDDGYHnnSI]] - supporting context; not the exact session recording.
 
-- [[youtube-VGN22pPpb-8-slides]] — extracted from the related public AI Engineer video.
-
 - Source video: `youtube-VGN22pPpb-8`
 - Slide deck: [[youtube-VGN22pPpb-8-slides|Slides: Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j]] — 32 visible slide image(s).
 ![[assets/slides/VGN22pPpb-8/slide-001.jpg]]
@@ -142,7 +140,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-VGN22pPpb-8-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/VGN22pPpb-8.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
