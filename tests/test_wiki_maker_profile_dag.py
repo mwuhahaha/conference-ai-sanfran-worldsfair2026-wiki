@@ -94,6 +94,11 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
         "livestream_segment_projection"
     ]
     assert adapters["attendance_evidence_sync"]["triggers"] == ["any"]
+    assert adapters["attendance_evidence_sync"]["command"] == [
+        "python3",
+        "scripts/generate_attendance_calibration.py",
+        "--check-current",
+    ]
     assert adapters["synthesis_layers"]["optional_dependencies"] == [
         "attendance_evidence_sync"
     ]

@@ -29,36 +29,63 @@ Enterprise AI agents are moving fast, but most of them still hit the same wall i
 
 ## Synthesis
 ### Synthesized Breakdown
-Enterprise AI agents are moving fast, but most of them still hit the same wall in production: they have access to tools, documents, APIs, and databases, but they do not understand the real context of how work gets done. At monday.com, we are building agents that operate across real customer workflows, internal product surfaces, knowledge, permissions, memory, and actions. The hard part is not just calling the right tool or retrieving the right document. The hard part is building a reliable context layer that helps agents understand users, work objects, organizational knowledge, prior decisions, business rules, and the relationships between them.
+Um, hey everyone. Uh, we are super excited to be here. Thanks for having us. Uh, today we're going to talk about how we shift monday.com from a system of record uh, into a system of context.
 
 ### Speaker And Company Context
 - [[omri-bruchim|Omri Bruchim]] — Engineering Group Manager at [[monday|Monday]].
 
 ### Topics Covered
 - [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-Btk8wDUVs74-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Btk8wDUVs74.txt` (2,510 words).
+- [[youtube-Btk8wDUVs74]] — related YouTube source page.
+- [[youtube-Btk8wDUVs74-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[omri-bruchim]]
 
+## Official YouTube Recording
+- [[youtube-Btk8wDUVs74|From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com]] — official AI Engineer YouTube recording published 2026-07-22.
+- Evidence status: [[youtube-Btk8wDUVs74-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-Btk8wDUVs74]] - dedicated official event recording.
+- [[youtube-Btk8wDUVs74-transcript]] - dedicated official recording transcript.
+
+- [[youtube-Btk8wDUVs74-slides]] — extracted from the related public AI Engineer video.
+
+- Source video: `youtube-Btk8wDUVs74`
+- Slide deck: [[youtube-Btk8wDUVs74-slides|Slides: From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com]] — 19 visible slide image(s).
+![[assets/slides/Btk8wDUVs74/slide-001.jpg]]
+![[assets/slides/Btk8wDUVs74/slide-002.jpg]]
+![[assets/slides/Btk8wDUVs74/slide-003.jpg]]
+- Slide-derived themes for `youtube-Btk8wDUVs74`: data, track, july, missing, stack, records, systems, context.
+
 ## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/Btk8wDUVs74.txt` (2,510 words).
+
+## Transcript Markdown
+- [[youtube-Btk8wDUVs74-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Btk8wDUVs74.txt`.
 
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-Btk8wDUVs74` — 2,510 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Btk8wDUVs74`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Btk8wDUVs74`: data, understand, monday, context, help, model, user, over.
+- Slide-derived themes for `youtube-Btk8wDUVs74`: data, track, july, missing, stack, records, systems, context.
+- Evidence links for `youtube-Btk8wDUVs74` (primary event evidence): [[youtube-Btk8wDUVs74]], [[youtube-Btk8wDUVs74-transcript]], [[youtube-Btk8wDUVs74-slides]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.

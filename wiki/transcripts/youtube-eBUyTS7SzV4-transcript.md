@@ -1,12 +1,12 @@
 ---
-title: "Transcript: The New Physics of Business — Garry Tan, Y Combinator"
+title: "Transcript: Every company should have a Brain — Garry Tan, Y Combinator"
 category: "transcripts"
 videoId: "eBUyTS7SzV4"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "3551"
 ---
 
-# Transcript: The New Physics of Business — Garry Tan, Y Combinator
+# Transcript: Every company should have a Brain — Garry Tan, Y Combinator
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=eBUyTS7SzV4)

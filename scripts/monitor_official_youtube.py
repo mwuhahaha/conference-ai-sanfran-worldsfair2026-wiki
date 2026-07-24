@@ -2312,8 +2312,21 @@ def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dic
     if _ACTIVE_TRANSACTION is not None:
         _ACTIVE_TRANSACTION.backup_canonical_root(WIKI)
         _ACTIVE_TRANSACTION.backup_canonical_root(ROOT / "dist")
+        _ACTIVE_TRANSACTION.backup_canonical_root(
+            RAW / "attendance-calibration"
+        )
         _ACTIVE_TRANSACTION.track_path(ROOT / "agent-index.json")
         _ACTIVE_TRANSACTION.track_path(ROOT / "agent-index.md")
+    attendance_sync = [
+        sys.executable,
+        "scripts/generate_attendance_calibration.py",
+        "--sync-current",
+    ]
+    attendance = run(attendance_sync, timeout=900)
+    results = [{"cmd": attendance_sync, "returncode": attendance.returncode}]
+    if attendance.returncode != 0:
+        return results
+
     cmd = [
         wiki_maker_executable(),
         "update",
@@ -2325,7 +2338,7 @@ def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dic
         cmd.extend(["--source", str(path.relative_to(ROOT))])
     cmd.append("--json")
     cp = run(cmd, timeout=7200)
-    results = [{"cmd": cmd, "returncode": cp.returncode}]
+    results.append({"cmd": cmd, "returncode": cp.returncode})
     if cp.returncode != 0:
         return results
 

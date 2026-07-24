@@ -1,0 +1,10 @@
+aa maintainability
+World's Fair
+it becomes harder and harder to make a change
+in one place
+without breaking other parts of the codebase
+se, - Martin Fowler
+ne 4 “Shotgun Surgery”
+an ' De MTOM Ire Hama cron! er cae mat a MOL Ron cree ha Rocco
+Harness Engineering is not Enough: Why Software Factories Fail
+‘. yeaa elgg = humanlayer

@@ -10,18 +10,19 @@ sourceAssessment:
   subjectId: concept:ai-sandboxes
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:f3564cf3b67846dede319f3019c15eff41d31291d79082f4b343db4208508198
+sourceAssessmentBodySha256: sha256:934c91094c7477dbc82f5f0e97cc8b8aa9dfa817ecf9f05a32e944038b0636f3
 ---
 # AI Sandboxes
 
@@ -77,6 +78,7 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
@@ -84,7 +86,9 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 
 ## Slide-Derived Supporting Decks
 - [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
+- [[youtube-1EZdpEhwmNc-slides]] — Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk (16 extracted slide frames)
 - [[youtube-1P1hJ36rxM0-slides]] — Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind (15 extracted slide frames)
+- [[youtube-kRkcNOsRyYg-slides]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j (32 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
 - [[youtube-ZSQb5fzRFPw-slides]] —  (17 extracted slide frames)
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
@@ -180,10 +184,57 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[yohei-nakajima|Yohei Nakajima]]
 - [[ang-li|Ang Li]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 45 | Related pages outside the main evidence categories. |
+| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 3 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-LqLoYksJ6do]]
+
+### Slides
+- [[youtube--CnA2lGfymY-slides]]
+- [[youtube-1EZdpEhwmNc-slides]]
+- [[youtube-1P1hJ36rxM0-slides]]
+- [[youtube-kRkcNOsRyYg-slides]]
+- [[youtube-OqM67QG_Ikk-slides]]
+- [[youtube-ZSQb5fzRFPw-slides]]
+
+### Transcripts
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-LqLoYksJ6do-transcript]]
+- [[youtube-4kYl2_mqmnQ-transcript]]
+
+### Tools
+- [[docker]]
+- [[browserbase]]
+- [[prime-intellect]]
+- [[mcp-apps]]
+- [[openhands]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
-Current media support is attributable to one official recording; it is context for the theme rather than independent corroboration of every claim.
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
@@ -203,6 +254,11 @@ Current media support is attributable to one official recording; it is context f
 - Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
 - Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
 - Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
+- `youtube-LqLoYksJ6do` — 4,014 transcript words; 5 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-LqLoYksJ6do`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-LqLoYksJ6do`: case, docker, sandbox, access, repository, order, deterministic, give.
+- Slide-derived themes for `youtube-LqLoYksJ6do`: code, gave, production, access, tried, sleep, night, track.
+- Evidence links for `youtube-LqLoYksJ6do` (primary event evidence): [[youtube-LqLoYksJ6do]], [[youtube-LqLoYksJ6do-transcript]], [[youtube-LqLoYksJ6do-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
 - Evidence links for `youtube-wsFd22SL1s8` (supporting context only): [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
@@ -210,50 +266,3 @@ Current media support is attributable to one official recording; it is context f
 - Transcript signals for `youtube-4kYl2_mqmnQ`: machine, context, machines, linux, back, whole, point, each.
 - Slide-derived themes for `youtube-4kYl2_mqmnQ`: sleeps, headless, dispatch, normal, default, coding, tasks, machines.
 - Evidence links for `youtube-4kYl2_mqmnQ` (supporting context only): [[youtube-4kYl2_mqmnQ]], [[youtube-4kYl2_mqmnQ-transcript]], [[youtube-4kYl2_mqmnQ-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 45 | Related pages outside the main evidence categories. |
-| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-pMggiOb18tc]]
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-wsFd22SL1s8]]
-
-### Slides
-- [[youtube--CnA2lGfymY-slides]]
-- [[youtube-1P1hJ36rxM0-slides]]
-- [[youtube-OqM67QG_Ikk-slides]]
-- [[youtube-ZSQb5fzRFPw-slides]]
-- [[youtube-ZyIoTOAbRfs-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-
-### Transcripts
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-4kYl2_mqmnQ-transcript]]
-
-### Tools
-- [[docker]]
-- [[browserbase]]
-- [[prime-intellect]]
-- [[mcp-apps]]
-- [[openhands]]

@@ -8,30 +8,34 @@ sourceAssessment:
   subjectId: concept:agent-evaluations
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-0vphxNt4wyk
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-2JX6JYyQG4Y
+  - source:official-wf26-youtube-9QebvrrY3KY
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-V-EDrhIhHzQ
+  - source:official-wf26-youtube-VrpEyglYgeU
+  - source:official-wf26-youtube-X1kp-ABIIxQ
   - source:official-wf26-youtube-XV2oYi7kojc
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZpK5PWX2YRM
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-iCj_ATyThvc
-  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-uIiA6DquRiE
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:56ba512184e06db5dab8be4c6efb32d99d4c792f47f39fa96bb55916cebba747
+sourceAssessmentBodySha256: sha256:227cbc9263af7deaea6235f0e22db6af0d22877c903aa4149476f1a3210ddd8e
 ---
 # Agent Evaluations
 
@@ -58,23 +62,34 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - Reward-signal generation for continual learning and fine-tuning loops.
 
 ## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail]] — Harness Engineering is not Enough: Why Software Factories Fail
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] — Setting Yourself Up for Success — Part 1
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]] — Claude for long-horizon tasks
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 - [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote
 - [[2026-06-30-antje-barth-perception-agents]] — Perception Agents
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months]] — Your agent architecture has a half-life of 6 months
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
 - [[2026-06-30-sean-cai-state-of-data]] — State of Data
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]] — CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens
 
 ## Slide-Derived Supporting Decks
 - [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
 - [[youtube-2JX6JYyQG4Y-slides]] — Perception Agents — Antje Barth, Amazon AGI Lab (31 extracted slide frames)
+- [[youtube-9QebvrrY3KY-slides]] — Claude for Long-Horizon Tasks — Lance Martin, Anthropic (4 extracted slide frames)
+- [[youtube-Ib5GBkD555M-slides]] — Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer (32 extracted slide frames)
 - [[youtube-il1c1a2FufU-slides]] — Setting Yourself Up for Success — Part 1 — Jason Liu, OpenAI (12 extracted slide frames)
+- [[youtube-mOf-PP4mVjA-slides]] — Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs (31 extracted slide frames)
 - [[youtube-n97BCfyFIvw-slides]] — "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani (32 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
+- [[youtube-Q0VkgCyNVUg-slides]] — CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j (22 extracted slide frames)
 - [[youtube-RGSFUqzqErE-slides]] — On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft (28 extracted slide frames)
+- [[youtube-VGN22pPpb-8-slides]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j (32 extracted slide frames)
+- [[youtube-X1kp-ABIIxQ-slides]] — Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest (15 extracted slide frames)
 - [[youtube-ZSQb5fzRFPw-slides]] —  (17 extracted slide frames)
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
 
@@ -169,6 +184,54 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 60 | Related pages outside the main evidence categories. |
+| resources | 30 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 50 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 42 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 30 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail]]
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]]
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[youtube-Xfl50508LZM]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-0vphxNt4wyk]]
+- [[youtube-Cz4v1WHVyZc]]
+- [[youtube-GgLQ02aO-hs]]
+- [[youtube-RGSFUqzqErE]]
+
+### Slides
+- [[youtube--CnA2lGfymY-slides]]
+- [[youtube-2JX6JYyQG4Y-slides]]
+- [[youtube-9QebvrrY3KY-slides]]
+- [[youtube-Ib5GBkD555M-slides]]
+- [[youtube-il1c1a2FufU-slides]]
+- [[youtube-mOf-PP4mVjA-slides]]
+
+### Transcripts
+- [[youtube-0vphxNt4wyk-transcript]]
+- [[youtube-Cz4v1WHVyZc-transcript]]
+- [[youtube-GgLQ02aO-hs-transcript]]
+- [[youtube-RGSFUqzqErE-transcript]]
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-XV2oYi7kojc-transcript]]
+
+### Tools
+- [[braintrust]]
+- [[prime-intellect]]
+- [[arize]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -237,11 +300,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
 - Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
 - Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
-- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
-- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
-- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-n97BCfyFIvw` — 3,068 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-n97BCfyFIvw`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-n97BCfyFIvw`: code, still, taste, loop, engineering, evidence, system, human.
@@ -261,21 +319,61 @@ The theme recurs across independently attributed official event recordings. Spec
 - Interpretation rule for `youtube-uU5Gv2h8-9g`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uU5Gv2h8-9g`: code, claude, prompt, been, cloud, model, mode, team.
 - Evidence links for `youtube-uU5Gv2h8-9g` (primary event evidence): [[youtube-uU5Gv2h8-9g]], [[youtube-uU5Gv2h8-9g-transcript]], [[youtube-uU5Gv2h8-9g-slides]]
+- `youtube--I5W5QVAT8E` — 4,014 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube--I5W5QVAT8E`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube--I5W5QVAT8E`: model, notion, today, customers, product, okay, always, system.
+- Slide-derived themes for `youtube--I5W5QVAT8E`: engineering, plan, future, fair, recently, purchased, each, subscription.
+- Evidence links for `youtube--I5W5QVAT8E` (primary event evidence): [[youtube--I5W5QVAT8E]], [[youtube--I5W5QVAT8E-transcript]], [[youtube--I5W5QVAT8E-slides]]
+- `youtube-1EZdpEhwmNc` — 4,245 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-1EZdpEhwmNc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-1EZdpEhwmNc`: security, data, code, able, find, skill, customers, attacks.
+- Slide-derived themes for `youtube-1EZdpEhwmNc`: track, june, security, malicious, engineering, future, pitch, defend.
+- Evidence links for `youtube-1EZdpEhwmNc` (primary event evidence): [[youtube-1EZdpEhwmNc]], [[youtube-1EZdpEhwmNc-transcript]], [[youtube-1EZdpEhwmNc-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-9QebvrrY3KY` — 4,450 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-9QebvrrY3KY`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-9QebvrrY3KY`: memory, models, claude, model, context, interesting, harness, important.
+- Slide-derived themes for `youtube-9QebvrrY3KY`: generator, lance, martin, member, technical, staff, engineering, future.
+- Evidence links for `youtube-9QebvrrY3KY` (primary event evidence): [[youtube-9QebvrrY3KY]], [[youtube-9QebvrrY3KY-transcript]], [[youtube-9QebvrrY3KY-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
 - Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
+- Slide-derived themes for `youtube-Ib5GBkD555M`: software, harness, enough, team, engineering, factories, fail, pierre.
+- Evidence links for `youtube-Ib5GBkD555M` (primary event evidence): [[youtube-Ib5GBkD555M]], [[youtube-Ib5GBkD555M-transcript]], [[youtube-Ib5GBkD555M-slides]]
+- `youtube-O-CBZ3JtRvo` — 3,557 transcript words; 9 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-O-CBZ3JtRvo`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-O-CBZ3JtRvo`: model, cyber, models, able, reason, been, benchmark, understand.
+- Slide-derived themes for `youtube-O-CBZ3JtRvo`: training, models, attackers, engineering, future, track, july, arithmetic.
+- Evidence links for `youtube-O-CBZ3JtRvo` (primary event evidence): [[youtube-O-CBZ3JtRvo]], [[youtube-O-CBZ3JtRvo-transcript]], [[youtube-O-CBZ3JtRvo-slides]]
+- `youtube-VrpEyglYgeU` — 3,005 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-VrpEyglYgeU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-VrpEyglYgeU`: code, verification, models, loop, still, question, sure, problem.
+- Slide-derived themes for `youtube-VrpEyglYgeU`: accuracy, land, king, meters, industry, struggling, slop, coding.
+- Evidence links for `youtube-VrpEyglYgeU` (primary event evidence): [[youtube-VrpEyglYgeU]], [[youtube-VrpEyglYgeU-transcript]], [[youtube-VrpEyglYgeU-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
+- Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
+- Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
+- `youtube-mOf-PP4mVjA` — 3,509 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-mOf-PP4mVjA`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-mOf-PP4mVjA`: memory, scene, content, system, across, layer, application, context.
+- Slide-derived themes for `youtube-mOf-PP4mVjA`: memory, built, data, incredibly, complex, scale, holistic, understanding.
+- Evidence links for `youtube-mOf-PP4mVjA` (primary event evidence): [[youtube-mOf-PP4mVjA]], [[youtube-mOf-PP4mVjA-transcript]], [[youtube-mOf-PP4mVjA-slides]]
 - `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
 - Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
@@ -296,52 +394,3 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-1IdzkRVmWAA`: search, query, tools, queries, tool, retrieval, semantic, chunks.
 - Slide-derived themes for `youtube-1IdzkRVmWAA`: taught, retrieval, trajectories, tool, calls, toes.
 - Evidence links for `youtube-1IdzkRVmWAA` (supporting context only): [[youtube-1IdzkRVmWAA]], [[youtube-1IdzkRVmWAA-transcript]], [[youtube-1IdzkRVmWAA-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 60 | Related pages outside the main evidence categories. |
-| resources | 23 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 39 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 37 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 23 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]]
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]]
-- [[2026-06-29-pablo-castro-on-ai-and-knowledge]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-- [[2026-06-30-addy-osmani-closing-keynote]]
-
-### Resources
-- [[youtube-Xfl50508LZM]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-0vphxNt4wyk]]
-- [[youtube-Cz4v1WHVyZc]]
-- [[youtube-GgLQ02aO-hs]]
-- [[youtube-RGSFUqzqErE]]
-
-### Slides
-- [[youtube--CnA2lGfymY-slides]]
-- [[youtube-2JX6JYyQG4Y-slides]]
-- [[youtube-il1c1a2FufU-slides]]
-- [[youtube-n97BCfyFIvw-slides]]
-- [[youtube-OqM67QG_Ikk-slides]]
-- [[youtube-RGSFUqzqErE-slides]]
-
-### Transcripts
-- [[youtube-0vphxNt4wyk-transcript]]
-- [[youtube-Cz4v1WHVyZc-transcript]]
-- [[youtube-GgLQ02aO-hs-transcript]]
-- [[youtube-RGSFUqzqErE-transcript]]
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-XV2oYi7kojc-transcript]]
-
-### Tools
-- [[braintrust]]
-- [[prime-intellect]]
-- [[arize]]

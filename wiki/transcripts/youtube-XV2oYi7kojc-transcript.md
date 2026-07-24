@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic"
+title: "Transcript: The Desktop Frontier — Ahmad Osman, Osmantic"
 category: "transcripts"
 videoId: "XV2oYi7kojc"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2590"
 ---
 
-# Transcript: Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic
+# Transcript: The Desktop Frontier — Ahmad Osman, Osmantic
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=XV2oYi7kojc)

@@ -1,12 +1,12 @@
 ---
-title: "Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic"
+title: "The Desktop Frontier — Ahmad Osman, Osmantic"
 category: "resources"
 sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "XV2oYi7kojc"
-publishedDate: "2026-07-19"
+publishedDate: "2026-07-21"
 last_enriched: "2026-07-20T07:44:19.745584+00:00"
 ---
-# Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic
+# The Desktop Frontier — Ahmad Osman, Osmantic
 
 ## What It Is
 An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
@@ -17,7 +17,7 @@ An official AI Engineer YouTube recording admitted through the official WF26 pla
 - Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
 
 ## Relationship To World's Fair 2026
-- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk|'Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk']]
+- No exact schedule-page match has been assigned; event association comes from official WF26 playlist membership. Do not infer schedule fields from the video title.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/XV2oYi7kojc.txt`.

@@ -73,7 +73,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - Slide-derived terms: `world`, `engineering`, `server`, `future`, `amazon`, `sfair`, `fair`, `tools`, `strands`, `open`, `servers`, `barth`, `alexa`, `orld`, `services`, `code`, `developer`, `rere`
 
 ## Official YouTube Recording
-- [[youtube-2JX6JYyQG4Y|Perception Agents — Antje Barth, Amazon AGI Lab]] — official AI Engineer YouTube recording published 2026-07-20.
+- [[youtube-2JX6JYyQG4Y|Perception Agents — Antje Barth, Amazon AGI Lab]] — official AI Engineer YouTube recording published 2026-07-23.
 - Evidence status: [[youtube-2JX6JYyQG4Y-transcript]] — dedicated official recording transcript.
 - Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
@@ -88,7 +88,6 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/2JX6JYyQG4Y/slide-002.jpg]]
 ![[assets/slides/2JX6JYyQG4Y/slide-003.jpg]]
 - Slide-derived themes for `youtube-2JX6JYyQG4Y`: amazon, easy, part, clicking, tool, still, figure, ease.
-
 - Source video: `youtube-WJjInLeaJjo`
 - Slide deck: [[youtube-WJjInLeaJjo-dense-slides|Dense Slides: Building Agents at Cloud Scale — Antje Barth, AWS]] — slide evidence page.
 - Additional slide evidence: [[youtube-WJjInLeaJjo-slides|Slides: Building Agents at Cloud Scale — Antje Barth, AWS]], [[youtube-WJjInLeaJjo-reconstructed-slides|Reconstructed Slides: Building Agents at Cloud Scale — Antje Barth, AWS]]
@@ -99,7 +98,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-2JX6JYyQG4Y-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/2JX6JYyQG4Y.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

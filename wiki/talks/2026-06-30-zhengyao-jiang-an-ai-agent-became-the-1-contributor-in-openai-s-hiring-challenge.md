@@ -52,7 +52,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[zhengyao-jiang]]
 
 ## Official YouTube Recording
-- [[youtube-iCj_ATyThvc|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco]] — official AI Engineer YouTube recording published 2026-07-16.
+- [[youtube-iCj_ATyThvc|How Autoresearch is changing ML research — Zhengyao Jiang, Weco]] — official AI Engineer YouTube recording published 2026-07-16.
 - Evidence status: [[youtube-iCj_ATyThvc-transcript]] — dedicated official recording transcript.
 - Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
@@ -72,7 +72,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-iCj_ATyThvc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/iCj_ATyThvc.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

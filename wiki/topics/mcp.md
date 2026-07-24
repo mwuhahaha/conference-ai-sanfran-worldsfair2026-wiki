@@ -10,11 +10,13 @@ sourceAssessment:
   subjectId: concept:mcp
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
+  - source:official-wf26-youtube--I5W5QVAT8E
+  - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-JvKO40CFq-s
   - source:official-wf26-youtube-RGSFUqzqErE
@@ -22,10 +24,9 @@ sourceAssessment:
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-c35YoMdnI78
-  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:40fafe86d17cc9eda5f8f830b2712401428ba083c8ce7bb262bf0e94805c24e3
+sourceAssessmentBodySha256: sha256:bc4aa131c69d471ca9f1aee7e446bc0caa895925cb4a9aee1701e4a9b2600e35
 ---
 # Model Context Protocol
 
@@ -54,6 +55,17 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - MCP Apps that return interactive UI from tool servers.
 - Agent-ready web and developer-tool integrations.
 - Local inspectors and compliance checks for tool servers.
+
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-ezra-tanzer-agentic-development-security]] — Agentic Development Security
+- [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
+
+## Slide-Derived Supporting Decks
+- [[youtube--I5W5QVAT8E-slides]] — Notion's Token Town — Sarah Sachs, Notion (12 extracted slide frames)
+- [[youtube-1EZdpEhwmNc-slides]] — Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk (16 extracted slide frames)
+- [[youtube-cgimkNGNjvU-slides]] — Agentic Development Security — Ezra Tanzer, Snyk (18 extracted slide frames)
+
+These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
@@ -156,6 +168,54 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training; [[rafael-levi|Rafael Levi]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Expo Stage 2 NW; related YouTube resource; via [[youtube-btxGmN8RvNU]])
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 64 | Related pages outside the main evidence categories. |
+| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 34 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 16 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]]
+- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]]
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]]
+
+### Resources
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-pMggiOb18tc]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-q4Tr-DknG2M]]
+- [[youtube-9fubhllmsBU]]
+- [[youtube-WkBPX-oDMnA]]
+
+### Slides
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-htM02KMNZnk-slides]]
+
+### Transcripts
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-I3znWC3MEXM-transcript]]
+- [[youtube-jt1Pbr_n6oU-transcript]]
+- [[youtube-JvKO40CFq-s-transcript]]
+
+### Tools
+- [[docker]]
+- [[mcp-apps]]
+- [[neo4j]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -189,6 +249,16 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-I3znWC3MEXM` — 3,454 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I3znWC3MEXM`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I3znWC3MEXM`: token, user, server, access, call, resource, might, ooth.
+- Slide-derived themes for `youtube-I3znWC3MEXM`: track, june, engineering, future, founding, engineer, head, developer.
+- Evidence links for `youtube-I3znWC3MEXM` (primary event evidence): [[youtube-I3znWC3MEXM]], [[youtube-I3znWC3MEXM-transcript]], [[youtube-I3znWC3MEXM-slides]]
+- `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
+- Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
+- Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
 - `youtube-JvKO40CFq-s` — 5,616 transcript words; 7 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-JvKO40CFq-s`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-JvKO40CFq-s`: okay, idea, email, capabilities, maybe, read, directory, identity.
@@ -209,11 +279,26 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
 - Slide-derived themes for `youtube-c35YoMdnI78`: hands, reek, loan, take, career, karen, comets.
 - Evidence links for `youtube-c35YoMdnI78` (primary event evidence): [[youtube-c35YoMdnI78]], [[youtube-c35YoMdnI78-transcript]], [[youtube-c35YoMdnI78-slides]]
-- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
-- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
-- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
+- `youtube-1EZdpEhwmNc` — 4,245 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-1EZdpEhwmNc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-1EZdpEhwmNc`: security, data, code, able, find, skill, customers, attacks.
+- Slide-derived themes for `youtube-1EZdpEhwmNc`: track, june, security, malicious, engineering, future, pitch, defend.
+- Evidence links for `youtube-1EZdpEhwmNc` (primary event evidence): [[youtube-1EZdpEhwmNc]], [[youtube-1EZdpEhwmNc-transcript]], [[youtube-1EZdpEhwmNc-slides]]
+- `youtube-Q0VkgCyNVUg` — 3,266 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Q0VkgCyNVUg`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Q0VkgCyNVUg`: graph, memory, vector, files, demo, information, great, store.
+- Slide-derived themes for `youtube-Q0VkgCyNVUg`: shell, track, july, skills, meat, engineering, future, wakes.
+- Evidence links for `youtube-Q0VkgCyNVUg` (primary event evidence): [[youtube-Q0VkgCyNVUg]], [[youtube-Q0VkgCyNVUg-transcript]], [[youtube-Q0VkgCyNVUg-slides]]
+- `youtube-cgimkNGNjvU` — 5,107 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-cgimkNGNjvU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-cgimkNGNjvU`: security, running, doing, code, last, still, skills, machine.
+- Slide-derived themes for `youtube-cgimkNGNjvU`: security, track, june, server, directives, faye, world, fair.
+- Evidence links for `youtube-cgimkNGNjvU` (primary event evidence): [[youtube-cgimkNGNjvU]], [[youtube-cgimkNGNjvU-transcript]], [[youtube-cgimkNGNjvU-slides]]
+- `youtube-kRkcNOsRyYg` — 18,117 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-kRkcNOsRyYg`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-kRkcNOsRyYg`: graph, data, well, question, inside, search, over, documents.
+- Slide-derived themes for `youtube-kRkcNOsRyYg`: engineering, future, engineer, squire, ryan, knight, senior, partner.
+- Evidence links for `youtube-kRkcNOsRyYg` (primary event evidence): [[youtube-kRkcNOsRyYg]], [[youtube-kRkcNOsRyYg-transcript]], [[youtube-kRkcNOsRyYg-slides]]
 - `youtube-sAOBXCDiDOs` — 4,772 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-sAOBXCDiDOs`: apps, model, tool, widget, server, cloud, clears, throat.
 - Slide-derived themes for `youtube-sAOBXCDiDOs`: host, apps, server, renders, inline, primitives, discovery, software.
@@ -235,52 +320,3 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-96G7FLab8xc` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
 - Evidence links for `youtube-96G7FLab8xc` (supporting context only): [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 64 | Related pages outside the main evidence categories. |
-| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 28 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 11 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
-- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
-- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]]
-- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]]
-- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]]
-
-### Resources
-- [[youtube-o-zkvb0iFDQ]]
-- [[youtube-pMggiOb18tc]]
-- [[youtube-V-EDrhIhHzQ]]
-- [[youtube-q4Tr-DknG2M]]
-- [[youtube-9fubhllmsBU]]
-- [[youtube-WkBPX-oDMnA]]
-
-### Slides
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-V-EDrhIhHzQ-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-- [[youtube-htM02KMNZnk-slides]]
-
-### Transcripts
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-JvKO40CFq-s-transcript]]
-- [[youtube-RGSFUqzqErE-transcript]]
-- [[youtube-YZQsWVeN3rE-transcript]]
-
-### Tools
-- [[docker]]
-- [[mcp-apps]]
-- [[neo4j]]

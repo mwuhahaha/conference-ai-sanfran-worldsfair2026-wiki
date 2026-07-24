@@ -14,13 +14,13 @@ sourceAssessment:
   subjectId: person:mike-chambers
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:a429fa790b34cac225e170a6fb369ae53b206ec551f175e2386dfa5be280d004
+sourceAssessmentBodySha256: sha256:86184b5439124f4468392c27a8df427bb9878be8c80112c40a7fa0156191f008
 ---
 # Mike Chambers
 
@@ -35,6 +35,8 @@ Chambers creates hands-on educational material about agentic AI and Amazon Bedro
 ## Conference Sessions
 - [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents (2026-07-01, 12:05pm-12:25pm)
 
+## Livestream Appearances
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]] — [watch at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
@@ -47,5 +49,3 @@ Event participation, role, and affiliation details remain attributed to the offi
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
 - Evidence links for `youtube-HT4l0DeP69I` (supporting context only): [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
-## Livestream Appearances
-- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]] — [watch at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) in WF26: Harness Engineering & Startup Battlefield.

@@ -11,13 +11,13 @@ sourceAssessment:
   subjectId: person:tariq-shaukat
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:3913e27261bd4d6b3e2192bf9ce3621ae2b96df165c3d64c3a2a266ed3dfc5b5
+sourceAssessmentBodySha256: sha256:fc6309330ca085b54d31aebd475706892b9efa5a4b22ac799aad52b3027a51d5
 ---
 # Tariq Shaukat
 
@@ -41,6 +41,4 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']]
 
 ### Media Signals
-- `youtube-VrpEyglYgeU` — source page linked; role: supporting context only.
-- Interpretation rule for `youtube-VrpEyglYgeU`: attribute claims to the recording or speaker unless independently corroborated.
-- Evidence links for `youtube-VrpEyglYgeU` (supporting context only): [[youtube-VrpEyglYgeU]]
+No linked video, transcript, or slide source has been attached yet.

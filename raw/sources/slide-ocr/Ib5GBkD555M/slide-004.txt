@@ -1,0 +1,23 @@
+Ee How StrongDM’s Al team build serious software
+U Hy without even looking at the code
+cee Fair Last week | hnted a 5 demo I had seen from a team enplementing whet Dan
+‘Shapiro caled the Dark Factory level of Al adopton, where no human even
+lookcs et the code the coding agents are producing. Thet team was part of
+‘StrongOM, and they've jus! shared the frst pubic description of how they are
+wortong in Software Factones and the Agenbc Momere:
+‘We bull Software Factory. non-interactive development where specs +
+‘s0enarios drive agents that write code, nun harnesses, and convene
+‘without human review. |. .}
+- . th Sen oF mantra form:
+| | Microsoft = Why am { dosng this? fmpited: the mode! should be doing thes inateed)
+tn pula form:
+* Code must nol be written by humans
+© Code must nol be renewed by humans.
+Fanaty, 1 practical form:
+» M you haven’! spent at lnest $1,000 on tohens todey per human.
+eee ee oo engnesr, your software factory has room for improvernent
+Baw Nel| ——
+/ ee why software factories fail | adexhorthy Wortd's Fair |
+aaa erer . ae
+Harness Engineering is not Enough: Why Software Factories Fail
+a World Dex Horthy = humanlayer

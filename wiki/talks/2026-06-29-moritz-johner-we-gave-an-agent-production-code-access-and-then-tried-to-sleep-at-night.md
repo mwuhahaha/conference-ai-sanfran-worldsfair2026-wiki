@@ -29,37 +29,63 @@ We let an agent touch production code to fix CVEs. That is either automation or 
 
 ## Synthesis
 ### Synthesized Breakdown
-We let an agent touch production code to fix CVEs. That is either automation or a supply chain incident, depending on how honest your architecture is. PatchPilot started simple: find vulnerable dependencies, patch them, open a PR, let CI prove the fix, move on. Then reality showed up.
+Thanks everyone for joining in. Um thanks for the great intro, by the way. Um So, yeah. My talk today is about um so titles we give in Asia production code access and then try to sleep at night.
 
 ### Speaker And Company Context
 - [[moritz-johner|Moritz Johner]] — Staff Engineer at [[form3|Form3]].
 
 ### Topics Covered
 - [[agent-security]]
+- [[agentic-search]]
+- [[ai-sandboxes]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-LqLoYksJ6do-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/LqLoYksJ6do.txt` (4,014 words).
+- [[youtube-LqLoYksJ6do]] — related YouTube source page.
+- [[youtube-LqLoYksJ6do-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[moritz-johner]]
 
+## Official YouTube Recording
+- [[youtube-LqLoYksJ6do|We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3]] — official AI Engineer YouTube recording published 2026-07-20.
+- Evidence status: [[youtube-LqLoYksJ6do-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-LqLoYksJ6do]] - dedicated official event recording.
+- [[youtube-LqLoYksJ6do-transcript]] - dedicated official recording transcript.
+
+- [[youtube-LqLoYksJ6do-slides]] — extracted from the related public AI Engineer video.
+
+- Source video: `youtube-LqLoYksJ6do`
+- Slide deck: [[youtube-LqLoYksJ6do-slides|Slides: We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3]] — 5 visible slide image(s).
+![[assets/slides/LqLoYksJ6do/slide-001.jpg]]
+![[assets/slides/LqLoYksJ6do/slide-002.jpg]]
+![[assets/slides/LqLoYksJ6do/slide-003.jpg]]
+- Slide-derived themes for `youtube-LqLoYksJ6do`: code, gave, production, access, tried, sleep, night, track.
+
 ## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/LqLoYksJ6do.txt` (4,014 words).
+
+## Transcript Markdown
+- [[youtube-LqLoYksJ6do-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/LqLoYksJ6do.txt`.
 
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-LqLoYksJ6do` — 4,014 transcript words; 5 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-LqLoYksJ6do`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-LqLoYksJ6do`: case, docker, sandbox, access, repository, order, deterministic, give.
+- Slide-derived themes for `youtube-LqLoYksJ6do`: code, gave, production, access, tried, sleep, night, track.
+- Evidence links for `youtube-LqLoYksJ6do` (primary event evidence): [[youtube-LqLoYksJ6do]], [[youtube-LqLoYksJ6do-transcript]], [[youtube-LqLoYksJ6do-slides]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.

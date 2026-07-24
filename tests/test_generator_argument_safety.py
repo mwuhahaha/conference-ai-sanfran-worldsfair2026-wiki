@@ -148,6 +148,19 @@ def test_synthesis_summary_is_private_state_not_a_public_raw_source():
     assert not (ROOT / "raw" / "sources" / "topic-evidence-table-summary.json").exists()
 
 
+def test_synthesis_private_outputs_use_runner_owned_adapter_state(
+    tmp_path, monkeypatch
+):
+    adapter_state = tmp_path / "adapter-state"
+    monkeypatch.setenv("WIKI_MAKER_ADAPTER_STATE_DIR", str(adapter_state))
+
+    module = load_script("generate_synthesis_layers.py")
+
+    assert module.PRIVATE_QUALITY_DIR == adapter_state / "private-quality"
+    assert module.INTERNAL_SYNTHESIS_DIR == adapter_state / "synthesis-layers"
+    assert module.RUN_RECEIPT_DIR == adapter_state / "runs"
+
+
 def test_topic_source_coverage_replaces_legacy_sections_without_self_reinforcement(
     tmp_path, monkeypatch
 ):

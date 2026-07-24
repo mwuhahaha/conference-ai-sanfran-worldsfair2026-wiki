@@ -12,13 +12,13 @@ sourceAssessment:
   subjectId: person:garry-tan
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:bd5a59a1170b417e3054021bc0c71fc021b9917be3c6ca33cd90232040eef45f
+sourceAssessmentBodySha256: sha256:9266fcca5f91b13f77cf41b35aa2ce269c331b33b0f612f30d061a1d28f130af
 ---
 # Garry Tan
 
@@ -34,6 +34,8 @@ Garry is President & CEO at [[y-combinator|Y Combinator]], which he rejoined in 
 ## Conference Sessions
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan]] — Closing Keynote: Garry Tan (2026-07-01, 4:50pm-5:10pm)
 
+## Livestream Appearances
+- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [watch at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) in WF26: Harness Engineering & Startup Battlefield.
 ## Evidence Graph
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
@@ -44,5 +46,3 @@ Event participation, role, and affiliation details remain attributed to the offi
 
 ### Media Signals
 No linked video, transcript, or slide source has been attached yet.
-## Livestream Appearances
-- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [watch at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) in WF26: Harness Engineering & Startup Battlefield.

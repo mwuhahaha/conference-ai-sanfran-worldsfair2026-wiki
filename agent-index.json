@@ -3,6 +3,6 @@
     "manifest": "dist/agent/manifest.json",
     "public_manifest": "agent/manifest.json",
     "schema_version": 1,
-    "snapshot_id": "snapshot:fda9f4494156e2236cca37770b54b1ee95d481cf8c2b4a4154aef00392134cd2"
+    "snapshot_id": "snapshot:3989e7374effbef90f04c0ab0d5e308f98a2366bdbe93201251a3f85f607b3df"
   }
 }

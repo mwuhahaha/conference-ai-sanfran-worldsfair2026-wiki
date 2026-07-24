@@ -422,6 +422,14 @@ class YoutubeMonitorTests(unittest.TestCase):
             [
                 (
                     [
+                        sys.executable,
+                        "scripts/generate_attendance_calibration.py",
+                        "--sync-current",
+                    ],
+                    900,
+                ),
+                (
+                    [
                         "/tools/wiki-from-topic-maker",
                         "update",
                         str(root),
@@ -468,8 +476,32 @@ class YoutubeMonitorTests(unittest.TestCase):
                 for call in run.call_args_list
             ],
         )
-        self.assertEqual(4, len(result))
+        self.assertEqual(5, len(result))
         self.assertTrue(all(item["returncode"] == 0 for item in result))
+
+    def test_enrichment_stops_when_canonical_attendance_sync_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            completed = Mock(returncode=1)
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "RAW", root / "raw" / "sources"
+            ), patch.object(monitor, "run", return_value=completed) as run, patch.object(
+                monitor, "wiki_maker_executable"
+            ) as maker:
+                result = monitor.run_enrichment(0, [])
+
+        self.assertEqual(
+            [
+                sys.executable,
+                "scripts/generate_attendance_calibration.py",
+                "--sync-current",
+            ],
+            run.call_args.args[0],
+        )
+        self.assertEqual(900, run.call_args.kwargs["timeout"])
+        self.assertEqual(1, len(result))
+        self.assertEqual(1, result[0]["returncode"])
+        maker.assert_not_called()
 
     def test_playable_manifest_projection_ignores_private_and_upcoming_changes(self):
         before = {
@@ -2046,6 +2078,8 @@ class YoutubeMonitorTests(unittest.TestCase):
 
             with patch.object(monitor, "ROOT", root), patch.object(
                 monitor, "WIKI", root / "wiki"
+            ), patch.object(
+                monitor, "RAW", root / "raw" / "sources"
             ), patch.object(monitor, "STATE_DIR", state), patch.object(
                 monitor, "_ACTIVE_TRANSACTION", transaction
             ), patch.object(

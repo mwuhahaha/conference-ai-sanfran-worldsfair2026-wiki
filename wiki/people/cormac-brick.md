@@ -12,13 +12,13 @@ sourceAssessment:
   subjectId: person:cormac-brick
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:f3a882ce26e81b48754acfe9a88ca607c0f1e398f0286570721d8db134e539e6
+sourceAssessmentBodySha256: sha256:adab75546d3a3f64657a1a94ce7082128a03342d7e0c51dd59aa20a1249e8baa
 ---
 # Cormac Brick
 
@@ -43,6 +43,9 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]
 
 ### Media Signals
+- `youtube-hacEQHHhu2Q` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-hacEQHHhu2Q`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-hacEQHHhu2Q` (supporting context only): [[youtube-hacEQHHhu2Q]]
 - `youtube--TiET_K-E_g` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
 - Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

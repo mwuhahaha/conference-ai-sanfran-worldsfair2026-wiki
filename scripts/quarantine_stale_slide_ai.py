@@ -544,9 +544,17 @@ def private_report_payload(report: dict[str, object]) -> dict[str, object]:
     }
 
 
+def private_report_path() -> Path:
+    adapter_state = os.environ.get("WIKI_MAKER_ADAPTER_STATE_DIR")
+    if adapter_state:
+        return Path(adapter_state).resolve() / "classifier-scan.json"
+    return PRIVATE_REPORT_JSON
+
+
 def write_private_report(report: dict[str, object]) -> Path:
+    path = private_report_path()
     atomic_write_text(
-        PRIVATE_REPORT_JSON,
+        path,
         json.dumps(
             private_report_payload(report),
             indent=2,
@@ -554,7 +562,7 @@ def write_private_report(report: dict[str, object]) -> Path:
             sort_keys=True,
         ),
     )
-    return PRIVATE_REPORT_JSON
+    return path
 
 
 def public_violation_count(report: dict[str, object]) -> int:

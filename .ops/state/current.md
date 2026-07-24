@@ -2,12 +2,49 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-20T12:15:07Z
+updated: 2026-07-24T14:38:38Z
 ---
 
 # AI Engineer World's Fair 2026 Project State
 
 The completed AIE-specific conversion plan remains closed. Follow-up public navigation work now lives in `.ops/plans/worldsfair-static-navigation-followup.md`.
+
+## 2026-07-24 Official-Video Refresh
+
+- A fresh owner-validated playlist plus exact official-channel reconciliation
+  found 20 official records absent from the prior manifest: 19 playable talk
+  recordings and 1 scheduled premiere. Four existing
+  placeholder/premiere records also became playable.
+- All 23 newly playable recordings were imported with caption transcripts,
+  typed slide outcomes, resource projections, and conservative talk
+  associations.
+- The official-media union now contains 66 associated items: 55 dedicated talk
+  recordings, 3 official event livestreams, 3 scheduled-premiere records, and
+  5 unavailable playlist placeholders. The playlist itself contains 46
+  entries: 41 visible and 5 unavailable.
+- All 55 dedicated talk recordings have cached transcripts and typed slide
+  outcomes. Two premieres remain pending because no playable recording is
+  available: `jRCpXUjz4CI` and `hacEQHHhu2Q`.
+- Unified maker run `update-20260724T135423Z-49fe2e15ac` passed all project
+  adapters and maker validation, then promoted locally. Promotion
+  `promotion:61ae11720a3c4d580402500291633b6deb1be5a7a2abe2ae95c355b847a14d73`
+  is committed with no recovery action.
+- The aligned agent snapshot is
+  `snapshot:3989e7374effbef90f04c0ab0d5e308f98a2366bdbe93201251a3f85f607b3df`:
+  2,535 pages, 3,825 evidence records, 451 resources, 1,540 entities, 1,845
+  relationships, 3 claims, and 10 patterns.
+- The monitor now performs canonical attendance sync before the guarded maker
+  run, while the maker adapter checks the read-only source state. Synthesis and
+  slide-classifier private outputs honor the runner-owned adapter state
+  directory.
+- A fresh post-import dry run at `2026-07-24T14:29:21Z` found zero new entries
+  and no manifest or playable-evidence changes. The focused 119-test suite,
+  Ruff, Python compilation, profile JSON validation, diff checks, maker
+  validation, and post-promotion media/attendance gates pass.
+- Receipt:
+  `.ops/state/runs/20260724T143838Z-official-video-refresh.md`. No commit, push,
+  timer enablement, or external deployment was performed; the timer remains
+  disabled and inactive.
 
 ## 2026-07-20 Search And Official-Media Refresh
 

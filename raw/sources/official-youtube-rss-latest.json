@@ -1,156 +1,156 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-20T08:05:04.205828+00:00",
+  "checked_at": "2026-07-24T12:36:41.455161+00:00",
   "entries": [
     {
       "channel": "AI Engineer",
-      "id": "wEc9aG7cRQc",
-      "published": "2026-07-20T06:25:22+00:00",
-      "published_date": "2026-07-20",
+      "id": "O-CBZ3JtRvo",
+      "published": "2026-07-24T05:19:15+00:00",
+      "published_date": "2026-07-24",
       "source": "official_youtube_rss",
-      "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
-      "updated": "2026-07-20T06:25:50+00:00",
-      "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc"
+      "title": "Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
+      "updated": "2026-07-24T08:32:26+00:00",
+      "url": "https://www.youtube.com/watch?v=O-CBZ3JtRvo"
     },
     {
       "channel": "AI Engineer",
-      "id": "m24UKZomm7k",
-      "published": "2026-07-20T06:25:18+00:00",
-      "published_date": "2026-07-20",
+      "id": "GgLQ02aO-hs",
+      "published": "2026-07-23T17:45:06+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
-      "updated": "2026-07-20T06:25:18+00:00",
-      "url": "https://www.youtube.com/watch?v=m24UKZomm7k"
+      "title": "The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller",
+      "updated": "2026-07-24T02:38:46+00:00",
+      "url": "https://www.youtube.com/watch?v=GgLQ02aO-hs"
     },
     {
       "channel": "AI Engineer",
-      "id": "fnLBmfsI_Fg",
-      "published": "2026-07-20T06:25:15+00:00",
-      "published_date": "2026-07-20",
+      "id": "-I5W5QVAT8E",
+      "published": "2026-07-23T17:30:06+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Your Voice Agent Doesn't Need a Frontier Model - Joel Allou & Ornella Bahidika, Microsoft",
-      "updated": "2026-07-20T06:25:15+00:00",
-      "url": "https://www.youtube.com/watch?v=fnLBmfsI_Fg"
+      "title": "Notion's Token Town — Sarah Sachs, Notion",
+      "updated": "2026-07-23T17:56:01+00:00",
+      "url": "https://www.youtube.com/watch?v=-I5W5QVAT8E"
     },
     {
       "channel": "AI Engineer",
-      "id": "B8l81jhvHbI",
-      "published": "2026-07-20T06:25:12+00:00",
-      "published_date": "2026-07-20",
+      "id": "Ib5GBkD555M",
+      "published": "2026-07-23T16:30:06+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
-      "updated": "2026-07-20T06:25:42+00:00",
-      "url": "https://www.youtube.com/watch?v=B8l81jhvHbI"
+      "title": "Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
+      "updated": "2026-07-23T16:51:24+00:00",
+      "url": "https://www.youtube.com/watch?v=Ib5GBkD555M"
     },
     {
       "channel": "AI Engineer",
-      "id": "bUJgirn4_yc",
-      "published": "2026-07-20T06:25:07+00:00",
-      "published_date": "2026-07-20",
+      "id": "2JX6JYyQG4Y",
+      "published": "2026-07-23T16:00:06+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
-      "updated": "2026-07-20T06:25:44+00:00",
-      "url": "https://www.youtube.com/watch?v=bUJgirn4_yc"
+      "title": "Perception Agents — Antje Barth, Amazon AGI Lab",
+      "updated": "2026-07-23T19:37:03+00:00",
+      "url": "https://www.youtube.com/watch?v=2JX6JYyQG4Y"
     },
     {
       "channel": "AI Engineer",
-      "id": "ltv-L5oMPIs",
-      "published": "2026-07-20T06:25:04+00:00",
-      "published_date": "2026-07-20",
+      "id": "kRkcNOsRyYg",
+      "published": "2026-07-23T07:00:23+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)",
-      "updated": "2026-07-20T06:25:38+00:00",
-      "url": "https://www.youtube.com/watch?v=ltv-L5oMPIs"
+      "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
+      "updated": "2026-07-23T19:45:55+00:00",
+      "url": "https://www.youtube.com/watch?v=kRkcNOsRyYg"
     },
     {
       "channel": "AI Engineer",
-      "id": "Q9ycQHbDdJs",
-      "published": "2026-07-20T06:25:01+00:00",
-      "published_date": "2026-07-20",
+      "id": "u6jJcIFDLE4",
+      "published": "2026-07-23T05:00:02+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
-      "updated": "2026-07-20T06:25:31+00:00",
-      "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs"
+      "title": "Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates",
+      "updated": "2026-07-23T05:19:43+00:00",
+      "url": "https://www.youtube.com/watch?v=u6jJcIFDLE4"
     },
     {
       "channel": "AI Engineer",
-      "id": "maTp79FD9gI",
-      "published": "2026-07-20T06:24:59+00:00",
-      "published_date": "2026-07-20",
+      "id": "H7puB0RwJMM",
+      "published": "2026-07-23T04:00:02+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens",
-      "updated": "2026-07-20T06:25:31+00:00",
-      "url": "https://www.youtube.com/watch?v=maTp79FD9gI"
+      "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
+      "updated": "2026-07-23T04:23:13+00:00",
+      "url": "https://www.youtube.com/watch?v=H7puB0RwJMM"
     },
     {
       "channel": "AI Engineer",
-      "id": "hMlLw1LeIK8",
-      "published": "2026-07-20T06:24:55+00:00",
-      "published_date": "2026-07-20",
+      "id": "418t26CVz-w",
+      "published": "2026-07-23T03:00:01+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
-      "updated": "2026-07-20T06:25:36+00:00",
-      "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8"
+      "title": "Local Agentic Theory For Mobile Games — Shafik Quoraishee & Joanne Song, The New York Times",
+      "updated": "2026-07-23T03:24:30+00:00",
+      "url": "https://www.youtube.com/watch?v=418t26CVz-w"
     },
     {
       "channel": "AI Engineer",
-      "id": "LC3-P7v3yoI",
-      "published": "2026-07-20T06:24:53+00:00",
-      "published_date": "2026-07-20",
+      "id": "mOf-PP4mVjA",
+      "published": "2026-07-23T02:00:03+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Skills are the New SDKs - Elvin Aghammadzada, DataRobot",
-      "updated": "2026-07-20T06:25:56+00:00",
-      "url": "https://www.youtube.com/watch?v=LC3-P7v3yoI"
+      "title": "Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
+      "updated": "2026-07-23T02:25:12+00:00",
+      "url": "https://www.youtube.com/watch?v=mOf-PP4mVjA"
     },
     {
       "channel": "AI Engineer",
-      "id": "0RNNfxpdbQk",
-      "published": "2026-07-20T06:24:50+00:00",
-      "published_date": "2026-07-20",
+      "id": "Sir59K8ZDPU",
+      "published": "2026-07-23T01:00:07+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest",
-      "updated": "2026-07-20T06:25:16+00:00",
-      "url": "https://www.youtube.com/watch?v=0RNNfxpdbQk"
+      "title": "Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley",
+      "updated": "2026-07-23T01:14:30+00:00",
+      "url": "https://www.youtube.com/watch?v=Sir59K8ZDPU"
     },
     {
       "channel": "AI Engineer",
-      "id": "_cVfz88_j7A",
-      "published": "2026-07-20T06:24:47+00:00",
-      "published_date": "2026-07-20",
+      "id": "u1yaOeEX4e8",
+      "published": "2026-07-23T00:00:04+00:00",
+      "published_date": "2026-07-23",
       "source": "official_youtube_rss",
-      "title": "Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs",
-      "updated": "2026-07-20T06:25:19+00:00",
-      "url": "https://www.youtube.com/watch?v=_cVfz88_j7A"
+      "title": "Learned Execution Graphs for Anomaly Detection & Drift in APIs — Ritvik Pandya, JP Morgan Chase",
+      "updated": "2026-07-23T00:00:36+00:00",
+      "url": "https://www.youtube.com/watch?v=u1yaOeEX4e8"
     },
     {
       "channel": "AI Engineer",
-      "id": "-561cZmir5Q",
-      "published": "2026-07-19T20:00:06+00:00",
-      "published_date": "2026-07-19",
+      "id": "Btk8wDUVs74",
+      "published": "2026-07-22T23:00:11+00:00",
+      "published_date": "2026-07-22",
       "source": "official_youtube_rss",
-      "title": "From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs",
-      "updated": "2026-07-19T20:19:03+00:00",
-      "url": "https://www.youtube.com/watch?v=-561cZmir5Q"
+      "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
+      "updated": "2026-07-23T07:16:44+00:00",
+      "url": "https://www.youtube.com/watch?v=Btk8wDUVs74"
     },
     {
       "channel": "AI Engineer",
-      "id": "lMCxVorb9wM",
-      "published": "2026-07-19T16:00:06+00:00",
-      "published_date": "2026-07-19",
+      "id": "jt1Pbr_n6oU",
+      "published": "2026-07-22T21:30:31+00:00",
+      "published_date": "2026-07-22",
       "source": "official_youtube_rss",
-      "title": "You Didn't Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit",
-      "updated": "2026-07-19T16:14:56+00:00",
-      "url": "https://www.youtube.com/watch?v=lMCxVorb9wM"
+      "title": "Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
+      "updated": "2026-07-22T21:31:03+00:00",
+      "url": "https://www.youtube.com/watch?v=jt1Pbr_n6oU"
     },
     {
       "channel": "AI Engineer",
-      "id": "JJGbw4ggaFs",
-      "published": "2026-07-19T13:45:06+00:00",
-      "published_date": "2026-07-19",
+      "id": "khVX_BUnEwU",
+      "published": "2026-07-22T20:00:06+00:00",
+      "published_date": "2026-07-22",
       "source": "official_youtube_rss",
-      "title": "From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud",
-      "updated": "2026-07-19T14:09:52+00:00",
-      "url": "https://www.youtube.com/watch?v=JJGbw4ggaFs"
+      "title": "Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
+      "updated": "2026-07-22T20:19:40+00:00",
+      "url": "https://www.youtube.com/watch?v=khVX_BUnEwU"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"

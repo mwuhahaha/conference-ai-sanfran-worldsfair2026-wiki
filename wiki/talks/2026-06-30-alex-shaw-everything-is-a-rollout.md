@@ -51,8 +51,12 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[alex-shaw]]
 - [[ryan-marten]]
 
+## Official YouTube Recording
+- [[youtube-jRCpXUjz4CI]] — scheduled official AI Engineer YouTube premiere for 2026-07-24.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this link as event-association and premiere-state metadata only until the recording is playable; do not use it as recording, transcript, or slide-content evidence.
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-jRCpXUjz4CI]] - supporting context; not the exact session recording.
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
 
@@ -63,7 +67,9 @@ No high-confidence attendance icon signal is shown for this talk. The sampled vi
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-jRCpXUjz4CI` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-jRCpXUjz4CI`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-jRCpXUjz4CI` (supporting context only): [[youtube-jRCpXUjz4CI]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

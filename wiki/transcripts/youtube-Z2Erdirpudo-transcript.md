@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator"
+title: "Transcript: Imagination Engineering: \"Live in the future and then build what's missing.\""
 category: "transcripts"
 videoId: "Z2Erdirpudo"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2710"
 ---
 
-# Transcript: Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator
+# Transcript: Imagination Engineering: "Live in the future and then build what's missing."
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=Z2Erdirpudo)

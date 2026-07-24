@@ -10,13 +10,13 @@ sourceAssessment:
   subjectId: person:ryan-marten
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:32bb44d8308bb8751d11157b0e9c3209a4f7bbcc78a730b6bf32f5da17d025f7
+sourceAssessmentBodySha256: sha256:9f73b9f82f5af083a84718c79d05ed7888523753943dbd138c65833e2022d0c4
 ---
 # Ryan Marten
 
@@ -40,4 +40,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-jRCpXUjz4CI` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-jRCpXUjz4CI`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-jRCpXUjz4CI` (supporting context only): [[youtube-jRCpXUjz4CI]]

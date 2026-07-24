@@ -1,12 +1,12 @@
 ---
-title: "Transcript: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners"
+title: "Transcript: \"The biggest challenge in your stack? Evals, Evals, Evals\" - 2026 State of AI Engineering results"
 category: "transcripts"
 videoId: "RGe6EjucbzI"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2999"
 ---
 
-# Transcript: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners
+# Transcript: "The biggest challenge in your stack? Evals, Evals, Evals" - 2026 State of AI Engineering results
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=RGe6EjucbzI)

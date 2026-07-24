@@ -12,15 +12,16 @@ sourceAssessment:
   subjectId: concept:software-factories
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-n97BCfyFIvw
-sourceAssessmentBodySha256: sha256:b4a1da13634012bf9aacee55c0c373a6048fae8013d95ece0d2e9d53e70c25e7
+sourceAssessmentBodySha256: sha256:c731a92d74ce685bf57692d318c0a1bfd7de8932a112b1f662aaf92dcdecd8d5
 ---
 # Software Factories
 
@@ -128,6 +129,48 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[amazon-web-services-aws|Amazon Web Services (AWS)]]
 - [[tessl|Tessl]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 29 | Related pages outside the main evidence categories. |
+| resources | 10 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 15 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-qdZzND79mcg]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-Ib5GBkD555M]]
+- [[youtube--I5W5QVAT8E]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-Ib5GBkD555M-slides]]
+- [[youtube--I5W5QVAT8E-slides]]
+- [[youtube-c35YoMdnI78-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-Ib5GBkD555M-transcript]]
+- [[youtube--I5W5QVAT8E-transcript]]
+- [[youtube-c35YoMdnI78-transcript]]
+- [[youtube-n97BCfyFIvw-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -146,6 +189,21 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
 
 ### Media Signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
+- Slide-derived themes for `youtube-Ib5GBkD555M`: software, harness, enough, team, engineering, factories, fail, pierre.
+- Evidence links for `youtube-Ib5GBkD555M` (primary event evidence): [[youtube-Ib5GBkD555M]], [[youtube-Ib5GBkD555M-transcript]], [[youtube-Ib5GBkD555M-slides]]
+- `youtube--I5W5QVAT8E` — 4,014 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube--I5W5QVAT8E`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube--I5W5QVAT8E`: model, notion, today, customers, product, okay, always, system.
+- Slide-derived themes for `youtube--I5W5QVAT8E`: engineering, plan, future, fair, recently, purchased, each, subscription.
+- Evidence links for `youtube--I5W5QVAT8E` (primary event evidence): [[youtube--I5W5QVAT8E]], [[youtube--I5W5QVAT8E-transcript]], [[youtube--I5W5QVAT8E-slides]]
 - `youtube-c35YoMdnI78` — 11,538 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-c35YoMdnI78`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-c35YoMdnI78`: loops, loop, software, code, today, debate, engineering, should.
@@ -161,11 +219,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
@@ -174,45 +227,3 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-bVNNvWq6dKo` — 6 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
 - Evidence links for `youtube-bVNNvWq6dKo` (supporting context only): [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 29 | Related pages outside the main evidence categories. |
-| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 5 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-
-### Resources
-- [[aie-wiki-generation-delta]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-qdZzND79mcg]]
-- [[youtube-c35YoMdnI78]]
-- [[youtube-n97BCfyFIvw]]
-- [[youtube-4sX_He5c4sI]]
-
-### Slides
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-c35YoMdnI78-slides]]
-- [[youtube-n97BCfyFIvw-slides]]
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-
-### Transcripts
-- [[youtube-c35YoMdnI78-transcript]]
-- [[youtube-n97BCfyFIvw-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-htM02KMNZnk-transcript]]

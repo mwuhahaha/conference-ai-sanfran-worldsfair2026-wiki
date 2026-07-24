@@ -8,14 +8,14 @@ sourceAssessment:
   subjectId: concept:voice-agents
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-Z2Erdirpudo
-sourceAssessmentBodySha256: sha256:d2b1f0bc985766425d71c78618ef147c8dfc531d0838c7a9dca9a453aa229cb2
+sourceAssessmentBodySha256: sha256:c87e9c97da1e5cf495d9664e2201981de384185fae19264b7d5999b2e1b6e5b9
 ---
 # Voice Agents
 
@@ -122,29 +122,6 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
-## Evidence Graph
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
-
-### Linked Sessions
-- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
-- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
-- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more|I Monitored Crime Audio. Voice Agents Scare Me More.]]
-- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents|\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents]]
-- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one|5 Voice Agent Failure Modes You'll Hit in Week One]]
-- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
-- [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion|Tolan: Voice-First AI Companion]]
-- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
-- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
-
-### Media Signals
-- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
-- Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
-- Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
-
 ## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
@@ -174,3 +151,25 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-P_RI1kCkRbo-slides]]
 - [[youtube-P_RI1kCkRbo-dense-slides]]
 - [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+## Evidence Graph
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Linked Sessions
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more|I Monitored Crime Audio. Voice Agents Scare Me More.]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents|\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents]]
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one|5 Voice Agent Failure Modes You'll Hit in Week One]]
+- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
+- [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion|Tolan: Voice-First AI Companion]]
+- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
+- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
+
+### Media Signals
+- `youtube-P_RI1kCkRbo` — 9 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
+- Evidence links for `youtube-P_RI1kCkRbo` (supporting context only): [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- Evidence links for `youtube-Bc6Ojl2XS1w` (supporting context only): [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]

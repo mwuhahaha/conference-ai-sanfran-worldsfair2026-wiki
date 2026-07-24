@@ -6,6 +6,12 @@
     "slide_count": 32
   },
   {
+    "id": "youtube--I5W5QVAT8E-slides",
+    "title": "Slides: Notion's Token Town — Sarah Sachs, Notion",
+    "path": "wiki/slides/youtube--I5W5QVAT8E-slides.md",
+    "slide_count": 12
+  },
+  {
     "id": "youtube--TiET_K-E_g-dense-slides",
     "title": "Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
     "path": "wiki/slides/youtube--TiET_K-E_g-dense-slides.md",
@@ -78,6 +84,12 @@
     "slide_count": 18
   },
   {
+    "id": "youtube-1EZdpEhwmNc-slides",
+    "title": "Slides: Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk",
+    "path": "wiki/slides/youtube-1EZdpEhwmNc-slides.md",
+    "slide_count": 16
+  },
+  {
     "id": "youtube-1IdzkRVmWAA-slides",
     "title": "Slides: How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
     "path": "wiki/slides/youtube-1IdzkRVmWAA-slides.md",
@@ -88,6 +100,12 @@
     "title": "Slides: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
     "path": "wiki/slides/youtube-1P1hJ36rxM0-slides.md",
     "slide_count": 15
+  },
+  {
+    "id": "youtube-1lgFGaHoGq8-slides",
+    "title": "Slides: AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
+    "path": "wiki/slides/youtube-1lgFGaHoGq8-slides.md",
+    "slide_count": 12
   },
   {
     "id": "youtube-1t-9-s1brcg-dense-slides",
@@ -396,6 +414,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-9QebvrrY3KY-slides",
+    "title": "Slides: Claude for Long-Horizon Tasks — Lance Martin, Anthropic",
+    "path": "wiki/slides/youtube-9QebvrrY3KY-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube-9fubhllmsBU-slides",
     "title": "Slides: Field Guide to Fable — Thariq Shihipar, Anthropic",
     "path": "wiki/slides/youtube-9fubhllmsBU-slides.md",
@@ -532,6 +556,12 @@
     "title": "Slides: Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
     "path": "wiki/slides/youtube-BqZrTdgBaPw-slides.md",
     "slide_count": 2
+  },
+  {
+    "id": "youtube-Btk8wDUVs74-slides",
+    "title": "Slides: From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
+    "path": "wiki/slides/youtube-Btk8wDUVs74-slides.md",
+    "slide_count": 19
   },
   {
     "id": "youtube-CDqzWpwkSls-slides",
@@ -738,6 +768,12 @@
     "slide_count": 22
   },
   {
+    "id": "youtube-H7puB0RwJMM-slides",
+    "title": "Slides: Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
+    "path": "wiki/slides/youtube-H7puB0RwJMM-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-HEFSExa0xl0-slides",
     "title": "Slides: Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
     "path": "wiki/slides/youtube-HEFSExa0xl0-slides.md",
@@ -786,6 +822,12 @@
     "slide_count": 80
   },
   {
+    "id": "youtube-I3znWC3MEXM-slides",
+    "title": "Slides: It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard",
+    "path": "wiki/slides/youtube-I3znWC3MEXM-slides.md",
+    "slide_count": 11
+  },
+  {
     "id": "youtube-IJXjTLPzvAU-slides",
     "title": "Slides: The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
     "path": "wiki/slides/youtube-IJXjTLPzvAU-slides.md",
@@ -802,6 +844,12 @@
     "title": "Slides: Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
     "path": "wiki/slides/youtube-IQkVMvXQKLY-slides.md",
     "slide_count": 14
+  },
+  {
+    "id": "youtube-Ib5GBkD555M-slides",
+    "title": "Slides: Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
+    "path": "wiki/slides/youtube-Ib5GBkD555M-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-IddXPepIAS4-slides",
@@ -966,6 +1014,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-LqLoYksJ6do-slides",
+    "title": "Slides: We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3",
+    "path": "wiki/slides/youtube-LqLoYksJ6do-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-LrGCT7G_rU8-slides",
     "title": "Slides: Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
     "path": "wiki/slides/youtube-LrGCT7G_rU8-slides.md",
@@ -1024,6 +1078,12 @@
     "title": "Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
     "path": "wiki/slides/youtube-NuePCNMpWGc-slides.md",
     "slide_count": 4
+  },
+  {
+    "id": "youtube-O-CBZ3JtRvo-slides",
+    "title": "Slides: Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
+    "path": "wiki/slides/youtube-O-CBZ3JtRvo-slides.md",
+    "slide_count": 21
   },
   {
     "id": "youtube-OV56RddyFuU-dense-slides",
@@ -1170,6 +1230,12 @@
     "slide_count": 9
   },
   {
+    "id": "youtube-Q0VkgCyNVUg-slides",
+    "title": "Slides: CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j",
+    "path": "wiki/slides/youtube-Q0VkgCyNVUg-slides.md",
+    "slide_count": 22
+  },
+  {
     "id": "youtube-QuuIywMG4s8-slides",
     "title": "Slides: Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
     "path": "wiki/slides/youtube-QuuIywMG4s8-slides.md",
@@ -1272,6 +1338,12 @@
     "slide_count": 7
   },
   {
+    "id": "youtube-Sir59K8ZDPU-slides",
+    "title": "Slides: Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley",
+    "path": "wiki/slides/youtube-Sir59K8ZDPU-slides.md",
+    "slide_count": 13
+  },
+  {
     "id": "youtube-T0HhO4YtTfE-slides",
     "title": "Slides: AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
     "path": "wiki/slides/youtube-T0HhO4YtTfE-slides.md",
@@ -1356,6 +1428,18 @@
     "slide_count": 5
   },
   {
+    "id": "youtube-VGN22pPpb-8-slides",
+    "title": "Slides: Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j",
+    "path": "wiki/slides/youtube-VGN22pPpb-8-slides.md",
+    "slide_count": 32
+  },
+  {
+    "id": "youtube-VrpEyglYgeU-slides",
+    "title": "Slides: In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar",
+    "path": "wiki/slides/youtube-VrpEyglYgeU-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-WJjInLeaJjo-dense-slides",
     "title": "Dense Slides: Building Agents at Cloud Scale — Antje Barth, AWS",
     "path": "wiki/slides/youtube-WJjInLeaJjo-dense-slides.md",
@@ -1378,6 +1462,12 @@
     "title": "Slides: WkBPX-oDMnA",
     "path": "wiki/slides/youtube-WkBPX-oDMnA-slides.md",
     "slide_count": 12
+  },
+  {
+    "id": "youtube-X1kp-ABIIxQ-slides",
+    "title": "Slides: Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest",
+    "path": "wiki/slides/youtube-X1kp-ABIIxQ-slides.md",
+    "slide_count": 15
   },
   {
     "id": "youtube-XNtkiQJ49Ps-dense-slides",
@@ -1455,6 +1545,12 @@
     "id": "youtube-YZQsWVeN3rE-slides",
     "title": "Slides: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
     "path": "wiki/slides/youtube-YZQsWVeN3rE-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-YnNF55QV0zs-slides",
+    "title": "Slides: Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
+    "path": "wiki/slides/youtube-YnNF55QV0zs-slides.md",
     "slide_count": 4
   },
   {
@@ -1708,6 +1804,12 @@
     "title": "Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
     "path": "wiki/slides/youtube-cVzf49yg0D8-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-cgimkNGNjvU-slides",
+    "title": "Slides: Agentic Development Security — Ezra Tanzer, Snyk",
+    "path": "wiki/slides/youtube-cgimkNGNjvU-slides.md",
+    "slide_count": 18
   },
   {
     "id": "youtube-dRmWYHuIJxM-slides",
@@ -1992,6 +2094,12 @@
     "slide_count": 12
   },
   {
+    "id": "youtube-imFedndyXYQ-slides",
+    "title": "Slides: Using LLMs to Secure Source Code — Eugene Yan, Anthropic",
+    "path": "wiki/slides/youtube-imFedndyXYQ-slides.md",
+    "slide_count": 7
+  },
+  {
     "id": "youtube-jVGCulhBRZI-dense-slides",
     "title": "Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
     "path": "wiki/slides/youtube-jVGCulhBRZI-dense-slides.md",
@@ -2034,6 +2142,12 @@
     "slide_count": 3
   },
   {
+    "id": "youtube-jt1Pbr_n6oU-slides",
+    "title": "Slides: Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
+    "path": "wiki/slides/youtube-jt1Pbr_n6oU-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-k8cnVCMYmNc-dense-slides",
     "title": "Dense Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
     "path": "wiki/slides/youtube-k8cnVCMYmNc-dense-slides.md",
@@ -2064,10 +2178,22 @@
     "slide_count": 18
   },
   {
+    "id": "youtube-kRkcNOsRyYg-slides",
+    "title": "Slides: AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
+    "path": "wiki/slides/youtube-kRkcNOsRyYg-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-kZsf_Sfm7RU-slides",
     "title": "Slides: The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
     "path": "wiki/slides/youtube-kZsf_Sfm7RU-slides.md",
     "slide_count": 19
+  },
+  {
+    "id": "youtube-khVX_BUnEwU-slides",
+    "title": "Slides: Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
+    "path": "wiki/slides/youtube-khVX_BUnEwU-slides.md",
+    "slide_count": 31
   },
   {
     "id": "youtube-knDDGYHnnSI-dense-slides",
@@ -2116,6 +2242,12 @@
     "title": "Slides: Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
     "path": "wiki/slides/youtube-mFLlVpnGpds-slides.md",
     "slide_count": 6
+  },
+  {
+    "id": "youtube-mOf-PP4mVjA-slides",
+    "title": "Slides: Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
+    "path": "wiki/slides/youtube-mOf-PP4mVjA-slides.md",
+    "slide_count": 31
   },
   {
     "id": "youtube-mQ7_Zje7WKE-dense-slides",
@@ -2536,6 +2668,12 @@
     "title": "Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
     "path": "wiki/slides/youtube-yJHw33cVeHo-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-yWS0udrIOc8-slides",
+    "title": "Slides: Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town",
+    "path": "wiki/slides/youtube-yWS0udrIOc8-slides.md",
+    "slide_count": 8
   },
   {
     "id": "youtube-zDGHt0LB-dA-slides",

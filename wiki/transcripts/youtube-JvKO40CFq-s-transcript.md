@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth"
+title: "Transcript: Full Workshop: Better Auth — Paola Estefania, Better Auth"
 category: "transcripts"
 videoId: "JvKO40CFq-s"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "5616"
 ---
 
-# Transcript: Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth
+# Transcript: Full Workshop: Better Auth — Paola Estefania, Better Auth
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=JvKO40CFq-s)

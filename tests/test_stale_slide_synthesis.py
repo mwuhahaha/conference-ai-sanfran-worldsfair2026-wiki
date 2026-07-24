@@ -187,3 +187,15 @@ def test_public_entry_points_run_check_only_before_consumers(
     scripts = package["scripts"]
     assert scripts["slide-ai-check"] == "python3 scripts/quarantine_stale_slide_ai.py"
     assert scripts["build"].split(" && ")[0] == "npm run slide-ai-check"
+
+
+def test_classifier_private_report_uses_runner_owned_adapter_state(
+    tmp_path,
+    monkeypatch,
+):
+    adapter_state = tmp_path / "adapter-state"
+    monkeypatch.setenv("WIKI_MAKER_ADAPTER_STATE_DIR", str(adapter_state))
+
+    assert quarantine.private_report_path() == (
+        adapter_state / "classifier-scan.json"
+    )

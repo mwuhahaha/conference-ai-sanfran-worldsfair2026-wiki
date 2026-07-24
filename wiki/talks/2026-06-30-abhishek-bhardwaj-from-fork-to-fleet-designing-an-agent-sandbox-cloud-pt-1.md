@@ -94,7 +94,6 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/OqM67QG_Ikk/slide-002.jpg]]
 ![[assets/slides/OqM67QG_Ikk/slide-003.jpg]]
 - Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
-
 - Source video: `youtube-wsFd22SL1s8`
 - Slide deck: [[youtube-wsFd22SL1s8-dense-slides|Dense Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]] — slide evidence page.
 - Additional slide evidence: [[youtube-wsFd22SL1s8-slides|Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]], [[youtube-wsFd22SL1s8-reconstructed-slides|Reconstructed Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]]
@@ -105,7 +104,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-OqM67QG_Ikk-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/OqM67QG_Ikk.txt`.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
 

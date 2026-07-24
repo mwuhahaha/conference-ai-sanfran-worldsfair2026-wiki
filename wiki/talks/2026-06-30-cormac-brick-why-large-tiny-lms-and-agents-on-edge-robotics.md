@@ -59,8 +59,14 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube--TiET_K-E_g-slides]]
 - Slide-derived terms: `engineering`, `future`, `skills`, `tlms`, `engineer`, `edge`, `example`, `restaurant`, `roulette`, `tral`, `braintrust`, `workos`, `openal`, `tinyllmsand`, `agentsonedgedevices`, `bringing`, `state-of-the-artagenticskilstothe`, `edgewithopenmodels`
 
+## Official YouTube Recording
+- [[youtube-hacEQHHhu2Q]] — scheduled official AI Engineer YouTube premiere for 2026-07-25.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this link as event-association and premiere-state metadata only until the recording is playable; do not use it as recording, transcript, or slide-content evidence.
+
 ## Media Evidence
 - [[youtube--TiET_K-E_g]] - supporting context; not the exact session recording.
+- [[youtube-hacEQHHhu2Q]] - supporting context; not the exact session recording.
 
 - Source video: `youtube--TiET_K-E_g`
 - Slide deck: [[youtube--TiET_K-E_g-dense-slides|Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]] — slide evidence page.
@@ -77,6 +83,9 @@ This section is generated from the official schedule, manifest-matched session r
 - `youtube--TiET_K-E_g` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
 - Evidence links for `youtube--TiET_K-E_g` (supporting context only): [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+- `youtube-hacEQHHhu2Q` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-hacEQHHhu2Q`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-hacEQHHhu2Q` (supporting context only): [[youtube-hacEQHHhu2Q]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.

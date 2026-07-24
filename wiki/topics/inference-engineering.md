@@ -10,11 +10,12 @@ sourceAssessment:
   subjectId: concept:inference-engineering
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-XV2oYi7kojc
@@ -22,7 +23,7 @@ sourceAssessment:
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-uIiA6DquRiE
-sourceAssessmentBodySha256: sha256:f6e1bd8086426dffd9d0a19d687c9eddf809ec5ee28f85e21c14f644f1055f41
+sourceAssessmentBodySha256: sha256:3c01864dc07e837141d96c50b94890140acb95225d307f045a778727b74b47cb
 ---
 # Inference Engineering
 
@@ -53,10 +54,15 @@ Invest in inference engineering once prototypes need predictable user experience
 ## Slide-Derived Scheduled Session Signals
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
 - [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement
-- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk
+- [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]] — Why Agentic Systems Need Ontologies
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.
 
 ## Slide-Derived Supporting Decks
+- [[youtube--I5W5QVAT8E-slides]] — Notion's Token Town — Sarah Sachs, Notion (12 extracted slide frames)
+- [[youtube-mOf-PP4mVjA-slides]] — Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs (31 extracted slide frames)
 - [[youtube-q4Tr-DknG2M-slides]] —  (12 extracted slide frames)
+- [[youtube-Sir59K8ZDPU-slides]] — Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley (13 extracted slide frames)
 - [[youtube-uIiA6DquRiE-slides]] — Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth (11 extracted slide frames)
 - [[youtube-XV2oYi7kojc-slides]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic (6 extracted slide frames)
 
@@ -148,6 +154,48 @@ These decks are slide/OCR support only; keep the article synopsis, origin, use c
 
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference; [[sujee-maniyam|Sujee Maniyam]], [[dylan-bristot|Dylan Bristot]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Expo Stage 1 NE; official schedule)
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 63 | Related pages outside the main evidence categories. |
+| resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 28 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]
+- [[2026-06-29-lee-robinson-recursive-model-improvement]]
+- [[2026-06-29-sarah-sachs-notion-s-token-town]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
+
+### Resources
+- [[youtube-pMggiOb18tc]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-iCj_ATyThvc]]
+- [[youtube-uIiA6DquRiE]]
+
+### Slides
+- [[youtube--I5W5QVAT8E-slides]]
+- [[youtube-mOf-PP4mVjA-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
+- [[youtube-Sir59K8ZDPU-slides]]
+- [[youtube-uIiA6DquRiE-slides]]
+- [[youtube-XV2oYi7kojc-slides]]
+
+### Transcripts
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-I2cbIws9j10-transcript]]
+- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-iCj_ATyThvc-transcript]]
+- [[youtube-uIiA6DquRiE-transcript]]
+- [[youtube-4sX_He5c4sI-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -209,46 +257,3 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 63 | Related pages outside the main evidence categories. |
-| resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 25 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 28 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]
-- [[2026-06-29-lee-robinson-recursive-model-improvement]]
-- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]]
-- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
-- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
-- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
-
-### Resources
-- [[youtube-pMggiOb18tc]]
-- [[youtube-V-EDrhIhHzQ]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-iCj_ATyThvc]]
-- [[youtube-uIiA6DquRiE]]
-
-### Slides
-- [[youtube-q4Tr-DknG2M-slides]]
-- [[youtube-uIiA6DquRiE-slides]]
-- [[youtube-XV2oYi7kojc-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-V-EDrhIhHzQ-slides]]
-
-### Transcripts
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-I2cbIws9j10-transcript]]
-- [[youtube-OqM67QG_Ikk-transcript]]
-- [[youtube-iCj_ATyThvc-transcript]]
-- [[youtube-uIiA6DquRiE-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]

@@ -92,7 +92,6 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/pMggiOb18tc/slide-002.jpg]]
 ![[assets/slides/pMggiOb18tc/slide-003.jpg]]
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
-
 - Source video: `youtube-yJHw33cVeHo`
 - Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — slide evidence page.
 - Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]]
@@ -103,7 +102,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-pMggiOb18tc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/pMggiOb18tc.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

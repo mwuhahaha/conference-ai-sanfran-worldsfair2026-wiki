@@ -29,37 +29,66 @@ Every enterprise AI team faces the same strategic question: where in the stack s
 
 ## Synthesis
 ### Synthesized Breakdown
-Every enterprise AI team faces the same strategic question: where in the stack should a small team focus its effort? Models, frontends, and agent frameworks evolve rapidly and are increasingly commoditized. But regardless of how these layers mature, AI in enterprise settings remains bottlenecked by the same underlying problem: structured data is siloed across systems of record with domain-specific schemas, and the unstructured data needed to contextualize it sits in entirely separate systems, with its own systematic complexities. The durable work is cleaning, curating, and semantically modeling this data in an AI-first manner so that any client — chat, workflow, or otherwise — can query across it.
+Yes. So my talk today is about the title your data models remote. We have a enterprisewide platform that we had just rolled out here this past month. And so I'll go into details on this.
 
 ### Speaker And Company Context
 - [[mike-phipps|Mike Phipps]] — Lead AI Engineer at [[gates-foundation|Gates Foundation]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
 - [[mcp]]
+- [[mcp-apps]]
 
 ### Derived Links And Source Material
+- [[youtube-jt1Pbr_n6oU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/jt1Pbr_n6oU.txt` (3,441 words).
+- [[youtube-jt1Pbr_n6oU]] — related YouTube source page.
+- [[youtube-jt1Pbr_n6oU-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[mike-phipps]]
 
+## Official YouTube Recording
+- [[youtube-jt1Pbr_n6oU|Your Moat Is Your Data Model — Mike Phipps, Gates Foundation]] — official AI Engineer YouTube recording published 2026-07-22.
+- Evidence status: [[youtube-jt1Pbr_n6oU-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
 ## Media Evidence
-No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
+- [[youtube-jt1Pbr_n6oU]] - dedicated official event recording.
+- [[youtube-jt1Pbr_n6oU-transcript]] - dedicated official recording transcript.
+
+- [[youtube-jt1Pbr_n6oU-slides]] — extracted from the related public AI Engineer video.
+
+- Source video: `youtube-jt1Pbr_n6oU`
+- Slide deck: [[youtube-jt1Pbr_n6oU-slides|Slides: Your Moat Is Your Data Model — Mike Phipps, Gates Foundation]] — 5 visible slide image(s).
+![[assets/slides/jt1Pbr_n6oU/slide-001.jpg]]
+![[assets/slides/jt1Pbr_n6oU/slide-002.jpg]]
+![[assets/slides/jt1Pbr_n6oU/slide-003.jpg]]
+- Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
+
 ## Transcript Status
-No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/jt1Pbr_n6oU.txt` (3,441 words).
+
+## Transcript Markdown
+- [[youtube-jt1Pbr_n6oU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/jt1Pbr_n6oU.txt`.
 
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
+- Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
+- Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.

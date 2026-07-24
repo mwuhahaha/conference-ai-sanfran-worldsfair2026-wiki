@@ -12,15 +12,16 @@ sourceAssessment:
   subjectId: concept:autoresearch
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:5da72661ea5f2813c32ffe0c51fbbe9c7752a270137d7b6bcc47c9ed6b3bb27a
+sourceAssessmentBodySha256: sha256:ac70461029b308de5ced530f1343d5e32b46f808a6488867886cc02dcd259d6b
 ---
 # Autoresearch
 
@@ -161,6 +162,49 @@ Use humans to set scope, approve consequential actions, inspect surprising gains
 - [[openai|OpenAI]]
 - [[poolside|poolside]]
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 61 | Related pages outside the main evidence categories. |
+| resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 5 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 3 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-q4Tr-DknG2M]]
+- [[youtube-WkBPX-oDMnA]]
+- [[youtube-dvft0Gp9sEE]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-iCj_ATyThvc]]
+
+### Slides
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- [[youtube-iCj_ATyThvc-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-iCj_ATyThvc-transcript]]
+- [[youtube-q4Tr-DknG2M-transcript]]
+
+### Tools
+- [[browserbase]]
+- [[prime-intellect]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
@@ -184,49 +228,13 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-iCj_ATyThvc` — 1,795 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-iCj_ATyThvc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
+- Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
+- Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
 - `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-q4Tr-DknG2M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-q4Tr-DknG2M`: models, model, training, evals, pretty, loop, compute, cursor.
 - Slide-derived themes for `youtube-q4Tr-DknG2M`: future, cursor, compute, better, model, anon, pease, days.
 - Evidence links for `youtube-q4Tr-DknG2M` (primary event evidence): [[youtube-q4Tr-DknG2M]], [[youtube-q4Tr-DknG2M-transcript]], [[youtube-q4Tr-DknG2M-slides]]
-
-## Source Coverage
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-| Evidence type | Count | Review note |
-| --- | ---: | --- |
-| other | 61 | Related pages outside the main evidence categories. |
-| resources | 5 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 4 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
-
-### Talks
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
-
-### Resources
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-q4Tr-DknG2M]]
-- [[youtube-WkBPX-oDMnA]]
-- [[youtube-dvft0Gp9sEE]]
-- [[youtube-bk0TmxoZlUY]]
-
-### Slides
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-q4Tr-DknG2M-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-- [[youtube-q4Tr-DknG2M-transcript]]
-
-### Tools
-- [[browserbase]]
-- [[prime-intellect]]

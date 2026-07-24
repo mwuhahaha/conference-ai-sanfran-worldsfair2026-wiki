@@ -80,7 +80,6 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/9fubhllmsBU/slide-002.jpg]]
 ![[assets/slides/9fubhllmsBU/slide-003.jpg]]
 - Slide-derived themes for `youtube-9fubhllmsBU`: land, king, guide, unknowns, fable, dealing, grief, models.
-
 - Source video: `youtube-TqC1qOfiVcQ`
 - Slide deck: [[youtube-TqC1qOfiVcQ-dense-slides|Dense Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]] — slide evidence page.
 - Additional slide evidence: [[youtube-TqC1qOfiVcQ-slides|Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]], [[youtube-TqC1qOfiVcQ-reconstructed-slides|Reconstructed Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]]
@@ -91,7 +90,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-9fubhllmsBU-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/9fubhllmsBU.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

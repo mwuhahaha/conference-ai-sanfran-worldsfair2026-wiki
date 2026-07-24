@@ -1,12 +1,12 @@
 ---
-title: "Transcript: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy"
+title: "Transcript: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller"
 category: "transcripts"
 videoId: "GgLQ02aO-hs"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "2751"
 ---
 
-# Transcript: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy
+# Transcript: The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=GgLQ02aO-hs)

@@ -1,12 +1,12 @@
 ---
-title: "Transcript: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco"
+title: "Transcript: How Autoresearch is changing ML research — Zhengyao Jiang, Weco"
 category: "transcripts"
 videoId: "iCj_ATyThvc"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "1795"
 ---
 
-# Transcript: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco
+# Transcript: How Autoresearch is changing ML research — Zhengyao Jiang, Weco
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=iCj_ATyThvc)

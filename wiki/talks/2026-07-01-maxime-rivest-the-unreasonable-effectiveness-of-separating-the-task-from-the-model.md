@@ -54,7 +54,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[isaac-miller]]
 
 ## Official YouTube Recording
-- [[youtube-GgLQ02aO-hs|The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy]] — official AI Engineer YouTube recording published 2026-07-19.
+- [[youtube-GgLQ02aO-hs|The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller]] — official AI Engineer YouTube recording published 2026-07-23.
 - Evidence status: [[youtube-GgLQ02aO-hs-transcript]] — dedicated official recording transcript.
 - Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
@@ -74,7 +74,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-GgLQ02aO-hs-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/GgLQ02aO-hs.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

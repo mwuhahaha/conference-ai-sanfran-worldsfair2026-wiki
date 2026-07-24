@@ -10,13 +10,13 @@ sourceAssessment:
   subjectId: person:alex-shaw
   domain: people page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-speakers
-sourceAssessmentBodySha256: sha256:528d112cdfc62925e3455f928711b4527e0b7c4fccf0ccd299a349761d1db512
+sourceAssessmentBodySha256: sha256:8cce3ba2c816225d1d4643732e4e6236f2e71b514f427493e4654e14167841e6
 ---
 # Alex Shaw
 
@@ -40,4 +40,6 @@ Event participation, role, and affiliation details remain attributed to the offi
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Media Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-jRCpXUjz4CI` — source page linked; role: supporting context only.
+- Interpretation rule for `youtube-jRCpXUjz4CI`: attribute claims to the recording or speaker unless independently corroborated.
+- Evidence links for `youtube-jRCpXUjz4CI` (supporting context only): [[youtube-jRCpXUjz4CI]]

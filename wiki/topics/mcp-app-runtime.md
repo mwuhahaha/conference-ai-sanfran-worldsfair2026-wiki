@@ -10,12 +10,12 @@ sourceAssessment:
   subjectId: concept:mcp-app-runtime
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:8554c78e8e1de0ac5934ac32742186ab463cd47cda6bc43987b5ee239ad4244b
+sourceAssessmentBodySha256: sha256:097291aa24c0278e1a02a45b234971bd2eddd0ae621f1f2af5db8e6c957b1989
 ---
 # MCP Apps as Agentic App Runtime
 
@@ -41,7 +41,7 @@ MCP Apps as an agentic app runtime is the idea that MCP servers can return inter
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
-Current media support is attributable to one official recording; it is context for the theme rather than independent corroboration of every claim.
+The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
@@ -52,6 +52,11 @@ Current media support is attributable to one official recording; it is context f
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
+- Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
+- Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
 - Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.

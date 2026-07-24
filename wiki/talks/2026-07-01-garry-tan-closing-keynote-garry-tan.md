@@ -47,6 +47,10 @@ This synthesis is based on the official schedule and linked source pages. It sho
 ## People
 - [[garry-tan]]
 
+## Livestream Segment
+- [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield.
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 ## Media Evidence
 No exact recording or transcript evidence is attached yet; the official schedule remains the source for this session.
 ## Attendance Visibility
@@ -60,7 +64,3 @@ No linked video, transcript, or slide source has been attached yet.
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
-## Livestream Segment
-- [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield.
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

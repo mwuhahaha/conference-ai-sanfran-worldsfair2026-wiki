@@ -29,31 +29,25 @@ results per Barr
 
 ## Synthesis
 ### Synthesized Breakdown
-Now joining us on stage is the partner at Amplify Barren. Fantastic. You did a great job practicing. I feel very very loved.
+results per Barr
 
 ### Speaker And Company Context
 - [[barr-yaron|Barr Yaron]] — Partner at [[amplify-partners|Amplify Partners]].
 
 ### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
+- Topic links are pending transcript-backed classification.
 
 ### Derived Links And Source Material
-- [[youtube-RGe6EjucbzI-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/RGe6EjucbzI.txt` (2,999 words).
-- [[youtube-RGe6EjucbzI]] — related YouTube source page.
-- [[youtube-RGe6EjucbzI-slides]] — slide evidence.
 - [[youtube-mQ7_Zje7WKE]] — related YouTube source page.
 - [[youtube-mQ7_Zje7WKE-slides]] — slide evidence.
 - [[youtube-mQ7_Zje7WKE-reconstructed-slides]] — slide evidence.
 - [[youtube-mQ7_Zje7WKE-dense-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+- No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
 ## People
 - [[barr-yaron]]
 
@@ -65,43 +59,19 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[youtube-mQ7_Zje7WKE-slides]]
 - Slide-derived terms: `world`, `fair`, `engineering`, `amplify`, `microsoft`, `respondents`, `sfair`, `survey`, `partner`, `engineer`, `latent`, `space`, `swyx`, `machine`, `nathan`, `gradient`, `awss`, `graphite`
 
-## Official YouTube Recording
-- [[youtube-RGe6EjucbzI|The 2026 State of AI Engineering — Barr Yaron, Amplify Partners]] — official AI Engineer YouTube recording published 2026-07-19.
-- Evidence status: [[youtube-RGe6EjucbzI-transcript]] — dedicated official recording transcript.
-- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
 ## Media Evidence
-- [[youtube-RGe6EjucbzI]] - dedicated official event recording.
-- [[youtube-RGe6EjucbzI-transcript]] - dedicated official recording transcript.
 - [[youtube-mQ7_Zje7WKE]] - supporting context; not the exact session recording.
-
-- Source video: `youtube-RGe6EjucbzI`
-- Slide deck: [[youtube-RGe6EjucbzI-slides|Slides: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners]] — 15 visible slide image(s).
-![[assets/slides/RGe6EjucbzI/slide-001.jpg]]
-![[assets/slides/RGe6EjucbzI/slide-002.jpg]]
-![[assets/slides/RGe6EjucbzI/slide-003.jpg]]
-- Slide-derived themes for `youtube-RGe6EjucbzI`: amplify, engineering, tools, survey, state, barr, fair, great.
 
 - Source video: `youtube-mQ7_Zje7WKE`
 - Slide deck: [[youtube-mQ7_Zje7WKE-dense-slides|Dense Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]] — slide evidence page.
 - Additional slide evidence: [[youtube-mQ7_Zje7WKE-slides|Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]], [[youtube-mQ7_Zje7WKE-reconstructed-slides|Reconstructed Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]]
 - Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 
-## Transcript Status
-Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/RGe6EjucbzI.txt` (2,999 words).
-
-## Transcript Markdown
-- [[youtube-RGe6EjucbzI-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/RGe6EjucbzI.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
-- `youtube-RGe6EjucbzI` — 2,999 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-RGe6EjucbzI`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-RGe6EjucbzI`: year, models, engineers, survey, teams, most, respondents, folks.
-- Slide-derived themes for `youtube-RGe6EjucbzI`: amplify, engineering, tools, survey, state, barr, fair, great.
-- Evidence links for `youtube-RGe6EjucbzI` (primary event evidence): [[youtube-RGe6EjucbzI]], [[youtube-RGe6EjucbzI-transcript]], [[youtube-RGe6EjucbzI-slides]]
 - `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
 - Evidence links for `youtube-mQ7_Zje7WKE` (supporting context only): [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]

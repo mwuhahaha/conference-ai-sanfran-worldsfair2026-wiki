@@ -264,7 +264,7 @@
       "command": [
         "python3",
         "scripts/generate_attendance_calibration.py",
-        "--sync-current"
+        "--check-current"
       ],
       "implementation_inputs": [
         "scripts/generate_attendance_calibration.py"

@@ -73,7 +73,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube--CnA2lGfymY-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/-CnA2lGfymY.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

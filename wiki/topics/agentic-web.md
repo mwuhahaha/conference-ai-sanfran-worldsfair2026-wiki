@@ -8,7 +8,7 @@ sourceAssessment:
   subjectId: concept:agentic-web
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -16,9 +16,8 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-ZSQb5fzRFPw
-  - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:943fb23d27329882ba0970accd9dd5bddf832eb735da7ea882d7c519c0ae80a7
+sourceAssessmentBodySha256: sha256:fda2165f2a4f7343428439c082bcfc1eb90f954e6b1f126c75a54c1aa15ea78c
 ---
 # Agentic Web
 
@@ -170,16 +169,16 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-ZSQb5fzRFPw`: computer, take, over, driver, background, task, might, sandbox.
 - Slide-derived themes for `youtube-ZSQb5fzRFPw`: track, july, fair, computer, operator, loop, wired, model.
 - Evidence links for `youtube-ZSQb5fzRFPw` (primary event evidence): [[youtube-ZSQb5fzRFPw]], [[youtube-ZSQb5fzRFPw-transcript]], [[youtube-ZSQb5fzRFPw-slides]]
-- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
-- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
-- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
 - Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
 - Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
+- `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
+- Slide-derived themes for `youtube-Ib5GBkD555M`: software, harness, enough, team, engineering, factories, fail, pierre.
+- Evidence links for `youtube-Ib5GBkD555M` (primary event evidence): [[youtube-Ib5GBkD555M]], [[youtube-Ib5GBkD555M-transcript]], [[youtube-Ib5GBkD555M-slides]]
 - `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

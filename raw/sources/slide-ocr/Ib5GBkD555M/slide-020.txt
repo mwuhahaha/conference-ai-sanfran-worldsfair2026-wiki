@@ -1,0 +1,11 @@
+SSE — tests pass, on to the next one
+World's Fair
+function updateProfile(userData: { name: string }) {
+ca at
+const customData = userData as unknown as any;
+a Microsoft custonData.legacyId = 999;
+return customData;
+ia SEL Ries MOR onic ba Dm c com: Oo mmo ve) 1 @cexhkorthyu ocead
+Pig gor O ics aac) , ae ; .
+Harness Engineering is not Enough: Why Software Factories Fail
+i ela keM are Pda ta] = humantayer

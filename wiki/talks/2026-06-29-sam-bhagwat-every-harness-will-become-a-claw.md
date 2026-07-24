@@ -57,7 +57,7 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 - [[sam-bhagwat]]
 
 ## Official YouTube Recording
-- [[youtube-8qWIPUia2O8|Every Harness Will Become A Claw — Sam Bhagwat, Mastra]] — official AI Engineer YouTube recording published 2026-07-19.
+- [[youtube-8qWIPUia2O8|Every Harness Will Become A Claw — Sam Bhagwat, Mastra]] — official AI Engineer YouTube recording published 2026-07-21.
 - Evidence status: [[youtube-8qWIPUia2O8-transcript]] — dedicated official recording transcript.
 - Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
 
@@ -77,7 +77,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-8qWIPUia2O8-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/8qWIPUia2O8.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

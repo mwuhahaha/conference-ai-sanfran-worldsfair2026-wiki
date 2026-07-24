@@ -67,6 +67,10 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-HT4l0DeP69I-slides]]
 - Slide-derived terms: `models`, `amazon`, `microsoft`, `bedrock`, `model`, `prompt`, `mike`, `system`, `master`, `roll`, `claude`, `chat`, `select`, `nova`, `learn`, `world`, `ate-wf-2025-demos`, `grand`
 
+## Livestream Segment
+- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield.
+- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
 ## Media Evidence
 - [[youtube-HT4l0DeP69I]] - supporting context; not the exact session recording.
 
@@ -91,7 +95,3 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
-## Livestream Segment
-- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield.
-- Evidence: transcript-aligned segment validated against the official schedule and timed captions.
-- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

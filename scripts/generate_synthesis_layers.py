@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -13,9 +14,27 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
-PRIVATE_QUALITY_DIR = ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-quality"
+ADAPTER_STATE_DIR = (
+    Path(os.environ["WIKI_MAKER_ADAPTER_STATE_DIR"]).resolve()
+    if os.environ.get("WIKI_MAKER_ADAPTER_STATE_DIR")
+    else None
+)
+PRIVATE_QUALITY_DIR = (
+    ADAPTER_STATE_DIR / "private-quality"
+    if ADAPTER_STATE_DIR is not None
+    else ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-quality"
+)
 PRIVATE_POLICY_PROFILE = ROOT / ".ops" / "state" / "cache" / "wiki-maker" / "private-policy.json"
-INTERNAL_SYNTHESIS_DIR = ROOT / ".ops" / "state" / "cache" / "synthesis-layers"
+INTERNAL_SYNTHESIS_DIR = (
+    ADAPTER_STATE_DIR / "synthesis-layers"
+    if ADAPTER_STATE_DIR is not None
+    else ROOT / ".ops" / "state" / "cache" / "synthesis-layers"
+)
+RUN_RECEIPT_DIR = (
+    ADAPTER_STATE_DIR / "runs"
+    if ADAPTER_STATE_DIR is not None
+    else ROOT / ".ops" / "state" / "runs"
+)
 
 
 def slugify(value: str) -> str:
@@ -44,6 +63,13 @@ def frontmatter(fields: dict) -> str:
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+
+def project_relative(path: Path) -> str:
+    try:
+        return path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 def wiki_stems() -> set[str]:
@@ -865,7 +891,9 @@ def generate_private_quality_receipts() -> tuple[list[dict], list[dict]]:
             {
                 "id": policy["slug"],
                 "title": policy["title"],
-                "path": f".ops/state/cache/wiki-maker/private-quality/policies/{policy['slug']}.json",
+                "path": project_relative(
+                    PRIVATE_QUALITY_DIR / "policies" / f"{policy['slug']}.json"
+                ),
                 "topic": policy["topic"],
                 "version": policy["version"],
             }
@@ -1108,7 +1136,8 @@ def update_agent_source_index() -> None:
 
 def write_receipt(counts: dict) -> str:
     now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    rel = f".ops/state/runs/{now}-synthesis-layers.md"
+    path = RUN_RECEIPT_DIR / f"{now}-synthesis-layers.md"
+    rel = project_relative(path)
     lines = [
         "---",
         "type: run-receipt",
@@ -1138,12 +1167,12 @@ def write_receipt(counts: dict) -> str:
         "- `wiki/playbooks/`",
         "- `wiki/evaluations/`",
         "- `wiki/resources/livestream-thematic-anchors.md`",
-        "- `.ops/state/cache/synthesis-layers/topic-evidence-table-summary.json` (internal; ignored)",
-        "- `.ops/state/cache/wiki-maker/private-quality/` (internal only; ignored)",
+        f"- `{project_relative(INTERNAL_SYNTHESIS_DIR / 'topic-evidence-table-summary.json')}` (internal; ignored)",
+        f"- `{project_relative(PRIVATE_QUALITY_DIR)}/` (internal only; ignored)",
         "",
         "Boundary: private quality artifacts are not emitted to public wiki pages, raw public sources, the static site, or the agent index.",
     ]
-    write(ROOT / rel, "\n".join(lines))
+    write(path, "\n".join(lines))
     return rel
 
 

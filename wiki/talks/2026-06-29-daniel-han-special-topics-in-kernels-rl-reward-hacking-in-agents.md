@@ -80,7 +80,6 @@ This synthesis uses the official schedule and only a dedicated manifest-matched 
 ![[assets/slides/uIiA6DquRiE/slide-002.jpg]]
 ![[assets/slides/uIiA6DquRiE/slide-003.jpg]]
 - Slide-derived themes for `youtube-uIiA6DquRiE`: smaller, model, high, extra, license, businesses, users, open.
-
 - Source video: `youtube-OkEGJ5G3foU`
 - Slide deck: [[youtube-OkEGJ5G3foU-dense-slides|Dense Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]] — slide evidence page.
 - Additional slide evidence: [[youtube-OkEGJ5G3foU-slides|Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]], [[youtube-OkEGJ5G3foU-reconstructed-slides|Reconstructed Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]]
@@ -91,7 +90,6 @@ Cached dedicated-session transcript text is available at `raw/sources/youtube-tr
 
 ## Transcript Markdown
 - [[youtube-uIiA6DquRiE-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/uIiA6DquRiE.txt`.
-
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 

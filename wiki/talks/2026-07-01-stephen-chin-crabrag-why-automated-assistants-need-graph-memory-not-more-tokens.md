@@ -29,15 +29,21 @@ Autonomous assistants are easy to demo and hard to make reliable. The problem is
 
 ## Synthesis
 ### Synthesized Breakdown
-Autonomous assistants are easy to demo and hard to make reliable. The problem is usually not tool access. It is memory. Most assistant architectures still treat memory as a chat log plus vector retrieval.
+My name's Steven Chin. I run the developer relations team here at Neo Forj. And I'm excited to talk to you about something we've all come to love, our our crustaceian friends. So, we have um um openclaw mascot.
 
 ### Speaker And Company Context
 - [[stephen-chin|Stephen Chin]] — VP of Developer Relations at [[neo4j|Neo4j]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-Q0VkgCyNVUg-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Q0VkgCyNVUg.txt` (3,266 words).
+- [[youtube-Q0VkgCyNVUg]] — related YouTube source page.
+- [[youtube-Q0VkgCyNVUg-slides]] — slide evidence.
 - [[youtube-eW_vxrjvERk]] — related YouTube source page.
 - [[youtube-eW_vxrjvERk-slides]] — slide evidence.
 - [[youtube-eW_vxrjvERk-reconstructed-slides]] — slide evidence.
@@ -47,7 +53,7 @@ Autonomous assistants are easy to demo and hard to make reliable. The problem is
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
 ## People
 - [[stephen-chin]]
 
@@ -59,21 +65,44 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - [[youtube-eW_vxrjvERk-slides]]
 - Slide-derived terms: `graph`, `context`, `engineer`, `memory`, `europe`, `engineering`, `future`, `reasoning`, `entities`, `knowledge`, `relationships`, `enhance`, `relevance`, `domain`, `care`, `plans`, `associated`, `andrea`
 
+## Official YouTube Recording
+- [[youtube-Q0VkgCyNVUg|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j]] — official AI Engineer YouTube recording published 2026-07-22.
+- Evidence status: [[youtube-Q0VkgCyNVUg-transcript]] — dedicated official recording transcript.
+- Boundary: use these recordings as media evidence; keep date/time/room facts tied to the official schedule.
+
 ## Media Evidence
+- [[youtube-Q0VkgCyNVUg]] - dedicated official event recording.
+- [[youtube-Q0VkgCyNVUg-transcript]] - dedicated official recording transcript.
 - [[youtube-eW_vxrjvERk]] - supporting context; not the exact session recording.
 
+- [[youtube-Q0VkgCyNVUg-slides]] — extracted from the related public AI Engineer video.
+
+- Source video: `youtube-Q0VkgCyNVUg`
+- Slide deck: [[youtube-Q0VkgCyNVUg-slides|Slides: CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j]] — 22 visible slide image(s).
+![[assets/slides/Q0VkgCyNVUg/slide-001.jpg]]
+![[assets/slides/Q0VkgCyNVUg/slide-002.jpg]]
+![[assets/slides/Q0VkgCyNVUg/slide-003.jpg]]
+- Slide-derived themes for `youtube-Q0VkgCyNVUg`: shell, track, july, skills, meat, engineering, future, wakes.
 - Source video: `youtube-eW_vxrjvERk`
 - Slide deck: [[youtube-eW_vxrjvERk-dense-slides|Dense Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]] — slide evidence page.
 - Additional slide evidence: [[youtube-eW_vxrjvERk-slides|Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]], [[youtube-eW_vxrjvERk-reconstructed-slides|Reconstructed Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]]
 - Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
 
 ## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+Cached dedicated-session transcript text is available at `raw/sources/youtube-transcripts/Q0VkgCyNVUg.txt` (3,266 words).
+
+## Transcript Markdown
+- [[youtube-Q0VkgCyNVUg-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/Q0VkgCyNVUg.txt`.
 
 ## Evidence Graph
 This section is generated from the official schedule, manifest-matched session recordings, and explicitly linked supporting sources. Official event media matched to other sessions is excluded from this talk's evidence layer.
 
 ### Media Signals
+- `youtube-Q0VkgCyNVUg` — 3,266 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-Q0VkgCyNVUg`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-Q0VkgCyNVUg`: graph, memory, vector, files, demo, information, great, store.
+- Slide-derived themes for `youtube-Q0VkgCyNVUg`: shell, track, july, skills, meat, engineering, future, wakes.
+- Evidence links for `youtube-Q0VkgCyNVUg` (primary event evidence): [[youtube-Q0VkgCyNVUg]], [[youtube-Q0VkgCyNVUg-transcript]], [[youtube-Q0VkgCyNVUg-slides]]
 - `youtube-eW_vxrjvERk` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
 - Evidence links for `youtube-eW_vxrjvERk` (supporting context only): [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]

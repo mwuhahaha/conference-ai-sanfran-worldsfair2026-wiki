@@ -1,27 +1,32 @@
 ---
-title: "Official WF26 Playlist Item X1kp-ABIIxQ (Unavailable)"
+title: "Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest"
 category: "resources"
-sourceLabels: ["Official WF26 playlist membership"]
+sourceLabels: ["Official AI Engineer YouTube channel", "Official WF26 playlist membership"]
 videoId: "X1kp-ABIIxQ"
-playlistId: "PLDyBmFH9HlVc"
-availability: "unavailable"
-sourceLayers: ["supporting_context"]
+publishedDate: "2026-07-21"
+last_enriched: "2026-07-24T13:51:26.720302+00:00"
 ---
-# Official WF26 Playlist Item X1kp-ABIIxQ (Unavailable)
+# Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest
 
 ## What It Is
-An unavailable item retained from the official AI Engineer WF26 playlist. Playlist membership establishes event association only; no content or schedule claim is made.
+An official AI Engineer YouTube recording admitted through the official WF26 playlist. Playlist membership establishes event association; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: official WF26 playlist association metadata only.
-- Channel/source: unavailable item retained from the official AI Engineer WF26 playlist.
-- Use: do not use this placeholder as content, transcript, slide, or schedule evidence.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.
+- Use: primary evidence for published recording, transcript, and slide content; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
+
+## Relationship To World's Fair 2026
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]]
 
 ## Transcript Status
-Unavailable; no transcript content was acquired.
+Cached transcript text is available at `raw/sources/youtube-transcripts/X1kp-ABIIxQ.txt`.
 
 ## Extracted Slides
-Unavailable; no slide content was acquired.
+- [[youtube-X1kp-ABIIxQ-slides]]
+
+## Transcript Markdown
+- [[youtube-X1kp-ABIIxQ-transcript]] — full cached transcript markdown.
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=X1kp-ABIIxQ)

@@ -10,15 +10,14 @@ sourceAssessment:
   subjectId: concept:agent-ready-accessibility
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-20T01:11:38.017560Z'
+  asOf: '2026-07-24T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-ZSQb5fzRFPw
-  - source:official-wf26-youtube-il1c1a2FufU
-sourceAssessmentBodySha256: sha256:9b5c69ccb762670030c87ededd4de849b5e76d6c1be5f9e1d80895579bee5023
+sourceAssessmentBodySha256: sha256:9e865de2760a80c3386462feb3cffbef118c97284484f78e02f3a3669df5dc4a
 ---
 # Agent-Ready Accessibility
 
@@ -68,11 +67,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - Interpretation rule for `youtube-KB41dTlX1Uc`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-KB41dTlX1Uc`: models, model, local, open, source, data, specialized, hardware.
 - Evidence links for `youtube-KB41dTlX1Uc` (primary event evidence): [[youtube-KB41dTlX1Uc]], [[youtube-KB41dTlX1Uc-transcript]], [[youtube-KB41dTlX1Uc-slides]]
-- `youtube-il1c1a2FufU` — 13,744 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-il1c1a2FufU`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
-- Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
-- Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
