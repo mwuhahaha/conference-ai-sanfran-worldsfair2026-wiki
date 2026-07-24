@@ -176,11 +176,17 @@
     },
     {
       "key": "talk_synthesis",
-      "version": "v2",
+      "version": "v3",
       "command": [
         "python3",
         "scripts/generate_talk_synthesis.py",
-        "--all"
+        "--all",
+        "--model",
+        "gpt-5.4-mini",
+        "--workers",
+        "3",
+        "--timeout-seconds",
+        "900"
       ],
       "implementation_inputs": [
         "scripts/generate_talk_synthesis.py"
@@ -198,7 +204,7 @@
         "wiki"
       ],
       "resource_pool": "candidate_writer",
-      "timeout_seconds": 1800
+      "timeout_seconds": 6500
     },
     {
       "key": "source_enrichment",
@@ -283,13 +289,14 @@
     },
     {
       "key": "synthesis_layers",
-      "version": "v1",
+      "version": "v2",
       "command": [
         "python3",
         "scripts/generate_synthesis_layers.py"
       ],
       "implementation_inputs": [
-        "scripts/generate_synthesis_layers.py"
+        "scripts/generate_synthesis_layers.py",
+        "scripts/generate_talk_synthesis.py"
       ],
       "dependencies": [
         "source_enrichment"
@@ -381,7 +388,7 @@
     },
     {
       "key": "normalize_articles",
-      "version": "v2",
+      "version": "v3",
       "command": [
         "python3",
         "scripts/normalize_article_shapes.py"

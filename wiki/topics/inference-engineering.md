@@ -16,14 +16,18 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--I5W5QVAT8E
+  - source:official-wf26-youtube-8qWIPUia2O8
+  - source:official-wf26-youtube-GgLQ02aO-hs
+  - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-XV2oYi7kojc
+  - source:official-wf26-youtube-Z2Erdirpudo
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-uIiA6DquRiE
-sourceAssessmentBodySha256: sha256:3c01864dc07e837141d96c50b94890140acb95225d307f045a778727b74b47cb
+sourceAssessmentBodySha256: sha256:d0cff4cb40ed8e4128d6939144c691cda71ba5efd4c1853324bfe2836047daf9
 ---
 # Inference Engineering
 
@@ -67,6 +71,47 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[youtube-XV2oYi7kojc-slides]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk — Ahmad Osman, Osmantic (6 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 14 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+How model behavior and system performance are shaped by routing, evaluation, reward design, and inference-time controls. The recurring tension is between specialization and generality, with talks emphasizing either cheaper task routing or stronger reasoning and verification loops.
+
+### Constituent Talk Evidence
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]] — How models exploit reward functions and how to detect or prevent that behavior.
+  - Transcript: [[youtube-uIiA6DquRiE-transcript]]
+  - Evidence: "Zero. Um and so the correctness checks also fail. Um and so reward hacking becomes a very very big problem because these models can cheat and do special tricks to go around your actual model um your intent of the reward function."
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The recursive flywheel where model output, feedback, evals, training, and compute reinforce one another.
+  - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
+  - Evidence: "And if you do that and we revisit our speed meter in the bottom right, you're starting to get to a point where you're getting something that's like RSI or recursive model uh and and improvement here where the models are improving much much faster."
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — The ladder of autonomy from LLMs to agents to harnesses to claws.
+  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
+  - Evidence: "Um so so I want to you know there's as we're thinking about um the agentic spectrum I often compare it to uh self-driving as a spectrum right there are different levels of self-driving autonomy whether that's like lane assist whether that's Tesla S FSD whether that's I I'm sitting in the back of my"
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — Moving deterministic or low-complexity work off LLMs and onto CPUs or lightweight services.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "So, be prepared now. And the last thing is CPUs over GPUs. Um, we've we've recently launched something at notion called workers."
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — Reward design that compares grouped samples to balance correctness and efficiency.
+  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
+  - Evidence: "But there's a lot of things where you really want to do pairwise judging or you want to do ranking or you want to give a bonus to the uh the shortest correct answer uh in terms of tokens used."
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — The idea that model progress shifts value from implementation to idea generation.
+  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
+  - Evidence: "And I think that the new bottleneck will be to come up with like crazy ideas because it's going to be really easy to one-shot absolutely everything and anything very soon."
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — The role of evaluation design in determining what an autonomous research system optimizes for.
+  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
+  - Evidence: "It sets what the agent optimizes for. Take the eval first. The eval is the signal you use to train a model."
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.
+  - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
+  - Evidence: "Or you want to be able to make inference over them. So, for example, there is uh some terms in this technology called RDFS."
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — The central idea that the task contract should stay stable while the implementation changes underneath it.
+  - Transcript: [[youtube-GgLQ02aO-hs-transcript]]
+  - Evidence: "If for your repeated AI task you define an input interface and an output interface, you get to play in the internals."
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]] — The layer of tools, peripherals, and system access that makes a model practically useful.
+  - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
+  - Evidence: "And I think that's where the inflection point this year was so much more than just models, but also these harnesses and what you can give it access to."
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — The move toward routing work across multiple models instead of relying on a single universal model.
+  - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
+  - Evidence: "And and that is because they're using a mixture of different models. You don't need the top model for every single use case and in fact most use cases you don't uh I think the most obvious application is let the top model plan uh the the architecture whatever the kind of top level plan is and then the actual execution of the code can go to uh a more reasonably priced smaller model."
 
 ## Connections
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
@@ -162,8 +207,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 63 | Related pages outside the main evidence categories. |
 | resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 28 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
+| talks | 37 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 14 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]

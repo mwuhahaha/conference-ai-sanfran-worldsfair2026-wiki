@@ -1,0 +1,235 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:52:14.090656+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:3dabca0f12194af2c4e3260f313c1b177d573fb7c3884669c0ca8838c4cd5b59",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um, now the act of adding tool calls changes AI safety from a philosophical debate to something that causes real danger.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that adding tool calls changes AI safety from a theoretical concern into a real-world danger because the agent can now cause side effects during execution."
+      },
+      {
+        "evidenceExcerpt": "We want to be able to check it. All right. Now the problem is that if you get a value of type IO of A um that's a really a black box and the lean manual says that is a black box you cannot reason about it.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "support": "explicit",
+        "text": "He says a raw IO value is a black box, so it cannot be reasoned about directly."
+      },
+      {
+        "evidenceExcerpt": "Um, but all that we're doing is we're pushing this IO to the right, to the right. And what you now see is that the tool belt of Claude goes to the left, to the left, and suddenly Claude is a nice puppy again because instead of executing the agentic loop, it creates a plan and says, \"Here is the plan to do the agentic loop.\" And now Bernie will take that plan and we'll execute it.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "support": "explicit",
+        "text": "He proposes moving the agentic loop out of the model by having the model produce a plan that another component executes."
+      },
+      {
+        "evidenceExcerpt": "Now you would say Eric, oh you're a genius. No, I'm my brain is the size of a peanut. This is something that's called proof carrying code and it was invented by academics in the 1990s and I'm just stealing it.",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "support": "explicit",
+        "text": "He identifies the core fix as proof-carrying code: the agent supplies a program and a proof that the program is safe before it runs."
+      },
+      {
+        "evidenceExcerpt": "The language doesn't matter. It's it's the um the principle that matters. So hopefully you've learned tonight that it is actually possible to have mathematically proven safe agentic compute and it only requires very elementary type systems and programming language machinery. Thank you so much.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "support": "explicit",
+        "text": "He claims this approach can deliver mathematically proven safe agentic compute using only elementary type systems and programming-language machinery."
+      }
+    ],
+    "methodNotes": "Each field is grounded in exactly one transcript segment ID; claims report the speaker's assertions, not external verification.",
+    "methods": [
+      {
+        "description": "Separating proposal from execution so the model cannot directly perform the agentic loop.",
+        "evidenceExcerpt": "So in some sense what we're doing, we're airgapping the agentic loop from the agent. So we don't let the agent run the agentic loop before the agent run it.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "name": "Air-gapped execution"
+      },
+      {
+        "description": "Having the model emit a program or expression that represents the computation instead of executing it outright.",
+        "evidenceExcerpt": "Um, and again, it's a small step for a signature, but a giant leap for safety because now the model returns an expression, a program that represents a computation.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "name": "Plan as program"
+      },
+      {
+        "description": "Requiring an execution plan to arrive with a machine-checkable proof before it is allowed to run.",
+        "evidenceExcerpt": "Now you would say Eric, oh you're a genius. No, I'm my brain is the size of a peanut. This is something that's called proof carrying code and it was invented by academics in the 1990s and I'm just stealing it.",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "name": "Proof-carrying code"
+      },
+      {
+        "description": "Applying compiler-style checks such as data-flow analysis and type checking to the program representation of agent actions.",
+        "evidenceExcerpt": "So now we're safe. We're home safe. And Jeff Huntley wanted to remind you that we can solve the trifecta problem just by doing taint analysis on these expression on these programs.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Static analysis"
+      },
+      {
+        "description": "Using an inductive interpreter and inductive proof structure so models can generate proofs for the language.",
+        "evidenceExcerpt": "Okay, this is the last code I will show you because I'm running out of time. But just want to show you here that you know you now have a simple inductive recursive interpreter for this language and you have a simple inductive proof and the models can generate these proofs.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "name": "Inductive proof generation"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Um, and again, it's a small step for a signature, but a giant leap for safety because now the model returns an expression, a program that represents a computation.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "question": "What restricted program language is expressive enough to cover useful agent workflows while still remaining easy to verify statically?",
+        "whyItMatters": "The talk depends on a language that can represent actions precisely enough for proof checking without losing practical usefulness."
+      },
+      {
+        "evidenceExcerpt": "Okay, this is the last code I will show you because I'm running out of time. But just want to show you here that you know you now have a simple inductive recursive interpreter for this language and you have a simple inductive proof and the models can generate these proofs.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "question": "How can models reliably generate both executable programs and valid proofs without a human proof author in the loop?",
+        "whyItMatters": "The approach only scales if proof generation is automatic enough for agent-driven systems."
+      }
+    ],
+    "summary": "The talk argues that once agents can invoke tools, safety stops being a philosophical matter and becomes an execution problem, because side effects can happen before any final answer is returned. The proposed fix is to move the agent's output one level up: instead of executing intent directly, the model emits a plan or program together with a machine-checkable proof that the plan is safe, and a small checker decides whether execution is allowed. The main tradeoff is that raw IO is a black box, so the system must stop trusting human-readable intent and instead represent actions in a form that supports static analysis and proof checking. The practical consequence is a left-shifted trust boundary in which policy compliance is established before the first side effect, making proof-carrying agent execution the central design goal.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, you should never ever let your agents do something unless you can absolutely prove that it's safe.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "text": "Agents should not be allowed to act unless their safety can be proven first."
+      },
+      {
+        "evidenceExcerpt": "Why is that? And that is because this IO says that in order to compute the answer, the agent has to go through the agentic loop and it's doing side effects.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "Tool use is the point where agent behavior becomes dangerous because side effects can happen while the answer is being computed."
+      },
+      {
+        "evidenceExcerpt": "So now we're safe. We're home safe. And Jeff Huntley wanted to remind you that we can solve the trifecta problem just by doing taint analysis on these expression on these programs.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "text": "Representing agent behavior as programs makes compiler-style analysis and verification possible."
+      },
+      {
+        "evidenceExcerpt": "And the nice thing is here that you can get at that proof without having to run the agentic loop.",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "text": "The trusted boundary should be a proof checker that can inspect the proof without running the agentic loop."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A theorem prover used as the main example of the verification stack.",
+        "evidenceExcerpt": "Um, but lean is the grease that kind like keeps the VC money pumps going. So, I will use lean um today.",
+        "evidenceSegmentIds": [
+          "S0036"
+        ],
+        "name": "Lean"
+      },
+      {
+        "description": "An alternative tier-improving and model-checking language mentioned alongside Lean.",
+        "evidenceExcerpt": "Um now let's first look at the signature in a slightly simpler language called um deafne and what this thing says is that the llm takes a question returns an answer it requires this question to be proper which means that it's not an offensive question and then the model returns a safe uh answer and this thing is proved automatically.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Dafny"
+      },
+      {
+        "description": "A theorem prover named as another option in the verification ecosystem.",
+        "evidenceExcerpt": "I'm a recovering typaholic and math addict. Um, I love lean, but there's many, many other tier improvers and model checkers out there like Isabel, Rock, PVS, TA Plus.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Isabelle"
+      },
+      {
+        "description": "Another proof assistant or model checker cited as part of the same family of tools.",
+        "evidenceExcerpt": "I'm a recovering typaholic and math addict. Um, I love lean, but there's many, many other tier improvers and model checkers out there like Isabel, Rock, PVS, TA Plus.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "PVS"
+      },
+      {
+        "description": "A model checker or verification tool mentioned in the list of alternatives.",
+        "evidenceExcerpt": "I'm a recovering typaholic and math addict. Um, I love lean, but there's many, many other tier improvers and model checkers out there like Isabel, Rock, PVS, TA Plus.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "TA Plus"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The risk that tool-enabled agents can create real-world harm through side effects.",
+        "evidenceExcerpt": "Um, now the act of adding tool calls changes AI safety from a philosophical debate to something that causes real danger.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Tool-call safety"
+      },
+      {
+        "description": "The execution loop in which an agent acts on the world rather than only producing text.",
+        "evidenceExcerpt": "So in some sense what we're doing, we're airgapping the agentic loop from the agent. So we don't let the agent run the agentic loop before the agent run it.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "name": "Agentic loops"
+      },
+      {
+        "description": "The idea of attaching a proof to code so execution is allowed only after verification.",
+        "evidenceExcerpt": "Now you would say Eric, oh you're a genius. No, I'm my brain is the size of a peanut. This is something that's called proof carrying code and it was invented by academics in the 1990s and I'm just stealing it.",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "name": "Proof-carrying code"
+      },
+      {
+        "description": "Turning agent intent into a program that can be inspected and analyzed statically.",
+        "evidenceExcerpt": "Um, and again, it's a small step for a signature, but a giant leap for safety because now the model returns an expression, a program that represents a computation.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "name": "Program verification"
+      },
+      {
+        "description": "Using compiler methods like type checking and data-flow analysis on agent programs.",
+        "evidenceExcerpt": "So now we're safe. We're home safe. And Jeff Huntley wanted to remind you that we can solve the trifecta problem just by doing taint analysis on these expression on these programs.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Static analysis"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:b8fb6f1bd4739e273ee653a31d03b31d2ea4182b6a9c935427c6691f82bcfe4f",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust",
+  "talkTitle": "In Code They Act, In Proof We Trust",
+  "transcriptPath": "raw/sources/youtube-transcripts/-CnA2lGfymY.txt",
+  "transcriptSha256": "sha256:a77ec00a56f630e976964b5198617511cd48fc8348d67480e1f9175975c7e355",
+  "videoId": "-CnA2lGfymY"
+}

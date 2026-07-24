@@ -1,0 +1,174 @@
+{
+  "algorithmVersion": 3,
+  "batchIndex": 3,
+  "candidateCount": 46,
+  "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
+  "generatedAt": "2026-07-24T20:42:50.951813+00:00",
+  "generatedBy": "cross-talk-topic-map-v1",
+  "inputSha256": "sha256:11a46631d08bb40a4889a82d56fcec54908dc43019d6653a3c7c70b060f0178b",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "clusters": [
+      {
+        "canonicalTopic": "Agent Security",
+        "memberIds": [
+          "T0040",
+          "T0064",
+          "T0094",
+          "T0238"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Minimizing agent authority, blast radius, supply-chain risk, and governance exposure."
+      },
+      {
+        "canonicalTopic": "Agent Memory",
+        "memberIds": [
+          "T0118",
+          "T0148",
+          "T0196",
+          "T0202",
+          "T0220",
+          "T0256",
+          "T0262",
+          "T0274"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "Memory systems and context layers that preserve, retrieve, and audit reusable organizational knowledge."
+      },
+      {
+        "canonicalTopic": "Agent-Ready Accessibility",
+        "memberIds": [
+          "T0142"
+        ],
+        "preferredExistingTopicSlug": "agent-ready-accessibility",
+        "synthesis": "Using accessibility trees as the control surface for agent interaction with desktop UIs."
+      },
+      {
+        "canonicalTopic": "Software Factories",
+        "memberIds": [
+          "T0010",
+          "T0022",
+          "T0070",
+          "T0088",
+          "T0124",
+          "T0154",
+          "T0160",
+          "T0232"
+        ],
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "Operational patterns for building and coordinating agentic software work, from loops and orchestration to ownership and skills."
+      },
+      {
+        "canonicalTopic": "Inference Engineering",
+        "memberIds": [
+          "T0016",
+          "T0052",
+          "T0076",
+          "T0136",
+          "T0190",
+          "T0214"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "How model behavior is shaped by evaluation, recursion, autonomy levels, and formal inference or reward dynamics."
+      },
+      {
+        "canonicalTopic": "AI Sandboxes",
+        "memberIds": [
+          "T0106",
+          "T0112"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "Secure sandbox infrastructure and virtualization for running untrusted agent actions."
+      },
+      {
+        "canonicalTopic": "Autoresearch",
+        "memberIds": [
+          "T0058",
+          "T0100",
+          "T0184"
+        ],
+        "preferredExistingTopicSlug": "autoresearch",
+        "synthesis": "Systems for automating research, experimentation, and evaluation in high-leverage or adversarial settings."
+      },
+      {
+        "canonicalTopic": "Agentic Web",
+        "memberIds": [
+          "T0130"
+        ],
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "Using non-screen inputs, especially transcripts, to drive workflow changes across web-connected systems."
+      },
+      {
+        "canonicalTopic": "MCP",
+        "memberIds": [
+          "T0226"
+        ],
+        "preferredExistingTopicSlug": "mcp",
+        "synthesis": "A constrained interface layer that balances extensibility with guardrails."
+      },
+      {
+        "canonicalTopic": "Nearly Headless Web",
+        "memberIds": [
+          "T0244"
+        ],
+        "preferredExistingTopicSlug": "nearly-headless-web",
+        "synthesis": "Local, lightweight client-side optimization and customization tradeoffs for smaller devices."
+      },
+      {
+        "canonicalTopic": "Reachability Over Format",
+        "memberIds": [
+          "T0004"
+        ],
+        "preferredExistingTopicSlug": "reachability-over-format",
+        "synthesis": "Preserving evidence integrity through durable logs and change tracking rather than relying on raw format alone."
+      },
+      {
+        "canonicalTopic": "Agent Evaluations",
+        "memberIds": [
+          "T0166",
+          "T0172"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "Evaluation-driven guidance, including process data, contextual constraints, and black-box cyber testing."
+      },
+      {
+        "canonicalTopic": "Agentic Search",
+        "memberIds": [
+          "T0034",
+          "T0082",
+          "T0178",
+          "T0250",
+          "T0268"
+        ],
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "Search, optionality, and product flexibility as ways to navigate uncertainty and missing capabilities."
+      },
+      {
+        "canonicalTopic": "Agent Memory",
+        "memberIds": [
+          "T0208"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Ontology and semantic-layer concepts that structure organizational knowledge for agent use."
+      },
+      {
+        "canonicalTopic": "LLM-assisted vulnerability discovery",
+        "memberIds": [
+          "T0028"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using language models to discover real vulnerabilities in source code and security systems."
+      },
+      {
+        "canonicalTopic": "Brain-hand decoupling",
+        "memberIds": [
+          "T0046"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Architectures that separate reasoning and coordination from execution environments."
+      }
+    ]
+  },
+  "payloadSha256": "sha256:c83dcae90b948e504d6f58414e2ef59c212e7eb0f9059c562882302370edb5b8",
+  "schemaVersion": 1
+}

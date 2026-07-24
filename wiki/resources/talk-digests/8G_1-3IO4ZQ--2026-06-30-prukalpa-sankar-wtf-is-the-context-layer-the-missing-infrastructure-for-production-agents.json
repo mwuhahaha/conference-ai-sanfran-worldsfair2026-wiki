@@ -1,0 +1,258 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:02:35.028417+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:0f9e5cf915f4f2d22e05e481dd35d19c25d5a0005220f3e4ca0804fac87da5a4",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "you deliver in the real world and performance is a function of two things it's a function of intelligence which is cognitive horsepower that's what the model benchmarks measure every day But it's also a function of context.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that real-world performance depends on both intelligence and context, not just model benchmarks."
+      },
+      {
+        "evidenceExcerpt": "Is the cutoff period Monday to Sunday? Is it Pacific time? Is it Eastern time? Uh that's knowledge.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "support": "explicit",
+        "text": "The speaker says a simple business question can hinge on facts like cutoff periods and time zones."
+      },
+      {
+        "evidenceExcerpt": "Um and over time we started dealing with uh context sprawl. Uh we had the the the hard part about this was agents all had their own memory systems to a certain extent.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that agents developed separate memory systems, which made a single version of truth difficult to maintain."
+      },
+      {
+        "evidenceExcerpt": "Over the last 6 months, we ended up creating about 300 skills and 40 agents in this team. Uh which has been incredible.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the team ended up creating about 300 skills and 40 agents."
+      },
+      {
+        "evidenceExcerpt": "So I'll end with one last thing. I started this presentation by saying context is king. Um I'd like to end it by saying context is also IP.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "support": "strong",
+        "text": "The speaker argues that context should be treated as intellectual property and as part of what differentiates companies."
+      }
+    ],
+    "methodNotes": "Only the supplied transcript was used. Each non-summary item is grounded in exactly one transcript segment, and the summary synthesizes the full talk rather than echoing the opening lines.",
+    "methods": [
+      {
+        "description": "Break work into concrete jobs-to-be-done before deciding what an agent should handle.",
+        "evidenceExcerpt": "Uh and we did this jobs to be done analysis map, right? And so we said, hey, if you are someone on our customer experience team, what are all the things that you do on a day-to-day basis?",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Jobs-to-be-done analysis"
+      },
+      {
+        "description": "Bootstrap agents by assigning them to specific topics or functions instead of trying to make one agent do everything.",
+        "evidenceExcerpt": "Uh our team got creative. So we had Hermione who is our health intelligence lead and then we had you know money penny who was our financial risk analyst and we just made that particular agent really good at doing that one thing.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "name": "Topic-specific agent bootstrapping"
+      },
+      {
+        "description": "Manage company context like code, with lifecycle management, collaboration, and versioning.",
+        "evidenceExcerpt": "Uh company context needs life cycle management, collaboration and versioning. Uh just like code does.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "name": "Context-as-code lifecycle management"
+      },
+      {
+        "description": "Use traces to reconstruct and improve shared context through approval and rejection loops.",
+        "evidenceExcerpt": "Second thing, every AI interaction creates more context and harnessing this uh is gold. uh uh there's been I know a lot of talks about self-improving loops uh we have found that with traces deploying a specific harness that actually is specialized in being able to go and reverse construct from that.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "name": "Trace-based reverse construction"
+      },
+      {
+        "description": "Mine context from connected business systems and use those links to build an initial company brain.",
+        "evidenceExcerpt": "One of the biggest learnings we've had is context is hidden in these in business systems. Uh and across this context quality can really compound.",
+        "evidenceSegmentIds": [
+          "S0106"
+        ],
+        "name": "Cross-system context mining"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "So you should be able to say, \"Hey, this thing impacts all these other things. This is the approver.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "question": "How should ownership, approvers, and maintainers be defined for shared context artifacts at company scale?",
+        "whyItMatters": "The talk says context needs lifecycle management and governance, but the operating model is still unresolved."
+      },
+      {
+        "evidenceExcerpt": "uh you know there's questions like what's local context what's global context how do I keep this updated so on uh some thoughts in this can skills have a profile just like code does uh can that have a self-learning learning loop that's baked into it uh what does quality management look like can you",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "question": "How do you separate local context from global context and keep both updated?",
+        "whyItMatters": "The speaker identifies this as part of the first step in making context manageable like code."
+      },
+      {
+        "evidenceExcerpt": "Second thing, every AI interaction creates more context and harnessing this uh is gold. uh uh there's been I know a lot of talks about self-improving loops uh we have found that with traces deploying a specific harness that actually is specialized in being able to go and reverse construct from that.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "question": "What is the best harness for turning traces into reliable improvement signals?",
+        "whyItMatters": "The talk argues that every interaction creates more context, but the extraction loop still needs a robust mechanism."
+      },
+      {
+        "evidenceExcerpt": "So for example, if you're able to connect your Salesforce and your HubSpot to your data warehouse to your application layer and then you're able to reverse construct how these things are actually connected one to another, context today gets lost in every one of those hops.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "question": "How do you connect many business systems into one company brain without losing context at every hop?",
+        "whyItMatters": "The speaker says context is hidden across systems, and the challenge is reconstructing those links accurately."
+      }
+    ],
+    "summary": "Prukalpa Sankar argues that the gap between smarter models and weak production outcomes is not model capability but missing business context: the facts, playbooks, and norms that make a human expert effective. Her proposed mechanism is a context layer that behaves like a versioned, testable company brain, continuously mining business systems, organizing reusable skills and semantics, and feeding those assets through retrieval and trace-driven learning loops to general-purpose agents. The tradeoff is operational complexity, because context now needs ownership, dependency management, security, and portability across tools and frameworks, but the payoff is more accurate agents, less silo drift, and context as a durable company asset rather than hard-coded prompt glue.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Is the cutoff period Monday to Sunday? Is it Pacific time? Is it Eastern time? Uh that's knowledge.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "text": "Treat the meaning of a business question as part of the problem, not an assumption the model can infer."
+      },
+      {
+        "evidenceExcerpt": "uh but giving it the business context that it took to actually get it to be accurate took forever.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "Expect context engineering, not agent scaffolding, to consume most of the time needed for accuracy."
+      },
+      {
+        "evidenceExcerpt": "So our marketing team had these agents and they started making changes to that and then our SDR agent on our website was still pitching the old version.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "text": "If context does not propagate across teams and channels, agents will keep acting on stale versions of reality."
+      },
+      {
+        "evidenceExcerpt": "So like which table should I go pull from? Uh we needed a library of skills. We also needed some other things, semantics, metrics, what is ARR, how do you measure that?",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "text": "A reusable context layer should store data graphs, skills, semantics, and business definitions together."
+      },
+      {
+        "evidenceExcerpt": "So think of it as AI that's reading through all your traces and almost brings it back to your maintainer loop and says approve reject approve reject improve this over time.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "text": "Use traces to feed a maintainer loop so learning compounds after deployment instead of stopping at launch."
+      }
+    ],
+    "tools": [
+      {
+        "description": "One of the agent-building systems the speaker says the team used before moving to other approaches.",
+        "evidenceExcerpt": "Um and then over time we actually went through in the last 12 months we've gone through cycles of at the agentic layer about 12 months ago we were using one of these no code type builders uh called relevance we went from there into Google ADK then we tried glean uh start of this",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Relevance"
+      },
+      {
+        "description": "One of the agent-building systems the speaker says the team used before moving to other approaches.",
+        "evidenceExcerpt": "Um and then over time we actually went through in the last 12 months we've gone through cycles of at the agentic layer about 12 months ago we were using one of these no code type builders uh called relevance we went from there into Google ADK then we tried glean uh start of this",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Google ADK"
+      },
+      {
+        "description": "One of the agent-building systems the speaker says the team used before moving to other approaches.",
+        "evidenceExcerpt": "Um and then over time we actually went through in the last 12 months we've gone through cycles of at the agentic layer about 12 months ago we were using one of these no code type builders uh called relevance we went from there into Google ADK then we tried glean uh start of this",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Glean"
+      },
+      {
+        "description": "One of the systems the speaker says the team used during the transition across agent frameworks.",
+        "evidenceExcerpt": "year we moved to cloud code now we are kind of like 50/50 claude and codeex um and every single time as these changes happened uh our context got trapped in each of these individuals systems.",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "name": "Cloud Code"
+      },
+      {
+        "description": "An external product the speaker names as part of the marketing stack connected to the context layer.",
+        "evidenceExcerpt": "So we had claw code and co-work. We also had our own claw that we deployed which has you know essentially talks in our slack channels.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Qualified"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The shared infrastructure that turns business knowledge into reusable context for agents.",
+        "evidenceExcerpt": "I like to think of this as the context layer. Uh and then this has a bunch of retrieval mechanisms which then talks to the general purpose agent across the ecosystem.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "Context layer"
+      },
+      {
+        "description": "The work of encoding business facts, skills, and norms so agents can use them correctly.",
+        "evidenceExcerpt": "uh but giving it the business context that it took to actually get it to be accurate took forever.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "Context engineering"
+      },
+      {
+        "description": "The failure mode where agents learn separately and drift away from a single source of truth.",
+        "evidenceExcerpt": "Um and over time we started dealing with uh context sprawl. Uh we had the the the hard part about this was agents all had their own memory systems to a certain extent.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "name": "Context sprawl"
+      },
+      {
+        "description": "A common repository of company knowledge, skills, and retrieval paths shared across agents.",
+        "evidenceExcerpt": "All of this goes into this common one place which is this one company brain of sorts, right?",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Shared company brain"
+      },
+      {
+        "description": "A loop that turns traces from AI interactions into improved shared context over time.",
+        "evidenceExcerpt": "So think of it as AI that's reading through all your traces and almost brings it back to your maintainer loop and says approve reject approve reject improve this over time.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Trace-driven learning loops"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:84399d2e0b245241a428f00b2f875fdd05ca27b73760512e41f6906758a5291d",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents",
+  "talkTitle": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents",
+  "transcriptPath": "raw/sources/youtube-transcripts/8G_1-3IO4ZQ.txt",
+  "transcriptSha256": "sha256:2631f0d3305e9321c881e06797662aa58cf68d6854f86e3a6d1ee3f2d6a9fecb",
+  "videoId": "8G_1-3IO4ZQ"
+}

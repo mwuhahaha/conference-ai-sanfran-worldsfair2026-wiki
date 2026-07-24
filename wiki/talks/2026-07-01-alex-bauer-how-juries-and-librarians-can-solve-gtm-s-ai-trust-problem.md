@@ -39,29 +39,76 @@ The connected people page sharpens why Bauer is a fitting speaker for this topic
 Within the July 1 multi-track program, this session sits in the AI in GTM track during the conference's densest day at Moscone West. It complements the broader wiki theme of converting official schedule entries into evidence-backed intelligence: the current evidence is still schedule-grounded, and the transcript map notes that no exact AI Engineer YouTube recording match was found by normalized title during this run. Until a confirmed recording, transcript, slide OCR, or resource link is attached, the page should keep the librarian, jury, judge, and model-capability patterns as official-description claims rather than transcript-confirmed implementation details.
 
 ## Synthesis
-### Synthesized Breakdown
-Well, hopefully this is the one talk that's different from all the others today. So, let's start with audience participation. Who here has kids? Oh.
+### Transcript-Backed Summary
+Alex Bauer argues that GTM AI has moved past simple hallucination and into a broader trust problem: the model can sound right while being wrong in ways that matter to revenue and operations. His answer is to manage agents like people, which means giving them commander's intent, writing down how the business actually works, and adding a librarian-style knowledge layer that supplies definitions, prior failures, and citations before the agent acts. For questions that do not have an empirically correct answer, he recommends a jury-and-judge workflow that gathers independent research and then weighs the reasoning, with escalation when consensus is weak. The practical consequence is a more structured stack that costs more upfront than a raw prompt, but produces outputs that are better grounded, more defensible, and safer to operationalize.
 
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
+### Key Takeaways
+- Tell agents why you want the outcome, not just what to do.
+  - Evidence: "And if you take nothing else from this talk, this is my one practical tip. Use commander's intent when you prompt."
+- Define the business structure before asking AI to generate from it.
+  - Evidence: "So, the step here was define the structure first, and then turn Claude loose. Don't try and YOLO it from the beginning."
+- Use a librarian layer to inject company-specific meaning before the agent answers.
+  - Evidence: "And so it basically gives your agent a just-in-time memory of all the important things. So we know that the fiscal year here is actually February through April."
+- Escalate subjective GTM questions to multiple independent analysts plus a judge.
+  - Evidence: "And if there's not enough consensus, then I'll escalate and expand the jury. But, my job is not to do research on my own."
+- Reserve important work for capable models and full-featured harnesses.
+  - Evidence: "You need it to have attributes like sub agents, plan mode, full MCP support. It should be able to use file editing and there are a lot of these out here."
+
+### Claims From The Talk
+- The speaker says the current AI problem in GTM is trust, because the model can return a revenue answer that is confidently wrong rather than admitting uncertainty. (`explicit`)
+  - Evidence: "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right."
+- He argues that the main operating principle is to manage agents like other humans. (`explicit`)
+  - Evidence: "So, the main thesis of the talk today is actually, when in doubt, manage your agents like other humans."
+- He reports that the website rebuild only became workable after defining the structure first and then letting Claude generate against that scaffold. (`explicit`)
+  - Evidence: "So, the step here was define the structure first, and then turn Claude loose. Don't try and YOLO it from the beginning."
+- He says the librarian is consulted before answering so the agent gets just-in-time memory from documentation, company knowledge, and prior failed queries. (`explicit`)
+  - Evidence: "So what we actually have it do is consult the librarian first. And the librarian has access to documentation and the library of knowledge items about your company and the schema of prior failed queries."
+- He describes attribution as a case where the agent should gather independent analysts rather than answer from a single pass. (`explicit`)
+  - Evidence: "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be."
+- He warns that AI products constrained by weak subscription economics are not appropriate for anything important. (`explicit`)
+  - Evidence: "So, basically, the general case here is any AI product where it's been crowbarred into a pre- subscription model is probably not something that you should be using for anything important because the margin on those plans just doesn't leave enough space for an intelligent reasoning model to work."
 
 ### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[coding-agents]]
-- [[mcp]]
+- **AI Trust in GTM** — The shift from hallucination as a generic concern to wrong-but-confident business answers that undermine adoption.
+- [[coding-agents|Commander's Intent]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
+- **Business Knowledge Scaffolding** — Preparing company facts, capabilities, and personas as reusable reference material before generation.
+- [[agent-memory|Librarian Memory]] — A pre-answer knowledge layer that gives agents company definitions, documentation, and failure history.
+- [[autoresearch|Jury-and-Judge Workflow]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
+- **Agent Tiering** — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
+
+### Tools And Named Systems
+- [[claude|Claude]] — The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.
+- **Upside Librarian** — The product feature described as the radiant librarian that agents consult before answering.
+- **Slackbot** — The Slack product the speaker says released MCP client functionality.
+- [[mcp|MCP]] — The protocol mentioned as a way to connect Slackbot and other tools to external systems.
+
+### Novel Concepts And Methods
+- **Commander's Intent Prompting** — Tell the agent why you want the task done so it can make better decisions.
+- **Anchor Asset Scaffolding** — Maintain structured reference assets for company facts, capabilities, and personas before generation.
+- **Librarian-First Retrieval** — Consult a knowledge librarian before answering so company definitions and prior failure modes shape the response.
+- **Jury-and-Judge Review** — Use independent analysts to produce evidence-backed opinions, then have a judge weigh reasoning and escalate if needed.
+- **Model Tier Selection** — Choose a capable model tier with plan mode, subagents, MCP support, and file editing for important work.
+
+### Open Questions
+- **How should a team decide when disagreement is large enough to escalate from one pass to a bigger jury?** — The workflow depends on knowing when consensus is insufficient, but the talk leaves the escalation threshold as an open operating rule.
+- **What criteria should define whether an AI setup is too constrained to be trusted on important work?** — The speaker warns against cheap or crowbarred-in setups, but teams still need a practical boundary for acceptable capability.
 
 ### Derived Links And Source Material
-- [[youtube-YZQsWVeN3rE-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/YZQsWVeN3rE.txt` (2,901 words).
-- [[youtube-YZQsWVeN3rE]] — related YouTube source page.
-- [[youtube-YZQsWVeN3rE-slides]] — slide evidence.
+- [[youtube-YZQsWVeN3rE-transcript]] — dedicated official recording transcript.
+- [[youtube-YZQsWVeN3rE]] — official event recording.
+- Structured digest: `wiki/resources/talk-digests/YZQsWVeN3rE--2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem.json`.
 
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+### Speaker Context
+- No speaker profile is attached in the official schedule data.
+
+### Semantic Digestion Status
+- Complete: 1 matched recording digest(s) passed the evidence contract.
+- Generator: `talk-semantic-digestion-v1`.
+- Contract: `sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990`.
 
 ### Evidence Boundary
-This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+This section is synthesized only from official schedule metadata and dedicated manifest-matched recording transcripts. Every listed takeaway, claim, topic, tool, method, and question is bound to a verbatim transcript excerpt in the structured digest. Speaker claims remain attributed event evidence, not independent verification.
+
 ## People
 - [[alex-bauer]]
 

@@ -10,14 +10,14 @@
     "path": "wiki/topics/agent-memory.md"
   },
   {
-    "id": "agent-ready-accessibility",
-    "title": "Agent-Ready Accessibility",
-    "path": "wiki/topics/agent-ready-accessibility.md"
-  },
-  {
     "id": "agent-security",
     "title": "Agent Security",
     "path": "wiki/topics/agent-security.md"
+  },
+  {
+    "id": "agent-ready-accessibility",
+    "title": "Agent-Ready Accessibility",
+    "path": "wiki/topics/agent-ready-accessibility.md"
   },
   {
     "id": "agentic-search",

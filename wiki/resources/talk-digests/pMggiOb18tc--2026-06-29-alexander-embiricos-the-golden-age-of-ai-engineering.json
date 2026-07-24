@@ -1,0 +1,283 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:50:57.692104+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:84811a0ca2ea6dd2e8b946c61289dbabfa5edcafe9b95ba620a802efd1377223",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "But now what we're here to say is that the AI engineers are eating the world. AI engineers are the people here pushing the frontier.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "support": "explicit",
+        "text": "The speakers argue that AI engineers are now the people pushing the frontier, not a class being made obsolete by AI."
+      },
+      {
+        "evidenceExcerpt": "It's about taking the latest science and combining it with design, with taste, with judgment, and most of all, imagination to make something that people can actually use.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "They say engineering is fundamentally about combining science with design, taste, judgment, and imagination to make useful things for people."
+      },
+      {
+        "evidenceExcerpt": "Instead, the the product shape that we want is one that maximally empowers engineers. So, you know, if we think about what that product shape is, we actually think it's pretty simple.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "support": "explicit",
+        "text": "The product goal is to maximize engineer empowerment rather than automate engineers away."
+      },
+      {
+        "evidenceExcerpt": "cannot be a closed product that only openai can improve so we've intentionally designed codeex as a set of layers that anyone can build on and we want to show you a little bit of that stack today and how it it manifests first it starts with the model and Alexander showed how quickly we're",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "support": "explicit",
+        "text": "Codex is presented as an open, layered stack that OpenAI uses itself and intends for others to build on."
+      },
+      {
+        "evidenceExcerpt": "So we have persistent context, delegation and triggers. There's your loop. And once the loop starts working, you discover the next problem.",
+        "evidenceSegmentIds": [
+          "S0141"
+        ],
+        "support": "explicit",
+        "text": "Peter Steinberger describes the core agent loop as persistent context, delegation, and triggers."
+      },
+      {
+        "evidenceExcerpt": "And unlike tokens or compute, I can't simply add more of it. So the most important skill is today is deciding where to spend it.",
+        "evidenceSegmentIds": [
+          "S0146"
+        ],
+        "support": "explicit",
+        "text": "He says the limiting factor has moved from tokens and compute to human attention."
+      }
+    ],
+    "methodNotes": "The talk’s operating model is loop-centric: make agents reliable enough to run work, then move humans to the outer loop where they set direction, review, and intervene only when needed.",
+    "methods": [
+      {
+        "description": "Start with chat for broad delegation, then switch into a hands-on collaborative surface when you need to inspect or steer details.",
+        "evidenceExcerpt": "I think chat is underrated. uh and some kind of hands-on experience. So, what you want is a single entity that you can ask for help with anything anywhere.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Chat-plus-hands-on workflow"
+      },
+      {
+        "description": "Use build and test feedback so the model can verify its work instead of relying on blind generation.",
+        "evidenceExcerpt": "Then models started testing the work and now we have models taking on long hard goals until they're done.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Build-test loop"
+      },
+      {
+        "description": "Keep long-lived state, delegation, and wake-up triggers so a manager agent can coordinate work across time.",
+        "evidenceExcerpt": "Coordination lets one thread create and steer the right projects. And third, automation can wake the same manager when something happens.",
+        "evidenceSegmentIds": [
+          "S0140"
+        ],
+        "name": "Persistent manager loop"
+      },
+      {
+        "description": "Operate in an outer loop where the human reviews, approves, and redirects while workers execute the inner loop.",
+        "evidenceExcerpt": "The agent runs the inner execution loop. I set the direction and I make decisions in the outer loop.",
+        "evidenceSegmentIds": [
+          "S0154"
+        ],
+        "name": "Outer-loop review"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "You talk to it wherever, whenever, about anything, and it should figure out, okay, what do I need to do?",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "question": "How should an agent decide which environment to use for a given task when it can run locally, in the cloud, or on another connected machine?",
+        "whyItMatters": "That choice determines whether the agent can act autonomously without forcing the user to manage infrastructure details."
+      },
+      {
+        "evidenceExcerpt": "The manager shouldn't be a session trapped inside your app. It should be an agent that I can text, steer from Slack, or hear from wherever I am.",
+        "evidenceSegmentIds": [
+          "S0160"
+        ],
+        "question": "How can a long-lived manager agent stay reachable from places like Slack or text without being trapped inside a single app session?",
+        "whyItMatters": "If this works, agents become persistent collaborators instead of isolated tools."
+      },
+      {
+        "evidenceExcerpt": "Really, why can't I talk to my agent and have it design the whole loop for me? We haven't solved that yet.",
+        "evidenceSegmentIds": [
+          "S0161"
+        ],
+        "question": "Can the agent design the whole work loop for the user, not just execute tasks inside an existing loop?",
+        "whyItMatters": "That would push the product from task automation toward workflow design."
+      }
+    ],
+    "summary": "The talk argues that AI engineering is not the end of engineering but a return to its roots: engineers are still needed to combine fast-moving science with judgment, design, and taste to solve real problems. Its central mechanism is a layered agent stack and a dual-mode product shape, where chat handles delegation and a collaborative surface handles inspection, steering, review, and deployment; this lets agents take on more of the lifecycle before, during, and after coding. The main tradeoff is that as models become faster and more capable, value comes less from watching every token and more from designing reliable loops, open interfaces, and the right environment for each task, so humans can spend attention only where decisions matter most.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And in that sense, it's not the end of engineering. We think it's a return to the roots of engineering.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "text": "The speakers frame AI engineering as a continuation of engineering fundamentals, not a replacement for them."
+      },
+      {
+        "evidenceExcerpt": "And then you want a a powerful collaborative UI that you can use when you want to inspect, steer, or shape things yourself.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "text": "The interface should let people ask for help anywhere and then inspect or steer work when needed."
+      },
+      {
+        "evidenceExcerpt": "always try to bake it into the API first so you can benefit as well one example recently was compaction codex needed a way to compact long context for longunning tasks and so we'll build that into the API So that means your agents can use the same primitives that we built for ourselves.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "text": "OpenAI wants the same primitives it uses internally to be exposed through the API so developers can reuse them."
+      },
+      {
+        "evidenceExcerpt": "I review once, I re leave a note, I maybe approve, the loop continues and it can land after the checks pass.",
+        "evidenceSegmentIds": [
+          "S0153"
+        ],
+        "text": "The practical working pattern is to review once at the outer loop and let agents handle execution, testing, and landing the change."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The product surface for chatting with and steering coding agents.",
+        "evidenceExcerpt": "So the way that we're bringing to this to life is just the beginning, but this is why we built the Codex app.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Codex app"
+      },
+      {
+        "description": "The cloud execution environment for agents.",
+        "evidenceExcerpt": "Now, we've been actually aiming at this from the start. Our first major launch was Codex Cloud, and it is due for some major upgrades coming soon.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Codex Cloud"
+      },
+      {
+        "description": "The API layer used to access the same model primitives that power the product.",
+        "evidenceExcerpt": "progressing on models and you guys use these models through the responses API and guess what this is how we build the CEX app right we use the same models through the same API and we actually are building on the same thing that we give to developers and when CEX needs something new we",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "name": "Responses API"
+      },
+      {
+        "description": "The open-source harness that defines the agent loop.",
+        "evidenceExcerpt": "Moving on to the next layer, the CDEX harness is also open source. So you can inspect it, you can fork it, you can adapt it.",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "name": "Codex harness"
+      },
+      {
+        "description": "The open-source application server used to unify Codex apps and sign-in flows.",
+        "evidenceExcerpt": "So we built apps server and we also made that open source and the app server is not kind of a a community adapter.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Apps server"
+      },
+      {
+        "description": "A plugin that enables browser-based agent actions.",
+        "evidenceExcerpt": "So if you take for instance browser use and computer use these were built as plugins using the same extension points that we have available for for all of you.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "name": "browser use"
+      },
+      {
+        "description": "A plugin that enables computer-based agent actions.",
+        "evidenceExcerpt": "So if you take for instance browser use and computer use these were built as plugins using the same extension points that we have available for for all of you.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "name": "computer use"
+      },
+      {
+        "description": "A model family described as bringing GPT-5.5-level intelligence at half the cost.",
+        "evidenceExcerpt": "So for example, GPD 5.6 terra I think it's in like dark blue in there brings GP 5.5 level intelligence but at half the cost and Luna there beats some pretty notable models in this eval but at only $1 per million input tokens and $6 per million output tokens.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "name": "GPT 5.6 Terra"
+      },
+      {
+        "description": "A fast model deployment described as running frontier intelligence on Cerebras.",
+        "evidenceExcerpt": "Well, this is GPT 5.6 cell running on Cerebras. The frontier intelligence at now 750 tokens a second.",
+        "evidenceSegmentIds": [
+          "S0115"
+        ],
+        "name": "GPT 5.6 Cel"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The role of engineers in an AI-native software era.",
+        "evidenceExcerpt": "In fact, because engineering was never about writing code. Engineering has always been about solving problems for yourself and for other people as well.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "AI engineering"
+      },
+      {
+        "description": "A product model that combines chat delegation with hands-on steering.",
+        "evidenceExcerpt": "I think chat is underrated. uh and some kind of hands-on experience. So, what you want is a single entity that you can ask for help with anything anywhere.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Collaborative agent UI"
+      },
+      {
+        "description": "An application and infrastructure strategy where the same stack is used internally and externally.",
+        "evidenceExcerpt": "At every layer, we actually use the thing that we give to you. And we want to thank all of you because every time you fork the harness, every time you find the edge of capabilities of the models, it means we get to learn and improve.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Open agent stack"
+      },
+      {
+        "description": "Optimizing for user value rather than raw token output.",
+        "evidenceExcerpt": "We have a term for this that maybe you use as well. I don't know is it on screen? Value maxing.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Value maxing"
+      },
+      {
+        "description": "Long-lived coordination between a manager agent and worker agents.",
+        "evidenceExcerpt": "I was no longer pairing. I was managing 10 direct reports. Now I mostly talk to a longunning manager which delegates work to a team.",
+        "evidenceSegmentIds": [
+          "S0137"
+        ],
+        "name": "Manager-worker loops"
+      },
+      {
+        "description": "Choosing the right host or environment for each agent task.",
+        "evidenceExcerpt": "My agent should be able to connect to any of my machines. They should know which work can be done in the cloud or which work requires my local machine.",
+        "evidenceSegmentIds": [
+          "S0159"
+        ],
+        "name": "Agent host placement"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:98a0dedc303e6fb2bc4704dcca2aff61710908029245141fb40b07e0dbc77961",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering",
+  "talkTitle": "The Golden Age of AI Engineering",
+  "transcriptPath": "raw/sources/youtube-transcripts/pMggiOb18tc.txt",
+  "transcriptSha256": "sha256:57339e93a1ab183ca70827aaefc1da376350b5b613333590279352b4a0d21d11",
+  "videoId": "pMggiOb18tc"
+}

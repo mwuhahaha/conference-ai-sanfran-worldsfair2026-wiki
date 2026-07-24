@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:56:02.221915+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:424d9695f9e5cdcfd669ddc049cd3f62096ba83640680f801c1c60c58b670522",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "But if it gets to code review time, you're like, is it really worth it? Right? [snorts] And the problem, folks, is that that works for all classes of bugs except for security.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that security vulnerabilities cannot be treated like ordinary bugs because their harm compounds over time instead of fading after initial discovery."
+      },
+      {
+        "evidenceExcerpt": "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "support": "explicit",
+        "text": "He argues that LLMs should not be asked to do correctness and security work in the same pass, because they will do both poorly."
+      },
+      {
+        "evidenceExcerpt": "Okay? Because what you do is you add it as a pass to the prompt that you give them for whatever they're doing and say one last thing to look at and have them run your security analysis all of the tools.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "He argues that security tools should be added as an extra review pass in the prompt so models can re-check their own output with multiple analyzers."
+      },
+      {
+        "evidenceExcerpt": "Okay? These are all passes that go through your code. And I just want you to remember that security should be your first one and your last one.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "support": "explicit",
+        "text": "He argues that security should be both the first and the last pass over code, not an afterthought."
+      },
+      {
+        "evidenceExcerpt": "So you got to have those supervisors. And so there's whole systems emerging here kind of can go out and go look at all of your things and say and start to like, you know, do do that hardening stuff like do they really need all those credentials on that service account really?",
+        "evidenceSegmentIds": [
+          "S0110"
+        ],
+        "support": "explicit",
+        "text": "He argues that agent systems need supervisors that inspect permissions and harden service accounts before agents are widely deployed with excessive access."
+      }
+    ],
+    "methodNotes": "The talk is grounded in a practical security workflow for AI-assisted coding: separate security from correctness, run multiple review passes, and add supply-chain and permission checks around both generated code and agent orchestration. The speaker frames this as an arms-race problem, so the operational answer is layered scrutiny rather than trusting a single model pass.",
+    "methods": [
+      {
+        "description": "Do security and correctness in separate passes so each concern gets focused attention instead of diluted results.",
+        "evidenceExcerpt": "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "separate-pass review"
+      },
+      {
+        "description": "Run four to five review passes on LLM-generated work before shipping it.",
+        "evidenceExcerpt": "When you do things with LLMs, often you have to get them to do up to four to five reviews of the work that they did before it's like actually ready to ship.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "multipass review"
+      },
+      {
+        "description": "Surface security findings at the developer or model interaction point instead of waiting until code review.",
+        "evidenceExcerpt": "The problem compounds over time. Yeah. So, you have to treat this class of vulnerabilities the way that Google treated their top vulnerabilities at the time, which is to surface them at the developer's fingertips.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "shift-left security feedback"
+      },
+      {
+        "description": "Use multiple security analyzers to check each other's work as part of the prompt or launch-time workflow.",
+        "evidenceExcerpt": "Get the open source ones, get the sneak one, get the chain guard one, get the all of them and have them check each other's work too, right?",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "cross-checking analyzers"
+      },
+      {
+        "description": "Design agents with supervisors that inspect and reduce permissions on services and tasks.",
+        "evidenceExcerpt": "So you got to have those supervisors. And so there's whole systems emerging here kind of can go out and go look at all of your things and say and start to like, you know, do do that hardening stuff like do they really need all those credentials on that service account really?",
+        "evidenceSegmentIds": [
+          "S0110"
+        ],
+        "name": "agent supervision"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Yeah. Is that scary? Yeah, it should be. It should be. How do you even detect that that's happening?",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "question": "How can systems reliably detect slop squatting when a hallucinated package name resolves to a convincing malicious backdoor instead of a real dependency?",
+        "whyItMatters": "The talk treats this as a new supply-chain attack surface, and detection is a core missing defense."
+      },
+      {
+        "evidenceExcerpt": "And then they just get more sophisticated from there. Um, I mean, I don't have any good answers for you other than like this is real.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "question": "What defenses can actually stop prompt injection and related training or inference-time attacks beyond user education?",
+        "whyItMatters": "The speaker says this class of attacks is real but does not offer a complete technical solution."
+      },
+      {
+        "evidenceExcerpt": "This is a brand new frontier, but it's one ironically that even though there's kind of almost nothing out there, there's some experimental stuff, you still have to be thinking about it right now and designing a solution in house right now, right?",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "question": "How should teams design agent permission and supervision systems in-house before standardized tooling exists?",
+        "whyItMatters": "The talk says this frontier is already arriving and waiting for a mature ecosystem is risky."
+      }
+    ],
+    "summary": "The talk argues that AI-coded systems should be treated as a new security frontier, not just a faster version of normal software development. The central mechanism is to break work into multiple passes and to separate correctness from security, then add layered checks from developer feedback to supply-chain inspection and agent supervision. The practical consequence is that teams need to harden code, dependencies, prompts, credentials, and autonomous agents together, because new attack surfaces such as slop squatting, prompt injection, and overprivileged agents are arriving faster than the old review model can handle.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, so we're entering a world where everything you write, every bit of code that you generate is going to have to get far more security scrutiny than it's ever had before.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "text": "Every bit of AI-generated code will need more security scrutiny than code has needed before."
+      },
+      {
+        "evidenceExcerpt": "The problem compounds over time. Yeah. So, you have to treat this class of vulnerabilities the way that Google treated their top vulnerabilities at the time, which is to surface them at the developer's fingertips.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "text": "Security issues should be surfaced immediately, at the developer's fingertips, because delay makes them easier to ignore."
+      },
+      {
+        "evidenceExcerpt": "Give them sneak, give them chain guard. And I still think there's a missing piece in this picture that I'll tell you about at the end.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "LLMs should be paired with security tools and supply-chain controls so they get help on the parts they are likely to miss."
+      },
+      {
+        "evidenceExcerpt": "Okay? These are all passes that go through your code. And I just want you to remember that security should be your first one and your last one.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "text": "Security belongs at the beginning and end of the workflow, not as a single late-stage review."
+      },
+      {
+        "evidenceExcerpt": "Because otherwise your engineers are going to spin up or your non-engineers are going to spin up a bunch of agents with way too many permissions and then right as soon as a bear munches into the igloo, everyone's dead, right?",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "text": "Agent deployments must avoid broad permissions, or one failure can cascade across the system."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A commercial security tool the speaker says found many vulnerabilities in his codebase and is easy to use.",
+        "evidenceExcerpt": "Uh yeah, I didn't I didn't include the numbers because uh I'm done. But um uh it found 241 vulnerabilities, right?",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Sneak"
+      },
+      {
+        "description": "A supply-chain service that provides pre-vetted images and updates them.",
+        "evidenceExcerpt": "Um, chain I don't know if you all know about Chain Guard. Chain Guard. Uh, Chain Guard is a supply chain that you sign up for and they give you images that have been prevetted to not have vulnerabilities and they update them.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "name": "Chain Guard"
+      },
+      {
+        "description": "The model or assistant the speaker used for coding and hardening work.",
+        "evidenceExcerpt": "I just had Fable do a security hardening pass during the time I had it. Went through and it did all my cloud hardening and it found a bunch of credentials and did a a bunch of stuff and it [snorts] started giving me these vibes like, \"Yep, yep.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Fable"
+      },
+      {
+        "description": "The agent system the speaker cites as doing useful autonomous work and enabling swarms.",
+        "evidenceExcerpt": "Gas Town was a lot of fun in January. yeah, Gas Town is a beads machine and I still use beads and I'm working I want to I was talking to Angie.",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "name": "Gas Town"
+      },
+      {
+        "description": "A task-tracking system the speaker uses to queue and coordinate agent work.",
+        "evidenceExcerpt": "Beads is a task tracker, right? Beads is how you do Boris Chney loops. You know how Boris is like you shouldn't be prompting your agent.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Beads"
+      },
+      {
+        "description": "The assistant credited with assembling the slide deck.",
+        "evidenceExcerpt": "All right. Hey everybody. Uh yeah, yep. Yep. Yep. Okay. I have about 18 minutes. Um I have a slide deck here that that Claude put together for me, but Claude still can't do very good slide decks, so I apologize for that.",
+        "evidenceSegmentIds": [
+          "S0001"
+        ],
+        "name": "Claude"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Security for AI-assisted coding, including how generated code changes the threat model.",
+        "evidenceExcerpt": "So, so we're entering a world where everything you write, every bit of code that you generate is going to have to get far more security scrutiny than it's ever had before.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "agentic security"
+      },
+      {
+        "description": "The risk that hallucinated dependency names can be turned into malicious packages.",
+        "evidenceExcerpt": "Like what's an example you guys know about slop squatting, right? Where the AI hallucinates uh a package name.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "slop squatting"
+      },
+      {
+        "description": "Treating security as a separate review pass from correctness and performance.",
+        "evidenceExcerpt": "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "multi-pass code review"
+      },
+      {
+        "description": "Restricting agent capabilities and permissions before autonomous systems are widely deployed.",
+        "evidenceExcerpt": "So you got to have those supervisors. And so there's whole systems emerging here kind of can go out and go look at all of your things and say and start to like, you know, do do that hardening stuff like do they really need all those credentials on that service account really?",
+        "evidenceSegmentIds": [
+          "S0110"
+        ],
+        "name": "agent permissions"
+      },
+      {
+        "description": "Manipulating prompts or training data to redirect model behavior.",
+        "evidenceExcerpt": "[snorts] there are a whole bunch of attacks happening on the training and on the prompting side, right?",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "prompt injection"
+      },
+      {
+        "description": "Inspecting software dependencies, images, and package sources for hidden vulnerabilities.",
+        "evidenceExcerpt": "So, it's your inputs. Okay? And then Sneak handles everything else. The code that you write, the code that the LLM writes, the dependencies that you're pulling in from slop squatting, right?",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "software supply chain"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:43d4a26300edca37a9584f16a7f520a69b19209a34a10f493c435a298200a6c4",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain",
+  "talkTitle": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+  "transcriptPath": "raw/sources/youtube-transcripts/yWS0udrIOc8.txt",
+  "transcriptSha256": "sha256:79cf3d533f5c7d1a28eb7d5eae206981ec82cfe955ade35f823bde4e1248ef80",
+  "videoId": "yWS0udrIOc8"
+}

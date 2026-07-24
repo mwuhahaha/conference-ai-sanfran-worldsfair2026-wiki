@@ -21,15 +21,20 @@ sourceAssessment:
   - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-2JX6JYyQG4Y
+  - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-9QebvrrY3KY
   - source:official-wf26-youtube-9fubhllmsBU
+  - source:official-wf26-youtube-APqXGyCoGW4
   - source:official-wf26-youtube-Cz4v1WHVyZc
+  - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-VrpEyglYgeU
   - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-X1kp-ABIIxQ
+  - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZpK5PWX2YRM
   - source:official-wf26-youtube-c35YoMdnI78
@@ -40,7 +45,7 @@ sourceAssessment:
   - source:official-wf26-youtube-uIiA6DquRiE
   - source:official-wf26-youtube-uU5Gv2h8-9g
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:02d6145cb201f2b87ce34a5eb9655ee6dc18bf646cfb59b589d1866fd1219d0e
+sourceAssessmentBodySha256: sha256:03fccf0a6ae835ace188803ef2f242fb6a1b758fd5f1aacc3227d7fef834651a
 ---
 # Coding Agents
 
@@ -118,6 +123,71 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[youtube-ZpK5PWX2YRM-slides]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI (32 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 27 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Patterns for coordinating coding agents across planning, execution, verification, and maintenance work. The variation is whether humans stay tightly in the loop or agents run longer background loops, with a constant tradeoff between autonomy and controllability.
+
+### Constituent Talk Evidence
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — A product model that combines chat delegation with hands-on steering.
+  - Transcript: [[youtube-pMggiOb18tc-transcript]]
+  - Evidence: "I think chat is underrated. uh and some kind of hands-on experience. So, what you want is a single entity that you can ask for help with anything anywhere."
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]] — Human-in-the-loop planning and review before implementation.
+  - Transcript: [[youtube-Ib5GBkD555M-transcript]]
+  - Evidence: "Um, so turning the lights back on, we're going to put the code review back. Uh, we're going to embrace this approach of like how do we plan up front to reduce the chance that we have a long or uh difficult review process."
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]] — Turning agent intent into a program that can be inspected and analyzed statically.
+  - Transcript: [[youtube--CnA2lGfymY-transcript]]
+  - Evidence: "Um, and again, it's a small step for a signature, but a giant leap for safety because now the model returns an expression, a program that represents a computation."
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]] — Agents that can run for hours with limited human steering and need durable orchestration.
+  - Transcript: [[youtube-9QebvrrY3KY-transcript]]
+  - Evidence: "In order to really unlock async, we needed longer task horizons. And so we're starting to see that now."
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — Separating boring orchestration from agentic reasoning to reduce risk and increase reliability.
+  - Transcript: [[youtube-LqLoYksJ6do-transcript]]
+  - Evidence: "Now, patch pilot has two layers. One, it's a simple go application that is deterministic. It's boring."
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]] — Choosing whether FDE fits by comparing customer maturity with product configurability.
+  - Transcript: [[youtube-APqXGyCoGW4-transcript]]
+  - Evidence: "And the reason for that is cuz I think of it on on a matrix, right? And a lot of people ask me, \"Hey, is FDE like professional services?"
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — Harnesses that initiate work, listen to external events, and learn over time.
+  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
+  - Evidence: "Your teams may be figuring out how to use them. Um, and then I want to talk about what the harness to claw transition is, which is imbuing these agents, imbuing these harnesses with initiative and and learning, right?"
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — Coordinating multiple agents and humans across a software delivery workflow.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "Usually she does, but multi-agent orchestration is important. Maybe Claude Code isn't the best at customer voice, but Decagon is, right?"
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — The refactored Verifiers architecture built around task sets, harnesses, and runtimes.
+  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
+  - Evidence: "And the key pieces we broke things down into were a task set, a harness, and a runtime. And so these are all composable."
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The operating model where agents handle the inner execution loop and humans handle the outer decision loop.
+  - Transcript: [[youtube-n97BCfyFIvw-transcript]]
+  - Evidence: "The outer loop is agency. And this is a boundary that I really care about. Your agent returns evidence."
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]] — A change-routing approach that assigns the right proof method to each piece of work.
+  - Transcript: [[youtube-ZpK5PWX2YRM-transcript]]
+  - Evidence: "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs."
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]] — Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.
+  - Transcript: [[youtube-X1kp-ABIIxQ-transcript]]
+  - Evidence: "So, like what is a loop? Right? A loop is a system that basically just runs continuously or on a schedule and it's assessing the state of the system against the the goals that you set or the criteria that you set and determines what to do next."
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Operating desktop agents without foreground takeover by running them in the background.
+  - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
+  - Evidence: "That means that your computer user will will not take over your uh screen as like the computer use 1.0 um kind of like agent loop was doing back in the days."
+- [[2026-06-30-philipp-schmid-don-t-ship-skills-without-evals|Don't Ship Skills Without Evals]] — Skills that encode durable team or company preferences and workflows.
+  - Transcript: [[youtube-0vphxNt4wyk-transcript]]
+  - Evidence: "Those are more durable, mostly encode some references. So, if you have a specific workflow in your team or a specific style language or other preferences which are very specific to your company, Um will have or create preference skills and those uh preference skills are then protected with e-walls where because most of like the foundation models might not uh integrate the knowledge which is very specific to your use case or your domain."
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — The feedback structure that links generation, review, and maintenance into a compounding system.
+  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
+  - Evidence: "So you have your your code maintenance loop, agentic loop, CI verification loop and deliberate design of these loops with verification at the center is a compounding system."
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — A collaboration pattern where humans provide ideas and agents perform rapid execution and iteration.
+  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
+  - Evidence: "Okay. To step back, the state of a human AI collaboration is a human collectively provide a lot of creative ideas and agent do the execution to solve a concrete challenge."
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
+  - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
+  - Evidence: "And if you take nothing else from this talk, this is my one practical tip. Use commander's intent when you prompt."
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — The ability to substitute models and harnesses to reduce cost while preserving behavior.
+  - Transcript: [[youtube-GgLQ02aO-hs-transcript]]
+  - Evidence: "First is that your implementation becomes cheaper. When you're flexible to what the implementation is, you can use the bitter lesson to search over different solutions, find something that solves your problem cheaply."
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — The talk emphasizes models coordinating and verifying multi-step work.
+  - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
+  - Evidence: "figure it out a lot of the time. figure it out a lot of the time. Mythos is another jump Mythos is another jump Mythos is another jump to orchestration."
 
 ## Connections
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
@@ -224,9 +294,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 70 | Related pages outside the main evidence categories. |
 | resources | 32 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 59 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 42 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 52 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 28 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 36 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]

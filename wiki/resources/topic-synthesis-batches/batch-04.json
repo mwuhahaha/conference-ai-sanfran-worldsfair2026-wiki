@@ -1,0 +1,146 @@
+{
+  "algorithmVersion": 3,
+  "batchIndex": 4,
+  "candidateCount": 46,
+  "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
+  "generatedAt": "2026-07-24T20:42:45.963067+00:00",
+  "generatedBy": "cross-talk-topic-map-v1",
+  "inputSha256": "sha256:fcb055797256b84ea58b84ead22ab98672866787aaae0ffa9b6fe66e5d1efcc0",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "clusters": [
+      {
+        "canonicalTopic": "agentic security for coding and tool use",
+        "memberIds": [
+          "T0005",
+          "T0023",
+          "T0035",
+          "T0041",
+          "T0089",
+          "T0059"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Security concerns around agent-driven code and tool use, including permissions, delegated access, harmful side effects, and safe remediation at scale."
+      },
+      {
+        "canonicalTopic": "environment and host selection for agents",
+        "memberIds": [
+          "T0011",
+          "T0077",
+          "T0107",
+          "T0113",
+          "T0095"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "Choosing and operating the right sandbox, host, or environment for agent work, including isolation, persistence, and environment-centered workflows."
+      },
+      {
+        "canonicalTopic": "software factory delivery model",
+        "memberIds": [
+          "T0017",
+          "T0071"
+        ],
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "End-to-end delivery systems that turn requests into shipped software, including project-based execution and the full planning-to-production loop."
+      },
+      {
+        "canonicalTopic": "verification and evaluation loops",
+        "memberIds": [
+          "T0047",
+          "T0119",
+          "T0125",
+          "T0167",
+          "T0173",
+          "T0185",
+          "T0215",
+          "T0221",
+          "T0275"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Using verification, grading, and control loops to judge work, catch failures, and keep iterative improvement tied to measurable outcomes."
+      },
+      {
+        "canonicalTopic": "context and memory substrate for agents",
+        "memberIds": [
+          "T0065",
+          "T0101",
+          "T0161",
+          "T0257",
+          "T0263"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "The reusable substrate for agent context, including what is known, retrieved, learned, and tracked over different time horizons."
+      },
+      {
+        "canonicalTopic": "evaluation-driven agent and skill design",
+        "memberIds": [
+          "T0083",
+          "T0143",
+          "T0155",
+          "T0227",
+          "T0239"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "Designing systems and skills around evals, benchmarks, and output quality checks rather than only model capability."
+      },
+      {
+        "canonicalTopic": "agent architecture and runtime structure",
+        "memberIds": [
+          "T0131",
+          "T0191",
+          "T0233",
+          "T0269"
+        ],
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "Architectural patterns for agent systems, including layered design, abstraction boundaries, function-like programs, and event-sourced runtimes."
+      },
+      {
+        "canonicalTopic": "knowledge representation and ontology layers",
+        "memberIds": [
+          "T0203",
+          "T0209",
+          "T0245"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using structured data models, ontologies, and provenance-aware representations to ground agent reasoning in the real system landscape."
+      },
+      {
+        "canonicalTopic": "research and reasoning workflows",
+        "memberIds": [
+          "T0137",
+          "T0149",
+          "T0179",
+          "T0197"
+        ],
+        "preferredExistingTopicSlug": "autoresearch",
+        "synthesis": "Workflows that expose reasoning, surface unknowns, and combine independent research with a final judgment step."
+      },
+      {
+        "canonicalTopic": "model and platform control",
+        "memberIds": [
+          "T0251"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Controlling local or open-model behavior through version choice, update timing, and easy onboarding."
+      },
+      {
+        "canonicalTopic": "large-scale agent operations",
+        "memberIds": [
+          "T0053"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Operating agents and harnesses at scale, including continuous cloud execution and feedback from users and products."
+      },
+      {
+        "canonicalTopic": "Threat modeling",
+        "memberIds": [
+          "T0029"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Turning implicit system knowledge into explicit written context for security analysis."
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5b1a7caca17fb343b217331ad9849cae39071cd850f79d6a357ec942d48e9006",
+  "schemaVersion": 1
+}

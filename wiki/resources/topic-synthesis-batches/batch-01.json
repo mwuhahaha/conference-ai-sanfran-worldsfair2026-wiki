@@ -1,0 +1,188 @@
+{
+  "algorithmVersion": 3,
+  "batchIndex": 1,
+  "candidateCount": 46,
+  "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
+  "generatedAt": "2026-07-24T20:41:33.542361+00:00",
+  "generatedBy": "cross-talk-topic-map-v1",
+  "inputSha256": "sha256:bb4a6d756ebbab998dd6e172c16a28d836fcb5b4dc2052112187b315ed49b410",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "clusters": [
+      {
+        "canonicalTopic": "Agent security and control boundaries",
+        "memberIds": [
+          "T0002",
+          "T0038",
+          "T0062",
+          "T0080",
+          "T0086",
+          "T0092",
+          "T0134",
+          "T0272"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Controls for constraining agent behavior through defense in depth, observability, permissions, sandboxing, prompt-injection checks, and policy-gated mutation."
+      },
+      {
+        "canonicalTopic": "Evaluation and harness design",
+        "memberIds": [
+          "T0014",
+          "T0050",
+          "T0158",
+          "T0176",
+          "T0230"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "How harnesses, evals, and prompt/model interfaces shape measured quality and shipping confidence."
+      },
+      {
+        "canonicalTopic": "Human-led agentic development workflow",
+        "memberIds": [
+          "T0020",
+          "T0026",
+          "T0116",
+          "T0122",
+          "T0170",
+          "T0194"
+        ],
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "Planning, verification, routing, and intent-setting patterns for keeping humans in the outer loop while agents execute work."
+      },
+      {
+        "canonicalTopic": "Context and memory substrate",
+        "memberIds": [
+          "T0152",
+          "T0164",
+          "T0188",
+          "T0200",
+          "T0206",
+          "T0218",
+          "T0236",
+          "T0254",
+          "T0260"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "Persistent context layers, memory structures, provenance, ingestion, and retrieval that let agents reason across sessions and artifacts."
+      },
+      {
+        "canonicalTopic": "Agentic search and retrieval",
+        "memberIds": [
+          "T0068",
+          "T0104"
+        ],
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "Retrieval workflows that actively assess satisfaction and surface corpus-level themes."
+      },
+      {
+        "canonicalTopic": "Model and task routing",
+        "memberIds": [
+          "T0242",
+          "T0248"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Routing work across multiple models based on task, cost, and capability instead of using one model for everything."
+      },
+      {
+        "canonicalTopic": "Sandboxed agent infrastructure",
+        "memberIds": [
+          "T0008",
+          "T0110",
+          "T0146"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "Operating agents in isolated or pooled sandboxes with placement, snapshot, and fleet-management concerns."
+      },
+      {
+        "canonicalTopic": "MCP execution path authorization",
+        "memberIds": [
+          "T0044"
+        ],
+        "preferredExistingTopicSlug": "mcp-app-runtime",
+        "synthesis": "The runtime path through client, server, and resource layers where permissions and enforcement can be applied."
+      },
+      {
+        "canonicalTopic": "Direct screen-based instruction",
+        "memberIds": [
+          "T0128"
+        ],
+        "preferredExistingTopicSlug": "reachability-over-format",
+        "synthesis": "Capturing intent by interacting with the reachable screen elements instead of relying on long-form instructions."
+      },
+      {
+        "canonicalTopic": "Agent-native media authoring",
+        "memberIds": [
+          "T0224"
+        ],
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "Using web-native markup and scripting as the interface for agent-generated video."
+      },
+      {
+        "canonicalTopic": "Product and platform feedback loops",
+        "memberIds": [
+          "T0074"
+        ],
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "Turning close customer work into product and roadmap signal through forward deployment."
+      },
+      {
+        "canonicalTopic": "Reward shaping and comparison",
+        "memberIds": [
+          "T0098"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Using grouped comparisons in reward design to balance correctness and efficiency."
+      },
+      {
+        "canonicalTopic": "Security triage",
+        "memberIds": [
+          "T0032"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Ranking findings by impact, likelihood, and business context before handing them to engineers."
+      },
+      {
+        "canonicalTopic": "Textual feedback",
+        "memberIds": [
+          "T0056"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A training signal that gives the model a localized hint about how to improve a specific rollout."
+      },
+      {
+        "canonicalTopic": "Agent-readable documentation",
+        "memberIds": [
+          "T0140"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Packaging project metadata so agents can read, summarize, and act on a changing system."
+      },
+      {
+        "canonicalTopic": "Cyber economics",
+        "memberIds": [
+          "T0182"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "How frontier models are changing the attack and defense balance in cyber."
+      },
+      {
+        "canonicalTopic": "Process-guided agent",
+        "memberIds": [
+          "T0212"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "An agent that is intended to follow a predefined enterprise workflow."
+      },
+      {
+        "canonicalTopic": "Skeuomorphic habits",
+        "memberIds": [
+          "T0266"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The talk argues developers are overvaluing familiar interfaces and workflows."
+      }
+    ]
+  },
+  "payloadSha256": "sha256:66ad974d0f0cdc020505fa835049bf33ca9128a50ce09c6e789af435ef2cbdf5",
+  "schemaVersion": 1
+}

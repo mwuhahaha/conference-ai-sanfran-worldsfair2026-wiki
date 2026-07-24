@@ -1,0 +1,202 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:59:44.590325+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:35a9bf046742a990bb70706458e582380e440485f9448d273ae4b54c3181e7c9",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, the problem is that I think that most teams couple everything together. And what happens then is that one layer's half-life kind of leaks and drags the other components down.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that most teams couple execution, context, and compute together, so the faster-changing layer drags the rest of the architecture into rewrites."
+      },
+      {
+        "evidenceExcerpt": "And what's hard is you can't re- you can't like swap any of these things out without rewriting almost everything.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "support": "explicit",
+        "text": "He claims that common frameworks and harnesses often bury orchestration or merge layers in ways that make component swaps require rewriting almost everything."
+      },
+      {
+        "evidenceExcerpt": "So, for this this to work, a 3-hour run cannot hold state in memory or in disk. The state must live outside of the work.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "support": "explicit",
+        "text": "He says long-running agent work cannot keep state in memory or disk, because resumability requires state to live outside the work itself."
+      },
+      {
+        "evidenceExcerpt": "So, you can't even debug your background agent that's running asynchronously without the right infrastructure, without the observability, without everything that's going on in that process or multiple processes.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "support": "explicit",
+        "text": "He argues that background agents cannot be debugged well without infrastructure that captures what happened across the entire asynchronous process."
+      },
+      {
+        "evidenceExcerpt": "We're durable execution for AI agents. We're the execution layer. You can plug in any context layer, bring a model, framework, tool, any compute layer.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "support": "explicit",
+        "text": "He presents Inngest as a durable execution layer for AI agents that can accept different context, model, sandbox, and browser choices."
+      }
+    ],
+    "methodNotes": "Each structured field is anchored to a single transcript segment ID, using the most direct segment for the point being made. The summary synthesizes the talk across multiple segments, while the other fields stay one-to-one as requested.",
+    "methods": [
+      {
+        "description": "Treat the agent system as separate execution, context, and compute layers so the stable parts can outlive the volatile ones.",
+        "evidenceExcerpt": "You're building it's technical debt by another name. So, my thesis is think in layers. Decouple them.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Layered decoupling"
+      },
+      {
+        "description": "Keep runtime state outside the work so failed or interrupted runs can resume without restarting from zero.",
+        "evidenceExcerpt": "So, let's talk about what the execution layer has to do. First, resumability. Your execution layer must enable your system to pick up after failures without restarting from the beginning.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "name": "External resumability"
+      },
+      {
+        "description": "Use execution primitives that support cron triggers, events, human-in-the-loop steps, subagents, synchronous calls, asynchronous calls, and delayed invocation.",
+        "evidenceExcerpt": "Subagents or dynamic workflows also must be possible. You're going to need to be able to invoke these things synchronously, asynchronously, delaying invocation.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Flexible orchestration"
+      },
+      {
+        "description": "Build an execution-aware review loop that inspects logs, workflows, and outcomes to improve the system over time.",
+        "evidenceExcerpt": "Is it doing anything at all? Is it overreacting? So, it needs to be execution aware. And I think it needs to be execution aware, orchestration aware, because it needs to be able to pull the logs of the system and understand, all right, what was executed?",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Execution-aware review loop"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "If you're if you're running this triage, um was this triage successful? Did it result in an action by the engineering team?",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "question": "How should teams define success for agents when the real outcome is a downstream business event rather than a simple thumbs-up or thumbs-down?",
+        "whyItMatters": "The talk argues that outcome-based scoring is more useful than generic feedback, but the exact metric depends on the workflow."
+      },
+      {
+        "evidenceExcerpt": "So, if you're paying attention, you're joining a lot of these sessions, you'll see what architectures are emerging and what each approach brings new engineering requirements.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "question": "What execution-layer abstractions will still fit the next wave of agent architectures as new patterns keep emerging?",
+        "whyItMatters": "The speaker's thesis is that architectures keep changing, so the unresolved problem is which primitives can remain stable across those shifts."
+      }
+    ],
+    "summary": "Dan Farrelly's core thesis is that agent architectures decay quickly because teams tie together layers that change at very different speeds. He argues for separating execution from context and compute so the stable execution layer can own durability, retries, orchestration, and observability while models, prompts, sandboxes, and browsers can change underneath it. The practical result is a harness that can survive new frameworks and patterns without constant rewrites, and that also becomes the right place to measure outcomes and debug long-running systems.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "This is maybe the mental model. Not specific components. So, in my opinion, there are three discrete layers.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "text": "Think about agent systems as three layers, not a pile of individual components: execution, context, and compute."
+      },
+      {
+        "evidenceExcerpt": "So, for this this to work, a 3-hour run cannot hold state in memory or in disk. The state must live outside of the work.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "text": "Durable resumability requires state to live outside the running work, not in memory or on local disk."
+      },
+      {
+        "evidenceExcerpt": "And now you end up kind of a mess bad abstractions. lastly, execution needs to provide observability across your entire session.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "text": "Execution should provide whole-session observability, including LLM calls, tools, database errors, permissions, triggers, and performance."
+      },
+      {
+        "evidenceExcerpt": "So, I think when you have the execution layer separate, the execution layer is what gives the sandbox its context, its sequence, its durability.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "text": "Sandboxes should stay ephemeral; the execution layer gives them context, sequence, and durability instead of storing state itself."
+      },
+      {
+        "evidenceExcerpt": "If it's a research agent, was this research saved? Was it a good report? That is these these things that are events that you should be able to attach and when you have a system that can connect all these pieces, I think it's really makes doing a lot of those things um like creating outcome-based scores a lot easier.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "text": "Outcome-based scoring becomes easier when the execution layer can attach and interpret real events like opening a PR or saving research."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A durable execution platform the speaker uses as the concrete example of this architecture.",
+        "evidenceExcerpt": "We're durable execution for AI agents. We're the execution layer. You can plug in any context layer, bring a model, framework, tool, any compute layer.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Inngest"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that agent systems should be organized into stable and volatile layers with different lifetimes.",
+        "evidenceExcerpt": "This is maybe the mental model. Not specific components. So, in my opinion, there are three discrete layers.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "name": "Layered agent architecture"
+      },
+      {
+        "description": "The use of durable, resumable execution as the stable core of an agent system.",
+        "evidenceExcerpt": "So, I'm talking about the execution layer. I don't think enough people talk about this. And I define it as the execution layer as being the system responsible for running your code reliably, managing how, when, or whether each piece of work completes.",
+        "evidenceSegmentIds": [
+          "S0036"
+        ],
+        "name": "Durable execution"
+      },
+      {
+        "description": "Capturing traces across the full run so long-running agents can be debugged and improved.",
+        "evidenceExcerpt": "So, the full session trace across your entire run is essential. So, if you can't see the entirety of a trace from the trigger through the whole stack, it's really hard to debug it, let alone improve your agent and keep evolving it.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Full-session observability"
+      },
+      {
+        "description": "Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.",
+        "evidenceExcerpt": "But, a sandbox is ephemeral and stateless by design. So, using it for durability, snapshots, or something in state, I think is an anti-pattern.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Sandbox isolation"
+      },
+      {
+        "description": "Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.",
+        "evidenceExcerpt": "So, like what is a loop? Right? A loop is a system that basically just runs continuously or on a schedule and it's assessing the state of the system against the the goals that you set or the criteria that you set and determines what to do next.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "name": "Background agent loops"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:18021593f14fa33d2e8c21879fac916aa6ecc9546595650bbfa4151d88a889ec",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months",
+  "talkTitle": "Your agent architecture has a half-life of 6 months",
+  "transcriptPath": "raw/sources/youtube-transcripts/X1kp-ABIIxQ.txt",
+  "transcriptSha256": "sha256:977a432880f0734efcefb3dddd94f6ea1fbac16100ab0976b4cc2c8bbdb21b2a",
+  "videoId": "X1kp-ABIIxQ"
+}

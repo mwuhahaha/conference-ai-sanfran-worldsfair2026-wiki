@@ -28,31 +28,67 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "conf
 At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the f*** down, read every line your model writes. Lopopolo: code is a liability, you don't even open the IDE anymore. Both got applause. The room walked out confused. On the train back I sketched the Z/L Continuum on a napkin — a five-stop spectrum from "read the clanker code" to "what IDE?" — and the whole week clicked into place. In this talk I'll walk through the Continuum, introduce FOMAT (Fear of Missing Agent Time — coined backstage by Michael Richman), and make four arguments: the Continuum is real, your stop is per-task not per-person, model capability bends everything toward L, and FOMAT is a filter problem, not an agent problem. You'll leave with a vocabulary for the argument every AI engineer is having right now. Audience takeaways A shared vocabulary (Z, L, the five stops) for the debate splitting AI engineering teams FOMAT — name the fear so you can manage it A per-task framework for choosing where on the Continuum to operate Why capability drift makes "I'll never let it cook" a losing position over time Speaker: Alex Volkov · ThursdAI · @altryne
 
 ## Synthesis
-### Synthesized Breakdown
-two talks at a engineer Europe. One guy is saying code is free and deleted his ID and the other one is saying read every effing line of code. So should AI engineers still recode their agents output in 2026? I named this the Zopo continue and you guys probably have argued about this in Slack.
+### Transcript-Backed Summary
+Alex Volkov argues that the real debate in 2026 is not whether AI engineers should read code at all, but how much proof a specific task needs. His core mechanism is a task-based continuum: routine or decomposable work can move toward system-level verification, while high-risk changes still require direct human inspection of the critical path. He pairs that with a practical operating model built around routing changes to the right proof, splitting large pull requests, separating generation from verification, and using traces, evals, shadow mode, observability, and rollback to make the system remember what was checked. The tradeoff is that higher model capability and looped agents reduce the need to inspect every line, but they do not remove judgment; they shift it upward and make review a design problem, not a personality trait.
 
-### Speaker And Company Context
-- [[alex-volkov|Alex Volkov]] — AI Evangelist & Host of ThursdAI at [[w-and-b-from-coreweave|W&B from CoreWeave]].
+### Key Takeaways
+- The useful operating rule is to route each change to the proof it needs instead of applying one review policy everywhere.
+  - Evidence: "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs."
+- Critical paths still deserve direct human attention, especially for authentication, money movement, permissions, and reversible data.
+  - Evidence: "You read every line of authentication, money movement, permissions and reversible data. You inspect the critical path yourself and then obviously you keep going."
+- Agents are useful for decomposing large work into smaller pull requests, which makes review more manageable.
+  - Evidence: "Your eyes are starting to glaze over a a very long pull request. So splitting into atomic reviewable PRs, you know who's good at it?"
+- Looped automation can help, but it does not replace judgment, and self-verifying systems can spiral if left unchecked.
+  - Evidence: "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it."
+
+### Claims From The Talk
+- The Z/L continuum is real, but it should be applied to tasks rather than treated as a fixed property of a person. (`explicit`)
+  - Evidence: "The ZL continuum is real. But it's not about the people. It's about the tasks. The continuum is real."
+- As code output scales up, human code review becomes a new bottleneck. (`explicit`)
+  - Evidence: "And then they say this, we as we began to push more code around the organization, human code review has become a new bottleneck."
+- Capability gains keep moving the review layer upward, so where proof belongs changes over time. (`strong`)
+  - Evidence: "If yesterday we inspected the outputs and we read the code uh and today we inspect the task direction and kind of like directed to the right proof maybe tomorrow we're inspecting the loops capability drift changes where proof belongs."
+- Looped automation still needs human judgment, and relying on it alone can drive quality downward. (`explicit`)
+  - Evidence: "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it."
 
 ### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
+- **Task-based review** — The idea that review depth should be chosen per task instead of per engineer identity.
+- [[coding-agents|Proof routing]] — A change-routing approach that assigns the right proof method to each piece of work.
+- **Capability drift** — The way rising model capability moves the review layer and the location of proof over time.
+- [[coding-agents|Looped verification]] — Agents that plan, execute, and verify work on a schedule or loop.
+
+### Tools And Named Systems
+- [[cloud-code|Cloud Code]] — The talk uses Cloud Code as an example of agent-authored code becoming normal.
+- [[github|GitHub]] — GitHub is used as evidence of the scale of AI-assisted code and commit volume.
+- [[fable|Fable]] — Fable is cited as a capability jump that changes what people inspect.
+
+### Novel Concepts And Methods
+- **Proof routing** — Send each change to the evidence layer that can actually prove it is safe.
+- **Critical-path inspection** — Manually inspect high-risk paths like authentication, money movement, permissions, and reversible data.
+- **Atomic PR decomposition** — Break large changes into smaller reviewable units before asking for approval.
+- **Separated verification** — Keep code generation, output inspection, and testing in distinct roles.
+
+### Open Questions
+- **How should a team decide the minimum proof a specific change needs without overreviewing everything?** — This is the operating question the talk replaces the old read-every-line versus read-nothing debate with.
+- **As capability keeps improving, which parts of review stay human and which move into the system?** — The talk argues that capability drift changes the review layer rather than eliminating it.
+- **Where should a looped agent stop self-correcting and hand judgment back to a human?** — The talk warns that self-verifying loops can hurt quality if they become the only guardrail.
 
 ### Derived Links And Source Material
-- [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
-- [[youtube-ZpK5PWX2YRM]] — related YouTube source page.
-- [[youtube-ZpK5PWX2YRM-slides]] — slide evidence.
-- [[youtube-Lcqat4iP_lE]] — related YouTube source page.
-- [[youtube-Lcqat4iP_lE-slides]] — slide evidence.
-- [[youtube-Lcqat4iP_lE-reconstructed-slides]] — slide evidence.
-- [[youtube-Lcqat4iP_lE-dense-slides]] — slide evidence.
+- [[youtube-ZpK5PWX2YRM-transcript]] — dedicated official recording transcript.
+- [[youtube-ZpK5PWX2YRM]] — official event recording.
+- Structured digest: `wiki/resources/talk-digests/ZpK5PWX2YRM--2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code.json`.
 
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+### Speaker Context
+- [[alex-volkov|Alex Volkov]]
+
+### Semantic Digestion Status
+- Complete: 1 matched recording digest(s) passed the evidence contract.
+- Generator: `talk-semantic-digestion-v1`.
+- Contract: `sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990`.
 
 ### Evidence Boundary
-This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+This section is synthesized only from official schedule metadata and dedicated manifest-matched recording transcripts. Every listed takeaway, claim, topic, tool, method, and question is bound to a verbatim transcript excerpt in the structured digest. Speaker claims remain attributed event evidence, not independent verification.
+
 ## People
 - [[alex-volkov]]
 

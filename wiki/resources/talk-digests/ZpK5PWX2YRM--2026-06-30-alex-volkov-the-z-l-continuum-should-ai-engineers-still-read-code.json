@@ -1,0 +1,203 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:59:46.071012+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:fef093e04da11c777c3176ac67ca85a39088249ab2fad4aa6b8b62ac2b7f5a28",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "The ZL continuum is real. But it's not about the people. It's about the tasks. The continuum is real.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "support": "explicit",
+        "text": "The Z/L continuum is real, but it should be applied to tasks rather than treated as a fixed property of a person."
+      },
+      {
+        "evidenceExcerpt": "And then they say this, we as we began to push more code around the organization, human code review has become a new bottleneck.",
+        "evidenceSegmentIds": [
+          "S0082"
+        ],
+        "support": "explicit",
+        "text": "As code output scales up, human code review becomes a new bottleneck."
+      },
+      {
+        "evidenceExcerpt": "If yesterday we inspected the outputs and we read the code uh and today we inspect the task direction and kind of like directed to the right proof maybe tomorrow we're inspecting the loops capability drift changes where proof belongs.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "support": "strong",
+        "text": "Capability gains keep moving the review layer upward, so where proof belongs changes over time."
+      },
+      {
+        "evidenceExcerpt": "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it.",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "support": "explicit",
+        "text": "Looped automation still needs human judgment, and relying on it alone can drive quality downward."
+      }
+    ],
+    "methodNotes": "Grounded only in the supplied schedule metadata and transcript. Every item uses exactly one transcript segment ID as evidence.",
+    "methods": [
+      {
+        "description": "Send each change to the evidence layer that can actually prove it is safe.",
+        "evidenceExcerpt": "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Proof routing"
+      },
+      {
+        "description": "Manually inspect high-risk paths like authentication, money movement, permissions, and reversible data.",
+        "evidenceExcerpt": "You read every line of authentication, money movement, permissions and reversible data. You inspect the critical path yourself and then obviously you keep going.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "name": "Critical-path inspection"
+      },
+      {
+        "description": "Break large changes into smaller reviewable units before asking for approval.",
+        "evidenceExcerpt": "Your eyes are starting to glaze over a a very long pull request. So splitting into atomic reviewable PRs, you know who's good at it?",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "name": "Atomic PR decomposition"
+      },
+      {
+        "description": "Keep code generation, output inspection, and testing in distinct roles.",
+        "evidenceExcerpt": "Separating is very important. If you don't separate, it's kind of like if I came up with an exam and then I took an exam and I scored myself on the exam.",
+        "evidenceSegmentIds": [
+          "S0112"
+        ],
+        "name": "Separated verification"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "I think the better question right now for all of us is what proof does this specific change need?",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "question": "How should a team decide the minimum proof a specific change needs without overreviewing everything?",
+        "whyItMatters": "This is the operating question the talk replaces the old read-every-line versus read-nothing debate with."
+      },
+      {
+        "evidenceExcerpt": "If yesterday we inspected the outputs and we read the code uh and today we inspect the task direction and kind of like directed to the right proof maybe tomorrow we're inspecting the loops capability drift changes where proof belongs.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "question": "As capability keeps improving, which parts of review stay human and which move into the system?",
+        "whyItMatters": "The talk argues that capability drift changes the review layer rather than eliminating it."
+      },
+      {
+        "evidenceExcerpt": "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it.",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "question": "Where should a looped agent stop self-correcting and hand judgment back to a human?",
+        "whyItMatters": "The talk warns that self-verifying loops can hurt quality if they become the only guardrail."
+      }
+    ],
+    "summary": "Alex Volkov argues that the real debate in 2026 is not whether AI engineers should read code at all, but how much proof a specific task needs. His core mechanism is a task-based continuum: routine or decomposable work can move toward system-level verification, while high-risk changes still require direct human inspection of the critical path. He pairs that with a practical operating model built around routing changes to the right proof, splitting large pull requests, separating generation from verification, and using traces, evals, shadow mode, observability, and rollback to make the system remember what was checked. The tradeoff is that higher model capability and looped agents reduce the need to inspect every line, but they do not remove judgment; they shift it upward and make review a design problem, not a personality trait.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "text": "The useful operating rule is to route each change to the proof it needs instead of applying one review policy everywhere."
+      },
+      {
+        "evidenceExcerpt": "You read every line of authentication, money movement, permissions and reversible data. You inspect the critical path yourself and then obviously you keep going.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "text": "Critical paths still deserve direct human attention, especially for authentication, money movement, permissions, and reversible data."
+      },
+      {
+        "evidenceExcerpt": "Your eyes are starting to glaze over a a very long pull request. So splitting into atomic reviewable PRs, you know who's good at it?",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "text": "Agents are useful for decomposing large work into smaller pull requests, which makes review more manageable."
+      },
+      {
+        "evidenceExcerpt": "I'd likely end up in a downward spiral digging myself into a deeper hole. So again, loops don't remove judgment, but they do raise the stakes on where you put it.",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "text": "Looped automation can help, but it does not replace judgment, and self-verifying systems can spiral if left unchecked."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The talk uses Cloud Code as an example of agent-authored code becoming normal.",
+        "evidenceExcerpt": "100% of his code is written and authored by Cloud Code at this point. And he didn't stop being engineer.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "Cloud Code"
+      },
+      {
+        "description": "GitHub is used as evidence of the scale of AI-assisted code and commit volume.",
+        "evidenceExcerpt": "Uh the reason is GitHub is on track to to to get 14 billion commits this year. All of 2025, all of yesterday last year was 1 billion.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "name": "GitHub"
+      },
+      {
+        "description": "Fable is cited as a capability jump that changes what people inspect.",
+        "evidenceExcerpt": "He said about Mythos and and Fable, we used to check if cloud is doing the work right. And with Fable 5, I instead check if cloud is doing the right work.",
+        "evidenceSegmentIds": [
+          "S0119"
+        ],
+        "name": "Fable"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that review depth should be chosen per task instead of per engineer identity.",
+        "evidenceExcerpt": "The ZL continuum is real. But it's not about the people. It's about the tasks. The continuum is real.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "Task-based review"
+      },
+      {
+        "description": "A change-routing approach that assigns the right proof method to each piece of work.",
+        "evidenceExcerpt": "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Proof routing"
+      },
+      {
+        "description": "The way rising model capability moves the review layer and the location of proof over time.",
+        "evidenceExcerpt": "If yesterday we inspected the outputs and we read the code uh and today we inspect the task direction and kind of like directed to the right proof maybe tomorrow we're inspecting the loops capability drift changes where proof belongs.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "name": "Capability drift"
+      },
+      {
+        "description": "Agents that plan, execute, and verify work on a schedule or loop.",
+        "evidenceExcerpt": "They run the plan. They execute and most importantly for my talk here, they verify themselves and if it doesn't work, they try again.",
+        "evidenceSegmentIds": [
+          "S0139"
+        ],
+        "name": "Looped verification"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:252d2466dac7944036265b52504a1dc3b20352bbe43288a45c71210a5c6c9e24",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
+  "talkTitle": "The Z/L Continuum: Should AI Engineers Still Read Code?",
+  "transcriptPath": "raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt",
+  "transcriptSha256": "sha256:d1996980ef69ea04045f68e91d8a3f9b8e71cb070ae7a480d4bded74df67bc4c",
+  "videoId": "ZpK5PWX2YRM"
+}

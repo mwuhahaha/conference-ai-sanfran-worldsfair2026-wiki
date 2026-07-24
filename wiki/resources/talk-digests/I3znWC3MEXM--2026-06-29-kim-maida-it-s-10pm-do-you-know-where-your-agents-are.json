@@ -1,0 +1,234 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:53:46.351431+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:e51c3bc78fd98cf32290666b800ff05fdc0beb2a2140d5754c207d1034b99e2b",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Right? So agents with API keys are indeed outpass 10. They're overprivileged. So this means they are able to act freely on decisions that they make that you may or may not agree with.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "Agents given long-lived API keys are overprivileged and can take actions that exceed what the user intended."
+      },
+      {
+        "evidenceExcerpt": "And we can't just solve this with human in the loop. We spent decades solving access management for humans.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "support": "explicit",
+        "text": "Human-in-the-loop alone is not enough because tired or consent-fatigued humans cannot reliably police every agent action."
+      },
+      {
+        "evidenceExcerpt": "So in order to see where we can introduce security and access control, we have to take a look at the agentic execution path.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "strong",
+        "text": "The right place to add control is in the agentic execution path, where the runtime, MCP server, and resource API interact."
+      },
+      {
+        "evidenceExcerpt": "So now we have three key pieces of information that we're missing from the API key demo. We know the identity of the agent that's requesting access.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "support": "explicit",
+        "text": "Token exchange can preserve both the agent identity and the user identity while narrowing delegation to the requested access."
+      },
+      {
+        "evidenceExcerpt": "So what happens is when we make this call it's being eval the policy is evaluating the request against all of the permissions that the user has and uh it sees that there is actually a restriction in place that prevents agents from doing this and this credential never even existed.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "support": "explicit",
+        "text": "Policy can reject dangerous requests before a credential is minted, so there is nothing overprivileged to leak or replay."
+      }
+    ],
+    "methodNotes": "I used only the supplied transcript and assigned exactly one evidence segment to each item, as requested.",
+    "methods": [
+      {
+        "description": "Pass the subject token and the runtime's own credentials into the exchange request so the security token service knows who is acting for whom.",
+        "evidenceExcerpt": "Now the agent loop runs and the model proposes a tool call and then the runtime is going to authenticate with the security token service using its ooth app client credentials or workload identity and it also sends the subject token that contains the user's identity and level of access.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Identity-chain delegation"
+      },
+      {
+        "description": "Ask for permissions only for the current tool call instead of for the whole session.",
+        "evidenceExcerpt": "It creates token exchange request and this request is asking for permissions to access the MCP server for that tool call but only that tool call.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Request-scoped token minting"
+      },
+      {
+        "description": "Check requested access against governance policy before issuing any downstream token.",
+        "evidenceExcerpt": "So now we need to decide if the requested token should in fact be granted. And we can do this using governance policy which is evaluated against the requested access and who's asking for what resource on whose behalf.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "Pre-mint policy evaluation"
+      },
+      {
+        "description": "Require the human approver to hold a specific role before their approval can authorize an agent action.",
+        "evidenceExcerpt": "So it's going to ask me as the user for my approval as human in the loop. I say that it can do that but there's another policy here that says that the human user needs to have a specific role in order to be able to do this.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "Role-gated approval"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "So, we can probably do about five short questions if anyone has them. Um, so it seems like you put the security bar bear barrier uh at the um between MCP to uh resource or is it uh just maybe to clarify that is it at at both places?",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "question": "Where should the authorization barrier sit between the runtime, the MCP server, and the resource so useful actions still work while unsafe ones fail early?",
+        "whyItMatters": "The talk depends on choosing the right enforcement point without breaking the agent loop."
+      },
+      {
+        "evidenceExcerpt": "Uh there may be some resistance to actually adopt this new uh protocol, new openspec. Have you encountered that?",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "question": "How can teams overcome enterprise resistance to adopting token exchange or similar policy-driven access controls?",
+        "whyItMatters": "Adoption friction could block the security model even if the technical approach is sound."
+      },
+      {
+        "evidenceExcerpt": "Um, I'm in the situation where we know that we don't have enough OOTH scopes defined yet in an MCP server sub just like what you have.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "question": "How fine-grained should scopes be when downstream services and MCP tools still need something manageable to maintain over time?",
+        "whyItMatters": "Scope design determines whether the approach stays practical as systems grow."
+      }
+    ],
+    "summary": "The talk argues that agents should not be handed broad, long-lived API keys; instead, access should be narrowed at the moment a tool call is proposed. The mechanism is to put a security token service in the agent execution path, authenticate both the runtime and the user, exchange identity-bearing tokens for short-lived audience-restricted tokens, and evaluate policy before anything is minted. The key tradeoff is that this adds authorization plumbing and scope design work, but it avoids overprivileged credentials, reduces replay and leak risk, and lets human approval itself be policy-governed instead of a blank check. The practical result is an access model that works for CLI agents, custom agent apps, and MCP servers while preserving least privilege and attribution.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So the authorization server is then going to prompt the user for their consent to delegate access with a subset of their permissions.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "text": "Authenticate the runtime and delegate only part of the user's permissions before the agent is allowed to call downstream services."
+      },
+      {
+        "evidenceExcerpt": "Now if the delegation chain and the requested access are within policy then the security token service issues an access token for the downstream resource and this token has an audience declaring that only this target MCP server is allowed to use it to make requests.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "text": "Issue tokens that are audience-restricted to a single downstream MCP server instead of reusing a broad credential everywhere."
+      },
+      {
+        "evidenceExcerpt": "So the policy evaluates before the credential is minted, which means you don't have an overprivileged credential that's just floating around then that uh you were supposed to then prevent the entity from receiving.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "text": "Block unsafe operations before the credential exists rather than minting a broad token and trying to police it later."
+      },
+      {
+        "evidenceExcerpt": "uh even though I approved it. So we can prevent kind of people from just consent fatigue clicking over and over just to get things done.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "text": "Make human approval contingent on the approver's role so an exhausted user cannot approve everything by reflex."
+      },
+      {
+        "evidenceExcerpt": "It works with the CLI. It works with thirdparty as well as proprietary MCP servers, MCP gateways, agent to agent, uh any OOTH identity provider.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "text": "The approach is meant to work across CLI agents, custom agents, gateways, and third-party or proprietary MCP servers."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The token exchange RFC used as the standards basis for narrowing delegated access.",
+        "evidenceExcerpt": "So RFC8693 is token exchange and this is an RFC that extends OOTH 2 and I'm going to show you how this spec can be used to address agent access.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "name": "RFC8693"
+      },
+      {
+        "description": "The tool-call protocol and server boundary used in the agent execution path.",
+        "evidenceExcerpt": "So we have a user who wants to use an LLM to interact with a resource. Now an agent is a control loop that calls an LLM and often we have an MCP server in between that provides tools that the agent can call and then it connects directly to the resource.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "name": "MCP"
+      },
+      {
+        "description": "An example identity provider used for signing in and obtaining delegated access in the demo.",
+        "evidenceExcerpt": "So we have authentication and I'm going to authenticate with Google as myself. So we have the same tickets.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Google"
+      },
+      {
+        "description": "The standards-based platform the speaker cites for providing a security token service and policy governance.",
+        "evidenceExcerpt": "So my name is Kim Maida. I am the founding GTM engineer and head of Devril at Keycard which is a standardsbased platform for uh providing a security token service and policy governance.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "name": "Keycard"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The problem of giving agents more authority than they need and the risks that follow.",
+        "evidenceExcerpt": "Right? So agents with API keys are indeed outpass 10. They're overprivileged. So this means they are able to act freely on decisions that they make that you may or may not agree with.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Agent overprivilege"
+      },
+      {
+        "description": "Granting access on behalf of a user while preserving who the user is and what they are allowed to do.",
+        "evidenceExcerpt": "And this is the first narrowing of access, right? We're only delegating some of the user's total permissions to the agent.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Delegated authorization"
+      },
+      {
+        "description": "Credentials that are short-lived, audience-bound, and discarded after the call finishes.",
+        "evidenceExcerpt": "It should be short-lived uh often expiring within a few minutes and it's also ephemeral meaning it should never be stored.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Ephemeral access tokens"
+      },
+      {
+        "description": "Using governance rules to decide whether a requested action is allowed before any downstream token is issued.",
+        "evidenceExcerpt": "So now we need to decide if the requested token should in fact be granted. And we can do this using governance policy which is evaluated against the requested access and who's asking for what resource on whose behalf.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "Policy governance"
+      },
+      {
+        "description": "The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.",
+        "evidenceExcerpt": "Now an MCP client takes the agent's proposed tool calls and it dispatches them to its MCP server.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Agent execution path"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:15c46f1c750d92fe7e6aff254ffba385739418ca62eabd59e11b492624aa7096",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are",
+  "talkTitle": "It's 10pm. Do You Know Where Your Agents Are?",
+  "transcriptPath": "raw/sources/youtube-transcripts/I3znWC3MEXM.txt",
+  "transcriptSha256": "sha256:e85325fbbaa8348db06cbb08664bc1d267f17d13441a7af8eeca3721c556cb7e",
+  "videoId": "I3znWC3MEXM"
+}

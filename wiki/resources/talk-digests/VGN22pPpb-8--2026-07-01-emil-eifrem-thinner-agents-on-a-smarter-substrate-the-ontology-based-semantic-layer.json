@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:04:05.109557+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:78c61b2beda6befcdc2c8e672e5692fc5053f3d730512b622da6a3d4d1a80ddd",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And the pattern that is emerging is that in order to do agents at scale, we need thin agents on a smarter shared substrate.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that scaling agents in enterprises requires thin agents running on a smarter shared substrate, rather than thick agents with manually wired data sources."
+      },
+      {
+        "evidenceExcerpt": "Three pillars of the ontology based semantic layer, a business ontology, a technical ontology, the execution traces taken together, they solve all four of the problems.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "support": "explicit",
+        "text": "He claims the three pillars of a business ontology, technical ontology, and execution traces together solve the four problems he identified."
+      },
+      {
+        "evidenceExcerpt": "We now have a very easy way to discover the data sources. We know if they're trustworthy or not.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "support": "explicit",
+        "text": "He reports that this approach makes data-source discovery easier and provides a way to assess whether sources are trustworthy."
+      },
+      {
+        "evidenceExcerpt": "We have a single governed place that maps business intent and the concepts to those data sources so we don't repeat ourselves.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "support": "explicit",
+        "text": "He says the shared mapping layer gives a single governed place to connect business intent to data sources, which prevents repeated agent-specific wiring."
+      },
+      {
+        "evidenceExcerpt": "If something changes that cascades across all my agents, right? And we have self-arning. So my agent that wakes up tomorrow is slightly smarter than it was today.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "support": "explicit",
+        "text": "He claims the runtime-trace loop enables self-learning so an agent becomes slightly smarter over time and knowledge can transfer across agents."
+      }
+    ],
+    "methodNotes": "The talk is a design blueprint for enterprise agents: model the business domain in human terms, encode the technical data landscape, connect them with governed mappings, and feed runtime traces back into selection and scoring. The central mechanism is not prompt-only automation but a shared semantic layer that makes data discovery, trust, access, and learning reusable across many agents. The practical consequence is less duplicated integration work and more reliable agent behavior as the organization adds or changes systems.",
+    "methods": [
+      {
+        "description": "Use a business-facing ontology to represent domain concepts and processes in terms people in the organization actually use.",
+        "evidenceExcerpt": "The first pillar is a businessfacing ontology. And the word ontology like I grew up in this world.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Business ontology"
+      },
+      {
+        "description": "Build a technical ontology that catalogs the enterprise's databases, buckets, schemas, and other data assets.",
+        "evidenceExcerpt": "name so that's the first a businessf facing ontology the second pillar is a technical ontology this is all the metadata of all the data sources and data assets in your enterprise ecosystem I have 14 Oracle databases I have 15 neo forj databases I have snowflake and data bricks and I have s3 buckets",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Technical ontology"
+      },
+      {
+        "description": "Map business concepts to systems of record so the semantic layer can resolve the right data source for a given need.",
+        "evidenceExcerpt": "And then you have a mapping between the two. So that customer that has a first name that first name has a system of record and over there there's an Oracle database with a column called F_name the mapping between the two.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Ontology mapping"
+      },
+      {
+        "description": "Capture execution traces from agent runs and feed outcomes back into future selection decisions.",
+        "evidenceExcerpt": "And then the third pillar is the runtime signals out of your agents. When they walk this graph and they execute, they leave the traces around what have I tried?",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Trace-driven learning"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Where do they sit? What are the schemas? All of that kind of good stuff. You com you construct that technical ontology in three key ways that we can talk about later though not in this in this talk.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "question": "What are the three concrete ways to construct the technical ontology at enterprise scale?",
+        "whyItMatters": "That is the missing implementation detail for turning the blueprint into an operational system."
+      },
+      {
+        "evidenceExcerpt": "What did I do? What is my context? And was I successful? And ultimately, it leads out to some kind of a score.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "question": "How should trace signals be scored and combined so future agent runs choose better data sources in the right context?",
+        "whyItMatters": "The talk depends on trace-driven improvement, but the scoring policy determines whether the loop actually learns useful behavior."
+      },
+      {
+        "evidenceExcerpt": "We know that top down by some kind of human curated knowledge, right? An administrator of some sort saying it.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "question": "How is trust in a data source reconciled when human-curated knowledge and runtime evidence disagree?",
+        "whyItMatters": "The approach uses both top-down governance and bottom-up traces, so conflict resolution is central to safe adoption."
+      }
+    ],
+    "summary": "The talk argues that enterprise agents should not be built as thick, one-off systems with every team manually wiring data sources from scratch. Instead, the speaker proposes thin agents sitting on a shared ontology-based semantic layer that separates business intent, technical data inventory, and runtime learning. In that model, a business ontology describes the organization in human terms, a technical ontology catalogs the actual systems and schemas, and execution traces feed back what worked so future agent runs can choose better sources and improve over time. The practical result is less duplicated integration work, better trust and governance over data access, and cross-agent learning that becomes more valuable as the number of agents and data sources grows.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, that's great. It's fantastic. It works. But it has a few problems. So first of all, every single time a team has to build an agent, they have to figure out from scratch where the data that they require for that agent to operate, where it sits, which if you work at a startup and you have one application, it sits on top of one Postgress database.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "text": "Enterprise agents become costly when every team must rediscover data sources from scratch for each new workflow."
+      },
+      {
+        "evidenceExcerpt": "Am I allowed to access it? So on and so forth. It also violates one of the core principles of software engineering, the dry principle.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "text": "The manual wiring approach duplicates effort and conflicts with the DRY principle when enterprise data changes."
+      },
+      {
+        "evidenceExcerpt": "And the pattern that is emerging is that in order to do agents at scale, we need thin agents on a smarter shared substrate.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "text": "A shared substrate is the proposed architectural answer for scaling agents across large organizations."
+      },
+      {
+        "evidenceExcerpt": "Three pillars of the ontology based semantic layer, a business ontology, a technical ontology, the execution traces taken together, they solve all four of the problems.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "text": "The three pillars are presented as the complete mechanism for addressing discovery, trust, governance, and learning."
+      },
+      {
+        "evidenceExcerpt": "And not just self-learning on an individual agent, but across agents as well. So we're moving from this world, a world of thick agents with manually wired data sources into this world where we have thin agents on a smarter shared ontology based semantic layer.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "The desired end state is a system where knowledge accumulates across agents instead of remaining trapped in code and prompts."
+      }
+    ],
+    "tools": [
+      {
+        "description": "Enterprise graph database platform used as the substrate for the ontology-based semantic layer.",
+        "evidenceExcerpt": "name so that's the first a businessf facing ontology the second pillar is a technical ontology this is all the metadata of all the data sources and data assets in your enterprise ecosystem I have 14 Oracle databases I have 15 neo forj databases I have snowflake and data bricks and I have s3 buckets",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Neo4j"
+      },
+      {
+        "description": "Relational database mentioned as a common enterprise system of record.",
+        "evidenceExcerpt": "That's not hard. The data is in that Postgress database. But in an enterprise ecosystem, you don't have one database.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Postgres"
+      },
+      {
+        "description": "Cloud data warehouse mentioned as part of the enterprise data landscape.",
+        "evidenceExcerpt": "You have a hundred databases and you have snowflake and data bricks probably and you have S3 buckets and so on and so forth.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Snowflake"
+      },
+      {
+        "description": "Analytics and data processing platform mentioned as part of the enterprise data landscape.",
+        "evidenceExcerpt": "You have a hundred databases and you have snowflake and data bricks probably and you have S3 buckets and so on and so forth.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Databricks"
+      },
+      {
+        "description": "Cloud object storage service mentioned as part of the enterprise data landscape.",
+        "evidenceExcerpt": "You have a hundred databases and you have snowflake and data bricks probably and you have S3 buckets and so on and so forth.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "S3"
+      },
+      {
+        "description": "Government motor vehicle registry cited as a possible identity-verification source.",
+        "evidenceExcerpt": "the Department of Motor Vehicles, the DMV registry, and maybe some kind of passport verification service.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "DMV registry"
+      },
+      {
+        "description": "Identity-verification service cited as another possible source for account opening.",
+        "evidenceExcerpt": "the Department of Motor Vehicles, the DMV registry, and maybe some kind of passport verification service.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Passport verification service"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The architectural idea of building simpler agents that rely on a shared enterprise knowledge substrate.",
+        "evidenceExcerpt": "And the pattern that is emerging is that in order to do agents at scale, we need thin agents on a smarter shared substrate.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Thin agents on a shared substrate"
+      },
+      {
+        "description": "A business-readable graph of concepts and relationships used to model how the organization talks about its domain.",
+        "evidenceExcerpt": "probably thanks to Palunteer but also the rise of AI and there's a lot of people that want to make ontologies really complex but the core concepts are actually super simple what are the key concepts in your organization in our banking example customers accounts um debit cards checks transactions and how do they all",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "name": "Business ontology"
+      },
+      {
+        "description": "A graph of enterprise data systems, schemas, and assets used to represent the actual technical landscape.",
+        "evidenceExcerpt": "name so that's the first a businessf facing ontology the second pillar is a technical ontology this is all the metadata of all the data sources and data assets in your enterprise ecosystem I have 14 Oracle databases I have 15 neo forj databases I have snowflake and data bricks and I have s3 buckets",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Technical ontology"
+      },
+      {
+        "description": "The link between domain concepts and underlying systems of record.",
+        "evidenceExcerpt": "And then you have a mapping between the two. So that customer that has a first name that first name has a system of record and over there there's an Oracle database with a column called F_name the mapping between the two.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Ontology mapping"
+      },
+      {
+        "description": "Using observed agent runs to score outcomes and guide future decisions.",
+        "evidenceExcerpt": "And then the third pillar is the runtime signals out of your agents. When they walk this graph and they execute, they leave the traces around what have I tried?",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Execution traces"
+      },
+      {
+        "description": "An agent that is intended to follow a predefined enterprise workflow.",
+        "evidenceExcerpt": "This is a process following agent or a process guided agent. We want this type of agent to actually follow a process.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Process-guided agent"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:b17df136a50b3453f2138a4c1dfae7f932ba11697249b76e1455b5a752907825",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer",
+  "talkTitle": "Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer",
+  "transcriptPath": "raw/sources/youtube-transcripts/VGN22pPpb-8.txt",
+  "transcriptSha256": "sha256:7f3d86878f77f7f00ea082361e3b6d3a05e768322e1e0ab9c4df061cc6596d93",
+  "videoId": "VGN22pPpb-8"
+}

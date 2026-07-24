@@ -1,8 +1,18 @@
 [
   {
+    "id": "context-engineering",
+    "title": "Context engineering",
+    "path": "wiki/patterns/context-engineering.md"
+  },
+  {
     "id": "evidence-gated-agent-workflow",
     "title": "Evidence-Gated Agent Workflow",
     "path": "wiki/patterns/evidence-gated-agent-workflow.md"
+  },
+  {
+    "id": "sandboxed-delegation",
+    "title": "Sandboxed Delegation",
+    "path": "wiki/patterns/sandboxed-delegation.md"
   },
   {
     "id": "source-labeled-synthesis",
@@ -10,8 +20,8 @@
     "path": "wiki/patterns/source-labeled-synthesis.md"
   },
   {
-    "id": "sandboxed-delegation",
-    "title": "Sandboxed Delegation",
-    "path": "wiki/patterns/sandboxed-delegation.md"
+    "id": "trace-driven-specialization",
+    "title": "Trace-driven specialization",
+    "path": "wiki/patterns/trace-driven-specialization.md"
   }
 ]

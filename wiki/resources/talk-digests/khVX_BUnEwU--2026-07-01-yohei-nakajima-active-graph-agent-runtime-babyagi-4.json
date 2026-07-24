@@ -1,0 +1,297 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:08:16.099308+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:b931640e41223a2286b775cd183e4cc9710a2d0ccaa1eacfa889df7a7907b20e",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So today most people build agents around the LLM. You start with the LLM, you add a response API, you give it tools, you add memory, and then you make sure you log everything correctly, which can give you you know all the benefits that ActiveGraph will give you, but ActiveGraph asks, what if you build around the log?",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that most agent stacks are built around the LLM, but ActiveGraph reverses the center of gravity and builds around the log instead."
+      },
+      {
+        "evidenceExcerpt": "And a lot of people, what the agent does and how the agent changes are tracked in two different places, but I'm saying let's flatten that down into a single immutable event log, and this is the ground truth of the agent.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "support": "explicit",
+        "text": "He says the agent’s changing state should be flattened into a single immutable event log that serves as the ground truth."
+      },
+      {
+        "evidenceExcerpt": "But yeah, in the end you get this beautiful typed event log, which gives you replays. It gives you rollbacks and it gives you forks.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "support": "explicit",
+        "text": "He claims this typed event log enables replay, rollback, and forking."
+      },
+      {
+        "evidenceExcerpt": "Um and you know, I earlier I talked about policies, so some graph changes require a proposed patch before approval.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "support": "explicit",
+        "text": "He says some graph changes should require a proposed patch and approval, especially for sensitive edits like prompts or facts."
+      },
+      {
+        "evidenceExcerpt": "And it actually did have, you know, modest, but like statistically significant improvement on long mem eval scores.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "support": "explicit",
+        "text": "He reports that the controlled self-modification loop produced modest but statistically significant improvements on long mem eval."
+      },
+      {
+        "evidenceExcerpt": "So I'll caveat that. But I'm building this, I'm starting to really think that long-running agents need not just a world world model and like a predictive world model, but what I might call an experiential world model.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "support": "explicit",
+        "text": "He proposes that long-running agents need an experiential world model, not only a predictive one."
+      }
+    ],
+    "methodNotes": "The talk is framed as an experimental proposal, so the record emphasizes the speaker’s reported design choices and observed behavior rather than independent verification. I treated named platforms, frameworks, and benchmarks as tools only when they were explicitly named in the transcript, and used one transcript segment per field entry as requested.",
+    "methods": [
+      {
+        "description": "Represent agent state as a single immutable event log that becomes the source of truth for behavior and change history.",
+        "evidenceExcerpt": "And a lot of people, what the agent does and how the agent changes are tracked in two different places, but I'm saying let's flatten that down into a single immutable event log, and this is the ground truth of the agent.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "name": "Log-centered state model"
+      },
+      {
+        "description": "Attach behaviors that react to graph changes and emit new events back into the same shared state.",
+        "evidenceExcerpt": "And then they emit events, which then in turn updates the state of the agent, which might trigger new behaviors.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Behavior-driven event loop"
+      },
+      {
+        "description": "Use graph queries to assemble the relevant subset of state as context for a behavior.",
+        "evidenceExcerpt": "Uh context management can be done programmatically as basically a graph query. It's a It's You basically grab a subset of the graph, which makes it available to that behavior.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "name": "Graph-query context management"
+      },
+      {
+        "description": "Require proposed patches plus policy checks before accepting certain self-modifications.",
+        "evidenceExcerpt": "So, that was kind of the proposal patch that started happening, where it would do after it proposed change to itself, right?",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "name": "Policy-gated self-modification"
+      },
+      {
+        "description": "Resume interrupted evaluation runs from the logged checkpoint instead of restarting from scratch.",
+        "evidenceExcerpt": "And then one of the runs, uh my API key ran out like 350. I was like, \"Oh Okay.\" So I updated the API key, said, \"Okay, let's let's rerun it again.\" And it just like rolled back one and was like, \"All right, we'll just start from, you know, question number 353.\" And I don't know if you have, but like I've built a lot of agents that like where the API key did broke or something, and I had to rerun the long agent from the beginning.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Checkpointed replay recovery"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And my hypothesis is that that's in the training data. And there's just much less training data around how to build LLM based agents.",
+        "evidenceSegmentIds": [
+          "S0108"
+        ],
+        "question": "If LLM-agent patterns have less training data than older shared-state architectures, how much of the runtime design should be optimized for that prior knowledge gap versus for raw model capability?",
+        "whyItMatters": "This affects whether the runtime should primarily encode old systems patterns or lean on newer model behavior."
+      },
+      {
+        "evidenceExcerpt": "So I'll caveat that. But I'm building this, I'm starting to really think that long-running agents need not just a world world model and like a predictive world model, but what I might call an experiential world model.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "question": "What should an experiential world model look like in a long-running agent, and how should it be trained or updated from logs and replays?",
+        "whyItMatters": "This is the talk’s key unresolved conceptual leap from logging to durable agent identity and learning."
+      },
+      {
+        "evidenceExcerpt": "Um and you know, I earlier I talked about policies, so some graph changes require a proposed patch before approval.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "question": "How should policies be specified so they are strict enough to prevent harmful edits but flexible enough for autonomous improvement?",
+        "whyItMatters": "The practical usefulness of self-modifying agents depends on the right approval boundary."
+      }
+    ],
+    "summary": "The talk argues for a log-centered agent runtime: instead of starting from the LLM, tools, and message flow, ActiveGraph treats the immutable event log as the ground truth of the agent. Behaviors subscribe to graph changes, read a queryable slice of state, and emit new events, while policies decide which graph changes can happen automatically and which require human review or a proposed patch. The practical claim is that this gives long-running agents replay, rollback, forking, cleaner debugging, and better self-improvement loops, while also making failures recoverable without restarting everything. The speaker is candid that the system is experimental and more complex than typical agent code, but argues that the complexity is offset by the fact that AI can often write the glue code and by the benefits of auditable, persistent agent state.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "You're just forcing every single communication to communicate through the shared state. [snorts] So at the highest level, right?",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "text": "ActiveGraph forces communication through shared state rather than direct message passing between agents or components."
+      },
+      {
+        "evidenceExcerpt": "But yeah, in the end you get this beautiful typed event log, which gives you replays. It gives you rollbacks and it gives you forks.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "text": "Because the event log is immutable and typed, the runtime naturally supports replay, rollback, and forks."
+      },
+      {
+        "evidenceExcerpt": "Again, this is how you these these policies kind of give it the control on what it's allowed to change by itself, what uh what kind of changes require certain tests, um and I'll give a few examples in a bit, um or if you want human in the loop, right?",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "text": "Policies are the mechanism that controls which changes an agent can make on its own and which changes need extra tests or human approval."
+      },
+      {
+        "evidenceExcerpt": "So now you kind of get the idea of how I'm trying to build agents on top of ActiveGraph. And each of these packs have object types and behaviors.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "text": "Packs bundle object types and behaviors so agent capabilities can be composed and swapped as modular units."
+      },
+      {
+        "evidenceExcerpt": "This is essentially the agent forking itself, proposing a change, doing a static gate check, a sandbox gate check, and then making sure it actually impacted the result, and only then accepted a change.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "text": "Self-modification is treated as a fork-and-test workflow: propose a change, gate it statically and in a sandbox, then accept it only if it improves results."
+      },
+      {
+        "evidenceExcerpt": "Um no more starting long runs over from the beginning and I know what didn't work, which are some of the things I shared.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "text": "A practical benefit of the runtime is that long runs no longer need to start over from the beginning after interruptions."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The speaker’s experimental runtime for building auditable agents around an event-sourced graph.",
+        "evidenceExcerpt": "Um, ActiveGraph is an event-sourced graph runtime for building auditable agents. I have a paper that was my first archive paper called the log is the agent, but I'm here to explain it.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "ActiveGraph"
+      },
+      {
+        "description": "The earlier project that the speaker says launched his multi-year agent research thread.",
+        "evidenceExcerpt": "Why they should build themselves. Let's build the simplest thing that can build itself has basically been kind of my research theme for the last 3 years since I did baby AGI back in March of 2023.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "BabyAGI"
+      },
+      {
+        "description": "The coding platform he used to build a coding agent on top of ActiveGraph.",
+        "evidenceExcerpt": "I asked Replit to build a coding agent on top of ActiveGraph and and as a result it came with, you know, a event log graph.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "name": "Replit"
+      },
+      {
+        "description": "The coding assistant he says helped with some self-modification work.",
+        "evidenceExcerpt": "Uh Claude Code called it Regime de Scene, but basically we classified the type of failure and then based on the failure it classified it was a it was allowed to edit a specific part of the agent.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "name": "Claude Code"
+      },
+      {
+        "description": "The observability product he mentions as an alternative way to get some of the same logging benefits.",
+        "evidenceExcerpt": "And again, I'll say this, you can do this with, you know, things like LangSmith. Thing is, I don't know I didn't have to think about it.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "name": "LangSmith"
+      },
+      {
+        "description": "The message-driven distributed system he cites as an inspiration for shared-state worker coordination.",
+        "evidenceExcerpt": "So, it's it's it's inspired by uh blackboard architecture from the '70s or '80s or more recently Kafka, whole bunch of micro workers communicating through a shared state.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Kafka"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The core idea that the agent should be modeled as an auditable, event-sourced graph rather than a message thread.",
+        "evidenceExcerpt": "Um, ActiveGraph is an event-sourced graph runtime for building auditable agents. I have a paper that was my first archive paper called the log is the agent, but I'm here to explain it.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "Event-sourced agent runtime"
+      },
+      {
+        "description": "The use of a single immutable log as the source of truth for agent state, history, and change tracking.",
+        "evidenceExcerpt": "And a lot of people, what the agent does and how the agent changes are tracked in two different places, but I'm saying let's flatten that down into a single immutable event log, and this is the ground truth of the agent.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "name": "Immutable agent log"
+      },
+      {
+        "description": "Mechanisms for attaching reacting code to graph updates and letting it emit new events.",
+        "evidenceExcerpt": "And then they emit events, which then in turn updates the state of the agent, which might trigger new behaviors.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Behavior-driven state updates"
+      },
+      {
+        "description": "Using policies to constrain edits, approvals, and safe self-modification.",
+        "evidenceExcerpt": "I'll come back to it, but for example, things like a source article that you found in research, you might be fine with adding, but if you're changing a prompt, maybe you want human in the loop.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Policy-controlled mutation"
+      },
+      {
+        "description": "Bundling object schemas, tools, behaviors, and policies into reusable agent units.",
+        "evidenceExcerpt": "And when you bring it all together, you got these kind of object schemas, tools, deterministic LLM behaviors can be assembled into a something called a pack, right?",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Agent packs"
+      },
+      {
+        "description": "Treating logs and replays as the basis for memory and recovery in long-running systems.",
+        "evidenceExcerpt": "Um the first one I did was can I use the log itself as memory? So this is not pure vector rag.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "name": "Graph-backed memory"
+      },
+      {
+        "description": "Controlled self-improvement loops that propose changes, test them, and keep only verified gains.",
+        "evidenceExcerpt": "Again, I did this on long mem eval. The loop was I think doing about 20 questions, looking at the answering questions, seeing where it failed, trying to self-modify, trying that on 50 different questions, see if the accuracy actually went up, and only if it went up, it would accept it.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "Self-improving evaluation loops"
+      },
+      {
+        "description": "The idea that an agent’s identity and learning may derive from its own experiential history.",
+        "evidenceExcerpt": "Right? The predictive world model feels more like the priors, right? And then if you think about the hippocampus, actually it also does work like an like a immutable state uh event log that projects a state.",
+        "evidenceSegmentIds": [
+          "S0114"
+        ],
+        "name": "Experiential world model"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5e0004cbc01deb115d37231944e647dac93ee4c570f7d3d19961101eee50b604",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4",
+  "talkTitle": "Active Graph Agent Runtime (BabyAGI 4)",
+  "transcriptPath": "raw/sources/youtube-transcripts/khVX_BUnEwU.txt",
+  "transcriptSha256": "sha256:8f6f12604eec05bfb11d1b7bdb5a0925d76219c9f448590ae5aaf90cf47a7ddf",
+  "videoId": "khVX_BUnEwU"
+}

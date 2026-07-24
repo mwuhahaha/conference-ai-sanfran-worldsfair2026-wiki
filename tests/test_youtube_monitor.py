@@ -857,7 +857,7 @@ class YoutubeMonitorTests(unittest.TestCase):
             [row["id"] for row in monitor.verified_schedule_matches(video, talks)],
         )
 
-    def test_curated_playlist_override_matches_only_theo_closing_keynote(self):
+    def test_curated_playlist_overrides_match_only_the_bound_schedule_session(self):
         talks = [
             {
                 "id": "2026-07-01-theo-browne-closing-keynote-theo-browne",
@@ -871,13 +871,66 @@ class YoutubeMonitorTests(unittest.TestCase):
                 "speakers": '["Theo Browne"]',
                 "description": "TBD",
             },
+            {
+                "id": (
+                    "2026-06-30-ishan-anand-will-ai-predict-people-like-we-"
+                    "predict-the-weather-alternate-title-a-field-guide-to-"
+                    "synthetic-personas-for-market-research"
+                ),
+                "title": "Will AI predict people like we predict the weather?",
+                "speakers": '["Ishan Anand"]',
+                "description": "TBD",
+            },
+            {
+                "id": (
+                    "2026-06-29-manoj-nair-through-the-ai-fog-the-"
+                    "architectural-decision-the-next-24-months-of-agentic-"
+                    "security-depends-on"
+                ),
+                "title": "Through the AI Fog",
+                "speakers": '["Manoj Nair"]',
+                "description": "TBD",
+            },
         ]
+        cases = (
+            (
+                "xUnRQ9vLXxo",
+                "What do we build now? - @t3dotgg",
+                talks[0]["id"],
+            ),
+            (
+                "YnNF55QV0zs",
+                "Persona Engineering: A Field Guide to AI Synthetic Personas",
+                talks[2]["id"],
+            ),
+            (
+                "1EZdpEhwmNc",
+                "Through the AI Fog: The Architectural Decision Agentic Security Depends On",
+                talks[3]["id"],
+            ),
+        )
+        for video_id, title, expected_talk_id in cases:
+            video = monitor.VideoEntry(
+                video_id,
+                title,
+                "2026-07-08T00:00:00+00:00",
+                "2026-07-08T00:00:00+00:00",
+                f"https://www.youtube.com/watch?v={video_id}",
+            )
+            self.assertEqual(
+                [expected_talk_id],
+                [
+                    row["id"]
+                    for row in monitor.verified_schedule_matches(video, talks)
+                ],
+            )
+
         video = monitor.VideoEntry(
-            "xUnRQ9vLXxo",
-            "What do we build now? - @t3dotgg",
+            cases[0][0],
+            cases[0][1],
             "2026-07-08T00:00:00+00:00",
             "2026-07-08T00:00:00+00:00",
-            "https://www.youtube.com/watch?v=xUnRQ9vLXxo",
+            f"https://www.youtube.com/watch?v={cases[0][0]}",
         )
         unrelated_id = monitor.VideoEntry(
             "unrelated-id",
@@ -887,10 +940,6 @@ class YoutubeMonitorTests(unittest.TestCase):
             video.url,
         )
 
-        self.assertEqual(
-            ["2026-07-01-theo-browne-closing-keynote-theo-browne"],
-            [row["id"] for row in monitor.verified_schedule_matches(video, talks)],
-        )
         self.assertEqual([], monitor.verified_schedule_matches(unrelated_id, talks))
 
         with tempfile.TemporaryDirectory() as directory:

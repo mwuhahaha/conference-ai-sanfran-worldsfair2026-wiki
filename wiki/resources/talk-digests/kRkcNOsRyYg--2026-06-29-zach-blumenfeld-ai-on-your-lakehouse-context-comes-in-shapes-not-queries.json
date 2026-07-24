@@ -1,0 +1,282 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:57:18.346730+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:9d94645020f15c87805e121088f603839d2668b0532f4be9a643d4d56b85a38b",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "times what can happen is you're given these tools like text to SQL and vector search and nowadays we don't really have trouble accessing that data Um, but sometimes there are still some challenges around how do you give your agent the right type of context, whether or not they can see all the data",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that lakehouse copilots usually fail because they lack the right context, not because the model or query style is inherently broken."
+      },
+      {
+        "evidenceExcerpt": "Why wouldn't we just push that into the graph? Well, I think in a lot of cases that's easier said than done, right?",
+        "evidenceSegmentIds": [
+          "S0183"
+        ],
+        "support": "explicit",
+        "text": "He says moving all warehouse data into graph is often the wrong default because continuous sync, security posture, and custom ETL overhead can make that impractical."
+      },
+      {
+        "evidenceExcerpt": "And so if you notice the thing that we're doing here really is we're not using the graph to copy the data over.",
+        "evidenceSegmentIds": [
+          "S0139"
+        ],
+        "support": "explicit",
+        "text": "He reports that the connection shape uses graph as a semantic layer for metadata, not as a data copy, so the agent can infer joins from structure instead of ingesting the full warehouse."
+      },
+      {
+        "evidenceExcerpt": "Um, and the benefits of having a deterministic load like this is number one, it's going to be item potent.",
+        "evidenceSegmentIds": [
+          "S0246"
+        ],
+        "support": "explicit",
+        "text": "He says the document graph load is deterministic and idempotent, which makes it faster and more repeatable when the source documents already have strong structure."
+      },
+      {
+        "evidenceExcerpt": "I think it would be naive to call it a replacement because most of the people that I see using this will eventually incorporate some sort of hybrid vector retrieval or full text search work I do.",
+        "evidenceSegmentIds": [
+          "S0315"
+        ],
+        "support": "explicit",
+        "text": "He argues that semantic search is not a replacement for the other shapes and that hybrid retrieval, especially with full text search, still matters."
+      },
+      {
+        "evidenceExcerpt": "If the data changes, it will change to reflect the data. So, it's very stable. The disadvantage to it would be if your links in your documents um, and the titles and things that are being scooped up, because this is really only looking basically at document metadata and link metadata.",
+        "evidenceSegmentIds": [
+          "S0444"
+        ],
+        "support": "strong",
+        "text": "He says the theme view is stable and data-derived, but its usefulness depends on the quality of document titles, links, and metadata."
+      }
+    ],
+    "methodNotes": "Each non-summary field is grounded in exactly one transcript segment ID, and I avoided using outside knowledge or multiple-segment evidence for any single item.",
+    "methods": [
+      {
+        "description": "Use a graph semantic layer over warehouse metadata to let an agent reason about joins without copying the underlying tables into graph.",
+        "evidenceExcerpt": "And so we're focused a lot right now on these concepts of ontologies and semantic layers and what we're calling virtual graph where the focus isn't only just etling data in but about okay maybe you want to keep your data where it is and you still want to use SQL and and access it in in the ways you have been but you need some way to sort of guide the agent to be able to do that correctly.",
+        "evidenceSegmentIds": [
+          "S0176"
+        ],
+        "name": "Graph semantic layer"
+      },
+      {
+        "description": "Load documents deterministically into a containment tree with ordered links so the agent can traverse a table-of-contents view.",
+        "evidenceExcerpt": "So, it's all deterministic with the containment tree for one and then the ordering of the sections as well as the links.",
+        "evidenceSegmentIds": [
+          "S0245"
+        ],
+        "name": "Deterministic document ingestion"
+      },
+      {
+        "description": "Run full-text search on document and section nodes, then scope results by hierarchical URI so search stays inside the right subtree.",
+        "evidenceExcerpt": "Uh so if I was to go back into this uh file um and I looked at the way that this query run I have this wear statement.",
+        "evidenceSegmentIds": [
+          "S0337"
+        ],
+        "name": "URI-scoped search"
+      },
+      {
+        "description": "Project the graph into memory and run Leiden community detection to surface clusters and themes efficiently.",
+        "evidenceExcerpt": "So basically what we have to do or what what we do to make it very performant is in addition to just having the database we have this other um projection where we'll take a part of the graph into memory um and then we'll run these high concurrency algorithms on top of that so",
+        "evidenceSegmentIds": [
+          "S0402"
+        ],
+        "name": "Projected community detection"
+      },
+      {
+        "description": "Write a spec first and have the agent generate Cypher against that spec, rather than hand-authoring complex queries directly.",
+        "evidenceExcerpt": "And I've instructed it inside of the language here to use the Neo Forj cippher skill and reference a spec in doc outline format.m MD.",
+        "evidenceSegmentIds": [
+          "S0263"
+        ],
+        "name": "Spec-driven query generation"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "it too um I have one question all the way in back there So the question is around if if I'm understanding correctly, how do you decide what to name your relationships and how descriptive they have to be and who is naming the relationships.",
+        "evidenceSegmentIds": [
+          "S0304"
+        ],
+        "question": "How granular should relationship naming be before the graph becomes too hard for humans and agents to manage?",
+        "whyItMatters": "This affects how expressive the graph can be without making query generation and maintenance unwieldy."
+      },
+      {
+        "evidenceExcerpt": "I mean, um, I've seen customers, you know, basically every time because because the way Leiden works is it's it really is this algorithm that where it will suck everything into a projection.",
+        "evidenceSegmentIds": [
+          "S0452"
+        ],
+        "question": "How should theme assignments and summaries be handled when the underlying data changes over time?",
+        "whyItMatters": "Temporal data can invalidate clusters, so the answer determines whether theme outputs can support snapshots or trend analysis."
+      },
+      {
+        "evidenceExcerpt": "Um yes, over here. Yeah, either one. Do do I have a sense of accuracy of how well these do when the knowledge bases expand?",
+        "evidenceSegmentIds": [
+          "S0555"
+        ],
+        "question": "How should teams benchmark these shapes against ordinary vector search as the knowledge base grows?",
+        "whyItMatters": "Without benchmarking, it is hard to know when the graph shapes justify their added modeling effort."
+      },
+      {
+        "evidenceExcerpt": "Between Yeah. No, we do not have so right now. So, now that I understand your question, the question is, is there a link between the connection structured data graph and the unstructured one?",
+        "evidenceSegmentIds": [
+          "S0561"
+        ],
+        "question": "Should the structured-data graph and the unstructured-data graph eventually be linked together, and if so, how?",
+        "whyItMatters": "Direct linking could make cross-domain reasoning more deterministic, but it adds modeling and maintenance complexity."
+      }
+    ],
+    "summary": "Zach Blumenfeld argues that lakehouse copilots usually fail because they get the wrong context, not because the model cannot answer questions. His fix is to encode context as reusable graph shapes rather than as a single query style: a semantic-layer graph for warehouse metadata, a deterministic tree-plus-links graph for documents, and community-detection themes for corpus-wide patterns. The practical payoff is that an agent can navigate to the right slice of data, chain the shapes together, and answer both point questions and estate-level coverage questions with less hallucination and less dependence on moving all data into a graph. The main tradeoff is that this lighter-weight approach depends on good source structure and careful naming, so it is faster and more model-agnostic than LLM extraction, but sometimes less expressive and still best combined with search.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And so there's going to be three concrete shapes that we'll introduce you to today. Uh, so the first one um, we're going to call table of contents and it's somewhat like a tree structure uh, but with also different types of links between them.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "text": "The workshop centers on three reusable shapes: connections, table of contents, and themes."
+      },
+      {
+        "evidenceExcerpt": "Um so that's the basics of this first shape. And you can imagine that as your data starts to grow and you start to get more and more tables, it's very useful to have this semantic layer um to then help essentially guide how everything joins together.",
+        "evidenceSegmentIds": [
+          "S0166"
+        ],
+        "text": "The connection shape gives the agent a semantic layer that helps it join warehouse tables correctly as the schema grows."
+      },
+      {
+        "evidenceExcerpt": "Um, that's the general idea with this. And so what this gives the agent to do is not just search like vector search or or lexical search but actually kind of traverse through the documents in a sense.",
+        "evidenceSegmentIds": [
+          "S0233"
+        ],
+        "text": "The table-of-contents shape lets the agent traverse document hierarchy and links instead of relying only on similarity search."
+      },
+      {
+        "evidenceExcerpt": "And so this is very useful from sort of a whole estate wide question because you can start to understand in your data kind of how everything kind of groups and clusters together.",
+        "evidenceSegmentIds": [
+          "S0411"
+        ],
+        "text": "Theme detection is useful for estate-level questions because it reveals how documents cluster across the corpus."
+      },
+      {
+        "evidenceExcerpt": "And you'll see what it will do here. Um it will look for the document code. It'll do a full text search.",
+        "evidenceSegmentIds": [
+          "S0491"
+        ],
+        "text": "The final workflow combines full-text grounding, tree traversal, and warehouse joins so the agent can answer a repair question end to end."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The warehouse example used throughout the session for structured repair data and join paths.",
+        "evidenceExcerpt": "Um, and so if they already have their data in a warehouse, what we're going to be looking at today is the example on BigQuery.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "BigQuery"
+      },
+      {
+        "description": "Neo4j is the graph platform at the center of the semantic layer, document graph, and theme analysis.",
+        "evidenceExcerpt": "So Neoraj we're we're a graph intelligence platform. We have a graph database at at at the heart of it.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "name": "Neo4j"
+      },
+      {
+        "description": "Neo Carta is the lab project used to create the metadata graph for the semantic layer.",
+        "evidenceExcerpt": "And to build that semantic layer, we're going to use something called Neoarta. Um Neoarta is a labs project.",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "Neo Carta"
+      },
+      {
+        "description": "Claude Code is the agentic coding environment used to run the workshop workflows and generate queries.",
+        "evidenceExcerpt": "You can go ahead and call Claude. Um, we'll be working through Claude Code as our agent. Um, the internet is a little bit slow too, which is expected as you go through with this as well.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "name": "Claude Code"
+      },
+      {
+        "description": "Lucene is the full-text search index used for document and section lookup inside the graph.",
+        "evidenceExcerpt": "So, um this is going to be much more simple, this search uh file. Um basically, I'm just going to use a lucine style index.",
+        "evidenceSegmentIds": [
+          "S0331"
+        ],
+        "name": "Lucene"
+      },
+      {
+        "description": "The Graph Data Science library powers the Leiden community detection used in the themes view.",
+        "evidenceExcerpt": "And um it it's using Neo Forj's graph data science library.",
+        "evidenceSegmentIds": [
+          "S0401"
+        ],
+        "name": "Graph Data Science"
+      },
+      {
+        "description": "The MCP server is the interface the agent uses to read metadata and drive the semantic-layer workflow.",
+        "evidenceExcerpt": "Um but anyway, what Neo Carter will do is it we'll see in this next section um uh it has an MCP server basically that will sort of suck all the data in from the um from BigQuery just the metadata and it will create this graph.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "MCP server"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Using graph shapes to supply agents with the right context for lakehouse reasoning.",
+        "evidenceExcerpt": "times what can happen is you're given these tools like text to SQL and vector search and nowadays we don't really have trouble accessing that data Um, but sometimes there are still some challenges around how do you give your agent the right type of context, whether or not they can see all the data",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Lakehouse context"
+      },
+      {
+        "description": "A metadata graph that acts as a semantic layer over warehouse schemas.",
+        "evidenceExcerpt": "And to build that semantic layer, we're going to use something called Neoarta. Um Neoarta is a labs project.",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "Semantic layers"
+      },
+      {
+        "description": "A containment-tree view of documents with hierarchical links and drill-down navigation.",
+        "evidenceExcerpt": "Um, that's the general idea with this. And so what this gives the agent to do is not just search like vector search or or lexical search but actually kind of traverse through the documents in a sense.",
+        "evidenceSegmentIds": [
+          "S0233"
+        ],
+        "name": "Document navigation trees"
+      },
+      {
+        "description": "Community detection for surfacing corpus-wide clusters and hidden themes.",
+        "evidenceExcerpt": "And so we're going to use something called lien community detection. By a show of hands, how many people in this room are familiar with what graph data science is?",
+        "evidenceSegmentIds": [
+          "S0391"
+        ],
+        "name": "Theme discovery"
+      },
+      {
+        "description": "An agent workflow that chains outline, search, and theme shapes to answer mixed structured and unstructured questions.",
+        "evidenceExcerpt": "And if you have your agent which in this case because we're using a coden agent it can access the neo forj cli it gives it the ability to do this graph reasoning read the schema and then do flexible queries.",
+        "evidenceSegmentIds": [
+          "S0475"
+        ],
+        "name": "Agentic query routing"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:6e44dd49b7a44fb565331b4718c5e3bb4d57b004f899f239099fb6e8b9bbb113",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries",
+  "talkTitle": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+  "transcriptPath": "raw/sources/youtube-transcripts/kRkcNOsRyYg.txt",
+  "transcriptSha256": "sha256:5b40fcf3f1c5d9cfc094bfe8f8a7c114ea96420d28fb9bdc66cae4e7607add8b",
+  "videoId": "kRkcNOsRyYg"
+}

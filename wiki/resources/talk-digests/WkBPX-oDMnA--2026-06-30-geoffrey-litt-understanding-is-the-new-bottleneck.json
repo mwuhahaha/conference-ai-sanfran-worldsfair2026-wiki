@@ -1,0 +1,287 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:00:43.738936+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:bb196fc468234a6fa6c8b886314dcc4fd9c997a9a640fec80bfc869f47c689b5",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "There is a deeper reason to understand what's going on, and that's understanding to participate.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the deeper reason to understand work done by agents is not verification but participation in the next loop of creative work."
+      },
+      {
+        "evidenceExcerpt": "And the thing is, over time, we've all seen it, the agents are also able to ask these questions and they're getting better at it.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "He says human involvement in correctness checking is decreasing as agents get better at verification loops."
+      },
+      {
+        "evidenceExcerpt": "Because if we want to be active participants, you still got to do this. There's a great term maybe some of you have heard called cognitive debt that I think really captures the spirit well.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "support": "explicit",
+        "text": "He frames degraded understanding as cognitive debt: it can work for a while, but eventually it leaves you unable to participate effectively."
+      },
+      {
+        "evidenceExcerpt": "So, that's what this talk is about. We're going to talk about three techniques. First, explanations.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "support": "explicit",
+        "text": "The talk presents three techniques for staying in the loop: explanations, microworlds, and shared spaces."
+      },
+      {
+        "evidenceExcerpt": "That's what I do with my code explainers. At the very bottom, there's a quiz. Five questions, medium difficulty.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "support": "explicit",
+        "text": "He uses quizzes at the bottom of code explainers as a speed regulator that prevents false confidence about understanding."
+      },
+      {
+        "evidenceExcerpt": "So, I'm getting some of the benefit of doing it iteratively without the pain. And I think the big takeaway here is agents can write code to help us understand code.",
+        "evidenceSegmentIds": [
+          "S0108"
+        ],
+        "support": "explicit",
+        "text": "He argues that agents can write code specifically to help humans understand code by building small interactive microworlds rather than shipping software."
+      },
+      {
+        "evidenceExcerpt": "You see more of the behavior happening together and you understand together. Also, having documents that you can talk about together is a really powerful primitive.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "support": "explicit",
+        "text": "He says shared spaces for documents and agent conversations help teams build collective understanding and discuss ideas together."
+      },
+      {
+        "evidenceExcerpt": "And with the right tools and the right mindset and the right creativity, we can actually understand better than ever before, not less.",
+        "evidenceSegmentIds": [
+          "S0138"
+        ],
+        "support": "explicit",
+        "text": "He concludes that with the right tools and mindset, AI can help people understand better than before instead of pulling them out of the loop."
+      }
+    ],
+    "methodNotes": "Each field item is grounded in exactly one transcript segment ID, matching the user’s evidence rule. Summary synthesizes the whole talk rather than opening chatter, and the claims distinguish the speaker’s argument from outside verification.",
+    "methods": [
+      {
+        "description": "Using explanation artifacts that start with background, build intuition first, then move into details and code.",
+        "evidenceExcerpt": "And here's how it looks. We start with background. We do not start with what happened in this change.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "intuition-first explanation"
+      },
+      {
+        "description": "Embedding quiz questions at the end of an explainer to test whether the reader actually understands the material.",
+        "evidenceExcerpt": "That's what I do with my code explainers. At the very bottom, there's a quiz. Five questions, medium difficulty.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "understanding quiz"
+      },
+      {
+        "description": "Building interactive visual environments that let a person inhabit the system and observe it step by step.",
+        "evidenceExcerpt": "So, I had Claude make me a microworld. This is a debugger, ephemeral UI that was built specifically to visualize the internal implementation of my programming language.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "microworld"
+      },
+      {
+        "description": "Putting code, plans, and discussion into a shared collaborative space so teams and agents can reason together.",
+        "evidenceExcerpt": "You see more of the behavior happening together and you understand together. Also, having documents that you can talk about together is a really powerful primitive.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "name": "shared understanding workspace"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "It can just be a crutch, and it can be kind of slop, to be honest. But used tastefully, it can provide understanding that's hard to achieve with just static pictures.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "question": "How can interactivity be used to improve understanding without becoming a crutch or producing slop?",
+        "whyItMatters": "The talk treats interactive figures as powerful but risky, so the design boundary matters for practical use."
+      },
+      {
+        "evidenceExcerpt": "Everything AI is speed up, speed up, speed up. There's all these incentives to go faster. How do we make sure we're not just moving at the speed of correctness, but also of understanding?",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "question": "How can teams enforce understanding as a speed regulator without slowing agent-assisted development too much?",
+        "whyItMatters": "This is the operational tension between moving fast and avoiding cognitive debt."
+      },
+      {
+        "evidenceExcerpt": "Some things we're exploring, can you have multiplayer chat threads between multiple humans and agents together?",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "question": "What is the best interface for multiplayer human-agent collaboration when a whole team needs shared understanding?",
+        "whyItMatters": "The speaker suggests shared spaces are valuable, but the concrete collaboration model is still being explored."
+      }
+    ],
+    "summary": "Geoffrey Litt argues that the real bottleneck in the agent era is not just correctness checking but human understanding, because understanding is what lets people participate creatively in the next loop of work. His method is to borrow from education and cognitive science: have agents produce background-rich explanations, intuition-first writeups, quizzes that expose false confidence, and microworlds that let people inhabit a system instead of just reading about it. He also emphasizes tradeoffs: interactivity can become crutch-like, and speed creates cognitive debt, so the practical goal is to move faster with agents while preserving shared understanding for individuals and teams.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Your understanding of what's going on is the foundation for you having that next idea and being an active creative participant in a project.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "text": "Understanding matters because it becomes the foundation for the next idea and for active participation in ongoing work."
+      },
+      {
+        "evidenceExcerpt": "I basically can't participate anymore, right? You've built up too much cognitive debt. Okay, so maybe it sounds like all of you were already convinced.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "text": "Cognitive debt accumulates when people let understanding degrade during fast agent-assisted work, eventually making participation impossible."
+      },
+      {
+        "evidenceExcerpt": "It starts by teaching me, \"Hey, here's how the system works. Here's the game engine we're using.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "Good explanations should teach the system background first, not begin by dumping the raw change."
+      },
+      {
+        "evidenceExcerpt": "Second important principle is intuition before details. So, before we start, you know, looking at code and stuff, it says, \"Hey, the goal of this commit is to make the garden feel three-dimensional using only 2D drawing tricks.\" You can think of this sort of as like a well-written commit message, a little deeper.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "text": "Explanations should lead with intuition and the goal of the change before surfacing code details."
+      },
+      {
+        "evidenceExcerpt": "So, agents can put interactive simulations into your Notion pages. Pretty cool. I think you have to be careful with interactivity.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "text": "Interactive figures can deepen understanding, but they need to be used carefully because they can turn into superficial polish."
+      },
+      {
+        "evidenceExcerpt": "We do what we what I call literate code diffs. Give me prose. Explain it to me in the right order.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "text": "Literate diffs help by presenting prose and code in the order that makes the change easiest to follow."
+      },
+      {
+        "evidenceExcerpt": "And yes, I can use I used this to fix bugs. I even had a little hard to see here, but there's a commenting feature where I can leave comments for myself on the timeline so I remember what I was thinking.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "text": "Microworlds help people fix bugs while also building a felt sense of how the machine works."
+      },
+      {
+        "evidenceExcerpt": "So, I'm getting some of the benefit of doing it iteratively without the pain. And I think the big takeaway here is agents can write code to help us understand code.",
+        "evidenceSegmentIds": [
+          "S0108"
+        ],
+        "text": "Agents are useful not only for shipping code but for generating environments that help humans understand code."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The speaker uses Notion as a collaborative place for explainer docs, comments, and shared understanding.",
+        "evidenceExcerpt": "I like to put them in Notion because I work there, but also because it's then collaborative, so my team can comment on it and talk about it.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Notion"
+      },
+      {
+        "description": "He says Notion recently launched HTML blocks that allow interactive simulations inside pages.",
+        "evidenceExcerpt": "This, by the way, is actually using a new feature that Notion literally launched this morning of HTML blocks in Notion pages.",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "name": "HTML blocks in Notion pages"
+      },
+      {
+        "description": "He notes that Claude can generate explainers, microworlds, and migration helpers that support understanding.",
+        "evidenceExcerpt": "So, I had Claude make me a microworld. This is a debugger, ephemeral UI that was built specifically to visualize the internal implementation of my programming language.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "He says Claude and Cursor can now live in Notion as coding agents inside the shared workspace.",
+        "evidenceExcerpt": "I think having these spaces for shared discussion around ideas with our agents is really powerful for building up that This, by the way, um we just launched last week the ability to bring coding agents into Notion.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Cursor"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that the main challenge in agentic development is preserving human understanding, not just checking outputs.",
+        "evidenceExcerpt": "There is a deeper reason to understand what's going on, and that's understanding to participate.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "understanding as participation"
+      },
+      {
+        "description": "The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up.",
+        "evidenceExcerpt": "Because if we want to be active participants, you still got to do this. There's a great term maybe some of you have heard called cognitive debt that I think really captures the spirit well.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "cognitive debt"
+      },
+      {
+        "description": "A teaching approach for code changes that starts with system background and intuition before details.",
+        "evidenceExcerpt": "And here's how it looks. We start with background. We do not start with what happened in this change.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "explanation design"
+      },
+      {
+        "description": "A learning technique that uses quizzes to verify genuine comprehension instead of passive reading.",
+        "evidenceExcerpt": "So, that So, he and his collaborator Michael Nielsen tried this thing where in an essay, there are interactive spaced repetition quizzes that test whether you actually remember what you just read.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "quiz-based comprehension"
+      },
+      {
+        "description": "An interactive model of a system that lets a person explore its behavior directly.",
+        "evidenceExcerpt": "So, I had Claude make me a microworld. This is a debugger, ephemeral UI that was built specifically to visualize the internal implementation of my programming language.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "microworlds"
+      },
+      {
+        "description": "A collaborative environment where humans and agents can reason about work together.",
+        "evidenceExcerpt": "Let's ask a different agent.\" And that agent comes in and talks to us. What's happening here is that instead of me and my PM both talking to our own agents, we're in a shared space, we can see each other's communication.",
+        "evidenceSegmentIds": [
+          "S0118"
+        ],
+        "name": "shared understanding"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:9f91354b61611d16a66e514089ecbe63d2f18e3e7cf5456b824fd7e44e8bb082",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck",
+  "talkTitle": "Understanding is the new bottleneck",
+  "transcriptPath": "raw/sources/youtube-transcripts/WkBPX-oDMnA.txt",
+  "transcriptSha256": "sha256:b7cf9377c11b908694ee49afa65996b7019e735ebc81e7c14ec1627b7089fea4",
+  "videoId": "WkBPX-oDMnA"
+}

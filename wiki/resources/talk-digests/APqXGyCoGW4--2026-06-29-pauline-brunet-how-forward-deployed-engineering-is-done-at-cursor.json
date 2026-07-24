@@ -1,0 +1,234 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:55:30.099828+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:136ba105d1e0e319eb87ed99f2dbcc16da18692e227865e406275b065dd5426c",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, if you have a customer who is really mature in their digital transformation, they have engineers, um it's a low customization on your project, I would really just say provide your product in a self-service fashion, create give great documentation, probably not a great use of your FDE motion.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "support": "explicit",
+        "text": "For mature customers with low product customization, the speaker says self-service onboarding and documentation are a better fit than FDE."
+      },
+      {
+        "evidenceExcerpt": "Here, you're going to have crazy adoption, right? And I would say a lot of it should be your FDE team should be acting as advisers and help accelerate them.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "For mature customers with highly customizable products, the speaker says FDE should act more as advisers that help accelerate adoption."
+      },
+      {
+        "evidenceExcerpt": "They're learning a little bit about how to do it. They may not be able to hire or staff the folks that you you And so, they need a lot more help and here is where I think of like that embedded transformation.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "support": "explicit",
+        "text": "For customers that are earlier in their transformation journey, the speaker frames FDE as embedded transformation support."
+      },
+      {
+        "evidenceExcerpt": "So, for us, it is project-based, highly impactful projects. So, I usually would like to work with the economic buyer or a very senior champion within my accounts to make sure that we are scoping something that is a strategic objective for the company, right?",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "support": "explicit",
+        "text": "At Cursor, FDE work is project-based and is typically scoped with an economic buyer or senior champion around a strategic objective."
+      },
+      {
+        "evidenceExcerpt": "So, as we get really cool use cases that are a little bit outside of the software development life cycle, the FTE team to me is the tip of the spear that is going to test out these new use cases with customers.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "support": "explicit",
+        "text": "The speaker says FDE is the tip of the spear for pushing edge cases and testing new use cases with customers."
+      },
+      {
+        "evidenceExcerpt": "We work in co-development with customer teams in their code base. This is where you have to be really careful that you end up uh not doing staff augmentation.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "support": "explicit",
+        "text": "The speaker warns that co-developing in a customer code base can drift into staff augmentation unless the work is clearly collaborative."
+      },
+      {
+        "evidenceExcerpt": "It's always three things, super simple. Am I increasing revenue? Am I decreasing costs? Or am I mitigating risks?",
+        "evidenceSegmentIds": [
+          "S0136"
+        ],
+        "support": "explicit",
+        "text": "The speaker reduces FDE success to three business outcomes: increasing revenue, decreasing costs, or mitigating risk."
+      }
+    ],
+    "methodNotes": "Built only from the supplied schedule metadata and transcript. I excluded the intro and closing chatter, and I assigned exactly one transcript segment ID to every non-summary field.",
+    "methods": [
+      {
+        "description": "Place accounts on a customer-maturity versus product-customizability matrix before deciding whether FDE is the right motion.",
+        "evidenceExcerpt": "And the reason for that is cuz I think of it on on a matrix, right? And a lot of people ask me, \"Hey, is FDE like professional services?",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Fit matrix"
+      },
+      {
+        "description": "Scope engagements directionally around a specific problem, KPI, and phased deliverable instead of open-ended headcount.",
+        "evidenceExcerpt": "What I would recommend is that you instead are trying to solve a problem and you establish what you're going to do to solve that problem.",
+        "evidenceSegmentIds": [
+          "S0118"
+        ],
+        "name": "Directional scoping"
+      },
+      {
+        "description": "Keep the customer involved from scoping through implementation, validation, and ROI review.",
+        "evidenceExcerpt": "And so that would be my recommendation. Involve the customer in every step step. Scoping, actually building and designing the solution, implementation, doing the human in the loop validation, looking at baseline versus the results, identifying the ROI we're driving.",
+        "evidenceSegmentIds": [
+          "S0128"
+        ],
+        "name": "Customer-in-the-loop delivery"
+      },
+      {
+        "description": "Use system integrators and consultants to scale rollout and broaden reach when the work does not need to stay inside the FDE team.",
+        "evidenceExcerpt": "So, listen to your customers and adopt accordingly. Uh work with partner organizations. You can always benefit from uh system integrators and consultings.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "name": "Partner-led scaling"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Over time, we will split the role, so we'll have folks that are a little bit less technical, more customer-facing, but still with technical aptitude and vice versa.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "question": "How should an FDE organization split technical depth from customer-facing skill as it grows?",
+        "whyItMatters": "The speaker says the role will eventually split, but the transition path and hiring boundary are still open."
+      },
+      {
+        "evidenceExcerpt": "We are geography-based for now, but at some point we will likely mature to industries because when you talk to an industry and you don't use their lingo, you immediately lose credibility.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "question": "When should FDE coverage move from geography-based organization to industry-based specialization?",
+        "whyItMatters": "The speaker says industry language matters for credibility, but does not define the operating trigger for that shift."
+      },
+      {
+        "evidenceExcerpt": "You want to over communicate that. Right? I had a someone mentioning to me that an agent was running was costing $2,000 per day and I said, \"Well, what was the agent doing?\" And he explained it to me and I said, \"Hey, that sounds like you're actually reducing costs to send the right person to go fix this equipment.",
+        "evidenceSegmentIds": [
+          "S0134"
+        ],
+        "question": "How should teams measure the true ROI of expensive automation when the direct operating cost looks high?",
+        "whyItMatters": "The speaker gives an example where daily agent cost seemed high until the downstream savings were framed correctly."
+      }
+    ],
+    "summary": "Pauline Brunet argues that forward deployed engineering only works when you match the motion to both customer maturity and product customizability. Her core mechanism is a project-based, highly technical, customer-facing engagement model that co-designs solutions with named stakeholders, scopes the work around concrete business outcomes, and keeps the customer involved through implementation and validation. The main tradeoff is that FDE can drive adoption, surface product feedback, and expand what the platform can do, but it becomes wasteful if it degenerates into training, documentation, or staff augmentation. The practical consequence is that companies need a clear mission, strict scope, and explicit ROI criteria before they hire or deploy the function.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And the first thing is I want you to understand your customers or at least the target market that you're going after and where they are in their transformation journey.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "text": "Start by understanding where the customer is in its transformation journey before deciding to deploy FDE."
+      },
+      {
+        "evidenceExcerpt": "Does that measure success? Yes, great. Um I I have a lot of opinions about scope. So, I think that you cannot just do like, \"Hey, take two FTEs for 6 months, do whatever you want with them.\" I think that's a recipe for failure.",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "text": "Do not hand FDE open-ended headcount; define the problem and the scope you intend to solve."
+      },
+      {
+        "evidenceExcerpt": "And so that would be my recommendation. Involve the customer in every step step. Scoping, actually building and designing the solution, implementation, doing the human in the loop validation, looking at baseline versus the results, identifying the ROI we're driving.",
+        "evidenceSegmentIds": [
+          "S0128"
+        ],
+        "text": "Keep the customer involved in scoping, building, validation, and ROI review so the work does not drift away from their needs."
+      },
+      {
+        "evidenceExcerpt": "One is you build credibility by being very honest about where our applications and our products and our platform are the right tools and where they're not.",
+        "evidenceSegmentIds": [
+          "S0106"
+        ],
+        "text": "Saying no to poor-fit use cases protects credibility and makes later partnership easier."
+      },
+      {
+        "evidenceExcerpt": "So, partner with your your uh system integrators and your consultants so they can go do that at scale and broaden in your reach.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "text": "Use system integrators and consultants when you need to broaden reach or scale rollout work."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The AI coding platform the speaker represents and uses as the main product context for the FDE function.",
+        "evidenceExcerpt": "Uh so, as you know, we are an AI coding platform. A lot of our customers are incredibly [snorts] mature organizations, deeply technical buyers and users, and that has informed of who we hire and the profiles we're looking for.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Cursor"
+      },
+      {
+        "description": "The developer kit used for building applications on top of Cursor.",
+        "evidenceExcerpt": "And you're going to make sure that you're working on something really meaningful that when you walk away at the end of the engagements, and we in our case have deployed cloud agents, long-running agents, we've deployed automations, we've built applications on top of our Cursor SDK, that when we walk away, it is a strict ROI for them.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Cursor SDK"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Choosing whether FDE fits by comparing customer maturity with product configurability.",
+        "evidenceExcerpt": "And the reason for that is cuz I think of it on on a matrix, right? And a lot of people ask me, \"Hey, is FDE like professional services?",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "FDE fit matrix"
+      },
+      {
+        "description": "Using FDE as a project-based motion tied to strategic objectives and named sponsors.",
+        "evidenceExcerpt": "So, for us, it is project-based, highly impactful projects. So, I usually would like to work with the economic buyer or a very senior champion within my accounts to make sure that we are scoping something that is a strategic objective for the company, right?",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Project-based delivery"
+      },
+      {
+        "description": "Working directly with customer teams inside their code base instead of operating as a detached service layer.",
+        "evidenceExcerpt": "We work in co-development with customer teams in their code base. This is where you have to be really careful that you end up uh not doing staff augmentation.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Embedded co-development"
+      },
+      {
+        "description": "Judging success by revenue, cost, or risk impact rather than by activity volume.",
+        "evidenceExcerpt": "It's always three things, super simple. Am I increasing revenue? Am I decreasing costs? Or am I mitigating risks?",
+        "evidenceSegmentIds": [
+          "S0136"
+        ],
+        "name": "ROI framing"
+      },
+      {
+        "description": "Turning close customer work into signals for product and roadmap decisions.",
+        "evidenceExcerpt": "And then finally, you have to work very delicately between the product and engineering teams and your customers, where you want to give that feedback loop to your product team saying, \"Hey, we're hearing this over and over again.\" Uh and the FTE team is so close to the customers, embedded in their organizations, they're going to be the first ones have a really good pulse on what we should build next as a company.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Product feedback loop"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:60525bab7f7b8d04d8aeb15274284400bf70ec14da83a3998653d1938ee69a36",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
+  "talkTitle": "How Forward Deployed Engineering is done at Cursor",
+  "transcriptPath": "raw/sources/youtube-transcripts/APqXGyCoGW4.txt",
+  "transcriptSha256": "sha256:8574a4520d434a37d95c25ae0fa4f818c54f11da90976cd1e86e7c048ead1e4a",
+  "videoId": "APqXGyCoGW4"
+}

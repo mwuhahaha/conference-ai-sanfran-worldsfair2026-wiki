@@ -28,32 +28,77 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 As AI agents move from demos into production engineering workflows, the security boundary shifts from code alone to the permissions, tools, prompts, dependencies, credentials, and orchestration layers that agents can touch. This talk frames agentic security broadly: least-privilege agent permissions, sandboxing and capability design, provenance for agent-generated changes, risks in agent/tool/package supply chains, and practical patterns for keeping autonomous coding and operational agents auditable and containable.
 
 ## Synthesis
-### Synthesized Breakdown
-All right. Hey everybody. Uh yeah, yep. Yep.
+### Transcript-Backed Summary
+The talk argues that AI-coded systems should be treated as a new security frontier, not just a faster version of normal software development. The central mechanism is to break work into multiple passes and to separate correctness from security, then add layered checks from developer feedback to supply-chain inspection and agent supervision. The practical consequence is that teams need to harden code, dependencies, prompts, credentials, and autonomous agents together, because new attack surfaces such as slop squatting, prompt injection, and overprivileged agents are arriving faster than the old review model can handle.
 
-### Speaker And Company Context
-- [[steve-yegge|Steve Yegge]] — Icon at [[gas-town|Gas Town]].
+### Key Takeaways
+- Every bit of AI-generated code will need more security scrutiny than code has needed before.
+  - Evidence: "So, so we're entering a world where everything you write, every bit of code that you generate is going to have to get far more security scrutiny than it's ever had before."
+- Security issues should be surfaced immediately, at the developer's fingertips, because delay makes them easier to ignore.
+  - Evidence: "The problem compounds over time. Yeah. So, you have to treat this class of vulnerabilities the way that Google treated their top vulnerabilities at the time, which is to surface them at the developer's fingertips."
+- LLMs should be paired with security tools and supply-chain controls so they get help on the parts they are likely to miss.
+  - Evidence: "Give them sneak, give them chain guard. And I still think there's a missing piece in this picture that I'll tell you about at the end."
+- Security belongs at the beginning and end of the workflow, not as a single late-stage review.
+  - Evidence: "Okay? These are all passes that go through your code. And I just want you to remember that security should be your first one and your last one."
+- Agent deployments must avoid broad permissions, or one failure can cascade across the system.
+  - Evidence: "Because otherwise your engineers are going to spin up or your non-engineers are going to spin up a bunch of agents with way too many permissions and then right as soon as a bear munches into the igloo, everyone's dead, right?"
+
+### Claims From The Talk
+- The speaker argues that security vulnerabilities cannot be treated like ordinary bugs because their harm compounds over time instead of fading after initial discovery. (`explicit`)
+  - Evidence: "But if it gets to code review time, you're like, is it really worth it? Right? [snorts] And the problem, folks, is that that works for all classes of bugs except for security."
+- He argues that LLMs should not be asked to do correctness and security work in the same pass, because they will do both poorly. (`explicit`)
+  - Evidence: "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness."
+- He argues that security tools should be added as an extra review pass in the prompt so models can re-check their own output with multiple analyzers. (`explicit`)
+  - Evidence: "Okay? Because what you do is you add it as a pass to the prompt that you give them for whatever they're doing and say one last thing to look at and have them run your security analysis all of the tools."
+- He argues that security should be both the first and the last pass over code, not an afterthought. (`explicit`)
+  - Evidence: "Okay? These are all passes that go through your code. And I just want you to remember that security should be your first one and your last one."
+- He argues that agent systems need supervisors that inspect permissions and harden service accounts before agents are widely deployed with excessive access. (`explicit`)
+  - Evidence: "So you got to have those supervisors. And so there's whole systems emerging here kind of can go out and go look at all of your things and say and start to like, you know, do do that hardening stuff like do they really need all those credentials on that service account really?"
 
 ### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
+- [[agent-security|agentic security]] — Security for AI-assisted coding, including how generated code changes the threat model.
+- [[agent-security|slop squatting]] — The risk that hallucinated dependency names can be turned into malicious packages.
+- [[agent-security|multi-pass code review]] — Treating security as a separate review pass from correctness and performance.
+- [[agent-security|agent permissions]] — Restricting agent capabilities and permissions before autonomous systems are widely deployed.
+- [[agent-security|prompt injection]] — Manipulating prompts or training data to redirect model behavior.
+- [[agent-security|software supply chain]] — Inspecting software dependencies, images, and package sources for hidden vulnerabilities.
+
+### Tools And Named Systems
+- **Sneak** — A commercial security tool the speaker says found many vulnerabilities in his codebase and is easy to use.
+- **Chain Guard** — A supply-chain service that provides pre-vetted images and updates them.
+- [[fable|Fable]] — The model or assistant the speaker used for coding and hardening work.
+- **Gas Town** — The agent system the speaker cites as doing useful autonomous work and enabling swarms.
+- **Beads** — A task-tracking system the speaker uses to queue and coordinate agent work.
+- [[claude|Claude]] — The assistant credited with assembling the slide deck.
+
+### Novel Concepts And Methods
+- **separate-pass review** — Do security and correctness in separate passes so each concern gets focused attention instead of diluted results.
+- **multipass review** — Run four to five review passes on LLM-generated work before shipping it.
+- **shift-left security feedback** — Surface security findings at the developer or model interaction point instead of waiting until code review.
+- **cross-checking analyzers** — Use multiple security analyzers to check each other's work as part of the prompt or launch-time workflow.
+- **agent supervision** — Design agents with supervisors that inspect and reduce permissions on services and tasks.
+
+### Open Questions
+- **How can systems reliably detect slop squatting when a hallucinated package name resolves to a convincing malicious backdoor instead of a real dependency?** — The talk treats this as a new supply-chain attack surface, and detection is a core missing defense.
+- **What defenses can actually stop prompt injection and related training or inference-time attacks beyond user education?** — The speaker says this class of attacks is real but does not offer a complete technical solution.
+- **How should teams design agent permission and supervision systems in-house before standardized tooling exists?** — The talk says this frontier is already arriving and waiting for a mature ecosystem is risky.
 
 ### Derived Links And Source Material
-- [[youtube-yWS0udrIOc8-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/yWS0udrIOc8.txt` (3,737 words).
-- [[youtube-yWS0udrIOc8]] — related YouTube source page.
-- [[youtube-yWS0udrIOc8-slides]] — slide evidence.
-- [[youtube-7Dtu2bilcFs]] — related YouTube source page.
-- [[youtube-7Dtu2bilcFs-slides]] — slide evidence.
-- [[youtube-7Dtu2bilcFs-reconstructed-slides]] — slide evidence.
-- [[youtube-7Dtu2bilcFs-dense-slides]] — slide evidence.
+- [[youtube-yWS0udrIOc8-transcript]] — dedicated official recording transcript.
+- [[youtube-yWS0udrIOc8]] — official event recording.
+- Structured digest: `wiki/resources/talk-digests/yWS0udrIOc8--2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain.json`.
 
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+### Speaker Context
+- [[steve-yegge|Steve Yegge]]
+
+### Semantic Digestion Status
+- Complete: 1 matched recording digest(s) passed the evidence contract.
+- Generator: `talk-semantic-digestion-v1`.
+- Contract: `sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990`.
 
 ### Evidence Boundary
-This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+This section is synthesized only from official schedule metadata and dedicated manifest-matched recording transcripts. Every listed takeaway, claim, topic, tool, method, and question is bound to a verbatim transcript excerpt in the structured digest. Speaker claims remain attributed event evidence, not independent verification.
+
 ## People
 - [[steve-yegge]]
 

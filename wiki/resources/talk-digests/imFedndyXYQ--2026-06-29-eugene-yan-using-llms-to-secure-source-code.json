@@ -1,0 +1,267 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:51:56.964997+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:dbe83c0a3798151e64805ffd57f158b9102f7a72487011cd1753ffe584c741d0",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So what this means is that what's happened in April is 20x of last year's average. Um they attributed about twothirds of this to mess preview about 271 which shows that frontier models can help defenders like yourself find and fix vulnerabilities at scale.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that frontier models are already helping defenders find and fix vulnerabilities at scale, not just in isolated demos."
+      },
+      {
+        "evidenceExcerpt": "We shared our observation that finding vulnerabilities now is quite straightforward. The bottleneck has now shifted to verification, triage, and patching.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "support": "explicit",
+        "text": "He reports that the main bottleneck has moved away from finding bugs and toward verification, triage, and patching."
+      },
+      {
+        "evidenceExcerpt": "Um the first step is the threat model. So why does this matter? So several teams if you look at a code right finding have found that having a well doumented thread model really increases your true positive rate to 90%.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "support": "explicit",
+        "text": "He says a well-documented threat model can raise true positive rates substantially, citing a result near 90%."
+      },
+      {
+        "evidenceExcerpt": "And when they did this, their true positive rate was almost 100%. because the model could actually verify in the loop.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "support": "explicit",
+        "text": "He reports that giving the agent tools to query APIs, read logs, and inspect source can push true positive rate close to 100%."
+      },
+      {
+        "evidenceExcerpt": "assume that this vulnerability is false, try to confirm it's false or confirm it's true. So this sets the this sets a very high bar for the vulnerability which reduces the false positive rate.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "support": "explicit",
+        "text": "He argues that verification should be independent and adversarial so the agent starts by assuming the finding is false, which reduces false positives."
+      },
+      {
+        "evidenceExcerpt": "further right we can have a fresh discovery agent try to attack the patch code again is the patch comprehensive enough and teams have found that by giving the patching agent such feedback um you can actually the patch quality improves greatly right and you know This is the generative verifier loop.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "support": "explicit",
+        "text": "He reports that patch quality improves when patches are validated by regression tests and by a fresh agent reattacking the fix."
+      },
+      {
+        "evidenceExcerpt": "But human attention doesn't scale. Your deaf, your product engineers and your security engineers, what if they don't agree on what high severity or uh critical severity is?",
+        "evidenceSegmentIds": [
+          "S0121"
+        ],
+        "support": "explicit",
+        "text": "He says human attention does not scale, so organizational disagreements about severity and ownership become a major limiter."
+      }
+    ],
+    "methodNotes": "I synthesized the talk from the supplied official metadata and transcript only. Each non-summary item is anchored to exactly one transcript segment ID, and I kept the summary grounded in the talk’s full workflow rather than the opening chatter.",
+    "methods": [
+      {
+        "description": "Six-step security workflow that moves from setup to discovery, verification, triage, and patching.",
+        "evidenceExcerpt": "So the harness and the model working together can get a lot of work done. We found that most teams converge in approximately these six steps.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "name": "Six-step security workflow"
+      },
+      {
+        "description": "Threat modeling as written system context that captures assets, entry points, and threat vectors for the model.",
+        "evidenceExcerpt": "So we can work with models to build these thread models. And the track model is really just a document, right?",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "Threat modeling as context capture"
+      },
+      {
+        "description": "Sandboxing untrusted code and exploit proof-of-concepts in isolated environments with reproducible baselines.",
+        "evidenceExcerpt": "so isolation and reproducibility in some cases we may be running untrusted code in some cases we may be asking the model to deliberately create exploits so we want some isolation ation um to prevent the model from doing bad things.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Isolated sandboxing"
+      },
+      {
+        "description": "Context engineering that feeds the model as much relevant code, docs, and history as possible, plus simple prompts and external tools.",
+        "evidenceExcerpt": "The first thing is really context engineering. You're going to give the model all the context as much context as you can.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Context engineering"
+      },
+      {
+        "description": "Independent adversarial verification that separates confirmation from discovery to preserve recall and improve precision.",
+        "evidenceExcerpt": "Because when the discovery agent is trying to verify its own work in the loop, trying to debate against itself in the loop, it may actually self censor and this may actually hurt recall.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Independent verification"
+      },
+      {
+        "description": "Generative verifier loop for patching, where fixes are tested, reattacked, and then human-reviewed before merge.",
+        "evidenceExcerpt": "Now after that we close the loop patching to validate the patch you know we can build a patch and then we want to validate there's a ladder of sorts first the original PC has to stop working that's basic second the existing test suite should stay green no regression and then we can go",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "name": "Generative verifier loop"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "The the one hard thing we found is that product engineers and security engineers red team blue team they may not agree on what high severity is and all this requires a lot of your business context.",
+        "evidenceSegmentIds": [
+          "S0129"
+        ],
+        "question": "How should an organization standardize severity definitions so security, product, and red-team stakeholders agree on what counts as high risk?",
+        "whyItMatters": "The talk says disagreement over severity is a major bottleneck, so a shared rubric determines whether findings can be prioritized reliably."
+      },
+      {
+        "evidenceExcerpt": "So, here are some organizational bottlenecks that you might hit and what you can do. The first thing is vulnerability routing.",
+        "evidenceSegmentIds": [
+          "S0125"
+        ],
+        "question": "What is the most scalable way to route large volumes of vulnerabilities to the right owners without manual curation?",
+        "whyItMatters": "The speaker says routing becomes infeasible once findings reach the hundreds, so ownership automation is critical."
+      },
+      {
+        "evidenceExcerpt": "And finally, you know, patching patch patch review. Um, I still don't know of many companies that gone through fully automated patch review, especially when p uh patching security issues.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "question": "How far can patch review be automated for security issues before human approval must remain in the loop?",
+        "whyItMatters": "The talk treats patch review as one of the least automated and most consequential remaining bottlenecks."
+      }
+    ],
+    "summary": "The talk argues that LLMs have crossed the threshold from bug-hunting novelty to practical security infrastructure, but only if they are embedded in a workflow that turns raw detection into verified, prioritized, and safely patched findings. The core mechanism is a six-step pipeline: build a threat model, run in an isolated sandbox, discover candidate issues, verify them independently and adversarially, triage by real business impact, and then patch with regression checks plus reattack. The tradeoff is that better models reduce the need for elaborate prompts, but they also expose new bottlenecks in organizational context, severity calibration, routing, and patch review, so the real work shifts from scanning to coordination. The practical consequence is that teams should start small, especially with open source dependencies, learn interactively, and then invest in the surrounding process so the system can scale beyond a handful of findings.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "I would like to you start now please start with open source dependencies start with whatever you're comfortable with.",
+        "evidenceSegmentIds": [
+          "S0134"
+        ],
+        "text": "Start with whatever is most comfortable, such as open source dependencies, instead of waiting for a fully automated program."
+      },
+      {
+        "evidenceExcerpt": "Doesn't matter. Learn where you get cut. Learn what kind of context you're missing. Learn where precision is low.",
+        "evidenceSegmentIds": [
+          "S0137"
+        ],
+        "text": "Use interactive, hands-on runs first to learn where the model lacks context and where precision is weak."
+      },
+      {
+        "evidenceExcerpt": "And also if you have invested the time in building building a representative sandbox um have the verification agent build the p detonate the pock to confirm if the ver the vulnerability is true.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "text": "If the sandbox is representative, verification can detonate proof-of-concept exploits and confirm whether findings are true."
+      },
+      {
+        "evidenceExcerpt": "They're operational expense, but when you close the loop, they now become capital expense.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "text": "Closing the loop turns security harnesses into improving assets over time rather than one-off operational costs."
+      }
+    ],
+    "tools": [
+      {
+        "description": "Container platform used to build the representative sandbox with separate app, database, and cache images.",
+        "evidenceExcerpt": "So how would a sandbox for order service look like? Well this is a simple sandbox uh three docker images connected together.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Docker"
+      },
+      {
+        "description": "Ticketing system mentioned as a manual routing mechanism for sending vulnerabilities to teams.",
+        "evidenceExcerpt": "So, if you maybe get a dozen vulnerabilities a month, you can probably curate them. You know, email them to specific teams, assign Jira tickets.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "Jira"
+      },
+      {
+        "description": "Documentation system cited as a place where system context and compensating controls may live outside the codebase.",
+        "evidenceExcerpt": "or internal logistics it's not it's never internet facing therefore the likelihood is low now you can imagine like how would the model know this this is not written in a codebase it may be available in a system design it may be available in your documentation, it may be available in your confluence etc.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "name": "Confluence"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Using language models to discover real vulnerabilities in source code and security systems.",
+        "evidenceExcerpt": "We shared our observation that finding vulnerabilities now is quite straightforward. The bottleneck has now shifted to verification, triage, and patching.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "LLM-assisted vulnerability discovery"
+      },
+      {
+        "description": "Turning implicit system knowledge into explicit written context for security analysis.",
+        "evidenceExcerpt": "All of this is now implicit context in your head, but you need to write it down somewhere, maybe in a threel to help the model be a better security engineer.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Threat modeling"
+      },
+      {
+        "description": "Running exploit tests in isolated, reproducible environments to safely validate findings.",
+        "evidenceExcerpt": "So this isolation doing bad things could be data exfiltration or you know dropping things in production and of course uh you you want all of this to be running in a VM without egress and of of course without your cloud credentials.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Security sandboxes"
+      },
+      {
+        "description": "Separating recall-oriented discovery from precision-oriented confirmation.",
+        "evidenceExcerpt": "Find as many vulnerabilities as possible. Verification optimizes for precision. Of the 100 vulnerabilities we found, how many of them are truly optim uh truly exploitable.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Verification and precision"
+      },
+      {
+        "description": "Ranking findings by impact, likelihood, and business context before handing them to engineers.",
+        "evidenceExcerpt": "What are the kinds of vulnerabilities you want to actually receive and fix? So as part of this step, we can do dduplication, you know, cheap heristic checks or we can get a model to help you with clustering and dduplication.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Security triage"
+      },
+      {
+        "description": "Validating fixes by testing the original exploit, preserving the test suite, and reattacking the patch.",
+        "evidenceExcerpt": "further right we can have a fresh discovery agent try to attack the patch code again is the patch comprehensive enough and teams have found that by giving the patching agent such feedback um you can actually the patch quality improves greatly right and you know This is the generative verifier loop.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Patch validation loops"
+      },
+      {
+        "description": "Operational constraints that become the limiting factor once model-assisted scanning is cheap.",
+        "evidenceExcerpt": "You spend more compute. You pay more money. Things that can be solved with money are not really problems.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "name": "Organizational bottlenecks"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:de7abd2d477efba15e7cfaca13b0308bed60122b5ce49b85e69453d8449c487b",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-eugene-yan-using-llms-to-secure-source-code",
+  "talkTitle": "Using LLMs to Secure Source Code",
+  "transcriptPath": "raw/sources/youtube-transcripts/imFedndyXYQ.txt",
+  "transcriptSha256": "sha256:b8f40d2d689b3b4c5dd085e95016280abde85fb7414cbf520930c5613d62de3f",
+  "videoId": "imFedndyXYQ"
+}

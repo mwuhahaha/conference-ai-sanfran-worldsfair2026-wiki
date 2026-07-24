@@ -15,9 +15,10 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-2JX6JYyQG4Y
+  - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:fda2165f2a4f7343428439c082bcfc1eb90f954e6b1f126c75a54c1aa15ea78c
+sourceAssessmentBodySha256: sha256:499cd0aa08bb25445911ccd92b6dc7c2693fa5e6cbee4a81303ec5f3f5307a95
 ---
 # Agentic Web
 
@@ -67,6 +68,20 @@ The pattern is most useful for research agents, shopping and catalog agents, bro
 - What is the right default representation for an agent: DOM, accessibility tree, markdown, screenshot, structured catalog, or task-specific extraction?
 - How should products measure agent experience separately from human UX?
 - What evidence should a browser agent preserve so that a user, auditor, or downstream system can trust the result?
+
+## Transcript Digest Evidence
+This section synthesizes 2 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Web workflows where agents act through web-native or non-screen inputs instead of relying on traditional manual interaction. The distinction is between media generation and workflow control, but both treat the web as an active execution substrate rather than a passive display layer.
+
+### Constituent Talk Evidence
+- [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow.
+  - Transcript: [[youtube-2JX6JYyQG4Y-transcript]]
+  - Evidence: "So we had the discussion the be did the transcript and you can see here on the right we're pulling this meeting transcript right in there is a whole detailed summary of the meeting."
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — Using HTML, CSS, and JavaScript as the interface for agent-generated video.
+  - Transcript: [[youtube-Cz4v1WHVyZc-transcript]]
+  - Evidence: "Our bet is on HTML. HTML, CSS, and JavaScript are the native languages of LLMs. Most of their training data, every webpage that gets scraped at the end of day is essentially just HTML, CSS, and JavaScript under the hood."
 
 ## Connections
 ### Search, Catalogs, And Web Data
@@ -131,6 +146,56 @@ The pattern is most useful for research agents, shopping and catalog agents, bro
 - [[highlight-dark-arts-web-automation]] - critical highlighted talk on CDP-first browser automation.
 - [[highlight-ora-agentic-web]] - highlighted company/research path for ORA and agent readiness.
 
+## Source Coverage
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 22 | Related pages outside the main evidence categories. |
+| resources | 13 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 23 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 11 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
+
+### Talks
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
+- [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data]]
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]]
+- [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]]
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]]
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]]
+
+### Resources
+- [[talk-video-transcript-map]]
+- [[youtube-xnXqpUW_Kp8]]
+- [[youtube-o-zkvb0iFDQ]]
+- [[youtube-YRGjll7uu5w]]
+- [[youtube-JsKTQbT58BY]]
+- [[worldsfair-2026-livestreams]]
+
+### Slides
+- [[slide-library]]
+- [[reconstructed-slide-library]]
+- [[dense-slide-library]]
+- [[youtube-JnubYCYunk8-slides]]
+- [[youtube-YRGjll7uu5w-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+- [[youtube-htM02KMNZnk-transcript]]
+- [[youtube-2JX6JYyQG4Y-transcript]]
+- [[youtube-ZSQb5fzRFPw-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-Ib5GBkD555M-transcript]]
+
+### Tools
+- [[mcp]]
+- [[exa]]
+- [[browserbase]]
+- [[mcp-apps]]
+- [[chrome-agent]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 

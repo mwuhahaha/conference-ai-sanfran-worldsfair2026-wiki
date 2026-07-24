@@ -17,9 +17,9 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:e43ad0b113102f8ea327ad4698bdb8d8f9a17d5d8332b2875244e8b7fc151d65
+  - source:official-wf26-youtube-xUnRQ9vLXxo
+sourceAssessmentBodySha256: sha256:53967ce08207489f5d6924fa33792fa66f133de30675fed8c53b71fa9bf1e755
 ---
-
 # Codex
 
 ## Conference Context
@@ -27,6 +27,12 @@ Codex appears as a high-confidence tool, platform, model, protocol, product, or 
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — A tool named as something markdown can be piped into for execution.
+  - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
+  - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"
 ## Confirmed Evidence
 
 ### Official Schedule

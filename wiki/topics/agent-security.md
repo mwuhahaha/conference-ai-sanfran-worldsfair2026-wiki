@@ -16,12 +16,16 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-1EZdpEhwmNc
+  - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-JvKO40CFq-s
   - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-X1kp-ABIIxQ
   - source:official-wf26-youtube-imFedndyXYQ
+  - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:87be0c3cc7394c8ad57e1ac2b82af21661cea9926cd931ccfb96749caba8af85
+sourceAssessmentBodySha256: sha256:c4be063df8bf9687b4be0b0c3eed2200cffcb76ad3ad925792498ee72488473b
 ---
 # Agent Security
 
@@ -100,6 +104,56 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[youtube-yWS0udrIOc8-slides]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town (8 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 32 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Controls that constrain risky agent actions before they can cause damage, including policy checks, permissions, sandboxing, and governance gates. The recurring variation is how much enforcement happens automatically versus how much stays in review or monitoring, with one tradeoff being stricter protection versus more developer friction and false positives.
+
+### Constituent Talk Evidence
+- [[2026-06-29-aaron-stanley-ai-s-jurassic-park-period|AI’s Jurassic Park Period]] — The recurring failure pattern where an agent finds a path around restrictions without breaking out of its sandbox.
+  - Transcript: [[youtube-1lgFGaHoGq8-transcript]]
+  - Evidence: "It understood the constraint and it just decided that task completion mattered more. It picked the tool that let it proceed knowing that the tool didn't respect the constraint and then admits to it later and says, \"Oops, my bad.\" Here's another one."
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]] — The idea of attaching a proof to code so execution is allowed only after verification.
+  - Transcript: [[youtube--CnA2lGfymY-transcript]]
+  - Evidence: "Now you would say Eric, oh you're a genius. No, I'm my brain is the size of a peanut. This is something that's called proof carrying code and it was invented by academics in the 1990s and I'm just stealing it."
+- [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — Policies and controls for intercepting risky agent behavior before it executes.
+  - Transcript: [[youtube-cgimkNGNjvU-transcript]]
+  - Evidence: "Um, the last leg of this stool uh for agentic development security is governing agent behavior."
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]] — Using governance rules to decide whether a requested action is allowed before any downstream token is issued.
+  - Transcript: [[youtube-I3znWC3MEXM-transcript]]
+  - Evidence: "So now we need to decide if the requested token should in fact be granted. And we can do this using governance policy which is evaluated against the requested access and who's asking for what resource on whose behalf."
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — Using tests and crafted repositories to check whether an agent can be manipulated by untrusted repository content.
+  - Transcript: [[youtube-LqLoYksJ6do-transcript]]
+  - Evidence: "Um there's another thing that we did um, which worked quite well, which is that we, um, we essentially implemented an end-to-end test where we created a repository and sent patch patch pilot added to just work on it."
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — The tension between giving systems more capability and keeping them under user control.
+  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
+  - Evidence: "And so we furiously looked at the the you know the features that you know openclaw have that Hermes agent have and say and and we we've said like look you know a lot of people a lot of folks want these features but they want them with power and control."
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — The security risk created when private data, untrusted content, and external communication coexist in autonomous systems.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "Let's start there. There's this concept called the lethal trifecta. Simon Wilson, I think, crafted this."
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]] — Treating security as a separate review pass from correctness and performance.
+  - Transcript: [[youtube-yWS0udrIOc8-transcript]]
+  - Evidence: "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness."
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The idea that humans remain accountable for evidence, understanding, and verdict even as agents do more work.
+  - Transcript: [[youtube-n97BCfyFIvw-transcript]]
+  - Evidence: "They're going to own the evidence. They're going to own the understanding as well as the verdict."
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]] — Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.
+  - Transcript: [[youtube-X1kp-ABIIxQ-transcript]]
+  - Evidence: "But, a sandbox is ephemeral and stateless by design. So, using it for durability, snapshots, or something in state, I think is an anti-pattern."
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — A first-foothold vulnerability class where permissions and logic matter more than obvious bugs.
+  - Transcript: [[youtube-O-CBZ3JtRvo-transcript]]
+  - Evidence: "It doesn't work. Um, and so we focus specifically on access control. Really quickly, why access control?"
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — Typed tool arguments and structured result checking before downstream action.
+  - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
+  - Evidence: "But the idea is to surround the input with checks. Now, I've got this something that you that you should be at least taking a look at if you're doing some of this coding is something called Pydantic."
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — Controls for masking PII, classifying sensitive data, and enforcing user entitlements in AI systems.
+  - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
+  - Evidence: "This is a important one that I think AI makes more acute things that were that were accessible previously."
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Using policies to constrain edits, approvals, and safe self-modification.
+  - Transcript: [[youtube-khVX_BUnEwU-transcript]]
+  - Evidence: "I'll come back to it, but for example, things like a source article that you found in research, you might be fine with adding, but if you're changing a prompt, maybe you want human in the loop."
 
 ## Connections
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
@@ -184,9 +238,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 40 | Related pages outside the main evidence categories. |
 | resources | 13 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 24 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 31 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 38 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 12 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 22 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]

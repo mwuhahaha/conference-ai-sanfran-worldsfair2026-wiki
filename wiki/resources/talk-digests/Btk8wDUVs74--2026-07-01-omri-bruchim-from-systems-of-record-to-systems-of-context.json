@@ -1,0 +1,211 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:06:55.622012+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:5d4225d7cf4223ff4708633de95c2a8d740b521b8865969ebba9f35c6f54af55",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "The problem was never the missing of data, the retrieval. The problem is like the missing understanding.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the core production problem for enterprise agents is not missing data or retrieval, but missing understanding."
+      },
+      {
+        "evidenceExcerpt": "So understanding understanding of the context has to be ahead of time. Um you need to build it much before someone asks the question.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that context understanding must be built ahead of time, before a user asks a question, rather than assembled only at runtime."
+      },
+      {
+        "evidenceExcerpt": "So how do we build that data model? Um we use two engines running on different time windows and schedules.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "support": "explicit",
+        "text": "The speaker describes their implementation as two engines operating on different time windows and schedules: a slow engine for long-term patterns and a fast engine for current state."
+      },
+      {
+        "evidenceExcerpt": "The data model, it's resilient. Sources are isolated so a bad feed can't break the rest. And the thin layer of logic that runs at serve time verifies part of the context against live data while the rest falls back to the last verified context.",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "support": "explicit",
+        "text": "The speaker claims this design makes the system resilient because sources are isolated and serve-time logic can fall back to the last verified context instead of failing outright."
+      },
+      {
+        "evidenceExcerpt": "And the data model is unique. It's unique to how you work. We're not pretending this solves everything.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the resulting model is unique to how a person works and does not solve everything, especially because it trails the live world and inherits bias from its signals."
+      }
+    ],
+    "methodNotes": "The talk frames a reusable context layer as the answer to enterprise agents that can access information but still do not understand work. It uses a dual-timescale architecture to convert raw activity into structured relationships, live signals, and durable user patterns, then serves that context to an assistant that can reason over it. The tradeoff is that the model must be built and maintained before questions are asked, and it remains imperfect because it can lag reality and must distinguish important signals from noise.",
+    "methods": [
+      {
+        "description": "Maintain two context-processing engines, one slow and historical and one fast and recent, to combine durable user patterns with live work state.",
+        "evidenceExcerpt": "So how do we build that data model? Um we use two engines running on different time windows and schedules.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Dual-timescale context modeling"
+      },
+      {
+        "description": "Precompute work context offline so the assistant can reason over a served model instead of assembling meaning only when a question arrives.",
+        "evidenceExcerpt": "Both engines premputee on top of that offline and ahead of time. And when a user engages with Sidekick, a thin slice of logic is recomputed for recent activity, and the entire context is served to the agent.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "Offline context precomputation"
+      },
+      {
+        "description": "Aggregate breadcrumbs from boards, emails, meetings, calendar, and messages into a structured work model rather than relying on ad hoc retrieval.",
+        "evidenceExcerpt": "So first like Thomas said we collect all the data point we called it breadcrumbs for example the board that I working on right now um all the emails from the past uh months um the transcript for the meeting all the action item that I got from those meeting and we processing them offline",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "name": "Breadcrumb aggregation"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "So the hardest part is actually telling the important parts from the noise. But this is an architectural design that we can enrich and test and improve over time.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "question": "How can the system reliably separate important signals from noise as the context model grows?",
+        "whyItMatters": "That is the central quality problem the speaker says remains hardest to solve."
+      },
+      {
+        "evidenceExcerpt": "Uh the model itself is always trailing the actual live world. New users have no reliable data to reason from yet, and signals have our own biases built in.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "question": "How should the model handle new users who have no reliable historical data yet?",
+        "whyItMatters": "The speaker notes that the approach is weakest when there is not yet enough history to reason from."
+      }
+    ],
+    "summary": "This talk argues that production enterprise agents fail less because they cannot fetch information and more because they lack understanding of how work is actually connected. The proposed fix is a reusable context layer, called the monday world model, that is built ahead of time from work activity, relationships, priorities, and decisions so the assistant can answer questions like what to focus on right now. The implementation uses a slow engine for durable patterns and a fast engine for live signals, which makes the system more resilient and better at urgency, but also means it must constantly balance freshness against bias, noise, and lagging reality.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "uh those are two totally different things and almost everyone mix between them. Understanding is the word that we're going to focus the entire the entire talk.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "text": "The talk’s core distinction is that understanding matters more than context, memory, or retrieval by themselves."
+      },
+      {
+        "evidenceExcerpt": "This is what we called the Monday world model. Help you um understand why this matter um how to help you, who you are, when and and what's not to do.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "text": "The monday world model is meant to help the assistant understand who the user is, why the work matters, and what not to do."
+      },
+      {
+        "evidenceExcerpt": "And the crucial part is that it compounds. Every day the data is captured, the layers fill in and the profile sharpens.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "text": "The context layer compounds over time as more data is captured and the profile becomes sharper."
+      },
+      {
+        "evidenceExcerpt": "The more it sees, the more it understands. And the more it understands, the more you can lean on it.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "text": "As the system understands more, users can rely on it more, which is the intended practical payoff of the design."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The enterprise work platform the speakers use as the source of work records and context.",
+        "evidenceExcerpt": "Uh monday.com is a global software company. Uh we build a work platform uh used by hundreds of thousands of teams.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "name": "monday.com"
+      },
+      {
+        "description": "The team communication system used as one of the work-context sources.",
+        "evidenceExcerpt": "We collect data from everywhere our users work. uh Monday, Slack, emails, calendar, and we turn it into data structures, signals, and patterns.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Slack"
+      },
+      {
+        "description": "The code-hosting and change-history system used in the analogy for tracing why work items exist.",
+        "evidenceExcerpt": "but we don't have the meaning um a log never said what it mean let's take an analogy from our Let's say that you have one line of code in your GitHub.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "GitHub"
+      },
+      {
+        "description": "The large language model product explicitly mentioned as an example of an assistant that still misses connected understanding.",
+        "evidenceExcerpt": "Um it sounds almost trivial but uh to be honest with yourself if you ask your agent whether Gemini GPT or even cloud um if you ever typed this question you probably got list of bullets um not related to each other.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "Gemini"
+      },
+      {
+        "description": "The large language model product explicitly mentioned as an example of an assistant that still misses connected understanding.",
+        "evidenceExcerpt": "Um it sounds almost trivial but uh to be honest with yourself if you ask your agent whether Gemini GPT or even cloud um if you ever typed this question you probably got list of bullets um not related to each other.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "GPT"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The shift from storing records to building a live layer that explains how work is connected and why decisions were made.",
+        "evidenceExcerpt": "What we want to talk today is like take it step further. Uh we want software that actually understand the connection between them.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "name": "Systems of context"
+      },
+      {
+        "description": "The idea that enterprise assistants need durable understanding of a user and their work, not just retrieved documents or messages.",
+        "evidenceExcerpt": "The problem was never the missing of data, the retrieval. The problem is like the missing understanding.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "name": "Work understanding"
+      },
+      {
+        "description": "A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.",
+        "evidenceExcerpt": "Um and this is why we have built what we are building. We are building uh the Monday world model.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "name": "Context graph"
+      },
+      {
+        "description": "A two-speed architecture that combines long-term pattern learning with short-term state tracking.",
+        "evidenceExcerpt": "And in data processing architecture, it's referred to as a lambda architecture. We apply the same concepts to how we construct the agent's data model.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Dual-timescale architecture"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:9edbbfb43f61c9feb35c0d40e6c3b98796378a4bb1930895daf1fd7bf7633526",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context",
+  "talkTitle": "From Systems of Record to Systems of Context",
+  "transcriptPath": "raw/sources/youtube-transcripts/Btk8wDUVs74.txt",
+  "transcriptSha256": "sha256:867ca8e47bed32bc38a2b03ed6380948f81b6eaba8d2959d401aef33314d96e0",
+  "videoId": "Btk8wDUVs74"
+}

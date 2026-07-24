@@ -17,9 +17,9 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:621c32560609aeebf8d543bc361d1f6136dc4484f3d38aa9aa29eb3189577369
+  - source:official-wf26-youtube-GgLQ02aO-hs
+sourceAssessmentBodySha256: sha256:8fd4a0b276b035677797bd6763874befcf889ec85d28ca9722efb50fd973bb95
 ---
-
 # DSPy
 
 ## Conference Context
@@ -27,6 +27,12 @@ DSPy appears as a high-confidence tool, platform, model, protocol, product, or s
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — The open-source Python framework the talk uses to separate task specification from implementation details.
+  - Transcript: [[youtube-GgLQ02aO-hs-transcript]]
+  - Evidence: "DSPI brings all of these properties to AI programs. And so DSPI is an open source software in Python that lets you, like I said, bring these properties to your AI workflows and AI programs."
 ## Confirmed Evidence
 
 ### Official Schedule

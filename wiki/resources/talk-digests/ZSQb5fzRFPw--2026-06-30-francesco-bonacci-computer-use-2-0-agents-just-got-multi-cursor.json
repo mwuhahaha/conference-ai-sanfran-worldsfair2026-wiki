@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:01:14.116221+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:b645e25bcb99890a7a92d327422067b078a38041e9b4325af3632b161d18f88a",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "That means that your computer user will will not take over your uh screen as like the computer use 1.0 um kind of like agent loop was doing back in the days.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the background version of the driver keeps computer use agents from taking over the user's screen."
+      },
+      {
+        "evidenceExcerpt": "Um we made it working not only for Mac OS but also spanning like across Windows and Linux.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that the system works across Mac OS, Windows, and Linux."
+      },
+      {
+        "evidenceExcerpt": "The oracle function which provides a golden trajectory for the task and the evaluator which probes the environment to check if the agent successfully completed the task.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "support": "explicit",
+        "text": "The benchmark tasks are built from three parts: setup, oracle, and evaluator."
+      },
+      {
+        "evidenceExcerpt": "But the results are humbling. The top agent that we tested only got a full pass on six out of 25 of these tasks.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "support": "explicit",
+        "text": "The electrical engineering benchmark produced a weak result, with the top agent fully passing only six of twenty-five tasks."
+      },
+      {
+        "evidenceExcerpt": "Of those six, 100% of them involved editing an existing schematic. And when we start the task from a blank schematic, the success rate drops to 0%.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that tasks starting from a blank schematic dropped to 0% success."
+      },
+      {
+        "evidenceExcerpt": "And across all the models that we tested, the leaderboard is flat. No model has achieved more than 30% reward.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "support": "explicit",
+        "text": "Across the tested models, the leaderboard stayed flat and no model exceeded 30% reward."
+      },
+      {
+        "evidenceExcerpt": "Um so yeah so now when you have like this like uh redundancy in your pool you're paying the cost of that startup time on the infrastructure side not on the GPU side so your GPU workers have full utilization um yeah and then because we use this we can give you instant sandboxes for",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "support": "explicit",
+        "text": "The infrastructure design shifts sandbox startup cost away from GPUs by using redundancy so GPU workers stay fully utilized."
+      }
+    ],
+    "methodNotes": "I grounded each non-summary field in exactly one transcript segment, choosing the most direct segment when a point spanned multiple adjacent lines. The summary synthesizes across the whole talk, but the rest of the record stays one-segment-per-item as requested.",
+    "methods": [
+      {
+        "description": "Run desktop agents through background execution paths instead of foreground hardware input.",
+        "evidenceExcerpt": "So you really um have um to observe the space in this case just by calling like get window state you get a an accessibility tree representation plus a screenshot and then you will go and uh um try a background execution using accessibility tree and if that doesn't work we go all the way and uh make the heavy lifting for you and just try a pixel background click.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Background accessibility execution"
+      },
+      {
+        "description": "Define GUI benchmarks with separate setup, oracle, and evaluator functions.",
+        "evidenceExcerpt": "The oracle function which provides a golden trajectory for the task and the evaluator which probes the environment to check if the agent successfully completed the task.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Task triad evaluation"
+      },
+      {
+        "description": "Try to break the environment before admitting a task into the dataset.",
+        "evidenceExcerpt": "We have a matrix of agents attempt to do reward hacking and attempting to break the environment and we take all that data and we compile it into a nice code rabbit style code review and only tasks that survive our pipeline can enter the data set.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Reward-hacking red team"
+      },
+      {
+        "description": "Measure an agent by forking any recorded run at an arbitrary moment and probing predictions against the saved state.",
+        "evidenceExcerpt": "You also have to measure its ability to understand the world that it's operating in. Every run that we record can be forked through any moment in its trajectory to give you the state of the computer at that moment.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Trajectory fork probing"
+      },
+      {
+        "description": "Use a demand-based warm pool so sandbox startup happens on cheaper infrastructure rather than on GPUs.",
+        "evidenceExcerpt": "So um I guess I'll just explain to you orally and what what that is is uh so we have like a a set of GPUs here which all want to use a sandbox and what we will do is that we use a demandbased autoscaler to detect um how many GPUs like currently need a sandbox and we can grow the pool to be that size uh on demand.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Warm-pool autoscaling"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "This is like uh kind of like best step for background at this stage. It's not like behaving in the same way Mac OS, Windows and Linux.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "question": "How can the background-control path be made consistently reliable when Mac OS, Windows, and Linux behave differently?",
+        "whyItMatters": "The talk says the platforms do not behave the same way, so reliability across desktops is still an open engineering problem."
+      },
+      {
+        "evidenceExcerpt": "From there we can probe a model asking to predict the reward, the internal state or any other observation of the computer and compare it against the fork.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "question": "What probing targets best capture an agent's world model beyond reward prediction alone?",
+        "whyItMatters": "The speaker treats world-model measurement as the next step after action success, but the exact best signals remain open."
+      },
+      {
+        "evidenceExcerpt": "especially compared to iOS is more inclined to that form of like background uh computer use but it's more towards like tool use than really like controlling GUI interface.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "question": "Where is the boundary on Android between background GUI control and simpler background tool use?",
+        "whyItMatters": "The Android discussion suggests the platform may support only partial background control, so the practical limit matters."
+      }
+    ],
+    "summary": "The talk argues that computer-use agents become much more useful once they stop fighting the user's foreground cursor and instead operate through OS-level accessibility pathways. The core mechanism is to read window state, address elements directly through accessibility trees, and fall back to pixel-level clicks only when necessary, which enables background execution and even parallel agents on the same desktop, but also introduces platform-specific brittleness and partial coverage. The second half extends the idea into evaluation: the team builds benchmark tasks from setup, oracle, and evaluator pieces, red-teams them for reward hacking before publication, and then uses trajectory forks to probe whether a model can predict reward and internal state rather than just click correctly. The practical consequence is a tighter loop between capability and infrastructure: harder evaluations reveal how weak current models still are, while a warm sandbox pool moves startup cost off expensive GPUs so training can keep hardware busy.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So you really um have um to observe the space in this case just by calling like get window state you get a an accessibility tree representation plus a screenshot and then you will go and uh um try a background execution using accessibility tree and if that doesn't work we go all the way and uh make the heavy lifting for you and just try a pixel background click.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "text": "A background-first desktop control path can act on windows without stealing focus, and it only falls back to pixel clicks when accessibility-based execution fails."
+      },
+      {
+        "evidenceExcerpt": "So using the Kubaben SDK you can write a guey that works across every desktop platform in a single Python file and use the same SDK to probe that GUI to get usable agent data.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "The Kua bench SDK is meant to make cross-platform GUI task authoring practical by collapsing desktop differences into a single Python file."
+      },
+      {
+        "evidenceExcerpt": "If we take a look at the Kua bench basic data set scaled up to 4K resolution uh testing an agent they typically get around 62% pass rate but when you switch the agent computer tool from the built-in one to KU driver the pass rate jumps from 62% to 80% using 34% less tokens",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "text": "Switching from the built-in computer tool to Kua driver improved pass rate from 62% to 80% while using 34% fewer tokens."
+      },
+      {
+        "evidenceExcerpt": "We have a matrix of agents attempt to do reward hacking and attempting to break the environment and we take all that data and we compile it into a nice code rabbit style code review and only tasks that survive our pipeline can enter the data set.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "text": "Benchmark quality depends on adversarially trying to break tasks before admitting them to the dataset."
+      },
+      {
+        "evidenceExcerpt": "Um so yeah so now when you have like this like uh redundancy in your pool you're paying the cost of that startup time on the infrastructure side not on the GPU side so your GPU workers have full utilization um yeah and then because we use this we can give you instant sandboxes for",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "text": "A warm pool can shift sandbox startup overhead off GPUs, which improves utilization and lowers the effective cost of RL training."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The open-source driver used to keep computer-use agents running in the background across desktop platforms.",
+        "evidenceExcerpt": "Um we made it working not only for Mac OS but also spanning like across Windows and Linux.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "quad driver"
+      },
+      {
+        "description": "The SDK for authoring and probing cross-platform GUI tasks in one Python file.",
+        "evidenceExcerpt": "So using the Kubaben SDK you can write a guey that works across every desktop platform in a single Python file and use the same SDK to probe that GUI to get usable agent data.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "Kua bench SDK"
+      },
+      {
+        "description": "The electrical-engineering benchmark dataset used to test computer-use agents on professional software tasks.",
+        "evidenceExcerpt": "And the latest addition to our data sets is one that we're proud of. Uh with collaboration with Snorkel AI, we built KUBench Kyad, which tests computer use agents on electrical engineering tasks using software by real professionals and evaluator functions that actually simulate the circuits.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "KUBench Kyad"
+      },
+      {
+        "description": "The collaborator used to build the electrical-engineering benchmark dataset.",
+        "evidenceExcerpt": "And the latest addition to our data sets is one that we're proud of. Uh with collaboration with Snorkel AI, we built KUBench Kyad, which tests computer use agents on electrical engineering tasks using software by real professionals and evaluator functions that actually simulate the circuits.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Snorkel AI"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Operating desktop agents without foreground takeover by running them in the background.",
+        "evidenceExcerpt": "That means that your computer user will will not take over your uh screen as like the computer use 1.0 um kind of like agent loop was doing back in the days.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "Background computer use"
+      },
+      {
+        "description": "Directly addressing desktop UI elements through accessibility trees instead of hardware mouse and keyboard events.",
+        "evidenceExcerpt": "So you really um have um to observe the space in this case just by calling like get window state you get a an accessibility tree representation plus a screenshot and then you will go and uh um try a background execution using accessibility tree and if that doesn't work we go all the way and uh make the heavy lifting for you and just try a pixel background click.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Accessibility-driven control"
+      },
+      {
+        "description": "Representing GUI benchmarks as setup, oracle, and evaluator components.",
+        "evidenceExcerpt": "The oracle function which provides a golden trajectory for the task and the evaluator which probes the environment to check if the agent successfully completed the task.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "GUI benchmark design"
+      },
+      {
+        "description": "Testing computer-use agents on electrical engineering software tasks with real evaluator functions.",
+        "evidenceExcerpt": "And the latest addition to our data sets is one that we're proud of. Uh with collaboration with Snorkel AI, we built KUBench Kyad, which tests computer use agents on electrical engineering tasks using software by real professionals and evaluator functions that actually simulate the circuits.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Electrical engineering evaluation"
+      },
+      {
+        "description": "Using recorded trajectories to probe whether a model can predict reward or internal state.",
+        "evidenceExcerpt": "From there we can probe a model asking to predict the reward, the internal state or any other observation of the computer and compare it against the fork.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "World-model measurement"
+      },
+      {
+        "description": "Keeping GPU workers busy by allocating sandboxes from a demand-sized warm pool.",
+        "evidenceExcerpt": "So um I guess I'll just explain to you orally and what what that is is uh so we have like a a set of GPUs here which all want to use a sandbox and what we will do is that we use a demandbased autoscaler to detect um how many GPUs like currently need a sandbox and we can grow the pool to be that size uh on demand.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "GPU sandbox pooling"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:b66d807aa40e9ac152d2b2795ba2cf8090fe45ad33452f842fbdcb60b3ec93fe",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor",
+  "talkTitle": "Computer-Use 2.0: Agents Just Got Multi-Cursor",
+  "transcriptPath": "raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt",
+  "transcriptSha256": "sha256:68e569f57815be9a061488266d5324db00cbe27b92a9cff82a9feb2004f2f173",
+  "videoId": "ZSQb5fzRFPw"
+}

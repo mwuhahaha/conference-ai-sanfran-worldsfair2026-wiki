@@ -1,0 +1,265 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:05:13.039601+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:64d102c7f2297f7852aaed467bfe450737855d75dbf43cc3092b541fc3ea3988",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "But actually most of the video AI system these day do not have memory in the system sense.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "support": "explicit",
+        "text": "Most video AI systems today do not have memory in the system sense, even though video itself preserves the past."
+      },
+      {
+        "evidenceExcerpt": "is useful approximation for some task but it throw away the thing that makes video very unique which is continuity right so meaning in video derives from space time modalities the sequence so a better mental for video is a spatial temporal volume.",
+        "evidenceSegmentIds": [
+          "S0008"
+        ],
+        "support": "explicit",
+        "text": "Video should be treated as a spatial-temporal volume, because collapsing it into frames or text loses the continuity that gives events meaning."
+      },
+      {
+        "evidenceExcerpt": "So these are not the single retrieval code right they require the system to preserve entities timeline evidence across an entire corus um and so like you can actually build product moving beyond from like show me something like this to you know tell me what this collection knows right and so that that might",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "support": "explicit",
+        "text": "Search can recover candidate moments, but memory must preserve entities, timelines, and evidence across a whole corpus to answer richer questions."
+      },
+      {
+        "evidenceExcerpt": "So a context graph is a durable queryable representation that connects video moment entities appearances relationship time stamp metadata and compost level context.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "support": "explicit",
+        "text": "A context graph is the durable queryable structure that connects moments, appearances, entities, relationships, timestamps, metadata, and corpus-level context."
+      },
+      {
+        "evidenceExcerpt": "um basically vector embeddings that represent video content and then we have a spatial spatial temporal context store which is where it preserve pre reusable structure like moment entities metadata all that uh we also build our own uh VLM video context aware language model called Pegasus that essentially serve as the the reasoning layer",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "The architecture described in the talk combines semantic chunks, the Morango encoder, a spatial-temporal context store, and Pegasus as the reasoning layer exposed through APIs."
+      },
+      {
+        "evidenceExcerpt": "Um and again um now what can you build with with this sort of video memory layer based on example these are the categories of of application that I believe developers can build you can discover things you can view reasoning experience you can organize your content across different video library and you can view action workflow assemble uh different scene together do compliance review data operation etc.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "support": "explicit",
+        "text": "The memory layer is meant to unlock reusable applications such as discovery, entity-centric workflows, timeline reconstruction, and compliance-oriented analysis."
+      }
+    ],
+    "methodNotes": "Each item is anchored to exactly one transcript segment ID, as requested. I prioritized the mid-talk sections where the speaker states the thesis, architecture, principles, harness design, and demo implications, and I avoided the opening thanks and closing promotional material.",
+    "methods": [
+      {
+        "description": "Do the expensive understanding work once during ingestion, then reuse it across many later queries and workflows.",
+        "evidenceExcerpt": "uh so the key idea here is that memory in the context of video understanding is a navigable structure over the entire video volume from that concept I come up with these five principles of building um you know a memory layer for video intelligence number one is to ingest once and reason many times",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Ingest once, reason many times"
+      },
+      {
+        "description": "Persist moments, entities, appearances, and relationships as reusable building blocks instead of only storing final answers.",
+        "evidenceExcerpt": "Um second principle is to store primitive not just answer. So uh you know moments entities appearances I already talked about that those are the the primitives right that allows you to uh do downstream workflow like search editing um you know analytics all of that.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "name": "Store primitives, not just answers"
+      },
+      {
+        "description": "Attach each claim back to a specific source timestamp so outputs remain evidence-grounded.",
+        "evidenceExcerpt": "Third is to ground every claim like basically if you ask a question you need to site back into where that scene happening in the video.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Ground every claim to source video"
+      },
+      {
+        "description": "Tune what the memory layer preserves according to the intent of the workflow, since different applications need different primitives.",
+        "evidenceExcerpt": "Uh fourth is to let intent shape memory. Um this is important because the same footage mean different thing in different workflow.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "Let intent shape memory"
+      },
+      {
+        "description": "Expose the memory layer as composable infrastructure that can be consumed through APIs.",
+        "evidenceExcerpt": "And lastly, uh keep the layer composable. Um so basically being API first, you know, um it should provide the the layers that allows those application on top of that to to serve it uh structure graded metadata that can be plugged into any sort of application.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Keep the layer composable"
+      },
+      {
+        "description": "Run video understanding inside a deterministic worker that plans, retrieves evidence, synthesizes, validates, and returns structured output under explicit constraints.",
+        "evidenceExcerpt": "other hand operate inside a a very deterministic system understand what is available uh it can plan the task receive evidence inspect uh uh the relevant moments synthesize validate return output and then the entire workflow can be evaluated, right?",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "name": "Deterministic video worker harness"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "We work across spots uh application brand safety compliance review creator analytics all of them require different primitives from the same video.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "question": "How should a builder choose which primitives to extract for a specific workflow when brand safety, sports, and creator analytics all need different memory surfaces?",
+        "whyItMatters": "This determines whether the memory layer is actually configurable infrastructure or just a fixed search wrapper."
+      },
+      {
+        "evidenceExcerpt": "So how can you build a system that can fuse evident across all the sources and then maintain current understanding right and so that is the challenges here.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "question": "How can a system fuse evidence across multiple camera angles, files, and years of footage without reprocessing the archive for every query?",
+        "whyItMatters": "This is the core scalability challenge behind durable cross-source video memory."
+      },
+      {
+        "evidenceExcerpt": "So sometimes natural language is snap, sometime the patient need structure data with references and time stamp and of course finally you have evaluation right uh like you know did the retrieval find the right evidence did the synthes synthesis preserve it right?",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "question": "What evaluation framework best verifies that a video worker found the right evidence, preserved it in synthesis, and stayed within budget?",
+        "whyItMatters": "Without a reliable evaluation loop, the harness cannot be trusted as production infrastructure."
+      }
+    ],
+    "summary": "James Le argues that video AI is missing the equivalent of durable memory, so the real problem is not just larger context windows but a representation that can preserve continuity across moments, entities, and sources. He frames video as a spatial-temporal volume and then as a context graph, where time-bounded moments, appearances, entities, relationships, and corpus-level context let different questions traverse the right layer of structure instead of starting from scratch. The engineering prescription is to ingest once and reason many times, store primitives rather than only answers, and ground every claim to source timestamps; the tradeoff is more up-front understanding work and stricter evidence handling, but the payoff is reusable infrastructure for grounded search, entity workflows, timeline reconstruction, and compliance. The demos are used to show that the same substrate can support sports understanding, security review, and advertising analysis.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So if you think about text system memory here is often mean reachable management generation vector search or probably like larger context window uh those are very useful but video memory has a different requirement it needs to link today's scene for something that happened in another file another episode another camera angle another season",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "text": "Larger context windows or simple retrieval do not solve video memory, because durable continuity across files, cameras, and time is the actual requirement."
+      },
+      {
+        "evidenceExcerpt": "is useful approximation for some task but it throw away the thing that makes video very unique which is continuity right so meaning in video derives from space time modalities the sequence so a better mental for video is a spatial temporal volume.",
+        "evidenceSegmentIds": [
+          "S0008"
+        ],
+        "text": "Preserving sequence and multimodal evidence matters more than treating video as frames plus transcript."
+      },
+      {
+        "evidenceExcerpt": "Uh this matter because different question travels different part of the graph. If you ask a simple search question then might that might go directly into the moment but like an entity workflow might start with a person and then it expand into appearances right and if you ask question like a story line like narrative storytelling of certain uh you know uh you know person then it may follow relationship across time right.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "text": "Different questions should traverse different parts of the context graph, so the memory structure has to support multiple access patterns."
+      },
+      {
+        "evidenceExcerpt": "uh be reusable representation once and then support multiop timeline episodic recall follow-up question at lower latency and cost.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "text": "Precomputing reusable representations lowers cost and latency for later multi-hop recall and follow-up questions."
+      },
+      {
+        "evidenceExcerpt": "So these are like explicit limit on time, cost, dep scope, autonomy. Uh an output contract.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "text": "A useful video worker needs explicit operating envelopes, output contracts, and evaluation so the system stays bounded and trustworthy."
+      },
+      {
+        "evidenceExcerpt": "The same framework apply for different vehicles, email, entertainment, sport, segmentation, highlight generation, in commercial security, evidence review, contextual analysis, in advertising, uh brand safety, uh creative intelligence, right?",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "text": "The same memory substrate can power several application classes, including entertainment, sports, security, advertising, and compliance."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The video intelligence product James Le demonstrated as the application layer built on top of the memory stack.",
+        "evidenceExcerpt": "So the uh there'll be three demos. Um the the video Asian product that we've been building is called jockey.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Jockey"
+      },
+      {
+        "description": "The multimodal embedding encoder used in the stack to turn temporal spans into spatial-temporal representations.",
+        "evidenceExcerpt": "A above that is our u multimodal embedding encoder called morango which essentially turn those spend into spatial temporal relations.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Morango"
+      },
+      {
+        "description": "The video context-aware language model used as the reasoning layer in the stack.",
+        "evidenceExcerpt": "um basically vector embeddings that represent video content and then we have a spatial spatial temporal context store which is where it preserve pre reusable structure like moment entities metadata all that uh we also build our own uh VLM video context aware language model called Pegasus that essentially serve as the the reasoning layer",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Pegasus"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The need for a durable memory layer that makes video queries reusable instead of stateless.",
+        "evidenceExcerpt": "So actually for this talk I will try to answer the question like what could it take to build a memory layer for video intelligence.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "Video memory"
+      },
+      {
+        "description": "A queryable structure linking moments, appearances, entities, relationships, and corpus context.",
+        "evidenceExcerpt": "So a context graph is a durable queryable representation that connects video moment entities appearances relationship time stamp metadata and compost level context.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Context graph"
+      },
+      {
+        "description": "The distinction between retrieving candidates and preserving corpus-level continuity and knowledge.",
+        "evidenceExcerpt": "Now moving beyond like kind of the stack right here I want to talk about the difference between search and memory right very quickly speaking uh search is obviously super important is how you recover relevant moments from large video library but then it give you candidate it actually not give you like any continuity",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Search versus memory"
+      },
+      {
+        "description": "A deterministic operating model for video understanding that plans tasks, retrieves evidence, and validates outputs.",
+        "evidenceExcerpt": "So what does it look like for for video on a static model right um a model co a single answer it is stateless it start fresh time start fresh each time and doesn't have any constraint so the output is largely based on what the model decide to produce a video worker on the",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Video worker harness"
+      },
+      {
+        "description": "A systems-style way to productize video understanding as reusable infrastructure through memory and harnesses.",
+        "evidenceExcerpt": "And uh yeah, so this is our product uh that upcoming up. Um one quick highlight is that we we try to code as a video cognition infrastructure.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Video cognition infrastructure"
+      },
+      {
+        "description": "The importance of temporal order and multimodal signals in making video meaningful.",
+        "evidenceExcerpt": "is useful approximation for some task but it throw away the thing that makes video very unique which is continuity right so meaning in video derives from space time modalities the sequence so a better mental for video is a spatial temporal volume.",
+        "evidenceSegmentIds": [
+          "S0008"
+        ],
+        "name": "Temporal multimodal continuity"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5662e14c7ab05fc68447e1c4830cd631b366303f28a9062e9b41710df376cc34",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one",
+  "talkTitle": "Video Has No Memory. Here's How We Built One.",
+  "transcriptPath": "raw/sources/youtube-transcripts/mOf-PP4mVjA.txt",
+  "transcriptSha256": "sha256:ecc0b6bc9240f99a5c7ff583c38ef25e5b5dc0fb8c43f2a3abf6ca888f9e14ea",
+  "videoId": "mOf-PP4mVjA"
+}

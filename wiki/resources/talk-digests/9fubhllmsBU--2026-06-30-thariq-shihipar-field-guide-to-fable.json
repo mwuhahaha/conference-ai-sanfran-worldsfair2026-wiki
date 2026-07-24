@@ -1,0 +1,289 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:03:06.798538+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:21894c87e0d224fdd269a4e3116373c35eba7c0602998deb469cef26bbae5ce7",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And so, this is what I mean by like unhobbling Claude. We call this capability overhang, right?",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that Fable should be understood through capability overhang: it can do qualitatively more when paired with the right tools, rather than just being a bigger chat model."
+      },
+      {
+        "evidenceExcerpt": "But there's there's more here. So, for example, uh, we recently removed 80% of the system prompt for Claude code, right?",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "support": "explicit",
+        "text": "He reports that Anthropic removed 80% of the Claude Code system prompt because newer models need less constraint and more context."
+      },
+      {
+        "evidenceExcerpt": "So, I'm going to go over a few examples of how I do that with Fable. Um The first is I like to do what I call a blind spot pass.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "support": "explicit",
+        "text": "He argues that Claude can be used to surface unknown unknowns by actively probing a project, not just executing a requested task."
+      },
+      {
+        "evidenceExcerpt": "I call this being unreasonable. One of my favorite parts of Anthropic is that we believe that tradeoffs are not real.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "support": "explicit",
+        "text": "He argues that tradeoffs are less fixed than people assume and that Fable changes how ambitious work can be pursued."
+      },
+      {
+        "evidenceExcerpt": "Uh I think it's also worth calling out that building is easier, but generating value is still hard.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "support": "explicit",
+        "text": "He states that building has become easier, but generating value is still hard, so the real challenge remains choosing and validating worthwhile work."
+      }
+    ],
+    "methodNotes": "Each topic, method, tool, claim, takeaway, and question is grounded in exactly one transcript segment ID from the supplied transcript.",
+    "methods": [
+      {
+        "description": "Treat the model as needing growth through tools, data, feedback, and harness design rather than assuming a fixed capability ceiling.",
+        "evidenceExcerpt": "So, first, unhobbling Claude. Um I think something we say really often is that the models are grown, not designed, right?",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Unhobbling the model"
+      },
+      {
+        "description": "Use the model to identify what you do not know by probing blind spots before committing to implementation.",
+        "evidenceExcerpt": "So, I'm going to go over a few examples of how I do that with Fable. Um The first is I like to do what I call a blind spot pass.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Blind spot pass"
+      },
+      {
+        "description": "Ask the model to interview the operator so missing requirements and architecture-changing questions surface early.",
+        "evidenceExcerpt": "And uh like work with the model to help figure that out. Uh then then interviews. So, once I have an idea of like, you know, this is what I want to do, uh there's probably still a lot of like uh unknowns here, right?",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "name": "Model interview"
+      },
+      {
+        "description": "Provide a reference artifact as a map so the model can infer the target behavior from an example instead of a long spec.",
+        "evidenceExcerpt": "Uh then references. One of the best ways to give Claude a map is to give it another map, right?",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "Reference-driven prompting"
+      },
+      {
+        "description": "Log deviations and unknowns during execution so the resulting plan can be audited and corrected.",
+        "evidenceExcerpt": "Uh something else I've like really appreciated is implementation notes. So, if uh while you're running Fable uh and it runs into an unknown, ask it to log it, right?",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "name": "Implementation notes"
+      },
+      {
+        "description": "Have the model quiz the operator on what happened to confirm understanding and keep the human in the loop.",
+        "evidenceExcerpt": "It will usually give you some context about what happened. And then finally, I'd like to get a Fable to quiz me about what happened uh just to make sure I understand what I'm doing and I can represent this work, you know, when I'm creating a PR or merging it.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Operator quiz"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And so, this is I think part of the challenge with Fable is figuring out this capability overhang.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "question": "What exactly counts as capability overhang in Fable, and which tasks become possible only once the right tool or harness is added?",
+        "whyItMatters": "This determines how to discover new uses for the model instead of underestimating it."
+      },
+      {
+        "evidenceExcerpt": "And so, it's a larger system prompt with lots of examples and many tools, right? But most recently, we found this new class of models want fewer what want a smaller system prompt.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "question": "When should a newer model get a smaller system prompt instead of more examples and constraints?",
+        "whyItMatters": "This affects how to prompt the model without unnecessarily limiting its behavior."
+      },
+      {
+        "evidenceExcerpt": "And I'll give it a little bit more context. In any of these questions, like giving it a little bit more context about you and the work and the stage you're at, like, \"Hey, yeah, prioritize questions that would change the architecture.\" is extremely helpful.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "question": "What prompting format best elicits architecture-changing questions without overwhelming the user?",
+        "whyItMatters": "This shapes whether the interview approach is actually useful in real projects."
+      },
+      {
+        "evidenceExcerpt": "And that my reflection going forward is that I'm going to be a lot less reasonable. Um, I think one of this like the math of Claude and Fable really changes how you think about tradeoffs.",
+        "evidenceSegmentIds": [
+          "S0118"
+        ],
+        "question": "How can teams distinguish real tradeoffs from assumptions that only seem unavoidable?",
+        "whyItMatters": "This affects how ambitious a team can be when adopting Fable."
+      }
+    ],
+    "summary": "The talk argues that Fable is not just a stronger chat model but a different operating regime: it creates capability overhang, so the main job is to learn how to work with it rather than merely ask it for answers. The speaker’s method is to unhobble both the model and the human: give Claude more effective tools and less constraining prompting, then use the model to expose unknowns through blind spot passes, interviews, references, and post-run explanations. The practical consequence is that coding work becomes faster and more exploratory, but that speed only matters if teams stay in the loop, keep testing assumptions, and push past inherited tradeoffs to generate real value.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "But it turns out that instead, if you give it arms, like you give it the bash tool and ways to work with the environment, it can build and search its own context.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "text": "Giving the model tools to search and act in its environment can be more powerful than simply increasing context size."
+      },
+      {
+        "evidenceExcerpt": "Uh, another feature I really like is the ask you a question tool. This is something I worked on when I first got to Claude code.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "text": "The way the model asks for help has become richer over time, moving from simple multiple-choice prompts to embedded questions in HTML reports."
+      },
+      {
+        "evidenceExcerpt": "When I'm working on a coding problem, the plan and prompt and spec that I have in my mind is the map, right?",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "text": "The useful distinction is between the map in your head and the territory of the actual codebase or problem space."
+      },
+      {
+        "evidenceExcerpt": "Can you do a blind spot pass to help me figure out my relevant unknown unknowns and help me prompt better, right?\" And so, this like might have Claude go through the the auth module and figure out like, \"Oh, you know, this is kind of like a hairy little uh dead end that comes up a lot.\" Maybe search in my Git diff or Slack.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "text": "A blind spot pass can reveal relevant dead ends, gotchas, and missing context before work starts."
+      },
+      {
+        "evidenceExcerpt": "And I think that's like one of the most important parts of Fable is like staying in the loop and making sure that you uh you get what you want.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "text": "Staying in the loop with Fable is central because it reduces drift between what you want and what gets built."
+      },
+      {
+        "evidenceExcerpt": "Because I think the only way to prove that agents work is to do the best work of our lives faster than ever before.",
+        "evidenceSegmentIds": [
+          "S0121"
+        ],
+        "text": "The bar for proving agents matters is to produce the best work faster than before, not just to automate busywork."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The coding assistant the speaker says he works on and uses as the basis for the talk's workflow.",
+        "evidenceExcerpt": "I work at Anthropic on Claude Code. Before we get started, we have a tradition on Claude Code where we take a selfie before a talk.",
+        "evidenceSegmentIds": [
+          "S0002"
+        ],
+        "name": "Claude Code"
+      },
+      {
+        "description": "The model family the talk is about and the central subject of the field guide.",
+        "evidenceExcerpt": "Okay, incredible. Well, uh yeah, to kick things off, like we said, Fable is back. Um we're rolling it out later today.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Fable"
+      },
+      {
+        "description": "The proactive agent product the speaker says was recently rolled out to unlock multiplayer work.",
+        "evidenceExcerpt": "In how we think about and work with the model. And then recently we we rolled out Claude Tag.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Claude Tag"
+      },
+      {
+        "description": "The model variant used as a reference point for the progression in question-asking ability.",
+        "evidenceExcerpt": "Uh, for Opus 4, it could barely call it. I had to like really tweak the tool to make sure that it was uh, that it would work, right?",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "Opus 4"
+      },
+      {
+        "description": "A later model variant used as an example of improved ability to generate HTML reports with embedded questions.",
+        "evidenceExcerpt": "And then, most recently with Opus 4.8 and Fable, I can now build a whole HTML report with the questions embedded inside of them.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Opus 4.8"
+      },
+      {
+        "description": "The markup format used for richer reports and prompt-facing outputs in the examples.",
+        "evidenceExcerpt": "Um speaking of which, uh Markdown and HTML is something I've also talked a lot about. Um you know, it turned Initially, Markdown was a a good output for the model.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "HTML"
+      }
+    ],
+    "topics": [
+      {
+        "description": "How to adapt prompting, tools, and harnesses to a new model class with more latent capability.",
+        "evidenceExcerpt": "And so, what I wanted to do in this talk is give you guys a field guide to Fable, right? How do you work with this new class of models?",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Field guide to Fable"
+      },
+      {
+        "description": "The idea that model usefulness can jump when paired with tools instead of only scaling parameters or context.",
+        "evidenceExcerpt": "And so, this is what I mean by like unhobbling Claude. We call this capability overhang, right?",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Capability overhang"
+      },
+      {
+        "description": "The distinction between what the operator thinks they know and the real constraints in the environment.",
+        "evidenceExcerpt": "And so one of the things that I think a lot about is that the map is not the territory, right?",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Map and territory"
+      },
+      {
+        "description": "Structured techniques for uncovering missing requirements before implementation.",
+        "evidenceExcerpt": "So, I'm going to go over a few examples of how I do that with Fable. Um The first is I like to do what I call a blind spot pass.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Unknown unknowns"
+      },
+      {
+        "description": "The emotional and professional adjustment to faster, easier coding workflows.",
+        "evidenceExcerpt": "So, um those are some of my tips for working with Fable. Uh I also want to say that the first time I used a Mithril class model, uh used Fable, I felt both a huge sense of like gain, but also a sense of loss.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Grief and gain from AI coding"
+      },
+      {
+        "description": "The push to pursue more ambitious goals instead of accepting familiar constraints.",
+        "evidenceExcerpt": "I call this being unreasonable. One of my favorite parts of Anthropic is that we believe that tradeoffs are not real.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "name": "Unreasonableness"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:d5d23afada9f12cf0df5c3f532e90b2b062dea5bffac81a6b612ef3fae9a02fb",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-thariq-shihipar-field-guide-to-fable",
+  "talkTitle": "Field Guide to Fable",
+  "transcriptPath": "raw/sources/youtube-transcripts/9fubhllmsBU.txt",
+  "transcriptSha256": "sha256:b8ac3360348c49afbd4ac1d96606770c47e1f58ae7e9dc00ed71b6fadd468639",
+  "videoId": "9fubhllmsBU"
+}

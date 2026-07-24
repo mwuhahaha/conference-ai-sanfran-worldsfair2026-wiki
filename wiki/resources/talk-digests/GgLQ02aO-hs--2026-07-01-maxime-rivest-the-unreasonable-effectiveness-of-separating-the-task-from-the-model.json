@@ -1,0 +1,203 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:06:22.463823+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:a20336e0afdca6b254beaf9d983b092025c378211cf04a96a4f60950b82fc329",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "We believe the same should be true for AR programs. Functions are awesome. Functions are reusable, composable, testable, and optimizable.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that AI programs should inherit the same benefits as functions: reuse, composability, testability, and optimization."
+      },
+      {
+        "evidenceExcerpt": "I can change it however I want. A new model comes up and I can change that. It's super easy because my interface is fixed like that.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "support": "explicit",
+        "text": "The speaker says a fixed interface lets the implementation change freely, including swapping in new models, without changing the surrounding workflow."
+      },
+      {
+        "evidenceExcerpt": "First is that your implementation becomes cheaper. When you're flexible to what the implementation is, you can use the bitter lesson to search over different solutions, find something that solves your problem cheaply.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that flexibility over implementation can make enterprise AI systems cheaper by letting teams search for lower-cost solutions."
+      },
+      {
+        "evidenceExcerpt": "How do we decrease assistance? And it's a research question right now. But what we believe is that models are now good enough to interpret whatever textual feedback is present in the environment and convert that into evals and a hill that the model can climb.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "support": "explicit",
+        "text": "The speaker presents qualitative learning as a research direction for converting textual feedback into evals and a climbable objective."
+      }
+    ],
+    "methodNotes": "Each item is grounded in exactly one transcript segment ID, and tool entries are limited to explicitly named products or modules from the talk.",
+    "methods": [
+      {
+        "description": "Design AI programs with a function-like contract so the task can be reused and optimized independently of the implementation.",
+        "evidenceExcerpt": "To make a function, you give it a name. You define some inputs, some outputs, and then you have some implementation logic inside of it.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Function-style AI design"
+      },
+      {
+        "description": "Separate instructions, code-enforced constraints, and examples/evals as three distinct parts of the task specification.",
+        "evidenceExcerpt": "Now that you have all of these, you have express fully. You have all these three languages you can put together.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Specs-code-evals decomposition"
+      },
+      {
+        "description": "Keep the signature fixed while changing the internal harness, model, or prompt strategy underneath it.",
+        "evidenceExcerpt": "You put that inside of it too. Anything on the outside of it doesn't change your integration and and anything else doesn't change.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Stable-signature implementation"
+      },
+      {
+        "description": "Learn from examples and latent behavioral patterns when instructions and code alone are insufficient.",
+        "evidenceExcerpt": "You're looking at a lot of of examples and there are long tales of successful behaviors that you have to see and learn.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Example-driven behavior learning"
+      },
+      {
+        "description": "Use production feedback and textual signals to refine evaluation targets over time.",
+        "evidenceExcerpt": "As you do this, the model can iteratively refine the hill over time and continue climbing it to solve your actual business problem.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Feedback-guided qualitative learning"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "How do we decrease assistance? And it's a research question right now. But what we believe is that models are now good enough to interpret whatever textual feedback is present in the environment and convert that into evals and a hill that the model can climb.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "question": "How can a system reliably decrease human assistance by turning textual feedback into useful evals automatically?",
+        "whyItMatters": "This is the central open research problem behind qualitative learning."
+      },
+      {
+        "evidenceExcerpt": "And so as you get more feedback from production, its traces, its user actions, its product analytics, it's asking you, it's the model asking you questions about how data should be represented.",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "question": "How should traces, user actions, and product analytics be represented so they can update the objective a model is climbing?",
+        "whyItMatters": "The talk suggests production signals could replace hand-built proxies, but the conversion mechanism remains unresolved."
+      }
+    ],
+    "summary": "The talk argues that AI engineering should start from the task contract, not from a model or prompt template. The core method is to specify what should happen with natural-language instructions, what must happen with code-enforced constraints, and what good looks like through examples and evals, then treat the implementation underneath as flexible. That separation is presented as the reason teams can swap models, add tools, and incorporate techniques like recursive language models without rewriting the workflow. The main tradeoff is that you must do the hard work of defining constraints and evaluation signals well, but the payoff is cheaper, more reliable, and more adaptable AI software.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "If for your repeated AI task you define an input interface and an output interface, you get to play in the internals.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "text": "Define the input and output contract first so the implementation can change without disturbing the task boundary."
+      },
+      {
+        "evidenceExcerpt": "They have to be enforced. The best way to do that is with code. So I want you to go to the third line, a fourth line.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "text": "Use code for constraints that must always hold, not just for guidance that a model may ignore."
+      },
+      {
+        "evidenceExcerpt": "And so through time with example I learned how to know that a tree is a maple. But this is not limited to things like classifying plants.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "text": "Examples are essential for capturing latent behavior that cannot be fully written as instructions or code."
+      },
+      {
+        "evidenceExcerpt": "And you can use this to scale to data sizes that weren't possible with a more expensive implementation.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "text": "Flexibility under a stable signature lets teams search for cheaper implementations and scale to larger data."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The open-source Python framework the talk uses to separate task specification from implementation details.",
+        "evidenceExcerpt": "DSPI brings all of these properties to AI programs. And so DSPI is an open source software in Python that lets you, like I said, bring these properties to your AI workflows and AI programs.",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "name": "DSPy"
+      },
+      {
+        "description": "A new module described as a way to learn a harness over time while keeping the function interface constant.",
+        "evidenceExcerpt": "DSP.flex is a new kind of module. In DSpay, when we let you optimize things, it started with few shot examples, then it became prompts, and now that's becoming code.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "DSP.flex"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The central idea that the task contract should stay stable while the implementation changes underneath it.",
+        "evidenceExcerpt": "If for your repeated AI task you define an input interface and an output interface, you get to play in the internals.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "name": "Task-model separation"
+      },
+      {
+        "description": "The interface defined by natural-language instructions, code constraints, and evaluative examples.",
+        "evidenceExcerpt": "Now that you have all of these, you have express fully. You have all these three languages you can put together.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Specs, code, and evals"
+      },
+      {
+        "description": "The use of product feedback and textual signals to improve evals without relying only on hand-built metrics.",
+        "evidenceExcerpt": "How do we decrease assistance? And it's a research question right now. But what we believe is that models are now good enough to interpret whatever textual feedback is present in the environment and convert that into evals and a hill that the model can climb.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Qualitative learning"
+      },
+      {
+        "description": "The ability to substitute models and harnesses to reduce cost while preserving behavior.",
+        "evidenceExcerpt": "First is that your implementation becomes cheaper. When you're flexible to what the implementation is, you can use the bitter lesson to search over different solutions, find something that solves your problem cheaply.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Implementation flexibility"
+      },
+      {
+        "description": "The idea that AI programs should be built and optimized like ordinary reusable functions.",
+        "evidenceExcerpt": "To make a function, you give it a name. You define some inputs, some outputs, and then you have some implementation logic inside of it.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Function-like AI programs"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:a1a5c77f0d3a03f23f1d30ee5f6854eb5ea4d00aff6554dea7a3294ef3f42016",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model",
+  "talkTitle": "The Unreasonable Effectiveness of Separating the Task from the Model",
+  "transcriptPath": "raw/sources/youtube-transcripts/GgLQ02aO-hs.txt",
+  "transcriptSha256": "sha256:94a315f6bb6969533b904f40333396ac8326518363de3cd2dbd1f31893ecbd32",
+  "videoId": "GgLQ02aO-hs"
+}

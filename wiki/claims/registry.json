@@ -2,19 +2,256 @@
   {
     "id": "agent-work-needs-runtime-boundaries",
     "title": "Agent Work Needs Runtime Boundaries",
-    "path": "wiki/claims/agent-work-needs-runtime-boundaries.md",
-    "confidence": "high"
+    "path": "wiki/claims/agent-work-needs-runtime-boundaries.md"
+  },
+  {
+    "id": "transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1",
+    "title": "Claims: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+    "path": "wiki/claims/transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1.md"
+  },
+  {
+    "id": "transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2",
+    "title": "Claims: 'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2'",
+    "path": "wiki/claims/transcript-2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2.md"
+  },
+  {
+    "id": "transcript-2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king",
+    "title": "Claims: 'In the Land of AI Agents, the Verifiers Are King'",
+    "path": "wiki/claims/transcript-2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king.md"
+  },
+  {
+    "id": "transcript-2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4",
+    "title": "Claims: Active Graph Agent Runtime (BabyAGI 4)",
+    "path": "wiki/claims/transcript-2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4.md"
+  },
+  {
+    "id": "transcript-2026-06-29-ezra-tanzer-agentic-development-security",
+    "title": "Claims: Agentic Development Security",
+    "path": "wiki/claims/transcript-2026-06-29-ezra-tanzer-agentic-development-security.md"
+  },
+  {
+    "id": "transcript-2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain",
+    "title": "Claims: Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+    "path": "wiki/claims/transcript-2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain.md"
+  },
+  {
+    "id": "transcript-2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries",
+    "title": "Claims: AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+    "path": "wiki/claims/transcript-2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries.md"
+  },
+  {
+    "id": "transcript-2026-06-29-aaron-stanley-ai-s-jurassic-park-period",
+    "title": "Claims: AI’s Jurassic Park Period",
+    "path": "wiki/claims/transcript-2026-06-29-aaron-stanley-ai-s-jurassic-park-period.md"
+  },
+  {
+    "id": "transcript-2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge",
+    "title": "Claims: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge",
+    "path": "wiki/claims/transcript-2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge.md"
+  },
+  {
+    "id": "transcript-2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs",
+    "title": "Claims: Citation Needed: Provenance for LLM-Built Knowledge Graphs",
+    "path": "wiki/claims/transcript-2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs.md"
+  },
+  {
+    "id": "transcript-2026-06-29-lance-martin-claude-for-long-horizon-tasks",
+    "title": "Claims: Claude for long-horizon tasks",
+    "path": "wiki/claims/transcript-2026-06-29-lance-martin-claude-for-long-horizon-tasks.md"
+  },
+  {
+    "id": "transcript-2026-06-30-addy-osmani-closing-keynote",
+    "title": "Claims: Closing Keynote",
+    "path": "wiki/claims/transcript-2026-06-30-addy-osmani-closing-keynote.md"
+  },
+  {
+    "id": "transcript-2026-07-01-theo-browne-closing-keynote-theo-browne",
+    "title": "Claims: Closing Keynote — Theo Browne",
+    "path": "wiki/claims/transcript-2026-07-01-theo-browne-closing-keynote-theo-browne.md"
+  },
+  {
+    "id": "transcript-2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor",
+    "title": "Claims: Computer-Use 2.0: Agents Just Got Multi-Cursor",
+    "path": "wiki/claims/transcript-2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor.md"
+  },
+  {
+    "id": "transcript-2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens",
+    "title": "Claims: CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens",
+    "path": "wiki/claims/transcript-2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens.md"
+  },
+  {
+    "id": "transcript-2026-06-30-philipp-schmid-don-t-ship-skills-without-evals",
+    "title": "Claims: Don't Ship Skills Without Evals",
+    "path": "wiki/claims/transcript-2026-06-30-philipp-schmid-don-t-ship-skills-without-evals.md"
+  },
+  {
+    "id": "transcript-2026-06-29-sam-bhagwat-every-harness-will-become-a-claw",
+    "title": "Claims: Every Harness Will Become A Claw",
+    "path": "wiki/claims/transcript-2026-06-29-sam-bhagwat-every-harness-will-become-a-claw.md"
+  },
+  {
+    "id": "transcript-2026-06-30-thariq-shihipar-field-guide-to-fable",
+    "title": "Claims: Field Guide to Fable",
+    "path": "wiki/claims/transcript-2026-06-30-thariq-shihipar-field-guide-to-fable.md"
+  },
+  {
+    "id": "transcript-2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context",
+    "title": "Claims: From Systems of Record to Systems of Context",
+    "path": "wiki/claims/transcript-2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context.md"
+  },
+  {
+    "id": "transcript-2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail",
+    "title": "Claims: Harness Engineering is not Enough: Why Software Factories Fail",
+    "path": "wiki/claims/transcript-2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail.md"
+  },
+  {
+    "id": "transcript-2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
+    "title": "Claims: How Forward Deployed Engineering is done at Cursor",
+    "path": "wiki/claims/transcript-2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor.md"
+  },
+  {
+    "id": "transcript-2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem",
+    "title": "Claims: How Juries and Librarians Can Solve GTM's AI Trust Problem",
+    "path": "wiki/claims/transcript-2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem.md"
+  },
+  {
+    "id": "transcript-2026-07-01-james-russo-html-is-all-agents-need",
+    "title": "Claims: HTML Is All Agents Need",
+    "path": "wiki/claims/transcript-2026-07-01-james-russo-html-is-all-agents-need.md"
+  },
+  {
+    "id": "transcript-2026-06-30-eve-bouffard-imagination-engineering",
+    "title": "Claims: Imagination Engineering",
+    "path": "wiki/claims/transcript-2026-06-30-eve-bouffard-imagination-engineering.md"
+  },
+  {
+    "id": "transcript-2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust",
+    "title": "Claims: In Code They Act, In Proof We Trust",
+    "path": "wiki/claims/transcript-2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust.md"
+  },
+  {
+    "id": "transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are",
+    "title": "Claims: It's 10pm. Do You Know Where Your Agents Are?",
+    "path": "wiki/claims/transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are.md"
+  },
+  {
+    "id": "transcript-2026-06-29-sarah-sachs-notion-s-token-town",
+    "title": "Claims: Notion's Token Town",
+    "path": "wiki/claims/transcript-2026-06-29-sarah-sachs-notion-s-token-town.md"
+  },
+  {
+    "id": "transcript-2026-06-29-pablo-castro-on-ai-and-knowledge",
+    "title": "Claims: On AI and Knowledge",
+    "path": "wiki/claims/transcript-2026-06-29-pablo-castro-on-ai-and-knowledge.md"
+  },
+  {
+    "id": "transcript-2026-06-30-antje-barth-perception-agents",
+    "title": "Claims: Perception Agents",
+    "path": "wiki/claims/transcript-2026-06-30-antje-barth-perception-agents.md"
+  },
+  {
+    "id": "transcript-2026-06-29-lee-robinson-recursive-model-improvement",
+    "title": "Claims: Recursive Model Improvement",
+    "path": "wiki/claims/transcript-2026-06-29-lee-robinson-recursive-model-improvement.md"
+  },
+  {
+    "id": "transcript-2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents",
+    "title": "Claims: Special topics in Kernels, RL, Reward Hacking in Agents",
+    "path": "wiki/claims/transcript-2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents.md"
+  },
+  {
+    "id": "transcript-2026-06-30-sean-cai-state-of-data",
+    "title": "Claims: State of Data",
+    "path": "wiki/claims/transcript-2026-06-30-sean-cai-state-of-data.md"
+  },
+  {
+    "id": "transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420",
+    "title": "Claims: State of the Union: Why Local, Why Now",
+    "path": "wiki/claims/transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420.md"
+  },
+  {
+    "id": "transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now",
+    "title": "Claims: State of the Union: Why Local, Why Now",
+    "path": "wiki/claims/transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now.md"
+  },
+  {
+    "id": "transcript-2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering",
+    "title": "Claims: The Golden Age of AI Engineering",
+    "path": "wiki/claims/transcript-2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering.md"
+  },
+  {
+    "id": "transcript-2026-06-29-will-brown-the-prime-intellect-stack",
+    "title": "Claims: The Prime Intellect Stack",
+    "path": "wiki/claims/transcript-2026-06-29-will-brown-the-prime-intellect-stack.md"
+  },
+  {
+    "id": "transcript-2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model",
+    "title": "Claims: The Unreasonable Effectiveness of Separating the Task from the Model",
+    "path": "wiki/claims/transcript-2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model.md"
+  },
+  {
+    "id": "transcript-2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
+    "title": "Claims: The Z/L Continuum: Should AI Engineers Still Read Code?",
+    "path": "wiki/claims/transcript-2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code.md"
+  },
+  {
+    "id": "transcript-2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer",
+    "title": "Claims: Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer",
+    "path": "wiki/claims/transcript-2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer.md"
+  },
+  {
+    "id": "transcript-2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers",
+    "title": "Claims: Training Frontier Models to Out-Think Hackers",
+    "path": "wiki/claims/transcript-2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers.md"
+  },
+  {
+    "id": "transcript-2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck",
+    "title": "Claims: Understanding is the new bottleneck",
+    "path": "wiki/claims/transcript-2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck.md"
+  },
+  {
+    "id": "transcript-2026-06-29-eugene-yan-using-llms-to-secure-source-code",
+    "title": "Claims: Using LLMs to Secure Source Code",
+    "path": "wiki/claims/transcript-2026-06-29-eugene-yan-using-llms-to-secure-source-code.md"
+  },
+  {
+    "id": "transcript-2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one",
+    "title": "Claims: Video Has No Memory. Here's How We Built One.",
+    "path": "wiki/claims/transcript-2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one.md"
+  },
+  {
+    "id": "transcript-2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night",
+    "title": "Claims: We Gave an Agent Production Code Access and Then Tried to Sleep at Night",
+    "path": "wiki/claims/transcript-2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night.md"
+  },
+  {
+    "id": "transcript-2026-07-01-frank-coyle-why-agentic-systems-need-ontologies",
+    "title": "Claims: Why Agentic Systems Need Ontologies",
+    "path": "wiki/claims/transcript-2026-07-01-frank-coyle-why-agentic-systems-need-ontologies.md"
+  },
+  {
+    "id": "transcript-2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents",
+    "title": "Claims: WTF Is the Context Layer? The Missing Infrastructure for Production Agents",
+    "path": "wiki/claims/transcript-2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents.md"
+  },
+  {
+    "id": "transcript-2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months",
+    "title": "Claims: Your agent architecture has a half-life of 6 months",
+    "path": "wiki/claims/transcript-2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months.md"
+  },
+  {
+    "id": "transcript-2026-07-01-mike-phipps-your-moat-is-your-data-model",
+    "title": "Claims: Your Moat Is Your Data Model",
+    "path": "wiki/claims/transcript-2026-07-01-mike-phipps-your-moat-is-your-data-model.md"
   },
   {
     "id": "evals-are-operational-gates",
     "title": "Evals Are Operational Gates",
-    "path": "wiki/claims/evals-are-operational-gates.md",
-    "confidence": "high"
+    "path": "wiki/claims/evals-are-operational-gates.md"
   },
   {
     "id": "provenance-is-part-of-context",
     "title": "Provenance Is Part Of Context",
-    "path": "wiki/claims/provenance-is-part-of-context.md",
-    "confidence": "medium-high"
+    "path": "wiki/claims/provenance-is-part-of-context.md"
   }
 ]

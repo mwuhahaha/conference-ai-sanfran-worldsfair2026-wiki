@@ -1,0 +1,273 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:50:59.995036+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:ad86bdf8c1bb7396f4a193f2b7b8b291a206cedc642350d5661cb1c13be0a5ac",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Uh, I'm here to convince you today that this is in fact not a scale issue. That no amount of harness engineering or loops maxing can solve what is fundamentally a model training issue.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that software-factory failures are not a scale problem that better harnesses can solve, but a model-training problem."
+      },
+      {
+        "evidenceExcerpt": "And what I want to get to is basically models have a shortcoming. um they can't maintain and improve codebase quality over time, not without a decent amount of human steering.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that models cannot maintain and improve codebase quality over time without substantial human steering."
+      },
+      {
+        "evidenceExcerpt": "There's no way in this system that we can penalize it for poor program design or for eroding the maintainability of our systems.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "support": "explicit",
+        "text": "The speaker says current training setups can reward code that passes tests while failing to penalize poor design or maintainability."
+      },
+      {
+        "evidenceExcerpt": "Um, so you remember this picture. Verifying code quality and maintainability is orders of magnitude harder than the code runs and the test pass because the cost function of bad architecture is measured in months and years if you have a coding episode and then you only find out months later that like somebody vied this a little bit too hard.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that bad architecture is hard to train against because its cost shows up months or years later, far beyond the immediate test cycle."
+      },
+      {
+        "evidenceExcerpt": "Um the main idea here is 30 minutes over here in pre-planning and alignment can save you hours in review and so it's actually feasible to still read every line of code.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "support": "explicit",
+        "text": "The speaker claims that upfront planning and alignment can save hours in review and make it feasible to keep reading every line of code."
+      },
+      {
+        "evidenceExcerpt": "Um and so if you use model assisted planning and alignment, your alignment is shorter because you use AI to get all the information at once.",
+        "evidenceSegmentIds": [
+          "S0125"
+        ],
+        "support": "explicit",
+        "text": "The speaker says model-assisted planning can shorten alignment, speed code review, and speed coding while preserving human ownership of the code."
+      }
+    ],
+    "methodNotes": "The record emphasizes the talk's argument that long-horizon software quality is the key limitation, then captures the proposed operating pattern: use AI for planning and implementation, but keep humans involved in design, review, and ownership.",
+    "methods": [
+      {
+        "description": "Use reinforcement learning traces and rewards to improve tool-calling and problem solving in coding models.",
+        "evidenceExcerpt": "So, what we're going to do if we want to train a model to get better at tool calling, better at solving software problems.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "coding model RL"
+      },
+      {
+        "description": "Do product review before implementation to align on the problem, desired behavior, and mockups.",
+        "evidenceExcerpt": "We're going to find leverage. We're going to use AI to help with this. Um, the first thing we're going to do is we're going to do some sort of product review.",
+        "evidenceSegmentIds": [
+          "S0106"
+        ],
+        "name": "product review"
+      },
+      {
+        "description": "Define system architecture early, including component contracts, data models, and constraints.",
+        "evidenceExcerpt": "A lot of people have been doing this for a while. Component contracts, data models, constraints.",
+        "evidenceSegmentIds": [
+          "S0110"
+        ],
+        "name": "system architecture"
+      },
+      {
+        "description": "Work through program design at the level of types, method signatures, program layout, and call stacks before coding.",
+        "evidenceExcerpt": "I think people assume that once you get the architecture right, the model can just cook. Um but we I we often look into the types and the method signatures, the program layout and the call stacks.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "name": "program design"
+      },
+      {
+        "description": "Use vertical slices to coordinate implementation across the system and check progress along the way.",
+        "evidenceExcerpt": "Um which is the order of implementation, multi-reo coordination. How are we going to build this across our entire system and how are we going to check it along the way?",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "vertical slices"
+      },
+      {
+        "description": "Use model-assisted planning and alignment to reduce downstream review burden while keeping human review in place.",
+        "evidenceExcerpt": "Um and so if you use model assisted planning and alignment, your alignment is shorter because you use AI to get all the information at once.",
+        "evidenceSegmentIds": [
+          "S0125"
+        ],
+        "name": "model-assisted planning"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Now, I cannot prove this because there are no good benchmarks for a model's ability to maintain codebased quality.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "question": "What benchmark design can actually measure a model's ability to maintain codebase quality over time?",
+        "whyItMatters": "The talk's main critique is that existing evaluations miss the real failure mode, so a better benchmark is central to training better coding agents."
+      },
+      {
+        "evidenceExcerpt": "Um and so if you can't verify the uh maintainability of the code, it gets way harder to train on this stuff.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "question": "How can training systems penalize poor design and maintainability instead of only rewarding test passing?",
+        "whyItMatters": "This is the core mechanism behind the speaker's claim that current rewards shape brittle, short-term code."
+      },
+      {
+        "evidenceExcerpt": "It's really hard to propagate that reward signal back across the gap. And now the frontier is getting better slowly.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "question": "How can long-horizon architectural failures be credited or blamed quickly enough for reinforcement learning to learn from them?",
+        "whyItMatters": "If the reward signal cannot cross the time gap, models will keep optimizing for immediate correctness rather than durable software quality."
+      }
+    ],
+    "summary": "Dex Horthy argues that the current wave of software factories fails because teams are trying to solve a training problem with more harnesses, loops, and orchestration. His core point is that coding agents are getting better at producing patches that pass tests, but the training signal still does not capture maintainability, architectural fit, or the long-term cost of brittle code. The practical answer is not to remove human judgment, but to move it earlier: do product review, architecture, and program design up front, then use AI to accelerate implementation inside a review process that still keeps humans responsible for the code.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Um, so turning the lights back on, we're going to put the code review back. Uh, we're going to embrace this approach of like how do we plan up front to reduce the chance that we have a long or uh difficult review process.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "text": "Keep code review in the process and use AI to reduce the chance that a change becomes a long, painful review."
+      },
+      {
+        "evidenceExcerpt": "understanding what problem we're solving, what's the desired behavior, maybe looking at mockups.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "text": "Start large features with a product review so the team aligns on the problem and desired behavior before coding."
+      },
+      {
+        "evidenceExcerpt": "Um, this is an example of a doc that we build to understand how these systems are going to fit together and what's like the highle picture of it.",
+        "evidenceSegmentIds": [
+          "S0111"
+        ],
+        "text": "Capture system architecture explicitly, including component contracts, data models, and constraints."
+      },
+      {
+        "evidenceExcerpt": "Uh Dylan Mullroy from Cloudflare talks a lot about how he's using these call graphs as part of his planning process.",
+        "evidenceSegmentIds": [
+          "S0115"
+        ],
+        "text": "Use call graphs and similar design artifacts to reason about how parts of the system interact before implementation."
+      },
+      {
+        "evidenceExcerpt": "And so you're now you're actually really moving faster, but you're still reading everything and you're still owning the code.",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "text": "Move faster by combining AI-assisted coding with human ownership rather than by abandoning reading and review."
+      },
+      {
+        "evidenceExcerpt": "And so go figure out how to solve problems given a set of constraints. Uh use loops. They're great.",
+        "evidenceSegmentIds": [
+          "S0130"
+        ],
+        "text": "Treat the limits of models as constraints to engineer around, not as a reason to stop using leverage."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The company/product used as the speaker's example of the human-layer workflow and platform being built.",
+        "evidenceExcerpt": "Human layer is an AI IDE and collaboration platform. It's building blocks for your software factory.",
+        "evidenceSegmentIds": [
+          "S0132"
+        ],
+        "name": "Human Layer"
+      },
+      {
+        "description": "A tracker mentioned as part of the traditional software factory workflow.",
+        "evidenceExcerpt": "and they all decide that stuff needs to get done. And so you put it in a tracker, a linear, a Jira, a beads, some sort of state machine that tracks what needs to be done.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Jira"
+      },
+      {
+        "description": "A tracker mentioned as part of the traditional software factory workflow.",
+        "evidenceExcerpt": "and they all decide that stuff needs to get done. And so you put it in a tracker, a linear, a Jira, a beads, some sort of state machine that tracks what needs to be done.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Linear"
+      },
+      {
+        "description": "The design product used as an analogy for the collaborative workspace the speaker describes.",
+        "evidenceExcerpt": "Um and soon to be better verifiers for software quality. Um we've got sort of a Figma for cloud code and codec style collaborative workspace.",
+        "evidenceSegmentIds": [
+          "S0133"
+        ],
+        "name": "Figma"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The end-to-end system for turning requests into shipped software through planning, implementation, review, and production.",
+        "evidenceExcerpt": "Uh, we're going to start around 2022, like right before AI started coming around. Um, and basically in a typical 2022 software factory, you will have some people building stuff.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "name": "software factory"
+      },
+      {
+        "description": "The ability to evolve a codebase without causing regressions or making future changes harder.",
+        "evidenceExcerpt": "Um and when I say maintainability, I'm basically talking about issues like it becomes really really hard to make a change in one part of the codebase without breaking other parts of the codebase.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "code maintainability"
+      },
+      {
+        "description": "Evaluating coding agents and code quality with benchmarks, verifiers, and reward channels.",
+        "evidenceExcerpt": "So, we're going to look at these as like what is the future of evaluating code maintainability.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "benchmark design"
+      },
+      {
+        "description": "Human-in-the-loop planning and review before implementation.",
+        "evidenceExcerpt": "Um, so turning the lights back on, we're going to put the code review back. Uh, we're going to embrace this approach of like how do we plan up front to reduce the chance that we have a long or uh difficult review process.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "name": "upfront planning"
+      },
+      {
+        "description": "Breaking implementation into coordinated end-to-end chunks across a system.",
+        "evidenceExcerpt": "Um which is the order of implementation, multi-reo coordination. How are we going to build this across our entire system and how are we going to check it along the way?",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "vertical slices"
+      },
+      {
+        "description": "The strategy of using AI to accelerate work while keeping humans responsible for code ownership and judgment.",
+        "evidenceExcerpt": "your code review is faster because you aligned up front and your coding is faster because AI did it.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "human-owned agentic development"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:e7464a246eec487e467d5dde20b85d9ea7c35923c770e3efbb0cd87d127b1c89",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail",
+  "talkTitle": "Harness Engineering is not Enough: Why Software Factories Fail",
+  "transcriptPath": "raw/sources/youtube-transcripts/Ib5GBkD555M.txt",
+  "transcriptSha256": "sha256:7dc7af55e80d7161917df5284db3f6e61ab17347fa6b51938ac6709e9588d65e",
+  "videoId": "Ib5GBkD555M"
+}

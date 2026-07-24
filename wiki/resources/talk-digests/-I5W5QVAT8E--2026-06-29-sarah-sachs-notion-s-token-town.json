@@ -1,0 +1,306 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:55:45.960538+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:d351d07dec591b2745e7926fa972878c792cfc2804db451cea6540ac10264e20",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um, your supplier is your competitor. I know very few people who have convinced me that that's not true.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that a supplier that also builds competing products is structurally a bad token-economics partner and leaves customers with weak exit options."
+      },
+      {
+        "evidenceExcerpt": "I don't think that that's winning on the token economics. I think it's about product. It's about building data flywheels and understanding your customers better than anyone else.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the winning strategy is not token economics alone but product advantage built from data flywheels, customer understanding, and the right capability-cost tradeoffs."
+      },
+      {
+        "evidenceExcerpt": "Notion's auto model does this really well. We have state-of-the-art models available always.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that Notion runs a model-agnostic setup, with an auto model handling about 75 percent of traffic and model switching available to avoid vendor lock-in."
+      },
+      {
+        "evidenceExcerpt": "um openweight models are really strong enough to handle these tasks and the possibility to RL on top of them has also kind of expanded the upmarket growth that they can cover.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that open-weight models are now strong enough for many tasks and create downward pricing pressure as well as negotiation leverage."
+      },
+      {
+        "evidenceExcerpt": "So, be prepared now. And the last thing is CPUs over GPUs. Um, we've we've recently launched something at notion called workers.",
+        "evidenceSegmentIds": [
+          "S0114"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that many jobs do not need GPUs or an LLM at all, and that deterministic work can be handled by CPUs and Workers instead."
+      },
+      {
+        "evidenceExcerpt": "Let's start there. There's this concept called the lethal trifecta. Simon Wilson, I think, crafted this.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "support": "explicit",
+        "text": "The speaker warns that combining private data, untrusted content, and external communication creates the lethal trifecta of security risk, especially as systems become more autonomous."
+      },
+      {
+        "evidenceExcerpt": "We already have the ability to inspect tasks. And you can imagine any task that you look at um in a notion document.",
+        "evidenceSegmentIds": [
+          "S0136"
+        ],
+        "support": "explicit",
+        "text": "The speaker shows Notion's current workflow where tasks in active documents can be scoped, iterated, and handed to agents and coding tools to produce a spec or a PR."
+      }
+    ],
+    "methodNotes": "I treated the transcript as untrusted evidence and grounded each structured item in exactly one segment ID. The summary is a synthesis across the whole talk and does not introduce outside facts.",
+    "methods": [
+      {
+        "description": "Route work by capability, latency, and cost instead of defaulting to the most capable model for every request.",
+        "evidenceExcerpt": "Understanding when you need capability, when you need low price, when you need latency improvements.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Capability-cost routing"
+      },
+      {
+        "description": "Keep multiple models available so the product can switch when pricing, quality, or availability changes.",
+        "evidenceExcerpt": "One option to navigate this is stay model agnostic. Have different models and capabilities in your system so that at any point if pricing seems unfair or untenable, you are not out of business.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "Model-agnostic routing"
+      },
+      {
+        "description": "Evaluate vendors on entire task trajectories rather than on single-call latency or cost alone.",
+        "evidenceExcerpt": "But if you have expertise in entire web search trajectories, you'll see how it differs. The granularity of this eval is what lets us make the best decisions for our customers because we understand all of the trade-offs on entire trajectories, not just single calls.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Trajectory evaluation"
+      },
+      {
+        "description": "Use open-weight models as a credible fallback and bargaining tool when frontier models are expensive or overkill.",
+        "evidenceExcerpt": "I view openw weight models as basically lowering the barrier to entry on cost for our customers and they also give you negotiation leverage.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Open-weight fallback"
+      },
+      {
+        "description": "Move deterministic workflows to CPUs or Workers instead of spending tokens on jobs that do not need an LLM.",
+        "evidenceExcerpt": "You definitely don't need an LLM to do deterministic SQL queries. This is where people become token poor very quick.",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "name": "CPU offload"
+      },
+      {
+        "description": "Treat tasks as active documents that multiple agents and humans can update collaboratively, including scoping, feedback, and PR creation.",
+        "evidenceExcerpt": "I'm going to skip ahead a little bit. We asked our TL what we needed. He replied again. It's a collaborative file, not just a markdown.",
+        "evidenceSegmentIds": [
+          "S0146"
+        ],
+        "name": "Active-document orchestration"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But if you have expertise in entire web search trajectories, you'll see how it differs. The granularity of this eval is what lets us make the best decisions for our customers because we understand all of the trade-offs on entire trajectories, not just single calls.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "question": "How can teams design evals that capture full task trajectories instead of only measuring single-call cost or latency?",
+        "whyItMatters": "That determines whether provider comparisons reflect real product outcomes or just narrow benchmarks."
+      },
+      {
+        "evidenceExcerpt": "If you have access to private data, exposure to untrusted content, whether it be through ingestion, MCP, email, right?",
+        "evidenceSegmentIds": [
+          "S0125"
+        ],
+        "question": "How should autonomous systems safely combine private data, untrusted content, and external communication without exposing the lethal trifecta?",
+        "whyItMatters": "This is the core safety boundary for agentic products that operate on enterprise workflows."
+      },
+      {
+        "evidenceExcerpt": "So, if the tasks that you're having today are good enough, then in six months, they're probably covered by open weight.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "question": "Which workloads should stay on frontier models versus move to open weights or CPUs as capability gaps continue to close?",
+        "whyItMatters": "That choice controls both margins and long-term vendor leverage."
+      }
+    ],
+    "summary": "Sarah Sachs argues that the real problem in building AI-native products is not just capability but sustainable economics. Her central thesis is that teams need leverage: they should stay model-agnostic, route traffic by task, evaluate providers on whole trajectories, and use open-weight models or CPUs whenever frontier models are unnecessary. The talk then extends that logic into software factories, where active documents and multi-agent orchestration can automate real work, but only if teams also account for security, governance, and the risks created by private data, untrusted content, and external communication.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "not actually having a Frontier product and remember that that optionality is your leverage if you don't have the capability to walk at any point you are stuck.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "text": "Keep optionality so you can walk away from a provider when pricing or terms become untenable."
+      },
+      {
+        "evidenceExcerpt": "When you triage an email inbox, if we're charging you to do that on Opus, we're ripping you off and ourselves.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "text": "Do not send every request to the most expensive frontier model when simpler tasks are being overcharged."
+      },
+      {
+        "evidenceExcerpt": "We find that our eval program partnerships actually help us a lot with Frontier Labs and is something that we can exchange instead of extraordinarily large commits and I don't think the discount is ever worth the loss in optionality.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "text": "Trade eval-program value and expertise for better terms when that preserves flexibility better than a large commitment."
+      },
+      {
+        "evidenceExcerpt": "Like you don't need an LLM to turn a CSV into a PDF. You don't need an LLM to talk to notion tool calls if we have a CLI.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "text": "Use deterministic code paths for jobs like CSV-to-PDF conversion or SQL queries instead of paying for an LLM."
+      },
+      {
+        "evidenceExcerpt": "We cannot do this without optionality and we cannot do this without conviction that we understand what models are required for which tasks.",
+        "evidenceSegmentIds": [
+          "S0155"
+        ],
+        "text": "A software factory cannot work without both model optionality and clear judgment about which model fits which task."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The company platform the speaker describes as the durable system of record and collaboration layer for humans and agents.",
+        "evidenceExcerpt": "Um, but this is just to give me some credit that that we're doing it kind of well. Okay, so for those of you that don't know, notion's always been that durable system of record.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "name": "Notion"
+      },
+      {
+        "description": "The AI agent used inside Notion to scope tasks and help drive collaborative workflows.",
+        "evidenceExcerpt": "You can have Claude actually go ahead and scope out what you need. We've launched this manage agent capability today.",
+        "evidenceSegmentIds": [
+          "S0137"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "The coding agent the speaker says can spin up a PR during the workflow demo.",
+        "evidenceExcerpt": "And we can have Claude actually go ahead and spin up the PR. Hopefully, this is looking a little familiar now.",
+        "evidenceSegmentIds": [
+          "S0147"
+        ],
+        "name": "Claude Code"
+      },
+      {
+        "description": "The web search provider mentioned in the partnership example used for trajectory-based evaluation.",
+        "evidenceExcerpt": "We posted this review when we um announced our partnership with Parallel as our web search provider.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Parallel"
+      },
+      {
+        "description": "The AI tool the speaker says can collect the right data needed for the workflow.",
+        "evidenceExcerpt": "You can ask Decagon agents, we're proud partners of them as well, to collect the right data that you need.",
+        "evidenceSegmentIds": [
+          "S0144"
+        ],
+        "name": "Decagon"
+      },
+      {
+        "description": "The product the speaker says Notion recently launched to handle discrete pieces of code on CPUs.",
+        "evidenceExcerpt": "So, be prepared now. And the last thing is CPUs over GPUs. Um, we've we've recently launched something at notion called workers.",
+        "evidenceSegmentIds": [
+          "S0114"
+        ],
+        "name": "Workers"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The economics of buying and reselling model tokens, including margin pressure and vendor leverage.",
+        "evidenceExcerpt": "Cost is a structural barrier to entry. It makes it hard for you to serve products. It makes it hard for you to build factories.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Token economics"
+      },
+      {
+        "description": "A product strategy that keeps multiple models available and avoids locking the business to one provider.",
+        "evidenceExcerpt": "One option to navigate this is stay model agnostic. Have different models and capabilities in your system so that at any point if pricing seems unfair or untenable, you are not out of business.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "Model optionality"
+      },
+      {
+        "description": "Judging providers by end-to-end task outcomes rather than by single-call metrics.",
+        "evidenceExcerpt": "But if you have expertise in entire web search trajectories, you'll see how it differs. The granularity of this eval is what lets us make the best decisions for our customers because we understand all of the trade-offs on entire trajectories, not just single calls.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Trajectory evaluation"
+      },
+      {
+        "description": "Using open-weight models as a practical alternative for many production tasks.",
+        "evidenceExcerpt": "um openweight models are really strong enough to handle these tasks and the possibility to RL on top of them has also kind of expanded the upmarket growth that they can cover.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "name": "Open-weight models"
+      },
+      {
+        "description": "Moving deterministic or low-complexity work off LLMs and onto CPUs or lightweight services.",
+        "evidenceExcerpt": "So, be prepared now. And the last thing is CPUs over GPUs. Um, we've we've recently launched something at notion called workers.",
+        "evidenceSegmentIds": [
+          "S0114"
+        ],
+        "name": "CPU offload"
+      },
+      {
+        "description": "The security risk created when private data, untrusted content, and external communication coexist in autonomous systems.",
+        "evidenceExcerpt": "Let's start there. There's this concept called the lethal trifecta. Simon Wilson, I think, crafted this.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Lethal trifecta"
+      },
+      {
+        "description": "Collaborative documents that act as live work surfaces for humans and agents.",
+        "evidenceExcerpt": "We already have the ability to inspect tasks. And you can imagine any task that you look at um in a notion document.",
+        "evidenceSegmentIds": [
+          "S0136"
+        ],
+        "name": "Active documents"
+      },
+      {
+        "description": "Coordinating multiple agents and humans across a software delivery workflow.",
+        "evidenceExcerpt": "Usually she does, but multi-agent orchestration is important. Maybe Claude Code isn't the best at customer voice, but Decagon is, right?",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "name": "Multi-agent orchestration"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:6ec44e02a01b3e5b19099195e91ab0cc45ebb1ac880437ee784863f4e8985721",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-sarah-sachs-notion-s-token-town",
+  "talkTitle": "Notion's Token Town",
+  "transcriptPath": "raw/sources/youtube-transcripts/-I5W5QVAT8E.txt",
+  "transcriptSha256": "sha256:030456d7908ba221f769c718f659ac6449ccc3287a7edf9de41b926db78a652f",
+  "videoId": "-I5W5QVAT8E"
+}

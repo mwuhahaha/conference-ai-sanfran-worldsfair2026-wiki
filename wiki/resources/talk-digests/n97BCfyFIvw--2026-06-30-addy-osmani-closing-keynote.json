@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:58:53.814879+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:8e1abf5175803b71a604cd2bfaaf467475d106af1e226349205791c5a72a7e30",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "They're going to own the evidence. They're going to own the understanding as well as the verdict.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the engineer of the future will own the evidence, the understanding, and the verdict behind the work."
+      },
+      {
+        "evidenceExcerpt": "The next move was loop engineering, where we weren't just prompting one run anymore. We were designing systems that kept prompting, checking, and remembering, and deciding what happened next.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "support": "strong",
+        "text": "He says the shift from single prompts to loop engineering turns agents into infrastructure, with humans still making the production decisions."
+      },
+      {
+        "evidenceExcerpt": "It actually helps the next agent. Another one of Sonar's research uh studies found that clean and messy repos had roughly the same pass rates, but clean code actually used fewer tokens and caused fewer revisits.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "support": "explicit",
+        "text": "He reports that AI-assisted code is now normal and that cleaner code helps both humans and agents by using fewer tokens and causing fewer revisits."
+      },
+      {
+        "evidenceExcerpt": "And so safety comes from making verification cheaper, clearer, and harder for people to skip.",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "support": "explicit",
+        "text": "He argues that verification is becoming the bottleneck, so safety depends on making verification cheaper, clearer, and harder to skip."
+      },
+      {
+        "evidenceExcerpt": "It's making better calls and leaving behind examples that your team and the system can learn from.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "support": "explicit",
+        "text": "He says the best version of taste is not mystique but making better calls and leaving behind examples that the team and system can learn from."
+      },
+      {
+        "evidenceExcerpt": "And this is why things like delegation debt end up mattering. You can have a build that passes, you know, your tests, a PR that you can merge, but your team can still end up losing its ability to actually explain the system that they are shipping to production.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "support": "explicit",
+        "text": "He warns that cognitive debt can let a team merge code while losing its ability to explain the system it is shipping to production."
+      },
+      {
+        "evidenceExcerpt": "And when tasks can end up, you know, lasting that long, especially when you begin running many of them in parallel, review can't just be a glance at the end.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "support": "explicit",
+        "text": "He says that when long-horizon tasks run in parallel, review cannot be just a glance at the end and has to become a control system."
+      },
+      {
+        "evidenceExcerpt": "And in many systems, you know, they can, they should. But execution and responsibility are very different things.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "support": "explicit",
+        "text": "He draws a hard line between execution and responsibility, saying agents can follow runbooks but cannot inherit consequences."
+      }
+    ],
+    "methodNotes": "Synthesis centers on the speaker's repeated boundary between agent execution and human judgment, then organizes the talk around operating model, failure modes, and career implications.",
+    "methods": [
+      {
+        "description": "Compose the model with context, tools, file system access, and Git so intelligence becomes something you can delegate to.",
+        "evidenceExcerpt": "Your context, your tools, your file system, Git. And the harness is what turns intelligence into something that you can delegate to.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "Harness engineering"
+      },
+      {
+        "description": "Design systems that keep prompting, checking, remembering, and deciding the next step instead of relying on a single run.",
+        "evidenceExcerpt": "The next move was loop engineering, where we weren't just prompting one run anymore. We were designing systems that kept prompting, checking, and remembering, and deciding what happened next.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Loop engineering"
+      },
+      {
+        "description": "Use humans for deciding, verifying, approving, and owning what reaches production while agents handle the inner execution loop.",
+        "evidenceExcerpt": "But then the engineering really begins. We decide whether the work was worth doing. We verify whether the evidence is enough, and we approve or redirect or own what reaches production.",
+        "evidenceSegmentIds": [
+          "S0108"
+        ],
+        "name": "Outer-loop governance"
+      },
+      {
+        "description": "Test skills against frontier progress so you know which capabilities are decaying and which edges need to move up a level.",
+        "evidenceExcerpt": "Now, let's apply the decay test. Well, we used to have speed. That decayed. We used to have recall.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Decay test"
+      },
+      {
+        "description": "Map contribution from flagging a problem through resolving it, with discernment as the highest form of agency.",
+        "evidenceExcerpt": "It's not just hustle theater, but it's ownership with judgment attached. This agency ladder tries to make that a little bit more concrete.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "Agency ladder"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And the hard questions are also like what constraints guided that work? What evidence was produced?",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "question": "How should teams capture the constraints, evidence, risk acceptance, and ownership of agent work in a way review can trust?",
+        "whyItMatters": "The talk treats these as the missing artifacts needed for answerability once agents can produce more than humans can inspect."
+      },
+      {
+        "evidenceExcerpt": "And when tasks can end up, you know, lasting that long, especially when you begin running many of them in parallel, review can't just be a glance at the end.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "question": "What does a real control system for long-horizon, parallel agent work look like in practice?",
+        "whyItMatters": "The speaker says end-of-pipeline review is not enough once work streams stretch over time and fan out in parallel."
+      },
+      {
+        "evidenceExcerpt": "The agent can follow your runbook, but it can't inherit the consequences. When something fails, the question is, who understood the policy?",
+        "evidenceSegmentIds": [
+          "S0095"
+        ],
+        "question": "How can organizations enforce the boundary between agent execution and human responsibility when agents can route, merge, and escalate?",
+        "whyItMatters": "The talk argues that agents can act inside policy, but someone still has to understand the policy and own the blast radius."
+      }
+    ],
+    "summary": "Addy Osmani argues that the engineer of the future is less defined by how much code they can produce and more by how well they choose what is worth doing, judge evidence, and stand behind production decisions. His core operating model is an outer human loop wrapped around agent-driven inner loops: agents can investigate, implement, test, and report, but humans must verify, approve, redirect, and accept risk. The main tradeoff is that generation is becoming cheaper faster than comprehension, which creates cognitive debt, borrowed confidence, and orchestration overhead unless teams make verification cheaper and more explicit. The practical consequence is a stricter role for engineers: use agents for leverage, but keep judgment, accountability, and the final verdict with humans.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "But then the engineering really begins. We decide whether the work was worth doing. We verify whether the evidence is enough, and we approve or redirect or own what reaches production.",
+        "evidenceSegmentIds": [
+          "S0108"
+        ],
+        "text": "Keep the human in the outer loop: agents can do the execution, but people must decide, verify, and own the result that reaches production."
+      },
+      {
+        "evidenceExcerpt": "And when tasks can end up, you know, lasting that long, especially when you begin running many of them in parallel, review can't just be a glance at the end.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "text": "Treat review as a control system, not a final glance, when work lasts longer and runs in parallel."
+      },
+      {
+        "evidenceExcerpt": "It's making better calls and leaving behind examples that your team and the system can learn from.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "text": "Use taste as a judgment skill that produces better calls and reusable examples, not as a vague marker of status."
+      },
+      {
+        "evidenceExcerpt": "And this is why things like delegation debt end up mattering. You can have a build that passes, you know, your tests, a PR that you can merge, but your team can still end up losing its ability to actually explain the system that they are shipping to production.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "text": "Watch for cognitive debt, because delegating too much can leave the team unable to explain the system it ships."
+      },
+      {
+        "evidenceExcerpt": "It's going to move the bottleneck from can we build this to should this exist and can we answer for it?",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "text": "Assume automation will expand demand and shift the bottleneck toward deciding what should exist and who can answer for it."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The version-control system named as part of the agent harness around coding work.",
+        "evidenceExcerpt": "Your context, your tools, your file system, Git. And the harness is what turns intelligence into something that you can delegate to.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "Git"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that humans remain accountable for evidence, understanding, and verdict even as agents do more work.",
+        "evidenceExcerpt": "They're going to own the evidence. They're going to own the understanding as well as the verdict.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Human answerability"
+      },
+      {
+        "description": "The operating model where agents handle the inner execution loop and humans handle the outer decision loop.",
+        "evidenceExcerpt": "The outer loop is agency. And this is a boundary that I really care about. Your agent returns evidence.",
+        "evidenceSegmentIds": [
+          "S0106"
+        ],
+        "name": "Outer-loop governance"
+      },
+      {
+        "description": "The ability to make high-quality qualitative judgments when no objective metric exists yet.",
+        "evidenceExcerpt": "Mitchell Hashimoto gave us a more useful version of this definition. Taste is the ability to make high-quality qualitative judgments where no objective metric exists yet.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "name": "Taste"
+      },
+      {
+        "description": "The erosion of understanding and memory that can follow heavy reliance on agents.",
+        "evidenceExcerpt": "Well, the first thing to avoid really is cognitive debt. Now, cognitive debt is the erosion of your understanding and memory around how to solve problems.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Cognitive debt"
+      },
+      {
+        "description": "The shift from a final review step to a broader system for routing, verifying, and integrating work.",
+        "evidenceExcerpt": "It has to become a whole control system. The second thing to avoid is cognitive surrender.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "Verification control systems"
+      },
+      {
+        "description": "The pattern where cheaper software creation expands the set of problems people want built.",
+        "evidenceExcerpt": "It's going to move the bottleneck from can we build this to should this exist and can we answer for it?",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Demand expansion from automation"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5be3121a89aec25d1a0370ad3926f0a73c5dea02ef8707ac02a197a2b3a72349",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-addy-osmani-closing-keynote",
+  "talkTitle": "Closing Keynote",
+  "transcriptPath": "raw/sources/youtube-transcripts/n97BCfyFIvw.txt",
+  "transcriptSha256": "sha256:dd891f7b64bd2025ba5ecbdb90861629aacc49ef9ebc24df73bcda9641789bc4",
+  "videoId": "n97BCfyFIvw"
+}

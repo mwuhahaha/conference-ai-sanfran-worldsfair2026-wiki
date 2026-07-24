@@ -38,32 +38,79 @@ This scheduled keynote sits in the Software Factories track and brings together 
 The linked Romain Huet video, "From Text to Vision to Voice Exploring Multimodality with Open AI," provides the strongest contextual evidence currently attached to this page. Its extracted and reconstructed slide pages point toward themes such as GPT-4-era model evolution, cheaper and more capable models, vision use cases, natural interfaces, and developer tooling. Taken together with Embiricos's background in Codex and enterprise product, the session is likely best treated as a keynote about how AI engineering is moving from isolated model demos toward production software factories, where multimodal models, developer platforms, and enterprise workflows become part of the same engineering system.
 
 ## Synthesis
-### Synthesized Breakdown
-Good morning everyone. I'm Raman. Hey everyone. I'm Alexander.
+### Transcript-Backed Summary
+The talk argues that AI engineering is not the end of engineering but a return to its roots: engineers are still needed to combine fast-moving science with judgment, design, and taste to solve real problems. Its central mechanism is a layered agent stack and a dual-mode product shape, where chat handles delegation and a collaborative surface handles inspection, steering, review, and deployment; this lets agents take on more of the lifecycle before, during, and after coding. The main tradeoff is that as models become faster and more capable, value comes less from watching every token and more from designing reliable loops, open interfaces, and the right environment for each task, so humans can spend attention only where decisions matter most.
 
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
+### Key Takeaways
+- The speakers frame AI engineering as a continuation of engineering fundamentals, not a replacement for them.
+  - Evidence: "And in that sense, it's not the end of engineering. We think it's a return to the roots of engineering."
+- The interface should let people ask for help anywhere and then inspect or steer work when needed.
+  - Evidence: "And then you want a a powerful collaborative UI that you can use when you want to inspect, steer, or shape things yourself."
+- OpenAI wants the same primitives it uses internally to be exposed through the API so developers can reuse them.
+  - Evidence: "always try to bake it into the API first so you can benefit as well one example recently was compaction codex needed a way to compact long context for longunning tasks and so we'll build that into the API So that means your agents can use the same primitives that we built for ourselves."
+- The practical working pattern is to review once at the outer loop and let agents handle execution, testing, and landing the change.
+  - Evidence: "I review once, I re leave a note, I maybe approve, the loop continues and it can land after the checks pass."
+
+### Claims From The Talk
+- The speakers argue that AI engineers are now the people pushing the frontier, not a class being made obsolete by AI. (`explicit`)
+  - Evidence: "But now what we're here to say is that the AI engineers are eating the world. AI engineers are the people here pushing the frontier."
+- They say engineering is fundamentally about combining science with design, taste, judgment, and imagination to make useful things for people. (`explicit`)
+  - Evidence: "It's about taking the latest science and combining it with design, with taste, with judgment, and most of all, imagination to make something that people can actually use."
+- The product goal is to maximize engineer empowerment rather than automate engineers away. (`explicit`)
+  - Evidence: "Instead, the the product shape that we want is one that maximally empowers engineers. So, you know, if we think about what that product shape is, we actually think it's pretty simple."
+- Codex is presented as an open, layered stack that OpenAI uses itself and intends for others to build on. (`explicit`)
+  - Evidence: "cannot be a closed product that only openai can improve so we've intentionally designed codeex as a set of layers that anyone can build on and we want to show you a little bit of that stack today and how it it manifests first it starts with the model and Alexander showed how quickly we're"
+- Peter Steinberger describes the core agent loop as persistent context, delegation, and triggers. (`explicit`)
+  - Evidence: "So we have persistent context, delegation and triggers. There's your loop. And once the loop starts working, you discover the next problem."
+- He says the limiting factor has moved from tokens and compute to human attention. (`explicit`)
+  - Evidence: "And unlike tokens or compute, I can't simply add more of it. So the most important skill is today is deciding where to spend it."
 
 ### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[agentic-web]]
-- [[coding-agents]]
+- **AI engineering** — The role of engineers in an AI-native software era.
+- [[coding-agents|Collaborative agent UI]] — A product model that combines chat delegation with hands-on steering.
+- [[ai-sandboxes|Open agent stack]] — An application and infrastructure strategy where the same stack is used internally and externally.
+- **Value maxing** — Optimizing for user value rather than raw token output.
+- [[coding-agents|Manager-worker loops]] — Long-lived coordination between a manager agent and worker agents.
+- [[ai-sandboxes|Agent host placement]] — Choosing the right host or environment for each agent task.
+
+### Tools And Named Systems
+- **Codex app** — The product surface for chatting with and steering coding agents.
+- **Codex Cloud** — The cloud execution environment for agents.
+- **Responses API** — The API layer used to access the same model primitives that power the product.
+- **Codex harness** — The open-source harness that defines the agent loop.
+- **Apps server** — The open-source application server used to unify Codex apps and sign-in flows.
+- **browser use** — A plugin that enables browser-based agent actions.
+- **computer use** — A plugin that enables computer-based agent actions.
+- **GPT 5.6 Terra** — A model family described as bringing GPT-5.5-level intelligence at half the cost.
+- **GPT 5.6 Cel** — A fast model deployment described as running frontier intelligence on Cerebras.
+
+### Novel Concepts And Methods
+- **Chat-plus-hands-on workflow** — Start with chat for broad delegation, then switch into a hands-on collaborative surface when you need to inspect or steer details.
+- **Build-test loop** — Use build and test feedback so the model can verify its work instead of relying on blind generation.
+- **Persistent manager loop** — Keep long-lived state, delegation, and wake-up triggers so a manager agent can coordinate work across time.
+- **Outer-loop review** — Operate in an outer loop where the human reviews, approves, and redirects while workers execute the inner loop.
+
+### Open Questions
+- **How should an agent decide which environment to use for a given task when it can run locally, in the cloud, or on another connected machine?** — That choice determines whether the agent can act autonomously without forcing the user to manage infrastructure details.
+- **How can a long-lived manager agent stay reachable from places like Slack or text without being trapped inside a single app session?** — If this works, agents become persistent collaborators instead of isolated tools.
+- **Can the agent design the whole work loop for the user, not just execute tasks inside an existing loop?** — That would push the product from task automation toward workflow design.
 
 ### Derived Links And Source Material
-- [[youtube-pMggiOb18tc-transcript]] — dedicated official recording transcript; source cache `raw/sources/youtube-transcripts/pMggiOb18tc.txt` (4,606 words).
-- [[youtube-pMggiOb18tc]] — related YouTube source page.
-- [[youtube-pMggiOb18tc-slides]] — slide evidence.
-- [[youtube-yJHw33cVeHo]] — related YouTube source page.
-- [[youtube-yJHw33cVeHo-slides]] — slide evidence.
-- [[youtube-yJHw33cVeHo-reconstructed-slides]] — slide evidence.
-- [[youtube-yJHw33cVeHo-dense-slides]] — slide evidence.
+- [[youtube-pMggiOb18tc-transcript]] — dedicated official recording transcript.
+- [[youtube-pMggiOb18tc]] — official event recording.
+- Structured digest: `wiki/resources/talk-digests/pMggiOb18tc--2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering.json`.
 
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+### Speaker Context
+- No speaker profile is attached in the official schedule data.
+
+### Semantic Digestion Status
+- Complete: 1 matched recording digest(s) passed the evidence contract.
+- Generator: `talk-semantic-digestion-v1`.
+- Contract: `sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990`.
 
 ### Evidence Boundary
-This synthesis uses the official schedule and only a dedicated manifest-matched recording transcript for session-level claims and topic extraction. Related official-channel, external, and broad livestream sources remain supporting context and do not stand in for the scheduled session.
+This section is synthesized only from official schedule metadata and dedicated manifest-matched recording transcripts. Every listed takeaway, claim, topic, tool, method, and question is bound to a verbatim transcript excerpt in the structured digest. Speaker claims remain attributed event evidence, not independent verification.
+
 ## People
 - [[alexander-embiricos]]
 - [[romain-huet]]

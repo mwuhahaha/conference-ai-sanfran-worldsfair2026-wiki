@@ -1,0 +1,335 @@
+{
+  "algorithmVersion": 3,
+  "batchIndex": 2,
+  "candidateCount": 46,
+  "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
+  "generatedAt": "2026-07-24T20:41:23.319855+00:00",
+  "generatedBy": "cross-talk-topic-map-v1",
+  "inputSha256": "sha256:9f3ab745daa0581c1716d9ddaa99c6421e069cac86984587fef6d7d3501c39a2",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "clusters": [
+      {
+        "canonicalTopic": "human oversight for semantic approvals",
+        "memberIds": [
+          "T0003"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Structured human review that evaluates meaning and intent instead of treating approvals as a mechanical click-through."
+      },
+      {
+        "canonicalTopic": "value-maxing agent engineering",
+        "memberIds": [
+          "T0009"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Optimizing agent work for user value rather than raw token output or surface-level throughput."
+      },
+      {
+        "canonicalTopic": "software-first optimization",
+        "memberIds": [
+          "T0015"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The shift from hardware-first thinking toward software-driven gains in AI performance."
+      },
+      {
+        "canonicalTopic": "end-to-end system slices",
+        "memberIds": [
+          "T0021"
+        ],
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "Breaking implementation into coordinated vertical slices that deliver complete system behavior."
+      },
+      {
+        "canonicalTopic": "verification-first agent development",
+        "memberIds": [
+          "T0027",
+          "T0033",
+          "T0129",
+          "T0159",
+          "T0171"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using static analysis, exploit replays, UI checks, and regression gates to validate agent behavior before merge or release."
+      },
+      {
+        "canonicalTopic": "agent security workflow noise",
+        "memberIds": [
+          "T0039"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Managing the tradeoff between strict enforcement and false-positive noise that disrupts developer flow."
+      },
+      {
+        "canonicalTopic": "long-running background agents",
+        "memberIds": [
+          "T0045",
+          "T0135",
+          "T0141"
+        ],
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "Agents that run for extended periods in the background with limited human steering and require durable orchestration."
+      },
+      {
+        "canonicalTopic": "proactive agent UX",
+        "memberIds": [
+          "T0051"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Interfaces where agents initiate alerts or actions from shared context instead of only responding to direct prompts."
+      },
+      {
+        "canonicalTopic": "compute scaling for frontier training",
+        "memberIds": [
+          "T0057"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Scaling compute, data-center capacity, and chips to support larger parallel training efforts."
+      },
+      {
+        "canonicalTopic": "secure agent execution sandboxes",
+        "memberIds": [
+          "T0063",
+          "T0111"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "Containing agents and their tool calls in stronger sandbox boundaries such as micro-VMs for unsafe or production-capable execution."
+      },
+      {
+        "canonicalTopic": "agent optimization through evaluation",
+        "memberIds": [
+          "T0069"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Improving agents by generating candidates, evaluating them, and deploying the best-performing behaviors."
+      },
+      {
+        "canonicalTopic": "harness-centric industry phase",
+        "memberIds": [
+          "T0075"
+        ],
+        "preferredExistingTopicSlug": "software-factories",
+        "synthesis": "The stage where attention shifts from agents themselves to the harnesses and scaffolding around them."
+      },
+      {
+        "canonicalTopic": "token economics and platform leverage",
+        "memberIds": [
+          "T0081"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The economics of buying, reselling, and negotiating model tokens under margin pressure and vendor leverage."
+      },
+      {
+        "canonicalTopic": "active documents as work surfaces",
+        "memberIds": [
+          "T0087"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Collaborative documents that serve as live shared workspaces for humans and agents."
+      },
+      {
+        "canonicalTopic": "prompt injection",
+        "memberIds": [
+          "T0093"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Attacks that steer model behavior by manipulating prompts or training data."
+      },
+      {
+        "canonicalTopic": "trace representation infrastructure",
+        "memberIds": [
+          "T0099"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Trace and renderer machinery that preserves logical structure across tokenization and chat templates."
+      },
+      {
+        "canonicalTopic": "agentic query routing",
+        "memberIds": [
+          "T0105"
+        ],
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "Chaining outline, search, and thematic shapes to answer mixed structured and unstructured questions."
+      },
+      {
+        "canonicalTopic": "taste in AI systems",
+        "memberIds": [
+          "T0117"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "High-quality qualitative judgment when objective metrics are missing or incomplete."
+      },
+      {
+        "canonicalTopic": "capability drift",
+        "memberIds": [
+          "T0123"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Rising model capability shifts where review happens and where proof must live."
+      },
+      {
+        "canonicalTopic": "human understanding as participation",
+        "memberIds": [
+          "T0147"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Preserving operator understanding of the system, not just validating outputs after the fact."
+      },
+      {
+        "canonicalTopic": "capability-skills lifecycle",
+        "memberIds": [
+          "T0153"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Skills that fill current model gaps but may become unnecessary as base capability improves."
+      },
+      {
+        "canonicalTopic": "trace-driven learning loops",
+        "memberIds": [
+          "T0165"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using interaction traces to accumulate shared context and improve future agent behavior."
+      },
+      {
+        "canonicalTopic": "capability overhang",
+        "memberIds": [
+          "T0177"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Useful capability that appears when models are paired with tools rather than only scaled in size or context."
+      },
+      {
+        "canonicalTopic": "agent security and access control",
+        "memberIds": [
+          "T0183"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Permission and logic failures that create first-foothold vulnerabilities in agent systems."
+      },
+      {
+        "canonicalTopic": "community reuse as impact signal",
+        "memberIds": [
+          "T0189"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Measuring whether an agent's ideas spread through the community and get reused."
+      },
+      {
+        "canonicalTopic": "business knowledge scaffolding",
+        "memberIds": [
+          "T0195"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Preparing company facts, capabilities, and personas as reusable reference material before generation."
+      },
+      {
+        "canonicalTopic": "provenance propagation in knowledge graphs",
+        "memberIds": [
+          "T0201"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Projecting a source classification onto descendant nodes and edges after ingestion."
+      },
+      {
+        "canonicalTopic": "shared enterprise substrate for thin agents",
+        "memberIds": [
+          "T0207"
+        ],
+        "preferredExistingTopicSlug": "mcp-app-runtime",
+        "synthesis": "Building thinner agents that rely on a shared enterprise knowledge substrate instead of carrying all context themselves."
+      },
+      {
+        "canonicalTopic": "ontology-based guardrails",
+        "memberIds": [
+          "T0213"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using explicit ontology rules to constrain probabilistic agent behavior."
+      },
+      {
+        "canonicalTopic": "context graphs for video memory",
+        "memberIds": [
+          "T0219"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A queryable graph linking moments, entities, relationships, and corpus context for video understanding."
+      },
+      {
+        "canonicalTopic": "deterministic browser rendering",
+        "memberIds": [
+          "T0225"
+        ],
+        "preferredExistingTopicSlug": "nearly-headless-web",
+        "synthesis": "Using browser rendering to produce repeatable video output."
+      },
+      {
+        "canonicalTopic": "qualitative learning from product feedback",
+        "memberIds": [
+          "T0231"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Improving evaluation quality from product feedback and textual signals rather than only hand-built metrics."
+      },
+      {
+        "canonicalTopic": "hierarchical graph modeling",
+        "memberIds": [
+          "T0237"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Graph structures that represent both additive DAGs and hierarchical rollups for organizations."
+      },
+      {
+        "canonicalTopic": "specialized local models",
+        "memberIds": [
+          "T0243"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Task-specific models that replace the assumption that one model must handle everything."
+      },
+      {
+        "canonicalTopic": "local inference optimization",
+        "memberIds": [
+          "T0249"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Improving local model performance through tuning, quantization, and configuration on existing hardware."
+      },
+      {
+        "canonicalTopic": "durable work understanding",
+        "memberIds": [
+          "T0255"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "Enterprise assistants maintaining durable understanding of a user and their work over time."
+      },
+      {
+        "canonicalTopic": "graph-based multihop reasoning",
+        "memberIds": [
+          "T0261"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using graph structure to answer questions that require multiple relationship hops."
+      },
+      {
+        "canonicalTopic": "breadth versus depth in software strategy",
+        "memberIds": [
+          "T0267"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Contrasting breadth and depth as a framing for modern product strategy."
+      },
+      {
+        "canonicalTopic": "reusable agent packs",
+        "memberIds": [
+          "T0273"
+        ],
+        "preferredExistingTopicSlug": "mcp-app-runtime",
+        "synthesis": "Bundling schemas, tools, behaviors, and policies into reusable agent units."
+      }
+    ]
+  },
+  "payloadSha256": "sha256:abc78b8906dea43eab9435bc54e696007c5f7a98a33d96e63f2210b28b2df65e",
+  "schemaVersion": 1
+}

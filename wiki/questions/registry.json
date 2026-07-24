@@ -2,43 +2,31 @@
   {
     "id": "how-should-coding-agents-be-evaluated-before-production-use",
     "title": "How should coding agents be evaluated before production use?",
-    "path": "wiki/questions/how-should-coding-agents-be-evaluated-before-production-use.md",
-    "status": "active",
-    "sourceCount": 10
+    "path": "wiki/questions/how-should-coding-agents-be-evaluated-before-production-use.md"
   },
   {
     "id": "what-context-graph-and-memory-architecture-is-practical",
     "title": "What context graph and memory architecture is practical?",
-    "path": "wiki/questions/what-context-graph-and-memory-architecture-is-practical.md",
-    "status": "active",
-    "sourceCount": 13
+    "path": "wiki/questions/what-context-graph-and-memory-architecture-is-practical.md"
   },
   {
     "id": "what-latency-and-cost-budget-is-right-for-agent-systems",
     "title": "What latency and cost budget is right for agent systems?",
-    "path": "wiki/questions/what-latency-and-cost-budget-is-right-for-agent-systems.md",
-    "status": "active",
-    "sourceCount": 13
+    "path": "wiki/questions/what-latency-and-cost-budget-is-right-for-agent-systems.md"
   },
   {
     "id": "what-makes-a-codebase-agent-ready",
     "title": "What makes a codebase agent-ready?",
-    "path": "wiki/questions/what-makes-a-codebase-agent-ready.md",
-    "status": "active",
-    "sourceCount": 13
+    "path": "wiki/questions/what-makes-a-codebase-agent-ready.md"
   },
   {
     "id": "what-security-boundaries-should-agents-have",
     "title": "What security boundaries should agents have?",
-    "path": "wiki/questions/what-security-boundaries-should-agents-have.md",
-    "status": "active",
-    "sourceCount": 13
+    "path": "wiki/questions/what-security-boundaries-should-agents-have.md"
   },
   {
     "id": "when-do-software-factories-outperform-individual-ide-agents",
     "title": "When do software factories outperform individual IDE agents?",
-    "path": "wiki/questions/when-do-software-factories-outperform-individual-ide-agents.md",
-    "status": "active",
-    "sourceCount": 9
+    "path": "wiki/questions/when-do-software-factories-outperform-individual-ide-agents.md"
   }
 ]

@@ -80,6 +80,12 @@ OFFICIAL_PLAYLIST_BASELINE_IDS = (
     "PXXNCtfKZs0",
 )
 OFFICIAL_PLAYLIST_SCHEDULE_OVERRIDES = {
+    "1EZdpEhwmNc": (
+        "2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on",
+    ),
+    "YnNF55QV0zs": (
+        "2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research",
+    ),
     "xUnRQ9vLXxo": ("2026-07-01-theo-browne-closing-keynote-theo-browne",),
 }
 EXPLICIT_WF26_OFFICIAL_LIVESTREAM_IDS = frozenset(

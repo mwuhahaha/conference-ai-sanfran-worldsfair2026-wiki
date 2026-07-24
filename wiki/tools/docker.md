@@ -23,10 +23,10 @@ sourceAssessment:
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-ZSQb5fzRFPw
+  - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:16f363230c6f763cc5ae687f3cbe4ecc9c65a06d3c207493c6fa169a1c8541ea
+sourceAssessmentBodySha256: sha256:1e539453bc26d067b20011a3d960c87f8c1fcc941f9db7259e57e0dc787a3b3c
 ---
-
 # Docker
 
 ## Conference Context
@@ -34,6 +34,15 @@ Docker appears as a high-confidence tool, platform, model, protocol, product, or
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 2 evidence-bound talk digest(s).
+
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Container platform used to build the representative sandbox with separate app, database, and cache images.
+  - Transcript: [[youtube-imFedndyXYQ-transcript]]
+  - Evidence: "So how would a sandbox for order service look like? Well this is a simple sandbox uh three docker images connected together."
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — The containerization technology that creates the Docker socket exposure discussed in the talk.
+  - Transcript: [[youtube-LqLoYksJ6do-transcript]]
+  - Evidence: "Um but our world is much more complicated than that, at least nowadays in our world since we have containers."
 ## Confirmed Evidence
 
 ### Official Schedule

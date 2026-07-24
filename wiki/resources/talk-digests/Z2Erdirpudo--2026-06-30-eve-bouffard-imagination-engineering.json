@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:00:46.836296+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:7932038f3e08ea7daf7906bf7191e1aee7ee06b526518e401cd7e4d026e86499",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And I think that the new bottleneck will be to come up with like crazy ideas because it's going to be really easy to one-shot absolutely everything and anything very soon.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that as models become more capable, the main bottleneck will shift from implementation to imagination and idea generation."
+      },
+      {
+        "evidenceExcerpt": "But what about thinking in public? And it's basically what PG is doing, thinking in public.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "support": "explicit",
+        "text": "The speaker frames the experiment as a form of thinking in public, analogous to building in public but focused on exposing a stream of consciousness."
+      },
+      {
+        "evidenceExcerpt": "And for a week have been brain dumping everything that has crossed my mind. And 2 days ago, I asked Opus 4.8, I wish it was Fable, but it was Opus 4.8 on Saturday to make a website that encapsulate all the thoughts that I had in the last week.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports giving Opus 4.8 a week of brain dumps and asking it to turn them into a website."
+      },
+      {
+        "evidenceExcerpt": "I created this really fun tool. I call it Shape of Minds and it's a way for us to find commonality across different dimensions of the most beautiful brains in the history of humanity.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports building Shape of Minds to find commonality across great minds along multiple dimensions."
+      },
+      {
+        "evidenceExcerpt": "And so I just explored a few concepts like the 10 principles of good design and um like Renaissance patronage is also something that I'm fascinated by right now.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "support": "explicit",
+        "text": "The speaker says models can generate short reports on topics the speaker wants to understand more deeply, making learning more efficient."
+      }
+    ],
+    "methodNotes": "I used only the provided schedule metadata and transcript, treated the transcript as speaker self-report rather than verification, and assigned exactly one transcript segment to each listed item.",
+    "methods": [
+      {
+        "description": "Publish a private stream of consciousness to a trusted workspace so thoughts become inspectable and reusable.",
+        "evidenceExcerpt": "The YC Slack. It was what if I thought in public and I allowed a few people that I highly trust at YC to have access to my stream of consciousness.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Thinking in public"
+      },
+      {
+        "description": "Turn a week of notes into a generated website that reflects the writer's ideas and preferences.",
+        "evidenceExcerpt": "And for a week have been brain dumping everything that has crossed my mind. And 2 days ago, I asked Opus 4.8, I wish it was Fable, but it was Opus 4.8 on Saturday to make a website that encapsulate all the thoughts that I had in the last week.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Stream-to-site synthesis"
+      },
+      {
+        "description": "Distill a person's tone from public writings into a reusable voice file for generation and editing.",
+        "evidenceExcerpt": "Um, but yeah, there's so many things that I want to show here. So, I asked it to create a voice on MD which um it picked up on all the writings that it could find on the internet that was written by me including my tweets and everything and then it made it distilled it into an MD file that is my tone and what makes me unique as a person.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Voice distillation"
+      },
+      {
+        "description": "Keep generated design rules synchronized with changes so new components inherit the same language automatically.",
+        "evidenceExcerpt": "And whenever I make a a change to the design of this website or create a new uh component, it automatically updates it.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Live design-language updating"
+      },
+      {
+        "description": "Time-box exploratory builds with a visible timer to force completion under a deadline.",
+        "evidenceExcerpt": "And funny enough, I made this page this morning when I started working on this project and I knew that I had a a deadline to hit and so I made a timer for myself uh when I started 10:10 a.m.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "name": "Deadline-constrained prototyping"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "The YC Slack. It was what if I thought in public and I allowed a few people that I highly trust at YC to have access to my stream of consciousness.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "question": "What level of access to a thought stream preserves candor while still making the sharing useful?",
+        "whyItMatters": "The whole experiment depends on openness, but the talk also implies a trust boundary that needs to be defined."
+      },
+      {
+        "evidenceExcerpt": "I created this really fun tool. I call it Shape of Minds and it's a way for us to find commonality across different dimensions of the most beautiful brains in the history of humanity.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "question": "Which dimensions best capture the shape of notable minds without flattening their differences too much?",
+        "whyItMatters": "The value of the tool depends on whether its comparison dimensions reveal something real and reusable."
+      },
+      {
+        "evidenceExcerpt": "Um what else can I share? Um oh, this is a MD of it's a glossary of all the information that is displayed on this project.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "question": "What is the right structure for agent-readable glossaries and documentation so they stay accurate as the project changes?",
+        "whyItMatters": "The talk suggests agents work better with explicit structure, but that structure has to be maintained over time."
+      }
+    ],
+    "summary": "The talk argues that as models get capable enough to make implementation cheap, the scarce resource becomes imagination: finding unusual, valuable ideas and extending what seems possible. To explore that shift, the speaker describes a personal experiment in thinking in public through Slack, then using models to transform those thoughts into a website, voice and design-language artifacts, a comparative minds tool, and small utility apps. The practical consequence is a new workflow for making software and learning faster: externalize your stream of consciousness, let models compress and organize it, and use agent-friendly structure to keep the result usable, while accepting tradeoffs around privacy, overload, and the risk of over-automating personal expression.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "But what about thinking in public? And it's basically what PG is doing, thinking in public.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "text": "Thinking in public can be treated as a direct counterpart to building in public, where the output is not code first but the reasoning behind it."
+      },
+      {
+        "evidenceExcerpt": "Um, but yeah, there's so many things that I want to show here. So, I asked it to create a voice on MD which um it picked up on all the writings that it could find on the internet that was written by me including my tweets and everything and then it made it distilled it into an MD file that is my tone and what makes me unique as a person.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "text": "A model can distill a person's writing into a voice file that becomes reusable infrastructure for future generation."
+      },
+      {
+        "evidenceExcerpt": "Um what else can I share? Um oh, this is a MD of it's a glossary of all the information that is displayed on this project.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "text": "Adding glossaries and other machine-readable context makes a project easier for agents to understand and maintain."
+      },
+      {
+        "evidenceExcerpt": "And funny enough, I made this page this morning when I started working on this project and I knew that I had a a deadline to hit and so I made a timer for myself uh when I started 10:10 a.m.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "text": "A visible deadline can keep an ambitious exploratory project from expanding beyond the available time."
+      },
+      {
+        "evidenceExcerpt": "You should you should just get ask a a model to prepare like a little like report for you on this topic and that's what I started doing a few few days ago.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "text": "Short AI-generated briefs can turn curiosity into a practical learning loop for topics the speaker wants to understand better."
+      }
+    ],
+    "tools": [
+      {
+        "description": "Used to create an image of the Library of Alexandria for the talk's framing.",
+        "evidenceExcerpt": "And the reason I took this um that I created with ChatGPT this image, it's the Library of Alexandria, which was like the center of knowledge uh many thousand years ago.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "ChatGPT"
+      },
+      {
+        "description": "Used to generate the website from a week of brain dumps.",
+        "evidenceExcerpt": "And for a week have been brain dumping everything that has crossed my mind. And 2 days ago, I asked Opus 4.8, I wish it was Fable, but it was Opus 4.8 on Saturday to make a website that encapsulate all the thoughts that I had in the last week.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Opus 4.8"
+      },
+      {
+        "description": "Used to generate a checklist of completeness items for the project.",
+        "evidenceExcerpt": "And so, Claude made this really lovely list of all the things that I should be that I should hit including like an open graph picture and things like that.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "Referenced as a capable model and campaign used to shape the design language of the project.",
+        "evidenceExcerpt": "Um and I also created a design so if you had not um picked up on this, the entire design language of this tool that I built this morning was in celebration of the Fable 5 campaign that came back.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "name": "Fable 5"
+      },
+      {
+        "description": "Used as the channel where the speaker published the thought stream.",
+        "evidenceExcerpt": "And I was heavily inspired by his approach, and I did the same for the YC Slack, and I created Eve Thoughts.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "Slack"
+      },
+      {
+        "description": "Referenced as the environment for spinning off agents on the go.",
+        "evidenceExcerpt": "That's why I'm so excited about Cloud Workspaces as well is because it's going to be very possible very soon with Conductor Cloud to be able to spin off a bunch of agents on the go as I'm like traveling from one place to another.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Conductor Cloud"
+      },
+      {
+        "description": "Used as a design tool whose sheeters were incorporated into the website's customization.",
+        "evidenceExcerpt": "Paper, if you know, it's a a new design tool. Um, I can show you the website if you want. I love their product.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "name": "Paper"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that model progress shifts value from implementation to idea generation.",
+        "evidenceExcerpt": "And I think that the new bottleneck will be to come up with like crazy ideas because it's going to be really easy to one-shot absolutely everything and anything very soon.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "name": "Imagination engineering"
+      },
+      {
+        "description": "Publishing one's reasoning and stream of consciousness for others to inspect.",
+        "evidenceExcerpt": "But what about thinking in public? And it's basically what PG is doing, thinking in public.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Thinking in public"
+      },
+      {
+        "description": "Using a generated site as a living representation of personal thoughts, tastes, and work.",
+        "evidenceExcerpt": "Uh evebufar. com And so this was an iteration uh no it was actually like an aggregation of all the thoughts that I've been dumping in this Eve Slack channel for a week.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Personal thought website"
+      },
+      {
+        "description": "Comparing notable minds across recurring traits and dimensions to surface patterns.",
+        "evidenceExcerpt": "I created this really fun tool. I call it Shape of Minds and it's a way for us to find commonality across different dimensions of the most beautiful brains in the history of humanity.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Comparative minds analysis"
+      },
+      {
+        "description": "Packaging project metadata so agents can read, summarize, and act on a changing system.",
+        "evidenceExcerpt": "Um what else can I share? Um oh, this is a MD of it's a glossary of all the information that is displayed on this project.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Agent-readable documentation"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:75252d6d00622cec55d3ad4c95fbd5792aa2d398c6170668bfae4f27e8afbd87",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-eve-bouffard-imagination-engineering",
+  "talkTitle": "Imagination Engineering",
+  "transcriptPath": "raw/sources/youtube-transcripts/Z2Erdirpudo.txt",
+  "transcriptSha256": "sha256:e9060325779a7c20f9db0b689429ee13ca55a497d246952e80b5d0037678d28d",
+  "videoId": "Z2Erdirpudo"
+}

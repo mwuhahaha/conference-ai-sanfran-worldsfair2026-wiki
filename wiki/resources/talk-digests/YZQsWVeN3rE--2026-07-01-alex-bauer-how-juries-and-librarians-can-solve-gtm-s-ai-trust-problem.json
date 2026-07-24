@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:04:05.288755+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:2e3a39c7019d70d8baa9cd5f3f10b19cd8e35655d67107ec942d8c5c60351d97",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the current AI problem in GTM is trust, because the model can return a revenue answer that is confidently wrong rather than admitting uncertainty."
+      },
+      {
+        "evidenceExcerpt": "So, the main thesis of the talk today is actually, when in doubt, manage your agents like other humans.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "support": "explicit",
+        "text": "He argues that the main operating principle is to manage agents like other humans."
+      },
+      {
+        "evidenceExcerpt": "So, the step here was define the structure first, and then turn Claude loose. Don't try and YOLO it from the beginning.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "support": "explicit",
+        "text": "He reports that the website rebuild only became workable after defining the structure first and then letting Claude generate against that scaffold."
+      },
+      {
+        "evidenceExcerpt": "So what we actually have it do is consult the librarian first. And the librarian has access to documentation and the library of knowledge items about your company and the schema of prior failed queries.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "support": "explicit",
+        "text": "He says the librarian is consulted before answering so the agent gets just-in-time memory from documentation, company knowledge, and prior failed queries."
+      },
+      {
+        "evidenceExcerpt": "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "support": "explicit",
+        "text": "He describes attribution as a case where the agent should gather independent analysts rather than answer from a single pass."
+      },
+      {
+        "evidenceExcerpt": "So, basically, the general case here is any AI product where it's been crowbarred into a pre- subscription model is probably not something that you should be using for anything important because the margin on those plans just doesn't leave enough space for an intelligent reasoning model to work.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "support": "explicit",
+        "text": "He warns that AI products constrained by weak subscription economics are not appropriate for anything important."
+      }
+    ],
+    "methodNotes": "The talk frames AI reliability in GTM as an organizational design problem rather than a prompt-tuning problem. The speaker repeatedly compares agent workflows to human workflows, then shows three concrete patterns: scaffold business knowledge before generation, consult a librarian before acting, and use a jury-plus-judge process for subjective decisions. The tradeoff is extra structure and overhead up front in exchange for answers that are citeable, more consistent with the business, and safer for operational use.",
+    "methods": [
+      {
+        "description": "Tell the agent why you want the task done so it can make better decisions.",
+        "evidenceExcerpt": "And if you take nothing else from this talk, this is my one practical tip. Use commander's intent when you prompt.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Commander's Intent Prompting"
+      },
+      {
+        "description": "Maintain structured reference assets for company facts, capabilities, and personas before generation.",
+        "evidenceExcerpt": "So, I maintain this list of anchor assets for our entire company. I think documentation is something that humans generally should have used anyway, but that was often something that was also generally delegated and forgotten.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "Anchor Asset Scaffolding"
+      },
+      {
+        "description": "Consult a knowledge librarian before answering so company definitions and prior failure modes shape the response.",
+        "evidenceExcerpt": "So what we actually have it do is consult the librarian first. And the librarian has access to documentation and the library of knowledge items about your company and the schema of prior failed queries.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Librarian-First Retrieval"
+      },
+      {
+        "description": "Use independent analysts to produce evidence-backed opinions, then have a judge weigh reasoning and escalate if needed.",
+        "evidenceExcerpt": "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Jury-and-Judge Review"
+      },
+      {
+        "description": "Choose a capable model tier with plan mode, subagents, MCP support, and file editing for important work.",
+        "evidenceExcerpt": "So, find something that is at least tier two here and tier two means it's got to be a powerful model.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "name": "Model Tier Selection"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And if there's not enough consensus, then I'll escalate and expand the jury. But, my job is not to do research on my own.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "question": "How should a team decide when disagreement is large enough to escalate from one pass to a bigger jury?",
+        "whyItMatters": "The workflow depends on knowing when consensus is insufficient, but the talk leaves the escalation threshold as an open operating rule."
+      },
+      {
+        "evidenceExcerpt": "So, basically, the general case here is any AI product where it's been crowbarred into a pre- subscription model is probably not something that you should be using for anything important because the margin on those plans just doesn't leave enough space for an intelligent reasoning model to work.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "question": "What criteria should define whether an AI setup is too constrained to be trusted on important work?",
+        "whyItMatters": "The speaker warns against cheap or crowbarred-in setups, but teams still need a practical boundary for acceptable capability."
+      }
+    ],
+    "summary": "Alex Bauer argues that GTM AI has moved past simple hallucination and into a broader trust problem: the model can sound right while being wrong in ways that matter to revenue and operations. His answer is to manage agents like people, which means giving them commander's intent, writing down how the business actually works, and adding a librarian-style knowledge layer that supplies definitions, prior failures, and citations before the agent acts. For questions that do not have an empirically correct answer, he recommends a jury-and-judge workflow that gathers independent research and then weighs the reasoning, with escalation when consensus is weak. The practical consequence is a more structured stack that costs more upfront than a raw prompt, but produces outputs that are better grounded, more defensible, and safer to operationalize.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And if you take nothing else from this talk, this is my one practical tip. Use commander's intent when you prompt.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "text": "Tell agents why you want the outcome, not just what to do."
+      },
+      {
+        "evidenceExcerpt": "So, the step here was define the structure first, and then turn Claude loose. Don't try and YOLO it from the beginning.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "text": "Define the business structure before asking AI to generate from it."
+      },
+      {
+        "evidenceExcerpt": "And so it basically gives your agent a just-in-time memory of all the important things. So we know that the fiscal year here is actually February through April.",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "text": "Use a librarian layer to inject company-specific meaning before the agent answers."
+      },
+      {
+        "evidenceExcerpt": "And if there's not enough consensus, then I'll escalate and expand the jury. But, my job is not to do research on my own.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "text": "Escalate subjective GTM questions to multiple independent analysts plus a judge."
+      },
+      {
+        "evidenceExcerpt": "You need it to have attributes like sub agents, plan mode, full MCP support. It should be able to use file editing and there are a lot of these out here.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "text": "Reserve important work for capable models and full-featured harnesses."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.",
+        "evidenceExcerpt": "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "The product feature described as the radiant librarian that agents consult before answering.",
+        "evidenceExcerpt": "But the second one is our radiant librarian. So this is something that actually exists inside our product, and I'm going to show you how it works with a diagram.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Upside Librarian"
+      },
+      {
+        "description": "The Slack product the speaker says released MCP client functionality.",
+        "evidenceExcerpt": "An example of this is Slackbot released its MCP client functionality a couple weeks ago. So, you can now hook Slackbot up and it will talk to MCPs and I thought, \"Oh, that's awesome.\" Now, everyone who has Slack can suddenly consult the Upside Librarian and I was so excited to try it and it turns out that this is horrifically stupid.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Slackbot"
+      },
+      {
+        "description": "The protocol mentioned as a way to connect Slackbot and other tools to external systems.",
+        "evidenceExcerpt": "An example of this is Slackbot released its MCP client functionality a couple weeks ago. So, you can now hook Slackbot up and it will talk to MCPs and I thought, \"Oh, that's awesome.\" Now, everyone who has Slack can suddenly consult the Upside Librarian and I was so excited to try it and it turns out that this is horrifically stupid.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "MCP"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The shift from hallucination as a generic concern to wrong-but-confident business answers that undermine adoption.",
+        "evidenceExcerpt": "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "AI Trust in GTM"
+      },
+      {
+        "description": "Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.",
+        "evidenceExcerpt": "And if you take nothing else from this talk, this is my one practical tip. Use commander's intent when you prompt.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Commander's Intent"
+      },
+      {
+        "description": "Preparing company facts, capabilities, and personas as reusable reference material before generation.",
+        "evidenceExcerpt": "So, you have to do some scaffolding. And by scaffolding, what I mean is you have to tell it what to know about your business.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Business Knowledge Scaffolding"
+      },
+      {
+        "description": "A pre-answer knowledge layer that gives agents company definitions, documentation, and failure history.",
+        "evidenceExcerpt": "So what we actually have it do is consult the librarian first. And the librarian has access to documentation and the library of knowledge items about your company and the schema of prior failed queries.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Librarian Memory"
+      },
+      {
+        "description": "A multi-agent decision pattern that combines independent research with a final reasoning judge.",
+        "evidenceExcerpt": "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Jury-and-Judge Workflow"
+      },
+      {
+        "description": "Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.",
+        "evidenceExcerpt": "So, find something that is at least tier two here and tier two means it's got to be a powerful model.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "name": "Agent Tiering"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5a4dcb6c62eeaf1e66e76ff76255a9f850bdda6c0a59ed63969dae6f15379c65",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem",
+  "talkTitle": "How Juries and Librarians Can Solve GTM's AI Trust Problem",
+  "transcriptPath": "raw/sources/youtube-transcripts/YZQsWVeN3rE.txt",
+  "transcriptSha256": "sha256:ab0a005f6e9734ae3a7d58aecefc666012abef724e2939d873c6c333fc9e2e72",
+  "videoId": "YZQsWVeN3rE"
+}

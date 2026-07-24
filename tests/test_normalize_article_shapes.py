@@ -30,6 +30,10 @@ class NormalizeArticleShapesTest(unittest.TestCase):
             ),
             "playbooks": ("Purpose", "Source Evidence"),
             "evaluations": ("Source Evidence",),
+            "topics": ("Transcript Digest Evidence",),
+            "tools": ("Transcript Digest Evidence",),
+            "questions": ("Transcript Digest Evidence",),
+            "patterns": ("Transcript Digest Evidence",),
         }
 
         for category, headings in cases.items():

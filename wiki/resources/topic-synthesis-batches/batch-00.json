@@ -1,0 +1,174 @@
+{
+  "algorithmVersion": 3,
+  "batchIndex": 0,
+  "candidateCount": 46,
+  "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
+  "generatedAt": "2026-07-24T20:41:22.270967+00:00",
+  "generatedBy": "cross-talk-topic-map-v1",
+  "inputSha256": "sha256:d240d178e928e12ef01680aef484b3ee71259ac9998fcc27a810b02a8b7b44d1",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "clusters": [
+      {
+        "canonicalTopic": "Agent security and governance controls",
+        "memberIds": [
+          "T0001",
+          "T0025",
+          "T0037",
+          "T0043",
+          "T0091",
+          "T0115",
+          "T0217"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Controls that block, gate, or verify risky agent actions before they execute, including policy checks, proof-based execution, review separation, and human accountability."
+      },
+      {
+        "canonicalTopic": "Benchmark integrity and evaluation design",
+        "memberIds": [
+          "T0013",
+          "T0019",
+          "T0055",
+          "T0145",
+          "T0157",
+          "T0187"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "Evaluation methods focused on benchmarks, verifier design, ablations, and measurement schemes that are hard to game."
+      },
+      {
+        "canonicalTopic": "Coding agent orchestration and factory loops",
+        "memberIds": [
+          "T0007",
+          "T0061",
+          "T0175",
+          "T0265"
+        ],
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "Product and architecture patterns for coordinating coding agents, separating orchestration from reasoning, and compounding generation-review-maintenance loops."
+      },
+      {
+        "canonicalTopic": "Agent memory, context, and semantic state",
+        "memberIds": [
+          "T0049",
+          "T0067",
+          "T0103",
+          "T0109",
+          "T0133",
+          "T0163",
+          "T0199",
+          "T0205",
+          "T0211",
+          "T0223",
+          "T0235",
+          "T0259",
+          "T0271"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "Persistent state and context systems for agents, including retrieval layers, graph memory, traces, document hierarchies, persistence, provenance, and event-driven updates."
+      },
+      {
+        "canonicalTopic": "Inference and task/runtime separation",
+        "memberIds": [
+          "T0085",
+          "T0229",
+          "T0241"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "System design choices that move simple work off the model and keep task contracts stable while changing the underlying implementation."
+      },
+      {
+        "canonicalTopic": "Rendered UI perception",
+        "memberIds": [
+          "T0127"
+        ],
+        "preferredExistingTopicSlug": "nearly-headless-web",
+        "synthesis": "An agent reads the rendered interface, layout, and visible state before deciding what to do."
+      },
+      {
+        "canonicalTopic": "Task-scoped operational review",
+        "memberIds": [
+          "T0121"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Review depth should vary with the task rather than the reviewer identity."
+      },
+      {
+        "canonicalTopic": "Enterprise AI operating infrastructure",
+        "memberIds": [
+          "T0169"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Infrastructure for owning workflows, routing models, and retraining on live work in enterprise settings."
+      },
+      {
+        "canonicalTopic": "Ambition and market dynamics",
+        "memberIds": [
+          "T0079",
+          "T0181"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Forward-looking framing about ambitious goals, constraint breaking, and eventual consolidation."
+      },
+      {
+        "canonicalTopic": "AI trust for business decisions",
+        "memberIds": [
+          "T0193"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Business trust problems caused by wrong but confident answers."
+      },
+      {
+        "canonicalTopic": "Local model autonomy",
+        "memberIds": [
+          "T0247",
+          "T0253"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Arguments for keeping data local and using open models to preserve privacy, sovereignty, cost control, and flexibility."
+      },
+      {
+        "canonicalTopic": "Agentic product substrate",
+        "memberIds": [
+          "T0073"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The product and data substrate used to measure ROI and unify systems of record through a traversable model."
+      },
+      {
+        "canonicalTopic": "Verification and precision",
+        "memberIds": [
+          "T0031"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Separating recall-oriented discovery from precision-oriented confirmation."
+      },
+      {
+        "canonicalTopic": "Async RL orchestration",
+        "memberIds": [
+          "T0097"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Training and rollout management that overlaps slow episodes by keeping inference and training separate."
+      },
+      {
+        "canonicalTopic": "Comparative minds analysis",
+        "memberIds": [
+          "T0139"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Comparing notable minds across recurring traits and dimensions to surface patterns."
+      },
+      {
+        "canonicalTopic": "microworlds",
+        "memberIds": [
+          "T0151"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "An interactive model of a system that lets a person explore its behavior directly."
+      }
+    ]
+  },
+  "payloadSha256": "sha256:fbc533ae1aef2992c9b0eaebba8d22b28ccbf330e90af8278e376afad9e039f0",
+  "schemaVersion": 1
+}

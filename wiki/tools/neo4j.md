@@ -17,9 +17,8 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:360dfcfe57cad31b63fe70df33ffae94bb17335aab7ac1d3a2bb3461c967d0de
+sourceAssessmentBodySha256: sha256:e964f8d0692d76e4bebb97c7955deaa310a965b22bc457e8f00612ec246ce5de
 ---
-
 # Neo4j
 
 ## Conference Context
@@ -27,6 +26,18 @@ Neo4j appears as a high-confidence tool, platform, model, protocol, product, or 
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 3 evidence-bound talk digest(s).
+
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — Neo4j is the graph platform at the center of the semantic layer, document graph, and theme analysis.
+  - Transcript: [[youtube-kRkcNOsRyYg-transcript]]
+  - Evidence: "So Neoraj we're we're a graph intelligence platform. We have a graph database at at at the heart of it."
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — Enterprise graph database platform used as the substrate for the ontology-based semantic layer.
+  - Transcript: [[youtube-VGN22pPpb-8-transcript]]
+  - Evidence: "name so that's the first a businessf facing ontology the second pillar is a technical ontology this is all the metadata of all the data sources and data assets in your enterprise ecosystem I have 14 Oracle databases I have 15 neo forj databases I have snowflake and data bricks and I have s3 buckets"
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — The graph database used to model and serve the enterprise semantic layer.
+  - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
+  - Evidence: "And this gets into part of the magic here that you can model with Neo4j. But we have meetings that have documents."
 ## Confirmed Evidence
 
 ### Official Schedule

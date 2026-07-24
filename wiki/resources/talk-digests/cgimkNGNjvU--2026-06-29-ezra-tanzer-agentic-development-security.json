@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:52:40.122631+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:40b99b3142ef893b480bd4b57f011ad57069274097807ee4bd4498a4bf0fdf39",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Uh it's really critical to secure what agents generate, what they use, and what they do. Um and I'll spend a couple minutes talking about our journey in each of these pillars over the last year, what we've learned and uh and our current perspective.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that confidently using agents at scale requires securing what they generate, what they use, and what they do."
+      },
+      {
+        "evidenceExcerpt": "Uh, but the approach did have real limitations. Agents sometimes ignored the rule files. Uh, scan execution did add latency at the end of its run.",
+        "evidenceSegmentIds": [
+          "S0036"
+        ],
+        "support": "explicit",
+        "text": "The original MCP-plus-rules approach had real limits because agents sometimes ignored rule files, scans added latency, and scans consumed tokens."
+      },
+      {
+        "evidenceExcerpt": "That risk can still persist after the fact. Um, and in an audit that we did of nearly 4,000 skills on Claw Hub, uh, over one in eight had a critical severity issue and we actually found 76 malicious payloads, uh, in in that subset.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "support": "explicit",
+        "text": "An audit of nearly 4,000 skills on Claw Hub found that over one in eight had a critical severity issue and 76 had malicious payloads."
+      },
+      {
+        "evidenceExcerpt": "This is currently in open preview and it's really focused on how we ensure that an agent is not taking excfiltrative, destructive or otherwise malicious or risky actions.",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "support": "explicit",
+        "text": "Behavior governance is aimed at intercepting exfiltrative, destructive, or otherwise risky agent actions."
+      },
+      {
+        "evidenceExcerpt": "Uh, Snappy actually blocked the access of of reading this file. Um, so yes, the agents are getting better.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "support": "explicit",
+        "text": "In the demo, Snappy blocked Claude from reading a secret file."
+      },
+      {
+        "evidenceExcerpt": "But I'd be shocked if we ever lived in a world where it was like absolute zero false positive rate for for for any of the companies out there.",
+        "evidenceSegmentIds": [
+          "S0153"
+        ],
+        "support": "explicit",
+        "text": "The speaker says false positives are not zero today and expects they may never reach absolute zero."
+      }
+    ],
+    "methodNotes": "Each structured item cites exactly one transcript segment as evidence. The summary is synthesized from the full talk rather than from any single opening passage.",
+    "methods": [
+      {
+        "description": "Hook-driven asynchronous scan-and-fix flow that triggers scans on file changes, stores findings in a temporary file, and only runs a fix loop at session end.",
+        "evidenceExcerpt": "Only then will it kick off a fix and validate loop. So now the workflow is deterministic. Latency is removed because all that testing happens asynchronously.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Async scan-and-fix"
+      },
+      {
+        "description": "Autodiscovery of MCP servers and skill files to analyze the connected agent components and identify related threats.",
+        "evidenceExcerpt": "So the solution that we built here autodiscocovers all the agent components on your machine.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Component autodiscovery"
+      },
+      {
+        "description": "Steer-or-ask policy design that either rewrites an action safely or escalates to a human when the action is ambiguous or potentially destructive.",
+        "evidenceExcerpt": "and steer is the idea that there can be a policy that is defined that doesn't need a human in the loop that I can basically guide an agent to say nope instead of doing that let's do something different so the the classic example that I think is easiest for folks to understand is",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "Steer or ask"
+      },
+      {
+        "description": "Workspace-specific guardrails that let the developer apply different policies depending on the project being worked on.",
+        "evidenceExcerpt": "Um, similar we talked about like what is the agent allowed to do? Um, and so like yes, my organization can set a policy for me, but I might want to set my own policy or more often I actually may want to set a policy depending on what project I am actually working on.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "name": "Workspace policies"
+      },
+      {
+        "description": "Local enforcement and audit logging that records commands, files, sessions, and agent behavior for later review.",
+        "evidenceExcerpt": "um and what it's running I think is pretty key. Uh one of the big things is is how do we trust agents?",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "Local auditability"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But I'd be shocked if we ever lived in a world where it was like absolute zero false positive rate for for for any of the companies out there.",
+        "evidenceSegmentIds": [
+          "S0153"
+        ],
+        "question": "How can the system drive false positives closer to zero without weakening the guardrails enough to matter?",
+        "whyItMatters": "Adoption depends on whether developers can trust the controls without constant interruption."
+      },
+      {
+        "evidenceExcerpt": "um any solution around guarding agent behavior when you're not talking about textbased inter exchanges but more sensor type data or other other things.",
+        "evidenceSegmentIds": [
+          "S0164"
+        ],
+        "question": "How should agent-behavior controls work when the input is sensor data or other structured non-text data instead of natural language?",
+        "whyItMatters": "The current model may need to generalize beyond chat and code workflows."
+      },
+      {
+        "evidenceExcerpt": "Um and so this is an area that we're going to continue to invest but I think you know this is going to mean more fine grain policies may also mean that we need some sort of autodidactism in the product kind of a self-learning capability based on the decisions that you make over time to help you become more autonomous.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "question": "Can policy systems learn from prior user decisions so that agents need fewer asks as they become more autonomous?",
+        "whyItMatters": "That would make background and cloud agents more practical without constant babysitting."
+      }
+    ],
+    "summary": "The talk argues that agentic development security has to cover three layers at once: the code agents generate, the external components they use, and the actions they take. The proposed mechanism is to move from synchronous, rule-file-based checks to hook-driven asynchronous enforcement, component discovery, and policy controls that can either steer an agent or stop and ask for help. The speaker emphasizes tradeoffs between security and developer experience, especially latency, context bloat, and false positives, and the practical consequence is a system that is deterministic, auditable, and strong enough to support more autonomous background agents.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Uh it's really critical to secure what agents generate, what they use, and what they do. Um and I'll spend a couple minutes talking about our journey in each of these pillars over the last year, what we've learned and uh and our current perspective.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "text": "Agentic security should be treated as a three-part problem: generated output, connected components, and runtime behavior."
+      },
+      {
+        "evidenceExcerpt": "Only then will it kick off a fix and validate loop. So now the workflow is deterministic. Latency is removed because all that testing happens asynchronously.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "text": "Asynchronous hooks are a better fit than synchronous scans when the goal is deterministic enforcement without adding latency or context bloat."
+      },
+      {
+        "evidenceExcerpt": "That risk can still persist after the fact. Um, and in an audit that we did of nearly 4,000 skills on Claw Hub, uh, over one in eight had a critical severity issue and we actually found 76 malicious payloads, uh, in in that subset.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "Skills need their own security review because they can carry elevated privilege and even persist malicious behavior after removal."
+      },
+      {
+        "evidenceExcerpt": "But I think as we move towards more background agents and cloud agents being ran where you're trying to trying to step away and trying to not be sitting at your desk babysitting the agent entirely um asks are much much less viable option.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "text": "Background and cloud agents make human approval prompts less viable, so finer-grained policies become more important."
+      },
+      {
+        "evidenceExcerpt": "Give me that visibility. Give me that audibility. Give me that traceability. Uh, really important aspects in learning how to how to how to trust the agents and making sure that they're not going off the rail.",
+        "evidenceSegmentIds": [
+          "S0132"
+        ],
+        "text": "Visibility, auditability, and traceability are central to trusting agents in everyday development workflows."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The protocol used to connect agents to external tools and services.",
+        "evidenceExcerpt": "Um, I'm not going to go through the full history of LMS, but the model context protocol release was a really big moment.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "name": "MCP"
+      },
+      {
+        "description": "The local enforcement tool shown blocking secret-file access in the demo.",
+        "evidenceExcerpt": "Uh, Snappy actually blocked the access of of reading this file. Um, so yes, the agents are getting better.",
+        "evidenceSegmentIds": [
+          "S0124"
+        ],
+        "name": "Snappy"
+      },
+      {
+        "description": "The platform referenced for seeing agent guard behavior and connected components.",
+        "evidenceExcerpt": "And I I suggest that you all go to evo.sync.io and see this agent guard in action and see all the skills and that that your and MCPs that your organization is using.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "EVO"
+      },
+      {
+        "description": "The agent interface used as an example of where ask-based prompting might appear.",
+        "evidenceExcerpt": "cursor what whatever tool um or potentially through some other mechanism that that we're explor flooring now as well.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "name": "Claude"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The core problem of securing agentic software development across outputs, inputs, and actions.",
+        "evidenceExcerpt": "Uh it's really critical to secure what agents generate, what they use, and what they do. Um and I'll spend a couple minutes talking about our journey in each of these pillars over the last year, what we've learned and uh and our current perspective.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Agentic development security"
+      },
+      {
+        "description": "The connected ecosystem of MCP servers and skills that expands the agent attack surface.",
+        "evidenceExcerpt": "The context window doesn't get any unnecessarily unnecessary bloat. When we talk about agent supply chain, we're really thinking about the things that help you build more connected agentic workflows.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "Agent supply chain"
+      },
+      {
+        "description": "Policies and controls for intercepting risky agent behavior before it executes.",
+        "evidenceExcerpt": "Um, the last leg of this stool uh for agentic development security is governing agent behavior.",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "name": "Behavior governance"
+      },
+      {
+        "description": "Seeing commands, files, sessions, costs, and tool use as part of trust in local agent workflows.",
+        "evidenceExcerpt": "Give me that visibility. Give me that audibility. Give me that traceability. Uh, really important aspects in learning how to how to how to trust the agents and making sure that they're not going off the rail.",
+        "evidenceSegmentIds": [
+          "S0132"
+        ],
+        "name": "Agent observability"
+      },
+      {
+        "description": "Managing the tension between strict enforcement and developer workflow noise.",
+        "evidenceExcerpt": "And so that's the that's the needle that we're ultimately looking to thread here. Um and why we're trying to come at this from kind of both sides.",
+        "evidenceSegmentIds": [
+          "S0138"
+        ],
+        "name": "False positives"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:94c11781b9e57c8c48e460e70a2533fe68b0fd71b3cee99399f16276acbd251f",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-ezra-tanzer-agentic-development-security",
+  "talkTitle": "Agentic Development Security",
+  "transcriptPath": "raw/sources/youtube-transcripts/cgimkNGNjvU.txt",
+  "transcriptSha256": "sha256:fe1841d0a0f8e3aa6e2f877ff5bc64d2df247f4e6aaaa045555ea83a9346738e",
+  "videoId": "cgimkNGNjvU"
+}

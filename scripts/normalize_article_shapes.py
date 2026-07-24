@@ -213,6 +213,10 @@ WF26_ARTICLE_CONTRACTS = ArticleContractRegistry(
                 section("livestream", "Livestream Source"),
                 section("scheduled_signals", "Slide-Derived Scheduled Session Signals"),
                 section("supporting_decks", "Slide-Derived Supporting Decks"),
+                section(
+                    "transcript_digest_evidence",
+                    "Transcript Digest Evidence",
+                ),
                 section("neighboring", "Neighboring Subjects"),
                 section("connections", "Connections", required=True),
                 section("source_coverage", "Source Coverage"),
@@ -245,6 +249,10 @@ WF26_ARTICLE_CONTRACTS = ArticleContractRegistry(
                 section("maintainer", "Maintainer"),
                 section("comparison", "Comparison Context"),
                 section("connections", "Connections", "Related Pages"),
+                section(
+                    "transcript_digest_evidence",
+                    "Transcript Digest Evidence",
+                ),
                 section("evidence", "Confirmed Evidence"),
                 section("sources", "Sources", "Public Sources"),
                 section("confidence", "Confidence"),
@@ -264,6 +272,10 @@ WF26_ARTICLE_CONTRACTS = ArticleContractRegistry(
                 section("working_answer", "Working Answer", required=True),
                 section("evidence", "Evidence", required=True),
                 section("confidence", "Confidence"),
+                section(
+                    "transcript_digest_evidence",
+                    "Transcript Digest Evidence",
+                ),
                 section("next_questions", "Next Questions", required=True),
                 section("evidence_boundary", "Evidence Boundary", terminal=True),
             ],
@@ -276,6 +288,10 @@ WF26_ARTICLE_CONTRACTS = ArticleContractRegistry(
                 section("when", "When To Use", required=True),
                 section("moves", "Implementation Moves", required=True),
                 section("evidence", "Source Evidence", required=True),
+                section(
+                    "transcript_digest_evidence",
+                    "Transcript Digest Evidence",
+                ),
                 section(
                     "evidence_boundary",
                     "Evidence Boundary",

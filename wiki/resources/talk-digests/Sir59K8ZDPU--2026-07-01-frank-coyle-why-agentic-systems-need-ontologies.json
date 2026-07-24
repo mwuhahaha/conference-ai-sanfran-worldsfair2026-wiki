@@ -1,0 +1,267 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:05:16.451566+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:4a920236f64678c0dcf9062fe07630e3532bd480df2fe4e9c24e129d872f120e",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And so, what I'd like to argue is that neuro-symbolic AI sort of represents a way to keep the LLM on its guardrails, because LLMs are by nature probabilistic.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "support": "strong",
+        "text": "The speaker argues that neuro-symbolic AI is the missing guardrail layer for agentic systems because LLMs are probabilistic and need an explicit ontology around them."
+      },
+      {
+        "evidenceExcerpt": "The danger though of loops is that they can break. If you're If you're a programmer, you know, you've all go into infinite loop.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "support": "explicit",
+        "text": "He says agent loops can break, drift, and drive up token costs, so they need careful control rather than open-ended iteration."
+      },
+      {
+        "evidenceExcerpt": "Or you want to be able to make inference over them. So, for example, there is uh some terms in this technology called RDFS.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "support": "explicit",
+        "text": "He reports that RDFS and OWL let a system infer new facts and enforce constraints from domain, range, transitive, and functional properties."
+      },
+      {
+        "evidenceExcerpt": "But the idea is to surround the input with checks. Now, I've got this something that you that you should be at least taking a look at if you're doing some of this coding is something called Pydantic.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "support": "strong",
+        "text": "He argues that Pydantic should validate tool parameter types before ontology checks evaluate the result of a tool call."
+      },
+      {
+        "evidenceExcerpt": "So, you have these functional properties, disjoint properties. I'll just put these you can look at the slides, but essentially the errors it can catch.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "support": "explicit",
+        "text": "He says OWL-style constraints can catch concrete errors such as duplicate refunds, payments sent to the wrong party, and invalid status values."
+      }
+    ],
+    "methodNotes": "Each item is grounded in exactly one transcript segment ID. The summary is synthesized across multiple transcript segments, while the other fields each use one segment per item.",
+    "methods": [
+      {
+        "description": "Top-down ontology design starts with domain experts defining entities and relationships before implementation.",
+        "evidenceExcerpt": "Okay? There are a couple of ways you can approach it. You can have a top-down approach or a bottom-up approach.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Top-down ontology design"
+      },
+      {
+        "description": "Bottom-up ontology growth adds entities and relationships from observed cases and data rather than starting from an expert schema.",
+        "evidenceExcerpt": "So, the other way you can that that people are adding to or creating ontologies is is from the bottom up.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Bottom-up ontology expansion"
+      },
+      {
+        "description": "Domain and range assertions let the system infer types from tool or text statements.",
+        "evidenceExcerpt": "Or you want to be able to make inference over them. So, for example, there is uh some terms in this technology called RDFS.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Domain and range inference"
+      },
+      {
+        "description": "A stop-reason-driven tool loop executes tools only when the model indicates tool use, then validates the result before continuing.",
+        "evidenceExcerpt": "So, stop reason means the LLM has stopped for some reason. The The reason here is that it can't do anything, and if the reason is tool use, ah, now it's time.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "name": "Stop-reason tool loop"
+      },
+      {
+        "description": "Type-first validation checks structured parameters before ontology-based result validation.",
+        "evidenceExcerpt": "But the idea is to surround the input with checks. Now, I've got this something that you that you should be at least taking a look at if you're doing some of this coding is something called Pydantic.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Type-first validation gate"
+      },
+      {
+        "description": "OWL constraint checking rejects malformed outputs by enforcing allowed values and disjoint categories.",
+        "evidenceExcerpt": "So, you have these functional properties, disjoint properties. I'll just put these you can look at the slides, but essentially the errors it can catch.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "name": "OWL constraint checking"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Okay? There are a couple of ways you can approach it. You can have a top-down approach or a bottom-up approach.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "question": "How should a team decide between top-down expert modeling and bottom-up ontology growth for a specific agentic domain?",
+        "whyItMatters": "The answer determines whether the ontology will be stable and complete enough to support production guardrails."
+      },
+      {
+        "evidenceExcerpt": "This is where ontologies could come in. The tool's going to give us information. We put the information in a form that our our our our validator can use, and think about the validator as operating with this these ontologies about our domain, then we can make some sense of whether the response of the LLM is reasonable.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "question": "Which checks belong in the ontology layer as hard constraints, and which should remain soft validation or human review?",
+        "whyItMatters": "That boundary controls how much reliability the guardrails provide without blocking legitimate tool use."
+      },
+      {
+        "evidenceExcerpt": "The danger though of loops is that they can break. If you're If you're a programmer, you know, you've all go into infinite loop.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "question": "How much ontology coverage is enough to keep agent loops from drifting or becoming too expensive?",
+        "whyItMatters": "This sets the practical threshold for when the architecture actually improves reliability instead of adding overhead."
+      }
+    ],
+    "summary": "Frank Coyle argues that agentic systems need an explicit ontology layer because LLMs are probabilistic and agent loops are prone to drift, failure, and runaway cost. His core mechanism is to treat the model as the proposal engine and surround it with structured validation: an ontology provides shared entities, relationships, and constraints, while RDFS, OWL, and type checks can infer facts and reject malformed actions before they execute. The practical result is a hybrid architecture in which tool use becomes safer and more accountable, with fewer nonsense calls such as duplicate refunds, wrong-recipient payouts, or invalid statuses. He also emphasizes that this is not a blank-slate exercise: teams should reuse existing vocabularies and decide deliberately between top-down expert modeling and bottom-up extension from real cases.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "This is where ontologies could come in. The tool's going to give us information. We put the information in a form that our our our our validator can use, and think about the validator as operating with this these ontologies about our domain, then we can make some sense of whether the response of the LLM is reasonable.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "text": "Put a validation layer between the model's tool selection and actual execution so the ontology can judge whether the action makes sense."
+      },
+      {
+        "evidenceExcerpt": "Let's Let's add this information to the graph. Now, as as a help, it's helpful to be aware that there are existing taxonomies that people have been working on for the last 15 to 20 years.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "text": "Reuse existing vocabularies such as schema.org, FOAF, Dublin Core, and DBpedia instead of inventing every term from scratch."
+      },
+      {
+        "evidenceExcerpt": "Okay? There are a couple of ways you can approach it. You can have a top-down approach or a bottom-up approach.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "text": "Choose between expert-led top-down modeling and data-led bottom-up growth based on the domain and the ontology's maturity."
+      },
+      {
+        "evidenceExcerpt": "So, Pydantic at the door, ontology at the ledger, and pure agents and by the way, your agents should try to have no side effects.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "text": "Keep agents as close to side-effect-free as possible until their outputs have been checked against typed and ontological constraints."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A Python library used to specify and enforce parameter types for tool inputs.",
+        "evidenceExcerpt": "Pydantic is a way to specify the types of what you want the types of the parameters to be.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "name": "Pydantic"
+      },
+      {
+        "description": "An RDF schema technology used for domain and range inference.",
+        "evidenceExcerpt": "Things that we call the things like RDFS, which is a technology, and OWL, which I'll talk more about.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "RDFS"
+      },
+      {
+        "description": "A web ontology language used for properties, disjointness, and other logical constraints.",
+        "evidenceExcerpt": "I'm going to try to show you some of the things that um that you can some logical constructs from from something called OWL, the uh the web object language for for objects.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "OWL"
+      },
+      {
+        "description": "An existing vocabulary and ontology source the speaker recommends reusing.",
+        "evidenceExcerpt": "Things like schema.org, which has a whole set of terms and relationships, so you don't have to reinvent the wheel.",
+        "evidenceSegmentIds": [
+          "S0046"
+        ],
+        "name": "schema.org"
+      },
+      {
+        "description": "A vocabulary for modeling social networks and related entities.",
+        "evidenceExcerpt": "In fact, you it's to your advantage to use some of these ontologies. FOAF, Friend of a Friend, for modeling social networks.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "FOAF"
+      },
+      {
+        "description": "A vocabulary for describing research papers and books.",
+        "evidenceExcerpt": "The Dublin Core, which was an early an early attempt to come up with terms for describing uh research papers and books and so forth.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Dublin Core"
+      },
+      {
+        "description": "A graph-based ontology used as the basis for Wikipedia lookup.",
+        "evidenceExcerpt": "So, there's a whole series of things. In fact, Wikipedia is based on an ontology called DBpedia.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "name": "DBpedia"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Using explicit ontology rules as guardrails around probabilistic agent behavior.",
+        "evidenceExcerpt": "And so, what I'd like to argue is that neuro-symbolic AI sort of represents a way to keep the LLM on its guardrails, because LLMs are by nature probabilistic.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Ontology guardrails"
+      },
+      {
+        "description": "Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.",
+        "evidenceExcerpt": "Or you want to be able to make inference over them. So, for example, there is uh some terms in this technology called RDFS.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "RDFS and OWL inference"
+      },
+      {
+        "description": "The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.",
+        "evidenceExcerpt": "So, stop reason means the LLM has stopped for some reason. The The reason here is that it can't do anything, and if the reason is tool use, ah, now it's time.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "name": "Agent loop validation"
+      },
+      {
+        "description": "Choosing between expert-defined schemas and data-driven ontology extension.",
+        "evidenceExcerpt": "Okay? There are a couple of ways you can approach it. You can have a top-down approach or a bottom-up approach.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Ontology construction strategies"
+      },
+      {
+        "description": "Typed tool arguments and structured result checking before downstream action.",
+        "evidenceExcerpt": "But the idea is to surround the input with checks. Now, I've got this something that you that you should be at least taking a look at if you're doing some of this coding is something called Pydantic.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Tool-call typing"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:0d8ddfca868a15d2d6ac0493025fe499ce81f872f53f8dbe8e2f43f83205630c",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-frank-coyle-why-agentic-systems-need-ontologies",
+  "talkTitle": "Why Agentic Systems Need Ontologies",
+  "transcriptPath": "raw/sources/youtube-transcripts/Sir59K8ZDPU.txt",
+  "transcriptSha256": "sha256:b30143c988720fd36cebb148a56deb8deb922574d0f47a35d8fa9f3f233cd835",
+  "videoId": "Sir59K8ZDPU"
+}

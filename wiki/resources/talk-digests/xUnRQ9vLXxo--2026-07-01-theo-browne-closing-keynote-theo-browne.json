@@ -1,0 +1,290 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:08:54.170047+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:809e15d3f90ec3aac432cda4dcf45d8f6ed0096614ecdbaf9a04d37a37a80bec",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "figure it out a lot of the time. figure it out a lot of the time. Mythos is another jump Mythos is another jump Mythos is another jump to orchestration.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "support": "explicit",
+        "text": "The speaker says Mythos is a jump to orchestration, not just a better coding model."
+      },
+      {
+        "evidenceExcerpt": "before. before. The models are getting better faster The models are getting better faster The models are getting better faster than we are.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the models are getting better faster than people are."
+      },
+      {
+        "evidenceExcerpt": "we got over it. we got over it. We're currently in our skeuomorphic We're currently in our skeuomorphic We're currently in our skeuomorphic phase as software developers.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "support": "explicit",
+        "text": "The speaker says software developers are in a skeuomorphic phase."
+      },
+      {
+        "evidenceExcerpt": "the tiers have shifted. the tiers have shifted. Everything is now one tier lower. Everything is now one tier lower.",
+        "evidenceSegmentIds": [
+          "S0180"
+        ],
+        "support": "explicit",
+        "text": "The speaker says many projects have shifted down a tier, so work that used to be a startup can now be a side project."
+      },
+      {
+        "evidenceExcerpt": "real. real. If your idea doesn't feel stupid, If your idea doesn't feel stupid, If your idea doesn't feel stupid, it's cuz your idea's not big enough.",
+        "evidenceSegmentIds": [
+          "S0255"
+        ],
+        "support": "explicit",
+        "text": "The speaker says an idea should feel a little stupid if it is big enough."
+      }
+    ],
+    "methodNotes": "I selected one transcript segment per field and used the most direct segment available for each concept, keeping every evidence reference to exactly one segment ID.",
+    "methods": [
+      {
+        "description": "Push the model to spawn and verify subwork instead of limiting it to a single pass.",
+        "evidenceExcerpt": "And it base, but it understands itself. And it base, but it understands itself. And it knows how to spawn additional models and knows how to spawn additional models and knows how to spawn additional models and break up work in a way where it could be break up work in a way where it could be break up work in a way where it could be completed more reliably and then completed more reliably and then completed more reliably and then verified afterwards.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Model orchestration"
+      },
+      {
+        "description": "Stop treating familiar tooling and workflow shapes as if they are inherently correct.",
+        "evidenceExcerpt": "The point of iOS 7 was different things. The point of iOS 7 was different things. The point of iOS 7 was to stop convincing and start embracing.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Stop convincing and start embracing"
+      },
+      {
+        "description": "Use deletion and reset when sunk cost is blocking a better answer.",
+        "evidenceExcerpt": "I cannot tell you how many times I've been cannot tell you how many times I've been cannot tell you how many times I've been in a conversation with someone in a conversation with someone in a conversation with someone where the solution is to just delete it where the solution is to just delete",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "name": "Delete-and-reset"
+      },
+      {
+        "description": "Collapse recurring work into a markdown file that runs on a cron.",
+        "evidenceExcerpt": "I just literally markdown file now. I just literally markdown file now. I just literally wrote like, go to these four GitHub wrote like, go to these four GitHub wrote like, go to these four GitHub repos, look at all the open PRs, figure repos, look at all the open PRs, figure repos, look at all the open PRs, figure out what the current status of the work out what the current status of the work out what the current status of the work is, is, is, and then help me prioritize it.",
+        "evidenceSegmentIds": [
+          "S0194"
+        ],
+        "name": "Markdown automation"
+      },
+      {
+        "description": "Evaluate software by its breadth across a surface area and its depth in a chosen slice.",
+        "evidenceExcerpt": "watch my videos, you understand. watch my videos, you understand. There's breadth and depth to any piece There's breadth and depth to any piece There's breadth and depth to any piece of software.",
+        "evidenceSegmentIds": [
+          "S0224"
+        ],
+        "name": "Breadth-depth design"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "I don't know what goes in this gap. I don't know what goes in this gap. I don't know what too big means anymore.",
+        "evidenceSegmentIds": [
+          "S0211"
+        ],
+        "question": "What belongs in the gap between a side project and something too big?",
+        "whyItMatters": "The talk implies the old size categories have shifted, but the new boundary is still undefined."
+      },
+      {
+        "evidenceExcerpt": "But now things have changed. But now things have changed. But now things have changed. All of a sudden, that range is viable in All of a sudden, that range is viable in All of a sudden, that range is viable in a way that it never was before.",
+        "evidenceSegmentIds": [
+          "S0238"
+        ],
+        "question": "How wide can a product go before the breadth tradeoff stops making sense?",
+        "whyItMatters": "The argument depends on breadth now being viable, but the practical limit is still unclear."
+      },
+      {
+        "evidenceExcerpt": "missing themselves. missing themselves. If you architect your systems and you If you architect your systems and you If you architect your systems and you architect your products in such a way architect your products in such a way architect your products in such a way that users can do things that they you that users can do things that they you that users can do things that they you never would have guessed.",
+        "evidenceSegmentIds": [
+          "S0248"
+        ],
+        "question": "What architecture best lets users add missing features themselves without the vendor building everything?",
+        "whyItMatters": "The speaker's strategy depends on extensibility, but the enabling product shape is not fully specified."
+      }
+    ],
+    "summary": "The talk argues that AI has changed the scale at which software should be imagined: models have moved from reliable tool use to longer-running work and then orchestration, so the old boundaries around what is too big are collapsing. The mechanism is to push models to spawn and verify subwork, then redesign products around breadth, extension, and simpler automation rather than around old assumptions like terminals, code preservation, or hand-built services. The tradeoff is that you will not match incumbents on every dimension, but you can cover enough surface area to let users finish the rest themselves. Practically, that means projects that once looked like startups, internal platforms, or bespoke services can now be feasible as side projects, markdown files on a cron, or narrower products with real leverage.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And it base, but it understands itself. And it base, but it understands itself. And it knows how to spawn additional models and knows how to spawn additional models and knows how to spawn additional models and break up work in a way where it could be break up work in a way where it could be break up work in a way where it could be completed more reliably and then completed more reliably and then completed more reliably and then verified afterwards.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "text": "A model that can orchestrate and verify work changes how much of a project can be delegated to it."
+      },
+      {
+        "evidenceExcerpt": "We heads that we have to start fighting. We heads that we have to start fighting. We have to take the step back and think, have to take the step back and think, have to take the step back and think, is this how we do things cuz it's right, is this how we do things cuz it's right, is this how we do things cuz it's right, or is this how we do things cuz it's or is this how we do things cuz it's or is this how we do things cuz it's just how we've always done it?",
+        "evidenceSegmentIds": [
+          "S0125"
+        ],
+        "text": "A lot of developer attachment to old workflows and code habits is inertia rather than necessity."
+      },
+      {
+        "evidenceExcerpt": "I just literally markdown file now. I just literally markdown file now. I just literally wrote like, go to these four GitHub wrote like, go to these four GitHub wrote like, go to these four GitHub repos, look at all the open PRs, figure repos, look at all the open PRs, figure repos, look at all the open PRs, figure out what the current status of the work out what the current status of the work out what the current status of the work is, is, is, and then help me prioritize it.",
+        "evidenceSegmentIds": [
+          "S0194"
+        ],
+        "text": "Some recurring internal services can be reduced to a markdown file plus cron-driven automation."
+      },
+      {
+        "evidenceExcerpt": "missing themselves. missing themselves. If you architect your systems and you If you architect your systems and you If you architect your systems and you architect your products in such a way architect your products in such a way architect your products in such a way that users can do things that they you that users can do things that they you that users can do things that they you never would have guessed.",
+        "evidenceSegmentIds": [
+          "S0248"
+        ],
+        "text": "A product can win by covering enough surface area and letting users build the missing vertical features themselves."
+      },
+      {
+        "evidenceExcerpt": "The fact that what used to be a process. The fact that what used to be a process. The fact that what used to be a startup is now a side project.",
+        "evidenceSegmentIds": [
+          "S0182"
+        ],
+        "text": "What used to be a startup-sized effort may now be small enough to fit a side project."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A model used as the baseline example of the earlier tool-call era.",
+        "evidenceExcerpt": "with the models. with the models. Who here used Sonnet 3.5 when it was the Who here used Sonnet 3.5 when it was the Who here used Sonnet 3.5 when it was the creme de la creme, the cream of the crop creme de la creme, the cream of the crop creme de la creme, the cream of the crop model available to us?",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Sonnet 3.5"
+      },
+      {
+        "description": "A model used to illustrate the jump to longer-running tasks.",
+        "evidenceExcerpt": "There were not too many That's a relief. There were not too many hands because Opus 4.5 is probably when hands because Opus 4.5 is probably when hands because Opus 4.5 is probably when my psychosis started in November and my psychosis started in November and my psychosis started in November and December of last year.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "name": "Opus 4.5"
+      },
+      {
+        "description": "A model named as part of the orchestration era.",
+        "evidenceExcerpt": "And then we got Mythos. And then we got Mythos. Who here has had a chance to play with Who here has had a chance to play with Who here has had a chance to play with Mythos and Fable so far?",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Mythos"
+      },
+      {
+        "description": "A second model named alongside Mythos in the orchestration comparison.",
+        "evidenceExcerpt": "And then we got Mythos. And then we got Mythos. Who here has had a chance to play with Who here has had a chance to play with Who here has had a chance to play with Mythos and Fable so far?",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Fable"
+      },
+      {
+        "description": "A tool named as something markdown can be piped into for execution.",
+        "evidenceExcerpt": "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just",
+        "evidenceSegmentIds": [
+          "S0190"
+        ],
+        "name": "Codex"
+      },
+      {
+        "description": "Another tool named as something markdown can be piped into for execution.",
+        "evidenceExcerpt": "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just",
+        "evidenceSegmentIds": [
+          "S0190"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "A platform used as the example of deeper full-stack front-end leaning server features.",
+        "evidenceExcerpt": "in a given area. in a given area. Let's look at a company like Vercel. Let's look at a company like Vercel.",
+        "evidenceSegmentIds": [
+          "S0227"
+        ],
+        "name": "Vercel"
+      },
+      {
+        "description": "A platform used as the incumbent example of broad feature coverage.",
+        "evidenceExcerpt": "Because if you were build your startups. Because if you were build your startups. Because if you were competing with a company like AWS, competing with a company like AWS, competing with a company like AWS, you're never going to have all of the you're never going to have all of the you're never going to have all of the features they have.",
+        "evidenceSegmentIds": [
+          "S0234"
+        ],
+        "name": "AWS"
+      },
+      {
+        "description": "A platform used as the example of a weak but extensible product surface.",
+        "evidenceExcerpt": "never would have guessed. never would have guessed. Like Slack accidentally did this because Like Slack accidentally did this because Like Slack accidentally did this because Slack is now the platform people run Slack is now the platform people run Slack is now the platform people run their agents in half the time, which is their agents in half the time, which is their agents in half the time, which is crazy.",
+        "evidenceSegmentIds": [
+          "S0249"
+        ],
+        "name": "Slack"
+      },
+      {
+        "description": "The version-control system used as the example of an old industry-shaping default.",
+        "evidenceExcerpt": "It's just how Git was built It's dumb. It's just how Git was built because it was built for a very specific because it was built for a very specific because it was built for a very specific thing, and then it took over our thing, and then it took over our thing, and then it took over our industry, and it took over our brains, industry, and it took over our brains, industry, and it took over our brains, and we aren't letting go of that.",
+        "evidenceSegmentIds": [
+          "S0123"
+        ],
+        "name": "Git"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The talk frames model progress as distinct eras of capability.",
+        "evidenceExcerpt": "where Sonnet 3.5 is the tool call era. where Sonnet 3.5 is the tool call era.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Capability eras"
+      },
+      {
+        "description": "The talk emphasizes models coordinating and verifying multi-step work.",
+        "evidenceExcerpt": "figure it out a lot of the time. figure it out a lot of the time. Mythos is another jump Mythos is another jump Mythos is another jump to orchestration.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Orchestration"
+      },
+      {
+        "description": "The talk argues developers are overvaluing familiar interfaces and workflows.",
+        "evidenceExcerpt": "we got over it. we got over it. We're currently in our skeuomorphic We're currently in our skeuomorphic We're currently in our skeuomorphic phase as software developers.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "name": "Skeuomorphic habits"
+      },
+      {
+        "description": "The talk contrasts software breadth with depth to explain modern product strategy.",
+        "evidenceExcerpt": "watch my videos, you understand. watch my videos, you understand. There's breadth and depth to any piece There's breadth and depth to any piece There's breadth and depth to any piece of software.",
+        "evidenceSegmentIds": [
+          "S0224"
+        ],
+        "name": "Breadth and depth"
+      },
+      {
+        "description": "The talk stresses products that let users extend missing features themselves.",
+        "evidenceExcerpt": "missing themselves. missing themselves. If you architect your systems and you If you architect your systems and you If you architect your systems and you architect your products in such a way architect your products in such a way architect your products in such a way that users can do things that they you that users can do things that they you that users can do things that they you never would have guessed.",
+        "evidenceSegmentIds": [
+          "S0248"
+        ],
+        "name": "Extensibility"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:35a92ab2857f9a5905bacdeba90c6c322345047b8d3468651419bba0bf859bef",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-theo-browne-closing-keynote-theo-browne",
+  "talkTitle": "Closing Keynote — Theo Browne",
+  "transcriptPath": "raw/sources/youtube-transcripts/xUnRQ9vLXxo.txt",
+  "transcriptSha256": "sha256:d9b50b5e03b543375177ee94cf2cadddaadd24ec23b2c28875eccd36844e5cb5",
+  "videoId": "xUnRQ9vLXxo"
+}

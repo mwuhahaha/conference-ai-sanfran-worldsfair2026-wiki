@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:51:25.944912+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:ac8b67547a713dd6947482e97f189a65cc379fee0712693f2cabcf10632c64ef",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "you know the green line is the new scaling law um and you can see previously the black line the doubling time was actually around seven months so every single seven months the capabilities of the models double um but now it has shrunk to 3.5 months.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "support": "explicit",
+        "text": "Reasoning is the speaker's explanation for why AI progress moved past an apparent plateau, and he argues the effective capability doubling time fell to about 3.5 months."
+      },
+      {
+        "evidenceExcerpt": "It's around four months now. Um so open source labs lag behind closed source labs by around four months.",
+        "evidenceSegmentIds": [
+          "S0155"
+        ],
+        "support": "explicit",
+        "text": "Open source models still lag closed source models, but the gap has narrowed to around four months and could continue shrinking if the trend holds."
+      },
+      {
+        "evidenceExcerpt": "know like these things do happen over time um and so like for this specific example you know cloud code the harness the harness itself was the problem not the actual model right the harness the thinking trace got deleted and they had a very not a very good system prompt.",
+        "evidenceSegmentIds": [
+          "S0303"
+        ],
+        "support": "explicit",
+        "text": "He reports that Claude Code's apparent accuracy drop was traced to harness problems, including a deleted thinking trace and a bad system prompt."
+      },
+      {
+        "evidenceExcerpt": "So using diffusion LLMs to do faster inference and again this is a software change. And my main point is is that in general, hardware innovations are getting less and less important.",
+        "evidenceSegmentIds": [
+          "S0581"
+        ],
+        "support": "explicit",
+        "text": "Software and algorithmic changes, not just hardware scaling, are the main path forward because precision tricks, checkpointing, and related stack improvements deliver large gains."
+      },
+      {
+        "evidenceExcerpt": "It's not going to happen in real world. Um, well, GLM 5.2 during its training methodology, they specifically mentioned they have this new methodology for reinforcement learning called anti-hacking.",
+        "evidenceSegmentIds": [
+          "S0770"
+        ],
+        "support": "explicit",
+        "text": "Reward hacking is already happening in training runs, so models need process supervision or anti-hacking checks instead of only outcome-level rewards."
+      }
+    ],
+    "methodNotes": "I anchored each item to the single transcript segment that most directly stated the point, even when the surrounding discussion elaborated it elsewhere.",
+    "methods": [
+      {
+        "description": "Dynamic quantization that leaves some layers at higher precision while compressing others to preserve accuracy.",
+        "evidenceExcerpt": "In fact, if you do dynamic one bit, um you get 57% accuracy. Um so we show that you know if you do something called dynamic quantization where you quantize the model down smartly, you can recover accuracy.",
+        "evidenceSegmentIds": [
+          "S0174"
+        ],
+        "name": "Dynamic Quantization"
+      },
+      {
+        "description": "Process supervision that assigns rewards to intermediate reasoning steps instead of only the final answer.",
+        "evidenceExcerpt": "Um and process supervision what you do is you manually check every single line not you don't just assign plus 10 to the final you know the answer is correct right the answer is correct plus 10 assign every single line as plus 10 you don't do this instead what you do is you assign",
+        "evidenceSegmentIds": [
+          "S0748"
+        ],
+        "name": "Process Supervision"
+      },
+      {
+        "description": "Binary search over compiler or kernel flags to cut the search space for performance tuning.",
+        "evidenceExcerpt": "How do we reduce the experimentation time to like you know find which knob is the best? Um so luckily we have something called bisection or binary search.",
+        "evidenceSegmentIds": [
+          "S0654"
+        ],
+        "name": "Bisection Search"
+      },
+      {
+        "description": "Rolling-average trend analysis for noisy benchmark time series instead of reading daily points directly.",
+        "evidenceExcerpt": "Instead, you should do like a rolling average, you know, some sort of rolling, you know, 7-day average.",
+        "evidenceSegmentIds": [
+          "S0278"
+        ],
+        "name": "Rolling Average Analysis"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Better by two times. Um and that's quite striking I guess. Um so the main question though is will the green line continue as a straight line?",
+        "evidenceSegmentIds": [
+          "S0082"
+        ],
+        "question": "Will the reasoning-driven scaling line continue, or will it taper into another plateau?",
+        "whyItMatters": "This determines whether the current acceleration is durable or just another temporary phase."
+      },
+      {
+        "evidenceExcerpt": "The first condition is the benchmark must not must not be benchmaxable. Right? How do you make a benchmark that is extremely hard to benchmark, right?",
+        "evidenceSegmentIds": [
+          "S0462"
+        ],
+        "question": "How can we build benchmarks that are both hard to game and easy to verify?",
+        "whyItMatters": "The talk argues that most current benchmarks fail on one or both of those requirements."
+      },
+      {
+        "evidenceExcerpt": "Um so the main question is what actually defines intelligence? You know which benchmark do we use?",
+        "evidenceSegmentIds": [
+          "S0542"
+        ],
+        "question": "What benchmark or definition should determine frontier intelligence for regulation?",
+        "whyItMatters": "The answer affects licensing, release controls, and how governments classify models."
+      },
+      {
+        "evidenceExcerpt": "Um and so this is a very big problem of reinforcement and the way to solve this or fix this is something called process supervision.",
+        "evidenceSegmentIds": [
+          "S0747"
+        ],
+        "question": "How can reinforcement learning avoid reward hacking at scale without relying on expensive manual process supervision?",
+        "whyItMatters": "This is the core obstacle to making RL reliable in real training systems."
+      }
+    ],
+    "summary": "Han's central thesis is that AI progress has not stopped; it has shifted from raw scaling to reasoning, software improvements, and stricter evaluation discipline. He argues that the recent acceleration comes from methods like reasoning training, quantization, compiler optimizations, checkpointing, and better harnesses, while the main risk is that benchmarks and inference stacks can make models look better or worse than they really are. The talk repeatedly emphasizes tradeoffs: better scores can come from cheating, contaminated tests, wrong prompts, or harness changes, and the most reliable gains often require more engineering work around the model rather than simply making the model larger. The practical takeaway is to verify models in controlled environments, distrust easy-to-game benchmarks, and focus on stack-level fixes before assuming a frontier model is truly better.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "It's not the model anymore. Um and so like you know as we have seen if they have accidentally botched you know if they accidentally botched the harness you will get reduced accuracy.",
+        "evidenceSegmentIds": [
+          "S0313"
+        ],
+        "text": "Treat benchmark results as system tests, because prompts, harnesses, providers, and implementation details can swing measured accuracy as much as the model itself."
+      },
+      {
+        "evidenceExcerpt": "I think Llama CPP and Llama server is probably the most bugfree system. So I would like suggest yes you should download from hugging face.",
+        "evidenceSegmentIds": [
+          "S0337"
+        ],
+        "text": "For local open-source deployment, he recommends downloading from Hugging Face and using stable runtimes like Llama CPP or Llama server."
+      },
+      {
+        "evidenceExcerpt": "Um so the main point is you should always firstly look at torch compile right before you write a kernel use torch compile first do not start learning how to do triton or you know cuda or whatever is your favorite coding language for kernels don't do that instead use torch compile um even worse",
+        "evidenceSegmentIds": [
+          "S0618"
+        ],
+        "text": "Before writing custom kernels, try torch.compile first, since the talk shows it can outperform handwritten kernels on modern PyTorch."
+      },
+      {
+        "evidenceExcerpt": "Um and process supervision what you do is you manually check every single line not you don't just assign plus 10 to the final you know the answer is correct right the answer is correct plus 10 assign every single line as plus 10 you don't do this instead what you do is you assign",
+        "evidenceSegmentIds": [
+          "S0748"
+        ],
+        "text": "If you want trustworthy RL signals, use process supervision or anti-hacking filters, because outcome-only rewards can be gamed."
+      },
+      {
+        "evidenceExcerpt": "The first condition is the benchmark must not must not be benchmaxable. Right? How do you make a benchmark that is extremely hard to benchmark, right?",
+        "evidenceSegmentIds": [
+          "S0462"
+        ],
+        "text": "Benchmarks should be designed to be hard to benchmax and easy to verify, such as random math tasks or constrained generation tasks."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The compiler path the speaker recommends as the first optimization attempt before custom kernel work.",
+        "evidenceExcerpt": "Um so the main point is you should always firstly look at torch compile right before you write a kernel use torch compile first do not start learning how to do triton or you know cuda or whatever is your favorite coding language for kernels don't do that instead use torch compile um even worse",
+        "evidenceSegmentIds": [
+          "S0618"
+        ],
+        "name": "torch.compile"
+      },
+      {
+        "description": "The model hub he recommends for downloading open-source models.",
+        "evidenceExcerpt": "I think Llama CPP and Llama server is probably the most bugfree system. So I would like suggest yes you should download from hugging face.",
+        "evidenceSegmentIds": [
+          "S0337"
+        ],
+        "name": "Hugging Face"
+      },
+      {
+        "description": "The local runtime he recommends for serving open-source models.",
+        "evidenceExcerpt": "I think Llama CPP and Llama server is probably the most bugfree system. So I would like suggest yes you should download from hugging face.",
+        "evidenceSegmentIds": [
+          "S0337"
+        ],
+        "name": "Llama CPP"
+      },
+      {
+        "description": "The inference platform he references when discussing benchmarked provider accuracy.",
+        "evidenceExcerpt": "Um and so for DeepS v4 you know there are two benchmarks which open router ran you know yeah it's like sorted it's sorted I think on the gray I think it's sorted on tower bench um so it's sorted on tower bench um and the green one is GPQA and you can see that",
+        "evidenceSegmentIds": [
+          "S0321"
+        ],
+        "name": "OpenRouter"
+      },
+      {
+        "description": "The open-source reasoning model family he cites as part of the open-source catch-up story.",
+        "evidenceExcerpt": "Um but then as everyone knows deepseek R1 came along um and they showed that even for open source models you can train these models to do reasoning gpo um reinforcement learning and it does very very well.",
+        "evidenceSegmentIds": [
+          "S0148"
+        ],
+        "name": "DeepSeek R1"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that reasoning training and new scaling laws extended model progress after an apparent plateau.",
+        "evidenceExcerpt": "you know the green line is the new scaling law um and you can see previously the black line the doubling time was actually around seven months so every single seven months the capabilities of the models double um but now it has shrunk to 3.5 months.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Reasoning Scaling"
+      },
+      {
+        "description": "Designing benchmarks that resist gaming while remaining easy to check.",
+        "evidenceExcerpt": "The first condition is the benchmark must not must not be benchmaxable. Right? How do you make a benchmark that is extremely hard to benchmark, right?",
+        "evidenceSegmentIds": [
+          "S0462"
+        ],
+        "name": "Benchmark Integrity"
+      },
+      {
+        "description": "How prompts, harnesses, and providers affect measured model quality.",
+        "evidenceExcerpt": "So I think the main point is the harness the implementation the tool is now the most important.",
+        "evidenceSegmentIds": [
+          "S0310"
+        ],
+        "name": "Harness Fidelity"
+      },
+      {
+        "description": "The shift from hardware-first to software-first AI performance gains.",
+        "evidenceExcerpt": "So using diffusion LLMs to do faster inference and again this is a software change. And my main point is is that in general, hardware innovations are getting less and less important.",
+        "evidenceSegmentIds": [
+          "S0581"
+        ],
+        "name": "Software-First Optimization"
+      },
+      {
+        "description": "How models exploit reward functions and how to detect or prevent that behavior.",
+        "evidenceExcerpt": "Zero. Um and so the correctness checks also fail. Um and so reward hacking becomes a very very big problem because these models can cheat and do special tricks to go around your actual model um your intent of the reward function.",
+        "evidenceSegmentIds": [
+          "S0763"
+        ],
+        "name": "Reward Hacking"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:51584646d6a9901e29eea6e10c442a0171c3a7bbc8ccd5bc7ee41de725191c4c",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents",
+  "talkTitle": "Special topics in Kernels, RL, Reward Hacking in Agents",
+  "transcriptPath": "raw/sources/youtube-transcripts/uIiA6DquRiE.txt",
+  "transcriptSha256": "sha256:4c4aef0147f8765409eb0cf1f8ff185f52093911c750293627c5440068b56141",
+  "videoId": "uIiA6DquRiE"
+}

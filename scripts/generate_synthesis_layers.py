@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -34,6 +35,13 @@ RUN_RECEIPT_DIR = (
     ADAPTER_STATE_DIR / "runs"
     if ADAPTER_STATE_DIR is not None
     else ROOT / ".ops" / "state" / "runs"
+)
+SEMANTIC_DIGEST_DIR = WIKI / "resources" / "talk-digests"
+SEMANTIC_DIGEST_GENERATOR = "talk-semantic-digestion-v1"
+CROSS_TOPIC_SYNTHESIS = WIKI / "resources" / "cross-talk-topic-synthesis.json"
+CROSS_TOPIC_GENERATOR = "cross-talk-topic-synthesis-v1"
+OFFICIAL_VIDEO_MANIFEST = (
+    ROOT / "raw" / "sources" / "official-wf26-video-manifest.json"
 )
 
 
@@ -943,7 +951,13 @@ def topic_evidence_rows(topic_slug: str) -> list[dict]:
 
 def update_topic_evidence_tables() -> dict:
     summary = {}
-    for topic in TOPICS_FOR_EVIDENCE_TABLES:
+    content_derived_topics = {
+        path.stem
+        for path in (WIKI / "topics").glob("*.md")
+        if "## Transcript Digest Evidence"
+        in path.read_text(encoding="utf-8", errors="ignore")
+    }
+    for topic in sorted(set(TOPICS_FOR_EVIDENCE_TABLES) | content_derived_topics):
         path = WIKI / "topics" / f"{topic}.md"
         if not path.exists():
             continue
@@ -994,6 +1008,340 @@ def update_topic_evidence_tables() -> dict:
         json.dumps(summary, indent=2, ensure_ascii=False),
     )
     return summary
+
+
+def semantic_digest_pairs_from_manifest() -> set[tuple[str, str]]:
+    if not OFFICIAL_VIDEO_MANIFEST.is_file():
+        return set()
+    payload = json.loads(OFFICIAL_VIDEO_MANIFEST.read_text(encoding="utf-8"))
+    pairs: set[tuple[str, str]] = set()
+    for item in payload.get("videos", []):
+        if (
+            not isinstance(item, dict)
+            or item.get("mediaType") != "talk_recording"
+            or str(item.get("videoAvailability") or "").casefold()
+            not in {"", "public", "unlisted"}
+            or str(item.get("playlistAvailability") or "").casefold()
+            not in {"", "available"}
+        ):
+            continue
+        video_id = item.get("id")
+        matched_talks = item.get("matchedTalks")
+        if not isinstance(video_id, str) or not isinstance(matched_talks, list):
+            continue
+        for talk_id in matched_talks:
+            if isinstance(talk_id, str) and talk_id:
+                pairs.add((video_id, talk_id))
+    return pairs
+
+
+def semantic_digest_envelopes() -> list[dict]:
+    """Revalidate complete semantic coverage before synthesis-layer success."""
+
+    expected = semantic_digest_pairs_from_manifest()
+    envelopes: list[dict] = []
+    actual: set[tuple[str, str]] = set()
+    if SEMANTIC_DIGEST_DIR.is_dir():
+        for path in sorted(SEMANTIC_DIGEST_DIR.glob("*.json")):
+            envelope = json.loads(path.read_text(encoding="utf-8"))
+            if envelope.get("generatedBy") != SEMANTIC_DIGEST_GENERATOR:
+                continue
+            payload = envelope.get("payload")
+            if not isinstance(payload, dict):
+                raise SystemExit(f"semantic digest has no payload: {path}")
+            payload_digest = "sha256:" + hashlib.sha256(
+                json.dumps(
+                    payload,
+                    ensure_ascii=False,
+                    sort_keys=True,
+                    separators=(",", ":"),
+                ).encode("utf-8")
+            ).hexdigest()
+            if envelope.get("payloadSha256") != payload_digest:
+                raise SystemExit(
+                    f"semantic digest payload binding failed: {path}"
+                )
+            pair = (str(envelope.get("videoId") or ""), str(envelope.get("talkId") or ""))
+            if not all(pair):
+                raise SystemExit(f"semantic digest has no video/talk binding: {path}")
+            if pair in actual:
+                raise SystemExit(
+                    f"duplicate semantic digest binding: {pair[0]} -> {pair[1]}"
+                )
+            for key in (
+                "takeaways",
+                "claims",
+                "topics",
+                "tools",
+                "methods",
+                "questions",
+            ):
+                if not isinstance(payload.get(key), list):
+                    raise SystemExit(
+                        f"semantic digest {pair[0]} -> {pair[1]} has invalid {key}"
+                    )
+            actual.add(pair)
+            envelopes.append(envelope)
+    missing = sorted(expected - actual)
+    if missing:
+        rendered = ", ".join(f"{video} -> {talk}" for video, talk in missing)
+        raise SystemExit(
+            "semantic synthesis coverage is incomplete for matched recordings: "
+            + rendered
+        )
+    stale = sorted(actual - expected)
+    if stale:
+        rendered = ", ".join(f"{video} -> {talk}" for video, talk in stale)
+        raise SystemExit(
+            "semantic digest cache contains stale active bindings: " + rendered
+        )
+    return envelopes
+
+
+def validated_cross_topic_clusters(
+    envelopes: list[dict],
+) -> list[dict[str, object]]:
+    if not CROSS_TOPIC_SYNTHESIS.is_file():
+        raise SystemExit(
+            "cross-talk topic synthesis cache is missing after talk-synthesis adapter"
+        )
+    envelope = json.loads(CROSS_TOPIC_SYNTHESIS.read_text(encoding="utf-8"))
+    if envelope.get("generatedBy") != CROSS_TOPIC_GENERATOR:
+        raise SystemExit("cross-talk topic synthesis generator binding is invalid")
+    payload = envelope.get("payload")
+    if not isinstance(payload, dict):
+        raise SystemExit("cross-talk topic synthesis payload is missing")
+    payload_digest = "sha256:" + hashlib.sha256(
+        json.dumps(
+            payload,
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")
+    ).hexdigest()
+    if envelope.get("payloadSha256") != payload_digest:
+        raise SystemExit("cross-talk topic synthesis payload binding failed")
+
+    candidates: dict[str, dict[str, str]] = {}
+    index = 0
+    for digest in sorted(
+        envelopes,
+        key=lambda item: (item["talkId"], item["videoId"]),
+    ):
+        for _item in digest["payload"]["topics"]:
+            index += 1
+            candidates[f"T{index:04d}"] = {
+                "talkId": str(digest["talkId"]),
+                "videoId": str(digest["videoId"]),
+            }
+
+    clusters = payload.get("clusters")
+    if not isinstance(clusters, list) or len(clusters) < 8:
+        raise SystemExit(
+            "cross-talk topic synthesis retained fewer than eight clusters"
+        )
+    validated = []
+    used_members: set[str] = set()
+    for cluster in clusters:
+        if not isinstance(cluster, dict):
+            raise SystemExit("cross-talk topic synthesis cluster is malformed")
+        member_ids = cluster.get("memberIds")
+        if (
+            not isinstance(member_ids, list)
+            or any(member_id not in candidates for member_id in member_ids)
+            or used_members.intersection(member_ids)
+        ):
+            raise SystemExit(
+                "cross-talk topic synthesis member binding is malformed"
+            )
+        talk_ids = {candidates[member_id]["talkId"] for member_id in member_ids}
+        if len(talk_ids) < 2:
+            raise SystemExit(
+                "cross-talk topic synthesis contains a single-talk cluster"
+            )
+        used_members.update(member_ids)
+        validated.append(
+            {
+                "name": str(cluster.get("canonicalTopic") or "").strip(),
+                "slug": str(
+                    cluster.get("preferredExistingTopicSlug")
+                    or slugify(str(cluster.get("canonicalTopic") or ""))
+                ),
+                "synthesis": str(cluster.get("synthesis") or "").strip(),
+                "talks": talk_ids,
+            }
+        )
+    return validated
+
+
+def semantic_rollup(envelopes: list[dict]) -> dict[str, int]:
+    """Publish cross-talk recurrence so imports bolster shared knowledge."""
+
+    categories = {
+        "tools": ("tools", "name"),
+        "methods": ("methods", "name"),
+    }
+    grouped: dict[str, dict[str, dict[str, object]]] = {
+        category: {} for category in ("topics", *categories)
+    }
+    for cluster in validated_cross_topic_clusters(envelopes):
+        grouped["topics"][str(cluster["slug"])] = cluster
+    for envelope in envelopes:
+        payload = envelope["payload"]
+        for category, (payload_key, name_key) in categories.items():
+            for item in payload[payload_key]:
+                name = str(item.get(name_key) or "").strip()
+                if not name:
+                    continue
+                key = slugify(name)
+                record = grouped[category].setdefault(
+                    key,
+                    {"name": name, "talks": set()},
+                )
+                record["talks"].add(str(envelope["talkId"]))
+
+    lines = [
+        "This rollup is rebuilt by the synthesis-layer adapter from every validated structured talk digest. It shows which transcript-derived ideas recur across independently attributed event recordings.",
+        "",
+    ]
+    recurring_counts: dict[str, int] = {}
+    for category in ("topics", "tools", "methods"):
+        records = [
+            record
+            for record in grouped[category].values()
+            if len(record["talks"]) >= 2
+        ]
+        records.sort(
+            key=lambda record: (
+                -len(record["talks"]),
+                str(record["name"]).casefold(),
+            )
+        )
+        recurring_counts[category] = len(records)
+        lines.extend(
+            [
+                f"### Recurring {category.title()}",
+                (
+                    f"{len(records)} {category} recur in at least two "
+                    "validated talk digests."
+                ),
+            ]
+        )
+        if records:
+            for record in records:
+                talk_links = ", ".join(
+                    f"[[{talk_id}]]" for talk_id in sorted(record["talks"])
+                )
+                lines.append(
+                    (
+                        f"- [[{record['slug']}|{record['name']}]] "
+                        if category == "topics"
+                        else f"- **{record['name']}** "
+                    )
+                    + f"({len(record['talks'])} talks): {talk_links}"
+                )
+                if category == "topics":
+                    lines.append(
+                        f"  - {record['synthesis']}"
+                    )
+        else:
+            lines.append("- No repeated item passed the current evidence gate.")
+        lines.append("")
+
+    coverage_path = WIKI / "resources" / "transcript-semantic-digestion.md"
+    if not coverage_path.is_file():
+        raise SystemExit(
+            "semantic coverage page is missing after talk-synthesis adapter"
+        )
+    coverage = coverage_path.read_text(encoding="utf-8")
+    write(
+        coverage_path,
+        upsert_section(
+            coverage,
+            "Cross-Talk Synthesis Rollup",
+            "\n".join(lines),
+        ),
+    )
+    return recurring_counts
+
+
+def markdown_title(path: Path) -> str:
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    match = re.search(r"^title:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
+    if match:
+        return match.group(1).strip().strip("\"'")
+    heading = re.search(r"^#\s+(.+)$", text, re.M)
+    return heading.group(1).strip() if heading else path.stem.replace("-", " ").title()
+
+
+def refresh_semantic_registries() -> int:
+    """Keep dynamic digest pages visible after fixed generators run."""
+
+    total = 0
+    for category in (
+        "topics",
+        "tools",
+        "questions",
+        "claims",
+        "patterns",
+        "highlights",
+        "resources",
+    ):
+        directory = WIKI / category
+        if not directory.is_dir():
+            continue
+        records = []
+        semantic_links = []
+        for path in sorted(directory.glob("*.md")):
+            if path.name in {"index.md", f"{category}.md"}:
+                continue
+            title = markdown_title(path)
+            records.append(
+                {
+                    "id": path.stem,
+                    "title": title,
+                    "path": f"wiki/{category}/{path.name}",
+                }
+            )
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            if (
+                f'generatedBy: "{SEMANTIC_DIGEST_GENERATOR}"' in text
+                or "## Transcript Digest Evidence" in text
+            ):
+                semantic_links.append((path.stem, title))
+        write(
+            directory / "registry.json",
+            json.dumps(
+                sorted(records, key=lambda row: row["title"].casefold()),
+                indent=2,
+                ensure_ascii=False,
+            ),
+        )
+        index_path = directory / "index.md"
+        if index_path.is_file() and semantic_links:
+            body = "\n".join(
+                [
+                    "These pages are generated or augmented from evidence-validated official recording transcripts:",
+                    "",
+                    *[
+                        f"- [[{slug}|{title}]]"
+                        for slug, title in sorted(
+                            semantic_links,
+                            key=lambda item: item[1].casefold(),
+                        )
+                    ],
+                ]
+            )
+            write(
+                index_path,
+                upsert_section(
+                    index_path.read_text(encoding="utf-8"),
+                    "Transcript-Derived Knowledge",
+                    body,
+                ),
+            )
+        total += len(semantic_links)
+    return total
 
 
 def generate_livestream_thematic_anchors() -> None:
@@ -1156,6 +1504,11 @@ def write_receipt(counts: dict) -> str:
         f"- Playbook pages: {counts['playbooks']}",
         f"- Evaluation pages: {counts['evaluations']}",
         f"- Topic evidence tables updated: {counts['topic_tables']}",
+        f"- Validated semantic talk digests: {counts['semantic_digests']}",
+        f"- Recurring transcript-derived topics: {counts['recurring_topics']}",
+        f"- Recurring transcript-derived tools: {counts['recurring_tools']}",
+        f"- Recurring transcript-derived methods: {counts['recurring_methods']}",
+        f"- Transcript-derived registry/index entries: {counts['semantic_registry_entries']}",
         f"- Livestream thematic anchor pages: {counts['livestream_anchor_pages']}",
         f"- Private quality policies checked: {counts['private_quality_policies']}",
         f"- Private quality fixtures checked: {counts['private_quality_checks']}",
@@ -1185,6 +1538,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     parse_args(argv)
+    semantic_envelopes = semantic_digest_envelopes()
     claims = generate_claims()
     patterns = generate_patterns()
     harnesses = generate_harnesses()
@@ -1195,6 +1549,8 @@ def main(argv: list[str] | None = None) -> int:
     generate_livestream_thematic_anchors()
     generate_main_index()
     update_agent_source_index()
+    recurring = semantic_rollup(semantic_envelopes)
+    semantic_registry_entries = refresh_semantic_registries()
     receipt = write_receipt(
         {
             "harnesses": len(harnesses),
@@ -1205,6 +1561,11 @@ def main(argv: list[str] | None = None) -> int:
             "private_quality_policies": len(private_policy_records),
             "private_quality_checks": len(private_check_results),
             "topic_tables": len(topic_summary),
+            "semantic_digests": len(semantic_envelopes),
+            "recurring_topics": recurring["topics"],
+            "recurring_tools": recurring["tools"],
+            "recurring_methods": recurring["methods"],
+            "semantic_registry_entries": semantic_registry_entries,
             "livestream_anchor_pages": 1,
         }
     )
@@ -1219,6 +1580,11 @@ def main(argv: list[str] | None = None) -> int:
                 "private_quality_policies": len(private_policy_records),
                 "private_quality_checks": len(private_check_results),
                 "topic_tables": len(topic_summary),
+                "semantic_digests": len(semantic_envelopes),
+                "recurring_topics": recurring["topics"],
+                "recurring_tools": recurring["tools"],
+                "recurring_methods": recurring["methods"],
+                "semantic_registry_entries": semantic_registry_entries,
                 "livestream_anchor_pages": 1,
                 "receipt": receipt,
             },

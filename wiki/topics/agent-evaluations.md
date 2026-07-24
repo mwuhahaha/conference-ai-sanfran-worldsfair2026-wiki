@@ -19,6 +19,7 @@ sourceAssessment:
   - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-9QebvrrY3KY
+  - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-GgLQ02aO-hs
   - source:official-wf26-youtube-OqM67QG_Ikk
@@ -35,7 +36,7 @@ sourceAssessment:
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-uIiA6DquRiE
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:227cbc9263af7deaea6235f0e22db6af0d22877c903aa4149476f1a3210ddd8e
+sourceAssessmentBodySha256: sha256:69627a47652423d79d93c93e75b4772c6050108bba102d30aca00e3bd549a567
 ---
 # Agent Evaluations
 
@@ -94,6 +95,77 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 32 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Evaluation design that tries to make agent quality measurable, hard to game, and useful for shipping decisions. The talks vary between benchmark design, harness structure, verifiers, and improvement loops, with the main tradeoff being whether the eval emphasizes realism, robustness, or iteration speed.
+
+### Constituent Talk Evidence
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]] — Designing benchmarks that resist gaming while remaining easy to check.
+  - Transcript: [[youtube-uIiA6DquRiE-transcript]]
+  - Evidence: "The first condition is the benchmark must not must not be benchmaxable. Right? How do you make a benchmark that is extremely hard to benchmark, right?"
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]] — Evaluating coding agents and code quality with benchmarks, verifiers, and reward channels.
+  - Transcript: [[youtube-Ib5GBkD555M-transcript]]
+  - Evidence: "So, we're going to look at these as like what is the future of evaluating code maintainability."
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]] — Shared harnesses with organizational identity, organizational context, and team-wide access.
+  - Transcript: [[youtube-9QebvrrY3KY-transcript]]
+  - Evidence: "What's interesting about Claude Tag is it is a harness that everyone in the organization has access to and can use."
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — Controls and benchmark design choices that prevent models from gaming evaluation results.
+  - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
+  - Evidence: "So, first off, we would delete the Git history at the start, and we could restore it at the end, so that wouldn't affect the run."
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — Improving agents through evaluation-driven candidate generation and deployment.
+  - Transcript: [[youtube-RGSFUqzqErE-transcript]]
+  - Evidence: "So we built a component called the agent optimizer that effectively goes through this process and allows you to evaluate a baseline, generate candidates, and then you know, evaluate the new candidates and we have a strong result, then deploy that to production."
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — Judging providers by end-to-end task outcomes rather than by single-call metrics.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "But if you have expertise in entire web search trajectories, you'll see how it differs. The granularity of this eval is what lets us make the best decisions for our customers because we understand all of the trade-offs on entire trajectories, not just single calls."
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The shift from a final review step to a broader system for routing, verifying, and integrating work.
+  - Transcript: [[youtube-n97BCfyFIvw-transcript]]
+  - Evidence: "It has to become a whole control system. The second thing to avoid is cognitive surrender."
+- [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — The gap between agents that can take actions and agents that can be trusted to finish messy work end to end.
+  - Transcript: [[youtube-2JX6JYyQG4Y-transcript]]
+  - Evidence: "Now the next hard part is really reliability and without reliability we cannot really build up trust in those systems."
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Using recorded trajectories to probe whether a model can predict reward or internal state.
+  - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
+  - Evidence: "From there we can probe a model asking to predict the reward, the internal state or any other observation of the computer and compare it against the fork."
+- [[2026-06-30-philipp-schmid-don-t-ship-skills-without-evals|Don't Ship Skills Without Evals]] — Testing a skill with and without it loaded to measure whether it still adds value.
+  - Transcript: [[youtube-0vphxNt4wyk-transcript]]
+  - Evidence: "So, run always evals with your skill loaded and without your skill loaded. Only that way you will know when you can retire skill or if a skill is really helpful for your performance."
+- [[2026-06-30-sean-cai-state-of-data|State of Data]] — Data derived from real workflows, reasoning traces, and decision sequences rather than only final outputs.
+  - Transcript: [[youtube-ZyIoTOAbRfs-transcript]]
+  - Evidence: "What is actually available nowadays is process-based data, which is the trajectory, the reasoning trade trace, the sequence of decisions."
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — Using repository knowledge and explicit rules to steer agents before they write code.
+  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
+  - Evidence: "What we find is critically important is to think about guide as context and constraints and we separate out context and constraints very deliberately because context is you have your code repositories."
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]] — How to adapt prompting, tools, and harnesses to a new model class with more latent capability.
+  - Transcript: [[youtube-9fubhllmsBU-transcript]]
+  - Evidence: "And so, what I wanted to do in this talk is give you guys a field guide to Fable, right? How do you work with this new class of models?"
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — Verifying each action in a long exploitation chain with machine-checkable scoring.
+  - Transcript: [[youtube-O-CBZ3JtRvo-transcript]]
+  - Evidence: "And everything because the tasks are so difficult, everything has a deterministic greater."
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — A competition used as both a benchmark and a hiring filter for small language model training under strict resource limits.
+  - Transcript: [[youtube-iCj_ATyThvc-transcript]]
+  - Evidence: "This April, OBI ran a hiring challenge, a competition called Parameter Golf. The top contributor was one candidate that they couldn't hire."
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.
+  - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
+  - Evidence: "So, stop reason means the LLM has stopped for some reason. The The reason here is that it can't do anything, and if the reason is tool use, ah, now it's time."
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]] — A deterministic operating model for video understanding that plans tasks, retrieves evidence, and validates outputs.
+  - Transcript: [[youtube-mOf-PP4mVjA-transcript]]
+  - Evidence: "So what does it look like for for video on a static model right um a model co a single answer it is stateless it start fresh time start fresh each time and doesn't have any constraint so the output is largely based on what the model decide to produce a video worker on the"
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — Using skills and evaluation loops to shape model output quality.
+  - Transcript: [[youtube-Cz4v1WHVyZc-transcript]]
+  - Evidence: "And a big part of this is the skills that we couple with our framework. Our skill is focused on taste and video aspects because the LLMs and agents already know how to write HTML and CSS and JavaScript, we don't have to teach them the language, we just teach them how to create good videos."
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — The interface defined by natural-language instructions, code constraints, and evaluative examples.
+  - Transcript: [[youtube-GgLQ02aO-hs-transcript]]
+  - Evidence: "Now that you have all of these, you have express fully. You have all these three languages you can put together."
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — Using evals to identify ambiguities, missing schema detail, and mismatches with reporting conventions.
+  - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
+  - Evidence: "Okay, I've got a couple minutes. I'll kind of speed through this, but the the way eval relate to data modeling is that as you're doing eval, you find you find gaps."
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Controlled self-improvement loops that propose changes, test them, and keep only verified gains.
+  - Transcript: [[youtube-khVX_BUnEwU-transcript]]
+  - Evidence: "Again, I did this on long mem eval. The loop was I think doing about 20 questions, looking at the answering questions, seeing where it failed, trying to self-modify, trying that on 50 different questions, see if the accuracy actually went up, and only if it went up, it would accept it."
 
 ## Connections
 - [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop; [[maor-bril|Maor Bril]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Evals; official schedule)
@@ -192,9 +264,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 60 | Related pages outside the main evidence categories. |
 | resources | 30 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 50 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 42 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 54 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 30 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 34 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail]]

@@ -1,5 +1,65 @@
 [
   {
+    "id": "youtube-OimPoLxioYg",
+    "title": "120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson",
+    "path": "wiki/resources/youtube-OimPoLxioYg.md"
+  },
+  {
+    "id": "youtube-hqHC6Z_lXyo",
+    "title": "20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
+    "path": "wiki/resources/youtube-hqHC6Z_lXyo.md"
+  },
+  {
+    "id": "youtube-gUMwt4-5kn0",
+    "title": "2026 AI Engineer Vibe Reel",
+    "path": "wiki/resources/youtube-gUMwt4-5kn0.md"
+  },
+  {
+    "id": "youtube-7Dtu2bilcFs",
+    "title": "2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding",
+    "path": "wiki/resources/youtube-7Dtu2bilcFs.md"
+  },
+  {
+    "id": "youtube-UcYoMg-8-L8",
+    "title": "500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
+    "path": "wiki/resources/youtube-UcYoMg-8-L8.md"
+  },
+  {
+    "id": "youtube-0S8xe9ftGTM",
+    "title": "6 Things to Know about AIE World's Fair 2026",
+    "path": "wiki/resources/youtube-0S8xe9ftGTM.md"
+  },
+  {
+    "id": "youtube-OkEGJ5G3foU",
+    "title": "[Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han",
+    "path": "wiki/resources/youtube-OkEGJ5G3foU.md"
+  },
+  {
+    "id": "youtube--CnA2lGfymY",
+    "title": "\\\"I've never seen anything scarier than an LLM with tool calls.\\\" — Erik Meijer aka @HeadinTheBox",
+    "path": "wiki/resources/youtube--CnA2lGfymY.md"
+  },
+  {
+    "id": "youtube-RGe6EjucbzI",
+    "title": "\\\"The biggest challenge in your stack? Evals, Evals, Evals\\\" - 2026 State of AI Engineering results",
+    "path": "wiki/resources/youtube-RGe6EjucbzI.md"
+  },
+  {
+    "id": "youtube-n97BCfyFIvw",
+    "title": "\\\"The engineer of the future is the person who is able to choose what is worth doing.\\\" — Addy Osmani",
+    "path": "wiki/resources/youtube-n97BCfyFIvw.md"
+  },
+  {
+    "id": "youtube-jVjt-2g8NMY",
+    "title": "A Genius With Amnesia - Victor Savkin, Nx",
+    "path": "wiki/resources/youtube-jVjt-2g8NMY.md"
+  },
+  {
+    "id": "youtube-khVX_BUnEwU",
+    "title": "Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
+    "path": "wiki/resources/youtube-khVX_BUnEwU.md"
+  },
+  {
     "id": "advanced-slide-logic-page-audit",
     "title": "Advanced Slide Logic Page Audit",
     "path": "wiki/resources/advanced-slide-logic-page-audit.md"
@@ -10,9 +70,54 @@
     "path": "wiki/resources/agent-source-index.md"
   },
   {
+    "id": "youtube-kR64LOqBBCU",
+    "title": "AgentCraft: Putting the Orc in Orchestration — Ido Salomon",
+    "path": "wiki/resources/youtube-kR64LOqBBCU.md"
+  },
+  {
+    "id": "youtube-cgimkNGNjvU",
+    "title": "Agentic Development Security — Ezra Tanzer, Snyk",
+    "path": "wiki/resources/youtube-cgimkNGNjvU.md"
+  },
+  {
+    "id": "youtube-yWS0udrIOc8",
+    "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town",
+    "path": "wiki/resources/youtube-yWS0udrIOc8.md"
+  },
+  {
+    "id": "youtube-aHhB3sjGjkI",
+    "title": "Agents Building Agents - Alfonso Graziano, Nearform",
+    "path": "wiki/resources/youtube-aHhB3sjGjkI.md"
+  },
+  {
+    "id": "youtube-zepu8Kk6FBQ",
+    "title": "Agents for Everything Else — swyx",
+    "path": "wiki/resources/youtube-zepu8Kk6FBQ.md"
+  },
+  {
+    "id": "youtube-4uFVSLgD2Q4",
+    "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+    "path": "wiki/resources/youtube-4uFVSLgD2Q4.md"
+  },
+  {
+    "id": "youtube-XNtkiQJ49Ps",
+    "title": "Agents need more than a chat - Jacob Lauritzen, CTO Legora",
+    "path": "wiki/resources/youtube-XNtkiQJ49Ps.md"
+  },
+  {
+    "id": "youtube-8SUJEqQNClw",
+    "title": "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
+    "path": "wiki/resources/youtube-8SUJEqQNClw.md"
+  },
+  {
     "id": "ai-engineer-livestream-corpus",
     "title": "AI Engineer Livestream Corpus",
     "path": "wiki/resources/ai-engineer-livestream-corpus.md"
+  },
+  {
+    "id": "youtube-AheG9p_JXVw",
+    "title": "AI Engineer World's Fair: Building Reelful - Agentic Video Editor",
+    "path": "wiki/resources/youtube-AheG9p_JXVw.md"
   },
   {
     "id": "ai-engineer-youtube-channel",
@@ -20,9 +125,29 @@
     "path": "wiki/resources/ai-engineer-youtube-channel.md"
   },
   {
+    "id": "youtube-kRkcNOsRyYg",
+    "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
+    "path": "wiki/resources/youtube-kRkcNOsRyYg.md"
+  },
+  {
+    "id": "youtube-JhJKgRAmfIU",
+    "title": "AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft",
+    "path": "wiki/resources/youtube-JhJKgRAmfIU.md"
+  },
+  {
     "id": "ai-slide-classification-and-recreation",
     "title": "AI Slide Classification And Recreation",
     "path": "wiki/resources/ai-slide-classification-and-recreation.md"
+  },
+  {
+    "id": "youtube-T0HhO4YtTfE",
+    "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+    "path": "wiki/resources/youtube-T0HhO4YtTfE.md"
+  },
+  {
+    "id": "youtube-Iwe_RY-fYgI",
+    "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
+    "path": "wiki/resources/youtube-Iwe_RY-fYgI.md"
   },
   {
     "id": "aie-wiki-generation-delta",
@@ -30,9 +155,294 @@
     "path": "wiki/resources/aie-wiki-generation-delta.md"
   },
   {
+    "id": "youtube-1lgFGaHoGq8",
+    "title": "AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
+    "path": "wiki/resources/youtube-1lgFGaHoGq8.md"
+  },
+  {
+    "id": "youtube-iCj_ATyThvc",
+    "title": "An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco",
+    "path": "wiki/resources/youtube-iCj_ATyThvc.md"
+  },
+  {
+    "id": "youtube-dvft0Gp9sEE",
+    "title": "Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
+    "path": "wiki/resources/youtube-dvft0Gp9sEE.md"
+  },
+  {
+    "id": "youtube-ib-wTAvCZqg",
+    "title": "Architecting and Testing Controllable Agents: Lance Martin",
+    "path": "wiki/resources/youtube-ib-wTAvCZqg.md"
+  },
+  {
+    "id": "youtube-wsFd22SL1s8",
+    "title": "Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/resources/youtube-wsFd22SL1s8.md"
+  },
+  {
+    "id": "youtube-rcsliSIy_YU",
+    "title": "Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands",
+    "path": "wiki/resources/youtube-rcsliSIy_YU.md"
+  },
+  {
+    "id": "youtube-e9sLVMN76qU",
+    "title": "AX is the only Experience that Matters - Ivan Burazin, Daytona",
+    "path": "wiki/resources/youtube-e9sLVMN76qU.md"
+  },
+  {
+    "id": "youtube-504PvfXou5Y",
+    "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+    "path": "wiki/resources/youtube-504PvfXou5Y.md"
+  },
+  {
+    "id": "youtube-zKk7sDMGDEQ",
+    "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+    "path": "wiki/resources/youtube-zKk7sDMGDEQ.md"
+  },
+  {
+    "id": "youtube-hCMrEfPG2Yg",
+    "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+    "path": "wiki/resources/youtube-hCMrEfPG2Yg.md"
+  },
+  {
+    "id": "youtube-qdZzND79mcg",
+    "title": "Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
+    "path": "wiki/resources/youtube-qdZzND79mcg.md"
+  },
+  {
+    "id": "youtube-mFLlVpnGpds",
+    "title": "Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
+    "path": "wiki/resources/youtube-mFLlVpnGpds.md"
+  },
+  {
+    "id": "youtube-JnubYCYunk8",
+    "title": "Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
+    "path": "wiki/resources/youtube-JnubYCYunk8.md"
+  },
+  {
+    "id": "youtube-G_bHFmEAarM",
+    "title": "Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
+    "path": "wiki/resources/youtube-G_bHFmEAarM.md"
+  },
+  {
+    "id": "youtube-SbcQYbrvAfI",
+    "title": "Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize",
+    "path": "wiki/resources/youtube-SbcQYbrvAfI.md"
+  },
+  {
+    "id": "youtube-CDqzWpwkSls",
+    "title": "Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
+    "path": "wiki/resources/youtube-CDqzWpwkSls.md"
+  },
+  {
+    "id": "youtube-ZD9-4fW2HhM",
+    "title": "Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
+    "path": "wiki/resources/youtube-ZD9-4fW2HhM.md"
+  },
+  {
+    "id": "youtube-xnXqpUW_Kp8",
+    "title": "Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai",
+    "path": "wiki/resources/youtube-xnXqpUW_Kp8.md"
+  },
+  {
+    "id": "youtube-_B4Pv9ttFgY",
+    "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+    "path": "wiki/resources/youtube-_B4Pv9ttFgY.md"
+  },
+  {
+    "id": "youtube-WJjInLeaJjo",
+    "title": "Building Agents at Cloud Scale — Antje Barth, AWS",
+    "path": "wiki/resources/youtube-WJjInLeaJjo.md"
+  },
+  {
+    "id": "youtube-wFTVEDYVJT0",
+    "title": "Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
+    "path": "wiki/resources/youtube-wFTVEDYVJT0.md"
+  },
+  {
+    "id": "youtube-jVGCulhBRZI",
+    "title": "Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
+    "path": "wiki/resources/youtube-jVGCulhBRZI.md"
+  },
+  {
+    "id": "youtube-HsxQICTLF84",
+    "title": "Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
+    "path": "wiki/resources/youtube-HsxQICTLF84.md"
+  },
+  {
+    "id": "youtube-12v5S1n1eOY",
+    "title": "Building an Agentic Platform — Ben Kus, CTO Box",
+    "path": "wiki/resources/youtube-12v5S1n1eOY.md"
+  },
+  {
+    "id": "youtube-whue9_YquGA",
+    "title": "Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
+    "path": "wiki/resources/youtube-whue9_YquGA.md"
+  },
+  {
+    "id": "youtube-cVzf49yg0D8",
+    "title": "Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
+    "path": "wiki/resources/youtube-cVzf49yg0D8.md"
+  },
+  {
+    "id": "youtube-fL1iJHtl51Q",
+    "title": "Building Cursor Composer – Lee Robinson, Cursor",
+    "path": "wiki/resources/youtube-fL1iJHtl51Q.md"
+  },
+  {
+    "id": "youtube-UNzCG3lw6O0",
+    "title": "Building Great Agent Skills: The Missing Manual",
+    "path": "wiki/resources/youtube-UNzCG3lw6O0.md"
+  },
+  {
+    "id": "youtube-xz0-brt56L8",
+    "title": "Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)",
+    "path": "wiki/resources/youtube-xz0-brt56L8.md"
+  },
+  {
+    "id": "youtube-_xIwFcnHqp4",
+    "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+    "path": "wiki/resources/youtube-_xIwFcnHqp4.md"
+  },
+  {
+    "id": "youtube-KLSuFPj2ld0",
+    "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+    "path": "wiki/resources/youtube-KLSuFPj2ld0.md"
+  },
+  {
+    "id": "youtube-iXhba366fQc",
+    "title": "Building voice agents with OpenAI — Dominik Kundel, OpenAI",
+    "path": "wiki/resources/youtube-iXhba366fQc.md"
+  },
+  {
+    "id": "youtube-Akm1sqvWG4A",
+    "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+    "path": "wiki/resources/youtube-Akm1sqvWG4A.md"
+  },
+  {
+    "id": "youtube-NuePCNMpWGc",
+    "title": "Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
+    "path": "wiki/resources/youtube-NuePCNMpWGc.md"
+  },
+  {
     "id": "chrome-agent-implementation-delta",
     "title": "chrome-agent Implementation Delta",
     "path": "wiki/resources/chrome-agent-implementation-delta.md"
+  },
+  {
+    "id": "youtube-D4Dswf-__RM",
+    "title": "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS",
+    "path": "wiki/resources/youtube-D4Dswf-__RM.md"
+  },
+  {
+    "id": "youtube-H7puB0RwJMM",
+    "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
+    "path": "wiki/resources/youtube-H7puB0RwJMM.md"
+  },
+  {
+    "id": "youtube-TqC1qOfiVcQ",
+    "title": "Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic",
+    "path": "wiki/resources/youtube-TqC1qOfiVcQ.md"
+  },
+  {
+    "id": "youtube-9QebvrrY3KY",
+    "title": "Claude for Long-Horizon Tasks — Lance Martin, Anthropic",
+    "path": "wiki/resources/youtube-9QebvrrY3KY.md"
+  },
+  {
+    "id": "youtube-eBUyTS7SzV4",
+    "title": "Closing Keynote: Garry Tan, Y Combinator",
+    "path": "wiki/resources/youtube-eBUyTS7SzV4.md"
+  },
+  {
+    "id": "youtube-5_QWh4LGoxg",
+    "title": "Cognitive Shield Real Time Real Smart - Rachna Srivastava",
+    "path": "wiki/resources/youtube-5_QWh4LGoxg.md"
+  },
+  {
+    "id": "youtube-u3NofYYstaY",
+    "title": "Cohere for VPs of AI: Vivek Muppalla",
+    "path": "wiki/resources/youtube-u3NofYYstaY.md"
+  },
+  {
+    "id": "youtube-ZSQb5fzRFPw",
+    "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
+    "path": "wiki/resources/youtube-ZSQb5fzRFPw.md"
+  },
+  {
+    "id": "youtube-eW_vxrjvERk",
+    "title": "Connecting the Dots with Context Graphs — Stephen Chin, Neo4j",
+    "path": "wiki/resources/youtube-eW_vxrjvERk.md"
+  },
+  {
+    "id": "youtube-bSG9wUYaHWU",
+    "title": "Context Is the New Code — Patrick Debois, Tessl",
+    "path": "wiki/resources/youtube-bSG9wUYaHWU.md"
+  },
+  {
+    "id": "youtube-2IxD9OB3XuQ",
+    "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
+    "path": "wiki/resources/youtube-2IxD9OB3XuQ.md"
+  },
+  {
+    "id": "youtube-Q0VkgCyNVUg",
+    "title": "CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j",
+    "path": "wiki/resources/youtube-Q0VkgCyNVUg.md"
+  },
+  {
+    "id": "youtube-pmoDeA3RBZY",
+    "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+    "path": "wiki/resources/youtube-pmoDeA3RBZY.md"
+  },
+  {
+    "id": "youtube-YZQsWVeN3rE",
+    "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+    "path": "wiki/resources/youtube-YZQsWVeN3rE.md"
+  },
+  {
+    "id": "youtube-APh1Vx0oLmQ",
+    "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+    "path": "wiki/resources/youtube-APh1Vx0oLmQ.md"
+  },
+  {
+    "id": "youtube-0vphxNt4wyk",
+    "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+    "path": "wiki/resources/youtube-0vphxNt4wyk.md"
+  },
+  {
+    "id": "youtube-EY4O9M6AsWI",
+    "title": "Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI",
+    "path": "wiki/resources/youtube-EY4O9M6AsWI.md"
+  },
+  {
+    "id": "youtube--cKUW6n8hBU",
+    "title": "DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners",
+    "path": "wiki/resources/youtube--cKUW6n8hBU.md"
+  },
+  {
+    "id": "youtube-bk0TmxoZlUY",
+    "title": "Evals 101 — Doug Guthrie, Braintrust",
+    "path": "wiki/resources/youtube-bk0TmxoZlUY.md"
+  },
+  {
+    "id": "youtube-QuuIywMG4s8",
+    "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+    "path": "wiki/resources/youtube-QuuIywMG4s8.md"
+  },
+  {
+    "id": "youtube-8qWIPUia2O8",
+    "title": "Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
+    "path": "wiki/resources/youtube-8qWIPUia2O8.md"
+  },
+  {
+    "id": "youtube-jRCpXUjz4CI",
+    "title": "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+    "path": "wiki/resources/youtube-jRCpXUjz4CI.md"
+  },
+  {
+    "id": "youtube-xUnRQ9vLXxo",
+    "title": "Everything we knew about software has changed — Theo Browne, @t3dotgg ​",
+    "path": "wiki/resources/youtube-xUnRQ9vLXxo.md"
   },
   {
     "id": "external-video-discovery",
@@ -40,9 +450,194 @@
     "path": "wiki/resources/external-video-discovery.md"
   },
   {
+    "id": "youtube-9fubhllmsBU",
+    "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
+    "path": "wiki/resources/youtube-9fubhllmsBU.md"
+  },
+  {
+    "id": "youtube-APqXGyCoGW4",
+    "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+    "path": "wiki/resources/youtube-APqXGyCoGW4.md"
+  },
+  {
+    "id": "youtube--TiET_K-E_g",
+    "title": "From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
+    "path": "wiki/resources/youtube--TiET_K-E_g.md"
+  },
+  {
+    "id": "youtube-OqM67QG_Ikk",
+    "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/resources/youtube-OqM67QG_Ikk.md"
+  },
+  {
+    "id": "youtube-zTZ0qunQXnM",
+    "title": "From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
+    "path": "wiki/resources/youtube-zTZ0qunQXnM.md"
+  },
+  {
+    "id": "youtube-tzRvcTEapzo",
+    "title": "From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva",
+    "path": "wiki/resources/youtube-tzRvcTEapzo.md"
+  },
+  {
+    "id": "youtube-Btk8wDUVs74",
+    "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
+    "path": "wiki/resources/youtube-Btk8wDUVs74.md"
+  },
+  {
+    "id": "youtube-yJHw33cVeHo",
+    "title": "From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
+    "path": "wiki/resources/youtube-yJHw33cVeHo.md"
+  },
+  {
+    "id": "youtube-Bc6Ojl2XS1w",
+    "title": "From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
+    "path": "wiki/resources/youtube-Bc6Ojl2XS1w.md"
+  },
+  {
+    "id": "youtube-fWXJM-J0ZB8",
+    "title": "Frontier results, on device - RL Nabors, Arize",
+    "path": "wiki/resources/youtube-fWXJM-J0ZB8.md"
+  },
+  {
+    "id": "youtube-JvKO40CFq-s",
+    "title": "Full Workshop: Better Auth — Paola Estefania, Better Auth",
+    "path": "wiki/resources/youtube-JvKO40CFq-s.md"
+  },
+  {
+    "id": "youtube-il1c1a2FufU",
+    "title": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
+    "path": "wiki/resources/youtube-il1c1a2FufU.md"
+  },
+  {
+    "id": "youtube-84Vtz2IL1Ug",
+    "title": "Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
+    "path": "wiki/resources/youtube-84Vtz2IL1Ug.md"
+  },
+  {
     "id": "google-photos-aie-slides",
     "title": "Google Photos AIE Slides Import",
     "path": "wiki/resources/google-photos-aie-slides.md"
+  },
+  {
+    "id": "youtube-zDGHt0LB-dA",
+    "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+    "path": "wiki/resources/youtube-zDGHt0LB-dA.md"
+  },
+  {
+    "id": "youtube-knDDGYHnnSI",
+    "title": "GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
+    "path": "wiki/resources/youtube-knDDGYHnnSI.md"
+  },
+  {
+    "id": "youtube-G6IlDzj8OjA",
+    "title": "GTM Is You - Victoria Melnikova, Evil Martians",
+    "path": "wiki/resources/youtube-G6IlDzj8OjA.md"
+  },
+  {
+    "id": "youtube-Ib5GBkD555M",
+    "title": "Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
+    "path": "wiki/resources/youtube-Ib5GBkD555M.md"
+  },
+  {
+    "id": "youtube-C_GG5g38vLU",
+    "title": "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
+    "path": "wiki/resources/youtube-C_GG5g38vLU.md"
+  },
+  {
+    "id": "youtube-DeFF3J8T5Pk",
+    "title": "How fast are LLM inference engines anyway? — Charles Frye, Modal",
+    "path": "wiki/resources/youtube-DeFF3J8T5Pk.md"
+  },
+  {
+    "id": "youtube-ZuiJjkbX0Og",
+    "title": "How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
+    "path": "wiki/resources/youtube-ZuiJjkbX0Og.md"
+  },
+  {
+    "id": "youtube-KA5kPbdkK2E",
+    "title": "How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
+    "path": "wiki/resources/youtube-KA5kPbdkK2E.md"
+  },
+  {
+    "id": "youtube-sl3icG-IjHo",
+    "title": "How to Build Planning Agents without losing control - Yogendra Miraje, Factset",
+    "path": "wiki/resources/youtube-sl3icG-IjHo.md"
+  },
+  {
+    "id": "youtube-6YdPI9YbjbI",
+    "title": "How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)",
+    "path": "wiki/resources/youtube-6YdPI9YbjbI.md"
+  },
+  {
+    "id": "youtube-jryZvCuA0Uc",
+    "title": "How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
+    "path": "wiki/resources/youtube-jryZvCuA0Uc.md"
+  },
+  {
+    "id": "youtube-u-rJwPPU3QA",
+    "title": "How to talk to statues — Joe Reeve, ElevenLabs",
+    "path": "wiki/resources/youtube-u-rJwPPU3QA.md"
+  },
+  {
+    "id": "youtube-1IdzkRVmWAA",
+    "title": "How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
+    "path": "wiki/resources/youtube-1IdzkRVmWAA.md"
+  },
+  {
+    "id": "youtube-bVNNvWq6dKo",
+    "title": "How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf",
+    "path": "wiki/resources/youtube-bVNNvWq6dKo.md"
+  },
+  {
+    "id": "youtube-Cz4v1WHVyZc",
+    "title": "HTML Is All Agents Need — James Russo, HeyGen",
+    "path": "wiki/resources/youtube-Cz4v1WHVyZc.md"
+  },
+  {
+    "id": "youtube-JRTAtZ5iBkU",
+    "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
+    "path": "wiki/resources/youtube-JRTAtZ5iBkU.md"
+  },
+  {
+    "id": "youtube-4kYl2_mqmnQ",
+    "title": "I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
+    "path": "wiki/resources/youtube-4kYl2_mqmnQ.md"
+  },
+  {
+    "id": "youtube-Z2Erdirpudo",
+    "title": "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator",
+    "path": "wiki/resources/youtube-Z2Erdirpudo.md"
+  },
+  {
+    "id": "youtube-VrpEyglYgeU",
+    "title": "In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar",
+    "path": "wiki/resources/youtube-VrpEyglYgeU.md"
+  },
+  {
+    "id": "youtube-I3znWC3MEXM",
+    "title": "It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard",
+    "path": "wiki/resources/youtube-I3znWC3MEXM.md"
+  },
+  {
+    "id": "youtube-Jty4s9-Jb78",
+    "title": "Jack Morris: Stuffing Context is not Memory, Updating Weights is",
+    "path": "wiki/resources/youtube-Jty4s9-Jb78.md"
+  },
+  {
+    "id": "youtube-aqW68Is_Kj4",
+    "title": "Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic",
+    "path": "wiki/resources/youtube-aqW68Is_Kj4.md"
+  },
+  {
+    "id": "youtube-PmZDupFP3UM",
+    "title": "Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)",
+    "path": "wiki/resources/youtube-PmZDupFP3UM.md"
+  },
+  {
+    "id": "youtube-EyZiAp0pelw",
+    "title": "Letting AI Interface with your App with MCP — Kent C Dodds",
+    "path": "wiki/resources/youtube-EyZiAp0pelw.md"
   },
   {
     "id": "livestream-talk-segments",
@@ -53,6 +648,71 @@
     "id": "livestream-thematic-anchors",
     "title": "Livestream Thematic Anchors",
     "path": "wiki/resources/livestream-thematic-anchors.md"
+  },
+  {
+    "id": "youtube-JsCCrBF7F1g",
+    "title": "LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
+    "path": "wiki/resources/youtube-JsCCrBF7F1g.md"
+  },
+  {
+    "id": "youtube-MRM7oA3JsFs",
+    "title": "Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
+    "path": "wiki/resources/youtube-MRM7oA3JsFs.md"
+  },
+  {
+    "id": "youtube-ShuJ_CN6zr4",
+    "title": "Making Codebases Agent Ready – Eno Reyes, Factory AI",
+    "path": "wiki/resources/youtube-ShuJ_CN6zr4.md"
+  },
+  {
+    "id": "youtube-sAOBXCDiDOs",
+    "title": "MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
+    "path": "wiki/resources/youtube-sAOBXCDiDOs.md"
+  },
+  {
+    "id": "youtube-bmWZk9vTze0",
+    "title": "MCP is all you need — Samuel Colvin, Pydantic",
+    "path": "wiki/resources/youtube-bmWZk9vTze0.md"
+  },
+  {
+    "id": "youtube-o-zkvb0iFDQ",
+    "title": "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+    "path": "wiki/resources/youtube-o-zkvb0iFDQ.md"
+  },
+  {
+    "id": "youtube-5ID22ACI7IM",
+    "title": "Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked",
+    "path": "wiki/resources/youtube-5ID22ACI7IM.md"
+  },
+  {
+    "id": "youtube-lY1iFbDPRlw",
+    "title": "Minimax M2: Building the #1 Open Model – Olive Song, MiniMax",
+    "path": "wiki/resources/youtube-lY1iFbDPRlw.md"
+  },
+  {
+    "id": "youtube-V-EDrhIhHzQ",
+    "title": "Modern Post-Training: A Deep Dive  — Will Brown, Prime Intellect",
+    "path": "wiki/resources/youtube-V-EDrhIhHzQ.md"
+  },
+  {
+    "id": "youtube-SZStlIhyTCY",
+    "title": "Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
+    "path": "wiki/resources/youtube-SZStlIhyTCY.md"
+  },
+  {
+    "id": "youtube-P_uhFGH4J9Y",
+    "title": "New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games",
+    "path": "wiki/resources/youtube-P_uhFGH4J9Y.md"
+  },
+  {
+    "id": "youtube-rmvDxxNubIg",
+    "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
+    "path": "wiki/resources/youtube-rmvDxxNubIg.md"
+  },
+  {
+    "id": "youtube--I5W5QVAT8E",
+    "title": "Notion's Token Town — Sarah Sachs, Notion",
+    "path": "wiki/resources/youtube--I5W5QVAT8E.md"
   },
   {
     "id": "official-conference-site",
@@ -70,9 +730,199 @@
     "path": "wiki/resources/official-speakers-json.md"
   },
   {
+    "id": "youtube-31GUkCBD-Uc",
+    "title": "Official WF26 Playlist Item 31GUkCBD-Uc (Unavailable)",
+    "path": "wiki/resources/youtube-31GUkCBD-Uc.md"
+  },
+  {
+    "id": "youtube-O72p-rBb2bA",
+    "title": "Official WF26 Playlist Item O72p-rBb2bA (Unavailable)",
+    "path": "wiki/resources/youtube-O72p-rBb2bA.md"
+  },
+  {
+    "id": "youtube-PXXNCtfKZs0",
+    "title": "Official WF26 Playlist Item PXXNCtfKZs0 (Unavailable)",
+    "path": "wiki/resources/youtube-PXXNCtfKZs0.md"
+  },
+  {
+    "id": "youtube-xyL2Ltkh-SA",
+    "title": "Official WF26 Playlist Item xyL2Ltkh-SA (Unavailable)",
+    "path": "wiki/resources/youtube-xyL2Ltkh-SA.md"
+  },
+  {
+    "id": "youtube-Z3fP-eMEx-8",
+    "title": "Official WF26 Playlist Item Z3fP-eMEx-8 (Unavailable)",
+    "path": "wiki/resources/youtube-Z3fP-eMEx-8.md"
+  },
+  {
+    "id": "youtube-RGSFUqzqErE",
+    "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+    "path": "wiki/resources/youtube-RGSFUqzqErE.md"
+  },
+  {
+    "id": "youtube-k8cnVCMYmNc",
+    "title": "OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
+    "path": "wiki/resources/youtube-k8cnVCMYmNc.md"
+  },
+  {
+    "id": "youtube-akk6KRlcwW4",
+    "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
+    "path": "wiki/resources/youtube-akk6KRlcwW4.md"
+  },
+  {
+    "id": "youtube-liG97YXaTSA",
+    "title": "OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
+    "path": "wiki/resources/youtube-liG97YXaTSA.md"
+  },
+  {
+    "id": "youtube-gmTHs5T_YAE",
+    "title": "Optimizing inference for voice models in production - Philip Kiely, Baseten",
+    "path": "wiki/resources/youtube-gmTHs5T_YAE.md"
+  },
+  {
+    "id": "youtube-2JX6JYyQG4Y",
+    "title": "Perception Agents — Antje Barth, Amazon AGI Lab",
+    "path": "wiki/resources/youtube-2JX6JYyQG4Y.md"
+  },
+  {
+    "id": "youtube-YnNF55QV0zs",
+    "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
+    "path": "wiki/resources/youtube-YnNF55QV0zs.md"
+  },
+  {
+    "id": "youtube-vljxQZfJ9wY",
+    "title": "Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
+    "path": "wiki/resources/youtube-vljxQZfJ9wY.md"
+  },
+  {
+    "id": "youtube-Ywl4LsvHKzU",
+    "title": "RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot",
+    "path": "wiki/resources/youtube-Ywl4LsvHKzU.md"
+  },
+  {
+    "id": "youtube-UM6sFg_jdlE",
+    "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+    "path": "wiki/resources/youtube-UM6sFg_jdlE.md"
+  },
+  {
+    "id": "youtube-eOxOzcw70f0",
+    "title": "Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison",
+    "path": "wiki/resources/youtube-eOxOzcw70f0.md"
+  },
+  {
+    "id": "youtube-wNH3q9pqn0U",
+    "title": "Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind",
+    "path": "wiki/resources/youtube-wNH3q9pqn0U.md"
+  },
+  {
+    "id": "youtube-himhGiWJXjo",
+    "title": "Realtime Data Connectivity for AI: Tanmai Gopal",
+    "path": "wiki/resources/youtube-himhGiWJXjo.md"
+  },
+  {
+    "id": "youtube-2vlCqD6igVA",
+    "title": "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon",
+    "path": "wiki/resources/youtube-2vlCqD6igVA.md"
+  },
+  {
+    "id": "youtube-3hXJI2q0Jz8",
+    "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+    "path": "wiki/resources/youtube-3hXJI2q0Jz8.md"
+  },
+  {
+    "id": "youtube-q4Tr-DknG2M",
+    "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
+    "path": "wiki/resources/youtube-q4Tr-DknG2M.md"
+  },
+  {
+    "id": "youtube-JIsgyk0Paic",
+    "title": "Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley",
+    "path": "wiki/resources/youtube-JIsgyk0Paic.md"
+  },
+  {
+    "id": "youtube-1P1hJ36rxM0",
+    "title": "Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
+    "path": "wiki/resources/youtube-1P1hJ36rxM0.md"
+  },
+  {
+    "id": "youtube-OXMMN-XbxwA",
+    "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
+    "path": "wiki/resources/youtube-OXMMN-XbxwA.md"
+  },
+  {
+    "id": "youtube-CLttOU7n6sI",
+    "title": "Respect The Process - Andrew Dumit, Watershed Technology Inc.",
+    "path": "wiki/resources/youtube-CLttOU7n6sI.md"
+  },
+  {
+    "id": "youtube-TUnPNY4E2fw",
+    "title": "Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
+    "path": "wiki/resources/youtube-TUnPNY4E2fw.md"
+  },
+  {
     "id": "room-attendance-calibration",
     "title": "Room Attendance Calibration",
     "path": "wiki/resources/room-attendance-calibration.md"
+  },
+  {
+    "id": "youtube-ESbWpPT_9-o",
+    "title": "Run Frontier AI at Home — Alex Cheema, EXO Labs",
+    "path": "wiki/resources/youtube-ESbWpPT_9-o.md"
+  },
+  {
+    "id": "youtube-BqZrTdgBaPw",
+    "title": "Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
+    "path": "wiki/resources/youtube-BqZrTdgBaPw.md"
+  },
+  {
+    "id": "youtube-1t-9-s1brcg",
+    "title": "Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
+    "path": "wiki/resources/youtube-1t-9-s1brcg.md"
+  },
+  {
+    "id": "youtube-zMiSRliEzv4",
+    "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+    "path": "wiki/resources/youtube-zMiSRliEzv4.md"
+  },
+  {
+    "id": "youtube-OV56RddyFuU",
+    "title": "Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face",
+    "path": "wiki/resources/youtube-OV56RddyFuU.md"
+  },
+  {
+    "id": "youtube-Fzb1a24hF-o",
+    "title": "Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger",
+    "path": "wiki/resources/youtube-Fzb1a24hF-o.md"
+  },
+  {
+    "id": "youtube-HT4l0DeP69I",
+    "title": "Ship it! Building Production Ready Agents — Mike Chambers, AWS",
+    "path": "wiki/resources/youtube-HT4l0DeP69I.md"
+  },
+  {
+    "id": "youtube-Xfl50508LZM",
+    "title": "Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
+    "path": "wiki/resources/youtube-Xfl50508LZM.md"
+  },
+  {
+    "id": "youtube-qlHaO6laBlM",
+    "title": "Shipping Production AI Inside Government — William Tarr, Ministry of Justice",
+    "path": "wiki/resources/youtube-qlHaO6laBlM.md"
+  },
+  {
+    "id": "youtube-ZpK5PWX2YRM",
+    "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
+    "path": "wiki/resources/youtube-ZpK5PWX2YRM.md"
+  },
+  {
+    "id": "youtube-uU5Gv2h8-9g",
+    "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
+    "path": "wiki/resources/youtube-uU5Gv2h8-9g.md"
+  },
+  {
+    "id": "slide-ai-classifier-status",
+    "title": "Slide AI Classifier Status",
+    "path": "wiki/resources/slide-ai-classifier-status.md"
   },
   {
     "id": "slide-ocr-ai-vision-audit",
@@ -90,14 +940,409 @@
     "path": "wiki/resources/source-boundary.md"
   },
   {
+    "id": "youtube-SS-A8sE7hkw",
+    "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+    "path": "wiki/resources/youtube-SS-A8sE7hkw.md"
+  },
+  {
+    "id": "youtube-uIiA6DquRiE",
+    "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+    "path": "wiki/resources/youtube-uIiA6DquRiE.md"
+  },
+  {
+    "id": "youtube-ZyIoTOAbRfs",
+    "title": "State of Data — Sean Cai, Independent / State of Data",
+    "path": "wiki/resources/youtube-ZyIoTOAbRfs.md"
+  },
+  {
+    "id": "youtube-KB41dTlX1Uc",
+    "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
+    "path": "wiki/resources/youtube-KB41dTlX1Uc.md"
+  },
+  {
+    "id": "youtube-BiG2ssibKGc",
+    "title": "Stop babysitting your agents... — Brandon Waselnuk, Unblocked",
+    "path": "wiki/resources/youtube-BiG2ssibKGc.md"
+  },
+  {
+    "id": "youtube-TNwJ1LMiENk",
+    "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
+    "path": "wiki/resources/youtube-TNwJ1LMiENk.md"
+  },
+  {
+    "id": "youtube-T5IMo5ntyhA",
+    "title": "Stop Using RAG as Memory — Daniel Chalef, Zep",
+    "path": "wiki/resources/youtube-T5IMo5ntyhA.md"
+  },
+  {
+    "id": "youtube-ij-AU9dpJjc",
+    "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+    "path": "wiki/resources/youtube-ij-AU9dpJjc.md"
+  },
+  {
+    "id": "youtube-SbUxRluVRwk",
+    "title": "Structuring a modern AI team — Denys Linkov, Wisedocs",
+    "path": "wiki/resources/youtube-SbUxRluVRwk.md"
+  },
+  {
+    "id": "youtube--x5GEVnkuRw",
+    "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
+    "path": "wiki/resources/youtube--x5GEVnkuRw.md"
+  },
+  {
+    "id": "youtube-Rx8f05JI_WA",
+    "title": "SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
+    "path": "wiki/resources/youtube-Rx8f05JI_WA.md"
+  },
+  {
+    "id": "youtube-wcUJWP6WpGM",
+    "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+    "path": "wiki/resources/youtube-wcUJWP6WpGM.md"
+  },
+  {
     "id": "talk-video-transcript-map",
     "title": "Talk Video Transcript Map",
     "path": "wiki/resources/talk-video-transcript-map.md"
   },
   {
+    "id": "youtube-YYH0DMQr30A",
+    "title": "Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
+    "path": "wiki/resources/youtube-YYH0DMQr30A.md"
+  },
+  {
+    "id": "youtube-HEFSExa0xl0",
+    "title": "Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
+    "path": "wiki/resources/youtube-HEFSExa0xl0.md"
+  },
+  {
+    "id": "youtube-LxQsQ3vZDqo",
+    "title": "Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon",
+    "path": "wiki/resources/youtube-LxQsQ3vZDqo.md"
+  },
+  {
+    "id": "youtube-r305-aQTaU0",
+    "title": "Text Diffusion — Brendan O’Donoghue, Google DeepMind",
+    "path": "wiki/resources/youtube-r305-aQTaU0.md"
+  },
+  {
+    "id": "youtube-qaJXBMwUkoE",
+    "title": "The 1,000x AI Engineer: Swyx",
+    "path": "wiki/resources/youtube-qaJXBMwUkoE.md"
+  },
+  {
+    "id": "youtube-vh2VGuQ3zhY",
+    "title": "The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
+    "path": "wiki/resources/youtube-vh2VGuQ3zhY.md"
+  },
+  {
+    "id": "youtube-mQ7_Zje7WKE",
+    "title": "The 2025 AI Engineering Report — Barr Yaron, Amplify",
+    "path": "wiki/resources/youtube-mQ7_Zje7WKE.md"
+  },
+  {
+    "id": "youtube-ghJmWQCIHRM",
+    "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+    "path": "wiki/resources/youtube-ghJmWQCIHRM.md"
+  },
+  {
+    "id": "youtube-pSto5YaNGUo",
+    "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+    "path": "wiki/resources/youtube-pSto5YaNGUo.md"
+  },
+  {
+    "id": "youtube-iNkFlCiij0U",
+    "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+    "path": "wiki/resources/youtube-iNkFlCiij0U.md"
+  },
+  {
+    "id": "youtube-BZtD0yYAgCQ",
+    "title": "The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori",
+    "path": "wiki/resources/youtube-BZtD0yYAgCQ.md"
+  },
+  {
+    "id": "youtube-JsKTQbT58BY",
+    "title": "The Cure for the Vibe Coding Hangover — Corey J. Gallon, Rexmore",
+    "path": "wiki/resources/youtube-JsKTQbT58BY.md"
+  },
+  {
+    "id": "youtube-XV2oYi7kojc",
+    "title": "The Desktop Frontier — Ahmad Osman, Osmantic",
+    "path": "wiki/resources/youtube-XV2oYi7kojc.md"
+  },
+  {
+    "id": "youtube-F_RyElT_gJk",
+    "title": "The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp",
+    "path": "wiki/resources/youtube-F_RyElT_gJk.md"
+  },
+  {
+    "id": "youtube-5nOLb27hQ5w",
+    "title": "The era of unbounded products: Designing for Multimodal IO: Ben Hylak",
+    "path": "wiki/resources/youtube-5nOLb27hQ5w.md"
+  },
+  {
+    "id": "youtube-spNAUEgq_A8",
+    "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+    "path": "wiki/resources/youtube-spNAUEgq_A8.md"
+  },
+  {
+    "id": "youtube-pMggiOb18tc",
+    "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+    "path": "wiki/resources/youtube-pMggiOb18tc.md"
+  },
+  {
+    "id": "youtube-c35YoMdnI78",
+    "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+    "path": "wiki/resources/youtube-c35YoMdnI78.md"
+  },
+  {
+    "id": "youtube-UPwGaM2MKHY",
+    "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
+    "path": "wiki/resources/youtube-UPwGaM2MKHY.md"
+  },
+  {
+    "id": "youtube-IJXjTLPzvAU",
+    "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+    "path": "wiki/resources/youtube-IJXjTLPzvAU.md"
+  },
+  {
+    "id": "youtube-kZsf_Sfm7RU",
+    "title": "The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
+    "path": "wiki/resources/youtube-kZsf_Sfm7RU.md"
+  },
+  {
+    "id": "youtube-bRnoEpoK5m4",
+    "title": "The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
+    "path": "wiki/resources/youtube-bRnoEpoK5m4.md"
+  },
+  {
+    "id": "youtube-hVJOnuhFmTA",
+    "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+    "path": "wiki/resources/youtube-hVJOnuhFmTA.md"
+  },
+  {
+    "id": "youtube-DqtmZE6Hl0g",
+    "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+    "path": "wiki/resources/youtube-DqtmZE6Hl0g.md"
+  },
+  {
+    "id": "youtube-blW-lSd5CYQ",
+    "title": "The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify",
+    "path": "wiki/resources/youtube-blW-lSd5CYQ.md"
+  },
+  {
+    "id": "youtube-qdh_x-uRs9g",
+    "title": "The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
+    "path": "wiki/resources/youtube-qdh_x-uRs9g.md"
+  },
+  {
+    "id": "youtube-rgjF5o2Qjsc",
+    "title": "The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo",
+    "path": "wiki/resources/youtube-rgjF5o2Qjsc.md"
+  },
+  {
+    "id": "youtube-Lcqat4iP_lE",
+    "title": "The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso",
+    "path": "wiki/resources/youtube-Lcqat4iP_lE.md"
+  },
+  {
+    "id": "youtube-GgLQ02aO-hs",
+    "title": "The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy",
+    "path": "wiki/resources/youtube-GgLQ02aO-hs.md"
+  },
+  {
+    "id": "youtube-YRGjll7uu5w",
+    "title": "The Web Browser Is All You Need - Paul Klein IV, Browserbase",
+    "path": "wiki/resources/youtube-YRGjll7uu5w.md"
+  },
+  {
+    "id": "youtube-grdoOC1BT1s",
+    "title": "Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
+    "path": "wiki/resources/youtube-grdoOC1BT1s.md"
+  },
+  {
+    "id": "youtube-VGN22pPpb-8",
+    "title": "Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j",
+    "path": "wiki/resources/youtube-VGN22pPpb-8.md"
+  },
+  {
+    "id": "youtube-1EZdpEhwmNc",
+    "title": "Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk",
+    "path": "wiki/resources/youtube-1EZdpEhwmNc.md"
+  },
+  {
+    "id": "youtube-PbHm2qKnu10",
+    "title": "Training Agentic Reasoners — Will Brown, Prime Intellect",
+    "path": "wiki/resources/youtube-PbHm2qKnu10.md"
+  },
+  {
+    "id": "youtube-O-CBZ3JtRvo",
+    "title": "Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
+    "path": "wiki/resources/youtube-O-CBZ3JtRvo.md"
+  },
+  {
+    "id": "transcript-semantic-digestion",
+    "title": "Transcript Semantic Digestion",
+    "path": "wiki/resources/transcript-semantic-digestion.md"
+  },
+  {
+    "id": "youtube-sRpqPgKeXNk",
+    "title": "Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
+    "path": "wiki/resources/youtube-sRpqPgKeXNk.md"
+  },
+  {
+    "id": "youtube-9-vGxMoUM9Y",
+    "title": "Trust, but Verify: Shreya Rajpal",
+    "path": "wiki/resources/youtube-9-vGxMoUM9Y.md"
+  },
+  {
+    "id": "youtube-ZRM_TfEZcIo",
+    "title": "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
+    "path": "wiki/resources/youtube-ZRM_TfEZcIo.md"
+  },
+  {
+    "id": "youtube-ILdE7FaAjVA",
+    "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+    "path": "wiki/resources/youtube-ILdE7FaAjVA.md"
+  },
+  {
+    "id": "youtube-WkBPX-oDMnA",
+    "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
+    "path": "wiki/resources/youtube-WkBPX-oDMnA.md"
+  },
+  {
+    "id": "youtube-Jx4ZFEAq6bY",
+    "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
+    "path": "wiki/resources/youtube-Jx4ZFEAq6bY.md"
+  },
+  {
+    "id": "youtube-imFedndyXYQ",
+    "title": "Using LLMs to Secure Source Code — Eugene Yan, Anthropic",
+    "path": "wiki/resources/youtube-imFedndyXYQ.md"
+  },
+  {
+    "id": "youtube-gcseUQJ6Gbg",
+    "title": "Using OSS models to build AI apps with millions of users — Hassan El Mghari",
+    "path": "wiki/resources/youtube-gcseUQJ6Gbg.md"
+  },
+  {
+    "id": "youtube-LrGCT7G_rU8",
+    "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
+    "path": "wiki/resources/youtube-LrGCT7G_rU8.md"
+  },
+  {
+    "id": "youtube-IddXPepIAS4",
+    "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
+    "path": "wiki/resources/youtube-IddXPepIAS4.md"
+  },
+  {
     "id": "video-attendance-visibility",
     "title": "Video Attendance Visibility",
     "path": "wiki/resources/video-attendance-visibility.md"
+  },
+  {
+    "id": "youtube-mOf-PP4mVjA",
+    "title": "Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
+    "path": "wiki/resources/youtube-mOf-PP4mVjA.md"
+  },
+  {
+    "id": "youtube-P_RI1kCkRbo",
+    "title": "Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
+    "path": "wiki/resources/youtube-P_RI1kCkRbo.md"
+  },
+  {
+    "id": "youtube-65X0pQ6Lmbg",
+    "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+    "path": "wiki/resources/youtube-65X0pQ6Lmbg.md"
+  },
+  {
+    "id": "youtube-dRmWYHuIJxM",
+    "title": "We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
+    "path": "wiki/resources/youtube-dRmWYHuIJxM.md"
+  },
+  {
+    "id": "youtube-LqLoYksJ6do",
+    "title": "We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3",
+    "path": "wiki/resources/youtube-LqLoYksJ6do.md"
+  },
+  {
+    "id": "youtube-4sX_He5c4sI",
+    "title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+    "path": "wiki/resources/youtube-4sX_He5c4sI.md"
+  },
+  {
+    "id": "youtube-htM02KMNZnk",
+    "title": "WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
+    "path": "wiki/resources/youtube-htM02KMNZnk.md"
+  },
+  {
+    "id": "youtube-I2cbIws9j10",
+    "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+    "path": "wiki/resources/youtube-I2cbIws9j10.md"
+  },
+  {
+    "id": "youtube-2e9ANoOEn28",
+    "title": "What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
+    "path": "wiki/resources/youtube-2e9ANoOEn28.md"
+  },
+  {
+    "id": "youtube-BM2JX9hqsVQ",
+    "title": "What if the network was the sandbox? — Remy Guercio, Tailscale",
+    "path": "wiki/resources/youtube-BM2JX9hqsVQ.md"
+  },
+  {
+    "id": "youtube-HvZXAOZ3iv8",
+    "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
+    "path": "wiki/resources/youtube-HvZXAOZ3iv8.md"
+  },
+  {
+    "id": "youtube-XovaGv4f39A",
+    "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+    "path": "wiki/resources/youtube-XovaGv4f39A.md"
+  },
+  {
+    "id": "youtube-3_gYbhABcAE",
+    "title": "Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
+    "path": "wiki/resources/youtube-3_gYbhABcAE.md"
+  },
+  {
+    "id": "youtube-5N33E9tC400",
+    "title": "Why Agent Engineering — swyx",
+    "path": "wiki/resources/youtube-5N33E9tC400.md"
+  },
+  {
+    "id": "youtube-Sir59K8ZDPU",
+    "title": "Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley",
+    "path": "wiki/resources/youtube-Sir59K8ZDPU.md"
+  },
+  {
+    "id": "youtube-iUWwcG-C8OU",
+    "title": "Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
+    "path": "wiki/resources/youtube-iUWwcG-C8OU.md"
+  },
+  {
+    "id": "youtube-SKDJo2CopRs",
+    "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
+    "path": "wiki/resources/youtube-SKDJo2CopRs.md"
+  },
+  {
+    "id": "youtube-hacEQHHhu2Q",
+    "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
+    "path": "wiki/resources/youtube-hacEQHHhu2Q.md"
+  },
+  {
+    "id": "youtube-c-2eEv2ou7Y",
+    "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+    "path": "wiki/resources/youtube-c-2eEv2ou7Y.md"
+  },
+  {
+    "id": "youtube-EcqMYoIV57A",
+    "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+    "path": "wiki/resources/youtube-EcqMYoIV57A.md"
+  },
+  {
+    "id": "youtube-B9h9ovW5H9U",
+    "title": "Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+    "path": "wiki/resources/youtube-B9h9ovW5H9U.md"
   },
   {
     "id": "worldsfair-2026-livestreams",
@@ -110,124 +1355,9 @@
     "path": "wiki/resources/worldsfair-phrase-word-cloud.md"
   },
   {
-    "id": "youtube--CnA2lGfymY",
-    "title": "\\\"I've never seen anything scarier than an LLM with tool calls.\\\" — Erik Meijer aka @HeadinTheBox",
-    "path": "wiki/resources/youtube--CnA2lGfymY.md"
-  },
-  {
-    "id": "youtube--TiET_K-E_g",
-    "title": "From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
-    "path": "wiki/resources/youtube--TiET_K-E_g.md"
-  },
-  {
-    "id": "youtube--cKUW6n8hBU",
-    "title": "DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners",
-    "path": "wiki/resources/youtube--cKUW6n8hBU.md"
-  },
-  {
-    "id": "youtube--x5GEVnkuRw",
-    "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
-    "path": "wiki/resources/youtube--x5GEVnkuRw.md"
-  },
-  {
-    "id": "youtube-0S8xe9ftGTM",
-    "title": "6 Things to Know about AIE World's Fair 2026",
-    "path": "wiki/resources/youtube-0S8xe9ftGTM.md"
-  },
-  {
-    "id": "youtube-0vphxNt4wyk",
-    "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
-    "path": "wiki/resources/youtube-0vphxNt4wyk.md"
-  },
-  {
-    "id": "youtube-12v5S1n1eOY",
-    "title": "Building an Agentic Platform — Ben Kus, CTO Box",
-    "path": "wiki/resources/youtube-12v5S1n1eOY.md"
-  },
-  {
-    "id": "youtube-1IdzkRVmWAA",
-    "title": "How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
-    "path": "wiki/resources/youtube-1IdzkRVmWAA.md"
-  },
-  {
-    "id": "youtube-1t-9-s1brcg",
-    "title": "Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
-    "path": "wiki/resources/youtube-1t-9-s1brcg.md"
-  },
-  {
-    "id": "youtube-2IxD9OB3XuQ",
-    "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
-    "path": "wiki/resources/youtube-2IxD9OB3XuQ.md"
-  },
-  {
-    "id": "youtube-2e9ANoOEn28",
-    "title": "What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
-    "path": "wiki/resources/youtube-2e9ANoOEn28.md"
-  },
-  {
-    "id": "youtube-2vlCqD6igVA",
-    "title": "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon",
-    "path": "wiki/resources/youtube-2vlCqD6igVA.md"
-  },
-  {
-    "id": "youtube-3_gYbhABcAE",
-    "title": "Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
-    "path": "wiki/resources/youtube-3_gYbhABcAE.md"
-  },
-  {
-    "id": "youtube-3hXJI2q0Jz8",
-    "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
-    "path": "wiki/resources/youtube-3hXJI2q0Jz8.md"
-  },
-  {
-    "id": "youtube-4kYl2_mqmnQ",
-    "title": "I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
-    "path": "wiki/resources/youtube-4kYl2_mqmnQ.md"
-  },
-  {
-    "id": "youtube-4sX_He5c4sI",
-    "title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
-    "path": "wiki/resources/youtube-4sX_He5c4sI.md"
-  },
-  {
-    "id": "youtube-4uFVSLgD2Q4",
-    "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
-    "path": "wiki/resources/youtube-4uFVSLgD2Q4.md"
-  },
-  {
-    "id": "youtube-504PvfXou5Y",
-    "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
-    "path": "wiki/resources/youtube-504PvfXou5Y.md"
-  },
-  {
-    "id": "youtube-5ID22ACI7IM",
-    "title": "Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked",
-    "path": "wiki/resources/youtube-5ID22ACI7IM.md"
-  },
-  {
-    "id": "youtube-5N33E9tC400",
-    "title": "Why Agent Engineering — swyx",
-    "path": "wiki/resources/youtube-5N33E9tC400.md"
-  },
-  {
-    "id": "youtube-5_QWh4LGoxg",
-    "title": "Cognitive Shield Real Time Real Smart - Rachna Srivastava",
-    "path": "wiki/resources/youtube-5_QWh4LGoxg.md"
-  },
-  {
-    "id": "youtube-5nOLb27hQ5w",
-    "title": "The era of unbounded products: Designing for Multimodal IO: Ben Hylak",
-    "path": "wiki/resources/youtube-5nOLb27hQ5w.md"
-  },
-  {
-    "id": "youtube-65X0pQ6Lmbg",
-    "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
-    "path": "wiki/resources/youtube-65X0pQ6Lmbg.md"
-  },
-  {
-    "id": "youtube-6YdPI9YbjbI",
-    "title": "How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)",
-    "path": "wiki/resources/youtube-6YdPI9YbjbI.md"
+    "id": "youtube-8G_1-3IO4ZQ",
+    "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+    "path": "wiki/resources/youtube-8G_1-3IO4ZQ.md"
   },
   {
     "id": "youtube-6bmM45jkMDY",
@@ -235,269 +1365,14 @@
     "path": "wiki/resources/youtube-6bmM45jkMDY.md"
   },
   {
-    "id": "youtube-7Dtu2bilcFs",
-    "title": "2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding",
-    "path": "wiki/resources/youtube-7Dtu2bilcFs.md"
+    "id": "youtube-gHs5ZiY80PM",
+    "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+    "path": "wiki/resources/youtube-gHs5ZiY80PM.md"
   },
   {
-    "id": "youtube-84Vtz2IL1Ug",
-    "title": "Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
-    "path": "wiki/resources/youtube-84Vtz2IL1Ug.md"
-  },
-  {
-    "id": "youtube-8G_1-3IO4ZQ",
-    "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
-    "path": "wiki/resources/youtube-8G_1-3IO4ZQ.md"
-  },
-  {
-    "id": "youtube-8SUJEqQNClw",
-    "title": "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
-    "path": "wiki/resources/youtube-8SUJEqQNClw.md"
-  },
-  {
-    "id": "youtube-9-vGxMoUM9Y",
-    "title": "Trust, but Verify: Shreya Rajpal",
-    "path": "wiki/resources/youtube-9-vGxMoUM9Y.md"
-  },
-  {
-    "id": "youtube-96G7FLab8xc",
-    "title": "Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect",
-    "path": "wiki/resources/youtube-96G7FLab8xc.md"
-  },
-  {
-    "id": "youtube-9fubhllmsBU",
-    "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
-    "path": "wiki/resources/youtube-9fubhllmsBU.md"
-  },
-  {
-    "id": "youtube-APh1Vx0oLmQ",
-    "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
-    "path": "wiki/resources/youtube-APh1Vx0oLmQ.md"
-  },
-  {
-    "id": "youtube-APqXGyCoGW4",
-    "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
-    "path": "wiki/resources/youtube-APqXGyCoGW4.md"
-  },
-  {
-    "id": "youtube-AheG9p_JXVw",
-    "title": "AI Engineer World's Fair: Building Reelful - Agentic Video Editor",
-    "path": "wiki/resources/youtube-AheG9p_JXVw.md"
-  },
-  {
-    "id": "youtube-Akm1sqvWG4A",
-    "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
-    "path": "wiki/resources/youtube-Akm1sqvWG4A.md"
-  },
-  {
-    "id": "youtube-B9h9ovW5H9U",
-    "title": "Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
-    "path": "wiki/resources/youtube-B9h9ovW5H9U.md"
-  },
-  {
-    "id": "youtube-BM2JX9hqsVQ",
-    "title": "What if the network was the sandbox? — Remy Guercio, Tailscale",
-    "path": "wiki/resources/youtube-BM2JX9hqsVQ.md"
-  },
-  {
-    "id": "youtube-BZtD0yYAgCQ",
-    "title": "The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori",
-    "path": "wiki/resources/youtube-BZtD0yYAgCQ.md"
-  },
-  {
-    "id": "youtube-Bc6Ojl2XS1w",
-    "title": "From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
-    "path": "wiki/resources/youtube-Bc6Ojl2XS1w.md"
-  },
-  {
-    "id": "youtube-BiG2ssibKGc",
-    "title": "Stop babysitting your agents... — Brandon Waselnuk, Unblocked",
-    "path": "wiki/resources/youtube-BiG2ssibKGc.md"
-  },
-  {
-    "id": "youtube-BqZrTdgBaPw",
-    "title": "Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
-    "path": "wiki/resources/youtube-BqZrTdgBaPw.md"
-  },
-  {
-    "id": "youtube-CDqzWpwkSls",
-    "title": "Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
-    "path": "wiki/resources/youtube-CDqzWpwkSls.md"
-  },
-  {
-    "id": "youtube-CLttOU7n6sI",
-    "title": "Respect The Process - Andrew Dumit, Watershed Technology Inc.",
-    "path": "wiki/resources/youtube-CLttOU7n6sI.md"
-  },
-  {
-    "id": "youtube-C_GG5g38vLU",
-    "title": "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
-    "path": "wiki/resources/youtube-C_GG5g38vLU.md"
-  },
-  {
-    "id": "youtube-D4Dswf-__RM",
-    "title": "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS",
-    "path": "wiki/resources/youtube-D4Dswf-__RM.md"
-  },
-  {
-    "id": "youtube-DeFF3J8T5Pk",
-    "title": "How fast are LLM inference engines anyway? — Charles Frye, Modal",
-    "path": "wiki/resources/youtube-DeFF3J8T5Pk.md"
-  },
-  {
-    "id": "youtube-DqtmZE6Hl0g",
-    "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
-    "path": "wiki/resources/youtube-DqtmZE6Hl0g.md"
-  },
-  {
-    "id": "youtube-E71YtNbCFXY",
-    "title": "Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)",
-    "path": "wiki/resources/youtube-E71YtNbCFXY.md"
-  },
-  {
-    "id": "youtube-ESbWpPT_9-o",
-    "title": "Run Frontier AI at Home — Alex Cheema, EXO Labs",
-    "path": "wiki/resources/youtube-ESbWpPT_9-o.md"
-  },
-  {
-    "id": "youtube-EY4O9M6AsWI",
-    "title": "Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI",
-    "path": "wiki/resources/youtube-EY4O9M6AsWI.md"
-  },
-  {
-    "id": "youtube-EcqMYoIV57A",
-    "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
-    "path": "wiki/resources/youtube-EcqMYoIV57A.md"
-  },
-  {
-    "id": "youtube-EyZiAp0pelw",
-    "title": "Letting AI Interface with your App with MCP — Kent C Dodds",
-    "path": "wiki/resources/youtube-EyZiAp0pelw.md"
-  },
-  {
-    "id": "youtube-F_RyElT_gJk",
-    "title": "The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp",
-    "path": "wiki/resources/youtube-F_RyElT_gJk.md"
-  },
-  {
-    "id": "youtube-Fzb1a24hF-o",
-    "title": "Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger",
-    "path": "wiki/resources/youtube-Fzb1a24hF-o.md"
-  },
-  {
-    "id": "youtube-G6IlDzj8OjA",
-    "title": "GTM Is You - Victoria Melnikova, Evil Martians",
-    "path": "wiki/resources/youtube-G6IlDzj8OjA.md"
-  },
-  {
-    "id": "youtube-G_bHFmEAarM",
-    "title": "Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
-    "path": "wiki/resources/youtube-G_bHFmEAarM.md"
-  },
-  {
-    "id": "youtube-HEFSExa0xl0",
-    "title": "Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
-    "path": "wiki/resources/youtube-HEFSExa0xl0.md"
-  },
-  {
-    "id": "youtube-HT4l0DeP69I",
-    "title": "Ship it! Building Production Ready Agents — Mike Chambers, AWS",
-    "path": "wiki/resources/youtube-HT4l0DeP69I.md"
-  },
-  {
-    "id": "youtube-HsxQICTLF84",
-    "title": "Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
-    "path": "wiki/resources/youtube-HsxQICTLF84.md"
-  },
-  {
-    "id": "youtube-HvZXAOZ3iv8",
-    "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
-    "path": "wiki/resources/youtube-HvZXAOZ3iv8.md"
-  },
-  {
-    "id": "youtube-I2cbIws9j10",
-    "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
-    "path": "wiki/resources/youtube-I2cbIws9j10.md"
-  },
-  {
-    "id": "youtube-IJXjTLPzvAU",
-    "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
-    "path": "wiki/resources/youtube-IJXjTLPzvAU.md"
-  },
-  {
-    "id": "youtube-ILdE7FaAjVA",
-    "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
-    "path": "wiki/resources/youtube-ILdE7FaAjVA.md"
-  },
-  {
-    "id": "youtube-IQkVMvXQKLY",
-    "title": "Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
-    "path": "wiki/resources/youtube-IQkVMvXQKLY.md"
-  },
-  {
-    "id": "youtube-IddXPepIAS4",
-    "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
-    "path": "wiki/resources/youtube-IddXPepIAS4.md"
-  },
-  {
-    "id": "youtube-Iwe_RY-fYgI",
-    "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
-    "path": "wiki/resources/youtube-Iwe_RY-fYgI.md"
-  },
-  {
-    "id": "youtube-JIsgyk0Paic",
-    "title": "Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley",
-    "path": "wiki/resources/youtube-JIsgyk0Paic.md"
-  },
-  {
-    "id": "youtube-JRTAtZ5iBkU",
-    "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
-    "path": "wiki/resources/youtube-JRTAtZ5iBkU.md"
-  },
-  {
-    "id": "youtube-JhJKgRAmfIU",
-    "title": "AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft",
-    "path": "wiki/resources/youtube-JhJKgRAmfIU.md"
-  },
-  {
-    "id": "youtube-JnubYCYunk8",
-    "title": "Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
-    "path": "wiki/resources/youtube-JnubYCYunk8.md"
-  },
-  {
-    "id": "youtube-JsCCrBF7F1g",
-    "title": "LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
-    "path": "wiki/resources/youtube-JsCCrBF7F1g.md"
-  },
-  {
-    "id": "youtube-JsKTQbT58BY",
-    "title": "The Cure for the Vibe Coding Hangover — Corey J. Gallon, Rexmore",
-    "path": "wiki/resources/youtube-JsKTQbT58BY.md"
-  },
-  {
-    "id": "youtube-Jty4s9-Jb78",
-    "title": "Jack Morris: Stuffing Context is not Memory, Updating Weights is",
-    "path": "wiki/resources/youtube-Jty4s9-Jb78.md"
-  },
-  {
-    "id": "youtube-Jx4ZFEAq6bY",
-    "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
-    "path": "wiki/resources/youtube-Jx4ZFEAq6bY.md"
-  },
-  {
-    "id": "youtube-KA5kPbdkK2E",
-    "title": "How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
-    "path": "wiki/resources/youtube-KA5kPbdkK2E.md"
-  },
-  {
-    "id": "youtube-KB41dTlX1Uc",
-    "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
-    "path": "wiki/resources/youtube-KB41dTlX1Uc.md"
-  },
-  {
-    "id": "youtube-KLSuFPj2ld0",
-    "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
-    "path": "wiki/resources/youtube-KLSuFPj2ld0.md"
+    "id": "youtube-X1kp-ABIIxQ",
+    "title": "Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest",
+    "path": "wiki/resources/youtube-X1kp-ABIIxQ.md"
   },
   {
     "id": "youtube-Lc8zRh9muoY",
@@ -505,614 +1380,9 @@
     "path": "wiki/resources/youtube-Lc8zRh9muoY.md"
   },
   {
-    "id": "youtube-Lcqat4iP_lE",
-    "title": "The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso",
-    "path": "wiki/resources/youtube-Lcqat4iP_lE.md"
-  },
-  {
-    "id": "youtube-LrGCT7G_rU8",
-    "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
-    "path": "wiki/resources/youtube-LrGCT7G_rU8.md"
-  },
-  {
-    "id": "youtube-LxQsQ3vZDqo",
-    "title": "Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon",
-    "path": "wiki/resources/youtube-LxQsQ3vZDqo.md"
-  },
-  {
-    "id": "youtube-MRM7oA3JsFs",
-    "title": "Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
-    "path": "wiki/resources/youtube-MRM7oA3JsFs.md"
-  },
-  {
-    "id": "youtube-MpZzWMdmQCE",
-    "title": "Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
-    "path": "wiki/resources/youtube-MpZzWMdmQCE.md"
-  },
-  {
-    "id": "youtube-NuePCNMpWGc",
-    "title": "Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
-    "path": "wiki/resources/youtube-NuePCNMpWGc.md"
-  },
-  {
-    "id": "youtube-OV56RddyFuU",
-    "title": "Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face",
-    "path": "wiki/resources/youtube-OV56RddyFuU.md"
-  },
-  {
-    "id": "youtube-OXMMN-XbxwA",
-    "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
-    "path": "wiki/resources/youtube-OXMMN-XbxwA.md"
-  },
-  {
-    "id": "youtube-ObTPqBGsEbA",
-    "title": "£85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
-    "path": "wiki/resources/youtube-ObTPqBGsEbA.md"
-  },
-  {
-    "id": "youtube-OimPoLxioYg",
-    "title": "120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson",
-    "path": "wiki/resources/youtube-OimPoLxioYg.md"
-  },
-  {
-    "id": "youtube-OkEGJ5G3foU",
-    "title": "[Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han",
-    "path": "wiki/resources/youtube-OkEGJ5G3foU.md"
-  },
-  {
-    "id": "youtube-OqM67QG_Ikk",
-    "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
-    "path": "wiki/resources/youtube-OqM67QG_Ikk.md"
-  },
-  {
-    "id": "youtube-P_RI1kCkRbo",
-    "title": "Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
-    "path": "wiki/resources/youtube-P_RI1kCkRbo.md"
-  },
-  {
-    "id": "youtube-P_uhFGH4J9Y",
-    "title": "New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games",
-    "path": "wiki/resources/youtube-P_uhFGH4J9Y.md"
-  },
-  {
-    "id": "youtube-PbHm2qKnu10",
-    "title": "Training Agentic Reasoners — Will Brown, Prime Intellect",
-    "path": "wiki/resources/youtube-PbHm2qKnu10.md"
-  },
-  {
-    "id": "youtube-PmZDupFP3UM",
-    "title": "Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)",
-    "path": "wiki/resources/youtube-PmZDupFP3UM.md"
-  },
-  {
-    "id": "youtube-QuuIywMG4s8",
-    "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
-    "path": "wiki/resources/youtube-QuuIywMG4s8.md"
-  },
-  {
-    "id": "youtube-RGSFUqzqErE",
-    "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
-    "path": "wiki/resources/youtube-RGSFUqzqErE.md"
-  },
-  {
-    "id": "youtube-Rx8f05JI_WA",
-    "title": "SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
-    "path": "wiki/resources/youtube-Rx8f05JI_WA.md"
-  },
-  {
-    "id": "youtube-SKDJo2CopRs",
-    "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
-    "path": "wiki/resources/youtube-SKDJo2CopRs.md"
-  },
-  {
-    "id": "youtube-SS-A8sE7hkw",
-    "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
-    "path": "wiki/resources/youtube-SS-A8sE7hkw.md"
-  },
-  {
-    "id": "youtube-SZStlIhyTCY",
-    "title": "Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
-    "path": "wiki/resources/youtube-SZStlIhyTCY.md"
-  },
-  {
-    "id": "youtube-SbUxRluVRwk",
-    "title": "Structuring a modern AI team — Denys Linkov, Wisedocs",
-    "path": "wiki/resources/youtube-SbUxRluVRwk.md"
-  },
-  {
-    "id": "youtube-SbcQYbrvAfI",
-    "title": "Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize",
-    "path": "wiki/resources/youtube-SbcQYbrvAfI.md"
-  },
-  {
-    "id": "youtube-ShuJ_CN6zr4",
-    "title": "Making Codebases Agent Ready – Eno Reyes, Factory AI",
-    "path": "wiki/resources/youtube-ShuJ_CN6zr4.md"
-  },
-  {
-    "id": "youtube-T0HhO4YtTfE",
-    "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
-    "path": "wiki/resources/youtube-T0HhO4YtTfE.md"
-  },
-  {
-    "id": "youtube-T5IMo5ntyhA",
-    "title": "Stop Using RAG as Memory — Daniel Chalef, Zep",
-    "path": "wiki/resources/youtube-T5IMo5ntyhA.md"
-  },
-  {
-    "id": "youtube-TNwJ1LMiENk",
-    "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
-    "path": "wiki/resources/youtube-TNwJ1LMiENk.md"
-  },
-  {
-    "id": "youtube-TUnPNY4E2fw",
-    "title": "Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
-    "path": "wiki/resources/youtube-TUnPNY4E2fw.md"
-  },
-  {
-    "id": "youtube-TqC1qOfiVcQ",
-    "title": "Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic",
-    "path": "wiki/resources/youtube-TqC1qOfiVcQ.md"
-  },
-  {
-    "id": "youtube-UM6sFg_jdlE",
-    "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
-    "path": "wiki/resources/youtube-UM6sFg_jdlE.md"
-  },
-  {
-    "id": "youtube-UNzCG3lw6O0",
-    "title": "Building Great Agent Skills: The Missing Manual",
-    "path": "wiki/resources/youtube-UNzCG3lw6O0.md"
-  },
-  {
-    "id": "youtube-UPwGaM2MKHY",
-    "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
-    "path": "wiki/resources/youtube-UPwGaM2MKHY.md"
-  },
-  {
-    "id": "youtube-UcYoMg-8-L8",
-    "title": "500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
-    "path": "wiki/resources/youtube-UcYoMg-8-L8.md"
-  },
-  {
-    "id": "youtube-V-EDrhIhHzQ",
-    "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
-    "path": "wiki/resources/youtube-V-EDrhIhHzQ.md"
-  },
-  {
-    "id": "youtube-WJjInLeaJjo",
-    "title": "Building Agents at Cloud Scale — Antje Barth, AWS",
-    "path": "wiki/resources/youtube-WJjInLeaJjo.md"
-  },
-  {
-    "id": "youtube-WkBPX-oDMnA",
-    "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
-    "path": "wiki/resources/youtube-WkBPX-oDMnA.md"
-  },
-  {
-    "id": "youtube-XNtkiQJ49Ps",
-    "title": "Agents need more than a chat - Jacob Lauritzen, CTO Legora",
-    "path": "wiki/resources/youtube-XNtkiQJ49Ps.md"
-  },
-  {
-    "id": "youtube-Xfl50508LZM",
-    "title": "Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
-    "path": "wiki/resources/youtube-Xfl50508LZM.md"
-  },
-  {
-    "id": "youtube-XovaGv4f39A",
-    "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
-    "path": "wiki/resources/youtube-XovaGv4f39A.md"
-  },
-  {
-    "id": "youtube-YRGjll7uu5w",
-    "title": "The Web Browser Is All You Need - Paul Klein IV, Browserbase",
-    "path": "wiki/resources/youtube-YRGjll7uu5w.md"
-  },
-  {
-    "id": "youtube-YYH0DMQr30A",
-    "title": "Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
-    "path": "wiki/resources/youtube-YYH0DMQr30A.md"
-  },
-  {
-    "id": "youtube-YZQsWVeN3rE",
-    "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
-    "path": "wiki/resources/youtube-YZQsWVeN3rE.md"
-  },
-  {
-    "id": "youtube-Ywl4LsvHKzU",
-    "title": "RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot",
-    "path": "wiki/resources/youtube-Ywl4LsvHKzU.md"
-  },
-  {
-    "id": "youtube-ZD9-4fW2HhM",
-    "title": "Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
-    "path": "wiki/resources/youtube-ZD9-4fW2HhM.md"
-  },
-  {
-    "id": "youtube-ZRM_TfEZcIo",
-    "title": "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
-    "path": "wiki/resources/youtube-ZRM_TfEZcIo.md"
-  },
-  {
-    "id": "youtube-ZSQb5fzRFPw",
-    "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
-    "path": "wiki/resources/youtube-ZSQb5fzRFPw.md"
-  },
-  {
-    "id": "youtube-ZpK5PWX2YRM",
-    "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
-    "path": "wiki/resources/youtube-ZpK5PWX2YRM.md"
-  },
-  {
-    "id": "youtube-ZuiJjkbX0Og",
-    "title": "How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
-    "path": "wiki/resources/youtube-ZuiJjkbX0Og.md"
-  },
-  {
-    "id": "youtube-_B4Pv9ttFgY",
-    "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
-    "path": "wiki/resources/youtube-_B4Pv9ttFgY.md"
-  },
-  {
-    "id": "youtube-_xIwFcnHqp4",
-    "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
-    "path": "wiki/resources/youtube-_xIwFcnHqp4.md"
-  },
-  {
-    "id": "youtube-aHhB3sjGjkI",
-    "title": "Agents Building Agents - Alfonso Graziano, Nearform",
-    "path": "wiki/resources/youtube-aHhB3sjGjkI.md"
-  },
-  {
-    "id": "youtube-akk6KRlcwW4",
-    "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
-    "path": "wiki/resources/youtube-akk6KRlcwW4.md"
-  },
-  {
-    "id": "youtube-aqW68Is_Kj4",
-    "title": "Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic",
-    "path": "wiki/resources/youtube-aqW68Is_Kj4.md"
-  },
-  {
-    "id": "youtube-bRnoEpoK5m4",
-    "title": "The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
-    "path": "wiki/resources/youtube-bRnoEpoK5m4.md"
-  },
-  {
-    "id": "youtube-bSG9wUYaHWU",
-    "title": "Context Is the New Code — Patrick Debois, Tessl",
-    "path": "wiki/resources/youtube-bSG9wUYaHWU.md"
-  },
-  {
-    "id": "youtube-bVNNvWq6dKo",
-    "title": "How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf",
-    "path": "wiki/resources/youtube-bVNNvWq6dKo.md"
-  },
-  {
-    "id": "youtube-bk0TmxoZlUY",
-    "title": "Evals 101 — Doug Guthrie, Braintrust",
-    "path": "wiki/resources/youtube-bk0TmxoZlUY.md"
-  },
-  {
-    "id": "youtube-blW-lSd5CYQ",
-    "title": "The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify",
-    "path": "wiki/resources/youtube-blW-lSd5CYQ.md"
-  },
-  {
-    "id": "youtube-bmWZk9vTze0",
-    "title": "MCP is all you need — Samuel Colvin, Pydantic",
-    "path": "wiki/resources/youtube-bmWZk9vTze0.md"
-  },
-  {
-    "id": "youtube-btxGmN8RvNU",
-    "title": "Your Agent's Biggest Lie: \\\"I Searched the Web\\\" — Rafael Levi, Bright Data",
-    "path": "wiki/resources/youtube-btxGmN8RvNU.md"
-  },
-  {
-    "id": "youtube-c-2eEv2ou7Y",
-    "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
-    "path": "wiki/resources/youtube-c-2eEv2ou7Y.md"
-  },
-  {
-    "id": "youtube-cVzf49yg0D8",
-    "title": "Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
-    "path": "wiki/resources/youtube-cVzf49yg0D8.md"
-  },
-  {
-    "id": "youtube-dRmWYHuIJxM",
-    "title": "We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
-    "path": "wiki/resources/youtube-dRmWYHuIJxM.md"
-  },
-  {
-    "id": "youtube-d_Ftrl3vfV0",
-    "title": "Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
-    "path": "wiki/resources/youtube-d_Ftrl3vfV0.md"
-  },
-  {
-    "id": "youtube-dvft0Gp9sEE",
-    "title": "Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
-    "path": "wiki/resources/youtube-dvft0Gp9sEE.md"
-  },
-  {
-    "id": "youtube-e9sLVMN76qU",
-    "title": "AX is the only Experience that Matters - Ivan Burazin, Daytona",
-    "path": "wiki/resources/youtube-e9sLVMN76qU.md"
-  },
-  {
-    "id": "youtube-eOxOzcw70f0",
-    "title": "Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison",
-    "path": "wiki/resources/youtube-eOxOzcw70f0.md"
-  },
-  {
-    "id": "youtube-eW_vxrjvERk",
-    "title": "Connecting the Dots with Context Graphs — Stephen Chin, Neo4j",
-    "path": "wiki/resources/youtube-eW_vxrjvERk.md"
-  },
-  {
-    "id": "youtube-fL1iJHtl51Q",
-    "title": "Building Cursor Composer – Lee Robinson, Cursor",
-    "path": "wiki/resources/youtube-fL1iJHtl51Q.md"
-  },
-  {
-    "id": "youtube-fWXJM-J0ZB8",
-    "title": "Frontier results, on device - RL Nabors, Arize",
-    "path": "wiki/resources/youtube-fWXJM-J0ZB8.md"
-  },
-  {
-    "id": "youtube-gHs5ZiY80PM",
-    "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
-    "path": "wiki/resources/youtube-gHs5ZiY80PM.md"
-  },
-  {
-    "id": "youtube-gUMwt4-5kn0",
-    "title": "2026 AI Engineer Vibe Reel",
-    "path": "wiki/resources/youtube-gUMwt4-5kn0.md"
-  },
-  {
-    "id": "youtube-gcseUQJ6Gbg",
-    "title": "Using OSS models to build AI apps with millions of users — Hassan El Mghari",
-    "path": "wiki/resources/youtube-gcseUQJ6Gbg.md"
-  },
-  {
-    "id": "youtube-ghJmWQCIHRM",
-    "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
-    "path": "wiki/resources/youtube-ghJmWQCIHRM.md"
-  },
-  {
-    "id": "youtube-gmTHs5T_YAE",
-    "title": "Optimizing inference for voice models in production - Philip Kiely, Baseten",
-    "path": "wiki/resources/youtube-gmTHs5T_YAE.md"
-  },
-  {
-    "id": "youtube-grdoOC1BT1s",
-    "title": "Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
-    "path": "wiki/resources/youtube-grdoOC1BT1s.md"
-  },
-  {
-    "id": "youtube-hCMrEfPG2Yg",
-    "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
-    "path": "wiki/resources/youtube-hCMrEfPG2Yg.md"
-  },
-  {
-    "id": "youtube-hVJOnuhFmTA",
-    "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
-    "path": "wiki/resources/youtube-hVJOnuhFmTA.md"
-  },
-  {
-    "id": "youtube-himhGiWJXjo",
-    "title": "Realtime Data Connectivity for AI: Tanmai Gopal",
-    "path": "wiki/resources/youtube-himhGiWJXjo.md"
-  },
-  {
-    "id": "youtube-hqHC6Z_lXyo",
-    "title": "20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
-    "path": "wiki/resources/youtube-hqHC6Z_lXyo.md"
-  },
-  {
-    "id": "youtube-htM02KMNZnk",
-    "title": "WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
-    "path": "wiki/resources/youtube-htM02KMNZnk.md"
-  },
-  {
-    "id": "youtube-iNkFlCiij0U",
-    "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
-    "path": "wiki/resources/youtube-iNkFlCiij0U.md"
-  },
-  {
     "id": "youtube-iRcX54EO5g8",
     "title": "Your agent is blindfolded — Johan Lajili, Poolside AI",
     "path": "wiki/resources/youtube-iRcX54EO5g8.md"
-  },
-  {
-    "id": "youtube-iUWwcG-C8OU",
-    "title": "Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
-    "path": "wiki/resources/youtube-iUWwcG-C8OU.md"
-  },
-  {
-    "id": "youtube-iXhba366fQc",
-    "title": "Building voice agents with OpenAI — Dominik Kundel, OpenAI",
-    "path": "wiki/resources/youtube-iXhba366fQc.md"
-  },
-  {
-    "id": "youtube-ib-wTAvCZqg",
-    "title": "Architecting and Testing Controllable Agents: Lance Martin",
-    "path": "wiki/resources/youtube-ib-wTAvCZqg.md"
-  },
-  {
-    "id": "youtube-ij-AU9dpJjc",
-    "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
-    "path": "wiki/resources/youtube-ij-AU9dpJjc.md"
-  },
-  {
-    "id": "youtube-jVGCulhBRZI",
-    "title": "Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
-    "path": "wiki/resources/youtube-jVGCulhBRZI.md"
-  },
-  {
-    "id": "youtube-jVjt-2g8NMY",
-    "title": "A Genius With Amnesia - Victor Savkin, Nx",
-    "path": "wiki/resources/youtube-jVjt-2g8NMY.md"
-  },
-  {
-    "id": "youtube-jryZvCuA0Uc",
-    "title": "How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
-    "path": "wiki/resources/youtube-jryZvCuA0Uc.md"
-  },
-  {
-    "id": "youtube-k8cnVCMYmNc",
-    "title": "OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
-    "path": "wiki/resources/youtube-k8cnVCMYmNc.md"
-  },
-  {
-    "id": "youtube-kR64LOqBBCU",
-    "title": "AgentCraft: Putting the Orc in Orchestration — Ido Salomon",
-    "path": "wiki/resources/youtube-kR64LOqBBCU.md"
-  },
-  {
-    "id": "youtube-kZsf_Sfm7RU",
-    "title": "The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
-    "path": "wiki/resources/youtube-kZsf_Sfm7RU.md"
-  },
-  {
-    "id": "youtube-knDDGYHnnSI",
-    "title": "GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
-    "path": "wiki/resources/youtube-knDDGYHnnSI.md"
-  },
-  {
-    "id": "youtube-lY1iFbDPRlw",
-    "title": "Minimax M2: Building the #1 Open Model – Olive Song, MiniMax",
-    "path": "wiki/resources/youtube-lY1iFbDPRlw.md"
-  },
-  {
-    "id": "youtube-liG97YXaTSA",
-    "title": "OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
-    "path": "wiki/resources/youtube-liG97YXaTSA.md"
-  },
-  {
-    "id": "youtube-mFLlVpnGpds",
-    "title": "Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
-    "path": "wiki/resources/youtube-mFLlVpnGpds.md"
-  },
-  {
-    "id": "youtube-mQ7_Zje7WKE",
-    "title": "The 2025 AI Engineering Report — Barr Yaron, Amplify",
-    "path": "wiki/resources/youtube-mQ7_Zje7WKE.md"
-  },
-  {
-    "id": "youtube-n97BCfyFIvw",
-    "title": "\\\"The engineer of the future is the person who is able to choose what is worth doing.\\\" — Addy Osmani",
-    "path": "wiki/resources/youtube-n97BCfyFIvw.md"
-  },
-  {
-    "id": "youtube-o-zkvb0iFDQ",
-    "title": "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
-    "path": "wiki/resources/youtube-o-zkvb0iFDQ.md"
-  },
-  {
-    "id": "youtube-pMggiOb18tc",
-    "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
-    "path": "wiki/resources/youtube-pMggiOb18tc.md"
-  },
-  {
-    "id": "youtube-pSto5YaNGUo",
-    "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
-    "path": "wiki/resources/youtube-pSto5YaNGUo.md"
-  },
-  {
-    "id": "youtube-pmoDeA3RBZY",
-    "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
-    "path": "wiki/resources/youtube-pmoDeA3RBZY.md"
-  },
-  {
-    "id": "youtube-q4Tr-DknG2M",
-    "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
-    "path": "wiki/resources/youtube-q4Tr-DknG2M.md"
-  },
-  {
-    "id": "youtube-qaJXBMwUkoE",
-    "title": "The 1,000x AI Engineer: Swyx",
-    "path": "wiki/resources/youtube-qaJXBMwUkoE.md"
-  },
-  {
-    "id": "youtube-qdZzND79mcg",
-    "title": "Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
-    "path": "wiki/resources/youtube-qdZzND79mcg.md"
-  },
-  {
-    "id": "youtube-qdh_x-uRs9g",
-    "title": "The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
-    "path": "wiki/resources/youtube-qdh_x-uRs9g.md"
-  },
-  {
-    "id": "youtube-qlHaO6laBlM",
-    "title": "Shipping Production AI Inside Government — William Tarr, Ministry of Justice",
-    "path": "wiki/resources/youtube-qlHaO6laBlM.md"
-  },
-  {
-    "id": "youtube-r305-aQTaU0",
-    "title": "Text Diffusion — Brendan O’Donoghue, Google DeepMind",
-    "path": "wiki/resources/youtube-r305-aQTaU0.md"
-  },
-  {
-    "id": "youtube-rcsliSIy_YU",
-    "title": "Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands",
-    "path": "wiki/resources/youtube-rcsliSIy_YU.md"
-  },
-  {
-    "id": "youtube-rgjF5o2Qjsc",
-    "title": "The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo",
-    "path": "wiki/resources/youtube-rgjF5o2Qjsc.md"
-  },
-  {
-    "id": "youtube-rmvDxxNubIg",
-    "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
-    "path": "wiki/resources/youtube-rmvDxxNubIg.md"
-  },
-  {
-    "id": "youtube-sAOBXCDiDOs",
-    "title": "MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
-    "path": "wiki/resources/youtube-sAOBXCDiDOs.md"
-  },
-  {
-    "id": "youtube-sRpqPgKeXNk",
-    "title": "Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
-    "path": "wiki/resources/youtube-sRpqPgKeXNk.md"
-  },
-  {
-    "id": "youtube-sl3icG-IjHo",
-    "title": "How to Build Planning Agents without losing control - Yogendra Miraje, Factset",
-    "path": "wiki/resources/youtube-sl3icG-IjHo.md"
-  },
-  {
-    "id": "youtube-so9l_MwS2yg",
-    "title": "Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS",
-    "path": "wiki/resources/youtube-so9l_MwS2yg.md"
-  },
-  {
-    "id": "youtube-spNAUEgq_A8",
-    "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
-    "path": "wiki/resources/youtube-spNAUEgq_A8.md"
-  },
-  {
-    "id": "youtube-tzRvcTEapzo",
-    "title": "From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva",
-    "path": "wiki/resources/youtube-tzRvcTEapzo.md"
-  },
-  {
-    "id": "youtube-u-rJwPPU3QA",
-    "title": "How to talk to statues — Joe Reeve, ElevenLabs",
-    "path": "wiki/resources/youtube-u-rJwPPU3QA.md"
-  },
-  {
-    "id": "youtube-u3NofYYstaY",
-    "title": "Cohere for VPs of AI: Vivek Muppalla",
-    "path": "wiki/resources/youtube-u3NofYYstaY.md"
-  },
-  {
-    "id": "youtube-uIiA6DquRiE",
-    "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
-    "path": "wiki/resources/youtube-uIiA6DquRiE.md"
   },
   {
     "id": "youtube-uiP88SpCi1Q",
@@ -1120,83 +1390,48 @@
     "path": "wiki/resources/youtube-uiP88SpCi1Q.md"
   },
   {
-    "id": "youtube-vh2VGuQ3zhY",
-    "title": "The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
-    "path": "wiki/resources/youtube-vh2VGuQ3zhY.md"
+    "id": "youtube-btxGmN8RvNU",
+    "title": "Your Agent's Biggest Lie: \\\"I Searched the Web\\\" — Rafael Levi, Bright Data",
+    "path": "wiki/resources/youtube-btxGmN8RvNU.md"
   },
   {
-    "id": "youtube-vljxQZfJ9wY",
-    "title": "Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
-    "path": "wiki/resources/youtube-vljxQZfJ9wY.md"
+    "id": "youtube-d_Ftrl3vfV0",
+    "title": "Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
+    "path": "wiki/resources/youtube-d_Ftrl3vfV0.md"
   },
   {
-    "id": "youtube-wFTVEDYVJT0",
-    "title": "Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
-    "path": "wiki/resources/youtube-wFTVEDYVJT0.md"
+    "id": "youtube-so9l_MwS2yg",
+    "title": "Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS",
+    "path": "wiki/resources/youtube-so9l_MwS2yg.md"
   },
   {
-    "id": "youtube-wNH3q9pqn0U",
-    "title": "Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind",
-    "path": "wiki/resources/youtube-wNH3q9pqn0U.md"
+    "id": "youtube-MpZzWMdmQCE",
+    "title": "Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
+    "path": "wiki/resources/youtube-MpZzWMdmQCE.md"
   },
   {
-    "id": "youtube-wcUJWP6WpGM",
-    "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
-    "path": "wiki/resources/youtube-wcUJWP6WpGM.md"
+    "id": "youtube-IQkVMvXQKLY",
+    "title": "Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
+    "path": "wiki/resources/youtube-IQkVMvXQKLY.md"
   },
   {
-    "id": "youtube-whue9_YquGA",
-    "title": "Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
-    "path": "wiki/resources/youtube-whue9_YquGA.md"
+    "id": "youtube-96G7FLab8xc",
+    "title": "Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect",
+    "path": "wiki/resources/youtube-96G7FLab8xc.md"
   },
   {
-    "id": "youtube-wsFd22SL1s8",
-    "title": "Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
-    "path": "wiki/resources/youtube-wsFd22SL1s8.md"
+    "id": "youtube-jt1Pbr_n6oU",
+    "title": "Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
+    "path": "wiki/resources/youtube-jt1Pbr_n6oU.md"
   },
   {
-    "id": "youtube-xUnRQ9vLXxo",
-    "title": "What do we build now? — @t3dotgg",
-    "path": "wiki/resources/youtube-xUnRQ9vLXxo.md"
+    "id": "youtube-E71YtNbCFXY",
+    "title": "Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)",
+    "path": "wiki/resources/youtube-E71YtNbCFXY.md"
   },
   {
-    "id": "youtube-xnXqpUW_Kp8",
-    "title": "Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai",
-    "path": "wiki/resources/youtube-xnXqpUW_Kp8.md"
-  },
-  {
-    "id": "youtube-xz0-brt56L8",
-    "title": "Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)",
-    "path": "wiki/resources/youtube-xz0-brt56L8.md"
-  },
-  {
-    "id": "youtube-yJHw33cVeHo",
-    "title": "From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
-    "path": "wiki/resources/youtube-yJHw33cVeHo.md"
-  },
-  {
-    "id": "youtube-zDGHt0LB-dA",
-    "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
-    "path": "wiki/resources/youtube-zDGHt0LB-dA.md"
-  },
-  {
-    "id": "youtube-zKk7sDMGDEQ",
-    "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
-    "path": "wiki/resources/youtube-zKk7sDMGDEQ.md"
-  },
-  {
-    "id": "youtube-zMiSRliEzv4",
-    "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
-    "path": "wiki/resources/youtube-zMiSRliEzv4.md"
-  },
-  {
-    "id": "youtube-zTZ0qunQXnM",
-    "title": "From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
-    "path": "wiki/resources/youtube-zTZ0qunQXnM.md"
-  },
-  {
-    "id": "youtube-zepu8Kk6FBQ",
-    "title": "Agents for Everything Else — swyx",
-    "path": "wiki/resources/youtube-zepu8Kk6FBQ.md"
+    "id": "youtube-ObTPqBGsEbA",
+    "title": "£85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
+    "path": "wiki/resources/youtube-ObTPqBGsEbA.md"
   }
 ]

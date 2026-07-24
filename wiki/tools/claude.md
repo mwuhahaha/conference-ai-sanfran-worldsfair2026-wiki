@@ -60,8 +60,13 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-9fubhllmsBU
-sourceAssessmentBodySha256: sha256:89929e44d95085ffc8935e6a9956bf86fb27091b6be78d4a0151897347d23c33
+  - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-YZQsWVeN3rE
+  - source:official-wf26-youtube-Z2Erdirpudo
+  - source:official-wf26-youtube-xUnRQ9vLXxo
+sourceAssessmentBodySha256: sha256:e90b0153f7468bf49a4c07ab9888a3c777bcf05a11af83e96ddfe26be18833c5
 ---
 # Claude
 
@@ -70,6 +75,33 @@ Claude is represented across the World’s Fair 2026 corpus as both a model plat
 
 The linked media and resource layer supplies more detailed technical context without changing the status of the schedule evidence. Supporting videos cover the Claude Agent SDK, evolving Claude APIs for agents, Claude Code’s architecture and development model, prompt engineering, semantic code retrieval, protocol reverse engineering, and an embodied Minecraft experiment. Transcript-backed resources include Thariq Shihipar’s Agent SDK workshop, Katelyn Lesse’s discussion of agent-oriented API evolution, and Kuba Rogut’s Claude Code retrieval benchmark. Slide and topic connections extend the picture into production agents, context engines, multimodal interfaces, autoresearch, agent memory, MCP application runtimes, agentic search, and machine-reachable web surfaces. Together, these connections show Claude functioning across the agent stack—from prompts, APIs, and managed execution to repository search, memory, evaluation loops, and user-facing action surfaces—while public YouTube material whose event association is unverified remains labeled as supporting context rather than confirmed World’s Fair 2026 programming.
 
+## Transcript Digest Evidence
+This section is generated from 8 evidence-bound talk digest(s).
+
+- [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — The agent interface used as an example of where ask-based prompting might appear.
+  - Transcript: [[youtube-cgimkNGNjvU-transcript]]
+  - Evidence: "cursor what whatever tool um or potentially through some other mechanism that that we're explor flooring now as well."
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — The AI agent used inside Notion to scope tasks and help drive collaborative workflows.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "You can have Claude actually go ahead and scope out what you need. We've launched this manage agent capability today."
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]] — The assistant credited with assembling the slide deck.
+  - Transcript: [[youtube-yWS0udrIOc8-transcript]]
+  - Evidence: "All right. Hey everybody. Uh yeah, yep. Yep. Yep. Okay. I have about 18 minutes. Um I have a slide deck here that that Claude put together for me, but Claude still can't do very good slide decks, so I apologize for that."
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Used to generate a checklist of completeness items for the project.
+  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
+  - Evidence: "And so, Claude made this really lovely list of all the things that I should be that I should hit including like an open graph picture and things like that."
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — He notes that Claude can generate explainers, microworlds, and migration helpers that support understanding.
+  - Transcript: [[youtube-WkBPX-oDMnA-transcript]]
+  - Evidence: "So, I had Claude make me a microworld. This is a debugger, ephemeral UI that was built specifically to visualize the internal implementation of my programming language."
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.
+  - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
+  - Evidence: "It's a trust problem. And if you ask Claude to do something like report on revenue, it doesn't say, \"I'm not sure.\" It says, \"Here you go.\" And it gives you a wrong answer that looks exactly like being right."
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — The model the speaker says can write Cypher and build entity extractors.
+  - Transcript: [[youtube-Q0VkgCyNVUg-transcript]]
+  - Evidence: "If you're not a graph expert, guess what Claude is. Claude can write cipher better than I can."
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — Another tool named as something markdown can be piped into for execution.
+  - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
+  - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"
 ## Confirmed Evidence
 
 ### Official Schedule

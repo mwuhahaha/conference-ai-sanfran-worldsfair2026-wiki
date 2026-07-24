@@ -1,0 +1,242 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:00:08.742416+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:bbcf5a6c255b534f5ab68528dc10c3b796da8a0330f09931db606a5959a6651e",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Now the next hard part is really reliability and without reliability we cannot really build up trust in those systems.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the real next hard problem for agents is reliability and trust, not basic capability."
+      },
+      {
+        "evidenceExcerpt": "So why is that? Why was coding first solved? It's because code is verifiable. You can run it, you can test it, you can check it and you can be for sure that it worked.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "support": "explicit",
+        "text": "She says coding was the first domain where agents became trustworthy because code is verifiable by running, testing, and checking it."
+      },
+      {
+        "evidenceExcerpt": "So there is no unit test that can answer those questions. So verification really hits the wall right where most of our work lives.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "She reports that most knowledge work lacks a unit-test-like verification mechanism, which is why reliability breaks down there."
+      },
+      {
+        "evidenceExcerpt": "And it starts here really with the first word which is perceive. The agent has to take in the screen the way you do, not scrape the code behind the page, but what's actually rendered, the layout, the state, what just changed the work, what we're doing, and then do it.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "support": "explicit",
+        "text": "She argues that perception agents must read the rendered screen and its layout and state, rather than scrape page code, to act correctly."
+      },
+      {
+        "evidenceExcerpt": "There's two pieces. There is annotation which you can use to tell it what you want. And then the second piece, the verification part gives the agent the capability to check its own work.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "support": "explicit",
+        "text": "She says the first two open-source parts of the harness are annotation for expressing intent and verification for checking the agent's work."
+      }
+    ],
+    "methodNotes": "The record centers on the reliability gap, the screen-grounded perception loop, and the open-source annotation-plus-verification harness, with each field grounded in a single transcript segment.",
+    "methods": [
+      {
+        "description": "Use the same on-screen context as the human so the agent needs less explanation and can collaborate on the actual work.",
+        "evidenceExcerpt": "What you need is this shared context. Because if we're looking the agent and myself at the same screen, I probably have much less explanating to do.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "Shared Context"
+      },
+      {
+        "description": "Have the agent consume the rendered interface, layout, and state before acting, instead of relying on underlying page code.",
+        "evidenceExcerpt": "And it starts here really with the first word which is perceive. The agent has to take in the screen the way you do, not scrape the code behind the page, but what's actually rendered, the layout, the state, what just changed the work, what we're doing, and then do it.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Rendered-Interface Perception"
+      },
+      {
+        "description": "Capture intent by selecting elements directly on the screen so the instruction is precise and less lossy than a long paragraph.",
+        "evidenceExcerpt": "You click it, you select it and say something maybe double the font size. And you see also how the agent here captures on the screen exactly the feedback, the location, the style elements and it creates this complete summary which you can then use and then give your agent to implement.",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "name": "Annotation Capture"
+      },
+      {
+        "description": "Check results after acting by comparing them with design rules and walking relevant user flows, then produce a report.",
+        "evidenceExcerpt": "And it does two kinds of checks. Then it does a visual check, which is really cool. So everything is on brand, for example.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "name": "Self-Verification"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "How do you make an agent reliable when there's no way to verify the answer that easily? And that's a field that is still wide open.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "question": "How can agents be made reliable enough for messy knowledge work when there is no easy way to verify the answer?",
+        "whyItMatters": "This is the central open problem behind making perception agents trustworthy in real workflows."
+      },
+      {
+        "evidenceExcerpt": "But what we actually would need, think about it, is an agent that can react while you're still working.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "question": "How can an agent react while the human is still working instead of waiting for turn-based prompts and back-and-forth?",
+        "whyItMatters": "The talk frames real-time collaboration as a missing capability, not just better task completion."
+      },
+      {
+        "evidenceExcerpt": "So it will take what you defined, the colors, the components, your layout, and it turns it into those rules if you don't have it written before yet.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "question": "How should design rules be represented and maintained so verification can judge whether a change is actually on brand?",
+        "whyItMatters": "The verification flow depends on durable specs, but the talk implies those specs may not already exist in a usable form."
+      }
+    ],
+    "summary": "Antje Barth argues that the blocker for useful workplace agents is no longer simple action-taking, but reliable end-to-end completion of messy work across multiple applications. Her answer is to make agents perceive the rendered interface the way humans do, share context with the user, and close the loop with annotation and self-verification so the agent can confirm what it did instead of acting blindly. She contrasts this with coding, where verifiability made trust possible, and says knowledge work still lacks that kind of easy validation. The practical consequence is a workflow where people can point at what they mean, have the agent apply changes directly from that screen-grounded input, and then run visual and user-flow checks before the work is accepted.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Now the next hard part is really reliability and without reliability we cannot really build up trust in those systems.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "text": "For real-world agent adoption, reliability matters more than raw capability because trust collapses when failures are costly."
+      },
+      {
+        "evidenceExcerpt": "What you need is this shared context. Because if we're looking the agent and myself at the same screen, I probably have much less explanating to do.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "Shared context is more important than a bigger model when a human and an agent need to solve work together."
+      },
+      {
+        "evidenceExcerpt": "So there is no back and forth anymore because you captured exactly what you saw on screen and the agent can see the same thing.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "text": "Directly selecting what you mean on the screen reduces lossy back-and-forth compared with paragraph-length instructions."
+      },
+      {
+        "evidenceExcerpt": "And then once it's done, it's writing a report which you can review and it's going to call out which tests passed and it's going to tell you anything that didn't.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "text": "Verification should end with a human-readable report that makes pass/fail results and failures explicit."
+      },
+      {
+        "evidenceExcerpt": "give us the feedback what you would like to see where this should go next because ultimately none of us get smart alone and that's the whole point.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "text": "The system is intended to improve through open-source use, feedback, and breaking things in the open."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The open-source repos where the perception-agent harness is being shared and extended.",
+        "evidenceExcerpt": "So my ask here to you is go and try them out. They're on our GitHub repos, open source. Tell us what we're missing.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "GitHub"
+      },
+      {
+        "description": "The browser environment used for the annotation extension demo.",
+        "evidenceExcerpt": "So let me show you the first one. So here's a very quick demo on our annotation tool. This one is a Chrome extension, so it's super easy to use.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Chrome"
+      },
+      {
+        "description": "The meeting platform used in the example of collaborative work across a shared screen.",
+        "evidenceExcerpt": "We do this. Well, we're doing it by figuring things out together. You grab a colleague, you jump on a Zoom meeting, you're discussing things, you're looking at the problem to solve, you're discussing p pointing at systems, and maybe two minutes later, you solved it.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Zoom"
+      },
+      {
+        "description": "One of the cross-system destinations in the onboarding workflow example.",
+        "evidenceExcerpt": "A new team member starts on Monday. And maybe your job is to set up their accounts, add them to your Slack channel, book intros with colleagues, order the laptops, etc.",
+        "evidenceSegmentIds": [
+          "S0005"
+        ],
+        "name": "Slack"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The gap between agents that can take actions and agents that can be trusted to finish messy work end to end.",
+        "evidenceExcerpt": "Now the next hard part is really reliability and without reliability we cannot really build up trust in those systems.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "name": "Agent Reliability"
+      },
+      {
+        "description": "The role of looking at the same screen or interface as the human to reduce explanation and improve collaboration.",
+        "evidenceExcerpt": "What you need is this shared context. Because if we're looking the agent and myself at the same screen, I probably have much less explanating to do.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "Shared Context"
+      },
+      {
+        "description": "The idea that an agent should read the rendered UI, layout, and state before acting.",
+        "evidenceExcerpt": "And it starts here really with the first word which is perceive. The agent has to take in the screen the way you do, not scrape the code behind the page, but what's actually rendered, the layout, the state, what just changed the work, what we're doing, and then do it.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Rendered UI Perception"
+      },
+      {
+        "description": "Capturing intent by marking elements directly on screen instead of writing a long instruction.",
+        "evidenceExcerpt": "You click it, you select it and say something maybe double the font size. And you see also how the agent here captures on the screen exactly the feedback, the location, the style elements and it creates this complete summary which you can then use and then give your agent to implement.",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "name": "Screen Annotation"
+      },
+      {
+        "description": "Checking UI changes against design rules and user flows after the agent acts.",
+        "evidenceExcerpt": "it's the right layout. The other part is also checking user flows. So what it does there, it actually walks through this experience through the app for example depending on the tasks available.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "name": "UI Verification"
+      },
+      {
+        "description": "Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow.",
+        "evidenceExcerpt": "So we had the discussion the be did the transcript and you can see here on the right we're pulling this meeting transcript right in there is a whole detailed summary of the meeting.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "name": "Transcript-to-Action Collaboration"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:caa5f4aa739e70d5dd2b128d493bc827dd1fd688c72c2587702e6491e257d171",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-antje-barth-perception-agents",
+  "talkTitle": "Perception Agents",
+  "transcriptPath": "raw/sources/youtube-transcripts/2JX6JYyQG4Y.txt",
+  "transcriptSha256": "sha256:6354f5fdfe3947372200b4f9a102266d4319abcd51f0afd962da1792f83b7734",
+  "videoId": "2JX6JYyQG4Y"
+}

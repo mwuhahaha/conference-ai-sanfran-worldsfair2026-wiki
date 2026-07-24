@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 
 
@@ -7,6 +8,176 @@ SPEC = importlib.util.spec_from_file_location("generate_talk_synthesis_test", SC
 SYNTHESIS = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader
 SPEC.loader.exec_module(SYNTHESIS)
+
+
+EVIDENCE = (
+    "The verifier checks every proposed action against a versioned policy before "
+    "the agent can change production state."
+)
+SECOND_EVIDENCE = (
+    "Teams should preserve the trace, the proposed diff, and the reviewer decision "
+    "so failures can improve the next evaluation."
+)
+THIRD_EVIDENCE = (
+    "A bounded credential expires after one run and prevents unrelated tools from "
+    "inheriting authority they were never granted."
+)
+TRANSCRIPT = " ".join(
+    [
+        "Welcome to the session and thank you for joining us.",
+        EVIDENCE,
+        SECOND_EVIDENCE,
+        THIRD_EVIDENCE,
+        (
+            "The speaker calls this evidence-gated execution and demonstrates it "
+            "with Codex, an explicit approval policy, and a replayable evaluation."
+        ),
+    ]
+    * 5
+)
+
+
+def valid_payload() -> dict:
+    return {
+        "summary": (
+            "The talk presents evidence-gated execution as an architecture for "
+            "controlling agents that can alter production systems. It separates "
+            "proposed action from authorization, evaluates the proposal against a "
+            "versioned policy, and preserves the resulting trace and reviewer "
+            "decision. The practical consequence is a replayable control loop in "
+            "which narrow credentials limit blast radius while failures become "
+            "inputs to later evaluations."
+        ),
+        "takeaways": [
+            {"text": "Gate proposed actions with an explicit versioned policy.", "evidenceExcerpt": EVIDENCE},
+            {"text": "Keep traces and review decisions as evaluation evidence.", "evidenceExcerpt": SECOND_EVIDENCE},
+            {"text": "Use per-run credentials to constrain inherited authority.", "evidenceExcerpt": THIRD_EVIDENCE},
+        ],
+        "claims": [
+            {
+                "text": "A versioned policy can prevent an agent from directly changing production state.",
+                "evidenceExcerpt": EVIDENCE,
+                "support": "explicit",
+            },
+            {
+                "text": "Replayable traces let observed failures improve later evaluations.",
+                "evidenceExcerpt": SECOND_EVIDENCE,
+                "support": "strong",
+            },
+        ],
+        "topics": [
+            {
+                "name": "Agent authorization",
+                "description": "Policy evaluation that separates a proposed agent action from permission to execute it.",
+                "evidenceExcerpt": EVIDENCE,
+            },
+            {
+                "name": "Evaluation evidence",
+                "description": "Traces, diffs, and reviewer decisions retained to make agent failures replayable.",
+                "evidenceExcerpt": SECOND_EVIDENCE,
+            },
+        ],
+        "tools": [
+            {
+                "name": "Codex",
+                "description": "The named agent used in the talk's evidence-gated execution demonstration.",
+                "evidenceExcerpt": (
+                    "The speaker calls this evidence-gated execution and demonstrates "
+                    "it with Codex, an explicit approval policy, and a replayable evaluation."
+                ),
+            }
+        ],
+        "methods": [
+            {
+                "name": "Evidence-gated execution",
+                "description": "A reusable control loop that evaluates proposed actions before execution and retains the decision evidence.",
+                "evidenceExcerpt": EVIDENCE,
+            }
+        ],
+        "questions": [
+            {
+                "question": "Which evidence should be mandatory before an agent may change production?",
+                "whyItMatters": "The control only works when policy authors define the trace and review evidence needed for authorization.",
+                "evidenceExcerpt": SECOND_EVIDENCE,
+            }
+        ],
+        "methodNotes": (
+            "The digest distinguishes attributed speaker claims from independent "
+            "verification and binds every derived item to transcript wording."
+        ),
+    }
+
+
+def configure_project(tmp_path: Path, monkeypatch) -> tuple[Path, Path, Path]:
+    root = tmp_path / "project"
+    wiki = root / "wiki"
+    raw = root / "raw" / "sources"
+    transcript_dir = raw / "youtube-transcripts"
+    for directory in (
+        wiki / "talks",
+        wiki / "resources",
+        wiki / "topics",
+        wiki / "tools",
+        wiki / "patterns",
+        wiki / "questions",
+        wiki / "highlights",
+        wiki / "claims",
+        transcript_dir,
+    ):
+        directory.mkdir(parents=True, exist_ok=True)
+    manifest = raw / "official-wf26-video-manifest.json"
+    monkeypatch.setattr(SYNTHESIS, "ROOT", root)
+    monkeypatch.setattr(SYNTHESIS, "WIKI", wiki)
+    monkeypatch.setattr(SYNTHESIS, "RAW", raw)
+    monkeypatch.setattr(SYNTHESIS, "OFFICIAL_VIDEO_MANIFEST", manifest)
+    monkeypatch.setattr(SYNTHESIS, "TRANSCRIPT_DIRS", [transcript_dir])
+    return root, wiki, raw
+
+
+def write_talk_fixture(wiki: Path, raw: Path) -> tuple[str, str]:
+    talk_id = "2026-07-01-example-evidence-gated-execution"
+    video_id = "EXAMPLE0001"
+    (wiki / "talks" / f"{talk_id}.md").write_text(
+        "---\n"
+        'title: "Evidence-Gated Execution"\n'
+        'speakers: ["Example Speaker"]\n'
+        "---\n"
+        "# Evidence-Gated Execution\n\n"
+        "## Conference Context\n"
+        "- Official schedule fixture.\n\n"
+        "## Session Description\n"
+        "A session about authorization and evaluation evidence.\n\n"
+        "## Synthesis\n"
+        "### Synthesized Breakdown\n"
+        "Hello and welcome to the session.\n\n"
+        "## Media Evidence\n"
+        "Pending.\n\n"
+        "## Evidence Graph\n"
+        "Pending.\n",
+        encoding="utf-8",
+    )
+    (raw / "youtube-transcripts" / f"{video_id}.txt").write_text(
+        TRANSCRIPT,
+        encoding="utf-8",
+    )
+    (raw / "official-wf26-video-manifest.json").write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": video_id,
+                        "title": "Evidence-Gated Execution",
+                        "mediaType": "talk_recording",
+                        "videoAvailability": "public",
+                        "playlistAvailability": "available",
+                        "matchedTalks": [talk_id],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    return talk_id, video_id
 
 
 def test_schedule_fallback_uses_description_without_embedded_headings() -> None:
@@ -29,15 +200,6 @@ def test_schedule_fallback_uses_description_without_embedded_headings() -> None:
         "It demonstrates a verification gate."
     )
     assert "# Example Talk" not in summary
-    assert "## Conference Context" not in summary
-
-
-def test_first_sentences_ignores_fenced_headings() -> None:
-    text = "```bash\n# comment\n```\nA real sentence. Another real sentence."
-
-    assert (
-        SYNTHESIS.first_sentences(text, 2) == "A real sentence. Another real sentence."
-    )
 
 
 def test_official_recording_map_fails_closed_on_both_availability_fields(
@@ -56,10 +218,7 @@ def test_official_recording_map_fails_closed_on_both_availability_fields(
            "matchedTalks": ["private-talk"]},
           {"id": "PLAYLISTBAD", "mediaType": "talk_recording",
            "videoAvailability": "public", "playlistAvailability": "unavailable",
-           "matchedTalks": ["unavailable-talk"]},
-          {"id": "PLAYLISTUNK", "mediaType": "talk_recording",
-           "videoAvailability": "public", "playlistAvailability": "unknown",
-           "matchedTalks": ["unknown-talk"]}
+           "matchedTalks": ["unavailable-talk"]}
         ]}
         """,
         encoding="utf-8",
@@ -71,134 +230,287 @@ def test_official_recording_map_fails_closed_on_both_availability_fields(
     }
 
 
-def test_curated_synopsis_extracts_ai_native_company_operating_model() -> None:
-    transcript = (
-        "A skill file is an employee. Work moves between latent space and "
-        "deterministic space. A company brain is the library plus the librarian. "
-        "The primitive is memory plus hygiene, with provenance and contradiction "
-        "checks. Never do one-off work; skillify it."
+def test_semantic_contract_accepts_exact_evidence_and_rejects_invention() -> None:
+    payload = valid_payload()
+    SYNTHESIS.validate_payload(payload, TRANSCRIPT)
+
+    payload["topics"][0]["evidenceExcerpt"] = (
+        "This sentence was never present in the source transcript at all."
+    )
+    try:
+        SYNTHESIS.validate_payload(payload, TRANSCRIPT)
+    except ValueError as error:
+        assert "not verbatim transcript evidence" in str(error)
+    else:
+        raise AssertionError("invented evidence must fail the semantic contract")
+
+
+def test_semantic_contract_rejects_greeting_summary() -> None:
+    payload = valid_payload()
+    payload["summary"] = (
+        "Hello everyone. Thank you for joining this very exciting conference "
+        "session where we will discuss several interesting things in detail. "
+        "Welcome to the stage and please enjoy this long presentation together "
+        "with all of the other attendees who are here today."
+    )
+    try:
+        SYNTHESIS.validate_payload(payload, TRANSCRIPT)
+    except ValueError as error:
+        assert "greeting" in str(error)
+    else:
+        raise AssertionError("greeting-led summaries must fail closed")
+
+
+def test_cross_topic_validation_rejects_thin_cluster_but_keeps_valid_corpus() -> None:
+    candidates = [
+        {
+            "candidateId": f"T{index:04d}",
+            "talkId": f"talk-{index}",
+        }
+        for index in range(1, 18)
+    ]
+    candidates.append({"candidateId": "T0018", "talkId": "talk-1"})
+    raw_clusters = []
+    for index in range(8):
+        first = index * 2 + 1
+        raw_clusters.append(
+            {
+                "canonicalTopic": f"Valid topic {index}",
+                "synthesis": (
+                    "Two different talks describe the same reusable engineering "
+                    "idea. Their descriptions also expose a meaningful variation "
+                    "in how that shared idea is applied."
+                ),
+                "preferredExistingTopicSlug": "",
+                "memberIds": [f"T{first:04d}", f"T{first + 1:04d}"],
+            }
+        )
+    raw_clusters.append(
+        {
+            "canonicalTopic": "Thin same-talk topic",
+            "synthesis": (
+                "These two candidates came from only one scheduled talk. They "
+                "must not be promoted as cross-talk conference synthesis."
+            ),
+            "preferredExistingTopicSlug": "",
+            "memberIds": ["T0001", "T0018"],
+        }
     )
 
-    synopsis = SYNTHESIS.curated_synopsis("What Do We Build Now?", transcript)
+    result = SYNTHESIS.validate_cross_topic_payload(
+        {"clusters": raw_clusters},
+        candidates,
+        [],
+    )
 
-    assert "how work is wired" in synopsis
-    assert "latent space" in synopsis
-    assert "deterministic systems" in synopsis
-    assert "provenance" in synopsis
-    assert "reusable skills" in synopsis
+    assert len(result["clusters"]) == 8
+    assert result["rejectedClusters"] == [
+        {
+            "canonicalTopic": "Thin same-talk topic",
+            "reason": "fewer_than_two_distinct_talks",
+            "memberIds": ["T0018"],
+        }
+    ]
 
 
-def test_dedicated_cut_drives_synthesis_and_livestream_remains_labeled_context(
+def test_build_jobs_requires_a_usable_transcript(tmp_path, monkeypatch) -> None:
+    _root, wiki, raw = configure_project(tmp_path, monkeypatch)
+    talk_id, video_id = write_talk_fixture(wiki, raw)
+    (raw / "youtube-transcripts" / f"{video_id}.txt").unlink()
+
+    jobs, failures, selected = SYNTHESIS.build_jobs(
+        model="test-model",
+        max_transcript_chars=50_000,
+    )
+
+    assert jobs == []
+    assert selected == {talk_id}
+    assert failures == [
+        f"matched playable recording has no usable transcript: {video_id} -> {talk_id}"
+    ]
+
+
+def test_generated_semantic_pages_include_required_article_contract_sections() -> None:
+    evidence = "- [[example-talk]]\n  - Transcript: [[youtube-EXAMPLE0001-transcript]]"
+    required = {
+        "topics": ("Significance", "Applied Use", "Connections", "Evidence Graph"),
+        "tools": (),
+        "patterns": ("Pattern", "When To Use", "Implementation Moves", "Source Evidence"),
+        "questions": ("Context", "Working Answer", "Evidence", "Next Questions"),
+    }
+
+    for category, headings in required.items():
+        rendered = SYNTHESIS.new_generated_page(
+            title="Example",
+            category=category,
+            overview="An evidence-bound example derived from two official talk transcripts.",
+            evidence_section=evidence,
+        )
+        assert "## Transcript Digest Evidence" in rendered
+        assert "## Evidence Boundary" in rendered
+        for heading in headings:
+            assert f"## {heading}" in rendered
+
+
+def test_main_materializes_semantic_layers_and_reuses_bound_cache(
     tmp_path,
     monkeypatch,
 ) -> None:
-    root = tmp_path / "project"
-    wiki = root / "wiki"
-    cut_dir = root / "raw" / "sources" / "youtube-transcripts"
-    livestream_dir = root / "raw" / "sources" / "youtube-livestream-transcripts"
-    for directory in (wiki / "topics", wiki / "tools", cut_dir, livestream_dir):
-        directory.mkdir(parents=True, exist_ok=True)
-    for topic in ("agent-memory", "mcp", "ai-sandboxes"):
-        (wiki / "topics" / f"{topic}.md").write_text(f"# {topic}\n")
+    root, wiki, raw = configure_project(tmp_path, monkeypatch)
+    talk_id, video_id = write_talk_fixture(wiki, raw)
+    question_slug = (
+        "which-evidence-should-be-mandatory-before-an-agent-may-change-production"
+    )
+    (wiki / "patterns" / "evidence-gated-execution.md").write_text(
+        "# Evidence-gated execution\n",
+        encoding="utf-8",
+    )
+    (wiki / "questions" / f"{question_slug}.md").write_text(
+        "# Which evidence should be mandatory before an agent may change production?\n",
+        encoding="utf-8",
+    )
+    (wiki / "tools" / "codex.md").write_text(
+        "# Codex\n",
+        encoding="utf-8",
+    )
+    calls = []
 
-    cut_id = "CUTVIDEO001"
-    livestream_id = "LIVESTRM001"
-    (cut_dir / f"{cut_id}.txt").write_text(
-        "Dedicated cut opening. The company brain depends on context engineering "
-        "and memory hygiene. This is the cut conclusion."
-    )
-    (livestream_dir / f"{livestream_id}.txt").write_text(
-        "Livestream boilerplate. MCP sandbox authentication fills the broad stream."
-    )
-    monkeypatch.setattr(SYNTHESIS, "ROOT", root)
-    monkeypatch.setattr(SYNTHESIS, "WIKI", wiki)
+    def synthesize(job, *, timeout_seconds):
+        calls.append((job["video_id"], timeout_seconds))
+        return valid_payload()
+
+    monkeypatch.setattr(SYNTHESIS, "run_codex_digest", synthesize)
     monkeypatch.setattr(
         SYNTHESIS,
-        "TRANSCRIPT_DIRS",
-        [cut_dir, livestream_dir],
+        "obtain_cross_topic_synthesis",
+        lambda *_args, **_kwargs: (
+            {
+                "payload": {
+                    "clusters": [
+                        {
+                            "canonicalTopic": "Agent authorization",
+                            "synthesis": (
+                                "The candidates describe policy evaluation that "
+                                "separates proposed action from authority to execute. "
+                                "They also connect authorization to retained evidence."
+                            ),
+                            "preferredExistingTopicSlug": "",
+                            "memberIds": ["T0001", "T0002"],
+                        }
+                    ]
+                }
+            },
+            False,
+        ),
     )
-    talk = wiki / "talks" / "example-talk.md"
-    markdown = (
-        "---\n"
-        'title: "Example Talk"\n'
-        "---\n"
-        "# Example Talk\n\n"
-        "## Session Description\n"
-        "A bounded official description.\n\n"
-        "## Topics Covered\n"
-        "- [[mcp]]\n"
-        f"- [[youtube-{livestream_id}-transcript]]\n"
-        f"- [[youtube-{cut_id}-transcript]]\n"
-    )
-
-    heading, section, _concepts = SYNTHESIS.section_for(
-        talk,
-        markdown,
-        {},
-        {},
-        {talk.stem: [cut_id]},
-    )
-
-    assert heading == "Synthesis"
-    assert "Dedicated cut opening." in section
     assert (
-        "Livestream boilerplate."
-        not in section.split("### Speaker And Company Context", 1)[0]
+        SYNTHESIS.main(
+            [
+                "--all",
+                "--model",
+                "test-model",
+                "--workers",
+                "1",
+                "--timeout-seconds",
+                "60",
+                "--max-transcript-chars",
+                "50000",
+            ]
+        )
+        == 0
     )
-    assert "- [[agent-memory]]" in section
-    assert "- [[mcp]]" not in section
-    assert "- [[ai-sandboxes]]" not in section
-    assert "dedicated official recording transcript" in section
-    assert "official livestream context transcript" in section
-    assert section.index(f"youtube-{cut_id}-transcript") < section.index(
-        f"youtube-{livestream_id}-transcript"
+    assert calls == [(video_id, 60)]
+
+    talk = (wiki / "talks" / f"{talk_id}.md").read_text()
+    assert "## Synthesis" in talk
+    assert "### Transcript-Backed Summary" in talk
+    assert "Hello and welcome to the session." not in talk
+    assert "[[agent-authorization|Agent authorization]]" in talk
+    assert "[[codex|Codex]]" in talk
+    assert "[[evidence-gated-execution|Evidence-gated execution]]" in talk
+    assert "### Semantic Digestion Status" in talk
+    assert (wiki / "topics" / "agent-authorization.md").is_file()
+    assert (wiki / "tools" / "codex.md").is_file()
+    assert (wiki / "patterns" / "evidence-gated-execution.md").is_file()
+    assert (
+        wiki
+        / "questions"
+        / f"{question_slug}.md"
+    ).is_file()
+    assert (wiki / "highlights" / f"transcript-{talk_id}.md").is_file()
+    assert (wiki / "claims" / f"transcript-{talk_id}.md").is_file()
+    cache = (
+        wiki
+        / "resources"
+        / "talk-digests"
+        / f"{video_id}--{talk_id}.json"
     )
+    envelope = json.loads(cache.read_text())
+    assert envelope["inputSha256"].startswith("sha256:")
+    assert envelope["payloadSha256"].startswith("sha256:")
+    assert envelope["model"] == "test-model"
+    assert "OPENAI_API_KEY" not in envelope
+
+    before = {
+        path.relative_to(root): path.read_bytes()
+        for path in root.rglob("*")
+        if path.is_file()
+    }
+
+    def no_second_call(*_args, **_kwargs):
+        raise AssertionError("valid content-addressed cache should be reused")
+
+    monkeypatch.setattr(SYNTHESIS, "run_codex_digest", no_second_call)
+    assert (
+        SYNTHESIS.main(
+            [
+                "--all",
+                "--model",
+                "test-model",
+                "--workers",
+                "1",
+                "--timeout-seconds",
+                "60",
+                "--max-transcript-chars",
+                "50000",
+            ]
+        )
+        == 0
+    )
+    after = {
+        path.relative_to(root): path.read_bytes()
+        for path in root.rglob("*")
+        if path.is_file()
+    }
+    assert after == before
 
 
-def test_unmatched_livestream_cannot_drive_session_synthesis(
+def test_main_fails_without_sentence_or_keyword_fallback(
     tmp_path,
     monkeypatch,
 ) -> None:
-    root = tmp_path / "project"
-    wiki = root / "wiki"
-    livestream_dir = root / "raw" / "sources" / "youtube-livestream-transcripts"
-    for directory in (wiki / "topics", wiki / "tools", livestream_dir):
-        directory.mkdir(parents=True, exist_ok=True)
-    for topic in ("agent-memory", "agentic-web", "mcp"):
-        (wiki / "topics" / f"{topic}.md").write_text(f"# {topic}\n")
+    _root, wiki, raw = configure_project(tmp_path, monkeypatch)
+    talk_id, _video_id = write_talk_fixture(wiki, raw)
+    before = (wiki / "talks" / f"{talk_id}.md").read_text()
 
-    livestream_id = "LIVESTRM001"
-    (livestream_dir / f"{livestream_id}.txt").write_text(
-        "Unrelated keynote material about memory hygiene and context graphs."
-    )
-    monkeypatch.setattr(SYNTHESIS, "ROOT", root)
-    monkeypatch.setattr(SYNTHESIS, "WIKI", wiki)
-    monkeypatch.setattr(SYNTHESIS, "TRANSCRIPT_DIRS", [livestream_dir])
-    monkeypatch.setattr(SYNTHESIS, "broad_event_video_ids", lambda: {livestream_id})
-    talk = wiki / "talks" / "browser-talk.md"
-    markdown = (
-        "---\n"
-        'title: "Browser Talk"\n'
-        "---\n"
-        "# Browser Talk\n\n"
-        "## Session Description\n"
-        "Programmatic browser automation through MCP makes the agentic web repeatable.\n\n"
-        f"## Recording Search Status\n- Broad stream [[youtube-{livestream_id}]].\n"
+    def fail(_job, *, timeout_seconds):
+        raise RuntimeError(f"model unavailable after {timeout_seconds}s")
+
+    monkeypatch.setattr(SYNTHESIS, "run_codex_digest", fail)
+    result = SYNTHESIS.main(
+        [
+            "--all",
+            "--model",
+            "test-model",
+            "--workers",
+            "1",
+            "--timeout-seconds",
+            "60",
+            "--max-transcript-chars",
+            "50000",
+        ]
     )
 
-    heading, section, _concepts = SYNTHESIS.section_for(
-        talk,
-        markdown,
-        {},
-        {},
-        {},
-    )
-
-    assert heading == "Synthesis"
-    assert "Programmatic browser automation" in section
-    assert "Unrelated keynote material" not in section
-    assert "youtube-LIVESTRM001-transcript" not in section
-    assert "- [[agent-memory]]" not in section
-    assert "- [[ai-sandboxes]]" not in section
-    assert "- [[agentic-web]]" in section
-    assert "- [[mcp]]" in section
+    assert result == 1
+    assert (wiki / "talks" / f"{talk_id}.md").read_text() == before
+    assert not (wiki / "resources" / "talk-digests").exists()

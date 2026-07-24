@@ -19,9 +19,11 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube--I5W5QVAT8E
+  - source:official-wf26-youtube-8qWIPUia2O8
+  - source:official-wf26-youtube-VrpEyglYgeU
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-n97BCfyFIvw
-sourceAssessmentBodySha256: sha256:c731a92d74ce685bf57692d318c0a1bfd7de8932a112b1f662aaf92dcdecd8d5
+sourceAssessmentBodySha256: sha256:79c13eabb44ad2ebd1cb7d48bb8c5d6c25d8d9d89845fc83a7ecd6e96bed0763
 ---
 # Software Factories
 
@@ -76,6 +78,23 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 ## Livestream Source
 - [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
 - [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
+
+## Transcript Digest Evidence
+This section synthesizes 4 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+End-to-end delivery systems that turn requests into shipped software through coordinated loops, scaffolding, and ownership boundaries. The recurring variation is whether the focus is harnesses, delivery orchestration, or long-term maintainability, with the tradeoff being throughput versus codebase health.
+
+### Constituent Talk Evidence
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]] — Breaking implementation into coordinated end-to-end chunks across a system.
+  - Transcript: [[youtube-Ib5GBkD555M-transcript]]
+  - Evidence: "Um which is the order of implementation, multi-reo coordination. How are we going to build this across our entire system and how are we going to check it along the way?"
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — The stage where the industry focus has shifted from agents to harnesses.
+  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
+  - Evidence: "Um and uh the thing that I'm going to say is is welcome to the harness era. What do I mean by the harness era?"
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — The growth of maintainability, reliability, and security debt as agents generate more code.
+  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
+  - Evidence: "And then the last point I mentioned is technical debt does explode. Right? As you generate code, technical debt is also generated."
 
 ## Neighboring Subjects
 - [[coding-agents]]
@@ -137,8 +156,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 29 | Related pages outside the main evidence categories. |
 | resources | 10 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 15 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 7 | Transcript markdown; check session matching and caption quality. |
+| talks | 17 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]

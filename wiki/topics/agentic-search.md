@@ -16,11 +16,14 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-youtube--CnA2lGfymY
+  - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-1P1hJ36rxM0
   - source:official-wf26-youtube-8G_1-3IO4ZQ
   - source:official-wf26-youtube-8qWIPUia2O8
+  - source:official-wf26-youtube-9fubhllmsBU
   - source:official-wf26-youtube-Cz4v1WHVyZc
   - source:official-wf26-youtube-GgLQ02aO-hs
+  - source:official-wf26-youtube-KB41dTlX1Uc
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-RGSFUqzqErE
   - source:official-wf26-youtube-YZQsWVeN3rE
@@ -29,9 +32,11 @@ sourceAssessment:
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-eBUyTS7SzV4
   - source:official-wf26-youtube-iCj_ATyThvc
+  - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:166ba00d9ed5a0aec380f1857837da48cd031c44535edcb13fe5bb6c22a7540c
+  - source:official-wf26-youtube-xUnRQ9vLXxo
+sourceAssessmentBodySha256: sha256:5356f1ecc490b1dce75e0941d3c398f5874ab1076d19025067d2372aaa14cb51
 ---
 # Agentic Search
 
@@ -100,6 +105,35 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 8 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Search workflows that actively navigate uncertainty by chaining retrieval, optionality, and thematic synthesis. The difference across talks is whether search is framed as query routing or as a broader product strategy for finding answers and capabilities that are not initially available.
+
+### Constituent Talk Evidence
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
+  - Transcript: [[youtube-imFedndyXYQ-transcript]]
+  - Evidence: "You spend more compute. You pay more money. Things that can be solved with money are not really problems."
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — Retrieval workflows that reflect on whether the query has been satisfied before returning results.
+  - Transcript: [[youtube-RGSFUqzqErE-transcript]]
+  - Evidence: "on on top of the core retrieval system, we also introduced an agentic retrieval stack because we see that for easy cases, like, you know, quick single-shot retrieval is great, but for more sophisticated cases, you do want a system that can reflect on on what's in the data set and decide whether or not we've satisfied the information need as stated in the input before we come back with results."
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
+  - Transcript: [[youtube--I5W5QVAT8E-transcript]]
+  - Evidence: "One option to navigate this is stay model agnostic. Have different models and capabilities in your system so that at any point if pricing seems unfair or untenable, you are not out of business."
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — Community detection for surfacing corpus-wide clusters and hidden themes.
+  - Transcript: [[youtube-kRkcNOsRyYg-transcript]]
+  - Evidence: "And so we're going to use something called lien community detection. By a show of hands, how many people in this room are familiar with what graph data science is?"
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]] — The distinction between what the operator thinks they know and the real constraints in the environment.
+  - Transcript: [[youtube-9fubhllmsBU-transcript]]
+  - Evidence: "And so one of the things that I think a lot about is that the map is not the territory, right?"
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
+  - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
+  - Evidence: "Can I add one thing to that? One of the biggest challenge so I think there's two two big challenges One is what we've been talking about of basically the trade-off of simplicity versus customizability."
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — The talk stresses products that let users extend missing features themselves.
+  - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
+  - Evidence: "missing themselves. missing themselves. If you architect your systems and you If you architect your systems and you If you architect your systems and you architect your products in such a way architect your products in such a way architect your products in such a way that users can do things that they you that users can do things that they you that users can do things that they you never would have guessed."
 
 ## Connections
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers; [[jeff-vestal|Jeff Vestal]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Track 7; official schedule)
@@ -192,9 +226,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 50 | Related pages outside the main evidence categories. |
 | resources | 17 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 41 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 37 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 42 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 16 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 21 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]

@@ -318,7 +318,11 @@ def test_part_one_projection_retires_other_parts_and_is_idempotent(
     external_id = "EXTERNAL001"
     part_ids = ["part-1", "part-2", "part-3"]
     (transcript_dir / f"{recording_id}.txt").write_text(
-        "The Part 1 recording discusses its own bounded workshop material."
+        (
+            "The Part 1 recording discusses its own bounded workshop material "
+            "and keeps each workshop segment tied to exact source evidence. "
+        )
+        * 8
     )
     (external_dir / f"{external_id}.txt").write_text(
         "A separate interview remains useful supporting context."
@@ -398,7 +402,78 @@ def test_part_one_projection_retires_other_parts_and_is_idempotent(
         "EXTERNAL_DISCOVERY",
         raw / "missing-external.json",
     )
+
+    def fake_digests(jobs, **_kwargs):
+        assert len(jobs) == 1
+        job = jobs[0]
+        excerpt = (
+            "The Part 1 recording discusses its own bounded workshop material "
+            "and keeps each workshop segment tied to exact source evidence."
+        )
+        payload = {
+            "summary": (
+                "The first workshop segment establishes a bounded source scope "
+                "for its own material. It keeps session projection tied to exact "
+                "recording evidence instead of sharing one recording across all "
+                "parts. The resulting boundary lets later workshop pages retain "
+                "their separate schedule identity until their own recordings are "
+                "available."
+            ),
+            "takeaways": [
+                {"text": "Keep workshop evidence bound to its exact segment.", "evidenceExcerpt": excerpt},
+                {"text": "Do not project one recording across sibling sessions.", "evidenceExcerpt": excerpt},
+                {"text": "Preserve separate schedule identities for later parts.", "evidenceExcerpt": excerpt},
+            ],
+            "claims": [
+                {"text": "The recording covers only its own bounded workshop segment.", "evidenceExcerpt": excerpt, "support": "explicit"},
+                {"text": "Exact source binding prevents cross-session projection.", "evidenceExcerpt": excerpt, "support": "strong"},
+            ],
+            "topics": [
+                {"name": "Source binding", "description": "Binding recording evidence to the exact session it documents.", "evidenceExcerpt": excerpt},
+                {"name": "Session projection", "description": "Projecting media only onto the schedule page supported by exact evidence.", "evidenceExcerpt": excerpt},
+            ],
+            "tools": [],
+            "methods": [
+                {"name": "Bounded session evidence", "description": "A method for preventing one recording from standing in for sibling sessions.", "evidenceExcerpt": excerpt}
+            ],
+            "questions": [
+                {"question": "How should multipart sessions share evidence safely?", "whyItMatters": "Shared descriptions can otherwise cause one recording to contaminate sibling pages.", "evidenceExcerpt": excerpt}
+            ],
+            "methodNotes": "The fixture models exact session binding without external semantic execution.",
+        }
+        envelope = {
+            "talkId": job["talk_id"],
+            "talkTitle": job["title"],
+            "videoId": job["video_id"],
+            "payload": payload,
+        }
+        return [envelope], 0, 1, []
+
     monkeypatch.setattr(SYNTHESIS, "TRANSCRIPT_DIRS", [transcript_dir, external_dir])
+    monkeypatch.setattr(SYNTHESIS, "obtain_digests", fake_digests)
+    monkeypatch.setattr(
+        SYNTHESIS,
+        "obtain_cross_topic_synthesis",
+        lambda *_args, **_kwargs: (
+            {
+                "payload": {
+                    "clusters": [
+                        {
+                            "canonicalTopic": "Bounded session projection",
+                            "synthesis": (
+                                "The candidate records bind media evidence to one "
+                                "scheduled segment. They preserve distinct session "
+                                "identity when multipart descriptions overlap."
+                            ),
+                            "preferredExistingTopicSlug": "",
+                            "memberIds": ["T0001", "T0002"],
+                        }
+                    ]
+                }
+            },
+            False,
+        ),
+    )
 
     def run_generators() -> dict[str, str]:
         assert TRANSCRIPTS.main(["--manifest-only"]) == 0

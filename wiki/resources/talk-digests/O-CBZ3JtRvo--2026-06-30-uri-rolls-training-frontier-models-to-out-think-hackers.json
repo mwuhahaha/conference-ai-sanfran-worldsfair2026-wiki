@@ -1,0 +1,258 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:03:27.150072+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:70a2ff38831ba0553087aed38ed53215179fd03badc8334a29645c9f9e9aef23",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um, and part of the problem with the existing stack is that defensive systems have to operate at scale.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that defensive cyber systems are being squeezed because they must operate at scale with limited human intervention, while frontier models are making offensive work faster and cheaper."
+      },
+      {
+        "evidenceExcerpt": "We have no doubt that open source models have to be part of this solution because um they allow for many things that we'll talk about as well and there's this deep need for collaboration.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "support": "explicit",
+        "text": "The talk argues that open source models are not a side issue but part of the solution, because collaboration and deployability matter for cyber defense."
+      },
+      {
+        "evidenceExcerpt": "But what if through very high quality evals, very high quality data, good benchmarks, we could get to a place where the attackers are um simply outperformed by very very very good defenders.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "support": "explicit",
+        "text": "The speaker claims that high-quality evals, high-quality data, and good benchmarks could push cyber toward the same kind of capability gains that coding saw."
+      },
+      {
+        "evidenceExcerpt": "So we find our own zero days in widely uh distributed open source software. We use that to create these t these real live huge environments of a bunch of different um applications chained together that then allows us to basically create this blackbox setting where the model doesn't see the code and it doesn't know about the zero date because we found it ourselves and it has to find a way uh to reason across this entire surface and understand exactly what the exploitation is.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "support": "explicit",
+        "text": "The benchmark is built from real zero-days found by human researchers and then turned into black-box environments that force reasoning across chained applications rather than code reading."
+      },
+      {
+        "evidenceExcerpt": "This is exactly the type of capability that we believe. If every model in the world could get really really really good at doing this and very fast, that should give a lasting defense uh and capability to the defenders that the attackers simply don't have right now.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "support": "explicit",
+        "text": "The speaker believes that if models become very good and very fast at these capability leaps, defenders can gain a lasting edge that attackers do not currently have."
+      },
+      {
+        "evidenceExcerpt": "and speed will be where you know you you want to have a specialized model that's maybe running on specialized hardware and actually is is going to be very important and here I think the the danger is to say we're just going to rely on two company that everyone knows here to solve all",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "support": "explicit",
+        "text": "The talk argues that speed is a major constraint and that defenders will need specialized models and hardware rather than depending on only a few big providers."
+      }
+    ],
+    "methodNotes": "I synthesized the summary from the full talk and used one transcript segment as evidence for each structured item, as requested.",
+    "methods": [
+      {
+        "description": "Create training data from real zero-day findings instead of synthetic toy tasks.",
+        "evidenceExcerpt": "So we find our own zero days in widely uh distributed open source software. We use that to create these t these real live huge environments of a bunch of different um applications chained together that then allows us to basically create this blackbox setting where the model doesn't see the code and it doesn't know about the zero date because we found it ourselves and it has to find a way uh to reason across this entire surface and understand exactly what the exploitation is.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Human-first data creation"
+      },
+      {
+        "description": "Run models in a black-box environment without internet or source access so they must reason from observed behavior and allowed tools.",
+        "evidenceExcerpt": "And so to do that, we don't give it access to the internet or the codebase, but we do give it sort of all the basic tooling it would need to be able to execute a task well.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Black-box evaluation"
+      },
+      {
+        "description": "Use deterministic graders to verify every step in a long exploitation chain, not just final success.",
+        "evidenceExcerpt": "And everything because the tasks are so difficult, everything has a deterministic greater.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Stepwise deterministic grading"
+      },
+      {
+        "description": "Measure how far the model gets through exploitation with partial graders that expose depth of progress.",
+        "evidenceExcerpt": "That's why the partial graders are so critical to be able to really see what the model is able to do and what and how deep within exploitation chain they can get.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "Partial-grader depth analysis"
+      },
+      {
+        "description": "Focus the benchmark on access control as a representative logic-heavy entry point into real systems.",
+        "evidenceExcerpt": "It doesn't work. Um, and so we focus specifically on access control. Really quickly, why access control?",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Access-control scoping"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "We'd love to hear from you. anyone who's really passionate about any other field in cyber, like Thomas said, we have to do this across sort of not just access control, a bunch of different things.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "question": "How should this benchmark family expand beyond access control while keeping the tasks realistic and verifiable?",
+        "whyItMatters": "The speakers explicitly want to cover more of cyber, and scope determines whether the approach generalizes."
+      },
+      {
+        "evidenceExcerpt": "I think the second step is being able to fine-tune models and try to understand how we can pro protect against that right and and the big challenge here is going to be speed.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "question": "What fine-tuning or post-training recipe best teaches models to defend against these attacks rather than merely recognize them?",
+        "whyItMatters": "The talk says good data is only the first step; the training method is still open."
+      },
+      {
+        "evidenceExcerpt": "and speed will be where you know you you want to have a specialized model that's maybe running on specialized hardware and actually is is going to be very important and here I think the the danger is to say we're just going to rely on two company that everyone knows here to solve all",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "question": "How can defenders achieve the latency and throughput needed for real-time protection at scale?",
+        "whyItMatters": "The speakers frame speed as the core race between attacker and defender."
+      }
+    ],
+    "summary": "The talk argues that AI is changing cyber offense economics, but that same shift creates an opening for defenders if we train models on the right kinds of cyber data. Rather than treating cyber as a generic coding problem, the speakers focus on access control and logic-heavy exploitation chains, using real zero-days, black-box environments, and deterministic graders to test whether a model can make the specific reasoning leaps that matter in live systems. Their thesis is optimistic but conditional: attackers are getting faster, so defenders need equally fast, specialized, and broadly available open-source models trained on high-quality data and evaluated with benchmarks that measure depth of understanding, not just final pass/fail outcomes.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And it's it's freaky and it's getting really scary. And this is my point on the house. And part of the reason we think this is happening is if cyber is this game of skill and speed, then a very skilled attacker using something like mythos can now choose a bunch of targets all at once.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "text": "A skilled attacker using frontier models can search across many targets at once, which changes the economics of offense."
+      },
+      {
+        "evidenceExcerpt": "It's about very very very big systems and somewhere between them there's these logic breaks where it's possible that one thing checks for something specific in the code another checks for something else and that sort of leads to everything breaking and so what we're trying to do is we're trying to figure out how",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "text": "Many important cyber failures are logic breaks across systems, so the benchmark is aimed at reasoning about system behavior rather than patching obvious code bugs."
+      },
+      {
+        "evidenceExcerpt": "And so across the entire exploitation and the discovery chain, every single step can be deterministically verified, allowing us to see how deep it got within the chain.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "text": "Deterministic verification at each step lets the benchmark reveal how deeply a model progressed through the exploitation chain."
+      },
+      {
+        "evidenceExcerpt": "The model other models sort of have been able to reason across everything. If we look at the discovery phase they do capture nearly all the different information they need and they never are able to make the leap into what is the exploitation they need to do.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "text": "Current models can often gather information during discovery but still fail to make the final exploitation leap."
+      },
+      {
+        "evidenceExcerpt": "of that for us I think the solution is just to take our future and say well it's going to be a speed challenge we're going to train our model we're going to run them fast and make them available to basically every company who wants to be protected so exciting I would say it's",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "text": "The defense strategy the speakers advocate is to train fast models and make them available to many companies instead of relying on a small number of providers."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A model used in the live attempts against the benchmark task.",
+        "evidenceExcerpt": "So what we're going to see now is a real attempt by uh GPT 5.5 and then opus as well trying to solve this task.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "GPT 5.5"
+      },
+      {
+        "description": "A model mentioned alongside GPT 5.5 in the attempted solve.",
+        "evidenceExcerpt": "So what we're going to see now is a real attempt by uh GPT 5.5 and then opus as well trying to solve this task.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Opus"
+      },
+      {
+        "description": "An application in the benchmark chain used in the real solve example.",
+        "evidenceExcerpt": "It's an illustration guys. Um but the idea is how a real solve looks and fundamentally what we have here is a real uh task of ours where it's a chain between keycloak vault and a broker and I start as a very low privileged user.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Keycloak"
+      },
+      {
+        "description": "Another application in the benchmark chain used in the real solve example.",
+        "evidenceExcerpt": "It's an illustration guys. Um but the idea is how a real solve looks and fundamentally what we have here is a real uh task of ours where it's a chain between keycloak vault and a broker and I start as a very low privileged user.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Vault"
+      },
+      {
+        "description": "The internal orchestrator used to run the actual eval.",
+        "evidenceExcerpt": "So what we're seeing here is what's called Bach. It's our internal system because it's an orchestrator.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Bach"
+      }
+    ],
+    "topics": [
+      {
+        "description": "How frontier models are changing the attack and defense balance in cyber.",
+        "evidenceExcerpt": "Um, and the whole stack, the entire world of cyber that we've been building for the past 20ish years has been based on this economics that the attackers have to choose their targets and we do everything we can across it to protect ourselves.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Cyber economics"
+      },
+      {
+        "description": "A first-foothold vulnerability class where permissions and logic matter more than obvious bugs.",
+        "evidenceExcerpt": "It doesn't work. Um, and so we focus specifically on access control. Really quickly, why access control?",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Access control"
+      },
+      {
+        "description": "Evaluating models in a live but hidden system with limited information and no source access.",
+        "evidenceExcerpt": "And so to do that, we don't give it access to the internet or the codebase, but we do give it sort of all the basic tooling it would need to be able to execute a task well.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Black-box cyber evaluation"
+      },
+      {
+        "description": "Verifying each action in a long exploitation chain with machine-checkable scoring.",
+        "evidenceExcerpt": "And everything because the tasks are so difficult, everything has a deterministic greater.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Deterministic grading"
+      },
+      {
+        "description": "Using collaboration and post-training to adapt open source models for defense.",
+        "evidenceExcerpt": "I think also the only way to do that is through a real array of strong open source models and collaboration that we can post train on and that we can post train to each network and to each environment as well.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "name": "Open source model adaptation"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:69db80af29b7b9bd65e317fc9fd1dff1bdfd7c3b711340931d3f6874cbacc524",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers",
+  "talkTitle": "Training Frontier Models to Out-Think Hackers",
+  "transcriptPath": "raw/sources/youtube-transcripts/O-CBZ3JtRvo.txt",
+  "transcriptSha256": "sha256:4be44ccb2b053cc3dda5b35c0a429ddaf74193e2c88fa980ae05edd82ea04f18",
+  "videoId": "O-CBZ3JtRvo"
+}

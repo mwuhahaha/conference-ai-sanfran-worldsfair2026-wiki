@@ -18,11 +18,14 @@ sourceAssessment:
   - source:official-wf26-youtube--CnA2lGfymY
   - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-1P1hJ36rxM0
+  - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-OqM67QG_Ikk
+  - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-ZyIoTOAbRfs
+  - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:934c91094c7477dbc82f5f0e97cc8b8aa9dfa817ecf9f05a32e944038b0636f3
+sourceAssessmentBodySha256: sha256:00ebb733fd540e8eec87defa87aa902e3b81cc7b506f01140ac54a89c64e458c
 ---
 # AI Sandboxes
 
@@ -94,6 +97,38 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[youtube-ZyIoTOAbRfs-slides]] — State of Data — Sean Cai, Independent / State of Data (10 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 15 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Isolated execution environments for running untrusted or production-capable agent actions safely. The shared idea is containment, but the talks differ on whether the emphasis is micro-VM strength, placement and persistence, or fleet-level sandbox operations.
+
+### Constituent Talk Evidence
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — An application and infrastructure strategy where the same stack is used internally and externally.
+  - Transcript: [[youtube-pMggiOb18tc-transcript]]
+  - Evidence: "At every layer, we actually use the thing that we give to you. And we want to thank all of you because every time you fork the harness, every time you find the edge of capabilities of the models, it means we get to learn and improve."
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Running exploit tests in isolated, reproducible environments to safely validate findings.
+  - Transcript: [[youtube-imFedndyXYQ-transcript]]
+  - Evidence: "So this isolation doing bad things could be data exfiltration or you know dropping things in production and of course uh you you want all of this to be running in a VM without egress and of of course without your cloud credentials."
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — Containing an agent that needs Docker access by moving it into a micro-VM rather than a normal sandbox.
+  - Transcript: [[youtube-LqLoYksJ6do-transcript]]
+  - Evidence: "So, let me share a design that we came up with, which is still like in its in its infancy."
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — Harnesses that run continuously in cloud sandboxes and broader collaboration surfaces.
+  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
+  - Evidence: "I think this is something we've seen over the last really 3 months. Um, and I think we're all still starting to grapple with what it means, which is this movement from a local harness to a cloud harness where the harness is always on."
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — The idea that environments are the shared abstraction for evaluation, training, and data generation.
+  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
+  - Evidence: "And so the post-training loop in my mind kind of revolves around environments in the sense of environments are a language for specifying what you want your model to do."
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']] — Placement logic that uses snapshot lineage and node state.
+  - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
+  - Evidence: "And so, here is a way where we can use snapshot rich restore for better orchestration. So, remember we discussed that a snapshot can have a lineage of many, many layers."
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']] — How to execute agent tool calls and untrusted code securely for product and research workloads.
+  - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
+  - Evidence: "So, a sandbox is a play an environment in which you can run these tool calls and execute code on behalf of the model securely and it could be on your laptop or it could be on the cloud."
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Keeping GPU workers busy by allocating sandboxes from a demand-sized warm pool.
+  - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
+  - Evidence: "So um I guess I'll just explain to you orally and what what that is is uh so we have like a a set of GPUs here which all want to use a sandbox and what we will do is that we use a demandbased autoscaler to detect um how many GPUs like currently need a sandbox and we can grow the pool to be that size uh on demand."
 
 ## Connections
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice; [[pierluca-d-oro|Pierluca D'Oro]] (Day 3 — Session Day 2 · 11:10am-11:30am · Computer Use; official schedule)
@@ -192,9 +227,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 45 | Related pages outside the main evidence categories. |
 | resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 3 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 8 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
@@ -224,6 +259,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-OqM67QG_Ikk-transcript]]
 - [[youtube-LqLoYksJ6do-transcript]]
 - [[youtube-4kYl2_mqmnQ-transcript]]
+- [[youtube-pMggiOb18tc-transcript]]
+- [[youtube-imFedndyXYQ-transcript]]
+- [[youtube-8qWIPUia2O8-transcript]]
 
 ### Tools
 - [[docker]]

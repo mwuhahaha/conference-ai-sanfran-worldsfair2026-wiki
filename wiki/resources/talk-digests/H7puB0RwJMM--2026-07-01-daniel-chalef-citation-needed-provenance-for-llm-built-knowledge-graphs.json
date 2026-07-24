@@ -1,0 +1,282 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:04:27.692306+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:ea0c5ce99c642ba0bc56d6bbf1b2dcadde30800e21adcf8752c5d53392438169",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And this output artifact may not appear verbatim in the source inputs. Synthesis often destroys the paper trail of how these outputs were originated.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "support": "explicit",
+        "text": "The speaker says LLM synthesis can produce outputs that do not appear verbatim in the source inputs, which destroys the original paper trail."
+      },
+      {
+        "evidenceExcerpt": "But with context pipelines run by LLMs, this breaks in several ways. You prompt an LLM with several sources.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "support": "explicit",
+        "text": "He argues that a simple source ID on a fact breaks down in LLM context pipelines because multiple sources can feed the same output."
+      },
+      {
+        "evidenceExcerpt": "Many facts are each synthesized from one or more of the sources. Somebody like J. Smith and John Smith are merged into a single entity, one identity.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "support": "explicit",
+        "text": "He says entity resolution can merge identities, such as J. Smith and John Smith, into one entity and change how facts are attributed."
+      },
+      {
+        "evidenceExcerpt": "Tracing a fact to its source is just a graph walk. So it's pretty simple and easy to map source to fact on the first right but keeping it correct while the graph changes can be really hard when new data uh so for example when two entities merge the merged entity needs to keep all source links from both otherwise we silently drop a source and we lose lineage.",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "support": "explicit",
+        "text": "He presents provenance for context stores as a graph problem, where tracing a fact back to its source is a graph walk and merged entities must retain all source links."
+      },
+      {
+        "evidenceExcerpt": "In the rightmost card, a fact is rendered invalid by new data. And in graffiti, an invalid date is added to the mutated edge.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "When new data contradicts an existing fact, the graph should mark the fact invalid and record the source episodes that caused the mutation."
+      },
+      {
+        "evidenceExcerpt": "And so on ingestion, we tag the episodes with the EHR tag. All subsequent entities and facts derived from the episode inherit the tag.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "support": "explicit",
+        "text": "A tag assigned to an ingested episode should inherit to all downstream entities and facts derived from that episode."
+      },
+      {
+        "evidenceExcerpt": "And here graffiti or the underlying store exposes that choice. It exposes which of the episodes have the gra the particular tag, but your agent needs to execute or apply your business rules.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the underlying store can expose which parent episodes carry a tag, but the agent must apply the actual business rule for whether a fact counts as verified."
+      },
+      {
+        "evidenceExcerpt": "So, the rule is pretty simple here and it's easier to apply because the link exists. A fact is only deleted if no remaining episodes support it.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "support": "explicit",
+        "text": "For deletion requests, a fact should be deleted only if no remaining episodes still support it."
+      }
+    ],
+    "methodNotes": "I treated the transcript as the only evidence source and kept each item anchored to exactly one transcript segment ID. Summary and labeled items were synthesized from the talk's argument, not from external knowledge.",
+    "methods": [
+      {
+        "description": "Tracing a derived fact back to its origin by walking graph relationships from fact to source episode.",
+        "evidenceExcerpt": "Tracing a fact to its source is just a graph walk. So it's pretty simple and easy to map source to fact on the first right but keeping it correct while the graph changes can be really hard when new data uh so for example when two entities merge the merged entity needs to keep all source links from both otherwise we silently drop a source and we lose lineage.",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "name": "Graph-walk provenance tracing"
+      },
+      {
+        "description": "Assigning a source tag at ingestion so that all descendant entities and facts inherit the classification.",
+        "evidenceExcerpt": "And so on ingestion, we tag the episodes with the EHR tag. All subsequent entities and facts derived from the episode inherit the tag.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "name": "Metadata projection"
+      },
+      {
+        "description": "Filtering retrieved facts by ancestry or source tags to enforce a chosen verification policy.",
+        "evidenceExcerpt": "And so if the agent wants to retrieve only facts from verified clinical sources, it's very simple to filter for the appropriate tag as we walk the graph.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Ancestry-based filtering"
+      },
+      {
+        "description": "Applying different verification rules depending on how many parents a fact has and what trust policy is in force.",
+        "evidenceExcerpt": "And here graffiti or the underlying store exposes that choice. It exposes which of the episodes have the gra the particular tag, but your agent needs to execute or apply your business rules.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "name": "Policy-specific parent verification"
+      },
+      {
+        "description": "Removing a fact only after confirming that no surviving parent episodes still justify it.",
+        "evidenceExcerpt": "So, the rule is pretty simple here and it's easier to apply because the link exists. A fact is only deleted if no remaining episodes support it.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Support-based deletion propagation"
+      },
+      {
+        "description": "Extracting entities, relationships, and candidate facts from an episode, then deduplicating and reconciling them against existing graph state.",
+        "evidenceExcerpt": "Um and after that there is a uh deconliction process that runs dduplication and deconliction process.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Structured extraction and deconfliction"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And here graffiti or the underlying store exposes that choice. It exposes which of the episodes have the gra the particular tag, but your agent needs to execute or apply your business rules.",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "question": "How should a graph or retrieval layer represent facts that require different verification rules depending on the business context?",
+        "whyItMatters": "The same ancestry shape can be safe in one workflow and unsafe in another, so the policy boundary needs to be explicit."
+      },
+      {
+        "evidenceExcerpt": "If you have 50. Oh, there you go. I said I I use 50. You use 50. 50 edges. Um, so so you know, Zep is able to uh look at provenence across those but using a separate data structure from the graph.",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "question": "How can provenance stay trustworthy when part of the tracing logic lives outside the graph in a separate data structure?",
+        "whyItMatters": "If some lineage is external, the system still needs a coherent answer for audit and debugging."
+      },
+      {
+        "evidenceExcerpt": "And so we've put significant effort into reducing cost and latency of generating graph artifacts.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "question": "How can graph construction cost and latency be reduced without losing the provenance guarantees the system depends on?",
+        "whyItMatters": "The talk makes clear that provenance is useful, but expensive enough to require engineering attention."
+      }
+    ],
+    "summary": "The talk argues that LLM-built context is inherently lossy and non-deterministic, so provenance cannot be recovered reliably after the fact from a simple log or source pointer. The proposed method is to make lineage a first-class property of a graph: keep source episodes verbatim, derive entities and facts through graph relationships, and project metadata so trust tags survive entity merges, contradictions, and downstream derivations. That enables practical outcomes such as veracity checks, debugging, and selective deletion, but it also introduces real cost and latency, so the system has to balance provenance fidelity against production efficiency.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So to sum it all up, deriving context is lossy and generative. Lineage needs to be built in to the data structure, engineered into the data structure, which is a graph, not logged afterwards.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "text": "Build lineage into the graph itself instead of trying to reconstruct it later from logs."
+      },
+      {
+        "evidenceExcerpt": "And in graffiti we keep the sources verbatim and we link everything back everything derived from those sources back to the source.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "text": "Keep source material verbatim and link every derived artifact back to its source."
+      },
+      {
+        "evidenceExcerpt": "You can verify a fact based on its sources so you understand veracity. Should I trust this fact?",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "Provenance lets agents evaluate whether a fact is trustworthy based on its sources."
+      },
+      {
+        "evidenceExcerpt": "It's easy to debug where something came from. So, why do I have this fact? How was it generated?",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "text": "Provenance also makes debugging easier because you can ask why a fact exists and how it was generated."
+      },
+      {
+        "evidenceExcerpt": "And so we've put significant effort into reducing cost and latency of generating graph artifacts.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "text": "Any production design needs to account for the cost and latency of building graph artifacts."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The open-source temporal graph framework used as the provenance layer.",
+        "evidenceExcerpt": "So my team and I built Graffiti uh the open-source temporal graph framework and Zep, our enterprise agent memory infrastructure is built on graffiti.",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "name": "Graffiti"
+      },
+      {
+        "description": "The enterprise agent memory infrastructure built on Graffiti.",
+        "evidenceExcerpt": "So my team and I built Graffiti uh the open-source temporal graph framework and Zep, our enterprise agent memory infrastructure is built on graffiti.",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "name": "Zep"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The need to preserve where synthesized facts came from in LLM-built knowledge graphs.",
+        "evidenceExcerpt": "And I'm going to be talking today about provenence, which is tracing how an artifact was built and why.",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Provenance"
+      },
+      {
+        "description": "Keeping source links intact as entities merge, facts mutate, and the graph changes over time.",
+        "evidenceExcerpt": "Tracing a fact to its source is just a graph walk. So it's pretty simple and easy to map source to fact on the first right but keeping it correct while the graph changes can be really hard when new data uh so for example when two entities merge the merged entity needs to keep all source links from both otherwise we silently drop a source and we lose lineage.",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "name": "Lineage graph"
+      },
+      {
+        "description": "Projecting a source classification onto all descendant nodes and edges after ingestion.",
+        "evidenceExcerpt": "With metadata projection, we can also model classifications that span many different episodes.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Metadata projection"
+      },
+      {
+        "description": "Applying different trust rules when a fact has multiple parents and mixed-source ancestry.",
+        "evidenceExcerpt": "So one tagging action at ingestion supports evaluating the veracity of a fact. But what if the fact is three parents or more?",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "name": "Mixed-trust retrieval"
+      },
+      {
+        "description": "Propagating deletion from source records to derived facts when support disappears.",
+        "evidenceExcerpt": "Another situation where lineage is really important, we may have to delete source data due to retention policies or right to be forgotten requests.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "name": "Deletion propagation"
+      },
+      {
+        "description": "The point that file-based memory becomes hard to reason about when lineage matters.",
+        "evidenceExcerpt": "Yeah. uh markdown suffers from provenence. File-based um file-based uh memory starts to break down with provenence.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "name": "File-based memory limits"
+      },
+      {
+        "description": "The overhead of building provenance-aware graph artifacts at scale.",
+        "evidenceExcerpt": "So, by the way, as an aside, lineage and provenence is expensive. Graph construction is really expensive uh in the way that graffiti does it.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Graph construction cost"
+      },
+      {
+        "description": "Splitting facts across episodes, entities, and derived artifacts while preserving lineage through entity resolution.",
+        "evidenceExcerpt": "Many facts are each synthesized from one or more of the sources. Somebody like J. Smith and John Smith are merged into a single entity, one identity.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "Entity resolution"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:db1b400320d6dbe4fa009ae78f45499bb62abbaeb1de81f051373ddf9132f4ea",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs",
+  "talkTitle": "Citation Needed: Provenance for LLM-Built Knowledge Graphs",
+  "transcriptPath": "raw/sources/youtube-transcripts/H7puB0RwJMM.txt",
+  "transcriptSha256": "sha256:7781d77473da9a7a6a3735a7b197436f68920c53865b8fb092319765dc4195d4",
+  "videoId": "H7puB0RwJMM"
+}

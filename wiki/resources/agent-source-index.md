@@ -150,3 +150,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - To answer `is this official or supporting evidence`: inspect Source Boundary, the page frontmatter/source labels, and the media/source section before relying on the claim.
 - To answer `which markdown should I read`: convert the rendered URL to `/md/<page-id>.md`, or fetch `/agent-index.md` again for routing.
 - To answer `where should I browse next`: use the related links at the bottom of the current page; the wiki is intentionally cross-linked across talks, people, companies, topics, tools, quotes, resources, and slides.
+
+## Synthesis Layer
+- `python3 scripts/generate_synthesis_layers.py` - generate claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors.
+- The same generator also seeds evidence-backed claims and reusable patterns when the local evidence graph supports them.

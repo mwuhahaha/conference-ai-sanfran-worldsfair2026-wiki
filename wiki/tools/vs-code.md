@@ -17,9 +17,9 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
-sourceAssessmentBodySha256: sha256:ff3a9f72dc7156117cf19a7514ad6dc2d998fd43f7db9605d446f63a8be58976
+  - source:official-wf26-youtube-RGSFUqzqErE
+sourceAssessmentBodySha256: sha256:5bad683d82ef7b2461c617535f2b14b1e0576dcb3366d403c2f1142c1340d934
 ---
-
 # VS Code
 
 ## Conference Context
@@ -27,6 +27,12 @@ VS Code appears as a high-confidence tool, platform, model, protocol, product, o
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — The editor used in the optimization demo with the Foundry toolkit installed.
+  - Transcript: [[youtube-RGSFUqzqErE-transcript]]
+  - Evidence: "All right. So here I'm I mean VS Code, I have the Foundry toolkit installed. And I have a simple agent, it doesn't matter how you write your agent as long as you externalize configuration like you know, your instructions, tool definitions, skills, and whatnot."
 ## Confirmed Evidence
 
 ### Official Schedule

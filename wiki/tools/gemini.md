@@ -18,9 +18,8 @@ sourceAssessment:
   publicSourceIds:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-0vphxNt4wyk
-sourceAssessmentBodySha256: sha256:738a16455e2f2165b503676f52424302e0f607d3729c3defbc513695b8fdb487
+sourceAssessmentBodySha256: sha256:2d85b1e98fbffc26bd90bf35c7774da86093bb5e0877971096df06e7957ae466
 ---
-
 # Gemini
 
 ## Conference Context
@@ -28,6 +27,12 @@ Gemini appears as a high-confidence tool, platform, model, protocol, product, or
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — The large language model product explicitly mentioned as an example of an assistant that still misses connected understanding.
+  - Transcript: [[youtube-Btk8wDUVs74-transcript]]
+  - Evidence: "Um it sounds almost trivial but uh to be honest with yourself if you ask your agent whether Gemini GPT or even cloud um if you ever typed this question you probably got list of bullets um not related to each other."
 ## Confirmed Evidence
 
 ### Official Schedule

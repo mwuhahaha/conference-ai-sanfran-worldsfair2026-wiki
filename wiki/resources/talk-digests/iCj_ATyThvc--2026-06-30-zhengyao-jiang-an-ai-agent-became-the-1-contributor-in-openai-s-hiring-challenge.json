@@ -1,0 +1,233 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:03:06.693415+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:a7c97542bc9893c58ab99073fe1a94631978601f18391ddf1dadc6f8ce578244",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "We send Aiden to parameter golf competition and it ran for about 22 days. By the end, Aid has set seven leaderboard records.",
+        "evidenceSegmentIds": [
+          "S0012"
+        ],
+        "support": "explicit",
+        "text": "Aiden ran for about 22 days in Parameter Golf and ended with seven leaderboard records."
+      },
+      {
+        "evidenceExcerpt": "Computed over PRs. Aiden was 10 and the next human was seven. The whole community was building on a AI systems work including many of other leaderboard entries.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "support": "explicit",
+        "text": "Aiden had the highest measured community impact among PRs, with an H-index of 10 compared with the next human at 7."
+      },
+      {
+        "evidenceExcerpt": "On the compute side, it uses at most 4% of competition's total compute. and it made about 15% of the records.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "support": "explicit",
+        "text": "Aiden used at most 4% of the competition's total compute while producing about 15% of the records."
+      },
+      {
+        "evidenceExcerpt": "Humans and AI are actually contribute in very different ways. When we trace the ideas, Aiden Aiden's record PR almost all of them come from human research papers other participants in parameter golf or in similar communities like nano GBT.",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "support": "explicit",
+        "text": "Most of Aiden's record PRs were built from ideas that originated in human research papers or other participants' work."
+      },
+      {
+        "evidenceExcerpt": "So to sum up how I interpret Aiden and in general auto research systems effectiveness, it's very strong at finding and implementing ideas.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "support": "explicit",
+        "text": "The speaker's interpretation is that autonomous research systems are especially strong at finding and implementing ideas rather than inventing everything from scratch."
+      },
+      {
+        "evidenceExcerpt": "It sets what the agent optimizes for. Take the eval first. The eval is the signal you use to train a model.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that an evaluation plays the same role for auto research that a loss function and data play for model training."
+      },
+      {
+        "evidenceExcerpt": "We then tighten the obstruction to a more strict API where the test data couldn't reach the training and the data leakage rate just dropped to zero.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "support": "explicit",
+        "text": "Tightening the codebase abstraction in the fraud-detection example eliminated data leakage and improved the solution quality."
+      },
+      {
+        "evidenceExcerpt": "Creativity, the judgment to design a good eval or an abstraction. Those will soon get exponentially more important.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that creativity and the judgment to design good evaluations or abstractions will become much more important."
+      }
+    ],
+    "methodNotes": "The transcript mixes direct reporting, interpretation, and concrete examples. I treated claims as the speaker's own assertions about Aiden, Parameter Golf, and the human-AI workflow, and I used one supporting segment per item as requested. I left tools empty because the talk does not explicitly name external tools in the sense required by the schema.",
+    "methods": [
+      {
+        "description": "Build an autonomous research system that reads public information, runs experiments, and submits a PR only after a quality gate passes.",
+        "evidenceExcerpt": "Aiden is the next step and a experimental prototype. It's a multi-agent self-improving system that can read public information like research papers and other PRs, run its own experiments and submit a PR once the findings pass a quality gate.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Quality-gated PR publishing"
+      },
+      {
+        "description": "Use the evaluation as the primary optimization signal, analogous to a loss function and dataset in model training.",
+        "evidenceExcerpt": "It sets what the agent optimizes for. Take the eval first. The eval is the signal you use to train a model.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Evaluation-driven search"
+      },
+      {
+        "description": "Tighten the codebase abstraction so the agent cannot leak information across training and test boundaries.",
+        "evidenceExcerpt": "We then tighten the obstruction to a more strict API where the test data couldn't reach the training and the data leakage rate just dropped to zero.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "name": "Constraint tightening"
+      },
+      {
+        "description": "Combine ideas from papers and community PRs, then keep searching for synergies that move the score materially.",
+        "evidenceExcerpt": "It just work for five days or so. And after this combination, the three takea the three ideas turns out to have a huge synergy that lead to a big jump in performance and they become one of the Aiden's leaderboard records.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "name": "Idea recombination"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "What we are looking at is a a large group of a human and one AI system. Does this mean a single human engineer's contribution marginally get smaller?",
+        "evidenceSegmentIds": [
+          "S0040"
+        ],
+        "question": "How should competitions and benchmarks be designed so that a single human engineer's contribution is not marginally reduced in a harmful way?",
+        "whyItMatters": "The talk argues that competition design has large leverage in the auto research era."
+      },
+      {
+        "evidenceExcerpt": "And uh this is where a vertical mode can also be built. You might have a proprietary data for evaluation or a unique understanding of a in a particular field what matters and how to measure it.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "question": "How can teams build proprietary or domain-specific evaluations that reliably capture what matters before autonomous research systems become stronger?",
+        "whyItMatters": "The speaker says evaluation quality becomes a major advantage and a possible vertical moat."
+      },
+      {
+        "evidenceExcerpt": "The other one I think is really underrated is codebased abstraction. The abstraction provides the framework that auto research can iterate on and uh that's also that starting point hugely bias the whole search direction.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "question": "What is the best way to choose codebase abstractions that bias the search toward generalizable solutions without over-constraining exploration?",
+        "whyItMatters": "The speaker treats abstraction design as a key determinant of where the agent searches and what it can learn."
+      }
+    ],
+    "summary": "The talk argues that autonomous research is not primarily a story about an agent beating humans on a leaderboard, but about a new collaboration pattern where agents execute at high volume while humans supply the ideas, constraints, and evaluation structure. Using Aiden's run in Parameter Golf as the example, the speaker shows that the system's value came from fast experimentation, careful quality gating, and the ability to recombine public ideas into working implementations that other participants actually built on. The deeper consequence is that the scarce skills move up the stack: designing good evaluations, choosing good abstractions, and framing the search space become more important as execution gets automated.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Passing the host review is a one signal for the quality. A second maybe more important one is whether other participants would build on your work.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "text": "A useful success criterion is not only whether the host accepts the work, but whether other participants build on it."
+      },
+      {
+        "evidenceExcerpt": "So, Aiden actually lifted the signal noise ratio within the whole community's public communication channel, which is a PR.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "text": "High-throughput agents can improve the signal-to-noise ratio of a shared public research channel when they submit enough useful work."
+      },
+      {
+        "evidenceExcerpt": "Okay, maybe none of those sounds very sexy. Most of them are just a good execution. But in reality, execution is a mostly the bottleneck.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "The main bottleneck in this setting is often execution quality, not just idea generation."
+      },
+      {
+        "evidenceExcerpt": "That's exactly the same for auto research. Here's an example. We run auto research for a um fraud detection pipeline um and we trying to optimize the data prep-processing and first we give it a loose API where the same function process both the training and testing data and the score looks great but the solution was polluted because there's a certain certain test set information got leaked to the training information.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "Loose abstractions can make an agent appear successful while hiding leakage or other invalid shortcuts."
+      },
+      {
+        "evidenceExcerpt": "So the search is automated. the human would just move up the stack not out of it. Again, um we call is a auto research um product research lab.",
+        "evidenceSegmentIds": [
+          "S0065"
+        ],
+        "text": "As search becomes automated, humans move up to higher-level design and judgment rather than disappearing from the process."
+      }
+    ],
+    "tools": [],
+    "topics": [
+      {
+        "description": "A competition used as both a benchmark and a hiring filter for small language model training under strict resource limits.",
+        "evidenceExcerpt": "This April, OBI ran a hiring challenge, a competition called Parameter Golf. The top contributor was one candidate that they couldn't hire.",
+        "evidenceSegmentIds": [
+          "S0001"
+        ],
+        "name": "Parameter Golf"
+      },
+      {
+        "description": "An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.",
+        "evidenceExcerpt": "Aiden is the next step and a experimental prototype. It's a multi-agent self-improving system that can read public information like research papers and other PRs, run its own experiments and submit a PR once the findings pass a quality gate.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Autonomous research agents"
+      },
+      {
+        "description": "A metric-style way to measure whether a PR's ideas spread through the community and get reused.",
+        "evidenceExcerpt": "And it turns out Aiden's work had the highest impact within the whole community. Here we are using a inference measure that used widely in academia.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "name": "Community impact"
+      },
+      {
+        "description": "The role of evaluation design in determining what an autonomous research system optimizes for.",
+        "evidenceExcerpt": "It sets what the agent optimizes for. Take the eval first. The eval is the signal you use to train a model.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Evaluation design"
+      },
+      {
+        "description": "The role of architecture or API boundaries in steering search and preventing bad solutions.",
+        "evidenceExcerpt": "The other one I think is really underrated is codebased abstraction. The abstraction provides the framework that auto research can iterate on and uh that's also that starting point hugely bias the whole search direction.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Codebase abstraction"
+      },
+      {
+        "description": "A collaboration pattern where humans provide ideas and agents perform rapid execution and iteration.",
+        "evidenceExcerpt": "Okay. To step back, the state of a human AI collaboration is a human collectively provide a lot of creative ideas and agent do the execution to solve a concrete challenge.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "name": "Human-AI collaboration"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:75c8da36d886a76d0dca448081fcbed5d3e4971c8436110d5b0ff55557432d61",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge",
+  "talkTitle": "An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge",
+  "transcriptPath": "raw/sources/youtube-transcripts/iCj_ATyThvc.txt",
+  "transcriptSha256": "sha256:8f026a15e43e507afe9e79a3cbdc5150eae90b5e94d775a2022478cdc43952b4",
+  "videoId": "iCj_ATyThvc"
+}

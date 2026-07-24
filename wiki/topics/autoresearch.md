@@ -18,10 +18,14 @@ sourceAssessment:
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-9fubhllmsBU
+  - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-WkBPX-oDMnA
+  - source:official-wf26-youtube-YZQsWVeN3rE
+  - source:official-wf26-youtube-Z2Erdirpudo
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:ac70461029b308de5ced530f1343d5e32b46f808a6488867886cc02dcd259d6b
+sourceAssessmentBodySha256: sha256:4d6d77467613aaf2719feb6fb324d46ef669fab20aa0f01ad97ee11775d0364c
 ---
 # Autoresearch
 
@@ -66,6 +70,35 @@ Use humans to set scope, approve consequential actions, inspect surprising gains
 ## Livestream Source
 - [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.
 - [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
+
+## Transcript Digest Evidence
+This section synthesizes 7 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+Systems that automate research, experimentation, and judgment while still exposing uncertainty and reasoning structure. The variation is between general research workflows and more adversarial or high-leverage settings, with the tradeoff being automation speed versus the need for a final human judgment step.
+
+### Constituent Talk Evidence
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — Using agents to launch experiments and reduce human bottlenecks in research operations.
+  - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
+  - Evidence: "We've created these tools and these systems where researchers can run experiments directly from Slack."
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — Managed self-serve training that supports multi-tenant LoRA and upcoming full fine-tuning.
+  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
+  - Evidence: "So like this whole family we now support within Primerl natively. Um and one thing you may also have poked around at or seen or tried is uh we have our hosted training platform uh which means you don't have to worry about GPUs at all."
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Publishing one's reasoning and stream of consciousness for others to inspect.
+  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
+  - Evidence: "But what about thinking in public? And it's basically what PG is doing, thinking in public."
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck|Understanding is the new bottleneck]] — A teaching approach for code changes that starts with system background and intuition before details.
+  - Transcript: [[youtube-WkBPX-oDMnA-transcript]]
+  - Evidence: "And here's how it looks. We start with background. We do not start with what happened in this change."
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]] — Structured techniques for uncovering missing requirements before implementation.
+  - Transcript: [[youtube-9fubhllmsBU-transcript]]
+  - Evidence: "So, I'm going to go over a few examples of how I do that with Fable. Um The first is I like to do what I call a blind spot pass."
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — Evaluating models in a live but hidden system with limited information and no source access.
+  - Transcript: [[youtube-O-CBZ3JtRvo-transcript]]
+  - Evidence: "And so to do that, we don't give it access to the internet or the codebase, but we do give it sort of all the basic tooling it would need to be able to execute a task well."
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
+  - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
+  - Evidence: "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be."
 
 ## Neighboring Subjects
 - [[agent-evaluations]]
@@ -170,9 +203,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 61 | Related pages outside the main evidence categories. |
 | resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 5 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 34 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 3 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 9 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
@@ -201,6 +234,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-4sX_He5c4sI-transcript]]
 - [[youtube-iCj_ATyThvc-transcript]]
 - [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-V-EDrhIhHzQ-transcript]]
+- [[youtube-Z2Erdirpudo-transcript]]
+- [[youtube-WkBPX-oDMnA-transcript]]
 
 ### Tools
 - [[browserbase]]

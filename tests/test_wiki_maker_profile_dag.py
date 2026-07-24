@@ -83,6 +83,22 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
         "talk_media_map",
         "slide_ai_admission_check",
     ]
+    assert adapters["talk_synthesis"]["version"] == "v3"
+    assert adapters["talk_synthesis"]["command"] == [
+        "python3",
+        "scripts/generate_talk_synthesis.py",
+        "--all",
+        "--model",
+        "gpt-5.4-mini",
+        "--workers",
+        "3",
+        "--timeout-seconds",
+        "900",
+    ]
+    assert adapters["talk_synthesis"]["timeout_seconds"] == 6500
+    assert "scripts/generate_talk_synthesis.py" in adapters["synthesis_layers"][
+        "implementation_inputs"
+    ]
     assert adapters["sanitize_public_text"].get("optional_dependencies") == [
         "evolution_context"
     ]
@@ -108,6 +124,7 @@ def test_media_update_dag_has_one_body_mutation_tail_before_assessment() -> None
     assert adapters["normalize_articles"]["dependencies"] == [
         "agent_source_index"
     ]
+    assert adapters["normalize_articles"]["version"] == "v3"
     assert adapters["page_assessments"]["dependencies"] == [
         "normalize_articles"
     ]

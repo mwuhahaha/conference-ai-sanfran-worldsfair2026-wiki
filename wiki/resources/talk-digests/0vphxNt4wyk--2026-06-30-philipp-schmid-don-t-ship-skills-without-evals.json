@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T20:01:17.777619+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:7a41a1b2ba3ec14eb961d9b05fd564f320c20169b76dd118852fdd9e1d257617",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, do skills work? Yes, they do work and I going back to a skills bench which has an update of 1.1 which has evaluated all kinds of open and closed models in different harnesses showing that skills on average improve the performance by roughly 15%.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports that skills improve performance on average by roughly 15% in the Skill Bench update."
+      },
+      {
+        "evidenceExcerpt": "And what I found out is that human-written skills are the best we can provide. Uh AI-generated skills can uh impact performance negatively.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that human-written skills are better than AI-generated skills, which can hurt performance."
+      },
+      {
+        "evidenceExcerpt": "And then if you have already some customer or production traces, try to include those as well because nothing is better than than real-world data.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "support": "explicit",
+        "text": "The speaker recommends using real production traces when possible because they are more valuable than synthetic examples."
+      },
+      {
+        "evidenceExcerpt": "And we run them on every change to the skill. So, if a change happens to or like a diff to the skill file, the eval will be run, and there will also be a result, and the change will not be merged if it is not improving the test cases.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "support": "explicit",
+        "text": "The speaker says skill changes should not merge unless the eval improves, so regression tests gate skill updates."
+      },
+      {
+        "evidenceExcerpt": "You don't need to throw that eval away because you throw the skill away. You can keep that eval to make sure that the model or the agent keeps the performance and as soon as you start seeing some degradation, you can reintroduce the skill.",
+        "evidenceSegmentIds": [
+          "S0119"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that evals should be kept even after a skill is retired so the team can detect degradation and reintroduce the skill if needed."
+      }
+    ],
+    "methodNotes": "The talk treats a skill as a layered artifact: a short description for trigger decisions, a fuller body for guidance, and deeper reference files for detailed context. The evaluation method is intentionally lightweight but strict: use explicit prompts, include positive and negative cases, run isolated and repeated trials, and score outputs with cheap checks where possible or an LLM judge when the task is more complex. The main tradeoff is between flexibility and control: if a workflow is fixed, use a script; if the skill is model-invoked, keep the prompt lean, directive, and tested so you can measure trigger quality, runtime cost, and retirement readiness.",
+    "methods": [
+      {
+        "description": "Progressive disclosure skill design: keep the description short, put operational guidance in the skill body, and push deep context into reference files.",
+        "evidenceExcerpt": "So, the model knows when to use the skill. Second layer is we have a skills body with more instructions, more details, and hopefully more references to external files.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Progressive disclosure"
+      },
+      {
+        "description": "Trigger-focused skill evaluation: build positive and negative prompts to verify when the skill should and should not activate.",
+        "evidenceExcerpt": "I like to create five for like the happy path. So, when do I want to use that skill? Five when I don't want to use that skill just to make sure the model is not over triggering the skill and confusing itself.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Trigger testing"
+      },
+      {
+        "description": "Ablation testing: run evals with the skill enabled and disabled to measure whether the skill still adds value.",
+        "evidenceExcerpt": "So, run always evals with your skill loaded and without your skill loaded. Only that way you will know when you can retire skill or if a skill is really helpful for your performance.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "Ablation testing"
+      },
+      {
+        "description": "Regression-gated skill changes: require eval improvement before merging a skill change.",
+        "evidenceExcerpt": "And we run them on every change to the skill. So, if a change happens to or like a diff to the skill file, the eval will be run, and there will also be a result, and the change will not be merged if it is not improving the test cases.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "name": "Regression gating"
+      },
+      {
+        "description": "Cheap automated checks: use regex and simple asserts for easy correctness checks before moving to more expensive judgments.",
+        "evidenceExcerpt": "And it's really for us it was all about, \"Okay, do we use the correct SDK? Do we use the correct um model?",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "name": "Rule-based assertions"
+      },
+      {
+        "description": "LLM-as-judge rubric scoring: use a rubric when outputs are too complex for fixed rules.",
+        "evidenceExcerpt": "And a very easy case is like you just create LLM as a judge with a rubric on like what you want to look at, and then like take the output, put it through the LLM as a judge, try to get a pass or a fail, and then if it fails, look at the data, and then like try to um improve your skill based on that.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "name": "LLM judging"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Maybe the first one works, the second one doesn't. So, always run the to six uh trials per case and to measure reliability Uh um test across different harnesses if you work with like or if you have employees or um people working with like different harnesses, not only just evaluate against Claude or anti-gravity.",
+        "evidenceSegmentIds": [
+          "S0115"
+        ],
+        "question": "How much variance remains across different harnesses and models for the same skill, and which harness-specific behaviors should be normalized versus accepted?",
+        "whyItMatters": "The speaker says harnesses and models behave differently, so cross-harness reliability is still an open evaluation problem."
+      },
+      {
+        "evidenceExcerpt": "So, if you run inside uh your existing environment, it might look up previous chats or it might look up some other executions and then like try to cheat it and get the context from the skill without even using the skill.",
+        "evidenceSegmentIds": [
+          "S0113"
+        ],
+        "question": "What isolation strategy is sufficient to stop coding agents from leaking context or cheating through prior workspace state?",
+        "whyItMatters": "The speaker warns that non-isolated runs can inflate scores by letting the agent exploit outside context instead of the skill."
+      },
+      {
+        "evidenceExcerpt": "You can maybe tweak some other tools or pieces to keep like the the performance up and then really detect when you can retire skill and you will be very surprised with all of the model updates how fast you can retire skill which you might need it like six months ago but not today anymore.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "question": "What signals should decide the exact point at which a skill should be retired and later reintroduced?",
+        "whyItMatters": "The speaker argues that model updates can make skills obsolete, but the retirement threshold is still something teams need to define."
+      }
+    ],
+    "summary": "The talk argues that agent skills should not be shipped on intuition alone: because agents are non-deterministic and trigger failures are common, every important skill needs evals. The core method is to treat a skill as a layered artifact, keep the description lean and directive, push detail into reference files, and then verify behavior with small but targeted eval suites that include both should-use and should-not-use cases. The practical payoff is that you can catch over-triggering, wrong-tool selection, brittle prompts, and silent regressions before users see them, while also knowing when a skill has become unnecessary and can be retired to save cost and maintenance.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, very important is the the why and the how for the model. So, why it should use that skill and then how it should use that skill.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "text": "Write skill descriptions around both why and how the model should use the skill."
+      },
+      {
+        "evidenceExcerpt": "You maybe you should write a script because if the the process or the workflow is always the same, you don't need to waste models and tokens for that exercise.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "If the workflow is always the same, use a script instead of a skill."
+      },
+      {
+        "evidenceExcerpt": "So, um always try to run evals with and without the skill enabled. And if the model achieves the performance without even like triggering the skill, you know you can retire that skill, save the cost uh for your tokens, and then also um don't keep like it redundant.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "text": "Keep running evals with and without the skill so you can tell when the skill is no longer needed."
+      },
+      {
+        "evidenceExcerpt": "The the skill skill description is very important. Uh we have seen 50% of the failures uh because the skill was not triggered correctly because the prompt of the user was not uh detailed enough for the model to understand, \"Hey, I need to use that skill to solve that task.\" And especially if you build agents for others, they are not aware of the skill descriptions you have for your model and for your skill.",
+        "evidenceSegmentIds": [
+          "S0105"
+        ],
+        "text": "Many failures come from the skill not being triggered correctly, especially when users do not describe their task in a way that matches the skill description."
+      },
+      {
+        "evidenceExcerpt": "Then definitely run more than one trial when running evals. Like agents, our models are non-deterministic.",
+        "evidenceSegmentIds": [
+          "S0114"
+        ],
+        "text": "Run more than one trial per case because agent behavior is non-deterministic."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The API the speaker says the team needed a skill for, because the model lacked context about it.",
+        "evidenceExcerpt": "And the Interactions API was released after the last training of Gemini. So, the model or Gemini 3 and like 3.1 or even 3.5 has no context about what is the the Gemini Interactions API.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Gemini Interactions API"
+      },
+      {
+        "description": "The command-line environment the speaker used to run the skill eval flow in the example.",
+        "evidenceExcerpt": "And then we have a very basic Python script which runs a coding agent. In this case, it was the Gemini CLI which uh passes the output and returns runs it so we can like take a look at the the outcome whether we have valid code for the interactions API or not.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Gemini CLI"
+      },
+      {
+        "description": "The benchmark the speaker cites for skill performance analysis across tasks and models.",
+        "evidenceExcerpt": "So, do skills work? Yes, they do work and I going back to a skills bench which has an update of 1.1 which has evaluated all kinds of open and closed models in different harnesses showing that skills on average improve the performance by roughly 15%.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "SkillBench"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Skills that improve abilities the model cannot yet do consistently and may later become unnecessary.",
+        "evidenceExcerpt": "Capability skills teach models something they cannot do consistently at the moment. Maybe it's like, I don't know, like tracing some logs, creating a new React app.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Capability skills"
+      },
+      {
+        "description": "Skills that encode durable team or company preferences and workflows.",
+        "evidenceExcerpt": "Those are more durable, mostly encode some references. So, if you have a specific workflow in your team or a specific style language or other preferences which are very specific to your company, Um will have or create preference skills and those uh preference skills are then protected with e-walls where because most of like the foundation models might not uh integrate the knowledge which is very specific to your use case or your domain.",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "name": "Preference skills"
+      },
+      {
+        "description": "The layered structure of a skill: description, skill body, then deep references.",
+        "evidenceExcerpt": "So, the model knows when to use the skill. Second layer is we have a skills body with more instructions, more details, and hopefully more references to external files.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Progressive disclosure"
+      },
+      {
+        "description": "Small tests that check whether a skill fires in the right situations and stays quiet in the wrong ones.",
+        "evidenceExcerpt": "I like to create five for like the happy path. So, when do I want to use that skill? Five when I don't want to use that skill just to make sure the model is not over triggering the skill and confusing itself.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Trigger evaluation"
+      },
+      {
+        "description": "Testing a skill with and without it loaded to measure whether it still adds value.",
+        "evidenceExcerpt": "So, run always evals with your skill loaded and without your skill loaded. Only that way you will know when you can retire skill or if a skill is really helpful for your performance.",
+        "evidenceSegmentIds": [
+          "S0126"
+        ],
+        "name": "Ablation testing"
+      },
+      {
+        "description": "Using prompts, regex, asserts, and judge models to score skill behavior before shipping.",
+        "evidenceExcerpt": "And it's very cheap to run for it well because we don't need to use like LLM as a judge. But of course, you can use LLM as a judge if you have like more complex skills which need to look at the whole traces or the whole steps taken.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "Skill eval harness"
+      },
+      {
+        "description": "Keeping skill changes from merging unless the evaluation improves.",
+        "evidenceExcerpt": "And we run them on every change to the skill. So, if a change happens to or like a diff to the skill file, the eval will be run, and there will also be a result, and the change will not be merged if it is not improving the test cases.",
+        "evidenceSegmentIds": [
+          "S0101"
+        ],
+        "name": "Regression gating"
+      },
+      {
+        "description": "Short, non-behavior-changing instructions that should be removed because they add cost without value.",
+        "evidenceExcerpt": "He published a tweet and also a skill on like killing all of the no-ops. And what he found is that AI generated skills tend to include a lot of no-ops.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "name": "No-ops"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:2f6aab867126f81e639e3a46728a96607915eb812d9eeea9f2d02610f9932716",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-philipp-schmid-don-t-ship-skills-without-evals",
+  "talkTitle": "Don't Ship Skills Without Evals",
+  "transcriptPath": "raw/sources/youtube-transcripts/0vphxNt4wyk.txt",
+  "transcriptSha256": "sha256:40ac54094eca091ab51ce08b787e34cd4a96b976b54612ac2369553e5ab4132b",
+  "videoId": "0vphxNt4wyk"
+}

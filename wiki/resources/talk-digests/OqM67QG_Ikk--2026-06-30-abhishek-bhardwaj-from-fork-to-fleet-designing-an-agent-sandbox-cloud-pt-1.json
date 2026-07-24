@@ -1,0 +1,306 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-24T19:58:41.009302+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:30d0b02c6bed6c849a8dedd36ab7e66cdaabb6b613cc1882c87cb4e42e122481",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "The model needs something more and the key unlock was that given the model tool calling capability or a way to execute code the model gets these verifiable reward questions around code and math correctly.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "Giving models code-execution capability is the key unlock for verifiable-reward tasks like code and math."
+      },
+      {
+        "evidenceExcerpt": "Thus, this is where the sandbox come comes in. We need the sandbox to run this untrusted code and ensure that it can do its work, but it shouldn't be able to exploit any vulnerabilities and get root on your system.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "A sandbox is needed to run untrusted code securely without exposing the host or other tenants."
+      },
+      {
+        "evidenceExcerpt": "So, you can still get to the host kernel, right? So, yeah, the chain is harder here because it's a two-step chain compared to the others, but it's still reachable.",
+        "evidenceSegmentIds": [
+          "S0109"
+        ],
+        "support": "explicit",
+        "text": "Containers and gVisor reduce risk but still leave a route to the host kernel."
+      },
+      {
+        "evidenceExcerpt": "We'll see how that works, but that is a key trade-off here. There's a performance penalty you pay every time the CPU is switching back and forth between these two modes.",
+        "evidenceSegmentIds": [
+          "S0120"
+        ],
+        "support": "explicit",
+        "text": "Hardware virtualization is a stronger boundary, but it pays a performance penalty when switching between guest and host."
+      },
+      {
+        "evidenceExcerpt": "The persistence has now let you reliably run sandboxes across your fleet, right? So, it's a very good way to scale and be reliable.",
+        "evidenceSegmentIds": [
+          "S0199"
+        ],
+        "support": "explicit",
+        "text": "Persistence lets sandboxes checkpoint, restore, and keep long-running tasks alive across failures."
+      },
+      {
+        "evidenceExcerpt": "So, you can use like snapshot with orchestration to just have faster like uh uh creates and even just more reliable uh uh like orchestration.",
+        "evidenceSegmentIds": [
+          "S0267"
+        ],
+        "support": "explicit",
+        "text": "Snapshot lineage can guide the scheduler to nodes that need the least data to restore."
+      }
+    ],
+    "methodNotes": "Built only from the official schedule metadata and the supplied transcript, with one transcript segment selected as evidence for each structured item.",
+    "methods": [
+      {
+        "description": "Train or run a model by letting it request code execution and grading the result.",
+        "evidenceExcerpt": "Well, it can write code to do this. So, if you see the diagram like we have a training loop and the training loop gives it tasks or questions and then the training and the harness then parses the response of the model and the response might say hey execute code on my behalf.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "name": "Verifiable-reward tool calling"
+      },
+      {
+        "description": "Separate processes and cap their resource use with namespaces and cgroups.",
+        "evidenceExcerpt": "Like how can we control that? Well, we can have cgroups and control how much CPU and memory a container can uh uh consume, and that way like we can like uh make sure that one container doesn't bring down the entire node.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "name": "Namespaces and cgroups isolation"
+      },
+      {
+        "description": "Reduce the syscall surface with filters that constrain allowed calls and arguments.",
+        "evidenceExcerpt": "Uh one example to do this is something called seccomp. So, you can actually have a filter on the amount of system calls uh your container can call, and you can also control the arguments each system call can take.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "Seccomp syscall filtering"
+      },
+      {
+        "description": "Run guest kernels in a separate hardware context so host compromise is harder.",
+        "evidenceExcerpt": "And this happens because the guest kernel runs in ring zero, but in a separate processor context called VMX non-root.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "name": "Hardware virtualization boundary"
+      },
+      {
+        "description": "Use virtualized devices like virtio so guest I/O can stay efficient.",
+        "evidenceExcerpt": "And so, they talk via something called virtio, uh which is a more efficient way of the guest and the host talking to each other.",
+        "evidenceSegmentIds": [
+          "S0135"
+        ],
+        "name": "Paravirtualized device access"
+      },
+      {
+        "description": "Snapshot only changed disk blocks using copy-on-write and extent diffs.",
+        "evidenceExcerpt": "And then when you want to snapshot, I use something called FIE map, which tells me what blocks have changed and what ranges.",
+        "evidenceSegmentIds": [
+          "S0235"
+        ],
+        "name": "Copy-on-write snapshotting"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "For metal access, direct metal access there's something called VFIO, but it can only be shared by one sandbox at a time.",
+        "evidenceSegmentIds": [
+          "S0174"
+        ],
+        "question": "How can micro VMs expose GPU access without reopening a broad multi-tenant attack surface?",
+        "whyItMatters": "GPU support is important enough that weak solutions can become the default fallback."
+      },
+      {
+        "evidenceExcerpt": "And lastly like you we can see how you can snapshot at a file system level or at a block. So I in Linux disks are nothing but block devices and each file maps to different blocks.",
+        "evidenceSegmentIds": [
+          "S0215"
+        ],
+        "question": "What snapshot granularity and scope should the platform standardize on for large-scale incremental saves?",
+        "whyItMatters": "The cost and restore speed depend on whether you snapshot files, blocks, folders, or whole roots."
+      },
+      {
+        "evidenceExcerpt": "But inside, it will have literally a tiered cache of blocks that are persisted first to an in-cluster cache, and then the in-cluster cache is like writing back to the block storage the object storage.",
+        "evidenceSegmentIds": [
+          "S0243"
+        ],
+        "question": "How can always-on persistence stay performant when it is backed by object storage and a tiered cache?",
+        "whyItMatters": "The talk points to an object-storage-backed filesystem path, but the performance shape is still a design problem."
+      }
+    ],
+    "summary": "The talk argues that agent sandboxes should be treated as a cloud primitive: once models can call tools to solve verifiable tasks, the main systems problem becomes giving them a secure computer that is still fast and flexible enough for real work. Abhishek walks up the isolation stack from fork/exec to containers and gVisor to hardware virtualization, concluding that micro VMs are the strongest default boundary because they keep host-kernel compromise much harder. He then makes persistence the next major unlock, showing how incremental snapshotting, restore, and always-on disk state let long-running agents recover from failures, backtrack, and keep building over days. The practical consequence is a snapshot-aware sandbox fleet where security, durability, and low-latency orchestration are designed together rather than bolted on later.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Just please use micro VMs from the start. And then if it doesn't work, tell me and then we can talk about other things.",
+        "evidenceSegmentIds": [
+          "S0181"
+        ],
+        "text": "Use micro VMs from the start if you need a secure whole-Linux-box sandbox."
+      },
+      {
+        "evidenceExcerpt": "The snapshotting API itself should be very, very cheap and fast so the model and the harness can keep snapshotting and exploring like very fast.",
+        "evidenceSegmentIds": [
+          "S0209"
+        ],
+        "text": "Design for incremental, fast snapshotting so the harness can save state often."
+      },
+      {
+        "evidenceExcerpt": "Yeah, so that's the persistence part of the presentation. And so, the one takeaway I want you guys to think about is I think storage is the next unlock here.",
+        "evidenceSegmentIds": [
+          "S0245"
+        ],
+        "text": "Treat storage as the next unlock for longer-horizon agents."
+      },
+      {
+        "evidenceExcerpt": "If you keep checkpointing it periodically and if the node fails or the cluster fails, you can now restore the sandbox in the exact checkpoint state on another node.",
+        "evidenceSegmentIds": [
+          "S0197"
+        ],
+        "text": "Periodic checkpoints let you restore the exact sandbox state on another node after failure or upgrade."
+      },
+      {
+        "evidenceExcerpt": "You can actually like smartly route you to a node which has to download the least amount of stuff.",
+        "evidenceSegmentIds": [
+          "S0264"
+        ],
+        "text": "Make orchestration snapshot-aware so restore placement accounts for layer locality."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A syscall filter used to shrink the kernel attack surface.",
+        "evidenceExcerpt": "Uh one example to do this is something called seccomp. So, you can actually have a filter on the amount of system calls uh your container can call, and you can also control the arguments each system call can take.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "seccomp"
+      },
+      {
+        "description": "A user-space kernel boundary that intercepts syscalls.",
+        "evidenceExcerpt": "The crux of the security boundary is the kernel API from before. So, Gvisor uses this point as its key security story.",
+        "evidenceSegmentIds": [
+          "S0099"
+        ],
+        "name": "gVisor"
+      },
+      {
+        "description": "The traditional VMM mentioned as the baseline for Linux virtualization.",
+        "evidenceExcerpt": "QEMU and other VMMs, their sole job is to talk to dev KVM. So, you see that arrow going down like the dev KVM is the hypervisor API of the Linux kernel.",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "name": "QEMU"
+      },
+      {
+        "description": "The Linux hypervisor interface that VMMs call to start guests.",
+        "evidenceExcerpt": "And then we finally call start. And when we call start, you can see from previous diagrams that the VMM literally calls into dev KVM just like before and it starts these like guest micro VM.",
+        "evidenceSegmentIds": [
+          "S0158"
+        ],
+        "name": "KVM"
+      },
+      {
+        "description": "The Rust-based VMM described as the first of the newer wave.",
+        "evidenceExcerpt": "So, the first the first Rust-based VMM was something called CrosVM, which our team at Google wrote when I was there to support Linux virtual machines on top of Chromebooks.",
+        "evidenceSegmentIds": [
+          "S0143"
+        ],
+        "name": "CrosVM"
+      },
+      {
+        "description": "The Rust-based VMM forked from CrosVM for serverless workloads.",
+        "evidenceExcerpt": "Cross VM was the first like Rust based VMM that came before and then Firecracker forked Cross VM and it's used on Amazon for their Lambda and serverless load.",
+        "evidenceSegmentIds": [
+          "S0153"
+        ],
+        "name": "Firecracker"
+      },
+      {
+        "description": "The more general Rust-based VMM used in micro VM stacks.",
+        "evidenceExcerpt": "And Cloud Hypervisor is a more general like VMM that many many companies like contribute to and when you historically see micro VMs on the internet like it's powered by one of these VMMs basically.",
+        "evidenceSegmentIds": [
+          "S0154"
+        ],
+        "name": "Cloud Hypervisor"
+      },
+      {
+        "description": "The paravirtualized device protocol for guest-host I/O.",
+        "evidenceExcerpt": "And so, they talk via something called virtio, uh which is a more efficient way of the guest and the host talking to each other.",
+        "evidenceSegmentIds": [
+          "S0135"
+        ],
+        "name": "virtio"
+      },
+      {
+        "description": "The guest-host socket used for sandbox communication.",
+        "evidenceExcerpt": "Uh, in this case we are using Vsock, which is a socket that can help you communicate between the guest and the host.",
+        "evidenceSegmentIds": [
+          "S0162"
+        ],
+        "name": "Vsock"
+      },
+      {
+        "description": "A block-device interface used to expose persisted storage to the sandbox.",
+        "evidenceExcerpt": "And you can use something called NBD. So, within the sandbox, you'll actually see a block device.",
+        "evidenceSegmentIds": [
+          "S0242"
+        ],
+        "name": "NBD"
+      }
+    ],
+    "topics": [
+      {
+        "description": "A fleet of secure sandboxes that runs model tool calls for research and product.",
+        "evidenceExcerpt": "And the last part is orchestration and how to run these at scale for many many users at ChatGPT uh and Codex scale.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Agent sandbox cloud"
+      },
+      {
+        "description": "The choice of isolation primitive for a single sandboxed workload.",
+        "evidenceExcerpt": "There are many many parts of a sandbox cloud, but we'll specifically focus on runtime. So, how can we run uh sandbox on one node securely?",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Runtime isolation"
+      },
+      {
+        "description": "Hardware-isolated guest machines with smaller VMMs and stronger boundaries.",
+        "evidenceExcerpt": "So, all these new-age Rust-based VMMs, they have a much smaller memory footprint because they don't support as many devices, and they also boot much faster because they don't have as much craft.",
+        "evidenceSegmentIds": [
+          "S0150"
+        ],
+        "name": "Micro VMs"
+      },
+      {
+        "description": "Saved sandbox state that survives failures and long tasks.",
+        "evidenceExcerpt": "So, we want to give them durable storage. And so, this this part of the presentation is specifically working on disk storage, not memory persistence, but disk persistence.",
+        "evidenceSegmentIds": [
+          "S0187"
+        ],
+        "name": "Disk persistence"
+      },
+      {
+        "description": "Placement logic that uses snapshot lineage and node state.",
+        "evidenceExcerpt": "And so, here is a way where we can use snapshot rich restore for better orchestration. So, remember we discussed that a snapshot can have a lineage of many, many layers.",
+        "evidenceSegmentIds": [
+          "S0262"
+        ],
+        "name": "Snapshot-aware orchestration"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:7d0309cd65efc6e44250f2327af3ec622a1a2ba74fbf51c636b548ae69264ce9",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1",
+  "talkTitle": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+  "transcriptPath": "raw/sources/youtube-transcripts/OqM67QG_Ikk.txt",
+  "transcriptSha256": "sha256:79dedf14c803ddf9bdc010c32f460c723cef911ea0200d4dc5488ba326deaceb",
+  "videoId": "OqM67QG_Ikk"
+}

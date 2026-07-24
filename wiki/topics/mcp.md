@@ -26,7 +26,7 @@ sourceAssessment:
   - source:official-wf26-youtube-c35YoMdnI78
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:bc4aa131c69d471ca9f1aee7e446bc0caa895925cb4a9aee1701e4a9b2600e35
+sourceAssessmentBodySha256: sha256:7a54116f612e8a13216b60385a9b272d6e7ba020e8a44d687056357e38b42965
 ---
 # Model Context Protocol
 
@@ -181,12 +181,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 | transcripts | 16 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
+- [[2026-06-29-ezra-tanzer-agentic-development-security]]
+- [[2026-06-29-sarah-sachs-notion-s-token-town]]
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
 - [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]]
-- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]]
-- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]]
 
 ### Resources
 - [[youtube-o-zkvb0iFDQ]]
@@ -197,12 +197,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-WkBPX-oDMnA]]
 
 ### Slides
+- [[youtube--I5W5QVAT8E-slides]]
+- [[youtube-1EZdpEhwmNc-slides]]
+- [[youtube-cgimkNGNjvU-slides]]
 - [[youtube-2e9ANoOEn28-slides]]
 - [[youtube-sAOBXCDiDOs-slides]]
 - [[youtube-V-EDrhIhHzQ-slides]]
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-I2cbIws9j10-dense-slides]]
-- [[youtube-htM02KMNZnk-slides]]
 
 ### Transcripts
 - [[youtube-V-EDrhIhHzQ-transcript]]
