@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_REPOSITORY = ROOT.parent / "wiki-from-topic-maker"
-EXPECTED_COMMIT = "ce0a43619e13b6e595ae0d9c625e166fb6b0a515"
+EXPECTED_COMMIT = "c5bc782956d85fdf5d3347858eb2ce49b6054f6a"
 RUNTIME_ROOT = (
     ROOT
     / ".ops"
