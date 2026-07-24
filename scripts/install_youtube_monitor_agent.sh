@@ -6,6 +6,8 @@ UNIT_DIR="${HOME}/.config/systemd/user"
 SERVICE="aie-wf2026-youtube-monitor.service"
 TIMER="aie-wf2026-youtube-monitor.timer"
 
+"${ROOT}/scripts/install_pinned_wiki_maker_runtime.py"
+
 mkdir -p "${UNIT_DIR}"
 cp "${ROOT}/.ops/systemd/${SERVICE}" "${UNIT_DIR}/${SERVICE}"
 cp "${ROOT}/.ops/systemd/${TIMER}" "${UNIT_DIR}/${TIMER}"

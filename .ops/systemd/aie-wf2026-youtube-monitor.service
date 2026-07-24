@@ -8,7 +8,9 @@ StartLimitBurst=3
 Type=oneshot
 WorkingDirectory=/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean
 Environment=AIE_WF2026_MONITOR_AUTO_PUSH=1
+Environment=WIKI_FROM_TOPIC_MAKER=/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/scripts/run_pinned_wiki_maker.py
 Environment=DISPLAY=:0
+ExecStartPre=/usr/bin/python3 /garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/scripts/install_pinned_wiki_maker_runtime.py
 ExecStart=/usr/bin/python3 /garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/scripts/monitor_official_youtube.py --auto-push
 Restart=on-failure
 RestartSec=10m

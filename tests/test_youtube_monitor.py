@@ -479,6 +479,42 @@ class YoutubeMonitorTests(unittest.TestCase):
         self.assertEqual(5, len(result))
         self.assertTrue(all(item["returncode"] == 0 for item in result))
 
+    def test_enrichment_replans_once_when_maker_inputs_change(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / "raw" / "sources" / "official-wf26-video-manifest.json"
+            manifest.parent.mkdir(parents=True)
+            manifest.write_text("{}", encoding="utf-8")
+            success = Mock(returncode=0, stdout="", stderr="")
+            replan = Mock(
+                returncode=1,
+                stdout="",
+                stderr=monitor.WIKI_MAKER_REPLAN_REQUIRED,
+            )
+            with patch.object(monitor, "ROOT", root), patch.object(
+                monitor, "RAW", root / "raw" / "sources"
+            ), patch.object(
+                monitor, "OFFICIAL_VIDEO_MANIFEST", manifest
+            ), patch.object(
+                monitor,
+                "wiki_maker_executable",
+                return_value="/tools/wiki-from-topic-maker",
+            ), patch.object(
+                monitor,
+                "run",
+                side_effect=[success, replan, success, success, success, success],
+            ) as run:
+                result = monitor.run_enrichment(0, [])
+
+        self.assertEqual(6, run.call_count)
+        self.assertEqual(2, result[1]["attempts"])
+        self.assertEqual(1, result[1]["first_returncode"])
+        self.assertEqual(0, result[1]["returncode"])
+        self.assertEqual(
+            "deterministic_inputs_changed",
+            result[1]["retry_reason"],
+        )
+
     def test_enrichment_stops_when_canonical_attendance_sync_fails(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -596,6 +632,18 @@ class YoutubeMonitorTests(unittest.TestCase):
             monitor.shutil, "which", return_value=None
         ), self.assertRaisesRegex(RuntimeError, monitor.WIKI_MAKER_ENV):
             monitor.wiki_maker_executable()
+
+    def test_wiki_maker_prefers_project_pinned_runner(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            runner = root / "scripts" / "run_pinned_wiki_maker.py"
+            runner.parent.mkdir(parents=True)
+            runner.write_text("#!/usr/bin/env python3\n", encoding="utf-8")
+            runner.chmod(0o755)
+            with patch.dict(monitor.os.environ, {}, clear=True), patch.object(
+                monitor, "ROOT", root
+            ), patch.object(monitor.shutil, "which", return_value=None):
+                self.assertEqual(str(runner), monitor.wiki_maker_executable())
 
     def test_manifest_refresh_sets_distinguish_premieres_and_pending_captions(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -2083,6 +2131,27 @@ class YoutubeMonitorTests(unittest.TestCase):
             self.assertEqual(
                 '{"state":"degraded"}\n', durable_status.read_text(encoding="utf-8")
             )
+            self.assertFalse(transaction.journal_path.exists())
+            self.assertFalse(transaction.backup_root.exists())
+
+    def test_root_rollback_wins_over_path_snapshot_taken_after_adapter_mutation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "project"
+            state = root / ".ops/state/youtube-monitor"
+            wiki = root / "wiki"
+            page = wiki / "talks/example.md"
+            page.parent.mkdir(parents=True)
+            page.write_text("clean baseline\n", encoding="utf-8")
+            transaction = monitor.MonitorMutationTransaction(root, state)
+
+            transaction.backup_canonical_root(wiki)
+            page.write_text("external adapter mutation\n", encoding="utf-8")
+            with patch.object(monitor, "_ACTIVE_TRANSACTION", transaction):
+                monitor.write_text(page, "later monitor mutation\n")
+                result = transaction.rollback()
+
+            self.assertEqual("rolled_back", result["status"])
+            self.assertEqual("clean baseline\n", page.read_text(encoding="utf-8"))
             self.assertFalse(transaction.journal_path.exists())
             self.assertFalse(transaction.backup_root.exists())
 

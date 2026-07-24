@@ -10,6 +10,7 @@ wrangler.json
 wrangler.jsonc
 .ops/state/cache/
 .ops/state/runs/
+.ops/runtime/
 .*.wiki-maker-backup-*/
 raw/tmp/
 raw/experiments/

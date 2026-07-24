@@ -102,6 +102,9 @@ CAPTION_FAILURE_STATUSES = {
 }
 SLIDE_FAILURE_STATUSES = {"slide_extraction_failed"}
 WIKI_MAKER_ENV = "WIKI_FROM_TOPIC_MAKER"
+WIKI_MAKER_REPLAN_REQUIRED = (
+    "update inputs changed after the deterministic plan; plan again"
+)
 PLAYABLE_MEDIA_TYPES = {"event_livestream", "talk_recording"}
 NO_SLIDES_STATUS = "no_slides"
 NO_SLIDES_PATTERNS = (
@@ -330,6 +333,7 @@ class MonitorMutationTransaction:
             "pathSnapshots": {},
             "rootSnapshots": {},
             "globSnapshots": {},
+            "nextSnapshotOrder": 1,
         }
 
     @classmethod
@@ -364,6 +368,11 @@ class MonitorMutationTransaction:
         digest = sha256(relative.encode("utf-8")).hexdigest()
         return self.backup_root / namespace / digest
 
+    def _next_snapshot_order(self) -> int:
+        order = int(self.payload.get("nextSnapshotOrder", 1))
+        self.payload["nextSnapshotOrder"] = order + 1
+        return order
+
     def _snapshot(self, path: Path, backup: Path) -> dict[str, object]:
         if path.is_symlink():
             return {"kind": "symlink", "target": os.readlink(path)}
@@ -386,12 +395,13 @@ class MonitorMutationTransaction:
         assert isinstance(snapshots, dict)
         if relative in snapshots:
             return
-        snapshots[relative] = {"status": "preparing"}
+        order = self._next_snapshot_order()
+        snapshots[relative] = {"status": "preparing", "order": order}
         self._persist()
         snapshot = self._snapshot(
             absolute, self._backup_path("paths", relative)
         )
-        snapshots[relative] = {"status": "ready", **snapshot}
+        snapshots[relative] = {"status": "ready", "order": order, **snapshot}
         self._persist()
 
     def track_glob(self, parent: Path, pattern: str) -> None:
@@ -418,10 +428,11 @@ class MonitorMutationTransaction:
         assert isinstance(snapshots, dict)
         if relative in snapshots:
             return
-        snapshots[relative] = {"status": "preparing"}
+        order = self._next_snapshot_order()
+        snapshots[relative] = {"status": "preparing", "order": order}
         self._persist()
         snapshot = self._snapshot(path, self._backup_path("roots", relative))
-        snapshots[relative] = {"status": "ready", **snapshot}
+        snapshots[relative] = {"status": "ready", "order": order, **snapshot}
         self._persist()
 
     def _restore_snapshot(self, path: Path, snapshot: dict[str, object]) -> None:
@@ -461,17 +472,6 @@ class MonitorMutationTransaction:
     def rollback(self) -> dict[str, object]:
         errors: list[str] = []
         restored: list[str] = []
-        root_snapshots = self.payload.get("rootSnapshots", {})
-        if isinstance(root_snapshots, dict):
-            for relative, snapshot in sorted(root_snapshots.items()):
-                if not isinstance(snapshot, dict) or snapshot.get("status") != "ready":
-                    continue
-                try:
-                    self._restore_snapshot(self.root / relative, snapshot)
-                    restored.append(relative)
-                except Exception as exc:
-                    errors.append(f"{relative}: {exc}")
-
         glob_snapshots = self.payload.get("globSnapshots", {})
         if isinstance(glob_snapshots, dict):
             for snapshot in glob_snapshots.values():
@@ -487,16 +487,38 @@ class MonitorMutationTransaction:
                 except Exception as exc:
                     errors.append(f"glob {parent}/{pattern}: {exc}")
 
+        # Overlapping snapshots are restored newest-first so the earliest
+        # observed baseline wins. This handles both a directly tracked path
+        # followed by a root snapshot and a late path snapshot taken after an
+        # external adapter mutated an already tracked root.
+        snapshot_restores: list[
+            tuple[int, int, str, dict[str, object]]
+        ] = []
         path_snapshots = self.payload.get("pathSnapshots", {})
         if isinstance(path_snapshots, dict):
-            for relative, snapshot in sorted(path_snapshots.items()):
+            for relative, snapshot in path_snapshots.items():
                 if not isinstance(snapshot, dict) or snapshot.get("status") != "ready":
                     continue
-                try:
-                    self._restore_snapshot(self.root / relative, snapshot)
-                    restored.append(relative)
-                except Exception as exc:
-                    errors.append(f"{relative}: {exc}")
+                snapshot_restores.append(
+                    (int(snapshot.get("order", 0)), 0, relative, snapshot)
+                )
+        root_snapshots = self.payload.get("rootSnapshots", {})
+        if isinstance(root_snapshots, dict):
+            for relative, snapshot in root_snapshots.items():
+                if not isinstance(snapshot, dict) or snapshot.get("status") != "ready":
+                    continue
+                snapshot_restores.append(
+                    (int(snapshot.get("order", 0)), 1, relative, snapshot)
+                )
+        for _order, _root_tiebreaker, relative, snapshot in sorted(
+            snapshot_restores,
+            reverse=True,
+        ):
+            try:
+                self._restore_snapshot(self.root / relative, snapshot)
+                restored.append(relative)
+            except Exception as exc:
+                errors.append(f"{relative}: {exc}")
 
         self.payload["status"] = "rollback_failed" if errors else "rolled_back"
         self.payload["rolledBackAt"] = datetime.now(timezone.utc).isoformat()
@@ -2133,6 +2155,9 @@ def wiki_maker_executable() -> str:
             return resolved
         raise RuntimeError(f"{WIKI_MAKER_ENV} does not name an executable: {override}")
 
+    pinned = ROOT / "scripts" / "run_pinned_wiki_maker.py"
+    if pinned.is_file() and os.access(pinned, os.X_OK):
+        return str(pinned)
     sibling = ROOT.parent / "wiki-from-topic-maker" / ".venv" / "bin" / "wiki-from-topic-maker"
     if sibling.is_file() and os.access(sibling, os.X_OK):
         return str(sibling)
@@ -2344,7 +2369,23 @@ def run_enrichment(_imported_transcripts: int, video_ids: list[str]) -> list[dic
         cmd.extend(["--source", str(path.relative_to(ROOT))])
     cmd.append("--json")
     cp = run(cmd, timeout=7200)
-    results.append({"cmd": cmd, "returncode": cp.returncode})
+    maker_result: dict[str, object] = {
+        "cmd": cmd,
+        "returncode": cp.returncode,
+    }
+    combined_output = f"{cp.stdout or ''}\n{cp.stderr or ''}"
+    if cp.returncode != 0 and WIKI_MAKER_REPLAN_REQUIRED in combined_output:
+        retry = run(cmd, timeout=7200)
+        maker_result.update(
+            {
+                "attempts": 2,
+                "first_returncode": cp.returncode,
+                "returncode": retry.returncode,
+                "retry_reason": "deterministic_inputs_changed",
+            }
+        )
+        cp = retry
+    results.append(maker_result)
     if cp.returncode != 0:
         return results
 
