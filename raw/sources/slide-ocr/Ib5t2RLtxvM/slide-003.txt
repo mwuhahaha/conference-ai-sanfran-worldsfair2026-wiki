@@ -1,0 +1,17 @@
+@ rete
+a ad ver thepamte
+D H .
+World's Fair Three things to take away
+atten
+wh aetagly
+Ji. sienenad é
+ae Sag
+PRESENTED BY ” 4
+, 7 Every company needs its It has to be as close to It has to live in the agent
+a AY icros oft own benchmark production as possible lifecycle
+The onty reuable way to evaluate, Mimic production surfaces — tools, Populated by production traces and
+improve, and release your agents. schemas, APis, policies, and gated by a Cl pipeline — s0 every
+Public benchmarks are priors, not workflows — without standing up change has to pass it before it ships.
+verdicts on your workload. full production for every test.
+erent red
+TRACK 5° JULY 1, 2026

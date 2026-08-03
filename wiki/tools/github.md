@@ -9,7 +9,7 @@ sourceAssessment:
   subjectId: tool:github
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -19,7 +19,7 @@ sourceAssessment:
   - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-ZpK5PWX2YRM
   - source:official-wf26-youtube-ZyIoTOAbRfs
-sourceAssessmentBodySha256: sha256:24a85bb214ed3dd86fb2c76fec8c6f4264ae04e074a6ccfd2f47eba589e58e18
+sourceAssessmentBodySha256: sha256:acc4fbd09cd08616e048d58eabddc8023988cbdd4502a1429c72fd8bdac59fbc
 ---
 # GitHub
 
@@ -27,7 +27,7 @@ sourceAssessmentBodySha256: sha256:24a85bb214ed3dd86fb2c76fec8c6f4264ae04e074a6c
 Destination for code changes created by the harness.
 
 ## Transcript Digest Evidence
-This section is generated from 6 evidence-bound talk digest(s).
+This section is generated from 7 evidence-bound talk digest(s).
 
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — Destination for code changes created by the harness.
   - Transcript: [[youtube-8qWIPUia2O8-transcript]]
@@ -47,6 +47,9 @@ This section is generated from 6 evidence-bound talk digest(s).
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]] — The code-hosting and change-history system used in the analogy for tracing why work items exist.
   - Transcript: [[youtube-Btk8wDUVs74-transcript]]
   - Evidence: "but we don't have the meaning um a log never said what it mean let's take an analogy from our Let's say that you have one line of code in your GitHub."
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you|Your Finance Agent's Bottleneck Is You]] — The code review and pull-request platform used before merging fixes.
+  - Transcript: [[youtube-z0sh8HyTrDo-transcript]]
+  - Evidence: "You submit the PR to your team for review. And after review, you merge it into your master branch, let's say."
 
 ## Evidence Boundary
 This page is content-derived from official event transcripts. The linked transcript excerpts support presence and attributed framing; they do not independently verify broader claims.

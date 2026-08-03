@@ -1,0 +1,266 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:31:20.334133+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:ccba2597c8d2f72c2dd44f8cac821ebab2638abe0d91bc72c6c656b0a3466289",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, FDE at Ramp, uh we live within the engineering organization. And our goal is to help Ramp win upmarket.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "support": "explicit",
+        "text": "At Ramp, forward deployed engineering sits inside the engineering organization and is aimed at helping the company win upmarket."
+      },
+      {
+        "evidenceExcerpt": "So, with that in mind, what we do is we basically work on the core product and our new agentic features and make them work really well for our largest enterprise customers.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "support": "explicit",
+        "text": "The team works on the core product and new agentic features, with the goal of making them work well for the largest enterprise customers."
+      },
+      {
+        "evidenceExcerpt": "So, I would say there's this thing where like people many many people think that as an FDE, your job is to just say yes to the customer.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that an FDE's job is not to blindly say yes to every customer request."
+      },
+      {
+        "evidenceExcerpt": "And the point is that by gaining all this context, you can do a better job of building the right thing.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "Gathering context across the request, workarounds, technical constraints, and other prospects helps the team build the right thing."
+      },
+      {
+        "evidenceExcerpt": "Even some of the most basic assumptions like which you know mobile platform you build on it's it's super important um to validate them and and thus kind of emphasizes the importance of scoping up front.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "support": "explicit",
+        "text": "The mobile reimbursement example is used to show that even basic assumptions like platform choice must be validated up front."
+      },
+      {
+        "evidenceExcerpt": "From gathering context to scoping out a request to writing out a spec and then implementing the feature, each stage of that pipeline can be replaced with agents.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the whole FDE lifecycle, from context gathering through implementation, can be replaced or assisted by agents."
+      },
+      {
+        "evidenceExcerpt": "That was it. And um after It was kind of astonishing. Literally, after a couple of weeks, we found that it was like saving us a lot of time because, first of all, immediate like the latency of replies went from like hours or days to like, you know, seconds.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "support": "explicit",
+        "text": "Ramp's initial Notion-agent workflow reduced request reply latency from hours or days to seconds."
+      },
+      {
+        "evidenceExcerpt": "And it's actually been incredible how helpful this has been for us. I I would say it's probably saved us like a large percentage, I don't know, 20% of the time that we'd spend on scoping out these requests.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "The newer multi-turn request triage workflow is described as saving roughly 20% of the time spent on scoping requests."
+      }
+    ],
+    "methodNotes": "Synthesized from the official schedule metadata and the supplied transcript only. I prioritized the talk's core argument, then extracted reusable methods, tools, and unresolved questions from the transcript segments that support them.",
+    "methods": [
+      {
+        "description": "Validate the real need behind a customer request before committing to implementation, instead of defaulting to a yes.",
+        "evidenceExcerpt": "Like, where do I find them and how do I build this integration?\" But what an what a well-trained FDE would do is like pause for a second and say, \"Okay.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "Always be scoping"
+      },
+      {
+        "description": "Treat the FDE workflow as a pipeline that can be progressively delegated to agents, from request intake to spec creation to implementation.",
+        "evidenceExcerpt": "And the way that I interpret scaling with tokens for FTE is take a look at the whole life cycle of what an FTE does.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "name": "Scale with tokens"
+      },
+      {
+        "description": "Use repeated back-and-forth questioning to turn a vague request into a well-shaped spec.",
+        "evidenceExcerpt": "and what it does is it actually goes and does several rounds of back and forth questioning with the submitter until it deems that it's ready to create a lot a spec, basically.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Agentic request triage"
+      },
+      {
+        "description": "Measure and improve agent output quality with evals, rubrics, and human feedback.",
+        "evidenceExcerpt": "Um making sure that the the output quality of each of the outputs of the the pipeline is is actually good.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "name": "Quality gating for agent workflows"
+      },
+      {
+        "description": "Preserve human taste and judgment over the final output even when agents handle most of the workflow.",
+        "evidenceExcerpt": "Um yeah, skills, memories, tools. I could go on for a bit, but ultimately the most important thing here is that as an FD, we still have the responsibility of taste and judgment over the final output.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "Human-in-the-loop final judgment"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Like, how do you get that into an agent? Like, Notion docs and all your existing knowledge base and help articles only give you so much of that.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "question": "How can a product team's tacit knowledge be encoded into agents more completely than docs and help articles allow?",
+        "whyItMatters": "The talk identifies context as one of the hardest problems in scaling FDE work with agents."
+      },
+      {
+        "evidenceExcerpt": "That you know, with with evals, with rubrics, with human feedback. Um and there's of course like one of the biggest challenges, which is getting your agent the right context, you know, when you're making the alarm call, ensuring that it has the right context.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "question": "What harness, eval, and feedback design best ensures each stage of the agent pipeline produces reliable output?",
+        "whyItMatters": "The speaker says output quality is a major challenge when replacing manual FDE steps with agents."
+      },
+      {
+        "evidenceExcerpt": "Like, you know, making sure that the agent harness that's running each of those steps is running super smoothly.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "question": "What does a robust agent harness look like for running intake, scoping, and implementation steps smoothly at scale?",
+        "whyItMatters": "This is presented as a core engineering problem for the next phase of FDE at Ramp."
+      }
+    ],
+    "summary": "The talk argues that forward deployed engineering at Ramp is not about indiscriminately saying yes to enterprise customers, but about combining disciplined scoping with agent-driven scaling. The first principle is to ask enough questions to understand the real need, the viable workaround, the technical constraints, and the broader set of customers who might benefit before building anything. The second principle is to treat the FDE workflow as a pipeline that agents can increasingly handle, while humans retain taste and judgment over the final output. The practical consequence is a faster, more reliable enterprise delivery function: request intake can move from hours or days to seconds, and the team can reclaim meaningful time for higher-value work without turning the process into low-quality automation.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, that's like one example. [clears throat] But, you know, as an FDE, you're asking tons of questions to gather context about what's important um and what actually is the right thing to build.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "text": "Good FDE work starts with gathering context instead of reacting to the first customer ask."
+      },
+      {
+        "evidenceExcerpt": "But like obviously it was super disappointing for us because we'd put all this effort in. And so, it was a a big lesson for us to remember the importance of scoping.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "Even apparently small assumptions, like which mobile platform is required, can make a large implementation effort useless if they are not validated early."
+      },
+      {
+        "evidenceExcerpt": "And so, you can see here what we what we did then was we basically um used Notion uh Notion agents to build a V1, which literally just took the request and asked a couple of questions.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "text": "A simple agent that asks a few clarifying questions can already remove a large amount of manual scoping work."
+      },
+      {
+        "evidenceExcerpt": "But the problem isn't to tie this to the first half of the talk. If you don't do a good job of scoping out requests or or building upon the principles of scoping things well, you're going to get a token maxing slop cannon.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "text": "Agent automation without disciplined scoping can produce a high-volume but low-quality output stream."
+      },
+      {
+        "evidenceExcerpt": "that's why um in the end here, I want to close with the the the most important thing is that if you have both of these, it can set you up for success in the future.",
+        "evidenceSegmentIds": [
+          "S0082"
+        ],
+        "text": "The speaker's practical conclusion is that future FDE work needs both strong scoping and strong agent scaling."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The company uses this workspace system as part of its request workflow and the speaker cites it as the medium for the intake flow.",
+        "evidenceExcerpt": "And um if you were to It's actually a Notion workflow. If any of you work at Notion, by the way, thank you.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Notion"
+      },
+      {
+        "description": "An agent-based version of the intake workflow is used to ask clarifying questions and accelerate request handling.",
+        "evidenceExcerpt": "And so, you can see here what we what we did then was we basically um used Notion uh Notion agents to build a V1, which literally just took the request and asked a couple of questions.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Notion agents"
+      },
+      {
+        "description": "The integration named in the urgent enterprise request example that illustrates the need for scoping before implementation.",
+        "evidenceExcerpt": "So, it's Friday night and an enterprise sales rep comes to us with an urgent request that this super important strategic logo is only going to close if we build out an SAP S/4HANA integration.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "SAP S/4HANA"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Forward deployed engineers work inside engineering but focus on helping enterprise customers succeed through product adaptation and delivery.",
+        "evidenceExcerpt": "So, FDE at Ramp, uh we live within the engineering organization. And our goal is to help Ramp win upmarket.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "name": "Forward deployed engineering"
+      },
+      {
+        "description": "A disciplined approach to deciding what to build by validating urgency, workarounds, technical constraints, and reuse across customers.",
+        "evidenceExcerpt": "And the point is that by gaining all this context, you can do a better job of building the right thing.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Enterprise scoping"
+      },
+      {
+        "description": "Using agents to automate stages of a professional workflow rather than only individual tasks.",
+        "evidenceExcerpt": "From gathering context to scoping out a request to writing out a spec and then implementing the feature, each stage of that pipeline can be replaced with agents.",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "name": "Agentic workflow automation"
+      },
+      {
+        "description": "The need to supply agents with the right background knowledge, product context, and state before they act.",
+        "evidenceExcerpt": "That you know, with with evals, with rubrics, with human feedback. Um and there's of course like one of the biggest challenges, which is getting your agent the right context, you know, when you're making the alarm call, ensuring that it has the right context.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "name": "Context provisioning"
+      },
+      {
+        "description": "Balancing automation with human taste and judgment over the final result.",
+        "evidenceExcerpt": "Um yeah, skills, memories, tools. I could go on for a bit, but ultimately the most important thing here is that as an FD, we still have the responsibility of taste and judgment over the final output.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "name": "Human judgment in automation"
+      },
+      {
+        "description": "A workflow pattern where a vague request is turned into a structured specification through repeated questioning.",
+        "evidenceExcerpt": "and what it does is it actually goes and does several rounds of back and forth questioning with the submitter until it deems that it's ready to create a lot a spec, basically.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "Request triage"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:ee204de009424d7259f308fee8e2183369b1e1af5b87680d54ee0fd6461829d4",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp",
+  "talkTitle": "How Forward Deployed Engineering is done at Ramp",
+  "transcriptPath": "raw/sources/youtube-transcripts/ITMXwI6QL6A.txt",
+  "transcriptSha256": "sha256:ac1266053507249daf0a55b1d70186581011662b52d88d6cd7148cf911acae13",
+  "videoId": "ITMXwI6QL6A"
+}

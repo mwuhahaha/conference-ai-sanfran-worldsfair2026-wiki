@@ -64,12 +64,12 @@ Antje Barth argues that the blocker for useful workplace agents is no longer sim
   - Evidence: "There's two pieces. There is annotation which you can use to tell it what you want. And then the second piece, the verification part gives the agent the capability to check its own work."
 
 ### Topics Covered
-- **Agent Reliability** — The gap between agents that can take actions and agents that can be trusted to finish messy work end to end.
-- [[agentic-web|Shared Context]] — The role of looking at the same screen or interface as the human to reduce explanation and improve collaboration.
+- [[platform-context-and-collaboration|Agent Reliability]] — The gap between agents that can take actions and agents that can be trusted to finish messy work end to end.
+- [[observed-work-and-traceability|Shared Context]] — The role of looking at the same screen or interface as the human to reduce explanation and improve collaboration.
 - [[agentic-web|Rendered UI Perception]] — The idea that an agent should read the rendered UI, layout, and state before acting.
-- **Screen Annotation** — Capturing intent by marking elements directly on screen instead of writing a long instruction.
-- [[reachability-over-format|UI Verification]] — Checking UI changes against design rules and user flows after the agent acts.
-- [[agent-reliability-and-durable-execution|Transcript-to-Action Collaboration]] — Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow.
+- [[agentic-web|Screen Annotation]] — Capturing intent by marking elements directly on screen instead of writing a long instruction.
+- [[agent-evaluations|UI Verification]] — Checking UI changes against design rules and user flows after the agent acts.
+- [[context-engineering-and-knowledge-architecture|Transcript-to-Action Collaboration]] — Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow.
 
 ### Tools And Named Systems
 - [[github|GitHub]] — The open-source repos where the perception-agent harness is being shared and extended.

@@ -64,8 +64,8 @@ The panel's thesis is that local AI has moved from novelty to utility because mo
 - [[inference-engineering|Model harnesses]] — The layer of tools, peripherals, and system access that makes a model practically useful.
 - [[inference-engineering|Multimodel routing]] — Choosing different models for planning, execution, and other tasks based on cost and capability.
 - [[inference-engineering|Specialized models]] — Task-specific models that replace the assumption that one model should handle everything.
-- [[inference-engineering|Local hardware optimization]] — Performance work on smaller devices through tuning, quantization, and configuration.
-- **Open-model control** — The strategic need to control versions, weights, and update timing instead of depending on cloud defaults.
+- [[observed-work-and-traceability|Local hardware optimization]] — Performance work on smaller devices through tuning, quantization, and configuration.
+- [[inference-engineering|Open-model control]] — The strategic need to control versions, weights, and update timing instead of depending on cloud defaults.
 
 ### Tools And Named Systems
 - [[llama|Llama]] — Open model used as the early local intelligence milestone in the talk.

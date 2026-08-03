@@ -58,9 +58,9 @@ The talk argues that automated assistants fail less because they lack tools and 
 ### Topics Covered
 - [[agent-memory|Assistant memory architecture]] — The central problem of preserving useful state across assistant turns and tool iterations.
 - [[agent-memory|Knowledge graphs]] — Graph-based representation of entities and relationships for connected data.
-- **Vector retrieval** — Similarity-based retrieval from embeddings and vectors.
-- [[agent-memory|Multihop reasoning]] — Using graphs to answer questions that require multiple relationship hops.
-- [[agentic-search|Auditable context]] — Answers that can be inspected and traced back to a specific graph path.
+- [[agentic-search|Vector retrieval]] — Similarity-based retrieval from embeddings and vectors.
+- **Multihop reasoning** — Using graphs to answer questions that require multiple relationship hops.
+- [[agent-memory|Auditable context]] — Answers that can be inspected and traced back to a specific graph path.
 - [[agent-memory|Large-scale assistants]] — Memory limits and operating scale beyond a prompt-sized context window.
 
 ### Tools And Named Systems

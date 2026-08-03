@@ -1365,9 +1365,15 @@ def validate_topic_map_payload(
     payload: Mapping[str, Any],
     candidates: list[dict[str, Any]],
     taxonomy: list[dict[str, str]],
+    *,
+    stored_complete_partition: bool = False,
 ) -> dict[str, Any]:
     raw_clusters = payload.get("clusters")
-    if not isinstance(raw_clusters, list) or not 1 <= len(raw_clusters) <= 60:
+    cluster_limit = len(candidates) if stored_complete_partition else 60
+    if (
+        not isinstance(raw_clusters, list)
+        or not 1 <= len(raw_clusters) <= cluster_limit
+    ):
         raise ValueError("topic map clusters violate the bounded schema")
     by_id = {item["candidateId"]: item for item in candidates}
     allowed_existing = {item["slug"] for item in taxonomy}
@@ -1392,7 +1398,16 @@ def validate_topic_map_payload(
         member_ids = raw.get("memberIds")
         if not isinstance(member_ids, list) or not member_ids:
             raise ValueError(f"topic map cluster {index} has no members")
-        member_ids = list(dict.fromkeys(clean_plain_text(item) for item in member_ids))
+        cleaned_member_ids = [clean_plain_text(item) for item in member_ids]
+        if stored_complete_partition and (
+            len(set(cleaned_member_ids)) != len(cleaned_member_ids)
+            or any(member_id not in by_id for member_id in cleaned_member_ids)
+            or any(member_id in used for member_id in cleaned_member_ids)
+        ):
+            raise ValueError(
+                f"topic map cached cluster {index} has invalid membership"
+            )
+        member_ids = list(dict.fromkeys(cleaned_member_ids))
         member_ids = [
             member_id for member_id in member_ids if member_id in by_id
         ]
@@ -1411,6 +1426,8 @@ def validate_topic_map_payload(
             }
         )
     missing = sorted(set(by_id) - used)
+    if stored_complete_partition and missing:
+        raise ValueError("topic map cached partition is incomplete")
     for member_id in missing:
         candidate = by_id[member_id]
         synthesis = candidate["description"]
@@ -1460,6 +1477,7 @@ def load_cached_topic_map(
             payload,
             candidates,
             taxonomy,
+            stored_complete_partition=True,
         )
         return envelope
     except (KeyError, OSError, TypeError, ValueError, json.JSONDecodeError):

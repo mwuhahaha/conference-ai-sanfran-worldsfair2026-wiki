@@ -9,7 +9,7 @@ sourceAssessment:
   subjectId: tool:slack
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -21,7 +21,7 @@ sourceAssessment:
   - source:official-wf26-youtube-ZyIoTOAbRfs
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:c58b53830e4402f6f8197f25db64a2c1eee82f743f422f2ee30e0d101e109e4a
+sourceAssessmentBodySha256: sha256:148dc52448a6171a278f8716bc059c0b07e2084dcc21203a9193877528abcf73
 ---
 # Slack
 
@@ -29,7 +29,7 @@ sourceAssessmentBodySha256: sha256:c58b53830e4402f6f8197f25db64a2c1eee82f743f422
 The collaboration platform used to run experiments and coordinate researchers and agents.
 
 ## Transcript Digest Evidence
-This section is generated from 7 evidence-bound talk digest(s).
+This section is generated from 8 evidence-bound talk digest(s).
 
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The collaboration platform used to run experiments and coordinate researchers and agents.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
@@ -37,6 +37,9 @@ This section is generated from 7 evidence-bound talk digest(s).
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — Collaboration surface used for always-on harness interaction.
   - Transcript: [[youtube-8qWIPUia2O8-transcript]]
   - Evidence: "What do I mean by a harness that is always on? Well, you might be talking to it in Slack. Maybe you're talking to it in Slack along with your colleagues, right?"
+- [[2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler|How Forward Deployed Engineering is done at Kepler]] — The alerting workflow built as the minimal fix for the shipping dispatcher problem.
+  - Transcript: [[youtube-1OMHGsUZiqA-transcript]]
+  - Evidence: "The dispatcher said, \"I check if trucks are trucks are late and then I call the dispatcher to ship a new inventory or new institution.\" The whole thing could have been simplified to a trivial Slack alert, which is what we ended up building."
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — One of the cross-system destinations in the onboarding workflow example.
   - Transcript: [[youtube-2JX6JYyQG4Y-transcript]]
   - Evidence: "A new team member starts on Monday. And maybe your job is to set up their accounts, add them to your Slack channel, book intros with colleagues, order the laptops, etc."

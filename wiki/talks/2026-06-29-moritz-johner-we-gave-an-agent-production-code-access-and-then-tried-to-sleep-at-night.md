@@ -58,9 +58,9 @@ This talk argues that once an agent can touch production credentials, it is no l
 ### Topics Covered
 - **Dependency patching at scale** — How to remediate vulnerable dependencies across many repositories while keeping PRs reviewable and safe.
 - [[agent-security|Agent supply-chain role]] — The idea that an agent with production credentials becomes part of the software supply chain.
-- [[coding-agents|Two-layer agent architecture]] — Separating boring orchestration from agentic reasoning to reduce risk and increase reliability.
+- [[platform-context-and-collaboration|Two-layer agent architecture]] — Separating boring orchestration from agentic reasoning to reduce risk and increase reliability.
 - [[agent-security|Prompt injection defense]] — Using tests and crafted repositories to check whether an agent can be manipulated by untrusted repository content.
-- [[ai-sandboxes|Agent sandboxing]] — Containing an agent that needs Docker access by moving it into a micro-VM rather than a normal sandbox.
+- [[observed-work-and-traceability|Agent sandboxing]] — Containing an agent that needs Docker access by moving it into a micro-VM rather than a normal sandbox.
 - [[agent-security|Blast radius control]] — Limiting the consequences of an agent mistake by keeping powerful actions outside the agent boundary.
 
 ### Tools And Named Systems

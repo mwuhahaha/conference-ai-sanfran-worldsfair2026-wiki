@@ -1,0 +1,8 @@
+30334
+simple.baml-aie-IndexAdded UpgrudetoPro
+World's Fair AlEngincer baml_src>ns_math)simple.bam) smple.baml Ax OpenPaypound function add(a:int,b:Int)-> int( returaa+b Fcalc.bamlA F.div.bam （aic)vovgVaibhavs-HacBook-Pro-3aiebanlpack-1add-fultiply 8（aie)voveVaibhsvs-MacBook-Pro-3aie4./aie New Agont Terminal arning:Code is unforatted-runbanl fat Usageiaie <COPAND> Packaging add,multiply Findshedaie 1dd,multiply,aarch54-sople-darin] in 2s
+PRESENTED BY function subtract(a:int,b: int) ->int ( Popen returna-b; Meypreund belp multipty monds: Print this message or the help of the given subcomand(s) tunction math.multipty（a:int,b:int)-int function math.add（a: int,b:1nt)->1nt
+Microsoft 101 12 6 opan function multiply(a:Int,b:int)-> int{ returna·b: O(aie)vbv(Vaibhvs-MacBook-Pro-3aies vc,sarch64-pc-uindows-asvc -LInux-musl,x86_64-unknoum-L1nux-gnu,x86_64-unknom-11nux-#us1,x86_64-pc-w1ndows-#s options: warning:Code1suntoratted-runbnlfat error: Unsupported pack targetx.Unsupported release target xSupported targets! aarch64-apole-darin,x86 S4-apple-danin,aarch54-unkoown-1inux-gnu,aarch64-unknowm -h，-help Print helo Pacunging add,multiply
+Wc. Fair
+main+OLaunchpadweek-2oOUve ShareGiGraph BAML Ln12,Co1Spcs:4UTF-8LFBAML Preter
+Engineering the future of Al

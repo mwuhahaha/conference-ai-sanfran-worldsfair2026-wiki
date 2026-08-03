@@ -1,0 +1,211 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:30:20.487107+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:9af483f99397a5b287012ef5e5e70eee520010c9084e8857cb27e3bb82e7fa63",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "What do I mean by that? We can take a pause and take a look at this figure. So, internally at Cognition, over the last 6 months, for better or worse, we might have been behind on hiring, but using our agent, we were able to ship almost an order of magnitude more good quality robust PRs across the organization.",
+        "evidenceSegmentIds": [
+          "S0013"
+        ],
+        "support": "explicit",
+        "text": "Cognition reports that, over the last six months, using its own agent let the company ship almost an order of magnitude more good-quality, robust PRs internally."
+      },
+      {
+        "evidenceExcerpt": "You don't have to take our word for it. If we take a look If we can take a look at the specifics of how we're actually being consumed, how we're being utilized across the enterprise, it's a parabolic growth of how companies are adopting our agent, deploying our agent, and using it in multiple different use cases and multiple different scenarios.",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "support": "explicit",
+        "text": "The speaker says enterprise adoption of the agent is growing parabolically across different use cases and scenarios."
+      },
+      {
+        "evidenceExcerpt": "But the problem isn't like writing code faster, that's usually only 20% of the problem. The problem really just becomes like how do you test this code?",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "explicit",
+        "text": "The talk argues that writing code faster is only a minority of the problem; testing, review, deployment, and maintenance are the real bottlenecks."
+      },
+      {
+        "evidenceExcerpt": "We brought them on board. And functionally, over the course of those 3 months, we delivered about 150% like plus headcount.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "support": "explicit",
+        "text": "One customer engagement is described as effectively adding about 150% headcount over a three-month period."
+      },
+      {
+        "evidenceExcerpt": "So, about like 82% reduction across like delivery. So, if you subscribe to the agile deliver agile development methodology, obviously like you have tickets, you have sprints, like you have things that need to be built.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports about an 82% reduction in delivery timelines after bringing Devin into a customer environment."
+      },
+      {
+        "evidenceExcerpt": "Like, is this meaningful? Does this actually make sense? So, if you think about dissecting the numbers a little like one dimension further, and you want to just look at like the raw PRs that people are ripping across the enterprise, we deliver almost double the amount of PRs that engineers were able to do with single-point tools and before you brought in an agent harness like Devin.",
+        "evidenceSegmentIds": [
+          "S0092"
+        ],
+        "support": "explicit",
+        "text": "The talk claims that, compared with single-point tools and before an agent harness like Devin, the organization delivers almost double the PRs."
+      }
+    ],
+    "methodNotes": "The digest treats the transcript as the only evidence source and keeps each item anchored to a single quoted segment ID, with claims reflecting the speaker's own reported results and arguments rather than independent verification.",
+    "methods": [
+      {
+        "description": "Forward-deployed engineering: embedding engineers with customer problems so agent deployment is shaped by real enterprise needs.",
+        "evidenceExcerpt": "So, the forward-deployed motion at Cognition essentially aims to maximize the overlap between the products that we typically build and the problems that we're experiencing across the enterprise.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "Forward-deployed engineering"
+      },
+      {
+        "description": "Customer-embedded delivery: working inside customer ecosystems to identify backlog items, remediations, delayed code, missing tests, and alert triage opportunities.",
+        "evidenceExcerpt": "So, specifically, our forward deployed engineers will embed in the customers ecosystems, right?",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Customer-embedded delivery"
+      },
+      {
+        "description": "Problem-to-capability mapping: translating observed customer pain points back into product capabilities and roadmap priorities.",
+        "evidenceExcerpt": "So, the second part of this that I want to emphasize is that at our company, we map the customer problems back to the capabilities at hand.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Problem-to-capability mapping"
+      },
+      {
+        "description": "Session-based measurement: treating agent runs as sessions and measuring productive engineering hours from those sessions.",
+        "evidenceExcerpt": "let me just give you some proof points of how we've operated across the So, at Cognition, um when we run the agent and the agent has like a specific trace or trajectory or like the agent does something, we call that a session.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "Session-based measurement"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But most importantly, as forward deployed engineer, how do you measure the return on investment?",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "question": "How can a deployed engineering team measure return on investment in a way that is credible across different customer environments?",
+        "whyItMatters": "The talk says ROI is ambiguous, so this is central to deciding whether the motion is economically real or just expensive experimentation."
+      },
+      {
+        "evidenceExcerpt": "So, what are the ways in which these enterprise challenges, you know, manifest? are they common across the entire enterprise or are they unique to a specific user?",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "question": "Which field workarounds, hacks, or bugs should become product features, and which should stay local to one customer?",
+        "whyItMatters": "The speaker frames this as a recurring product judgment that affects both customer success and roadmap quality."
+      }
+    ],
+    "summary": "The talk argues that forward-deployed engineering is how Cognition turns Devin from a generic agent into enterprise leverage: engineers embed with customers, learn the real problem space, and map those problems back into product capabilities. The mechanism is not token-maxing or loose agent deployment; it is tight coupling between customer calls, hands-on implementation, field feedback, and measurable outcomes such as productive sessions, PR throughput, and delivery speed. The main tradeoff is that this motion demands both broad customer and business judgment plus deep technical expertise, but the payoff is a stronger product feedback loop, faster delivery, and larger organizational impact than single-point developer tools can achieve.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, the forward-deployed motion at Cognition essentially aims to maximize the overlap between the products that we typically build and the problems that we're experiencing across the enterprise.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "text": "Deploy agents where they maximize overlap between product capability and customer pain, not as generic automation."
+      },
+      {
+        "evidenceExcerpt": "But the problem isn't like writing code faster, that's usually only 20% of the problem. The problem really just becomes like how do you test this code?",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "text": "The hardest enterprise software work is usually testing, review, deployment, and maintenance, not code generation itself."
+      },
+      {
+        "evidenceExcerpt": "We are the bridge between products. We are the bridge between problems and the feedback is actually like half of the loop that makes the next deployment better than the previous deployment.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "The field-to-product feedback loop is part of the product itself, because it de-risks the roadmap and improves future deployments."
+      },
+      {
+        "evidenceExcerpt": "A lot of organizations that we work with, some of the largest and most regulated enterprises in the world, they really care about, \"Are we getting true value out of this solution, or are we just burning tokens for no reason, right?\" And that is one core differentiator that I need to call out between us and some of the other platforms.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "text": "Outcome-based deployment matters more than token usage; the motion has to show real business value, not just more agent activity."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The agent product the speaker uses as the core deployment surface for forward-deployed engineering.",
+        "evidenceExcerpt": "Um great times. And then, what we're actually known for, specifically, is for Devin Cloud or the Devin Cloud agent.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "name": "Devin"
+      },
+      {
+        "description": "A related interface surface mentioned alongside CLI and IDE-style access.",
+        "evidenceExcerpt": "Uh actually, how many people know of Windsurf or have used Windsurf in the past? Sweet. So, I come over from the Windsurf side after the Windsurf acquisition.",
+        "evidenceSegmentIds": [
+          "S0009"
+        ],
+        "name": "Windsurf"
+      },
+      {
+        "description": "The specific cloud agent surface called out as what Cognition is known for.",
+        "evidenceExcerpt": "Um great times. And then, what we're actually known for, specifically, is for Devin Cloud or the Devin Cloud agent.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "name": "Devin Cloud"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The overlap between a product's capabilities and the customer's actual problems, used here as the core deployment lens.",
+        "evidenceExcerpt": "You have a product, you have problems that you're trying to solve, and the intersection of these two, or whatever you would call it, is the product-market fit.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Product-market fit overlap"
+      },
+      {
+        "description": "The broader software delivery lifecycle that includes building, testing, reviewing, deploying, and maintaining code.",
+        "evidenceExcerpt": "And specifically, right? Like if we think of the problem of software engineering, and I'm just going to like mask the features at the bottom, we don't really care about those, but if we think about when you go ahead to take some sort of codebase, some sort of implementation, and you need to like build features, you need to maintain that software, uh you need to like review, deploy, maintain that software.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Enterprise software delivery lifecycle"
+      },
+      {
+        "description": "A deployment model judged by customer outcomes rather than raw tool usage or token spend.",
+        "evidenceExcerpt": "A lot of organizations that we work with, some of the largest and most regulated enterprises in the world, they really care about, \"Are we getting true value out of this solution, or are we just burning tokens for no reason, right?\" And that is one core differentiator that I need to call out between us and some of the other platforms.",
+        "evidenceSegmentIds": [
+          "S0078"
+        ],
+        "name": "Outcome-based deployment"
+      },
+      {
+        "description": "The process of bringing field observations back into product planning and roadmap decisions.",
+        "evidenceExcerpt": "We are the bridge between products. We are the bridge between problems and the feedback is actually like half of the loop that makes the next deployment better than the previous deployment.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Field-to-roadmap feedback loop"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:9dc32b738e1eb8e24f3344a46b1608aff92cb8a1c92709ebf6f1c1e31aed82ed",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition",
+  "talkTitle": "How Forward Deployed Engineering is done at Cognition",
+  "transcriptPath": "raw/sources/youtube-transcripts/RVxym6mmIns.txt",
+  "transcriptSha256": "sha256:c679b65028dff0867959bd2157f5a2159143491c8c4a2ba94c8726e58be1e664",
+  "videoId": "RVxym6mmIns"
+}

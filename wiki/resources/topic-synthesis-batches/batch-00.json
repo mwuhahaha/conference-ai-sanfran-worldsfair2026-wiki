@@ -1,188 +1,292 @@
 {
   "algorithmVersion": 3,
   "batchIndex": 0,
-  "candidateCount": 53,
+  "candidateCount": 66,
   "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
-  "generatedAt": "2026-07-24T22:40:21.331275+00:00",
+  "generatedAt": "2026-07-30T16:35:44.587350+00:00",
   "generatedBy": "cross-talk-topic-map-v1",
-  "inputSha256": "sha256:9c1aa5c4e07cce76d89ca9b41239abe539a39adea62393120bbfd03e801c3776",
+  "inputSha256": "sha256:2bd0d0ff8238d1922da65c9ca3fc6ef48dd3a1c4623e675e4581b0843f2b7cea",
   "model": "gpt-5.4-mini",
   "payload": {
     "clusters": [
       {
-        "canonicalTopic": "Security boundaries, verification gates, and governance before execution",
+        "canonicalTopic": "agent security",
         "memberIds": [
           "T0001",
-          "T0025",
-          "T0031",
-          "T0037",
-          "T0043",
+          "T0049",
           "T0061",
-          "T0097",
-          "T0121",
-          "T0211",
-          "T0277"
+          "T0091",
+          "T0127",
+          "T0133"
         ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "These talks all center on preventing unsafe actions by adding policy checks, proof or verification steps, supply-chain scrutiny, and human accountability before an agent is allowed to act."
+        "synthesis": "Constraints bypass, overprivilege, permissions, lethal-trifecta risk, behavior governance, and supply-chain trust all describe the same control problem: keeping autonomous agents from doing unsafe things or inheriting unsafe capabilities."
       },
       {
-        "canonicalTopic": "Evaluation design and benchmark integrity for agent systems",
+        "canonicalTopic": "agent evaluations",
         "memberIds": [
-          "T0013",
           "T0019",
-          "T0055",
-          "T0127",
-          "T0133",
-          "T0145",
-          "T0163",
-          "T0175",
-          "T0187",
-          "T0205",
-          "T0229"
+          "T0025",
+          "T0079",
+          "T0181",
+          "T0241",
+          "T0247",
+          "T0259",
+          "T0199"
         ],
         "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "These candidates focus on how to measure agent behavior without letting the system game the metric, including benchmark hardening, task-specific review, golden sets, closed-loop evaluation, and outcome-driven measurement."
+        "synthesis": "These candidates all point to the same evaluation layer: benchmarks, preference models, trigger tests, rollout checks, and launch-readiness criteria that try to measure agent behavior without letting the system game the score."
       },
       {
-        "canonicalTopic": "Memory systems for long-running agents",
+        "canonicalTopic": "agent readiness",
         "memberIds": [
-          "T0049",
-          "T0235",
-          "T0259",
-          "T0313"
+          "T0031"
         ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "These talks describe memory as a persistent system, using consolidation, librarian-style context, graph memory, and a search-vs-memory split to preserve continuity over time."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "This is about whether the surrounding codebase and workflow can sustain longer autonomous agent execution without constant human intervention."
       },
       {
-        "canonicalTopic": "Agent-facing web interaction and rendered UI control",
+        "canonicalTopic": "proof-carrying code",
         "memberIds": [
-          "T0007",
-          "T0139",
-          "T0265"
+          "T0037"
         ],
-        "preferredExistingTopicSlug": "agentic-web",
-        "synthesis": "These candidates treat the web or rendered UI as the agent substrate, emphasizing delegated control, perception of the rendered interface, and HTML as the execution surface."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A verification-first model where code is only allowed to execute after a proof or equivalent guarantee has been checked."
       },
       {
-        "canonicalTopic": "Retrieval, context graphs, and navigable knowledge structures",
+        "canonicalTopic": "search precision and verification",
         "memberIds": [
-          "T0073",
-          "T0109",
-          "T0241",
-          "T0295",
-          "T0301"
+          "T0043",
+          "T0109"
         ],
         "preferredExistingTopicSlug": "agentic-search",
-        "synthesis": "These talks frame retrieval as a structured context layer, combining layered search, mixed-trust facts, context graphs, and auditable paths through navigable information."
+        "synthesis": "Both candidates describe retrieval systems that keep refining or verifying results until they are confident the user’s information need has actually been satisfied."
       },
       {
-        "canonicalTopic": "Ontology and semantic-layer representations",
+        "canonicalTopic": "feedback loops from deployment",
         "memberIds": [
-          "T0247",
-          "T0253"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "These candidates center on explicit concept graphs and formal semantic constraints as the backbone for how an organization models and reasons about its domain."
-      },
-      {
-        "canonicalTopic": "Sandbox persistence and agent runtime isolation",
-        "memberIds": [
+          "T0055",
           "T0115"
         ],
-        "preferredExistingTopicSlug": "ai-sandboxes",
-        "synthesis": "This candidate is about durable sandbox state that survives failures and long-running work, which is a core sandbox-runtime concern."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These are the same operational pattern: field use becomes product signal, and customer work feeds roadmap decisions."
       },
       {
-        "canonicalTopic": "Coding-agent workflows and production-operational patterns",
+        "canonicalTopic": "coding-agent loops",
         "memberIds": [
           "T0067",
-          "T0079",
-          "T0151",
-          "T0181",
-          "T0271",
-          "T0307"
+          "T0235",
+          "T0361"
         ],
         "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "These talks describe how coding agents are organized, observed, debugged, and extended in production, including separation of orchestration from reasoning, trace-based debugging, and flexibility in model or harness choice."
+        "synthesis": "All three describe agents doing structured code work in loops or through subagent orchestration, with the goal of producing small reviewable changes instead of large opaque ones."
       },
       {
-        "canonicalTopic": "Inference and rollout orchestration efficiency",
+        "canonicalTopic": "agent memory",
         "memberIds": [
-          "T0091",
-          "T0103",
-          "T0283"
+          "T0073",
+          "T0301",
+          "T0319",
+          "T0391"
         ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "These candidates are about moving work off the model, overlapping slow training or rollout phases, and optimizing local or device-constrained inference paths."
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "These candidates all focus on persistent memory substrates for agents: consolidation, file or video memory, and graph-backed replayable state."
       },
       {
-        "canonicalTopic": "Software-factory dynamics and market consolidation",
+        "canonicalTopic": "workflow automation",
         "memberIds": [
-          "T0085"
+          "T0085",
+          "T0307"
         ],
-        "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "This candidate is about the broader product-market shape of software-factory systems and how the category may consolidate over time."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Both candidates frame agents as automating multi-step professional workflows, including fan-out across specialists before a final decision."
       },
       {
-        "canonicalTopic": "Interactive microworlds for system understanding",
+        "canonicalTopic": "collaborative agent UI",
         "memberIds": [
+          "T0007",
+          "T0289"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These describe human-agent collaboration interfaces where people steer, supply ideas, and stay in the loop while agents execute quickly."
+      },
+      {
+        "canonicalTopic": "sandboxed agent execution",
+        "memberIds": [
+          "T0163",
           "T0169"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "This candidate is about using small interactive worlds as a way to understand a larger system by direct exploration."
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "These candidates all center on running agent work inside controlled execution environments, from secure sandbox fleets to hardware isolation and verification around sandboxed runs."
       },
       {
-        "canonicalTopic": "Comparative trait analysis of people or minds",
+        "canonicalTopic": "agentic web surfaces",
         "memberIds": [
-          "T0157"
+          "T0211",
+          "T0325"
+        ],
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "Both candidates are about agent-friendly UI and web substrate design: accessibility-tree control and HTML/CSS/JS as a medium agents can operate on directly."
+      },
+      {
+        "canonicalTopic": "context engineering",
+        "memberIds": [
+          "T0253",
+          "T0337",
+          "T0355"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "This candidate is about comparing notable minds across recurring dimensions to extract patterns rather than describing one person in isolation."
+        "synthesis": "These all describe building the context layer agents need: encoding business facts, turning documents into structured context, and representing work as connected context rather than isolated records."
       },
       {
-        "canonicalTopic": "Empty instructions and low-value skill content",
+        "canonicalTopic": "agent tiering and model routing",
+        "memberIds": [
+          "T0295",
+          "T0343",
+          "T0349"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates all argue for choosing different models or harnesses for different jobs instead of treating one model as the universal default."
+      },
+      {
+        "canonicalTopic": "agentic inference and imagination",
+        "memberIds": [
+          "T0205"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "This is a standalone framing that treats model progress as shifting value toward idea generation and imaginative synthesis."
+      },
+      {
+        "canonicalTopic": "systems of context",
+        "memberIds": [
+          "T0379"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates both emphasize that durable operational context and proprietary records matter more than isolated data points or generic model capability."
+      },
+      {
+        "canonicalTopic": "verifiable work product",
+        "memberIds": [
+          "T0385",
+          "T0313"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates focus on producing work that is both constrained by an enterprise process and verifiable enough to carry across regulated or structured domains."
+      },
+      {
+        "canonicalTopic": "agentic data/model infrastructure",
+        "memberIds": [
+          "T0013",
+          "T0145",
+          "T0157",
+          "T0229",
+          "T0265",
+          "T0271",
+          "T0331",
+          "T0367",
+          "T0373"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates are related only at a high level: they all describe supporting infrastructure or analytical models around agents, but they are distinct enough that no tighter merge is justified."
+      },
+      {
+        "canonicalTopic": "Two-layer agent architecture",
+        "memberIds": [
+          "T0097"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Separating boring orchestration from agentic reasoning to reduce risk and increase reliability."
+      },
+      {
+        "canonicalTopic": "Outcome-based pricing",
+        "memberIds": [
+          "T0103"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A pricing model where revenue is tied to delivered business outcomes."
+      },
+      {
+        "canonicalTopic": "Power and control tradeoff",
+        "memberIds": [
+          "T0121"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The tension between giving systems more capability and keeping them under user control."
+      },
+      {
+        "canonicalTopic": "Requirements scoping",
+        "memberIds": [
+          "T0139"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The discipline of getting clear on metrics, channels, and outcomes before implementation starts."
+      },
+      {
+        "canonicalTopic": "Productionizing Hacks",
+        "memberIds": [
+          "T0151"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The risk that temporary hacks become permanent support burdens once they reach production."
+      },
+      {
+        "canonicalTopic": "Cognitive debt",
+        "memberIds": [
+          "T0175"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The erosion of understanding and memory that can follow heavy reliance on agents."
+      },
+      {
+        "canonicalTopic": "Looped verification",
+        "memberIds": [
+          "T0187"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Agents that plan, execute, and verify work on a schedule or loop."
+      },
+      {
+        "canonicalTopic": "Transcript-to-Action Collaboration",
         "memberIds": [
           "T0193"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "This candidate isolates instructions that do not change behavior and should be removed because they add cost without value."
+        "synthesis": "Using non-screen inputs, such as meeting transcripts, to drive changes in the same workflow."
       },
       {
-        "canonicalTopic": "Process-Based Data",
-        "memberIds": [
-          "T0199"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Data derived from real workflows, reasoning traces, and decision sequences rather than only final outputs."
-      },
-      {
-        "canonicalTopic": "Map and territory",
+        "canonicalTopic": "cognitive debt",
         "memberIds": [
           "T0217"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "The distinction between what the operator thinks they know and the real constraints in the environment."
+        "synthesis": "The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up."
       },
       {
-        "canonicalTopic": "Black-box cyber evaluation",
+        "canonicalTopic": "Weather Forecasting Analogy",
         "memberIds": [
           "T0223"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Evaluating models in a live but hidden system with limited information and no source access."
+        "synthesis": "The speaker's organizing comparison that synthetic personas, like weather models, are bounded forecasts that need validation."
       },
       {
-        "canonicalTopic": "Simplicity versus customizability",
+        "canonicalTopic": "Grief and gain from AI coding",
         "memberIds": [
-          "T0289"
+          "T0277"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "The tension between simple out-of-the-box usage and the flexibility of custom local systems."
+        "synthesis": "The emotional and professional adjustment to faster, easier coding workflows."
+      },
+      {
+        "canonicalTopic": "Open source model adaptation",
+        "memberIds": [
+          "T0283"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using collaboration and post-training to adapt open source models for defense."
       }
     ]
   },
-  "payloadSha256": "sha256:b5365423a2e7d0bbd0e48dbf3a35cc74e973a8cf50cde4aba4dd74233022c757",
+  "payloadSha256": "sha256:d1acfd4736ac2483248ca3343d4f3cf8c0bdd1ff7b070b4070092b05d57fb7f9",
   "schemaVersion": 1
 }

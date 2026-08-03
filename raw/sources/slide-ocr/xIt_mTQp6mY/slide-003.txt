@@ -1,0 +1,13 @@
+World's Fair Control Theory
+
+Measured Controller System Disturbance
+Error Output Input d(t) System
+Set Point 4 e(t) u(t) u,(t) Output
+ee O- =
+
+Measured Output
+Yn(t)
+OpenA or mae
+ne ey Loop Engineering from First Principles | Kyle Mistele | @@xblacklight [ World's Fair |
+SI | iVY/ a ° i
+Me Engineering the future of Al

@@ -60,11 +60,11 @@ James Le argues that video AI is missing the equivalent of durable memory, so th
   - Evidence: "Um and again um now what can you build with with this sort of video memory layer based on example these are the categories of of application that I believe developers can build you can discover things you can view reasoning experience you can organize your content across different video library and you can view action workflow assemble uh different scene together do compliance review data operation etc."
 
 ### Topics Covered
-- **Video memory** — The need for a durable memory layer that makes video queries reusable instead of stateless.
+- [[agent-memory|Video memory]] — The need for a durable memory layer that makes video queries reusable instead of stateless.
 - [[agent-memory|Context graph]] — A queryable structure linking moments, appearances, entities, relationships, and corpus context.
 - [[agent-memory|Search versus memory]] — The distinction between retrieving candidates and preserving corpus-level continuity and knowledge.
-- [[agent-evaluations|Video worker harness]] — A deterministic operating model for video understanding that plans tasks, retrieves evidence, and validates outputs.
-- [[agent-reliability-and-durable-execution|Video cognition infrastructure]] — A systems-style way to productize video understanding as reusable infrastructure through memory and harnesses.
+- **Video worker harness** — A deterministic operating model for video understanding that plans tasks, retrieves evidence, and validates outputs.
+- **Video cognition infrastructure** — A systems-style way to productize video understanding as reusable infrastructure through memory and harnesses.
 - **Temporal multimodal continuity** — The importance of temporal order and multimodal signals in making video meaningful.
 
 ### Tools And Named Systems

@@ -68,12 +68,12 @@ Geoffrey Litt argues that the real bottleneck in the agent era is not just corre
   - Evidence: "And with the right tools and the right mindset and the right creativity, we can actually understand better than ever before, not less."
 
 ### Topics Covered
-- **understanding as participation** — The idea that the main challenge in agentic development is preserving human understanding, not just checking outputs.
-- [[agent-memory|cognitive debt]] — The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up.
-- **explanation design** — A teaching approach for code changes that starts with system background and intuition before details.
-- [[agent-evaluations|quiz-based comprehension]] — A learning technique that uses quizzes to verify genuine comprehension instead of passive reading.
-- **microworlds** — An interactive model of a system that lets a person explore its behavior directly.
-- **shared understanding** — A collaborative environment where humans and agents can reason about work together.
+- [[human-oversight-and-judgement|understanding as participation]] — The idea that the main challenge in agentic development is preserving human understanding, not just checking outputs.
+- [[forward-deployed-engineering|cognitive debt]] — The accumulation of lost context and degraded comprehension when agents accelerate work faster than people can keep up.
+- [[forward-deployed-engineering|explanation design]] — A teaching approach for code changes that starts with system background and intuition before details.
+- [[agent-memory|quiz-based comprehension]] — A learning technique that uses quizzes to verify genuine comprehension instead of passive reading.
+- [[forward-deployed-engineering|microworlds]] — An interactive model of a system that lets a person explore its behavior directly.
+- [[platform-context-and-collaboration|shared understanding]] — A collaborative environment where humans and agents can reason about work together.
 
 ### Tools And Named Systems
 - [[notion|Notion]] — The speaker uses Notion as a collaborative place for explainer docs, comments, and shared understanding.

@@ -1,0 +1,9 @@
+BAMLPlayground-aie Upgrade to Pro +口
+World's Fair AlEngineer Fpineline.baml A baml_src>ns_images)Fpipeline.baml sicix.output_roreat Fagent,bami A Fsimple.baml A Fcalc, BAML Playgroundx Openinbrowser
+inzges.Snproving_inage() Run Grapb Trace
+function inprcving_inagelgoal: string =a founder buiiding a progre OpoPsypound let ing:insge =generate_inage(goal); white（judge.score<e.9ssattpts1e） let judge:JudgeResponseevaluate_iage(ig,goal); let attepts:int; jodgeevatuate_inge(ing,goal): img = generate_i=age(goal); 2calls 2icalt FUNCTION user.ieages.lepro. -jauab-sabeug-gasa user.snages.evatu. QSearch functions ORICIN Uter user Uier SELFTIME 0.05es 067ss 0792es Tunction ortgin Thresd tiuser.iaages.g systes Inctude cails 9. 1648
+return fng: wser.inoges.AiGat- 2cale User 0.160s
+class JudgcResponse score: float, reason: string. 212.stagsed(generate. User 0.01es
+Fair impleoents baml.ToString functioo to_string(self)- string throus never( returnScore:s(self.score),Reason:siself.reason):
+main'+ Launchpadweek-2oOLve ShareGiGraph BAML Gero-T SereenAeader Optimfzed
+Engineering the future of Al

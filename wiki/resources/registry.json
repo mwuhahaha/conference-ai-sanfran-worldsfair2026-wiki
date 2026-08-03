@@ -145,6 +145,11 @@
     "path": "wiki/resources/youtube-T0HhO4YtTfE.md"
   },
   {
+    "id": "youtube-l0FLhNqBOic",
+    "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+    "path": "wiki/resources/youtube-l0FLhNqBOic.md"
+  },
+  {
     "id": "youtube-Iwe_RY-fYgI",
     "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
     "path": "wiki/resources/youtube-Iwe_RY-fYgI.md"
@@ -425,6 +430,11 @@
     "path": "wiki/resources/youtube--cKUW6n8hBU.md"
   },
   {
+    "id": "youtube-b_PmGocP4rc",
+    "title": "Evaling Video Slop — Maor Bril, Character.ai",
+    "path": "wiki/resources/youtube-b_PmGocP4rc.md"
+  },
+  {
     "id": "youtube-bk0TmxoZlUY",
     "title": "Evals 101 — Doug Guthrie, Braintrust",
     "path": "wiki/resources/youtube-bk0TmxoZlUY.md"
@@ -458,6 +468,11 @@
     "id": "youtube-9fubhllmsBU",
     "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
     "path": "wiki/resources/youtube-9fubhllmsBU.md"
+  },
+  {
+    "id": "youtube-KwhgfwOSToQ",
+    "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+    "path": "wiki/resources/youtube-KwhgfwOSToQ.md"
   },
   {
     "id": "youtube-APqXGyCoGW4",
@@ -565,6 +580,36 @@
     "path": "wiki/resources/youtube-DeFF3J8T5Pk.md"
   },
   {
+    "id": "youtube-RVxym6mmIns",
+    "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
+    "path": "wiki/resources/youtube-RVxym6mmIns.md"
+  },
+  {
+    "id": "youtube-7wu2hsRfvV0",
+    "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+    "path": "wiki/resources/youtube-7wu2hsRfvV0.md"
+  },
+  {
+    "id": "youtube-wpOA-UXynoM",
+    "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
+    "path": "wiki/resources/youtube-wpOA-UXynoM.md"
+  },
+  {
+    "id": "youtube-1OMHGsUZiqA",
+    "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+    "path": "wiki/resources/youtube-1OMHGsUZiqA.md"
+  },
+  {
+    "id": "youtube-ITMXwI6QL6A",
+    "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+    "path": "wiki/resources/youtube-ITMXwI6QL6A.md"
+  },
+  {
+    "id": "youtube-Tt2kX2sgQio",
+    "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+    "path": "wiki/resources/youtube-Tt2kX2sgQio.md"
+  },
+  {
     "id": "youtube-ZuiJjkbX0Og",
     "title": "How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
     "path": "wiki/resources/youtube-ZuiJjkbX0Og.md"
@@ -650,6 +695,11 @@
     "path": "wiki/resources/youtube-PmZDupFP3UM.md"
   },
   {
+    "id": "youtube-o6U_2vd967Y",
+    "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+    "path": "wiki/resources/youtube-o6U_2vd967Y.md"
+  },
+  {
     "id": "youtube-EyZiAp0pelw",
     "title": "Letting AI Interface with your App with MCP — Kent C Dodds",
     "path": "wiki/resources/youtube-EyZiAp0pelw.md"
@@ -668,6 +718,11 @@
     "id": "youtube-JsCCrBF7F1g",
     "title": "LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
     "path": "wiki/resources/youtube-JsCCrBF7F1g.md"
+  },
+  {
+    "id": "youtube-xIt_mTQp6mY",
+    "title": "Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
+    "path": "wiki/resources/youtube-xIt_mTQp6mY.md"
   },
   {
     "id": "youtube-MRM7oA3JsFs",
@@ -885,6 +940,11 @@
     "path": "wiki/resources/youtube-1t-9-s1brcg.md"
   },
   {
+    "id": "youtube-2xJoimgoqBg",
+    "title": "Security Track Intro — Randall Degges, Snyk",
+    "path": "wiki/resources/youtube-2xJoimgoqBg.md"
+  },
+  {
     "id": "youtube-zMiSRliEzv4",
     "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
     "path": "wiki/resources/youtube-zMiSRliEzv4.md"
@@ -893,6 +953,11 @@
     "id": "youtube-OV56RddyFuU",
     "title": "Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face",
     "path": "wiki/resources/youtube-OV56RddyFuU.md"
+  },
+  {
+    "id": "youtube-lyL5QhgIOxc",
+    "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+    "path": "wiki/resources/youtube-lyL5QhgIOxc.md"
   },
   {
     "id": "youtube-Fzb1a24hF-o",
@@ -1073,6 +1138,11 @@
     "id": "youtube-XV2oYi7kojc",
     "title": "The Desktop Frontier — Ahmad Osman, Osmantic",
     "path": "wiki/resources/youtube-XV2oYi7kojc.md"
+  },
+  {
+    "id": "youtube-Byv311hdoHE",
+    "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+    "path": "wiki/resources/youtube-Byv311hdoHE.md"
   },
   {
     "id": "youtube-F_RyElT_gJk",
@@ -1345,6 +1415,11 @@
     "path": "wiki/resources/youtube-EcqMYoIV57A.md"
   },
   {
+    "id": "youtube-Owb8g3yDyzo",
+    "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+    "path": "wiki/resources/youtube-Owb8g3yDyzo.md"
+  },
+  {
     "id": "youtube-B9h9ovW5H9U",
     "title": "Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
     "path": "wiki/resources/youtube-B9h9ovW5H9U.md"
@@ -1413,6 +1488,11 @@
     "id": "youtube-MpZzWMdmQCE",
     "title": "Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
     "path": "wiki/resources/youtube-MpZzWMdmQCE.md"
+  },
+  {
+    "id": "youtube-z0sh8HyTrDo",
+    "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+    "path": "wiki/resources/youtube-z0sh8HyTrDo.md"
   },
   {
     "id": "youtube-IQkVMvXQKLY",

@@ -57,10 +57,10 @@ Dan Farrelly's core thesis is that agent architectures decay quickly because tea
 
 ### Topics Covered
 - **Layered agent architecture** — The idea that agent systems should be organized into stable and volatile layers with different lifetimes.
-- [[agent-reliability-and-durable-execution|Durable execution]] — The use of durable, resumable execution as the stable core of an agent system.
-- [[coding-agents|Full-session observability]] — Capturing traces across the full run so long-running agents can be debugged and improved.
+- [[platform-context-and-collaboration|Durable execution]] — The use of durable, resumable execution as the stable core of an agent system.
+- [[agent-memory|Full-session observability]] — Capturing traces across the full run so long-running agents can be debugged and improved.
 - [[ai-sandboxes|Sandbox isolation]] — Using ephemeral sandboxes for code, browsing, and file work without treating them as the source of durability.
-- [[agent-reliability-and-durable-execution|Background agent loops]] — Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.
+- **Background agent loops** — Long-running background agents and looped workflows that combine scheduling, delegation, and inspection.
 
 ### Tools And Named Systems
 - **Inngest** — A durable execution platform the speaker uses as the concrete example of this architecture.

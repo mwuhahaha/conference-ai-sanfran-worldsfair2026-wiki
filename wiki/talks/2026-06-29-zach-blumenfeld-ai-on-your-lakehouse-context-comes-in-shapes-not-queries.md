@@ -58,10 +58,10 @@ Zach Blumenfeld argues that lakehouse copilots usually fail because they get the
   - Evidence: "If the data changes, it will change to reflect the data. So, it's very stable. The disadvantage to it would be if your links in your documents um, and the titles and things that are being scooped up, because this is really only looking basically at document metadata and link metadata."
 
 ### Topics Covered
-- [[inference-engineering|Lakehouse context]] — Using graph shapes to supply agents with the right context for lakehouse reasoning.
-- [[semantic-infrastructure-and-ontology|Semantic layers]] — A metadata graph that acts as a semantic layer over warehouse schemas.
-- [[agentic-search|Document navigation trees]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
-- **Theme discovery** — Community detection for surfacing corpus-wide clusters and hidden themes.
+- [[context-engineering-and-knowledge-architecture|Lakehouse context]] — Using graph shapes to supply agents with the right context for lakehouse reasoning.
+- [[context-engineering-and-knowledge-architecture|Semantic layers]] — A metadata graph that acts as a semantic layer over warehouse schemas.
+- [[platform-context-and-collaboration|Document navigation trees]] — A containment-tree view of documents with hierarchical links and drill-down navigation.
+- [[agentic-search|Theme discovery]] — Community detection for surfacing corpus-wide clusters and hidden themes.
 - [[agentic-search|Agentic query routing]] — An agent workflow that chains outline, search, and theme shapes to answer mixed structured and unstructured questions.
 
 ### Tools And Named Systems

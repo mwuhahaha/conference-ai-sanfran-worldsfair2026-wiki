@@ -1,0 +1,7 @@
+FINDING #2
+Same bug
+7 different services.
+Each team re-derived it.
+Counter Object created on every hot-path call. 0.5-4.6%
+self CPU per service. No catalog. Each service started from zero.
+RajatShah·Al Platform,Netflix

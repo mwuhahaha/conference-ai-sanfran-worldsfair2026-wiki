@@ -1,0 +1,210 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:30:52.319154+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:4f64109c4932ae1273f224a8b3fe8d84e1f2546fbf38dc091241a5ffae330b1f",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So today I want to talk about what I think works in the real world and what we've started doing at human layer which to be clear is still building loops right I think loops are super powerful but we can design loops and still read the code in fact we can design loops that",
+        "evidenceSegmentIds": [
+          "S0026"
+        ],
+        "support": "strong",
+        "text": "The speaker argues that loops are valuable in the real world, but they should be designed so humans can still read and improve the code rather than blindly generating huge changes."
+      },
+      {
+        "evidenceExcerpt": "Control theory is all about how we drive a dynamic system which would be your codebase towards some desired stable or optimal end state.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "support": "explicit",
+        "text": "He frames the core engineering model as control theory: measure the current state, compare it to a desired set point, generate a control signal, and apply incremental change."
+      },
+      {
+        "evidenceExcerpt": "Uh for our loop, we are incrementally migrating our RPC API to effect. We adopted it for some of our raceprone code.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "support": "explicit",
+        "text": "The talk presents an internal migration loop that scans for unmigrated procedures, tracks violations on main, and uses the results to guide incremental adoption of Effect."
+      },
+      {
+        "evidenceExcerpt": "And the way to do this is to just create a feedback file that's tracked in version control just as a markdown file, right?",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "support": "explicit",
+        "text": "He says low-friction human feedback can be built by storing loop instructions in a version-controlled markdown file and loading it into the agent each run."
+      },
+      {
+        "evidenceExcerpt": "And so now we just had all this like junk we had to deal with that wasn't important. So this is actually a really easy problem to fix uh because each loop and its workflow has a label that gets attached to PRs.",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "support": "explicit",
+        "text": "He also argues for flow control so each loop keeps at most one open PR at a time, preventing duplicated or stacked work that humans have not reviewed."
+      }
+    ],
+    "methodNotes": "I synthesized the talk around the speaker's control-theory framing, then selected transcript segments that explicitly support the thesis, the concrete loop architecture, and the operational safeguards. Each claim, topic, tool, method, takeaway, and question is tied to exactly one transcript segment ID, per instruction. I avoided using the opening hype setup as the basis for the summary and instead centered the mechanism, tradeoffs, and operational consequences described later in the talk.",
+    "methods": [
+      {
+        "description": "A control-loop workflow that measures a codebase property, chooses an incremental change, applies it, and re-measures on the next iteration.",
+        "evidenceExcerpt": "You have a controller that reads that measured error and turns it into a control signal about an incremental change to apply to the system.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Incremental control loop"
+      },
+      {
+        "description": "A deterministic pre-scan that finds and sorts violations on main before allowing incremental PRs to proceed.",
+        "evidenceExcerpt": "So, we're going to run a full scan once on main, sort all the violations deterministically, and track it in our version control.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Baseline-and-diff gating"
+      },
+      {
+        "description": "A tracked markdown feedback file loaded into agent context on every run so humans can steer the loop without editing the workflow live.",
+        "evidenceExcerpt": "And the way to do this is to just create a feedback file that's tracked in version control just as a markdown file, right?",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "Version-controlled feedback channel"
+      },
+      {
+        "description": "A PR label plus open-PR check that pauses a loop when the previous iteration is still awaiting review.",
+        "evidenceExcerpt": "When the workflow first runs uh before we check out the code and install the dependencies and run our sense actu or sense control actuate steps, we can just check and see if the last PR that we created or any PR with the loop's label on it is open.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "name": "Loop flow control"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But I want to zoom in on the controller a little bit because without one or without a welltuned one, we might make too large of a change all at once or we might make the wrong change entirely.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "question": "How should the controller be tuned so the agent makes the right-sized change instead of an overly large or wrong change?",
+        "whyItMatters": "The talk says a poorly tuned controller can cause trouble quickly, so tuning determines whether the loop stays safe and useful."
+      },
+      {
+        "evidenceExcerpt": "And so what we could do if we want to get really clever is we can look at our telemetry and figure out which procedures have the most errors or the least instrumentation or has a gap in our APM, right?",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "question": "What telemetry signals are most useful for choosing which code path to migrate when the goal is not just parity but better error handling and instrumentation?",
+        "whyItMatters": "The speaker suggests feeding telemetry into the control signal, but the best selection criteria are still an open design choice."
+      },
+      {
+        "evidenceExcerpt": "Fortunately, there's a lot of ways to pick up the the velocity of our loop. Uh we could have our controller pick three procedures to migrate instead of one at a time or five.",
+        "evidenceSegmentIds": [
+          "S0109"
+        ],
+        "question": "How far can a loop be sped up by batching several procedures or assigning multiple PRs before review cost, context separation, or conflicts erase the gains?",
+        "whyItMatters": "The talk proposes faster modes, but the safe upper bound is not established."
+      }
+    ],
+    "summary": "The talk argues that agentic software work should be built as control loops, not blind prompt-and-pray automation. The central mechanism is to define a measurable set point, detect the current state with sensors, choose an incremental change with a controller, and apply it through an agent acting inside a constrained workflow. The practical tradeoff is that the loop must stay small, deterministic, and reviewable: the speaker emphasizes baseline scans, feedback files, PR labels, and flow control so the team gets incremental progress without producing huge unreadable diffs or stacked work that humans cannot review.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "loops and to do that we start by defining a set point which is the desired end state of our codebase with respect to some property of it and we add a sensor there's a lot of ways to build a sensor it can be strictly deterministic your eslint rules your as GP, your pack",
+        "evidenceSegmentIds": [
+          "S0045"
+        ],
+        "text": "A useful loop starts by defining the desired end state, adding a sensor for the property you care about, and letting that measurement drive incremental change."
+      },
+      {
+        "evidenceExcerpt": "It's a great tool to have in your toolbox for building loops. It's language agnostic. It's out of band from your TypeScript config or ESLint rules, which if you're a TypeScript developer, you have watched Claude disable those with inline comments.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "text": "A good sensor can be deterministic and language agnostic, which makes tools like asgrep useful for finding violations outside normal project configuration."
+      },
+      {
+        "evidenceExcerpt": "You'll want to iterate on it over time based on what works. At human layer, we like to build out what we call golden patterns by hand before setting the agent loose.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "text": "The agent works better when it is given hand-built golden patterns and a response template instead of only generic internet-derived behavior."
+      },
+      {
+        "evidenceExcerpt": "Looks kind of like this. And the benefit of doing this way is that now that feedback file with instructions is tracked in your version control.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "text": "Tracking feedback in version control makes loop steering observable, reversible, and easier to refine over time."
+      },
+      {
+        "evidenceExcerpt": "This way we have exactly one PR at most open per loop at a time. No stacking, no duplication.",
+        "evidenceSegmentIds": [
+          "S0106"
+        ],
+        "text": "Limiting each loop to at most one open PR at a time prevents duplicated, conflicting, or unreviewed work from piling up."
+      }
+    ],
+    "tools": [
+      {
+        "description": "A language-agnostic search tool used to detect unmigrated procedures and other code patterns.",
+        "evidenceExcerpt": "We can have an agent do this or we could use GP or RIP Grep, but instead we're going to use as Grep because it's really powerful.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "asgrep"
+      },
+      {
+        "description": "A hosted CI platform suggested for running the loop because it already has repository, secret, and scheduling access.",
+        "evidenceExcerpt": "Now all we have to do is actually run the loop, right? Uh my recommendation is to use GitHub actions or your GitLab or your CircleCI or whatever else you're using because it has access to your code.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "GitHub Actions"
+      },
+      {
+        "description": "A version-control and CI platform mentioned as an alternative place to run the same loop workflow.",
+        "evidenceExcerpt": "Now all we have to do is actually run the loop, right? Uh my recommendation is to use GitHub actions or your GitLab or your CircleCI or whatever else you're using because it has access to your code.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "GitLab"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Designing software workflows as feedback systems with sensors, controllers, actuators, and incremental correction.",
+        "evidenceExcerpt": "Control theory is all about how we drive a dynamic system which would be your codebase towards some desired stable or optimal end state.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Control theory"
+      },
+      {
+        "description": "Using agent-driven automation to make small, reviewable code changes instead of large unreadable PRs.",
+        "evidenceExcerpt": "They're how we avoid PRs that look like this because nobody wants to review this, right? Which is not to say that all Ralph loops are blind loops.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "name": "Agentic code loops"
+      },
+      {
+        "description": "Constraining automation with baseline scans, open-PR checks, labels, and versioned feedback so human review remains manageable.",
+        "evidenceExcerpt": "And so now we just had all this like junk we had to deal with that wasn't important. So this is actually a really easy problem to fix uh because each loop and its workflow has a label that gets attached to PRs.",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "name": "Loop flow control"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:320487b06316a139b75311b772a8f2dfc63f1724c68d8076f6910848e3a1e3f9",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-kyle-mistele-loop-engineering-from-first-principles",
+  "talkTitle": "Loop Engineering from first principles",
+  "transcriptPath": "raw/sources/youtube-transcripts/xIt_mTQp6mY.txt",
+  "transcriptSha256": "sha256:b267c4569fd63a4d237fbe02c30f959c14575061ab52434f1ae2fae8303d1df2",
+  "videoId": "xIt_mTQp6mY"
+}

@@ -56,17 +56,17 @@ Sam Bhagwat argues that the software stack is moving from simple LLMs to agents,
   - Evidence: "So there's there's sort of like it either has to be very economically valuable or has to be very frequent."
 
 ### Topics Covered
-- [[software-factories|Harness era]] — The stage where the industry focus has shifted from agents to harnesses.
-- [[software-factories|Agentic spectrum]] — The ladder of autonomy from LLMs to agents to harnesses to claws.
+- [[agent-evaluations|Harness era]] — The stage where the industry focus has shifted from agents to harnesses.
+- [[observed-work-and-traceability|Agentic spectrum]] — The ladder of autonomy from LLMs to agents to harnesses to claws.
 - [[ai-sandboxes|Always-on cloud harnesses]] — Harnesses that run continuously in cloud sandboxes and broader collaboration surfaces.
-- [[software-factories|Claws]] — Harnesses that initiate work, listen to external events, and learn over time.
-- [[software-factories|Market shakeout]] — A future consolidation in which only a few high-value systems remain salient.
-- [[agent-security|Power and control tradeoff]] — The tension between giving systems more capability and keeping them under user control.
+- [[platform-context-and-collaboration|Claws]] — Harnesses that initiate work, listen to external events, and learn over time.
+- **Market shakeout** — A future consolidation in which only a few high-value systems remain salient.
+- [[platform-context-and-collaboration|Power and control tradeoff]] — The tension between giving systems more capability and keeping them under user control.
 
 ### Tools And Named Systems
 - [[slack|Slack]] — Collaboration surface used for always-on harness interaction.
 - [[github|GitHub]] — Destination for code changes created by the harness.
-- **WhatsApp** — Channel the harness can be pinged through.
+- [[whatsapp|WhatsApp]] — Channel the harness can be pinged through.
 - **Telegram** — Channel the harness can be pinged through.
 - **Android** — Platform cited as part of the 2010s mobile-platform shakeout example.
 - **iOS** — Platform cited as part of the 2010s mobile-platform shakeout example.

@@ -82,3 +82,10 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Supporting Slides
+- [[youtube-KMR_RBoCa4M-slides]] — extracted from the related public AI Engineer video.
+
+## Official YouTube Recording
+- [[youtube-KMR_RBoCa4M]] — official AI Engineer YouTube channel recording published 2026-07-29.
+- Evidence status: [[youtube-KMR_RBoCa4M-transcript]]; [[youtube-KMR_RBoCa4M-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

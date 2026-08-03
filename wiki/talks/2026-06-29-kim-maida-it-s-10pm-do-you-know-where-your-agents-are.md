@@ -60,7 +60,7 @@ The talk argues that agents should not be handed broad, long-lived API keys; ins
 - [[agent-security|Delegated authorization]] — Granting access on behalf of a user while preserving who the user is and what they are allowed to do.
 - [[agent-security|Ephemeral access tokens]] — Credentials that are short-lived, audience-bound, and discarded after the call finishes.
 - [[agent-security|Policy governance]] — Using governance rules to decide whether a requested action is allowed before any downstream token is issued.
-- [[mcp-app-runtime|Agent execution path]] — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
+- **Agent execution path** — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
 
 ### Tools And Named Systems
 - **RFC8693** — The token exchange RFC used as the standards basis for narrowing delegated access.

@@ -1,0 +1,243 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:33:43.124835+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:a3a5ef472e6ff6b43db7af7321c1be2c9127a2aaf17f0603d90260a476b533aa",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "We still remember Sora. But but but the part that got left behind is how we evaluate the quality of the video that was generated, right?",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that video generation has improved much faster than video evaluation, leaving quality judgment behind the state of the models."
+      },
+      {
+        "evidenceExcerpt": "We're using things like clip score, which is is great to to to judge a single frame. Things like LP IPS will help us kind of detect the drift between frames, but we don't have I mean but the problem is when you kind of combine all these together, all these tools are good at watching the individual frames.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "He says frame-level metrics and generic LLM judges can inspect individual frames or prompt match, but they do not reliably tell whether the video tells the intended story."
+      },
+      {
+        "evidenceExcerpt": "Where we also use human annotation to to calibrate the the LLM as a judge. So, for every report that we generate with that harness, we're able to have humans annotate it and basically feed that feedback back in into the the the LLM as a judge prompt to make sure that it's it's aligned with what I think or what the annotator thought is good.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "support": "explicit",
+        "text": "He reports that the team built a repeatable benchmark that combines metrics, an LLM judge, and human annotation to calibrate judge behavior."
+      },
+      {
+        "evidenceExcerpt": "It It um it scored the vibe as opposed to the the the axes. So, it it learned how to how to detect um cohe- coherent videos and it learned how to detect the the the the the the artificial artifacts.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "He says the first judge version failed because it learned video gloss and AI-versus-real artifacts instead of true video quality."
+      },
+      {
+        "evidenceExcerpt": "Now, the we we also tested a bigger model and the results were better, but it was significantly slower.",
+        "evidenceSegmentIds": [
+          "S0049"
+        ],
+        "support": "explicit",
+        "text": "He reports that the team chose a smaller vision-language model over a larger one because the larger model was slower and the extra quality did not justify the latency."
+      },
+      {
+        "evidenceExcerpt": "Right? But if I show you two videos and I'll ask you which one of them is telling a better story, the grand majority will probably agree that B is telling a better story than A, right?",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "support": "explicit",
+        "text": "He argues that pairwise comparisons are more reliable than absolute 1-to-10 scoring for subjective video quality judgments."
+      },
+      {
+        "evidenceExcerpt": "To an agentic workflow. The reason behind this is, a, the pipelines work great if you have a very very unique use case.",
+        "evidenceSegmentIds": [
+          "S0073"
+        ],
+        "support": "explicit",
+        "text": "He says the system moved from a complex pipeline to an agentic workflow so the generator can validate and repair its own outputs."
+      }
+    ],
+    "methodNotes": "Each item is tied to exactly one transcript segment, using the narrowest span that supports the text.",
+    "methods": [
+      {
+        "description": "Build a repeatable multimodal benchmark that can be rerun over time.",
+        "evidenceExcerpt": "And the answer varies. So, oops, sorry about that. So, our first iteration is like let's take all these things and build a repeatable benchmark on how we test video that we can rerun over and over and over again.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Repeatable benchmark"
+      },
+      {
+        "description": "Use human annotations to calibrate an automated judge.",
+        "evidenceExcerpt": "Where we also use human annotation to to calibrate the the LLM as a judge. So, for every report that we generate with that harness, we're able to have humans annotate it and basically feed that feedback back in into the the the LLM as a judge prompt to make sure that it's it's aligned with what I think or what the annotator thought is good.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Human-calibrated judge"
+      },
+      {
+        "description": "Train on pairwise preferences instead of absolute scores.",
+        "evidenceExcerpt": "we trained on pairs, right? Um uh A versus B as opposed to 1 through 10. Now, we manufactured badness.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Pairwise preference training"
+      },
+      {
+        "description": "Use a fast vision-language model to score video quality quickly enough for production use.",
+        "evidenceExcerpt": "Because we bought it closer to the generation, where in fact it takes about the model we have trained, it takes about 3 seconds to score a three 15 second video.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Fast VLM scoring"
+      },
+      {
+        "description": "Construct training data by pairing real footage with AI footage while keeping encoding and annotation consistent.",
+        "evidenceExcerpt": "So, the There are two things I did in order to avoid that. A, I made sure that the encoding is is consistent across both sides of of the equation.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Matched real-versus-AI pairs"
+      },
+      {
+        "description": "Move evaluation into the generation loop so failures are caught earlier and corrected more cheaply.",
+        "evidenceExcerpt": "So, if you can correct catch the drift at this point and correct it, then then it's much cheaper to generate the video as a whole because we we can correct it at a much cheaper cost.",
+        "evidenceSegmentIds": [
+          "S0036"
+        ],
+        "name": "In-loop evaluation"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "What about lip syncing? Lip syncing is an unsolved problem yet. One question. We're trying though.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "question": "How should lip syncing be evaluated when mouth motion does not reliably correspond to speech or animation timing?",
+        "whyItMatters": "The talk treats lip syncing as still unsolved, so it remains a key missing piece of the evaluation stack."
+      }
+    ],
+    "summary": "Maor Bril argues that video generation has improved much faster than video evaluation, so the real bottleneck is deciding whether a clip is coherent rather than producing one. His approach combines frame-level signals, a fast vision-language judge, and human calibration into a repeatable benchmark, then moves that evaluation as close to generation as possible so drift, physics mistakes, and audio mismatches are caught earlier and cheaper. A major design choice is to prefer pairwise comparisons and carefully constructed training data over absolute scoring, because the first judge version learned visual gloss and AI-versus-real artifacts instead of true quality. The practical consequence is a production-friendly eval wall that can explain why a clip is bad, not just whether it is bad.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "If you think about what is video, video is a storytelling medium. Video is just another form on how we tell a story, right?",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "text": "Treat video as a storytelling problem, not just a frame-by-frame similarity problem."
+      },
+      {
+        "evidenceExcerpt": "So, if you can correct catch the drift at this point and correct it, then then it's much cheaper to generate the video as a whole because we we can correct it at a much cheaper cost.",
+        "evidenceSegmentIds": [
+          "S0036"
+        ],
+        "text": "Catch failures as early in the generation process as possible, because fixing drift before composition is much cheaper."
+      },
+      {
+        "evidenceExcerpt": "Right? But if I show you two videos and I'll ask you which one of them is telling a better story, the grand majority will probably agree that B is telling a better story than A, right?",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "text": "Prefer pairwise comparisons over absolute ratings when the target is subjective quality."
+      },
+      {
+        "evidenceExcerpt": "Fair. Um so, how would you construct and align sort of like any human judges? Yeah. So, So, So, So, this is actually solved at first at the the the Judge Judy part, where every report it will generate a human can go and annotate it.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "text": "Keep human review in the loop so automated judges stay calibrated over time."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The open-sourced evaluation harness used as the working example for the talk.",
+        "evidenceExcerpt": "Fair. Um so, how would you construct and align sort of like any human judges? Yeah. So, So, So, So, this is actually solved at first at the the the Judge Judy part, where every report it will generate a human can go and annotate it.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "JudgeJudy"
+      },
+      {
+        "description": "The audio analysis component used to check whether sound quality is understandable.",
+        "evidenceExcerpt": "So, so so sound is actually a a combination of few things. One, I'm using Atmos to to to make sure that that that the the the sound quality is high enough and is understandable.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "Atmos"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The gap between better video generation and weaker evaluation methods.",
+        "evidenceExcerpt": "We still remember Sora. But but but the part that got left behind is how we evaluate the quality of the video that was generated, right?",
+        "evidenceSegmentIds": [
+          "S0004"
+        ],
+        "name": "Video evaluation"
+      },
+      {
+        "description": "The idea that a video must preserve an intended narrative, not only visual resemblance.",
+        "evidenceExcerpt": "If you think about what is video, video is a storytelling medium. Video is just another form on how we tell a story, right?",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "name": "Story coherence"
+      },
+      {
+        "description": "Whether content stays consistent across frames and shots over time.",
+        "evidenceExcerpt": "Does the character stay the same character across multiple shots? Does the pacing make sense?",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "name": "Temporal consistency"
+      },
+      {
+        "description": "Aligning audio events with the matching visual moment.",
+        "evidenceExcerpt": "Like for example, if someone is slamming a door, we want that that that that that that sound of the door being slammed to be exactly when the door is actually being slammed.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Audio-video synchronization"
+      },
+      {
+        "description": "Modeling quality as relative preference between two clips rather than an absolute score.",
+        "evidenceExcerpt": "Right? But if I show you two videos and I'll ask you which one of them is telling a better story, the grand majority will probably agree that B is telling a better story than A, right?",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Pairwise preference modeling"
+      },
+      {
+        "description": "Using periodic human review to keep an automated judge aligned with human taste.",
+        "evidenceExcerpt": "It'll It'll It'll be random. And I use the data to to calibrate the the AI judges. And and the results from that is actually being served as as a data set for for training for the next version of of that model.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "name": "Judge calibration"
+      },
+      {
+        "description": "Letting a generation system check and fix its own outputs through tools.",
+        "evidenceExcerpt": "So that's where it starts to drift. But by providing the agents with tools to validate the quality of of the outputs it's creating, it's able to adapt to changes better.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Agentic workflow"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:c4895912ea46fe0217356f6fb26903fed166a7ee854fa77c22c2ac3f5bb54ca1",
+  "schemaVersion": 1,
+  "talkId": "2026-06-30-maor-bril-evaling-video-slop",
+  "talkTitle": "Evaling Video Slop",
+  "transcriptPath": "raw/sources/youtube-transcripts/b_PmGocP4rc.txt",
+  "transcriptSha256": "sha256:7a56eab5823e7bad49d6ff0e8af90cfd8f0b978d8e719d9a22f1ace5a1b2cfb0",
+  "videoId": "b_PmGocP4rc"
+}

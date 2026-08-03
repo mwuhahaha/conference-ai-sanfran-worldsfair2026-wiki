@@ -16,7 +16,7 @@ Read first:
 official-media change, run the single authoritative update from this repository:
 
 ```bash
-wiki-from-topic-maker update . \
+python3 scripts/run_pinned_wiki_maker.py update . \
   --change-type media \
   --source raw/sources/official-wf26-video-manifest.json \
   --json
@@ -25,10 +25,13 @@ wiki-from-topic-maker update . \
 This is the production entry point for classification, transcript pages, talk
 synthesis, source enrichment, synthesis layers, evolution context,
 normalization, static export, relationship data, the agent product, validation,
-and local promotion. Direct generator or exporter scripts are for bounded
-stage-level debugging only and do not constitute a completed update. Source
-acquisition and audit tools may prepare inputs, but the resulting change must
-still pass through the maker.
+and local promotion. The wrapper validates the immutable project pin before
+loading the maker, so a different editable `wiki-from-topic-maker` checkout on
+`PATH` cannot silently replace the sandbox contract. If the pin is missing,
+run `python3 scripts/install_pinned_wiki_maker_runtime.py` first. Direct
+generator or exporter scripts are for bounded stage-level debugging only and
+do not constitute a completed update. Source acquisition and audit tools may
+prepare inputs, but the resulting change must still pass through the maker.
 
 The media profile has 18 ordered adapters. Preserve its fail-closed tail:
 `sanitize_public_text` -> `agent_source_index` -> `normalize_articles` ->

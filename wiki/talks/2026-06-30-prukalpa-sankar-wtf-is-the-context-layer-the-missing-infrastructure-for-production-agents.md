@@ -57,9 +57,9 @@ Prukalpa Sankar argues that the gap between smarter models and weak production o
 
 ### Topics Covered
 - [[agent-memory|Context layer]] — The shared infrastructure that turns business knowledge into reusable context for agents.
-- **Context engineering** — The work of encoding business facts, skills, and norms so agents can use them correctly.
+- [[agent-memory|Context engineering]] — The work of encoding business facts, skills, and norms so agents can use them correctly.
 - [[agent-memory|Context sprawl]] — The failure mode where agents learn separately and drift away from a single source of truth.
-- [[semantic-infrastructure-and-ontology|Shared company brain]] — A common repository of company knowledge, skills, and retrieval paths shared across agents.
+- [[agent-memory|Shared company brain]] — A common repository of company knowledge, skills, and retrieval paths shared across agents.
 - [[agent-memory|Trace-driven learning loops]] — A loop that turns traces from AI interactions into improved shared context over time.
 
 ### Tools And Named Systems

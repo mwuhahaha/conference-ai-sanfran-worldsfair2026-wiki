@@ -10,7 +10,7 @@ sourceAssessment:
   subjectId: concept:agent-security
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -18,16 +18,13 @@ sourceAssessment:
   - source:official-wf26-youtube--CnA2lGfymY
   - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-1EZdpEhwmNc
-  - source:official-wf26-youtube-8qWIPUia2O8
   - source:official-wf26-youtube-JvKO40CFq-s
   - source:official-wf26-youtube-OqM67QG_Ikk
-  - source:official-wf26-youtube-VrpEyglYgeU
   - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-jRCpXUjz4CI
-  - source:official-wf26-youtube-n97BCfyFIvw
   - source:official-wf26-youtube-uU5Gv2h8-9g
-sourceAssessmentBodySha256: sha256:d871df01f8bbeecf23660553b48d18de357dbdaf206e510a3dc05b61c2631c46
+sourceAssessmentBodySha256: sha256:523c2bf8b3378261b40fa321fbf945d23afe1f518d1a98694353a343a741565a
 ---
 # Agent Security
 
@@ -89,13 +86,19 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
 - [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?
+- [[2026-06-30-kenny-workman-latchbio]] — LatchBio
 - [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers]] — Training Frontier Models to Out-Think Hackers
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs]] — Citation Needed: Provenance for LLM-Built Knowledge Graphs
+- [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees]] — Build for the Memo, Not the Demo — Notes from 200 Investment Committees
+- [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services]] — How Kepler Built Verifiable AI for Financial Services
 - [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4]] — Active Graph Agent Runtime (BabyAGI 4)
 
 ## Slide-Derived Supporting Decks
 - [[youtube-1EZdpEhwmNc-slides]] — Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk (16 extracted slide frames)
 - [[youtube-1lgFGaHoGq8-slides]] — AI’s Jurassic Park Period — Aaron Stanley, dbt Labs (12 extracted slide frames)
+- [[youtube-2xJoimgoqBg-slides]] — Security Track Intro — Randall Degges, Snyk (13 extracted slide frames)
+- [[youtube-3ZMUiFaQ3qg-slides]] — Verifiable Environments for AI in Biology — Kenny Workman, LatchBio (7 extracted slide frames)
 - [[youtube-cgimkNGNjvU-slides]] — Agentic Development Security — Ezra Tanzer, Snyk (18 extracted slide frames)
 - [[youtube-H7puB0RwJMM-slides]] — Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI (5 extracted slide frames)
 - [[youtube-I3znWC3MEXM-slides]] — It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard (11 extracted slide frames)
@@ -106,62 +109,61 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[youtube-LqLoYksJ6do-slides]] — We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3 (5 extracted slide frames)
 - [[youtube-O-CBZ3JtRvo-slides]] — Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face (21 extracted slide frames)
 - [[youtube-OqM67QG_Ikk-slides]] — From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI (15 extracted slide frames)
+- [[youtube-s4r6nk5WsZw-slides]] — MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal (32 extracted slide frames)
+- [[youtube-tJFjeMBKbIY-slides]] — Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings (10 extracted slide frames)
+- [[youtube-Tt2kX2sgQio-slides]] — How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh (9 extracted slide frames)
+- [[youtube-Yk87oUPVaxU-slides]] — DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve (6 extracted slide frames)
 - [[youtube-yWS0udrIOc8-slides]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town (8 extracted slide frames)
+- [[youtube-ZFxh7sqbUZo-slides]] — Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd (14 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Transcript Digest Evidence
-This section synthesizes 39 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 33 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-These talks all focus on making agentic systems safe to run by inserting policy checks, authorization limits, verification gates, and supply-chain scrutiny before action. The common pattern is layered defense, but the emphasis varies between pre-execution governance, exploit replay and patch validation, prompt-injection resistance, and securing the broader dependency and tool surface.
+These proto-topics all describe the control plane for autonomous systems: permissions, provenance, supply-chain trust, policy enforcement, and the ways agents can be steered into unsafe actions. The shared concern is not just blocking attacks, but keeping powerful actions bounded so that security holds even when the agent is partially wrong or partially compromised.
 
 ### Constituent Talk Evidence
 - [[2026-06-29-aaron-stanley-ai-s-jurassic-park-period|AI’s Jurassic Park Period]] — The recurring failure pattern where an agent finds a path around restrictions without breaking out of its sandbox.
   - Transcript: [[youtube-1lgFGaHoGq8-transcript]]
   - Evidence: "It understood the constraint and it just decided that task completion mattered more. It picked the tool that let it proceed knowing that the tool didn't respect the constraint and then admits to it later and says, \"Oops, my bad.\" Here's another one."
-- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]] — The idea of attaching a proof to code so execution is allowed only after verification.
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]] — Using compiler methods like type checking and data-flow analysis on agent programs.
   - Transcript: [[youtube--CnA2lGfymY-transcript]]
-  - Evidence: "Now you would say Eric, oh you're a genius. No, I'm my brain is the size of a peanut. This is something that's called proof carrying code and it was invented by academics in the 1990s and I'm just stealing it."
-- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Separating recall-oriented discovery from precision-oriented confirmation.
+  - Evidence: "So now we're safe. We're home safe. And Jeff Huntley wanted to remind you that we can solve the trifecta problem just by doing taint analysis on these expression on these programs."
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Ranking findings by impact, likelihood, and business context before handing them to engineers.
   - Transcript: [[youtube-imFedndyXYQ-transcript]]
-  - Evidence: "Find as many vulnerabilities as possible. Verification optimizes for precision. Of the 100 vulnerabilities we found, how many of them are truly optim uh truly exploitable."
+  - Evidence: "What are the kinds of vulnerabilities you want to actually receive and fix? So as part of this step, we can do dduplication, you know, cheap heristic checks or we can get a model to help you with clustering and dduplication."
 - [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — Policies and controls for intercepting risky agent behavior before it executes.
   - Transcript: [[youtube-cgimkNGNjvU-transcript]]
   - Evidence: "Um, the last leg of this stool uh for agentic development security is governing agent behavior."
-- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]] — Using governance rules to decide whether a requested action is allowed before any downstream token is issued.
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]] — The problem of giving agents more authority than they need and the risks that follow.
   - Transcript: [[youtube-I3znWC3MEXM-transcript]]
-  - Evidence: "So now we need to decide if the requested token should in fact be granted. And we can do this using governance policy which is evaluated against the requested access and who's asking for what resource on whose behalf."
+  - Evidence: "Right? So agents with API keys are indeed outpass 10. They're overprivileged. So this means they are able to act freely on decisions that they make that you may or may not agree with."
 - [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — The idea that skills can hide malware, vulnerabilities, or externally controlled logic and therefore need review.
   - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
   - Evidence: "We found the research the seminal research around how skills a third of them or more than third of them in all of the skills, not just you know, open claw, clawed, code acts, these skills actually have malware and they have vulnerabilities that are being Three lines of English are able to now bring a system down."
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — Using tests and crafted repositories to check whether an agent can be manipulated by untrusted repository content.
   - Transcript: [[youtube-LqLoYksJ6do-transcript]]
   - Evidence: "Um there's another thing that we did um, which worked quite well, which is that we, um, we essentially implemented an end-to-end test where we created a repository and sent patch patch pilot added to just work on it."
-- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]] — The tension between giving systems more capability and keeping them under user control.
-  - Transcript: [[youtube-8qWIPUia2O8-transcript]]
-  - Evidence: "And so we furiously looked at the the you know the features that you know openclaw have that Hermes agent have and say and and we we've said like look you know a lot of people a lot of folks want these features but they want them with power and control."
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — The security risk created when private data, untrusted content, and external communication coexist in autonomous systems.
   - Transcript: [[youtube--I5W5QVAT8E-transcript]]
   - Evidence: "Let's start there. There's this concept called the lethal trifecta. Simon Wilson, I think, crafted this."
-- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]] — Treating security as a separate review pass from correctness and performance.
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]] — Restricting agent capabilities and permissions before autonomous systems are widely deployed.
   - Transcript: [[youtube-yWS0udrIOc8-transcript]]
-  - Evidence: "Just because of this multipass painting a wall phenomenon, you got to give them one task at a time, which means you can't give them security at the same time as you give them correctness."
-- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]] — The idea that humans remain accountable for evidence, understanding, and verdict even as agents do more work.
-  - Transcript: [[youtube-n97BCfyFIvw-transcript]]
-  - Evidence: "They're going to own the evidence. They're going to own the understanding as well as the verdict."
-- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — Using repository knowledge and explicit rules to steer agents before they write code.
-  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
-  - Evidence: "What we find is critically important is to think about guide as context and constraints and we separate out context and constraints very deliberately because context is you have your code repositories."
-- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — Using collaboration and post-training to adapt open source models for defense.
+  - Evidence: "So you got to have those supervisors. And so there's whole systems emerging here kind of can go out and go look at all of your things and say and start to like, you know, do do that hardening stuff like do they really need all those credentials on that service account really?"
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]] — A first-foothold vulnerability class where permissions and logic matter more than obvious bugs.
   - Transcript: [[youtube-O-CBZ3JtRvo-transcript]]
-  - Evidence: "I think also the only way to do that is through a real array of strong open source models and collaboration that we can post train on and that we can post train to each network and to each environment as well."
+  - Evidence: "It doesn't work. Um, and so we focus specifically on access control. Really quickly, why access control?"
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — Using explicit ontology rules as guardrails around probabilistic agent behavior.
   - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
   - Evidence: "And so, what I'd like to argue is that neuro-symbolic AI sort of represents a way to keep the LLM on its guardrails, because LLMs are by nature probabilistic."
 - [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — Controls for masking PII, classifying sensitive data, and enforcing user entitlements in AI systems.
   - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
   - Evidence: "This is a important one that I think AI makes more acute things that were that were accessible previously."
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you|Your Finance Agent's Bottleneck Is You]] — The need for explicit accountability and sign-off in finance deployments.
+  - Transcript: [[youtube-z0sh8HyTrDo-transcript]]
+  - Evidence: "So, what does it look like for orchestrating a team of sub agents in the finance sector? If we take AI out of the picture, usually what happens is you have a human auditor which reviews the code and you have a controller which signs off under your socks compliance."
 
 ## Connections
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
@@ -244,11 +246,11 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 40 | Related pages outside the main evidence categories. |
-| resources | 15 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 27 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 39 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| resources | 17 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 31 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 38 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 23 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 22 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
@@ -269,10 +271,10 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Slides
 - [[youtube-1EZdpEhwmNc-slides]]
 - [[youtube-1lgFGaHoGq8-slides]]
+- [[youtube-2xJoimgoqBg-slides]]
 - [[youtube-cgimkNGNjvU-slides]]
 - [[youtube-H7puB0RwJMM-slides]]
 - [[youtube-I3znWC3MEXM-slides]]
-- [[youtube-imFedndyXYQ-slides]]
 
 ### Transcripts
 - [[youtube-1lgFGaHoGq8-transcript]]
@@ -335,6 +337,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-LqLoYksJ6do`: case, docker, sandbox, access, repository, order, deterministic, give.
 - Slide-derived themes for `youtube-LqLoYksJ6do`: code, gave, production, access, tried, sleep, night, track.
 - Evidence links for `youtube-LqLoYksJ6do` (primary event evidence): [[youtube-LqLoYksJ6do]], [[youtube-LqLoYksJ6do-transcript]], [[youtube-LqLoYksJ6do-slides]]
+- `youtube-z0sh8HyTrDo` — 1,946 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-z0sh8HyTrDo`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-z0sh8HyTrDo`: production, human, look, finance, developer, code, loop, does.
+- Slide-derived themes for `youtube-z0sh8HyTrDo`: engineering, future, presented, most, finance, demos, look, great.
+- Evidence links for `youtube-z0sh8HyTrDo` (primary event evidence): [[youtube-z0sh8HyTrDo]], [[youtube-z0sh8HyTrDo-transcript]], [[youtube-z0sh8HyTrDo-slides]]
 - `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
@@ -369,6 +376,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Interpretation rule for `youtube-uU5Gv2h8-9g`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uU5Gv2h8-9g`: code, claude, prompt, been, cloud, model, mode, team.
 - Evidence links for `youtube-uU5Gv2h8-9g` (primary event evidence): [[youtube-uU5Gv2h8-9g]], [[youtube-uU5Gv2h8-9g-transcript]], [[youtube-uU5Gv2h8-9g-slides]]
+- `youtube-7wu2hsRfvV0` — 3,337 transcript words; 8 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-7wu2hsRfvV0`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-7wu2hsRfvV0`: forward, customer, customers, sure, deployed, product, back, deployment.
+- Slide-derived themes for `youtube-7wu2hsRfvV0`: track, june, conversational, platform, concierge, experiences, always, black.
+- Evidence links for `youtube-7wu2hsRfvV0` (primary event evidence): [[youtube-7wu2hsRfvV0]], [[youtube-7wu2hsRfvV0-transcript]], [[youtube-7wu2hsRfvV0-slides]]
 - `youtube-9HbzAWnKbo4` — 3,797 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-9HbzAWnKbo4`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-9HbzAWnKbo4`: skills, data, traces, maybe, running, well, signal, cloud.

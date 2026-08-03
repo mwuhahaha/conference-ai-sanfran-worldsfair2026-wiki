@@ -58,11 +58,11 @@ The talk’s central thesis is that a multimodal food-photo enhancement agent ca
   - Evidence: "So, this is an example of a reward hacking actually. And and this is a nugatory change, but something that we don't think is a meaningful or influential change despite the actual raw pixels of the input and output being pretty different."
 
 ### Topics Covered
-- **Multimodal routing** — The talk centers on routing, editing, and QA for a multimodal image agent.
-- **Merchant authenticity** — The system is designed to preserve merchant identity and user trust while improving photos.
-- [[agent-evaluations|Marketplace diversity]] — The speakers emphasize that edits should not collapse the visual diversity of the marketplace.
+- [[agent-evaluations|Multimodal routing]] — The talk centers on routing, editing, and QA for a multimodal image agent.
+- [[observed-work-and-traceability|Merchant authenticity]] — The system is designed to preserve merchant identity and user trust while improving photos.
+- **Marketplace diversity** — The speakers emphasize that edits should not collapse the visual diversity of the marketplace.
 - [[agent-evaluations|Reward hacking]] — The talk gives a concrete example of reward hacking in image-edit evaluation.
-- [[agent-evaluations|Closed-loop feedback]] — The system combines offline labeling, production sampling, and feedback-driven retraining.
+- **Closed-loop feedback** — The system combines offline labeling, production sampling, and feedback-driven retraining.
 - [[agent-evaluations|Segment-level evaluation]] — Production evaluation is broken down by slices such as geo, device type, and dish type.
 
 ### Tools And Named Systems

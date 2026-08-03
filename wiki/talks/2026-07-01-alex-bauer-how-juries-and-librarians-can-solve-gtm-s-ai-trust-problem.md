@@ -69,12 +69,12 @@ Alex Bauer argues that GTM AI has moved past simple hallucination and into a bro
   - Evidence: "So, basically, the general case here is any AI product where it's been crowbarred into a pre- subscription model is probably not something that you should be using for anything important because the margin on those plans just doesn't leave enough space for an intelligent reasoning model to work."
 
 ### Topics Covered
-- **AI Trust in GTM** — The shift from hallucination as a generic concern to wrong-but-confident business answers that undermine adoption.
-- [[model-capability-and-product-framing|Commander's Intent]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
-- [[semantic-infrastructure-and-ontology|Business Knowledge Scaffolding]] — Preparing company facts, capabilities, and personas as reusable reference material before generation.
+- [[forward-deployed-engineering|AI Trust in GTM]] — The shift from hallucination as a generic concern to wrong-but-confident business answers that undermine adoption.
+- [[forward-deployed-engineering|Commander's Intent]] — Prompting agents by explaining the desired outcome and context rather than micromanaging the steps.
+- [[context-engineering-and-knowledge-architecture|Business Knowledge Scaffolding]] — Preparing company facts, capabilities, and personas as reusable reference material before generation.
 - [[agent-memory|Librarian Memory]] — A pre-answer knowledge layer that gives agents company definitions, documentation, and failure history.
-- [[autoresearch|Jury-and-Judge Workflow]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
-- [[model-capability-and-product-framing|Agent Tiering]] — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
+- [[agent-evaluations|Jury-and-Judge Workflow]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
+- [[inference-engineering|Agent Tiering]] — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
 
 ### Tools And Named Systems
 - [[claude|Claude]] — The model the speaker uses as the agentic assistant that can still produce wrong business answers if unmanaged.

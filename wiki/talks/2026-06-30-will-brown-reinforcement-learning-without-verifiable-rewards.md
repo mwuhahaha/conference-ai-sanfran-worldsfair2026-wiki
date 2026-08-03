@@ -80,3 +80,10 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Supporting Slides
+- [[youtube-AQv3qRCG6Gw-slides]] — extracted from the related public AI Engineer video.
+
+## Official YouTube Recording
+- [[youtube-AQv3qRCG6Gw]] — official AI Engineer YouTube channel recording published 2026-07-31.
+- Evidence status: [[youtube-AQv3qRCG6Gw-transcript]]; [[youtube-AQv3qRCG6Gw-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

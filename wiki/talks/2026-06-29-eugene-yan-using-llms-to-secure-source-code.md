@@ -59,12 +59,12 @@ The talk argues that LLMs have crossed the threshold from bug-hunting novelty to
 
 ### Topics Covered
 - [[agent-security|LLM-assisted vulnerability discovery]] — Using language models to discover real vulnerabilities in source code and security systems.
-- **Threat modeling** — Turning implicit system knowledge into explicit written context for security analysis.
+- [[agent-security|Threat modeling]] — Turning implicit system knowledge into explicit written context for security analysis.
 - [[ai-sandboxes|Security sandboxes]] — Running exploit tests in isolated, reproducible environments to safely validate findings.
-- [[agent-security|Verification and precision]] — Separating recall-oriented discovery from precision-oriented confirmation.
+- [[agentic-search|Verification and precision]] — Separating recall-oriented discovery from precision-oriented confirmation.
 - [[agent-security|Security triage]] — Ranking findings by impact, likelihood, and business context before handing them to engineers.
 - [[agent-security|Patch validation loops]] — Validating fixes by testing the original exploit, preserving the test suite, and reattacking the patch.
-- [[coding-agents|Organizational bottlenecks]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
+- [[forward-deployed-engineering|Organizational bottlenecks]] — Operational constraints that become the limiting factor once model-assisted scanning is cheap.
 
 ### Tools And Named Systems
 - [[docker|Docker]] — Container platform used to build the representative sandbox with separate app, database, and cache images.

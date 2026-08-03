@@ -58,11 +58,11 @@ The talk argues that AI is changing cyber offense economics, but that same shift
   - Evidence: "and speed will be where you know you you want to have a specialized model that's maybe running on specialized hardware and actually is is going to be very important and here I think the the danger is to say we're just going to rely on two company that everyone knows here to solve all"
 
 ### Topics Covered
-- [[agent-security|Cyber economics]] — How frontier models are changing the attack and defense balance in cyber.
+- **Cyber economics** — How frontier models are changing the attack and defense balance in cyber.
 - [[agent-security|Access control]] — A first-foothold vulnerability class where permissions and logic matter more than obvious bugs.
-- **Black-box cyber evaluation** — Evaluating models in a live but hidden system with limited information and no source access.
+- [[agent-evaluations|Black-box cyber evaluation]] — Evaluating models in a live but hidden system with limited information and no source access.
 - [[agent-evaluations|Deterministic grading]] — Verifying each action in a long exploitation chain with machine-checkable scoring.
-- [[agent-security|Open source model adaptation]] — Using collaboration and post-training to adapt open source models for defense.
+- **Open source model adaptation** — Using collaboration and post-training to adapt open source models for defense.
 
 ### Tools And Named Systems
 - [[gpt-5-5|GPT 5.5]] — A model used in the live attempts against the benchmark task.

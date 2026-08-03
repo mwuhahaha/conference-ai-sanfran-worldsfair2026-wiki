@@ -1,0 +1,5 @@
+TRUST BUTVERIFY
+How we know the PRisn't noise
+Verify Logic
+Unit+ integration tests must pass first. break business logic. Optimization cannot:
+Rajat Shah:Ai Platform, Netflix

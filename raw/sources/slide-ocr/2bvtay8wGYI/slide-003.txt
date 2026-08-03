@@ -1,0 +1,8 @@
+p = )
+Engineer
+Ros What you'll hear today
+nee “~ The Journey So Far - a personal perspective
+- Microsoft . o Galactica, Llama, early RL efforts for LLMs
+© The Journey Ahead - a company perspective
+o What does it take to scale to long-horizon?
+Engineering the future of Al

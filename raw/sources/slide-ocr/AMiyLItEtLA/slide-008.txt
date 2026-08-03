@@ -1,0 +1,11 @@
+pipeline.baml-aie-1probleminthis lile.IndexAdded Upgrade to Pro
+World's Fair AlEngineer baml_srcns_mages)Fpipeline.baml) Fpipeline.bami Ax Fagent,baml A Fsimple.bamlA Fcalc,bami A Foiv.bamlA wAdujew main.bamlA
+12310151511181920 cllent:AiGatewcyImageninageClient prorot: Creote an inage fron this prospt:
+s(thing)
+euondinoxi)s
+open
+let judge: JudgeResponseD evaluate_Inage(ing,goal); let ing: fnsge=generate_inagelgoal;
+while(judge.score<e.9 Ssattepts<1e) let atte=pts:int=; judge = evaluate _inage(1ng, goal); inggenerate_image(goat); Gsecanus
+return irg;
+d's Fair mainLaunchpadwtek-2ooLve ShareGinGroph class JudgeResponse reason: string, score: float, BAML Ln24,Col1 SpCs:4 UTF-8 LF（BAML
+Engineering the future of Al

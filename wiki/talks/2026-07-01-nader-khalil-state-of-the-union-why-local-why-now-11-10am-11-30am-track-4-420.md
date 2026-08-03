@@ -62,7 +62,7 @@ The panel argues that local AI has moved from novelty to practicality because mo
 - [[inference-engineering|Data sovereignty and cost control]] — The argument that keeping data local helps with privacy, sovereignty, and cost control.
 - [[inference-engineering|Multimodel routing]] — The move toward routing work across multiple models instead of relying on a single universal model.
 - [[inference-engineering|Local inference optimization]] — How local performance is improved through tuning, quantization, and configuration on existing hardware.
-- **Simplicity versus customizability** — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
+- [[observed-work-and-traceability|Simplicity versus customizability]] — The tension between simple out-of-the-box usage and the flexibility of custom local systems.
 - **Point-and-click onboarding** — The need for ordinary users to get local AI running without specialist knowledge.
 - [[inference-engineering|Specialized distillation]] — Using broad models, consensus labeling, and curation to create specialized datasets and narrower models.
 - [[inference-engineering|Open-model advocacy]] — The defense of open models as a requirement for local AI freedom and adaptability.

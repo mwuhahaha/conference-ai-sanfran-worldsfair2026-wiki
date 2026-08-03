@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: tool:docker
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -25,7 +25,7 @@ sourceAssessment:
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-imFedndyXYQ
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:3696f8c0ad049de9098f71c20491cae6d810d47df42cdac85f772ea3ab1bb10a
+sourceAssessmentBodySha256: sha256:0b02069e9bb1ded66116fe068e84e5cf4876f78927ddc5f82e0bcdb2d289ab1a
 ---
 # Docker
 
@@ -35,7 +35,7 @@ Docker appears as a high-confidence tool, platform, model, protocol, product, or
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 2 evidence-bound talk digest(s).
+This section is generated from 3 evidence-bound talk digest(s).
 
 - [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]] — Container platform used to build the representative sandbox with separate app, database, and cache images.
   - Transcript: [[youtube-imFedndyXYQ-transcript]]
@@ -43,6 +43,9 @@ This section is generated from 2 evidence-bound talk digest(s).
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]] — The containerization technology that creates the Docker socket exposure discussed in the talk.
   - Transcript: [[youtube-LqLoYksJ6do-transcript]]
   - Evidence: "Um but our world is much more complicated than that, at least nowadays in our world since we have containers."
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you|Your Finance Agent's Bottleneck Is You]] — The container platform used to build and deploy images across environments.
+  - Transcript: [[youtube-z0sh8HyTrDo-transcript]]
+  - Evidence: "After merging it, obviously, you have to build a Docker image, deploy it into your development environment, test it, again ship build an image to your stage environment, test it, deploy it to stage."
 
 ## Confirmed Evidence
 

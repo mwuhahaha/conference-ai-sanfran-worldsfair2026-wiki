@@ -9,7 +9,7 @@ sourceAssessment:
   subjectId: tool:notion
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -18,7 +18,7 @@ sourceAssessment:
   - source:official-wf26-youtube--I5W5QVAT8E
   - source:official-wf26-youtube-WkBPX-oDMnA
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:851fc776e4c1ddee7af316097173bf9f788e9bf404151c26e056a588c706ef80
+sourceAssessmentBodySha256: sha256:c71d0a8a95faf8e8d847523bb59b1e9a12ec34a1d99ce93a622d46937de72d7f
 ---
 # Notion
 
@@ -26,11 +26,14 @@ sourceAssessmentBodySha256: sha256:851fc776e4c1ddee7af316097173bf9f788e9bf404151
 The knowledge-management platform named as one of the internal context sources for models.
 
 ## Transcript Digest Evidence
-This section is generated from 3 evidence-bound talk digest(s).
+This section is generated from 4 evidence-bound talk digest(s).
 
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The knowledge-management platform named as one of the internal context sources for models.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
   - Evidence: "And then for context, of course, you have all the different places you can hook up with MCPs, Slack and Notion, Linear, Data Dog, etc."
+- [[2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp|How Forward Deployed Engineering is done at Ramp]] — The company uses this workspace system as part of its request workflow and the speaker cites it as the medium for the intake flow.
+  - Transcript: [[youtube-ITMXwI6QL6A-transcript]]
+  - Evidence: "And um if you were to It's actually a Notion workflow. If any of you work at Notion, by the way, thank you."
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — The company platform the speaker describes as the durable system of record and collaboration layer for humans and agents.
   - Transcript: [[youtube--I5W5QVAT8E-transcript]]
   - Evidence: "Um, but this is just to give me some credit that that we're doing it kind of well. Okay, so for those of you that don't know, notion's always been that durable system of record."

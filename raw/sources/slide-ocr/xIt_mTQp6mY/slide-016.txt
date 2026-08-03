@@ -1,0 +1,14 @@
+World's Fair | Control Theory
+Measured Controller System Disturbance
+Error Output Input d(t) System
+; Set Point 4 e(t) j u(t) u,(t) Output
+ae :
+7 w(t) = y(t)
+Measured Output
+Vint)
+ae preteiar ay) ampee
+vB meee Loop Engineering from First Principles | Kyle Mistele | @Oxblacklight [ Works Fair
+By tein Bea or-llg
+i . : _ e i
+of Engineering the future of Al
+qtrur _—

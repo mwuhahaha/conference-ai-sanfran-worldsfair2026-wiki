@@ -1,0 +1,180 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:33:59.896686+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:1608ccd6482e038459ee7d989ba11c30ce6e6698109054e9370575ffa6444642",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And we are following event sourcing as our methodology to store the events. So, what happens is like whenever user initiate a command, so that goes into our event store as an event as a business fact.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that event sourcing gives the fraud system an append-only memory of business facts, because commands are stored as events instead of mutating state."
+      },
+      {
+        "evidenceExcerpt": "We we are just trying to handle few of the areas like that is the gray zone areas with the help of agentic AI processing.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the agent layer should not replace the existing rule-based or ML systems, but should handle only the gray-zone cases they struggle to classify."
+      },
+      {
+        "evidenceExcerpt": "And basically, like you could have a relational database or no SQL database. In turn, like you you need to just create the semantic layer for you to provide enough context to these AI agents.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that different bounded contexts, whether relational or NoSQL, still need a semantic layer to provide enough context for AI agents to decide well."
+      },
+      {
+        "evidenceExcerpt": "One is the risk analyzer agent, the other one is the behavior analyzer agent. And once these agents like come to a conclusion based on the different tools that it has, it will finally send the response to the verdict.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "support": "explicit",
+        "text": "The speaker reports a tier-two design where a risk analyzer agent and a behavior analyzer agent both contribute to a final verdict, which is then emitted as an event."
+      },
+      {
+        "evidenceExcerpt": "And you also need to have a memory layer. For this particular use case like we are using an inch um short memory because uh you you can't really um rely on the long-term memory because you need to um adhere to the uh SLA that you uh provided to the customers because for for the transaction uh to be processed like it should be sub 500 milliseconds.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "support": "explicit",
+        "text": "The speaker says the agent memory must be short-term and in-memory because the transaction flow has a sub-500 millisecond SLA."
+      }
+    ],
+    "methodNotes": "The talk centers on fraud detection inside event-sourced systems, using the transcript's described architecture rather than any outside verification. I treated claims as the speaker's assertions and selected one transcript segment per item as requested.",
+    "methods": [
+      {
+        "description": "Use event sourcing as the append-only memory layer for fraud-relevant business facts.",
+        "evidenceExcerpt": "And we are following event sourcing as our methodology to store the events. So, what happens is like whenever user initiate a command, so that goes into our event store as an event as a business fact.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "event sourcing"
+      },
+      {
+        "description": "Feed projections into a semantic layer through CDC or change feed so agents can query denormalized context.",
+        "evidenceExcerpt": "And what it really helped us to do is like once it arrives into the event store, so we have a kind of a mechanism called CDC or in no sequel word this is called as a change feed with which like whenever there is a change or update happens over a table, so you will be getting notified and those changes could be propagated into different read models.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "CDC-driven projection pipeline"
+      },
+      {
+        "description": "Fan out a single event to specialist agents, then combine their outputs in a verdict layer that emits the final outcome as an event.",
+        "evidenceExcerpt": "And we also had now the tier two layer, which is going to be agent AK processing. So, for this agent AK processing like we used fan out pattern.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "fan-out agent routing"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "But you should really know like when to stop this loop uh because uh this this depends uh this this is this might be varying.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "question": "What stop condition should govern agent reasoning loops for each fraud use case?",
+        "whyItMatters": "Without an explicit stop rule, the agent can loop too long or fail to converge on a decision."
+      },
+      {
+        "evidenceExcerpt": "And you also need to have a memory layer. For this particular use case like we are using an inch um short memory because uh you you can't really um rely on the long-term memory because you need to um adhere to the uh SLA that you uh provided to the customers because for for the transaction uh to be processed like it should be sub 500 milliseconds.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "question": "How can the semantic context stay rich enough for fraud reasoning while still meeting the sub-500 millisecond processing target?",
+        "whyItMatters": "The talk makes latency a hard constraint, so freshness and speed have to be balanced carefully."
+      },
+      {
+        "evidenceExcerpt": "Uh so, there are many false positive cases that we are that we faced. So, so we we in turn like we are trying to use a third agent in this verdict layer, which analyzes both the agents' responses and come to a conclusion, which is then going to be emitted as an event back to this message broker.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "question": "How should the verdict layer combine multiple agent outputs without recreating the same false-positive problem as the older rule-based system?",
+        "whyItMatters": "The speaker says false positives remain a real issue, so the aggregation strategy is not fully settled."
+      }
+    ],
+    "summary": "This talk argues that event-sourced systems already provide the memory fraud detection agents need, but the useful move is to add agents only where rule-based and ML systems are uncertain. The mechanism is a two-tier architecture: existing deterministic scoring handles most transactions, while projections fed from event streams build a semantic layer that specialist agents use to inspect transaction, account, device, and payment context. Those agents run in a bounded fan-out and a verdict layer emits a new event back into the saga, but the design carries real tradeoffs around latency, false positives, and loop control, so the practical consequence is a proactive fraud workflow that augments rather than replaces the existing event-driven system.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "We we are just trying to handle few of the areas like that is the gray zone areas with the help of agentic AI processing.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "text": "Keep the existing deterministic systems in place and use agents only for the ambiguous gray-zone cases."
+      },
+      {
+        "evidenceExcerpt": "So, the idea is like we need to gather all the data from all these different contexts and to have or build a semantic layer or you could call it as a materialized view which you could further use within your agent careful.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "text": "Build a semantic layer from projected events so agents can reason over cross-context context instead of isolated service data."
+      },
+      {
+        "evidenceExcerpt": "And you also need to have a memory layer. For this particular use case like we are using an inch um short memory because uh you you can't really um rely on the long-term memory because you need to um adhere to the uh SLA that you uh provided to the customers because for for the transaction uh to be processed like it should be sub 500 milliseconds.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "text": "Treat latency as a first-class design constraint by using short-term memory and in-memory state for agent decisions."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The event store the speaker says they are using for the architecture.",
+        "evidenceExcerpt": "And these entire informations are stored in our NoSQL database. We are currently using Cosmos DB as our event store.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "Cosmos DB"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Fraud detection built on event-sourced business facts and historical event streams.",
+        "evidenceExcerpt": "So, the domain that we are going to talk about is the real-time fraud detection as I mentioned before.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "event-sourced fraud detection"
+      },
+      {
+        "description": "Separate domain boundaries that keep transaction, account, device, and payment data isolated.",
+        "evidenceExcerpt": "So, this is our different bounded contexts that we have internally in our domain. So, the transaction context holds all the details about your transactions.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "bounded contexts"
+      },
+      {
+        "description": "A denormalized layer assembled from projections so agents can query cross-context state.",
+        "evidenceExcerpt": "So, the idea is like we need to gather all the data from all these different contexts and to have or build a semantic layer or you could call it as a materialized view which you could further use within your agent careful.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "name": "semantic layer"
+      },
+      {
+        "description": "A tier-two design that routes one event to multiple specialist agents before a final decision.",
+        "evidenceExcerpt": "And we also had now the tier two layer, which is going to be agent AK processing. So, for this agent AK processing like we used fan out pattern.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "name": "agent fan-out"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:db0d923cad4ad439aa4c5ea922888a01e4a9adee38fe732c773b48b59b3d002e",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems",
+  "talkTitle": "Let's integrate AI Agents in Event-Sourced Systems",
+  "transcriptPath": "raw/sources/youtube-transcripts/o6U_2vd967Y.txt",
+  "transcriptSha256": "sha256:db0466641fef9d021350e29b067d8f4c78c13f3f804d4b68ff57bd081fda22e2",
+  "videoId": "o6U_2vd967Y"
+}

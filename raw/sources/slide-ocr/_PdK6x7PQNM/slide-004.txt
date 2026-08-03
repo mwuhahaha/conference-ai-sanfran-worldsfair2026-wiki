@@ -1,0 +1,23 @@
+, Arcee Al’s Trinity Large model was trained on DatologyAl’s
+World's Fair curated data to build an open, fully US-made frontier model
+Rs
+e 3986 Total, 138 Active MoE
+© Trained on 17T of a 20T three-phase
+icc on dataset entirely curated by Datology,
+eee asa aS On a with minimal post-training in preview
+release
+a Microsoft . . * toned or bropeetary oote = entety
+derived from public datasets with no
+closed model usage
+e Trained along with two smaller models
+: {Trnity-Mini and Trinity-Nano) for $20
+7 . = million total, including salaries,
+compute, data with ~10 team members
+e Team trained their first model in June
+2025
+e Competitive with the open frontier and
+teams that have spent 100x as much
+. >)
+rent ng
+TRACK 9 + JUNE 30. 2026
+Data Quality

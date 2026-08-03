@@ -170,6 +170,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-l0FLhNqBOic-transcript",
+    "title": "Transcript: AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+    "path": "wiki/transcripts/youtube-l0FLhNqBOic-transcript.md",
+    "videoId": "l0FLhNqBOic",
+    "wordCount": 3881,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-Iwe_RY-fYgI-transcript",
     "title": "Transcript: AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
     "path": "wiki/transcripts/youtube-Iwe_RY-fYgI-transcript.md",
@@ -460,6 +470,16 @@
     "sourceRole": "primary_event_evidence"
   },
   {
+    "id": "youtube-b_PmGocP4rc-transcript",
+    "title": "Transcript: Evaling Video Slop — Maor Bril, Character.ai",
+    "path": "wiki/transcripts/youtube-b_PmGocP4rc-transcript.md",
+    "videoId": "b_PmGocP4rc",
+    "wordCount": 3746,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-bk0TmxoZlUY-transcript",
     "title": "Transcript: Evals 101 — Doug Guthrie, Braintrust",
     "path": "wiki/transcripts/youtube-bk0TmxoZlUY-transcript.md",
@@ -525,6 +545,16 @@
     "path": "wiki/transcripts/youtube-9fubhllmsBU-transcript.md",
     "videoId": "9fubhllmsBU",
     "wordCount": 3542,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-KwhgfwOSToQ-transcript",
+    "title": "Transcript: Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+    "path": "wiki/transcripts/youtube-KwhgfwOSToQ-transcript.md",
+    "videoId": "KwhgfwOSToQ",
+    "wordCount": 3202,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -650,6 +680,66 @@
     "sourceRole": "primary_event_evidence"
   },
   {
+    "id": "youtube-RVxym6mmIns-transcript",
+    "title": "Transcript: How Forward Deployed Engineering is done at Cognition — Jia Wu",
+    "path": "wiki/transcripts/youtube-RVxym6mmIns-transcript.md",
+    "videoId": "RVxym6mmIns",
+    "wordCount": 3530,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-7wu2hsRfvV0-transcript",
+    "title": "Transcript: How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+    "path": "wiki/transcripts/youtube-7wu2hsRfvV0-transcript.md",
+    "videoId": "7wu2hsRfvV0",
+    "wordCount": 3337,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-wpOA-UXynoM-transcript",
+    "title": "Transcript: How Forward Deployed Engineering is done at Factory — Eno Reyes",
+    "path": "wiki/transcripts/youtube-wpOA-UXynoM-transcript.md",
+    "videoId": "wpOA-UXynoM",
+    "wordCount": 3822,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-1OMHGsUZiqA-transcript",
+    "title": "Transcript: How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+    "path": "wiki/transcripts/youtube-1OMHGsUZiqA-transcript.md",
+    "videoId": "1OMHGsUZiqA",
+    "wordCount": 4041,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-ITMXwI6QL6A-transcript",
+    "title": "Transcript: How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+    "path": "wiki/transcripts/youtube-ITMXwI6QL6A-transcript.md",
+    "videoId": "ITMXwI6QL6A",
+    "wordCount": 2356,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-Tt2kX2sgQio-transcript",
+    "title": "Transcript: How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+    "path": "wiki/transcripts/youtube-Tt2kX2sgQio-transcript.md",
+    "videoId": "Tt2kX2sgQio",
+    "wordCount": 3846,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-KA5kPbdkK2E-transcript",
     "title": "Transcript: How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
     "path": "wiki/transcripts/youtube-KA5kPbdkK2E-transcript.md",
@@ -735,6 +825,26 @@
     "path": "wiki/transcripts/youtube-I3znWC3MEXM-transcript.md",
     "videoId": "I3znWC3MEXM",
     "wordCount": 3454,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-o6U_2vd967Y-transcript",
+    "title": "Transcript: Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+    "path": "wiki/transcripts/youtube-o6U_2vd967Y-transcript.md",
+    "videoId": "o6U_2vd967Y",
+    "wordCount": 3518,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-xIt_mTQp6mY-transcript",
+    "title": "Transcript: Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
+    "path": "wiki/transcripts/youtube-xIt_mTQp6mY-transcript.md",
+    "videoId": "xIt_mTQp6mY",
+    "wordCount": 3455,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -900,6 +1010,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-2xJoimgoqBg-transcript",
+    "title": "Transcript: Security Track Intro — Randall Degges, Snyk",
+    "path": "wiki/transcripts/youtube-2xJoimgoqBg-transcript.md",
+    "videoId": "2xJoimgoqBg",
+    "wordCount": 672,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-zMiSRliEzv4-transcript",
     "title": "Transcript: Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
     "path": "wiki/transcripts/youtube-zMiSRliEzv4-transcript.md",
@@ -908,6 +1028,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-lyL5QhgIOxc-transcript",
+    "title": "Transcript: Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+    "path": "wiki/transcripts/youtube-lyL5QhgIOxc-transcript.md",
+    "videoId": "lyL5QhgIOxc",
+    "wordCount": 1945,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-Xfl50508LZM-transcript",
@@ -1105,6 +1235,16 @@
     "path": "wiki/transcripts/youtube-XV2oYi7kojc-transcript.md",
     "videoId": "XV2oYi7kojc",
     "wordCount": 2590,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
+    "id": "youtube-Byv311hdoHE-transcript",
+    "title": "Transcript: The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+    "path": "wiki/transcripts/youtube-Byv311hdoHE-transcript.md",
+    "videoId": "Byv311hdoHE",
+    "wordCount": 3109,
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "admitted_official_wf26",
     "sourceRole": "primary_event_evidence"
@@ -1450,6 +1590,16 @@
     "sourceRole": "context_only"
   },
   {
+    "id": "youtube-Owb8g3yDyzo-transcript",
+    "title": "Transcript: Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+    "path": "wiki/transcripts/youtube-Owb8g3yDyzo-transcript.md",
+    "videoId": "Owb8g3yDyzo",
+    "wordCount": 2840,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
+  },
+  {
     "id": "youtube-qakTj_xI0gk-transcript",
     "title": "Transcript: Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026",
     "path": "wiki/transcripts/youtube-qakTj_xI0gk-transcript.md",
@@ -1558,6 +1708,16 @@
     "sourceLabel": "YouTube transcript",
     "manifestStatus": "not_admitted_official_wf26",
     "sourceRole": "context_only"
+  },
+  {
+    "id": "youtube-z0sh8HyTrDo-transcript",
+    "title": "Transcript: Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+    "path": "wiki/transcripts/youtube-z0sh8HyTrDo-transcript.md",
+    "videoId": "z0sh8HyTrDo",
+    "wordCount": 1946,
+    "sourceLabel": "YouTube transcript",
+    "manifestStatus": "admitted_official_wf26",
+    "sourceRole": "primary_event_evidence"
   },
   {
     "id": "youtube-IQkVMvXQKLY-transcript",

@@ -1,0 +1,14 @@
+Al Engineer ra a skill
+Hd's Fai Definition of a Skill e°
+oO s cs he abaty bo 40 sorereng wel
+A standardized way to teach Al agents how to do specific tasks
+well
+A shill is a dtectory Contain:ng, at mir:mum, a SKILL. ad file
+setll-rase/
+FE SKILL. # Required: metadata + instructions
+E/E scrapes? # Optbonal: ewecutable cade
+LE references/ # Optional: docusentation
+be assets/ # Optional: Cemplates, cesources
+es we & Any additional tales or directori¢s
+TRACK 3 * JULY 2, 2026
+Alin Finance

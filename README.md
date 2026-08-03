@@ -45,7 +45,7 @@ maintenance. From this repository, the authoritative official-media update is
 one pipeline command:
 
 ```bash
-wiki-from-topic-maker update . \
+python3 scripts/run_pinned_wiki_maker.py update . \
   --change-type media \
   --source raw/sources/official-wf26-video-manifest.json \
   --json
@@ -54,9 +54,11 @@ wiki-from-topic-maker update . \
 The maker computes a deterministic plan from the source change and profile,
 runs the configured adapters in a private candidate workspace, validates the
 public boundary, and promotes the validated wiki and static agent product
-locally. It does not deploy the site externally. The official YouTube monitor
-invokes this same update entry point once when it has admitted new event media;
-it does not maintain a separate generator chain.
+locally. The wrapper validates and loads the immutable project-pinned maker
+runtime; run `python3 scripts/install_pinned_wiki_maker_runtime.py` first if the
+pin is missing. It does not deploy the site externally. The official YouTube
+monitor invokes this same pinned update entry point once when it has admitted
+new event media; it does not maintain a separate generator chain.
 
 The reconciled official-media union contains 46 items: 33 playable playlist
 recordings, 3 admitted official event livestreams, 2 scheduled premieres, and

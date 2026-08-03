@@ -76,6 +76,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 ## Transcript-Derived Knowledge
 These pages are generated or augmented from evidence-validated official recording transcripts:
 
+- [[aws|AWS]]
 - [[azure|Azure]]
 - [[chatgpt|ChatGPT]]
 - [[claude|Claude]]
@@ -87,6 +88,7 @@ These pages are generated or augmented from evidence-validated official recordin
 - [[crosvm|CrosVM]]
 - [[cursor|Cursor]]
 - [[daytona|Daytona]]
+- [[decagon|Decagon]]
 - [[dgx-spark|DGX Spark]]
 - [[docker|Docker]]
 - [[dspy|DSPy]]
@@ -94,12 +96,14 @@ These pages are generated or augmented from evidence-validated official recordin
 - [[fable|Fable]]
 - [[fable-5|Fable 5]]
 - [[firecracker|Firecracker]]
+- [[foundry|Foundry]]
 - [[gemini|Gemini]]
 - [[git|Git]]
 - [[github|GitHub]]
 - [[gpt-5-5|GPT 5.5]]
 - [[gvisor|gVisor]]
 - [[jira|Jira]]
+- [[kubernetes|Kubernetes]]
 - [[kvm|KVM]]
 - [[llama|Llama]]
 - [[microsoft-iq|Microsoft IQ]]
@@ -120,4 +124,6 @@ These pages are generated or augmented from evidence-validated official recordin
 - [[virtio|virtio]]
 - [[vs-code|VS Code]]
 - [[vsock|Vsock]]
+- [[whatsapp|WhatsApp]]
+- [[windsurf|Windsurf]]
 - [[zep|Zep]]

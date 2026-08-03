@@ -56,10 +56,10 @@ Mike Phipps argues that the durable enterprise AI advantage is not the model, th
   - Evidence: "Okay, I've got a couple minutes. I'll kind of speed through this, but the the way eval relate to data modeling is that as you're doing eval, you find you find gaps."
 
 ### Topics Covered
-- [[model-capability-and-product-framing|AI moat]] — The idea that an organization’s durable AI advantage comes from its internal processes and tacit knowledge.
+- [[platform-context-and-collaboration|AI moat]] — The idea that an organization’s durable AI advantage comes from its internal processes and tacit knowledge.
 - [[agent-memory|Knowledge graph platform]] — A graph-based semantic layer that joins multiple systems of record into one traversable model.
-- [[semantic-infrastructure-and-ontology|Semantic document ingestion]] — The practice of turning unstructured documents into semantically meaningful graph content at ingestion time.
-- [[semantic-infrastructure-and-ontology|Hierarchical graph modeling]] — Graph structures that encode both additive DAGs and hierarchical rollups for organizational relationships.
+- [[agent-memory|Semantic document ingestion]] — The practice of turning unstructured documents into semantically meaningful graph content at ingestion time.
+- [[platform-context-and-collaboration|Hierarchical graph modeling]] — Graph structures that encode both additive DAGs and hierarchical rollups for organizational relationships.
 - [[agent-security|AI governance]] — Controls for masking PII, classifying sensitive data, and enforcing user entitlements in AI systems.
 - [[agent-evaluations|Graph evaluation loops]] — Using evals to identify ambiguities, missing schema detail, and mismatches with reporting conventions.
 

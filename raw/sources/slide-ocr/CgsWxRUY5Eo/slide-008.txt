@@ -1,0 +1,10 @@
+UNDER THE HOOD
+
+Every profiler speaks the same language
+async-profiler / JFR re ;
+
+Py-spy 7
+
+pprof
+
+PyTorch Profiler i 1

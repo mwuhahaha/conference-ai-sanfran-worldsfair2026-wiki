@@ -62,3 +62,10 @@ No linked video, transcript, or slide source has been attached yet.
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-_PdK6x7PQNM-slides]] — extracted from the related public AI Engineer video.
+
+## Official YouTube Recording
+- [[youtube-_PdK6x7PQNM]] — official AI Engineer YouTube channel recording published 2026-07-31.
+- Evidence status: [[youtube-_PdK6x7PQNM-transcript]]; [[youtube-_PdK6x7PQNM-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

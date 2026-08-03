@@ -67,7 +67,7 @@ Slides are first-class material in this wiki because many World’s Fair videos 
 - [[autoresearch]] — research agents, data quality, parameter golf, and scientific workflows.
 
 ## Slide/OCR Coverage
-- [[slide-library]] tracks 458 extracted video slide decks.
-- 3859 slide/frame images are embedded in deck pages.
-- 3785 extracted frames have non-empty local OCR text.
+- [[slide-library]] tracks 505 extracted video slide decks.
+- 4481 slide/frame images are embedded in deck pages.
+- 4403 extracted frames have non-empty local OCR text.
 - OCR is best-effort because most videos are full-stage captures rather than direct slide exports.

@@ -313,6 +313,142 @@ def test_cross_topic_validation_rejects_thin_cluster_but_keeps_valid_corpus() ->
     ]
 
 
+def topic_map_candidate(index: int) -> dict:
+    return {
+        "candidateId": f"T{index:04d}",
+        "talkId": f"talk-{index:04d}",
+        "talkTitle": f"Talk {index}",
+        "videoId": f"VIDEO{index:04d}",
+        "itemIndex": 0,
+        "name": f"Candidate topic {index}",
+        "description": (
+            f"Candidate {index} describes a source-bound engineering topic with "
+            "enough detail to remain a valid singleton when the model omits it."
+        ),
+    }
+
+
+def topic_map_cluster(index: int, member_ids: list[str]) -> dict:
+    return {
+        "canonicalTopic": f"Mapped topic {index}",
+        "synthesis": (
+            f"Mapped topic {index} groups source-bound candidates while preserving "
+            "their exact membership and the evidence boundary required by the map."
+        ),
+        "preferredExistingTopicSlug": "",
+        "memberIds": member_ids,
+    }
+
+
+def test_topic_map_cache_round_trip_accepts_completed_partition_above_raw_limit(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    _root, wiki, _raw = configure_project(tmp_path, monkeypatch)
+    candidates = [topic_map_candidate(index) for index in range(1, 67)]
+    raw_clusters = [
+        topic_map_cluster(1, ["T0001", "T0002"]),
+        topic_map_cluster(2, ["T0003", "T0004"]),
+    ]
+    raw_clusters.extend(
+        topic_map_cluster(index, [f"T{index + 2:04d}"])
+        for index in range(3, 61)
+    )
+    calls = []
+
+    def map_once(**_kwargs):
+        calls.append("model")
+        return {"clusters": raw_clusters}
+
+    monkeypatch.setattr(SYNTHESIS, "run_codex_structured", map_once)
+    monkeypatch.setattr(
+        SYNTHESIS,
+        "topic_map_batches",
+        lambda _candidates: [candidates],
+    )
+
+    first, first_hits, first_generated = SYNTHESIS.obtain_topic_maps(
+        candidates=candidates,
+        taxonomy=[],
+        model="test-model",
+        workers=1,
+        timeout_seconds=60,
+        refresh=False,
+    )
+    second, second_hits, second_generated = SYNTHESIS.obtain_topic_maps(
+        candidates=candidates,
+        taxonomy=[],
+        model="test-model",
+        workers=1,
+        timeout_seconds=60,
+        refresh=False,
+    )
+
+    assert calls == ["model"]
+    assert (first_hits, first_generated) == (0, 1)
+    assert (second_hits, second_generated) == (1, 0)
+    assert len(first[0]["payload"]["clusters"]) == 64
+    assert second == first
+    assert (
+        wiki / "resources" / "topic-synthesis-batches" / "batch-00.json"
+    ).is_file()
+
+
+def test_cached_topic_map_rejects_over_count_and_invalid_membership(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    _root, _wiki, _raw = configure_project(tmp_path, monkeypatch)
+    candidates = [topic_map_candidate(index) for index in range(1, 4)]
+    input_sha256 = "sha256:test-input"
+    path = SYNTHESIS.topic_map_cache_path(0)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    invalid_payloads = [
+        {
+            "clusters": [
+                topic_map_cluster(1, ["T0001"]),
+                topic_map_cluster(2, ["T0002"]),
+                topic_map_cluster(3, ["T0003"]),
+                topic_map_cluster(4, ["T0001"]),
+            ]
+        },
+        {
+            "clusters": [
+                topic_map_cluster(1, ["T0001", "T9999"]),
+                topic_map_cluster(2, ["T0002", "T0003"]),
+            ]
+        },
+    ]
+
+    for payload in invalid_payloads:
+        envelope = {
+            "schemaVersion": SYNTHESIS.DIGEST_SCHEMA_VERSION,
+            "generatedBy": SYNTHESIS.CROSS_TOPIC_MAP_GENERATOR_ID,
+            "algorithmVersion": SYNTHESIS.CROSS_TOPIC_ALGORITHM_VERSION,
+            "contractSha256": SYNTHESIS.cross_topic_contract_sha256(),
+            "inputSha256": input_sha256,
+            "model": "test-model",
+            "batchIndex": 0,
+            "candidateCount": len(candidates),
+            "payloadSha256": SYNTHESIS.sha256_bytes(
+                SYNTHESIS.canonical_json(payload)
+            ),
+            "payload": payload,
+        }
+        path.write_text(json.dumps(envelope), encoding="utf-8")
+
+        assert (
+            SYNTHESIS.load_cached_topic_map(
+                batch_index=0,
+                input_sha256=input_sha256,
+                candidates=candidates,
+                taxonomy=[],
+                model="test-model",
+            )
+            is None
+        )
+
+
 def test_build_jobs_requires_a_usable_transcript(tmp_path, monkeypatch) -> None:
     _root, wiki, raw = configure_project(tmp_path, monkeypatch)
     talk_id, video_id = write_talk_fixture(wiki, raw)

@@ -10,7 +10,7 @@ sourceAssessment:
   subjectId: concept:inference-engineering
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -20,13 +20,13 @@ sourceAssessment:
   - source:official-wf26-youtube-OqM67QG_Ikk
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-XV2oYi7kojc
-  - source:official-wf26-youtube-YnNF55QV0zs
-  - source:official-wf26-youtube-Z2Erdirpudo
+  - source:official-wf26-youtube-YZQsWVeN3rE
+  - source:official-wf26-youtube-ZpK5PWX2YRM
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
   - source:official-wf26-youtube-uIiA6DquRiE
-sourceAssessmentBodySha256: sha256:2e9619e9755197e353fc823153ce20a7b3a719cdd2793111a79f352dcd4179f7
+sourceAssessmentBodySha256: sha256:6683ebee48835570b0eab87dc4f91e69c31caa10eaa4c991d5ef58601ab32fd9
 ---
 # Inference Engineering
 
@@ -55,14 +55,20 @@ Invest in inference engineering once prototypes need predictable user experience
 - Optimizing voice and interactive applications for low latency.
 
 ## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub]] — Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub
+- [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier]] — Data Quality is the Compute Multiplier
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
 - [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement
 - [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]] — Why Agentic Systems Need Ontologies
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.
+- [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products]] — Skills are new features: Building Skill-Centric Harness for Agentic Products
 
 ## Slide-Derived Supporting Decks
 - [[youtube--I5W5QVAT8E-slides]] — Notion's Token Town — Sarah Sachs, Notion (12 extracted slide frames)
+- [[youtube-7jjudsEhBtM-slides]] — Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet (23 extracted slide frames)
+- [[youtube-_PdK6x7PQNM-slides]] — Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI (7 extracted slide frames)
+- [[youtube-lyL5QhgIOxc-slides]] — Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face (5 extracted slide frames)
 - [[youtube-mOf-PP4mVjA-slides]] — Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs (31 extracted slide frames)
 - [[youtube-q4Tr-DknG2M-slides]] —  (12 extracted slide frames)
 - [[youtube-Sir59K8ZDPU-slides]] — Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley (13 extracted slide frames)
@@ -72,48 +78,33 @@ Invest in inference engineering once prototypes need predictable user experience
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
 
 ## Transcript Digest Evidence
-This section synthesizes 23 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 18 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-These candidates focus on how runtime choices, local optimization, persistence, and rollout structure shape model behavior more than raw model size alone. The key variation is between compute-heavy scaling and system-level efficiency, with several talks arguing that useful capability often appears when harnesses, routing, and deployment constraints are improved together.
+These proto-topics describe the practical side of choosing, adapting, or running models efficiently: routing, specialization, local optimization, and open-weight control. The variation is whether the leverage comes from the model itself or from the surrounding runtime, but the shared idea is that the best system is usually not one universal model.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — Choosing the right host or environment for each agent task.
-  - Transcript: [[youtube-pMggiOb18tc-transcript]]
-  - Evidence: "My agent should be able to connect to any of my machines. They should know which work can be done in the cloud or which work requires my local machine."
-- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The compute, data-center, and chip expansion needed to support larger parallel training efforts.
-  - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
-  - Evidence: "Now, how we scale these loops, both the inner and outer loops, also comes down to scaling the amount of compute we have."
-- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — Moving deterministic or low-complexity work off LLMs and onto CPUs or lightweight services.
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]] — The shift from hardware-first to software-first AI performance gains.
+  - Transcript: [[youtube-uIiA6DquRiE-transcript]]
+  - Evidence: "So using diffusion LLMs to do faster inference and again this is a software change. And my main point is is that in general, hardware innovations are getting less and less important."
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]] — The need to own the model layer rather than depend on a single vendor or opaque runtime.
+  - Transcript: [[youtube-wpOA-UXynoM-transcript]]
+  - Evidence: "But what the platform that we've built basically provides to people are the canonical one model independent agent harness that you need to do this, because if you want to build a software factory, if you choose to build that software factory in a vendor locked solution that has like one model available to it,"
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
   - Transcript: [[youtube--I5W5QVAT8E-transcript]]
-  - Evidence: "So, be prepared now. And the last thing is CPUs over GPUs. Um, we've we've recently launched something at notion called workers."
-- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — Training and rollout management that overlaps slow episodes by keeping inference and training separate.
-  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
-  - Evidence: "And so Primer RL has been async from the ground up. Uh so I think async RL is one of those things that I think people were kind of one foot in and one foot out and a lot of training frameworks you see them uh will still kind of support synchronous training."
-- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]] — Using graph shapes to supply agents with the right context for lakehouse reasoning.
-  - Transcript: [[youtube-kRkcNOsRyYg-transcript]]
-  - Evidence: "times what can happen is you're given these tools like text to SQL and vector search and nowadays we don't really have trouble accessing that data Um, but sometimes there are still some challenges around how do you give your agent the right type of context, whether or not they can see all the data"
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']] — The choice of isolation primitive for a single sandboxed workload.
-  - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
-  - Evidence: "There are many many parts of a sandbox cloud, but we'll specifically focus on runtime. So, how can we run uh sandbox on one node securely?"
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']] — Saving sandbox state so long-running tasks can resume after failure or backtrack across branches.
-  - Transcript: [[youtube-OqM67QG_Ikk-transcript]]
-  - Evidence: "And let's go into like three big use cases on what persistence can unlock, right? So, counterintuitively, persistence actually helps reliability and scale."
-- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Publishing one's reasoning and stream of consciousness for others to inspect.
-  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
-  - Evidence: "But what about thinking in public? And it's basically what PG is doing, thinking in public."
-- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]] — The need to provide enough world context in the prompt so the model does not infer hidden variables.
-  - Transcript: [[youtube-YnNF55QV0zs-transcript]]
-  - Evidence: "And maybe this is a rich person, so they're more likely to purchase. And so the lesson is, we need to richly ground our personas in the personality, the context, and bizarrely, even the study's own construction."
-- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]] — Performance work on smaller devices through tuning, quantization, and configuration.
+  - Evidence: "One option to navigate this is stay model agnostic. Have different models and capabilities in your system so that at any point if pricing seems unfair or untenable, you are not out of business."
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]] — A change-routing approach that assigns the right proof method to each piece of work.
+  - Transcript: [[youtube-ZpK5PWX2YRM-transcript]]
+  - Evidence: "This is the your Monday artifact. Routing the change where the proof needs it. Routing the change to the proof that it needs."
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — Choosing sufficiently capable models and harnesses for important tasks instead of using weak wrappers.
+  - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
+  - Evidence: "So, find something that is at least tier two here and tier two means it's got to be a powerful model."
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]] — Choosing different models for planning, execution, and other tasks based on cost and capability.
   - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
-  - Evidence: "Uh doing a lot of work with the like tuning the models like quantizing the models uh to you know be fit for local."
-- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — The talk's main claim that local AI has crossed an inflection point because models and harnesses improved together.
+  - Evidence: "Of course, you need to route between the models, but then you have to figure out how to provide necessary context to whichever model you're routing to."
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]] — The move toward routing work across multiple models instead of relying on a single universal model.
   - Transcript: [[youtube-KB41dTlX1Uc-transcript]]
-  - Evidence: "And the reason why is we hit an inflection point this year. Not only did the models get really good, but the harnesses got really good."
-- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Using policies to constrain edits, approvals, and safe self-modification.
-  - Transcript: [[youtube-khVX_BUnEwU-transcript]]
-  - Evidence: "I'll come back to it, but for example, things like a source article that you found in research, you might be fine with adding, but if you're changing a prompt, maybe you want human in the loop."
+  - Evidence: "And and that is because they're using a mixture of different models. You don't need the top model for every single use case and in fact most use cases you don't uh I think the most obvious application is let the top model plan uh the the architecture whatever the kind of top level plan is and then the actual execution of the code can go to uh a more reasonably priced smaller model."
 
 ## Connections
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
@@ -207,95 +198,104 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 63 | Related pages outside the main evidence categories. |
-| resources | 11 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 28 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 39 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
-| transcripts | 15 | Transcript markdown; check session matching and caption quality. |
+| resources | 14 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 34 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 36 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 14 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
+- [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub]]
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]]
 - [[2026-06-29-lee-robinson-recursive-model-improvement]]
 - [[2026-06-29-sarah-sachs-notion-s-token-town]]
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]]
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
 
 ### Resources
 - [[youtube-pMggiOb18tc]]
-- [[youtube-V-EDrhIhHzQ]]
-- [[youtube-OqM67QG_Ikk]]
-- [[youtube-I2cbIws9j10]]
-- [[youtube-iCj_ATyThvc]]
 - [[youtube-uIiA6DquRiE]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-I2cbIws9j10]]
+- [[youtube-OqM67QG_Ikk]]
+- [[youtube-iCj_ATyThvc]]
 
 ### Slides
 - [[youtube--I5W5QVAT8E-slides]]
+- [[youtube-lyL5QhgIOxc-slides]]
 - [[youtube-mOf-PP4mVjA-slides]]
 - [[youtube-q4Tr-DknG2M-slides]]
 - [[youtube-Sir59K8ZDPU-slides]]
 - [[youtube-uIiA6DquRiE-slides]]
-- [[youtube-XV2oYi7kojc-slides]]
 
 ### Transcripts
-- [[youtube-pMggiOb18tc-transcript]]
-- [[youtube-q4Tr-DknG2M-transcript]]
+- [[youtube-uIiA6DquRiE-transcript]]
+- [[youtube-wpOA-UXynoM-transcript]]
 - [[youtube--I5W5QVAT8E-transcript]]
-- [[youtube-V-EDrhIhHzQ-transcript]]
-- [[youtube-kRkcNOsRyYg-transcript]]
-- [[youtube-OqM67QG_Ikk-transcript]]
+- [[youtube-ZpK5PWX2YRM-transcript]]
+- [[youtube-YZQsWVeN3rE-transcript]]
+- [[youtube-KB41dTlX1Uc-transcript]]
 ## Evidence Graph
 This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
 
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
-- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]]
-- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]]
-- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
-- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]]
-- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]]
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]]
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production|Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
 
 ### Media Signals
-- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-V-EDrhIhHzQ`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
-- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
-- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
-- `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
-- Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
-- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-iCj_ATyThvc` — 1,795 transcript words; 4 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-iCj_ATyThvc`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
-- Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
-- Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
 - `youtube-uIiA6DquRiE` — 25,283 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-uIiA6DquRiE`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-uIiA6DquRiE`: model, models, source, open, benchmark, question, okay, accuracy.
 - Slide-derived themes for `youtube-uIiA6DquRiE`: smaller, model, high, extra, license, businesses, users, open.
 - Evidence links for `youtube-uIiA6DquRiE` (primary event evidence): [[youtube-uIiA6DquRiE]], [[youtube-uIiA6DquRiE-transcript]], [[youtube-uIiA6DquRiE-slides]]
+- `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-V-EDrhIhHzQ`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
+- Slide-derived themes for `youtube-V-EDrhIhHzQ`: engineering, future, prime, intellect, stack, open.
+- Evidence links for `youtube-V-EDrhIhHzQ` (primary event evidence): [[youtube-V-EDrhIhHzQ]], [[youtube-V-EDrhIhHzQ-transcript]], [[youtube-V-EDrhIhHzQ-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I2cbIws9j10`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10` (primary event evidence): [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-OqM67QG_Ikk` — 7,738 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-OqM67QG_Ikk`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-OqM67QG_Ikk`: kernel, many, system, code, host, guest, block, running.
+- Slide-derived themes for `youtube-OqM67QG_Ikk`: engineering, sandbox, platform, track, july, security, fork, fleet.
+- Evidence links for `youtube-OqM67QG_Ikk` (primary event evidence): [[youtube-OqM67QG_Ikk]], [[youtube-OqM67QG_Ikk-transcript]], [[youtube-OqM67QG_Ikk-slides]]
+- `youtube-iCj_ATyThvc` — 1,795 transcript words; 4 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-iCj_ATyThvc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-iCj_ATyThvc`: research, auto, aiden, human, training, ideas, data, competition.
+- Slide-derived themes for `youtube-iCj_ATyThvc`: code, golf, neural, networks, train, best, language, model.
+- Evidence links for `youtube-iCj_ATyThvc` (primary event evidence): [[youtube-iCj_ATyThvc]], [[youtube-iCj_ATyThvc-transcript]], [[youtube-iCj_ATyThvc-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-4sX_He5c4sI`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: lots, examples, stream, starts, july, land, king, chief.
 - Evidence links for `youtube-4sX_He5c4sI` (primary event evidence): [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-KwhgfwOSToQ` — 3,202 transcript words; role: primary event evidence.
+- Interpretation rule for `youtube-KwhgfwOSToQ`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-KwhgfwOSToQ`: platform, okay, software, customer, palunteer, does, foundry, data.
+- Evidence links for `youtube-KwhgfwOSToQ` (primary event evidence): [[youtube-KwhgfwOSToQ]], [[youtube-KwhgfwOSToQ-transcript]], [[youtube-KwhgfwOSToQ-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-htM02KMNZnk`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-z0sh8HyTrDo` — 1,946 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-z0sh8HyTrDo`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-z0sh8HyTrDo`: production, human, look, finance, developer, code, loop, does.
+- Slide-derived themes for `youtube-z0sh8HyTrDo`: engineering, future, presented, most, finance, demos, look, great.
+- Evidence links for `youtube-z0sh8HyTrDo` (primary event evidence): [[youtube-z0sh8HyTrDo]], [[youtube-z0sh8HyTrDo-transcript]], [[youtube-z0sh8HyTrDo-slides]]
 - `youtube-gmTHs5T_YAE` — source page linked; role: supporting context only.
 - Evidence links for `youtube-gmTHs5T_YAE` (supporting context only): [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
 - `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals; role: supporting context only.
@@ -304,3 +304,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
 - Evidence links for `youtube-tzRvcTEapzo` (supporting context only): [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals; role: supporting context only.
+- Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
+- Evidence links for `youtube-OkEGJ5G3foU` (supporting context only): [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]

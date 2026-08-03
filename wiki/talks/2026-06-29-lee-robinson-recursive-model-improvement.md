@@ -60,12 +60,12 @@ Robinson's central argument is that model progress at Cursor comes from a recurs
   - Evidence: "The last bit here is that the model is learning to train the next model. And it it it's a little hard to wrap your brain around."
 
 ### Topics Covered
-- [[inference-engineering|Recursive model improvement]] — The recursive flywheel where model output, feedback, evals, training, and compute reinforce one another.
-- [[human-oversight-and-review-dynamics|Outer loop feedback]] — User and product feedback that shapes the next round of training data and model behavior.
+- [[autoresearch|Recursive model improvement]] — The recursive flywheel where model output, feedback, evals, training, and compute reinforce one another.
+- [[agent-evaluations|Outer loop feedback]] — User and product feedback that shapes the next round of training data and model behavior.
 - [[agent-evaluations|Inner loop evals]] — High-quality evals and difficult tasks used to measure and accelerate model progress.
 - [[agent-evaluations|Benchmark integrity]] — Controls and benchmark design choices that prevent models from gaming evaluation results.
-- [[agent-evaluations|Textual feedback]] — A training signal that gives the model a localized hint about how to improve a specific rollout.
-- [[inference-engineering|Compute scaling]] — The compute, data-center, and chip expansion needed to support larger parallel training efforts.
+- **Textual feedback** — A training signal that gives the model a localized hint about how to improve a specific rollout.
+- **Compute scaling** — The compute, data-center, and chip expansion needed to support larger parallel training efforts.
 - [[autoresearch|Agentic research automation]] — Using agents to launch experiments and reduce human bottlenecks in research operations.
 
 ### Tools And Named Systems

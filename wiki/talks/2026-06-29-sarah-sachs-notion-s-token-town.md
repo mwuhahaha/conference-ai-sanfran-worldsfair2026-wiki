@@ -61,20 +61,20 @@ Sarah Sachs argues that the real problem in building AI-native products is not j
 
 ### Topics Covered
 - **Token economics** — The economics of buying and reselling model tokens, including margin pressure and vendor leverage.
-- [[model-capability-and-product-framing|Model optionality]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
+- [[inference-engineering|Model optionality]] — A product strategy that keeps multiple models available and avoids locking the business to one provider.
 - [[agent-evaluations|Trajectory evaluation]] — Judging providers by end-to-end task outcomes rather than by single-call metrics.
-- [[model-capability-and-product-framing|Open-weight models]] — Using open-weight models as a practical alternative for many production tasks.
+- [[inference-engineering|Open-weight models]] — Using open-weight models as a practical alternative for many production tasks.
 - [[inference-engineering|CPU offload]] — Moving deterministic or low-complexity work off LLMs and onto CPUs or lightweight services.
 - [[agent-security|Lethal trifecta]] — The security risk created when private data, untrusted content, and external communication coexist in autonomous systems.
-- [[active-documents-and-live-work-surfaces|Active documents]] — Collaborative documents that act as live work surfaces for humans and agents.
-- [[software-factories|Multi-agent orchestration]] — Coordinating multiple agents and humans across a software delivery workflow.
+- [[context-engineering-and-knowledge-architecture|Active documents]] — Collaborative documents that act as live work surfaces for humans and agents.
+- [[platform-context-and-collaboration|Multi-agent orchestration]] — Coordinating multiple agents and humans across a software delivery workflow.
 
 ### Tools And Named Systems
 - [[notion|Notion]] — The company platform the speaker describes as the durable system of record and collaboration layer for humans and agents.
 - [[claude|Claude]] — The AI agent used inside Notion to scope tasks and help drive collaborative workflows.
 - [[claude-code|Claude Code]] — The coding agent the speaker says can spin up a PR during the workflow demo.
 - **Parallel** — The web search provider mentioned in the partnership example used for trajectory-based evaluation.
-- **Decagon** — The AI tool the speaker says can collect the right data needed for the workflow.
+- [[decagon|Decagon]] — The AI tool the speaker says can collect the right data needed for the workflow.
 - **Workers** — The product the speaker says Notion recently launched to handle discrete pieces of code on CPUs.
 
 ### Novel Concepts And Methods

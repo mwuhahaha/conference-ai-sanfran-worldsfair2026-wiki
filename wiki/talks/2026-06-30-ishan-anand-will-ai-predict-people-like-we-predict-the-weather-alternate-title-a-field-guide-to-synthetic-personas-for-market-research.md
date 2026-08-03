@@ -63,13 +63,13 @@ This talk argues that synthetic personas are best understood as forecasts of hum
 
 ### Topics Covered
 - **Synthetic Personas** — The broader idea that LLMs can model human response patterns as forecasts rather than as direct substitutes for people.
-- [[model-capability-and-product-framing|Weather Forecasting Analogy]] — The speaker's organizing comparison that synthetic personas, like weather models, are bounded forecasts that need validation.
-- [[inference-engineering|Prompt Grounding]] — The need to provide enough world context in the prompt so the model does not infer hidden variables.
-- [[agent-evaluations|Prompt Sensitivity]] — The idea that small prompt changes can significantly alter persona outputs.
-- [[agent-evaluations|Attitude-Behavior Gap]] — The distinction between measuring stated attitudes and predicting actual behavior.
+- [[forward-deployed-engineering|Weather Forecasting Analogy]] — The speaker's organizing comparison that synthetic personas, like weather models, are bounded forecasts that need validation.
+- [[forward-deployed-engineering|Prompt Grounding]] — The need to provide enough world context in the prompt so the model does not infer hidden variables.
+- [[agent-memory|Prompt Sensitivity]] — The idea that small prompt changes can significantly alter persona outputs.
+- [[forward-deployed-engineering|Attitude-Behavior Gap]] — The distinction between measuring stated attitudes and predicting actual behavior.
 - [[agent-evaluations|Distributional Validation]] — Evaluating model outputs as full distributions rather than only as average labels or point estimates.
-- **Human Noise Floor** — The baseline variability in human responses that limits how accurate a model can appear to be.
-- [[autoresearch|Generative Agent-Based Modeling]] — The future use of personas interacting together as simulated agents in a system.
+- [[human-oversight-and-judgement|Human Noise Floor]] — The baseline variability in human responses that limits how accurate a model can appear to be.
+- **Generative Agent-Based Modeling** — The future use of personas interacting together as simulated agents in a system.
 
 ### Tools And Named Systems
 - No named tool or system passed the transcript evidence gate.

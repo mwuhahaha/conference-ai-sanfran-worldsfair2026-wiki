@@ -710,6 +710,94 @@ def test_event_resource_classifier_preserves_specific_admission_provenance():
     assert any("verified against scheduled-session" in line for line in cut_lines)
 
 
+def test_event_resource_classifier_preserves_description_backed_unmatched_boundary(
+    tmp_path,
+    monkeypatch,
+):
+    module = load_script("classify_video_resource_sources.py")
+    video_id = "DESCRIPTION"
+    raw = tmp_path / "raw"
+    wiki = tmp_path / "wiki"
+    resources = wiki / "resources"
+    slides = wiki / "slides"
+    raw.mkdir()
+    resources.mkdir(parents=True)
+    slides.mkdir()
+    manifest = raw / "official-wf26-video-manifest.json"
+    manifest.write_text(
+        json.dumps(
+            {
+                "videos": [
+                    {
+                        "id": video_id,
+                        "mediaType": "talk_recording",
+                        "associationEvidence":
+                            "official_channel_explicit_wf26_description",
+                        "matchedTalks": [],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    resource = resources / f"youtube-{video_id}.md"
+    resource.write_text(
+        "---\n"
+        'title: "Description Backed"\n'
+        'category: "resources"\n'
+        f'videoId: "{video_id}"\n'
+        "---\n"
+        "# Description Backed\n\n"
+        "## What It Is\n"
+        "Unsafe scheduled-session wording.\n\n"
+        "## Source Classification\n"
+        "- Unsafe schedule verification.\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(module, "OFFICIAL_VIDEO_MANIFEST", manifest)
+    monkeypatch.setattr(module, "RAW", raw)
+    monkeypatch.setattr(module, "WIKI", wiki)
+    monkeypatch.setattr(module, "RESOURCES", resources)
+
+    description_backed = module.official_wf_description_backed_unmatched_ids()
+    role, lines = module.classification(
+        video_id,
+        set(),
+        {video_id},
+        set(),
+        set(),
+        set(),
+        set(),
+        set(),
+        description_backed,
+    )
+    page = module.rewrite_what_it_is(
+        "# Recording\n\n## What It Is\nOld text.\n",
+        role,
+    )
+    rendered = "\n".join(lines)
+
+    assert description_backed == {video_id}
+    assert role == "primary event description-backed recording"
+    assert "explicit official-channel description metadata" in rendered
+    assert "no exact schedule-page match is assigned" in rendered
+    assert "verified against scheduled-session" not in rendered
+    assert "Event association comes from that description" in page
+    assert "verified against" not in page
+
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        ["classify_video_resource_sources.py", "--manifest-only"],
+    )
+    assert module.main() == 0
+    generated = resource.read_text(encoding="utf-8")
+    assert "Event association comes from that description" in generated
+    assert "explicit official-channel description metadata" in generated
+    assert "verified against scheduled-session" not in generated
+    assert "verified against an AI Engineer" not in generated
+
+
 def test_event_resource_classifier_separates_playlist_recordings_and_unavailable_items():
     module = load_script("classify_video_resource_sources.py")
     page = "# Recording\n\n## What It Is\nOld text.\n\n## Link\nSource.\n"

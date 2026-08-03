@@ -57,10 +57,10 @@ Manoj Nair argues that agentic security now depends on a design choice: do not a
 
 ### Topics Covered
 - [[agent-security|Agentic security]] — The overarching problem of securing autonomous and semi-autonomous AI systems across code, tools, data, and behavior.
-- [[agent-evaluations|Generator-validator separation]] — The claim that generation and validation should be separated because models are not reliable enough to serve as their own judges.
+- **Generator-validator separation** — The claim that generation and validation should be separated because models are not reliable enough to serve as their own judges.
 - [[agent-security|Skill supply-chain risk]] — The idea that skills can hide malware, vulnerabilities, or externally controlled logic and therefore need review.
-- [[mcp-app-runtime|MCP server security]] — The security risks introduced by MCP servers as connectors to enterprise data and external instructions.
-- [[agent-security|Breakability-aware remediation]] — Choosing remediation steps based on how likely they are to break applications rather than only on severity counts.
+- [[agent-security|MCP server security]] — The security risks introduced by MCP servers as connectors to enterprise data and external instructions.
+- [[platform-context-and-collaboration|Breakability-aware remediation]] — Choosing remediation steps based on how likely they are to break applications rather than only on severity counts.
 - [[agent-security|Real-time policy enforcement]] — Enforcing security decisions live inside the tools and workflows that agents and developers use.
 
 ### Tools And Named Systems
