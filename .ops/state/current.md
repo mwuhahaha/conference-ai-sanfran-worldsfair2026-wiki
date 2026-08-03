@@ -1069,6 +1069,9 @@ Receipts:
   to `main`; it is not merge-ready because the one authorized authoritative
   maker retry, validation, canonical promotion, and higher-model review remain
   pending.
+- Content checkpoint `fae30867` was pushed and opened as draft PR
+  `https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki/pull/1`.
+  A following continuity-only commit records this readback on the same branch.
 - Focused pre-publication validation passed 60 tests. The only failure is the
   expected checked-in talk/video map mismatch: the read-only generator reports
   `changed: true`, with zero slide-page and topic-page changes, because this
