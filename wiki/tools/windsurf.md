@@ -11,20 +11,26 @@ sourceAssessment:
   subjectId: tool:windsurf
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: pending
   basis: no_admitted_evidence
   message: This page has not yet received enough admitted evidence for a source assessment.
   publicSourceIds: []
-sourceAssessmentBodySha256: sha256:42ffffbd25f6f197391d7cc1ad9e020d451ab2b56b42d9547e7d300d4a6535d5
+sourceAssessmentBodySha256: sha256:6df43485ce95d33f8848124f8da1f108a5f447d4bc521f03acbeae3284f57b3b
 ---
-
 # Windsurf
 
 ## Conference Context
 Windsurf appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
+
+## Transcript Digest Evidence
+This section is generated from 1 evidence-bound talk digest(s).
+
+- [[2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition|How Forward Deployed Engineering is done at Cognition]] — A related interface surface mentioned alongside CLI and IDE-style access.
+  - Transcript: [[youtube-RVxym6mmIns-transcript]]
+  - Evidence: "Uh actually, how many people know of Windsurf or have used Windsurf in the past? Sweet. So, I come over from the Windsurf side after the Windsurf acquisition."
 
 ## Confirmed Evidence
 

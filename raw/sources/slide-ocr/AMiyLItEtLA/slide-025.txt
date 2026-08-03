@@ -1,0 +1,39 @@
+a ee : | ; eee se
+
+Ce oad SD ews ee vas my
+
+‘i a i ven
+World's Fair PE re - os GED _
+_ ind
+
+a]
+2 Implement function huffman_cost(freqs: string) -> int’: a
+
+| ams given a space-separated list of positive integer symbol a
+
+; frequencies, simulate Huffman tree construction and return es
+
+the total encoding cost — defined as the sum of all pairwise al
+
+uO o a merge costs, which is algebraically equal to “= freq_i* =
+| M Icros oft 7 a code_depth_i* (the weighted external path length). _
+a e Algorithm: treat the frequencies as a min-priority queue; on a”
+
+. ° each iteration extract the two smallest values a and b (resolve ry
+
+ties arbitrarily), compute their sum s =a + b, add s to the ae
+
+: running total cost, and re-insert s into the queue; repeat until -
+
+only one element remains; return the accumulated total.
+
+Simulate the min-heap by maintaining a sorted integer list am
+
+and selecting from the front each iteration (O(n’) selection is o
+
+sufficient for correctness). Return 0 for a single-symbol input. re
+
+('s Fair Required tests: °"5 31.1" 17 (merge 1+1=2 cost 2; merge vee
+
+r
+Engineering the future of Al

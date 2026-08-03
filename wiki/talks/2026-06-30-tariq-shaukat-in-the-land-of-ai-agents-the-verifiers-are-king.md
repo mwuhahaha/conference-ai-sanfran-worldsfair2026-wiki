@@ -69,12 +69,12 @@ The talk argues that the core bottleneck in agentic software development is no l
   - Evidence: "And one of the tests we did with one of the large banks who are using some of the cutting edge the folks who are all around here today um cutting edge agentic coding tools they can get a 92% reduction in issues if you actually take this guide verify solve approach inside of those agentic loops."
 
 ### Topics Covered
-- [[agent-evaluations|Agent-Centric Development Cycle]] — The lifecycle model the speaker proposes for agentic software development.
+- [[context-engineering-and-knowledge-architecture|Agent-Centric Development Cycle]] — The lifecycle model the speaker proposes for agentic software development.
 - [[agent-evaluations|Verification-First Development]] — The shift from generation-first thinking to verification-first thinking in AI software workflows.
-- [[agent-security|Context and Constraints]] — Using repository knowledge and explicit rules to steer agents before they write code.
+- [[agent-evaluations|Context and Constraints]] — Using repository knowledge and explicit rules to steer agents before they write code.
 - [[agent-evaluations|Multi-Layered Verification]] — Combining multiple verification techniques to cover both obvious and subtle failures.
 - **Technical Debt in Agentic Workflows** — The growth of maintainability, reliability, and security debt as agents generate more code.
-- [[agent-evaluations|Compounding Development Loops]] — The feedback structure that links generation, review, and maintenance into a compounding system.
+- [[autoresearch|Compounding Development Loops]] — The feedback structure that links generation, review, and maintenance into a compounding system.
 
 ### Tools And Named Systems
 - **sonar vortex** — A product introduced as part of the speaker's verification and agent-guidance stack.

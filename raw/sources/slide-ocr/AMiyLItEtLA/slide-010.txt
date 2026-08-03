@@ -1,0 +1,11 @@
+BAMLPlayground-aie UpdetoPro+O
+.bmlAx Fagent.baml A Fsmple.bamlA Fcaic BAML Playgroundx
+>ns_images)Fpipeline.baml) sicix.output_roraat, Openin browser
+iesges.Lnprovingiinage() Run Graps Trace FLa
+458441 bonl.lln.Client.execute_oneshot:07
+function inproving_inagetgoal: string =a founder building a progre let Irg:Imsge =generate insge(goal); let judge:JudgeResponse evaluate_Inage（1g,goal);.bsnl.lln.Client.execute_oncc_oneshot1349.bonl.lln.client.to_primitive_client 136o 0.01 S2NONS
+tass JudgcResponse{ reason: string. white （judge.score<e.9 ssattepts1e）（ return ing: score: float, let attepts:int=0; img =generate_i=age(goal); judgeevalcate_inage（irg.goai）: 4683#5 4681元 668285. bonl.lln,PrinitiveClient.buitd_reue m 1.ses bonl.1n.Primitivectient.render_spec-72. bonl.http.send-go.ban.tln,Prinitiveclient.renderpro. io em.bant.lle.eeinitiveftient.speclolsre-..os.banl.String.Includes:a.bonl.llm.from_shorthond 1os 8.0Xss 0.000s
+Inplcments baml.ToString functioo to_string(selt)-> string throus never（ return Score: s(self.score),Reason: siself.reason): 44041.banl.hittp.tiocoutnaooym 0.C01
+35tes.bonl.ottp.Aosponse.ok97
+Launchpadweek-2oOLive ShareGlGraph BAML Gureor-Teo Sereen Reader Optimized
+Engineering the future of Al

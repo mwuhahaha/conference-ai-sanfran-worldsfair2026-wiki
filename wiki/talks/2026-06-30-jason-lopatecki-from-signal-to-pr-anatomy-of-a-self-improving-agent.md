@@ -59,8 +59,8 @@ The talk argues that observability is changing from a human-centered dashboard w
 - [[coding-agents|Filesystem-backed debugging]] — Debugging workflows built around traces, logs, and repo files
 - [[agent-evaluations|Observability skills]] — Composable skills that gather and shape observability context
 - [[agent-evaluations|Online evals]] — Evaluations that run alongside production traces as operational checks
-- **Sandboxed agent execution** — Running debugging agents in sandboxes rather than only on a laptop
-- [[human-oversight-and-review-dynamics|Human-in-the-loop repair]] — Human review after the agent assembles evidence and proposes a fix
+- [[coding-agents|Sandboxed agent execution]] — Running debugging agents in sandboxes rather than only on a laptop
+- [[platform-context-and-collaboration|Human-in-the-loop repair]] — Human review after the agent assembles evidence and proposes a fix
 
 ### Tools And Named Systems
 - **Arize AX** — Arize's SaaS observability and agent platform used to host Signal

@@ -62,13 +62,13 @@ Martin argues that long-horizon AI work is no longer primarily a prompt-design p
   - Evidence: "With the dreaming, this error is corrected, and it's able to properly localize itself and not fall fall down this trap."
 
 ### Topics Covered
-- [[agent-reliability-and-durable-execution|Long-horizon async agents]] — Agents that can run for hours with limited human steering and need durable orchestration.
-- [[active-documents-and-live-work-surfaces|Brain-hand decoupling]] — Architectures that separate reasoning and coordination from execution environments.
+- [[platform-context-and-collaboration|Long-horizon async agents]] — Agents that can run for hours with limited human steering and need durable orchestration.
+- [[platform-context-and-collaboration|Brain-hand decoupling]] — Architectures that separate reasoning and coordination from execution environments.
 - [[agent-evaluations|Verifier loops]] — Using an independent context to judge work rather than self-grading in the same context.
 - [[agent-memory|In-band memory writing]] — Writing memory during execution through simple writable storage primitives.
 - [[agent-memory|Dreaming-based memory consolidation]] — Offline passes that inspect traces and repair memory errors.
-- [[agent-evaluations|Org-level harnesses]] — Shared harnesses with organizational identity, organizational context, and team-wide access.
-- **Proactive agent UX** — Agents that can alert users based on shared context rather than only responding to direct prompts.
+- [[context-engineering-and-knowledge-architecture|Org-level harnesses]] — Shared harnesses with organizational identity, organizational context, and team-wide access.
+- [[platform-context-and-collaboration|Proactive agent UX]] — Agents that can alert users based on shared context rather than only responding to direct prompts.
 
 ### Tools And Named Systems
 - **Messages API** — The prompt-response API the speaker describes as a simple base for building harnesses.

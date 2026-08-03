@@ -1,0 +1,10 @@
+THE TAKEAWAY
+Stateless LLM
++ Stateful Catalog
+= Fleet-Wide Memory
+The agent drafts the fix. Infra validates it. You decide.
+«5S min ~6.5% CPU 7 Services
+i
+LF
+4
+;

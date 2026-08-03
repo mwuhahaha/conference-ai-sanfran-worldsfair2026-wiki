@@ -1,0 +1,12 @@
+BAMLPlayground-aie UpgradetoPro
+World's Fair AIEngin Fpineine bami A bamlsro)ns_images)Epipelne.baml) sicix.cotput_roreat) Fagent.baml A Fsimple.bamlA Fcalc. BAMLPlayground X Open In bronse
+inages.ingroving.inage) Run Grapb
+args
+function inprcving inagefgoal: string =a Tounder baildirg a progre let judge:JudgeResponse evaluate_Iagc（1ng,goal); let Ing:Insge=generate Insge（goal);
+hite（judge.score<e.9 ssattepts1e）{ lct Jttepts:int=:
+Jodgeevatuate_inge(1ng,goal): img = generate_ieage(goal):
+return ing:
+class JudgcResponse score: float, reason: string,
+1nptements baml.ToString Tunction to_string(self)-> string throus never（ wrap EXPAND Zoom Click
+wrch Adu sFair maln return Score: siself.score),Reason:Siself.reason): Launchpadweek2oOLive ShareGiGraph BAML Press Run to executesmges.iproving_io(） Gersor-Teb ScreenReader Optiezed
+Engineering the future of Al

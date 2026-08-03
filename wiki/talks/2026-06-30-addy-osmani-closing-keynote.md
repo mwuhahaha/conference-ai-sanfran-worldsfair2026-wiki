@@ -62,10 +62,10 @@ Addy Osmani argues that the engineer of the future is less defined by how much c
   - Evidence: "And in many systems, you know, they can, they should. But execution and responsibility are very different things."
 
 ### Topics Covered
-- [[agent-security|Human answerability]] — The idea that humans remain accountable for evidence, understanding, and verdict even as agents do more work.
-- **Outer-loop governance** — The operating model where agents handle the inner execution loop and humans handle the outer decision loop.
-- **Taste** — The ability to make high-quality qualitative judgments when no objective metric exists yet.
-- [[agent-memory|Cognitive debt]] — The erosion of understanding and memory that can follow heavy reliance on agents.
+- [[forward-deployed-engineering|Human answerability]] — The idea that humans remain accountable for evidence, understanding, and verdict even as agents do more work.
+- [[agent-evaluations|Outer-loop governance]] — The operating model where agents handle the inner execution loop and humans handle the outer decision loop.
+- [[human-oversight-and-judgement|Taste]] — The ability to make high-quality qualitative judgments when no objective metric exists yet.
+- [[forward-deployed-engineering|Cognitive debt]] — The erosion of understanding and memory that can follow heavy reliance on agents.
 - [[agent-evaluations|Verification control systems]] — The shift from a final review step to a broader system for routing, verifying, and integrating work.
 - [[software-factories|Demand expansion from automation]] — The pattern where cheaper software creation expands the set of problems people want built.
 

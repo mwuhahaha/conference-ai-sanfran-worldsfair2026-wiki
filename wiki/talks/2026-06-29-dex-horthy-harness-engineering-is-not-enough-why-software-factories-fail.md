@@ -61,9 +61,9 @@ Dex Horthy argues that the current wave of software factories fails because team
 
 ### Topics Covered
 - [[software-factories|software factory]] — The end-to-end system for turning requests into shipped software through planning, implementation, review, and production.
-- [[model-capability-and-product-framing|code maintainability]] — The ability to evolve a codebase without causing regressions or making future changes harder.
+- [[coding-agents|code maintainability]] — The ability to evolve a codebase without causing regressions or making future changes harder.
 - [[agent-evaluations|benchmark design]] — Evaluating coding agents and code quality with benchmarks, verifiers, and reward channels.
-- [[software-factories|upfront planning]] — Human-in-the-loop planning and review before implementation.
+- [[forward-deployed-engineering|upfront planning]] — Human-in-the-loop planning and review before implementation.
 - [[software-factories|vertical slices]] — Breaking implementation into coordinated end-to-end chunks across a system.
 - [[software-factories|human-owned agentic development]] — The strategy of using AI to accelerate work while keeping humans responsible for code ownership and judgment.
 

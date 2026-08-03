@@ -20,6 +20,11 @@
     "path": "wiki/tools/arrakis.md"
   },
   {
+    "id": "aws",
+    "title": "AWS",
+    "path": "wiki/tools/aws.md"
+  },
+  {
     "id": "azure",
     "title": "Azure",
     "path": "wiki/tools/azure.md"
@@ -105,6 +110,11 @@
     "path": "wiki/tools/daytona.md"
   },
   {
+    "id": "decagon",
+    "title": "Decagon",
+    "path": "wiki/tools/decagon.md"
+  },
+  {
     "id": "dgx-spark",
     "title": "DGX Spark",
     "path": "wiki/tools/dgx-spark.md"
@@ -148,6 +158,11 @@
     "id": "firecracker",
     "title": "Firecracker",
     "path": "wiki/tools/firecracker.md"
+  },
+  {
+    "id": "foundry",
+    "title": "Foundry",
+    "path": "wiki/tools/foundry.md"
   },
   {
     "id": "gemini",
@@ -213,6 +228,11 @@
     "id": "krea-2",
     "title": "Krea 2",
     "path": "wiki/tools/krea-2.md"
+  },
+  {
+    "id": "kubernetes",
+    "title": "Kubernetes",
+    "path": "wiki/tools/kubernetes.md"
   },
   {
     "id": "kvm",
@@ -433,6 +453,11 @@
     "id": "webassembly",
     "title": "WebAssembly",
     "path": "wiki/tools/webassembly.md"
+  },
+  {
+    "id": "whatsapp",
+    "title": "WhatsApp",
+    "path": "wiki/tools/whatsapp.md"
   },
   {
     "id": "windsurf",

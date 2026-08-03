@@ -1,0 +1,4 @@
+PATTERN CATALOG: ENTRY
+A language-agnostic pattern template. Copy it for any runtime.
+Cn ee ee ee ee
+a&

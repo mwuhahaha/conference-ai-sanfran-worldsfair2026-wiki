@@ -1,0 +1,20 @@
+at vbvadVaibhavs-NacBook-Pro-3 ts-demo % bunx ts-node
+i 7 ee ers
+World's Fair| (..°)
+> {2, 3, 11).sortQ)
+or re
+> (2, 3, 11, 23].sort()
+ern err
+> let x: string = 1;
+i” Type 'number' is not assignable to type ‘string’.
+
+i“ x: string = 1;
+> let x: string = 1 as unknown as string;
+eg
+
+bho
+
+Re ko aL
+
+Pas |
+Engineering the future of Al

@@ -53,10 +53,10 @@ The talk argues that AI engineering should start from the task contract, not fro
 
 ### Topics Covered
 - [[coding-agents|Task-model separation]] — The central idea that the task contract should stay stable while the implementation changes underneath it.
-- [[model-capability-and-product-framing|Specs, code, and evals]] — The interface defined by natural-language instructions, code constraints, and evaluative examples.
+- **Specs, code, and evals** — The interface defined by natural-language instructions, code constraints, and evaluative examples.
 - [[agent-evaluations|Qualitative learning]] — The use of product feedback and textual signals to improve evals without relying only on hand-built metrics.
-- [[coding-agents|Implementation flexibility]] — The ability to substitute models and harnesses to reduce cost while preserving behavior.
-- [[software-factories|Function-like AI programs]] — The idea that AI programs should be built and optimized like ordinary reusable functions.
+- [[context-engineering-and-knowledge-architecture|Implementation flexibility]] — The ability to substitute models and harnesses to reduce cost while preserving behavior.
+- [[coding-agents|Function-like AI programs]] — The idea that AI programs should be built and optimized like ordinary reusable functions.
 
 ### Tools And Named Systems
 - [[dspy|DSPy]] — The open-source Python framework the talk uses to separate task specification from implementation details.

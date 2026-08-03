@@ -1,0 +1,258 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:34:33.736162+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:563c605963804e3c7169c8e4b023531524c03d2ef2295deea8e44913fd32430e",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "So, how do we in real time fix these production bugs? The answer is your dev loop velocity.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the primary production bottleneck is developer iteration speed, not model quality or raw compute."
+      },
+      {
+        "evidenceExcerpt": "So, Auditoria works in finance. So, there's a lot of regulation and policies happening in finance right now.",
+        "evidenceSegmentIds": [
+          "S0042"
+        ],
+        "support": "strong",
+        "text": "The talk says finance agents face regulation, policy, and accountability constraints that make orchestration harder than generic software automation."
+      },
+      {
+        "evidenceExcerpt": "So, I would say the human is only required at steps 1 and 9 because the in-between steps, the agent can do a lot better work.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "support": "explicit",
+        "text": "The speaker claims humans should stay at the beginning and end of the workflow, while the agent handles the middle steps."
+      },
+      {
+        "evidenceExcerpt": "And somehow slowly keep removing these bottlenecks every day. At the end of one month, let's say, you have a really nice self-automated loop where you just type in one sentence and just say fix this bug for me.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "support": "strong",
+        "text": "The talk argues that goals plus loops can progressively automate more of the bug-fix process until the system can take a one-sentence repair request."
+      }
+    ],
+    "methodNotes": "The transcript frames production agent building as a harness problem: fan out work with subagents, encode organizational workflows as skills, connect systems through MCP, and keep a human verifier at the edges rather than in the throughput path.",
+    "methods": [
+      {
+        "description": "Split work into isolated work trees so multiple subagents can work independently without colliding on the same files or task state.",
+        "evidenceExcerpt": "You can have a You can have an army of them. And get work trees are your best friend. So, think of work trees as isolated folders.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "name": "Parallel subagent work trees"
+      },
+      {
+        "description": "Package reusable internal recipes as skills so agents follow the intended production workflow when fixing bugs.",
+        "evidenceExcerpt": "These are your organization secret recipes. So, make sure you have a lot of skills because these skills, once you start say giving it to your agents, the agents will always make sure to use the correct and proper workflows to solve whatever production bug you're facing.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "name": "Skills-driven workflow enforcement"
+      },
+      {
+        "description": "Let the agent handle the middle of the pipeline, but keep human oversight at intake and final validation.",
+        "evidenceExcerpt": "So, I would say the human is only required at steps 1 and 9 because the in-between steps, the agent can do a lot better work.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Human-at-the-edges review"
+      },
+      {
+        "description": "Combine goals with iterative loops so the system can keep reducing manual intervention over time.",
+        "evidenceExcerpt": "Anybody? Nice. Um so, what if you combine goals and loops? You can just set a goal saying there is some data discrepancy in this report.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Goal-and-loop automation"
+      },
+      {
+        "description": "Feed production failures back into the harness so the agent can analyze bottlenecks and improve its own loop.",
+        "evidenceExcerpt": "all your production failures become input. So, let's say you automate keep automating these cell developer harnesses every day and you ask the agent to upgrade itself essentially.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "Recursive self-improvement harness"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And then you go back to the QA saying, \"Here you go. You can test it now.\" So, I would like to ask a question in the audience, um at what points do you think the human contact is required in this, um steps 1 to 9?",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "question": "How much human contact is still required between ticket intake and final QA sign-off in a finance agent workflow?",
+        "whyItMatters": "This determines how far the team can automate without losing control of quality or accountability."
+      },
+      {
+        "evidenceExcerpt": "reviewing agent to agent, it it doesn't Where do you keep the accountability? If something goes wrong in production, you can't say Cloud is doing this.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "question": "How do you preserve accountability when subagents act across regulated finance systems?",
+        "whyItMatters": "The talk makes clear that finance has compliance and responsibility constraints that cannot be ignored."
+      },
+      {
+        "evidenceExcerpt": "And you just tell the agent to analyze all the bottlenecks in this process. Make a list of them.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "question": "How safe and reliable can recursive self-improvement be when the harness starts using production failures as training input?",
+        "whyItMatters": "The approach only works if self-optimization does not create new failure modes or opaque behavior."
+      },
+      {
+        "evidenceExcerpt": "So, in the image, if um you can if you squint your eyes and see, the image shows um the production agent software that you're building, the project dashboards which shows all your Kubernetes services, pods, examples, all the logs, system logs, all your Jira tickets, all your GitHub PRs, and maybe a cloud code session at the bottom.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "question": "How far can a minimal single-pane orchestration UI scale before it becomes too opaque to manage many active subagents?",
+        "whyItMatters": "The productivity gain depends on keeping orchestration simple as task volume grows."
+      }
+    ],
+    "summary": "The talk argues that finance-agent failures are usually not caused by the model itself but by the engineer's inability to iterate fast enough as real data, access rules, and production load change. The proposed answer is a developer harness built around parallel subagents, isolated work trees, reusable skills, and MCP-connected systems so that debugging, root-cause analysis, testing, and PR creation can happen concurrently instead of serially. The speaker also argues for a strict tradeoff: humans should remain the accountability point and final verifier, especially in regulated finance, but should not sit in the middle of every step. The practical consequence is a smaller human bottleneck, fewer context switches, and a loop that can steadily absorb production failures and turn them into faster future fixes.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "You can have a You can have an army of them. And get work trees are your best friend. So, think of work trees as isolated folders.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "text": "Use subagents in parallel work trees so independent tasks do not block each other."
+      },
+      {
+        "evidenceExcerpt": "These are your organization secret recipes. So, make sure you have a lot of skills because these skills, once you start say giving it to your agents, the agents will always make sure to use the correct and proper workflows to solve whatever production bug you're facing.",
+        "evidenceSegmentIds": [
+          "S0021"
+        ],
+        "text": "Encode recurring internal workflow knowledge as skills so agents follow the right production process."
+      },
+      {
+        "evidenceExcerpt": "So, in the image, if um you can if you squint your eyes and see, the image shows um the production agent software that you're building, the project dashboards which shows all your Kubernetes services, pods, examples, all the logs, system logs, all your Jira tickets, all your GitHub PRs, and maybe a cloud code session at the bottom.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "Collapse logs, tickets, infrastructure views, and PRs into one pane of glass to reduce orchestration friction."
+      },
+      {
+        "evidenceExcerpt": "Always have the human as a verifier, but not the throughput ceiling because human attention is very limited.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "text": "Keep a human verifier at the boundary, but do not make human attention the throughput limit."
+      },
+      {
+        "evidenceExcerpt": "And you just tell the agent to analyze all the bottlenecks in this process. Make a list of them.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "text": "Feed production failures back into the harness so the system can keep removing its own bottlenecks."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The protocol the speaker says lets the agent connect to third-party systems.",
+        "evidenceExcerpt": "And of course, all of us have seen a lot of MCP tools being shipped into the market right now.",
+        "evidenceSegmentIds": [
+          "S0022"
+        ],
+        "name": "MCP"
+      },
+      {
+        "description": "The ticketing system used as part of the bug-fix and QA pipeline.",
+        "evidenceExcerpt": "So, let's say the production software you're going to ship has a lot of bugs that your QA is reporting.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Jira"
+      },
+      {
+        "description": "The code review and pull-request platform used before merging fixes.",
+        "evidenceExcerpt": "You submit the PR to your team for review. And after review, you merge it into your master branch, let's say.",
+        "evidenceSegmentIds": [
+          "S0032"
+        ],
+        "name": "GitHub"
+      },
+      {
+        "description": "The container platform used to build and deploy images across environments.",
+        "evidenceExcerpt": "After merging it, obviously, you have to build a Docker image, deploy it into your development environment, test it, again ship build an image to your stage environment, test it, deploy it to stage.",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "name": "Docker"
+      },
+      {
+        "description": "The infrastructure platform shown in the orchestration dashboard.",
+        "evidenceExcerpt": "So, in the image, if um you can if you squint your eyes and see, the image shows um the production agent software that you're building, the project dashboards which shows all your Kubernetes services, pods, examples, all the logs, system logs, all your Jira tickets, all your GitHub PRs, and maybe a cloud code session at the bottom.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "Kubernetes"
+      },
+      {
+        "description": "The desktop platform for the widget-style orchestration surface.",
+        "evidenceExcerpt": "So, this is basically a macOS widget, and you don't need to open multiple windows to do all of this work.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "macOS"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The idea that the key production constraint is how fast the engineer can improve the harness.",
+        "evidenceExcerpt": "So, how do we in real time fix these production bugs? The answer is your dev loop velocity.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Developer loop velocity"
+      },
+      {
+        "description": "Building production agents for finance workflows rather than staying at demo quality.",
+        "evidenceExcerpt": "So, my name is Siddhant Imani and I'm a data scientist at Auditoria AI and we build production agents for finance.",
+        "evidenceSegmentIds": [
+          "S0003"
+        ],
+        "name": "Finance agent productionization"
+      },
+      {
+        "description": "Coordinating many subagents across parallel tasks and work trees.",
+        "evidenceExcerpt": "And your client data can live in any system you want. And at the end of the day, if you have a lot of sub-agents, you have a lot of work to orchestrate.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Subagent orchestration"
+      },
+      {
+        "description": "The need for explicit accountability and sign-off in finance deployments.",
+        "evidenceExcerpt": "So, what does it look like for orchestrating a team of sub agents in the finance sector? If we take AI out of the picture, usually what happens is you have a human auditor which reviews the code and you have a controller which signs off under your socks compliance.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Regulated accountability"
+      },
+      {
+        "description": "A single-pane interface that reduces the number of windows and context switches needed to ship changes.",
+        "evidenceExcerpt": "So, in the image, if um you can if you squint your eyes and see, the image shows um the production agent software that you're building, the project dashboards which shows all your Kubernetes services, pods, examples, all the logs, system logs, all your Jira tickets, all your GitHub PRs, and maybe a cloud code session at the bottom.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "name": "Minimal orchestration UX"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5079847cdcb7f5195161dfd9613e80239924a0d8286a61128aab6664aa96e9ae",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you",
+  "talkTitle": "Your Finance Agent's Bottleneck Is You",
+  "transcriptPath": "raw/sources/youtube-transcripts/z0sh8HyTrDo.txt",
+  "transcriptSha256": "sha256:1990f88a3973320ef412857177c79f2b3f2ed29b67a68f906ba582bddd845d8e",
+  "videoId": "z0sh8HyTrDo"
+}

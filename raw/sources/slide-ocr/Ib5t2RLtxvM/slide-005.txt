@@ -1,0 +1,20 @@
+@ Serta)
+Al Engineer BNATOMS Ch OR MEQ AMAT Tae
+World's Fai
+fla kod] Anatomy of a benchmark task
+
+Agent-visinie
+Task $p6¢ and the environment it runs in.
+Verifier-only
+Oracte and checks — hedden from the agent.
+Metadata
+Resource Linus, tags. and stored baselines.
+Hasbor-style task abstraction
+A task 1 a packaged artifact — spec + environment + oracie + verifiers +
+metadata — not |Ust a DrOmEX and a test
+ortabte - runnable - repeatable - comparable
+
+F
+
+erst
+TRACK 5 * JULY 1, 2026

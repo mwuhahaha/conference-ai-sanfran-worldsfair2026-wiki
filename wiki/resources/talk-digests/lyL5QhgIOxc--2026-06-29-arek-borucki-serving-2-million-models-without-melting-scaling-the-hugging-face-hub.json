@@ -1,0 +1,282 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:30:16.503374+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:f4821e13095daffcd2540b9673ad8f3f5fbeef1be74358ce2a2be393a91cbcca",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "We host three million public models, 1 million data sets, 50,000 organizations, and not only hobbyists or scientists.",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "support": "explicit",
+        "text": "Hugging Face says it hosts 3 million public models, 1 million datasets, and 50,000 organizations."
+      },
+      {
+        "evidenceExcerpt": "More than 30% of Fortune 500 use hugging face as a part of AI workflows. Just to give you some perspective, few years ago we had 20,000 models.",
+        "evidenceSegmentIds": [
+          "S0008"
+        ],
+        "support": "explicit",
+        "text": "The speaker says more than 30% of the Fortune 500 use Hugging Face as part of their AI workflows."
+      },
+      {
+        "evidenceExcerpt": "The actual models artifacts, tokenizer files, cart assets and configuration files are stored separately in cloud object storage such as AWSS3.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "support": "explicit",
+        "text": "Model artifacts, tokenizer files, card assets, and configuration files are stored separately in cloud object storage such as AWS S3."
+      },
+      {
+        "evidenceExcerpt": "So we decided to switch to Atlas search that's a feature which is using Apache lucine under the hood.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "support": "explicit",
+        "text": "The team switched from regex-based search to Atlas Search because the earlier approach did not scale well as the catalog grew."
+      },
+      {
+        "evidenceExcerpt": "The pattern is simple. Primary should focus on what only primary can do. Anything else can be pushed to different machines.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "support": "explicit",
+        "text": "The operational rule is that the primary should focus on what only the primary can do, and everything else should be pushed to other machines."
+      },
+      {
+        "evidenceExcerpt": "The difference HPA scale only based on CPU and memory. KDA scale on real application metrics like request per second or event loop utilization.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "support": "explicit",
+        "text": "The team plans to move from HPA to KEDA so scaling can respond to real application metrics instead of only CPU and memory."
+      }
+    ],
+    "methodNotes": "The transcript is treated as untrusted evidence only. I synthesized the record from the official schedule metadata and the supplied transcript, selecting one transcript segment per supported item and avoiding any outside knowledge or extra verification.",
+    "methods": [
+      {
+        "description": "Precompute search tokens at insert time so lookup work happens during ingest rather than at query time.",
+        "evidenceExcerpt": "We tokenize model names on insert time, not at query time. For example, someone wants to publish model meta minus llama/ llama 3.18b.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "name": "Precomputed search tokens"
+      },
+      {
+        "description": "Maintain a denormalized read collection for search and listing traffic instead of querying the main repository collection directly.",
+        "evidenceExcerpt": "His request flows through the hub to an optimized read collection on MongoDB. And this is not our main repo collection when we keep all the data.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Read-optimized denormalization"
+      },
+      {
+        "description": "Route non-latest, aggregation-heavy, reporting, and ad hoc workloads away from the primary onto secondaries or hidden replica members.",
+        "evidenceExcerpt": "First all queries which doesn't require the latest data goes to secondaries. Only queries that must have strong consistency stay on primary and we are paying a lots of attention to this.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Replica workload partitioning"
+      },
+      {
+        "description": "Use a two-layer scaling setup where pod autoscaling handles deployment load and node autoscaling adds infrastructure capacity when needed.",
+        "evidenceExcerpt": "This is where second layer comes in. We are using cast AI for Kubernetes note autoscaling when pods are pending because there is no capacity and Kubernetes scheduler is not able to schedule them.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Layered autoscaling"
+      },
+      {
+        "description": "Scale the database horizontally with sharding once a single replica set can no longer hold the full workload.",
+        "evidenceExcerpt": "The next step is sharding. Sharding means scaling your database horizontally. Instead of putting full data set on one replic on one replica set cluster, we are going to cut data into pieces and put each piece on separate chart.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "Horizontal sharding"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "There is also shard key which must be selected. This is not trivial operation but this talk is not about choosing short key.",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "question": "What shard key should be chosen to preserve query performance and balance the hub's growing catalog?",
+        "whyItMatters": "The speaker says shard-key selection is not trivial, and the choice will shape whether sharding actually fixes the scaling bottleneck."
+      },
+      {
+        "evidenceExcerpt": "The difference HPA scale only based on CPU and memory. KDA scale on real application metrics like request per second or event loop utilization.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "question": "How much better will KEDA perform than HPA for mixed search and download traffic that spikes on real workload signals rather than just CPU or memory?",
+        "whyItMatters": "The talk identifies a migration path but leaves open whether request-driven scaling materially improves user-facing latency and capacity efficiency."
+      }
+    ],
+    "summary": "The talk argues that the Hugging Face Hub stays usable at million-model scale by treating metadata search and serving latency as first-order product constraints rather than backend details. Its core mechanism is a layered architecture: metadata lives in MongoDB Atlas, model binaries live separately in object storage, search is driven by precomputed tokens and Atlas Search, and noncritical workloads are pushed onto secondary or hidden nodes. The main tradeoff is that this creates more operational complexity, especially around denormalization, autoscaling, and eventual sharding, but the payoff is simple user behavior at the edge: search, upload, and download keep feeling fast even as the catalog and traffic explode.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "P99 is much more important than P50 and we are paying a lots of attention to P99 and that's the reason why we invest in premputee tokens denormalize optimize for read collection in MongoDB full text search based on Apache lucine Kubernetes autoscaling and soon in database sharding.",
+        "evidenceSegmentIds": [
+          "S0017"
+        ],
+        "text": "P99 latency is the metric that drives the design choices, so the team optimizes for fast reads, not just average-case performance."
+      },
+      {
+        "evidenceExcerpt": "This separation of concern let us scale metadata independently from binary storage and compute independently from both.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "text": "Separating metadata from binary artifacts lets the platform scale storage, metadata, and compute independently."
+      },
+      {
+        "evidenceExcerpt": "The pattern is simple. Primary should focus on what only primary can do. Anything else can be pushed to different machines.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "text": "The architecture works by keeping the primary focused on the work only it can do and pushing everything else to other machines."
+      },
+      {
+        "evidenceExcerpt": "Our deployment hub deployment can scale from 10 to 500 bots depends of on the traffic. This is how we keep the hub healthy without manual interventions and without infrastructure overprovisioning.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "text": "The platform is designed to scale automatically from low to very high pod counts without manual intervention or routine overprovisioning."
+      },
+      {
+        "evidenceExcerpt": "This is what scaling medium models is really about. Keeping the user experience simple no matter how complex it gets under the hood.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "text": "The practical goal of all the infrastructure work is to keep the user experience simple even when the backend is complex."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The core managed database layer for Hub metadata.",
+        "evidenceExcerpt": "This help us to keep the hub healthy without manual intervention. Next the request goes to MongoDB Atlas which is source of true for our metadata.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "MongoDB Atlas"
+      },
+      {
+        "description": "The full-text search layer used for model lookup and autocomplete.",
+        "evidenceExcerpt": "So we decided to switch to Atlas search that's a feature which is using Apache lucine under the hood.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Atlas Search"
+      },
+      {
+        "description": "The search engine used under the hood by Atlas Search.",
+        "evidenceExcerpt": "So MongoDB doesn't provide in core MongoDB server full text search there is additional process MongoD uh this MongoDBT process is a wrapper around Apache lucine for end user users this is transparent you are just using Unifi MongoDB query API and when You use aggregation pip pipeline together with dollar search operator.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "name": "Apache Lucene"
+      },
+      {
+        "description": "The container orchestration platform running the Hub services.",
+        "evidenceExcerpt": "The hub is running on Kubernetes. Currently we are using horizontal pot autoscaler. During spikes new ports scale up automatically to handle the load and scale back down when traffic drops.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "Kubernetes"
+      },
+      {
+        "description": "The deployment-level autoscaling mechanism currently in use.",
+        "evidenceExcerpt": "The hub is running on Kubernetes. Currently we are using horizontal pot autoscaler. During spikes new ports scale up automatically to handle the load and scale back down when traffic drops.",
+        "evidenceSegmentIds": [
+          "S0019"
+        ],
+        "name": "Horizontal Pod Autoscaler"
+      },
+      {
+        "description": "The infrastructure autoscaling layer used when Kubernetes lacks capacity.",
+        "evidenceExcerpt": "This is where second layer comes in. We are using cast AI for Kubernetes note autoscaling when pods are pending because there is no capacity and Kubernetes scheduler is not able to schedule them.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "name": "Cast AI"
+      },
+      {
+        "description": "The object storage system used for model artifacts and related files.",
+        "evidenceExcerpt": "The actual models artifacts, tokenizer files, cart assets and configuration files are stored separately in cloud object storage such as AWSS3.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "name": "AWS S3"
+      },
+      {
+        "description": "The planned workload-driven autoscaling system.",
+        "evidenceExcerpt": "First one is at deployment level. Second one is at infrastructure level via castai. But we are going to migrate horizontal port autoscaler to keta kubernetes eventdriven autoscaling.",
+        "evidenceSegmentIds": [
+          "S0071"
+        ],
+        "name": "KEDA"
+      }
+    ],
+    "topics": [
+      {
+        "description": "How slow search at multi-million-item scale becomes a user-facing product problem.",
+        "evidenceExcerpt": "At 3 million, same approach breaks. Imagine what would you do if the hub search would be slow.",
+        "evidenceSegmentIds": [
+          "S0014"
+        ],
+        "name": "Search latency at catalog scale"
+      },
+      {
+        "description": "The pattern of storing metadata separately from binary artifacts so each can scale independently.",
+        "evidenceExcerpt": "This separation of concern let us scale metadata independently from binary storage and compute independently from both.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Metadata and artifact separation"
+      },
+      {
+        "description": "A separate denormalized collection optimized for read-heavy search and listing traffic.",
+        "evidenceExcerpt": "It's a separate denormalized copy only for reads and listings. The key information is on the left.",
+        "evidenceSegmentIds": [
+          "S0028"
+        ],
+        "name": "Read-optimized collections"
+      },
+      {
+        "description": "The rule that primaries handle only the work that requires primaries, while everything else is offloaded.",
+        "evidenceExcerpt": "The pattern is simple. Primary should focus on what only primary can do. Anything else can be pushed to different machines.",
+        "evidenceSegmentIds": [
+          "S0058"
+        ],
+        "name": "Replica-set workload partitioning"
+      },
+      {
+        "description": "The move from a single replica set toward horizontally partitioned database growth.",
+        "evidenceExcerpt": "Sharded cluster keep only part of the data on each shard. And then if you want to scale horizontally more you are just adding more shards and then MongoDB balancer will balance data across all those shards.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "Database sharding"
+      },
+      {
+        "description": "Scaling pods and nodes together instead of relying on one autoscaling layer.",
+        "evidenceExcerpt": "Cast AAI is adding new nodes and then scheduler is able to schedule those spots. So we have two layers of scaling.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "name": "Layered autoscaling"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5e55f83fc7d230469e8b9a4f558f6c6c85255a6643471a548288120eccbaaece",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub",
+  "talkTitle": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub",
+  "transcriptPath": "raw/sources/youtube-transcripts/lyL5QhgIOxc.txt",
+  "transcriptSha256": "sha256:4490cf60f20f140b192797428ead4b46d05af8513eeab721c6db8593bace0e28",
+  "videoId": "lyL5QhgIOxc"
+}

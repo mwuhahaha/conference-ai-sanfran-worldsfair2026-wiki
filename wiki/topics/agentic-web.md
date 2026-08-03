@@ -8,7 +8,7 @@ sourceAssessment:
   subjectId: concept:agentic-web
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -16,10 +16,11 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-2JX6JYyQG4Y
   - source:official-wf26-youtube-Cz4v1WHVyZc
+  - source:official-wf26-youtube-Z2Erdirpudo
   - source:official-wf26-youtube-ZSQb5fzRFPw
   - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
-sourceAssessmentBodySha256: sha256:c4227405153de77e48a27153802f781f05d9c61809c0c53fd14f8e29deb4c28e
+sourceAssessmentBodySha256: sha256:8a5a0e1ae7853375523f0faedfc607671ac72a92274a55e256bd6baa89422bde
 ---
 # Agentic Web
 
@@ -71,24 +72,24 @@ The pattern is most useful for research agents, shopping and catalog agents, bro
 - What evidence should a browser agent preserve so that a user, auditor, or downstream system can trust the result?
 
 ## Transcript Digest Evidence
-This section synthesizes 5 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 9 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-These talks all treat the web or UI layer as the place where agents and humans share a common substrate for action and understanding. The difference is whether the emphasis falls on rendered web control, accessibility-tree affordances, or shared-screen collaboration that reduces the need to translate intent across interfaces.
+These proto-topics treat the web as a substrate agents can directly operate on, especially through HTML structure, accessibility trees, rendered UI, and agent-readable documentation. The important variation is whether the emphasis is on deterministic browser interaction, better page semantics, or packaging the web so an agent can perceive and act on it reliably.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]] — A product model that combines chat delegation with hands-on steering.
-  - Transcript: [[youtube-pMggiOb18tc-transcript]]
-  - Evidence: "I think chat is underrated. uh and some kind of hands-on experience. So, what you want is a single entity that you can ask for help with anything anywhere."
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]] — The idea that an agent should read the rendered UI, layout, and state before acting.
   - Transcript: [[youtube-2JX6JYyQG4Y-transcript]]
   - Evidence: "And it starts here really with the first word which is perceive. The agent has to take in the screen the way you do, not scrape the code behind the page, but what's actually rendered, the layout, the state, what just changed the work, what we're doing, and then do it."
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Packaging project metadata so agents can read, summarize, and act on a changing system.
+  - Transcript: [[youtube-Z2Erdirpudo-transcript]]
+  - Evidence: "Um what else can I share? Um oh, this is a MD of it's a glossary of all the information that is displayed on this project."
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]] — Directly addressing desktop UI elements through accessibility trees instead of hardware mouse and keyboard events.
   - Transcript: [[youtube-ZSQb5fzRFPw-transcript]]
   - Evidence: "So you really um have um to observe the space in this case just by calling like get window state you get a an accessibility tree representation plus a screenshot and then you will go and uh um try a background execution using accessibility tree and if that doesn't work we go all the way and uh make the heavy lifting for you and just try a pixel background click."
-- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — The tension between creative freedom and framework guardrails.
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]] — Using HTML, CSS, and JavaScript as the interface for agent-generated video.
   - Transcript: [[youtube-Cz4v1WHVyZc-transcript]]
-  - Evidence: "Um and they can get you pretty good output, but agent-friendly isn't necessarily true for those because they're not um their native tongue and they aren't as editable or controllable, which is a big thing for us is that controllability layer."
+  - Evidence: "Our bet is on HTML. HTML, CSS, and JavaScript are the native languages of LLMs. Most of their training data, every webpage that gets scraped at the end of day is essentially just HTML, CSS, and JavaScript under the hood."
 
 ## Connections
 ### Search, Catalogs, And Web Data
@@ -159,15 +160,15 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 22 | Related pages outside the main evidence categories. |
-| resources | 16 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 30 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| resources | 15 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 27 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
 | talks | 13 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 10 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 11 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]]
 - [[2026-06-30-antje-barth-perception-agents]]
+- [[2026-06-30-eve-bouffard-imagination-engineering]]
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]]
 - [[2026-07-01-james-russo-html-is-all-agents-need]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
@@ -190,8 +191,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube-o-zkvb0iFDQ-slides]]
 
 ### Transcripts
-- [[youtube-pMggiOb18tc-transcript]]
 - [[youtube-2JX6JYyQG4Y-transcript]]
+- [[youtube-Z2Erdirpudo-transcript]]
 - [[youtube-ZSQb5fzRFPw-transcript]]
 - [[youtube-Cz4v1WHVyZc-transcript]]
 - [[youtube-4sX_He5c4sI-transcript]]
@@ -209,8 +210,8 @@ This section consolidates source evidence currently connected to this topic acro
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]]
 - [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor|Computer-Use 2.0: Agents Just Got Multi-Cursor]]
 - [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
@@ -221,11 +222,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]
 
 ### Media Signals
-- `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
-- Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
-- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
 - `youtube-2JX6JYyQG4Y` — 2,870 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-2JX6JYyQG4Y`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-2JX6JYyQG4Y`: screen, still, first, maybe, check, meeting, click, part.
@@ -251,6 +247,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-il1c1a2FufU`: thread, computer, slack, been, pretty, skills, threads, skill.
 - Slide-derived themes for `youtube-il1c1a2FufU`: workshops, track, june, product, days, jobs, context, problem.
 - Evidence links for `youtube-il1c1a2FufU` (primary event evidence): [[youtube-il1c1a2FufU]], [[youtube-il1c1a2FufU-transcript]], [[youtube-il1c1a2FufU-slides]]
+- `youtube-pMggiOb18tc` — 4,606 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-pMggiOb18tc`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-pMggiOb18tc`: models, codex, open, model, should, engineering, well, even.
+- Slide-derived themes for `youtube-pMggiOb18tc`: codex, software, engineers, computer, plugins, lifetime, career, left.
+- Evidence links for `youtube-pMggiOb18tc` (primary event evidence): [[youtube-pMggiOb18tc]], [[youtube-pMggiOb18tc-transcript]], [[youtube-pMggiOb18tc-slides]]
 - `youtube-Ib5GBkD555M` — 4,045 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-Ib5GBkD555M`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-Ib5GBkD555M`: code, review, model, coding, software, stuff, test, better.
@@ -259,9 +260,6 @@ The theme recurs across independently attributed official event recordings. Spec
 - `youtube-YRGjll7uu5w` — 8 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
 - Evidence links for `youtube-YRGjll7uu5w` (supporting context only): [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
-- `youtube-yJHw33cVeHo` — 10 slide-derived text signals; role: supporting context only.
-- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
-- Evidence links for `youtube-yJHw33cVeHo` (supporting context only): [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
 - `youtube-WJjInLeaJjo` — 10 slide-derived text signals; role: supporting context only.
 - Slide-derived themes for `youtube-WJjInLeaJjo`: barth, developer, documentation, server, customer, experience, advocate, june.
 - Evidence links for `youtube-WJjInLeaJjo` (supporting context only): [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

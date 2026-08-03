@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: tool:codex
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -19,7 +19,7 @@ sourceAssessment:
   - source:official-wf26-official-sessions
   - source:official-wf26-youtube-1EZdpEhwmNc
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:4f8584c7739c47d6cca9edfec73e7f0b7ffcd57d3a7a034a835cf92fa8193978
+sourceAssessmentBodySha256: sha256:f005aa357820423f33ab06b396b66008da9e9d211cf6796e9acc1efdb3b8eac3
 ---
 # Codex
 
@@ -29,11 +29,17 @@ Codex appears as a high-confidence tool, platform, model, protocol, product, or 
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 2 evidence-bound talk digest(s).
+This section is generated from 4 evidence-bound talk digest(s).
 
 - [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]] — A coding agent explicitly named as part of the security monitoring scope.
   - Transcript: [[youtube-1EZdpEhwmNc-transcript]]
   - Evidence: "We just GA'd our agentic dev security offering yesterday. It's looking at the environment, the output, the skills, the MCP servers, and the behavior of coding agents like Cursor Cloud, um Codex, and others."
+- [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon|How Forward Deployed Engineering is done at Decagon]] — The coding assistant mentioned as part of the temptation to implement customer asks quickly through code.
+  - Transcript: [[youtube-7wu2hsRfvV0-transcript]]
+  - Evidence: "Making sure that gets incorporated back into the product. And um, this is I think like a super super uh, important insight, uh, which is there is routinely this temptation of Okay, customer A made this request and they're so important to us and they want it done ASAP and maybe I'll just go prompt Codex and Cloud Code to just do it for me."
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering|AI tools for Forward Deployed Engineering]] — The external coding assistant named alongside Claude in the platform discussion.
+  - Transcript: [[youtube-l0FLhNqBOic-transcript]]
+  - Evidence: "We're hanging out, we're chilling, having a great time. Codex, Claude, we're all hanging out."
 - [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — A tool named as something markdown can be piped into for execution.
   - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
   - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"

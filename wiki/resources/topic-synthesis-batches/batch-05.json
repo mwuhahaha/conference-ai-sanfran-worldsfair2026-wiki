@@ -1,250 +1,200 @@
 {
   "algorithmVersion": 3,
   "batchIndex": 5,
-  "candidateCount": 52,
+  "candidateCount": 65,
   "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
-  "generatedAt": "2026-07-24T22:41:01.464323+00:00",
+  "generatedAt": "2026-07-30T16:36:30.776986+00:00",
   "generatedBy": "cross-talk-topic-map-v1",
-  "inputSha256": "sha256:da63b2be7e3736e55e7eea1a8c9919942ab488eeefe6cd0d3253c1b163abe254",
+  "inputSha256": "sha256:a24f265eac7996a3ce8e7add469a352b2bfcf998c5c0dc902d0d5f692e78f06e",
   "model": "gpt-5.4-mini",
   "payload": {
     "clusters": [
       {
-        "canonicalTopic": "AI engineering as a software discipline",
+        "canonicalTopic": "General AI engineering role and practice",
         "memberIds": [
           "T0006"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Broad framing of AI engineering as the evolving role of engineers in an AI-native software era."
+        "synthesis": "Broad framing of AI engineering as the core job shape in an AI-native era."
       },
       {
-        "canonicalTopic": "Reasoning scaling and post-plateau model progress",
+        "canonicalTopic": "Search and retrieval at scale",
         "memberIds": [
-          "T0012"
+          "T0012",
+          "T0108",
+          "T0162",
+          "T0366"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Focuses on reasoning training and scaling laws as the mechanism for continued model progress after an apparent plateau."
+        "preferredExistingTopicSlug": "agentic-search",
+        "synthesis": "Search, retrieval, and routing as the user-facing bottleneck once datasets and context spaces get large."
       },
       {
-        "canonicalTopic": "Software maintainability",
+        "canonicalTopic": "Reasoning and training scale",
         "memberIds": [
           "T0018"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Treats maintainability as the ability to evolve codebases without creating regressions or future change friction."
+        "synthesis": "Scaling laws for reasoning and post-plateau model progress."
       },
       {
-        "canonicalTopic": "Agentic execution loops",
-        "memberIds": [
-          "T0024"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Describes the loop where an agent acts in the world rather than only producing text."
-      },
-      {
-        "canonicalTopic": "AI sandboxes",
+        "canonicalTopic": "Software factory operating model",
         "memberIds": [
           "T0030",
-          "T0114",
-          "T0120"
-        ],
-        "preferredExistingTopicSlug": "ai-sandboxes",
-        "synthesis": "All three candidates describe isolated, reproducible, or fleet-managed sandbox environments for safe agent execution."
-      },
-      {
-        "canonicalTopic": "Agent security and supply chain risk",
-        "memberIds": [
-          "T0036",
-          "T0042",
-          "T0066",
-          "T0096",
-          "T0222",
-          "T0252"
-        ],
-        "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Covers attack surface expansion, short-lived credentials, malicious package-name abuse, access control, and ontology or supply-chain guardrails for agents."
-      },
-      {
-        "canonicalTopic": "In-band agent memory writing",
-        "memberIds": [
-          "T0048"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "Writing memory during execution through simple writable storage primitives."
-      },
-      {
-        "canonicalTopic": "Evaluation and verifier design",
-        "memberIds": [
           "T0054",
           "T0060",
-          "T0102",
-          "T0132",
-          "T0144",
-          "T0162",
-          "T0168",
-          "T0174",
-          "T0192",
-          "T0210",
-          "T0270"
-        ],
-        "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "A cluster around inner-loop evals, verifier separation, reward hacking, reliability, task-specific evaluations, regression gating, and using feedback to improve evaluation quality."
-      },
-      {
-        "canonicalTopic": "Company and organizational grounding",
-        "memberIds": [
-          "T0072",
-          "T0234"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Both candidates focus on grounding AI behavior in organization-specific facts, capabilities, personas, and related reference material."
-      },
-      {
-        "canonicalTopic": "Embedded co-development",
-        "memberIds": [
-          "T0078"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Working directly inside a customer codebase rather than as a detached service layer."
-      },
-      {
-        "canonicalTopic": "Harnesses that become agents",
-        "memberIds": [
           "T0084",
-          "T0312"
+          "T0102",
+          "T0114",
+          "T0138",
+          "T0150",
+          "T0360"
         ],
         "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "Both candidates describe reusable agent harnesses or packs that initiate work, bind tools and policies, and evolve into software-factory style execution units."
+        "synthesis": "End-to-end delivery loops that convert customer signals into validated, outcome-driven software changes and reusable product capability."
       },
       {
-        "canonicalTopic": "Open-weight model deployment",
+        "canonicalTopic": "Agent execution loops",
         "memberIds": [
-          "T0090"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Using open-weight models as a practical production alternative."
-      },
-      {
-        "canonicalTopic": "Durable execution for agents",
-        "memberIds": [
-          "T0150"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Positions resumable execution as the stable core of an agent system."
-      },
-      {
-        "canonicalTopic": "Personal thought websites",
-        "memberIds": [
-          "T0156"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Uses a generated site as a living representation of a person's thoughts, tastes, and work."
-      },
-      {
-        "canonicalTopic": "Agentic web perception and shared screens",
-        "memberIds": [
-          "T0138"
-        ],
-        "preferredExistingTopicSlug": "agentic-web",
-        "synthesis": "Centers on agents and humans looking at the same interface or screen to improve collaboration and reduce explanation."
-      },
-      {
-        "canonicalTopic": "Workflow and task-scoped capability skills",
-        "memberIds": [
-          "T0186"
-        ],
-        "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "Skills are treated as temporary capability boosts for tasks the model cannot yet do consistently."
-      },
-      {
-        "canonicalTopic": "Self-improving systems",
-        "memberIds": [
-          "T0180"
-        ],
-        "preferredExistingTopicSlug": "autoresearch",
-        "synthesis": "Frames systems that investigate and repair themselves in repeated improvement loops."
-      },
-      {
-        "canonicalTopic": "Semantic infrastructure for enterprise context",
-        "memberIds": [
-          "T0108",
-          "T0240",
-          "T0246",
-          "T0276"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "These candidates all emphasize shared semantic structure, metadata projection, ontology rules, or graph modeling as substrate for enterprise context and knowledge organization."
-      },
-      {
-        "canonicalTopic": "Work understanding and context graphs",
-        "memberIds": [
-          "T0198",
-          "T0258",
-          "T0294",
-          "T0300"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "All four describe durable, queryable context structures that preserve traces, moments, relationships, or work state for future use."
-      },
-      {
-        "canonicalTopic": "Deterministic browser rendering",
-        "memberIds": [
-          "T0264"
-        ],
-        "preferredExistingTopicSlug": "nearly-headless-web",
-        "synthesis": "Focuses on repeatable browser rendering as a substrate for agent-facing web behavior."
-      },
-      {
-        "canonicalTopic": "Inference engineering",
-        "memberIds": [
-          "T0282",
-          "T0288"
-        ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "Both candidates are about making model serving practical through specialization and local optimization rather than general-purpose scaling."
-      },
-      {
-        "canonicalTopic": "Demand expansion from automation",
-        "memberIds": [
-          "T0126"
-        ],
-        "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "Argues that cheaper software creation expands the set of problems people want built."
-      },
-      {
-        "canonicalTopic": "Breadth-versus-depth product strategy",
-        "memberIds": [
-          "T0306"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Contrasts breadth and depth as a lens on modern product strategy."
-      },
-      {
-        "canonicalTopic": "Merchant authenticity",
-        "memberIds": [
+          "T0036",
           "T0204"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "The system is designed to preserve merchant identity and user trust while improving photos."
+        "synthesis": "Long-running agent loops that act, inspect, and continue work rather than only producing text."
       },
       {
-        "canonicalTopic": "Capability overhang",
+        "canonicalTopic": "Sandboxed execution and untrusted code isolation",
         "memberIds": [
-          "T0216"
+          "T0042",
+          "T0168",
+          "T0180"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "The idea that model usefulness can jump when paired with tools instead of only scaling parameters or context."
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "Secure execution environments for agents, code, and tasks that need isolation plus verification."
       },
       {
-        "canonicalTopic": "Community impact",
+        "canonicalTopic": "Agent supply-chain security",
         "memberIds": [
+          "T0048",
+          "T0096",
+          "T0132"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Security framed around agents, credentials, MCP-like dependencies, and separate review passes."
+      },
+      {
+        "canonicalTopic": "Memory and persistent state for agents",
+        "memberIds": [
+          "T0072"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "Writable memory during execution to preserve state across steps and sessions."
+      },
+      {
+        "canonicalTopic": "Evaluation and verification",
+        "memberIds": [
+          "T0078",
+          "T0192",
+          "T0198",
+          "T0234",
+          "T0258",
+          "T0264",
+          "T0270",
+          "T0282",
+          "T0294",
+          "T0312",
+          "T0384"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "Using judges, online checks, multi-layer verification, and deterministic scoring to validate agent behavior and outputs."
+      },
+      {
+        "canonicalTopic": "Human oversight and qualitative judgment",
+        "memberIds": [
+          "T0174",
+          "T0216",
           "T0228"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "A metric-style way to measure whether a PR's ideas spread through the community and get reused."
+        "synthesis": "The limits of metrics and the need to preserve human understanding, taste, and judgment."
+      },
+      {
+        "canonicalTopic": "Inference and runtime efficiency",
+        "memberIds": [
+          "T0126"
+        ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Shifting work onto cheaper deterministic systems to reduce model load and cost."
+      },
+      {
+        "canonicalTopic": "Context and knowledge architecture",
+        "memberIds": [
+          "T0144",
+          "T0252",
+          "T0300",
+          "T0306",
+          "T0336",
+          "T0378"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Shared context layers, semantic models, provenance, and data-model structures that make business knowledge traversable for agents."
+      },
+      {
+        "canonicalTopic": "Tool typing and agent substrate design",
+        "memberIds": [
+          "T0318",
+          "T0390"
+        ],
+        "preferredExistingTopicSlug": "mcp",
+        "synthesis": "Typed tool contracts and reusable agent bundles that define how agents interact with their environment."
+      },
+      {
+        "canonicalTopic": "Codebase and review abstractions",
+        "memberIds": [
+          "T0024",
+          "T0288",
+          "T0330"
+        ],
+        "preferredExistingTopicSlug": "coding-agents",
+        "synthesis": "How code structure, abstraction boundaries, and maintainability shape agentic development and review."
+      },
+      {
+        "canonicalTopic": "Verification-oriented task design",
+        "memberIds": [
+          "T0240",
+          "T0276"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Structured problem framing that exposes missing requirements and aligns evidence with the task."
+      },
+      {
+        "canonicalTopic": "Production AI on local or enterprise substrates",
+        "memberIds": [
+          "T0342",
+          "T0348",
+          "T0354"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Local-first AI arguments centered on control, privacy, and deployable harnesses."
+      },
+      {
+        "canonicalTopic": "Miscellaneous talk-specific ideas",
+        "memberIds": [
+          "T0066",
+          "T0090",
+          "T0120",
+          "T0156",
+          "T0186",
+          "T0210",
+          "T0222",
+          "T0246",
+          "T0324",
+          "T0372"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "One-off concepts that are too talk-specific or loosely connected to justify forcing a shared reusable proto-topic."
       }
     ]
   },
-  "payloadSha256": "sha256:3a36ecaa246bd3f6baa8e3a7391089072403d34771bbb4d0eafc2f1851d2b541",
+  "payloadSha256": "sha256:118be0ce24bf27d40a2dafd9f46912453b374bd348c73c144a8439c49d370e90",
   "schemaVersion": 1
 }

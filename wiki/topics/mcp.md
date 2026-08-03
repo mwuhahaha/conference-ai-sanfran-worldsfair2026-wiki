@@ -10,7 +10,7 @@ sourceAssessment:
   subjectId: concept:mcp
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -27,7 +27,7 @@ sourceAssessment:
   - source:official-wf26-youtube-il1c1a2FufU
   - source:official-wf26-youtube-pMggiOb18tc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:933cc5fe33a69659c63ee49245db6cc8b213e816b6159d1d4348b2916db316fd
+sourceAssessmentBodySha256: sha256:2fe0ab235297b6a3bd6546296f2149da36c9a503c69d1213773cba9f54e59368
 ---
 # Model Context Protocol
 
@@ -61,13 +61,36 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-06-29-ezra-tanzer-agentic-development-security]] — Agentic Development Security
 - [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
 - [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you]] — Your Finance Agent's Bottleneck Is You
 
 ## Slide-Derived Supporting Decks
 - [[youtube--I5W5QVAT8E-slides]] — Notion's Token Town — Sarah Sachs, Notion (12 extracted slide frames)
+- [[youtube--jY2T2PiJBE-slides]] — MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef (32 extracted slide frames)
 - [[youtube-1EZdpEhwmNc-slides]] — Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk (16 extracted slide frames)
 - [[youtube-cgimkNGNjvU-slides]] — Agentic Development Security — Ezra Tanzer, Snyk (18 extracted slide frames)
+- [[youtube-s4r6nk5WsZw-slides]] — MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal (32 extracted slide frames)
+- [[youtube-z0sh8HyTrDo-slides]] — Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI (6 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Transcript Digest Evidence
+This section synthesizes 4 evidence-bound talk topic candidates across at least two talks.
+
+### Cross-Talk Synthesis
+These candidates treat typed tool contracts and authorization boundaries as the important design problem for agent tool use, especially around runtime paths that connect the agent to external resources. The variation is whether the emphasis is on validation loops, app-runtime authorization, or reusable tool typing that makes the interaction safer and more legible.
+
+### Constituent Talk Evidence
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]] — The chain of runtime, MCP client, MCP server, and resource where authorization can be enforced.
+  - Transcript: [[youtube-I3znWC3MEXM-transcript]]
+  - Evidence: "Now an MCP client takes the agent's proposed tool calls and it dispatches them to its MCP server."
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]] — The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.
+  - Transcript: [[youtube-Sir59K8ZDPU-transcript]]
+  - Evidence: "So, stop reason means the LLM has stopped for some reason. The The reason here is that it can't do anything, and if the reason is tool use, ah, now it's time."
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]] — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
+  - Transcript: [[youtube-khVX_BUnEwU-transcript]]
+  - Evidence: "And when you bring it all together, you got these kind of object schemas, tools, deterministic LLM behaviors can be assembled into a something called a pack, right?"
 
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
@@ -176,19 +199,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 | Evidence type | Count | Review note |
 | --- | ---: | --- |
 | other | 64 | Related pages outside the main evidence categories. |
-| resources | 25 | Video/resource pages; check source status before treating as primary event evidence. |
-| slides | 35 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 35 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| resources | 27 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 37 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 39 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 17 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 21 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-ezra-tanzer-agentic-development-security]]
 - [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]]
 - [[2026-06-29-sarah-sachs-notion-s-token-town]]
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
-- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you]]
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]]
 
 ### Resources
 - [[youtube-o-zkvb0iFDQ]]
@@ -202,17 +225,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[youtube--I5W5QVAT8E-slides]]
 - [[youtube-1EZdpEhwmNc-slides]]
 - [[youtube-cgimkNGNjvU-slides]]
+- [[youtube-z0sh8HyTrDo-slides]]
 - [[youtube-2e9ANoOEn28-slides]]
 - [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-V-EDrhIhHzQ-slides]]
 
 ### Transcripts
+- [[youtube-I3znWC3MEXM-transcript]]
+- [[youtube-Sir59K8ZDPU-transcript]]
+- [[youtube-khVX_BUnEwU-transcript]]
 - [[youtube-V-EDrhIhHzQ-transcript]]
 - [[youtube-I2cbIws9j10-transcript]]
 - [[youtube-htM02KMNZnk-transcript]]
-- [[youtube-I3znWC3MEXM-transcript]]
-- [[youtube-jt1Pbr_n6oU-transcript]]
-- [[youtube-1EZdpEhwmNc-transcript]]
 
 ### Tools
 - [[docker]]
@@ -224,6 +247,9 @@ This section consolidates source evidence currently connected to this topic acro
 The theme recurs across independently attributed official event recordings. Specific technical claims still remain bound to the cited recording, transcript, or slide layer.
 
 ### Linked Sessions
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]]
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]]
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
@@ -231,11 +257,13 @@ The theme recurs across independently attributed official event recordings. Spec
 - [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer|Who Approved That MCP Server? Governing the Tool Layer]]
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
-- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
-- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|'Agents That Forge Their Own Tools: Self-Modifying AI in the Wild']]
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
 
 ### Media Signals
+- `youtube-I3znWC3MEXM` — 3,454 transcript words; 6 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-I3znWC3MEXM`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-I3znWC3MEXM`: token, user, server, access, call, resource, might, ooth.
+- Slide-derived themes for `youtube-I3znWC3MEXM`: track, june, engineering, future, founding, engineer, head, developer.
+- Evidence links for `youtube-I3znWC3MEXM` (primary event evidence): [[youtube-I3znWC3MEXM]], [[youtube-I3znWC3MEXM-transcript]], [[youtube-I3znWC3MEXM-slides]]
 - `youtube-V-EDrhIhHzQ` — 10,228 transcript words; 6 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-V-EDrhIhHzQ`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-V-EDrhIhHzQ`: model, harness, well, doing, environment, training, able, models.
@@ -251,16 +279,16 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, welcome, engineer, fair, single, line.
 - Evidence links for `youtube-htM02KMNZnk` (primary event evidence): [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-- `youtube-I3znWC3MEXM` — 3,454 transcript words; 6 slide-derived text signals; role: primary event evidence.
-- Interpretation rule for `youtube-I3znWC3MEXM`: attribute claims to the recording or speaker unless independently corroborated.
-- Transcript signals for `youtube-I3znWC3MEXM`: token, user, server, access, call, resource, might, ooth.
-- Slide-derived themes for `youtube-I3znWC3MEXM`: track, june, engineering, future, founding, engineer, head, developer.
-- Evidence links for `youtube-I3znWC3MEXM` (primary event evidence): [[youtube-I3znWC3MEXM]], [[youtube-I3znWC3MEXM-transcript]], [[youtube-I3znWC3MEXM-slides]]
 - `youtube-jt1Pbr_n6oU` — 3,441 transcript words; 8 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-jt1Pbr_n6oU`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-jt1Pbr_n6oU`: data, model, graph, across, structure, chat, part, structured.
 - Slide-derived themes for `youtube-jt1Pbr_n6oU`: track, july, fair, intro, defensible, organization, presented, users.
 - Evidence links for `youtube-jt1Pbr_n6oU` (primary event evidence): [[youtube-jt1Pbr_n6oU]], [[youtube-jt1Pbr_n6oU-transcript]], [[youtube-jt1Pbr_n6oU-slides]]
+- `youtube-z0sh8HyTrDo` — 1,946 transcript words; 7 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-z0sh8HyTrDo`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-z0sh8HyTrDo`: production, human, look, finance, developer, code, loop, does.
+- Slide-derived themes for `youtube-z0sh8HyTrDo`: engineering, future, presented, most, finance, demos, look, great.
+- Evidence links for `youtube-z0sh8HyTrDo` (primary event evidence): [[youtube-z0sh8HyTrDo]], [[youtube-z0sh8HyTrDo-transcript]], [[youtube-z0sh8HyTrDo-slides]]
 - `youtube-1EZdpEhwmNc` — 4,245 transcript words; 10 slide-derived text signals; role: primary event evidence.
 - Interpretation rule for `youtube-1EZdpEhwmNc`: attribute claims to the recording or speaker unless independently corroborated.
 - Transcript signals for `youtube-1EZdpEhwmNc`: security, data, code, able, find, skill, customers, attacks.
@@ -306,6 +334,11 @@ The theme recurs across independently attributed official event recordings. Spec
 - Transcript signals for `youtube-kRkcNOsRyYg`: graph, data, well, question, inside, search, over, documents.
 - Slide-derived themes for `youtube-kRkcNOsRyYg`: engineering, future, engineer, squire, ryan, knight, senior, partner.
 - Evidence links for `youtube-kRkcNOsRyYg` (primary event evidence): [[youtube-kRkcNOsRyYg]], [[youtube-kRkcNOsRyYg-transcript]], [[youtube-kRkcNOsRyYg-slides]]
+- `youtube-xIt_mTQp6mY` — 3,455 transcript words; 10 slide-derived text signals; role: primary event evidence.
+- Interpretation rule for `youtube-xIt_mTQp6mY`: attribute claims to the recording or speaker unless independently corroborated.
+- Transcript signals for `youtube-xIt_mTQp6mY`: loops, code, loop, control, change, controller, skill, doing.
+- Slide-derived themes for `youtube-xIt_mTQp6mY`: loop, engineering, system, first, kyle, reed, measured, controller.
+- Evidence links for `youtube-xIt_mTQp6mY` (primary event evidence): [[youtube-xIt_mTQp6mY]], [[youtube-xIt_mTQp6mY-transcript]], [[youtube-xIt_mTQp6mY-slides]]
 - `youtube-sAOBXCDiDOs` — 4,772 transcript words; 10 slide-derived text signals; role: supporting context only.
 - Transcript signals for `youtube-sAOBXCDiDOs`: apps, model, tool, widget, server, cloud, clears, throat.
 - Slide-derived themes for `youtube-sAOBXCDiDOs`: host, apps, server, renders, inline, primitives, discovery, software.

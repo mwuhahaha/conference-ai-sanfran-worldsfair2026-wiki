@@ -1,0 +1,11 @@
+World's Fair A simple Skill Registry
+python
+registry=[
+frontmatter(open(f,encoding="utf-8").read())
+for fin sorted(glob("skills//SKILL.md"))
+Skill Description
+company-resesrch Createsa beginner-friendlyresearch brief abouta public company.
+roport-htnl preserving allcontent and structure. Turns Markdown Into a polished, standalone HTML reportwhile
+roport-pdf Fills,merges,and extracts data from PDF fles.
+O/&DDOO
+World'sFair TrACK 3· JULY 2,2026 Al in Finance

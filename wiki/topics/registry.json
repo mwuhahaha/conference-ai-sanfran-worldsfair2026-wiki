@@ -1,10 +1,5 @@
 [
   {
-    "id": "active-documents-and-live-work-surfaces",
-    "title": "Active Documents and Live Work Surfaces",
-    "path": "wiki/topics/active-documents-and-live-work-surfaces.md"
-  },
-  {
     "id": "agent-evaluations",
     "title": "Agent Evaluations",
     "path": "wiki/topics/agent-evaluations.md"
@@ -15,19 +10,14 @@
     "path": "wiki/topics/agent-memory.md"
   },
   {
-    "id": "agent-reliability-and-durable-execution",
-    "title": "Agent Reliability and Durable Execution",
-    "path": "wiki/topics/agent-reliability-and-durable-execution.md"
+    "id": "agent-ready-accessibility",
+    "title": "Agent-Ready Accessibility",
+    "path": "wiki/topics/agent-ready-accessibility.md"
   },
   {
     "id": "agent-security",
     "title": "Agent Security",
     "path": "wiki/topics/agent-security.md"
-  },
-  {
-    "id": "agent-ready-accessibility",
-    "title": "Agent-Ready Accessibility",
-    "path": "wiki/topics/agent-ready-accessibility.md"
   },
   {
     "id": "agentic-search",
@@ -55,9 +45,19 @@
     "path": "wiki/topics/coding-agents.md"
   },
   {
-    "id": "human-oversight-and-review-dynamics",
-    "title": "Human Oversight and Review Dynamics",
-    "path": "wiki/topics/human-oversight-and-review-dynamics.md"
+    "id": "context-engineering-and-knowledge-architecture",
+    "title": "Context Engineering and Knowledge Architecture",
+    "path": "wiki/topics/context-engineering-and-knowledge-architecture.md"
+  },
+  {
+    "id": "forward-deployed-engineering",
+    "title": "Forward-Deployed Engineering",
+    "path": "wiki/topics/forward-deployed-engineering.md"
+  },
+  {
+    "id": "human-oversight-and-judgement",
+    "title": "Human Oversight and Judgement",
+    "path": "wiki/topics/human-oversight-and-judgement.md"
   },
   {
     "id": "inference-engineering",
@@ -70,11 +70,6 @@
     "path": "wiki/topics/mcp-app-runtime.md"
   },
   {
-    "id": "model-capability-and-product-framing",
-    "title": "Model Capability and Product Framing",
-    "path": "wiki/topics/model-capability-and-product-framing.md"
-  },
-  {
     "id": "mcp",
     "title": "Model Context Protocol",
     "path": "wiki/topics/mcp.md"
@@ -85,14 +80,19 @@
     "path": "wiki/topics/nearly-headless-web.md"
   },
   {
+    "id": "observed-work-and-traceability",
+    "title": "Observed Work and Traceability",
+    "path": "wiki/topics/observed-work-and-traceability.md"
+  },
+  {
+    "id": "platform-context-and-collaboration",
+    "title": "Platform Context and Collaboration",
+    "path": "wiki/topics/platform-context-and-collaboration.md"
+  },
+  {
     "id": "reachability-over-format",
     "title": "Reachability Over Format",
     "path": "wiki/topics/reachability-over-format.md"
-  },
-  {
-    "id": "semantic-infrastructure-and-ontology",
-    "title": "Semantic Infrastructure and Ontology",
-    "path": "wiki/topics/semantic-infrastructure-and-ontology.md"
   },
   {
     "id": "software-factories",

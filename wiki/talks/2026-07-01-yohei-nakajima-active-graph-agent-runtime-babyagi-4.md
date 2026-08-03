@@ -60,14 +60,14 @@ The talk argues for a log-centered agent runtime: instead of starting from the L
   - Evidence: "So I'll caveat that. But I'm building this, I'm starting to really think that long-running agents need not just a world world model and like a predictive world model, but what I might call an experiential world model."
 
 ### Topics Covered
-- **Event-sourced agent runtime** — The core idea that the agent should be modeled as an auditable, event-sourced graph rather than a message thread.
+- [[context-engineering-and-knowledge-architecture|Event-sourced agent runtime]] — The core idea that the agent should be modeled as an auditable, event-sourced graph rather than a message thread.
 - [[agent-memory|Immutable agent log]] — The use of a single immutable log as the source of truth for agent state, history, and change tracking.
-- [[agent-reliability-and-durable-execution|Behavior-driven state updates]] — Mechanisms for attaching reacting code to graph updates and letting it emit new events.
-- [[inference-engineering|Policy-controlled mutation]] — Using policies to constrain edits, approvals, and safe self-modification.
-- [[software-factories|Agent packs]] — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
+- [[observed-work-and-traceability|Behavior-driven state updates]] — Mechanisms for attaching reacting code to graph updates and letting it emit new events.
+- **Policy-controlled mutation** — Using policies to constrain edits, approvals, and safe self-modification.
+- [[context-engineering-and-knowledge-architecture|Agent packs]] — Bundling object schemas, tools, behaviors, and policies into reusable agent units.
 - [[agent-memory|Graph-backed memory]] — Treating logs and replays as the basis for memory and recovery in long-running systems.
 - [[agent-evaluations|Self-improving evaluation loops]] — Controlled self-improvement loops that propose changes, test them, and keep only verified gains.
-- **Experiential world model** — The idea that an agent’s identity and learning may derive from its own experiential history.
+- [[forward-deployed-engineering|Experiential world model]] — The idea that an agent’s identity and learning may derive from its own experiential history.
 
 ### Tools And Named Systems
 - **ActiveGraph** — The speaker’s experimental runtime for building auditable agents around an event-sourced graph.

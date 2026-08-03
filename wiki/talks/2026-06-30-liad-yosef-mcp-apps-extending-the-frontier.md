@@ -88,3 +88,10 @@ This section is generated from the official schedule, manifest-matched session r
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
 ## Notes
 - This page now includes source-backed synthesis from the official schedule and the related Liad/Ido MCP UI transcript. Revisit if a confirmed exact recording of this scheduled session is published.
+## Supporting Slides
+- [[youtube--jY2T2PiJBE-slides]] — extracted from the related public AI Engineer video.
+
+## Official YouTube Recording
+- [[youtube--jY2T2PiJBE]] — official AI Engineer YouTube channel recording published 2026-08-02.
+- Evidence status: [[youtube--jY2T2PiJBE-transcript]]; [[youtube--jY2T2PiJBE-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

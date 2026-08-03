@@ -62,7 +62,7 @@ The talk argues that agentic development security has to cover three layers at o
 - [[agent-security|Agent supply chain]] — The connected ecosystem of MCP servers and skills that expands the agent attack surface.
 - [[agent-security|Behavior governance]] — Policies and controls for intercepting risky agent behavior before it executes.
 - **Agent observability** — Seeing commands, files, sessions, costs, and tool use as part of trust in local agent workflows.
-- [[agent-security|False positives]] — Managing the tension between strict enforcement and developer workflow noise.
+- [[platform-context-and-collaboration|False positives]] — Managing the tension between strict enforcement and developer workflow noise.
 
 ### Tools And Named Systems
 - [[mcp|MCP]] — The protocol used to connect agents to external tools and services.

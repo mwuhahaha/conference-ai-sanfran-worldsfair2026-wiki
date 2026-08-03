@@ -56,11 +56,11 @@ The talk argues that as models get capable enough to make implementation cheap, 
   - Evidence: "And so I just explored a few concepts like the 10 principles of good design and um like Renaissance patronage is also something that I'm fascinated by right now."
 
 ### Topics Covered
-- [[model-capability-and-product-framing|Imagination engineering]] — The idea that model progress shifts value from implementation to idea generation.
-- [[inference-engineering|Thinking in public]] — Publishing one's reasoning and stream of consciousness for others to inspect.
-- [[active-documents-and-live-work-surfaces|Personal thought website]] — Using a generated site as a living representation of personal thoughts, tastes, and work.
-- **Comparative minds analysis** — Comparing notable minds across recurring traits and dimensions to surface patterns.
-- **Agent-readable documentation** — Packaging project metadata so agents can read, summarize, and act on a changing system.
+- [[context-engineering-and-knowledge-architecture|Imagination engineering]] — The idea that model progress shifts value from implementation to idea generation.
+- [[observed-work-and-traceability|Thinking in public]] — Publishing one's reasoning and stream of consciousness for others to inspect.
+- **Personal thought website** — Using a generated site as a living representation of personal thoughts, tastes, and work.
+- [[human-oversight-and-judgement|Comparative minds analysis]] — Comparing notable minds across recurring traits and dimensions to surface patterns.
+- [[agentic-web|Agent-readable documentation]] — Packaging project metadata so agents can read, summarize, and act on a changing system.
 
 ### Tools And Named Systems
 - [[chatgpt|ChatGPT]] — Used to create an image of the Library of Alexandria for the talk's framing.

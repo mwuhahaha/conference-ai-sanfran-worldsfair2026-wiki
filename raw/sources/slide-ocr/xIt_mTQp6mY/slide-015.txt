@@ -1,0 +1,9 @@
+World's Fair AlEngineer synclayer on main [sx!?]via )ast-grep scan -r rule.yml --color never-json Ijq 'I.[] I fruleId, file, message, severity}] I sort_by(.severity,.file,.ruleId) v1.3.14on (us-east-1)
+"ruleId":"orpc-unmigrated-procedure"
+"message":"Classic.handler procedure -not yet migrated to Effect." "severity":"warning"
+"ruleId":"orpc-unmigrated-procedure"
+"message":"Classic.handler procedure -not yet migrated to Effect." "severity":"warning"
+"ruleId":"orpc-unmigrated-procedure"
+AI "message":"Classic.handler procedure -not yet migrated to Effect." "severity":"warning"
+Fair "file":"apps/admin-dashboard-api/src/orpc/campaign/list.ts", "ruleId":"orpc-unmigrated-procedure" "message":"Classic.handler procedure -not yet migrated to Effect."
+Engineering the future of Al

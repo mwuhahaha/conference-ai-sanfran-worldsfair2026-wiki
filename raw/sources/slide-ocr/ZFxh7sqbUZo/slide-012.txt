@@ -1,0 +1,13 @@
+eed
+World's Fair |
+SAViTo Koya ized
+vidence exploits aren't memorize
+CVE-2023-6702 — predicted V8's PRNG to forge a pointer and ROP
+out of the cage.
+CVE-2024-7965 — found a new WebAssembly path past where all
+public work stops.
+CVE-2024-0519 — reproduced a year-old in-the-wild bug with no
+public PoC.
+Work on par with an elite human researcher.
+Red TRACK 9 * JUNE 30, 2026
+Data Quality

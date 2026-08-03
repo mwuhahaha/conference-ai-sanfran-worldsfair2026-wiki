@@ -1,0 +1,251 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:34:52.624059+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:e88841bb446b209d3175c5535482df9283b21ac0a18562dd66d02dc7da72aeb6",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "And that's what I call the fluent bluff. The fluent bluff is a generic fluent and confident answer that frontier LLMs can give you around money because of what they learned on the internet, blogs, books, advice columns, what people wrote about money, but not based on what actually happened.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that off-the-shelf LLMs can sound fluent and confident about money while still being generic and disconnected from what actually happened in real business situations."
+      },
+      {
+        "evidenceExcerpt": "How do I improve my profit? And a frontier model gives the following response. Go and acquire a second rental property because that'll bring more income and compensate for the deficit.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "support": "explicit",
+        "text": "In the rental-property example, the frontier model recommends acquiring a second rental property even though the business is already in negative cash flow."
+      },
+      {
+        "evidenceExcerpt": "Same question, how do I improve my profit? A frontier model says raise your prices 15 to 20%.",
+        "evidenceSegmentIds": [
+          "S0023"
+        ],
+        "support": "explicit",
+        "text": "In the egg-supplier example, the frontier model recommends raising prices 15 to 20 percent even though one customer supplies most of the revenue and one vendor accounts for most of the cost."
+      },
+      {
+        "evidenceExcerpt": "On the other hand, a model that is grounded in real outcomes and what I mean by that is a model that has seen similar situations of such businesses what they did and what was the outcome actually recommended to raise prices on the existing tenant by 5 to 10%.",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "support": "explicit",
+        "text": "The grounded model, based on similar real outcomes, recommends raising the existing tenant's rent by 5 to 10 percent before renewal in the rental-property case."
+      },
+      {
+        "evidenceExcerpt": "So we create millions of vectors of state, action and outcome and then we train an R model to be able to understand in given situations of similar businesses which actions lead to the best outcomes.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "support": "explicit",
+        "text": "The speaker describes turning internal data into millions of state, action, and outcome vectors and training an RL model to determine which actions lead to the best outcomes in similar situations."
+      },
+      {
+        "evidenceExcerpt": "And then we went ahead and built an experience out of it. And this is an AI business advisor that is currently in beta with research in a research preview with our customers where we use the LLM that I just described that we created to proactively raise opportunities for businesses at every given point of time.",
+        "evidenceSegmentIds": [
+          "S0081"
+        ],
+        "support": "explicit",
+        "text": "The resulting AI business advisor is described as being in beta and research preview, with proactive recommendations, explanations, and action plans for customers."
+      },
+      {
+        "evidenceExcerpt": "But it doesn't turn out to be true. And the moat here is that it's not about the model access, it's about the data itself that you have.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "support": "strong",
+        "text": "The speaker says the real moat is the data and grounding in outcomes, not simply access to a bigger or better model."
+      }
+    ],
+    "methodNotes": "I stayed strictly within the supplied schedule metadata and transcript. I treated named products as tools only when they were explicitly named in the transcript, and I avoided classifying generic terms such as AI, agent, model, or system as tools. Each claim, takeaway, topic, tool, method, and question is anchored to exactly one transcript segment ID, and I used conservative labels where the statement was a synthesis rather than a direct quote-level fact.",
+    "methods": [
+      {
+        "description": "Grounding advice in verified outcomes from similar real businesses instead of relying on text-only generalization.",
+        "evidenceExcerpt": "And here's what I want you to think about. A frontier model has read about money, but a grounded model in real outcome has actually watched what happens.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Outcome Grounding"
+      },
+      {
+        "description": "Generating candidate actions with a frontier model before passing them to a stronger decision layer.",
+        "evidenceExcerpt": "So, we use them to generate hypothesis candidates for actions we would suggest a business to do.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "name": "Action Candidate Generation"
+      },
+      {
+        "description": "Using reinforcement learning to decide which suggested action is likely correct versus harmful.",
+        "evidenceExcerpt": "But then we would use a model that we trained using reinforcement learning in order to figure out which one of those is actually a right move to do versus a mistake that could drive the business down.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "name": "Reinforcement Learning Action Selection"
+      },
+      {
+        "description": "Representing a business as state, action, and outcome vectors for learning from historical trajectories.",
+        "evidenceExcerpt": "So we create millions of vectors of state, action and outcome and then we train an R model to be able to understand in given situations of similar businesses which actions lead to the best outcomes.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "State-Action-Outcome Modeling"
+      },
+      {
+        "description": "Adjusting for selection bias when estimating the impact of an action on results.",
+        "evidenceExcerpt": "So, the real difference is more like $1,150 for this illustration. And we measure the impact of actions on the outcome through a measure called Kate, conditional average treatment error, which looks at that connection.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "name": "CATE-Based Impact Estimation"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "So find where you can see a lot of different situations across entities that you have in your data.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "question": "How can a team identify enough comparable situations across entities to reliably ground advice in verified outcomes?",
+        "whyItMatters": "The approach depends on finding repeated patterns in the data, and without those comparable situations the grounding step may not be robust."
+      },
+      {
+        "evidenceExcerpt": "So, a great advisory experience needs to have two things. It needs to have great grounded science, the best science, but also it needs to understand you, what you prefer, and it needs to even make you feel as if you were part of the decision to create a trusted experience.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "question": "How can an advisory system combine grounded science with personalization so users feel included in the decision and still trust the recommendation?",
+        "whyItMatters": "The speaker treats trust and user preference as part of the product, not just the model, so this affects adoption."
+      },
+      {
+        "evidenceExcerpt": "And the question stops being which model is better and starts becoming how can we steer AI to actually make it achieve the outcomes we want in our domains.",
+        "evidenceSegmentIds": [
+          "S0085"
+        ],
+        "question": "How can outcome-driven AI be steered toward the right domain-specific result in fields beyond finance?",
+        "whyItMatters": "The talk argues the pattern should generalize to other domains, but the implementation details are still open."
+      }
+    ],
+    "summary": "The talk argues that off-the-shelf LLMs fail on money because they are fluent about finance without having watched what actually happened in similar real businesses. Udi Menkes proposes grounding advice in verified outcomes from internal system-of-record data: turn business histories into state, action, and outcome trajectories, use broad models to generate candidate moves, then train a grounded learner to choose the action most likely to improve profit, cash flow, or revenue. The tradeoff is that bigger models and more context are not enough on their own; the advantage comes from proprietary outcome data and causal structure, which can produce safer recommendations and support better action plans. The practical consequence is a shift from asking which model is best to asking how to steer AI toward the outcomes a business actually wants, with the same pattern framed as useful beyond finance.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And here's what I want you to think about. A frontier model has read about money, but a grounded model in real outcome has actually watched what happens.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "text": "The critical difference is not whether a model has read about money, but whether it has seen verified outcomes in real business situations."
+      },
+      {
+        "evidenceExcerpt": "So, the real difference is more like $1,150 for this illustration. And we measure the impact of actions on the outcome through a measure called Kate, conditional average treatment error, which looks at that connection.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "text": "Naive before-and-after comparisons can mislead; you need a causal estimate that accounts for which businesses were already more likely to take the action."
+      },
+      {
+        "evidenceExcerpt": "But then we would use a model that we trained using reinforcement learning in order to figure out which one of those is actually a right move to do versus a mistake that could drive the business down.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "text": "A practical architecture is to let one model propose candidate actions and then use a grounded learner to decide which move is actually appropriate."
+      },
+      {
+        "evidenceExcerpt": "The winners in my opinion are going to be those with the best system of records, creating unique data sets out of them and then training the models to achieve the outcomes.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "text": "The speaker's broader claim is that outcome-driven AI will favor organizations with strong systems of record and unique data sets, not just larger foundation models."
+      }
+    ],
+    "tools": [
+      {
+        "description": "Accounting and bookkeeping platform cited as a source of business financial data.",
+        "evidenceExcerpt": "So we have data add into it across our products QuickBooks, Turboax, Credit Karma, Mailchimp.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "name": "QuickBooks"
+      },
+      {
+        "description": "Tax preparation product cited as one of the data sources feeding the company's models.",
+        "evidenceExcerpt": "So we have data add into it across our products QuickBooks, Turboax, Credit Karma, Mailchimp.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "name": "TurboTax"
+      },
+      {
+        "description": "Personal finance product cited as one of the data sources feeding the company's models.",
+        "evidenceExcerpt": "So we have data add into it across our products QuickBooks, Turboax, Credit Karma, Mailchimp.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "name": "Credit Karma"
+      },
+      {
+        "description": "Marketing platform cited as one of the data sources feeding the company's models.",
+        "evidenceExcerpt": "So we have data add into it across our products QuickBooks, Turboax, Credit Karma, Mailchimp.",
+        "evidenceSegmentIds": [
+          "S0070"
+        ],
+        "name": "Mailchimp"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The problem of fluent but unreliable financial advice from general-purpose models.",
+        "evidenceExcerpt": "And that's what I call the fluent bluff. The fluent bluff is a generic fluent and confident answer that frontier LLMs can give you around money because of what they learned on the internet, blogs, books, advice columns, what people wrote about money, but not based on what actually happened.",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Fluent Bluff"
+      },
+      {
+        "description": "Using actual outcome histories instead of text-only knowledge to inform decisions.",
+        "evidenceExcerpt": "And here's what I want you to think about. A frontier model has read about money, but a grounded model in real outcome has actually watched what happens.",
+        "evidenceSegmentIds": [
+          "S0038"
+        ],
+        "name": "Verified Outcomes"
+      },
+      {
+        "description": "AI systems that optimize for business results rather than generic answer quality.",
+        "evidenceExcerpt": "Now, I want to take a step back and zoom out because this isn't just about money. We are entering the era of outcomedriven AI.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "Outcome-Driven AI"
+      },
+      {
+        "description": "Internal representations that combine business state, action, and outcome signals.",
+        "evidenceExcerpt": "So we take all of that data and we create what we call business states. A state of a business is think about a very detailed summary at a given point of time and then we derive actions.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "name": "Business Trajectories"
+      },
+      {
+        "description": "The advantage of proprietary operational data and records over larger foundation models.",
+        "evidenceExcerpt": "The winners in my opinion are going to be those with the best system of records, creating unique data sets out of them and then training the models to achieve the outcomes.",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "System of Records"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:add738785cfc074c6f386b8973e498f11afbbe33f39326c5a25b57e61492f91a",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money",
+  "talkTitle": "Why Off-the-Shelf AI Doesn't Understand Money",
+  "transcriptPath": "raw/sources/youtube-transcripts/Owb8g3yDyzo.txt",
+  "transcriptSha256": "sha256:dd6ce706aeb7f57462b64e0392da524379ffda3302da63c025497f3e29bac5f9",
+  "videoId": "Owb8g3yDyzo"
+}

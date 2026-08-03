@@ -1,0 +1,211 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:30:46.077736+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:a2d664375892a680e7fd4d90dcb50b99794250ed067fb5feb2c21b93ce61cdcf",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um FDE is basically taking this concept of a design partnership and scaling it up into enterprise.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "support": "explicit",
+        "text": "Forward deployed engineering is presented as design partnerships scaled up into the enterprise."
+      },
+      {
+        "evidenceExcerpt": "But the thing that makes an FTE program different is that they are building on top of a platform.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "support": "explicit",
+        "text": "A real FDE function depends on building on top of a shared platform rather than writing custom software from scratch for each customer."
+      },
+      {
+        "evidenceExcerpt": "Um, so how do you go about doing that? First and foremost, and this is the thing that I advise to everyone who's thinking through the concept of forward deployed engineering is really ask yourselves, do I need an FTE function?",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the first implementation question is whether a company truly needs FDE, not whether the idea is fashionable."
+      },
+      {
+        "evidenceExcerpt": "My personal hypothesis is that the thing which has changed is that the nature of doing business in the software industry itself is what's changed because now nearly every platform is agentic.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that AI has made customizable software far easier to build, which makes FDE more relevant across the software industry."
+      },
+      {
+        "evidenceExcerpt": "What is the perfect profile? Oh, this is so good. What is the perfect profile of an FTE? So, the the tagline that I will leave you with is that a FTE is nothing more than a customerfacing software engineer.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "support": "explicit",
+        "text": "The speaker defines an FTE as a customer-facing software engineer."
+      }
+    ],
+    "methodNotes": "The talk frames forward deployed engineering as a go-to-market model for selling technical software to non-technical buyers, but only when the company can anchor that work in a reusable platform. I treated the transcript as the only evidence source, so the record stays close to the speaker's own claims about when the model works, what its maintenance tradeoffs are, and how AI changes the landscape. I avoided turning examples into general facts unless the speaker explicitly used them to support the method.",
+    "methods": [
+      {
+        "description": "Use design partnership practices as the operating model for enterprise deployment.",
+        "evidenceExcerpt": "Um FDE is basically taking this concept of a design partnership and scaling it up into enterprise.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Enterprise Design Partnership"
+      },
+      {
+        "description": "Build customer solutions on shared platform primitives instead of from scratch.",
+        "evidenceExcerpt": "But the thing that makes an FTE program different is that they are building on top of a platform.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Platform-Bound Customization"
+      },
+      {
+        "description": "Separate bespoke customer work from generalizable product capabilities.",
+        "evidenceExcerpt": "So anything that's bespoke and unique to a particular customer um is uh something that should really only exist for that one customer.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Generalize What Repeats"
+      },
+      {
+        "description": "Evaluate whether the company truly needs an FDE motion before adopting it.",
+        "evidenceExcerpt": "Um, so how do you go about doing that? First and foremost, and this is the thing that I advise to everyone who's thinking through the concept of forward deployed engineering is really ask yourselves, do I need an FTE function?",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "name": "Need-Driven FDE Gate"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "How atomic should those shared primitives be? What does that mean? Um so okay if you are trying to sell a uh a a platform where you're building you know something that involves data models right um perhaps one place to start is is not having to you know define a data model from scratch.",
+        "evidenceSegmentIds": [
+          "S0082"
+        ],
+        "question": "How atomic should shared primitives be for different platform and customer contexts?",
+        "whyItMatters": "The answer determines how much of the app is prebuilt versus truly customized."
+      },
+      {
+        "evidenceExcerpt": "The question is uh what engineering changes go onto the platform versus what uh engineering changes go onto the forward deployed side.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "question": "Which engineering changes should stay in the platform, and which should remain customer-specific in the forward deployed layer?",
+        "whyItMatters": "That boundary controls maintainability and whether the company can turn custom work into reusable product."
+      },
+      {
+        "evidenceExcerpt": "What is the perfect profile? Oh, this is so good. What is the perfect profile of an FTE? So, the the tagline that I will leave you with is that a FTE is nothing more than a customerfacing software engineer.",
+        "evidenceSegmentIds": [
+          "S0100"
+        ],
+        "question": "What profile best fits a customer-facing software engineer in an FDE role?",
+        "whyItMatters": "Hiring and team design depend on the mix of software depth and customer presence the role requires."
+      }
+    ],
+    "summary": "The talk argues that forward deployed engineering is not just custom services with a new name; it is a design-partnership motion scaled into the enterprise. The core mechanism is to sell outcomes by having customer-facing engineers build on shared platform primitives, so the company can solve customer problems without recreating the software stack from scratch for every account. The main tradeoff is maintenance: if the work is not anchored in a reusable platform, the function collapses into a dev shop that is expensive, hard to staff, and impossible to sustain. The practical advice is to adopt FDE only when you truly need to sell technical capability to non-technical buyers, and to use custom projects as a way to discover which parts of the product should later be generalized.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "And you would be totally right. If you were to implement an FTE function where each FTE is building entirely from scratch, my friends, you do not have an FTE function.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "text": "If engineers build everything from scratch for each customer, the function stops being FDE and becomes a dev shop."
+      },
+      {
+        "evidenceExcerpt": "Right? It's only in this situation where you need FTE. That's the first piece. So the second piece is do I have a platform or phrased another way am I willing to invest in building one because I assure you right no matter how tempting it is to uh have these engineers that can make you money if they are not building on top of a platform with some number of shared primitives you are in for a very bad time.",
+        "evidenceSegmentIds": [
+          "S0069"
+        ],
+        "text": "A company should only consider FDE if it is willing to invest in a platform with shared primitives."
+      },
+      {
+        "evidenceExcerpt": "And that means nearly every platform is customizable. And that also means nearly all of you are going to have a situation where your customers have no idea what the heck it is that you actually do.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "text": "As software becomes more agentic and customizable, many companies will face customers who do not understand the product well enough to implement it themselves."
+      },
+      {
+        "evidenceExcerpt": "Anything that can be generalizable should be generalized in the long term. Now, when you begin uh your FTEing, right, probably you're not going to have a lot of different primitives, but that's okay because FD is also a great way to scout ahead and to find what additional product services you can build upon to further enable the success of your business.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "text": "Early FDE work should be used to scout which bespoke needs can become future product capabilities."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The platform the speaker uses as the main example of a reusable foundation for customer solutions.",
+        "evidenceExcerpt": "What Foundry does is Foundry enables organizations of arbitrary size to centralize all of their data in one place to create an ontology.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Foundry"
+      },
+      {
+        "description": "The example of a broadly shared cloud platform with common primitives used to illustrate generalizable infrastructure.",
+        "evidenceExcerpt": "Um a good example of a platform that I think all of you should be familiar with is AWS, right?",
+        "evidenceSegmentIds": [
+          "S0087"
+        ],
+        "name": "AWS"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The central operating model discussed in the talk: customer-facing engineers embedded in solution delivery.",
+        "evidenceExcerpt": "Um FDE is basically taking this concept of a design partnership and scaling it up into enterprise.",
+        "evidenceSegmentIds": [
+          "S0051"
+        ],
+        "name": "Forward Deployed Engineering"
+      },
+      {
+        "description": "A scalable enterprise approach where seller and buyer co-develop a solution closely.",
+        "evidenceExcerpt": "So in the early days of a startup when you don't know what your product is and your customers don't know what they're buying, you say, \"Hey, let me work with you really closely.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Design Partnerships"
+      },
+      {
+        "description": "Using reusable building blocks so custom work stays maintainable.",
+        "evidenceExcerpt": "But the thing that makes an FTE program different is that they are building on top of a platform.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "Shared Primitives"
+      },
+      {
+        "description": "Building on a product platform rather than creating one-off bespoke systems.",
+        "evidenceExcerpt": "What Foundry does is Foundry enables organizations of arbitrary size to centralize all of their data in one place to create an ontology.",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "name": "Platform-Led Delivery"
+      },
+      {
+        "description": "Selling technical software to buyers who are not deeply technical themselves.",
+        "evidenceExcerpt": "You only need FTE if you are in this weird unique situation of Palunteer where you are having to sell something very technical to a non-technical buyer.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Technical-to-Nontechnical GTM"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:b1252fb58ddf4238f5f635a58a2b34d11435cd5c72b00d261f221227a5572855",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-kevin-bai-forward-deployed-engineering-101",
+  "talkTitle": "Forward Deployed Engineering 101",
+  "transcriptPath": "raw/sources/youtube-transcripts/KwhgfwOSToQ.txt",
+  "transcriptSha256": "sha256:77995340aa12e938de2e8a4b7784d0088e1173622ad9543a47f9df941694cfc9",
+  "videoId": "KwhgfwOSToQ"
+}

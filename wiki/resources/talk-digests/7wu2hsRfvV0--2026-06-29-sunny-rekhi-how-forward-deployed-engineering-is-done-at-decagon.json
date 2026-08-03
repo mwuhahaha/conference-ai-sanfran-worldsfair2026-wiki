@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:31:39.535178+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:5ce7659089698525069b8c944b2d35ad105ad01c3c939e80a61fb3fabe7f3924",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Which brings me to a really important point. In fact, it's so important I wish I had a slide for it, but uh at Decagon, forward deployment engineering is identical to product engineering.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "explicit",
+        "text": "At Decagon, forward deployed engineering is treated as identical to product engineering, with the same bar and reporting structure."
+      },
+      {
+        "evidenceExcerpt": "And effectively we we we broke apart this agent software engineering role into two specialized lanes.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "support": "explicit",
+        "text": "As the company scaled, the former all-in-one agent software engineering role was split into two specialized lanes: agent builders and agent software engineers."
+      },
+      {
+        "evidenceExcerpt": "Making sure that gets incorporated back into the product. And um, this is I think like a super super uh, important insight, uh, which is there is routinely this temptation of Okay, customer A made this request and they're so important to us and they want it done ASAP and maybe I'll just go prompt Codex and Cloud Code to just do it for me.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "support": "explicit",
+        "text": "The hardest skill in a strong forward deployed motion is not shipping the easiest custom fix, but exercising restraint so the work scales to future customers."
+      },
+      {
+        "evidenceExcerpt": "Uh, and in in our case, we've learned like early on when you're scoping the deal, like literally when the very first conversations, you want to figure out ahead of time what does success look like for the customer.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "support": "explicit",
+        "text": "Success should be defined very early in the deal, ideally in writing, with clear metrics and target channels before implementation begins."
+      },
+      {
+        "evidenceExcerpt": "Uh this has been a really good learning for us. So, uh we try now, given that we have like a a ton of customers across various verticals, we have found it's really helpful to have industry experts that get staffed, the same kind of deal.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "support": "explicit",
+        "text": "Staffing customers with industry experts helps knowledge compound, improves credibility, and speeds up ramp for new deployments in the same vertical."
+      },
+      {
+        "evidenceExcerpt": "So, it's all about how do you scale the work that you're doing. also very relevant, depending on the kind of forward deployment work you do, is especially in the enterprise, wanting to prove value as fast as possible.",
+        "evidenceSegmentIds": [
+          "S0076"
+        ],
+        "support": "explicit",
+        "text": "In enterprise deployments, the team should prove value quickly on a narrow slice first and expand only after that initial value is demonstrated."
+      }
+    ],
+    "methodNotes": "The synthesis centers on the speaker's repeated distinction between field execution and platform improvement. I prioritized transcript segments where Sunny states durable operating principles, then mapped them into claims, methods, topics, tools, takeaways, and unresolved questions. I avoided using the opening context-setting material as the main summary and instead grounded the record in the sections about role design, scaling, scoping, and productization.",
+    "methods": [
+      {
+        "description": "Treat each customer deployment as a feedback loop that converts repeated manual work into product capabilities.",
+        "evidenceExcerpt": "Every time at Akkio gone, someone has to do something manually, we try to make sure it gets upstream back into the product.",
+        "evidenceSegmentIds": [
+          "S0089"
+        ],
+        "name": "Field-to-product loop"
+      },
+      {
+        "description": "Define success criteria early, in writing, before building the deployment.",
+        "evidenceExcerpt": "And really narrowing that down, ideally getting it in writing so that there is like no miscommunication along the way.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "name": "Requirements-first scoping"
+      },
+      {
+        "description": "Shift recurring custom work into self-serve workflows so customers or builders can handle it without bespoke engineering.",
+        "evidenceExcerpt": "And now what took an engineer custom code writing can now be self-served by the customer or built by our agent building team.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Custom-to-self-serve conversion"
+      },
+      {
+        "description": "Use domain specialists to accelerate ramp and improve customer credibility in a vertical.",
+        "evidenceExcerpt": "And the idea here is like a lot of that knowledge compounds. Like A, you can like speak in the lingo of this customer, and therefore there's a lot more credibility there.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "Vertical expert staffing"
+      },
+      {
+        "description": "Act as an advisor as well as an executor by recommending the highest-ROI automation based on cross-customer experience.",
+        "evidenceExcerpt": "And so, what we do at Akkio gone is we actually ingest your historical support data uh and we tell customers that hey, like if you automate this first or this first, this is where actually you'll see the highest ROI.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "name": "Advisor-led prioritization"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "Um but I think again, back to sort of lessons for forward deployed folks, uh there especially when you're dealing with a large company, there's a temptation to just get started.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "question": "How can a forward deployed team reliably gather and lock down requirements early enough to avoid unnecessary building while still moving quickly?",
+        "whyItMatters": "The talk says up-front alignment matters more as AI coding reduces the cost of implementation, but it leaves open how to operationalize that rigor at enterprise speed."
+      },
+      {
+        "evidenceExcerpt": "Uh this has been a really good learning for us. So, uh we try now, given that we have like a a ton of customers across various verticals, we have found it's really helpful to have industry experts that get staffed, the same kind of deal.",
+        "evidenceSegmentIds": [
+          "S0061"
+        ],
+        "question": "What is the best way to staff and reuse vertical expertise across many customers without making the organization brittle or overly siloed?",
+        "whyItMatters": "The speaker argues that industry experts compound value, but the talk does not specify how to balance specialization with flexibility."
+      },
+      {
+        "evidenceExcerpt": "customers will often come to you come to folks and say, uh I want you to do XYZ. And and often they're right.",
+        "evidenceSegmentIds": [
+          "S0083"
+        ],
+        "question": "How should a forward deployed team decide when to follow a customer's request versus redirecting them toward a better ROI path?",
+        "whyItMatters": "The talk elevates the advisor role, but the exact decision rules for that advisory judgment remain unspecified."
+      }
+    ],
+    "summary": "Sunny Rekhi argues that forward deployed engineering at Decagon is not a separate support function but a product discipline that sits at the edge of the customer and continuously feeds the platform. The mechanism is twofold: configure the AI customer service agent to fit each enterprise, then convert the repeated pain points from those deployments into reusable product features and self-serve capabilities. As Decagon scaled rapidly, the company specialized this work into agent builders and agent software engineers, emphasized early definition of success, and pushed teams to prove value quickly, act as advisors rather than pure executors, and avoid brittle one-off fixes. The practical consequence is a deployment motion that compounds: each customer should make the next customer easier to serve, while also making the product better for everyone.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "So, there's the two kinds of forward deployment engineer that we have internally, configuring the agent and then making sure all the problems that you interact with the enterprise that that come up in that in in in in the context of conversation also get brought back into the product.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "text": "Forward deployment should bring enterprise pain back into the product instead of treating each customer ask as a one-off."
+      },
+      {
+        "evidenceExcerpt": "And really narrowing that down, ideally getting it in writing so that there is like no miscommunication along the way.",
+        "evidenceSegmentIds": [
+          "S0056"
+        ],
+        "text": "Lock down success criteria early so the team can build toward explicit metrics and avoid later misalignment."
+      },
+      {
+        "evidenceExcerpt": "And then we thought enough is enough. After like the 25th one, we're like, \"I don't know how many more are coming up.\" Uh so, let's just like build it a self-serve way.",
+        "evidenceSegmentIds": [
+          "S0074"
+        ],
+        "text": "When the same integration or workflow recurs enough times, it should be redesigned as self-serve rather than rebuilt repeatedly."
+      },
+      {
+        "evidenceExcerpt": "But, I think as a forward deployed engineer or forward deployed person of any sort, you're you should treat yourself as an advisor rather than just an executor, right?",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "text": "A strong forward deployed engineer should advise as well as execute, using cross-customer experience to steer toward higher-ROI work."
+      },
+      {
+        "evidenceExcerpt": "So, if the agent interfaces with customer A, you improve that for customer B. And it's all about sort of taking knowledge from the field and bringing it Uh and so, just to wrap up here, uh sort of the a few of the few of the themes.",
+        "evidenceSegmentIds": [
+          "S0102"
+        ],
+        "text": "The long-term goal is compounding: improve the experience for the next customer every time the current customer is served."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The AI customer service platform the speaker represents and uses as the basis for the forward deployed motion.",
+        "evidenceExcerpt": "Decagon replaces all of that. So, instead you pick up and you call your brand of choice and you get a human-like agent who is helping you.",
+        "evidenceSegmentIds": [
+          "S0008"
+        ],
+        "name": "Decagon"
+      },
+      {
+        "description": "The coding assistant mentioned as part of the temptation to implement customer asks quickly through code.",
+        "evidenceExcerpt": "Making sure that gets incorporated back into the product. And um, this is I think like a super super uh, important insight, uh, which is there is routinely this temptation of Okay, customer A made this request and they're so important to us and they want it done ASAP and maybe I'll just go prompt Codex and Cloud Code to just do it for me.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Codex"
+      },
+      {
+        "description": "The coding tool mentioned alongside Codex as another way teams might rapidly patch a customer request.",
+        "evidenceExcerpt": "Making sure that gets incorporated back into the product. And um, this is I think like a super super uh, important insight, uh, which is there is routinely this temptation of Okay, customer A made this request and they're so important to us and they want it done ASAP and maybe I'll just go prompt Codex and Cloud Code to just do it for me.",
+        "evidenceSegmentIds": [
+          "S0048"
+        ],
+        "name": "Cloud Code"
+      },
+      {
+        "description": "A supported customer communication channel used as an example of what the platform can handle.",
+        "evidenceExcerpt": "Like and when I say what does success look like, I mean what are the metrics you're trying to hit, what sort of channel that you want support on, maybe that's a phone call, maybe that's email, maybe that's text, maybe it's WhatsApp, whatever.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "name": "WhatsApp"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The operating model where customer-facing work is treated as a direct path into product improvement.",
+        "evidenceExcerpt": "Which brings me to a really important point. In fact, it's so important I wish I had a slide for it, but uh at Decagon, forward deployment engineering is identical to product engineering.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Forward deployed engineering"
+      },
+      {
+        "description": "The practice of tuning an AI agent's instructions, tone, and action boundaries for a specific enterprise.",
+        "evidenceExcerpt": "All of this like configuring of that human of the of that [clears throat] agent brain is one form of our forward deployment motion, where we work with the customer, we figure out what does success look like for you, how do you want the agent to speak, what sort of user intents do you actually want the agent to hand off to a human instead.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Agent configuration"
+      },
+      {
+        "description": "The idea that recurring customer requests should become reusable product capabilities.",
+        "evidenceExcerpt": "So, I want to make sure when I solve enterprise A's problem, I'm solving it for B, C, D, and E before they've even had a chance to express it.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "name": "Productization"
+      },
+      {
+        "description": "The discipline of getting clear on metrics, channels, and outcomes before implementation starts.",
+        "evidenceExcerpt": "Uh, and in in our case, we've learned like early on when you're scoping the deal, like literally when the very first conversations, you want to figure out ahead of time what does success look like for the customer.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Requirements scoping"
+      },
+      {
+        "description": "The pattern of turning one-off integrations into reusable self-serve workflows.",
+        "evidenceExcerpt": "And now what took an engineer custom code writing can now be self-served by the customer or built by our agent building team.",
+        "evidenceSegmentIds": [
+          "S0075"
+        ],
+        "name": "Self-serve integration"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:7e98583374c2de80e6736912a9c254f9e4708d47a1dfe6d8cb48c73575cc4531",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon",
+  "talkTitle": "How Forward Deployed Engineering is done at Decagon",
+  "transcriptPath": "raw/sources/youtube-transcripts/7wu2hsRfvV0.txt",
+  "transcriptSha256": "sha256:9a898f516055239152acedba7c82721bf731b6c4e1423b1d84d640907c1518b7",
+  "videoId": "7wu2hsRfvV0"
+}

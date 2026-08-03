@@ -60,6 +60,11 @@
     "path": "wiki/highlights/transcript-2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries.md"
   },
   {
+    "id": "transcript-2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering",
+    "title": "Highlights: AI tools for Forward Deployed Engineering",
+    "path": "wiki/highlights/transcript-2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering.md"
+  },
+  {
     "id": "transcript-2026-06-29-aaron-stanley-ai-s-jurassic-park-period",
     "title": "Highlights: AI’s Jurassic Park Period",
     "path": "wiki/highlights/transcript-2026-06-29-aaron-stanley-ai-s-jurassic-park-period.md"
@@ -110,6 +115,11 @@
     "path": "wiki/highlights/transcript-2026-06-30-philipp-schmid-don-t-ship-skills-without-evals.md"
   },
   {
+    "id": "transcript-2026-06-30-maor-bril-evaling-video-slop",
+    "title": "Highlights: Evaling Video Slop",
+    "path": "wiki/highlights/transcript-2026-06-30-maor-bril-evaling-video-slop.md"
+  },
+  {
     "id": "transcript-2026-06-29-sam-bhagwat-every-harness-will-become-a-claw",
     "title": "Highlights: Every Harness Will Become A Claw",
     "path": "wiki/highlights/transcript-2026-06-29-sam-bhagwat-every-harness-will-become-a-claw.md"
@@ -123,6 +133,11 @@
     "id": "transcript-2026-06-30-thariq-shihipar-field-guide-to-fable",
     "title": "Highlights: Field Guide to Fable",
     "path": "wiki/highlights/transcript-2026-06-30-thariq-shihipar-field-guide-to-fable.md"
+  },
+  {
+    "id": "transcript-2026-06-29-kevin-bai-forward-deployed-engineering-101",
+    "title": "Highlights: Forward Deployed Engineering 101",
+    "path": "wiki/highlights/transcript-2026-06-29-kevin-bai-forward-deployed-engineering-101.md"
   },
   {
     "id": "transcript-2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent",
@@ -140,14 +155,44 @@
     "path": "wiki/highlights/transcript-2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail.md"
   },
   {
+    "id": "transcript-2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition",
+    "title": "Highlights: How Forward Deployed Engineering is done at Cognition",
+    "path": "wiki/highlights/transcript-2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition.md"
+  },
+  {
     "id": "transcript-2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
     "title": "Highlights: How Forward Deployed Engineering is done at Cursor",
     "path": "wiki/highlights/transcript-2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor.md"
   },
   {
+    "id": "transcript-2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon",
+    "title": "Highlights: How Forward Deployed Engineering is done at Decagon",
+    "path": "wiki/highlights/transcript-2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon.md"
+  },
+  {
+    "id": "transcript-2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory",
+    "title": "Highlights: How Forward Deployed Engineering is done at Factory",
+    "path": "wiki/highlights/transcript-2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory.md"
+  },
+  {
+    "id": "transcript-2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler",
+    "title": "Highlights: How Forward Deployed Engineering is done at Kepler",
+    "path": "wiki/highlights/transcript-2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler.md"
+  },
+  {
+    "id": "transcript-2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp",
+    "title": "Highlights: How Forward Deployed Engineering is done at Ramp",
+    "path": "wiki/highlights/transcript-2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp.md"
+  },
+  {
     "id": "transcript-2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem",
     "title": "Highlights: How Juries and Librarians Can Solve GTM's AI Trust Problem",
     "path": "wiki/highlights/transcript-2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem.md"
+  },
+  {
+    "id": "transcript-2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services",
+    "title": "Highlights: How Kepler Built Verifiable AI for Financial Services",
+    "path": "wiki/highlights/transcript-2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services.md"
   },
   {
     "id": "transcript-2026-07-01-james-russo-html-is-all-agents-need",
@@ -168,6 +213,16 @@
     "id": "transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are",
     "title": "Highlights: It's 10pm. Do You Know Where Your Agents Are?",
     "path": "wiki/highlights/transcript-2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are.md"
+  },
+  {
+    "id": "transcript-2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems",
+    "title": "Highlights: Let's integrate AI Agents in Event-Sourced Systems",
+    "path": "wiki/highlights/transcript-2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems.md"
+  },
+  {
+    "id": "transcript-2026-06-29-kyle-mistele-loop-engineering-from-first-principles",
+    "title": "Highlights: Loop Engineering from first principles",
+    "path": "wiki/highlights/transcript-2026-06-29-kyle-mistele-loop-engineering-from-first-principles.md"
   },
   {
     "id": "transcript-2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior",
@@ -195,6 +250,11 @@
     "path": "wiki/highlights/transcript-2026-06-29-lee-robinson-recursive-model-improvement.md"
   },
   {
+    "id": "transcript-2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub",
+    "title": "Highlights: Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub",
+    "path": "wiki/highlights/transcript-2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub.md"
+  },
+  {
     "id": "transcript-2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents",
     "title": "Highlights: Special topics in Kernels, RL, Reward Hacking in Agents",
     "path": "wiki/highlights/transcript-2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents.md"
@@ -213,6 +273,11 @@
     "id": "transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now",
     "title": "Highlights: State of the Union: Why Local, Why Now",
     "path": "wiki/highlights/transcript-2026-07-01-nader-khalil-state-of-the-union-why-local-why-now.md"
+  },
+  {
+    "id": "transcript-2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering",
+    "title": "Highlights: The Dirty Secret of Forward Deployed Engineering",
+    "path": "wiki/highlights/transcript-2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering.md"
   },
   {
     "id": "transcript-2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering",
@@ -275,6 +340,11 @@
     "path": "wiki/highlights/transcript-2026-07-01-frank-coyle-why-agentic-systems-need-ontologies.md"
   },
   {
+    "id": "transcript-2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money",
+    "title": "Highlights: Why Off-the-Shelf AI Doesn't Understand Money",
+    "path": "wiki/highlights/transcript-2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money.md"
+  },
+  {
     "id": "transcript-2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research",
     "title": "Highlights: Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)",
     "path": "wiki/highlights/transcript-2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research.md"
@@ -288,6 +358,11 @@
     "id": "transcript-2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months",
     "title": "Highlights: Your agent architecture has a half-life of 6 months",
     "path": "wiki/highlights/transcript-2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months.md"
+  },
+  {
+    "id": "transcript-2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you",
+    "title": "Highlights: Your Finance Agent's Bottleneck Is You",
+    "path": "wiki/highlights/transcript-2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you.md"
   },
   {
     "id": "transcript-2026-07-01-mike-phipps-your-moat-is-your-data-model",

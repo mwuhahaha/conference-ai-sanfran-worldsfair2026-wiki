@@ -60,9 +60,9 @@ This synthesis is based on the official schedule and linked source pages. It sho
 - Slide-derived terms: `engineering`, `future`, `skills`, `tlms`, `engineer`, `edge`, `example`, `restaurant`, `roulette`, `tral`, `braintrust`, `workos`, `openal`, `tinyllmsand`, `agentsonedgedevices`, `bringing`, `state-of-the-artagenticskilstothe`, `edgewithopenmodels`
 
 ## Official YouTube Recording
-- [[youtube-hacEQHHhu2Q]] — scheduled official AI Engineer YouTube premiere for 2026-07-25.
-- Evidence status: transcript/slide enrichment pending.
-- Boundary: use this link as event-association and premiere-state metadata only until the recording is playable; do not use it as recording, transcript, or slide-content evidence.
+- [[youtube-hacEQHHhu2Q]] — official AI Engineer YouTube channel recording published 2026-07-25.
+- Evidence status: [[youtube-hacEQHHhu2Q-transcript]]; [[youtube-hacEQHHhu2Q-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
 
 ## Media Evidence
 - [[youtube--TiET_K-E_g]] - supporting context; not the exact session recording.
@@ -89,3 +89,5 @@ This section is generated from the official schedule, manifest-matched session r
 
 ### Agent Reading Notes
 Use exact recording signals for session-level claims. Keep related external or historical sources framed as supporting evidence.
+## Supporting Slides
+- [[youtube-hacEQHHhu2Q-slides]] — extracted from the related public AI Engineer video.

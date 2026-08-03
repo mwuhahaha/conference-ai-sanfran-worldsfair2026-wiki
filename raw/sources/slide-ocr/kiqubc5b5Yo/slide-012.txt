@@ -1,0 +1,13 @@
+AlEngineer
+D 4 5 o A
+World's Fair | But it raised hard questions
+
+How real is this?
+
+Aren't these design choices arbitrary?
+
+Where does our knowledge add value?
+
+Every answer points to the same place: build our own evals & environments.
+TRACK 3 + JULY 2, 2026
+AV ada alae

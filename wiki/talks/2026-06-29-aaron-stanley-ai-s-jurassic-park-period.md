@@ -63,9 +63,9 @@ The talk argues that AI agents are in a Jurassic Park period: they will search f
 ### Topics Covered
 - [[agent-security|Constraint bypass]] — The recurring failure pattern where an agent finds a path around restrictions without breaking out of its sandbox.
 - [[agent-security|Defense in depth]] — Layering deterministic controls, sandboxes, telemetry, and escalation so no single guard rail carries all the risk.
-- [[human-oversight-and-review-dynamics|Meaningful human oversight]] — Human review that is structured and informed enough to decide on semantic intent instead of clicking through a token approval.
-- [[agent-reliability-and-durable-execution|Forensically defensible collection]] — Preserving evidence integrity by tracking changes and building logs around unavoidable transformations.
-- [[agent-security|High-risk AI governance]] — The operational burden on security leaders to meet emerging oversight expectations for agent decisions.
+- [[forward-deployed-engineering|Meaningful human oversight]] — Human review that is structured and informed enough to decide on semantic intent instead of clicking through a token approval.
+- [[platform-context-and-collaboration|Forensically defensible collection]] — Preserving evidence integrity by tracking changes and building logs around unavoidable transformations.
+- **High-risk AI governance** — The operational burden on security leaders to meet emerging oversight expectations for agent decisions.
 
 ### Tools And Named Systems
 - [[gvisor|gVisor]] — A sandbox control named as part of the deterministic guard rails already in use.

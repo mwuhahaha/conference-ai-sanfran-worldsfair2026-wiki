@@ -12,18 +12,18 @@ sourceAssessment:
   subjectId: concept:autoresearch
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
   publicSourceIds:
   - source:official-wf26-official-sessions
+  - source:official-wf26-youtube-V-EDrhIhHzQ
+  - source:official-wf26-youtube-VrpEyglYgeU
   - source:official-wf26-youtube-WkBPX-oDMnA
-  - source:official-wf26-youtube-YZQsWVeN3rE
-  - source:official-wf26-youtube-YnNF55QV0zs
   - source:official-wf26-youtube-iCj_ATyThvc
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:9deb4b4180acaef296e3f226fbda793264bf4813312fb87a7e9b5f7f3d387d20
+sourceAssessmentBodySha256: sha256:e8944b905b238f2a4c31805b329e9da2562758f28c50203eaab2342c8e38fb72
 ---
 # Autoresearch
 
@@ -70,27 +70,33 @@ Use humans to set scope, approve consequential actions, inspect surprising gains
 - [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
 
 ## Transcript Digest Evidence
-This section synthesizes 5 evidence-bound talk topic candidates across at least two talks.
+This section synthesizes 8 evidence-bound talk topic candidates across at least two talks.
 
 ### Cross-Talk Synthesis
-These candidates describe agents that generate, connect, and validate findings through repeated research and self-improvement loops. The important variation is whether the loop is explicitly multi-agent, experiment-driven, or framed as a general-purpose autonomous research process with a quality gate at the end.
+These proto-topics describe systems that generate experiments, run investigations, and feed the results back into better models or workflows. The main variation is whether the loop is focused on research, deployment, or training, but all of them rely on repeated self-improvement rather than a single fixed prompt.
 
 ### Constituent Talk Evidence
-- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — Using agents to launch experiments and reduce human bottlenecks in research operations.
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — The recursive flywheel where model output, feedback, evals, training, and compute reinforce one another.
   - Transcript: [[youtube-q4Tr-DknG2M-transcript]]
-  - Evidence: "We've created these tools and these systems where researchers can run experiments directly from Slack."
-- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]] — The future use of personas interacting together as simulated agents in a system.
-  - Transcript: [[youtube-YnNF55QV0zs-transcript]]
-  - Evidence: "We didn't get time for this, but it's called generative agent-based modeling where we can take each of these personas and simulate with the dynamics and how they'll interface interface and interact with each other."
+  - Evidence: "And if you do that and we revisit our speed meter in the bottom right, you're starting to get to a point where you're getting something that's like RSI or recursive model uh and and improvement here where the models are improving much much faster."
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]] — Training and rollout management that overlaps slow episodes by keeping inference and training separate.
+  - Transcript: [[youtube-V-EDrhIhHzQ-transcript]]
+  - Evidence: "And so Primer RL has been async from the ground up. Uh so I think async RL is one of those things that I think people were kind of one foot in and one foot out and a lot of training frameworks you see them uh will still kind of support synchronous training."
 - [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]] — Systems that improve themselves through repeated investigation and repair
   - Transcript: [[youtube-9HbzAWnKbo4-transcript]]
   - Evidence: "Um but there's a future we're all driving towards and throwing off traces, throwing off logs, throwing off way more than you normally would and having agents run at this for a continuous loop is where we're going."
+- [[2026-06-30-maor-bril-evaling-video-slop|Evaling Video Slop]] — Letting a generation system check and fix its own outputs through tools.
+  - Transcript: [[youtube-b_PmGocP4rc-transcript]]
+  - Evidence: "So that's where it starts to drift. But by providing the agents with tools to validate the quality of of the outputs it's creating, it's able to adapt to changes better."
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']] — The feedback structure that links generation, review, and maintenance into a compounding system.
+  - Transcript: [[youtube-VrpEyglYgeU-transcript]]
+  - Evidence: "So you have your your code maintenance loop, agentic loop, CI verification loop and deliberate design of these loops with verification at the center is a compounding system."
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]] — An autonomous multi-agent system that runs experiments and submits research PRs after a quality gate.
   - Transcript: [[youtube-iCj_ATyThvc-transcript]]
   - Evidence: "Aiden is the next step and a experimental prototype. It's a multi-agent self-improving system that can read public information like research papers and other PRs, run its own experiments and submit a PR once the findings pass a quality gate."
-- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]] — A multi-agent decision pattern that combines independent research with a final reasoning judge.
-  - Transcript: [[youtube-YZQsWVeN3rE-transcript]]
-  - Evidence: "They are going to spin up a team of independent analysts who all look at the data independently and come up with an evidence-cited opinion for what they think the attribution credit of that deal should be."
+- [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems|Let's integrate AI Agents in Event-Sourced Systems]] — Fraud detection built on event-sourced business facts and historical event streams.
+  - Transcript: [[youtube-o6U_2vd967Y-transcript]]
+  - Evidence: "So, the domain that we are going to talk about is the real-time fraud detection as I mentioned before."
 
 ## Neighboring Subjects
 - [[agent-evaluations]]
@@ -195,17 +201,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 | other | 61 | Related pages outside the main evidence categories. |
 | resources | 6 | Video/resource pages; check source status before treating as primary event evidence. |
 | slides | 5 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
-| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| talks | 35 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
-| transcripts | 6 | Transcript markdown; check session matching and caption quality. |
+| transcripts | 8 | Transcript markdown; check session matching and caption quality. |
 
 ### Talks
 - [[2026-06-29-lee-robinson-recursive-model-improvement]]
-- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]]
+- [[2026-06-29-will-brown-the-prime-intellect-stack]]
 - [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]]
+- [[2026-06-30-maor-bril-evaling-video-slop]]
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king]]
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]]
-- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem]]
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
 
 ### Resources
 - [[youtube-4sX_He5c4sI]]
@@ -224,11 +230,11 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Transcripts
 - [[youtube-q4Tr-DknG2M-transcript]]
-- [[youtube-YnNF55QV0zs-transcript]]
+- [[youtube-V-EDrhIhHzQ-transcript]]
 - [[youtube-9HbzAWnKbo4-transcript]]
+- [[youtube-b_PmGocP4rc-transcript]]
+- [[youtube-VrpEyglYgeU-transcript]]
 - [[youtube-iCj_ATyThvc-transcript]]
-- [[youtube-YZQsWVeN3rE-transcript]]
-- [[youtube-4sX_He5c4sI-transcript]]
 
 ### Tools
 - [[browserbase]]
@@ -240,15 +246,15 @@ The theme recurs across independently attributed official event recordings. Spec
 
 ### Linked Sessions
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
-- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]]
 - [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]]
+- [[2026-06-30-maor-bril-evaling-video-slop|Evaling Video Slop]]
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']]
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]]
-- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
+- [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems|Let's integrate AI Agents in Event-Sourced Systems]]
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 - [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
 
 ### Media Signals
 - `youtube-q4Tr-DknG2M` — 4,039 transcript words; 6 slide-derived text signals; role: primary event evidence.

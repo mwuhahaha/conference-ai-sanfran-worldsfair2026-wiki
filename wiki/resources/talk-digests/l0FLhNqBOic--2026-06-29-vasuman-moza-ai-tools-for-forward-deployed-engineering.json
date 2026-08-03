@@ -1,0 +1,298 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:33:07.090449+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:952240143b93ce16c94b562a0e3b2436ff44d1d1cedc47412a733e6be04802bd",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um so, in the past in 2024 and around that time, execution work was still the bottleneck. This was before the models gained the intelligence and the harnesses gained the integration abilities that allowed them to move past the execution Um now the AI models are trained to solve the execution of knowledge work.",
+        "evidenceSegmentIds": [
+          "S0068"
+        ],
+        "support": "interpretive",
+        "text": "The speaker argues that AI has largely solved execution for knowledge work, so execution is no longer the main bottleneck."
+      },
+      {
+        "evidenceExcerpt": "The difference and the bottleneck that is still here is how much can you understand the business?",
+        "evidenceSegmentIds": [
+          "S0011"
+        ],
+        "support": "explicit",
+        "text": "He says the remaining bottleneck is understanding a customer's specific business process deeply enough to re-engineer it."
+      },
+      {
+        "evidenceExcerpt": "One is they map the way that humans are doing their work today. So, how we do that at Verkada is several forward deployed engineers will be embedded directly with the customer.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "support": "explicit",
+        "text": "He reports that forward-deployed engineers map real work by embedding with customers and interviewing process leads, including exception handling."
+      },
+      {
+        "evidenceExcerpt": "They don't have any appetite for that. So, what we believe in Varick believe in at Varick is we'll build the agents on top of your systems of record.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "support": "explicit",
+        "text": "He says AI should be layered onto existing systems of record instead of forcing customers to migrate off them."
+      },
+      {
+        "evidenceExcerpt": "So, for example, allowing one forward deployed engineer or forward deployed strategist to manage and maintain several client communications.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "He says the internal FDE agent is intended to let one engineer or strategist manage more client context without hiring proportionally more people."
+      },
+      {
+        "evidenceExcerpt": "If you're just doing AP and no other part of your department, you might have a 5 10% ROI. But, at Verek we deliver department-wide transformations, holistically transforming the entire department at a time.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "support": "interpretive",
+        "text": "He argues the desired outcome is department-wide transformation and higher ROI, not small point solutions."
+      }
+    ],
+    "methodNotes": "Synthesized from the middle and closing portions of the talk, with emphasis on the speaker's argument, operating model, and platform design rather than the opening remarks.",
+    "methods": [
+      {
+        "description": "Embed engineers with the customer and interview process owners to map the real workflow before changing it.",
+        "evidenceExcerpt": "So, interviewing every single one of these process leads to understand not only how are things running today, but more importantly, when things go wrong, what happens?",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Embedded customer discovery"
+      },
+      {
+        "description": "Redesign the workflow around AI instead of bolting AI onto a broken process.",
+        "evidenceExcerpt": "And the reason for that is a lot of the time, AI is being slapped on top of broken processes in a way that the AI doesn't actually understand how to do things.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Workflow re-engineering"
+      },
+      {
+        "description": "Split each process into autonomous, human-in-the-loop, and human-only steps to balance adoption and ROI.",
+        "evidenceExcerpt": "Meaning, you do say, all right, four out of these eight steps will be handled completely autonomously.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Autonomy tiering"
+      },
+      {
+        "description": "Layer agents on top of systems of record rather than requiring a platform migration.",
+        "evidenceExcerpt": "with the full governance and eval suite baked in. But at the same time, it lives on top of your systems of record.",
+        "evidenceSegmentIds": [
+          "S0054"
+        ],
+        "name": "Top-of-stack deployment"
+      },
+      {
+        "description": "Use an internal FDE assistant to handle document synthesis, slide reading, and client-context questions.",
+        "evidenceExcerpt": "It reads PowerPoint slides. It allows them to query and say, \"Who is responsible for this process?",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "name": "FDE assistant layering"
+      },
+      {
+        "description": "Represent the company process as a dependency graph so workflows stay dependency-driven and easier to reason about.",
+        "evidenceExcerpt": "Yes, I'm looking at you. Um [clears throat] doesn't really matter what you use, but the point is we use a dependency graph.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Dependency-graph modeling"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "And then there's the final stage, which we're not at yet, which is a um an autonomous assistant for FDEs where it's receiving emails from clients who say, \"Actually, I want to change, you know, where my QC report goes to.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "question": "How can an autonomous FDE assistant safely receive client change requests and update a workflow without human involvement?",
+        "whyItMatters": "This is the missing step between assistant support and full automation."
+      },
+      {
+        "evidenceExcerpt": "So, we might have this huge knowledge graph, but it's remarkably difficult to traverse this knowledge graph in a reliable way that finds us the right context.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "question": "How can a model reliably traverse a large enterprise knowledge graph and extract the right context instead of the wrong nearby context?",
+        "whyItMatters": "The talk treats context retrieval as a core technical bottleneck."
+      },
+      {
+        "evidenceExcerpt": "The other three will be handled with some human-in-the-loop intervention. And one step of that process will be handled by a human, period.",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "question": "Where is the right boundary between autonomous steps, human-in-the-loop steps, and human-only steps for a given enterprise workflow?",
+        "whyItMatters": "The speaker says adoption and ROI depend on choosing that boundary well."
+      }
+    ],
+    "summary": "The talk argues that enterprise AI is no longer constrained mainly by execution, because models and harnesses can already complete many tasks; the harder problem is understanding each customer's real business and redesigning work around it. The proposed answer is forward-deployed engineering: embed with customers, map the actual workflow including exceptions and handoffs, then choose an autonomy boundary that keeps adoption high while still creating measurable ROI. The speaker also describes an internal FDE agent with engagement, workflow, and future autonomous stages, backed by dependency graphs, post-trained models, and graph-traversal tools so the team can scale deep customer work without linear headcount growth. The practical consequence is a shift from point-solution AI on top of broken process to department-wide transformation on top of existing systems of record.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "Where when we talk to customers, it's it's a lot of, you know, Sarah in AP handles the workflow today in this way, but when things go wrong, she actually sends it over to Chris, who then takes four days of cycle time to handle reconciliations between a purchase order and an invoice.",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "text": "Start by mapping the real workflow, including exception paths and human handoffs, not just the documented golden path."
+      },
+      {
+        "evidenceExcerpt": "Um so, what this means is you need forward-deployed engineers to help them re-engineer their current process around AI.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "text": "Re-engineer the process around AI instead of bolting AI onto broken steps and expecting production ROI."
+      },
+      {
+        "evidenceExcerpt": "For example, if they're used to an 11-step workflow and you come in and change that with a one-step, they might be taken aback, the adoption rates might suffer, etc.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "text": "Choose an autonomy boundary that changes the workflow enough to matter without making the process unfamiliar to users."
+      },
+      {
+        "evidenceExcerpt": "So, if you are on a Salesforce or a NetSuite or a Dynamics or an SAP, we will not ask you to migrate off of that.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "text": "Keep the customer's systems of record in place and build the agent on top of them."
+      },
+      {
+        "evidenceExcerpt": "Are these the same people? Cuz these are the questions that our FDEs are asking all day, every day, and they waste a ton of time just waiting on on Claude to respond.",
+        "evidenceSegmentIds": [
+          "S0086"
+        ],
+        "text": "Use assistant tooling to absorb documentation churn and client-context questions that otherwise consume FDE time."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The external model used as a comparison point for faster client analysis and workflow support.",
+        "evidenceExcerpt": "How are you actually engaging with these clients?\" They're like, \"Well, we you know upload about 150 pages of documentation to Claude and then we prompt Claude and then we wait like 2 minutes and then we get analysis and then it's verbose and incorrect and it kind of sucks.\" And I was like, \"All right, we got to fix this.\" So we have been working on an FD agent which is the Codex for our FDEs basically.",
+        "evidenceSegmentIds": [
+          "S0080"
+        ],
+        "name": "Claude"
+      },
+      {
+        "description": "The external coding assistant named alongside Claude in the platform discussion.",
+        "evidenceExcerpt": "We're hanging out, we're chilling, having a great time. Codex, Claude, we're all hanging out.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "name": "Codex"
+      },
+      {
+        "description": "The internal platform used to spin up and monitor agents with governance and evals.",
+        "evidenceExcerpt": "And the way that we do that is quite uh unique. We have our own Varick OS platform that allows us to spin up agents, monitor them, uh etc.",
+        "evidenceSegmentIds": [
+          "S0053"
+        ],
+        "name": "Varick OS"
+      },
+      {
+        "description": "One of the systems of record the speaker says customers are already committed to.",
+        "evidenceExcerpt": "One of the quotes from our clients said that they spent $5,000,000 and 5 years migrating to uh NetSuite.",
+        "evidenceSegmentIds": [
+          "S0050"
+        ],
+        "name": "NetSuite"
+      },
+      {
+        "description": "One of the enterprise systems the speaker says the agent should sit on top of.",
+        "evidenceExcerpt": "So, if you are on a Salesforce or a NetSuite or a Dynamics or an SAP, we will not ask you to migrate off of that.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Salesforce"
+      },
+      {
+        "description": "One of the enterprise systems the speaker says the agent should sit on top of.",
+        "evidenceExcerpt": "So, if you are on a Salesforce or a NetSuite or a Dynamics or an SAP, we will not ask you to migrate off of that.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "SAP"
+      },
+      {
+        "description": "One of the enterprise systems the speaker says the agent should sit on top of.",
+        "evidenceExcerpt": "So, if you are on a Salesforce or a NetSuite or a Dynamics or an SAP, we will not ask you to migrate off of that.",
+        "evidenceSegmentIds": [
+          "S0055"
+        ],
+        "name": "Dynamics"
+      },
+      {
+        "description": "The open-source model family the speaker says they post-train for a better balance of detail and clarity.",
+        "evidenceExcerpt": "We're a fan of Kimiko 26, but a lot of these would do a lot of these would do fine to really get that nice balance between detailed and uh clarity that the frontier models often often lack.",
+        "evidenceSegmentIds": [
+          "S0104"
+        ],
+        "name": "Kimiko 26"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The operating model where engineers are embedded with customers to understand and reshape real business processes.",
+        "evidenceExcerpt": "And fundamentally, that is the role of a forward deployed engineer. It's going into the company, understanding how things run today, and re-envisioning what it could look like tomorrow.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Forward-deployed engineering"
+      },
+      {
+        "description": "The act of tracing how work really happens, including exceptions, handoffs, and failure recovery.",
+        "evidenceExcerpt": "So, interviewing every single one of these process leads to understand not only how are things running today, but more importantly, when things go wrong, what happens?",
+        "evidenceSegmentIds": [
+          "S0027"
+        ],
+        "name": "Enterprise process mapping"
+      },
+      {
+        "description": "The practice of dividing work into autonomous, assisted, and human-only steps to make AI adoption workable.",
+        "evidenceExcerpt": "Meaning, you do say, all right, four out of these eight steps will be handled completely autonomously.",
+        "evidenceSegmentIds": [
+          "S0043"
+        ],
+        "name": "Human-in-the-loop automation"
+      },
+      {
+        "description": "The enterprise systems that record core business state and should remain in place during AI adoption.",
+        "evidenceExcerpt": "So, fundamentally at Verity, we believe that the AI wave left a lot of enterprise behind. A lot of enterprises are married to their systems of record.",
+        "evidenceSegmentIds": [
+          "S0047"
+        ],
+        "name": "Systems of record"
+      },
+      {
+        "description": "A representation of workflow dependencies used to model enterprise processes and constraints.",
+        "evidenceExcerpt": "Yes, I'm looking at you. Um [clears throat] doesn't really matter what you use, but the point is we use a dependency graph.",
+        "evidenceSegmentIds": [
+          "S0096"
+        ],
+        "name": "Dependency graphs"
+      },
+      {
+        "description": "The problem of finding the right contextual facts inside a large company knowledge graph.",
+        "evidenceExcerpt": "So, we might have this huge knowledge graph, but it's remarkably difficult to traverse this knowledge graph in a reliable way that finds us the right context.",
+        "evidenceSegmentIds": [
+          "S0107"
+        ],
+        "name": "Knowledge graph traversal"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:ed00ccaa10625bef8278dec86dac0295d7d98afda986ca24f7c9faf08fafb793",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering",
+  "talkTitle": "AI tools for Forward Deployed Engineering",
+  "transcriptPath": "raw/sources/youtube-transcripts/l0FLhNqBOic.txt",
+  "transcriptSha256": "sha256:af0b6f9660d3e1594a9e010af11e022927888248d021f4c32161e4fe98c28285",
+  "videoId": "l0FLhNqBOic"
+}

@@ -55,10 +55,10 @@ Frank Coyle argues that agentic systems need an explicit ontology layer because 
 
 ### Topics Covered
 - [[agent-security|Ontology guardrails]] — Using explicit ontology rules as guardrails around probabilistic agent behavior.
-- [[semantic-infrastructure-and-ontology|RDFS and OWL inference]] — Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.
-- [[agent-evaluations|Agent loop validation]] — The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.
-- [[semantic-infrastructure-and-ontology|Ontology construction strategies]] — Choosing between expert-defined schemas and data-driven ontology extension.
-- [[mcp-app-runtime|Tool-call typing]] — Typed tool arguments and structured result checking before downstream action.
+- [[context-engineering-and-knowledge-architecture|RDFS and OWL inference]] — Formal inference and constraint mechanisms such as domain, range, transitivity, and functional properties.
+- **Agent loop validation** — The execution pattern where an LLM proposes a tool action, a stop reason is checked, and the tool result is validated.
+- [[context-engineering-and-knowledge-architecture|Ontology construction strategies]] — Choosing between expert-defined schemas and data-driven ontology extension.
+- [[context-engineering-and-knowledge-architecture|Tool-call typing]] — Typed tool arguments and structured result checking before downstream action.
 
 ### Tools And Named Systems
 - [[pydantic|Pydantic]] — A Python library used to specify and enforce parameter types for tool inputs.

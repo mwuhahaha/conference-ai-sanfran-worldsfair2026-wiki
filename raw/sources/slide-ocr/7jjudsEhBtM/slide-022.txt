@@ -1,0 +1,14 @@
+PEs od oes sa skill
+Hd’s Fai Definition of a Skill o°
+ol s air he abby 3b 40 someting wed
+A standardized way to teach Abagents how to do specific tasks
+aan
+A skill is. a drectory contam:ng, at micrmum, a SKILL. ad fle
+skh -nase/
+-  SNILL.nd # Required: metadata * instructions
+EK seraots/ # Optbonal: enecutadle cade
+LE reterences/ # Optional: docutentation
+Ke assets/ # Optional: teaplates, resources
+Le eee a Any agditional tiles or directories
+TRACK 3 + JULY 2, 2026
+Alin Finance

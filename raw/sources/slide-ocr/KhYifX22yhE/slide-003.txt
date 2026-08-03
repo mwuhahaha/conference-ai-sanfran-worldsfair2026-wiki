@@ -1,0 +1,14 @@
+AlEngineer B
+World's Fair | tay
+poolside’s Laguna models
+Laguna is poolside’s first public (& open-weight!) family of models, trained from
+scratch:
+PRESENTED BY
+« Laguna M.1: 225B total/23B active parameters, pre-trained on 30T tokens
+a Me Core ¢ Laguna XS.2: 33B total/3B active parameters, pre-trained on 30T tokens
+We released both models together, but XS.2 was built based on learnings on
+data, architecture and training from M.1. TECH REPORT
+me | ee
+i beth hed
+TRACK 9 + JUNE 30. 2026
+Data Quality

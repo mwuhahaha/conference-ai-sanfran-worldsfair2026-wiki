@@ -1,0 +1,250 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:32:47.077535+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:f17dcf6b94fa3f07f3be3c6d3018f28545473f44f8c66f67ea784e11f77538b1",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Um this is a quote from the guy who named uh forward deploy engineering at Palanteer. It's from a couple days ago and um Sham is the CTO of Palunteer right now and I think this captures the entire essence of where my difficulty came from in the last talk which is the first fundamental truth of FTE is that this is not a role this is a product strategy how we discover the things to build are through the lens of forward deploy engineering.",
+        "evidenceSegmentIds": [
+          "S0010"
+        ],
+        "support": "explicit",
+        "text": "Forward deployed engineering is presented as a product strategy, not a go-to-market role."
+      },
+      {
+        "evidenceExcerpt": "What we did is we designed a system in perfect isolation that worked perfectly under certain circumstances and crashed and burned when we hit actual real data.",
+        "evidenceSegmentIds": [
+          "S0016"
+        ],
+        "support": "explicit",
+        "text": "The Phoenix example is used to argue that building in isolation can fail when a system meets real customer data and workflows."
+      },
+      {
+        "evidenceExcerpt": "In 4 hours, we were able to solve this problem cradle to grave. The first move that we learned from forward deployed perspective is detect the real problem and ship the real thing.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that the right response to a field problem is to identify the real workflow and ship the smallest useful fix quickly."
+      },
+      {
+        "evidenceExcerpt": "That night we built a parquet viewer. She approved the migration in the next 2 days massively reducing data costs.",
+        "evidenceSegmentIds": [
+          "S0057"
+        ],
+        "support": "explicit",
+        "text": "The parquet viewer story is used to show that on-site observation can reveal the real blocker behind a customer objection and unlock adoption."
+      },
+      {
+        "evidenceExcerpt": "And so when you are able to define the vocabulary that users use and codify that in your platform, you become the foundation under which every solution and tool is built on top of foundry enabled that ontology to be constructed and built.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "support": "explicit",
+        "text": "The talk claims that defining an enterprise's language and ontology creates durable product leverage because users adopt the platform's terms."
+      },
+      {
+        "evidenceExcerpt": "If it solves a problem, it's not temporary. It will live forever. So, as you're thinking from an FTE perspective, ship everything like it's going to run for 18 months because it probably will.",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that temporary hacks usually become long-lived production obligations, so every fix should be designed as if it will run for a long time."
+      },
+      {
+        "evidenceExcerpt": "your job as an FTE and what we learned and what Kepler is doing is using FTEE as an extension of the product function to enable us to build products that are actually sticky and that solve problems.",
+        "evidenceSegmentIds": [
+          "S0140"
+        ],
+        "support": "explicit",
+        "text": "Kepler is positioned as using FDE as an extension of the product function to build sticky products that solve real problems."
+      }
+    ],
+    "methodNotes": "Synthesized the full talk around its repeated examples and distilled the speaker's operating rules for field work, product discovery, ontology, and productionization. I treated anecdotes as reported evidence from the speaker, not as independently verified facts.",
+    "methods": [
+      {
+        "description": "Detect the real problem and ship the real thing instead of implementing the customer's first requested solution.",
+        "evidenceExcerpt": "In 4 hours, we were able to solve this problem cradle to grave. The first move that we learned from forward deployed perspective is detect the real problem and ship the real thing.",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "name": "Problem Reframing"
+      },
+      {
+        "description": "Observe users on site to learn the actual workflow rather than relying on docs, surveys, or requirements documents.",
+        "evidenceExcerpt": "Uh when you are working with a user you are effectively an observer of what happens on site.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "name": "On-Site Observation"
+      },
+      {
+        "description": "Canonicalize enterprise terminology into an ontology of nouns and verbs that the platform can own.",
+        "evidenceExcerpt": "And that matters. So third piece here, defining the ontology. Your job as an FTE is to understand what the ontology is.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "Ontology Design"
+      },
+      {
+        "description": "Calibrate each shipped fix against product-wide tradeoffs before deciding whether it belongs in the core product.",
+        "evidenceExcerpt": "They're solutions architects. So calibrating what you ship becomes the last mo most important skill here as an FTE.",
+        "evidenceSegmentIds": [
+          "S0116"
+        ],
+        "name": "Production Calibration"
+      },
+      {
+        "description": "Convert field fixes into reusable product leverage by generalizing them across customers.",
+        "evidenceExcerpt": "And they took those fixes and created product leverage from it. They were able to translate the problems they saw into nouns and verbs that they were then able to use to define the foundation of every subsequent problem that was solved.",
+        "evidenceSegmentIds": [
+          "S0134"
+        ],
+        "name": "Field-to-Product Generalization"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "what happens there. So, we need to solve problems, but we need to be aware of when we fold those solutions into the core offering and when we should just discard those solutions quickly.",
+        "evidenceSegmentIds": [
+          "S0123"
+        ],
+        "question": "How should an FDE decide when a field workaround belongs in the core product versus the local customer stack?",
+        "whyItMatters": "This determines whether the team builds durable product leverage or accumulates support debt."
+      },
+      {
+        "evidenceExcerpt": "What phrases, nouns, and terms in an enterprise are overloaded? Meaning, what words are people using to describe the same concepts?",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "question": "Which nouns and verbs should become the canonical ontology when different teams use the same term differently?",
+        "whyItMatters": "The answer affects integration reliability, product clarity, and whether the platform becomes the shared language."
+      },
+      {
+        "evidenceExcerpt": "You can do that when you're palunteer and have 20 years and unlimited money. You don't do that when you're an early stage company and you need to figure out what product will allow you to use those FDs to maximum degree. Thank you so much.",
+        "evidenceSegmentIds": [
+          "S0142"
+        ],
+        "question": "How can an early-stage company keep FDE tied to product discovery instead of sliding into go-to-market support?",
+        "whyItMatters": "The speaker argues that this boundary changes what the company learns and what it can scale."
+      }
+    ],
+    "summary": "Vinoo Ganesh argues that forward deployed engineering is fundamentally a product strategy, not a sales support function. The core mechanism is to embed engineers with customers, observe real workflows, translate observed pain into canonical nouns and verbs, and ship the smallest fix that solves the actual problem. The talk emphasizes a key tradeoff: quick field fixes can create permanent production obligations, so FDEs have to decide carefully what becomes part of the core product and what should stay local. The practical result is product leverage: if the team gets the problem right and generalizes the solution, field work becomes a source of sticky platform capability rather than ad hoc customer service.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "What do we build? So I think of this in terms of an XY situation. Customers describe solutions not problems.",
+        "evidenceSegmentIds": [
+          "S0037"
+        ],
+        "text": "Treat customer requests as solution sketches and reframe them into the underlying problem before building."
+      },
+      {
+        "evidenceExcerpt": "Anytime a user copies and pastes between tools, meaning if they're moving from one tool to another, anytime they're reacting this way, if the first thing you say is, \"Hey, how do you feel about this problem?\" And their reaction is, \"Well, I have to.\" And this visceral exasperation, you know, you have an opportunity there.",
+        "evidenceSegmentIds": [
+          "S0062"
+        ],
+        "text": "Repeated, awkward, or frustrated user actions are strong signals that there is a product opportunity."
+      },
+      {
+        "evidenceExcerpt": "Everything lives in that environment. And you can't survey your way to this. You have to be physically present.",
+        "evidenceSegmentIds": [
+          "S0072"
+        ],
+        "text": "Go on site and get the truth from the environment where the work actually happens."
+      },
+      {
+        "evidenceExcerpt": "And so when I say define the language, every organization is made up of two things, nouns and verbs.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "text": "Define the nouns and verbs of the domain so the product can become the customer's shared language."
+      },
+      {
+        "evidenceExcerpt": "If it solves a problem, it's not temporary. It will live forever. So, as you're thinking from an FTE perspective, ship everything like it's going to run for 18 months because it probably will.",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "text": "Assume any useful workaround may live for a long time, so ship with production consequences in mind."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The product platform the speaker says was shaped by forward deployed engineering as a product strategy.",
+        "evidenceExcerpt": "And so when you are able to define the vocabulary that users use and codify that in your platform, you become the foundation under which every solution and tool is built on top of foundry enabled that ontology to be constructed and built.",
+        "evidenceSegmentIds": [
+          "S0103"
+        ],
+        "name": "Foundry"
+      },
+      {
+        "description": "The alerting workflow built as the minimal fix for the shipping dispatcher problem.",
+        "evidenceExcerpt": "The dispatcher said, \"I check if trucks are trucks are late and then I call the dispatcher to ship a new inventory or new institution.\" The whole thing could have been simplified to a trivial Slack alert, which is what we ended up building.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Slack"
+      },
+      {
+        "description": "The storage system whose file-handle and memory behavior made the initial Phoenix design fail at scale.",
+        "evidenceExcerpt": "The problem is Cassandra requires 5 megabytes per file handle, which means with the 2.3 million key spaces we generated to start up our server would require 14 terabytes of RAM and we were dead on arrival.",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "name": "Cassandra"
+      }
+    ],
+    "topics": [
+      {
+        "description": "Using field deployment as a way to discover, shape, and generalize product requirements.",
+        "evidenceExcerpt": "The whole purpose of this talk is to convince you of one thing. Forward deployed engineering is a product strategy.",
+        "evidenceSegmentIds": [
+          "S0024"
+        ],
+        "name": "Forward Deployed Engineering"
+      },
+      {
+        "description": "The enterprise-level naming layer that defines shared entities, actions, and boundaries.",
+        "evidenceExcerpt": "And that matters. So third piece here, defining the ontology. Your job as an FTE is to understand what the ontology is.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "name": "Enterprise Ontology"
+      },
+      {
+        "description": "Learning from customers by watching the work where it actually happens.",
+        "evidenceExcerpt": "Uh when you are working with a user you are effectively an observer of what happens on site.",
+        "evidenceSegmentIds": [
+          "S0059"
+        ],
+        "name": "On-Site Workflow Observation"
+      },
+      {
+        "description": "Turning one-off field fixes into reusable product capability across customers.",
+        "evidenceExcerpt": "The goal here is actually fairly simple. I'm going to wrap up with this. Product leverage is the only thing that wins you customers.",
+        "evidenceSegmentIds": [
+          "S0137"
+        ],
+        "name": "Product Leverage"
+      },
+      {
+        "description": "The risk that temporary hacks become permanent support burdens once they reach production.",
+        "evidenceExcerpt": "If it solves a problem, it's not temporary. It will live forever. So, as you're thinking from an FTE perspective, ship everything like it's going to run for 18 months because it probably will.",
+        "evidenceSegmentIds": [
+          "S0127"
+        ],
+        "name": "Productionizing Hacks"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:8e905a4593efb947e859c8397e5e6e6d9b7f045d7981313a859dce8bb7f5b36f",
+  "schemaVersion": 1,
+  "talkId": "2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler",
+  "talkTitle": "How Forward Deployed Engineering is done at Kepler",
+  "transcriptPath": "raw/sources/youtube-transcripts/1OMHGsUZiqA.txt",
+  "transcriptSha256": "sha256:2ae7dc62da83d2dd9c82e72a1219f66dac51b0c622cae8c3d2cfede81792ab82",
+  "videoId": "1OMHGsUZiqA"
+}

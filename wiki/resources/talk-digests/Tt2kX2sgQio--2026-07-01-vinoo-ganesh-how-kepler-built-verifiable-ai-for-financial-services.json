@@ -1,0 +1,275 @@
+{
+  "algorithmVersion": 1,
+  "contractSha256": "sha256:b2176b9b38b8af2d93ef3f9b94b97af87a523540a7a0e328bd16faf168591990",
+  "generatedAt": "2026-07-30T16:34:54.040626+00:00",
+  "generatedBy": "talk-semantic-digestion-v1",
+  "inputSha256": "sha256:f83a56eab2bb6c9be2e5acb189cf5c192333901aed07ada65b09f41df56a222e",
+  "model": "gpt-5.4-mini",
+  "payload": {
+    "claims": [
+      {
+        "evidenceExcerpt": "Because it's a probability machine. It is great at next token prediction. So, the second contention of this whole talk is that you cannot use AI to produce verifiable work product in finance without augmenting it with a deterministic substrate.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "support": "explicit",
+        "text": "The speaker argues that AI cannot produce verifiable work product in finance unless it is augmented with a deterministic substrate."
+      },
+      {
+        "evidenceExcerpt": "And that's because a wrong number is still wrong if you're in that unfortunate 6%. So, with atomic provenance, what we do is the model writes effectively a reference to the number.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "support": "explicit",
+        "text": "Atomic provenance means the model should emit a reference to the number rather than writing or manipulating the number itself."
+      },
+      {
+        "evidenceExcerpt": "[snorts] Um and so, what the model does is the model decides what to compute. It never does the computation itself.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "support": "explicit",
+        "text": "Scope determinism separates model planning from computation, leaving the actual calculation to deterministic tooling."
+      },
+      {
+        "evidenceExcerpt": "So, not only do we have to codify that in the processes that are run, but we need some kind of a chain of events to figure out what went into producing an individual number and what went into producing an outcome.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "support": "strong",
+        "text": "Because financial ratios and multiples are defined differently across organizations, the system needs a chain of events that shows what went into each output."
+      },
+      {
+        "evidenceExcerpt": "What this allows us to do is this allows us to do things like consolidate financial statements in seconds with every number tied back to its individual source.",
+        "evidenceSegmentIds": [
+          "S0093"
+        ],
+        "support": "strong",
+        "text": "The platform can consolidate financial statements in seconds while keeping every number tied back to its individual source."
+      },
+      {
+        "evidenceExcerpt": "The last remaining mile is going to be that personalization. So, the second version of this in 2027 hopefully one of us will be on stage talking about how we're now able to build verifiable ontologies that actually proxy our investment processes instead of saying how do I not spend a trillion tokens to solve this individual problem.",
+        "evidenceSegmentIds": [
+          "S0123"
+        ],
+        "support": "strong",
+        "text": "The next open step is building verifiable ontologies that proxy a firm's investment processes rather than just reducing token spend."
+      }
+    ],
+    "methodNotes": "Each item cites exactly one transcript segment ID and stays grounded in the supplied transcript only.",
+    "methods": [
+      {
+        "description": "Deterministic verification gate that strips out numbers that cannot be independently verified.",
+        "evidenceExcerpt": "We then run it through a deterministic check where any kind of a wrong number, if we can't verify it independently, we strip it out.",
+        "evidenceSegmentIds": [
+          "S0067"
+        ],
+        "name": "Deterministic verification"
+      },
+      {
+        "description": "Atomic provenance that records the exact source for each extracted number before any downstream use.",
+        "evidenceExcerpt": "And that's because a wrong number is still wrong if you're in that unfortunate 6%. So, with atomic provenance, what we do is the model writes effectively a reference to the number.",
+        "evidenceSegmentIds": [
+          "S0063"
+        ],
+        "name": "Atomic provenance"
+      },
+      {
+        "description": "Scope determinism that pushes arithmetic and parsing into code instead of the model.",
+        "evidenceExcerpt": "And we give the model the right tooling and technology to calculate the deterministic pieces.",
+        "evidenceSegmentIds": [
+          "S0079"
+        ],
+        "name": "Scope determinism"
+      },
+      {
+        "description": "Derivation chains that preserve the sequence of steps used to produce a financial output.",
+        "evidenceExcerpt": "So, not only do we have to codify that in the processes that are run, but we need some kind of a chain of events to figure out what went into producing an individual number and what went into producing an outcome.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Derivation chains"
+      },
+      {
+        "description": "Replayable and rewindable event chains for rebuilding how an output was produced.",
+        "evidenceExcerpt": "It's just done by the model in a way that can be replayed and rewound. And so, that leads us to something fairly simple here.",
+        "evidenceSegmentIds": [
+          "S0090"
+        ],
+        "name": "Replayable derivation"
+      },
+      {
+        "description": "Firm-specific verification rules that codify what the system is allowed to produce.",
+        "evidenceExcerpt": "we have a system that knows which data points it's allowed to produce, meaning from structured filings, from numerical data, from any other ecosystem, it knows what it's allowed to produce, and it knows what it's never allowed to produce.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Allowed-output constraints"
+      }
+    ],
+    "questions": [
+      {
+        "evidenceExcerpt": "The system has to be able to track or track its own provenance and actually ensure that the numbers that you're pulling represent your own unique company philosophies.",
+        "evidenceSegmentIds": [
+          "S0118"
+        ],
+        "question": "How can a firm have the system track its own provenance while still enforcing its unique investment philosophy?",
+        "whyItMatters": "The talk says verifiability has to reflect each firm's rules, not just generic source tracking."
+      },
+      {
+        "evidenceExcerpt": "The last remaining mile is going to be that personalization. So, the second version of this in 2027 hopefully one of us will be on stage talking about how we're now able to build verifiable ontologies that actually proxy our investment processes instead of saying how do I not spend a trillion tokens to solve this individual problem.",
+        "evidenceSegmentIds": [
+          "S0123"
+        ],
+        "question": "How do we build verifiable ontologies that actually proxy investment processes?",
+        "whyItMatters": "The speaker frames this as the next remaining mile after the current verification layer."
+      },
+      {
+        "evidenceExcerpt": "We're picking numbers here because finance cares about numbers. But you can imagine a world where every court case, if you're a Harvey or a Legora, runs through the same process.",
+        "evidenceSegmentIds": [
+          "S0098"
+        ],
+        "question": "How far can the same verification pattern be generalized to legal work, drug discovery, and other regulated domains?",
+        "whyItMatters": "The speaker claims the finance pattern generalizes, but the domain-specific transformations still have to be built."
+      }
+    ],
+    "summary": "Kepler's thesis is that financial AI becomes useful only when reasoning models are wrapped in a deterministic verification substrate that can prove every number back to its source. The mechanism is to split work so the model handles planning and provenance selection while code handles extraction, arithmetic, and reconciliation, which lets the system enforce atomic provenance, scope determinism, and derivation chains without trusting the model to compute. The practical payoff is faster, cheaper analyst work products that can survive audit and regulatory scrutiny, and the speaker argues this pattern will eventually extend beyond finance to other high-stakes domains.",
+    "takeaways": [
+      {
+        "evidenceExcerpt": "The citation is effectively an after-the-fact audit. Now, a verification is a deterministic, repeatable, numerically verifiable mechanism that we can use to produce validity that a number is right.",
+        "evidenceSegmentIds": [
+          "S0039"
+        ],
+        "text": "Citations help with auditability, but verification is different because it must deterministically prove the number is right."
+      },
+      {
+        "evidenceExcerpt": "This also is a lot cheaper because again, I don't need the model to do a bunch of stuff it shouldn't be doing.",
+        "evidenceSegmentIds": [
+          "S0084"
+        ],
+        "text": "Moving computation out of the model makes the system cheaper as well as more accurate."
+      },
+      {
+        "evidenceExcerpt": "Like they want the AI analyst. And so the thing they're most excited about is a way of rapidly producing, rapidly doing kind of the repeatable painful tasks that their analysts are doing.",
+        "evidenceSegmentIds": [
+          "S0133"
+        ],
+        "text": "The immediate customer value is not an AI portfolio manager but an AI analyst that removes repetitive desk work."
+      },
+      {
+        "evidenceExcerpt": "The reading problem is still very open. And you verifying a data point is not enough anymore.",
+        "evidenceSegmentIds": [
+          "S0117"
+        ],
+        "text": "The main remaining problem is not generation; it is tracking provenance and proving the output fits the firm's rules."
+      }
+    ],
+    "tools": [
+      {
+        "description": "The reasoning model used as the front end for the workflow.",
+        "evidenceExcerpt": "Because it's a probability machine. It is great at next token prediction. So, the second contention of this whole talk is that you cannot use AI to produce verifiable work product in finance without augmenting it with a deterministic substrate.",
+        "evidenceSegmentIds": [
+          "S0052"
+        ],
+        "name": "AI"
+      },
+      {
+        "description": "The source of cited financial filings that the system verifies against.",
+        "evidenceExcerpt": "So, when I extract a revenue number from a 10-K, I can deterministically prove that is the correct number from that 10-K.",
+        "evidenceSegmentIds": [
+          "S0041"
+        ],
+        "name": "10-K"
+      },
+      {
+        "description": "The source layer used for market and company information that the speaker contrasts with Kepler's approach.",
+        "evidenceExcerpt": "And now I'm going to say something even more aggressive. Uh the reason that people buy products like Bloomberg and FactSet is to displace culpability.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "Bloomberg"
+      },
+      {
+        "description": "The other market-data product the speaker contrasts with Kepler's approach.",
+        "evidenceExcerpt": "And now I'm going to say something even more aggressive. Uh the reason that people buy products like Bloomberg and FactSet is to displace culpability.",
+        "evidenceSegmentIds": [
+          "S0025"
+        ],
+        "name": "FactSet"
+      },
+      {
+        "description": "The data product the speaker cites as an example of systems that contractors support.",
+        "evidenceExcerpt": "Which means not picking any companies, but the CapIQ's, the Deloopa's that are all using contractors for this, we don't need to do that anymore.",
+        "evidenceSegmentIds": [
+          "S0094"
+        ],
+        "name": "CapIQ"
+      },
+      {
+        "description": "The model family the speaker mentions as a comparison point for search-style outputs.",
+        "evidenceExcerpt": "And so, the whole industry has solved this by citing things. When you search the internet with Claude or ChatGPT, it gives you a list of sources that pulled information from.",
+        "evidenceSegmentIds": [
+          "S0035"
+        ],
+        "name": "Claude"
+      }
+    ],
+    "topics": [
+      {
+        "description": "The central problem of making AI outputs auditable in regulated finance.",
+        "evidenceExcerpt": "And so, why does this actually matter? We can't use AI properly in this ecosystem. There is a reason that analysts are still working till 4:00 a.m., and there's a reason folks in investment banks are actually dying because of the hours they're putting in.",
+        "evidenceSegmentIds": [
+          "S0030"
+        ],
+        "name": "Verifiable AI for finance"
+      },
+      {
+        "description": "The requirement to trace every number back to its source document or internal record.",
+        "evidenceExcerpt": "Provenance as a whole just means writing down exactly where you got the Now, uh have a lot of respect for everyone else who got here on stage, but we did a model we trained a model that was really good at extracting information.",
+        "evidenceSegmentIds": [
+          "S0060"
+        ],
+        "name": "Atomic provenance"
+      },
+      {
+        "description": "Separating reasoning from computation so the model plans but does not calculate.",
+        "evidenceExcerpt": "[snorts] Um and so, what the model does is the model decides what to compute. It never does the computation itself.",
+        "evidenceSegmentIds": [
+          "S0077"
+        ],
+        "name": "Scope determinism"
+      },
+      {
+        "description": "Tracking the chain of steps that produced a financial metric or ratio.",
+        "evidenceExcerpt": "So, not only do we have to codify that in the processes that are run, but we need some kind of a chain of events to figure out what went into producing an individual number and what went into producing an outcome.",
+        "evidenceSegmentIds": [
+          "S0088"
+        ],
+        "name": "Derivation chains"
+      },
+      {
+        "description": "Using codified firm rules to decide what outputs are allowed.",
+        "evidenceExcerpt": "we have a system that knows which data points it's allowed to produce, meaning from structured filings, from numerical data, from any other ecosystem, it knows what it's allowed to produce, and it knows what it's never allowed to produce.",
+        "evidenceSegmentIds": [
+          "S0091"
+        ],
+        "name": "Firm-specific verification"
+      },
+      {
+        "description": "The broader idea that the same verification architecture can extend to other regulated domains.",
+        "evidenceExcerpt": "Now, the really crazy thing and why I say this is inevitable is everything that I'm telling you generally generalizes past finance.",
+        "evidenceSegmentIds": [
+          "S0097"
+        ],
+        "name": "Cross-domain verifiable work product"
+      }
+    ]
+  },
+  "payloadSha256": "sha256:5fd43f48af809283e0c09ef636cdd51d7c1ad9e77063ac832744e6f45cde6a36",
+  "schemaVersion": 1,
+  "talkId": "2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services",
+  "talkTitle": "How Kepler Built Verifiable AI for Financial Services",
+  "transcriptPath": "raw/sources/youtube-transcripts/Tt2kX2sgQio.txt",
+  "transcriptSha256": "sha256:d3deeb54f1bbb0d0a0fa751ce0f79fa0dd4052a97f4f68dca164a6bcc0754de0",
+  "videoId": "Tt2kX2sgQio"
+}

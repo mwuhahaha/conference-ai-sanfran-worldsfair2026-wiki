@@ -55,10 +55,10 @@ The talk argues that agent development should be treated like machine learning r
 
 ### Topics Covered
 - [[agent-evaluations|Agent Evaluation]] — The idea that agent behavior should be measured empirically instead of assumed from code inspection.
-- [[agent-evaluations|Rollouts]] — Repeated execution of agents on tasks to collect trajectories and scores.
+- [[platform-context-and-collaboration|Rollouts]] — Repeated execution of agents on tasks to collect trajectories and scores.
 - [[ai-sandboxes|Agentic Environments]] — Sandboxed task environments that pair instructions with execution space and verification.
 - [[agent-evaluations|Sandbox Verification]] — Programmatic or agent-based checks that judge whether a task was completed.
-- [[agent-evaluations|Parallel Rollouts]] — Running many agent executions at once to increase throughput and reduce feedback latency.
+- **Parallel Rollouts** — Running many agent executions at once to increase throughput and reduce feedback latency.
 - [[agent-evaluations|Reward Hacking]] — Failure mode where an agent optimizes the evaluator instead of the underlying task.
 
 ### Tools And Named Systems

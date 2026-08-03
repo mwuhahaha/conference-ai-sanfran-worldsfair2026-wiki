@@ -54,9 +54,9 @@ This talk argues that production enterprise agents fail less because they cannot
   - Evidence: "And the data model is unique. It's unique to how you work. We're not pretending this solves everything."
 
 ### Topics Covered
-- [[semantic-infrastructure-and-ontology|Systems of context]] — The shift from storing records to building a live layer that explains how work is connected and why decisions were made.
+- [[agent-memory|Systems of context]] — The shift from storing records to building a live layer that explains how work is connected and why decisions were made.
 - [[agent-memory|Work understanding]] — The idea that enterprise assistants need durable understanding of a user and their work, not just retrieved documents or messages.
-- [[agentic-search|Context graph]] — A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.
+- [[agent-memory|Context graph]] — A queryable organizational layer that links entities, history, permissions, and decisions into reusable context.
 - [[agent-memory|Dual-timescale architecture]] — A two-speed architecture that combines long-term pattern learning with short-term state tracking.
 
 ### Tools And Named Systems

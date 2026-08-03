@@ -11,7 +11,7 @@ sourceAssessment:
   subjectId: tool:mcp
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -22,7 +22,7 @@ sourceAssessment:
   - source:official-wf26-youtube-V-EDrhIhHzQ
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-q4Tr-DknG2M
-sourceAssessmentBodySha256: sha256:c25c2d6f0525b4b54d790a32c9d5dd67b41bb3e52be680aefa246dd095921ecc
+sourceAssessmentBodySha256: sha256:58ce79725523150b1ec8a6ee50f06ab0886e98bdbea934f4fd2b48ef11dc1f24
 ---
 # Model Context Protocol
 
@@ -32,7 +32,7 @@ Model Context Protocol appears as a high-confidence tool, platform, model, proto
 This page records confirmed mentions and keeps them separate from broader inferred relevance.
 
 ## Transcript Digest Evidence
-This section is generated from 9 evidence-bound talk digest(s).
+This section is generated from 10 evidence-bound talk digest(s).
 
 - [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — The protocol used to connect agents to external tools and services.
   - Transcript: [[youtube-cgimkNGNjvU-transcript]]
@@ -58,6 +58,9 @@ This section is generated from 9 evidence-bound talk digest(s).
 - [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]] — The protocol used to expose the semantic graph layer to agents.
   - Transcript: [[youtube-jt1Pbr_n6oU-transcript]]
   - Evidence: "You can see the the full interconnectedness of this four different systems one graph uh one semantic layer that's exposed through an MCP then to the to the agents."
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you|Your Finance Agent's Bottleneck Is You]] — The protocol the speaker says lets the agent connect to third-party systems.
+  - Transcript: [[youtube-z0sh8HyTrDo-transcript]]
+  - Evidence: "And of course, all of us have seen a lot of MCP tools being shipped into the market right now."
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]] — The protocol layer used to expose memory as callable servers and commands.
   - Transcript: [[youtube-Q0VkgCyNVUg-transcript]]
   - Evidence: "You can also use it kind of like a personal assistant. It relies heavily on MCP as the layer, over 70 MCP extensions."

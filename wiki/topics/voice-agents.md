@@ -8,7 +8,7 @@ sourceAssessment:
   subjectId: concept:voice-agents
   domain: topics page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -41,11 +41,18 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - Voice-in visual-out interfaces for richer task completion.
 - Hands-free operational assistants.
 ## Slide-Derived Scheduled Session Signals
+- [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?
 - [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering
 - [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model
+- [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees]] — Build for the Memo, Not the Demo — Notes from 200 Investment Committees
 
 ## Slide-Derived Supporting Decks
+- [[youtube-CgsWxRUY5Eo-slides]] — AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix (32 extracted slide frames)
 - [[youtube-GgLQ02aO-hs-slides]] — The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy (22 extracted slide frames)
+- [[youtube-hacEQHHhu2Q-slides]] — Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google (17 extracted slide frames)
+- [[youtube-s4r6nk5WsZw-slides]] — MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal (32 extracted slide frames)
+- [[youtube-tJFjeMBKbIY-slides]] — Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings (10 extracted slide frames)
 - [[youtube-Z2Erdirpudo-slides]] — Imagination Engineering — Eve Bouffard, Y Combinator (9 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.

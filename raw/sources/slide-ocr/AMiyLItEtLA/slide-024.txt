@@ -1,0 +1,23 @@
+: ea - .
+Agent Tries BAML a  e '
+Pte ED ee
+Were te ka ol¢ a RI re
+fi.
+‘ 7 es “ % Implement ‘function huff:
+| mee given a space-separated list o
+: se eth Ba tes 3 : frequencies, simulate Huffm:
+the total encoding cost — defi
+, o i merge costs, which is algebrai
+r | Microsoft fr $n ae te as 2 ; 8 code_depth_i’ (the weighted
+oo id Algorithm: treat the frequenci
+7 ° each iteration extract the two
+fg] Sige; 2 tes 3 ties arbitrarily), compute thei
+: running total cost, and re-insd
+only one element remains; ret
+. Simulate the min-heap by mai
+and selecting from the front e:
+: ; sufficient for correctness). Re’
+Ks Ne - Required tests: '"5 31 ve
+.  BAML
+ct
+Engineering the future of Al

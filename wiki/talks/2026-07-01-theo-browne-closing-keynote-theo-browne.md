@@ -56,11 +56,11 @@ The talk argues that AI has changed the scale at which software should be imagin
   - Evidence: "real. real. If your idea doesn't feel stupid, If your idea doesn't feel stupid, If your idea doesn't feel stupid, it's cuz your idea's not big enough."
 
 ### Topics Covered
-- [[model-capability-and-product-framing|Capability eras]] — The talk frames model progress as distinct eras of capability.
-- [[software-factories|Orchestration]] — The talk emphasizes models coordinating and verifying multi-step work.
-- [[agentic-search|Skeuomorphic habits]] — The talk argues developers are overvaluing familiar interfaces and workflows.
+- [[forward-deployed-engineering|Capability eras]] — The talk frames model progress as distinct eras of capability.
+- **Orchestration** — The talk emphasizes models coordinating and verifying multi-step work.
+- **Skeuomorphic habits** — The talk argues developers are overvaluing familiar interfaces and workflows.
 - **Breadth and depth** — The talk contrasts software breadth with depth to explain modern product strategy.
-- [[coding-agents|Extensibility]] — The talk stresses products that let users extend missing features themselves.
+- [[forward-deployed-engineering|Extensibility]] — The talk stresses products that let users extend missing features themselves.
 
 ### Tools And Named Systems
 - [[sonnet-3-5|Sonnet 3.5]] — A model used as the baseline example of the earlier tool-call era.
@@ -70,7 +70,7 @@ The talk argues that AI has changed the scale at which software should be imagin
 - [[codex|Codex]] — A tool named as something markdown can be piped into for execution.
 - [[claude|Claude]] — Another tool named as something markdown can be piped into for execution.
 - **Vercel** — A platform used as the example of deeper full-stack front-end leaning server features.
-- **AWS** — A platform used as the incumbent example of broad feature coverage.
+- [[aws|AWS]] — A platform used as the incumbent example of broad feature coverage.
 - [[slack|Slack]] — A platform used as the example of a weak but extensible product surface.
 - [[git|Git]] — The version-control system used as the example of an old industry-shaping default.
 

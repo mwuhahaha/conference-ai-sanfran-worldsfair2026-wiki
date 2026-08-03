@@ -62,14 +62,14 @@ The talk argues that LLM-built context is inherently lossy and non-deterministic
   - Evidence: "So, the rule is pretty simple here and it's easier to apply because the link exists. A fact is only deleted if no remaining episodes support it."
 
 ### Topics Covered
-- [[agentic-search|Provenance]] — The need to preserve where synthesized facts came from in LLM-built knowledge graphs.
-- [[agentic-search|Lineage graph]] — Keeping source links intact as entities merge, facts mutate, and the graph changes over time.
-- [[semantic-infrastructure-and-ontology|Metadata projection]] — Projecting a source classification onto all descendant nodes and edges after ingestion.
-- [[agentic-search|Mixed-trust retrieval]] — Applying different trust rules when a fact has multiple parents and mixed-source ancestry.
-- **Deletion propagation** — Propagating deletion from source records to derived facts when support disappears.
+- [[agent-evaluations|Provenance]] — The need to preserve where synthesized facts came from in LLM-built knowledge graphs.
+- [[context-engineering-and-knowledge-architecture|Lineage graph]] — Keeping source links intact as entities merge, facts mutate, and the graph changes over time.
+- [[platform-context-and-collaboration|Metadata projection]] — Projecting a source classification onto all descendant nodes and edges after ingestion.
+- [[context-engineering-and-knowledge-architecture|Mixed-trust retrieval]] — Applying different trust rules when a fact has multiple parents and mixed-source ancestry.
+- [[agent-memory|Deletion propagation]] — Propagating deletion from source records to derived facts when support disappears.
 - [[agent-memory|File-based memory limits]] — The point that file-based memory becomes hard to reason about when lineage matters.
-- [[agentic-search|Graph construction cost]] — The overhead of building provenance-aware graph artifacts at scale.
-- [[agentic-search|Entity resolution]] — Splitting facts across episodes, entities, and derived artifacts while preserving lineage through entity resolution.
+- [[observed-work-and-traceability|Graph construction cost]] — The overhead of building provenance-aware graph artifacts at scale.
+- [[context-engineering-and-knowledge-architecture|Entity resolution]] — Splitting facts across episodes, entities, and derived artifacts while preserving lineage through entity resolution.
 
 ### Tools And Named Systems
 - **Graffiti** — The open-source temporal graph framework used as the provenance layer.

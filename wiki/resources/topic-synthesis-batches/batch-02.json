@@ -1,377 +1,341 @@
 {
   "algorithmVersion": 3,
   "batchIndex": 2,
-  "candidateCount": 53,
+  "candidateCount": 66,
   "contractSha256": "sha256:17b8e63c132062ed52e1829b57b7fdf9b1b0932724ce9fb94a913b5864c43339",
-  "generatedAt": "2026-07-24T22:40:09.581504+00:00",
+  "generatedAt": "2026-07-30T16:35:42.908224+00:00",
   "generatedBy": "cross-talk-topic-map-v1",
-  "inputSha256": "sha256:400e15c08a55e056a0128b2c5f87bf47cd70822373db5abd6c8ba3f5d22a6bdf",
+  "inputSha256": "sha256:920ad750417f67c04db932fec7dbf9868e63492d664cc4797c12482eed10133d",
   "model": "gpt-5.4-mini",
   "payload": {
     "clusters": [
       {
-        "canonicalTopic": "Human oversight in agent workflows",
+        "canonicalTopic": "Meaningful human oversight",
         "memberIds": [
           "T0003"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Structured human review that checks semantic intent, not just checkbox approval."
+        "synthesis": "Human review is structured enough to evaluate semantic intent, not just rubber-stamp token-level approvals."
       },
       {
-        "canonicalTopic": "Value-maximizing AI engineering",
+        "canonicalTopic": "Value maxing",
         "memberIds": [
           "T0009"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Optimize for user value rather than raw token output."
+        "synthesis": "Optimize for user value delivered, not raw token output."
       },
       {
-        "canonicalTopic": "Software-first optimization",
+        "canonicalTopic": "Replica-set workload partitioning",
         "memberIds": [
           "T0015"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Shift performance gains toward software and system design rather than hardware-only scaling."
+        "synthesis": "Keep primaries on primary-only work and offload the rest to replicas."
       },
       {
-        "canonicalTopic": "End-to-end vertical slices in software factories",
+        "canonicalTopic": "Software-first optimization",
         "memberIds": [
           "T0021"
         ],
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Performance gains come from software changes rather than hardware-first scaling alone."
+      },
+      {
+        "canonicalTopic": "Forward-Deployed Engineering operating model",
+        "memberIds": [
+          "T0027",
+          "T0033",
+          "T0057",
+          "T0105",
+          "T0111",
+          "T0141",
+          "T0147",
+          "T0177",
+          "T0087"
+        ],
         "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "Break implementation into coordinated end-to-end chunks across the system."
+        "synthesis": "These talks treat delivery as an embedded, customer-shaped operating model: design partnerships, fit assessment, vertical slices, autonomy roadmaps, and judgment-aware deployment all point to the same factory-style workflow."
       },
       {
         "canonicalTopic": "Static analysis for agent programs",
         "memberIds": [
-          "T0027"
+          "T0039"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Use compiler-style checks such as type and data-flow analysis on agent code."
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "Use compiler-style analysis, such as type and data-flow checks, to reason about agent code before it runs."
       },
       {
         "canonicalTopic": "Patch validation loops",
         "memberIds": [
-          "T0033"
+          "T0045"
         ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Validate fixes by replaying the exploit and testing the patch against the original attack path."
+        "synthesis": "Validate fixes by replaying the original exploit, keeping the test suite intact, and reattacking the patch."
       },
       {
-        "canonicalTopic": "Workflow noise and false positives",
-        "memberIds": [
-          "T0039"
-        ],
-        "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Balance strict enforcement against developer-facing false alarms."
-      },
-      {
-        "canonicalTopic": "Long-horizon async agents",
-        "memberIds": [
-          "T0045",
-          "T0153",
-          "T0159"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Durable agents and background loops that run for long periods with limited human steering."
-      },
-      {
-        "canonicalTopic": "Proactive agent UX",
-        "memberIds": [
-          "T0051"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Agents should surface alerts from shared context instead of only waiting for direct prompts."
-      },
-      {
-        "canonicalTopic": "Compute scaling",
-        "memberIds": [
-          "T0057"
-        ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "Large-scale compute, datacenter, and chip expansion as a prerequisite for bigger training efforts."
-      },
-      {
-        "canonicalTopic": "Breakability-aware remediation",
+        "canonicalTopic": "Ephemeral access tokens",
         "memberIds": [
           "T0063"
         ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Choose fixes based on how likely they are to break applications, not just on severity counts."
+        "synthesis": "Use short-lived, audience-bound credentials that disappear after the task finishes."
       },
       {
-        "canonicalTopic": "Agent sandboxing",
+        "canonicalTopic": "Long-horizon async agents",
         "memberIds": [
           "T0069",
-          "T0117"
-        ],
-        "preferredExistingTopicSlug": "ai-sandboxes",
-        "synthesis": "Contain agents and their tool/code execution in stronger isolation boundaries such as micro-VMs."
-      },
-      {
-        "canonicalTopic": "Evaluation-driven agent optimization",
-        "memberIds": [
           "T0075"
         ],
-        "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "Improve agents by generating, testing, and deploying against evaluation signals."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates describe agents that can run for hours, hold durable state, and proactively reach back to users when context changes."
       },
       {
-        "canonicalTopic": "Harness era",
+        "canonicalTopic": "Compute scaling",
         "memberIds": [
           "T0081"
         ],
-        "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "A framing where harnesses become the dominant layer of AI system engineering."
+        "preferredExistingTopicSlug": "inference-engineering",
+        "synthesis": "Scaling frontier training requires more compute, data-center capacity, and chip supply."
       },
       {
-        "canonicalTopic": "Token economics",
-        "memberIds": [
-          "T0087"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Model token pricing, resale margins, and vendor leverage as an operating constraint."
-      },
-      {
-        "canonicalTopic": "Active documents",
+        "canonicalTopic": "Breakability-aware remediation",
         "memberIds": [
           "T0093"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Documents that remain live work surfaces for both humans and agents."
-      },
-      {
-        "canonicalTopic": "Prompt injection",
-        "memberIds": [
-          "T0099"
-        ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Manipulating prompts or training data to redirect model behavior."
+        "synthesis": "Choose remediation based on how likely it is to break the application, not only on severity counts."
       },
       {
-        "canonicalTopic": "Trace graphs and renderers",
+        "canonicalTopic": "AI sandboxing",
         "memberIds": [
-          "T0105"
+          "T0099",
+          "T0165",
+          "T0171"
+        ],
+        "preferredExistingTopicSlug": "ai-sandboxes",
+        "synthesis": "These candidates all describe stronger containment for agents, from micro-VM isolation to fleet placement and snapshot-aware orchestration."
+      },
+      {
+        "canonicalTopic": "Agentic spectrum",
+        "memberIds": [
+          "T0117"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Trace and renderer machinery that preserves logical structure across tokenization and chat templates."
+        "synthesis": "This is a ladder of autonomy from plain LLMs to agents, harnesses, and claws."
       },
       {
-        "canonicalTopic": "Agentic query routing",
-        "memberIds": [
-          "T0111"
-        ],
-        "preferredExistingTopicSlug": "agentic-search",
-        "synthesis": "Route mixed structured and unstructured questions through outline, search, and theme shapes."
-      },
-      {
-        "canonicalTopic": "Taste",
+        "canonicalTopic": "Model optionality",
         "memberIds": [
           "T0123"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Qualitative judgment when no objective metric is yet available."
+        "synthesis": "Keep multiple models available so the product is not locked to a single provider."
       },
       {
-        "canonicalTopic": "Agentic environments",
+        "canonicalTopic": "Multi-agent orchestration",
         "memberIds": [
           "T0129"
         ],
-        "preferredExistingTopicSlug": "ai-sandboxes",
-        "synthesis": "Sandboxed task environments that combine instructions, execution space, and verification."
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Coordinate multiple agents and humans across a software delivery workflow."
       },
       {
-        "canonicalTopic": "Capability drift in review layers",
+        "canonicalTopic": "Software supply chain security",
         "memberIds": [
           "T0135"
         ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "As models improve, the location of proof and the role of human review move over time."
-      },
-      {
-        "canonicalTopic": "UI verification",
-        "memberIds": [
-          "T0141"
-        ],
-        "preferredExistingTopicSlug": "agent-ready-accessibility",
-        "synthesis": "Check UI changes against design rules and user flows after an agent acts."
-      },
-      {
-        "canonicalTopic": "LLM judging",
-        "memberIds": [
-          "T0147"
-        ],
-        "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "Use model judges alongside human raters and measure their agreement."
-      },
-      {
-        "canonicalTopic": "Meaningful participation in understanding",
-        "memberIds": [
-          "T0165"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "The bottleneck is preserving human understanding, not only validating outputs."
-      },
-      {
-        "canonicalTopic": "Synthetic personas for market research",
-        "memberIds": [
-          "T0171",
-          "T0177"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Use LLMs as probabilistic models of human response patterns, while accounting for baseline human noise."
-      },
-      {
-        "canonicalTopic": "Online and closed-loop evaluation systems",
-        "memberIds": [
-          "T0183",
-          "T0189",
-          "T0201",
-          "T0207"
-        ],
-        "preferredExistingTopicSlug": "agent-evaluations",
-        "synthesis": "Combine trigger tests, production checks, benchmark reliability concerns, and feedback-driven retraining."
-      },
-      {
-        "canonicalTopic": "Technical debt in agentic workflows",
-        "memberIds": [
-          "T0213"
-        ],
-        "preferredExistingTopicSlug": "software-factories",
-        "synthesis": "More generated code and automation can accumulate maintainability, reliability, and security debt."
-      },
-      {
-        "canonicalTopic": "Grief and gain from AI coding",
-        "memberIds": [
-          "T0219"
-        ],
-        "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "A human adjustment story about faster coding workflows and their emotional cost."
-      },
-      {
-        "canonicalTopic": "Open source model adaptation for defense",
-        "memberIds": [
-          "T0225"
-        ],
         "preferredExistingTopicSlug": "agent-security",
-        "synthesis": "Adapt open source models through collaboration and post-training for security use cases."
+        "synthesis": "Inspect dependencies, images, and package sources as part of agent security."
       },
       {
-        "canonicalTopic": "Human-AI collaboration",
+        "canonicalTopic": "Durable execution",
         "memberIds": [
-          "T0231"
-        ],
-        "preferredExistingTopicSlug": "coding-agents",
-        "synthesis": "Humans supply ideas while agents perform rapid execution and iteration."
-      },
-      {
-        "canonicalTopic": "Agent tiering",
-        "memberIds": [
-          "T0237"
+          "T0201"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Match model capability and harness strength to the importance of the task."
+        "synthesis": "Make resumable execution the stable core of the agent system."
       },
       {
-        "canonicalTopic": "File-based memory limits",
+        "canonicalTopic": "Provenance and lineage",
         "memberIds": [
-          "T0243"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "File-based memory becomes hard to reason about when lineage matters."
-      },
-      {
-        "canonicalTopic": "Ontology mapping",
-        "memberIds": [
-          "T0249"
+          "T0297",
+          "T0303",
+          "T0381"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "Map domain concepts onto systems of record through a semantic layer."
+        "synthesis": "These candidates all require traceability from derived claims back to source documents, entity histories, or internal records."
       },
       {
-        "canonicalTopic": "Ontology construction strategies",
+        "canonicalTopic": "Business ontology and semantic layers",
         "memberIds": [
-          "T0255"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Choose between expert-defined schemas and data-driven ontology extension."
-      },
-      {
-        "canonicalTopic": "Video cognition infrastructure",
-        "memberIds": [
-          "T0261"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Productize video understanding as reusable infrastructure through memory and harnesses."
-      },
-      {
-        "canonicalTopic": "Code-to-video benchmarking",
-        "memberIds": [
-          "T0267"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Measure and improve code-to-video systems with benchmarks."
-      },
-      {
-        "canonicalTopic": "AI moat",
-        "memberIds": [
-          "T0273"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Durable AI advantage comes from internal processes and tacit knowledge."
-      },
-      {
-        "canonicalTopic": "Local AI inflection point",
-        "memberIds": [
-          "T0279",
-          "T0285",
-          "T0291"
-        ],
-        "preferredExistingTopicSlug": "inference-engineering",
-        "synthesis": "Local AI became practical as models and harnesses improved together, enabling specialized distillation."
-      },
-      {
-        "canonicalTopic": "Assistant memory architecture",
-        "memberIds": [
-          "T0297"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "Preserve useful state across turns and tool iterations."
-      },
-      {
-        "canonicalTopic": "Capability eras",
-        "memberIds": [
-          "T0303"
-        ],
-        "preferredExistingTopicSlug": "",
-        "synthesis": "Model progress framed as distinct eras of capability."
-      },
-      {
-        "canonicalTopic": "Immutable agent logs",
-        "memberIds": [
-          "T0309"
-        ],
-        "preferredExistingTopicSlug": "agent-memory",
-        "synthesis": "Use a single immutable log as the source of truth for agent state and history."
-      },
-      {
-        "canonicalTopic": "Experiential world models",
-        "memberIds": [
+          "T0159",
+          "T0309",
           "T0315"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "An agent's identity and learning derive from its own experiential history."
+        "synthesis": "Represent organizational meaning with semantic layers, business ontologies, and formal inference rules."
       },
       {
-        "canonicalTopic": "Context engineering",
+        "canonicalTopic": "Self-improving systems",
         "memberIds": [
-          "T0195"
+          "T0231",
+          "T0285"
+        ],
+        "preferredExistingTopicSlug": "autoresearch",
+        "synthesis": "These talks focus on agents that run investigations, improve themselves, and submit better artifacts after quality gates."
+      },
+      {
+        "canonicalTopic": "Evaluation harnesses",
+        "memberIds": [
+          "T0183",
+          "T0195",
+          "T0213",
+          "T0237",
+          "T0249",
+          "T0261"
+        ],
+        "preferredExistingTopicSlug": "agent-evaluations",
+        "synthesis": "The shared theme is using explicit evaluators, harnesses, or routing checks to measure agent or multimodal behavior and catch reward hacking, reliability failures, and output slop."
+      },
+      {
+        "canonicalTopic": "Agent memory and context",
+        "memberIds": [
+          "T0255",
+          "T0321",
+          "T0357",
+          "T0369",
+          "T0387"
+        ],
+        "preferredExistingTopicSlug": "agent-memory",
+        "synthesis": "These candidates describe shared context, graph memory, context layers, and immutable logs as persistence mechanisms for agents and organizations."
+      },
+      {
+        "canonicalTopic": "Agentic web surfaces",
+        "memberIds": [
+          "T0327"
+        ],
+        "preferredExistingTopicSlug": "agentic-web",
+        "synthesis": "HTML and guardrails are framed as the substrate agents need for usable web interaction."
+      },
+      {
+        "canonicalTopic": "Local AI systems",
+        "memberIds": [
+          "T0345",
+          "T0351"
         ],
         "preferredExistingTopicSlug": "",
-        "synthesis": "The work of encoding business facts, skills, and norms so agents can use them correctly."
+        "synthesis": "These talks center on local-device optimization and the simplicity-versus-customizability tradeoff in local AI stacks."
+      },
+      {
+        "canonicalTopic": "Agent governance",
+        "memberIds": [
+          "T0339"
+        ],
+        "preferredExistingTopicSlug": "agent-security",
+        "synthesis": "The focus is on masking PII, classifying sensitive data, and enforcing entitlements in AI systems."
+      },
+      {
+        "canonicalTopic": "Financial agent reliability",
+        "memberIds": [
+          "T0375"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "General models can sound fluent while still giving unreliable financial advice."
+      },
+      {
+        "canonicalTopic": "Agent-centric development cycle",
+        "memberIds": [
+          "T0267",
+          "T0333"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates frame agent building as a cycle with verifiers, task separation, and interchangeable models or harnesses."
+      },
+      {
+        "canonicalTopic": "Autonomy and expansion effects",
+        "memberIds": [
+          "T0219",
+          "T0225",
+          "T0273"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These are narrower, single-talk ideas about comprehension checks, prompt sensitivity, and adapting tooling to a model's capabilities."
+      },
+      {
+        "canonicalTopic": "Engineering and research workflow automation",
+        "memberIds": [
+          "T0243"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "These candidates emphasize tool-assisted loops that let systems inspect, fix, and re-run their own work."
+      },
+      {
+        "canonicalTopic": "False positives",
+        "memberIds": [
+          "T0051"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Managing the tension between strict enforcement and developer workflow noise."
+      },
+      {
+        "canonicalTopic": "Verifiers V1",
+        "memberIds": [
+          "T0153"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The refactored Verifiers architecture built around task sets, harnesses, and runtimes."
+      },
+      {
+        "canonicalTopic": "Shared Context",
+        "memberIds": [
+          "T0189"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The role of looking at the same screen or interface as the human to reduce explanation and improve collaboration."
+      },
+      {
+        "canonicalTopic": "Personal thought website",
+        "memberIds": [
+          "T0207"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Using a generated site as a living representation of personal thoughts, tastes, and work."
+      },
+      {
+        "canonicalTopic": "Cyber economics",
+        "memberIds": [
+          "T0279"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "How frontier models are changing the attack and defense balance in cyber."
+      },
+      {
+        "canonicalTopic": "Commander's Intent",
+        "memberIds": [
+          "T0291"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "Prompting agents by explaining the desired outcome and context rather than micromanaging the steps."
+      },
+      {
+        "canonicalTopic": "Minimal orchestration UX",
+        "memberIds": [
+          "T0363"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "A single-pane interface that reduces the number of windows and context switches needed to ship changes."
+      },
+      {
+        "canonicalTopic": "Experiential world model",
+        "memberIds": [
+          "T0393"
+        ],
+        "preferredExistingTopicSlug": "",
+        "synthesis": "The idea that an agent’s identity and learning may derive from its own experiential history."
       }
     ]
   },
-  "payloadSha256": "sha256:41e5b94b926c7a2b60ebfcde51d044a83c8ca93776abb35fe270b1b524de70fb",
+  "payloadSha256": "sha256:7a3e69bfba2cfa2d5ccaffbeb1420515a0729162f76f1f4e9e69a33eb9d4f77c",
   "schemaVersion": 1
 }

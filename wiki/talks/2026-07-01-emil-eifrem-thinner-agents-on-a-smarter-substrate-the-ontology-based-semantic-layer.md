@@ -56,12 +56,12 @@ The talk argues that enterprise agents should not be built as thick, one-off sys
   - Evidence: "If something changes that cascades across all my agents, right? And we have self-arning. So my agent that wakes up tomorrow is slightly smarter than it was today."
 
 ### Topics Covered
-- [[semantic-infrastructure-and-ontology|Thin agents on a shared substrate]] — The architectural idea of building simpler agents that rely on a shared enterprise knowledge substrate.
-- [[semantic-infrastructure-and-ontology|Business ontology]] — A business-readable graph of concepts and relationships used to model how the organization talks about its domain.
-- **Technical ontology** — A graph of enterprise data systems, schemas, and assets used to represent the actual technical landscape.
-- [[semantic-infrastructure-and-ontology|Ontology mapping]] — The link between domain concepts and underlying systems of record.
-- [[coding-agents|Execution traces]] — Using observed agent runs to score outcomes and guide future decisions.
-- [[semantic-infrastructure-and-ontology|Process-guided agent]] — An agent that is intended to follow a predefined enterprise workflow.
+- [[context-engineering-and-knowledge-architecture|Thin agents on a shared substrate]] — The architectural idea of building simpler agents that rely on a shared enterprise knowledge substrate.
+- [[context-engineering-and-knowledge-architecture|Business ontology]] — A business-readable graph of concepts and relationships used to model how the organization talks about its domain.
+- [[context-engineering-and-knowledge-architecture|Technical ontology]] — A graph of enterprise data systems, schemas, and assets used to represent the actual technical landscape.
+- [[context-engineering-and-knowledge-architecture|Ontology mapping]] — The link between domain concepts and underlying systems of record.
+- [[agent-evaluations|Execution traces]] — Using observed agent runs to score outcomes and guide future decisions.
+- **Process-guided agent** — An agent that is intended to follow a predefined enterprise workflow.
 
 ### Tools And Named Systems
 - [[neo4j|Neo4j]] — Enterprise graph database platform used as the substrate for the ontology-based semantic layer.

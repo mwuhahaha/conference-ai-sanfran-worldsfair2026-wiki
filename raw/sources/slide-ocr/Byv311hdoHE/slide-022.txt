@@ -1,0 +1,8 @@
+World'sFair AIEngineer fde@atlas-prod-us-east-1a-03:/var/tmp/ scp release-agent-2026.06.29-1inux-amd64.tar.gz
+#Connect to the target host
+ssh fdeeatlas-prod-us-east-1a-03
+deployed engineering aetually was Whalforward cd/var/tmp release-agent-2026.06.29-1inux-amd64.tar.gz tar-xzf #Install the release cdrelease-agent-2026.06.29
+chmod+xinit.sh
+sudo./init.sh--env=prod
+systemctl status agentd #Verify the service
+World'sFair Forward Deployed Engineering TRACK8·JUNE30,2026

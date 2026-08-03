@@ -54,7 +54,7 @@ sourceAssessment:
   subjectId: tool:claude
   domain: tools page evidence coverage
   intendedUse: attributed_context
-  asOf: '2026-07-24T00:00:00.000000Z'
+  asOf: '2026-07-30T00:00:00.000000Z'
   state: limited
   basis: official_primary_canonical
   message: This page is limited to source-attributed facts; independent support for broader claims may be limited.
@@ -67,7 +67,7 @@ sourceAssessment:
   - source:official-wf26-youtube-YZQsWVeN3rE
   - source:official-wf26-youtube-Z2Erdirpudo
   - source:official-wf26-youtube-xUnRQ9vLXxo
-sourceAssessmentBodySha256: sha256:58cdb1c1ef850b2ff9ea6bc1725b91c456a9b671ee994837252b13419ee59d5c
+sourceAssessmentBodySha256: sha256:358d092f8c6bcdbfa12a04bb1e44ca444341e33b7cafe5ac574e644e1d00f5a4
 ---
 # Claude
 
@@ -77,7 +77,7 @@ Claude is represented across the World’s Fair 2026 corpus as both a model plat
 The linked media and resource layer supplies more detailed technical context without changing the status of the schedule evidence. Supporting videos cover the Claude Agent SDK, evolving Claude APIs for agents, Claude Code’s architecture and development model, prompt engineering, semantic code retrieval, protocol reverse engineering, and an embodied Minecraft experiment. Transcript-backed resources include Thariq Shihipar’s Agent SDK workshop, Katelyn Lesse’s discussion of agent-oriented API evolution, and Kuba Rogut’s Claude Code retrieval benchmark. Slide and topic connections extend the picture into production agents, context engines, multimodal interfaces, autoresearch, agent memory, MCP application runtimes, agentic search, and machine-reachable web surfaces. Together, these connections show Claude functioning across the agent stack—from prompts, APIs, and managed execution to repository search, memory, evaluation loops, and user-facing action surfaces—while public YouTube material whose event association is unverified remains labeled as supporting context rather than confirmed World’s Fair 2026 programming.
 
 ## Transcript Digest Evidence
-This section is generated from 10 evidence-bound talk digest(s).
+This section is generated from 12 evidence-bound talk digest(s).
 
 - [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]] — The agent interface used as an example of where ask-based prompting might appear.
   - Transcript: [[youtube-cgimkNGNjvU-transcript]]
@@ -91,6 +91,9 @@ This section is generated from 10 evidence-bound talk digest(s).
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]] — The assistant credited with assembling the slide deck.
   - Transcript: [[youtube-yWS0udrIOc8-transcript]]
   - Evidence: "All right. Hey everybody. Uh yeah, yep. Yep. Yep. Okay. I have about 18 minutes. Um I have a slide deck here that that Claude put together for me, but Claude still can't do very good slide decks, so I apologize for that."
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering|AI tools for Forward Deployed Engineering]] — The external model used as a comparison point for faster client analysis and workflow support.
+  - Transcript: [[youtube-l0FLhNqBOic-transcript]]
+  - Evidence: "How are you actually engaging with these clients?\" They're like, \"Well, we you know upload about 150 pages of documentation to Claude and then we prompt Claude and then we wait like 2 minutes and then we get analysis and then it's verbose and incorrect and it kind of sucks.\" And I was like, \"All right, we got to fix this.\" So we have been working on an FD agent which is the Codex for our FDEs basically."
 - [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]] — Used to generate a checklist of completeness items for the project.
   - Transcript: [[youtube-Z2Erdirpudo-transcript]]
   - Evidence: "And so, Claude made this really lovely list of all the things that I should be that I should hit including like an open graph picture and things like that."
@@ -109,6 +112,9 @@ This section is generated from 10 evidence-bound talk digest(s).
 - [[2026-07-01-theo-browne-closing-keynote-theo-browne|Closing Keynote — Theo Browne]] — Another tool named as something markdown can be piped into for execution.
   - Transcript: [[youtube-xUnRQ9vLXxo-transcript]]
   - Evidence: "And like, okay, seriously though, And like, okay, seriously though, And like, okay, seriously though, the fact that you can now execute the fact that you can now execute the fact that you can now execute markdown by just piping it to Codex or markdown by just piping it to Codex or markdown by just"
+- [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services|How Kepler Built Verifiable AI for Financial Services]] — The model family the speaker mentions as a comparison point for search-style outputs.
+  - Transcript: [[youtube-Tt2kX2sgQio-transcript]]
+  - Evidence: "And so, the whole industry has solved this by citing things. When you search the internet with Claude or ChatGPT, it gives you a list of sources that pulled information from."
 
 ## Confirmed Evidence
 

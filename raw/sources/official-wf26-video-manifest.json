@@ -11,7 +11,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 1,
+      "playlistIndex": 50,
       "playlistTitle": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -29,7 +29,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 2,
+      "playlistIndex": 51,
       "playlistTitle": "The YouTube Ads Model Whisperers on how Evals and Prompts Shape Agent Behavior",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -47,7 +47,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 3,
+      "playlistIndex": 52,
       "playlistTitle": "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
       "releaseDate": "2026-07-24",
       "slideStatus": "cached",
@@ -63,7 +63,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 4,
+      "playlistIndex": 53,
       "playlistTitle": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
       "releaseDate": "2026-07-24",
       "slideStatus": "cached",
@@ -81,7 +81,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 5,
+      "playlistIndex": 26,
       "playlistTitle": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -99,7 +99,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 6,
+      "playlistIndex": 54,
       "playlistTitle": "The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller",
       "releaseDate": "2026-07-23",
       "slideStatus": "cached",
@@ -117,7 +117,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 7,
+      "playlistIndex": 55,
       "playlistTitle": "Notion's Token Town — Sarah Sachs, Notion",
       "releaseDate": "2026-07-23",
       "slideStatus": "cached",
@@ -135,7 +135,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 8,
+      "playlistIndex": 56,
       "playlistTitle": "Perception Agents — Antje Barth, Amazon AGI Lab",
       "releaseDate": "2026-07-23",
       "slideStatus": "cached",
@@ -153,7 +153,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 9,
+      "playlistIndex": 57,
       "playlistTitle": "Claude for Long-Horizon Tasks — Lance Martin, Anthropic",
       "releaseDate": "2026-07-22",
       "slideStatus": "cached",
@@ -169,7 +169,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 10,
+      "playlistIndex": 58,
       "playlistTitle": "Full Workshop: Better Auth — Paola Estefania, Better Auth",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -187,7 +187,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 11,
+      "playlistIndex": 59,
       "playlistTitle": "Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
       "releaseDate": "2026-07-21",
       "slideStatus": "cached",
@@ -205,7 +205,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 12,
+      "playlistIndex": 60,
       "playlistTitle": "HTML Is All Agents Need — James Russo, HeyGen",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -221,7 +221,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 13,
+      "playlistIndex": 61,
       "playlistTitle": "\"The biggest challenge in your stack? Evals, Evals, Evals\" - 2026 State of AI Engineering results",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -239,7 +239,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 14,
+      "playlistIndex": 62,
       "playlistTitle": "Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -255,7 +255,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 15,
+      "playlistIndex": 63,
       "playlistTitle": "The Desktop Frontier — Ahmad Osman, Osmantic",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -273,7 +273,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 16,
+      "playlistIndex": 64,
       "playlistTitle": "Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -291,7 +291,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 17,
+      "playlistIndex": 65,
       "playlistTitle": "In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar",
       "releaseDate": "2026-07-20",
       "slideStatus": "cached",
@@ -309,7 +309,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 18,
+      "playlistIndex": 66,
       "playlistTitle": "Using LLMs to Secure Source Code — Eugene Yan, Anthropic",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -325,7 +325,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 19,
+      "playlistIndex": 67,
       "playlistTitle": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
       "releaseDate": "2026-07-17",
       "slideStatus": "cached",
@@ -343,7 +343,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 20,
+      "playlistIndex": 68,
       "playlistTitle": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
       "releaseDate": "2026-07-17",
       "slideStatus": "cached",
@@ -361,7 +361,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 21,
+      "playlistIndex": 69,
       "playlistTitle": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
       "releaseDate": "2026-07-17",
       "slideStatus": "cached",
@@ -377,7 +377,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 22,
+      "playlistIndex": 70,
       "playlistTitle": "\"Software engineering is not about writing code\" — Benoit Schillings, Google DeepMind VP of Research",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -393,7 +393,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 23,
+      "playlistIndex": 71,
       "playlistTitle": "Every company should have a Brain — Garry Tan, Y Combinator",
       "releaseDate": "2026-07-17",
       "slideStatus": "no_slides",
@@ -411,7 +411,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 24,
+      "playlistIndex": 72,
       "playlistTitle": "Imagination Engineering: \"Live in the future and then build what's missing.\"",
       "releaseDate": "2026-07-16",
       "slideStatus": "cached",
@@ -429,7 +429,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 25,
+      "playlistIndex": 73,
       "playlistTitle": "How Autoresearch is changing ML research — Zhengyao Jiang, Weco",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -447,7 +447,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 26,
+      "playlistIndex": 74,
       "playlistTitle": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
       "releaseDate": "2026-07-15",
       "slideStatus": "cached",
@@ -465,7 +465,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 27,
+      "playlistIndex": 75,
       "playlistTitle": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -481,7 +481,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 28,
+      "playlistIndex": 76,
       "playlistTitle": "Claude Fable, Claude Tag, and Anthropic's Culture — Cat Wu & Thariq Shihipar ft Simon Willison",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -499,7 +499,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 29,
+      "playlistIndex": 77,
       "playlistTitle": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
       "releaseDate": "2026-07-14",
       "slideStatus": "cached",
@@ -517,7 +517,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 30,
+      "playlistIndex": 78,
       "playlistTitle": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
       "releaseDate": "2026-07-14",
       "slideStatus": "cached",
@@ -535,7 +535,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 31,
+      "playlistIndex": 79,
       "playlistTitle": "Forward Deployed Engineering at Cursor — Pauline Brunet",
       "releaseDate": "2026-07-14",
       "slideStatus": "cached",
@@ -553,7 +553,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 32,
+      "playlistIndex": 80,
       "playlistTitle": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -571,7 +571,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 33,
+      "playlistIndex": 81,
       "playlistTitle": "\"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -590,7 +590,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 34,
+      "playlistIndex": 82,
       "playlistTitle": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
       "releaseDate": "2026-07-13",
       "slideStatus": "cached",
@@ -608,7 +608,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 35,
+      "playlistIndex": 83,
       "playlistTitle": "Modern Post-Training: A Deep Dive  — Will Brown, Prime Intellect",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -627,7 +627,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 36,
+      "playlistIndex": 84,
       "playlistTitle": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
       "releaseDate": "2026-07-11",
       "slideStatus": "cached",
@@ -645,7 +645,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 37,
+      "playlistIndex": 85,
       "playlistTitle": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -663,7 +663,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 38,
+      "playlistIndex": 43,
       "playlistTitle": "State of Data — Sean Cai, Independent / State of Data",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -681,7 +681,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 39,
+      "playlistIndex": 86,
       "playlistTitle": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -699,7 +699,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 40,
+      "playlistIndex": 87,
       "playlistTitle": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
       "releaseDate": "2026-07-10",
       "slideStatus": "cached",
@@ -717,7 +717,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 41,
+      "playlistIndex": 88,
       "playlistTitle": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -735,7 +735,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 42,
+      "playlistIndex": 89,
       "playlistTitle": "Everything we knew about software has changed — Theo Browne, @t3dotgg ​",
       "releaseDate": "",
       "slideStatus": "cached",
@@ -753,7 +753,7 @@
       "mediaType": "talk_recording",
       "playlistAvailability": "available",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 43,
+      "playlistIndex": 90,
       "playlistTitle": "Field Guide to Fable — Thariq Shihipar, Anthropic",
       "releaseDate": "2026-07-06",
       "slideStatus": "cached",
@@ -769,7 +769,7 @@
       "mediaType": "unavailable_playlist_item",
       "playlistAvailability": "unavailable",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 44,
+      "playlistIndex": 45,
       "slideStatus": "unavailable",
       "transcriptStatus": "unavailable",
       "unavailableReason": "unavailable",
@@ -782,7 +782,7 @@
       "mediaType": "unavailable_playlist_item",
       "playlistAvailability": "unavailable",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 45,
+      "playlistIndex": 92,
       "slideStatus": "unavailable",
       "transcriptStatus": "unavailable",
       "unavailableReason": "unavailable",
@@ -795,11 +795,532 @@
       "mediaType": "unavailable_playlist_item",
       "playlistAvailability": "unavailable",
       "playlistId": "PLDyBmFH9HlVc",
-      "playlistIndex": 46,
+      "playlistIndex": 93,
       "slideStatus": "unavailable",
       "transcriptStatus": "unavailable",
       "unavailableReason": "unavailable",
       "videoAvailability": "unknown"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "Ib5t2RLtxvM",
+      "playlistIndex": 48,
+      "matchedTalks": [
+        "2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-25",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "hacEQHHhu2Q",
+      "playlistIndex": 47,
+      "matchedTalks": [
+        "2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-25",
+      "slideStatus": "cached",
+      "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-25",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "KhYifX22yhE",
+      "playlistIndex": 44,
+      "matchedTalks": [
+        "2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-26",
+      "slideStatus": "cached",
+      "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-26",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "Yk87oUPVaxU",
+      "playlistIndex": 42,
+      "matchedTalks": [],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-26",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "CgsWxRUY5Eo",
+      "playlistIndex": 41,
+      "matchedTalks": [],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "7jjudsEhBtM",
+      "playlistIndex": 29,
+      "matchedTalks": [
+        "2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "BInpv7lGp1o",
+      "playlistIndex": 31,
+      "matchedTalks": [
+        "2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan, OpenAI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "KMR_RBoCa4M",
+      "playlistIndex": 28,
+      "matchedTalks": [
+        "2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "iKQ78wyJEXU",
+      "playlistIndex": 24,
+      "matchedTalks": [
+        "2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "kiqubc5b5Yo",
+      "playlistIndex": 30,
+      "matchedTalks": [
+        "2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Morgan Stanley's ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "s67bE2Ur3bY",
+      "playlistIndex": 23,
+      "matchedTalks": [
+        "2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "pWXUkLP9uWM",
+      "playlistIndex": 19,
+      "matchedTalks": [
+        "2026-06-30-richard-socher-first-steps-toward-automated-ai-research"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-30",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "tJFjeMBKbIY",
+      "playlistIndex": 21,
+      "matchedTalks": [
+        "2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-30",
+      "slideStatus": "cached",
+      "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-30",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "2bvtay8wGYI",
+      "playlistIndex": 10,
+      "matchedTalks": [
+        "2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "3ZMUiFaQ3qg",
+      "playlistIndex": 13,
+      "matchedTalks": [
+        "2026-06-30-kenny-workman-latchbio"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "AMiyLItEtLA",
+      "playlistIndex": 18,
+      "matchedTalks": [
+        "2026-06-29-vaibhav-gupta-fighting-slop-with-slop"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "AQv3qRCG6Gw",
+      "playlistIndex": 16,
+      "matchedTalks": [
+        "2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "AVMr9PMINyo",
+      "playlistIndex": 17,
+      "matchedTalks": [
+        "2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "_PdK6x7PQNM",
+      "playlistIndex": 7,
+      "matchedTalks": [
+        "2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "cJ0EOzey--o",
+      "playlistIndex": 6,
+      "matchedTalks": [
+        "2026-06-30-diogo-almeida-what-s-next-after-rlhf"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "ewtOo0scUh0",
+      "playlistIndex": 9,
+      "matchedTalks": [
+        "2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "jWq-aZIU0kM",
+      "playlistIndex": 15,
+      "matchedTalks": [
+        "2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "k35LeKZEhiE",
+      "playlistIndex": 8,
+      "matchedTalks": [
+        "2026-06-30-raymond-feng-learning-on-the-job-the-future-of-post-training"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-07-31",
+      "slideStatus": "cached",
+      "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "lCBf9slCanI",
+      "playlistIndex": 14,
+      "matchedTalks": [
+        "2026-06-29-thais-castello-branco-ending-ai-slop"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Ending AI Slop — Thais Castello Branco, Taste Labs",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "xbPriQWXtWM",
+      "playlistIndex": 12,
+      "matchedTalks": [
+        "2026-06-29-varun-singh-the-base-model-is-dead"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "The Base Model Is Dead — Varun Singh, Arcee AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "zkX03APVj0M",
+      "playlistIndex": 11,
+      "matchedTalks": [
+        "2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-31",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "2aS7aKoXn64",
+      "playlistIndex": 5,
+      "matchedTalks": [
+        "2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-08-01",
+      "slideStatus": "cached",
+      "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-08-01",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "ZFxh7sqbUZo",
+      "playlistIndex": 4,
+      "matchedTalks": [],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-08-01",
+      "slideStatus": "cached",
+      "title": "Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-08-01",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "-jY2T2PiJBE",
+      "playlistIndex": 1,
+      "matchedTalks": [
+        "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-08-02",
+      "slideStatus": "cached",
+      "title": "MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-08-02",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "-npY6XjM8CQ",
+      "playlistIndex": 3,
+      "matchedTalks": [
+        "2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-08-02",
+      "slideStatus": "cached",
+      "title": "When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-08-02",
+      "videoAvailability": "public"
+    },
+    {
+      "associationEvidence": "official_wf26_playlist_membership",
+      "id": "s4r6nk5WsZw",
+      "playlistIndex": 2,
+      "matchedTalks": [
+        "2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async"
+      ],
+      "mediaType": "talk_recording",
+      "playlistAvailability": "available",
+      "playlistId": "PLDyBmFH9HlVc",
+      "releaseDate": "2026-08-02",
+      "slideStatus": "cached",
+      "title": "MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-08-02",
+      "videoAvailability": "public"
     },
     {
       "associationEvidence": "explicit_wf26_official_livestream",
@@ -821,19 +1342,6 @@
     },
     {
       "associationEvidence": "official_channel_plus_schedule_text",
-      "id": "hacEQHHhu2Q",
-      "matchedTalks": [
-        "2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics"
-      ],
-      "mediaType": "scheduled_premiere",
-      "releaseDate": "2026-07-25",
-      "slideStatus": "pending",
-      "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
-      "transcriptStatus": "pending",
-      "uploadDate": "2026-07-18"
-    },
-    {
-      "associationEvidence": "official_channel_plus_schedule_text",
       "id": "1lgFGaHoGq8",
       "matchedTalks": [
         "2026-06-29-aaron-stanley-ai-s-jurassic-park-period"
@@ -842,6 +1350,17 @@
       "releaseDate": "",
       "slideStatus": "cached",
       "title": "AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-20"
+    },
+    {
+      "associationEvidence": "official_channel_explicit_wf26_description",
+      "id": "2xJoimgoqBg",
+      "matchedTalks": [],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Security Track Intro — Randall Degges, Snyk",
       "transcriptStatus": "cached",
       "uploadDate": "2026-07-20"
     },
@@ -1052,6 +1571,201 @@
       "title": "Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
       "transcriptStatus": "cached",
       "uploadDate": "2026-07-24"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "b_PmGocP4rc",
+      "matchedTalks": [
+        "2026-06-30-maor-bril-evaling-video-slop"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Evaling Video Slop — Maor Bril, Character.ai",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-25"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "xIt_mTQp6mY",
+      "matchedTalks": [
+        "2026-06-29-kyle-mistele-loop-engineering-from-first-principles"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-25"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "1OMHGsUZiqA",
+      "matchedTalks": [
+        "2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "7wu2hsRfvV0",
+      "matchedTalks": [
+        "2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "Byv311hdoHE",
+      "matchedTalks": [
+        "2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "ITMXwI6QL6A",
+      "matchedTalks": [
+        "2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-28",
+      "slideStatus": "cached",
+      "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "KwhgfwOSToQ",
+      "matchedTalks": [
+        "2026-06-29-kevin-bai-forward-deployed-engineering-101"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-28",
+      "slideStatus": "cached",
+      "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "RVxym6mmIns",
+      "matchedTalks": [
+        "2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-28",
+      "slideStatus": "cached",
+      "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "l0FLhNqBOic",
+      "matchedTalks": [
+        "2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-28",
+      "slideStatus": "cached",
+      "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "lyL5QhgIOxc",
+      "matchedTalks": [
+        "2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "slideStatus": "cached",
+      "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "wpOA-UXynoM",
+      "matchedTalks": [
+        "2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-28",
+      "slideStatus": "cached",
+      "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-28"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "Owb8g3yDyzo",
+      "matchedTalks": [
+        "2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "Tt2kX2sgQio",
+      "matchedTalks": [
+        "2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-29",
+      "slideStatus": "cached",
+      "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-29"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "o6U_2vd967Y",
+      "matchedTalks": [
+        "2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-30",
+      "slideStatus": "cached",
+      "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-30"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "z0sh8HyTrDo",
+      "matchedTalks": [
+        "2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-30",
+      "slideStatus": "cached",
+      "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+      "transcriptStatus": "cached",
+      "uploadDate": "2026-07-30"
     }
   ]
 }

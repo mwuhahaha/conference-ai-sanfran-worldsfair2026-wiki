@@ -1,0 +1,6 @@
+ARCHITECTURE
+
+REACTIVE PATH PROACTIVE PATH
+
+Profile » Analyze + Fix +PR PR created + Cataloglookup >
+Inline comment

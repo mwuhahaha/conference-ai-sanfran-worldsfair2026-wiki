@@ -1,0 +1,15 @@
+ri = Things got crazy in 2022
+World's Fair | § y
+‘eNTe@ A
+Sy
+
+GALACTICA G
+Chatgpr
+November 15 2022 November 30 2022
+
+Galactica LLM paper/demo released ChatGPT product released.
+
+SoTA base model, but failed demo SoTA RLHF pipeline makes LLMs
+7 due to base model hallucinations. useful for the first time.
+TRACK 9 * JUNE 30. 2026
+Data Quality

@@ -18,6 +18,7 @@ PLAYABLE_VIDEO_AVAILABILITIES = {"", "public", "unlisted"}
 PLAYABLE_PLAYLIST_AVAILABILITIES = {"", "available"}
 PLAYABLE_PRIMARY_ROLES = {
     "primary event cut video",
+    "primary event description-backed recording",
     "primary event livestream",
     "primary event playlist recording",
 }
@@ -93,6 +94,23 @@ def official_wf_playlist_ids() -> set[str]:
         if isinstance(item, dict)
         and item.get("id")
         and item.get("associationEvidence") == "official_wf26_playlist_membership"
+    }
+
+
+def official_wf_description_backed_unmatched_ids() -> set[str]:
+    """Return official recordings associated with WF26 by description only."""
+
+    manifest = read_json(OFFICIAL_VIDEO_MANIFEST, {})
+    return {
+        str(item.get("id"))
+        for item in manifest.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("mediaType") == "talk_recording"
+        and manifest_row_is_playable(item)
+        and item.get("associationEvidence")
+        == "official_channel_explicit_wf26_description"
+        and item.get("matchedTalks") == []
     }
 
 
@@ -243,10 +261,12 @@ def classification(
     official_playlist: set[str] | None = None,
     official_unavailable: set[str] | None = None,
     official_no_slides: set[str] | None = None,
+    official_description_backed_unmatched: set[str] | None = None,
 ) -> tuple[str, list[str]]:
     playlist_ids = official_playlist or set()
     unavailable_ids = official_unavailable or set()
     no_slides_ids = official_no_slides or set()
+    description_backed_unmatched_ids = official_description_backed_unmatched or set()
     if video_id in unavailable_ids:
         return (
             "official event unavailable playlist item",
@@ -291,6 +311,15 @@ def classification(
                     "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
                     "- Channel/source: official AI Engineer YouTube recording admitted by official WF26 playlist membership.",
                     use_line,
+                ],
+            )
+        if video_id in description_backed_unmatched_ids:
+            return (
+                "primary event description-backed recording",
+                [
+                    "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
+                    "- Channel/source: official AI Engineer YouTube recording associated with WF26 by explicit official-channel description metadata; no exact schedule-page match is assigned.",
+                    "- Use: primary evidence for published recording, transcript, and slide content; do not infer schedule titles, times, tracks, rooms, speakers, or affiliations from this association.",
                 ],
             )
         return (
@@ -384,6 +413,12 @@ def rewrite_what_it_is(text: str, role: str) -> str:
             "An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. "
             "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.\n"
         )
+    elif role == "primary event description-backed recording":
+        replacement = (
+            "## What It Is\n"
+            "An official AI Engineer YouTube recording explicitly identified by its official-channel description as AI Engineer World's Fair San Francisco 2026 event media. "
+            "Event association comes from that description; no exact schedule-page match is assigned, and schedule fields must not be inferred from the video.\n"
+        )
     elif role == "primary event playlist recording":
         replacement = (
             "## What It Is\n"
@@ -417,6 +452,9 @@ def main() -> int:
     official_playlist = official_wf_playlist_ids()
     official_unavailable = official_wf_unavailable_ids()
     official_no_slides = official_wf_no_slides_ids()
+    official_description_backed_unmatched = (
+        official_wf_description_backed_unmatched_ids()
+    )
     external = external_video_ids()
     manifest_ids = official_streams | {
         str(item.get("id"))
@@ -440,6 +478,7 @@ def main() -> int:
             official_playlist,
             official_unavailable,
             official_no_slides,
+            official_description_backed_unmatched,
         )
         counts[role] = counts.get(role, 0) + 1
         text = reconcile_media_source_layers(text, role)

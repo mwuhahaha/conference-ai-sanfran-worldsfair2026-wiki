@@ -48,6 +48,18 @@
     "slide_count": 24
   },
   {
+    "id": "youtube--jY2T2PiJBE-slides",
+    "title": "Slides: MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef",
+    "path": "wiki/slides/youtube--jY2T2PiJBE-slides.md",
+    "slide_count": 32
+  },
+  {
+    "id": "youtube--npY6XjM8CQ-slides",
+    "title": "Slides: When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI",
+    "path": "wiki/slides/youtube--npY6XjM8CQ-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube--x5GEVnkuRw-slides",
     "title": "Slides: Structuring the Unstructured - Cedric Clyburn, Red Hat",
     "path": "wiki/slides/youtube--x5GEVnkuRw-slides.md",
@@ -96,6 +108,12 @@
     "slide_count": 5
   },
   {
+    "id": "youtube-1OMHGsUZiqA-slides",
+    "title": "Slides: How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+    "path": "wiki/slides/youtube-1OMHGsUZiqA-slides.md",
+    "slide_count": 9
+  },
+  {
     "id": "youtube-1P1hJ36rxM0-slides",
     "title": "Slides: Research to Reality with Google DeepMind — Benoit Schillings, Google DeepMind",
     "path": "wiki/slides/youtube-1P1hJ36rxM0-slides.md",
@@ -138,6 +156,18 @@
     "slide_count": 31
   },
   {
+    "id": "youtube-2aS7aKoXn64-slides",
+    "title": "Slides: Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
+    "path": "wiki/slides/youtube-2aS7aKoXn64-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-2bvtay8wGYI-slides",
+    "title": "Slides: Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
+    "path": "wiki/slides/youtube-2bvtay8wGYI-slides.md",
+    "slide_count": 8
+  },
+  {
     "id": "youtube-2e9ANoOEn28-slides",
     "title": "Slides: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
     "path": "wiki/slides/youtube-2e9ANoOEn28-slides.md",
@@ -156,10 +186,22 @@
     "slide_count": 4
   },
   {
+    "id": "youtube-2xJoimgoqBg-slides",
+    "title": "Slides: Security Track Intro — Randall Degges, Snyk",
+    "path": "wiki/slides/youtube-2xJoimgoqBg-slides.md",
+    "slide_count": 13
+  },
+  {
     "id": "youtube-31GUkCBD-Uc-slides",
     "title": "Slides: Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
     "path": "wiki/slides/youtube-31GUkCBD-Uc-slides.md",
     "slide_count": 16
+  },
+  {
+    "id": "youtube-3ZMUiFaQ3qg-slides",
+    "title": "Slides: Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
+    "path": "wiki/slides/youtube-3ZMUiFaQ3qg-slides.md",
+    "slide_count": 7
   },
   {
     "id": "youtube-3_gYbhABcAE-dense-slides",
@@ -342,6 +384,18 @@
     "slide_count": 18
   },
   {
+    "id": "youtube-7jjudsEhBtM-slides",
+    "title": "Slides: Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
+    "path": "wiki/slides/youtube-7jjudsEhBtM-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-7wu2hsRfvV0-slides",
+    "title": "Slides: How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+    "path": "wiki/slides/youtube-7wu2hsRfvV0-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-84Vtz2IL1Ug-dense-slides",
     "title": "Dense Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
     "path": "wiki/slides/youtube-84Vtz2IL1Ug-dense-slides.md",
@@ -438,6 +492,12 @@
     "slide_count": 13
   },
   {
+    "id": "youtube-AMiyLItEtLA-slides",
+    "title": "Slides: fighting slop with slop — Vaibhav Gupta, Boundary",
+    "path": "wiki/slides/youtube-AMiyLItEtLA-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-APh1Vx0oLmQ-dense-slides",
     "title": "Dense Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
     "path": "wiki/slides/youtube-APh1Vx0oLmQ-dense-slides.md",
@@ -460,6 +520,18 @@
     "title": "Slides: Forward Deployed Engineering at Cursor — Pauline Brunet",
     "path": "wiki/slides/youtube-APqXGyCoGW4-slides.md",
     "slide_count": 7
+  },
+  {
+    "id": "youtube-AQv3qRCG6Gw-slides",
+    "title": "Slides: Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
+    "path": "wiki/slides/youtube-AQv3qRCG6Gw-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-AVMr9PMINyo-slides",
+    "title": "Slides: Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song",
+    "path": "wiki/slides/youtube-AVMr9PMINyo-slides.md",
+    "slide_count": 10
   },
   {
     "id": "youtube-AheG9p_JXVw-slides",
@@ -490,6 +562,12 @@
     "title": "Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
     "path": "wiki/slides/youtube-B9h9ovW5H9U-slides.md",
     "slide_count": 16
+  },
+  {
+    "id": "youtube-BInpv7lGp1o-slides",
+    "title": "Slides: Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan, OpenAI",
+    "path": "wiki/slides/youtube-BInpv7lGp1o-slides.md",
+    "slide_count": 11
   },
   {
     "id": "youtube-BM2JX9hqsVQ-dense-slides",
@@ -576,6 +654,12 @@
     "slide_count": 19
   },
   {
+    "id": "youtube-Byv311hdoHE-slides",
+    "title": "Slides: The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+    "path": "wiki/slides/youtube-Byv311hdoHE-slides.md",
+    "slide_count": 31
+  },
+  {
     "id": "youtube-CDqzWpwkSls-slides",
     "title": "Slides: Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
     "path": "wiki/slides/youtube-CDqzWpwkSls-slides.md",
@@ -604,6 +688,12 @@
     "title": "Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
     "path": "wiki/slides/youtube-C_GG5g38vLU-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-CgsWxRUY5Eo-slides",
+    "title": "Slides: AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix",
+    "path": "wiki/slides/youtube-CgsWxRUY5Eo-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-Cz4v1WHVyZc-slides",
@@ -858,10 +948,22 @@
     "slide_count": 14
   },
   {
+    "id": "youtube-ITMXwI6QL6A-slides",
+    "title": "Slides: How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+    "path": "wiki/slides/youtube-ITMXwI6QL6A-slides.md",
+    "slide_count": 6
+  },
+  {
     "id": "youtube-Ib5GBkD555M-slides",
     "title": "Slides: Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
     "path": "wiki/slides/youtube-Ib5GBkD555M-slides.md",
     "slide_count": 32
+  },
+  {
+    "id": "youtube-Ib5t2RLtxvM-slides",
+    "title": "Slides: From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
+    "path": "wiki/slides/youtube-Ib5t2RLtxvM-slides.md",
+    "slide_count": 9
   },
   {
     "id": "youtube-IddXPepIAS4-slides",
@@ -988,6 +1090,24 @@
     "title": "Slides: Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
     "path": "wiki/slides/youtube-KLSuFPj2ld0-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-KMR_RBoCa4M-slides",
+    "title": "Slides: SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
+    "path": "wiki/slides/youtube-KMR_RBoCa4M-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-KhYifX22yhE-slides",
+    "title": "Slides: The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
+    "path": "wiki/slides/youtube-KhYifX22yhE-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-KwhgfwOSToQ-slides",
+    "title": "Slides: Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+    "path": "wiki/slides/youtube-KwhgfwOSToQ-slides.md",
+    "slide_count": 9
   },
   {
     "id": "youtube-Lc8zRh9muoY-dense-slides",
@@ -1170,6 +1290,12 @@
     "slide_count": 15
   },
   {
+    "id": "youtube-Owb8g3yDyzo-slides",
+    "title": "Slides: Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+    "path": "wiki/slides/youtube-Owb8g3yDyzo-slides.md",
+    "slide_count": 12
+  },
+  {
     "id": "youtube-P_RI1kCkRbo-dense-slides",
     "title": "Dense Slides: Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
     "path": "wiki/slides/youtube-P_RI1kCkRbo-dense-slides.md",
@@ -1264,6 +1390,12 @@
     "title": "Slides: The 2026 State of AI Engineering — Barr Yaron, Amplify Partners",
     "path": "wiki/slides/youtube-RGe6EjucbzI-slides.md",
     "slide_count": 15
+  },
+  {
+    "id": "youtube-RVxym6mmIns-slides",
+    "title": "Slides: How Forward Deployed Engineering is done at Cognition — Jia Wu",
+    "path": "wiki/slides/youtube-RVxym6mmIns-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-Rx8f05JI_WA-slides",
@@ -1408,6 +1540,12 @@
     "title": "Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic",
     "path": "wiki/slides/youtube-TqC1qOfiVcQ-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-Tt2kX2sgQio-slides",
+    "title": "Slides: How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+    "path": "wiki/slides/youtube-Tt2kX2sgQio-slides.md",
+    "slide_count": 9
   },
   {
     "id": "youtube-UM6sFg_jdlE-slides",
@@ -1560,6 +1698,12 @@
     "slide_count": 4
   },
   {
+    "id": "youtube-Yk87oUPVaxU-slides",
+    "title": "Slides: DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve",
+    "path": "wiki/slides/youtube-Yk87oUPVaxU-slides.md",
+    "slide_count": 6
+  },
+  {
     "id": "youtube-YnNF55QV0zs-slides",
     "title": "Slides: Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
     "path": "wiki/slides/youtube-YnNF55QV0zs-slides.md",
@@ -1594,6 +1738,12 @@
     "title": "Slides: Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
     "path": "wiki/slides/youtube-ZD9-4fW2HhM-slides.md",
     "slide_count": 23
+  },
+  {
+    "id": "youtube-ZFxh7sqbUZo-slides",
+    "title": "Slides: Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd",
+    "path": "wiki/slides/youtube-ZFxh7sqbUZo-slides.md",
+    "slide_count": 14
   },
   {
     "id": "youtube-ZRM_TfEZcIo-dense-slides",
@@ -1654,6 +1804,12 @@
     "title": "Slides: Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
     "path": "wiki/slides/youtube-_B4Pv9ttFgY-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-_PdK6x7PQNM-slides",
+    "title": "Slides: Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
+    "path": "wiki/slides/youtube-_PdK6x7PQNM-slides.md",
+    "slide_count": 7
   },
   {
     "id": "youtube-_xIwFcnHqp4-slides",
@@ -1728,6 +1884,12 @@
     "slide_count": 21
   },
   {
+    "id": "youtube-b_PmGocP4rc-slides",
+    "title": "Slides: Evaling Video Slop — Maor Bril, Character.ai",
+    "path": "wiki/slides/youtube-b_PmGocP4rc-slides.md",
+    "slide_count": 16
+  },
+  {
     "id": "youtube-bk0TmxoZlUY-dense-slides",
     "title": "Dense Slides: Evals 101 — Doug Guthrie, Braintrust",
     "path": "wiki/slides/youtube-bk0TmxoZlUY-dense-slides.md",
@@ -1798,6 +1960,12 @@
     "title": "Slides: The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
     "path": "wiki/slides/youtube-c35YoMdnI78-slides.md",
     "slide_count": 32
+  },
+  {
+    "id": "youtube-cJ0EOzey--o-slides",
+    "title": "Slides: What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
+    "path": "wiki/slides/youtube-cJ0EOzey--o-slides.md",
+    "slide_count": 12
   },
   {
     "id": "youtube-cVzf49yg0D8-dense-slides",
@@ -1902,6 +2070,12 @@
     "slide_count": 23
   },
   {
+    "id": "youtube-ewtOo0scUh0-slides",
+    "title": "Slides: Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
+    "path": "wiki/slides/youtube-ewtOo0scUh0-slides.md",
+    "slide_count": 3
+  },
+  {
     "id": "youtube-fL1iJHtl51Q-dense-slides",
     "title": "Dense Slides: Building Cursor Composer – Lee Robinson, Cursor",
     "path": "wiki/slides/youtube-fL1iJHtl51Q-dense-slides.md",
@@ -1986,6 +2160,12 @@
     "slide_count": 22
   },
   {
+    "id": "youtube-hacEQHHhu2Q-slides",
+    "title": "Slides: Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
+    "path": "wiki/slides/youtube-hacEQHHhu2Q-slides.md",
+    "slide_count": 17
+  },
+  {
     "id": "youtube-himhGiWJXjo-reconstructed-slides",
     "title": "Reconstructed Slides: Realtime Data Connectivity for AI: Tanmai Gopal",
     "path": "wiki/slides/youtube-himhGiWJXjo-reconstructed-slides.md",
@@ -2026,6 +2206,12 @@
     "title": "Slides: An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco",
     "path": "wiki/slides/youtube-iCj_ATyThvc-slides.md",
     "slide_count": 3
+  },
+  {
+    "id": "youtube-iKQ78wyJEXU-slides",
+    "title": "Slides: We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
+    "path": "wiki/slides/youtube-iKQ78wyJEXU-slides.md",
+    "slide_count": 4
   },
   {
     "id": "youtube-iNkFlCiij0U-slides",
@@ -2142,6 +2328,12 @@
     "slide_count": 19
   },
   {
+    "id": "youtube-jWq-aZIU0kM-slides",
+    "title": "Slides: Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
+    "path": "wiki/slides/youtube-jWq-aZIU0kM-slides.md",
+    "slide_count": 12
+  },
+  {
     "id": "youtube-jryZvCuA0Uc-dense-slides",
     "title": "Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
     "path": "wiki/slides/youtube-jryZvCuA0Uc-dense-slides.md",
@@ -2164,6 +2356,12 @@
     "title": "Slides: Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
     "path": "wiki/slides/youtube-jt1Pbr_n6oU-slides.md",
     "slide_count": 5
+  },
+  {
+    "id": "youtube-k35LeKZEhiE-slides",
+    "title": "Slides: Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
+    "path": "wiki/slides/youtube-k35LeKZEhiE-slides.md",
+    "slide_count": 4
   },
   {
     "id": "youtube-k8cnVCMYmNc-dense-slides",
@@ -2214,6 +2412,12 @@
     "slide_count": 31
   },
   {
+    "id": "youtube-kiqubc5b5Yo-slides",
+    "title": "Slides: Morgan Stanley's ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo",
+    "path": "wiki/slides/youtube-kiqubc5b5Yo-slides.md",
+    "slide_count": 14
+  },
+  {
     "id": "youtube-knDDGYHnnSI-dense-slides",
     "title": "Dense Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
     "path": "wiki/slides/youtube-knDDGYHnnSI-dense-slides.md",
@@ -2230,6 +2434,18 @@
     "title": "Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
     "path": "wiki/slides/youtube-knDDGYHnnSI-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-l0FLhNqBOic-slides",
+    "title": "Slides: AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+    "path": "wiki/slides/youtube-l0FLhNqBOic-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-lCBf9slCanI-slides",
+    "title": "Slides: Ending AI Slop — Thais Castello Branco, Taste Labs",
+    "path": "wiki/slides/youtube-lCBf9slCanI-slides.md",
+    "slide_count": 13
   },
   {
     "id": "youtube-lY1iFbDPRlw-dense-slides",
@@ -2254,6 +2470,12 @@
     "title": "Slides: OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
     "path": "wiki/slides/youtube-liG97YXaTSA-slides.md",
     "slide_count": 4
+  },
+  {
+    "id": "youtube-lyL5QhgIOxc-slides",
+    "title": "Slides: Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+    "path": "wiki/slides/youtube-lyL5QhgIOxc-slides.md",
+    "slide_count": 5
   },
   {
     "id": "youtube-mFLlVpnGpds-slides",
@@ -2310,6 +2532,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-o6U_2vd967Y-slides",
+    "title": "Slides: Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+    "path": "wiki/slides/youtube-o6U_2vd967Y-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-pMggiOb18tc-slides",
     "title": "Slides: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
     "path": "wiki/slides/youtube-pMggiOb18tc-slides.md",
@@ -2320,6 +2548,12 @@
     "title": "Slides: The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
     "path": "wiki/slides/youtube-pSto5YaNGUo-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-pWXUkLP9uWM-slides",
+    "title": "Slides: First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
+    "path": "wiki/slides/youtube-pWXUkLP9uWM-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-pmoDeA3RBZY-slides",
@@ -2430,6 +2664,18 @@
     "slide_count": 13
   },
   {
+    "id": "youtube-s4r6nk5WsZw-slides",
+    "title": "Slides: MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
+    "path": "wiki/slides/youtube-s4r6nk5WsZw-slides.md",
+    "slide_count": 32
+  },
+  {
+    "id": "youtube-s67bE2Ur3bY-slides",
+    "title": "Slides: Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
+    "path": "wiki/slides/youtube-s67bE2Ur3bY-slides.md",
+    "slide_count": 3
+  },
+  {
     "id": "youtube-sAOBXCDiDOs-slides",
     "title": "Slides: MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
     "path": "wiki/slides/youtube-sAOBXCDiDOs-slides.md",
@@ -2488,6 +2734,12 @@
     "title": "Slides: The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
     "path": "wiki/slides/youtube-spNAUEgq_A8-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-tJFjeMBKbIY-slides",
+    "title": "Slides: Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
+    "path": "wiki/slides/youtube-tJFjeMBKbIY-slides.md",
+    "slide_count": 10
   },
   {
     "id": "youtube-tzRvcTEapzo-dense-slides",
@@ -2610,6 +2862,12 @@
     "slide_count": 11
   },
   {
+    "id": "youtube-wpOA-UXynoM-slides",
+    "title": "Slides: How Forward Deployed Engineering is done at Factory — Eno Reyes",
+    "path": "wiki/slides/youtube-wpOA-UXynoM-slides.md",
+    "slide_count": 6
+  },
+  {
     "id": "youtube-wsFd22SL1s8-dense-slides",
     "title": "Dense Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
     "path": "wiki/slides/youtube-wsFd22SL1s8-dense-slides.md",
@@ -2628,9 +2886,21 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-xIt_mTQp6mY-slides",
+    "title": "Slides: Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
+    "path": "wiki/slides/youtube-xIt_mTQp6mY-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube-xUnRQ9vLXxo-slides",
     "title": "Slides: What do we build now? — @t3dotgg",
     "path": "wiki/slides/youtube-xUnRQ9vLXxo-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-xbPriQWXtWM-slides",
+    "title": "Slides: The Base Model Is Dead — Varun Singh, Arcee AI",
+    "path": "wiki/slides/youtube-xbPriQWXtWM-slides.md",
     "slide_count": 4
   },
   {
@@ -2700,6 +2970,12 @@
     "slide_count": 8
   },
   {
+    "id": "youtube-z0sh8HyTrDo-slides",
+    "title": "Slides: Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+    "path": "wiki/slides/youtube-z0sh8HyTrDo-slides.md",
+    "slide_count": 6
+  },
+  {
     "id": "youtube-zDGHt0LB-dA-slides",
     "title": "Slides: GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
     "path": "wiki/slides/youtube-zDGHt0LB-dA-slides.md",
@@ -2746,5 +3022,11 @@
     "title": "Slides: Agents for Everything Else — swyx",
     "path": "wiki/slides/youtube-zepu8Kk6FBQ-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-zkX03APVj0M-slides",
+    "title": "Slides: Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
+    "path": "wiki/slides/youtube-zkX03APVj0M-slides.md",
+    "slide_count": 12
   }
 ]

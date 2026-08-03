@@ -1,0 +1,8 @@
+THE SOLUTION
+Oli e e
+== A git repo of markdown files.
+Fleet-wide memory. LLM-injectable. Human-reviewable.
+Starts from known patterns. Grows as production findings are
+confirmed.
+"
+¢ ;

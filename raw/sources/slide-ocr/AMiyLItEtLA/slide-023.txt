@@ -1,0 +1,24 @@
+Pr eer
+e G
+Agent Tries BAML aD
+ES ed
+\ pr 7 y .
+orld cS) els Success Pete baler feel tee nat iF "2:
+i.
+N,N BAML, ‘funchon ciscrete_Wg(base. Int,
+wt, P. int} > int ; find the smallest non-negative. eprere i? $0.58 2a 18% s
+. Py HTN, = BAML, tuncbon mar fiow(o Im, edges cy
+r | Microsoft 9, source Int, sink: int] > int | compute the. 4 ERE 2 $1.26 Sn 8s 2 in
+a
+7 A )
+lemon, in BAML, funcbon rma_quenes(n: int, arr: if
+ig. Quenes: strong) + string : buid a sparse table f.. Rese 28 $1.d¢ Jn Jos 3 be
+stl GOwnsoad af the ties written, or provide an apr
+leude to Gownoad for me $o 1 Can repro a fun aed - -
+: 4 custom messages for promobet based on request
+D BS Thange response trom ‘enpoy your shut’ to “engoy Naot en - -
+alg ,
+: YY
+t¢ a BAML application that reads CSV/Excel ftes ¥ BAML
+(
+Engi ing the fut f Al

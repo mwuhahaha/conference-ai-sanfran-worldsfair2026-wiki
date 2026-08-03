@@ -1,0 +1,12 @@
+ead Okay. then, when you want to do MCP tasks...
+You need to
+e Make Sure your servers are durable
+e Make Sure your clients hold on to handles
+e Be able to hold on to lots of handles
+e Execute lots of steps in the MCP client {it’s a
+workflow)...
+e ... that needs to be efficient
+aa
+J
+Romeo TRACK 8 © JULY 1, 2026
+Context Engineering

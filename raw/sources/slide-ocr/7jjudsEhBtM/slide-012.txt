@@ -1,0 +1,7 @@
+World'sFair AIEngineer Discovery
+Python registry=[ frontmatter（open（f，encoding="utf-8").read（))1{path²:f} forfin sorted(glob("skills/→/SKILL.nd"))
+skills="\n".join（ f”-(s['name']}:（s[description']} （path:{s['path']}） for sin registry
+system_prompt=f**"You are a financial research analyst.
+Skills available. {skills}
+Feed one skill's output to the next skill's input.**. Read the skill that matches the task using the file_read tool. Ifa task needs multiple skills,chain them.
+World'sFair TRACK3·JULY2,2026 AlinFinance
