@@ -1061,23 +1061,25 @@ Receipts:
   synthesis, static export, promotion, deployment, commit, push, cleanup,
   schedule attachment, or monitor recurrence occurred.
 
-### 2026-08-03 GitHub Checkpoint Publication
+### 2026-08-03 GitHub Checkpoint Publication And Merge
 
 - At `2026-08-03T17:18:58Z`, the operator explicitly approved publishing the
   accumulated official-media refresh to GitHub as a checkpoint.
-- Publication is isolated on `agent/wf26-official-media-refresh` as a draft PR
-  to `main`; it is not merge-ready because the one authorized authoritative
-  maker retry, validation, canonical promotion, and higher-model review remain
-  pending.
-- Content checkpoint `fae30867` was pushed and opened as draft PR
+- Content checkpoint `fae30867` and continuity commit `67ada4eb` were pushed on
+  `agent/wf26-official-media-refresh` and opened as draft PR
   `https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki/pull/1`.
-  A following continuity-only commit records this readback on the same branch.
+- The operator subsequently gave an explicit merge instruction despite the
+  documented maker gate. PR 1 was marked ready and merged into `main` at
+  `2026-08-03T20:42:11Z` through merge commit
+  `2efeb41e221b3a08733dce4b79092192c9df81a6`. The local checkout was restored
+  cleanly to that exact `main` commit; the feature branch was retained.
 - Focused pre-publication validation passed 60 tests. The only failure is the
   expected checked-in talk/video map mismatch: the read-only generator reports
   `changed: true`, with zero slide-page and topic-page changes, because this
   checkpoint does not run or substitute for the maker promotion.
-- No deployment, merge, cache cleanup, monitor recurrence, or additional maker
-  invocation is authorized by this checkpoint publication.
+- The merge does not satisfy the still-pending authoritative maker retry,
+  validation, canonical promotion, or higher-model review. No deployment,
+  cache cleanup, monitor recurrence, or additional maker invocation occurred.
 
 ### Deferred Cleanup Gate
 
